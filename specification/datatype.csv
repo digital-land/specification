@@ -1,6 +1,6 @@
-datatype,text
-curie,"A [CURIE](http://en.wikipedia.org/wiki/CURIE) defines a generic abbreviated syntax for expressing Uniform Resource Identifiers (URIs). e.g. [company:012345], [public-body:cabinet-office]. Relative values link to the register identified in the entry for the field in the field register."
-url,"A [URL](http://en.wikipedia.org/wiki/Uniform_resource_locator) reference to another resource on the Web."
-datetime,"A combination of a date and a time in the format `CCYY-MM-DDThh:mm:ss[Z]` as described in chapter 5.4 of [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601). The value can be truncated to just the most significant digits, for example ""2014-05"". Time values, where present, should be in UTC."
-string,"A string of [Unicode 6.2.x](http://www.unicode.org/versions/Unicode6.2.0/) characters encoded as [UTF-8](http://en.wikipedia.org/wiki/UTF-8)."
-text,A string of text which may contain [Markdown](http://en.wikipedia.org/wiki/Markdown) formatting instructions."
+datatype,phase,text
+curie,beta,"A [CURIE](http://en.wikipedia.org/wiki/CURIE) defines a generic abbreviated syntax for expressing Uniform Resource Identifiers (URIs). e.g. [company:012345], [public-body:cabinet-office]. Relative values link to the register identified in the entry for the field in the field register."
+url,beta,"A [URL](http://en.wikipedia.org/wiki/Uniform_resource_locator) reference to another resource on the Web."
+datetime,beta,"A combination of a date and a time in the format `CCYY-MM-DDThh:mm:ss[Z]` as described in chapter 5.4 of [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601). The value can be truncated to just the most significant digits, for example ""2014-05"". Time values, where present, should be in UTC."
+string,beta,"A string of [Unicode 6.2.x](http://www.unicode.org/versions/Unicode6.2.0/) characters encoded as [UTF-8](http://en.wikipedia.org/wiki/UTF-8)."
+text,beta,A string of text which may contain [Markdown](http://en.wikipedia.org/wiki/Markdown) formatting instructions."
