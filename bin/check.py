@@ -8,44 +8,103 @@ import csv
 dialect = csv.excel
 dialect.strict = True
 
+keys = {
+    "schema-field": ["schema", "field"],
+    "dataset-schema": ["dataset", "schema"],
+}
+
+fields = {}
+mandatory_fields = [
+    "entry-date",
+    "start-date",
+    "end-date",
+]
+
+tables = {
+    "field": {},
+    "datatype": {},
+    "schema": {},
+    "dataset": {},
+    "schema-field": {},
+    "dataset-schema": {},
+}
+
 errors = 0
-schema = {}
 
 
-def check(name, field, value, lineno):
+def error(s):
     global errors
-    if value not in schema[field]:
-        print("[ERROR] %s: line %d unknown %s '%s'" % (name, lineno, field, value), file=sys.stderr)
-        errors += 1
+    print("[ERROR]: " + s, file=sys.stderr)
+    errors += 1
 
 
-def load(name, fields=[], key=None, lineno=1):
-    if not key:
-        key = name
-    schema.setdefault(name, {})
-    for row in csv.DictReader(open("specification/%s.csv" % (name), newline=""), dialect=dialect):
-        schema[name][row[key]] = row
-
-        if lineno == 1:
-            for field in row:
-                check(name, "field", field, lineno)
-
-        lineno += 1
-
-        for field in fields:
-            check(name, field, row[field], lineno)
+def load(table):
+    reader = csv.DictReader(
+        open("specification/%s.csv" % (table), newline=""), dialect=dialect
+    )
+    fields[table] = reader.fieldnames
+    for row in reader:
+        if table not in keys:
+            key = table
+            tables[table][row[key]] = row
+        else:
+            pkey, skey = keys[table]
+            tables[table].setdefault(row[pkey], {})
+            tables[table][row[pkey]][row[skey]] = row
 
 
-load("field", lineno=2)
-load("datatype")
-load("field", ["datatype"])
-load("schema", ["field"])
-load("dataset")
+def check_reference(table, field, value):
+    if field != table and field in tables:
+        if value not in tables[field]:
+            error("%s: unknown '%s' value '%s'" % (table, field, value))
 
-# key could come from schema.csv field ..
 
-load("schema-field", ["schema", "field"], key="schema")
-load("dataset-schema", ["dataset", "schema"], key="dataset")
+def check(table):
+    if table not in tables["schema"]:
+        return error("no schema for table %s" % (table))
 
-if errors > 0:
-    sys.exit(1)
+    if table not in tables["schema-field"]:
+        return error("no schema-field values for table %s" % (table))
+
+    for field in fields[table]:
+        if field not in tables["field"]:
+            return error("%s: column '%s' not defined as a field" % (table, field))
+
+    for field in tables["schema-field"][table]:
+        if field not in fields[table] and field not in mandatory_fields:
+            error("%s: missing '%s' column" % (table, field))
+
+    if table not in keys:
+        for key, row in tables[table].items():
+            for field, value in row.items():
+                check_reference(table, field, value)
+    else:
+        for pkey, skey in tables[table].items():
+            for key, row in tables[table][pkey].items():
+                for field, value in row.items():
+                    check_reference(table, field, value)
+
+
+if __name__ == "__main__":
+    for table in tables:
+        load(table)
+
+    for table in tables:
+        check(table)
+
+    for schema in tables["schema"]:
+        if schema not in tables["schema-field"]:
+            error("no fields for schema '%s'" % (schema))
+        else:
+            for field in mandatory_fields:
+                if field not in tables["schema-field"][schema]:
+                    error("schema '%s' missing '%s' field" % (schema, field))
+
+    for key, row in tables["field"].items():
+        for field in ["parent-field", "replacement-field"]:
+            value = row.get(field)
+            if value and value not in tables["field"]:
+                error("unknown '%s' value '%s'" % (field, value))
+
+    if errors > 0:
+        sys.exit(1)
