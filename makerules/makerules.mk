@@ -19,7 +19,7 @@ LANG := C.UTF-8
 # for consistent collation on different machines
 LC_COLLATE := C.UTF-8
 
-all: first-pass second-pass
+all:: first-pass second-pass
 
 first-pass::
 	@:
