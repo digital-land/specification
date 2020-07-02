@@ -15,7 +15,7 @@ schema = {}
 def check(name, field, value, lineno):
     global errors
     if value not in schema[field]:
-        print("%s: line %d unknown %s '%s'" % (name, lineno, field, value), file=sys.stderr)
+        print("[ERROR] %s: line %d unknown %s '%s'" % (name, lineno, field, value), file=sys.stderr)
         errors += 1
 
 
