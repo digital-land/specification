@@ -53,7 +53,6 @@ document-url,Document URL,url,1,,
 end-date,,datetime,1,,
 entry-date,,datetime,1,,
 european-qualification-framework-level,,string,1,,
-field,name,datatype,cardinality,parent-field,replacement-field
 fields,,string,n,field,
 field,,string,1,,
 further-education-college-region-uk,,string,1,,
