@@ -81,6 +81,12 @@ datatype,start-date
 datatype,end-date
 datatype,datatype
 datatype,text
+endpoint,entry-date
+endpoint,start-date
+endpoint,end-date
+endpoint,endpoint
+endpoint,endpoint-url
+endpoint,script
 field,entry-date
 field,start-date
 field,end-date

@@ -1,0 +1,103 @@
+{% extends "dlf-base.html" %}
+
+{% block pageTitle %}Specifications | Digital Land{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h1 class="govuk-heading-xl">Specifications</h1>
+
+    <p class="govuk-body">Contents</p>
+    <ul class="govuk-list govuk-list--bullet">
+      <li><a href="#dataset">Dataset</a></li>
+      <li><a href="#schema">Schema</a></li>
+      <li><a href="#field">Field</a></li>
+      <li><a href="#datatype">Datatype</a></li>
+      <li><a href="#download">Download the data</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third"></div>
+  <div class="govuk-grid-column-two-thirds">
+    <h2 class="govuk-heading-l" id="dataset">Dataset</h2>
+    {% for dataset in tables["dataset"]|sort -%}
+    <h3 class="govuk-heading-m" id="dataset_{{dataset}}">{{tables["dataset"][dataset]["name"]}}</h3>
+    {% endfor %}
+
+    <h2 class="govuk-heading-l" id="schema">Schema</h2>
+    {% for schema in tables["schema"]|sort -%}
+    <h3 class="govuk-heading-m" id="schema_{{schema}}">{{schema}}</h3>
+    {% endfor %}
+  </div>
+</div>
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" id="field">Field</h2>
+    <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header govuk-table__header--numeric">Cardinality</th>
+          <th scope="col" class="govuk-table__header">Parent Field</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+    {% for field, f in tables["field"].items() | sort %}
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_{{field}}">{{field}}</td>
+          <td class="govuk-table__cell">{{ f["datatype"] }}</td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">{{ f["cardinality"] }}</td>
+          <td class="govuk-table__cell"><a href="#field_{{f["parent-field"]}}">{{ f["parent-field"] }}</a></td>
+        </tr>
+    {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third"></div>
+  <div class="govuk-grid-column-two-thirds">
+    <h2 class="govuk-heading-l" id="datatype">Datatype</h2>
+    {% for datatype, d in tables["datatype"].items()| sort %}
+    <h4 class="govuk-heading-s govuk-!-margin-bottom-1" id="datatype_{{datatype}}">{{datatype}}</h4>
+    {{ d["text"]| markdown }}
+    {% endfor %}
+  </div>
+</div>
+
+
+<hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third"></div>
+  <div class="govuk-grid-column-two-thirds">
+    <h2 class="govuk-heading-l" id="download">Download the data</h2>
+    <p class="govuk-body">You can download the data on this page as:</p>
+    <ul class="govuk-list">
+      <li><a href="https://github.com/digital-land/specification/tree/master/specification">CSV</a></li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block bodyEnd %}
+{{ super() }}
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-127566551-1', 'auto');
+ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+{% endblock %}
