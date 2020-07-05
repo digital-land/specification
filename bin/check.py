@@ -25,6 +25,7 @@ tables = {
     "datatype": {},
     "schema": {},
     "dataset": {},
+    "typology": {},
     "schema-field": {},
     "dataset-schema": {},
 }
@@ -57,6 +58,20 @@ def check_reference(table, field, value):
     if field != table and field in tables:
         if value not in tables[field]:
             error("%s: unknown '%s' value '%s'" % (table, field, value))
+
+
+def field_typology(f):
+    if  f["parent-field"] == "" or f["field"] == f["parent-field"]:
+        return f["parent-field"]
+
+    return field_typology(tables["field"][f["parent-field"]])
+
+
+def check_typologies():
+    for field, f in tables["field"].items():
+        typology = field_typology(f)
+        if typology and typology not in tables["typology"]:
+            error("field '%s' has an unknown typology '%s'" % (field, typology))
 
 
 def check(table):
@@ -105,6 +120,8 @@ if __name__ == "__main__":
             value = row.get(field)
             if value and value not in tables["field"]:
                 error("unknown '%s' value '%s'" % (field, value))
+
+    check_typologies()
 
     if errors > 0:
         sys.exit(1)
