@@ -70,7 +70,7 @@ def field_typology(f):
 def check_typologies():
     for field, f in tables["field"].items():
         typology = field_typology(f)
-        if typology and typology not in tables["typology"]:
+        if typology not in tables["typology"]:
             error("field '%s' has an unknown typology '%s'" % (field, typology))
 
 

@@ -9,3 +9,6 @@ latitude,"A latitude value which should be 6 or fewer decimal places, using the 
 decimal,"A decimal value compatible with XML Schema xs:decimal type."
 integer,"An integer value compatible with XML Schema xs:integer type."
 flag,"A value which is either `yes`, `no`, or blank."
+hash,"A hash value serialised as a hexadecimal string. The default hash function is [SHA2-256](https://en.wikipedia.org/wiki/SHA-2). An alternative hash function may be supplied using a CURIE prefix, or the experimental [multihash](https://multiformats.io/multihash/) code."
+pattern,"A regular expression pattern compatible with the [IEEE POSIX](https://en.wikipedia.org/wiki/POSIX) Basic Regular Syntax (BRE)."
+json,"A blob of data encoded as a canonicalised JSON string compatible with [RFC 8259](https://tools.ietf.org/html/rfc8259)."
