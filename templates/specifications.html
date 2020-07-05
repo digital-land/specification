@@ -1,0 +1,37 @@
+{% extends "dl-specification-base.html" %}
+
+{% set caption = '' %}
+{% set title = 'Specification' %}
+
+{% block dl_breadcrumbs %}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block dl_content %}
+<div class="govuk-grid-row">
+ <div class="govuk-grid-column-full">
+    <ul class="govuk-list govuk-list--bullet">
+      <li><a href="typology">Typology</a></li>
+      <li><a href="dataset">Dataset</a></li>
+      <li><a href="schema">Schema</a></li>
+      <li><a href="field">Field</a></li>
+      <li><a href="datatype">Datatype</a></li>
+      <li><a href="#download">Download the data</a></li>
+    </ul>
+  </div>
+</div>
+{% endblock %}
+
+{% block dl_downloads %}
+<li><a href="https://github.com/digital-land/specification/tree/master/specification">CSV</a></li>
+{% endblock %}

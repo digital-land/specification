@@ -1,0 +1,23 @@
+{% extends "dlf-base.html" %}
+
+{% set code_url = 'https://github.com/digital-land/specification/' %}
+{% set data_url = 'https://github.com/digital-land/specification/tree/master/specification' %}
+{% set licence_url = 'https://github.com/digital-land/specification/blob/master/LICENSE' %}
+
+{% block dl_breadcrumbs %}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification",
+        "href": "https://digital-land.github.io/specification/"
+      },
+      {
+        "text": title
+      }
+    ]
+  }) }}
+{% endblock %}

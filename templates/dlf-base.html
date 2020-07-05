@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% from "govuk-jinja-components/phase-banner/macro.jinja" import govukPhaseBanner %}
+{% from "govuk-jinja-components/breadcrumbs/macro.jinja" import govukBreadcrumbs %}
+
+{% block head %}
+<link href="https://digital-land-design.herokuapp.com/static/stylesheets/dl-frontend.css" rel="stylesheet" />
+{% endblock %}
+
+{% block header %}
+{% include 'dl-partials/dl-header.html' %}
+{% endblock %}
+
+{% block pageTitle %}{{ title }} | Digital Land{% endblock %}
+
+{% block beforeContent %}
+	{{ govukPhaseBanner({
+		"classes": "govuk-width-container",
+		"tag": {
+			"text": "prototype"
+		},
+		"html": 'This is a prototype. Please provide feedback to the Digital Land team.'
+	}) }}
+  {% block dl_breadcrumbs %}{% endblock %}
+{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+ <div class="govuk-grid-column-full">
+  {% if caption != '' %}<span class="govuk-caption-xl">{{ caption }}</span>{% endif %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
+  </div>
+</div>
+{% block dl_content %}{% endblock %}
+<hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third"></div>
+  <div class="govuk-grid-column-two-thirds">
+    <h2 class="govuk-heading-l" id="download">Download the data</h2>
+    <p class="govuk-body">You can download the data on this page as:</p>
+    <ul class="govuk-list">
+      {% block dl_downloads %}{% endblock %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+	{% block pageFeedback %}{% endblock %}
+	{{ govukFooter({
+		"meta": {
+			"html": 'The <a href="' + code_url + '">software</a> and <a href="' + data_url + '">data</a> used to build these pages is <a href="' + licence_url + '">open source</a>.'
+		}
+	}) }}
+{% endblock %}
+
+{% block bodyEnd %}
+<script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+<script>
+	// initiate all GOVUK components
+	window.GOVUKFrontend.initAll();
+</script>
+<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
+<script>
+	// adds any necessary polyfills
+	window.DLFrontend.polyfill();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-127566551-1', 'auto');
+ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+{% endblock %}

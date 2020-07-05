@@ -1,0 +1,42 @@
+{% extends "dl-specification-base.html" %}
+
+{% set caption = 'Specification' %}
+{% set title = 'Fields' %}
+
+{% block dl_content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header govuk-table__header--numeric">Cardinality</th>
+          <th scope="col" class="govuk-table__header">Parent Field</th>
+          <th scope="col" class="govuk-table__header">Typology</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+    {% for field, f in tables["field"].items() | sort %}
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_{{field}}">{{field}}</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">{{ f["cardinality"] }}</td>
+          <td class="govuk-table__cell"><a href="#field_{{f["parent-field"]}}">{{ f["parent-field"] }}</a></td>
+          <td class="govuk-table__cell"><a href="#field_{{f["typology"]}}">{{ f["typology"] }}</a></td>
+        </tr>
+    {% endfor %}
+      </tbody>
+    </table>
+    <h2 class="govuk-heading-m">Notes</h2>
+    <h3 class="govuk-heading-s">Typologies</h3>
+    <p class="govuk-body">A field whose <code>parent-field</code> is the same as the <code>field</code> value, is a typology.</p>
+    <p class="govuk-body">Where the <code>parent-field</code> has a <code>curie</code> datatype, the prefix is the <code>field</code>.</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block dl_downloads %}
+<li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/field.csv">CSV</a></li>
+{% endblock %}

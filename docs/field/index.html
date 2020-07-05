@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fields | Digital Land</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c" /> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
+      <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+    
+
+    
+<link href="https://digital-land-design.herokuapp.com/static/stylesheets/dl-frontend.css" rel="stylesheet" />
+
+    
+    
+    <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="#content" class="govuk-skip-link"></a>
+    
+
+    
+<header role="banner" id="global-header" class="govuk-header  with-proposition dl-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="header-proposition">
+      <div class="govuk-header__content">
+        <a href="https://digital-land.github.io/" class="govuk-header__link govuk-header__link--service-name">
+        Digital Land
+        </a>
+        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+
+        <nav>
+          <ul id="navigation" class="govuk-header__navigation" aria-label="Top Level Navigation">
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/about">Team</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/project/">Projects</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/weeknote/">Weeknotes</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/blog-post/">Blog</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/guidance/">Guidance</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/dataset/">Datasets</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/organisation/">Organisations</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/map/">Map</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container">
+        
+	<div class="govuk-phase-banner govuk-width-container">
+  <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
+  prototype
+</strong><span class="govuk-phase-banner__text">
+      This is a prototype. Please provide feedback to the Digital Land team.
+    </span>
+  </p>
+</div>
+  
+  <div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="https://digital-land.github.io/">Digital Land</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="https://digital-land.github.io/specification/">Specification</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Fields</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+<div class="govuk-grid-row">
+ <div class="govuk-grid-column-full">
+  <span class="govuk-caption-xl">Specification</span>
+  <h1 class="govuk-heading-xl">Fields</h1>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header govuk-table__header--numeric">Cardinality</th>
+          <th scope="col" class="govuk-table__header">Parent Field</th>
+          <th scope="col" class="govuk-table__header">Typology</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_address">address</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_address-text">address-text</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_text">text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_addressbase-custodian">addressbase-custodian</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_amount">amount</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_decimal">decimal</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_number">number</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_attribution">attribution</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_text">text</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_text">text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_cardinality">cardinality</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_category">category</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_curie">curie</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_citizen-name">citizen-name</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_name">name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_citizen-names">citizen-names</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_citizen-name">citizen-name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_clinical-commissioning-group">clinical-commissioning-group</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_contact">contact</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_name">name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_contribution-funding-status">contribution-funding-status</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_contribution-purpose">contribution-purpose</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_copyright">copyright</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_text">text</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_attribution">attribution</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_country">country</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_dataset">dataset</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_datatype">datatype</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_datetime">datetime</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_datetime">datetime</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_deliverable">deliverable</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_flag">flag</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_description">description</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_text">text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_developer-agreement">developer-agreement</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_developer-agreement-contribution">developer-agreement-contribution</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_developer-agreement-transaction">developer-agreement-transaction</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_developer-agreement-type">developer-agreement-type</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-metric">development-metric</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-plan">development-plan</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-plan-status">development-plan-status</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-plan-timetable">development-plan-timetable</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-plan-type">development-plan-type</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-policies">development-policies</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">n</td>
+          <td class="govuk-table__cell"><a href="#field_development-policy">development-policy</a></td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-policy">development-policy</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-policy-categories">development-policy-categories</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">n</td>
+          <td class="govuk-table__cell"><a href="#field_development-policy-category">development-policy-category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_development-policy-category">development-policy-category</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_document-url">document-url</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_url">url</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_documentation-url">documentation-url</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_url">url</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_elapsed">elapsed</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_decimal">decimal</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_number">number</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date">end-date</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_datetime">datetime</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_endpoint">endpoint</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_hash">hash</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_hash">hash</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_endpoint-url">endpoint-url</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_url">url</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date">entry-date</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_datetime">datetime</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_field">field</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_fields">fields</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">n</td>
+          <td class="govuk-table__cell"><a href="#field_field">field</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_further-education-college-region-uk">further-education-college-region-uk</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_further-education-college-uk">further-education-college-uk</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_geography">geography</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_curie">curie</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_geometry">geometry</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geometry">geometry</a></td>
+          <td class="govuk-table__cell"><a href="#field_geometry">geometry</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_government-domain">government-domain</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_hostname">hostname</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_government-organisation">government-organisation</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_government-service">government-service</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_hash">hash</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_hash">hash</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_string">string</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_hazardous-substances">hazardous-substances</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_flag">flag</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_hectares">hectares</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_decimal">decimal</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_number">number</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_hostname">hostname</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_name">name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_identifier">identifier</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_internal-drainage-board">internal-drainage-board</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_item">item</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_json">json</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_json">json</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_jobcentre">jobcentre</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_jobcentre-district">jobcentre-district</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_jobcentre-group">jobcentre-group</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_json">json</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_json">json</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_key-field">key-field</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_field">field</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_latitude">latitude</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_latitude">latitude</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geometry">geometry</a></td>
+          <td class="govuk-table__cell"><a href="#field_geometry">geometry</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_legal-instrument">legal-instrument</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_legislation">legislation</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_licence">licence</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_text">text</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_text">text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-authority-eng">local-authority-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-authority-nir">local-authority-nir</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-authority-sct">local-authority-sct</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-authority-type">local-authority-type</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_longitude">longitude</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_longitude">longitude</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geometry">geometry</a></td>
+          <td class="govuk-table__cell"><a href="#field_geometry">geometry</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_maximum-net-dwellings">maximum-net-dwellings</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_integer">integer</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_number">number</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_minimum-net-dwellings">minimum-net-dwellings</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_integer">integer</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_number">number</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name">name</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_text">text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name-cy">name-cy</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_name">name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_notes">notes</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_text">text</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_text">text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_number">number</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_decimal">decimal</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_official-name">official-name</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_name">name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_official-name-cy">official-name-cy</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_name">name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation">organisation</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_curie">curie</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisations">organisations</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">n</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_ownership-status">ownership-status</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_parent-field">parent-field</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_field">field</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_pattern">pattern</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_pattern">pattern</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_string">string</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_phase">phase</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_pipeline">pipeline</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_planning-application">planning-application</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+          <td class="govuk-table__cell"><a href="#field_legal-instrument">legal-instrument</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_planning-permission-date">planning-permission-date</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_datetime">datetime</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_planning-permission-history">planning-permission-history</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_url">url</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">n</td>
+          <td class="govuk-table__cell"><a href="#field_document-url">document-url</a></td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_planning-permission-status">planning-permission-status</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_planning-permission-type">planning-permission-type</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_principal-local-authority">principal-local-authority</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_prison-estate">prison-estate</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_provenance">provenance</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_hash">hash</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_hash">hash</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_purpose">purpose</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_text">text</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_text">text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_region">region</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_curie">curie</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_register">register</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_registration-district">registration-district</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_registry">registry</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_replacement-field">replacement-field</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_field">field</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_request-headers">request-headers</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_json">json</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_json">json</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_resource">resource</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_hash">hash</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_hash">hash</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_response-headers">response-headers</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_json">json</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_json">json</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_schema">schema</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_school-type-eng">school-type-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_script">script</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_short-name">short-name</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_name">name</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_site">site</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_site-address">site-address</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_address-text">address-text</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_site-plan-url">site-plan-url</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_url">url</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_document-url">document-url</a></td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_source">source</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_specification">specification</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date">start-date</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_datetime">datetime</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography">statistical-geography</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-county-eng">statistical-geography-county-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-local-government-district-nir">statistical-geography-local-government-district-nir</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-london-borough-eng">statistical-geography-london-borough-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-metropolitan-district-eng">statistical-geography-metropolitan-district-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-non-metropolitan-district-eng">statistical-geography-non-metropolitan-district-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-registration-district-eng">statistical-geography-registration-district-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-registration-district-wls">statistical-geography-registration-district-wls</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-unitary-authority-eng">statistical-geography-unitary-authority-eng</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_statistical-geography-unitary-authority-wls">statistical-geography-unitary-authority-wls</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_statistical-geography">statistical-geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_status">status</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_strategic">strategic</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_flag">flag</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+          <td class="govuk-table__cell"><a href="#field_category">category</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_string">string</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_territory">territory</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_text">text</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_text">text</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_string">string</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_timestamp">timestamp</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_datetime">datetime</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+          <td class="govuk-table__cell"><a href="#field_datetime">datetime</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_typology">typology</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+          <td class="govuk-table__cell"><a href="#field_specification">specification</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_uk">uk</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_units">units</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_integer">integer</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_number">number</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_url">url</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_url">url</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_value">value</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_website">website</td>
+          <td class="govuk-table__cell"><a href="datatype#datatype_url">url</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+          <td class="govuk-table__cell"><a href="#field_url">url</a></td>
+        </tr>
+    
+      </tbody>
+    </table>
+    <h2 class="govuk-heading-m">Notes</h2>
+    <h3 class="govuk-heading-s">Typologies</h3>
+    <p class="govuk-body">A field whose <code>parent-field</code> is the same as the <code>field</code> value, is a typology.</p>
+    <p class="govuk-body">Where the <code>parent-field</code> has a <code>curie</code> datatype, the prefix is the <code>field</code>.</p>
+  </div>
+</div>
+
+<hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third"></div>
+  <div class="govuk-grid-column-two-thirds">
+    <h2 class="govuk-heading-l" id="download">Download the data</h2>
+    <p class="govuk-body">You can download the data on this page as:</p>
+    <ul class="govuk-list">
+      
+<li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/field.csv">CSV</a></li>
+
+    </ul>
+  </div>
+</div>
+
+        </main>
+      </div>
+    
+
+    
+	
+	<footer class="govuk-footer " role="contentinfo"
+        >
+  <div class="govuk-width-container ">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <div class="govuk-footer__meta-custom">
+              The <a href="https://github.com/digital-land/specification/">software</a> and <a href="https://github.com/digital-land/specification/tree/master/specification">data</a> used to build these pages is <a href="https://github.com/digital-land/specification/blob/master/LICENSE">open source</a>.
+            </div>
+          
+        
+        <svg
+          role="presentation"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewbox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+<script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+<script>
+	// initiate all GOVUK components
+	window.GOVUKFrontend.initAll();
+</script>
+<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
+<script>
+	// adds any necessary polyfills
+	window.DLFrontend.polyfill();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-127566551-1', 'auto');
+ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

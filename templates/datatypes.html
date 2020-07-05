@@ -1,0 +1,19 @@
+{% extends "dl-specification-base.html" %}
+
+{% set caption = 'Specification' %}
+{% set title = 'Datatypes' %}
+
+{% block dl_content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    {% for datatype, d in tables["datatype"].items()| sort %}
+    <h4 class="govuk-heading-s govuk-!-margin-bottom-1" id="datatype_{{datatype}}">{{datatype}}</h4>
+    {{ d["text"]| markdown }}
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
+
+{% block dl_downloads %}
+  <li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/datatype.csv">CSV</a></li>
+{% endblock %}
