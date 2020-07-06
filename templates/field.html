@@ -54,6 +54,12 @@
           <th scope="row" class="govuk-table__header">Typology</th>
           <td class="govuk-table__cell"><a href="../../typology/{{ item["typology"] }}">{{ item["typology"] }}</a></td>
         </tr>
+        {% if tables["schema"][name] %}
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Schema</th>
+          <td class="govuk-table__cell"><a href="../../schema/{{ name }}">{{ name }}</a></td>
+        </tr>
+        {% endif %}
       </tbody>
     </table>
 
