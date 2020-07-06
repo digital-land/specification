@@ -1,4 +1,16 @@
 schema,field
+address,entry-date
+address,start-date
+address,end-date
+address,address
+address,address-text
+address,latitude
+address,longitude
+street,entry-date
+street,start-date
+street,end-date
+street,street
+street,name
 addressbase-custodian,entry-date
 addressbase-custodian,start-date
 addressbase-custodian,end-date
