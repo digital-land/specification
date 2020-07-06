@@ -1,0 +1,55 @@
+{% extends "dl-specification-base.html" %}
+
+{% set caption = 'Typology' %}
+{% set title = item["name"] %}
+
+{% block dl_breadcrumbs %}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification",
+        "href": "../../"
+      },
+      {
+        "text": "Typology",
+        "href": "../"
+      },
+      {
+        "text": title
+      },
+    ]
+  }) }}
+{% endblock %}
+
+
+{% block dl_content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    {% if name in tables["typology-schema"] %}
+    <h2 class="govuk-heading-s" id="{{typology}}_schemas">Schemas</h2>
+    <p class="govuk-body">The following schemas belong to this typology:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for schema in tables["typology-schema"][name] | sort %}
+      <li><a href="../../schema/{{schema}}">{{schema}}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2 class="govuk-heading-s" id="{{typology}}_fields">Fields</h2>
+    <p class="govuk-body">The following fields belong to this typology:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for field in tables["typology-field"][name] | sort %}
+      <li><a href="../../field/{{field}}">{{field}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
+
+{% block dl_downloads %}
+  <li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/typology.csv">CSV</a></li>
+{% endblock %}

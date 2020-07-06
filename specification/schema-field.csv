@@ -92,6 +92,7 @@ dataset,start-date
 dataset,end-date
 dataset,dataset
 dataset,name
+dataset,text
 dataset-schema,entry-date
 dataset-schema,start-date
 dataset-schema,end-date
@@ -149,6 +150,7 @@ typology,entry-date
 typology,start-date
 typology,end-date
 typology,typology
+typology,name
 typology,text
 ownership-status,entry-date
 ownership-status,start-date

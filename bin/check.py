@@ -121,6 +121,11 @@ if __name__ == "__main__":
             if value and value not in tables["field"]:
                 error("unknown '%s' value '%s'" % (field, value))
 
+    for table in fields:
+        for field in fields[table]:
+            if field not in tables["schema-field"][table]:
+                error("unexpected field '%s' in table '%s'" % (field, table))
+
     check_typologies()
 
     if errors > 0:

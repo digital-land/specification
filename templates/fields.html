@@ -20,11 +20,11 @@
       <tbody class="govuk-table__body">
     {% for field, f in tables["field"].items() | sort %}
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_{{field}}">{{field}}</td>
-          <td class="govuk-table__cell"><a href="datatype#datatype_{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
+          <td class="govuk-table__cell" id="field_{{field}}"><a href="{{field}}">{{field}}</a></td>
+          <td class="govuk-table__cell"><a href="../datatype/{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
           <td class="govuk-table__cell govuk-table__cell--numeric">{{ f["cardinality"] }}</td>
           <td class="govuk-table__cell"><a href="#field_{{f["parent-field"]}}">{{ f["parent-field"] }}</a></td>
-          <td class="govuk-table__cell"><a href="#field_{{f["typology"]}}">{{ f["typology"] }}</a></td>
+          <td class="govuk-table__cell"><a href="../typology/{{ f["typology"] }}">{{ f["typology"] }}</a></td>
         </tr>
     {% endfor %}
       </tbody>

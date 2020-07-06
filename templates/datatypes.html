@@ -6,10 +6,11 @@
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    <ul class="govuk-list govuk-list--bullet">
     {% for datatype, d in tables["datatype"].items()| sort %}
-    <h4 class="govuk-heading-s govuk-!-margin-bottom-1" id="datatype_{{datatype}}">{{datatype}}</h4>
-    {{ d["text"]| markdown }}
+      <li><a href="{{datatype}}">{{datatype}}</a></li>
     {% endfor %}
+    </ul>
   </div>
 </div>
 {% endblock %}

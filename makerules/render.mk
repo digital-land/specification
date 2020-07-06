@@ -1,6 +1,7 @@
 .PHONY: \
 	check\
-	render
+	render\
+	server
 
 TEMPLATE_FILES=$(wildcard templates/*)
 SPECIFICATION_FILES=$(wildcard specification/*.csv)
@@ -15,6 +16,9 @@ render:	bin/render.py $(TEMPLATE_FILES) $(SPECIFICATION_FILES)
 	@-mkdir ./docs/
 	python3 bin/render.py
 	@touch ./docs/.nojekyll
+
+server:
+	cd docs && python3 -m http.server
 
 clobber clean::
 	rm -rf docs .cache

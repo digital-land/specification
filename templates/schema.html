@@ -1,7 +1,30 @@
 {% extends "dl-specification-base.html" %}
 
 {% set caption = 'Schema' %}
-{% set title = schema %}
+{% set title = name %}
+{% set key = tables["field"][name] %}
+
+{% block dl_breadcrumbs %}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification",
+        "href": "../../"
+      },
+      {
+        "text": "Schema",
+        "href": "../"
+      },
+      {
+        "text": title
+      },
+    ]
+  }) }}
+{% endblock %}
 
 {% block dl_content %}
 <div class="govuk-grid-row">
@@ -12,29 +35,39 @@
         <tr class="govuk-table__row">
           <th scope="col" class="govuk-table__header">Field</th>
           <th scope="col" class="govuk-table__header">Datatype</th>
-          <th scope="col" class="govuk-table__header govuk-table__header--numeric">Cardinality</th>
-          <th scope="col" class="govuk-table__header">Parent Field</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
         </tr>
       </thead>
       <tbody class="govuk-table__body">
-    {% for field, f in tables["field"].items() | sort %}
+    {% for field in tables["schema-field"][name] | sort %}
+        {% set f = tables["field"][field] %}
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_{{field}}">{{field}}</td>
-          <td class="govuk-table__cell"><a href="datatype#datatype_{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
-          <td class="govuk-table__cell govuk-table__cell--numeric">{{ f["cardinality"] }}</td>
-          <td class="govuk-table__cell"><a href="#field_{{f["parent-field"]}}">{{ f["parent-field"] }}</a></td>
+          <td class="govuk-table__cell" id="field_{{field}}"><a href="../../field/{{field}}">{{field}}</a></td>
+          <td class="govuk-table__cell"><a href="../../datatype/{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
+          <td class="govuk-table__cell">{{ f["cardinality"] }}</td>
         </tr>
     {% endfor %}
       </tbody>
     </table>
-    <h2 class="govuk-heading-m">Notes</h2>
-    <h3 class="govuk-heading-s">Typologies</h3>
-    <p class="govuk-body">A field whose <code>parent-field</code> is the same as the <code>field</code> value, is a typology.</p>
-    <p class="govuk-body">Where the <code>parent-field</code> has a <code>curie</code> datatype, the prefix is the <code>field</code>.</p>
+
+    {% if key %}
+    <h2 class="govuk-heading-s" id="{{typology}}">Typology</h2>
+    <p class="govuk-body">This schema belongs to the <a href="../../typology/{{ key["typology"] }}">{{ key["typology"] }}</a> typology.</p>
+    {% endif %}
+
+    {% if tables["schema-dataset"][name] %}
+    <h2 class="govuk-heading-s" id="{{datasets}}">Datasets</h2>
+    <p class="govuk-body">This schema is used in the following datasets:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for dataset in tables["schema-dataset"][name] | sort %}
+      <li><a href="../../dataset/{{dataset}}">{{ tables["dataset"][dataset]["name"] }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </div>
 {% endblock %}
 
 {% block dl_downloads %}
-<li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/field.csv">CSV</a></li>
+<li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/schema-field.csv">CSV</a></li>
 {% endblock %}

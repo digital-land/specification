@@ -1,0 +1,46 @@
+{% extends "dl-specification-base.html" %}
+
+{% set caption = 'Dataset specification' %}
+{% set title = item["name"] %}
+
+{% block dl_breadcrumbs %}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification",
+        "href": "../../"
+      },
+      {
+        "text": "Dataset",
+        "href": "../"
+      },
+      {
+        "text": title
+      },
+    ]
+  }) }}
+{% endblock %}
+
+{% block dl_content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+{{ item["text"]|markdown }}
+
+    <h2 class="govuk-heading-m" id="schemas">Schemas</h2>
+    <p class="govuk-body">This dataset contains data defined by the following schemas:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for schema, s in tables["dataset-schema"][name].items()| sort %}
+      <li><a href="../../schema/{{schema}}">{{schema}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
+
+{% block dl_downloads %}
+  <li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/dataset.csv">CSV</a></li>
+{% endblock %}
