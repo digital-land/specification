@@ -78,12 +78,33 @@ def index_datatype():
             tables["datatype-schema"][datatype].append(field)
 
 
+def base_field(field):
+    f = tables["field"][field]
+    if f["cardinality"] == "1":
+        return field
+    return f["parent-field"]
+
+
 def index_schema():
     tables["schema-dataset"] = {}
     for dataset, d in tables["dataset-schema"].items():
         for schema in d:
             tables["schema-dataset"].setdefault(schema, [])
             tables["schema-dataset"][schema].append(dataset)
+
+    tables["schema-to"] = {}
+    tables["schema-from"] = {}
+    for schema, s in tables["schema-field"].items():
+        for name in s:
+            field = base_field(name)
+            if field != schema and field in tables["schema"]:
+                tables["schema-to"].setdefault(schema, [])
+                if field not in tables["schema-to"][schema]:
+                    tables["schema-to"][schema].append(field)
+
+                tables["schema-from"].setdefault(field, [])
+                if schema not in tables["schema-from"][field]:
+                    tables["schema-from"][field].append(schema)
 
 
 def index_field():

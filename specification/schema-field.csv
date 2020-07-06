@@ -206,6 +206,8 @@ development-policy,notes
 development-policy-category,entry-date
 development-policy-category,start-date
 development-policy-category,end-date
+development-policy-category,development-policy-category
+development-policy-category,name
 development-policy-metric,entry-date
 development-policy-metric,start-date
 development-policy-metric,end-date
@@ -216,6 +218,7 @@ development-metric,entry-date
 development-metric,start-date
 development-metric,end-date
 development-metric,development-metric
+development-metric,name
 pipeline-column,entry-date
 pipeline-column,start-date
 pipeline-column,end-date

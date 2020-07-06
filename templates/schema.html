@@ -55,6 +55,29 @@
     <p class="govuk-body">This schema belongs to the <a href="../../typology/{{ key["typology"] }}">{{ key["typology"] }}</a> typology.</p>
     {% endif %}
 
+    {% if tables["schema-to"][name] or tables["schema-from"] %}
+    <h2 class="govuk-heading-s" id="{{schemas}}">Schemas</h2>
+
+    {% if tables["schema-to"][name] %}
+    <p class="govuk-body">This schema links to the following other schemas:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for schema in tables["schema-to"][name] | sort %}
+      <li><a href="../{{schema}}">{{ schema }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if tables["schema-from"][name] %}
+    <p class="govuk-body">This schema is linked to by the following other schemas:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for schema in tables["schema-from"][name] | sort %}
+      <li><a href="../{{schema}}">{{ schema }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% endif %}
+
     {% if tables["schema-dataset"][name] %}
     <h2 class="govuk-heading-s" id="{{datasets}}">Datasets</h2>
     <p class="govuk-body">This schema is used in the following datasets:</p>
