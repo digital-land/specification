@@ -5,6 +5,8 @@
 
 Digital Land specifications, built upon the [GOV.UK Registers](https://www.registers.service.gov.uk/) data model.
 
+This repository also builds the [specification](https://digital-land.github.io/specification/) pages, but we expect to split the dataset and pages into separate repositories.
+
 # Updating the collection
 
 We recommend working in [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) before installing the python dependencies:
