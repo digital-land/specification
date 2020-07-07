@@ -52,6 +52,7 @@ def field_typology(f):
 
 
 def index_typologies():
+    tables["typology-datatype"] = {}
     tables["typology-field"] = {}
     tables["typology-schema"] = {}
     for field, f in tables["field"].items():
@@ -59,6 +60,11 @@ def index_typologies():
         tables["field"][field]["typology"] = typology
         tables["typology-field"].setdefault(typology, [])
         tables["typology-field"][typology].append(field)
+
+        datatype = f["datatype"]
+        tables["typology-datatype"].setdefault(typology, [])
+        if datatype not in tables["typology-datatype"][typology]:
+            tables["typology-datatype"][typology].append(datatype)
 
         if field in tables["schema"]:
             tables["typology-schema"].setdefault(typology, [])

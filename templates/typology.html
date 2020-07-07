@@ -34,7 +34,7 @@
     <p class="govuk-body">The following schemas belong to this typology:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema in tables["typology-schema"][name] | sort %}
-      <li><a href="../../schema/{{schema}}">{{schema}}</a></li>
+      <li><a href="../{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -43,7 +43,15 @@
     <p class="govuk-body">The following fields belong to this typology:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for field in tables["typology-field"][name] | sort %}
-      <li><a href="../../field/{{field}}">{{field}}</a></li>
+      <li><a href="../../field/{{field}}">{{ tables["field"][field]["name"] }}</a></li>
+    {% endfor %}
+    </ul>
+
+    <h2 class="govuk-heading-s" id="{{typology}}_fields">Datatypes</h2>
+    <p class="govuk-body">The following datatypes are used by fields belong to this typology:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for datatype in tables["typology-datatype"][name] | sort %}
+      <li><a href="../../datatype/{{datatype}}">{{ tables["datatype"][datatype]["name"] }}</a></li>
     {% endfor %}
     </ul>
   </div>
