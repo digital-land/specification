@@ -68,6 +68,7 @@ dataset-schema,start-date
 datatype,datatype
 datatype,end-date
 datatype,entry-date
+datatype,name
 datatype,start-date
 datatype,text
 developer-agreement,developer-agreement
@@ -300,6 +301,7 @@ regional-park-authority,start-date
 regional-park-authority,wikidata-item
 schema,end-date
 schema,entry-date
+schema,name
 schema,schema
 schema,start-date
 schema-field,end-date

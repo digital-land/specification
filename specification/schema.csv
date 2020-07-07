@@ -1,50 +1,50 @@
-schema
-address
-addressbase-custodian
-attribution
-brownfield-land
-company
-contribution-funding-status
-contribution-purpose
-dataset
-dataset-schema
-datatype
-developer-agreement
-developer-agreement-contribution
-developer-agreement-transaction
-developer-agreement-type
-development-corporation
-development-metric
-development-plan
-development-plan-status
-development-plan-timetable
-development-plan-type
-development-policy
-development-policy-category
-development-policy-metric
-endpoint
-field
-government-organisation
-internal-drainage-board
-licence
-local-authority-eng
-log
-national-park-authority
-organisation
-ownership-status
-pipeline
-pipeline-column
-pipeline-convert
-pipeline-patch
-pipeline-skip
-planning-permission-status
-planning-permission-type
-provenance
-public-authority
-regional-park-authority
-schema
-schema-field
-source
-street
-transport-authority
-typology
+schema,name
+address,
+addressbase-custodian,
+attribution,
+brownfield-land,Brownfield land
+company,
+contribution-funding-status,
+contribution-purpose,
+dataset,
+dataset-schema,Database schema
+datatype,
+developer-agreement,
+developer-agreement-contribution,
+developer-agreement-transaction,
+developer-agreement-type,
+development-corporation,
+development-metric,
+development-plan,
+development-plan-status,
+development-plan-timetable,
+development-plan-type,
+development-policy,
+development-policy-category,
+development-policy-metric,Development policy metric
+endpoint,
+field,
+government-organisation,
+internal-drainage-board,
+licence,
+local-authority-eng,
+log,Collection log
+national-park-authority,
+organisation,
+ownership-status,
+pipeline,
+pipeline-column,Pipeline column
+pipeline-convert,Pipeline convert
+pipeline-patch,Pipeline patch
+pipeline-skip,Pipeline skip
+planning-permission-status,
+planning-permission-type,
+provenance,
+public-authority,
+regional-park-authority,
+schema,
+schema-field,Schema field
+source,
+street,
+transport-authority,
+typology,

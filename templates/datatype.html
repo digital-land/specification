@@ -1,7 +1,7 @@
 {% extends "dl-specification-base.html" %}
 
 {% set caption = 'Datatype' %}
-{% set title = name %}
+{% set title = item["name"] %}
 
 {% block dl_breadcrumbs %}
   {{ govukBreadcrumbs({
@@ -34,7 +34,7 @@
     <p class="govuk-body">The following fields use this datatype:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for field in tables["datatype-field"][name] | sort %}
-      <li><a href="../../field/{{field}}">{{field}}</a></li>
+      <li><a href="../../field/{{field}}">{{ tables["field"][field]["name"] }}</a></li>
     {% endfor %}
     </ul>
 
@@ -43,7 +43,7 @@
     <p class="govuk-body">The following schemas use this datatype:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema in tables["datatype-schema"][name] | sort %}
-      <li><a href="../../schema/{{schema}}">{{schema}}</a></li>
+      <li><a href="../../schema/{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}

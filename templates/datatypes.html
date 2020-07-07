@@ -8,7 +8,7 @@
   <div class="govuk-grid-column-full">
     <ul class="govuk-list govuk-list--bullet">
     {% for datatype, d in tables["datatype"].items()| sort %}
-      <li><a href="{{datatype}}">{{datatype}}</a></li>
+      <li><a href="{{datatype}}">{{ d["name"] }}</a></li>
     {% endfor %}
     </ul>
   </div>

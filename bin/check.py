@@ -40,9 +40,8 @@ def error(s):
 
 
 def load(table):
-    reader = csv.DictReader(
-        open("specification/%s.csv" % (table), newline=""), dialect=dialect
-    )
+    path = "specification/%s.csv" % (table)
+    reader = csv.DictReader(open(path, newline=""), dialect=dialect)
     fields[table] = reader.fieldnames
     for row in reader:
         if table not in keys:
@@ -61,7 +60,7 @@ def check_reference(table, field, value):
 
 
 def field_typology(f):
-    if  f["parent-field"] == "" or f["field"] == f["parent-field"]:
+    if f["parent-field"] == "" or f["field"] == f["parent-field"]:
         return f["parent-field"]
 
     return field_typology(tables["field"][f["parent-field"]])
@@ -107,7 +106,18 @@ if __name__ == "__main__":
     for table in tables:
         check(table)
 
-    for schema in tables["schema"]:
+    for t in ["dataset", "schema", "field", "datatype", "typology"]:
+        for name, item in tables[t].items():
+            if (not item.get("name", "")) and (
+                t == "schema"
+                and not (
+                    name in tables["field"]
+                    and tables["field"][name].get("name", "")
+                )
+            ):
+                error("no name for %s '%s'" % (t, name))
+
+    for schema, s in tables["schema"].items():
         if schema not in tables["schema-field"]:
             error("no fields for schema '%s'" % (schema))
         else:
@@ -116,6 +126,8 @@ if __name__ == "__main__":
                     error("schema '%s' missing '%s' field" % (schema, field))
 
     for key, row in tables["field"].items():
+        if not row.get("name", ""):
+            error("no name for field '%s'" % (key))
         for field in ["parent-field", "replacement-field"]:
             value = row.get(field)
             if value and value not in tables["field"]:

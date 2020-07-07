@@ -1,7 +1,7 @@
 {% extends "dl-specification-base.html" %}
 
 {% set caption = 'Schema' %}
-{% set title = name %}
+{% set title = item["name"] %}
 {% set key = tables["field"][name] %}
 
 {% block dl_breadcrumbs %}
@@ -34,6 +34,7 @@
       <thead class="govuk-table__head">
         <tr class="govuk-table__row">
           <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
           <th scope="col" class="govuk-table__header">Datatype</th>
           <th scope="col" class="govuk-table__header">Cardinality</th>
         </tr>
@@ -43,6 +44,7 @@
         {% set f = tables["field"][field] %}
         <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_{{field}}"><a href="../../field/{{field}}">{{field}}</a></td>
+          <td class="govuk-table__cell">{{f["name"]}}</td>
           <td class="govuk-table__cell"><a href="../../datatype/{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
           <td class="govuk-table__cell">{{ f["cardinality"] }}</td>
         </tr>
@@ -62,7 +64,7 @@
     <p class="govuk-body">This schema links to the following other schemas:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema in tables["schema-to"][name] | sort %}
-      <li><a href="../{{schema}}">{{ schema }}</a></li>
+      <li><a href="../{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -71,7 +73,7 @@
     <p class="govuk-body">This schema is linked to by the following other schemas:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema in tables["schema-from"][name] | sort %}
-      <li><a href="../{{schema}}">{{ schema }}</a></li>
+      <li><a href="../{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}

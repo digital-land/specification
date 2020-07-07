@@ -68,7 +68,7 @@
     <p class="govuk-body">The following schemas use this field:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema in tables["field-schema"][name] | sort %}
-      <li><a href="../../schema/{{schema}}">{{ schema }}</a></li>
+      <li><a href="../../schema/{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}

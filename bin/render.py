@@ -125,6 +125,12 @@ def index_dataset():
                     tables["field-dataset"][field].append(dataset)
 
 
+def default_names():
+    for schema, s in tables["schema"].items():
+        if not s.get("name", ""):
+            s["name"] = tables["field"][schema]["name"]
+
+
 if __name__ == "__main__":
     loader = jinja2.FileSystemLoader(searchpath="./templates")
     env = jinja2.Environment(loader=loader)
@@ -140,6 +146,7 @@ if __name__ == "__main__":
     for table in tables:
         load(table)
 
+    default_names()
     index_typologies()
     index_datatype()
     index_field()
