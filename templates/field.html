@@ -1,7 +1,7 @@
 {% extends "dl-specification-base.html" %}
 
 {% set caption = 'Field' %}
-{% set title = name %}
+{% set title = item['name'] %}
 
 {% block dl_breadcrumbs %}
   {{ govukBreadcrumbs({
@@ -31,12 +31,12 @@
     <table class="govuk-table">
       <tbody class="govuk-table__body">
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">{{ item["field"] }}</td>
-        </tr>
-        <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Name</th>
           <td class="govuk-table__cell">{{ item["name"] }}</td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Field</th>
+          <td class="govuk-table__cell">{{ item["field"] }}</td>
         </tr>
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Datatype</th>
