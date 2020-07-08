@@ -34,7 +34,7 @@
     <p class="govuk-body">The following schemas belong to this typology:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema in tables["typology-schema"][name] | sort %}
-      <li><a href="../{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
+      <li><a href="../../schema/{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}
