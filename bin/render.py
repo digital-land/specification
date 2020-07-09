@@ -135,6 +135,8 @@ def default_names():
     for schema, s in tables["schema"].items():
         if not s.get("name", ""):
             s["name"] = tables["field"][schema]["name"]
+        if not s.get("description", "") and schema in tables["field"]:
+            s["description"] = tables["field"][schema]["description"]
 
 
 if __name__ == "__main__":
