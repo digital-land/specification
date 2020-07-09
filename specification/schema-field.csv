@@ -170,6 +170,7 @@ endpoint,script
 endpoint,start-date
 field,cardinality
 field,datatype
+field,description
 field,end-date
 field,entry-date
 field,field
@@ -314,6 +315,7 @@ schema,end-date
 schema,entry-date
 schema,name
 schema,schema
+schema,description
 schema,start-date
 schema-field,end-date
 schema-field,entry-date
