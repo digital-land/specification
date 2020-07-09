@@ -177,6 +177,11 @@ field,name
 field,parent-field
 field,replacement-field
 field,start-date
+geography,end-date
+geography,entry-date
+geography,geography
+geography,geometry
+geography,start-date
 government-organisation,end-date
 government-organisation,entry-date
 government-organisation,government-organisation
@@ -330,6 +335,11 @@ source,organisation
 source,pipeline
 source,source
 source,start-date
+geography,end-date
+geography,entry-date
+geography,geography
+geography,geometry
+geography,start-date
 street,end-date
 street,entry-date
 street,name
