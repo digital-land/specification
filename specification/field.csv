@@ -33,7 +33,7 @@ development-plan,Development plan,string,1,legal-instrument,,
 development-plan-status,Development plan status,string,1,category,,
 development-plan-timetable,Development plan timetable,string,1,identifier,,
 development-plan-type,Development plan type,string,1,category,,
-development-policies,Development policies,string,n,development-policy,,
+development-policies,Development policies,string,n,development-policy,,"A list of development policies"
 development-policy,Development policy,string,1,legal-instrument,,
 development-policy-categories,Development policy categories,string,n,development-policy-category,,
 development-policy-category,Development policy category,string,1,category,,
