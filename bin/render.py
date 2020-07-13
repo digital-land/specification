@@ -139,11 +139,14 @@ def default_names():
             s["description"] = tables["field"][schema]["description"]
 
 
-def schema_sort(fields):
-    sorted_fields = sorted(fields.keys())
-    for register_field in ["end-date", "entry-date", "start-date"]:
-        sorted_fields.append(sorted_fields.pop(sorted_fields.index(register_field)))
-    return sorted_fields
+def schema_sort(schema):
+    fields = sorted(tables["schema-field"][schema])
+    if schema in fields:
+        fields.pop(fields.index(schema))
+        fields = [schema] + fields
+    for field in ["start-date", "end-date", "entry-date"]:
+        fields.append(fields.pop(fields.index(field)))
+    return fields
 
 
 if __name__ == "__main__":

@@ -42,7 +42,7 @@
         </tr>
       </thead>
       <tbody class="govuk-table__body">
-    {% for field in tables["schema-field"][name] | schema_sort %}
+    {% for field in name | schema_sort %}
         {% set f = tables["field"][field] %}
         <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_{{field}}"><a href="../../field/{{field}}">{{field}}</a></td>
