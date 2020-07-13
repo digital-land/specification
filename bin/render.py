@@ -139,6 +139,13 @@ def default_names():
             s["description"] = tables["field"][schema]["description"]
 
 
+def schema_sort(fields):
+    sorted_fields = sorted(fields.keys())
+    for register_field in ["end-date", "entry-date", "start-date"]:
+        sorted_fields.append(sorted_fields.pop(sorted_fields.index(register_field)))
+    return sorted_fields
+
+
 if __name__ == "__main__":
     loader = jinja2.FileSystemLoader(searchpath="./templates")
     env = jinja2.Environment(loader=loader)
@@ -150,6 +157,7 @@ if __name__ == "__main__":
         .replace("<ul>", '<ul class="govuk-list govuk-list--bullet">')
     )
     env.filters["commanum"] = lambda v: "{:,}".format(v)
+    env.filters["schema_sort"] = schema_sort
 
     for table in tables:
         load(table)
