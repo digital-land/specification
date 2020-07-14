@@ -144,7 +144,8 @@ def schema_sort(schema):
     if schema in fields:
         fields.pop(fields.index(schema))
         fields = [schema] + fields
-    for field in ["start-date", "end-date", "entry-date"]:
+    # move default register fields to end, order is same as in list
+    for field in [ "entry-date", "start-date", "end-date"]:
         fields.append(fields.pop(fields.index(field)))
     return fields
 
