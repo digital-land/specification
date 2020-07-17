@@ -35,10 +35,10 @@ national-park-authority,,
 organisation,,
 ownership-status,,
 pipeline,,
-pipeline-column,Pipeline column,
-pipeline-convert,Pipeline convert,
-pipeline-patch,Pipeline patch,
-pipeline-skip,Pipeline skip,
+pipeline-column,Pipeline column,Change column and field names during map.
+pipeline-convert,Pipeline convert,Convert a resource during convert.
+pipeline-patch,Pipeline patch,Assert a field value during harmonise.
+pipeline-skip,Pipeline skip,Remove lines from a resource during normalise.
 planning-permission-status,,
 planning-permission-type,,
 provenance,,
