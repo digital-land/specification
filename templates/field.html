@@ -38,9 +38,14 @@
         </tr>
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">{{ item["field"] }}
-          {% if item["end-date"] %}<strong class="govuk-tag govuk-tag--grey">Deprecated</strong>{% endif -%}</td>
+          <td class="govuk-table__cell">{{ item["field"] }}</td>
         </tr>
+        {% if item["end-date"] %}
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Status</th>
+          <td class="govuk-table__cell"><strong class="govuk-tag govuk-tag--grey">Deprecated</strong></td>
+        </tr>
+        {% endif %}
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Datatype</th>
           <td class="govuk-table__cell"><a href="../../datatype/{{ item["datatype"] }}">{{ item["datatype"] }}</a></td>

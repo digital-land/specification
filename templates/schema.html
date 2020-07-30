@@ -45,7 +45,7 @@
     {% for field in name | schema_sort %}
         {% set f = tables["field"][field] %}
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_{{field}}"><a href="../../field/{{field}}">{{field}}</a></td>
+          <td class="govuk-table__cell" id="field_{{field}}"><a href="../../field/{{field}}">{{field}}</a>
           {% if f["end-date"] %} <strong class="govuk-tag govuk-tag--grey">Deprecated</strong>{% endif -%}
           </td>
           <td class="govuk-table__cell">{{f["name"]}}</td>
