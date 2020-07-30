@@ -38,7 +38,8 @@
         </tr>
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">{{ item["field"] }}</td>
+          <td class="govuk-table__cell">{{ item["field"] }}
+          {% if item["end-date"] %}<strong class="govuk-tag govuk-tag--grey">Deprecated</strong>{% endif -%}</td>
         </tr>
         <tr class="govuk-table__row">
           <th scope="row" class="govuk-table__header">Datatype</th>

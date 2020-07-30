@@ -46,6 +46,8 @@
         {% set f = tables["field"][field] %}
         <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_{{field}}"><a href="../../field/{{field}}">{{field}}</a></td>
+          {% if f["end-date"] %} <strong class="govuk-tag govuk-tag--grey">Deprecated</strong>{% endif -%}
+          </td>
           <td class="govuk-table__cell">{{f["name"]}}</td>
           <td class="govuk-table__cell"><a href="../../datatype/{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
           <td class="govuk-table__cell">{{ f["cardinality"] }}</td>
