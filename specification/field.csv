@@ -155,3 +155,27 @@ url,URL,url,1,url,,,
 value,Value,string,1,value,,,
 website,Website,url,1,url,,,
 wikidata-item,Wikidata item,string,1,identifier,,,
+OrganisationURI,OrganisationURI,url,1,url,organisation,,2019-10-31
+OrganisationLabel,OrganisationLabel,string,1,value,,,2019-10-31
+SiteReference,SiteReference,string,1,value,site,,2019-10-31
+SiteNameAddress,SiteNameAddress,string,1,value,address-text,,2019-10-31
+GeoX,GeoX,string,1,value,longitude,,2019-10-31
+GeoY,GeoY,string,1,value,latitude,,2019-10-31
+SiteplanURL,SiteplanURL,url,1,url,site-plan-url,,2019-10-31
+Hectares,Hectares,string,1,value,hectares,,2019-10-31
+OwnershipStatus,OwnershipStatus,string,1,value,ownership-status,,2019-10-31
+HazardousSubstances,HazardousSubstances,flag,1,category,hazardous-substances,,2019-10-31
+PlanningStatus,Planning permission status,string,1,category,planning-permission-status,,2019-10-31
+PermissionType,Planning permission type,string,1,category,planning-permission-type,,2019-10-31
+PermissionDate,Planning permission date,datetime,1,datetime,planning-permission-date,,2019-10-31
+PlanningHistory,Planning permission history,url,n,document-url,planning-permission-history,,2019-10-31
+MinNetDwellings,Minimum net dwellings,integer,1,number,,,2019-10-31
+NetDwellingsRangeFrom,Minimum net dwellings,integer,1,number,minimum-net-dwellings,,2019-10-31
+NetDwellingsRangeTo,Maximum net dwellings,integer,1,number,maximum-net-dwellings,,2019-10-31
+Deliverable,Deliverable,flag,1,category,deliverable,,2019-10-31
+Notes,Notes,text,1,text,notes,,2019-10-31
+FirstAddedDate,FirstAddedDate,string,1,datetime,start-date,,2019-10-31
+LastUpdatedDate,LastUpdatedDate,string,1,datetime,entry-date,,2019-10-31
+EndDate,EndDate,string,1,datetime,end-date,,2019-10-31
+DevelopmentDescription,Development description,text,1,text,notes,,2019-10-31
+SiteInformation,Site information,text,1,text,notes,,2019-10-31
