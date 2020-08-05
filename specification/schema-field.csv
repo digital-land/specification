@@ -301,6 +301,13 @@ pipeline-convert,pipeline
 pipeline-convert,resource
 pipeline-convert,script
 pipeline-convert,start-date
+pipeline-default,end-date
+pipeline-default,entry-date
+pipeline-default,field
+pipeline-default,default-field
+pipeline-default,pipeline
+pipeline-default,resource
+pipeline-default,start-date
 pipeline-patch,end-date
 pipeline-patch,entry-date
 pipeline-patch,field
@@ -308,7 +315,7 @@ pipeline-patch,pattern
 pipeline-patch,pipeline
 pipeline-patch,resource
 pipeline-patch,start-date
-pipeline-patch,string
+pipeline-patch,value
 pipeline-skip,end-date
 pipeline-skip,entry-date
 pipeline-skip,pattern
