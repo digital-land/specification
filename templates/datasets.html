@@ -1,20 +1,22 @@
 {% extends "dl-specification-base.html" %}
 
 {% set caption = 'Specification' %}
-{% set title = 'Datasets' %}
+{% set title = 'Dataset specifications' %}
 
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    <p class="govuk-body">
+        A dataset is a collection of data files.
+    </p>
     <ul class="govuk-list govuk-list--bullet">
     {% for dataset, d in tables["dataset"].items()| sort %}
-      <li><a href="{{dataset}}">{{d["name"]}}</a></li>
+      <li><a href="{{dataset}}">{{d["name"]}}</a> &mdash; the set of schemas that define the {{d["name"]}} dataset</li>
     {% endfor %}
     </ul>
+    <p class="govuk-body">
+        Visit our <a href="/dataset">datasets</a> pages to see the actual data.
+    </p>
   </div>
 </div>
-{% endblock %}
-
-{% block dl_downloads %}
-  <li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/dataset.csv">CSV</a></li>
 {% endblock %}

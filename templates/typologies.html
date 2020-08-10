@@ -6,6 +6,9 @@
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    <p class="govuk-body">
+        The following typologoies are used to categorise the <a href="../field/">fields</a> used in Digital Land specifications:
+    </p>
     <ul class="govuk-list govuk-list--bullet">
     {% for typology, t in tables["typology"].items()| sort %}
       <li><a href="{{typology}}">{{t["name"]}}</a></li>
@@ -13,8 +16,4 @@
     </ul>
   </div>
 </div>
-{% endblock %}
-
-{% block dl_downloads %}
-  <li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/typology.csv">CSV</a></li>
 {% endblock %}

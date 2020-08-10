@@ -6,6 +6,10 @@
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    <p class="govuk-body">
+        A field provides the meaning of the data in a column in a CSV file, or GeoJSON file property.
+        The following fields are used in Digital Land specifications:
+    </p>
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
       <thead class="govuk-table__head">
@@ -38,8 +42,4 @@
     <p class="govuk-body">Where the <code>parent-field</code> has a <code>curie</code> datatype, the prefix is the <code>field</code>.</p>
   </div>
 </div>
-{% endblock %}
-
-{% block dl_downloads %}
-<li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/field.csv">CSV</a></li>
 {% endblock %}
