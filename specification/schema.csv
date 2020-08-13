@@ -14,15 +14,15 @@ developer-agreement-contribution,,
 developer-agreement-transaction,,
 developer-agreement-type,,
 development-corporation,,
-development-metric,,
-development-plan,,
-development-plan-document,,
-development-plan-status,,
-development-plan-timetable,Development plan timetable,
-development-plan-type,,
-development-policy,,
-development-policy-category,,
-development-policy-metric,Development policy metric,
+development-metric,,The types of measurement used as a development policy metric.
+development-plan,,The list of development plans.
+development-plan-document,,The list of development plan documents.
+development-plan-status,,"The different statuses a plan can have, for example ""adopted""."
+development-plan-timetable,Development plan timetable,The expected timetable for the stages a plan will go through.
+development-plan-type,,"The types of plans, for example ""local plan""."
+development-policy,,The list of development policies.
+development-policy-category,,The categories for development policies.
+development-policy-metric,Development policy metric,The list of metrics associated with a developement policy.
 endpoint,,
 field,,
 geography,,

@@ -32,10 +32,14 @@
 {{ item["text"]|markdown }}
 
     <h2 class="govuk-heading-m" id="schemas">Schemas</h2>
-    <p class="govuk-body">This dataset contains data defined by the following schemas:</p>
+    <p class="govuk-body">The <a href="/dataset/{{name }}">{{ item["name"] }} dataset</a> contains data defined by the following schemas:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema, s in tables["dataset-schema"][name].items()| sort %}
-      <li><a href="../../schema/{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
+      {% set item = tables["schema"][schema] %}
+      <li><a href="../../schema/{{schema}}">{{ item["name"] }}</a>
+          &mdash;
+          {{ item["description"][0]|lower }}{{ item["description"][1:] }}
+      </li>
     {% endfor %}
     </ul>
   </div>

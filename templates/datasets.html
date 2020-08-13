@@ -14,7 +14,8 @@
     <ul class="govuk-list govuk-list--bullet">
     {% for dataset, item in tables["dataset"].items()| sort %}
       <li>
-          <a href="{{dataset}}">{{item["name"]}}</a> &mdash;
+          <a href="{{dataset}}">{{item["name"]}}</a>
+          &mdash;
           {{ item["description"][0]|lower }}{{ item["description"][1:] }}
       </li>
     {% endfor %}
