@@ -18,6 +18,10 @@ attribution,end-date
 attribution,entry-date
 attribution,start-date
 attribution,text
+collection,end-date
+collection,entry-date
+collection,collection
+collection,start-date
 brownfield-land,address
 brownfield-land,address-text
 brownfield-land,deliverable
@@ -368,6 +372,7 @@ shielding-hub,statistical-geographies
 shielding-hub,name
 shielding-hub,start-date
 source,attribution
+source,collection
 source,documentation-url
 source,end-date
 source,entry-date
