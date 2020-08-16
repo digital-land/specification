@@ -12,7 +12,9 @@
     </p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema, item in tables["schema"].items()| sort %}
-      <li><a href="{{schema}}">{{item["name"]}}</a></li>
+      <li><a href="{{schema}}">{{item["name"]}}</a>
+          {%- if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif -%}
+      </li>
     {% endfor %}
     </ul>
   </div>

@@ -36,9 +36,9 @@
     <ul class="govuk-list govuk-list--bullet">
     {% for schema, s in tables["dataset-schema"][name].items()| sort %}
       {% set item = tables["schema"][schema] %}
-      <li><a href="../../schema/{{schema}}">{{ item["name"] }}</a>
-          &mdash;
-          {{ item["description"][0]|lower }}{{ item["description"][1:] }}
+      <li>
+          <a href="../../schema/{{schema}}">{{ item["name"] }}</a>
+          {%- if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif -%}
       </li>
     {% endfor %}
     </ul>
