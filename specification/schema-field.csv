@@ -186,6 +186,13 @@ development-policy,geography
 development-policy,name
 development-policy,notes
 development-policy,start-date
+development-policy-area,development-policy-area
+development-policy-area,documentation-url
+development-policy-area,end-date
+development-policy-area,entry-date
+development-policy-area,geometry
+development-policy-area,name
+development-policy-area,start-date
 development-policy-category,development-policy-category
 development-policy-category,end-date
 development-policy-category,entry-date
@@ -213,10 +220,12 @@ field,name
 field,parent-field
 field,replacement-field
 field,start-date
+geography,documentation-url
 geography,end-date
 geography,entry-date
 geography,geography
 geography,geometry
+geography,name
 geography,start-date
 government-organisation,end-date
 government-organisation,entry-date
