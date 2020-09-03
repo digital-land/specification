@@ -312,6 +312,14 @@ pipeline-column,pipeline
 pipeline-column,resource
 pipeline-column,start-date
 pipeline-column,value
+pipeline-concat,end-date
+pipeline-concat,entry-date
+pipeline-concat,field
+pipeline-concat,fields
+pipeline-concat,pipeline
+pipeline-concat,resource
+pipeline-concat,separator
+pipeline-concat,start-date
 pipeline-convert,end-date
 pipeline-convert,entry-date
 pipeline-convert,pipeline

@@ -39,6 +39,7 @@ organisation,,
 ownership-status,,
 pipeline,,
 pipeline-column,Pipeline column,Change column and field names during map.
+pipeline-concat,Pipeline concat,Concatenate fields during harmonise.
 pipeline-convert,Pipeline convert,Convert a resource during convert.
 pipeline-default,Pipeline default,Take a missing field default value from another field.
 pipeline-patch,Pipeline patch,Assert a field value during harmonise.
