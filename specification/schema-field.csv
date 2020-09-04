@@ -209,7 +209,8 @@ endpoint,end-date
 endpoint,endpoint
 endpoint,endpoint-url
 endpoint,entry-date
-endpoint,script
+endpoint,parameters
+endpoint,plugin
 endpoint,start-date
 field,cardinality
 field,datatype
@@ -324,7 +325,8 @@ pipeline-convert,end-date
 pipeline-convert,entry-date
 pipeline-convert,pipeline
 pipeline-convert,resource
-pipeline-convert,script
+pipeline-convert,parameters
+pipeline-convert,plugin
 pipeline-convert,start-date
 pipeline-default,end-date
 pipeline-default,entry-date
