@@ -1,24 +1,24 @@
 .PHONY: \
-	check\
 	render\
 	server
 
 TEMPLATE_FILES=$(wildcard templates/*)
-SPECIFICATION_FILES=$(wildcard specification/*.csv)
 
-second-pass::	check render
+second-pass::	render
 
-check:	bin/check.py $(SPECIFICATION_FILES)
-	python3 bin/check.py
-
-render:	bin/render.py $(TEMPLATE_FILES) $(SPECIFICATION_FILES)
+render:	bin/render.py $(TEMPLATE_FILES) $(SPECIFICATION_FILES) $(DATASET_FILES)
 	@-rm -rf ./docs/
 	@-mkdir ./docs/
 	python3 bin/render.py
 	@touch ./docs/.nojekyll
 
+# serve docs for testing
 server:
 	cd docs && python3 -m http.server
 
 clobber clean::
-	rm -rf docs .cache
+	rm -rf ./docs/ .cache/
+
+# update makerules from source
+update::
+	curl -qsL '$(SOURCE_URL)/makerules/master/render.mk' > makerules/render.mk
