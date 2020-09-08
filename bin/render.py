@@ -7,6 +7,8 @@ import csv
 import markdown
 
 docs = "docs/"
+staticPath = "https://digital-land.github.io"
+assetPath = "https://digital-land.github.io/assets"
 
 keys = {
     "schema-field": ["schema", "field"],
@@ -30,7 +32,15 @@ def render(template, path, name=None, item=None):
         os.makedirs(directory)
 
     with open(path, "w") as f:
-        f.write(env.get_template(template).render(tables=tables, name=name, item=item))
+        f.write(
+            env.get_template(template).render(
+                tables=tables,
+                name=name,
+                item=item,
+                staticPath=staticPath,
+                assetPath=assetPath,
+            )
+        )
 
 
 def load(table):
@@ -145,13 +155,25 @@ def schema_sort(schema):
         fields.pop(fields.index(schema))
         fields = [schema] + fields
     # move default register fields to end, order is same as in list
-    for field in [ "entry-date", "start-date", "end-date"]:
+    for field in ["entry-date", "start-date", "end-date"]:
         fields.append(fields.pop(fields.index(field)))
     return fields
 
 
 if __name__ == "__main__":
     loader = jinja2.FileSystemLoader(searchpath="./templates")
+    loader = jinja2.ChoiceLoader(
+        [
+            jinja2.FileSystemLoader(searchpath="./templates"),
+            jinja2.PrefixLoader(
+                {
+                    "govuk-jinja-components": jinja2.PackageLoader(
+                        "govuk_jinja_components"
+                    )
+                }
+            ),
+        ]
+    )
     env = jinja2.Environment(loader=loader)
 
     md = markdown.Markdown()
