@@ -1,3 +1,5 @@
+FRONTEND_URL=$(SOURCE_URL)/digital-land-frontend/master/application/
+
 .PHONY: \
 	render\
 	server
@@ -21,4 +23,23 @@ clobber clean::
 
 # update makerules from source
 update::
-	curl -qsL '$(SOURCE_URL)/makerules/master/render.mk' > makerules/render.mk
+	#curl -qsL '$(SOURCE_URL)/makerules/master/render.mk' > makerules/render.mk
+
+# update frontend templates
+update::
+	@-mkdir -p templates/dl-partials/
+	curl -qsL '$(FRONTEND_URL)templates/base.html' > templates/base.html
+	curl -qsL '$(FRONTEND_URL)templates/dlf-base.html' > templates/dlf-base.html
+	curl -qsL '$(FRONTEND_URL)templates/dl-partials/cookie-banner.html' > templates/dl-partials/cookie-banner.html
+	curl -qsL '$(FRONTEND_URL)templates/dl-partials/dl-header.html' > templates/dl-partials/dl-header.html
+
+# update fontend macros
+update::
+	@-mkdir -p templates/dl-macros/page-feedback/
+	curl -qsL '$(FRONTEND_URL)templates/dl-macros/page-feedback/macro.jinja' > templates/dl-macros/page-feedback/macro.jinja
+ifneq ("$(wildcard templates/dl-macros/heatmap/macro.jinja)","")
+	curl -qsL '$(FRONTEND_URL)templates/dl-macros/heatmap/macro.jinja' > templates/dl-macros/heatmap/macro.jinja
+endif
+ifneq ("$(wildcard templates/dl-macros/data-item/)","")
+	curl -qsL '$(FRONTEND_URL)templates/dl-macros/data-item/macro.jinja' > templates/dl-macros/data-item/macro.jinja
+endif
