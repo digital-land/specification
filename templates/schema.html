@@ -1,7 +1,7 @@
 {% extends "dl-specification-base.html" %}
 
-{% set caption = 'Schema' %}
-{% set title = item["name"] %}
+{% set page_caption = 'Schema' %}
+{% set page_title = item["name"] %}
 {% set key = tables["field"][name] %}
 
 {% block dl_breadcrumbs %}
@@ -20,7 +20,7 @@
         "href": "../"
       },
       {
-        "text": title
+        "text": page_title
       },
     ]
   }) }}

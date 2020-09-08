@@ -1,7 +1,12 @@
-{% if code_url != '' %}
+{% set github_organisation  = github_organisation | default('digital-land') %}
+{% set github_repository  = github_repository | default('digital-land') %}
+{% set github_url = github_url | default('https://github.com/' + github_organisation + '/' + github_repository + '/') %}
+{% set code_url = code_url | default(github_url) %}
+{% set data_url = data_url | default(github_url) %}
+{% set licence_url = licence_url | default(github_url + 'blob/master/LICENSE') %}
+
 {{ govukFooter({
     "meta": {
         "html": 'The <a href="' + code_url + '">software</a> and <a href="' + data_url + '">data</a> used to build these pages is <a href="' + licence_url + '">open source</a>.'
     }
 }) }}
-{% endif %}

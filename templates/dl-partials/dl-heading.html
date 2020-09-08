@@ -1,8 +1,8 @@
-{%- if title != '' %}
+{%- if page_title != '' %}
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  {% if caption != '' %}<span class="govuk-caption-xl">{{ caption }}</span>{% endif %}
-  <h1 class="govuk-heading-xl">{{ title }}</h1>
+  {% if page_caption != '' %}<span class="govuk-caption-xl">{{ page_caption }}</span>{% endif %}
+  <h1 class="govuk-heading-xl">{{ page_title }}</h1>
   </div>
 </div>
 {% endif %}

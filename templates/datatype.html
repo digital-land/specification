@@ -1,7 +1,7 @@
 {% extends "dl-specification-base.html" %}
 
-{% set caption = 'Datatype' %}
-{% set title = item["name"] %}
+{% set page_caption = 'Datatype' %}
+{% set page_title = item["name"] %}
 
 {% block dl_breadcrumbs %}
   {{ govukBreadcrumbs({
@@ -19,7 +19,7 @@
         "href": "../"
       },
       {
-        "text": title
+        "text": page_title
       },
     ]
   }) }}

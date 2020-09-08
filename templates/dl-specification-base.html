@@ -1,13 +1,6 @@
 {% extends "dl-base.html" %}
 
-{% set repo = 'specification' %}
-{% set code_url = 'https://github.com/digital-land/specification/' %}
-{% set data_url = 'https://github.com/digital-land/specification/tree/master/specification' %}
-{% set licence_url = 'https://github.com/digital-land/specification/blob/master/LICENSE' %}
-
-{% block content %}
-{% block dl_content %}{% endblock %}
-{% endblock %}
+{% set github_repository = 'specification' %}
 
 {% block dl_breadcrumbs %}
   {{ govukBreadcrumbs({
@@ -18,11 +11,12 @@
       },
       {
         "text": "Specification",
-        "href": "../"
+        "href": "../../"
       },
       {
-        "text": title
+        "text": page_title
       },
     ]
   }) }}
 {% endblock %}
+

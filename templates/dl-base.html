@@ -1,11 +1,15 @@
 {% extends "dlf-base.html" %}
 
-{%- if title != '' %}{% block pageTitle %}{{ title }} | Digital Land{% endblock %}{%- endif %}
+{%- if page_title != '' %}{% block pageTitle %}{{ page_title }} | Digital Land{% endblock %}{%- endif %}
 
 {% block beforeContent %}
   {% include 'dl-partials/phase-banner.html' %}
   {% block dl_breadcrumbs %}{% endblock %}
+{% endblock %}
+
+{% block content %}
   {% include 'dl-partials/dl-heading.html' %}
+  {% block dl_content %}{% endblock %}
 {% endblock %}
 
 {% block footer %}
