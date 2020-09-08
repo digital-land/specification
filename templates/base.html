@@ -1,6 +1,6 @@
-{% from "./govuk-jinja-components/skip-link/macro.jinja" import govukSkipLink -%}
-{% from "./govuk-jinja-components/header/macro.jinja" import govukHeader -%}
-{% from "./govuk-jinja-components/footer/macro.jinja" import govukFooter -%}
+{% from "govuk-jinja-components/skip-link/macro.jinja" import govukSkipLink -%}
+{% from "govuk-jinja-components/header/macro.jinja" import govukHeader -%}
+{% from "govuk-jinja-components/footer/macro.jinja" import govukFooter -%}
 {# specify absolute url for the static assets folder e.g. http://wwww.domain.com/assets #}
 {%- set assetUrl = assetUrl | default(assetPath) -%}
 <!DOCTYPE html>
@@ -52,7 +52,7 @@
     {% endblock %}
 
     {% block footer %}
-      {{ govukFooter() }}
+      {{ govukFooter({}) }}
     {% endblock %}
 
     {% block bodyEnd %}{% endblock %}

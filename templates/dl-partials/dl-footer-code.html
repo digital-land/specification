@@ -1,0 +1,7 @@
+{% if code_url != '' %}
+{{ govukFooter({
+    "meta": {
+        "html": 'The <a href="' + code_url + '">software</a> and <a href="' + data_url + '">data</a> used to build these pages is <a href="' + licence_url + '">open source</a>.'
+    }
+}) }}
+{% endif %}

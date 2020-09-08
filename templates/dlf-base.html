@@ -1,59 +1,43 @@
 {% extends "base.html" %}
 {% from "govuk-jinja-components/phase-banner/macro.jinja" import govukPhaseBanner %}
 {% from "govuk-jinja-components/breadcrumbs/macro.jinja" import govukBreadcrumbs %}
+{% from "dl-macros/page-feedback/macro.jinja" import dlfPageFeedback %}
 
 {% block head %}
-<link href="https://digital-land-design.herokuapp.com/static/stylesheets/dl-frontend.css" rel="stylesheet" />
+<link href="{{ staticPath | default('/static') }}/stylesheets/dl-frontend.css" rel="stylesheet" />
 {% endblock %}
 
 {% block header %}
 {% include 'dl-partials/cookie-banner.html' %}
 {% include 'dl-partials/dl-header.html' %}
-{% endblock %}
+{% endblock%}
 
-{% block pageTitle %}{{ title }} | Digital Land{% endblock %}
-
-{% block beforeContent %}
-	{{ govukPhaseBanner({
-		"classes": "govuk-width-container",
-		"tag": {
-			"text": "prototype"
-		},
-		"html": 'This is a prototype. Please provide feedback to the Digital Land team.'
-	}) }}
-  {% block dl_breadcrumbs %}{% endblock %}
-{% endblock %}
-
-{% block content %}
-<div class="govuk-grid-row">
- <div class="govuk-grid-column-full">
-  {% if caption != '' %}<span class="govuk-caption-xl">{{ caption }}</span>{% endif %}
-  <h1 class="govuk-heading-xl">{{ title }}</h1>
-  </div>
-</div>
-{% block dl_content %}{% endblock %}
-{% endblock %}
-
-{% block footer %}
-	{% block pageFeedback %}{% endblock %}
-	{{ govukFooter({
-		"meta": {
-			"html": 'The <a href="' + code_url + '">software</a> and <a href="' + data_url + '">data</a> used to build these pages is <a href="' + licence_url + '">open source</a>.'
-		}
-	}) }}
-{% endblock %}
 
 {% block bodyEnd %}
-<script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
-<script>
-	// initiate all GOVUK components
-	window.GOVUKFrontend.initAll();
-</script>
-<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
-<script>
-	// adds any necessary polyfills
-	window.DLFrontend.polyfill();
-</script>
+	{%- block googleAnalytics -%}
+	<script src="{{ staticPath | default('/static') }}/javascripts/dl-cookies.js"></script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- end google analytics -->
+	{% endblock googleAnalytics %}
 
-<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
+	{#- optional jQuery include -#}
+	{%- if includeJQuery == "true" -%}
+	<script src="{{ staticPath | default('/static') }}/javascripts/vendor/jquery-3.4.1.min.js"></script>
+	{% endif %}
+
+	<script src="{{ staticPath | default('/static') }}/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+	<script>
+		// initiate all GOVUK components
+		window.GOVUKFrontend.initAll();
+	</script>
+
+	{% block bodyEndScripts %}
+	{# needs to come after govuk frontend #}
+	<script src="{{ staticPath | default('/static') }}/javascripts/dl-frontend.js"></script>
+	<script>
+		// adds any necessary polyfills
+		window.DLFrontend.polyfill();
+	</script>
+	{% endblock %}
+
 {% endblock %}
