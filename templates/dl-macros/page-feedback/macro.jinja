@@ -1,0 +1,7 @@
+{%- macro dlfPageFeedback(params) -%}
+<div class="dlf-pg-feedback {% if params.classes %}{{ params.classes }}{% endif %}">
+    <div class="dlf-pg-feedback__prompt">
+      <a href="{{params.href}}" class="dlf-pg-feedback__link">{{ params.text }}</a>
+    </div>
+</div>
+{% endmacro %}
