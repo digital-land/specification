@@ -9,20 +9,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     
-      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
-      <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
-      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
-      <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
-      <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="https://digital-land.github.io/assets/images/favicon.ico" type="image/x-icon" />
+      <link rel="mask-icon" href="https://digital-land.github.io/assets/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="https://digital-land.github.io/assets/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="https://digital-land.github.io/assets/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://digital-land.github.io/assets/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="https://digital-land.github.io/assets/images/govuk-apple-touch-icon.png">
     
 
     
-<link href="https://digital-land-design.herokuapp.com/static/stylesheets/dl-frontend.css" rel="stylesheet" />
+<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
 
     
     
-    <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
+    <meta property="og:image" content="https://digital-land.github.io/assets/images/govuk-opengraph-image.png">
   </head>
   <body class="govuk-template__body ">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
@@ -33,6 +33,7 @@
     
 
     
+<!-- Cookie banner partial version 1.0.1 -->
 <div id="global-cookie-message" class="govuk-clearfix global-cookie-message" data-module="cookie-banner" role="region" aria-label="cookie banner" data-nosnippet="">
 
   <div id="cookie-banner" class="govuk-width-container">
@@ -44,7 +45,7 @@
         </div>
         <div class="cooke-banner__buttons govuk-grid-row">
           <div class="govuk-grid-column-one-half">
-            <button class="govuk-button" onclick="acceptCookies();">Accept all cookies</button>
+            <button class="govuk-button" onclick="acceptCookies();showCookieConfirmation();">Accept all cookies</button>
           </div>
           <div class="govuk-grid-column-one-half">
             <a class="govuk-button"href="/cookies">Set cookie preferences</a>
@@ -106,7 +107,8 @@
     
       <div class="govuk-width-container">
         
-	<div class="govuk-phase-banner govuk-width-container">
+  
+<div class="govuk-phase-banner govuk-width-container">
   <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
   prototype
 </strong><span class="govuk-phase-banner__text">
@@ -115,7 +117,7 @@
   </p>
 </div>
   
-  <div class="govuk-breadcrumbs">
+  <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
   
     
@@ -143,15 +145,17 @@
   </ol>
 </div>
 
-
-        <main class="govuk-main-wrapper " id="main-content" role="main">
-          
+  
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset specification</span>
   <h1 class="govuk-heading-xl">Organisations</h1>
   </div>
 </div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
@@ -176,8 +180,9 @@
     
 
     
-	
-	<footer class="govuk-footer " role="contentinfo"
+  
+  
+<footer class="govuk-footer " role="contentinfo"
         >
   <div class="govuk-width-container ">
     
@@ -196,7 +201,7 @@
           focusable="false"
           class="govuk-footer__licence-logo"
           xmlns="http://www.w3.org/2000/svg"
-          viewbox="0 0 483.2 195.7"
+          viewBox="0 0 483.2 195.7"
           height="17"
           width="41"
         >
@@ -225,19 +230,27 @@
 </footer>
 
 
-    
-<script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
-<script>
-	// initiate all GOVUK components
-	window.GOVUKFrontend.initAll();
-</script>
-<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
-<script>
-	// adds any necessary polyfills
-	window.DLFrontend.polyfill();
-</script>
 
-<script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
+    <script src="https://digital-land.github.io/javascripts/dl-cookies.js"></script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- end google analytics -->
+	
+
+	<script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+	<script>
+		// initiate all GOVUK components
+		window.GOVUKFrontend.initAll();
+	</script>
+
+	
+	
+	<script src="https://digital-land.github.io/javascripts/dl-frontend.js"></script>
+	<script>
+		// adds any necessary polyfills
+		window.DLFrontend.polyfill();
+	</script>
+	
+
 
   </body>
 </html>
