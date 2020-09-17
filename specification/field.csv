@@ -165,7 +165,7 @@ wikidata-item,Wikidata item,string,1,identifier,,,
 OrganisationURI,OrganisationURI,url,1,url,organisation,,2019-10-31
 OrganisationLabel,OrganisationLabel,string,1,value,,,2019-10-31
 SiteReference,SiteReference,string,1,value,site,,2019-10-31
-SiteNameAddress,SiteNameAddress,address,1,value,address-text,,2019-10-31
+SiteNameAddress,SiteNameAddress,string,1,value,address-text,,2019-10-31
 GeoX,GeoX,string,1,value,longitude,,2019-10-31
 GeoY,GeoY,string,1,value,latitude,,2019-10-31
 SiteplanURL,SiteplanURL,url,1,url,site-plan-url,,2019-10-31
