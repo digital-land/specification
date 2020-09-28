@@ -267,6 +267,7 @@ local-authority-type,entry-date
 local-authority-type,local-authority-type
 local-authority-type,name
 local-authority-type,start-date
+log,datetime
 log,elapsed
 log,end-date
 log,endpoint
@@ -276,7 +277,6 @@ log,resource
 log,response-headers
 log,start-date
 log,status
-log,timestamp
 national-park-authority,billing-authority
 national-park-authority,end-date
 national-park-authority,entry-date
