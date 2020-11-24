@@ -262,9 +262,9 @@ log,elapsed
 log,end-date
 log,endpoint
 log,entry-date
-log,request-headers
 log,resource
-log,response-headers
+log,content-type
+log,bytes
 log,start-date
 log,status
 national-park-authority,billing-authority
