@@ -9,6 +9,5 @@ second-pass::	check
 check::	bin/check.py $(SPECIFICATION_FILES)
 	python3 bin/check.py
 
-# update makerules from source
-update::
+makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/master/specification.mk' > makerules/specification.mk

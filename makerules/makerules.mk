@@ -1,11 +1,13 @@
 SOURCE_URL=https://raw.githubusercontent.com/digital-land/
 
 .PHONY: \
+	makerules\
 	init\
 	first-pass\
 	second-pass\
 	clobber\
 	clean\
+	commit-makerules\
 	prune
 
 # keep intermediate files
@@ -20,6 +22,9 @@ LANG := C.UTF-8
 
 # for consistent collation on different machines
 LC_COLLATE := C.UTF-8
+
+# current git branch
+BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 
 all:: first-pass second-pass
 
@@ -50,5 +55,23 @@ prune::
 	rm -rf ./var $(VALIDATION_DIR)
 
 # update makerules from source
-update::
+makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/master/makerules.mk' > makerules/makerules.mk
+
+# update local copies of specification files
+init::
+	@mkdir -p specification/
+	curl -qsL '$(SOURCE_URL)/specification/master/specification/dataset.csv' > specification/dataset.csv
+	curl -qsL '$(SOURCE_URL)/specification/master/specification/dataset-schema.csv' > specification/dataset-schema.csv
+	curl -qsL '$(SOURCE_URL)/specification/master/specification/schema.csv' > specification/schema.csv
+	curl -qsL '$(SOURCE_URL)/specification/master/specification/schema-field.csv' > specification/schema-field.csv
+	curl -qsL '$(SOURCE_URL)/specification/master/specification/field.csv' > specification/field.csv
+	curl -qsL '$(SOURCE_URL)/specification/master/specification/datatype.csv' > specification/datatype.csv
+	curl -qsL '$(SOURCE_URL)/specification/master/specification/typology.csv' > specification/typology.csv
+
+commit-makerules::
+	git add makerules
+	git diff --quiet && git diff --staged --quiet || (git commit -m "Updated makerules $(shell date +%F)"; git push origin $(BRANCH))
+
+commit-collection::
+	@:
