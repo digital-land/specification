@@ -6,6 +6,16 @@
 {% set licence_url = licence_url | default(github_url + 'blob/master/LICENSE') %}
 
 {{ govukFooter({
+    "items": [
+        {
+            "href": "/cookies",
+            "text": "Cookies"
+        },
+        {
+            "href": "/accessibility-statement",
+            "text": "Accessibility statement"
+        }
+    ],
     "meta": {
         "html": 'The <a href="' + code_url + '">software</a> and <a href="' + data_url + '">data</a> used to build these pages is <a href="' + licence_url + '">open source</a>.'
     }
