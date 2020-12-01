@@ -1,0 +1,65 @@
+name: Run pipeline
+
+on:
+  push:
+    paths-ignore:
+      - 'collection/resource/**'
+      - 'collection/log/**'
+      - 'index/**'
+      - 'var/**'
+    branches:
+      main
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+env:
+  DLB_BOT_EMAIL: ${{ secrets.DLB_BOT_EMAIL }}
+  DLB_BOT_TOKEN: ${{ secrets.DLB_BOT_TOKEN }}
+  DLB_BOT_USERNAME: ${{ secrets.DLB_BOT_USERNAME }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Branch name
+      run: echo running on branch ${GITHUB_REF##*/}
+
+    - name: Setup git
+      run: |
+        git config user.email "${DLB_BOT_EMAIL}"
+        git config user.name "${DLB_BOT_USERNAME}"
+        git remote set-url origin https://${DLB_BOT_USERNAME}:${DLB_BOT_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git checkout ${GITHUB_REF##*/}
+
+    - name: Update makerules
+      run: make makerules
+
+    - name: Commit updated makerules
+      run: make commit-makerules
+
+    - name: Install dependencies
+      run: make init
+
+    - name: Run the collector
+      run: make collect
+
+    - name: Commit collection
+      run: make commit-collection
+
+    - name: Update the collection dataset
+      run: make collection
+
+    - name: Commit collection
+      run: make commit-collection
+
+    - name: Run the pipeline to make the dataset
+      run: make dataset
+
+    - name: Commit transformed files, the national dataset, and packages
+      run: make commit-dataset
