@@ -23,3 +23,7 @@ clobber clean::
 
 makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
+
+commit-docs::
+	git add docs
+	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt docs $(shell date +%F)"; git push origin $(BRANCH))
