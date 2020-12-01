@@ -30,7 +30,7 @@ clobber-today::
 	rm -rf $(LOG_FILES_TODAY)
 
 makerules::
-	curl -qsL '$(SOURCE_URL)/makerules/master/collection.mk' > makerules/collection.mk
+	curl -qsL '$(SOURCE_URL)/makerules/main/collection.mk' > makerules/collection.mk
 
 commit-collection::
 	git add collection

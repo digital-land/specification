@@ -22,4 +22,4 @@ clobber clean::
 	rm -rf ./docs/ .cache/
 
 makerules::
-	curl -qsL '$(SOURCE_URL)/makerules/master/render.mk' > makerules/render.mk
+	curl -qsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
