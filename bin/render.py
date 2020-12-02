@@ -25,6 +25,7 @@ tables = {
 }
 
 
+
 def render(template, path, name=None, item=None):
     path = os.path.join(docs, path)
     directory = os.path.dirname(path)
@@ -169,12 +170,19 @@ if __name__ == "__main__":
                 {
                     "govuk-jinja-components": jinja2.PackageLoader(
                         "govuk_jinja_components"
-                    )
+                    ),
+                    "digital-land-frontend": jinja2.PackageLoader(
+                        "digital_land_frontend"
+                    ),
                 }
             ),
         ]
     )
     env = jinja2.Environment(loader=loader)
+
+    # set variables to make available to all templates
+    env.globals["staticPath"] = "https://digital-land.github.io"
+
 
     md = markdown.Markdown()
     env.filters["markdown"] = lambda text: jinja2.Markup(

@@ -1,18 +1,17 @@
-{% extends "dlf-base.html" %}
+{% extends "digital-land-frontend/dlf-base.html" %}
 
 {%- if page_title != '' %}{% block pageTitle %}{{ page_title }} | Digital Land{% endblock %}{%- endif %}
 
 {% block beforeContent %}
-  {% include 'dl-partials/phase-banner.html' %}
   {% block dl_breadcrumbs %}{% endblock %}
 {% endblock %}
 
 {% block content %}
-  {% include 'dl-partials/dl-heading.html' %}
+  {% include 'digital-land-frontend/partials/dl-heading.html' %}
   {% block dl_content %}{% endblock %}
 {% endblock %}
 
 {% block footer %}
-  {% include 'dl-partials/dl-page-feedback.html' %}
-  {% include 'dl-partials/dl-footer-code.html' %}
+  {% include 'digital-land-frontend/partials/dl-page-feedback.html' %}
+  {% include 'digital-land-frontend/partials/dl-footer-code.html' %}
 {% endblock %}
