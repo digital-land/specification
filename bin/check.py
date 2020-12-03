@@ -111,8 +111,7 @@ if __name__ == "__main__":
             if (not item.get("name", "")) and (
                 t == "schema"
                 and not (
-                    name in tables["field"]
-                    and tables["field"][name].get("name", "")
+                    name in tables["field"] and tables["field"][name].get("name", "")
                 )
             ):
                 error("no name for %s '%s'" % (t, name))
