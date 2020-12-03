@@ -57,9 +57,3 @@ jobs:
 
     - name: Commit collection
       run: make commit-collection
-
-    - name: Run the pipeline to make the dataset
-      run: make dataset
-
-    - name: Commit transformed files, the national dataset, and packages
-      run: make commit-dataset
