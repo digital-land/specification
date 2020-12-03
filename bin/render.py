@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 import csv
-import os
-import os.path
 
 import jinja2
 import markdown
+from digital_land_frontend.render import render
+from digital_land_frontend.jinja import setup_jinja
 
 docs = "docs/"
 staticPath = "https://digital-land.github.io"
@@ -24,24 +24,6 @@ tables = {
     "schema": {},
     "schema-field": {},
 }
-
-
-def render(template, path, name=None, item=None):
-    path = os.path.join(docs, path)
-    directory = os.path.dirname(path)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
-    with open(path, "w") as f:
-        f.write(
-            env.get_template(template).render(
-                tables=tables,
-                name=name,
-                item=item,
-                staticPath=staticPath,
-                assetPath=assetPath,
-            )
-        )
 
 
 def load(table):
@@ -162,26 +144,7 @@ def schema_sort(schema):
 
 
 if __name__ == "__main__":
-    loader = jinja2.FileSystemLoader(searchpath="./templates")
-    loader = jinja2.ChoiceLoader(
-        [
-            jinja2.FileSystemLoader(searchpath="./templates"),
-            jinja2.PrefixLoader(
-                {
-                    "govuk-jinja-components": jinja2.PackageLoader(
-                        "govuk_jinja_components"
-                    ),
-                    "digital-land-frontend": jinja2.PackageLoader(
-                        "digital_land_frontend"
-                    ),
-                }
-            ),
-        ]
-    )
-    env = jinja2.Environment(loader=loader)
-
-    # set variables to make available to all templates
-    env.globals["staticPath"] = "https://digital-land.github.io"
+    env = setup_jinja()
 
     md = markdown.Markdown()
     env.filters["markdown"] = lambda text: jinja2.Markup(
@@ -205,12 +168,27 @@ if __name__ == "__main__":
     for template in ["dataset", "schema", "field", "datatype", "typology"]:
         for name, item in tables[template].items():
             render(
-                template + ".html", "%s/%s/index.html" % (template, name), name, item
+                "%s/%s/index.html" % (template, name),
+                env.get_template(template + ".html"),
+                name=name,
+                item=item,
+                tables=tables,
+                staticPath=staticPath,
+                assetPath=assetPath,
             )
 
-    render("specifications.html", "index.html")
-    render("datasets.html", "dataset/index.html")
-    render("schemas.html", "schema/index.html")
-    render("fields.html", "field/index.html")
-    render("datatypes.html", "datatype/index.html")
-    render("typologies.html", "typology/index.html")
+    for path, template in [
+        ("index.html", "specifications.html"),
+        ("dataset/index.html", "datasets.html"),
+        ("schema/index.html", "schemas.html"),
+        ("field/index.html", "fields.html"),
+        ("datatype/index.html", "datatypes.html"),
+        ("typology/index.html", "typologies.html"),
+    ]:
+        render(
+            path,
+            env.get_template(template),
+            tables=tables,
+            staticPath=staticPath,
+            assetPath=assetPath,
+        )
