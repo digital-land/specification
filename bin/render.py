@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
+import csv
 import os
 import os.path
+
 import jinja2
-import csv
 import markdown
 
 docs = "docs/"
@@ -23,7 +24,6 @@ tables = {
     "schema": {},
     "schema-field": {},
 }
-
 
 
 def render(template, path, name=None, item=None):
@@ -182,7 +182,6 @@ if __name__ == "__main__":
 
     # set variables to make available to all templates
     env.globals["staticPath"] = "https://digital-land.github.io"
-
 
     md = markdown.Markdown()
     env.filters["markdown"] = lambda text: jinja2.Markup(
