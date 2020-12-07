@@ -164,7 +164,7 @@ units,Units,integer,1,number,,,
 url,URL,url,1,url,,,
 value,Value,string,1,value,,,
 website,Website,url,1,url,,,
-wikidata-item,Wikidata item,string,1,identifier,,,
+wikidata,Wikidata identifier,string,1,identifier,,,
 OrganisationURI,OrganisationURI,url,1,url,organisation,,2019-10-31
 OrganisationLabel,OrganisationLabel,string,1,value,,,2019-10-31
 SiteReference,SiteReference,string,1,value,site,,2019-10-31
