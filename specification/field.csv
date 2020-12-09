@@ -112,6 +112,7 @@ planning-permission-history,Planning permission history,url,n,document-url,,,
 planning-permission-status,Planning permission status,string,1,category,,,
 planning-permission-type,Planning permission type,string,1,category,,,
 plugin,Plugin,string,1,identifier,,,
+plural,Plural name,string,1,text,,,
 point,Point,wkt,1,geometry,,,
 principal-local-authority,Principal local authority (Wales),string,1,organisation,,,
 prison-estate,Prison estate,string,1,geography,,,
@@ -165,6 +166,7 @@ url,URL,url,1,url,,,
 value,Value,string,1,value,,,
 website,Website,url,1,url,,,
 wikidata,Wikidata identifier,string,1,identifier,,,
+wikipedia,Wikipedia page,url,1,url,,,
 OrganisationURI,OrganisationURI,url,1,url,organisation,,2019-10-31
 OrganisationLabel,OrganisationLabel,string,1,value,,,2019-10-31
 SiteReference,SiteReference,string,1,value,site,,2019-10-31
