@@ -1,17 +1,23 @@
-FRONTEND_URL=$(SOURCE_URL)/digital-land-frontend/master/application/
-
 .PHONY: \
 	render\
 	server
 
+ifeq ($(DATASET),)
+DATASET=$(PIPELINE_NAME)
+endif
+
+ifeq ($(DATASET_PATH),)
+DATASET_PATH=$(DATASET_DIR)/$(DATASET).csv
+endif
+
 TEMPLATE_FILES=$(wildcard templates/*)
 
-second-pass::	render
+second-pass:: render
 
-render:	bin/render.py $(TEMPLATE_FILES) $(SPECIFICATION_FILES) $(DATASET_FILES)
+render: $(TEMPLATE_FILES) $(SPECIFICATION_FILES) $(DATASET_FILES)
 	@-rm -rf ./docs/
 	@-mkdir ./docs/
-	python3 bin/render.py
+	digital-land --pipeline-name brownfield-land render --dataset-path $(DATASET_PATH)
 	@touch ./docs/.nojekyll
 
 # serve docs for testing
