@@ -17,7 +17,8 @@ second-pass:: render
 render: $(TEMPLATE_FILES) $(SPECIFICATION_FILES) $(DATASET_FILES)
 	@-rm -rf ./docs/
 	@-mkdir ./docs/
-	digital-land --pipeline-name brownfield-land render --dataset-path $(DATASET_PATH)
+	#digital-land --pipeline-name brownfield-land render --dataset-path $(DATASET_PATH)
+	python3 bin/render.py
 	@touch ./docs/.nojekyll
 
 # serve docs for testing
@@ -28,7 +29,7 @@ clobber clean::
 	rm -rf ./docs/ .cache/
 
 makerules::
-	curl -qsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
+	# curl -qsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
 
 commit-docs::
 	git add docs
