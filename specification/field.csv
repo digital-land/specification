@@ -170,7 +170,7 @@ wikidata,Wikidata identifier,string,1,identifier,,,
 wikipedia,Wikipedia page,url,1,url,,,
 OrganisationURI,OrganisationURI,url,1,url,organisation,,2019-10-31
 OrganisationLabel,OrganisationLabel,string,1,value,,,2019-10-31
-SiteReference,SiteReference,string,1,value,site,,2019-10-31
+SiteReference,SiteReference,string,1,geography,site,,2019-10-31
 SiteNameAddress,SiteNameAddress,string,1,value,address-text,,2019-10-31
 GeoX,GeoX,string,1,value,longitude,,2019-10-31
 GeoY,GeoY,string,1,value,latitude,,2019-10-31
