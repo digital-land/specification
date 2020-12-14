@@ -37,7 +37,12 @@ second-pass::
 
 # initialise
 init::
+ifneq (,$(wildcard requirements.txt))
 	pip3 install --upgrade -r requirements.txt
+endif
+ifneq (,$(wildcard setup.py))
+	pip install -e .
+endif
 
 submodules::
 	git submodule update --init --recursive --remote
