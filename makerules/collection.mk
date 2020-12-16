@@ -16,6 +16,11 @@ ENDPOINT_CSV=$(COLLECTION_DIR)endpoint.csv
 LOG_DIR=$(COLLECTION_DIR)log/
 LOG_FILES_TODAY:=$(LOG_DIR)$(shell date +%Y-%m-%d)/
 
+# collection index
+COLLECTION_INDEX=\
+	$(COLLECTION_DIR)/log.csv\
+	$(COLLECTION_DIR)/resource.csv
+
 first-pass:: collect
 
 second-pass:: collection
@@ -27,7 +32,7 @@ collection::
 	digital-land collection-save-csv
 
 clobber-today::
-	rm -rf $(LOG_FILES_TODAY)
+	rm -rf $(LOG_FILES_TODAY) $(COLLECTION_INDEX)
 
 makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/main/collection.mk' > makerules/collection.mk
