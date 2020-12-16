@@ -73,7 +73,6 @@
         Digital Land
         </a>
         <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
-
         <nav>
           <ul id="navigation" class="govuk-header__navigation" aria-label="Top Level Navigation">
             <li class="govuk-header__navigation-item">
@@ -102,7 +101,7 @@
             </li>
           </ul>
         </nav>
-      </div>
+        </div>
     </div>
   </div>
 </header>
@@ -393,8 +392,8 @@
           <td class="govuk-table__cell">SiteReference</td>
           <td class="govuk-table__cell"><a href="../datatype/string">string</a></td>
           <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
-          <td class="govuk-table__cell"><a href="#field_value">value</a></td>
-          <td class="govuk-table__cell"><a href="../typology/value">value</a></td>
+          <td class="govuk-table__cell"><a href="#field_geography">geography</a></td>
+          <td class="govuk-table__cell"><a href="../typology/geography">geography</a></td>
         </tr>
     
         <tr class="govuk-table__row">
@@ -1288,6 +1287,26 @@
         </tr>
     
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_member-organisation"><a href="member-organisation">member-organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation which is a member of this organisation</td>
+          <td class="govuk-table__cell"><a href="../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="../typology/organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_member-organisations"><a href="member-organisations">member-organisations</a>
+          </td>
+          <td class="govuk-table__cell">Organisations which are a member of this organisation</td>
+          <td class="govuk-table__cell"><a href="../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
+          <td class="govuk-table__cell"><a href="#field_organisation">organisation</a></td>
+          <td class="govuk-table__cell"><a href="../typology/organisation">organisation</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_minimum-net-dwellings"><a href="minimum-net-dwellings">minimum-net-dwellings</a>
           </td>
           <td class="govuk-table__cell">Minimum net dwellings</td>
@@ -1474,6 +1493,16 @@
           <td class="govuk-table__cell"><a href="../datatype/string">string</a></td>
           <td class="govuk-table__cell govuk-table__cell--numeric">1</td>
           <td class="govuk-table__cell"><a href="#field_identifier">identifier</a></td>
+          <td class="govuk-table__cell"><a href="../typology/value">value</a></td>
+        </tr>
+    
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_pipelines"><a href="pipelines">pipelines</a>
+          </td>
+          <td class="govuk-table__cell">Pipelines</td>
+          <td class="govuk-table__cell"><a href="../datatype/string">string</a></td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">n</td>
+          <td class="govuk-table__cell"><a href="#field_pipeline">pipeline</a></td>
           <td class="govuk-table__cell"><a href="../typology/value">value</a></td>
         </tr>
     
