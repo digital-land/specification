@@ -52,8 +52,8 @@ jobs:
     - name: Commit collection
       run: make commit-collection
 
-    - name: Update the collection dataset
-      run: make collection
+    - name: Build docs
+      run: make check render
 
-    - name: Commit collection
-      run: make commit-collection
+    - name: Commit docs
+      run: make check commit-docs
