@@ -46,14 +46,14 @@ jobs:
     - name: Install dependencies
       run: make init
 
-    - name: Run the collector
+    - name: Collect remote files
       run: make collect
 
-    - name: Commit collection
-      run: make commit-collection
+    - name: Check specification
+      run: make check
 
     - name: Build docs
-      run: make check render
+      run: make render
 
     - name: Commit docs
-      run: make check commit-docs
+      run: make commit-docs
