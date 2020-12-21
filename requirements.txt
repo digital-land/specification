@@ -1,4 +1,3 @@
 -e git+https://github.com/digital-land/digital-land-python.git#egg=digital-land
--e git+https://github.com/digital-land/frontend.git#egg=digital_land_frontend
 -e git+https://github.com/digital-land/govuk-jinja-components.git#egg=govuk_jinja_components
 Markdown==3.2.2
