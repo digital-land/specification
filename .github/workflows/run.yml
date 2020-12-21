@@ -46,8 +46,17 @@ jobs:
     - name: Install dependencies
       run: make init
 
-    - name: Collect remote files
+    - name: Run the collector
       run: make collect
+
+    - name: Commit collection
+      run: make commit-collection
+
+    - name: Update the collection dataset
+      run: make collection
+
+    - name: Commit collection
+      run: make commit-collection
 
     - name: Check specification
       run: make check
