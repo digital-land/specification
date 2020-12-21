@@ -177,7 +177,7 @@ SiteNameAddress,SiteNameAddress,string,1,value,address-text,,2019-10-31
 GeoX,GeoX,string,1,value,longitude,,2019-10-31
 GeoY,GeoY,string,1,value,latitude,,2019-10-31
 SiteplanURL,SiteplanURL,url,1,url,site-plan-url,,2019-10-31
-Hectares,Hectares,string,1,value,hectares,,2019-10-31
+Hectares,Hectares,decimal,1,value,hectares,,2019-10-31
 OwnershipStatus,OwnershipStatus,string,1,value,ownership-status,,2019-10-31
 HazardousSubstances,HazardousSubstances,flag,1,category,hazardous-substances,,2019-10-31
 PlanningStatus,Planning permission status,string,1,category,planning-permission-status,,2019-10-31
