@@ -43,3 +43,18 @@ makerules::
 commit-docs::
 	git add docs
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt docs $(shell date +%F)"; git push origin $(BRANCH))
+
+# TBD: use data package
+# -- this assumes pages are in a different repository to the pipeline
+ifneq ($(DATASET_PATH),)
+$(DATASET_PATH):
+	mkdir -p $(DATASET_DIR)
+	curl -qsL 'https://raw.githubusercontent.com/digital-land/$(DATASET)-collection/main/dataset/$(DATASET).csv' > $(DATASET_PATH)
+endif
+
+# TBD: remove this rule
+# -- templates should have relative links to ensure we are testing deployed pages locally
+local::
+	@rm -rf $(DOCS_DIR)
+	@mkdir $(DOCS_DIR)
+	digital-land --pipeline-name $(DATASET) render --dataset-path $(DATASET_PATH) --local
