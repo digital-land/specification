@@ -312,6 +312,7 @@ pipeline,end-date
 pipeline,entry-date
 pipeline,pipeline
 pipeline,schema
+pipeline,scope-field
 pipeline,start-date
 pipeline-column,end-date
 pipeline-column,entry-date
@@ -385,6 +386,7 @@ regional-park-authority,start-date
 regional-park-authority,wikidata
 schema,end-date
 schema,entry-date
+schema,key-field
 schema,name
 schema,schema
 schema,description
