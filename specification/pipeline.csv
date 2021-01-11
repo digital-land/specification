@@ -1,12 +1,13 @@
-pipeline,name,plural,schema
-brownfield-land,Brownfield land,Brownfield land,brownfield-land
-conservation-area,Conservation area,Conservation areas,geography
-local-authority-district,Local authority district,Local authority districts,geography
-government-organisation,"Government organisation","Government departments, agencies and public bodies",organisation
-public-authority,"Public authority","Public authorities",organisation
-local-authority-eng,"Local authority","Local authorities",organisation
-national-park-authority,"National park","National park authorities, including the Broads",organisation
-regional-park-authority,"Regional park authority","Regional park authorities",organisation
-development-corporation,"Development corporation","Development corporations",organisation
-transport-authority,"Transport authority","Transport authorities",organisation
-waste-authority,"Waste authority","Waste authorities",organisation
+pipeline,name,plural,schema,scope-field
+brownfield-land,Brownfield land,Brownfield land,brownfield-land,organisation
+conservation-area,Conservation area,Conservation areas,geography,organisation
+local-authority-district,Local authority district,Local authority districts,geography,
+government-organisation,"Government organisation","Government departments, agencies and public bodies",organisation,
+public-authority,"Public authority","Public authorities",organisation,
+local-authority-eng,"Local authority","Local authorities",organisation,
+national-park-authority,"National park","National park authorities, including the Broads",organisation,
+regional-park-authority,"Regional park authority","Regional park authorities",organisation,
+development-corporation,"Development corporation","Development corporations",organisation,
+transport-authority,"Transport authority","Transport authorities",organisation,
+waste-authority,"Waste authority","Waste authorities",organisation,
+parish,Parish,Parishes,geography,organisation
