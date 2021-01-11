@@ -74,6 +74,7 @@ init::
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/field.csv' > specification/field.csv
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/datatype.csv' > specification/datatype.csv
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/typology.csv' > specification/typology.csv
+	curl -qsL '$(SOURCE_URL)/specification/main/specification/pipeline.csv' > specification/pipeline.csv
 endif
 
 commit-makerules::
