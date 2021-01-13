@@ -1,7 +1,7 @@
 pipeline,name,plural,schema,scope-field,slug-prefix
 brownfield-land,Brownfield land,Brownfield land,brownfield-land,organisation,
 brownfield-site,Brownfield site,Brownfield sites,brownfield-land,organisation,
-conservation-area,Conservation area,Conservation areas,geography,organisation,
+conservation-area,Conservation area,Conservation areas,geography,organisation,conservation-area
 local-authority-district,Local authority district,Local authority districts,geography,,
 government-organisation,"Government organisation","Government departments, agencies and public bodies",organisation,,/organisation
 public-authority,"Public authority","Public authorities",organisation,,/organisation
@@ -13,4 +13,4 @@ transport-authority,"Transport authority","Transport authorities",organisation,,
 waste-authority,"Waste authority","Waste authorities",organisation,,/organisation
 parish,Parish,Parishes,geography,,
 development-policy,Development Policy,Development Policies,development-policy,organisation,
-development-policy-area,Development Policy Area,Development Policy Areas,geography,organisation,
+development-policy-area,Development Policy Area,Development Policy Areas,geography,organisation,development-policy-area
