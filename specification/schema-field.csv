@@ -226,16 +226,15 @@ field,name
 field,parent-field
 field,replacement-field
 field,start-date
-geography,documentation-url
-geography,end-date
-geography,entry-date
 geography,geography
-geography,geometry
 geography,name
 geography,organisation
-geography,name
 geography,reference
+geography,documentation-url
+geography,geometry
+geography,entry-date
 geography,start-date
+geography,end-date
 government-organisation,end-date
 government-organisation,entry-date
 government-organisation,government-organisation
@@ -312,8 +311,6 @@ pipeline,end-date
 pipeline,entry-date
 pipeline,pipeline
 pipeline,schema
-pipeline,scope-field
-pipeline,slug-prefix
 pipeline,start-date
 pipeline-column,end-date
 pipeline-column,entry-date
@@ -387,7 +384,6 @@ regional-park-authority,start-date
 regional-park-authority,wikidata
 schema,end-date
 schema,entry-date
-schema,key-field
 schema,name
 schema,schema
 schema,description
