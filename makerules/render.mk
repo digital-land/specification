@@ -10,6 +10,10 @@ endif
 ifeq ($(DATASET_PATH),)
 DATASET_PATH=$(DATASET_DIR)$(DATASET).csv
 endif
+
+ifeq ($(DATASET_URL),)
+DATASET_URL='https://raw.githubusercontent.com/digital-land/$(DATASET)-collection/main/dataset/$(DATASET).csv'
+endif
 endif
 
 ifeq ($(DOCS_DIR),)
@@ -49,7 +53,7 @@ commit-docs::
 ifneq ($(DATASET_PATH),)
 $(DATASET_PATH):
 	mkdir -p $(DATASET_DIR)
-	curl -qsL 'https://raw.githubusercontent.com/digital-land/$(DATASET)-collection/main/dataset/$(DATASET).csv' > $(DATASET_PATH)
+	curl -qsL $(DATASET_URL) > $(DATASET_PATH)
 endif
 
 # TBD: remove this rule
