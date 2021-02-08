@@ -38,8 +38,13 @@ endif
 server:
 	cd docs && python3 -m http.server
 
-clobber clean::
-	rm -rf $(DATASET_PATH) $(DOCS_DIR)
+clobber clean:: clobber-dataset clobber-docs
+	
+clobber-dataset::
+	rm -rf $(DATASET_PATH)
+	
+clobber-docs::
+	rm -rf $(DOCS_DIR)
 
 makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
