@@ -199,6 +199,6 @@ Deliverable,Deliverable,flag,1,category,deliverable,,2019-10-31
 Notes,Notes,text,1,text,notes,,2019-10-31
 FirstAddedDate,FirstAddedDate,datetime,1,datetime,start-date,,2019-10-31
 LastUpdatedDate,LastUpdatedDate,datetime,1,datetime,entry-date,,2019-10-31
-EndDate,EndDate,string,1,datetime,end-date,,2019-10-31
+EndDate,EndDate,datetime,1,datetime,end-date,,2019-10-31
 DevelopmentDescription,Development description,text,1,text,notes,,2019-10-31
 SiteInformation,Site information,text,1,text,notes,,2019-10-31
