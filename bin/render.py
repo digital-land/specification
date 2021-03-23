@@ -8,7 +8,7 @@ from digital_land_frontend.jinja import setup_jinja
 
 docs = "docs/"
 staticPath = "https://digital-land.github.io"
-assetPath = "https://digital-land.github.io/assets"
+assetPath = "https://digital-land.github.io"
 
 keys = {
     "schema-field": ["schema", "field"],
