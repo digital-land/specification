@@ -1,10 +1,11 @@
 field,name,datatype,cardinality,parent-field,replacement-field,description,end-date
 address,Address,string,1,geography,,,
-address-text,Address text,string,1,text,,,
 addressbase-custodian,AddressBase custodian,string,1,organisation,,,
+address-text,Address text,string,1,text,,,
 amount,Amount,decimal,1,number,,,
 attribution,Attribution,text,1,text,,,
 billing-authority,Billing authority,string,1,organisation,,,
+bytes,Bytes,integer,1,number,,,
 cardinality,Cardinality,string,1,category,,,
 category,Category,curie,1,category,,,
 census-area,Census area,string,1,geography,,,
@@ -25,12 +26,14 @@ datatype,Datatype,string,1,specification,,,
 datetime,Datetime,datetime,1,datetime,,,
 default-field,Default field,string,1,field,,,
 deliverable,Deliverable,flag,1,category,,,
+Deliverable,Deliverable,flag,1,category,deliverable,,2019-10-31
 description,Description,string,1,text,,,
-developer-agreement,Developer agreement,string,1,legal-instrument,,"A legal document used to secure contributions from a development for infrastructure or affordable housing.",
 developer-agreement-contribution,Developer agreement contribution,string,1,identifier,,,
+developer-agreement,Developer agreement,string,1,legal-instrument,,"A legal document used to secure contributions from a development for infrastructure or affordable housing.",
 developer-agreement-transaction,Developer agreement transaction,string,1,identifier,,,
 developer-agreement-type,Developer agreement type,string,1,category,,,
 development-corporation,Development corporation,string,1,organisation,,,
+DevelopmentDescription,Development description,text,1,text,notes,,2019-10-31
 development-metric,Development metric,string,1,category,,,
 development-plan-document,Development plan document,string,1,document,,,
 development-plan-status,Development plan status,string,1,category,,,
@@ -38,15 +41,16 @@ development-plan-timetable,Development plan timetable,string,1,identifier,,,
 development-plan-type,Development plan type,string,1,category,,,
 development-plan-types,Development plan types,string,n,development-plan-type,,"One or more development plan types",
 development-policies,Development policies,string,n,development-policy,,"A list of development policies",
-development-policy,Development policy,string,1,legal-instrument,,,
 development-policy-area,Development policy area,string,1,geography,,,
 development-policy-categories,Development policy categories,string,n,development-policy-category,,,
 development-policy-category,Development policy category,string,1,category,,,
+development-policy,Development policy,string,1,legal-instrument,,,
+documentation-url,Documentation URL,url,1,url,,,
 document,Document,string,1,document,,,
 document-url,Document URL,url,1,url,,,
-documentation-url,Documentation URL,url,1,url,,,
 elapsed,Elapsed time,decimal,1,number,,,
 end-date,End date,datetime,1,datetime,,,
+EndDate,EndDate,datetime,1,datetime,end-date,,2019-10-31
 endpoint,Endpoint,hash,1,hash,,,
 endpoints,Endpoints,hash,n,hash,,,
 endpoint-url,Endpoint URL,url,1,url,,,
@@ -54,28 +58,33 @@ entry-date,Entry date,datetime,1,datetime,,,
 esd-inventory,ESD inventory,string,1,identifier,,,
 field,Field,string,1,specification,,,
 fields,Fields,string,n,field,,,
-bytes,Bytes,integer,1,number,,,
+FirstAddedDate,FirstAddedDate,datetime,1,datetime,start-date,,2019-10-31
 further-education-college-region-uk,Further education college region (UK),string,1,geography,,,
 further-education-college-uk,Further education college (UK),string,1,organisation,,,
-geography,Geography,curie,1,geography,,,
 geographies,Geography,curie,n,geography,,,
+geography,Geography,curie,1,geography,,,
 geometry,Geometry,wkt,1,geometry,,,
+GeoX,GeoX,string,1,value,longitude,,2019-10-31
+GeoY,GeoY,string,1,value,latitude,,2019-10-31
 government-domain,Government domain,string,1,hostname,,,
 government-organisation,Government organisation,string,1,organisation,,,
 government-service,Government service,string,1,identifier,,,
 hash,Hash,hash,1,string,,,
 hazardous-substances,Hazardous substances,flag,1,category,,,
+HazardousSubstances,HazardousSubstances,flag,1,category,hazardous-substances,,2019-10-31
 hectares,Hectares,decimal,1,number,,,
+Hectares,Hectares,decimal,1,value,hectares,,2019-10-31
 hostname,Hostname,string,1,name,,,
 identifier,Identifier,string,1,value,,,
 infrastructure-funding-statement,Infrastructure Funding Statement,string,1,document,,,
 internal-drainage-board,Internal drainage board,string,1,organisation,,,
 item,JSON,json,1,json,,,
-jobcentre,Jobcentre,string,1,organisation,,,
 jobcentre-district,Jobcentre district,string,1,geography,,,
 jobcentre-group,Jobcentre group,string,1,geography,,,
+jobcentre,Jobcentre,string,1,organisation,,,
 json,JSON data,json,1,value,,,
 key-field,Key field,string,1,field,,,
+LastUpdatedDate,LastUpdatedDate,datetime,1,datetime,entry-date,,2019-10-31
 latitude,Latitude,latitude,1,geometry,point,,2020-07-30
 legal-instrument,Legal instrument,string,1,document,,,
 legislation,Legislation,string,1,legal-instrument,,,
@@ -87,36 +96,47 @@ local-authority-type,Local authority type,string,1,category,,,
 local-resilience-forum,Local resilience forum,string,1,organisation,,,
 longitude,Longitude,longitude,1,geometry,point,,2020-07-30
 maximum-net-dwellings,Maximum net dwellings,integer,1,number,,,
-minimum-net-dwellings,Minimum net dwellings,integer,1,number,,,
-name,Name,string,1,text,,,
-name-cy,Name (Welsh),string,1,name,,,
-national-park-authority,National park authority,string,1,organisation,,,
-notes,Notes,text,1,text,,,
-number,Number,decimal,1,value,,,
-official-name,Official name,string,1,name,,,
-official-name-cy,Official name (Welsh),string,1,name,,,
-opendatacommunities-area,Open Data Communities area,url,1,url,,,
-opendatacommunities-organisation,Open Data Communities organisation,url,1,url,,,
-organisation,Organisation,curie,1,organisation,,,
-organisations,Organisations,string,n,organisation,,,
 member-organisation,Organisation which is a member of this organisation,curie,1,organisation,,,
 member-organisations,Organisations which are a member of this organisation,curie,1,organisation,,,
+minimum-net-dwellings,Minimum net dwellings,integer,1,number,,,
+MinNetDwellings,Minimum net dwellings,integer,1,number,,,2019-10-31
+name-cy,Name (Welsh),string,1,name,,,
+name,Name,string,1,text,,,
+national-park-authority,National park authority,string,1,organisation,,,
+NetDwellingsRangeFrom,Minimum net dwellings,integer,1,number,minimum-net-dwellings,,2019-10-31
+NetDwellingsRangeTo,Maximum net dwellings,integer,1,number,maximum-net-dwellings,,2019-10-31
+notes,Notes,text,1,text,,,
+Notes,Notes,text,1,text,notes,,2019-10-31
+number,Number,decimal,1,value,,,
+official-name-cy,Official name (Welsh),string,1,name,,,
+official-name,Official name,string,1,name,,,
+opendatacommunities-area,Open Data Communities area,url,1,url,,,
+opendatacommunities-organisation,Open Data Communities organisation,url,1,url,,,
+OrganisationLabel,OrganisationLabel,string,1,value,,,2019-10-31
+organisation,Organisation,curie,1,organisation,,,
+organisations,Organisations,string,n,organisation,,,
+OrganisationURI,OrganisationURI,url,1,url,organisation,,2019-10-31
 ownership-status,Ownership status,string,1,category,,,
+OwnershipStatus,OwnershipStatus,string,1,value,ownership-status,,2019-10-31
 parameter,Parameter,string,1,string,,,
 parameters,Parameters,string,n,string,,,
 parent-field,Parent field,string,1,field,,,
 pattern,Pattern,pattern,1,string,,,
-permitted-development-right,Permitted development right,string,1,legislation,,,
+PermissionDate,Planning permission date,datetime,1,datetime,planning-permission-date,,2019-10-31
+PermissionType,Planning permission type,string,1,category,planning-permission-type,,2019-10-31
 permitted-development-right-class,Permitted development right class,string,1,category,,,
 permitted-development-right-part,Permitted development right part,string,1,category,,,
+permitted-development-right,Permitted development right,string,1,legislation,,,
 phase,Phase,string,1,category,,,
 pipeline,Pipeline,string,1,identifier,,,
 pipelines,Pipelines,string,n,pipeline,,,
 planning-application,Planning application,string,1,legal-instrument,,,
+PlanningHistory,Planning permission history,url,n,document-url,planning-permission-history,,2019-10-31
 planning-permission-date,Planning permission date,datetime,1,datetime,,,
 planning-permission-history,Planning permission history,url,n,document-url,,,
 planning-permission-status,Planning permission status,string,1,category,,,
 planning-permission-type,Planning permission type,string,1,category,,,
+PlanningStatus,Planning permission status,string,1,category,planning-permission-status,,2019-10-31
 plugin,Plugin,string,1,identifier,,,
 plural,Plural name,string,1,text,,,
 point,Point,wkt,1,geometry,,,
@@ -126,8 +146,8 @@ provenance,Provenance,hash,1,hash,,,
 public-authority,Public authority,string,1,organisation,,,
 purpose,Purpose,text,1,text,,,
 reference,Reference,string,1,text,,,
-region,Region,curie,1,geography,,,
 regional-park-authority,Regional park authority,string,1,organisation,,,
+region,Region,curie,1,geography,,,
 register,Register,string,1,specification,,,
 registration-district,Registration district,string,1,geography,,,
 registry,Registry,string,1,organisation,,,
@@ -142,16 +162,19 @@ scope-field,Scope field,string,1,field,,,
 separator,Separator,string,1,string,,,
 shielding-hub,Shielding hub,curie,1,organisation,,,
 short-name,Short name,string,1,name,,,
-site,Site,string,1,geography,,,
 site-address,Site address,string,1,address-text,address-text,,
+SiteInformation,Site information,text,1,text,notes,,2019-10-31
+SiteNameAddress,SiteNameAddress,string,1,value,address-text,,2019-10-31
 site-plan-url,Site plan URL,url,1,document-url,,,
-slug,Slug,string,1,string,,,
+SiteplanURL,SiteplanURL,url,1,url,site-plan-url,,2019-10-31
+SiteReference,SiteReference,string,1,geography,site,,2019-10-31
+site,Site,string,1,geography,,,
 slug-prefix,Slug prefix,string,1,string,,,
+slug,Slug,string,1,string,,,
 source,Source,string,1,identifier,,,
 specification,Specification,string,1,specification,,,
 start-date,Start date,datetime,1,datetime,,,
 statistical-geographies,Statistical geographies,string,n,statistical-geography,,,
-statistical-geography,Statistical geography,string,1,geography,,,
 statistical-geography-county-eng,Country statistical geography,string,1,statistical-geography,,,
 statistical-geography-local-government-district-nir,Local government district statistical geography (Northern Ireland),string,1,statistical-geography,,,
 statistical-geography-london-borough-eng,London borough statistical geography (England),string,1,statistical-geography,,,
@@ -159,6 +182,7 @@ statistical-geography-metropolitan-district-eng,Metropolitan district statistica
 statistical-geography-non-metropolitan-district-eng,Non-metropolitan district statistical geography (England),string,1,statistical-geography,,,
 statistical-geography-registration-district-eng,Registration district statistical geography (England),string,1,statistical-geography,,,
 statistical-geography-registration-district-wls,Registration district statistical geography (Wales),string,1,statistical-geography,,,
+statistical-geography,Statistical geography,string,1,geography,,,
 statistical-geography-unitary-authority-eng,Unitary authority statistical geography (England),string,1,statistical-geography,,,
 statistical-geography-unitary-authority-wls,Unitary authority statistical geography (Wales),string,1,statistical-geography,,,
 status,Status,string,1,category,,,
@@ -177,27 +201,3 @@ value,Value,string,1,value,,,
 website,Website,url,1,url,,,
 wikidata,Wikidata identifier,string,1,identifier,,,
 wikipedia,Wikipedia page,url,1,url,,,
-OrganisationURI,OrganisationURI,url,1,url,organisation,,2019-10-31
-OrganisationLabel,OrganisationLabel,string,1,value,,,2019-10-31
-SiteReference,SiteReference,string,1,geography,site,,2019-10-31
-SiteNameAddress,SiteNameAddress,string,1,value,address-text,,2019-10-31
-GeoX,GeoX,string,1,value,longitude,,2019-10-31
-GeoY,GeoY,string,1,value,latitude,,2019-10-31
-SiteplanURL,SiteplanURL,url,1,url,site-plan-url,,2019-10-31
-Hectares,Hectares,decimal,1,value,hectares,,2019-10-31
-OwnershipStatus,OwnershipStatus,string,1,value,ownership-status,,2019-10-31
-HazardousSubstances,HazardousSubstances,flag,1,category,hazardous-substances,,2019-10-31
-PlanningStatus,Planning permission status,string,1,category,planning-permission-status,,2019-10-31
-PermissionType,Planning permission type,string,1,category,planning-permission-type,,2019-10-31
-PermissionDate,Planning permission date,datetime,1,datetime,planning-permission-date,,2019-10-31
-PlanningHistory,Planning permission history,url,n,document-url,planning-permission-history,,2019-10-31
-MinNetDwellings,Minimum net dwellings,integer,1,number,,,2019-10-31
-NetDwellingsRangeFrom,Minimum net dwellings,integer,1,number,minimum-net-dwellings,,2019-10-31
-NetDwellingsRangeTo,Maximum net dwellings,integer,1,number,maximum-net-dwellings,,2019-10-31
-Deliverable,Deliverable,flag,1,category,deliverable,,2019-10-31
-Notes,Notes,text,1,text,notes,,2019-10-31
-FirstAddedDate,FirstAddedDate,datetime,1,datetime,start-date,,2019-10-31
-LastUpdatedDate,LastUpdatedDate,datetime,1,datetime,entry-date,,2019-10-31
-EndDate,EndDate,datetime,1,datetime,end-date,,2019-10-31
-DevelopmentDescription,Development description,text,1,text,notes,,2019-10-31
-SiteInformation,Site information,text,1,text,notes,,2019-10-31

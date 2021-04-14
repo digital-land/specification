@@ -1,33 +1,33 @@
 pipeline,name,plural,schema,scope-field,slug-prefix
+article-4-direction,Article 4 Direction,Article 4 Directions,geography,organisation,article-4-direction
 brownfield-land,Brownfield land,Brownfield land,brownfield-land,organisation,brownfield-land
 brownfield-site,Brownfield site,Brownfield sites,geography,organisation,brownfield-site
 conservation-area,Conservation area,Conservation areas,geography,organisation,conservation-area
-local-authority-district,Local authority district,Local authority districts,geography,,
+contribution-funding-status,Contribution Funding Status,Contribution Funding Statuses,contribution-funding-status,,contribution-funding-status
+contribution-purpose,Contribution Purpose,Contribution Purposes,contribution-purpose,,contribution-purpose
+developer-agreement-contribution,Developer Agreement Contribution,Developer Agreement Contributions,developer-agreement-contribution,organisation,developer-agreement-contribution
+developer-agreement,Developer Agreement,Developer Agreements,developer-agreement,organisation,developer-agreement
+developer-agreement-transaction,Developer Agreement Transaction,Developer Agreement Transactions,developer-agreement-transaction,organisation,developer-agreement-transaction
+developer-agreement-type,Developer Agreement Type,Developer Agreement Types,developer-agreement-type,,developer-agreement-type
+development-corporation,"Development corporation","Development corporations",organisation,,organisation
+development-plan-document,Development Plan Document,Development Plan Documents,development-plan-document,organisations,development-plan-document
+development-plan-type,Development Plan Type,Development Plan Types,development-plan-type,,development-plan-type
+development-policy-area,Development Policy Area,Development Policy Areas,geography,organisation,development-policy-area
+development-policy-category,Development Policy Category,Development Policy Categories,development-policy-category,,development-policy-category
+development-policy,Development Policy,Development Policies,development-policy,organisation,development-policy
 government-organisation,"Government organisation","Government departments, agencies and public bodies",organisation,,organisation
-wikidata-organisation,"Wikidata organisation","Organisational data from Wikidata",organisation,,organisation
-public-authority,"Public authority","Public authorities",organisation,,organisation
+infrastructure-funding-statement,Infrastructure Funding Statement,Infrastructure Funding Statements,infrastructure-funding-statement,organisation,infrastructure-funding-statement
+local-authority-district,Local authority district,Local authority districts,geography,,
 local-authority-eng,"Local authority","Local authorities",organisation,,organisation
 national-park-authority,"National park","National park authorities, including the Broads",organisation,,organisation
+neighbourhood-plan-area,Neighbourhood Plan Area,Neighbourhood Plan Areas,organisation,,
+ownership-status,Ownership Status,Ownership Statuses,ownership-status,,ownership-status
+parish,Parish,Parishes,geography,,
+permitted-development-right,Permitted Development Right,Permitted Development Rights,permitted-development-right,,permitted-development-right
+planning-permission-status,Planning Permission Status,Planning Permission Statuses,planning-permission-status,,planning-permission-status
+planning-permission-type,Planning Permission Type,Planning Permission Types,planning-permission-type,,planning-permission-type	
+public-authority,"Public authority","Public authorities",organisation,,organisation
 regional-park-authority,"Regional park authority","Regional park authorities",organisation,,organisation
-development-corporation,"Development corporation","Development corporations",organisation,,organisation
 transport-authority,"Transport authority","Transport authorities",organisation,,organisation
 waste-authority,"Waste authority","Waste authorities",organisation,,organisation
-parish,Parish,Parishes,geography,,
-development-policy,Development Policy,Development Policies,development-policy,organisation,development-policy
-development-policy-area,Development Policy Area,Development Policy Areas,geography,organisation,development-policy-area
-development-plan-document,Development Plan Document,Development Plan Documents,development-plan-document,organisations,development-plan-document
-article-4-direction,Article 4 Direction,Article 4 Directions,geography,organisation,article-4-direction
-neighbourhood-plan-area,Neighbourhood Plan Area,Neighbourhood Plan Areas,organisation,,
-development-plan-type,Development Plan Type,Development Plan Types,development-plan-type,,development-plan-type
-developer-agreement-type,Developer Agreement Type,Developer Agreement Types,developer-agreement-type,,developer-agreement-type
-contribution-purpose,Contribution Purpose,Contribution Purposes,contribution-purpose,,contribution-purpose
-contribution-funding-status,Contribution Funding Status,Contribution Funding Statuses,contribution-funding-status,,contribution-funding-status
-planning-permission-type,Planning Permission Type,Planning Permission Types,planning-permission-type,,planning-permission-type	
-planning-permission-status,Planning Permission Status,Planning Permission Statuses,planning-permission-status,,planning-permission-status
-ownership-status,Ownership Status,Ownership Statuses,ownership-status,,ownership-status
-development-policy-category,Development Policy Category,Development Policy Categories,development-policy-category,,development-policy-category
-developer-agreement,Developer Agreement,Developer Agreements,developer-agreement,organisation,developer-agreement
-developer-agreement-contribution,Developer Agreement Contribution,Developer Agreement Contributions,developer-agreement-contribution,organisation,developer-agreement-contribution
-developer-agreement-transaction,Developer Agreement Transaction,Developer Agreement Transactions,developer-agreement-transaction,organisation,developer-agreement-transaction
-permitted-development-right,Permitted Development Right,Permitted Development Rights,permitted-development-right,,permitted-development-right
-infrastructure-funding-statement,Infrastructure Funding Statement,Infrastructure Funding Statements,infrastructure-funding-statement,organisation,infrastructure-funding-statement
+wikidata-organisation,"Wikidata organisation","Organisational data from Wikidata",organisation,,organisation
