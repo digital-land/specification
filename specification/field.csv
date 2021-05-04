@@ -16,6 +16,7 @@ clinical-commissioning-group,Clinical commissioning group,string,1,organisation,
 collection,Collection,string,1,identifier,,,
 combined-authority,Combined authority,string,1,organisation,,,
 company,Company,string,1,organisation,,,
+conservation-area,Conservation Area,string,1,geography,,,
 contact,Contact,string,1,name,,,
 content-type,Content-Type,string,1,string,,,
 contribution-funding-status,Contribution funding status,string,1,category,,,
@@ -123,6 +124,7 @@ OwnershipStatus,OwnershipStatus,string,1,value,ownership-status,,2019-10-31
 parameter,Parameter,string,1,string,,,
 parameters,Parameters,string,n,string,,,
 parent-field,Parent field,string,1,field,,,
+parish,Parish,string,1,geography,,,
 pattern,Pattern,pattern,1,string,,,
 PermissionDate,Planning permission date,datetime,1,datetime,planning-permission-date,,2019-10-31
 PermissionType,Planning permission type,string,1,category,planning-permission-type,,2019-10-31
