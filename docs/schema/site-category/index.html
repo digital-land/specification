@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Brownfield land | Digital Land</title>
+    <title>Site category | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -137,12 +137,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
+      <a class="govuk-breadcrumbs__link" href="../">Schema</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Brownfield land</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Site category</li>
     
   
   </ol>
@@ -154,47 +154,92 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Dataset specification</span>
-  <h1 class="govuk-heading-xl">Brownfield land</h1>
+  <span class="govuk-caption-xl">Schema</span>
+  <h1 class="govuk-heading-xl">Site category</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-<p class="govuk-body">Plots of land that have previously been developed but are not currently in use</p>
-<ul class="govuk-list govuk-list--bullet">
-<li><a href="https://digital-land.github.io/project/brownfield-sites/">project</a></li>
-<li><a href="https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data">guidance</a></li>
-<li><a href="https://www.gov.uk/guidance/brownfield-land-registers">policy</a></li>
-<li><a href="http://www.legislation.gov.uk/uksi/2017/403/contents/made">legislation</a></li>
-</ul>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
 
-    <h2 class="govuk-heading-m" id="schemas">Schemas</h2>
-    <p class="govuk-body">The <a href="/dataset/brownfield-land">Brownfield land dataset</a> contains data defined by the following schemas:</p>
+    <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_site-category"><a href="../../field/site-category">site-category</a>
+           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
+          <td class="govuk-table__cell">Site category</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+      </tbody>
+    </table>
+
+    
+    <h2 class="govuk-heading-s" id="">Typology</h2>
+    <p class="govuk-body">This schema belongs to the <a href="../../typology/category">category</a> typology.</p>
+    
+
+    
+
+    
+    <h2 class="govuk-heading-s" id="">Datasets</h2>
+    <p class="govuk-body">This schema is used in the following datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      
-      <li>
-          <a href="../../schema/brownfield-land">Brownfield land</a></li>
-    
-      
-      <li>
-          <a href="../../schema/ownership-status">Ownership status</a></li>
-    
-      
-      <li>
-          <a href="../../schema/planning-permission-status">Planning permission status</a></li>
-    
-      
-      <li>
-          <a href="../../schema/planning-permission-type">Planning permission type</a></li>
-    
-      
-      <li>
-          <a href="../../schema/site-category">Site category</a></li>
+      <li><a href="../../dataset/brownfield-land">Brownfield land</a></li>
     
     </ul>
+    
   </div>
 </div>
 
