@@ -173,6 +173,7 @@ separator,Separator,string,1,string,,,
 shielding-hub,Shielding hub,curie,1,organisation,,,
 short-name,Short name,string,1,name,,,
 site-address,Site address,string,1,address-text,address-text,,
+site-category,Site category,string,1,category,,,
 SiteInformation,Site information,text,1,text,notes,,2019-10-31
 SiteNameAddress,SiteNameAddress,string,1,value,address-text,,2019-10-31
 site-plan-url,Site plan URL,url,1,document-url,,,
