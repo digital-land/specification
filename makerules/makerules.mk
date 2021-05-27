@@ -2,6 +2,7 @@ SOURCE_URL=https://raw.githubusercontent.com/digital-land/
 
 .PHONY: \
 	makerules\
+	specification\
 	init\
 	first-pass\
 	second-pass\
@@ -65,7 +66,7 @@ makerules::
 
 ifeq (,$(wildcard ./makerules/specification.mk))
 # update local copies of specification files
-init::
+specification::
 	@mkdir -p specification/
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/dataset.csv' > specification/dataset.csv
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/dataset-schema.csv' > specification/dataset-schema.csv
@@ -75,6 +76,8 @@ init::
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/datatype.csv' > specification/datatype.csv
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/typology.csv' > specification/typology.csv
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/pipeline.csv' > specification/pipeline.csv
+
+init::	specification
 endif
 
 commit-makerules::
