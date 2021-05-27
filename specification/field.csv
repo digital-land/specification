@@ -136,6 +136,7 @@ OwnershipStatus,OwnershipStatus,string,1,value,ownership-status,,2019-10-31
 parameter,Parameter,string,1,string,,,
 parameters,Parameters,string,n,string,,,
 park-and-garden,Park and garden,string,1,geography,,,
+park-and-garden-grade,Park and garden grade,string,1,category,,,
 parent-field,Parent field,string,1,field,,,
 parish,Parish,string,1,geography,,,
 pattern,Pattern,pattern,1,string,,,
