@@ -2,9 +2,9 @@
 	render\
 	server
 
-ifneq ($(DATASET),)
-ifeq ($(DATASET_DIR),)
-DATASET_DIR=dataset/
+
+ifeq ($(DATASET),)
+DATASET=$(shell basename -s .git `git config --get remote.origin.url`)
 endif
 
 ifeq ($(COLLECTION),)
@@ -18,6 +18,9 @@ endif
 ifeq ($(DATASET_URL),)
 DATASET_URL='https://github.com/digital-land/$(COLLECTION)-collection/raw/main/dataset/$(DATASET).sqlite3'
 endif
+
+ifeq ($(DATASET_DIR),)
+DATASET_DIR=dataset/
 endif
 
 ifeq ($(DOCS_DIR),)
