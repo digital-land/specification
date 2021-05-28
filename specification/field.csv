@@ -104,6 +104,8 @@ LastUpdatedDate,LastUpdatedDate,datetime,1,datetime,entry-date,,2019-10-31
 latitude,Latitude,latitude,1,geometry,point,,2020-07-30
 legislation,Legislation,string,1,document,,,
 licence,Licence,text,1,text,,,
+listed-building,Listed building,string,1,geography,,,
+listed-building-grade,Listed building grade,string,1,category,,,
 local-authority-district,Local Authority District,string,1,geography,,,
 local-authority-eng,Local authority (England),string,1,organisation,,,
 local-authority-nir,Local authority (Northern Ireland),string,1,organisation,,,
