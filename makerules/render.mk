@@ -54,7 +54,7 @@ clobber-docs::
 	rm -rf $(DOCS_DIR)
 
 makerules::
-	curl -qsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
+	curl -qfsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
 
 commit-docs::
 	git add docs
@@ -65,7 +65,7 @@ commit-docs::
 ifneq ($(DATASET_PATH),)
 $(DATASET_PATH):
 	mkdir -p $(DATASET_DIR)
-	curl -qsL $(DATASET_URL) > $(DATASET_PATH)
+	curl -qfsL $(DATASET_URL) > $(DATASET_PATH)
 endif
 
 # TBD: remove this rule
