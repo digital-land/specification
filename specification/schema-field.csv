@@ -256,6 +256,11 @@ government-organisation,government-organisation
 government-organisation,name
 government-organisation,start-date
 government-organisation,website
+green-belt-category,green-belt-category
+green-belt-category,end-date
+green-belt-category,entry-date
+green-belt-category,name
+green-belt-category,start-date
 infrastructure-funding-statement,documentation-url
 infrastructure-funding-statement,document-url
 infrastructure-funding-statement,end-date
@@ -285,6 +290,11 @@ listed-building,listed-building-grade
 listed-building,point
 listed-building,reference
 listed-building,start-date
+listed-building-grade,end-date
+listed-building-grade,entry-date
+listed-building-grade,listed-building-grade
+listed-building-grade,name
+listed-building-grade,start-date
 local-authority-eng,end-date
 local-authority-eng,entry-date
 local-authority-eng,local-authority-eng
@@ -350,6 +360,11 @@ park-and-garden,park-and-garden-grade
 park-and-garden,point
 park-and-garden,reference
 park-and-garden,start-date
+park-and-garden-grade,park-and-garden-grade
+park-and-garden-grade,end-date
+park-and-garden-grade,entry-date
+park-and-garden-grade,name
+park-and-garden-grade,start-date
 permitted-development-right-class,end-date
 permitted-development-right-class,entry-date
 permitted-development-right-class,name

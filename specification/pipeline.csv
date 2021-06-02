@@ -24,17 +24,20 @@ document,Document,Documents,document,,document
 document-type,Document Type,Document Types,category,,document-type
 government-organisation,"Government organisation","Government departments, agencies and public bodies",organisation,,organisation
 green-belt,"Green belt","Green belt",geography,,green-belt
+green-belt-category,"Green belt category","Green belt category",category,,green-belt-category
 heritage-at-risk,"Heritage at risk","Heritage at risk",geography,,heritage-at-risk
 heritage-coast,"Heritage Coast","Heritage Coasts",geography,,heritage-coast
 infrastructure-funding-statement,Infrastructure Funding Statement,Infrastructure Funding Statements,infrastructure-funding-statement,organisation,infrastructure-funding-statement
 listed-building,"Listed building","Listed buildings",listed-building,,listed-building
+listed-building-grade,"Listed building grade","Listed building grades",listed-building-grade,,listed-building-grade
 local-authority-district,Local authority district,Local authority districts,geography,,
 local-authority-eng,"Local authority","Local authorities",organisation,,organisation
 national-park-authority,"National park","National park authorities, including the Broads",organisation,,organisation
 neighbourhood-plan-area,Neighbourhood Plan Area,Neighbourhood Plan Areas,organisation,,
 ownership-status,Ownership Status,Ownership Statuses,ownership-status,,ownership-status
 parish,Parish,Parishes,geography,,
-park-and-garden,Park and garden,Parks and Gardens,park-and-garden,,park-and-garden
+park-and-garden,Park and garden,Parks and gardens,park-and-garden-grade,,park-and-garden-grade
+park-and-garden-grade,Park and garden grade,Park and garden grades,park-and-garden,,park-and-garden
 permitted-development-right,Permitted Development Right,Permitted Development Rights,permitted-development-right,,permitted-development-right
 planning-permission-status,Planning Permission Status,Planning Permission Statuses,planning-permission-status,,planning-permission-status
 planning-permission-type,Planning Permission Type,Planning Permission Types,planning-permission-type,,planning-permission-type
