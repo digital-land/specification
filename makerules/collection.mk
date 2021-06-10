@@ -40,3 +40,12 @@ makerules::
 commit-collection::
 	git add collection
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Collection $(shell date +%F)"; git push origin $(BRANCH))
+
+save-resources::
+	aws s3 sync s3://collection-dataset/$(REPOSITORY)/$(RESOURCE_DIR) $(RESOURCE_DIR)
+
+load-resources::
+	aws s3 sync $(RESOURCE_DIR) s3://collection-dataset/$(REPOSITORY)/$(RESOURCE_DIR)
+
+collection/resource/%:
+	curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/resource/$(notdir $@)' > $@

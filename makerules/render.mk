@@ -4,7 +4,7 @@
 
 
 ifeq ($(DATASET),)
-DATASET=$(shell basename -s .git `git config --get remote.origin.url`)
+DATASET=$(REPOSITORY)
 endif
 
 ifeq ($(COLLECTION),)
@@ -62,8 +62,6 @@ commit-docs::
 	git add docs
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt docs $(shell date +%F)"; git push origin $(BRANCH))
 
-# TBD: use data package
-# -- this assumes pages are in a different repository to the pipeline
 ifneq ($(DATASET_PATH),)
 $(DATASET_PATH):
 	mkdir -p $(DATASET_DIR)
