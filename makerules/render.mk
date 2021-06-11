@@ -18,7 +18,7 @@ endif
 endif
 
 ifeq ($(DATASET_URL),)
-DATASET_URL='https://github.com/digital-land/$(COLLECTION)-collection/raw/main/dataset/$(DATASET).sqlite3'
+DATASET_URL='https://collection-dataset.s3.eu-west-2.amazonaws.com/$(COLLECTION)-collection/dataset/$(DATASET).sqlite3'
 endif
 
 ifeq ($(DATASET_DIR),)
