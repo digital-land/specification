@@ -6,8 +6,7 @@ REPOSITORY=$(shell basename -s .git `git config --get remote.origin.url`)
 endif
 
 define dataset_url
-'https://github.com/digital-land/$(2)-collection/blob/main/dataset/$(1).sqlite3?raw=true'
-'https://github.com/digital-land/$(2)-collection/blob/main/dataset/$(1).sqlite3?raw=true'
+'https://collection-dataset.s3.eu-west-2.amazonaws.com/$(2)-collection/dataset/$(1).sqlite3'
 endef
 
 .PHONY: \
