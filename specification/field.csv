@@ -79,6 +79,7 @@ geography,Geography,curie,1,geography,,,
 geometry,Geometry,wkt,1,geometry,,,
 GeoX,GeoX,string,1,value,longitude,,2019-10-31
 GeoY,GeoY,string,1,value,latitude,,2019-10-31
+housing-allocation,Housing allocation,string,1,geography,,,
 government-domain,Government domain,string,1,hostname,,,
 government-organisation,Government organisation,string,1,organisation,,,
 government-service,Government service,string,1,identifier,,,
