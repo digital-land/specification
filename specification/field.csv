@@ -61,6 +61,7 @@ document-type,Document type,string,1,category,,,
 document-types,Document types,string,n,document-type,,"One or more document types",
 document-url,Document URL,url,1,url,,,
 elapsed,Elapsed time,decimal,1,number,,,
+employment-allocation,Employment allocation,string,1,geography,,,
 end-date,End date,datetime,1,datetime,,,
 EndDate,EndDate,datetime,1,datetime,end-date,,2019-10-31
 endpoint,Endpoint,hash,1,hash,,,
