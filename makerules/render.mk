@@ -3,10 +3,6 @@
 	server
 
 
-ifeq ($(VIEW_MODEL),)
-VIEW_MODEL=dataset/view_model.sqlite3
-endif
-
 ifeq ($(DATASET),)
 DATASET=$(REPOSITORY)
 endif
@@ -33,9 +29,15 @@ ifeq ($(DOCS_DIR),)
 DOCS_DIR=./docs/
 endif
 
+ifeq ($(VIEW_MODEL),)
+VIEW_MODEL=$(DATASET_DIR)view_model.sqlite3
+endif
+
+
 TEMPLATE_FILES=$(wildcard templates/*)
 
 $(VIEW_MODEL):
+	@-mkdir -p $(DATASET_DIR)
 ifeq ($(RENDER_FLAGS),--cross-reference)
 	curl -qfsL 'http://datasette-demo.digital-land.info/view_model.db' > $@
 else
