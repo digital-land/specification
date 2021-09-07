@@ -67,6 +67,7 @@ EndDate,EndDate,datetime,1,datetime,end-date,,2019-10-31
 endpoint,Endpoint,hash,1,hash,,,
 endpoints,Endpoints,hash,n,hash,,,
 endpoint-url,Endpoint URL,url,1,url,,,
+entity,Entity,string,1,identifier,,,
 entry-date,Entry date,datetime,1,datetime,,,
 esd-inventory,ESD inventory,string,1,identifier,,,
 field,Field,string,1,specification,,,
