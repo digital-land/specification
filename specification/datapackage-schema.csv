@@ -1,4 +1,4 @@
-dataset,schema
+datapackage,dataset
 brownfield-land,brownfield-land
 brownfield-land,ownership-status
 brownfield-land,planning-permission-status
@@ -39,4 +39,5 @@ local-plans,development-policy
 local-plans,development-policy-area
 local-plans,development-policy-category
 local-plans,development-policy-metric
-organisation,organisation
+organisation,local-authority-eng
+organisation,government-organisation
