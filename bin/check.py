@@ -11,6 +11,7 @@ dialect.strict = True
 keys = {
     "schema-field": ["schema", "field"],
     "dataset-schema": ["dataset", "schema"],
+    #"datapackage-dataset": ["datapackage", "dataset"],
 }
 
 fields = {}
@@ -28,6 +29,8 @@ tables = {
     "typology": {},
     "schema-field": {},
     "dataset-schema": {},
+    "datapackage": {},
+    #"datapackage-dataset": {},
 }
 
 errors = 0
