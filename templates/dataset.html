@@ -26,13 +26,50 @@
 {% endblock %}
 
 {% block dl_content %}
+<p class="govuk-body">
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-<p class="govuk-body">{{ item["description"] }}</p>
-{{ item["text"]|markdown }}
+
+    <article class="data-record govuk-!-margin-bottom-6">
+        <h4 class="govuk-heading-s data-record__identifier">#/dataset/{{item["dataset"]}}</h4>
+        <dl class="govuk-summary-list data-record__properties">
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Name</dt>
+                <dd class="govuk-summary-list__value">{{item["name"]}}</a></dd>
+            </div>
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Plural</dt>
+                <dd class="govuk-summary-list__value">{{item["plural"]}}</a></dd>
+            </div>
+            {% if item["wikidata"] %}
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Wikidata</dt>
+                <dd class="govuk-summary-list__value"><a href="https://wikidata.org/wiki/{{item['wikidata']}}">{{item["wikidata"]}}</a></dd>
+            </div>
+            {% endif %}
+            {% if item["wikipedia"] %}
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Wikipedia</dt>
+                <dd class="govuk-summary-list__value"><a href="{{item['wikipedia']}}">{{item["wikipedia"]}}</a></dd>
+            </div>
+            {% endif %}
+            {% if item["description"] %}
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Description</dt>
+                <dd class="govuk-summary-list__value">{{ item["description"] }}</dd>
+            </div>
+            {% endif %}
+            {% if item["text"] %}
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Text</dt>
+                <dd class="govuk-summary-list__value">{{ item["text"]|markdown }}</dd>
+            </div>
+            {% endif %}
+        </dl>
+    </article>
 
     <h2 class="govuk-heading-m" id="schemas">Schemas</h2>
-    <p class="govuk-body">The <a href="/dataset/{{name }}">{{ item["name"] }} dataset</a> contains data defined by the following schemas:</p>
+    <p class="govuk-body">The <a href="/{{name }}">{{ item["name"] }} dataset</a> contains data defined by the union of the following schemas:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for schema, s in tables["dataset-schema"][name].items()| sort %}
       {% set item = tables["schema"][schema] %}
