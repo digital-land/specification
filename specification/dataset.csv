@@ -1,19 +1,32 @@
 dataset,name,description,text
-brownfield-land,Brownfield land,"Plots of land that have previously been developed but are not currently in use","
-
-* [project](https://digital-land.github.io/project/brownfield-sites/)
-* [guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data)
-* [policy](https://www.gov.uk/guidance/brownfield-land-registers)
-* [legislation](http://www.legislation.gov.uk/uksi/2017/403/contents/made)"
-developer-contributions,Developer contributions,"Commitments to improving local community infrastructure such as Section 106 agreements, viability assessments, community infrastructure levies, and other planning obligations.","
-
-* [project](https://digital-land.github.io/project/developer-contributions/)
-* [guidance](https://www.gov.uk/guidance/publish-your-developer-contributions-data)
-* [policy](https://www.gov.uk/guidance/planning-obligations)
-* [legislation](https://www.legislation.gov.uk/ukdsi/2019/9780111187449/regulation/9)"
-digital-land,Digital Land,"Collections, specifications, and other Digital Land project data.",
-local-plans,Local plans,"Local plans, Neighbourhood plans, and other development policies related to plan making.","
-
-* [project](https://digital-land.github.io/project/local-plans/)
-* [policy](https://www.gov.uk/guidance/plan-making)"
-organisation,Organisations,"Local Planning Authorities and other organisations who keep and maintain data used by Digital Land.",
+ancient-woodland,Ancient woodland,,
+area-of-outstanding-natural-beauty,Area of outstanding natural beauty,,
+brownfield-land,Brownfield land,,
+brownfield-site,Brownfield site,,
+conservation-area,Conservation area,,
+development-plan-document,Development plan document,,
+development-plan-type,Development plan type,,
+development-policy,Development policy,,
+development-policy-category,Development policy category,,
+document,Document,,
+document-type,Document type,,
+green-belt,Green belt,,
+heritage-coast,Heritage coast,,
+battlefield,Battlefield,,
+building-preservation-notice,Building preservation notice,,
+certificate-of-immunity,Certificate of immunity,,
+heritage-at-risk,Heritage at risk,,
+listed-building,Listed building,,
+park-and-garden,Park and garden,,
+protected-wreck-site,Protected wreck site,,
+scheduled-monument,Scheduled monument,,
+world-heritage-site,World heritage site,,
+local-authority-district,Local authority district,,
+ownership-status,Ownership status,,
+parish,Parish,,
+planning-permission-status,Planning permission status,,
+planning-permission-type,Planning permission type,,
+ramsar,Ramsar,,
+site-category,Site category,,
+site-of-special-scientific-interest,Site of special scientific interest,,
+special-area-of-conservation,Special area of conservation,,
