@@ -1,48 +1,48 @@
-dataset,name,plural,wikidata,wikipedia,description,text
-internal-drainage-board,Internal drainage board,Internal drainage boards,Q6047836,https://en.wikipedia.org/wiki/Internal_drainage_board,,
-national-park-authority,National park authority,National park authorities,Q3336962,https://en.wikipedia.org/wiki/National_park_authority,,
-local-authority-eng,Local authority,Local authorities,Q171634,https://en.wikipedia.org/wiki/Local_government_in_England,,
-government-organisation,Government organisation,Government organisations,Q2500378,https://en.wikipedia.org/wiki/Departments_of_the_Government_of_the_United_Kingdom,,
-development-corporation,Development corporation,Development corporations,Q5266682,https://en.wikipedia.org/wiki/Development_corporation,,
-ancient-woodland,Ancient woodland,Ancient woodlands,Q3078732,https://en.wikipedia.org/wiki/Ancient_woodland,,
-area-of-outstanding-natural-beauty,Area of outstanding natural beauty,Areas of outstanding natural beauty,Q174945,https://en.wikipedia.org/wiki/Area_of_Outstanding_Natural_Beauty,,
-brownfield-land,Brownfield land,Brownfield land,Q896586,https://en.wikipedia.org/wiki/Brownfield_land,,
-brownfield-site,Brownfield site,Brownfield sites,Q896586,https://en.wikipedia.org/wiki/Brownfield_land,,
-conservation-area,Conservation area,Conservation areas,Q5162904,https://en.wikipedia.org/wiki/Conservation_area_(United_Kingdom),,
-development-plan-document,Development plan document,Development plan documents,Q5266783,https://en.wikipedia.org/wiki/Development_plan,,
-development-plan-type,Development plan type,Development plan types,,,,
-development-policy,Development policy,Development policies,,,,
-development-policy-area,Development policy area,Development policy areas,,,,
-development-policy-category,Development policy category,Development policy categories,,,,
-document,Document,Documents,,,,
-organisation,Organisation,Organisations,Q43229,https://en.wikipedia.org/wiki/Organization,,
-geography,Geography,Geographies,Q2221906,https://en.wikipedia.org/wiki/Location,,
-document-type,Document type,Document types,,,,
-green-belt,Green belt,Green belt,Q2734873,https://en.wikipedia.org/wiki/Green_belt_(United_Kingdom),,
-heritage-coast,Heritage coast,Heritage coast,Q13125592,https://en.wikipedia.org/wiki/Heritage_coast,,
-battlefield,Battlefield,Battlefields,Q4895508,https://en.wikipedia.org/wiki/Battlefield,,
-building-preservation-notice,Building preservation notice,Building preservation notices,Q98785867,https://en.wikipedia.org/wiki/Listed_building#England_and_Wales,,
-certificate-of-immunity,Certificate of immunity,Certificates of immunity,Q5065092,https://en.wikipedia.org/wiki/Certificate_of_Immunity_from_Listing,,
-heritage-at-risk,Heritage at risk,Heritage at risk,Q16983914,https://en.wikipedia.org/wiki/Heritage_at_Risk_Register,,
-listed-building,Listed building,Listed buildings,Q570600,https://en.wikipedia.org/wiki/Listed_building,,
-park-and-garden,Park and garden,Parks and gardens,Q6975250,https://en.wikipedia.org/wiki/Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England,,
-protected-wreck-site,Protected wreck site,Protected wreck sites,Q6616121,https://en.wikipedia.org/wiki/List_of_designations_under_the_Protection_of_Wrecks_Act,,
-scheduled-monument,Scheduled monument,Scheduled monuments,Q219538,https://en.wikipedia.org/wiki/Scheduled_monument,,
-world-heritage-site,World heritage site,World heritage sites,Q9259,https://en.wikipedia.org/wiki/World_Heritage_Site,,
-local-authority-district,Local authority district,Local authority districts,Q349084,https://en.wikipedia.org/wiki/Districts_of_England,,
-ownership-status,Ownership status,Ownership statuses,,,,
-parish,Civil parish,Civil parishes,Q1115575,https://en.wikipedia.org/wiki/Civil_parish,,
-planning-permission-status,Planning permission status,Planning permission statuses,,,,
-planning-permission-type,Planning permission type,Planning permission types,,,,
-ramsar,Ramsar site,Ramsar sites,Q19683138,https://en.wikipedia.org/wiki/Ramsar_site,,
-site-category,Site category,Site categories,,,,
-site-of-special-scientific-interest,Site of special scientific interest,,Q422211,https://en.wikipedia.org/wiki/Site_of_Special_Scientific_Interest,,
-special-area-of-conservation,Special area of conservation,,Q1191622,https://en.wikipedia.org/wiki/Special_Area_of_Conservation,,
-attribution,Attribution,Attributions,Q2132119,https://en.wikipedia.org/wiki/Attribution_(copyright),,
-licence,Licence,Licences,Q7257461,https://en.wikipedia.org/wiki/Public_copyright_license,,
-contribution-funding-status,Contribution funding status,Contribution funding statuses,,,,
-contribution-purpose,Contribution purpose,Contribution purposes,,,,
-developer-agreement,Developer agreement,Developer agreements,,,,
-developer-agreement-contribution,Developer agreement contribution,Developer agreement contributions,,,,
-developer-agreement-transaction,Developer agreement transaction,Developer agreement transactions,,,,
-developer-agreement-type,Developer agreement type,Developer agreement types,,,,
+dataset,name,plural,wikidata,wikipedia,typology,description,text
+internal-drainage-board,Internal drainage board,Internal drainage boards,Q6047836,https://en.wikipedia.org/wiki/Internal_drainage_board,organisation
+national-park-authority,National park authority,National park authorities,Q3336962,https://en.wikipedia.org/wiki/National_park_authority,organisation
+local-authority-eng,Local authority,Local authorities,Q171634,https://en.wikipedia.org/wiki/Local_government_in_England,organisation
+government-organisation,Government organisation,Government organisations,Q2500378,https://en.wikipedia.org/wiki/Departments_of_the_Government_of_the_United_Kingdom,organisation
+development-corporation,Development corporation,Development corporations,Q5266682,https://en.wikipedia.org/wiki/Development_corporation,organisation
+ancient-woodland,Ancient woodland,Ancient woodlands,Q3078732,https://en.wikipedia.org/wiki/Ancient_woodland,geography
+area-of-outstanding-natural-beauty,Area of outstanding natural beauty,Areas of outstanding natural beauty,Q174945,https://en.wikipedia.org/wiki/Area_of_Outstanding_Natural_Beauty,geography
+brownfield-land,Brownfield land,Brownfield land,Q896586,https://en.wikipedia.org/wiki/Brownfield_land,geography
+brownfield-site,Brownfield site,Brownfield sites,Q896586,https://en.wikipedia.org/wiki/Brownfield_land,geography
+conservation-area,Conservation area,Conservation areas,Q5162904,https://en.wikipedia.org/wiki/Conservation_area_(United_Kingdom),geography
+development-plan-document,Development plan document,Development plan documents,Q5266783,https://en.wikipedia.org/wiki/Development_plan,organisation
+development-plan-type,Development plan type,Development plan types,,,category
+development-policy,Development policy,Development policies,,,policy
+development-policy-area,Development policy area,Development policy areas,,,geography
+development-policy-category,Development policy category,Development policy categories,Q5962346,https://en.wikipedia.org/wiki/Classification_(general_theory),category
+document,Document,Documents,Q49848,https://en.wikipedia.org/wiki/Document,document
+organisation,Organisation,Organisations,Q43229,https://en.wikipedia.org/wiki/Organization,organisation
+geography,Geography,Geographies,Q2221906,https://en.wikipedia.org/wiki/Location,geography
+document-type,Document type,Document types,,,category
+green-belt,Green belt,Green belt,Q2734873,https://en.wikipedia.org/wiki/Green_belt_(United_Kingdom),geography
+heritage-coast,Heritage coast,Heritage coast,Q13125592,https://en.wikipedia.org/wiki/Heritage_coast,geography
+battlefield,Battlefield,Battlefields,Q4895508,https://en.wikipedia.org/wiki/Battlefield,geography
+building-preservation-notice,Building preservation notice,Building preservation notices,Q98785867,https://en.wikipedia.org/wiki/Listed_building#England_and_Wales,geography
+certificate-of-immunity,Certificate of immunity,Certificates of immunity,Q5065092,https://en.wikipedia.org/wiki/Certificate_of_Immunity_from_Listing,geography
+heritage-at-risk,Heritage at risk,Heritage at risk,Q16983914,https://en.wikipedia.org/wiki/Heritage_at_Risk_Register,geography
+listed-building,Listed building,Listed buildings,Q570600,https://en.wikipedia.org/wiki/Listed_building,geography
+park-and-garden,Park and garden,Parks and gardens,Q6975250,https://en.wikipedia.org/wiki/Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England,geography
+protected-wreck-site,Protected wreck site,Protected wreck sites,Q6616121,https://en.wikipedia.org/wiki/List_of_designations_under_the_Protection_of_Wrecks_Act,geography
+scheduled-monument,Scheduled monument,Scheduled monuments,Q219538,https://en.wikipedia.org/wiki/Scheduled_monument,geography
+world-heritage-site,World heritage site,World heritage sites,Q9259,https://en.wikipedia.org/wiki/World_Heritage_Site,geography
+local-authority-district,Local authority district,Local authority districts,Q349084,https://en.wikipedia.org/wiki/Districts_of_England,geography
+ownership-status,Ownership status,Ownership statuses,,,category
+parish,Civil parish,Civil parishes,Q1115575,https://en.wikipedia.org/wiki/Civil_parish,geography
+planning-permission-status,Planning permission status,Planning permission statuses,,,category
+planning-permission-type,Planning permission type,Planning permission types,,,category
+ramsar,Ramsar site,Ramsar sites,Q19683138,https://en.wikipedia.org/wiki/Ramsar_site,geography
+site-category,Site category,Site categories,,,category
+site-of-special-scientific-interest,Site of special scientific interest,,Q422211,https://en.wikipedia.org/wiki/Site_of_Special_Scientific_Interest,geography
+special-area-of-conservation,Special area of conservation,,Q1191622,https://en.wikipedia.org/wiki/Special_Area_of_Conservation,geography
+attribution,Attribution,Attributions,Q2132119,https://en.wikipedia.org/wiki/Attribution_(copyright),category
+licence,Licence,Licences,Q7257461,https://en.wikipedia.org/wiki/Public_copyright_license,category
+contribution-funding-status,Contribution funding status,Contribution funding statuses,,,category
+contribution-purpose,Contribution purpose,Contribution purposes,,,category
+developer-agreement,Developer agreement,Developer agreements,,,document
+developer-agreement-contribution,Developer agreement contribution,Developer agreement contributions,,,value
+developer-agreement-transaction,Developer agreement transaction,Developer agreement transactions,,,value
+developer-agreement-type,Developer agreement type,Developer agreement types,,,category

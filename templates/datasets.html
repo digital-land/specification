@@ -15,8 +15,9 @@
     {% for dataset, item in tables["dataset"].items()| sort %}
       <li>
           <a href="{{dataset}}">{{item["name"]}}</a>
-          &mdash;
-          {{ item["description"][0]|lower }}{{ item["description"][1:] }}
+          {% if item["description"] %}
+          &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}
+          {% endif %}
       </li>
     {% endfor %}
     </ul>
