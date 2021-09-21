@@ -39,7 +39,11 @@
             </div>
             <div class="govuk-summary-list__row">
                 <dt class="govuk-summary-list__key">Plural</dt>
-                <dd class="govuk-summary-list__value">{{item["plural"]}}</a></dd>
+                <dd class="govuk-summary-list__value">{{item["plural"]}}</dd>
+            </div>
+            <div class="govuk-summary-list__row">
+                <dt class="govuk-summary-list__key">Typology</dt>
+                <dd class="govuk-summary-list__value"><a href="../../typology/{{ item["typology"] }}">{{ item["typology"] }}</dd>
             </div>
             {% if item["wikidata"] %}
             <div class="govuk-summary-list__row">
