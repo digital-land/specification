@@ -67,7 +67,7 @@ employment-allocation,Employment allocation,string,1,geography,,,
 end-date,End date,datetime,1,datetime,,,
 EndDate,EndDate,datetime,1,datetime,end-date,,2019-10-31
 endpoint,Endpoint,hash,1,hash,,,
-endpoints,Endpoints,hash,n,hash,,,
+endpoints,Endpoints,hash,n,endpoint,,,
 endpoint-url,Endpoint URL,url,1,url,,,
 entity,Entity,string,1,identifier,,,
 entry-date,Entry date,datetime,1,datetime,,,
