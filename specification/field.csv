@@ -133,6 +133,7 @@ national-park-authority,National park authority,string,1,organisation,,,
 neighbourhood-plan-area,Neighbourhood Plan Area,string,1,geography,,,
 NetDwellingsRangeFrom,Minimum net dwellings,integer,1,number,minimum-net-dwellings,,2019-10-31
 NetDwellingsRangeTo,Maximum net dwellings,integer,1,number,maximum-net-dwellings,,2019-10-31
+new-entity,New entity,string,1,entity,,,
 notes,Notes,text,1,text,,,
 Notes,Notes,text,1,text,notes,,2019-10-31
 number,Number,decimal,1,value,,,
