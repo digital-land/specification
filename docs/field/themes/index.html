@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Dataset | Digital Land</title>
+    <title>Themes | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -136,12 +136,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Schema</a>
+      <a class="govuk-breadcrumbs__link" href="../">Field</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Dataset</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Themes</li>
     
   
   </ol>
@@ -153,8 +153,8 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Schema</span>
-  <h1 class="govuk-heading-xl">Dataset</h1>
+  <span class="govuk-caption-xl">Field</span>
+  <h1 class="govuk-heading-xl">Themes</h1>
   </div>
 </div>
 
@@ -164,163 +164,48 @@
     <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
 
     <table class="govuk-table">
-      <caption class="govuk-table__caption">Fields</caption>
-      <thead class="govuk-table__head">
-        <tr class="govuk-table__row">
-          <th scope="col" class="govuk-table__header">Field</th>
-          <th scope="col" class="govuk-table__header">Name</th>
-          <th scope="col" class="govuk-table__header">Datatype</th>
-          <th scope="col" class="govuk-table__header">Cardinality</th>
-        </tr>
-      </thead>
       <tbody class="govuk-table__body">
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_dataset"><a href="../../field/dataset">dataset</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">Dataset</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_description"><a href="../../field/description">description</a>
-          </td>
-          <td class="govuk-table__cell">Description</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
-          </td>
-          <td class="govuk-table__cell">Name</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_plural"><a href="../../field/plural">plural</a>
-          </td>
-          <td class="govuk-table__cell">Plural name</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_text"><a href="../../field/text">text</a>
-          </td>
-          <td class="govuk-table__cell">Text</td>
-          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_themes"><a href="../../field/themes">themes</a>
-          </td>
+          <th scope="row" class="govuk-table__header">Name</th>
           <td class="govuk-table__cell">Themes</td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Field</th>
+          <td class="govuk-table__cell">themes</td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Datatype</th>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Cardinality</th>
           <td class="govuk-table__cell">n</td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_typology"><a href="../../field/typology">typology</a>
-          </td>
-          <td class="govuk-table__cell">Typology</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
+          <th scope="row" class="govuk-table__header">Parent field</th>
+          <td class="govuk-table__cell"><a href="../category">category</a></td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_wikidata"><a href="../../field/wikidata">wikidata</a>
-          </td>
-          <td class="govuk-table__cell">Wikidata identifier</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
+          <th scope="row" class="govuk-table__header">Typology</th>
+          <td class="govuk-table__cell"><a href="../../typology/category">category</a></td>
         </tr>
-    
         
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_wikipedia"><a href="../../field/wikipedia">wikipedia</a>
-          </td>
-          <td class="govuk-table__cell">Wikipedia page</td>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
-          </td>
-          <td class="govuk-table__cell">Entry date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
-          </td>
-          <td class="govuk-table__cell">Start date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
-          </td>
-          <td class="govuk-table__cell">End date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
       </tbody>
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This schema belongs to the <a href="../../typology/specification">specification</a> typology.</p>
-    
-
-    
     <h2 class="govuk-heading-s" id="">Schemas</h2>
-
-    
-    <p class="govuk-body">This schema links to the following other schemas:</p>
+    <p class="govuk-body">The following schemas use this field:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../category">Category</a></li>
-    
-      <li><a href="../typology">Typology</a></li>
-    
-    </ul>
-    
-
-    
-    <p class="govuk-body">This schema is linked to by the following other schemas:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../datapackage-dataset">Data package dataset</a></li>
-    
-      <li><a href="../dataset-schema">Dataset schema</a></li>
-    
-      <li><a href="../entity">Entity</a></li>
+      <li><a href="../../schema/dataset">Dataset</a></li>
     
     </ul>
     
 
     
 
-    
   </div>
 </div>
 
