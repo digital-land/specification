@@ -107,6 +107,7 @@ dataset,entry-date
 dataset,name
 dataset,plural
 dataset,typology
+dataset,themes
 dataset,wikidata
 dataset,wikipedia
 dataset-schema,dataset
@@ -570,6 +571,11 @@ typology,name
 typology,start-date
 typology,text
 typology,typology
+theme,end-date
+theme,entry-date
+theme,name
+theme,start-date
+theme,theme
 transform,pipeline
 transform,field
 transform,replacement-field

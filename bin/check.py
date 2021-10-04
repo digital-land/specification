@@ -27,6 +27,7 @@ tables = {
     "schema": {},
     "dataset": {},
     "typology": {},
+    "theme": {},
     "schema-field": {},
     "dataset-schema": {},
     "datapackage": {},
@@ -74,6 +75,13 @@ def check_typologies():
         typology = field_typology(f)
         if typology not in tables["typology"]:
             error("field '%s' has an unknown typology '%s'" % (field, typology))
+
+
+def check_themes():
+    for dataset, d in tables["dataset"].items():
+        for theme in d["themes"].split(";"):
+            if theme not in tables["theme"]:
+                error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
 
 def check(table):
@@ -141,6 +149,7 @@ if __name__ == "__main__":
                 error("unexpected field '%s' in table '%s'" % (field, table))
 
     check_typologies()
+    check_themes()
 
     if errors > 0:
         sys.exit(1)
