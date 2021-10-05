@@ -8,6 +8,15 @@ ifeq ($(COLLECTION_DIR),)
 COLLECTION_DIR=collection/
 endif
 
+ifeq ($(RESOURCE_DIR),)
+RESOURCE_DIR=$(COLLECTION_DIR)resource/
+endif
+
+ifeq ($(DATASTORE_URL),)
+DATASTORE_URL=https://collection-dataset.s3.eu-west-2.amazonaws.com/
+endif
+
+
 # data sources
 SOURCE_CSV=$(COLLECTION_DIR)source.csv
 ENDPOINT_CSV=$(COLLECTION_DIR)endpoint.csv
@@ -48,4 +57,4 @@ load-resources::
 	aws s3 sync $(RESOURCE_DIR) s3://collection-dataset/$(REPOSITORY)/$(RESOURCE_DIR)
 
 collection/resource/%:
-	curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/resource/$(notdir $@)' > $@
+	curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(RESOURCE_DIR)$(notdir $@)' > $@
