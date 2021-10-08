@@ -57,4 +57,5 @@ load-resources::
 	aws s3 sync $(RESOURCE_DIR) s3://collection-dataset/$(REPOSITORY)/$(RESOURCE_DIR)
 
 collection/resource/%:
+	@mkdir -p collection/resource/
 	curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(RESOURCE_DIR)$(notdir $@)' > $@
