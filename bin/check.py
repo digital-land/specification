@@ -26,6 +26,8 @@ tables = {
     "datatype": {},
     "schema": {},
     "dataset": {},
+    "project": {},
+    "project-status": {},
     "typology": {},
     "theme": {},
     "schema-field": {},
@@ -77,11 +79,25 @@ def check_typologies():
             error("field '%s' has an unknown typology '%s'" % (field, typology))
 
 
+def check_datasets():
+    for project, p in tables["project"].items():
+        for dataset in p["datasets"].split(";"):
+            if dataset and dataset not in tables["dataset"]:
+                error("project '%s' has an unknown dataset '%s'" % (project, dataset))
+
+
 def check_themes():
     for dataset, d in tables["dataset"].items():
         for theme in d["themes"].split(";"):
             if theme not in tables["theme"]:
                 error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
+
+
+def check_project_status():
+    for project, p in tables["project"].items():
+        for status in p["project-status"].split(";"):
+            if status not in tables["project-status"]:
+                error("project '%s' has an unknown project-status '%s'" % (project, status))
 
 
 def check(table):
@@ -150,6 +166,8 @@ if __name__ == "__main__":
 
     check_typologies()
     check_themes()
+    check_datasets()
+    check_project_status()
 
     if errors > 0:
         sys.exit(1)
