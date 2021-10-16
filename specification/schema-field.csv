@@ -100,6 +100,7 @@ datapackage-dataset,dataset
 datapackage-dataset,end-date
 datapackage-dataset,entry-date
 datapackage-dataset,start-date
+dataset,collection
 dataset,dataset
 dataset,description
 dataset,end-date
@@ -110,13 +111,13 @@ dataset,typology
 dataset,themes
 dataset,wikidata
 dataset,wikipedia
+dataset,start-date
+dataset,text
 dataset-schema,dataset
 dataset-schema,end-date
 dataset-schema,entry-date
 dataset-schema,schema
 dataset-schema,start-date
-dataset,start-date
-dataset,text
 datatype,datatype
 datatype,end-date
 datatype,entry-date
