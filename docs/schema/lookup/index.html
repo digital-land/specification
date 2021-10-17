@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Value | Digital Land</title>
+    <title>Pipeline lookup | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -136,12 +136,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="../">Schema</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Value</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Pipeline lookup</li>
     
   
   </ol>
@@ -153,69 +153,128 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
-  <h1 class="govuk-heading-xl">Value</h1>
+  <span class="govuk-caption-xl">Schema</span>
+  <h1 class="govuk-heading-xl">Pipeline lookup</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">Lookup entities.</p>
 
     <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
       <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Value</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">value</td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+          </td>
+          <td class="govuk-table__cell">Entity</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
           <td class="govuk-table__cell">1</td>
         </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../value">value</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/value">value</a></td>
-        </tr>
+    
         
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_pipeline"><a href="../../field/pipeline">pipeline</a>
+          </td>
+          <td class="govuk-table__cell">Pipeline</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_resource"><a href="../../field/resource">resource</a>
+          </td>
+          <td class="govuk-table__cell">Resource</td>
+          <td class="govuk-table__cell"><a href="../../datatype/hash">hash</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_value"><a href="../../field/value">value</a>
+          </td>
+          <td class="govuk-table__cell">Value</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
       </tbody>
     </table>
 
     
+
+    
     <h2 class="govuk-heading-s" id="">Schemas</h2>
-    <p class="govuk-body">The following schemas use this field:</p>
+
+    
+    <p class="govuk-body">This schema links to the following other schemas:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../schema/column">Pipeline column</a></li>
+      <li><a href="../entity">Entity</a></li>
     
-      <li><a href="../../schema/development-policy-metric">Development policy metric</a></li>
+      <li><a href="../organisation">Organisation</a></li>
     
-      <li><a href="../../schema/issue">Issue</a></li>
+      <li><a href="../pipeline">Pipeline</a></li>
     
-      <li><a href="../../schema/lookup">Pipeline lookup</a></li>
-    
-      <li><a href="../../schema/patch">Pipeline patch</a></li>
-    
-      <li><a href="../../schema/provenance">Provenance</a></li>
+      <li><a href="../resource">Resource</a></li>
     
     </ul>
     
 
     
 
+    
+
+    
   </div>
 </div>
 
