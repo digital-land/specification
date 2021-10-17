@@ -115,7 +115,7 @@ legislation,Legislation,string,1,document,,,
 licence,Licence,text,1,text,,,
 listed-building,Listed building,string,1,geography,,,
 listed-building-grade,Listed building grade,string,1,category,,,
-local-authority-district,Local Authority District,string,1,geography,,,
+local-authority-district,Local Authority District,string,1,statistical-geography,,,
 local-authority-eng,Local authority (England),string,1,organisation,,,
 local-authority-nir,Local authority (Northern Ireland),string,1,organisation,,,
 local-authority-sct,Local authority (Scotland),string,1,organisation,,,
@@ -131,6 +131,7 @@ MinNetDwellings,Minimum net dwellings,integer,1,number,,,2019-10-31
 name-cy,Name (Welsh),string,1,name,,,
 name,Name,string,1,text,,,
 national-park-authority,National park authority,string,1,organisation,,,
+national-park,National park,string,1,statistical-geography,,,
 neighbourhood-plan-area,Neighbourhood Plan Area,string,1,geography,,,
 NetDwellingsRangeFrom,Minimum net dwellings,integer,1,number,minimum-net-dwellings,,2019-10-31
 NetDwellingsRangeTo,Maximum net dwellings,integer,1,number,maximum-net-dwellings,,2019-10-31
