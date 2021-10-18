@@ -1,25 +1,25 @@
 pipeline,name,plural,schema,scope-field,slug-prefix
 ancient-woodland,Ancient Woodland,Ancient Woodland,geography,,ancient-woodland
-article-4-direction,Article 4 Direction,Article 4 Directions,geography,organisation,article-4-direction
 area-of-outstanding-natural-beauty,Area of Outstanding Natural Beauty,Areas of Outstanding Natural Beauty,geography,,area-of-outstanding-natural-beauty
+article-4-direction,Article 4 Direction,Article 4 Directions,geography,organisation,article-4-direction
 battlefield,Battlefield,Battlefield,geography,,battlefield
 brownfield-land,Brownfield land,Brownfield land,brownfield-land,organisation,brownfield-land
 brownfield-site,Brownfield site,Brownfield sites,geography,organisation,brownfield-site
 building-preservation-notice,Building preservation notice,Building preservation notice,geography,,building-preservation-notice
+certificate-of-immunity,Cetificate of immunity,Cetificates of immunity,geography,,certificate-of-immunity
 conservation-area,Conservation area,Conservation areas,geography,organisation,conservation-area
 contribution-funding-status,Contribution Funding Status,Contribution Funding Statuses,contribution-funding-status,,contribution-funding-status
 contribution-purpose,Contribution Purpose,Contribution Purposes,contribution-purpose,,contribution-purpose
-certificate-of-immunity,Cetificate of immunity,Cetificates of immunity,geography,,certificate-of-immunity
-developer-agreement-contribution,Developer Agreement Contribution,Developer Agreement Contributions,developer-agreement-contribution,organisation,developer-agreement-contribution
 developer-agreement,Developer Agreement,Developer Agreements,developer-agreement,organisation,developer-agreement
+developer-agreement-contribution,Developer Agreement Contribution,Developer Agreement Contributions,developer-agreement-contribution,organisation,developer-agreement-contribution
 developer-agreement-transaction,Developer Agreement Transaction,Developer Agreement Transactions,developer-agreement-transaction,organisation,developer-agreement-transaction
 developer-agreement-type,Developer Agreement Type,Developer Agreement Types,developer-agreement-type,,developer-agreement-type
 development-corporation,Development corporation,Development corporations,organisation,,organisation
 development-plan-document,Development Plan Document,Development Plan Documents,development-plan-document,organisations,development-plan-document
 development-plan-type,Development Plan Type,Development Plan Types,development-plan-type,,development-plan-type
+development-policy,Development Policy,Development Policies,development-policy,organisation,development-policy
 development-policy-area,Development Policy Area,Development Policy Areas,geography,organisation,development-policy-area
 development-policy-category,Development Policy Category,Development Policy Categories,development-policy-category,,development-policy-category
-development-policy,Development Policy,Development Policies,development-policy,organisation,development-policy
 document,Document,Documents,document,,document
 document-type,Document Type,Document Types,category,,document-type
 employment-allocation,Employment allocation,Employment allocations,geography,,employment-allocation
@@ -34,8 +34,8 @@ listed-building,Listed building,Listed buildings,listed-building,,listed-buildin
 listed-building-grade,Listed building grade,Listed building grades,listed-building-grade,,listed-building-grade
 local-authority-district,Local authority district,Local authority districts,geography,,
 local-authority-eng,Local authority,Local authorities,organisation,,organisation
-national-park-authority,National park,"National park authorities, including the Broads",organisation,,organisation
 national-park,National park,"National park, including the Broads",national-park,,
+national-park-authority,National park,"National park authorities, including the Broads",organisation,,organisation
 neighbourhood-plan-area,Neighbourhood Plan Area,Neighbourhood Plan Areas,organisation,,
 open-space,Open space,Open spaces,geography,,open-space
 ownership-status,Ownership Status,Ownership Statuses,ownership-status,,ownership-status
@@ -52,8 +52,8 @@ regional-park-authority,Regional park authority,Regional park authorities,organi
 scheduled-monument,Scheduled monument,Scheduled monument,geography,,
 site-category,Site category,Site categories,site-category,,site-category
 site-of-special-scientific-interest,Site of special scientific interest,Site of special scientific interest,geography,,site-of-special-scientific-interest
+special-area-of-conservation,Special area of conservation,Special areas of conservation from Natural England,geography,,
 transport-authority,Transport authority,Transport authorities,organisation,,organisation
 waste-authority,Waste authority,Waste authorities,organisation,,organisation
 wikidata-organisation,Wikidata organisation,Organisational data from Wikidata,organisation,,organisation
 world-heritage-site,World heritage site,World heritage sites,geography,,
-special-area-of-conservation,Special area of conservation,Special areas of conservation from Natural England,geography,,
