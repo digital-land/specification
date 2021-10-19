@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Site plan URL | Digital Land</title>
+    <title>Geometry | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -136,12 +136,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="../">Schema</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Site plan URL</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Geometry</li>
     
   
   </ol>
@@ -153,67 +153,162 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
-  <h1 class="govuk-heading-xl">Site plan URL</h1>
+  <span class="govuk-caption-xl">Schema</span>
+  <h1 class="govuk-heading-xl">Geometry</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">Geometry index</p>
 
     <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
       <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Site plan URL</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">site-plan-url</td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
+          <td class="govuk-table__cell" id="field_geometry"><a href="../../field/geometry">geometry</a>
+           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
+          <td class="govuk-table__cell">Geometry</td>
+          <td class="govuk-table__cell"><a href="../../datatype/wkt">wkt</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../document-url">document-url</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/value">value</a></td>
-        </tr>
+    
         
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
+          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_geojson"><a href="../../field/geojson">geojson</a>
+          </td>
+          <td class="govuk-table__cell">GeoJSON data</td>
+          <td class="govuk-table__cell"><a href="../../datatype/json">json</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_geometry-geom"><a href="../../field/geometry-geom">geometry-geom</a>
+          </td>
+          <td class="govuk-table__cell">Geometry index</td>
+          <td class="govuk-table__cell"><a href="../../datatype/blob">blob</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_point"><a href="../../field/point">point</a>
+          </td>
+          <td class="govuk-table__cell">Point</td>
+          <td class="govuk-table__cell"><a href="../../datatype/wkt">wkt</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_point-geom"><a href="../../field/point-geom">point-geom</a>
+          </td>
+          <td class="govuk-table__cell">Point index</td>
+          <td class="govuk-table__cell"><a href="../../datatype/blob">blob</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
       </tbody>
     </table>
 
     
+    <h2 class="govuk-heading-s" id="">Typology</h2>
+    <p class="govuk-body">This schema belongs to the <a href="../../typology/value">value</a> typology.</p>
+    
+
+    
     <h2 class="govuk-heading-s" id="">Schemas</h2>
-    <p class="govuk-body">The following schemas use this field:</p>
+
+    
+    <p class="govuk-body">This schema links to the following other schemas:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../schema/brownfield-land">Brownfield land</a></li>
+      <li><a href="../entity">Entity</a></li>
     
     </ul>
     
 
     
-    <h2 class="govuk-heading-s" id="">Datasets</h2>
-    <p class="govuk-body">The following datasets have schemas which use this field:</p>
+    <p class="govuk-body">This schema is linked to by the following other schemas:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../dataset/brownfield-land">Brownfield land</a></li>
+      <li><a href="../development-policy-area">Development policy area</a></li>
+    
+      <li><a href="../geography">Geography</a></li>
+    
+      <li><a href="../green-belt">Green belt</a></li>
+    
+      <li><a href="../listed-building">Listed building</a></li>
+    
+      <li><a href="../national-park">National park</a></li>
+    
+      <li><a href="../park-and-garden">Park and garden</a></li>
+    
+      <li><a href="../protected-wreck-site">Protected wreck site</a></li>
     
     </ul>
     
 
+    
+
+    
   </div>
 </div>
 
