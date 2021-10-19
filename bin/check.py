@@ -25,6 +25,7 @@ tables = {
     "field": {},
     "datatype": {},
     "schema": {},
+    "collection": {},
     "dataset": {},
     "project": {},
     "project-status": {},
@@ -34,6 +35,10 @@ tables = {
     "dataset-schema": {},
     "datapackage": {},
     #"datapackage-dataset": {},
+}
+
+empty_reference = {
+    "collection"
 }
 
 errors = 0
@@ -62,7 +67,8 @@ def load(table):
 def check_reference(table, field, value):
     if field != table and field in tables:
         if value not in tables[field]:
-            error("%s: unknown '%s' value '%s'" % (table, field, value))
+            if value and table not in empty_reference:
+                error("%s: unknown '%s' value '%s'" % (table, field, value))
 
 
 def field_typology(f):
