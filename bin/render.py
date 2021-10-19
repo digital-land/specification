@@ -135,6 +135,8 @@ def index_dataset():
 
 def default_names():
     for schema, s in tables["schema"].items():
+        if not s.get("key-field", ""):
+            s["key-field"] = schema
         if not s.get("name", ""):
             s["name"] = tables["field"][schema]["name"]
         if not s.get("description", "") and schema in tables["field"]:
