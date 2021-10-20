@@ -36,6 +36,18 @@ LC_COLLATE := C.UTF-8
 # current git branch
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 
+UNAME := $(shell uname)
+
+# detect location of spatialite library
+ifndef SPATIALITE_EXTENSION
+ifeq ($(UNAME), Linux)
+SPATIALITE_EXTENSION="/usr/lib/x86_64-linux-gnu/mod_spatialite.so"
+endif
+ifeq ($(UNAME), Darwin)
+SPATIALITE_EXTENSION="/usr/local/lib/mod_spatialite.dylib"
+endif
+endif
+
 all:: first-pass second-pass
 
 first-pass::
@@ -52,7 +64,7 @@ ifneq (,$(wildcard requirements.txt))
 	pip3 install --upgrade -r requirements.txt
 endif
 ifneq (,$(wildcard setup.py))
-	pip install -e .
+	pip install -e .$(PIP_INSTALL_PACKAGE)
 endif
 
 submodules::
