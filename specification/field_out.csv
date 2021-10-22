@@ -93,7 +93,7 @@ end-date,End date,datetime,1,datetime,,,,
 endpoint,Endpoint,hash,1,hash,,,,
 endpoint-url,Endpoint URL,url,1,url,,,,
 endpoints,Endpoints,hash,n,endpoint,,,,
-entity,Entity,integer,1,identifier,,,,https://www.digital-land.info/entity/{entity}
+entity,Entity,integer,1,identifier,,,,
 entry-date,Entry date,datetime,1,datetime,,,,
 esd-inventory,ESD inventory,string,1,identifier,,,,
 field,Field,string,1,specification,,,,
@@ -248,7 +248,7 @@ theme,Theme,string,1,category,,,,
 themes,Themes,string,n,theme,,,,
 transport-authority,Transport authority,string,1,organisation,,,,
 tree,Tree,string,1,identifier,,,,
-twitter,Twitter,string,1,identifier,,,,https://twitter.com/{twitter}
+twitter,Twitter,string,1,identifier,,,,
 typology,Typology,string,1,specification,,,,
 uk,UK,string,1,geography,,,,
 units,Units,integer,1,number,,,,
@@ -256,10 +256,10 @@ url,URL,url,1,value,,,,
 url-template,RFC6570 template URL,string,1,value,,,,
 value,Value,string,1,value,,,,
 waste-authority,Waste authority,string,1,organisation,,,,
-website,Website,url,1,url,website-url,,,{website}
-website-url,Website URL,url,1,url,,,,{website-url}
-wikidata,Wikidata item,string,1,identifier,,,,https://www.wikidata.org/wiki/{wikidata}
-wikidata-property,Wikidata property,string,1,identifier,,,,https://www.wikidata.org/wiki/Property:{wikidata-property}
-wikipedia-url,Wikipedia page,url,1,url,,,,{wikipedia-url}
-wikipedia,Wikipedia page,string,1,identifier,,,,https://en.wikipedia.org/wiki/{wikipedia}
+website,Website,url,1,url,website-url,,,
+website-url,Website URL,url,1,url,,,,
+wikidata,Wikidata item,string,1,identifier,,,,
+wikidata-property,Wikidata property,string,1,identifier,,,,
+wikipedia-url,Wikipedia page,url,1,url,,,,
+wikipedia,Wikipedia page,string,1,identifier,,,,
 world-heritage-site,World heritage site,string,1,geography,,,,
