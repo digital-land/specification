@@ -138,6 +138,7 @@ dataset,end-date
 dataset,entry-date
 dataset,name
 dataset,plural
+dataset,prefix
 dataset,start-date
 dataset,text
 dataset,themes
@@ -307,6 +308,7 @@ entity,json
 entity,name
 entity,new-entity
 entity,organisation-entity
+entity,prefix
 entity,reference
 entity,start-date
 entity,status
@@ -568,6 +570,11 @@ policy,name
 policy,notes
 policy,organisation
 policy,start-date
+prefix,end-date
+prefix,entry-date
+prefix,prefix
+prefix,prefix-iri
+prefix,start-date
 project,datasets
 project,description
 project,end-date
@@ -691,3 +698,8 @@ typology,name
 typology,start-date
 typology,text
 typology,typology
+waste-authority,end-date
+waste-authority,entry-date
+waste-authority,name
+waste-authority,start-date
+waste-authority,waste-authority
