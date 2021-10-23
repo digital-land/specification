@@ -306,12 +306,10 @@ entity,entity
 entity,entry-date
 entity,json
 entity,name
-entity,new-entity
 entity,organisation-entity
 entity,prefix
 entity,reference
 entity,start-date
-entity,status
 entity,typology
 field,cardinality
 field,datatype
@@ -470,6 +468,14 @@ national-park-authority,government-organisation
 national-park-authority,national-park-authority
 national-park-authority,start-date
 national-park-authority,wikidata
+national-park-authority,wikipedia
+old-entity,end-date
+old-entity,entity
+old-entity,entry-date
+old-entity,notes
+old-entity,old-entity
+old-entity,start-date
+old-entity,status
 organisation,addressbase-custodian
 organisation,billing-authority
 organisation,census-area
