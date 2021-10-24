@@ -25,7 +25,7 @@ developer-agreement,developer-contributions,Developer agreement,Developer agreem
 developer-agreement-contribution,developer-contributions,Developer agreement contribution,Developer agreement contributions,,,value,development,,,,,,
 developer-agreement-transaction,developer-contributions,Developer agreement transaction,Developer agreement transactions,,,value,development,,,,,,
 developer-agreement-type,developer-contributions,Developer agreement type,Developer agreement types,,,category,development,,,,,,
-development-corporation,organisation,Development corporation,Development corporations,Q5266682,https://en.wikipedia.org/wiki/Development_corporation,organisation,administrative,,,,,,
+development-corporation,organisation,Development corporation,Development corporations,Q5266682,https://en.wikipedia.org/wiki/Development_corporation,organisation,administrative,,,,,,wikidata
 development-plan-document,development-plan-document,Development plan document,Development plan documents,Q5266783,https://en.wikipedia.org/wiki/Development_plan,organisation,development,,,,,,
 development-plan-type,development-plan-type,Development plan type,Development plan types,,,category,development,,,,,,
 development-policy,development-policy,Development policy,Development policies,,,policy,development,,,,,,
@@ -64,7 +64,7 @@ main-river,,Main river,Main rivers,Q6736223,https://en.wikipedia.org/wiki/Main_r
 metropolitan-open-land,,Metropolitan open land,Metropolitan open land,Q16997686,https://en.wikipedia.org/wiki/Metropolitan_Open_Land,geography,environment,,,,,,
 mineral-safeguarding-area,,Mineral safeguarding area,Mineral safeguarding areas,,,geography,environment,,,,,,
 national-park,national-park,National park,National parks,Q60256727,https://en.wikipedia.org/wiki/National_park,geography,heritage,,,,,,
-national-park-authority,organisation,National park authority,National park authorities,Q3336962,https://en.wikipedia.org/wiki/National_park_authority,organisation,administrative,,,,,,
+national-park-authority,organisation,National park authority,National park authorities,Q3336962,https://en.wikipedia.org/wiki/National_park_authority,organisation,administrative,,,,,,wikidata
 nature-improvement-area,,Nature improvement area,Nature improvement areas,Q6980918,https://en.wikipedia.org/wiki/Nature_Improvement_Area,geography,environment,,,,,,
 non-designated-and-locally-listed-historic-asset,,Non-designated and locally listed historic asset,Non-designated and locally listed historic assets,,,geography,heritage,,,,,,
 non-designated-archeology-asset-of-national-importance,,Non-designated archeology asset of national importance,Non-designated archeology assets of national importance,,,geography,heritage,,,,,,
@@ -83,9 +83,10 @@ protected-land,,Protected land,Protected land,,,geography,heritage,,,,,,
 protected-site-strategy,,Protected site strategy,Protected site strategies,,,document,environment,,,,,,
 protected-view,,Protected view,Protected views,Q4118263,https://en.wikipedia.org/wiki/Protected_view,geography,heritage,,,,,,
 protected-wreck-site,historic-england,Protected wreck site,Protected wreck sites,Q6616121,https://en.wikipedia.org/wiki/List_of_designations_under_the_Protection_of_Wrecks_Act,geography,heritage,,,,,,
-public-authority,organisation,Public authority,Public authorities,,,organisation,administrative,,,,,,
+public-authority,organisation,Public authority,Public authorities,,,organisation,administrative,,,,,,wikidata
 public-safety-zone-around-airport,,Public safety zone around airport,Public safety zones around airports,,,geography,transport,,,,,,
 ramsar,ramsar,Ramsar site,Ramsar sites,Q19683138,https://en.wikipedia.org/wiki/Ramsar_site,geography,environment,,,,,,
+regional-park-authority,organisation,Regional park authority,Regional park authorities,,,,administrative,,,,wikidata
 safeguarded-aerodrome,,Safeguarded aerodrome,Safeguarded aerodromes,,,geography,transport,,,,,,
 safeguarded-military-explosives-site,,Safeguarded military explosives site,Safeguarded military explosives sites,,,geography,environment,,,,,,
 safeguarded-wharf,,Safeguarded wharf,Safeguarded wharves,,,geography,transport,,,,,,
@@ -98,11 +99,11 @@ site-of-special-scientific-interest,site-of-special-scientific-interest,Site of 
 special-area-of-conservation,special-area-of-conservation,Special area of conservation,,Q1191622,https://en.wikipedia.org/wiki/Special_Area_of_Conservation,geography,environment,,,,,,
 special-protection-area,,Special protection area,Special protection areas,,,document,environment,,,,,,
 suitable-alternative-green-space,,Suitable alternative green space,Suitable alternative green spaces,,,geography,environment,,,,,,
-transport-authority,organisation,Passenger transport executive,Passenger transport executive,Q514989,https://en.wikipedia.org/wiki/Passenger_transport_executive,organisation,administrative,,,,,,
+transport-authority,organisation,Passenger transport executive,Passenger transport executive,Q514989,https://en.wikipedia.org/wiki/Passenger_transport_executive,organisation,administrative,,,,,,wikidata
 transport-under-tcpa-route,,Transport (under TCPA route),Transport (under TCPA route),,,geography,transport,,,,,,
 tree-preservation-order,,Tree preservation order,Tree preservation orders,,,geography,environment,,,,,,
 use-class-order,,Use class order,Use class orders,,,category,development,,,,,,
-waste-authority,organisation,Waste disposal authority,Waste authorities,Q7972817,https://en.wikipedia.org/wiki/Waste_disposal_authority,organisation,administrative,,,,,,
+waste-authority,organisation,Waste disposal authority,Waste authorities,Q7972817,https://en.wikipedia.org/wiki/Waste_disposal_authority,organisation,administrative,,,,,,wikidata
 wildbelt,,Wildbelt,Wildbelts,,,geography,environment,,,,,,
 wildlife,,Wildlife,Wildlife,,,geography,environment,,,,,,
 world-heritage-site,historic-england,World heritage site,World heritage sites,Q9259,https://en.wikipedia.org/wiki/World_Heritage_Site,geography,heritage,,,,,,
