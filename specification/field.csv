@@ -249,6 +249,7 @@ text,Text,text,1,string,,,,
 theme,Theme,string,1,category,,,,
 themes,Themes,string,n,theme,,,,
 transport-authority,Transport authority,string,1,organisation,,,,
+tree-preservation-order,Tree preservation order,string,1,geography,,,,
 tree,Tree,string,1,identifier,,,,
 twitter,Twitter,string,1,identifier,,,,https://twitter.com/{twitter}
 typology,Typology,string,1,specification,,,,
