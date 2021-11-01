@@ -852,6 +852,8 @@ transport-authority,twitter
 transport-authority,website
 transport-authority,wikidata
 transport-authority,wikipedia
+tree,address
+tree,address-text
 tree,end-date
 tree,entity
 tree,entry-date
@@ -865,7 +867,7 @@ tree,start-date
 tree,tree
 tree,tree-species
 tree,tree-preservation-order
-tree-preservation-order,address
+tree,tree-preservation-order-tree
 tree-preservation-order,documentation-url
 tree-preservation-order,end-date
 tree-preservation-order,entity
