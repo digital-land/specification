@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Geometry | Digital Land</title>
+    <title>Article 4 direction | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -141,7 +141,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Geometry</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Article 4 direction</li>
     
   
   </ol>
@@ -154,14 +154,14 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Schema</span>
-  <h1 class="govuk-heading-xl">Geometry</h1>
+  <h1 class="govuk-heading-xl">Article 4 direction</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">Geometry index</p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -177,6 +177,33 @@
     
         
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_article-4-direction"><a href="../../field/article-4-direction">article-4-direction</a>
+           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
+          <td class="govuk-table__cell">Article-4 direction</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
+          </td>
+          <td class="govuk-table__cell">Documentation URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+          </td>
+          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_geometry"><a href="../../field/geometry">geometry</a>
           </td>
           <td class="govuk-table__cell">Geometry</td>
@@ -186,28 +213,28 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">Entity</td>
-          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geojson"><a href="../../field/geojson">geojson</a>
+          <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
           </td>
-          <td class="govuk-table__cell">GeoJSON data</td>
-          <td class="govuk-table__cell"><a href="../../datatype/json">json</a></td>
+          <td class="govuk-table__cell">Notes</td>
+          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geometry-geom"><a href="../../field/geometry-geom">geometry-geom</a>
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
           </td>
-          <td class="govuk-table__cell">Geometry index</td>
-          <td class="govuk-table__cell"><a href="../../datatype/blob">blob</a></td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -222,10 +249,10 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_point-geom"><a href="../../field/point-geom">point-geom</a>
+          <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
           </td>
-          <td class="govuk-table__cell">Point index</td>
-          <td class="govuk-table__cell"><a href="../../datatype/blob">blob</a></td>
+          <td class="govuk-table__cell">Reference</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -261,7 +288,7 @@
 
     
     <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This schema belongs to the <a href="../../typology/value">value</a> typology.</p>
+    <p class="govuk-body">This schema belongs to the <a href="../../typology/geography">geography</a> typology.</p>
     
 
     
@@ -273,42 +300,25 @@
     
       <li><a href="../entity">Entity</a></li>
     
+      <li><a href="../geometry">Geometry</a></li>
+    
+      <li><a href="../organisation">Organisation</a></li>
+    
     </ul>
     
 
     
-    <p class="govuk-body">This schema is linked to by the following other schemas:</p>
+
+    
+
+    
+    <h2 class="govuk-heading-s" id="">Datasets</h2>
+    <p class="govuk-body">This schema is used in the following datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../ancient-woodland">Ancient woodland</a></li>
-    
-      <li><a href="../article-4-direction">Article 4 direction</a></li>
-    
-      <li><a href="../development-policy-area">Development policy area</a></li>
-    
-      <li><a href="../geography">Geography</a></li>
-    
-      <li><a href="../green-belt">Green belt</a></li>
-    
-      <li><a href="../listed-building">Listed building</a></li>
-    
-      <li><a href="../national-park">National park</a></li>
-    
-      <li><a href="../park-and-garden">Park and garden</a></li>
-    
-      <li><a href="../protected-wreck-site">Protected wreck site</a></li>
-    
-      <li><a href="../ramsar">Ramsar</a></li>
-    
-      <li><a href="../tree">Tree</a></li>
-    
-      <li><a href="../tree-preservation-order">Tree preservation order</a></li>
+      <li><a href="../../dataset/article-4-direction">Article 4 direction</a></li>
     
     </ul>
-    
-
-    
-
     
   </div>
 </div>
