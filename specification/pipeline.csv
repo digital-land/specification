@@ -1,7 +1,7 @@
 pipeline,name,plural,schema,scope-field,slug-prefix
 ancient-woodland,Ancient Woodland,Ancient Woodland,geography,,ancient-woodland
 area-of-outstanding-natural-beauty,Area of Outstanding Natural Beauty,Areas of Outstanding Natural Beauty,geography,,area-of-outstanding-natural-beauty
-article-4-direction,Article 4 Direction,Article 4 Directions,geography,organisation,article-4-direction
+article-4-direction,Article 4 Direction,Article 4 Directions,article-4-direction,organisation,article-4-direction
 battlefield,Battlefield,Battlefield,geography,,battlefield
 brownfield-land,Brownfield land,Brownfield land,brownfield-land,organisation,brownfield-land
 brownfield-site,Brownfield site,Brownfield sites,geography,organisation,brownfield-site
