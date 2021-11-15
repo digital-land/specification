@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: gypsy-and-traveller-site
+  text: ''
 name: Gypsy and traveller site
 plural: Gypsy and traveller sites
 prefix: ''

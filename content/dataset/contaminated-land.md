@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: contaminated-land
+  text: ''
 name: Contaminated land
 plural: Contaminated land
 prefix: ''

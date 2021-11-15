@@ -73,6 +73,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: protected-site-strategy
+  text: ''
 name: Protected site strategy
 plural: Protected site strategies
 prefix: ''

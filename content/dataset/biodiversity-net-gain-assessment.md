@@ -73,6 +73,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: biodiversity-net-gain-assessment
+  text: ''
 name: Biodiversity net gain assesment
 plural: Biodiversity net gain assesments
 prefix: ''

@@ -45,7 +45,8 @@ def sorted_fields(fields):
 
 def add_dataset_field(dataset, field):
     fields = table["dataset"][dataset].setdefault("fields", [])
-    if field not in fields:
+    fieldnames = [field["field"] for field in fields]
+    if field not in fieldnames:
         table["dataset"][dataset]["fields"].append({"field": field, "description": "", "text": "", "end-date": ""})
 
 
@@ -108,8 +109,15 @@ for dataset, row in table["dataset"].items():
         for field in table["schema"][typology]["fields"]:
             add_dataset_field(dataset, field)
 
+    # ensure key-field is in fields ..
+    fields = [field["field"] for field in row["fields"]]
+    if "entity" in fields:
+        key_field = row.get("key-field", "") or dataset
+        add_dataset_field(dataset, key_field)
+
     # sort fields by name .. TBD: natural sort
     # row["fields"] = sorted_fields[row["fields"]
+
     # remove deprecated fields ..
     for field in ["schema", "pipeline"]:
         if field in row:

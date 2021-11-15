@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: housing-allocation
+  text: ''
 name: Housing allocation
 plural: Housing allocations
 prefix: ''

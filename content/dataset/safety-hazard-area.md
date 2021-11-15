@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: safety-hazard-area
+  text: ''
 name: Safety hazard area
 plural: Safety hazard areas
 prefix: ''

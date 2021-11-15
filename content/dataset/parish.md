@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: parish
+  text: ''
 name: Civil parish
 plural: Civil parishes
 prefix: ''

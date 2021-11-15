@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: world-heritage-site
+  text: ''
 name: World heritage site
 plural: World heritage sites
 prefix: ''

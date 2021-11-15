@@ -41,6 +41,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: development-policy-area
+  text: ''
 key-field: ''
 name: Development policy area
 plural: Development policy areas

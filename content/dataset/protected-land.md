@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: protected-land
+  text: ''
 name: Protected land
 plural: Protected land
 prefix: ''

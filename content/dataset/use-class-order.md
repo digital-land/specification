@@ -29,6 +29,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: use-class-order
+  text: ''
 name: Use class order
 plural: Use class orders
 prefix: ''

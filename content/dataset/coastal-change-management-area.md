@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: coastal-change-management-area
+  text: ''
 name: Coastal change management area
 plural: Coastal change management areas
 prefix: ''

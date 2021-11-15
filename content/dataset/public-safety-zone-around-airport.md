@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: public-safety-zone-around-airport
+  text: ''
 name: Public safety zone around airport
 plural: Public safety zones around airports
 prefix: ''

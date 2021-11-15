@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: local-authority-district
+  text: ''
 name: Local authority district
 plural: Local authority districts
 prefix: statistical-geography

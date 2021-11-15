@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: non-designated-archeology-asset-of-national-importance
+  text: ''
 name: Non-designated archeology asset of national importance
 plural: Non-designated archeology assets of national importance
 prefix: ''

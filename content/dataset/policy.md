@@ -42,6 +42,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: policy
+  text: ''
 key-field: ''
 name: Policy
 themes:

@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: local-nature-recovery-strategy
+  text: ''
 name: Local nature recovery strategy
 plural: Local nature recovery strategies
 prefix: ''

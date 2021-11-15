@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: protected-view
+  text: ''
 name: Protected view
 plural: Protected views
 prefix: ''

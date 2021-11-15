@@ -73,6 +73,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: planning-decision
+  text: ''
 name: Planning decision
 plural: Planning decisions
 prefix: ''

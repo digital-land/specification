@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: metropolitan-open-land
+  text: ''
 name: Metropolitan open land
 plural: Metropolitan open land
 prefix: ''

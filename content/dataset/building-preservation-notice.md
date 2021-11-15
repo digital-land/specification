@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: building-preservation-notice
+  text: ''
 name: Building preservation notice
 plural: Building preservation notices
 prefix: ''

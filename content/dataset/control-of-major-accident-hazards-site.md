@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: control-of-major-accident-hazards-site
+  text: ''
 name: Control of major accident hazards site
 plural: Control of major accident hazards sites
 prefix: ''

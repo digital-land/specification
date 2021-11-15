@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: certificate-of-immunity
+  text: ''
 name: Certificate of immunity
 plural: Certificates of immunity
 prefix: ''

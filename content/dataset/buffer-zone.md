@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: buffer-zone
+  text: ''
 name: Buffer zone
 plural: Buffer zones
 prefix: ''

@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: main-river
+  text: ''
 name: Main river
 plural: Main rivers
 prefix: ''

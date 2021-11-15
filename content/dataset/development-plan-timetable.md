@@ -30,6 +30,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: development-plan-timetable
+  text: ''
 key-field: ''
 name: Development plan timetable
 themes:

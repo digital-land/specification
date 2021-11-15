@@ -73,6 +73,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: site-of-nature-conservation-importance
+  text: ''
 name: Site of nature conservation importancem
 plural: Sites of nature conservation importance
 prefix: ''

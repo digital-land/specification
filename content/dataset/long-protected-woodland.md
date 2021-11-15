@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: long-protected-woodland
+  text: ''
 name: Long protected woodland
 plural: Long protected woodlands
 prefix: ''

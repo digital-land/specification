@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: self-and-custom-buildarea
+  text: ''
 name: Self and custom build area
 plural: Self and custom build areas
 prefix: ''

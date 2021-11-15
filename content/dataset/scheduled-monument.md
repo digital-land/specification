@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: scheduled-monument
+  text: ''
 name: Scheduled monument
 plural: Scheduled monuments
 prefix: ''

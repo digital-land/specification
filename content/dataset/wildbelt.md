@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: wildbelt
+  text: ''
 name: Wildbelt
 plural: Wildbelts
 prefix: ''

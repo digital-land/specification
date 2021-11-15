@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: central-activities-zone
+  text: ''
 name: Central activities zone
 plural: Central activities zone
 prefix: ''

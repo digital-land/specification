@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: common-land-and-village-green
+  text: ''
 name: Common land and village green
 plural: Common land and village greens
 prefix: ''

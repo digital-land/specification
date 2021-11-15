@@ -29,6 +29,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: document-type
+  text: ''
 name: Document type
 plural: Document types
 prefix: ''

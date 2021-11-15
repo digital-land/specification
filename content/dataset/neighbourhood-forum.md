@@ -101,6 +101,10 @@ fields:
   end-date: ''
   field: wikipedia
   text: ''
+- description: ''
+  end-date: ''
+  field: neighbourhood-forum
+  text: ''
 name: Designated neighbourhood forum
 plural: Neighbourhood forums
 prefix: ''

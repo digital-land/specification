@@ -61,6 +61,10 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: hs2-safeguarded-area
+  text: ''
 name: HS2 safeguarded area
 plural: HS2 safeguarded areas
 prefix: ''
