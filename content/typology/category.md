@@ -1,0 +1,4 @@
+---
+name: Category
+typology: category
+---
