@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: nuclear-safety-zone
   text: ''
+key-field: nuclear-safety-zone
 name: Nuclear safety zone
 plural: Nuclear safety zones
 prefix: ''

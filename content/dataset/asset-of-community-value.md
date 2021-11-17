@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: asset-of-community-value
   text: ''
+key-field: asset-of-community-value
 name: Asset of community value
 plural: Assets of community value
 prefix: ''

@@ -53,16 +53,28 @@ def add_dataset_field(dataset, field):
 # as-is
 load("field")
 dump("field")
+
 load("theme")
 dump("theme")
+
 load("typology")
 dump("typology")
+
 load("datatype")
 dump("datatype")
+
+load("datapackage")
+for row in csv.DictReader(open("specification/datapackage-dataset.csv", newline="")):
+    datapackage = row["datapackage"]
+    table["datapackage"][datapackage].setdefault("datasets", [])
+    table["datapackage"][datapackage]["datasets"].append(row["dataset"])
+dump("datapackage")
+
 load("project")
 for project, row in table["project"].items():
     table["project"][project].setdefault("datasets", [])
 dump("project")
+
 load("project-status")
 dump("project-status")
 
@@ -108,6 +120,9 @@ for dataset, row in table["dataset"].items():
         typology = row["typology"]
         for field in table["schema"][typology]["fields"]:
             add_dataset_field(dataset, field)
+
+    # ensure key-field is explicitly defined
+    row.setdefault("key-field", dataset)
 
     # ensure key-field is in fields ..
     fields = [field["field"] for field in row["fields"]]

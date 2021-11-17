@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: address
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -36,6 +39,12 @@ fields:
   text: ''
 key-field: ''
 name: Address
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

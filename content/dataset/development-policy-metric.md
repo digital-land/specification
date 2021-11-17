@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: development-policy-metric
 description: The list of metrics associated with a development policy
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -36,6 +39,12 @@ fields:
   text: ''
 key-field: ''
 name: Development policy metric
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

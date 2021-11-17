@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: london-square
   text: ''
+key-field: london-square
 name: London square
 plural: London squares
 prefix: ''

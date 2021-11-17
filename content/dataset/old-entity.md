@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: old-entity
 description: Redirect an entity or mark it as gone
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -32,6 +35,12 @@ fields:
   text: ''
 key-field: ''
 name: Entity redirection
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

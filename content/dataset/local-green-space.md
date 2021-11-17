@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: local-green-space
   text: ''
+key-field: local-green-space
 name: Local green space
 plural: Local green spaces
 prefix: ''

@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: proposed-ramsar-site
   text: ''
+key-field: proposed-ramsar-site
 name: Proposed ramsar site
 plural: Proposed ramsar sites
 prefix: ''

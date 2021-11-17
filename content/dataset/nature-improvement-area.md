@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: nature-improvement-area
   text: ''
+key-field: nature-improvement-area
 name: Nature improvement area
 plural: Nature improvement areas
 prefix: ''

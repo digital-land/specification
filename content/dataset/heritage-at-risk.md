@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: heritage-at-risk
   text: ''
+key-field: heritage-at-risk
 name: Heritage at risk
 plural: Heritage at risk
 prefix: ''

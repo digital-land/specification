@@ -105,6 +105,7 @@ fields:
   end-date: ''
   field: neighbourhood-forum
   text: ''
+key-field: neighbourhood-forum
 name: Designated neighbourhood forum
 plural: Neighbourhood forums
 prefix: ''

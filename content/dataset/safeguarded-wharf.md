@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: safeguarded-wharf
   text: ''
+key-field: safeguarded-wharf
 name: Safeguarded wharf
 plural: Safeguarded wharves
 prefix: ''

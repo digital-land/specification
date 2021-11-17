@@ -77,6 +77,7 @@ fields:
   end-date: ''
   field: protected-site-strategy
   text: ''
+key-field: protected-site-strategy
 name: Protected site strategy
 plural: Protected site strategies
 prefix: ''

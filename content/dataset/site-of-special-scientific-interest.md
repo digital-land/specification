@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: site-of-special-scientific-interest
   text: ''
+key-field: site-of-special-scientific-interest
 name: Site of special scientific interest
 plural: ''
 prefix: ''

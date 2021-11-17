@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: addressbase-custodian
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -40,6 +43,12 @@ fields:
   text: ''
 key-field: ''
 name: Addressbase custodian
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

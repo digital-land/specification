@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: buffer-zone
   text: ''
+key-field: buffer-zone
 name: Buffer zone
 plural: Buffer zones
 prefix: ''

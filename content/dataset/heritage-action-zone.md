@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: heritage-action-zone
   text: ''
+key-field: heritage-action-zone
 name: Heritage action zone
 plural: Heritage action zones
 prefix: ''

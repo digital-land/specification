@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: local-authority-district
   text: ''
+key-field: local-authority-district
 name: Local authority district
 plural: Local authority districts
 prefix: statistical-geography

@@ -33,6 +33,7 @@ fields:
   end-date: ''
   field: document-type
   text: ''
+key-field: document-type
 name: Document type
 plural: Document types
 prefix: ''

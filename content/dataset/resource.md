@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: resource
 description: An index of collected resources
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -36,6 +39,12 @@ fields:
   text: ''
 key-field: ''
 name: Resource
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

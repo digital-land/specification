@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: safeguarded-military-explosives-site
   text: ''
+key-field: safeguarded-military-explosives-site
 name: Safeguarded military explosives site
 plural: Safeguarded military explosives sites
 prefix: ''

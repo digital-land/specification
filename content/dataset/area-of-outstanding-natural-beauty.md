@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: area-of-outstanding-natural-beauty
   text: ''
+key-field: area-of-outstanding-natural-beauty
 name: Area of outstanding natural beauty
 plural: Areas of outstanding natural beauty
 prefix: ''

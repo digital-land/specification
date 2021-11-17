@@ -49,6 +49,14 @@ fields:
   end-date: ''
   field: start-date
   text: ''
+- description: ''
+  end-date: ''
+  field: wikidata
+  text: ''
+- description: ''
+  end-date: ''
+  field: wikipedia
+  text: ''
 key-field: ''
 name: Listed building
 plural: Listed buildings

@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: suitable-alternative-green-space
   text: ''
+key-field: suitable-alternative-green-space
 name: Suitable alternative green space
 plural: Suitable alternative green spaces
 prefix: ''

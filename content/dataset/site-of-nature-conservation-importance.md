@@ -77,6 +77,7 @@ fields:
   end-date: ''
   field: site-of-nature-conservation-importance
   text: ''
+key-field: site-of-nature-conservation-importance
 name: Site of nature conservation importancem
 plural: Sites of nature conservation importance
 prefix: ''

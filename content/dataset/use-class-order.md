@@ -33,6 +33,7 @@ fields:
   end-date: ''
   field: use-class-order
   text: ''
+key-field: use-class-order
 name: Use class order
 plural: Use class orders
 prefix: ''

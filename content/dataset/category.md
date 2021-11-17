@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: category
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -28,6 +31,12 @@ fields:
   text: ''
 key-field: ''
 name: Category
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

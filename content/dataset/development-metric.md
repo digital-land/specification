@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: development-metric
 description: The types of measurement used as a development policy metric
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -28,6 +31,12 @@ fields:
   text: ''
 key-field: ''
 name: Development metric
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

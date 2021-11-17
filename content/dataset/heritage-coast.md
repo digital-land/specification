@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: heritage-coast
   text: ''
+key-field: heritage-coast
 name: Heritage coast
 plural: Heritage coast
 prefix: ''

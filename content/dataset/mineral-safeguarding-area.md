@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: mineral-safeguarding-area
   text: ''
+key-field: mineral-safeguarding-area
 name: Mineral safeguarding area
 plural: Mineral safeguarding areas
 prefix: ''

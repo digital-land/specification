@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: skip
 description: Remove lines from a resource during normalise
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -28,6 +31,12 @@ fields:
   text: ''
 key-field: ''
 name: Pipeline skip
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

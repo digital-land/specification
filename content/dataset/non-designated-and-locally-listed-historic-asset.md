@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: non-designated-and-locally-listed-historic-asset
   text: ''
+key-field: non-designated-and-locally-listed-historic-asset
 name: Non-designated and locally listed historic asset
 plural: Non-designated and locally listed historic assets
 prefix: ''

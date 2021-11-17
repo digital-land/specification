@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: dataset
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -60,6 +63,12 @@ fields:
   text: ''
 key-field: ''
 name: Dataset
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: specification
+wikidata: Q1172284
+wikipedia: Data_set
 ---

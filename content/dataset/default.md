@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: default
 description: Take a missing field default value from another field
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -32,6 +35,12 @@ fields:
   text: ''
 key-field: ''
 name: Pipeline default
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

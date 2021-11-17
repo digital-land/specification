@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: long-established-woodland
   text: ''
+key-field: long-established-woodland
 name: Long established woodland
 plural: Long established woodlands
 prefix: ''

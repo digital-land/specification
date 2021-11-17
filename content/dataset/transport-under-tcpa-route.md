@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: transport-under-tcpa-route
   text: ''
+key-field: transport-under-tcpa-route
 name: Transport (under TCPA route)
 plural: Transport (under TCPA route)
 prefix: ''

@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: lookup
 description: Lookup entities
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -32,6 +35,12 @@ fields:
   text: ''
 key-field: ''
 name: Pipeline lookup
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

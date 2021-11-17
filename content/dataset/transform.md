@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: transform
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -28,6 +31,12 @@ fields:
   text: ''
 key-field: ''
 name: Transform
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

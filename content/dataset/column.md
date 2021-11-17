@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: column
 description: Change column and field names during map
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -36,6 +39,12 @@ fields:
   text: ''
 key-field: ''
 name: Pipeline column
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: contaminated-land
   text: ''
+key-field: contaminated-land
 name: Contaminated land
 plural: Contaminated land
 prefix: ''

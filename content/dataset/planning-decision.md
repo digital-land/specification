@@ -77,6 +77,7 @@ fields:
   end-date: ''
   field: planning-decision
   text: ''
+key-field: planning-decision
 name: Planning decision
 plural: Planning decisions
 prefix: ''

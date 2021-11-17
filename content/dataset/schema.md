@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: schema
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -32,6 +35,12 @@ fields:
   text: ''
 key-field: ''
 name: Schema
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

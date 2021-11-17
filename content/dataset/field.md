@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: field
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -48,6 +51,12 @@ fields:
   text: ''
 key-field: ''
 name: Field
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

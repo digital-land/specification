@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: archaelogy-area-type
   text: ''
+key-field: archaelogy-area-type
 name: Archaelogy area type
 plural: Archaelogy area types
 prefix: ''

@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: prefix
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -24,6 +27,12 @@ fields:
   text: ''
 key-field: ''
 name: CURIE prefix
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

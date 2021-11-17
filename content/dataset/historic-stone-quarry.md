@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: historic-stone-quarry
   text: ''
+key-field: historic-stone-quarry
 name: Historic stone quarry
 plural: Historic stone quarries
 prefix: ''

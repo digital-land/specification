@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: shielding-hub
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -80,6 +83,12 @@ fields:
   text: ''
 key-field: ''
 name: Shielding hub
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

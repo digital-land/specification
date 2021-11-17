@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: filter
 description: Filter entries
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -32,6 +35,12 @@ fields:
   text: ''
 key-field: ''
 name: Pipeline filter
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

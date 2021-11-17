@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: geography
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -60,6 +63,12 @@ fields:
   text: ''
 key-field: ''
 name: Geography
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

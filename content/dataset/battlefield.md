@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: battlefield
   text: ''
+key-field: battlefield
 name: Battlefield
 plural: Battlefields
 prefix: ''

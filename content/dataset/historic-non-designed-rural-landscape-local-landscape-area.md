@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: historic-non-designed-rural-landscape-local-landscape-area
   text: ''
+key-field: historic-non-designed-rural-landscape-local-landscape-area
 name: Historic (non-designed) rural landscape/local landscape area
 plural: Historic (non-designed) rural landscape/local landscape areas
 prefix: ''

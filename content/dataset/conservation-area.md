@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: conservation-area
   text: ''
+key-field: conservation-area
 name: Conservation area
 plural: Conservation areas
 prefix: ''

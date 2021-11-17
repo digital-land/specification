@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: safeguarded-aerodrome
   text: ''
+key-field: safeguarded-aerodrome
 name: Safeguarded aerodrome
 plural: Safeguarded aerodromes
 prefix: ''

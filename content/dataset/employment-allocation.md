@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: employment-allocation
   text: ''
+key-field: employment-allocation
 name: Employment allocation
 plural: Employment allocations
 prefix: ''

@@ -77,6 +77,7 @@ fields:
   end-date: ''
   field: special-protection-area
   text: ''
+key-field: special-protection-area
 name: Special protection area
 plural: Special protection areas
 prefix: ''

@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: log
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -40,6 +43,12 @@ fields:
   text: ''
 key-field: ''
 name: Collection log
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- specification
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

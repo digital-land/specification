@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: world-heritage-site
   text: ''
+key-field: world-heritage-site
 name: World heritage site
 plural: World heritage sites
 prefix: ''

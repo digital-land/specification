@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: policy
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -48,6 +51,12 @@ fields:
   text: ''
 key-field: ''
 name: Policy
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

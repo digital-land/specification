@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: brownfield-site
   text: ''
+key-field: brownfield-site
 name: Brownfield site
 plural: Brownfield sites
 prefix: ''

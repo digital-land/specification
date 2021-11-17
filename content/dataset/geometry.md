@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: geometry
 description: Geometry index
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -40,6 +43,12 @@ fields:
   text: ''
 key-field: entity
 name: Geometry
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

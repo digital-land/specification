@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: flood-zone-1
   text: ''
+key-field: flood-zone-1
 name: Flood zone 1
 plural: Flood zones 1
 prefix: ''

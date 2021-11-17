@@ -1,6 +1,9 @@
 ---
+collection: ''
 dataset: organisation
 description: ''
+end-date: ''
+entry-date: ''
 fields:
 - description: ''
   end-date: ''
@@ -100,6 +103,12 @@ fields:
   text: ''
 key-field: ''
 name: Organisation
+plural: ''
+prefix: ''
+start-date: ''
 themes:
 - ''
+typology: ''
+wikidata: ''
+wikipedia: ''
 ---

@@ -65,6 +65,7 @@ fields:
   end-date: ''
   field: wildlife
   text: ''
+key-field: wildlife
 name: Wildlife
 plural: Wildlife
 prefix: ''
