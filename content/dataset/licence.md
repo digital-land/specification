@@ -5,30 +5,12 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: licence
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: text
-  text: ''
+- field: end-date
+- field: entity
+- field: entry-date
+- field: licence
+- field: start-date
+- field: text
 key-field: ''
 name: Licence
 plural: Licences

@@ -5,58 +5,19 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: description
-  text: ''
-- description: ''
-  end-date: ''
-  field: development-plan-document
-  text: ''
-- description: ''
-  end-date: ''
-  field: development-plan-types
-  text: ''
-- description: ''
-  end-date: ''
-  field: development-policies
-  text: ''
-- description: ''
-  end-date: ''
-  field: document-url
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: geographies
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: notes
-  text: ''
-- description: ''
-  end-date: ''
-  field: organisations
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: description
+- field: development-plan-document
+- field: development-plan-types
+- field: development-policies
+- field: document-url
+- field: end-date
+- field: entity
+- field: entry-date
+- field: geographies
+- field: name
+- field: notes
+- field: organisations
+- field: start-date
 key-field: ''
 name: Development plan document
 plural: Development plan documents

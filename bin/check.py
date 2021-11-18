@@ -11,7 +11,7 @@ dialect.strict = True
 keys = {
     "schema-field": ["schema", "field"],
     "dataset-schema": ["dataset", "schema"],
-    #"datapackage-dataset": ["datapackage", "dataset"],
+    # "datapackage-dataset": ["datapackage", "dataset"],
 }
 
 fields = {}
@@ -34,12 +34,10 @@ tables = {
     "schema-field": {},
     "dataset-schema": {},
     "datapackage": {},
-    #"datapackage-dataset": {},
+    # "datapackage-dataset": {},
 }
 
-empty_reference = {
-    "collection"
-}
+empty_reference = {"collection"}
 
 errors = 0
 
@@ -75,14 +73,30 @@ def field_typology(f):
     if f["parent-field"] == "" or f["field"] == f["parent-field"]:
         return f["parent-field"]
 
+    if f["parent-field"] not in tables["field"]:
+        error("%s: unknown parent-field '%s'" % (f["field"], f["parent-field"]))
+        return ""
+
     return field_typology(tables["field"][f["parent-field"]])
 
 
-def check_typologies():
+def check_field_typology():
     for field, f in tables["field"].items():
         typology = field_typology(f)
+        if typology != f.get("typology", ""):
+            error(
+                "field '%s' has typology '%s' parent-field is '%s'"
+                % (field, f.get("typology", ""), typology)
+            )
         if typology not in tables["typology"]:
             error("field '%s' has an unknown typology '%s'" % (field, typology))
+
+
+def check_dataset_typology():
+    for dataset, d in tables["dataset"].items():
+        typology = row.get("typology", "")
+        if typology not in tables["typology"]:
+            error("dataset '%s' has an unknown typology '%s'" % (dataset, typology))
 
 
 def check_datasets():
@@ -94,16 +108,20 @@ def check_datasets():
 
 def check_themes():
     for dataset, d in tables["dataset"].items():
-        for theme in d["themes"].split(";"):
-            if theme not in tables["theme"]:
-                error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
+        if dataset not in tables["typology"]:
+            for theme in d["themes"].split(";"):
+                if theme not in tables["theme"]:
+                    error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
 
 def check_project_status():
     for project, p in tables["project"].items():
         for status in p["project-status"].split(";"):
             if status not in tables["project-status"]:
-                error("project '%s' has an unknown project-status '%s'" % (project, status))
+                error(
+                    "project '%s' has an unknown project-status '%s'"
+                    % (project, status)
+                )
 
 
 def check(table):
@@ -170,7 +188,8 @@ if __name__ == "__main__":
             if field not in tables["schema-field"][table]:
                 error("unexpected field '%s' in table '%s'" % (field, table))
 
-    check_typologies()
+    check_field_typology()
+    check_dataset_typology()
     check_themes()
     check_datasets()
     check_project_status()

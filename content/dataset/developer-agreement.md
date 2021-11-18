@@ -5,42 +5,15 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: developer-agreement
-  text: ''
-- description: ''
-  end-date: ''
-  field: developer-agreement-type
-  text: ''
-- description: ''
-  end-date: ''
-  field: document-url
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: organisation
-  text: ''
-- description: ''
-  end-date: ''
-  field: planning-application
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: developer-agreement
+- field: developer-agreement-type
+- field: document-url
+- field: end-date
+- field: entity
+- field: entry-date
+- field: organisation
+- field: planning-application
+- field: start-date
 key-field: ''
 name: Developer agreement
 plural: Developer agreements

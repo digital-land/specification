@@ -5,58 +5,19 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: documentation-url
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: geometry
-  text: ''
-- description: ''
-  end-date: ''
-  field: legislation
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: notes
-  text: ''
-- description: ''
-  end-date: ''
-  field: organisation
-  text: ''
-- description: ''
-  end-date: ''
-  field: point
-  text: ''
-- description: ''
-  end-date: ''
-  field: reference
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: tree-preservation-order
-  text: ''
+- field: documentation-url
+- field: end-date
+- field: entity
+- field: entry-date
+- field: geometry
+- field: legislation
+- field: name
+- field: notes
+- field: organisation
+- field: point
+- field: reference
+- field: start-date
+- field: tree-preservation-order
 key-field: ''
 name: Tree preservation order
 plural: Tree preservation orders

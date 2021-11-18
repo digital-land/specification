@@ -5,38 +5,14 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: green-belt-core
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: wikidata
-  text: ''
-- description: ''
-  end-date: ''
-  field: wikipedia
-  text: ''
+- field: end-date
+- field: entity
+- field: entry-date
+- field: green-belt-core
+- field: name
+- field: start-date
+- field: wikidata
+- field: wikipedia
 key-field: ''
 name: Green belt urban core
 plural: Green belt urban cores

@@ -1,62 +1,161 @@
 pipeline,name,plural,schema,scope-field,slug-prefix
-ancient-woodland,Ancient Woodland,Ancient Woodland,geography,,ancient-woodland
-area-of-outstanding-natural-beauty,Area of Outstanding Natural Beauty,Areas of Outstanding Natural Beauty,geography,,area-of-outstanding-natural-beauty
-article-4-direction,Article 4 Direction,Article 4 Directions,article-4-direction,organisation,article-4-direction
-battlefield,Battlefield,Battlefield,geography,,battlefield
-brownfield-land,Brownfield land,Brownfield land,brownfield-land,organisation,brownfield-land
-brownfield-site,Brownfield site,Brownfield sites,geography,organisation,brownfield-site
-building-preservation-notice,Building preservation notice,Building preservation notice,geography,,building-preservation-notice
-central-activities-zone,Central activities zone,Central activities zones,geography,,central-activities-zone
-certificate-of-immunity,Cetificate of immunity,Cetificates of immunity,geography,,certificate-of-immunity
-conservation-area,Conservation area,Conservation areas,geography,organisation,conservation-area
-contribution-funding-status,Contribution Funding Status,Contribution Funding Statuses,contribution-funding-status,,contribution-funding-status
-contribution-purpose,Contribution Purpose,Contribution Purposes,contribution-purpose,,contribution-purpose
-developer-agreement,Developer Agreement,Developer Agreements,developer-agreement,organisation,developer-agreement
-developer-agreement-contribution,Developer Agreement Contribution,Developer Agreement Contributions,developer-agreement-contribution,organisation,developer-agreement-contribution
-developer-agreement-transaction,Developer Agreement Transaction,Developer Agreement Transactions,developer-agreement-transaction,organisation,developer-agreement-transaction
-developer-agreement-type,Developer Agreement Type,Developer Agreement Types,developer-agreement-type,,developer-agreement-type
-development-corporation,Development corporation,Development corporations,organisation,,organisation
-development-plan-document,Development Plan Document,Development Plan Documents,development-plan-document,organisations,development-plan-document
-development-plan-type,Development Plan Type,Development Plan Types,development-plan-type,,development-plan-type
-development-policy,Development Policy,Development Policies,development-policy,organisation,development-policy
-development-policy-area,Development Policy Area,Development Policy Areas,geography,organisation,development-policy-area
-development-policy-category,Development Policy Category,Development Policy Categories,development-policy-category,,development-policy-category
-document,Document,Documents,document,,document
-document-type,Document Type,Document Types,category,,document-type
-employment-allocation,Employment allocation,Employment allocations,geography,,employment-allocation
-government-organisation,Government organisation,"Government departments, agencies and public bodies",organisation,,organisation
-green-belt,Green belt,Green belt,green-belt,,green-belt
-green-belt-core,Green belt urban core,Green belt urban cores,green-belt-core,,green-belt-core
-heritage-at-risk,Heritage at risk,Heritage at risk,geography,,heritage-at-risk
-heritage-coast,Heritage Coast,Heritage Coasts,geography,,heritage-coast
-housing-allocation,Housing allocation,Housing allocations,geography,,housing-allocation
-infrastructure-funding-statement,Infrastructure Funding Statement,Infrastructure Funding Statements,infrastructure-funding-statement,organisation,infrastructure-funding-statement
-listed-building,Listed building,Listed buildings,listed-building,,listed-building
-listed-building-grade,Listed building grade,Listed building grades,listed-building-grade,,listed-building-grade
-local-authority-district,Local authority district,Local authority districts,geography,,
-local-authority-eng,Local authority,Local authorities,organisation,,organisation
-national-park,National park,"National park, including the Broads",national-park,,
-national-park-authority,National park,"National park authorities, including the Broads",organisation,,organisation
-neighbourhood-forum,Designated neighbourhood forum,Designate neighbourhood forums,organisation,,
-open-space,Open space,Open spaces,open-space,,open-space
-ownership-status,Ownership Status,Ownership Statuses,ownership-status,,ownership-status
-parish,Parish,Parishes,geography,,
-park-and-garden,Park and garden,Parks and gardens,park-and-garden,,park-and-garden
-park-and-garden-grade,Park and garden grade,Park and garden grades,park-and-garden-grade,,park-and-garden-grade
-permitted-development-right,Permitted Development Right,Permitted Development Rights,permitted-development-right,,permitted-development-right
-planning-permission-status,Planning Permission Status,Planning Permission Statuses,planning-permission-status,,planning-permission-status
-planning-permission-type,Planning Permission Type,Planning Permission Types,planning-permission-type,,planning-permission-type
-protected-wreck-site,Protected wreck site,Protected wreck sites,geography,,
-public-authority,Public authority,Public authorities,organisation,,organisation
-ramsar,Ramsar,Ramsar,ramsar,,ramsar
-ramsar-site,Ramsar site,Ramsar sites,ramsar-site,,ramsar-site
-regional-park-authority,Regional park authority,Regional park authorities,organisation,,organisation
-scheduled-monument,Scheduled monument,Scheduled monument,geography,,
-site-category,Site category,Site categories,site-category,,site-category
-site-of-special-scientific-interest,Site of special scientific interest,Site of special scientific interest,geography,,site-of-special-scientific-interest
-special-area-of-conservation,Special area of conservation,Special areas of conservation from Natural England,geography,,
-transport-authority,Transport authority,Transport authorities,organisation,,organisation
-tree,Tree,Trees,tree,,tree
-tree-preservation-order,Tree preservation order,Tree preservation orders,tree-preservation-order,,tree-preservation-order
-waste-authority,Waste authority,Waste authorities,organisation,,organisation
-world-heritage-site,World heritage site,World heritage sites,geography,,
+address,Address,,address,,
+addressbase-custodian,Addressbase custodian,,addressbase-custodian,,
+ancient-woodland,Ancient woodland,Ancient woodlands,ancient-woodland,,
+archaelogy-area-type,Archaelogy area type,Archaelogy area types,archaelogy-area-type,,
+area-of-outstanding-natural-beauty,Area of outstanding natural beauty,Areas of outstanding natural beauty,area-of-outstanding-natural-beauty,,
+article-4-direction,Article 4 direction,Article 4 directions,article-4-direction,,
+asset-of-community-value,Asset of community value,Assets of community value,asset-of-community-value,,
+attribution,Attribution,Attributions,attribution,,
+battlefield,Battlefield,Battlefields,battlefield,,
+best-and-most-versatile-agricultural-land,Best and most versatile agricultural land,Best and most versatile agricultural land,best-and-most-versatile-agricultural-land,,
+biodiversity-net-gain-assessment,Biodiversity net gain assesment,Biodiversity net gain assesments,biodiversity-net-gain-assessment,,
+brownfield-land,Brownfield land,Brownfield land,brownfield-land,,
+brownfield-site,Brownfield site,Brownfield sites,brownfield-site,,
+buffer-zone,Buffer zone,Buffer zones,buffer-zone,,
+building-preservation-notice,Building preservation notice,Building preservation notices,building-preservation-notice,,
+category,Category,,category,,
+central-activities-zone,Central activities zone,Central activities zone,central-activities-zone,,
+certificate-of-immunity,Certificate of immunity,Certificates of immunity,certificate-of-immunity,,
+coastal-change-management-area,Coastal change management area,Coastal change management areas,coastal-change-management-area,,
+collection,Collection,,collection,,
+column,Pipeline column,,column,,
+common-land-and-village-green,Common land and village green,Common land and village greens,common-land-and-village-green,,
+company,Company,,company,,
+concat,Pipeline concat,,concat,,
+conservation-area,Conservation area,Conservation areas,conservation-area,,
+contaminated-land,Contaminated land,Contaminated land,contaminated-land,,
+contribution-funding-status,Contribution funding status,Contribution funding statuses,contribution-funding-status,,
+contribution-purpose,Contribution purpose,Contribution purposes,contribution-purpose,,
+control-of-major-accident-hazards-site,Control of major accident hazards site,Control of major accident hazards sites,control-of-major-accident-hazards-site,,
+convert,Pipeline convert,,convert,,
+datapackage-dataset,Data package dataset,,datapackage-dataset,,
+datapackage,Data package,,datapackage,,
+dataset-schema,Dataset schema,,dataset-schema,,
+dataset,Dataset,,dataset,,
+datatype,Datatype,,datatype,,
+default,Pipeline default,,default,,
+developer-agreement-contribution,Developer agreement contribution,Developer agreement contributions,developer-agreement-contribution,,
+developer-agreement-transaction,Developer agreement transaction,Developer agreement transactions,developer-agreement-transaction,,
+developer-agreement-type,Developer agreement type,Developer agreement types,developer-agreement-type,,
+developer-agreement,Developer agreement,Developer agreements,developer-agreement,,
+development-corporation,Development corporation,Development corporations,development-corporation,,
+development-metric,Development metric,,development-metric,,
+development-plan-document,Development plan document,Development plan documents,development-plan-document,,
+development-plan-status,Development plan status,,development-plan-status,,
+development-plan-timetable,Development plan timetable,,development-plan-timetable,,
+development-plan-type,Development plan type,Development plan types,development-plan-type,,
+development-policy-area,Development policy area,Development policy areas,development-policy-area,,
+development-policy-category,Development policy category,Development policy categories,development-policy-category,,
+development-policy-metric,Development policy metric,,development-policy-metric,,
+development-policy,Development policy,Development policies,development-policy,,
+document-type,Document type,Document types,document-type,,
+document,Document,Documents,document,,
+employment-allocation,Employment allocation,Employment allocations,employment-allocation,,
+endpoint,Endpoint,,endpoint,,
+entity,Entity,,entity,,
+field,Field,,field,,
+filter,Pipeline filter,,filter,,
+flood-zone-1,Flood zone 1,Flood zones 1,flood-zone-1,,
+flood-zone-2,Flood zone 2,Flood zones 2,flood-zone-2,,
+flood-zone-3,Flood zone 3,Flood zones 3,flood-zone-3,,
+geography,Geography,,geography,,
+geometry,Geometry,,geometry,,
+government-organisation,Government organisation,Government organisations,government-organisation,,
+green-belt-core,Green belt urban core,Green belt urban cores,green-belt-core,,
+green-belt,Green belt,Green belt,green-belt,,
+guardianship-site-and-english-heritage-site,Guardianship site and English heritage site,Guardianship sites and English heritage sites,guardianship-site-and-english-heritage-site,,
+gypsy-and-traveller-site,Gypsy and traveller site,Gypsy and traveller sites,gypsy-and-traveller-site,,
+heritage-action-zone,Heritage action zone,Heritage action zones,heritage-action-zone,,
+heritage-at-risk,Heritage at risk,Heritage at risk,heritage-at-risk,,
+heritage-coast,Heritage coast,Heritage coast,heritage-coast,,
+historic-non-designed-rural-landscape-local-landscape-area,Historic (non-designed) rural landscape/local landscape area,Historic (non-designed) rural landscape/local landscape areas,historic-non-designed-rural-landscape-local-landscape-area,,
+historic-stone-quarry,Historic stone quarry,Historic stone quarries,historic-stone-quarry,,
+housing-allocation,Housing allocation,Housing allocations,housing-allocation,,
+hs2-safeguarded-area,HS2 safeguarded area,HS2 safeguarded areas,hs2-safeguarded-area,,
+infrastructure-funding-statement,Infrastructure funding statement,,infrastructure-funding-statement,,
+internal-drainage-board,Internal drainage board,Internal drainage boards,internal-drainage-board,,
+issue,Issue,,issue,,
+licence,Licence,Licences,licence,,
+listed-building-grade,Listed building grade,Listed building grades,listed-building-grade,,
+listed-building,Listed building,Listed buildings,listed-building,,
+local-authority-district,Local authority district,Local authority districts,local-authority-district,,
+local-authority-eng,Local authority,Local authorities,local-authority-eng,,
+local-authority-type,Local authority type,,local-authority-type,,
+local-green-space,Local green space,Local green spaces,local-green-space,,
+local-nature-recovery-strategy,Local nature recovery strategy,Local nature recovery strategies,local-nature-recovery-strategy,,
+log,Collection log,,log,,
+london-square,London square,London squares,london-square,,
+long-established-woodland,Long established woodland,Long established woodlands,long-established-woodland,,
+long-protected-woodland,Long protected woodland,Long protected woodlands,long-protected-woodland,,
+lookup,Pipeline lookup,,lookup,,
+main-river,Main river,Main rivers,main-river,,
+metropolitan-open-land,Metropolitan open land,Metropolitan open land,metropolitan-open-land,,
+mineral-safeguarding-area,Mineral safeguarding area,Mineral safeguarding areas,mineral-safeguarding-area,,
+national-park-authority,National park authority,National park authorities,national-park-authority,,
+national-park,National park,National parks,national-park,,
+nature-improvement-area,Nature improvement area,Nature improvement areas,nature-improvement-area,,
+neighbourhood-forum,Designated neighbourhood forum,Neighbourhood forums,neighbourhood-forum,,
+non-designated-and-locally-listed-historic-asset,Non-designated and locally listed historic asset,Non-designated and locally listed historic assets,non-designated-and-locally-listed-historic-asset,,
+non-designated-archeology-asset-of-national-importance,Non-designated archeology asset of national importance,Non-designated archeology assets of national importance,non-designated-archeology-asset-of-national-importance,,
+nuclear-safety-zone,Nuclear safety zone,Nuclear safety zones,nuclear-safety-zone,,
+old-entity,Entity redirection,,old-entity,,
+open-space,Open space,Open spaces,open-space,,
+organisation,Organisation,,organisation,,
+ownership-status,Ownership status,Ownership statuses,ownership-status,,
+parish,Civil parish,Civil parishes,parish,,
+park-and-garden-grade,Park and garden grade,Parks and garden grades,park-and-garden-grade,,
+park-and-garden,Park and garden,Parks and gardens,park-and-garden,,
+patch,Pipeline patch,,patch,,
+permitted-development-right-class,Permitted development right class,,permitted-development-right-class,,
+permitted-development-right-part,Permitted development right part,,permitted-development-right-part,,
+permitted-development-right,Permitted development right,Permitted development right,permitted-development-right,,
+pipeline,Pipeline,,pipeline,,
+planning-decision,Planning decision,Planning decisions,planning-decision,,
+planning-permission-status,Planning permission status,Planning permission statuses,planning-permission-status,,
+planning-permission-type,Planning permission type,Planning permission types,planning-permission-type,,
+policy,Policy,,policy,,
+prefix,CURIE prefix,,prefix,,
+project-status,Project status,,project-status,,
+project,Project,,project,,
+proposed-ramsar-site,Proposed ramsar site,Proposed ramsar sites,proposed-ramsar-site,,
+protected-land,Protected land,Protected land,protected-land,,
+protected-site-strategy,Protected site strategy,Protected site strategies,protected-site-strategy,,
+protected-view,Protected view,Protected views,protected-view,,
+protected-wreck-site,Protected wreck site,Protected wreck sites,protected-wreck-site,,
+provenance,Provenance,,provenance,,
+public-authority,Public authority,Public authorities,public-authority,,
+public-safety-zone-around-airport,Public safety zone around airport,Public safety zones around airports,public-safety-zone-around-airport,,
+ramsar-site,Ramsar site,Ramsar sites,ramsar-site,,
+ramsar,Ramsar area,Ramsar area,ramsar,,
+regional-park-authority,Regional park authority,Regional park authorities,regional-park-authority,,
+resource,Resource,,resource,,
+safeguarded-aerodrome,Safeguarded aerodrome,Safeguarded aerodromes,safeguarded-aerodrome,,
+safeguarded-military-explosives-site,Safeguarded military explosives site,Safeguarded military explosives sites,safeguarded-military-explosives-site,,
+safeguarded-wharf,Safeguarded wharf,Safeguarded wharves,safeguarded-wharf,,
+safety-hazard-area,Safety hazard area,Safety hazard areas,safety-hazard-area,,
+scheduled-monument,Scheduled monument,Scheduled monuments,scheduled-monument,,
+schema-field,Schema field,,schema-field,,
+schema,Schema,,schema,,
+self-and-custom-buildarea,Self and custom build area,Self and custom build areas,self-and-custom-buildarea,,
+site-category,Site category,Site categories,site-category,,
+site-of-nature-conservation-importance,Site of nature conservation importancem,Sites of nature conservation importance,site-of-nature-conservation-importance,,
+site-of-special-scientific-interest,Site of special scientific interest,,site-of-special-scientific-interest,,
+skip,Pipeline skip,,skip,,
+source,Source,,source,,
+special-area-of-conservation,Special area of conservation,,special-area-of-conservation,,
+special-protection-area,Special protection area,Special protection areas,special-protection-area,,
+street,Street,,street,,
+suitable-alternative-green-space,Suitable alternative green space,Suitable alternative green spaces,suitable-alternative-green-space,,
+theme,Theme,,theme,,
+transform,Transform,,transform,,
+transport-authority,Passenger transport executive,Passenger transport executive,transport-authority,,
+transport-under-tcpa-route,Transport (under TCPA route),Transport (under TCPA route),transport-under-tcpa-route,,
+tree-preservation-order,Tree preservation order,Tree preservation orders,tree-preservation-order,,
+tree,Tree,Trees,tree,,
+typology,Typology,,typology,,
+use-class-order,Use class order,Use class orders,use-class-order,,
+waste-authority,Waste disposal authority,Waste authorities,waste-authority,,
+wildbelt,Wildbelt,Wildbelts,wildbelt,,
+wildlife,Wildlife,Wildlife,wildlife,,
+world-heritage-site,World heritage site,World heritage sites,world-heritage-site,,

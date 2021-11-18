@@ -1,37 +1,26 @@
 ---
+collection: ''
 dataset: development-plan-timetable
 description: The expected timetable for the stages a plan will go through
+end-date: ''
+entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: development-plan-document
-  text: ''
-- description: ''
-  end-date: ''
-  field: development-plan-status
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: notes
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: development-plan-document
+- field: development-plan-status
+- field: end-date
+- field: entity
+- field: entry-date
+- field: notes
+- field: start-date
+- field: development-plan-timetable
 key-field: ''
 name: Development plan timetable
+plural: ''
+prefix: ''
+start-date: ''
 themes:
-- ''
+- development
+typology: timetable
+wikidata: ''
+wikipedia: ''
 ---

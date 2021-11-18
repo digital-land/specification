@@ -5,30 +5,12 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: site-category
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: end-date
+- field: entity
+- field: entry-date
+- field: name
+- field: site-category
+- field: start-date
 key-field: ''
 name: Site category
 plural: Site categories
