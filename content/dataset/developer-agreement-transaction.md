@@ -5,46 +5,16 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: amount
-  text: ''
-- description: ''
-  end-date: ''
-  field: contribution-funding-status
-  text: ''
-- description: ''
-  end-date: ''
-  field: developer-agreement-contribution
-  text: ''
-- description: ''
-  end-date: ''
-  field: developer-agreement-transaction
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: organisation
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: units
-  text: ''
+- field: amount
+- field: contribution-funding-status
+- field: developer-agreement-contribution
+- field: developer-agreement-transaction
+- field: end-date
+- field: entity
+- field: entry-date
+- field: organisation
+- field: start-date
+- field: units
 key-field: ''
 name: Developer agreement transaction
 plural: Developer agreement transactions

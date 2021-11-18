@@ -5,34 +5,13 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: field
-  text: ''
-- description: ''
-  end-date: ''
-  field: provenance
-  text: ''
-- description: ''
-  end-date: ''
-  field: resource
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: value
-  text: ''
+- field: end-date
+- field: entry-date
+- field: field
+- field: provenance
+- field: resource
+- field: start-date
+- field: value
 key-field: ''
 name: Provenance
 plural: ''

@@ -5,38 +5,14 @@ description: An index of collected resources
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: bytes
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: endpoints
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: mime-type
-  text: ''
-- description: ''
-  end-date: ''
-  field: organisations
-  text: ''
-- description: ''
-  end-date: ''
-  field: resource
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: bytes
+- field: end-date
+- field: endpoints
+- field: entry-date
+- field: mime-type
+- field: organisations
+- field: resource
+- field: start-date
 key-field: ''
 name: Resource
 plural: ''

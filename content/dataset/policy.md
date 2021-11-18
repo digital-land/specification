@@ -5,57 +5,24 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: categories
-  text: ''
-- description: ''
-  end-date: ''
-  field: description
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: geographies
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: notes
-  text: ''
-- description: ''
-  end-date: ''
-  field: organisation
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: policy
-  text: ''
+- field: categories
+- field: description
+- field: end-date
+- field: entity
+- field: entry-date
+- field: geographies
+- field: name
+- field: notes
+- field: organisation
+- field: start-date
+- field: policy
 key-field: ''
 name: Policy
 plural: ''
 prefix: ''
 start-date: ''
 themes:
-- ''
+- administrative
 typology: ''
 wikidata: ''
 wikipedia: ''

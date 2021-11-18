@@ -5,35 +5,14 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: category
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: use-class-order
-  text: ''
-key-field: use-class-order
+- field: category
+- field: end-date
+- field: entity
+- field: entry-date
+- field: name
+- field: start-date
+- field: use-class-order
+key-field: ''
 name: Use class order
 plural: Use class orders
 prefix: ''

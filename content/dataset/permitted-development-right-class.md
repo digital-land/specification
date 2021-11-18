@@ -5,38 +5,20 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: permitted-development-right-class
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: end-date
+- field: entity
+- field: entry-date
+- field: name
+- field: permitted-development-right-class
+- field: start-date
 key-field: ''
 name: Permitted development right class
 plural: ''
 prefix: ''
 start-date: ''
 themes:
-- ''
-typology: ''
+- development
+typology: category
 wikidata: ''
 wikipedia: ''
 ---

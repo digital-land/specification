@@ -5,30 +5,12 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: description
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: project-status
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: description
+- field: end-date
+- field: entry-date
+- field: name
+- field: project-status
+- field: start-date
 key-field: ''
 name: Project status
 plural: ''

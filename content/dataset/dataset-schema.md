@@ -5,26 +5,11 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: dataset
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: schema
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: dataset
+- field: end-date
+- field: entry-date
+- field: schema
+- field: start-date
 key-field: ''
 name: Dataset schema
 plural: ''

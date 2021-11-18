@@ -1,7 +1,7 @@
 ---
 end-date: ''
 entry-date: ''
-name: Monitoring
+name: Metric
 start-date: ''
-theme: monitoring
+typology: timetable
 ---

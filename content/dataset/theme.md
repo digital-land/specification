@@ -5,26 +5,11 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: theme
-  text: ''
+- field: end-date
+- field: entry-date
+- field: name
+- field: start-date
+- field: theme
 key-field: ''
 name: Theme
 plural: ''

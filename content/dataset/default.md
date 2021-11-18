@@ -5,42 +5,20 @@ description: Take a missing field default value from another field
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: default-field
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: field
-  text: ''
-- description: ''
-  end-date: ''
-  field: pipeline
-  text: ''
-- description: ''
-  end-date: ''
-  field: resource
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: default-field
+- field: end-date
+- field: entry-date
+- field: field
+- field: pipeline
+- field: resource
+- field: start-date
 key-field: ''
 name: Pipeline default
 plural: ''
 prefix: ''
 start-date: ''
-themes:
-- ''
-typology: ''
+themes: []
+typology: specification
 wikidata: ''
 wikipedia: ''
 ---

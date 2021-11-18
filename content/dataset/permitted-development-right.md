@@ -5,46 +5,16 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: description
-  text: ''
-- description: ''
-  end-date: ''
-  field: documentation-url
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: permitted-development-right
-  text: ''
-- description: ''
-  end-date: ''
-  field: permitted-development-right-class
-  text: ''
-- description: ''
-  end-date: ''
-  field: permitted-development-right-part
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: description
+- field: documentation-url
+- field: end-date
+- field: entity
+- field: entry-date
+- field: name
+- field: permitted-development-right
+- field: permitted-development-right-class
+- field: permitted-development-right-part
+- field: start-date
 key-field: ''
 name: Permitted development right
 plural: Permitted development right

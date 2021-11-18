@@ -5,49 +5,22 @@ description: Geometry index
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: geojson
-  text: ''
-- description: ''
-  end-date: ''
-  field: geometry
-  text: ''
-- description: ''
-  end-date: ''
-  field: geometry-geom
-  text: ''
-- description: ''
-  end-date: ''
-  field: point-geom
-  text: ''
-- description: ''
-  end-date: ''
-  field: point
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: end-date
+- field: entity
+- field: entry-date
+- field: geojson
+- field: geometry
+- field: geometry-geom
+- field: point-geom
+- field: point
+- field: start-date
 key-field: entity
 name: Geometry
 plural: ''
 prefix: ''
 start-date: ''
 themes:
-- ''
+- specification
 typology: ''
 wikidata: ''
 wikipedia: ''

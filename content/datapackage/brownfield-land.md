@@ -6,12 +6,12 @@ datasets:
 - planning-permission-status
 - planning-permission-type
 - site-category
-description: Plots of land that have previously been developed but are not currently
-  in use
+description: Land that has been previously been developed
+end-date: ''
+entry-date: ''
 name: Brownfield land
+start-date: ''
 ---
-
-
 
 * [project](https://digital-land.github.io/project/brownfield-sites/)
 * [guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data)

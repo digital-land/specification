@@ -5,30 +5,12 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: text
-  text: ''
-- description: ''
-  end-date: ''
-  field: typology
-  text: ''
+- field: end-date
+- field: entry-date
+- field: name
+- field: start-date
+- field: text
+- field: typology
 key-field: ''
 name: Typology
 plural: ''

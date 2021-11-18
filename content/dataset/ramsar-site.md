@@ -5,46 +5,16 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: ramsar-site
-  text: ''
-- description: ''
-  end-date: ''
-  field: reference
-  text: ''
-- description: ''
-  end-date: ''
-  field: special-protection-area
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: wikidata
-  text: ''
-- description: ''
-  end-date: ''
-  field: wikipedia
-  text: ''
+- field: end-date
+- field: entity
+- field: entry-date
+- field: name
+- field: ramsar-site
+- field: reference
+- field: special-protection-area
+- field: start-date
+- field: wikidata
+- field: wikipedia
 key-field: ''
 name: Ramsar site
 plural: Ramsar sites

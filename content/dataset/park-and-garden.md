@@ -5,50 +5,17 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- description: ''
-  end-date: ''
-  field: documentation-url
-  text: ''
-- description: ''
-  end-date: ''
-  field: end-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: entity
-  text: ''
-- description: ''
-  end-date: ''
-  field: entry-date
-  text: ''
-- description: ''
-  end-date: ''
-  field: geometry
-  text: ''
-- description: ''
-  end-date: ''
-  field: name
-  text: ''
-- description: ''
-  end-date: ''
-  field: park-and-garden
-  text: ''
-- description: ''
-  end-date: ''
-  field: park-and-garden-grade
-  text: ''
-- description: ''
-  end-date: ''
-  field: point
-  text: ''
-- description: ''
-  end-date: ''
-  field: reference
-  text: ''
-- description: ''
-  end-date: ''
-  field: start-date
-  text: ''
+- field: documentation-url
+- field: end-date
+- field: entity
+- field: entry-date
+- field: geometry
+- field: name
+- field: park-and-garden
+- field: park-and-garden-grade
+- field: point
+- field: reference
+- field: start-date
 key-field: ''
 name: Park and garden
 plural: Parks and gardens

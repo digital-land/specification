@@ -10,9 +10,11 @@ datasets:
 description: Commitments to improving local community infrastructure such as Section
   106 agreements, viability assessments, community infrastructure levies, and other
   planning obligations.
+end-date: ''
+entry-date: ''
 name: Developer contributions
+start-date: ''
 ---
-
 
 * [project](https://digital-land.github.io/project/developer-contributions/)
 * [guidance](https://www.gov.uk/guidance/publish-your-developer-contributions-data)
