@@ -15,6 +15,7 @@ fields:
 - field: parent-field
 - field: replacement-field
 - field: start-date
+- field: typology
 - field: url-template
 key-field: ''
 name: Field
