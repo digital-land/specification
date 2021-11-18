@@ -1,27 +1,18 @@
 {% extends "dl-specification-base.html" %}
 
 {% set page_caption = 'Specification' %}
-{% set page_title = 'Dataset specifications' %}
+{% set page_title = 'Datasets' %}
 
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body">
-        A dataset is a collection of data files.
-        Digital Land specifications define the following datasets:
-    </p>
-    <!-- really this is a dl -->
     <ul class="govuk-list govuk-list--bullet">
     {% for dataset, item in tables["dataset"].items()| sort %}
-      <li>
-          <a href="{{dataset}}">{{item["name"]}}</a>
-          {% if item["description"] %}
-          &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}
-          {% endif %}
+      <li><a href="{{dataset}}">{{item["name"]}}</a>
+          {%- if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif -%}
       </li>
     {% endfor %}
     </ul>
-    <p class="govuk-body">Visit our <a href="/dataset">datasets</a> pages to see the actual data.</p>
   </div>
 </div>
 {% endblock %}

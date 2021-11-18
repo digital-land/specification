@@ -62,28 +62,18 @@
           <th scope="row" class="govuk-table__header">Typology</th>
           <td class="govuk-table__cell"><a href="../../typology/{{ item["typology"] }}">{{ item["typology"] }}</a></td>
         </tr>
-        {% if tables["schema"][name] %}
+        {% if tables["dataset"][name] %}
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Schema</th>
-          <td class="govuk-table__cell"><a href="../../schema/{{ name }}">{{ name }}</a></td>
+          <th scope="row" class="govuk-table__header">Dataset</th>
+          <td class="govuk-table__cell"><a href="../../dataset/{{ name }}">{{ name }}</a></td>
         </tr>
         {% endif %}
       </tbody>
     </table>
 
-    {% if tables["field-schema"][name] %}
-    <h2 class="govuk-heading-s" id="{{schemas}}">Schemas</h2>
-    <p class="govuk-body">The following schemas use this field:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    {% for schema in tables["field-schema"][name] | sort %}
-      <li><a href="../../schema/{{schema}}">{{ tables["schema"][schema]["name"] }}</a></li>
-    {% endfor %}
-    </ul>
-    {% endif %}
-
     {% if tables["field-dataset"][name] %}
-    <h2 class="govuk-heading-s" id="{{datasets}}">Datasets</h2>
-    <p class="govuk-body">The following datasets have schemas which use this field:</p>
+    <h2 class="govuk-heading-s" id="{{dataset}}">Schemas</h2>
+    <p class="govuk-body">The following datasets use this field:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for dataset in tables["field-dataset"][name] | sort %}
       <li><a href="../../dataset/{{dataset}}">{{ tables["dataset"][dataset]["name"] }}</a></li>

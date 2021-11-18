@@ -1,7 +1,8 @@
 {% extends "dl-specification-base.html" %}
 
-{% set page_caption = 'Dataset specification' %}
+{% set page_caption = 'Dataset' %}
 {% set page_title = item["name"] %}
+{% set key = tables["field"][name] %}
 
 {% block dl_breadcrumbs %}
   {{ govukBreadcrumbs({
@@ -26,65 +27,67 @@
 {% endblock %}
 
 {% block dl_content %}
-<p class="govuk-body">
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">{{item["description"]}}</p>
 
-    <article class="data-record govuk-!-margin-bottom-6">
-        <h4 class="govuk-heading-s data-record__identifier">#/dataset/{{item["dataset"]}}</h4>
-        <dl class="govuk-summary-list data-record__properties">
-            <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">Name</dt>
-                <dd class="govuk-summary-list__value">{{item["name"]}}</a></dd>
-            </div>
-            <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">Plural</dt>
-                <dd class="govuk-summary-list__value">{{item["plural"]}}</dd>
-            </div>
-            <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">Typology</dt>
-                <dd class="govuk-summary-list__value"><a href="../../typology/{{ item["typology"] }}">{{ item["typology"] }}</dd>
-            </div>
-            {% if item["wikidata"] %}
-            <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">Wikidata</dt>
-                <dd class="govuk-summary-list__value"><a href="https://wikidata.org/wiki/{{item['wikidata']}}">{{item["wikidata"]}}</a></dd>
-            </div>
-            {% endif %}
-            {% if item["wikipedia"] %}
-            <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">Wikipedia</dt>
-                <dd class="govuk-summary-list__value"><a href="{{item['wikipedia']}}">{{item["wikipedia"]}}</a></dd>
-            </div>
-            {% endif %}
-            {% if item["description"] %}
-            <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">Description</dt>
-                <dd class="govuk-summary-list__value">{{ item["description"] }}</dd>
-            </div>
-            {% endif %}
-            {% if item["text"] %}
-            <div class="govuk-summary-list__row">
-                <dt class="govuk-summary-list__key">Text</dt>
-                <dd class="govuk-summary-list__value">{{ item["text"]|markdown }}</dd>
-            </div>
-            {% endif %}
-        </dl>
-    </article>
-
-    <h2 class="govuk-heading-m" id="schemas">Schemas</h2>
-    <p class="govuk-body">The <a href="/{{name }}">{{ item["name"] }} dataset</a> contains data defined by the union of the following schemas:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    {% if name in tables["dataset-schema"] %}
-    {% for schema, s in tables["dataset-schema"][name].items()| sort %}
-      {% set item = tables["schema"][schema] %}
-      <li>
-          <a href="../../schema/{{schema}}">{{ item["name"] }}</a>
-          {%- if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif -%}
-      </li>
+    <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+    {% for field in name | dataset_sort %}
+        {% set f = tables["field"][field] %}
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_{{field}}"><a href="../../field/{{field}}">{{field}}</a>
+          {% if field == item["key-field"] %} <strong class="govuk-tag govuk-tag--grey">Key</strong>{% endif -%}
+          {% if f["end-date"] %} <strong class="govuk-tag govuk-tag--grey">Deprecated</strong>{% endif -%}
+          </td>
+          <td class="govuk-table__cell">{{f["name"]}}</td>
+          <td class="govuk-table__cell"><a href="../../datatype/{{ f["datatype"] }}">{{ f["datatype"] }}</a></td>
+          <td class="govuk-table__cell">{{ f["cardinality"] }}</td>
+        </tr>
     {% endfor %}
+      </tbody>
+    </table>
+
+    {% if key %}
+    <h2 class="govuk-heading-s" id="{{typology}}">Typology</h2>
+    <p class="govuk-body">This dataset belongs to the <a href="../../typology/{{ key["typology"] }}">{{ key["typology"] }}</a> typology.</p>
     {% endif %}
+
+    {% if tables["dataset-to"][name] or tables["dataset-from"][name] %}
+    <h2 class="govuk-heading-s" id="{{datasets}}">Datasets</h2>
+
+    {% if tables["dataset-to"][name] %}
+    <p class="govuk-body">This dataset links to the following other datasets:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for dataset in tables["dataset-to"][name] | sort %}
+      <li><a href="../{{dataset}}">{{ tables["dataset"][dataset]["name"] }}</a></li>
+    {% endfor %}
     </ul>
+    {% endif %}
+
+    {% if tables["dataset-from"][name] %}
+    <p class="govuk-body">This dataset is linked to by the following other datasets:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    {% for dataset in tables["dataset-from"][name] | sort %}
+      <li><a href="../{{dataset}}">{{ tables["dataset"][dataset]["name"] }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% endif %}
   </div>
 </div>
+{% endblock %}
+
+{% block dl_downloads %}
+<li><a href="https://raw.githubusercontent.com/digital-land/specification/master/specification/dataset-field.csv">CSV</a></li>
 {% endblock %}

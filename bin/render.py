@@ -11,17 +11,17 @@ staticPath = "https://digital-land.github.io"
 assetPath = "https://digital-land.github.io"
 
 keys = {
-    "schema-field": ["schema", "field"],
-    "dataset-schema": ["dataset", "schema"],
+    "dataset-field": ["dataset", "field"],
+    "datapackage-dataset": ["datapackage", "dataset"],
 }
 tables = {
-    "dataset": {},
-    "dataset-schema": {},
+    "datapackage": {},
+    "datapackage-dataset": {},
     "datatype": {},
     "field": {},
     "typology": {},
-    "schema": {},
-    "schema-field": {},
+    "dataset": {},
+    "dataset-field": {},
 }
 
 
@@ -56,7 +56,7 @@ def field_typology(f):
 def index_typologies():
     tables["typology-datatype"] = {}
     tables["typology-field"] = {}
-    tables["typology-schema"] = {}
+    tables["typology-dataset"] = {}
     for field, f in tables["field"].items():
         typology = field_typology(f)
         tables["field"][field]["typology"] = typology
@@ -68,22 +68,22 @@ def index_typologies():
         if datatype not in tables["typology-datatype"][typology]:
             tables["typology-datatype"][typology].append(datatype)
 
-        if field in tables["schema"]:
-            tables["typology-schema"].setdefault(typology, [])
-            tables["typology-schema"][typology].append(field)
+        if field in tables["dataset"]:
+            tables["typology-dataset"].setdefault(typology, [])
+            tables["typology-dataset"][typology].append(field)
 
 
 def index_datatype():
     tables["datatype-field"] = {}
-    tables["datatype-schema"] = {}
+    tables["datatype-dataset"] = {}
     for field, f in tables["field"].items():
         datatype = f["datatype"]
         tables["datatype-field"].setdefault(datatype, [])
         tables["datatype-field"][datatype].append(field)
 
-        if field in tables["schema"]:
-            tables["datatype-schema"].setdefault(datatype, [])
-            tables["datatype-schema"][datatype].append(field)
+        if field in tables["dataset"]:
+            tables["datatype-dataset"].setdefault(datatype, [])
+            tables["datatype-dataset"][datatype].append(field)
 
 
 def base_field(field):
@@ -93,61 +93,61 @@ def base_field(field):
     return f["parent-field"]
 
 
-def index_schema():
-    tables["schema-dataset"] = {}
-    for dataset, d in tables["dataset-schema"].items():
-        for schema in d:
-            tables["schema-dataset"].setdefault(schema, [])
-            tables["schema-dataset"][schema].append(dataset)
+def index_dataset():
+    tables["dataset-datapackage"] = {}
+    for datapackage, d in tables["datapackage-dataset"].items():
+        for dataset in d:
+            tables["dataset-datapackage"].setdefault(dataset, [])
+            tables["dataset-datapackage"][dataset].append(datapackage)
 
-    tables["schema-to"] = {}
-    tables["schema-from"] = {}
-    for schema, s in tables["schema-field"].items():
+    tables["dataset-to"] = {}
+    tables["dataset-from"] = {}
+    for dataset, s in tables["dataset-field"].items():
         for name in s:
             field = base_field(name)
-            if field != schema and field in tables["schema"]:
-                tables["schema-to"].setdefault(schema, [])
-                if field not in tables["schema-to"][schema]:
-                    tables["schema-to"][schema].append(field)
+            if field != dataset and field in tables["dataset"]:
+                tables["dataset-to"].setdefault(dataset, [])
+                if field not in tables["dataset-to"][dataset]:
+                    tables["dataset-to"][dataset].append(field)
 
-                tables["schema-from"].setdefault(field, [])
-                if schema not in tables["schema-from"][field]:
-                    tables["schema-from"][field].append(schema)
+                tables["dataset-from"].setdefault(field, [])
+                if dataset not in tables["dataset-from"][field]:
+                    tables["dataset-from"][field].append(dataset)
 
 
 def index_field():
-    tables["field-schema"] = {}
-    for schema, s in tables["schema-field"].items():
-        for field in s:
-            tables["field-schema"].setdefault(field, [])
-            tables["field-schema"][field].append(schema)
-
-
-def index_dataset():
     tables["field-dataset"] = {}
-    for dataset, d in tables["dataset-schema"].items():
-        for schema in d:
-            for field in tables["schema-field"][schema]:
-                tables["field-dataset"].setdefault(field, [])
-                if dataset not in tables["field-dataset"][field]:
-                    tables["field-dataset"][field].append(dataset)
+    for dataset, s in tables["dataset-field"].items():
+        for field in s:
+            tables["field-dataset"].setdefault(field, [])
+            tables["field-dataset"][field].append(dataset)
+
+
+def index_datapackage():
+    tables["field-datapackage"] = {}
+    for datapackage, d in tables["datapackage-dataset"].items():
+        for dataset in d:
+            for field in tables["dataset-field"][dataset]:
+                tables["field-datapackage"].setdefault(field, [])
+                if datapackage not in tables["field-datapackage"][field]:
+                    tables["field-datapackage"][field].append(datapackage)
 
 
 def default_names():
-    for schema, s in tables["schema"].items():
+    for dataset, s in tables["dataset"].items():
         if not s.get("key-field", ""):
-            s["key-field"] = schema
+            s["key-field"] = dataset
         if not s.get("name", ""):
-            s["name"] = tables["field"][schema]["name"]
-        if not s.get("description", "") and schema in tables["field"]:
-            s["description"] = tables["field"][schema]["description"]
+            s["name"] = tables["field"][dataset]["name"]
+        if not s.get("description", "") and dataset in tables["field"]:
+            s["description"] = tables["field"][dataset]["description"]
 
 
-def schema_sort(schema):
-    fields = sorted(tables["schema-field"][schema])
-    if schema in fields:
-        fields.pop(fields.index(schema))
-        fields = [schema] + fields
+def dataset_sort(dataset):
+    fields = sorted(tables["dataset-field"][dataset])
+    if dataset in fields:
+        fields.pop(fields.index(dataset))
+        fields = [dataset] + fields
     # move default register fields to end, order is same as in list
     for field in ["entry-date", "start-date", "end-date"]:
         fields.append(fields.pop(fields.index(field)))
@@ -164,7 +164,7 @@ if __name__ == "__main__":
         .replace("<ul>", '<ul class="govuk-list govuk-list--bullet">')
     )
     env.filters["commanum"] = lambda v: "{:,}".format(v)
-    env.filters["schema_sort"] = schema_sort
+    env.filters["dataset_sort"] = dataset_sort
 
     for table in tables:
         load(table)
@@ -173,10 +173,10 @@ if __name__ == "__main__":
     index_typologies()
     index_datatype()
     index_field()
-    index_schema()
     index_dataset()
+    index_datapackage()
 
-    for template in ["dataset", "schema", "field", "datatype", "typology"]:
+    for template in ["datapackage", "dataset", "field", "datatype", "typology"]:
         for name, item in tables[template].items():
             render(
                 "%s/%s/index.html" % (template, name),
@@ -190,8 +190,8 @@ if __name__ == "__main__":
 
     for path, template in [
         ("index.html", "specifications.html"),
+        ("datapackage/index.html", "datapackages.html"),
         ("dataset/index.html", "datasets.html"),
-        ("schema/index.html", "schemas.html"),
         ("field/index.html", "fields.html"),
         ("datatype/index.html", "datatypes.html"),
         ("typology/index.html", "typologies.html"),
