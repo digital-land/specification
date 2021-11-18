@@ -9,5 +9,6 @@ name: Planning permission status
 parent-field: category
 replacement-field: planning-permission-status
 start-date: ''
+typology: category
 url-template: ''
 ---

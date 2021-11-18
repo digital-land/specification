@@ -9,5 +9,6 @@ name: JSON
 parent-field: json
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

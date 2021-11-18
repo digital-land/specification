@@ -9,5 +9,6 @@ name: Document types
 parent-field: document-type
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

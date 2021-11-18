@@ -9,5 +9,6 @@ name: Special protection area
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Further education college (UK)
 parent-field: organisation
 replacement-field: ''
 start-date: ''
+typology: organisation
 url-template: ''
 ---

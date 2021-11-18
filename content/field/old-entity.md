@@ -9,5 +9,6 @@ name: Old entity
 parent-field: entity
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

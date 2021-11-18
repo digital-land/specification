@@ -9,5 +9,6 @@ name: Development plan document
 parent-field: document
 replacement-field: ''
 start-date: ''
+typology: document
 url-template: ''
 ---

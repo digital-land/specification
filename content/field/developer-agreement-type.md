@@ -9,5 +9,6 @@ name: Developer agreement type
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

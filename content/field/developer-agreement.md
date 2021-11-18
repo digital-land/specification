@@ -10,5 +10,6 @@ name: Developer agreement
 parent-field: document
 replacement-field: ''
 start-date: ''
+typology: document
 url-template: ''
 ---

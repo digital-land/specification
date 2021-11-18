@@ -9,5 +9,6 @@ name: SiteReference
 parent-field: geography
 replacement-field: site
 start-date: ''
+typology: geography
 url-template: ''
 ---

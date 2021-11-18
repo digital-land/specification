@@ -9,5 +9,6 @@ name: Special area of conservation
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

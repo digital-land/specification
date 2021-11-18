@@ -9,5 +9,6 @@ name: EndDate
 parent-field: datetime
 replacement-field: end-date
 start-date: ''
+typology: value
 url-template: ''
 ---

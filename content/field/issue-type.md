@@ -9,5 +9,6 @@ name: Issue type
 parent-field: identifier
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

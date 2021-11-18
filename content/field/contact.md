@@ -9,5 +9,6 @@ name: Contact
 parent-field: name
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

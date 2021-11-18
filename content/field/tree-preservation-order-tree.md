@@ -9,5 +9,6 @@ name: Tree preservation order tree
 parent-field: reference
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

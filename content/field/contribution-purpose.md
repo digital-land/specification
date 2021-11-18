@@ -9,5 +9,6 @@ name: Contribution purpose
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

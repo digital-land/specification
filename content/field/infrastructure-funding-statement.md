@@ -9,5 +9,6 @@ name: Infrastructure Funding Statement
 parent-field: document
 replacement-field: ''
 start-date: ''
+typology: document
 url-template: ''
 ---

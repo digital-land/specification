@@ -9,5 +9,6 @@ name: Tree preservation order
 parent-field: document
 replacement-field: ''
 start-date: ''
+typology: document
 url-template: ''
 ---

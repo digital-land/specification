@@ -9,5 +9,6 @@ name: Parameters
 parent-field: string
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

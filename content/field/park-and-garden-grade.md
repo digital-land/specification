@@ -9,5 +9,6 @@ name: Park and garden grade
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

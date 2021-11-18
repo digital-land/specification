@@ -9,5 +9,6 @@ name: Minimum net dwellings
 parent-field: number
 replacement-field: minimum-net-dwellings
 start-date: ''
+typology: value
 url-template: ''
 ---

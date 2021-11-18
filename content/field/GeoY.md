@@ -9,5 +9,6 @@ name: GeoY
 parent-field: value
 replacement-field: latitude
 start-date: ''
+typology: value
 url-template: ''
 ---

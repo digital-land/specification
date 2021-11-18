@@ -9,5 +9,6 @@ name: Hash
 parent-field: string
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Endpoints
 parent-field: endpoint
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

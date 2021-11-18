@@ -9,5 +9,6 @@ name: Point index
 parent-field: geom
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

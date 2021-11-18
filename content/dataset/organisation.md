@@ -35,7 +35,7 @@ plural: ''
 prefix: ''
 start-date: ''
 themes: []
-typology: ''
+typology: organisation
 wikidata: ''
 wikipedia: ''
 ---

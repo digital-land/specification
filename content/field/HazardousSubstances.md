@@ -9,5 +9,6 @@ name: HazardousSubstances
 parent-field: category
 replacement-field: hazardous-substances
 start-date: ''
+typology: category
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Copyright
 parent-field: attribution
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

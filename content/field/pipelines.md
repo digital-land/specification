@@ -9,5 +9,6 @@ name: Pipelines
 parent-field: pipeline
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Ownership status
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Internal BLOB geometry
 parent-field: blob
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Citizen names
 parent-field: citizen-name
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

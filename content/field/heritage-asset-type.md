@@ -9,5 +9,6 @@ name: Heritage asset type
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

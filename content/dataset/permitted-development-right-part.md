@@ -18,7 +18,7 @@ prefix: ''
 start-date: ''
 themes:
 - development
-typology: ''
+typology: category
 wikidata: ''
 wikipedia: ''
 ---

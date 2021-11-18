@@ -30,7 +30,7 @@ prefix: wikidata
 start-date: ''
 themes:
 - administrative
-typology: ''
+typology: organisation
 wikidata: ''
 wikipedia: ''
 ---

@@ -9,5 +9,6 @@ name: Site of special scientific interest
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

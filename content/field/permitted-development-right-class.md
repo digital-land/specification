@@ -9,5 +9,6 @@ name: Permitted development right class
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

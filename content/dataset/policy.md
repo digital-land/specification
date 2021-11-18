@@ -23,7 +23,7 @@ prefix: ''
 start-date: ''
 themes:
 - administrative
-typology: ''
+typology: policy
 wikidata: ''
 wikipedia: ''
 ---

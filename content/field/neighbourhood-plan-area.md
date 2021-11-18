@@ -9,5 +9,6 @@ name: Neighbourhood Plan Area
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

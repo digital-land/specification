@@ -9,5 +9,6 @@ name: Heritage risk assessment methodology
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

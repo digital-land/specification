@@ -9,5 +9,6 @@ name: Source
 parent-field: identifier
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

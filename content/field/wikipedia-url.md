@@ -9,5 +9,6 @@ name: Wikipedia page
 parent-field: url
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: '{wikipedia-url}'
 ---

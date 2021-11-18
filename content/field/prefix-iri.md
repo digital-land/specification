@@ -9,5 +9,6 @@ name: CURIE prefix IRI
 parent-field: value
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

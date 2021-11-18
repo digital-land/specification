@@ -9,5 +9,6 @@ name: Datetime
 parent-field: value
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Permitted development right
 parent-field: legislation
 replacement-field: ''
 start-date: ''
+typology: document
 url-template: ''
 ---

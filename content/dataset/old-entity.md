@@ -19,7 +19,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
-typology: ''
+typology: value
 wikidata: ''
 wikipedia: ''
 ---

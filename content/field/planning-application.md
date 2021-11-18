@@ -9,5 +9,6 @@ name: Planning application
 parent-field: policy
 replacement-field: ''
 start-date: ''
+typology: policy
 url-template: ''
 ---

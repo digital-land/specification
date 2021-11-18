@@ -9,5 +9,6 @@ name: Separator
 parent-field: string
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Fields
 parent-field: field
 replacement-field: ''
 start-date: ''
+typology: specification
 url-template: ''
 ---

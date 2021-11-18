@@ -9,5 +9,6 @@ name: Contribution funding status
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

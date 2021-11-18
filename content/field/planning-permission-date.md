@@ -9,5 +9,6 @@ name: Planning permission date
 parent-field: datetime
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

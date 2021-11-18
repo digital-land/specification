@@ -9,5 +9,6 @@ name: Listed building grade
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

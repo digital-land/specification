@@ -25,7 +25,7 @@ plural: ''
 prefix: ''
 start-date: ''
 themes: []
-typology: ''
+typology: geography
 wikidata: ''
 wikipedia: ''
 ---

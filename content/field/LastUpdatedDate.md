@@ -9,5 +9,6 @@ name: LastUpdatedDate
 parent-field: datetime
 replacement-field: entry-date
 start-date: ''
+typology: value
 url-template: ''
 ---

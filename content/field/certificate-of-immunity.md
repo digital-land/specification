@@ -9,5 +9,6 @@ name: Certificate of immunity
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

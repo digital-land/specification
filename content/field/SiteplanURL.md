@@ -9,5 +9,6 @@ name: SiteplanURL
 parent-field: url
 replacement-field: site-plan-url
 start-date: ''
+typology: value
 url-template: ''
 ---

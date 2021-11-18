@@ -9,5 +9,6 @@ name: Website
 parent-field: url
 replacement-field: website-url
 start-date: ''
+typology: value
 url-template: '{website}'
 ---

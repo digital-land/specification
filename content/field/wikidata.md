@@ -9,5 +9,6 @@ name: Wikidata item
 parent-field: identifier
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: https://www.wikidata.org/wiki/{wikidata}
 ---

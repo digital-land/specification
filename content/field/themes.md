@@ -9,5 +9,6 @@ name: Themes
 parent-field: theme
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

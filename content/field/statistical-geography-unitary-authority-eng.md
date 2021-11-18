@@ -9,5 +9,6 @@ name: Unitary authority statistical geography (England)
 parent-field: statistical-geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

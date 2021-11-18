@@ -9,5 +9,6 @@ name: GeoJSON data
 parent-field: json
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Development metric
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Entity
 parent-field: identifier
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: https://www.digital-land.info/entity/{entity}
 ---

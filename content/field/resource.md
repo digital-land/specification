@@ -9,5 +9,6 @@ name: Resource
 parent-field: hash
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

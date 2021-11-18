@@ -9,5 +9,6 @@ name: Point
 parent-field: geometry
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

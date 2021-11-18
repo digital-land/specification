@@ -18,7 +18,8 @@ name: Pipeline column
 plural: ''
 prefix: ''
 start-date: ''
-themes: []
+themes:
+- specification
 typology: specification
 wikidata: ''
 wikipedia: ''

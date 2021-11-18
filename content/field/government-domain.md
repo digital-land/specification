@@ -9,5 +9,6 @@ name: Government domain
 parent-field: hostname
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

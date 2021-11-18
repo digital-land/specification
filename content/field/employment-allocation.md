@@ -9,5 +9,6 @@ name: Employment allocation
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

@@ -9,5 +9,6 @@ name: Attribution
 parent-field: text
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

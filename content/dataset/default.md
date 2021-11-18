@@ -17,7 +17,8 @@ name: Pipeline default
 plural: ''
 prefix: ''
 start-date: ''
-themes: []
+themes:
+- specification
 typology: specification
 wikidata: ''
 wikipedia: ''

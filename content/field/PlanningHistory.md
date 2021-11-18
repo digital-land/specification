@@ -9,5 +9,6 @@ name: Planning permission history
 parent-field: document-url
 replacement-field: planning-permission-history
 start-date: ''
+typology: value
 url-template: ''
 ---

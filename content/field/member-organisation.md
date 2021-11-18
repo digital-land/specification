@@ -9,5 +9,6 @@ name: Organisation which is a member of this organisation
 parent-field: organisation
 replacement-field: ''
 start-date: ''
+typology: organisation
 url-template: ''
 ---

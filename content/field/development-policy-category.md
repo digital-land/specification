@@ -9,5 +9,6 @@ name: Development policy category
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

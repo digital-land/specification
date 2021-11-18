@@ -9,5 +9,6 @@ name: Further education college region (UK)
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

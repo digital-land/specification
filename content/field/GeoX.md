@@ -9,5 +9,6 @@ name: GeoX
 parent-field: value
 replacement-field: longitude
 start-date: ''
+typology: value
 url-template: ''
 ---

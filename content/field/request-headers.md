@@ -9,5 +9,6 @@ name: Request headers
 parent-field: json
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

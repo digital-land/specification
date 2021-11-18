@@ -9,5 +9,6 @@ name: Green belt urban core
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---

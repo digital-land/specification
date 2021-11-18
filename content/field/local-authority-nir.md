@@ -9,5 +9,6 @@ name: Local authority (Northern Ireland)
 parent-field: organisation
 replacement-field: ''
 start-date: ''
+typology: organisation
 url-template: ''
 ---

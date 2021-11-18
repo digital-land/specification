@@ -9,5 +9,6 @@ name: Jobcentre district
 parent-field: geography
 replacement-field: ''
 start-date: ''
+typology: geography
 url-template: ''
 ---

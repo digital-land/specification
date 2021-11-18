@@ -9,5 +9,6 @@ name: Development policy
 parent-field: policy
 replacement-field: ''
 start-date: ''
+typology: policy
 url-template: ''
 ---

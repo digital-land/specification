@@ -9,5 +9,6 @@ name: Maximum net dwellings
 parent-field: number
 replacement-field: ''
 start-date: ''
+typology: value
 url-template: ''
 ---

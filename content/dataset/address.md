@@ -20,7 +20,7 @@ prefix: ''
 start-date: ''
 themes:
 - administrative
-typology: ''
+typology: geography
 wikidata: ''
 wikipedia: ''
 ---

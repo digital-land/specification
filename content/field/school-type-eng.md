@@ -9,5 +9,6 @@ name: School type (England)
 parent-field: category
 replacement-field: ''
 start-date: ''
+typology: category
 url-template: ''
 ---
