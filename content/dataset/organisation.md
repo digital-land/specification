@@ -31,7 +31,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Organisation
-plural: ''
+plural: 'Organisations'
 prefix: ''
 start-date: ''
 themes: []

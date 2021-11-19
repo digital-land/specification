@@ -15,7 +15,7 @@ fields:
 - field: value
 key-field: ''
 name: Pipeline patch
-plural: ''
+plural: 'Pipeline patches'
 prefix: ''
 start-date: ''
 themes:

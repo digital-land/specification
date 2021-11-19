@@ -13,8 +13,8 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
-name: Pipeline default
-plural: ''
+name: Pipeline default value
+plural: 'Pipleline default values'
 prefix: ''
 start-date: ''
 themes:

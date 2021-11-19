@@ -1,7 +1,7 @@
 ---
 collection: ''
 dataset: datapackage-dataset
-description: ''
+description: 'Datasets included in a datapackage'
 end-date: ''
 entry-date: ''
 fields:
@@ -12,7 +12,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Data package dataset
-plural: ''
+plural: 'Data package datasets'
 prefix: ''
 start-date: ''
 themes:

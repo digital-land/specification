@@ -13,7 +13,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Permitted development right class
-plural: ''
+plural: 'Permitted development right classes'
 prefix: ''
 start-date: ''
 themes:

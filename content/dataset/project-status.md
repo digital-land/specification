@@ -13,7 +13,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Project status
-plural: ''
+plural: 'Project statuses'
 prefix: ''
 start-date: ''
 themes:

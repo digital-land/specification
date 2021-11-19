@@ -13,7 +13,7 @@ fields:
 - field: street
 key-field: ''
 name: Street
-plural: ''
+plural: 'Streets'
 prefix: ''
 start-date: ''
 themes:

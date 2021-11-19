@@ -13,7 +13,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development plan status
-plural: ''
+plural: 'Development plan statuses'
 prefix: ''
 start-date: ''
 themes:

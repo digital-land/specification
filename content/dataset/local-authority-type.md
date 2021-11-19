@@ -13,7 +13,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Local authority type
-plural: ''
+plural: 'Local authority types'
 prefix: ''
 start-date: ''
 themes:

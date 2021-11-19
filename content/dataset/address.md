@@ -15,8 +15,8 @@ fields:
 - field: start-date
 key-field: ''
 name: Address
-plural: ''
-prefix: ''
+plural: 'addresses'
+prefix: 'uprn'
 start-date: ''
 themes:
 - administrative

@@ -15,7 +15,7 @@ fields:
 - field: value
 key-field: ''
 name: Pipeline column
-plural: ''
+plural: 'Pipeline columns'
 prefix: ''
 start-date: ''
 themes:

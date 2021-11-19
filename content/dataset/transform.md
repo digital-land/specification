@@ -12,8 +12,8 @@ fields:
 - field: replacement-field
 - field: start-date
 key-field: ''
-name: Transform
-plural: ''
+name: Pipeline transformation
+plural: 'Transformations'
 prefix: ''
 start-date: ''
 themes:

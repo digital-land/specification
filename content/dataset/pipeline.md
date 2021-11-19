@@ -12,7 +12,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline
-plural: ''
+plural: 'Pipelines'
 prefix: ''
 start-date: ''
 themes:

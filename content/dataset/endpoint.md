@@ -14,7 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Endpoint
-plural: ''
+plural: 'Endpoints'
 prefix: ''
 start-date: ''
 themes:

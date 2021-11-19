@@ -15,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Infrastructure funding statement
-plural: ''
+plural: 'Infrastructure funding statements'
 prefix: ''
 start-date: ''
 themes:

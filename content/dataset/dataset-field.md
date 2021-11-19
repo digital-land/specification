@@ -12,7 +12,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Dataset field
-plural: ''
+plural: 'Dataset fields'
 prefix: ''
 start-date: ''
 themes:

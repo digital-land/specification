@@ -92,30 +92,28 @@ def check_field_typology():
             error("field '%s' has an unknown typology '%s'" % (field, typology))
 
 
-def check_dataset_typology():
+def check_datasets():
     for dataset, d in tables["dataset"].items():
+        if not d.get("plural", ""):
+            error("dataset '%s' missing plural" % (dataset))
+
         typology = row.get("typology", "")
         if typology not in tables["typology"]:
             error("dataset '%s' has an unknown typology '%s'" % (dataset, typology))
 
-
-def check_datasets():
-    for project, p in tables["project"].items():
-        for dataset in p["datasets"].split(";"):
-            if dataset and dataset not in tables["dataset"]:
-                error("project '%s' has an unknown dataset '%s'" % (project, dataset))
-
-
-def check_themes():
-    for dataset, d in tables["dataset"].items():
+        # typology datasets don't have a theme:
         if dataset not in tables["typology"]:
             for theme in d["themes"].split(";"):
                 if theme not in tables["theme"]:
                     error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
 
-def check_project_status():
+def check_projects():
     for project, p in tables["project"].items():
+        for dataset in p["datasets"].split(";"):
+            if dataset and dataset not in tables["dataset"]:
+                error("project '%s' has an unknown dataset '%s'" % (project, dataset))
+
         for status in p["project-status"].split(";"):
             if status not in tables["project-status"]:
                 error(
@@ -189,10 +187,8 @@ if __name__ == "__main__":
                 error("unexpected field '%s' in table '%s'" % (field, table))
 
     check_field_typology()
-    check_dataset_typology()
-    check_themes()
     check_datasets()
-    check_project_status()
+    check_projects()
 
     if errors > 0:
         sys.exit(1)

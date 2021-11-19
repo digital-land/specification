@@ -18,7 +18,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Source
-plural: ''
+plural: 'Sources'
 prefix: ''
 start-date: ''
 themes:

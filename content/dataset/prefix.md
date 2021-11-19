@@ -12,7 +12,7 @@ fields:
 - field: start-date
 key-field: ''
 name: CURIE prefix
-plural: ''
+plural: 'CURIE prefixes'
 prefix: ''
 start-date: ''
 themes:

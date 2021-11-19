@@ -16,7 +16,7 @@ fields:
 - field: start-date
 key-field: entity
 name: Geometry
-plural: ''
+plural: 'Geometries'
 prefix: ''
 start-date: ''
 themes:

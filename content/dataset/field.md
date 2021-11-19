@@ -19,7 +19,7 @@ fields:
 - field: url-template
 key-field: ''
 name: Field
-plural: ''
+plural: 'Fields'
 prefix: ''
 start-date: ''
 themes:

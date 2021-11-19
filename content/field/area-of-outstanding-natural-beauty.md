@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: ''
+description: 'A protected area of countryside with a distinctive character and natural beauty'
 end-date: ''
 entry-date: ''
 field: area-of-outstanding-natural-beauty

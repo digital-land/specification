@@ -18,7 +18,7 @@ fields:
 - field: policy
 key-field: ''
 name: Policy
-plural: ''
+plural: 'Policies'
 prefix: ''
 start-date: ''
 themes:

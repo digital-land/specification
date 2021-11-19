@@ -13,7 +13,7 @@ fields:
 - field: typology
 key-field: ''
 name: Typology
-plural: ''
+plural: 'Typologies'
 prefix: ''
 start-date: ''
 themes:

@@ -16,7 +16,7 @@ fields:
 - field: uk
 key-field: ''
 name: Addressbase custodian
-plural: ''
+plural: 'Addressbase custodians'
 prefix: ''
 start-date: ''
 themes:

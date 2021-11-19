@@ -12,7 +12,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Schema field
-plural: ''
+plural: 'Schema fields'
 prefix: ''
 start-date: ''
 themes:

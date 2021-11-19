@@ -14,7 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline filter
-plural: ''
+plural: 'Pipeline filters'
 prefix: ''
 start-date: ''
 themes:

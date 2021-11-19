@@ -14,7 +14,7 @@ fields:
 - field: value
 key-field: ''
 name: Provenance
-plural: ''
+plural: 'Provenance'
 prefix: ''
 start-date: ''
 themes:

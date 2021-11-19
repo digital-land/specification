@@ -21,7 +21,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Geography
-plural: ''
+plural: 'Geographies'
 prefix: ''
 start-date: ''
 themes: []

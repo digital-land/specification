@@ -12,7 +12,7 @@ fields:
 - field: theme
 key-field: ''
 name: Theme
-plural: ''
+plural: 'Themes'
 prefix: ''
 start-date: ''
 themes:

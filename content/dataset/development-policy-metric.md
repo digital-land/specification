@@ -15,7 +15,7 @@ fields:
 - field: development-policy-metric
 key-field: ''
 name: Development policy metric
-plural: ''
+plural: 'Development policy metrics'
 prefix: ''
 start-date: ''
 themes:

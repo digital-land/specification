@@ -15,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Project
-plural: ''
+plural: 'Projects'
 prefix: ''
 start-date: ''
 themes:

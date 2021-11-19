@@ -22,7 +22,7 @@ fields:
 - field: special-area-of-conservation
 key-field: ''
 name: Special area of conservation
-plural: ''
+plural: 'Special areas of conservation'
 prefix: ''
 start-date: ''
 themes:

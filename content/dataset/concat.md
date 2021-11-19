@@ -1,7 +1,7 @@
 ---
 collection: ''
 dataset: concat
-description: Concatenate fields during harmonise
+description: Concatenate fields during the harmonise phase
 end-date: ''
 entry-date: ''
 fields:
@@ -14,8 +14,8 @@ fields:
 - field: separator
 - field: start-date
 key-field: ''
-name: Pipeline concat
-plural: ''
+name: Pipeline concatenation
+plural: 'Pipeline concatenations'
 prefix: ''
 start-date: ''
 themes:

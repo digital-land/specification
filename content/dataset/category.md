@@ -13,10 +13,11 @@ fields:
 - field: start-date
 key-field: ''
 name: Category
-plural: ''
+plural: 'Categories'
 prefix: ''
 start-date: ''
-themes: []
+themes:
+- specification
 typology: category
 wikidata: ''
 wikipedia: ''

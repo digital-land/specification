@@ -14,7 +14,7 @@ fields:
 - field: value
 key-field: ''
 name: Pipeline lookup
-plural: ''
+plural: 'Pipeline lookups'
 prefix: ''
 start-date: ''
 themes:

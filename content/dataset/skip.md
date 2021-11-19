@@ -13,7 +13,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline skip
-plural: ''
+plural: 'Pipeline skips'
 prefix: ''
 start-date: ''
 themes:

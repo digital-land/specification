@@ -14,7 +14,7 @@ fields:
 - field: status
 key-field: ''
 name: Entity redirection
-plural: ''
+plural: 'Entity redirections'
 prefix: ''
 start-date: ''
 themes:

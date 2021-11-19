@@ -12,7 +12,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Collection
-plural: ''
+plural: 'Collections'
 prefix: ''
 start-date: ''
 themes:

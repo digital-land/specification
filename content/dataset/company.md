@@ -24,7 +24,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Company
-plural: ''
+plural: 'Companies'
 prefix: ''
 start-date: ''
 themes:

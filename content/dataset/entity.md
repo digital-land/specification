@@ -18,7 +18,7 @@ fields:
 - field: typology
 key-field: ''
 name: Entity
-plural: ''
+plural: 'Entities'
 prefix: ''
 start-date: ''
 themes:

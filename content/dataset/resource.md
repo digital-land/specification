@@ -15,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Resource
-plural: ''
+plural: 'Resources'
 prefix: ''
 start-date: ''
 themes:

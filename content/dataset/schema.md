@@ -14,7 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Schema
-plural: ''
+plural: 'Schemas'
 prefix: ''
 start-date: ''
 themes:

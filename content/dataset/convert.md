@@ -14,7 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline convert
-plural: ''
+plural: 'Pipeline conversions'
 prefix: ''
 start-date: ''
 themes:

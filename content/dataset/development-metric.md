@@ -13,7 +13,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development metric
-plural: ''
+plural: 'Development metrics'
 prefix: ''
 start-date: ''
 themes:

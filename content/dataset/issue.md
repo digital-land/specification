@@ -16,7 +16,7 @@ fields:
 - field: value
 key-field: ''
 name: Issue
-plural: ''
+plural: 'Issues'
 prefix: ''
 start-date: ''
 themes:

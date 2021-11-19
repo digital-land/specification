@@ -13,7 +13,7 @@ fields:
 - field: text
 key-field: ''
 name: Datatype
-plural: ''
+plural: 'Datatypes'
 prefix: ''
 start-date: ''
 themes:

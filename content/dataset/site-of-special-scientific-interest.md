@@ -22,7 +22,7 @@ fields:
 - field: site-of-special-scientific-interest
 key-field: ''
 name: Site of special scientific interest
-plural: ''
+plural: 'Sites of special scientific interest'
 prefix: ''
 start-date: ''
 themes:

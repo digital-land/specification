@@ -15,7 +15,7 @@ fields:
 - field: development-plan-timetable
 key-field: ''
 name: Development plan timetable
-plural: ''
+plural: 'Development plan timetables'
 prefix: ''
 start-date: ''
 themes:
