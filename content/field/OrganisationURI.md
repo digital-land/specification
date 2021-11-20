@@ -10,5 +10,5 @@ parent-field: url
 replacement-field: organisation
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

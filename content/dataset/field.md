@@ -16,7 +16,7 @@ fields:
 - field: replacement-field
 - field: start-date
 - field: typology
-- field: url-template
+- field: uri-template
 key-field: ''
 name: Field
 plural: 'Fields'

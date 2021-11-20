@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: text
-description: ''
+description: 'Markdown content describing the technical specification of a field'
 end-date: ''
 entry-date: ''
 field: text
@@ -10,5 +10,5 @@ parent-field: string
 replacement-field: ''
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

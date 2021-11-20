@@ -10,5 +10,5 @@ parent-field: value
 replacement-field: hectares
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

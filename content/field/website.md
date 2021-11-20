@@ -10,5 +10,5 @@ parent-field: url
 replacement-field: website-url
 start-date: ''
 typology: value
-url-template: '{website}'
+uri-template: '{website}'
 ---

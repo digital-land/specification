@@ -10,5 +10,5 @@ parent-field: statistical-geography
 replacement-field: ''
 start-date: ''
 typology: geography
-url-template: ''
+uri-template: ''
 ---

@@ -10,5 +10,5 @@ parent-field: endpoint
 replacement-field: ''
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

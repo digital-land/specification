@@ -10,5 +10,5 @@ parent-field: value
 replacement-field: ownership-status
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

@@ -4,11 +4,11 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: url-template
+field: uri-template
 name: RFC6570 template URL
 parent-field: value
 replacement-field: ''
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

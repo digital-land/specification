@@ -10,5 +10,5 @@ parent-field: dataset
 replacement-field: ''
 start-date: ''
 typology: specification
-url-template: ''
+uri-template: ''
 ---

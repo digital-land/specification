@@ -10,5 +10,5 @@ parent-field: url
 replacement-field: ''
 start-date: ''
 typology: value
-url-template: '{wikipedia-url}'
+uri-template: '{wikipedia-url}'
 ---

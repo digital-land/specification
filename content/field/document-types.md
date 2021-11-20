@@ -10,5 +10,5 @@ parent-field: document-type
 replacement-field: ''
 start-date: ''
 typology: category
-url-template: ''
+uri-template: ''
 ---

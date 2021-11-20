@@ -8,6 +8,8 @@ fields:
 - field: end-date
 - field: entry-date
 - field: field
+- field: description
+  guidance: "Guidance for the publisher on how to use the field. This overrides the general guidance for the field."
 - field: dataset
 - field: start-date
 key-field: ''

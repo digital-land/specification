@@ -10,5 +10,5 @@ parent-field: datetime
 replacement-field: start-date
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

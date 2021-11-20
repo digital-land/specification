@@ -10,5 +10,5 @@ parent-field: identifier
 replacement-field: ''
 start-date: ''
 typology: value
-url-template: https://twitter.com/{twitter}
+uri-template: https://twitter.com/{twitter}
 ---

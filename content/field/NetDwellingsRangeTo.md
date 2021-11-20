@@ -10,5 +10,5 @@ parent-field: number
 replacement-field: maximum-net-dwellings
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---

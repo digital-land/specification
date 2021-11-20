@@ -10,5 +10,5 @@ parent-field: address-text
 replacement-field: address-text
 start-date: ''
 typology: value
-url-template: ''
+uri-template: ''
 ---
