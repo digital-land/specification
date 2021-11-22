@@ -1,5 +1,5 @@
 ---
-collection: historic-england
+collection: listed-building
 dataset: listed-building-grade
 description: ''
 end-date: ''
