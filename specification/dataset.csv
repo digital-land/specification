@@ -1,9 +1,9 @@
-collection,dataset,description,end-date,entry-date,key-field,name,plural,prefix,start-date,text,themes,typology,wikidata,wikipedia
-,address,,,,,Address,addresses,uprn,,,administrative,geography,,
-,addressbase-custodian,,,,,Addressbase custodian,Addressbase custodians,,,,administrative,category,,
-ancient-woodland,ancient-woodland,,,,,Ancient woodland,Ancient woodlands,,,,environment,geography,Q3078732,Ancient_woodland
-,archaelogy-area-type,,,,,Archaelogy area type,Archaelogy area types,,,,heritage,geography,,
-area-of-outstanding-natural-beauty,area-of-outstanding-natural-beauty,Protected areas of countryside with a distinctive character and natural beauty,,,,Area of outstanding natural beauty,Areas of outstanding natural beauty,,,"An Area of Outstanding Natural Beauty (AONB) is a protected area in the countryside with a distinctive character and natural beauty designated by [Natural England](https://www.gov.uk/government/organisations/natural-england) under the [Section 82 of the Countryside and Rights of Way Act 2000](https://www.legislation.gov.uk/ukpga/2000/37/section/82).
+collection,dataset,description,end-date,entry-date,key-field,entity-minimum,entity-maximum,name,plural,prefix,start-date,text,themes,typology,wikidata,wikipedia
+,address,,,,,,,Address,addresses,uprn,,,administrative,geography,,
+,addressbase-custodian,,,,,,,Addressbase custodian,Addressbase custodians,,,,administrative,category,,
+ancient-woodland,ancient-woodland,,,,,,,Ancient woodland,Ancient woodlands,,,,environment,geography,Q3078732,Ancient_woodland
+,archaelogy-area-type,,,,,,,Archaelogy area type,Archaelogy area types,,,,heritage,geography,,
+area-of-outstanding-natural-beauty,area-of-outstanding-natural-beauty,Protected areas of countryside with a distinctive character and natural beauty,,,,,,Area of outstanding natural beauty,Areas of outstanding natural beauty,,,"An Area of Outstanding Natural Beauty (AONB) is a protected area in the countryside with a distinctive character and natural beauty designated by [Natural England](https://www.gov.uk/government/organisations/natural-england) under the [Section 82 of the Countryside and Rights of Way Act 2000](https://www.legislation.gov.uk/ukpga/2000/37/section/82).
 
 
 A local authority must make sure that any development proposals have regard for the purpose of conserving and enhancing the natural beauty of the AONB. The NPPF sets out in [paragraph 172 ](https://www.gov.uk/guidance/national-planning-policy-framework/15-conserving-and-enhancing-the-natural-environment)that “great weight should be given to conserving and enhancing landscape and scenic beauty in National Parks, the Broads and Areas of Outstanding Natural Beauty, which have the highest status of protection” Local Authorities can consult Natural England for advice to help make a decision on a planning application that may have an impact on an AONB. Natural England can object to a planning application if mitigation measures aren’t acceptable. A local authority may need to request that appropriate compensation measures are included (such as habitat creation on another site) if it isn’t possible to minimise the risks to the protected site. There is specific [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) on how to review planning applications in protected sites and areas.
@@ -11,159 +11,159 @@ A local authority must make sure that any development proposals have regard for 
 A local authority must ensure any development proposals take into account the conservation and enhancement of the natural beauty of the AONB. [The National Policy Planning Framework (NPPF)](https://www.gov.uk/government/publications/national-planning-policy-framework--2) sets out in [paragraph 172 ](https://www.gov.uk/guidance/national-planning-policy-framework/15-conserving-and-enhancing-the-natural-environment)that “great weight should be given to conserving and enhancing landscape and scenic beauty in National Parks, the Broads and Areas of Outstanding Natural Beauty, which have the highest status of protection.” Natural England can offer local authorities advice on a planning application decision which may have an impact on an AONB. Natural England can object to a planning application if mitigation measures aren’t acceptable. If it isn’t possible to minimise the risks to the protected site, local authorities can request an appropriate compensation measure such as habitat creation on another site. There is specific [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) on how to review planning applications in protected sites and areas.
 
 An AONB has a statutory management plan which is reviewed every 5 years.",environment,geography,Q174945,Area_of_Outstanding_Natural_Beauty
-article-4-direction,article-4-direction,,,,,Article 4 direction,Article 4 directions,,,,heritage,geography,Q16962063,Article_4_direction
-,asset-of-community-value,,,,,Asset of community value,Assets of community value,,,,heritage,geography,Q16971076,Asset_of_community_value
-,attribution,,,,,Attribution,Attributions,,,,specification,category,Q2132119,Attribution_(copyright)
-historic-england,battlefield,,,,,Battlefield,Battlefields,,,,heritage,geography,Q4895508,Battlefield
-,best-and-most-versatile-agricultural-land,,,,,Best and most versatile agricultural land,Best and most versatile agricultural land,,,,environment,geography,,
-,biodiversity-net-gain-assessment,,,,,Biodiversity net gain assesment,Biodiversity net gain assesments,,,,environment,document,,
-brownfield-land,brownfield-land,Land that has been previously been developed,,,site,Brownfield land,Brownfield land,,,,development,geography,Q896586,Brownfield_land
-brownfield-site,brownfield-site,,,,,Brownfield site,Brownfield sites,,,,development,geography,Q896586,Brownfield_land
-,buffer-zone,,,,,Buffer zone,Buffer zones,,,,heritage,geography,,
-historic-england,building-preservation-notice,,,,,Building preservation notice,Building preservation notices,,,,development,geography,Q98785867,Listed_building#England_and_Wales
-,category,,,,,Category,Categories,,,,specification,category,,
-central-activities-zone,central-activities-zone,,,,,Central activities zone,Central activities zone,,,,development,geography,,
-historic-england,certificate-of-immunity,,,,,Certificate of immunity,Certificates of immunity,,,,heritage,geography,Q5065092,Certificate_of_Immunity_from_Listing
-,coastal-change-management-area,,,,,Coastal change management area,Coastal change management areas,,,,environment,geography,,
-,collection,A collection of resources collected from various sources,,,,Collection,Collections,,,,specification,,,
-,column,Change column and field names during map,,,,Pipeline column,Pipeline columns,,,,specification,specification,,
-,common-land-and-village-green,,,,,Common land and village green,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
-,company,,,,,Company,Companies,,,,administrative,organisation,,
-,concat,Concatenate fields during the harmonise phase,,,,Pipeline concatenation,Pipeline concatenations,,,,specification,,,
-conservation-area,conservation-area,,,,,Conservation area,Conservation areas,,,,heritage,geography,Q5162904,Conservation_area_(United_Kingdom)
-,contaminated-land,,,,,Contaminated land,Contaminated land,,,,environment,geography,,
-developer-contributions,contribution-funding-status,,,,,Contribution funding status,Contribution funding statuses,,,,development,category,,
-developer-contributions,contribution-purpose,,,,,Contribution purpose,Contribution purposes,,,,development,category,,
-,control-of-major-accident-hazards-site,,,,,Control of major accident hazards site,Control of major accident hazards sites,,,,development,geography,,
-,convert,Convert a resource during convert,,,,Pipeline convert,Pipeline conversions,,,,specification,,,
-,datapackage-dataset,Datasets included in a datapackage,,,,Data package dataset,Data package datasets,,,,specification,,,
-,datapackage,Collections of datasets,,,,Data package,Data packages,,,,specification,,,
-,dataset-field,,,,,Dataset field,Dataset fields,,,,specification,,,
-,dataset-schema,,,,,Dataset schema,Dataset schemas,,,,specification,,,
-,dataset,A collection of entities of the same type,,,,Dataset,Datasets,,,,specification,specification,Q1172284,Data_set
-,datatype,,,,,Datatype,Datatypes,,,,specification,,,
-,default,Take a missing field default value from another field,,,,Pipeline default value,Pipleline default values,,,,specification,specification,,
-developer-contributions,developer-agreement-contribution,,,,,Developer agreement contribution,Developer agreement contributions,,,,development,metric,,
-developer-contributions,developer-agreement-transaction,,,,,Developer agreement transaction,Developer agreement transactions,,,,development,metric,,
-developer-contributions,developer-agreement-type,,,,,Developer agreement type,Developer agreement types,,,,development,category,,
-developer-contributions,developer-agreement,,,,,Developer agreement,Developer agreements,,,,development,document,,
-organisation,development-corporation,,,,,Development corporation,Development corporations,wikidata,,,administrative,organisation,Q5266682,Development_corporation
-,development-metric,The types of measurement used as a development policy metric,,,,Development metric,Development metrics,,,,development,category,,
-development-plan-document,development-plan-document,,,,,Development plan document,Development plan documents,,,,development,organisation,Q5266783,Development_plan
-,development-plan-status,The different statuses a plan can have,,,,Development plan status,Development plan statuses,,,,development,category,,
-,development-plan-timetable,The expected timetable for the stages a plan will go through,,,,Development plan timetable,Development plan timetables,,,,development,timetable,,
-development-plan-type,development-plan-type,,,,,Development plan type,Development plan types,,,,development,category,,
-development-policy-area,development-policy-area,,,,,Development policy area,Development policy areas,,,,development,geography,,
-development-policy-category,development-policy-category,,,,,Development policy category,Development policy categories,,,,development,category,Q5962346,Classification_(general_theory)
-,development-policy-metric,Metrics associated with a development policy,,,,Development policy metric,Development policy metrics,,,,development,metric,,
-development-policy,development-policy,,,,,Development policy,Development policies,,,,development,policy,,
-document-type,document-type,,,,,Document type,Document types,,,,development,category,,
-document,document,,,,,Document,Documents,,,,development,document,Q49848,Document
-employment-allocation,employment-allocation,,,,,Employment allocation,Employment allocations,,,,development,geography,,
-,endpoint,,,,,Endpoint,Endpoints,,,,specification,,,
-,entity,An item of data,,,,Entity,Entities,,,,specification,value,,
-,field,,,,,Field,Fields,,,,specification,,,
-,filter,Filter entries,,,,Pipeline filter,Pipeline filters,,,,specification,,,
-,flood-zone-1,,,,,Flood zone 1,Flood zones 1,,,,environment,geography,,
-,flood-zone-2,,,,,Flood zone 2,Flood zones 2,,,,environment,geography,,
-,flood-zone-3,,,,,Flood zone 3,Flood zones 3,,,,environment,geography,,
-,geography,,,,,Geography,Geographies,,,,,geography,,
-,geometry,Geometry index,,,entity,Geometry,Geometries,,,,specification,value,,
-organisation,government-organisation,,,,,Government organisation,Government organisations,government-organisation,,,administrative,organisation,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
-green-belt,green-belt-core,,,,,Green belt urban core,Green belt urban cores,wikidata,,,environment,geography,Q2734873,Green_belt_(United_Kingdom)
-green-belt,green-belt,,,,,Green belt,Green belt,,,,environment,geography,Q2734873,Green_belt_(United_Kingdom)
-,guardianship-site-and-english-heritage-site,,,,,Guardianship site and English heritage site,Guardianship sites and English heritage sites,,,,heritage,geography,,
-,gypsy-and-traveller-site,,,,,Gypsy and traveller site,Gypsy and traveller sites,,,,development,geography,Q74497345,
-,heritage-action-zone,,,,,Heritage action zone,Heritage action zones,,,,heritage,geography,,
-historic-england,heritage-at-risk,,,,,Heritage at risk,Heritage at risk,,,,heritage,geography,Q16983914,Heritage_at_Risk_Register
-heritage-coast,heritage-coast,,,,,Heritage coast,Heritage coast,,,,environment;heritage,geography,Q13125592,Heritage_coast
-,historic-non-designed-rural-landscape-local-landscape-area,,,,,Historic (non-designed) rural landscape/local landscape area,Historic (non-designed) rural landscape/local landscape areas,,,,heritage,geography,,
-,historic-stone-quarry,,,,,Historic stone quarry,Historic stone quarries,,,,heritage,geography,,
-,housing-allocation,,,,,Housing allocation,Housing allocations,,,,housing;monitoring,document,,
-,hs2-safeguarded-area,,,,,HS2 safeguarded area,HS2 safeguarded areas,,,,transport,geography,,
-,infrastructure-funding-statement,,,,,Infrastructure funding statement,Infrastructure funding statements,,,,development,document,,
-organisation,internal-drainage-board,,,,,Internal drainage board,Internal drainage boards,,,,administrative,organisation,Q6047836,Internal_drainage_board
-,issue,,,,,Issue,Issues,,,,specification,,,
-,licence,,,,,Licence,Licences,,,,specification,category,Q7257461,Public_copyright_license
-historic-england,listed-building-grade,,,,,Listed building grade,Listed building grades,,,,heritage,category,,Listed_building
-listed-building,listed-building,,,,,Listed building,Listed buildings,,,,heritage,geography,Q570600,Listed_building
-local-authority-district,local-authority-district,,,,,Local authority district,Local authority districts,statistical-geography,,,administrative,geography,Q349084,Districts_of_England
-organisation,local-authority-eng,,,,,Local authority,Local authorities,local-authority-eng,,,administrative,organisation,Q171634,Local_government_in_England
-,local-authority-type,,,,,Local authority type,Local authority types,,,,administrative,category,,
-,local-green-space,,,,,Local green space,Local green spaces,,,,environment,geography,,
-,local-nature-recovery-strategy,,,,,Local nature recovery strategy,Local nature recovery strategies,,,,environment,geography,,
-,log,,,,,Collection log,Collection logs,,,,specification,,,
-,london-square,,,,,London square,London squares,,,,heritage,geography,Q7582093,Squares_in_London
-,long-established-woodland,,,,,Long established woodland,Long established woodlands,,,,environment,geography,,
-,long-protected-woodland,,,,,Long protected woodland,Long protected woodlands,,,,environment,geography,,
-,lookup,Lookup entities,,,,Pipeline lookup,Pipeline lookups,,,,specification,,,
-,main-river,,,,,Main river,Main rivers,,,,environment,geography,Q6736223,Main_river
-,metropolitan-open-land,,,,,Metropolitan open land,Metropolitan open land,,,,environment,geography,Q16997686,Metropolitan_Open_Land
-,mineral-safeguarding-area,,,,,Mineral safeguarding area,Mineral safeguarding areas,,,,environment,geography,,
-organisation,national-park-authority,,,,,National park authority,National park authorities,wikidata,,,administrative,organisation,Q3336962,National_park_authority
-national-park,national-park,,,,,National park,National parks,,,,heritage,geography,Q60256727,National_park
-,nature-improvement-area,,,,,Nature improvement area,Nature improvement areas,,,,environment,geography,Q6980918,Nature_Improvement_Area
-organisation,neighbourhood-forum,,,,,Designated neighbourhood forum,Neighbourhood forums,,,,administrative,organisation,,
-,non-designated-and-locally-listed-historic-asset,,,,,Non-designated and locally listed historic asset,Non-designated and locally listed historic assets,,,,heritage,geography,,
-,non-designated-archeology-asset-of-national-importance,,,,,Non-designated archeology asset of national importance,Non-designated archeology assets of national importance,,,,heritage,geography,,
-,nuclear-safety-zone,,,,,Nuclear safety zone,Nuclear safety zones,,,,environment,geography,,
-,old-entity,Redirect an entity or mark it as gone,,,,Entity redirection,Entity redirections,,,,specification,value,,
-open-space,open-space,,,,,Open space,Open spaces,,,,environment,geography,,
-,organisation,,,,,Organisation,Organisations,,,,,organisation,,
-ownership-status,ownership-status,,,,,Ownership status,Ownership statuses,,,,development,category,,
-parish,parish,,,,,Civil parish,Civil parishes,,,,administrative,geography,Q1115575,Civil_parish
-historic-england,park-and-garden-grade,,,,,Park and garden grade,Parks and garden grades,,,,environment;heritage,category,,
-historic-england,park-and-garden,,,,,Park and garden,Parks and gardens,,,,environment;heritage,geography,Q6975250,Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
-,patch,Assert a field value during harmonise,,,,Pipeline patch,Pipeline patches,,,,specification,,,
-,permitted-development-right-class,,,,,Permitted development right class,Permitted development right classes,,,,development,category,,
-,permitted-development-right-part,,,,,Permitted development right part,Permitted development right parts,,,,development,category,,
-permitted-development-right,permitted-development-right,,,,,Permitted development right,Permitted development right,,,,development,policy,,
-,pipeline,,,,,Pipeline,Pipelines,,,,specification,,,
-,planning-decision,,,,,Planning decision,Planning decisions,,,,housing;monitoring,document,,
-planning-permission-status,planning-permission-status,,,,,Planning permission status,Planning permission statuses,,,,development,category,,
-planning-permission-type,planning-permission-type,,,,,Planning permission type,Planning permission types,,,,development,category,,
-,policy,,,,,Policy,Policies,,,,administrative,policy,,
-,prefix,,,,,CURIE prefix,CURIE prefixes,,,,specification,,,
-,project-status,,,,,Project status,Project statuses,,,,specification,,,
-,project,,,,,Project,Projects,,,,specification,,,
-,proposed-ramsar-site,,,,,Proposed ramsar site,Proposed ramsar sites,,,,environment,geography,,
-,protected-land,,,,,Protected land,Protected land,,,,heritage,geography,,
-,protected-site-strategy,,,,,Protected site strategy,Protected site strategies,,,,environment,document,,
-,protected-view,,,,,Protected view,Protected views,,,,heritage,geography,Q4118263,Protected_view
-historic-england,protected-wreck-site,,,,,Protected wreck site,Protected wreck sites,,,,heritage,geography,Q6616121,List_of_designations_under_the_Protection_of_Wrecks_Act
-,provenance,,,,,Provenance,Provenance,,,,specification,,,
-organisation,public-authority,,,,,Public authority,Public authorities,wikidata,,,administrative,organisation,,
-,public-safety-zone-around-airport,,,,,Public safety zone around airport,Public safety zones around airports,,,,transport,geography,,
-ramsar,ramsar-site,,,,,Ramsar site,Ramsar sites,,,,environment,geography,Q19683138,Ramsar_site
-ramsar,ramsar,,,,,Ramsar area,Ramsar area,,,,environment,geography,,
-organisation,regional-park-authority,,,,,Regional park authority,Regional park authorities,wikidata,,,administrative,organisation,,
-,resource,An index of collected resources,,,,Resource,Resources,,,,specification,,,
-,safeguarded-aerodrome,,,,,Safeguarded aerodrome,Safeguarded aerodromes,,,,transport,geography,,
-,safeguarded-military-explosives-site,,,,,Safeguarded military explosives site,Safeguarded military explosives sites,,,,environment,geography,,
-,safeguarded-wharf,,,,,Safeguarded wharf,Safeguarded wharves,,,,transport,geography,,
-,safety-hazard-area,,,,,Safety hazard area,Safety hazard areas,,,,development,geography,,
-historic-england,scheduled-monument,,,,,Scheduled monument,Scheduled monuments,,,,heritage,geography,Q219538,Scheduled_monument
-,schema-field,,,,,Schema field,Schema fields,,,,specification,,,
-,schema,,,,,Schema,Schemas,,,,specification,,,
-,self-and-custom-buildarea,,,,,Self and custom build area,Self and custom build areas,,,,housing,geography,,
-site-category,site-category,,,,,Site category,Site categories,,,,development,category,,
-,site-of-nature-conservation-importance,,,,,Site of nature conservation importancem,Sites of nature conservation importance,,,,environment,document,,
-site-of-special-scientific-interest,site-of-special-scientific-interest,,,,,Site of special scientific interest,Sites of special scientific interest,,,,environment,geography,Q422211,Site_of_Special_Scientific_Interest
-,skip,Remove lines from a resource during normalise,,,,Pipeline skip,Pipeline skips,,,,specification,,,
-,source,,,,,Source,Sources,,,,specification,,,
-special-area-of-conservation,special-area-of-conservation,,,,,Special area of conservation,Special areas of conservation,,,,environment,geography,Q1191622,Special_Area_of_Conservation
-,special-protection-area,,,,,Special protection area,Special protection areas,,,,environment,document,,
-,street,,,,,Street,Streets,,,,administrative,geography,,
-,suitable-alternative-green-space,,,,,Suitable alternative green space,Suitable alternative green spaces,,,,environment,geography,,
-,theme,,,,,Theme,Themes,,,,specification,,,
-,transform,,,,,Pipeline transformation,Transformations,,,,specification,,,
-organisation,transport-authority,,,,,Passenger transport executive,Passenger transport executive,wikidata,,,administrative,organisation,Q514989,Passenger_transport_executive
-,transport-under-tcpa-route,,,,,Transport (under TCPA route),Transport (under TCPA route),,,,transport,geography,,
-tree-preservation-order,tree-preservation-order,,,,,Tree preservation order,Tree preservation orders,,,,environment,geography,,
-tree-preservation-order,tree,,,,,Tree,Trees,,,,environment,geography,,
-,typology,,,,,Typology,Typologies,,,,specification,,,
-,use-class-order,,,,,Use class order,Use class orders,,,,development,category,,
-organisation,waste-authority,,,,,Waste disposal authority,Waste authorities,wikidata,,,administrative,organisation,Q7972817,Waste_disposal_authority
-,wildbelt,,,,,Wildbelt,Wildbelts,,,,environment,geography,,
-,wildlife,,,,,Wildlife,Wildlife,,,,environment,geography,,
-historic-england,world-heritage-site,,,,,World heritage site,World heritage sites,,,,heritage,geography,Q9259,World_Heritage_Site
+article-4-direction,article-4-direction,,,,,,,Article 4 direction,Article 4 directions,,,,heritage,geography,Q16962063,Article_4_direction
+,asset-of-community-value,,,,,,,Asset of community value,Assets of community value,,,,heritage,geography,Q16971076,Asset_of_community_value
+,attribution,,,,,,,Attribution,Attributions,,,,specification,category,Q2132119,Attribution_(copyright)
+historic-england,battlefield,,,,,,,Battlefield,Battlefields,,,,heritage,geography,Q4895508,Battlefield
+,best-and-most-versatile-agricultural-land,,,,,,,Best and most versatile agricultural land,Best and most versatile agricultural land,,,,environment,geography,,
+,biodiversity-net-gain-assessment,,,,,,,Biodiversity net gain assesment,Biodiversity net gain assesments,,,,environment,document,,
+brownfield-land,brownfield-land,Land that has been previously been developed,,,site,,,Brownfield land,Brownfield land,,,,development,geography,Q896586,Brownfield_land
+brownfield-site,brownfield-site,,,,,,,Brownfield site,Brownfield sites,,,,development,geography,Q896586,Brownfield_land
+,buffer-zone,,,,,,,Buffer zone,Buffer zones,,,,heritage,geography,,
+historic-england,building-preservation-notice,,,,,,,Building preservation notice,Building preservation notices,,,,development,geography,Q98785867,Listed_building#England_and_Wales
+,category,,,,,,,Category,Categories,,,,specification,category,,
+central-activities-zone,central-activities-zone,,,,,,,Central activities zone,Central activities zone,,,,development,geography,,
+historic-england,certificate-of-immunity,,,,,,,Certificate of immunity,Certificates of immunity,,,,heritage,geography,Q5065092,Certificate_of_Immunity_from_Listing
+,coastal-change-management-area,,,,,,,Coastal change management area,Coastal change management areas,,,,environment,geography,,
+,collection,A collection of resources collected from various sources,,,,,,Collection,Collections,,,,specification,,,
+,column,Change column and field names during map,,,,,,Pipeline column,Pipeline columns,,,,specification,specification,,
+,common-land-and-village-green,,,,,,,Common land and village green,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
+,company,,,,,,,Company,Companies,,,,administrative,organisation,,
+,concat,Concatenate fields during the harmonise phase,,,,,,Pipeline concatenation,Pipeline concatenations,,,,specification,,,
+conservation-area,conservation-area,,,,,,,Conservation area,Conservation areas,,,,heritage,geography,Q5162904,Conservation_area_(United_Kingdom)
+,contaminated-land,,,,,,,Contaminated land,Contaminated land,,,,environment,geography,,
+developer-contributions,contribution-funding-status,,,,,,,Contribution funding status,Contribution funding statuses,,,,development,category,,
+developer-contributions,contribution-purpose,,,,,,,Contribution purpose,Contribution purposes,,,,development,category,,
+,control-of-major-accident-hazards-site,,,,,,,Control of major accident hazards site,Control of major accident hazards sites,,,,development,geography,,
+,convert,Convert a resource during convert,,,,,,Pipeline convert,Pipeline conversions,,,,specification,,,
+,datapackage-dataset,Datasets included in a datapackage,,,,,,Data package dataset,Data package datasets,,,,specification,,,
+,datapackage,Collections of datasets,,,,,,Data package,Data packages,,,,specification,,,
+,dataset-field,,,,,,,Dataset field,Dataset fields,,,,specification,,,
+,dataset-schema,,,,,,,Dataset schema,Dataset schemas,,,,specification,,,
+,dataset,A collection of entities of the same type,,,,,,Dataset,Datasets,,,,specification,specification,Q1172284,Data_set
+,datatype,,,,,,,Datatype,Datatypes,,,,specification,,,
+,default,Take a missing field default value from another field,,,,,,Pipeline default value,Pipleline default values,,,,specification,specification,,
+developer-contributions,developer-agreement-contribution,,,,,,,Developer agreement contribution,Developer agreement contributions,,,,development,metric,,
+developer-contributions,developer-agreement-transaction,,,,,,,Developer agreement transaction,Developer agreement transactions,,,,development,metric,,
+developer-contributions,developer-agreement-type,,,,,,,Developer agreement type,Developer agreement types,,,,development,category,,
+developer-contributions,developer-agreement,,,,,,,Developer agreement,Developer agreements,,,,development,document,,
+organisation,development-corporation,,,,,,,Development corporation,Development corporations,wikidata,,,administrative,organisation,Q5266682,Development_corporation
+,development-metric,The types of measurement used as a development policy metric,,,,,,Development metric,Development metrics,,,,development,category,,
+development-plan-document,development-plan-document,,,,,,,Development plan document,Development plan documents,,,,development,organisation,Q5266783,Development_plan
+,development-plan-status,The different statuses a plan can have,,,,,,Development plan status,Development plan statuses,,,,development,category,,
+,development-plan-timetable,The expected timetable for the stages a plan will go through,,,,,,Development plan timetable,Development plan timetables,,,,development,timetable,,
+development-plan-type,development-plan-type,,,,,,,Development plan type,Development plan types,,,,development,category,,
+development-policy-area,development-policy-area,,,,,,,Development policy area,Development policy areas,,,,development,geography,,
+development-policy-category,development-policy-category,,,,,,,Development policy category,Development policy categories,,,,development,category,Q5962346,Classification_(general_theory)
+,development-policy-metric,Metrics associated with a development policy,,,,,,Development policy metric,Development policy metrics,,,,development,metric,,
+development-policy,development-policy,,,,,,,Development policy,Development policies,,,,development,policy,,
+document-type,document-type,,,,,,,Document type,Document types,,,,development,category,,
+document,document,,,,,,,Document,Documents,,,,development,document,Q49848,Document
+employment-allocation,employment-allocation,,,,,,,Employment allocation,Employment allocations,,,,development,geography,,
+,endpoint,,,,,,,Endpoint,Endpoints,,,,specification,,,
+,entity,An item of data,,,,,,Entity,Entities,,,,specification,value,,
+,field,,,,,,,Field,Fields,,,,specification,,,
+,filter,Filter entries,,,,,,Pipeline filter,Pipeline filters,,,,specification,,,
+,flood-zone-1,,,,,,,Flood zone 1,Flood zones 1,,,,environment,geography,,
+,flood-zone-2,,,,,,,Flood zone 2,Flood zones 2,,,,environment,geography,,
+,flood-zone-3,,,,,,,Flood zone 3,Flood zones 3,,,,environment,geography,,
+,geography,,,,,,,Geography,Geographies,,,,,geography,,
+,geometry,Geometry index,,,entity,,,Geometry,Geometries,,,,specification,value,,
+organisation,government-organisation,,,,,,,Government organisation,Government organisations,government-organisation,,,administrative,organisation,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
+green-belt,green-belt-core,,,,,,,Green belt urban core,Green belt urban cores,wikidata,,,environment,geography,Q2734873,Green_belt_(United_Kingdom)
+green-belt,green-belt,,,,,,,Green belt,Green belt,,,,environment,geography,Q2734873,Green_belt_(United_Kingdom)
+,guardianship-site-and-english-heritage-site,,,,,,,Guardianship site and English heritage site,Guardianship sites and English heritage sites,,,,heritage,geography,,
+,gypsy-and-traveller-site,,,,,,,Gypsy and traveller site,Gypsy and traveller sites,,,,development,geography,Q74497345,
+,heritage-action-zone,,,,,,,Heritage action zone,Heritage action zones,,,,heritage,geography,,
+historic-england,heritage-at-risk,,,,,,,Heritage at risk,Heritage at risk,,,,heritage,geography,Q16983914,Heritage_at_Risk_Register
+heritage-coast,heritage-coast,,,,,,,Heritage coast,Heritage coast,,,,environment;heritage,geography,Q13125592,Heritage_coast
+,historic-non-designed-rural-landscape-local-landscape-area,,,,,,,Historic (non-designed) rural landscape/local landscape area,Historic (non-designed) rural landscape/local landscape areas,,,,heritage,geography,,
+,historic-stone-quarry,,,,,,,Historic stone quarry,Historic stone quarries,,,,heritage,geography,,
+,housing-allocation,,,,,,,Housing allocation,Housing allocations,,,,housing;monitoring,document,,
+,hs2-safeguarded-area,,,,,,,HS2 safeguarded area,HS2 safeguarded areas,,,,transport,geography,,
+,infrastructure-funding-statement,,,,,,,Infrastructure funding statement,Infrastructure funding statements,,,,development,document,,
+organisation,internal-drainage-board,,,,,,,Internal drainage board,Internal drainage boards,,,,administrative,organisation,Q6047836,Internal_drainage_board
+,issue,,,,,,,Issue,Issues,,,,specification,,,
+,licence,,,,,,,Licence,Licences,,,,specification,category,Q7257461,Public_copyright_license
+listed-building,listed-building-grade,,,,,,,Listed building grade,Listed building grades,,,,heritage,category,,Listed_building
+listed-building,listed-building,,,,,,,Listed building,Listed buildings,,,,heritage,geography,Q570600,Listed_building
+local-authority-district,local-authority-district,,,,,,,Local authority district,Local authority districts,statistical-geography,,,administrative,geography,Q349084,Districts_of_England
+organisation,local-authority-eng,,,,,,,Local authority,Local authorities,local-authority-eng,,,administrative,organisation,Q171634,Local_government_in_England
+,local-authority-type,,,,,,,Local authority type,Local authority types,,,,administrative,category,,
+,local-green-space,,,,,,,Local green space,Local green spaces,,,,environment,geography,,
+,local-nature-recovery-strategy,,,,,,,Local nature recovery strategy,Local nature recovery strategies,,,,environment,geography,,
+,log,,,,,,,Collection log,Collection logs,,,,specification,,,
+,london-square,,,,,,,London square,London squares,,,,heritage,geography,Q7582093,Squares_in_London
+,long-established-woodland,,,,,,,Long established woodland,Long established woodlands,,,,environment,geography,,
+,long-protected-woodland,,,,,,,Long protected woodland,Long protected woodlands,,,,environment,geography,,
+,lookup,Lookup entities,,,,,,Pipeline lookup,Pipeline lookups,,,,specification,,,
+,main-river,,,,,,,Main river,Main rivers,,,,environment,geography,Q6736223,Main_river
+,metropolitan-open-land,,,,,,,Metropolitan open land,Metropolitan open land,,,,environment,geography,Q16997686,Metropolitan_Open_Land
+,mineral-safeguarding-area,,,,,,,Mineral safeguarding area,Mineral safeguarding areas,,,,environment,geography,,
+organisation,national-park-authority,,,,,,,National park authority,National park authorities,wikidata,,,administrative,organisation,Q3336962,National_park_authority
+national-park,national-park,,,,,,,National park,National parks,,,,heritage,geography,Q60256727,National_park
+,nature-improvement-area,,,,,,,Nature improvement area,Nature improvement areas,,,,environment,geography,Q6980918,Nature_Improvement_Area
+organisation,neighbourhood-forum,,,,,,,Designated neighbourhood forum,Neighbourhood forums,,,,administrative,organisation,,
+,non-designated-and-locally-listed-historic-asset,,,,,,,Non-designated and locally listed historic asset,Non-designated and locally listed historic assets,,,,heritage,geography,,
+,non-designated-archeology-asset-of-national-importance,,,,,,,Non-designated archeology asset of national importance,Non-designated archeology assets of national importance,,,,heritage,geography,,
+,nuclear-safety-zone,,,,,,,Nuclear safety zone,Nuclear safety zones,,,,environment,geography,,
+,old-entity,Redirect an entity or mark it as gone,,,,,,Entity redirection,Entity redirections,,,,specification,value,,
+open-space,open-space,,,,,,,Open space,Open spaces,,,,environment,geography,,
+,organisation,,,,,,,Organisation,Organisations,,,,,organisation,,
+ownership-status,ownership-status,,,,,,,Ownership status,Ownership statuses,,,,development,category,,
+parish,parish,,,,,,,Civil parish,Civil parishes,,,,administrative,geography,Q1115575,Civil_parish
+historic-england,park-and-garden-grade,,,,,,,Park and garden grade,Parks and garden grades,,,,environment;heritage,category,,
+historic-england,park-and-garden,,,,,,,Park and garden,Parks and gardens,,,,environment;heritage,geography,Q6975250,Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
+,patch,Assert a field value during harmonise,,,,,,Pipeline patch,Pipeline patches,,,,specification,,,
+,permitted-development-right-class,,,,,,,Permitted development right class,Permitted development right classes,,,,development,category,,
+,permitted-development-right-part,,,,,,,Permitted development right part,Permitted development right parts,,,,development,category,,
+permitted-development-right,permitted-development-right,,,,,,,Permitted development right,Permitted development right,,,,development,policy,,
+,pipeline,,,,,,,Pipeline,Pipelines,,,,specification,,,
+,planning-decision,,,,,,,Planning decision,Planning decisions,,,,housing;monitoring,document,,
+planning-permission-status,planning-permission-status,,,,,,,Planning permission status,Planning permission statuses,,,,development,category,,
+planning-permission-type,planning-permission-type,,,,,,,Planning permission type,Planning permission types,,,,development,category,,
+,policy,,,,,,,Policy,Policies,,,,administrative,policy,,
+,prefix,,,,,,,CURIE prefix,CURIE prefixes,,,,specification,,,
+,project-status,,,,,,,Project status,Project statuses,,,,specification,,,
+,project,,,,,,,Project,Projects,,,,specification,,,
+,proposed-ramsar-site,,,,,,,Proposed ramsar site,Proposed ramsar sites,,,,environment,geography,,
+,protected-land,,,,,,,Protected land,Protected land,,,,heritage,geography,,
+,protected-site-strategy,,,,,,,Protected site strategy,Protected site strategies,,,,environment,document,,
+,protected-view,,,,,,,Protected view,Protected views,,,,heritage,geography,Q4118263,Protected_view
+historic-england,protected-wreck-site,,,,,,,Protected wreck site,Protected wreck sites,,,,heritage,geography,Q6616121,List_of_designations_under_the_Protection_of_Wrecks_Act
+,provenance,,,,,,,Provenance,Provenance,,,,specification,,,
+organisation,public-authority,,,,,,,Public authority,Public authorities,wikidata,,,administrative,organisation,,
+,public-safety-zone-around-airport,,,,,,,Public safety zone around airport,Public safety zones around airports,,,,transport,geography,,
+ramsar,ramsar-site,,,,,,,Ramsar site,Ramsar sites,,,,environment,geography,Q19683138,Ramsar_site
+ramsar,ramsar,,,,,612001,619999,Ramsar area,Ramsar area,,,,environment,geography,,
+organisation,regional-park-authority,,,,,,,Regional park authority,Regional park authorities,wikidata,,,administrative,organisation,,
+,resource,An index of collected resources,,,,,,Resource,Resources,,,,specification,,,
+,safeguarded-aerodrome,,,,,,,Safeguarded aerodrome,Safeguarded aerodromes,,,,transport,geography,,
+,safeguarded-military-explosives-site,,,,,,,Safeguarded military explosives site,Safeguarded military explosives sites,,,,environment,geography,,
+,safeguarded-wharf,,,,,,,Safeguarded wharf,Safeguarded wharves,,,,transport,geography,,
+,safety-hazard-area,,,,,,,Safety hazard area,Safety hazard areas,,,,development,geography,,
+historic-england,scheduled-monument,,,,,,,Scheduled monument,Scheduled monuments,,,,heritage,geography,Q219538,Scheduled_monument
+,schema-field,,,,,,,Schema field,Schema fields,,,,specification,,,
+,schema,,,,,,,Schema,Schemas,,,,specification,,,
+,self-and-custom-buildarea,,,,,,,Self and custom build area,Self and custom build areas,,,,housing,geography,,
+site-category,site-category,,,,,,,Site category,Site categories,,,,development,category,,
+,site-of-nature-conservation-importance,,,,,,,Site of nature conservation importancem,Sites of nature conservation importance,,,,environment,document,,
+site-of-special-scientific-interest,site-of-special-scientific-interest,,,,,,,Site of special scientific interest,Sites of special scientific interest,,,,environment,geography,Q422211,Site_of_Special_Scientific_Interest
+,skip,Remove lines from a resource during normalise,,,,,,Pipeline skip,Pipeline skips,,,,specification,,,
+,source,,,,,,,Source,Sources,,,,specification,,,
+special-area-of-conservation,special-area-of-conservation,,,,,,,Special area of conservation,Special areas of conservation,,,,environment,geography,Q1191622,Special_Area_of_Conservation
+,special-protection-area,,,,,,,Special protection area,Special protection areas,,,,environment,document,,
+,street,,,,,,,Street,Streets,,,,administrative,geography,,
+,suitable-alternative-green-space,,,,,,,Suitable alternative green space,Suitable alternative green spaces,,,,environment,geography,,
+,theme,,,,,,,Theme,Themes,,,,specification,,,
+,transform,,,,,,,Pipeline transformation,Transformations,,,,specification,,,
+organisation,transport-authority,,,,,,,Passenger transport executive,Passenger transport executive,wikidata,,,administrative,organisation,Q514989,Passenger_transport_executive
+,transport-under-tcpa-route,,,,,,,Transport (under TCPA route),Transport (under TCPA route),,,,transport,geography,,
+tree-preservation-order,tree-preservation-order,,,,,,,Tree preservation order,Tree preservation orders,,,,environment,geography,,
+tree-preservation-order,tree,,,,,,,Tree,Trees,,,,environment,geography,,
+,typology,,,,,,,Typology,Typologies,,,,specification,,,
+,use-class-order,,,,,,,Use class order,Use class orders,,,,development,category,,
+organisation,waste-authority,,,,,,,Waste disposal authority,Waste authorities,wikidata,,,administrative,organisation,Q7972817,Waste_disposal_authority
+,wildbelt,,,,,,,Wildbelt,Wildbelts,,,,environment,geography,,
+,wildlife,,,,,,,Wildlife,Wildlife,,,,environment,geography,,
+historic-england,world-heritage-site,,,,,,,World heritage site,World heritage sites,,,,heritage,geography,Q9259,World_Heritage_Site

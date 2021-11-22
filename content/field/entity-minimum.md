@@ -4,11 +4,13 @@ datatype: integer
 description: ''
 end-date: ''
 entry-date: ''
-field: entity
+field: entity-minimum
 name: Entity
 parent-field: identifier
 replacement-field: ''
 start-date: ''
 typology: value
-uri-template: https://www.digital-land.info/entity/{entity}
+uri-template:
 ---
+
+The start of the range of values which may be assigned to an entity in a dataset.

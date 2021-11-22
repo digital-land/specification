@@ -17,6 +17,7 @@ fields:
 - field: start-date
 - field: typology
 - field: uri-template
+- field: wikidata-property
 key-field: ''
 name: Field
 plural: 'Fields'

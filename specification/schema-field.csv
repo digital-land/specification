@@ -414,7 +414,7 @@ datapackage,text
 dataset-field,end-date
 dataset-field,entry-date
 dataset-field,field
-dataset-field,description
+dataset-field,guidance
 dataset-field,dataset
 dataset-field,start-date
 dataset-schema,dataset
@@ -428,6 +428,8 @@ dataset,description
 dataset,end-date
 dataset,entry-date
 dataset,key-field
+dataset,entity-minimum
+dataset,entity-maximum
 dataset,name
 dataset,plural
 dataset,prefix
@@ -647,6 +649,7 @@ field,replacement-field
 field,start-date
 field,typology
 field,uri-template
+field,wikidata-property
 filter,end-date
 filter,entry-date
 filter,field

@@ -13,6 +13,10 @@ fields:
 - field: end-date
 - field: entry-date
 - field: key-field
+- field: entity-minimum
+  description: "The lowest entity number assigned to this dataset"
+- field: entity-maximum
+  description: "The highest entity number assigned to this dataset"
 - field: name
   description: "The singular name for the dataset"
 - field: plural

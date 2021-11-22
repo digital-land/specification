@@ -4,13 +4,13 @@
 
 import sys
 import csv
+from decimal import Decimal
 
 dialect = csv.excel
 dialect.strict = True
 
 keys = {
-    "schema-field": ["schema", "field"],
-    "dataset-schema": ["dataset", "schema"],
+    "dataset-field": ["dataset", "field"],
     # "datapackage-dataset": ["datapackage", "dataset"],
 }
 
@@ -24,15 +24,13 @@ mandatory_fields = [
 tables = {
     "field": {},
     "datatype": {},
-    "schema": {},
     "collection": {},
     "dataset": {},
     "project": {},
     "project-status": {},
     "typology": {},
     "theme": {},
-    "schema-field": {},
-    "dataset-schema": {},
+    "dataset-field": {},
     "datapackage": {},
     # "datapackage-dataset": {},
 }
@@ -107,6 +105,32 @@ def check_datasets():
                 if theme not in tables["theme"]:
                     error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
+        # check entity ranges .. O(n2)
+        if "entity" in tables["dataset-field"][dataset]:
+            minimum = Decimal(d.get("entity-minimum", "") or 0)
+            if not minimum:
+                error("dataset '%s' is missing an entity-minimum value" % (dataset))
+
+            maximum = Decimal(d.get("entity-maximum", "") or 0)
+            if not maximum:
+                error("dataset '%s' is missing an entity-maximum value" % (dataset))
+
+            if minimum and maximum:
+                for _dataset, _d in sorted(tables["dataset"].items()):
+                    if (
+                        dataset != dataset
+                        and _d.get("entity-minimum", 0)
+                        and _d.get("entry-maximum", 0)
+                    ):
+                        if (
+                            _d["entity-minimum"] <= minimum <= _d["entity-maximum"]
+                            or _d["entity-minimum"] <= maximum <= _d["entity-maximum"]
+                        ):
+                            error(
+                                "dataset '%s' entity range overlaps with '%s'"
+                                % (dataset, _dataset)
+                            )
+
 
 def check_projects():
     for project, p in tables["project"].items():
@@ -123,17 +147,17 @@ def check_projects():
 
 
 def check(table):
-    if table not in tables["schema"]:
-        return error("no schema for table %s" % (table))
+    if table not in tables["dataset"]:
+        return error("no dataset for table %s" % (table))
 
-    if table not in tables["schema-field"]:
-        return error("no schema-field values for table %s" % (table))
+    if table not in tables["dataset-field"]:
+        return error("no dataset-field values for table %s" % (table))
 
     for field in fields[table]:
         if field not in tables["field"]:
             return error("%s: column '%s' not defined as a field" % (table, field))
 
-    for field in tables["schema-field"][table]:
+    for field in tables["dataset-field"][table]:
         if field not in fields[table] and field not in mandatory_fields:
             error("%s: missing '%s' column" % (table, field))
 
@@ -155,23 +179,23 @@ if __name__ == "__main__":
     for table in tables:
         check(table)
 
-    for t in ["dataset", "schema", "field", "datatype", "typology"]:
+    for t in ["dataset", "field", "datatype", "typology"]:
         for name, item in tables[t].items():
             if (not item.get("name", "")) and (
-                t == "schema"
+                t == "dataset"
                 and not (
                     name in tables["field"] and tables["field"][name].get("name", "")
                 )
             ):
                 error("no name for %s '%s'" % (t, name))
 
-    for schema, s in tables["schema"].items():
-        if schema not in tables["schema-field"]:
-            error("no fields for schema '%s'" % (schema))
+    for dataset, d in tables["dataset"].items():
+        if dataset not in tables["dataset-field"]:
+            error("no fields for dataset '%s'" % (dataset))
         else:
             for field in mandatory_fields:
-                if field not in tables["schema-field"][schema]:
-                    error("schema '%s' missing '%s' field" % (schema, field))
+                if field not in tables["dataset-field"][dataset]:
+                    error("dataset '%s' missing '%s' field" % (dataset, field))
 
     for key, row in tables["field"].items():
         if not row.get("name", ""):
@@ -183,7 +207,7 @@ if __name__ == "__main__":
 
     for table in fields:
         for field in fields[table]:
-            if field not in tables["schema-field"][table]:
+            if field not in tables["dataset-field"][table]:
                 error("unexpected field '%s' in table '%s'" % (field, table))
 
     check_field_typology()

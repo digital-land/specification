@@ -2,6 +2,7 @@
 cardinality: '1'
 datatype: string
 description: ''
+guidance: ''
 end-date: ''
 entry-date: ''
 field: uri-template

@@ -10,5 +10,6 @@ parent-field: geography
 replacement-field: ''
 start-date: ''
 typology: geography
-uri-template: ''
+uri-template: 'http://statistics.data.gov.uk/id/statistical-geography/{statistical-geography}'
+wikidata-property: P836
 ---

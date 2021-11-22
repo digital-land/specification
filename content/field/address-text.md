@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: ''
+description: 'Address as a single line of text, separated by commas'
 end-date: ''
 entry-date: ''
 field: address-text

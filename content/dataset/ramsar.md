@@ -3,6 +3,8 @@ collection: ramsar
 dataset: ramsar
 description: ''
 end-date: ''
+entity-minimum: 612001
+entity-maximum: 619999
 entry-date: ''
 fields:
 - field: documentation-url
