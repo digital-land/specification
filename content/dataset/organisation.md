@@ -3,6 +3,8 @@ collection: ''
 dataset: organisation
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: addressbase-custodian
@@ -31,7 +33,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Organisation
-plural: 'Organisations'
+plural: Organisations
 prefix: ''
 start-date: ''
 themes: []

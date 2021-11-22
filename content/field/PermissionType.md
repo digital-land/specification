@@ -11,4 +11,5 @@ replacement-field: planning-permission-type
 start-date: ''
 typology: category
 uri-template: ''
+wikidata-property: ''
 ---

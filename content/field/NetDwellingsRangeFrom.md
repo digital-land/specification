@@ -11,4 +11,5 @@ replacement-field: minimum-net-dwellings
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

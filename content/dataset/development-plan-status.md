@@ -3,6 +3,8 @@ collection: ''
 dataset: development-plan-status
 description: The different statuses a plan can have
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: development-plan-status
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development plan status
-plural: 'Development plan statuses'
+plural: Development plan statuses
 prefix: ''
 start-date: ''
 themes:

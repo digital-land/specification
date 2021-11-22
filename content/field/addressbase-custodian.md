@@ -11,4 +11,5 @@ replacement-field: ''
 start-date: ''
 typology: organisation
 uri-template: ''
+wikidata-property: ''
 ---

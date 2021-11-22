@@ -11,4 +11,5 @@ replacement-field: ''
 start-date: ''
 typology: value
 uri-template: https://en.wikipedia.org/wiki/{wikipedia}
+wikidata-property: ''
 ---

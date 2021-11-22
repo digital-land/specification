@@ -26,7 +26,7 @@ central-activities-zone,central-activities-zone,,,,,,,Central activities zone,Ce
 historic-england,certificate-of-immunity,,,,,,,Certificate of immunity,Certificates of immunity,,,,heritage,geography,Q5065092,Certificate_of_Immunity_from_Listing
 ,coastal-change-management-area,,,,,,,Coastal change management area,Coastal change management areas,,,,environment,geography,,
 ,collection,A collection of resources collected from various sources,,,,,,Collection,Collections,,,,specification,,,
-,column,Change column and field names during map,,,,,,Pipeline column,Pipeline columns,,,,specification,specification,,
+,column,Change column and field names during map,,,,,,Pipeline column,Pipeline columns,,,,,specification,,
 ,common-land-and-village-green,,,,,,,Common land and village green,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
 ,company,,,,,,,Company,Companies,,,,administrative,organisation,,
 ,concat,Concatenate fields during the harmonise phase,,,,,,Pipeline concatenation,Pipeline concatenations,,,,specification,,,
@@ -40,9 +40,9 @@ developer-contributions,contribution-purpose,,,,,,,Contribution purpose,Contribu
 ,datapackage,Collections of datasets,,,,,,Data package,Data packages,,,,specification,,,
 ,dataset-field,,,,,,,Dataset field,Dataset fields,,,,specification,,,
 ,dataset-schema,,,,,,,Dataset schema,Dataset schemas,,,,specification,,,
-,dataset,A collection of entities of the same type,,,,,,Dataset,Datasets,,,,specification,specification,Q1172284,Data_set
+,dataset,A collection of entities of the same type,,,,,,Dataset,Datasets,,,,,specification,Q1172284,Data_set
 ,datatype,,,,,,,Datatype,Datatypes,,,,specification,,,
-,default,Take a missing field default value from another field,,,,,,Pipeline default value,Pipleline default values,,,,specification,specification,,
+,default,Take a missing field default value from another field,,,,,,Pipeline default value,Pipleline default values,,,,,specification,,
 developer-contributions,developer-agreement-contribution,,,,,,,Developer agreement contribution,Developer agreement contributions,,,,development,metric,,
 developer-contributions,developer-agreement-transaction,,,,,,,Developer agreement transaction,Developer agreement transactions,,,,development,metric,,
 developer-contributions,developer-agreement-type,,,,,,,Developer agreement type,Developer agreement types,,,,development,category,,

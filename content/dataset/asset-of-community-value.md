@@ -3,6 +3,8 @@ collection: ''
 dataset: asset-of-community-value
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

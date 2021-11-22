@@ -11,4 +11,5 @@ replacement-field: hazardous-substances
 start-date: ''
 typology: category
 uri-template: ''
+wikidata-property: ''
 ---

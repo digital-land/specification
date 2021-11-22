@@ -3,6 +3,8 @@ collection: ''
 dataset: transport-under-tcpa-route
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

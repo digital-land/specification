@@ -3,6 +3,8 @@ collection: ''
 dataset: entity
 description: An item of data
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: dataset
@@ -18,7 +20,7 @@ fields:
 - field: typology
 key-field: ''
 name: Entity
-plural: 'Entities'
+plural: Entities
 prefix: ''
 start-date: ''
 themes:

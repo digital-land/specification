@@ -3,6 +3,8 @@ collection: ''
 dataset: patch
 description: Assert a field value during harmonise
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -15,7 +17,7 @@ fields:
 - field: value
 key-field: ''
 name: Pipeline patch
-plural: 'Pipeline patches'
+plural: Pipeline patches
 prefix: ''
 start-date: ''
 themes:

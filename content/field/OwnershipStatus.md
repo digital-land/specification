@@ -11,4 +11,5 @@ replacement-field: ownership-status
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

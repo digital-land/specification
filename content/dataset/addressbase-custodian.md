@@ -3,6 +3,8 @@ collection: ''
 dataset: addressbase-custodian
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: addressbase-custodian
@@ -16,7 +18,7 @@ fields:
 - field: uk
 key-field: ''
 name: Addressbase custodian
-plural: 'Addressbase custodians'
+plural: Addressbase custodians
 prefix: ''
 start-date: ''
 themes:

@@ -3,6 +3,8 @@ collection: ''
 dataset: attribution
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: attribution

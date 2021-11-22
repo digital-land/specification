@@ -3,6 +3,8 @@ collection: ''
 dataset: resource
 description: An index of collected resources
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: bytes
@@ -15,7 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Resource
-plural: 'Resources'
+plural: Resources
 prefix: ''
 start-date: ''
 themes:

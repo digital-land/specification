@@ -3,6 +3,8 @@ collection: brownfield-site
 dataset: brownfield-site
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

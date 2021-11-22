@@ -3,6 +3,8 @@ collection: ''
 dataset: lookup
 description: Lookup entities
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -14,7 +16,7 @@ fields:
 - field: value
 key-field: ''
 name: Pipeline lookup
-plural: 'Pipeline lookups'
+plural: Pipeline lookups
 prefix: ''
 start-date: ''
 themes:

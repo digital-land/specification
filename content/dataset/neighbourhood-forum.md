@@ -3,6 +3,8 @@ collection: organisation
 dataset: neighbourhood-forum
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: addressbase-custodian

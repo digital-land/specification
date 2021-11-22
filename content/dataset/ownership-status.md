@@ -3,6 +3,8 @@ collection: ownership-status
 dataset: ownership-status
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date

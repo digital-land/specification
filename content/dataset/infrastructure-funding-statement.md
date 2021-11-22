@@ -3,6 +3,8 @@ collection: ''
 dataset: infrastructure-funding-statement
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: document-url
@@ -15,7 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Infrastructure funding statement
-plural: 'Infrastructure funding statements'
+plural: Infrastructure funding statements
 prefix: ''
 start-date: ''
 themes:

@@ -3,6 +3,8 @@ collection: ''
 dataset: project
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: datasets
@@ -15,7 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Project
-plural: 'Projects'
+plural: Projects
 prefix: ''
 start-date: ''
 themes:

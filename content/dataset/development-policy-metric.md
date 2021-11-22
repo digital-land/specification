@@ -3,6 +3,8 @@ collection: ''
 dataset: development-policy-metric
 description: Metrics associated with a development policy
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: development-metric
@@ -15,7 +17,7 @@ fields:
 - field: development-policy-metric
 key-field: ''
 name: Development policy metric
-plural: 'Development policy metrics'
+plural: Development policy metrics
 prefix: ''
 start-date: ''
 themes:

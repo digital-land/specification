@@ -3,6 +3,8 @@ collection: ''
 dataset: development-plan-timetable
 description: The expected timetable for the stages a plan will go through
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: development-plan-document
@@ -15,7 +17,7 @@ fields:
 - field: development-plan-timetable
 key-field: ''
 name: Development plan timetable
-plural: 'Development plan timetables'
+plural: Development plan timetables
 prefix: ''
 start-date: ''
 themes:

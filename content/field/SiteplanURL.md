@@ -11,4 +11,5 @@ replacement-field: site-plan-url
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

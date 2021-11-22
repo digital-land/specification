@@ -3,6 +3,8 @@ collection: ''
 dataset: permitted-development-right-class
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Permitted development right class
-plural: 'Permitted development right classes'
+plural: Permitted development right classes
 prefix: ''
 start-date: ''
 themes:

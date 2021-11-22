@@ -3,6 +3,8 @@ collection: ''
 dataset: project-status
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: description
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Project status
-plural: 'Project statuses'
+plural: Project statuses
 prefix: ''
 start-date: ''
 themes:

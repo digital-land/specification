@@ -11,4 +11,5 @@ replacement-field: address-text
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

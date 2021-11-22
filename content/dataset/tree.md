@@ -3,6 +3,8 @@ collection: tree-preservation-order
 dataset: tree
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: address

@@ -3,6 +3,8 @@ collection: ''
 dataset: field
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: cardinality
@@ -20,7 +22,7 @@ fields:
 - field: wikidata-property
 key-field: ''
 name: Field
-plural: 'Fields'
+plural: Fields
 prefix: ''
 start-date: ''
 themes:

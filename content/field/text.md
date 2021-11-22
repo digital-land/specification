@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: text
-description: 'Markdown content describing the technical specification of a field'
+description: Markdown content describing the technical specification of a field
 end-date: ''
 entry-date: ''
 field: text
@@ -11,4 +11,5 @@ replacement-field: ''
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

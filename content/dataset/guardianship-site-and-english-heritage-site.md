@@ -3,6 +3,8 @@ collection: ''
 dataset: guardianship-site-and-english-heritage-site
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

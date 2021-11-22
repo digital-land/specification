@@ -3,6 +3,8 @@ collection: historic-england
 dataset: park-and-garden
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: documentation-url

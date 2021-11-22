@@ -3,6 +3,8 @@ collection: ''
 dataset: source
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: attribution
@@ -18,7 +20,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Source
-plural: 'Sources'
+plural: Sources
 prefix: ''
 start-date: ''
 themes:

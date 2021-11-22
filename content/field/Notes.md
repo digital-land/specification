@@ -11,4 +11,5 @@ replacement-field: notes
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

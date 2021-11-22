@@ -3,6 +3,8 @@ collection: ''
 dataset: typology
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -13,7 +15,7 @@ fields:
 - field: typology
 key-field: ''
 name: Typology
-plural: 'Typologies'
+plural: Typologies
 prefix: ''
 start-date: ''
 themes:

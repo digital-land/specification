@@ -3,6 +3,8 @@ collection: ''
 dataset: datatype
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: datatype
@@ -13,7 +15,7 @@ fields:
 - field: text
 key-field: ''
 name: Datatype
-plural: 'Datatypes'
+plural: Datatypes
 prefix: ''
 start-date: ''
 themes:

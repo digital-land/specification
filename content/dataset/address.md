@@ -3,6 +3,8 @@ collection: ''
 dataset: address
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: address
@@ -15,8 +17,8 @@ fields:
 - field: start-date
 key-field: ''
 name: Address
-plural: 'addresses'
-prefix: 'uprn'
+plural: addresses
+prefix: uprn
 start-date: ''
 themes:
 - administrative

@@ -3,6 +3,8 @@ collection: ''
 dataset: skip
 description: Remove lines from a resource during normalise
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline skip
-plural: 'Pipeline skips'
+plural: Pipeline skips
 prefix: ''
 start-date: ''
 themes:

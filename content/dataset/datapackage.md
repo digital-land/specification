@@ -1,8 +1,10 @@
 ---
 collection: ''
 dataset: datapackage
-description: 'Collections of datasets'
+description: Collections of datasets
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: datapackage
@@ -14,7 +16,7 @@ fields:
 - field: text
 key-field: ''
 name: Data package
-plural: 'Data packages'
+plural: Data packages
 prefix: ''
 start-date: ''
 themes:

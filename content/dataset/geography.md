@@ -3,6 +3,8 @@ collection: ''
 dataset: geography
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories
@@ -21,7 +23,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Geography
-plural: 'Geographies'
+plural: Geographies
 prefix: ''
 start-date: ''
 themes: []

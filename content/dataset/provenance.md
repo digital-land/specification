@@ -3,6 +3,8 @@ collection: ''
 dataset: provenance
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -14,7 +16,7 @@ fields:
 - field: value
 key-field: ''
 name: Provenance
-plural: 'Provenance'
+plural: Provenance
 prefix: ''
 start-date: ''
 themes:

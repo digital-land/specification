@@ -3,6 +3,8 @@ collection: ''
 dataset: log
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: bytes
@@ -16,7 +18,7 @@ fields:
 - field: status
 key-field: ''
 name: Collection log
-plural: 'Collection logs'
+plural: Collection logs
 prefix: ''
 start-date: ''
 themes:

@@ -3,6 +3,8 @@ collection: planning-permission-type
 dataset: planning-permission-type
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date

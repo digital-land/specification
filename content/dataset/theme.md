@@ -3,6 +3,8 @@ collection: ''
 dataset: theme
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -12,7 +14,7 @@ fields:
 - field: theme
 key-field: ''
 name: Theme
-plural: 'Themes'
+plural: Themes
 prefix: ''
 start-date: ''
 themes:

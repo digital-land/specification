@@ -3,6 +3,8 @@ collection: ''
 dataset: self-and-custom-buildarea
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

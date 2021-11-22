@@ -3,6 +3,8 @@ collection: developer-contributions
 dataset: contribution-funding-status
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: contribution-funding-status

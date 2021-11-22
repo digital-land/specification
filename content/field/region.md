@@ -11,4 +11,5 @@ replacement-field: ''
 start-date: ''
 typology: geography
 uri-template: ''
+wikidata-property: ''
 ---

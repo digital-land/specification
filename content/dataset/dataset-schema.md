@@ -3,6 +3,8 @@ collection: ''
 dataset: dataset-schema
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: dataset
@@ -12,7 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Dataset schema
-plural: 'Dataset schemas'
+plural: Dataset schemas
 prefix: ''
 start-date: ''
 themes:

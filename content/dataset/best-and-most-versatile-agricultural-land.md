@@ -3,6 +3,8 @@ collection: ''
 dataset: best-and-most-versatile-agricultural-land
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

@@ -3,6 +3,8 @@ collection: historic-england
 dataset: world-heritage-site
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

@@ -3,6 +3,8 @@ collection: ''
 dataset: filter
 description: Filter entries
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -14,7 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline filter
-plural: 'Pipeline filters'
+plural: Pipeline filters
 prefix: ''
 start-date: ''
 themes:

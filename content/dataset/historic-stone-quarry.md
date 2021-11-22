@@ -3,6 +3,8 @@ collection: ''
 dataset: historic-stone-quarry
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

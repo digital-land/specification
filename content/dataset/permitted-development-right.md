@@ -3,6 +3,8 @@ collection: permitted-development-right
 dataset: permitted-development-right
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: description

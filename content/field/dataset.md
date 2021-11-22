@@ -11,4 +11,5 @@ replacement-field: ''
 start-date: ''
 typology: specification
 uri-template: ''
+wikidata-property: ''
 ---

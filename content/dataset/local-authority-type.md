@@ -3,6 +3,8 @@ collection: ''
 dataset: local-authority-type
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Local authority type
-plural: 'Local authority types'
+plural: Local authority types
 prefix: ''
 start-date: ''
 themes:

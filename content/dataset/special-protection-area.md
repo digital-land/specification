@@ -3,6 +3,8 @@ collection: ''
 dataset: special-protection-area
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: description

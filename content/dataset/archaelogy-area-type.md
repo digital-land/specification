@@ -3,6 +3,8 @@ collection: ''
 dataset: archaelogy-area-type
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

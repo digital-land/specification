@@ -11,4 +11,5 @@ replacement-field: hectares
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

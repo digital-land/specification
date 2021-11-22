@@ -3,6 +3,8 @@ collection: site-of-special-scientific-interest
 dataset: site-of-special-scientific-interest
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories
@@ -22,7 +24,7 @@ fields:
 - field: site-of-special-scientific-interest
 key-field: ''
 name: Site of special scientific interest
-plural: 'Sites of special scientific interest'
+plural: Sites of special scientific interest
 prefix: ''
 start-date: ''
 themes:

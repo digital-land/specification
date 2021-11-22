@@ -3,6 +3,8 @@ collection: ''
 dataset: development-metric
 description: The types of measurement used as a development policy metric
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: development-metric
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development metric
-plural: 'Development metrics'
+plural: Development metrics
 prefix: ''
 start-date: ''
 themes:

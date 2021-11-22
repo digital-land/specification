@@ -3,6 +3,8 @@ collection: ''
 dataset: old-entity
 description: Redirect an entity or mark it as gone
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -14,7 +16,7 @@ fields:
 - field: status
 key-field: ''
 name: Entity redirection
-plural: 'Entity redirections'
+plural: Entity redirections
 prefix: ''
 start-date: ''
 themes:

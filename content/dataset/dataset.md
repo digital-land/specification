@@ -1,26 +1,22 @@
 ---
 collection: ''
 dataset: dataset
-description: 'A collection of entities of the same type'
+description: A collection of entities of the same type
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: collection
 - field: dataset
-  description: "The identifier for the dataset is singular and matches the key-field name"
 - field: description
-  description: "The pluralised description for the collection"
 - field: end-date
 - field: entry-date
 - field: key-field
 - field: entity-minimum
-  description: "The lowest entity number assigned to this dataset"
 - field: entity-maximum
-  description: "The highest entity number assigned to this dataset"
 - field: name
-  description: "The singular name for the dataset"
 - field: plural
-  description: "The plural name for the dataset"
 - field: prefix
 - field: start-date
 - field: text
@@ -30,11 +26,10 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Dataset
-plural: 'Datasets'
+plural: Datasets
 prefix: ''
 start-date: ''
-themes:
-- specification
+themes: []
 typology: specification
 wikidata: Q1172284
 wikipedia: Data_set

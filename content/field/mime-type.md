@@ -12,4 +12,5 @@ replacement-field: ''
 start-date: ''
 typology: category
 uri-template: ''
+wikidata-property: ''
 ---

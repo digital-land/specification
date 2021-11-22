@@ -3,6 +3,8 @@ collection: ''
 dataset: column
 description: Change column and field names during map
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -15,11 +17,10 @@ fields:
 - field: value
 key-field: ''
 name: Pipeline column
-plural: 'Pipeline columns'
+plural: Pipeline columns
 prefix: ''
 start-date: ''
-themes:
-- specification
+themes: []
 typology: specification
 wikidata: ''
 wikipedia: ''

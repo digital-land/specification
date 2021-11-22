@@ -3,6 +3,8 @@ collection: ''
 dataset: prefix
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -12,7 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: CURIE prefix
-plural: 'CURIE prefixes'
+plural: CURIE prefixes
 prefix: ''
 start-date: ''
 themes:

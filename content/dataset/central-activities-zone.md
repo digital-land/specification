@@ -3,6 +3,8 @@ collection: central-activities-zone
 dataset: central-activities-zone
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

@@ -3,6 +3,8 @@ collection: special-area-of-conservation
 dataset: special-area-of-conservation
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories
@@ -22,7 +24,7 @@ fields:
 - field: special-area-of-conservation
 key-field: ''
 name: Special area of conservation
-plural: 'Special areas of conservation'
+plural: Special areas of conservation
 prefix: ''
 start-date: ''
 themes:

@@ -3,6 +3,8 @@ collection: employment-allocation
 dataset: employment-allocation
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

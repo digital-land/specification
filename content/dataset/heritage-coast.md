@@ -3,6 +3,8 @@ collection: heritage-coast
 dataset: heritage-coast
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

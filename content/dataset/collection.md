@@ -3,6 +3,8 @@ collection: ''
 dataset: collection
 description: A collection of resources collected from various sources
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: collection
@@ -12,7 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Collection
-plural: 'Collections'
+plural: Collections
 prefix: ''
 start-date: ''
 themes:

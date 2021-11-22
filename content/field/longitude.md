@@ -11,4 +11,5 @@ replacement-field: point
 start-date: ''
 typology: value
 uri-template: ''
+wikidata-property: ''
 ---

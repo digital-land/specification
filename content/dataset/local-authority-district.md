@@ -3,6 +3,8 @@ collection: local-authority-district
 dataset: local-authority-district
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

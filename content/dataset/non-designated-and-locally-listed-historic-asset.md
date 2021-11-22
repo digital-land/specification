@@ -3,6 +3,8 @@ collection: ''
 dataset: non-designated-and-locally-listed-historic-asset
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

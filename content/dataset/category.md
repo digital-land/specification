@@ -3,6 +3,8 @@ collection: ''
 dataset: category
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: category
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Category
-plural: 'Categories'
+plural: Categories
 prefix: ''
 start-date: ''
 themes:

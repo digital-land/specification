@@ -3,6 +3,8 @@ collection: open-space
 dataset: open-space
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: documentation-url

@@ -3,6 +3,8 @@ collection: ''
 dataset: company
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: billing-authority
@@ -24,7 +26,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Company
-plural: 'Companies'
+plural: Companies
 prefix: ''
 start-date: ''
 themes:

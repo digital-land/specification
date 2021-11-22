@@ -3,6 +3,8 @@ collection: ''
 dataset: geometry
 description: Geometry index
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -16,7 +18,7 @@ fields:
 - field: start-date
 key-field: entity
 name: Geometry
-plural: 'Geometries'
+plural: Geometries
 prefix: ''
 start-date: ''
 themes:

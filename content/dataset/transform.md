@@ -3,6 +3,8 @@ collection: ''
 dataset: transform
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline transformation
-plural: 'Transformations'
+plural: Transformations
 prefix: ''
 start-date: ''
 themes:

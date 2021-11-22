@@ -11,4 +11,5 @@ replacement-field: ''
 start-date: ''
 typology: value
 uri-template: https://twitter.com/{twitter}
+wikidata-property: ''
 ---

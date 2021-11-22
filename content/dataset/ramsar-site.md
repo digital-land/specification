@@ -3,6 +3,8 @@ collection: ramsar
 dataset: ramsar-site
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date

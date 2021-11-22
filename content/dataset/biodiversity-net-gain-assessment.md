@@ -3,6 +3,8 @@ collection: ''
 dataset: biodiversity-net-gain-assessment
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: description

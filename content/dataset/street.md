@@ -3,6 +3,8 @@ collection: ''
 dataset: street
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -13,7 +15,7 @@ fields:
 - field: street
 key-field: ''
 name: Street
-plural: 'Streets'
+plural: Streets
 prefix: ''
 start-date: ''
 themes:

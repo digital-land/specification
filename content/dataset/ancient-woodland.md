@@ -3,6 +3,8 @@ collection: ancient-woodland
 dataset: ancient-woodland
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: ancient-woodland

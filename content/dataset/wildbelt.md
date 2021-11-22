@@ -3,6 +3,8 @@ collection: ''
 dataset: wildbelt
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

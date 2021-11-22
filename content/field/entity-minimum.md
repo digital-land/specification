@@ -10,7 +10,6 @@ parent-field: identifier
 replacement-field: ''
 start-date: ''
 typology: value
-uri-template:
+uri-template: ''
+wikidata-property: ''
 ---
-
-The start of the range of values which may be assigned to an entity in a dataset.

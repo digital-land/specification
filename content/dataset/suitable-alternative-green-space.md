@@ -3,6 +3,8 @@ collection: ''
 dataset: suitable-alternative-green-space
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories

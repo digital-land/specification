@@ -3,6 +3,8 @@ collection: ''
 dataset: permitted-development-right-part
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -13,7 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Permitted development right part
-plural: 'Permitted development right parts'
+plural: Permitted development right parts
 prefix: ''
 start-date: ''
 themes:

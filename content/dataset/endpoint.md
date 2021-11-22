@@ -3,6 +3,8 @@ collection: ''
 dataset: endpoint
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -14,7 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Endpoint
-plural: 'Endpoints'
+plural: Endpoints
 prefix: ''
 start-date: ''
 themes:

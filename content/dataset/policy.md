@@ -3,6 +3,8 @@ collection: ''
 dataset: policy
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: categories
@@ -18,7 +20,7 @@ fields:
 - field: policy
 key-field: ''
 name: Policy
-plural: 'Policies'
+plural: Policies
 prefix: ''
 start-date: ''
 themes:

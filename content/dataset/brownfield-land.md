@@ -3,6 +3,8 @@ collection: brownfield-land
 dataset: brownfield-land
 description: Land that has been previously been developed
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: Deliverable
@@ -33,7 +35,6 @@ fields:
 - field: entry-date
 - field: hazardous-substances
 - field: hectares
-  guidance: "Enter the land area of the site in hectares, up to 2 decimal places. Use digits (2) rather than words (two)."
 - field: latitude
 - field: longitude
 - field: maximum-net-dwellings

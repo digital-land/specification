@@ -3,6 +3,8 @@ collection: ''
 dataset: issue
 description: ''
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
@@ -16,7 +18,7 @@ fields:
 - field: value
 key-field: ''
 name: Issue
-plural: 'Issues'
+plural: Issues
 prefix: ''
 start-date: ''
 themes:
