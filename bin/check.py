@@ -116,19 +116,21 @@ def check_datasets():
                 error("dataset '%s' is missing an entity-maximum value" % (dataset))
 
             if minimum and maximum:
-                for _dataset, _d in sorted(tables["dataset"].items()):
+                for _dataset, _d in tables["dataset"].items():
+                    _minimum = Decimal(_d.get("entity-minimum", "") or 0)
+                    _maximum = Decimal(_d.get("entity-maximum", "") or 0)
                     if (
-                        dataset != dataset
-                        and _d.get("entity-minimum", 0)
-                        and _d.get("entry-maximum", 0)
+                        _dataset != dataset
+                        and _minimum
+                        and _maximum
                     ):
                         if (
-                            _d["entity-minimum"] <= minimum <= _d["entity-maximum"]
-                            or _d["entity-minimum"] <= maximum <= _d["entity-maximum"]
+                            minimum <= _minimum <= maximum
+                            or minimum <= _maximum <= maximum
                         ):
                             error(
-                                "dataset '%s' entity range overlaps with '%s'"
-                                % (dataset, _dataset)
+                                "dataset '%s' entity range [%d,%d] overlaps with '%s' [%d,%d]"
+                                % (dataset, minimum, maximum, _dataset, _minimum, _maximum)
                             )
 
 
