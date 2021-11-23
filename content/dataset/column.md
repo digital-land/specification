@@ -20,7 +20,8 @@ name: Pipeline column
 plural: Pipeline columns
 prefix: ''
 start-date: ''
-themes: []
+themes:
+- specification
 typology: specification
 wikidata: ''
 wikipedia: ''

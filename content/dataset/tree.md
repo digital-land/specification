@@ -3,8 +3,8 @@ collection: tree-preservation-order
 dataset: tree
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9999999999'
+entity-minimum: '7002000000'
 entry-date: ''
 fields:
 - field: address
@@ -31,6 +31,6 @@ start-date: ''
 themes:
 - environment
 typology: geography
-wikidata: ''
-wikipedia: ''
+wikidata: Q10884
+wikipedia: Tree
 ---

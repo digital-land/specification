@@ -23,7 +23,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
-typology: ''
+typology: specification
 wikidata: ''
 wikipedia: ''
 ---

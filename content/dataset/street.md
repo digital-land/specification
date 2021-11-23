@@ -3,8 +3,8 @@ collection: ''
 dataset: street
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '29999999999999'
+entity-minimum: '20000000000000'
 entry-date: ''
 fields:
 - field: end-date

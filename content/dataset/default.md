@@ -19,7 +19,8 @@ name: Pipeline default value
 plural: Pipleline default values
 prefix: ''
 start-date: ''
-themes: []
+themes:
+- specification
 typology: specification
 wikidata: ''
 wikipedia: ''

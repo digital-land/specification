@@ -3,8 +3,8 @@ collection: ''
 dataset: address
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '19999999999999'
+entity-minimum: '10000000000000'
 entry-date: ''
 fields:
 - field: address

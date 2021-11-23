@@ -3,8 +3,8 @@ collection: listed-building
 dataset: listed-building-grade
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '700999'
+entity-minimum: '700000'
 entry-date: ''
 fields:
 - field: end-date
@@ -21,6 +21,6 @@ start-date: ''
 themes:
 - heritage
 typology: category
-wikidata: ''
+wikidata: Q30634609
 wikipedia: Listed_building
 ---

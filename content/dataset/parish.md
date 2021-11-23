@@ -3,8 +3,8 @@ collection: parish
 dataset: parish
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '129999999'
+entity-minimum: '120000000'
 entry-date: ''
 fields:
 - field: categories
