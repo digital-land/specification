@@ -3,8 +3,8 @@ collection: historic-england
 dataset: certificate-of-immunity
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '2399999'
+entity-minimum: '2300000'
 entry-date: ''
 fields:
 - field: categories

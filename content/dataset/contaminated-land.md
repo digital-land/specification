@@ -3,8 +3,8 @@ collection: ''
 dataset: contaminated-land
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '3199999'
+entity-minimum: '3100000'
 entry-date: ''
 fields:
 - field: categories

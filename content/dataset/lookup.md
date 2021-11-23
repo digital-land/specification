@@ -3,8 +3,8 @@ collection: ''
 dataset: lookup
 description: Lookup entities
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9599999'
+entity-minimum: '9500000'
 entry-date: ''
 fields:
 - field: end-date

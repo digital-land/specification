@@ -3,8 +3,8 @@ collection: ''
 dataset: dataset
 description: A collection of entities of the same type
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '4099999'
+entity-minimum: '4000000'
 entry-date: ''
 fields:
 - field: collection

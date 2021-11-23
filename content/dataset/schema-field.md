@@ -3,8 +3,8 @@ collection: ''
 dataset: schema-field
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '14099999'
+entity-minimum: '14000000'
 entry-date: ''
 fields:
 - field: end-date

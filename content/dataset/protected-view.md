@@ -3,8 +3,8 @@ collection: ''
 dataset: protected-view
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '12799999'
+entity-minimum: '12700000'
 entry-date: ''
 fields:
 - field: categories

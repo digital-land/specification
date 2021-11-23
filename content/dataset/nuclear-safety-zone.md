@@ -3,8 +3,8 @@ collection: ''
 dataset: nuclear-safety-zone
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '10599999'
+entity-minimum: '10500000'
 entry-date: ''
 fields:
 - field: categories

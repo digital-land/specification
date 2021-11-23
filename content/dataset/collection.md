@@ -3,8 +3,8 @@ collection: ''
 dataset: collection
 description: A collection of resources collected from various sources
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '2599999'
+entity-minimum: '2500000'
 entry-date: ''
 fields:
 - field: collection

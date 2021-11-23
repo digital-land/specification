@@ -3,8 +3,8 @@ collection: ''
 dataset: gypsy-and-traveller-site
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '7399999'
+entity-minimum: '7300000'
 entry-date: ''
 fields:
 - field: categories

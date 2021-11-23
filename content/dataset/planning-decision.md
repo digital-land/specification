@@ -3,8 +3,8 @@ collection: ''
 dataset: planning-decision
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '11799999'
+entity-minimum: '11700000'
 entry-date: ''
 fields:
 - field: description

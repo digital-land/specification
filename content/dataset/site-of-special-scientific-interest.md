@@ -3,8 +3,8 @@ collection: site-of-special-scientific-interest
 dataset: site-of-special-scientific-interest
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '14599999'
+entity-minimum: '14500000'
 entry-date: ''
 fields:
 - field: categories

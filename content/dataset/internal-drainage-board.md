@@ -3,8 +3,8 @@ collection: organisation
 dataset: internal-drainage-board
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '8299999'
+entity-minimum: '8200000'
 entry-date: ''
 fields:
 - field: billing-authority

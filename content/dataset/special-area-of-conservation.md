@@ -3,8 +3,8 @@ collection: special-area-of-conservation
 dataset: special-area-of-conservation
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '14899999'
+entity-minimum: '14800000'
 entry-date: ''
 fields:
 - field: categories

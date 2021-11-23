@@ -3,8 +3,8 @@ collection: document-type
 dataset: document-type
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '5799999'
+entity-minimum: '5700000'
 entry-date: ''
 fields:
 - field: category

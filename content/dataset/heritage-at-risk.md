@@ -3,8 +3,8 @@ collection: historic-england
 dataset: heritage-at-risk
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '7599999'
+entity-minimum: '7500000'
 entry-date: ''
 fields:
 - field: categories

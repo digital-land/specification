@@ -3,8 +3,8 @@ collection: ''
 dataset: column
 description: Change column and field names during map
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '2699999'
+entity-minimum: '2600000'
 entry-date: ''
 fields:
 - field: end-date

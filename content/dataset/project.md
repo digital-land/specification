@@ -3,8 +3,8 @@ collection: ''
 dataset: project
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '12399999'
+entity-minimum: '12300000'
 entry-date: ''
 fields:
 - field: datasets

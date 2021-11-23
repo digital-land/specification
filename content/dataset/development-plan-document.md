@@ -3,8 +3,8 @@ collection: development-plan-document
 dataset: development-plan-document
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '4999999'
+entity-minimum: '4900000'
 entry-date: ''
 fields:
 - field: description

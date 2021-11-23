@@ -3,8 +3,8 @@ collection: ''
 dataset: local-green-space
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '8999999'
+entity-minimum: '8900000'
 entry-date: ''
 fields:
 - field: categories

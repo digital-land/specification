@@ -3,8 +3,8 @@ collection: ''
 dataset: hs2-safeguarded-area
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '8099999'
+entity-minimum: '8000000'
 entry-date: ''
 fields:
 - field: categories

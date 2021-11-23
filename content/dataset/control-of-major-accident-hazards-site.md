@@ -3,8 +3,8 @@ collection: ''
 dataset: control-of-major-accident-hazards-site
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '3499999'
+entity-minimum: '3400000'
 entry-date: ''
 fields:
 - field: categories

@@ -3,8 +3,8 @@ collection: ''
 dataset: safeguarded-wharf
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13799999'
+entity-minimum: '13700000'
 entry-date: ''
 fields:
 - field: categories

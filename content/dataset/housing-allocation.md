@@ -3,8 +3,8 @@ collection: ''
 dataset: housing-allocation
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '7999999'
+entity-minimum: '7900000'
 entry-date: ''
 fields:
 - field: categories

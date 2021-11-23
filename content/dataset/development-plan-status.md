@@ -3,8 +3,8 @@ collection: ''
 dataset: development-plan-status
 description: The different statuses a plan can have
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '5099999'
+entity-minimum: '5000000'
 entry-date: ''
 fields:
 - field: development-plan-status

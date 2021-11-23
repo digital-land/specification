@@ -3,8 +3,8 @@ collection: ''
 dataset: infrastructure-funding-statement
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '8199999'
+entity-minimum: '8100000'
 entry-date: ''
 fields:
 - field: document-url

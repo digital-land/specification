@@ -3,8 +3,8 @@ collection: ''
 dataset: safeguarded-aerodrome
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13599999'
+entity-minimum: '13500000'
 entry-date: ''
 fields:
 - field: categories

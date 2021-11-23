@@ -3,8 +3,8 @@ collection: ''
 dataset: geography
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6799999'
+entity-minimum: '6700000'
 entry-date: ''
 fields:
 - field: categories

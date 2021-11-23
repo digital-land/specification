@@ -3,8 +3,8 @@ collection: ''
 dataset: wildlife
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '16099999'
+entity-minimum: '16000000'
 entry-date: ''
 fields:
 - field: categories

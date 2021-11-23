@@ -3,8 +3,8 @@ collection: development-policy-category
 dataset: development-policy-category
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '5499999'
+entity-minimum: '5400000'
 entry-date: ''
 fields:
 - field: development-policy-category

@@ -3,8 +3,8 @@ collection: ''
 dataset: common-land-and-village-green
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '2799999'
+entity-minimum: '2700000'
 entry-date: ''
 fields:
 - field: categories

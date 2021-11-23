@@ -116,11 +116,11 @@ def check_datasets():
         if "specification" != d["typology"]:
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
-                warning("dataset '%s' is missing an entity-minimum value" % (dataset))
+                error("dataset '%s' is missing an entity-minimum value" % (dataset))
 
             maximum = Decimal(d.get("entity-maximum", "") or 0)
             if not maximum:
-                warning("dataset '%s' is missing an entity-maximum value" % (dataset))
+                error("dataset '%s' is missing an entity-maximum value" % (dataset))
 
             if minimum and maximum:
                 for _dataset, _d in tables["dataset"].items():

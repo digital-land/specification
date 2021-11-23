@@ -3,8 +3,8 @@ collection: ''
 dataset: metropolitan-open-land
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9799999'
+entity-minimum: '9700000'
 entry-date: ''
 fields:
 - field: categories

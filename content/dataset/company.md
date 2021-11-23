@@ -3,8 +3,8 @@ collection: ''
 dataset: company
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '2899999'
+entity-minimum: '2800000'
 entry-date: ''
 fields:
 - field: billing-authority

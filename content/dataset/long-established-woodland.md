@@ -3,8 +3,8 @@ collection: ''
 dataset: long-established-woodland
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9399999'
+entity-minimum: '9300000'
 entry-date: ''
 fields:
 - field: categories

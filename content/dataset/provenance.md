@@ -3,8 +3,8 @@ collection: ''
 dataset: provenance
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '12999999'
+entity-minimum: '12900000'
 entry-date: ''
 fields:
 - field: end-date

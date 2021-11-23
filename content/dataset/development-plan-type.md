@@ -3,8 +3,8 @@ collection: development-plan-type
 dataset: development-plan-type
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '5299999'
+entity-minimum: '5200000'
 entry-date: ''
 fields:
 - field: development-plan-type

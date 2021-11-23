@@ -3,8 +3,8 @@ collection: ''
 dataset: public-safety-zone-around-airport
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13199999'
+entity-minimum: '13100000'
 entry-date: ''
 fields:
 - field: categories

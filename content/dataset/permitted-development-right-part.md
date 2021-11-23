@@ -3,8 +3,8 @@ collection: ''
 dataset: permitted-development-right-part
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '11499999'
+entity-minimum: '11400000'
 entry-date: ''
 fields:
 - field: end-date

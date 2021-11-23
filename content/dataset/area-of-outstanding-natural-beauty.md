@@ -4,8 +4,8 @@ dataset: area-of-outstanding-natural-beauty
 description: Protected areas of countryside with a distinctive character and natural
   beauty
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '1099999'
+entity-minimum: '1000000'
 entry-date: ''
 fields:
 - field: categories

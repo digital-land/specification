@@ -3,8 +3,8 @@ collection: national-park
 dataset: national-park
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '10099999'
+entity-minimum: '10000000'
 entry-date: ''
 fields:
 - field: end-date

@@ -3,8 +3,8 @@ collection: ''
 dataset: concat
 description: Concatenate fields during the harmonise phase
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '2999999'
+entity-minimum: '2900000'
 entry-date: ''
 fields:
 - field: end-date

@@ -3,8 +3,8 @@ collection: ''
 dataset: local-nature-recovery-strategy
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9099999'
+entity-minimum: '9000000'
 entry-date: ''
 fields:
 - field: categories

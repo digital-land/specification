@@ -3,7 +3,7 @@ collection: listed-building
 dataset: listed-building-grade
 description: ''
 end-date: ''
-entity-maximum: '700999'
+entity-maximum: '799999'
 entity-minimum: '700000'
 entry-date: ''
 fields:

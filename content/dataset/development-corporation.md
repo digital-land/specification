@@ -3,8 +3,8 @@ collection: organisation
 dataset: development-corporation
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '4799999'
+entity-minimum: '4700000'
 entry-date: ''
 fields:
 - field: billing-authority

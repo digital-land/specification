@@ -3,8 +3,8 @@ collection: ''
 dataset: patch
 description: Assert a field value during harmonise
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '11299999'
+entity-minimum: '11200000'
 entry-date: ''
 fields:
 - field: end-date

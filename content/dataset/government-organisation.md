@@ -3,8 +3,8 @@ collection: organisation
 dataset: government-organisation
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6999999'
+entity-minimum: '6900000'
 entry-date: ''
 fields:
 - field: billing-authority

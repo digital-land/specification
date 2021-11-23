@@ -3,8 +3,8 @@ collection: ''
 dataset: field
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6299999'
+entity-minimum: '6200000'
 entry-date: ''
 fields:
 - field: cardinality

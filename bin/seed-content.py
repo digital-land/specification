@@ -6,6 +6,8 @@ import sys
 import csv
 import frontmatter
 from pathlib import Path
+from itertools import chain
+from decimal import Decimal
 
 table = {}
 
@@ -50,6 +52,22 @@ def add_dataset_field(dataset, field, row={}):
 
 def name(s):
     return s.replace("-", " ").capitalize()
+
+
+# find first gap in allocated ranges ..
+def find_gap(n):
+    ranges = [[Decimal(1), Decimal(2199999)]]
+    for dataset, row in table["dataset"].items():
+        ranges.append([Decimal(row.get("entity-minimum", "") or 0), Decimal(row.get("entity-maximum", "") or 0)])
+    ranges = sorted(ranges)
+    lowest = ranges[0][0]-1
+    highest = ranges[-1][1]+1
+    flat = chain((lowest,), chain.from_iterable(ranges), (highest,))
+    gaps = [[x+1, y-1] for x, y in zip(flat, flat) if x+1 < y]
+    for gap in gaps:
+        if gap[1] - gap[0] > n:
+            return gap[0]
+    return highest
 
 
 # as-is
@@ -141,6 +159,13 @@ for dataset, row in table["dataset"].items():
     for field in ["schema", "pipeline"]:
         if field in row:
             del row[field]
+
+    # assign number range
+    if not row.get("entity-minimum", ""):
+        size = 100000
+        minimum = find_gap(size)
+        row["entity-minimum"] = str(minimum)
+        row["entity-maximum"] = str(minimum + size-1)
 
 dump("field")
 dump("dataset")

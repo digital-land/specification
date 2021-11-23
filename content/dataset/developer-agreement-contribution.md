@@ -3,8 +3,8 @@ collection: developer-contributions
 dataset: developer-agreement-contribution
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '4399999'
+entity-minimum: '4300000'
 entry-date: ''
 fields:
 - field: amount

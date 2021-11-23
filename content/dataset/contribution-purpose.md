@@ -3,8 +3,8 @@ collection: developer-contributions
 dataset: contribution-purpose
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '3399999'
+entity-minimum: '3300000'
 entry-date: ''
 fields:
 - field: contribution-purpose

@@ -3,8 +3,8 @@ collection: ''
 dataset: entity
 description: An item of data
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6199999'
+entity-minimum: '6100000'
 entry-date: ''
 fields:
 - field: dataset

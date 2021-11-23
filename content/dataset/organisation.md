@@ -3,8 +3,8 @@ collection: ''
 dataset: organisation
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '10899999'
+entity-minimum: '10800000'
 entry-date: ''
 fields:
 - field: addressbase-custodian

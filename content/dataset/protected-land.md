@@ -3,8 +3,8 @@ collection: ''
 dataset: protected-land
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '12599999'
+entity-minimum: '12500000'
 entry-date: ''
 fields:
 - field: categories

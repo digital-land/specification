@@ -3,8 +3,8 @@ collection: ''
 dataset: log
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9199999'
+entity-minimum: '9100000'
 entry-date: ''
 fields:
 - field: bytes

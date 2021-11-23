@@ -3,8 +3,8 @@ collection: green-belt
 dataset: green-belt
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '7199999'
+entity-minimum: '7100000'
 entry-date: ''
 fields:
 - field: end-date

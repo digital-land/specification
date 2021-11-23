@@ -3,8 +3,8 @@ collection: ''
 dataset: default
 description: Take a missing field default value from another field
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '4299999'
+entity-minimum: '4200000'
 entry-date: ''
 fields:
 - field: default-field

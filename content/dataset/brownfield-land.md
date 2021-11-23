@@ -3,8 +3,8 @@ collection: brownfield-land
 dataset: brownfield-land
 description: Land that has been previously been developed
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '1799999'
+entity-minimum: '1700000'
 entry-date: ''
 fields:
 - field: Deliverable

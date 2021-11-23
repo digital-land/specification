@@ -3,8 +3,8 @@ collection: ''
 dataset: filter
 description: Filter entries
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6399999'
+entity-minimum: '6300000'
 entry-date: ''
 fields:
 - field: end-date

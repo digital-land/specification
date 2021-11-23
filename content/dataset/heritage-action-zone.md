@@ -3,8 +3,8 @@ collection: ''
 dataset: heritage-action-zone
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '7499999'
+entity-minimum: '7400000'
 entry-date: ''
 fields:
 - field: categories

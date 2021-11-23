@@ -3,8 +3,8 @@ collection: organisation
 dataset: transport-authority
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '15399999'
+entity-minimum: '15300000'
 entry-date: ''
 fields:
 - field: billing-authority

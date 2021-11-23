@@ -3,8 +3,8 @@ collection: ''
 dataset: non-designated-archeology-asset-of-national-importance
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '10499999'
+entity-minimum: '10400000'
 entry-date: ''
 fields:
 - field: categories

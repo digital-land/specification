@@ -3,8 +3,8 @@ collection: ''
 dataset: london-square
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9299999'
+entity-minimum: '9200000'
 entry-date: ''
 fields:
 - field: categories

@@ -3,8 +3,8 @@ collection: site-category
 dataset: site-category
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '14399999'
+entity-minimum: '14300000'
 entry-date: ''
 fields:
 - field: end-date

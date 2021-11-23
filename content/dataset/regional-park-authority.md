@@ -3,8 +3,8 @@ collection: organisation
 dataset: regional-park-authority
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13399999'
+entity-minimum: '13300000'
 entry-date: ''
 fields:
 - field: billing-authority

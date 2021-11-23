@@ -3,8 +3,8 @@ collection: ''
 dataset: site-of-nature-conservation-importance
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '14499999'
+entity-minimum: '14400000'
 entry-date: ''
 fields:
 - field: description

@@ -3,8 +3,8 @@ collection: ''
 dataset: development-metric
 description: The types of measurement used as a development policy metric
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '4899999'
+entity-minimum: '4800000'
 entry-date: ''
 fields:
 - field: development-metric

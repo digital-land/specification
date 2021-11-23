@@ -3,8 +3,8 @@ collection: ''
 dataset: flood-zone-1
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6499999'
+entity-minimum: '6400000'
 entry-date: ''
 fields:
 - field: categories

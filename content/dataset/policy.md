@@ -3,8 +3,8 @@ collection: ''
 dataset: policy
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '12099999'
+entity-minimum: '12000000'
 entry-date: ''
 fields:
 - field: categories

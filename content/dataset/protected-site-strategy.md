@@ -3,8 +3,8 @@ collection: ''
 dataset: protected-site-strategy
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '12699999'
+entity-minimum: '12600000'
 entry-date: ''
 fields:
 - field: description

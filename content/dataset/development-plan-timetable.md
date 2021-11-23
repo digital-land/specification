@@ -3,8 +3,8 @@ collection: ''
 dataset: development-plan-timetable
 description: The expected timetable for the stages a plan will go through
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '5199999'
+entity-minimum: '5100000'
 entry-date: ''
 fields:
 - field: development-plan-document

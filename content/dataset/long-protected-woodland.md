@@ -3,8 +3,8 @@ collection: ''
 dataset: long-protected-woodland
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9499999'
+entity-minimum: '9400000'
 entry-date: ''
 fields:
 - field: categories

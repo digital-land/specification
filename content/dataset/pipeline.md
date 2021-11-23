@@ -3,8 +3,8 @@ collection: ''
 dataset: pipeline
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '11699999'
+entity-minimum: '11600000'
 entry-date: ''
 fields:
 - field: end-date

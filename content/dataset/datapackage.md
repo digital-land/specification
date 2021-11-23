@@ -3,8 +3,8 @@ collection: ''
 dataset: datapackage
 description: Collections of datasets
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '3799999'
+entity-minimum: '3700000'
 entry-date: ''
 fields:
 - field: datapackage

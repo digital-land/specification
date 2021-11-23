@@ -3,8 +3,8 @@ collection: ''
 dataset: geometry
 description: Geometry index
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6899999'
+entity-minimum: '6800000'
 entry-date: ''
 fields:
 - field: end-date

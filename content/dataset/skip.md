@@ -3,8 +3,8 @@ collection: ''
 dataset: skip
 description: Remove lines from a resource during normalise
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '14699999'
+entity-minimum: '14600000'
 entry-date: ''
 fields:
 - field: end-date

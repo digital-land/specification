@@ -3,8 +3,8 @@ collection: ''
 dataset: local-authority-type
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '8899999'
+entity-minimum: '8800000'
 entry-date: ''
 fields:
 - field: end-date

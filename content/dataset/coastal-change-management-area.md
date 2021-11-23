@@ -3,8 +3,8 @@ collection: ''
 dataset: coastal-change-management-area
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '2499999'
+entity-minimum: '2400000'
 entry-date: ''
 fields:
 - field: categories

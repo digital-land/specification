@@ -3,8 +3,8 @@ collection: ''
 dataset: safety-hazard-area
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13899999'
+entity-minimum: '13800000'
 entry-date: ''
 fields:
 - field: categories

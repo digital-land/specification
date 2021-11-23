@@ -3,8 +3,8 @@ collection: historic-england
 dataset: battlefield
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '1499999'
+entity-minimum: '1400000'
 entry-date: ''
 fields:
 - field: categories

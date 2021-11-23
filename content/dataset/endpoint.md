@@ -3,8 +3,8 @@ collection: ''
 dataset: endpoint
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6099999'
+entity-minimum: '6000000'
 entry-date: ''
 fields:
 - field: end-date

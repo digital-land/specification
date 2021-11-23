@@ -3,8 +3,8 @@ collection: ''
 dataset: resource
 description: An index of collected resources
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13499999'
+entity-minimum: '13400000'
 entry-date: ''
 fields:
 - field: bytes

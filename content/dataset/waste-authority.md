@@ -3,8 +3,8 @@ collection: organisation
 dataset: waste-authority
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '15899999'
+entity-minimum: '15800000'
 entry-date: ''
 fields:
 - field: billing-authority

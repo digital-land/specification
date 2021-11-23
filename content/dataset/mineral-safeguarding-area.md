@@ -3,8 +3,8 @@ collection: ''
 dataset: mineral-safeguarding-area
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9899999'
+entity-minimum: '9800000'
 entry-date: ''
 fields:
 - field: categories

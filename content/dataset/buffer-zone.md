@@ -3,8 +3,8 @@ collection: ''
 dataset: buffer-zone
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '1999999'
+entity-minimum: '1900000'
 entry-date: ''
 fields:
 - field: categories

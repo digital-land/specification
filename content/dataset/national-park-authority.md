@@ -3,8 +3,8 @@ collection: organisation
 dataset: national-park-authority
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '9999999'
+entity-minimum: '9900000'
 entry-date: ''
 fields:
 - field: billing-authority

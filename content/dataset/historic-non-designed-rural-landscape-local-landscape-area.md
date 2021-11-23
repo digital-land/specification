@@ -3,8 +3,8 @@ collection: ''
 dataset: historic-non-designed-rural-landscape-local-landscape-area
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '7799999'
+entity-minimum: '7700000'
 entry-date: ''
 fields:
 - field: categories

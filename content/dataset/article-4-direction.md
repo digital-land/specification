@@ -3,8 +3,8 @@ collection: article-4-direction
 dataset: article-4-direction
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '1199999'
+entity-minimum: '1100000'
 entry-date: ''
 fields:
 - field: article-4-direction

@@ -3,8 +3,8 @@ collection: historic-england
 dataset: protected-wreck-site
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '12899999'
+entity-minimum: '12800000'
 entry-date: ''
 fields:
 - field: documentation-url

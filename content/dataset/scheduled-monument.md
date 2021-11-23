@@ -3,8 +3,8 @@ collection: historic-england
 dataset: scheduled-monument
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13999999'
+entity-minimum: '13900000'
 entry-date: ''
 fields:
 - field: categories

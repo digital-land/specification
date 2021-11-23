@@ -3,8 +3,8 @@ collection: ''
 dataset: safeguarded-military-explosives-site
 description: ''
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '13699999'
+entity-minimum: '13600000'
 entry-date: ''
 fields:
 - field: categories
