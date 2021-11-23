@@ -38,12 +38,19 @@ tables = {
 empty_reference = {"collection"}
 
 errors = 0
+warnings = 0
 
 
 def error(s):
     global errors
     print("[ERROR]: " + s, file=sys.stderr)
     errors += 1
+
+
+def warning(s):
+    global warnings
+    print("[WARNING]: " + s, file=sys.stderr)
+    warnings += 1
 
 
 def load(table):
@@ -109,11 +116,11 @@ def check_datasets():
         if "specification" != d["typology"]:
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
-                error("dataset '%s' is missing an entity-minimum value" % (dataset))
+                warning("dataset '%s' is missing an entity-minimum value" % (dataset))
 
             maximum = Decimal(d.get("entity-maximum", "") or 0)
             if not maximum:
-                error("dataset '%s' is missing an entity-maximum value" % (dataset))
+                warning("dataset '%s' is missing an entity-maximum value" % (dataset))
 
             if minimum and maximum:
                 for _dataset, _d in tables["dataset"].items():
