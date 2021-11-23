@@ -36,25 +36,16 @@ def field_typology(f):
     return field_typology(table["field"][f["parent-field"]])
 
 
-def sorted_fields(fields):
-    fields = sorted(fields, key=lambda d: d['field'])
-    if schema in fields:
-        fields.pop(fields.index(schema))
-        fields = [schema] + fields
-
-    # move default register fields to end, order is same as in list
-    for field in ["entry-date", "start-date", "end-date"]:
-        if field in fields:
-            fields.append(fields.pop(fields.index(field)))
-
-    return fields
-
-
-def add_dataset_field(dataset, field):
+def add_dataset_field(dataset, field, row={}):
     fields = table["dataset"][dataset].setdefault("fields", [])
     fieldnames = [field["field"] for field in fields]
     if field not in fieldnames:
-        table["dataset"][dataset]["fields"].append({"field": field }) #, "description": "", "text": "", "end-date": ""})
+        f = { "field": field }
+        for col in ["end-date", "guidance"]:
+            value = row.get(col, "")
+            if value:
+                f[col] = value
+        table["dataset"][dataset]["fields"].append(f)
 
 
 def name(s):
@@ -86,38 +77,14 @@ dump("project")
 load("project-status")
 dump("project-status")
 
-# merge schema, schema-field and pipeline into dataset ..
 load("field")
 load("dataset")
-load("schema")
 load("pipeline")
 
-# add schema info to dataset
-for schema, row in table["schema"].items():
-    if schema not in table["dataset"]:
-        table["dataset"][schema] = {
-            "dataset": row["schema"],
-            "name": row["name"],
-            "description": row["description"],
-        }
-    if not table["dataset"][schema].get("key-field", ""):
-        table["dataset"][schema]["key-field"] = row["key-field"]
-
 # add schema fields to schema and dataset with the same name
-for row in csv.DictReader(open("specification/schema-field.csv", newline="")):
-    schema = row["schema"]
+for row in csv.DictReader(open("specification/dataset-field.csv", newline="")):
     field = row["field"]
-    table["schema"][schema].setdefault("fields", [])
-    table["schema"][schema]["fields"].append(field)
-    add_dataset_field(schema, field)
-
-# default dataset fields from pipeline schema fields
-for pipeline, row in table["pipeline"].items():
-    dataset = pipeline
-    schema = row["schema"]
-    if not table["dataset"][dataset].get("fields", []):
-        for field in table["schema"][schema]["fields"]:
-            add_dataset_field(dataset, field)
+    add_dataset_field(row["dataset"], field, row)
 
 # ensure all fields have a name
 for field, row in table["field"].items():
@@ -132,13 +99,16 @@ for dataset, row in table["dataset"].items():
 
     # turn themes into a list ..
     themes = row.get("themes", "").split(";")
-    if themes == [''] or row["typology"] == "specification":
-        themes = []
+    if themes == ['']:
+        if row["typology"] == "specification":
+            themes = ["specification"]
+        else:
+            themes = []
     row["themes"] = themes
 
     if not row.get("fields", None):
         typology = row["typology"]
-        for field in table["schema"][typology]["fields"]:
+        for field in table["dataset"][typology]["fields"]:
             add_dataset_field(dataset, field)
 
     # remove defaulted key-field

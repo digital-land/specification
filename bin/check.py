@@ -95,8 +95,8 @@ def check_datasets():
         if not d.get("plural", ""):
             error("dataset '%s' missing plural" % (dataset))
 
-        typology = row.get("typology", "")
-        if typology not in tables["typology"]:
+        typology = d.get("typology", "")
+        if typology == "" or typology not in tables["typology"]:
             error("dataset '%s' has an unknown typology '%s'" % (dataset, typology))
 
         # typology datasets don't have a theme:
@@ -106,7 +106,7 @@ def check_datasets():
                     error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
         # check entity ranges .. O(n2)
-        if "entity" in tables["dataset-field"][dataset]:
+        if "specification" != d["typology"]:
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
                 error("dataset '%s' is missing an entity-minimum value" % (dataset))
