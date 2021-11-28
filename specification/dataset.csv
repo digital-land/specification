@@ -115,8 +115,8 @@ parish,parish,,,,,130000000,139999999,Civil parish,Civil parishes,,,,administrat
 historic-england,park-and-garden-grade,,,,,11000000,11099999,Park and garden grade,Parks and garden grades,,,,environment;heritage,category,,
 historic-england,park-and-garden,,,,,11100000,11199999,Park and garden,Parks and gardens,,,,environment;heritage,geography,Q6975250,Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
 ,patch,Assert a field value during harmonise,,,,11200000,11299999,Pipeline patch,Pipeline patches,,,,specification,specification,,
-,permitted-development-right-part,,,,,11400000,11499999,Permitted development right part,Permitted development right parts,,,,development,category,,
-permitted-development-right,permitted-development-right,,,,,11500000,11599999,Permitted development right,Permitted development right,,,,development,policy,,
+legislation,permitted-development-right-part,,,,,11400000,11499999,Permitted development right part,Permitted development right parts,,,,development,category,,
+legislation,permitted-development-right,,,,,11500000,11599999,Permitted development right,Permitted development right,,,,development,policy,,
 ,pipeline,,,,,11600000,11699999,Pipeline,Pipelines,,,,specification,specification,,
 ,planning-decision,,,,,11700000,11799999,Planning decision,Planning decisions,,,,housing;monitoring,document,,
 planning-permission-status,planning-permission-status,,,,,11800000,11899999,Planning permission status,Planning permission statuses,,,,development,category,,
