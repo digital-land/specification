@@ -1,5 +1,5 @@
 ---
-collection: permitted-development-right
+collection: legislation
 dataset: permitted-development-right
 description: ''
 end-date: ''
