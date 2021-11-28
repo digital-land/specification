@@ -14,7 +14,6 @@ fields:
 - field: entry-date
 - field: name
 - field: permitted-development-right
-- field: permitted-development-right-class
 - field: permitted-development-right-part
 - field: start-date
 key-field: ''
