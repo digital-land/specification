@@ -30,16 +30,16 @@ historic-england,certificate-of-immunity,,,,,2300000,2399999,Certificate of immu
 ,common-land-and-village-green,,,,,2700000,2799999,Common land and village green,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
 ,company,,,,,2800000,2899999,Company,Companies,,,,administrative,organisation,,
 ,concat,Concatenate fields during the harmonise phase,,,,2900000,2999999,Pipeline concatenation,Pipeline concatenations,,,,specification,specification,,
-conservation-area,conservation-area,,,,,3000000,3099999,Conservation area,Conservation areas,,,,heritage,geography,Q5162904,Conservation_area_(United_Kingdom)
-,contaminated-land,,,,,3100000,3199999,Contaminated land,Contaminated land,,,,environment,geography,,
-developer-contributions,contribution-funding-status,,,,,3200000,3299999,Contribution funding status,Contribution funding statuses,,,,development,category,,
-developer-contributions,contribution-purpose,,,,,3300000,3399999,Contribution purpose,Contribution purposes,,,,development,category,,
-,control-of-major-accident-hazards-site,,,,,3400000,3499999,Control of major accident hazards site,Control of major accident hazards sites,,,,development,geography,,
-,convert,Convert a resource during convert,,,,3500000,3599999,Pipeline convert,Pipeline conversions,,,,specification,specification,,
-,datapackage-dataset,Datasets included in a datapackage,,,,3600000,3699999,Data package dataset,Data package datasets,,,,specification,specification,,
-,datapackage,Collections of datasets,,,,3700000,3799999,Data package,Data packages,,,,specification,specification,,
-,dataset-field,,,,,3800000,3899999,Dataset field,Dataset fields,,,,specification,specification,,
-,dataset-schema,,,,,3900000,3999999,Dataset schema,Dataset schemas,,,,specification,specification,,
+conservation-area,conservation-area,,,,,3000000,3999999,Conservation area,Conservation areas,,,,heritage,geography,Q5162904,Conservation_area_(United_Kingdom)
+,contaminated-land,,,,,16800000,16899999,Contaminated land,Contaminated land,,,,environment,geography,,
+developer-contributions,contribution-funding-status,,,,,16900000,16999999,Contribution funding status,Contribution funding statuses,,,,development,category,,
+developer-contributions,contribution-purpose,,,,,16200000,16299999,Contribution purpose,Contribution purposes,,,,development,category,,
+,control-of-major-accident-hazards-site,,,,,16300000,16399999,Control of major accident hazards site,Control of major accident hazards sites,,,,development,geography,,
+,convert,Convert a resource during convert,,,,16400000,16499999,Pipeline convert,Pipeline conversions,,,,specification,specification,,
+,datapackage-dataset,Datasets included in a datapackage,,,,17000000,17099999,Data package dataset,Data package datasets,,,,specification,specification,,
+,datapackage,Collections of datasets,,,,16500000,16599999,Data package,Data packages,,,,specification,specification,,
+,dataset-field,,,,,16600000,16699999,Dataset field,Dataset fields,,,,specification,specification,,
+,dataset-schema,,,,,16700000,16799999,Dataset schema,Dataset schemas,,,,specification,specification,,
 ,dataset,A collection of entities of the same type,,,,4000000,4099999,Dataset,Datasets,,,,specification,specification,Q1172284,Data_set
 ,datatype,,,,,4100000,4199999,Datatype,Datatypes,,,,specification,specification,,
 ,default,Take a missing field default value from another field,,,,4200000,4299999,Pipeline default value,Pipleline default values,,,,specification,specification,,

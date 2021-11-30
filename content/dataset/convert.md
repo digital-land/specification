@@ -3,8 +3,8 @@ collection: ''
 dataset: convert
 description: Convert a resource during convert
 end-date: ''
-entity-maximum: '3599999'
-entity-minimum: '3500000'
+entity-maximum: '16499999'
+entity-minimum: '16400000'
 entry-date: ''
 fields:
 - field: end-date

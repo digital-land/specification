@@ -3,7 +3,7 @@ collection: conservation-area
 dataset: conservation-area
 description: ''
 end-date: ''
-entity-maximum: '3099999'
+entity-maximum: '3999999'
 entity-minimum: '3000000'
 entry-date: ''
 fields:
