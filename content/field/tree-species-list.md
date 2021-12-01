@@ -1,11 +1,11 @@
 ---
-cardinality: '1'
+cardinality: n
 datatype: string
-description: A species of tree
+description: A list of tree species
 end-date: ''
 entry-date: ''
-field: tree-species
-name: Tree species
+field: tree-species-list
+name: Tree species list
 parent-field: category
 replacement-field: ''
 start-date: ''

@@ -1,10 +1,10 @@
 ---
 collection: tree-preservation-order
-dataset: tree
-description: An individual tree
+dataset: tree-preservation-zone
+description: An area covered by a tree preservation order
 end-date: ''
-entity-maximum: '9999999999'
-entity-minimum: '7002000000'
+entity-maximum: '29099999'
+entity-minimum: '19100000'
 entry-date: ''
 fields:
 - field: address
@@ -19,13 +19,13 @@ fields:
 - field: point
 - field: reference
 - field: start-date
-- field: tree
-- field: tree-species
+- field: tree-preservation-zone
+- field: tree-species-list
+- field: tree-preservation-type
 - field: tree-preservation-order
-- field: tree-preservation-order-tree
 key-field: ''
-name: Tree
-plural: Trees
+name: Tree preservation zone
+plural: Trees preservation zones
 prefix: ''
 start-date: ''
 themes:

@@ -1,11 +1,11 @@
 ---
 cardinality: '1'
 datatype: string
-description: A species of tree
+description: A category of tree preservation order
 end-date: ''
 entry-date: ''
-field: tree-species
-name: Tree species
+field: tree-preservation-type
+name: Tree preservation type
 parent-field: category
 replacement-field: ''
 start-date: ''

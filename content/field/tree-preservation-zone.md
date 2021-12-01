@@ -1,15 +1,15 @@
 ---
 cardinality: '1'
 datatype: string
-description: A species of tree
+description: ''
 end-date: ''
 entry-date: ''
-field: tree-species
-name: Tree species
-parent-field: category
+field: tree-preservation-zone
+name: Tree preservation zone
+parent-field: geography
 replacement-field: ''
 start-date: ''
-typology: category
+typology: geography
 uri-template: ''
 wikidata-property: ''
 ---
