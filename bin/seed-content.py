@@ -155,17 +155,17 @@ for dataset, row in table["dataset"].items():
                 "parent-field": row.get("typology", ""),
             }
 
+        # assign number range
+        if not row.get("entity-minimum", ""):
+            size = 1000000
+            minimum = find_gap(size)
+            row["entity-minimum"] = str(minimum)
+            row["entity-maximum"] = str(minimum + size-1)
+
     # remove deprecated fields ..
     for field in ["schema", "pipeline"]:
         if field in row:
             del row[field]
-
-    # assign number range
-    if not row.get("entity-minimum", ""):
-        size = 100000
-        minimum = find_gap(size)
-        row["entity-minimum"] = str(minimum)
-        row["entity-maximum"] = str(minimum + size-1)
 
 dump("field")
 dump("dataset")
