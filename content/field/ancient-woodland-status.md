@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Status of an ancient woodland'
+description: Status of an ancient woodland
 end-date: ''
 entry-date: ''
 field: ancient-woodland-status

@@ -1,33 +1,28 @@
 ---
 collection: ancient-woodland
-dataset: ancient-woodland
+dataset: ancient-woodland-status
 description: ''
 end-date: ''
-entity-maximum: '129999999'
-entity-minimum: '110000000'
+entity-maximum: '30099999'
+entity-minimum: '29100000'
 entry-date: ''
 fields:
-- field: ancient-woodland
 - field: ancient-woodland-status
 - field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geometry
 - field: name
-- field: notes
-- field: organisation
-- field: point
 - field: reference
 - field: start-date
 key-field: ''
-name: Ancient woodland
-plural: Ancient woodlands
+name: Ancient woodland status
+plural: Ancient woodlands status
 prefix: ''
 start-date: ''
 themes:
 - environment
-typology: geography
-wikidata: Q3078732
+typology: category
+wikidata: ''
 wikipedia: Ancient_woodland
 ---
