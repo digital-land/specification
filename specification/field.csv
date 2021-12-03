@@ -27,6 +27,7 @@ n,url,,2019-10-31,,PlanningHistory,Planning permission history,document-url,plan
 1,string,,,,address,Address,geography,,,geography,,
 1,string,,,,addressbase-custodian,AddressBase custodian,organisation,,,organisation,,
 1,decimal,,,,amount,Amount,number,,,value,,
+1,string,Status of an ancient woodland,,,ancient-woodland-status,Ancient woodland status,category,,,category,,
 1,string,,,,ancient-woodland,Ancient Woodland,geography,,,geography,,
 1,string,,,,archaelogy-area-type,Archaelogy area type,geography,,,geography,,
 1,string,A protected area of countryside with a distinctive character and natural beauty,,,area-of-outstanding-natural-beauty,Area of Outstanding Natural Beauty,geography,,,geography,,
