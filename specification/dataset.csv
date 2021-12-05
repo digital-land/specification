@@ -59,7 +59,7 @@ development-policy-category,development-policy-category,,,,,5400000,5499999,Deve
 ,development-policy-metric,Metrics associated with a development policy,,,,5500000,5599999,Development policy metric,Development policy metrics,,,,development,metric,,
 development-policy,development-policy,,,,,5600000,5699999,Development policy,Development policies,,,,development,policy,,
 document-type,document-type,,,,,5700000,5799999,Document type,Document types,,,,development,category,,
-document,document,,,,,5800000,5899999,Document,Documents,,,,development,document,Q49848,Document
+,document,,,,,5800000,5899999,Document,Documents,,,,development,document,Q49848,Document
 employment-allocation,employment-allocation,,,,,5900000,5999999,Employment allocation,Employment allocations,,,,development,geography,,
 ,endpoint,,,,,6000000,6099999,Endpoint,Endpoints,,,,specification,specification,,
 ,entity,An item of data,,,,6100000,6199999,Entity,Entities,,,,specification,value,,
