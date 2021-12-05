@@ -112,7 +112,7 @@ organisation,neighbourhood-forum,,,,,10200000,10299999,Designated neighbourhood 
 open-space,open-space,,,,,10700000,10799999,Open space,Open spaces,,,,environment,geography,,
 ,organisation,,,,,10800000,10899999,Organisation,Organisations,,,,,organisation,,
 ownership-status,ownership-status,,,,,10900000,10999999,Ownership status,Ownership statuses,,,,development,category,,
-parish,parish,,,,,130000000,139999999,Civil parish,Civil parishes,,,,administrative,geography,Q1115575,Civil_parish
+parish,parish,,,,,130000000,139999999,Civil parish,Civil parishes,statistical-geography,,,administrative,geography,Q1115575,Civil_parish
 historic-england,park-and-garden-grade,,,,,11000000,11099999,Park and garden grade,Parks and garden grades,,,,environment;heritage,category,,
 historic-england,park-and-garden,,,,,11100000,11199999,Park and garden,Parks and gardens,,,,environment;heritage,geography,Q6975250,Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
 ,patch,Assert a field value during harmonise,,,,11200000,11299999,Pipeline patch,Pipeline patches,,,,specification,specification,,
@@ -136,6 +136,7 @@ organisation,public-authority,,,,,13000000,13099999,Public authority,Public auth
 ,public-safety-zone-around-airport,,,,,13100000,13199999,Public safety zone around airport,Public safety zones around airports,,,,transport,geography,,
 ramsar,ramsar-site,,,,,13200000,13299999,Ramsar site,Ramsar sites,,,,environment,geography,Q19683138,Ramsar_site
 ramsar,ramsar,,,,,612001,619999,Ramsar area,Ramsar area,,,,environment,geography,,
+region,region,,,,,30100000,31099999,Region,Regions,statistical-geography,,,administrative,geography,Q48091,Regions_of_England
 organisation,regional-park-authority,,,,,13300000,13399999,Regional park authority,Regional park authorities,wikidata,,,administrative,organisation,,
 ,resource,An index of collected resources,,,,13400000,13499999,Resource,Resources,,,,specification,specification,,
 ,safeguarded-aerodrome,,,,,13500000,13599999,Safeguarded aerodrome,Safeguarded aerodromes,,,,transport,geography,,
