@@ -1,10 +1,10 @@
 ---
-collection: parish
-dataset: parish
+collection: region
+dataset: region
 description: ''
 end-date: ''
-entity-maximum: '139999999'
-entity-minimum: '130000000'
+entity-maximum: '31099999'
+entity-minimum: '30100000'
 entry-date: ''
 fields:
 - field: documentation-url
@@ -13,20 +13,19 @@ fields:
 - field: entry-date
 - field: geometry
 - field: name
-- field: notes
 - field: organisation
 - field: point
 - field: reference
 - field: start-date
-- field: parish
+- field: region
 key-field: ''
-name: Civil parish
-plural: Civil parishes
+name: Region
+plural: Regions
 prefix: statistical-geography
 start-date: ''
 themes:
 - administrative
 typology: geography
-wikidata: Q1115575
-wikipedia: Civil_parish
+wikidata: Q48091
+wikipedia: Regions_of_England
 ---

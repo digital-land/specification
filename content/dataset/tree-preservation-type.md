@@ -1,5 +1,5 @@
 ---
-collection:
+collection: ''
 dataset: tree-preservation-type
 description: Types of preservation order
 end-date: ''
