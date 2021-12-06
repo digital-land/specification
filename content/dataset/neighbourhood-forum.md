@@ -1,5 +1,5 @@
 ---
-collection: organisation
+collection: neighbourhood-plan
 dataset: neighbourhood-forum
 description: ''
 end-date: ''
@@ -7,34 +7,22 @@ entity-maximum: '10299999'
 entity-minimum: '10200000'
 entry-date: ''
 fields:
-- field: addressbase-custodian
-- field: billing-authority
-- field: census-area
-- field: combined-authority
 - field: company
 - field: end-date
 - field: entity
 - field: entry-date
-- field: esd-inventory
-- field: local-authority-type
-- field: local-resilience-forum
 - field: name
-- field: official-name
-- field: opendatacommunities-area
-- field: opendatacommunities-organisation
+- field: neighbourhood-forum
 - field: organisation
-- field: region
-- field: shielding-hub
 - field: start-date
-- field: statistical-geography
+- field: geography
 - field: twitter
 - field: website
 - field: wikidata
 - field: wikipedia
-- field: neighbourhood-forum
 key-field: ''
 name: Designated neighbourhood forum
-plural: Neighbourhood forums
+plural: Designated neighbourhood forums
 prefix: ''
 start-date: ''
 themes:

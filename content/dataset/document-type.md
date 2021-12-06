@@ -1,5 +1,5 @@
 ---
-collection: document-type
+collection: document
 dataset: document-type
 description: ''
 end-date: ''
