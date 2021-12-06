@@ -3,8 +3,8 @@ collection: listed-building
 dataset: listed-building
 description: ''
 end-date: ''
-entity-maximum: '8599999'
-entity-minimum: '8500000'
+entity-maximum: '41099999'
+entity-minimum: '31100000'
 entry-date: ''
 fields:
 - field: documentation-url
