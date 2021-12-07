@@ -1,5 +1,5 @@
 ---
-collection: neighbourhood-plan
+collection:
 dataset: neighbourhood-forum
 description: ''
 end-date: ''
