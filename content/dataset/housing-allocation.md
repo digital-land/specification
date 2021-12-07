@@ -1,5 +1,5 @@
 ---
-collection: ''
+collection: 'housing-allocation'
 dataset: housing-allocation
 description: ''
 end-date: ''
