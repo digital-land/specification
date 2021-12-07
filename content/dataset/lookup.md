@@ -12,6 +12,7 @@ fields:
 - field: organisation
 - field: pipeline
 - field: resource
+- field: row-number
 - field: start-date
 - field: value
 key-field: ''
