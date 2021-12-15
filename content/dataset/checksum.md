@@ -7,6 +7,7 @@ entry-date: ''
 fields:
 - field: bytes
 - field: checksum
+- field: dataset
 - field: end-date
 - field: entry-date
 - field: line-count
