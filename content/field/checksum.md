@@ -1,12 +1,12 @@
 ---
 cardinality: '1'
-datatype: integer
+datatype: string
 description: 'The MD5 checksum of a resource or file'
 end-date: ''
 entry-date: ''
 field: checksum
 name: Checksum
-parent-field: number
+parent-field: string
 replacement-field: ''
 start-date: ''
 typology: value
