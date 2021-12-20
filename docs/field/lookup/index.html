@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>JSON | Digital Land</title>
+    <title>Lookup | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -128,12 +128,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Datatype</a>
+      <a class="govuk-breadcrumbs__link" href="../">Field</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">JSON</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Lookup</li>
     
   
   </ol>
@@ -145,34 +145,60 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Datatype</span>
-  <h1 class="govuk-heading-xl">JSON</h1>
+  <span class="govuk-caption-xl">Field</span>
+  <h1 class="govuk-heading-xl">Lookup</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-<p class="govuk-body">A blob of data encoded as a canonicalised JSON string compatible with <a href="https://tools.ietf.org/html/rfc8259">RFC 8259</a>.</p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">Lookup entities</p>
 
-    <h2 class="govuk-heading-s" id="_fields">Fields</h2>
-    <p class="govuk-body">The following fields use this datatype:</p>
+    <table class="govuk-table">
+      <tbody class="govuk-table__body">
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Name</th>
+          <td class="govuk-table__cell">Lookup</td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Field</th>
+          <td class="govuk-table__cell">lookup</td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Datatype</th>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Cardinality</th>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Parent field</th>
+          <td class="govuk-table__cell"><a href="../specification">specification</a></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Typology</th>
+          <td class="govuk-table__cell"><a href="../../typology/specification">specification</a></td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Dataset</th>
+          <td class="govuk-table__cell"><a href="../../dataset/lookup">lookup</a></td>
+        </tr>
+        
+      </tbody>
+    </table>
+
+    
+    <h2 class="govuk-heading-s" id="">Schemas</h2>
+    <p class="govuk-body">The following datasets use this field:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../field/geojson">GeoJSON data</a></li>
-    
-      <li><a href="../../field/item">JSON</a></li>
-    
-      <li><a href="../../field/json">JSON data</a></li>
-    
-      <li><a href="../../field/paint-options">Paint options</a></li>
-    
-      <li><a href="../../field/request-headers">Request headers</a></li>
-    
-      <li><a href="../../field/response-headers">Response headers</a></li>
+      <li><a href="../../dataset/lookup">Pipeline lookup</a></li>
     
     </ul>
-
     
 
   </div>
