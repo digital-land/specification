@@ -24,7 +24,7 @@ fields:
 - field: building-preservation-notice
 key-field: ''
 name: Building preservation notice
-paint-options: ''
+paint-options: '{ "colour": "#f944c7" }'
 plural: Building preservation notices
 prefix: ''
 start-date: ''

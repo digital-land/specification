@@ -24,7 +24,7 @@ fields:
 - field: heritage-coast
 key-field: ''
 name: Heritage coast
-paint-options: ''
+paint-options: '{ "colour": "#912b88" }'
 plural: Heritage coast
 prefix: ''
 start-date: ''

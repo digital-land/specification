@@ -24,7 +24,7 @@ fields:
 - field: heritage-at-risk
 key-field: ''
 name: Heritage at risk
-paint-options: ''
+paint-options: '{ "colour": "#8D73AF" }'
 plural: Heritage at risk
 prefix: ''
 start-date: ''

@@ -24,7 +24,7 @@ fields:
 - field: world-heritage-site
 key-field: ''
 name: World heritage site
-paint-options: ''
+paint-options: '{ "colour": "#012169" }'
 plural: World heritage sites
 prefix: ''
 start-date: ''

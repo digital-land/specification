@@ -24,7 +24,7 @@ fields:
 - field: site-of-special-scientific-interest
 key-field: ''
 name: Site of special scientific interest
-paint-options: ''
+paint-options: '{ "colour": "#308fac" }'
 plural: Sites of special scientific interest
 prefix: ''
 start-date: ''

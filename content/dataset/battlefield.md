@@ -24,7 +24,7 @@ fields:
 - field: battlefield
 key-field: ''
 name: Battlefield
-paint-options: ''
+paint-options: '{ "colour": "#4d2942", "opacity": 0.2 }'
 plural: Battlefields
 prefix: ''
 start-date: ''

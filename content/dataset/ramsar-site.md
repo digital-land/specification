@@ -19,7 +19,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Ramsar site
-paint-options: ''
+paint-options: '{ "colour": "#7fcdff" }'
 plural: Ramsar sites
 prefix: ''
 start-date: ''

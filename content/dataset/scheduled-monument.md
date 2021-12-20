@@ -24,7 +24,7 @@ fields:
 - field: scheduled-monument
 key-field: ''
 name: Scheduled monument
-paint-options: ''
+paint-options: '{ "colour": "#0F9CDA" }'
 plural: Scheduled monuments
 prefix: ''
 start-date: ''

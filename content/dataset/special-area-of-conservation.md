@@ -24,7 +24,7 @@ fields:
 - field: special-area-of-conservation
 key-field: ''
 name: Special area of conservation
-paint-options: ''
+paint-options: '{ "colour": "#7A8705" }'
 plural: Special areas of conservation
 prefix: ''
 start-date: ''

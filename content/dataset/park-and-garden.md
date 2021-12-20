@@ -20,7 +20,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Park and garden
-paint-options: ''
+paint-options: '{ "colour": "#0EB951" }'
 plural: Parks and gardens
 prefix: ''
 start-date: ''

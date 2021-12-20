@@ -21,7 +21,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Open space
-paint-options: ''
+paint-options: '{ "colour": "#328478" }'
 plural: Open spaces
 prefix: ''
 start-date: ''

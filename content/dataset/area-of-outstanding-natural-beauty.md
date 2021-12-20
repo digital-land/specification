@@ -25,7 +25,7 @@ fields:
 - field: area-of-outstanding-natural-beauty
 key-field: ''
 name: Area of outstanding natural beauty
-paint-options: ''
+paint-options: '{ "colour": "#d53880" }'
 plural: Areas of outstanding natural beauty
 prefix: ''
 start-date: ''

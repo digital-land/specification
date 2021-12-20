@@ -24,7 +24,7 @@ fields:
 - field: certificate-of-immunity
 key-field: ''
 name: Certificate of immunity
-paint-options: ''
+paint-options: '{ "colour": "#D8760D" }'
 plural: Certificates of immunity
 prefix: ''
 start-date: ''

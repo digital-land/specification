@@ -18,7 +18,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Green belt
-paint-options: ''
+paint-options: '{ "colour": "#85994b" }'
 plural: Green belt
 prefix: ''
 start-date: ''

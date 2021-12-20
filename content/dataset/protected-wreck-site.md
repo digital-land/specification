@@ -18,7 +18,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Protected wreck site
-paint-options: ''
+paint-options: '{ "colour": "#0b0c0c" }'
 plural: Protected wreck sites
 prefix: ''
 start-date: ''

@@ -21,7 +21,7 @@ fields:
 - field: parish
 key-field: ''
 name: Civil parish
-paint-options: ''
+paint-options: '{ "colour": "#5694ca" }'
 plural: Civil parishes
 prefix: statistical-geography
 start-date: ''

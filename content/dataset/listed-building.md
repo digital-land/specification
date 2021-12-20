@@ -22,7 +22,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Listed building
-paint-options: ''
+paint-options: '{ "colour": "#F9C744" }'
 plural: Listed buildings
 prefix: ''
 start-date: ''

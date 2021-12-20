@@ -22,7 +22,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Ancient woodland
-paint-options: ''
+paint-options: '{ "colour": "#00703c", "opacity": 0.2 }'
 plural: Ancient woodlands
 prefix: ''
 start-date: ''
