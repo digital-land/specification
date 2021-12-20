@@ -16,6 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Contribution purpose
+paint-options: ''
 plural: Contribution purposes
 prefix: ''
 start-date: ''

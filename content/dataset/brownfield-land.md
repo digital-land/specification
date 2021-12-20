@@ -148,6 +148,7 @@ fields:
 - field: brownfield-land
 key-field: site
 name: Brownfield land
+paint-options: ''
 plural: Brownfield land
 prefix: ''
 start-date: ''

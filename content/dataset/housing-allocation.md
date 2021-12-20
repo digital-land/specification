@@ -1,5 +1,5 @@
 ---
-collection: 'housing-allocation'
+collection: housing-allocation
 dataset: housing-allocation
 description: ''
 end-date: ''
@@ -24,6 +24,7 @@ fields:
 - field: housing-allocation
 key-field: ''
 name: Housing allocation
+paint-options: ''
 plural: Housing allocations
 prefix: ''
 start-date: ''

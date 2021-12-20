@@ -16,6 +16,7 @@ fields:
 - field: use-class-order
 key-field: ''
 name: Use class order
+paint-options: ''
 plural: Use class orders
 prefix: ''
 start-date: ''

@@ -24,6 +24,7 @@ fields:
 - field: nuclear-safety-zone
 key-field: ''
 name: Nuclear safety zone
+paint-options: ''
 plural: Nuclear safety zones
 prefix: ''
 start-date: ''

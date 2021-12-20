@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Developer agreement type
+paint-options: ''
 plural: Developer agreement types
 prefix: ''
 start-date: ''

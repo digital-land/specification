@@ -15,6 +15,7 @@ fields:
 - field: text
 key-field: ''
 name: Attribution
+paint-options: ''
 plural: Attributions
 prefix: ''
 start-date: ''

@@ -19,6 +19,7 @@ fields:
 - field: development-policy-area
 key-field: ''
 name: Development policy area
+paint-options: ''
 plural: Development policy areas
 prefix: ''
 start-date: ''

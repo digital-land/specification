@@ -24,6 +24,7 @@ fields:
 - field: hs2-safeguarded-area
 key-field: ''
 name: HS2 safeguarded area
+paint-options: ''
 plural: HS2 safeguarded areas
 prefix: ''
 start-date: ''

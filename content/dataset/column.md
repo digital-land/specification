@@ -17,6 +17,7 @@ fields:
 - field: value
 key-field: ''
 name: Pipeline column
+paint-options: ''
 plural: Pipeline columns
 prefix: ''
 start-date: ''

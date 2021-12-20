@@ -24,6 +24,7 @@ fields:
 - field: safeguarded-aerodrome
 key-field: ''
 name: Safeguarded aerodrome
+paint-options: ''
 plural: Safeguarded aerodromes
 prefix: ''
 start-date: ''

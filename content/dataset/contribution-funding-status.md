@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Contribution funding status
+paint-options: ''
 plural: Contribution funding statuses
 prefix: ''
 start-date: ''

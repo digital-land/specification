@@ -21,6 +21,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Open space
+paint-options: ''
 plural: Open spaces
 prefix: ''
 start-date: ''

@@ -24,6 +24,7 @@ fields:
 - field: heritage-at-risk
 key-field: ''
 name: Heritage at risk
+paint-options: ''
 plural: Heritage at risk
 prefix: ''
 start-date: ''

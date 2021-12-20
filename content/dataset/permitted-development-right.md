@@ -18,6 +18,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Permitted development right
+paint-options: ''
 plural: Permitted development right
 prefix: ''
 start-date: ''

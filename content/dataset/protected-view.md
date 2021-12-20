@@ -24,6 +24,7 @@ fields:
 - field: protected-view
 key-field: ''
 name: Protected view
+paint-options: ''
 plural: Protected views
 prefix: ''
 start-date: ''

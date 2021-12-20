@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Park and garden grade
+paint-options: ''
 plural: Parks and garden grades
 prefix: ''
 start-date: ''

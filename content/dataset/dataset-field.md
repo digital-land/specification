@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Dataset field
+paint-options: ''
 plural: Dataset fields
 prefix: ''
 start-date: ''

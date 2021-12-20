@@ -14,6 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Collection
+paint-options: ''
 plural: Collections
 prefix: ''
 start-date: ''

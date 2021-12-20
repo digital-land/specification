@@ -24,6 +24,7 @@ fields:
 - field: local-nature-recovery-strategy
 key-field: ''
 name: Local nature recovery strategy
+paint-options: ''
 plural: Local nature recovery strategies
 prefix: ''
 start-date: ''

@@ -20,6 +20,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development policy
+paint-options: ''
 plural: Development policies
 prefix: ''
 start-date: ''

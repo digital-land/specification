@@ -24,6 +24,7 @@ fields:
 - field: building-preservation-notice
 key-field: ''
 name: Building preservation notice
+paint-options: ''
 plural: Building preservation notices
 prefix: ''
 start-date: ''

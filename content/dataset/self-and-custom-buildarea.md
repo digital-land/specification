@@ -24,6 +24,7 @@ fields:
 - field: self-and-custom-buildarea
 key-field: ''
 name: Self and custom build area
+paint-options: ''
 plural: Self and custom build areas
 prefix: ''
 start-date: ''

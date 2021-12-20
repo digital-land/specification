@@ -16,6 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline convert
+paint-options: ''
 plural: Pipeline conversions
 prefix: ''
 start-date: ''

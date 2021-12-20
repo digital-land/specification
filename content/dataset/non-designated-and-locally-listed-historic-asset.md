@@ -24,6 +24,7 @@ fields:
 - field: non-designated-and-locally-listed-historic-asset
 key-field: ''
 name: Non-designated and locally listed historic asset
+paint-options: ''
 plural: Non-designated and locally listed historic assets
 prefix: ''
 start-date: ''

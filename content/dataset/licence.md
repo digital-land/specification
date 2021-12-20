@@ -15,6 +15,7 @@ fields:
 - field: text
 key-field: ''
 name: Licence
+paint-options: ''
 plural: Licences
 prefix: ''
 start-date: ''

@@ -21,6 +21,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Article 4 direction
+paint-options: ''
 plural: Article 4 directions
 prefix: ''
 start-date: ''

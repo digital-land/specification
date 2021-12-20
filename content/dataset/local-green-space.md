@@ -24,6 +24,7 @@ fields:
 - field: local-green-space
 key-field: ''
 name: Local green space
+paint-options: ''
 plural: Local green spaces
 prefix: ''
 start-date: ''

@@ -18,6 +18,7 @@ fields:
 - field: start-date
 key-field: entity
 name: Geometry
+paint-options: ''
 plural: Geometries
 prefix: ''
 start-date: ''

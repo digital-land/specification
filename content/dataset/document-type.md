@@ -16,6 +16,7 @@ fields:
 - field: document-type
 key-field: ''
 name: Document type
+paint-options: ''
 plural: Document types
 prefix: ''
 start-date: ''

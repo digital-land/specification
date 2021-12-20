@@ -16,6 +16,7 @@ fields:
 - field: value
 key-field: ''
 name: Provenance
+paint-options: ''
 plural: Provenance
 prefix: ''
 start-date: ''

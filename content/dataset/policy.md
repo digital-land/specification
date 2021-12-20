@@ -20,6 +20,7 @@ fields:
 - field: policy
 key-field: ''
 name: Policy
+paint-options: ''
 plural: Policies
 prefix: ''
 start-date: ''

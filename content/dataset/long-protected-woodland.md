@@ -24,6 +24,7 @@ fields:
 - field: long-protected-woodland
 key-field: ''
 name: Long protected woodland
+paint-options: ''
 plural: Long protected woodlands
 prefix: ''
 start-date: ''

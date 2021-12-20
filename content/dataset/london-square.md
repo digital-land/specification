@@ -24,6 +24,7 @@ fields:
 - field: london-square
 key-field: ''
 name: London square
+paint-options: ''
 plural: London squares
 prefix: ''
 start-date: ''

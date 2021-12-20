@@ -14,6 +14,7 @@ fields:
 - field: theme
 key-field: ''
 name: Theme
+paint-options: ''
 plural: Themes
 prefix: ''
 start-date: ''

@@ -24,6 +24,7 @@ fields:
 - field: gypsy-and-traveller-site
 key-field: ''
 name: Gypsy and traveller site
+paint-options: ''
 plural: Gypsy and traveller sites
 prefix: ''
 start-date: ''

@@ -25,6 +25,7 @@ fields:
 - field: tree-preservation-order
 key-field: ''
 name: Tree preservation zone
+paint-options: ''
 plural: Trees preservation zones
 prefix: ''
 start-date: ''

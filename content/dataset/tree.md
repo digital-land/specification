@@ -25,6 +25,7 @@ fields:
 - field: tree-preservation-order-tree
 key-field: ''
 name: Tree
+paint-options: ''
 plural: Trees
 prefix: ''
 start-date: ''

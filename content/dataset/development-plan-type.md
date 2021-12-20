@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development plan type
+paint-options: ''
 plural: Development plan types
 prefix: ''
 start-date: ''

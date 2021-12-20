@@ -3,6 +3,8 @@ collection: ''
 dataset: checksum
 description: Checksums of dataset files and other media
 end-date: ''
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: bytes
@@ -15,6 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline column
+paint-options: ''
 plural: Pipeline columns
 prefix: ''
 start-date: ''

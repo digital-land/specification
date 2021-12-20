@@ -15,6 +15,7 @@ fields:
 - field: typology
 key-field: ''
 name: Typology
+paint-options: ''
 plural: Typologies
 prefix: ''
 start-date: ''

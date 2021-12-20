@@ -17,6 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Address
+paint-options: ''
 plural: addresses
 prefix: uprn
 start-date: ''

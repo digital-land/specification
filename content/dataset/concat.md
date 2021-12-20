@@ -17,6 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline concatenation
+paint-options: ''
 plural: Pipeline concatenations
 prefix: ''
 start-date: ''

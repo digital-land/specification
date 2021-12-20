@@ -24,6 +24,7 @@ fields:
 - field: asset-of-community-value
 key-field: ''
 name: Asset of community value
+paint-options: ''
 plural: Assets of community value
 prefix: ''
 start-date: ''

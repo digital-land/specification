@@ -16,6 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Schema
+paint-options: ''
 plural: Schemas
 prefix: ''
 start-date: ''

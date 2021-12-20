@@ -33,6 +33,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Organisation
+paint-options: ''
 plural: Organisations
 prefix: ''
 start-date: ''

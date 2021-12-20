@@ -15,6 +15,7 @@ fields:
 - field: street
 key-field: ''
 name: Street
+paint-options: ''
 plural: Streets
 prefix: ''
 start-date: ''

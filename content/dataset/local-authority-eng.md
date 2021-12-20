@@ -32,6 +32,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Local authority
+paint-options: ''
 plural: Local authorities
 prefix: local-authority-eng
 start-date: ''

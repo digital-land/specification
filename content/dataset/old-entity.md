@@ -16,6 +16,7 @@ fields:
 - field: status
 key-field: ''
 name: Entity redirection
+paint-options: ''
 plural: Entity redirections
 prefix: ''
 start-date: ''

@@ -27,6 +27,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Public authority
+paint-options: ''
 plural: Public authorities
 prefix: wikidata
 start-date: ''

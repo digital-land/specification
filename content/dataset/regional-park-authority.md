@@ -27,6 +27,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Regional park authority
+paint-options: ''
 plural: Regional park authorities
 prefix: wikidata
 start-date: ''

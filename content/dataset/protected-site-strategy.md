@@ -27,6 +27,7 @@ fields:
 - field: protected-site-strategy
 key-field: ''
 name: Protected site strategy
+paint-options: ''
 plural: Protected site strategies
 prefix: ''
 start-date: ''

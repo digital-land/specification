@@ -26,6 +26,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Document
+paint-options: ''
 plural: Documents
 prefix: ''
 start-date: ''

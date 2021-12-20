@@ -20,6 +20,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Park and garden
+paint-options: ''
 plural: Parks and gardens
 prefix: ''
 start-date: ''

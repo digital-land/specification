@@ -24,6 +24,7 @@ fields:
 - field: best-and-most-versatile-agricultural-land
 key-field: ''
 name: Best and most versatile agricultural land
+paint-options: ''
 plural: Best and most versatile agricultural land
 prefix: ''
 start-date: ''

@@ -20,6 +20,7 @@ fields:
 - field: region
 key-field: ''
 name: Region
+paint-options: ''
 plural: Regions
 prefix: statistical-geography
 start-date: ''

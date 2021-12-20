@@ -18,6 +18,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Protected wreck site
+paint-options: ''
 plural: Protected wreck sites
 prefix: ''
 start-date: ''

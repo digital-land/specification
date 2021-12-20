@@ -19,6 +19,7 @@ fields:
 - field: units
 key-field: ''
 name: Developer agreement transaction
+paint-options: ''
 plural: Developer agreement transactions
 prefix: ''
 start-date: ''

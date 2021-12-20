@@ -17,6 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: National park
+paint-options: ''
 plural: National parks
 prefix: ''
 start-date: ''

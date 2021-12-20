@@ -24,6 +24,7 @@ fields:
 - field: flood-zone-2
 key-field: ''
 name: Flood zone 2
+paint-options: ''
 plural: Flood zones 2
 prefix: ''
 start-date: ''

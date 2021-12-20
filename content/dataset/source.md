@@ -20,6 +20,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Source
+paint-options: ''
 plural: Sources
 prefix: ''
 start-date: ''

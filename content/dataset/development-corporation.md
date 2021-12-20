@@ -28,6 +28,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Development corporation
+paint-options: ''
 plural: Development corporations
 prefix: wikidata
 start-date: ''

@@ -24,6 +24,7 @@ fields:
 - field: world-heritage-site
 key-field: ''
 name: World heritage site
+paint-options: ''
 plural: World heritage sites
 prefix: ''
 start-date: ''

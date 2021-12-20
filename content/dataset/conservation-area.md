@@ -24,6 +24,7 @@ fields:
 - field: conservation-area
 key-field: ''
 name: Conservation area
+paint-options: ''
 plural: Conservation areas
 prefix: ''
 start-date: ''

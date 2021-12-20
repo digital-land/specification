@@ -24,6 +24,7 @@ fields:
 - field: brownfield-site
 key-field: ''
 name: Brownfield site
+paint-options: ''
 plural: Brownfield sites
 prefix: ''
 start-date: ''

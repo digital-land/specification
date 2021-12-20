@@ -24,6 +24,7 @@ fields:
 - field: scheduled-monument
 key-field: ''
 name: Scheduled monument
+paint-options: ''
 plural: Scheduled monuments
 prefix: ''
 start-date: ''

@@ -17,6 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Ancient woodland status
+paint-options: ''
 plural: Ancient woodlands status
 prefix: ''
 start-date: ''

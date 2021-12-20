@@ -24,6 +24,7 @@ fields:
 - field: wildlife
 key-field: ''
 name: Wildlife
+paint-options: ''
 plural: Wildlife
 prefix: ''
 start-date: ''

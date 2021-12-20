@@ -24,6 +24,7 @@ fields:
 - field: historic-stone-quarry
 key-field: ''
 name: Historic stone quarry
+paint-options: ''
 plural: Historic stone quarries
 prefix: ''
 start-date: ''

@@ -24,6 +24,7 @@ fields:
 - field: safety-hazard-area
 key-field: ''
 name: Safety hazard area
+paint-options: ''
 plural: Safety hazard areas
 prefix: ''
 start-date: ''

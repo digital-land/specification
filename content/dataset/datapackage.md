@@ -16,6 +16,7 @@ fields:
 - field: text
 key-field: ''
 name: Data package
+paint-options: ''
 plural: Data packages
 prefix: ''
 start-date: ''

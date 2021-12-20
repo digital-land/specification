@@ -18,6 +18,7 @@ fields:
 - field: value
 key-field: ''
 name: Issue
+paint-options: ''
 plural: Issues
 prefix: ''
 start-date: ''

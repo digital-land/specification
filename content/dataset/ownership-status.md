@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Ownership status
+paint-options: ''
 plural: Ownership statuses
 prefix: ''
 start-date: ''

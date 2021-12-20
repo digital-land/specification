@@ -24,6 +24,7 @@ fields:
 - field: transport-under-tcpa-route
 key-field: ''
 name: Transport (under TCPA route)
+paint-options: ''
 plural: Transport (under TCPA route)
 prefix: ''
 start-date: ''

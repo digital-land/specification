@@ -27,6 +27,7 @@ fields:
 - field: biodiversity-net-gain-assessment
 key-field: ''
 name: Biodiversity net gain assesment
+paint-options: ''
 plural: Biodiversity net gain assesments
 prefix: ''
 start-date: ''

@@ -27,6 +27,7 @@ fields:
 - field: special-protection-area
 key-field: ''
 name: Special protection area
+paint-options: ''
 plural: Special protection areas
 prefix: ''
 start-date: ''

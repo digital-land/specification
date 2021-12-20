@@ -28,6 +28,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Government organisation
+paint-options: ''
 plural: Government organisations
 prefix: government-organisation
 start-date: ''

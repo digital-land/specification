@@ -24,6 +24,7 @@ fields:
 - field: archaelogy-area-type
 key-field: ''
 name: Archaelogy area type
+paint-options: ''
 plural: Archaelogy area types
 prefix: ''
 start-date: ''

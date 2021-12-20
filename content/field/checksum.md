@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'The MD5 checksum of a resource or file'
+description: The MD5 checksum of a resource or file
 end-date: ''
 entry-date: ''
 field: checksum

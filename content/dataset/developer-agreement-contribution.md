@@ -19,6 +19,7 @@ fields:
 - field: units
 key-field: ''
 name: Developer agreement contribution
+paint-options: ''
 plural: Developer agreement contributions
 prefix: ''
 start-date: ''

@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Planning permission type
+paint-options: ''
 plural: Planning permission types
 prefix: ''
 start-date: ''

@@ -24,6 +24,7 @@ fields:
 - field: public-safety-zone-around-airport
 key-field: ''
 name: Public safety zone around airport
+paint-options: ''
 plural: Public safety zones around airports
 prefix: ''
 start-date: ''

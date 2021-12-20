@@ -22,6 +22,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development plan document
+paint-options: ''
 plural: Development plan documents
 prefix: ''
 start-date: ''

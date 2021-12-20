@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Category
+paint-options: ''
 plural: Categories
 prefix: ''
 start-date: ''

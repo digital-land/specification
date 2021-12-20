@@ -16,6 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline filter
+paint-options: ''
 plural: Pipeline filters
 prefix: ''
 start-date: ''

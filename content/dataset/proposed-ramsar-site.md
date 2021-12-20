@@ -24,6 +24,7 @@ fields:
 - field: proposed-ramsar-site
 key-field: ''
 name: Proposed ramsar site
+paint-options: ''
 plural: Proposed ramsar sites
 prefix: ''
 start-date: ''

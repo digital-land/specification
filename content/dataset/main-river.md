@@ -24,6 +24,7 @@ fields:
 - field: main-river
 key-field: ''
 name: Main river
+paint-options: ''
 plural: Main rivers
 prefix: ''
 start-date: ''

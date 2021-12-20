@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Listed building grade
+paint-options: ''
 plural: Listed building grades
 prefix: ''
 start-date: ''

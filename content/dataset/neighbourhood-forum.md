@@ -1,5 +1,5 @@
 ---
-collection:
+collection: ''
 dataset: neighbourhood-forum
 description: ''
 end-date: ''
@@ -22,6 +22,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Designated neighbourhood forum
+paint-options: ''
 plural: Designated neighbourhood forums
 prefix: ''
 start-date: ''

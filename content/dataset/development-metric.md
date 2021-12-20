@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development metric
+paint-options: ''
 plural: Development metrics
 prefix: ''
 start-date: ''

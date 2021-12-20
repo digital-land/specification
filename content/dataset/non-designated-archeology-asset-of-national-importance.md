@@ -24,6 +24,7 @@ fields:
 - field: non-designated-archeology-asset-of-national-importance
 key-field: ''
 name: Non-designated archeology asset of national importance
+paint-options: ''
 plural: Non-designated archeology assets of national importance
 prefix: ''
 start-date: ''

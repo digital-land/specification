@@ -17,6 +17,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Green belt urban core
+paint-options: ''
 plural: Green belt urban cores
 prefix: wikidata
 start-date: ''

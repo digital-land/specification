@@ -24,6 +24,7 @@ fields:
 - field: flood-zone-3
 key-field: ''
 name: Flood zone 3
+paint-options: ''
 plural: Flood zones 3
 prefix: ''
 start-date: ''

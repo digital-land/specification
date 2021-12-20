@@ -24,6 +24,7 @@ fields:
 - field: heritage-action-zone
 key-field: ''
 name: Heritage action zone
+paint-options: ''
 plural: Heritage action zones
 prefix: ''
 start-date: ''

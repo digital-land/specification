@@ -21,6 +21,7 @@ fields:
 - field: parish
 key-field: ''
 name: Civil parish
+paint-options: ''
 plural: Civil parishes
 prefix: statistical-geography
 start-date: ''

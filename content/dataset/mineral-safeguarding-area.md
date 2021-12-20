@@ -24,6 +24,7 @@ fields:
 - field: mineral-safeguarding-area
 key-field: ''
 name: Mineral safeguarding area
+paint-options: ''
 plural: Mineral safeguarding areas
 prefix: ''
 start-date: ''

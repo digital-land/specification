@@ -16,8 +16,10 @@ fields:
 - field: row-number
 - field: start-date
 - field: value
+- field: lookup
 key-field: ''
 name: Pipeline lookup
+paint-options: ''
 plural: Pipeline lookups
 prefix: ''
 start-date: ''

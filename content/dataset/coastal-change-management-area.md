@@ -24,6 +24,7 @@ fields:
 - field: coastal-change-management-area
 key-field: ''
 name: Coastal change management area
+paint-options: ''
 plural: Coastal change management areas
 prefix: ''
 start-date: ''

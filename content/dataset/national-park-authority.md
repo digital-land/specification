@@ -28,6 +28,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: National park authority
+paint-options: ''
 plural: National park authorities
 prefix: wikidata
 start-date: ''

@@ -20,6 +20,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Ramsar area
+paint-options: ''
 plural: Ramsar area
 prefix: ''
 start-date: ''

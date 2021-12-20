@@ -17,6 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Project
+paint-options: ''
 plural: Projects
 prefix: ''
 start-date: ''

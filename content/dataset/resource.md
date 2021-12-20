@@ -17,6 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Resource
+paint-options: ''
 plural: Resources
 prefix: ''
 start-date: ''

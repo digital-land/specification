@@ -18,6 +18,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Green belt
+paint-options: ''
 plural: Green belt
 prefix: ''
 start-date: ''

@@ -14,6 +14,7 @@ fields:
 - field: start-date
 key-field: ''
 name: CURIE prefix
+paint-options: ''
 plural: CURIE prefixes
 prefix: ''
 start-date: ''

@@ -27,6 +27,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Dataset
+paint-options: ''
 plural: Datasets
 prefix: ''
 start-date: ''

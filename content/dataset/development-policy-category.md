@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Development policy category
+paint-options: ''
 plural: Development policy categories
 prefix: ''
 start-date: ''

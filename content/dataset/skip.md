@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline skip
+paint-options: ''
 plural: Pipeline skips
 prefix: ''
 start-date: ''

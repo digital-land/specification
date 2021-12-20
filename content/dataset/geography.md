@@ -23,6 +23,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Geography
+paint-options: ''
 plural: Geographies
 prefix: ''
 start-date: ''

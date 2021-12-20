@@ -24,6 +24,7 @@ fields:
 - field: suitable-alternative-green-space
 key-field: ''
 name: Suitable alternative green space
+paint-options: ''
 plural: Suitable alternative green spaces
 prefix: ''
 start-date: ''

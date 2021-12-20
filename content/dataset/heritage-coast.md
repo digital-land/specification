@@ -24,6 +24,7 @@ fields:
 - field: heritage-coast
 key-field: ''
 name: Heritage coast
+paint-options: ''
 plural: Heritage coast
 prefix: ''
 start-date: ''

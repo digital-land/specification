@@ -26,6 +26,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Company
+paint-options: ''
 plural: Companies
 prefix: ''
 start-date: ''

@@ -16,6 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Endpoint
+paint-options: ''
 plural: Endpoints
 prefix: ''
 start-date: ''

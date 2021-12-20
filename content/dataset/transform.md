@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline transformation
+paint-options: ''
 plural: Transformations
 prefix: ''
 start-date: ''

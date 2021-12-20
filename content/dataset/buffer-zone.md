@@ -24,6 +24,7 @@ fields:
 - field: buffer-zone
 key-field: ''
 name: Buffer zone
+paint-options: ''
 plural: Buffer zones
 prefix: ''
 start-date: ''

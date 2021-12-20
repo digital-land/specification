@@ -24,6 +24,7 @@ fields:
 - field: safeguarded-wharf
 key-field: ''
 name: Safeguarded wharf
+paint-options: ''
 plural: Safeguarded wharves
 prefix: ''
 start-date: ''

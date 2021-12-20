@@ -20,6 +20,7 @@ fields:
 - field: typology
 key-field: ''
 name: Entity
+paint-options: ''
 plural: Entities
 prefix: ''
 start-date: ''

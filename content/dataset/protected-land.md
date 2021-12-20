@@ -24,6 +24,7 @@ fields:
 - field: protected-land
 key-field: ''
 name: Protected land
+paint-options: ''
 plural: Protected land
 prefix: ''
 start-date: ''

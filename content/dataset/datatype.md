@@ -15,6 +15,7 @@ fields:
 - field: text
 key-field: ''
 name: Datatype
+paint-options: ''
 plural: Datatypes
 prefix: ''
 start-date: ''

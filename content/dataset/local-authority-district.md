@@ -24,6 +24,7 @@ fields:
 - field: local-authority-district
 key-field: ''
 name: Local authority district
+paint-options: ''
 plural: Local authority districts
 prefix: statistical-geography
 start-date: ''

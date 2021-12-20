@@ -24,6 +24,7 @@ fields:
 - field: contaminated-land
 key-field: ''
 name: Contaminated land
+paint-options: ''
 plural: Contaminated land
 prefix: ''
 start-date: ''

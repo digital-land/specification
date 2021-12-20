@@ -16,6 +16,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Pipeline default value
+paint-options: ''
 plural: Pipleline default values
 prefix: ''
 start-date: ''

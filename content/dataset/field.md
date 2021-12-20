@@ -22,6 +22,7 @@ fields:
 - field: wikidata-property
 key-field: ''
 name: Field
+paint-options: ''
 plural: Fields
 prefix: ''
 start-date: ''

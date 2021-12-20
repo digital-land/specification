@@ -27,6 +27,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Waste disposal authority
+paint-options: ''
 plural: Waste authorities
 prefix: wikidata
 start-date: ''

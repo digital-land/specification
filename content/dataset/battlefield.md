@@ -24,6 +24,7 @@ fields:
 - field: battlefield
 key-field: ''
 name: Battlefield
+paint-options: ''
 plural: Battlefields
 prefix: ''
 start-date: ''

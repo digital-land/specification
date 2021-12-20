@@ -17,6 +17,7 @@ fields:
 - field: tree-preservation-type
 key-field: ''
 name: Tree preservation type
+paint-options: ''
 plural: Tree preservation types
 prefix: ''
 start-date: ''

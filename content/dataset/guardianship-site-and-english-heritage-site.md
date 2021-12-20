@@ -24,6 +24,7 @@ fields:
 - field: guardianship-site-and-english-heritage-site
 key-field: ''
 name: Guardianship site and English heritage site
+paint-options: ''
 plural: Guardianship sites and English heritage sites
 prefix: ''
 start-date: ''

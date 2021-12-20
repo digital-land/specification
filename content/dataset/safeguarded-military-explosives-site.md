@@ -24,6 +24,7 @@ fields:
 - field: safeguarded-military-explosives-site
 key-field: ''
 name: Safeguarded military explosives site
+paint-options: ''
 plural: Safeguarded military explosives sites
 prefix: ''
 start-date: ''

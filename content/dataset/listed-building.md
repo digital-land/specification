@@ -22,6 +22,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Listed building
+paint-options: ''
 plural: Listed buildings
 prefix: ''
 start-date: ''

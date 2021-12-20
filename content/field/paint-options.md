@@ -1,7 +1,8 @@
 ---
 cardinality: '1'
 datatype: json
-description: 'Colour, opacity and other paint options for displaying the dataset on a map'
+description: Colour, opacity and other paint options for displaying the dataset on
+  a map
 end-date: ''
 entry-date: ''
 field: paint-options

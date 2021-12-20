@@ -19,6 +19,7 @@ fields:
 - field: wikipedia
 key-field: ''
 name: Ramsar site
+paint-options: ''
 plural: Ramsar sites
 prefix: ''
 start-date: ''

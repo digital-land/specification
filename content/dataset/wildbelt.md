@@ -24,6 +24,7 @@ fields:
 - field: wildbelt
 key-field: ''
 name: Wildbelt
+paint-options: ''
 plural: Wildbelts
 prefix: ''
 start-date: ''

@@ -24,6 +24,7 @@ fields:
 - field: common-land-and-village-green
 key-field: ''
 name: Common land and village green
+paint-options: ''
 plural: Common land and village greens
 prefix: ''
 start-date: ''

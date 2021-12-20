@@ -24,6 +24,7 @@ fields:
 - field: certificate-of-immunity
 key-field: ''
 name: Certificate of immunity
+paint-options: ''
 plural: Certificates of immunity
 prefix: ''
 start-date: ''

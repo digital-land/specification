@@ -24,6 +24,7 @@ fields:
 - field: metropolitan-open-land
 key-field: ''
 name: Metropolitan open land
+paint-options: ''
 plural: Metropolitan open land
 prefix: ''
 start-date: ''

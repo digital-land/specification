@@ -27,6 +27,7 @@ fields:
 - field: planning-decision
 key-field: ''
 name: Planning decision
+paint-options: ''
 plural: Planning decisions
 prefix: ''
 start-date: ''

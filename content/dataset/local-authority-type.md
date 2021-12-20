@@ -15,6 +15,7 @@ fields:
 - field: start-date
 key-field: ''
 name: Local authority type
+paint-options: ''
 plural: Local authority types
 prefix: ''
 start-date: ''

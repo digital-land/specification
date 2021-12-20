@@ -24,6 +24,7 @@ fields:
 - field: nature-improvement-area
 key-field: ''
 name: Nature improvement area
+paint-options: ''
 plural: Nature improvement areas
 prefix: ''
 start-date: ''

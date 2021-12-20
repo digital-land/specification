@@ -24,6 +24,7 @@ fields:
 - field: control-of-major-accident-hazards-site
 key-field: ''
 name: Control of major accident hazards site
+paint-options: ''
 plural: Control of major accident hazards sites
 prefix: ''
 start-date: ''

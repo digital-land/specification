@@ -24,6 +24,7 @@ fields:
 - field: employment-allocation
 key-field: ''
 name: Employment allocation
+paint-options: ''
 plural: Employment allocations
 prefix: ''
 start-date: ''

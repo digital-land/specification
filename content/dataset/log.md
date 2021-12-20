@@ -18,6 +18,7 @@ fields:
 - field: status
 key-field: ''
 name: Collection log
+paint-options: ''
 plural: Collection logs
 prefix: ''
 start-date: ''

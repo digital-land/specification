@@ -24,6 +24,7 @@ fields:
 - field: central-activities-zone
 key-field: ''
 name: Central activities zone
+paint-options: ''
 plural: Central activities zone
 prefix: ''
 start-date: ''
