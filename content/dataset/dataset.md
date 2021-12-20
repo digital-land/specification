@@ -16,6 +16,7 @@ fields:
 - field: entity-minimum
 - field: entity-maximum
 - field: name
+- field: paint-options
 - field: plural
 - field: prefix
 - field: start-date
