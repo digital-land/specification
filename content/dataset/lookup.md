@@ -8,6 +8,7 @@ entity-minimum: '9500000'
 entry-date: ''
 fields:
 - field: end-date
+- field: entity
 - field: entry-date
 - field: organisation
 - field: pipeline
