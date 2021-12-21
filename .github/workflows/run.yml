@@ -46,8 +46,14 @@ jobs:
     - name: Install dependencies
       run: make init
 
+    - name: Build specification
+      run: make specification
+
     - name: Check specification
       run: make check
+
+    - name: Commit specification
+      run: make commit-specification
 
     - name: Build docs
       run: make render

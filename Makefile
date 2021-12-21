@@ -84,7 +84,9 @@ DATAPACKAGE_CSV=specification/datapackage.csv
 specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-dataset.py
 	python3 bin/datapackage-dataset.py $@
 
-
+commit-specification::
+	git add specification
+	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt specification $(shell date +%F)"; git push origin $(BRANCH))
 
 clean clobber::
 	rm specification/*.csv
