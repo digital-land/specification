@@ -18,8 +18,8 @@ article-4-direction,article-4-direction,,,,,1100000,1199999,Article 4 direction,
 historic-england,battlefield,,,,,1400000,1499999,Battlefield,"{ ""colour"": ""#4d2942"", ""opacity"": 0.2 }",Battlefields,,,,heritage,geography,Q4895508,Battlefield
 ,best-and-most-versatile-agricultural-land,,,,,1500000,1599999,Best and most versatile agricultural land,,Best and most versatile agricultural land,,,,environment,geography,,
 ,biodiversity-net-gain-assessment,,,,,1600000,1699999,Biodiversity net gain assesment,,Biodiversity net gain assesments,,,,environment,document,,
-brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,Brownfield land,"{ ""colour"": ""#745729"" }",Brownfield land,,,,development,geography,Q896586,Brownfield_land
-brownfield-site,brownfield-site,,,,,1800000,1899999,Brownfield site,,Brownfield sites,,,,development,geography,Q896586,Brownfield_land
+brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,,,,development,geography,Q896586,Brownfield_land
+brownfield-site,brownfield-site,,,,,1800000,1899999,Brownfield site,"{ ""colour"": ""#745729"" }",Brownfield sites,,,,development,geography,Q896586,Brownfield_land
 ,buffer-zone,,,,,1900000,1999999,Buffer zone,,Buffer zones,,,,heritage,geography,,
 historic-england,building-preservation-notice,,,,,2000000,2099999,Building preservation notice,"{ ""colour"": ""#f944c7"" }",Building preservation notices,,,,development,geography,Q98785867,Listed_building#England_and_Wales
 ,category,,,,,2100000,2199999,Category,,Categories,,,,specification,category,,
@@ -88,7 +88,7 @@ organisation,internal-drainage-board,,,,,8200000,8299999,Internal drainage board
 ,issue,,,,,8300000,8399999,Issue,,Issues,,,,specification,specification,,
 ,licence,,,,,8400000,8499999,Licence,,Licences,,,,specification,category,Q7257461,Public_copyright_license
 listed-building,listed-building-grade,,,,,700000,799999,Listed building grade,,Listed building grades,,,,heritage,category,Q30634609,Listed_building
-listed-building,listed-building,,,,,31100000,41099999,Listed building,"{ ""colour"": ""#F9C744"" }",Listed buildings,,,,heritage,geography,Q570600,Listed_building
+listed-building,listed-building,,,,,31100000,41099999,Listed building,"{ ""colour"": ""#F9C744"", ""type"": ""point"" }",Listed buildings,,,,heritage,geography,Q570600,Listed_building
 local-authority-district,local-authority-district,,,,,8600000,8699999,Local authority district,"{""colour"": ""#0b0c0c"", ""opacity"": ""0.1"", ""weight"": 5}",Local authority districts,statistical-geography,,,administrative,geography,Q349084,Districts_of_England
 organisation,local-authority-eng,,,,,8700000,8799999,Local authority,,Local authorities,local-authority-eng,,,administrative,organisation,Q171634,Local_government_in_England
 ,local-authority-type,,,,,8800000,8899999,Local authority type,,Local authority types,,,,administrative,category,,
@@ -103,7 +103,7 @@ organisation,local-authority-eng,,,,,8700000,8799999,Local authority,,Local auth
 ,metropolitan-open-land,,,,,9700000,9799999,Metropolitan open land,,Metropolitan open land,,,,environment,geography,Q16997686,Metropolitan_Open_Land
 ,mineral-safeguarding-area,,,,,9800000,9899999,Mineral safeguarding area,,Mineral safeguarding areas,,,,environment,geography,,
 organisation,national-park-authority,,,,,9900000,9999999,National park authority,,National park authorities,wikidata,,,administrative,organisation,Q3336962,National_park_authority
-national-park,national-park,,,,,10000000,10099999,National park,,National parks,,,,heritage,geography,Q60256727,National_park
+national-park,national-park,,,,,10000000,10099999,National park,"{ ""colour"": ""#3DA52C"" }",National parks,,,,heritage,geography,Q60256727,National_park
 ,nature-improvement-area,,,,,10100000,10199999,Nature improvement area,,Nature improvement areas,,,,environment,geography,Q6980918,Nature_Improvement_Area
 ,neighbourhood-forum,,,,,10200000,10299999,Designated neighbourhood forum,,Designated neighbourhood forums,,,,administrative,organisation,,
 ,non-designated-and-locally-listed-historic-asset,,,,,10300000,10399999,Non-designated and locally listed historic asset,,Non-designated and locally listed historic assets,,,,heritage,geography,,
@@ -136,7 +136,7 @@ historic-england,protected-wreck-site,,,,,12800000,12899999,Protected wreck site
 organisation,public-authority,,,,,13000000,13099999,Public authority,,Public authorities,wikidata,,,administrative,organisation,,
 ,public-safety-zone-around-airport,,,,,13100000,13199999,Public safety zone around airport,,Public safety zones around airports,,,,transport,geography,,
 ramsar,ramsar-site,,,,,13200000,13299999,Ramsar site,"{ ""colour"": ""#7fcdff"" }",Ramsar sites,,,,environment,geography,Q19683138,Ramsar_site
-ramsar,ramsar,,,,,612001,619999,Ramsar area,,Ramsar area,,,,environment,geography,,
+ramsar,ramsar,,,,,612001,619999,Ramsar area,"{ ""colour"": ""#8A8251"" }",Ramsar area,,,,environment,geography,,
 region,region,,,,,30100000,31099999,Region,,Regions,statistical-geography,,,administrative,geography,Q48091,Regions_of_England
 organisation,regional-park-authority,,,,,13300000,13399999,Regional park authority,,Regional park authorities,wikidata,,,administrative,organisation,,
 ,resource,An index of collected resources,,,,13400000,13499999,Resource,,Resources,,,,specification,specification,,
@@ -161,13 +161,13 @@ special-area-of-conservation,special-area-of-conservation,,,,,14800000,14899999,
 ,transform,,,,,15200000,15299999,Pipeline transformation,,Transformations,,,,specification,specification,,
 organisation,transport-authority,,,,,15300000,15399999,Passenger transport executive,,Passenger transport executive,wikidata,,,administrative,organisation,Q514989,Passenger_transport_executive
 ,transport-under-tcpa-route,,,,,15400000,15499999,Transport (under TCPA route),,Transport (under TCPA route),,,,transport,geography,,
-tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,Tree preservation order,,Tree preservation orders,,,,environment,geography,,
+tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,Tree preservation order,"{ ""colour"": ""#3B453D"" }",Tree preservation orders,,,,environment,geography,,
 ,tree-preservation-type,Types of preservation order,,,,18100000,19099999,Tree preservation type,,Tree preservation types,,,,environment,category,,
 tree-preservation-order,tree-preservation-zone,An area covered by a tree preservation order,,,,19100000,29099999,Tree preservation zone,,Trees preservation zones,,,,environment,geography,Q10884,Tree
-tree-preservation-order,tree,An individual tree,,,,7002000000,9999999999,Tree,,Trees,,,,environment,geography,Q10884,Tree
+tree-preservation-order,tree,An individual tree,,,,7002000000,9999999999,Tree,"{ ""colour"": ""#3B453D"", ""type"": ""point"" }",Trees,,,,environment,geography,Q10884,Tree
 ,typology,,,,,15600000,15699999,Typology,,Typologies,,,,specification,specification,,
 ,use-class-order,,,,,15700000,15799999,Use class order,,Use class orders,,,,development,category,,
 organisation,waste-authority,,,,,15800000,15899999,Waste disposal authority,,Waste authorities,wikidata,,,administrative,organisation,Q7972817,Waste_disposal_authority
 ,wildbelt,,,,,15900000,15999999,Wildbelt,,Wildbelts,,,,environment,geography,,
 ,wildlife,,,,,16000000,16099999,Wildlife,,Wildlife,,,,environment,geography,,
-historic-england,world-heritage-site,,,,,16100000,16199999,World heritage site,"{ ""colour"": ""#012169"" }",World heritage sites,,,,heritage,geography,Q9259,World_Heritage_Site
+historic-england,world-heritage-site,,,,,16100000,16199999,World heritage site,"{ ""colour"": ""#EB1EE5"" }",World heritage sites,,,,heritage,geography,Q9259,World_Heritage_Site
