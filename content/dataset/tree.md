@@ -25,7 +25,7 @@ fields:
 - field: tree-preservation-order-tree
 key-field: ''
 name: Tree
-paint-options: ''
+paint-options: '{ "colour": "#3B453D", "type": "point" }'
 plural: Trees
 prefix: ''
 start-date: ''
