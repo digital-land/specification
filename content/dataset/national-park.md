@@ -17,7 +17,7 @@ fields:
 - field: start-date
 key-field: ''
 name: National park
-paint-options: ''
+paint-options: '{ "colour": "#3DA52C" }'
 plural: National parks
 prefix: ''
 start-date: ''

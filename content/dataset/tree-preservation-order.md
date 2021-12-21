@@ -23,7 +23,7 @@ fields:
 - field: tree-preservation-order
 key-field: ''
 name: Tree preservation order
-paint-options: ''
+paint-options: '{ "colour": "#3B453D" }'
 plural: Tree preservation orders
 prefix: ''
 start-date: ''

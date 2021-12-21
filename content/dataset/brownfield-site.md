@@ -24,7 +24,7 @@ fields:
 - field: brownfield-site
 key-field: ''
 name: Brownfield site
-paint-options: ''
+paint-options: '{ "colour": "#745729" }'
 plural: Brownfield sites
 prefix: ''
 start-date: ''
