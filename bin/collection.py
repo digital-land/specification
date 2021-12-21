@@ -13,6 +13,7 @@ w.writeheader()
 seen = {}
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
     row["schema"] = row["dataset"]
+    row["name"] = row["collection"].replace("-", " ").capitalize()
     if row.get("collection", None) and row["collection"] not in seen:
         w.writerow(row)
         seen[row["collection"]] = True
