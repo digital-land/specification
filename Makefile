@@ -89,4 +89,4 @@ commit-specification::
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt specification $(shell date +%F)"; git push origin $(BRANCH))
 
 clean clobber::
-	rm specification/*.csv
+	rm -f specification/*.csv

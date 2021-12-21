@@ -43,6 +43,9 @@ jobs:
     - name: Commit updated makerules
       run: make commit-makerules
 
+    - name: Clean specification and docs
+      run: make clean clobber
+
     - name: Install dependencies
       run: make init
 
