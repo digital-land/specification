@@ -159,6 +159,7 @@ n,curie,,,,geographies,Geography,geography,,,geography,,
 1,text,,,,licence,Licence,text,,,value,,
 1,integer,A count of the number of lines in a resource or file,,,line-count,Line count,number,,,value,,
 1,string,,,,listed-building-grade,Listed building grade,category,,,category,,P1435
+1,string,,,,listed-building-outline,Listed building outline,geography,,,geography,,
 1,string,,,,listed-building,Listed building,geography,,,geography,,
 1,string,,,,local-authority-district,Local Authority District,statistical-geography,,,geography,,
 1,string,,,,local-authority-eng,Local authority (England),organisation,,,organisation,,

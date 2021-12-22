@@ -88,6 +88,7 @@ organisation,internal-drainage-board,,,,,8200000,8299999,Internal drainage board
 ,issue,,,,,8300000,8399999,Issue,,Issues,,,,specification,specification,,
 ,licence,,,,,8400000,8499999,Licence,,Licences,,,,specification,category,Q7257461,Public_copyright_license
 listed-building,listed-building-grade,,,,,700000,799999,Listed building grade,,Listed building grades,,,,heritage,category,Q30634609,Listed_building
+listed-building,listed-building-outline,boundary of a listed building,,,,42100000,43099999,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,,,Listed building outlines collected from local planning authority. We expect to merge these with the listed building.,heritage,geography,Q570600,Listed_building
 listed-building,listed-building,,,,,31100000,41099999,Listed building,"{ ""colour"": ""#F9C744"", ""type"": ""point"" }",Listed buildings,,,,heritage,geography,Q570600,Listed_building
 local-authority-district,local-authority-district,,,,,8600000,8699999,Local authority district,"{""colour"": ""#0b0c0c"", ""opacity"": ""0.1"", ""weight"": 5}",Local authority districts,statistical-geography,,,administrative,geography,Q349084,Districts_of_England
 organisation,local-authority-eng,,,,,8700000,8799999,Local authority,,Local authorities,local-authority-eng,,,administrative,organisation,Q171634,Local_government_in_England
