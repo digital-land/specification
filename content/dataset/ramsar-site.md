@@ -25,7 +25,7 @@ prefix: ''
 start-date: ''
 themes:
 - environment
-typology: geography
+typology: category
 wikidata: Q19683138
 wikipedia: Ramsar_site
 ---
