@@ -1,7 +1,7 @@
 ---
 collection: listed-building
 dataset: locally-listed-building
-description: 'locally listed heritage assets, including buildings'
+description: locally listed heritage assets, including buildings
 end-date: ''
 entity-maximum: '42099999'
 entity-minimum: '41100000'
