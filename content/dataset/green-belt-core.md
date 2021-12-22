@@ -23,7 +23,7 @@ prefix: wikidata
 start-date: ''
 themes:
 - environment
-typology: geography
+typology: category
 wikidata: Q2734873
 wikipedia: Green_belt_(United_Kingdom)
 ---
