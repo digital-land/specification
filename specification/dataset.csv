@@ -72,7 +72,7 @@ employment-allocation,employment-allocation,,,,,5900000,5999999,Employment alloc
 ,geography,,,,,6700000,6799999,Geography,,Geographies,,,,,geography,,
 ,geometry,Geometry index,,,entity,6800000,6899999,Geometry,,Geometries,,,,specification,value,,
 organisation,government-organisation,,,,,6900000,6999999,Government organisation,,Government organisations,government-organisation,,,administrative,organisation,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
-green-belt,green-belt-core,,,,,7000000,7099999,Green belt urban core,,Green belt urban cores,wikidata,,,environment,geography,Q2734873,Green_belt_(United_Kingdom)
+green-belt,green-belt-core,,,,,7000000,7099999,Green belt urban core,,Green belt urban cores,wikidata,,,environment,category,Q2734873,Green_belt_(United_Kingdom)
 green-belt,green-belt,,,,,7100000,7199999,Green belt,"{ ""colour"": ""#85994b"" }",Green belt,,,,environment,geography,Q2734873,Green_belt_(United_Kingdom)
 ,guardianship-site-and-english-heritage-site,,,,,7200000,7299999,Guardianship site and English heritage site,,Guardianship sites and English heritage sites,,,,heritage,geography,,
 ,gypsy-and-traveller-site,,,,,7300000,7399999,Gypsy and traveller site,,Gypsy and traveller sites,,,,development,geography,Q74497345,
@@ -94,6 +94,7 @@ organisation,local-authority-eng,,,,,8700000,8799999,Local authority,,Local auth
 ,local-authority-type,,,,,8800000,8899999,Local authority type,,Local authority types,,,,administrative,category,,
 ,local-green-space,,,,,8900000,8999999,Local green space,,Local green spaces,,,,environment,geography,,
 ,local-nature-recovery-strategy,,,,,9000000,9099999,Local nature recovery strategy,,Local nature recovery strategies,,,,environment,geography,,
+listed-building,locally-listed-building,,,,,41100000,42099999,Locally listed building,"{ ""colour"": ""#F9C744"" }",Locally listed buildings,,,,heritage,geography,Q570600,Listed_building
 ,log,,,,,9100000,9199999,Collection log,,Collection logs,,,,specification,specification,,
 ,london-square,,,,,9200000,9299999,London square,,London squares,,,,heritage,geography,Q7582093,Squares_in_London
 ,long-established-woodland,,,,,9300000,9399999,Long established woodland,,Long established woodlands,,,,environment,geography,,
@@ -135,7 +136,7 @@ historic-england,protected-wreck-site,,,,,12800000,12899999,Protected wreck site
 ,provenance,,,,,12900000,12999999,Provenance,,Provenance,,,,specification,specification,,
 organisation,public-authority,,,,,13000000,13099999,Public authority,,Public authorities,wikidata,,,administrative,organisation,,
 ,public-safety-zone-around-airport,,,,,13100000,13199999,Public safety zone around airport,,Public safety zones around airports,,,,transport,geography,,
-ramsar,ramsar-site,,,,,13200000,13299999,Ramsar site,"{ ""colour"": ""#7fcdff"" }",Ramsar sites,,,,environment,geography,Q19683138,Ramsar_site
+ramsar,ramsar-site,,,,,13200000,13299999,Ramsar site,"{ ""colour"": ""#7fcdff"" }",Ramsar sites,,,,environment,category,Q19683138,Ramsar_site
 ramsar,ramsar,,,,,612001,619999,Ramsar area,"{ ""colour"": ""#8A8251"" }",Ramsar area,,,,environment,geography,,
 region,region,,,,,30100000,31099999,Region,,Regions,statistical-geography,,,administrative,geography,Q48091,Regions_of_England
 organisation,regional-park-authority,,,,,13300000,13399999,Regional park authority,,Regional park authorities,wikidata,,,administrative,organisation,,
@@ -161,7 +162,7 @@ special-area-of-conservation,special-area-of-conservation,,,,,14800000,14899999,
 ,transform,,,,,15200000,15299999,Pipeline transformation,,Transformations,,,,specification,specification,,
 organisation,transport-authority,,,,,15300000,15399999,Passenger transport executive,,Passenger transport executive,wikidata,,,administrative,organisation,Q514989,Passenger_transport_executive
 ,transport-under-tcpa-route,,,,,15400000,15499999,Transport (under TCPA route),,Transport (under TCPA route),,,,transport,geography,,
-tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,Tree preservation order,"{ ""colour"": ""#3B453D"" }",Tree preservation orders,,,,environment,geography,,
+tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,Tree preservation order,,Tree preservation orders,,,,environment,legal-instrument,,
 ,tree-preservation-type,Types of preservation order,,,,18100000,19099999,Tree preservation type,,Tree preservation types,,,,environment,category,,
 tree-preservation-order,tree-preservation-zone,An area covered by a tree preservation order,,,,19100000,29099999,Tree preservation zone,,Trees preservation zones,,,,environment,geography,Q10884,Tree
 tree-preservation-order,tree,An individual tree,,,,7002000000,9999999999,Tree,"{ ""colour"": ""#3B453D"", ""type"": ""point"" }",Trees,,,,environment,geography,Q10884,Tree
