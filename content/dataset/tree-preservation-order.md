@@ -12,24 +12,22 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geometry
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
-- field: point
 - field: reference
 - field: start-date
 - field: tree-preservation-order
 key-field: ''
 name: Tree preservation order
-paint-options: '{ "colour": "#3B453D" }'
+paint-options:
 plural: Tree preservation orders
 prefix: ''
 start-date: ''
 themes:
 - environment
-typology: geography
+typology: legal-instrument
 wikidata: ''
 wikipedia: ''
 ---
