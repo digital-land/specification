@@ -1,10 +1,10 @@
 ---
 collection: listed-building
-dataset: listed-building
+dataset: locally-listed-building
 description: ''
 end-date: ''
-entity-maximum: '41099999'
-entity-minimum: '31100000'
+entity-maximum: '42099999'
+entity-minimum: '41100000'
 entry-date: ''
 fields:
 - field: documentation-url
@@ -12,8 +12,8 @@ fields:
 - field: entity
 - field: entry-date
 - field: geometry
-- field: listed-building
 - field: listed-building-grade
+- field: locally-listed-building
 - field: name
 - field: point
 - field: reference
@@ -21,9 +21,9 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
-name: Listed building
-paint-options: '{ "colour": "#F9C744", "type": "point" }'
-plural: Listed buildings
+name: Locally listed building
+paint-options: '{ "colour": "#F9C744" }'
+plural: Locally listed buildings
 prefix: ''
 start-date: ''
 themes:

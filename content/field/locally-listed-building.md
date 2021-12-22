@@ -1,15 +1,15 @@
 ---
 cardinality: '1'
 datatype: string
-description: Lookup entities
+description: ''
 end-date: ''
 entry-date: ''
-field: lookup
-name: Lookup
-parent-field: specification
+field: locally-listed-building
+name: Locally listed building
+parent-field: geography
 replacement-field: ''
 start-date: ''
-typology: specification
+typology: geography
 uri-template: ''
 wikidata-property: ''
 ---
