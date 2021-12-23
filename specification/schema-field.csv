@@ -431,6 +431,7 @@ dataset-field,end-date
 dataset-field,entry-date
 dataset-field,field
 dataset-field,guidance
+dataset-field,hint
 dataset-field,dataset
 dataset-field,start-date
 dataset-schema,dataset
@@ -660,10 +661,13 @@ field,description
 field,end-date
 field,entry-date
 field,field
+field,guidance
+field,hint
 field,name
 field,parent-field
 field,replacement-field
 field,start-date
+field,text
 field,typology
 field,uri-template
 field,wikidata-property
