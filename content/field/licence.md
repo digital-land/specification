@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: licence
+guidance: ''
+hint: ''
 name: Licence
 parent-field: text
 replacement-field: ''

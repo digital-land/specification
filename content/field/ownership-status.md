@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: ownership-status
+guidance: ''
+hint: ''
 name: Ownership status
 parent-field: category
 replacement-field: ''

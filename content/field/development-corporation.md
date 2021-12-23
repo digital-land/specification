@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: development-corporation
+guidance: ''
+hint: ''
 name: Development corporation
 parent-field: organisation
 replacement-field: ''

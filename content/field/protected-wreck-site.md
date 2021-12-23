@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: protected-wreck-site
+guidance: ''
+hint: ''
 name: Protected wreck site
 parent-field: geography
 replacement-field: ''

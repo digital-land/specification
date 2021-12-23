@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: ramsar
+guidance: ''
+hint: ''
 name: Ramsar
 parent-field: geography
 replacement-field: ''

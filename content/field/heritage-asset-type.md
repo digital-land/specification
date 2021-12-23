@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: heritage-asset-type
+guidance: ''
+hint: ''
 name: Heritage asset type
 parent-field: category
 replacement-field: ''

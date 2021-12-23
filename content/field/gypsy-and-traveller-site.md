@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: gypsy-and-traveller-site
+guidance: ''
+hint: ''
 name: Gypsy and traveller site
 parent-field: geography
 replacement-field: ''

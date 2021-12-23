@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: documentation-url
+guidance: ''
+hint: ''
 name: Documentation URL
 parent-field: url
 replacement-field: ''

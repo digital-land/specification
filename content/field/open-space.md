@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: open-space
+guidance: ''
+hint: ''
 name: Open space
 parent-field: geography
 replacement-field: ''

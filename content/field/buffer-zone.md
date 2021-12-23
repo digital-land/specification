@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: buffer-zone
+guidance: ''
+hint: ''
 name: Buffer zone
 parent-field: geography
 replacement-field: ''

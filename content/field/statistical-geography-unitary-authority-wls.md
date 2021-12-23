@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: statistical-geography-unitary-authority-wls
+guidance: ''
+hint: ''
 name: Unitary authority statistical geography (Wales)
 parent-field: statistical-geography
 replacement-field: ''

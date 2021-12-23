@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: local-authority-nir
+guidance: ''
+hint: ''
 name: Local authority (Northern Ireland)
 parent-field: organisation
 replacement-field: ''

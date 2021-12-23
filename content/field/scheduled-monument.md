@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: scheduled-monument
+guidance: ''
+hint: ''
 name: Scheduled monument
 parent-field: geography
 replacement-field: ''

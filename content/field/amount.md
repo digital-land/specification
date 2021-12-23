@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: amount
+guidance: ''
+hint: ''
 name: Amount
 parent-field: number
 replacement-field: ''

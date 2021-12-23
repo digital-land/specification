@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: esd-inventory
+guidance: ''
+hint: ''
 name: ESD inventory
 parent-field: identifier
 replacement-field: ''

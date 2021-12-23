@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: brownfield-site
+guidance: ''
+hint: ''
 name: Brownfield Site
 parent-field: geography
 replacement-field: ''

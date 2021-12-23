@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: planning-application
+guidance: ''
+hint: ''
 name: Planning application
 parent-field: policy
 replacement-field: ''

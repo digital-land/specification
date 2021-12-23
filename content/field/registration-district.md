@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: registration-district
+guidance: ''
+hint: ''
 name: Registration district
 parent-field: geography
 replacement-field: ''

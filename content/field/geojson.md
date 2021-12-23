@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: geojson
+guidance: ''
+hint: ''
 name: GeoJSON data
 parent-field: json
 replacement-field: ''

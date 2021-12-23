@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: government-domain
+guidance: ''
+hint: ''
 name: Government domain
 parent-field: hostname
 replacement-field: ''

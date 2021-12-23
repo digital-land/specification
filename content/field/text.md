@@ -5,6 +5,8 @@ description: Markdown content describing the technical specification of a field
 end-date: ''
 entry-date: ''
 field: text
+guidance: ''
+hint: ''
 name: Text
 parent-field: string
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: key-field
+guidance: ''
+hint: ''
 name: Key field
 parent-field: field
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: blob
+guidance: ''
+hint: ''
 name: BLOB
 parent-field: value
 replacement-field: ''

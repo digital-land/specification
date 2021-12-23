@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: public-authority
+guidance: ''
+hint: ''
 name: Public authority
 parent-field: organisation
 replacement-field: ''

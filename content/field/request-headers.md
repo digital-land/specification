@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: request-headers
+guidance: ''
+hint: ''
 name: Request headers
 parent-field: json
 replacement-field: ''

@@ -6,6 +6,8 @@ description: The Multipurpose Internet Mail Extensions type assigned to a file o
 end-date: ''
 entry-date: ''
 field: mime-type
+guidance: ''
+hint: ''
 name: MIME Type
 parent-field: category
 replacement-field: ''

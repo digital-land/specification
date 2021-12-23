@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: register
+guidance: ''
+hint: ''
 name: Register
 parent-field: specification
 replacement-field: ''

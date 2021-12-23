@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: opendatacommunities-organisation
+guidance: ''
+hint: ''
 name: Open Data Communities organisation
 parent-field: url
 replacement-field: ''

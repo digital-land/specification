@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: listed-building-grade
+guidance: ''
+hint: ''
 name: Listed building grade
 parent-field: category
 replacement-field: ''

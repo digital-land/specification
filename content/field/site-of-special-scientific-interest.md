@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: site-of-special-scientific-interest
+guidance: ''
+hint: ''
 name: Site of special scientific interest
 parent-field: geography
 replacement-field: ''

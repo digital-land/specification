@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: resource
+guidance: ''
+hint: ''
 name: Resource
 parent-field: hash
 replacement-field: ''

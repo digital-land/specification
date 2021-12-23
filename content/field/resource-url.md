@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: resource-url
+guidance: ''
+hint: ''
 name: Resource URL
 parent-field: url
 replacement-field: ''

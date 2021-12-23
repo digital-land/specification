@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: pipeline
+guidance: ''
+hint: ''
 name: Pipeline
 parent-field: identifier
 replacement-field: ''

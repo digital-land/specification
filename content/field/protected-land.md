@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: protected-land
+guidance: ''
+hint: ''
 name: Protected land
 parent-field: geography
 replacement-field: ''

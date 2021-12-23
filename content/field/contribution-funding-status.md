@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: contribution-funding-status
+guidance: ''
+hint: ''
 name: Contribution funding status
 parent-field: category
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: statistical-geography-metropolitan-district-eng
+guidance: ''
+hint: ''
 name: Metropolitan district statistical geography (England)
 parent-field: statistical-geography
 replacement-field: ''

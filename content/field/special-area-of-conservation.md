@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: special-area-of-conservation
+guidance: ''
+hint: ''
 name: Special area of conservation
 parent-field: geography
 replacement-field: ''

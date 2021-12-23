@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: project-status
+guidance: ''
+hint: ''
 name: Project status
 parent-field: specification
 replacement-field: ''

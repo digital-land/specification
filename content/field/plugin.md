@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: plugin
+guidance: ''
+hint: ''
 name: Plugin
 parent-field: identifier
 replacement-field: ''

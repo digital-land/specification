@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: statistical-geography-local-government-district-nir
+guidance: ''
+hint: ''
 name: Local government district statistical geography (Northern Ireland)
 parent-field: statistical-geography
 replacement-field: ''

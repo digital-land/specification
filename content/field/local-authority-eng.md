@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: local-authority-eng
+guidance: ''
+hint: ''
 name: Local authority (England)
 parent-field: organisation
 replacement-field: ''

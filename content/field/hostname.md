@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: hostname
+guidance: ''
+hint: ''
 name: Hostname
 parent-field: name
 replacement-field: ''

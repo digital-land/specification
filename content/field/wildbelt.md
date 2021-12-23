@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: wildbelt
+guidance: ''
+hint: ''
 name: Wildbelt
 parent-field: geography
 replacement-field: ''

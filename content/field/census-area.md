@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: census-area
+guidance: ''
+hint: ''
 name: Census area
 parent-field: geography
 replacement-field: ''

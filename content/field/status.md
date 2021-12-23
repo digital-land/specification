@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: status
+guidance: ''
+hint: ''
 name: Status
 parent-field: category
 replacement-field: ''

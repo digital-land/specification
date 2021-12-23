@@ -5,6 +5,8 @@ description: A list of tree species
 end-date: ''
 entry-date: ''
 field: tree-species-list
+guidance: ''
+hint: ''
 name: Tree species list
 parent-field: category
 replacement-field: ''

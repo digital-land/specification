@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: government-service
+guidance: ''
+hint: ''
 name: Government service
 parent-field: identifier
 replacement-field: ''

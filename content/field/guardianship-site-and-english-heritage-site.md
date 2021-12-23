@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: guardianship-site-and-english-heritage-site
+guidance: ''
+hint: ''
 name: Guardianship site and english heritage site
 parent-field: geography
 replacement-field: ''

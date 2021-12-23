@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: long-protected-woodland
+guidance: ''
+hint: ''
 name: Long protected woodland
 parent-field: geography
 replacement-field: ''

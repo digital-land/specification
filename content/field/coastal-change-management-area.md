@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: coastal-change-management-area
+guidance: ''
+hint: ''
 name: Coastal change management area
 parent-field: geography
 replacement-field: ''

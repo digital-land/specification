@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: world-heritage-site
+guidance: ''
+hint: ''
 name: World heritage site
 parent-field: geography
 replacement-field: ''

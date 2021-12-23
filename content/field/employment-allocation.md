@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: employment-allocation
+guidance: ''
+hint: ''
 name: Employment allocation
 parent-field: geography
 replacement-field: ''

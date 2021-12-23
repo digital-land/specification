@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: historic-non-designed-rural-landscape-local-landscape-area
+guidance: ''
+hint: ''
 name: Historic non designed rural landscape local landscape area
 parent-field: geography
 replacement-field: ''

@@ -5,6 +5,8 @@ description: A species of tree
 end-date: ''
 entry-date: ''
 field: tree-species
+guidance: ''
+hint: ''
 name: Tree species
 parent-field: category
 replacement-field: ''

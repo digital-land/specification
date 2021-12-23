@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: contaminated-land
+guidance: ''
+hint: ''
 name: Contaminated land
 parent-field: geography
 replacement-field: ''

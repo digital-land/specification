@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: wildlife
+guidance: ''
+hint: ''
 name: Wildlife
 parent-field: geography
 replacement-field: ''

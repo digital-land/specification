@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: local-authority-sct
+guidance: ''
+hint: ''
 name: Local authority (Scotland)
 parent-field: organisation
 replacement-field: ''

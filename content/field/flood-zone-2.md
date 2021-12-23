@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: flood-zone-2
+guidance: ''
+hint: ''
 name: Flood zone 2
 parent-field: geography
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: organisation-entity
+guidance: ''
+hint: ''
 name: Organisation entity
 parent-field: entity
 replacement-field: ''

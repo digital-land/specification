@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: response-headers
+guidance: ''
+hint: ''
 name: Response headers
 parent-field: json
 replacement-field: ''

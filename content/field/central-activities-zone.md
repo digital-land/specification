@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: central-activities-zone
+guidance: ''
+hint: ''
 name: Central activities zone
 parent-field: geography
 replacement-field: ''

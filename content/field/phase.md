@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: phase
+guidance: ''
+hint: ''
 name: Phase
 parent-field: category
 replacement-field: ''

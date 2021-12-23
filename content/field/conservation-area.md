@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: conservation-area
+guidance: ''
+hint: ''
 name: Conservation Area
 parent-field: geography
 replacement-field: ''

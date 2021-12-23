@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: statistical-geography-registration-district-eng
+guidance: ''
+hint: ''
 name: Registration district statistical geography (England)
 parent-field: statistical-geography
 replacement-field: ''

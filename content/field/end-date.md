@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: end-date
+guidance: ''
+hint: ''
 name: End date
 parent-field: datetime
 replacement-field: ''

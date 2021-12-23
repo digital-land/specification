@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: entity-minimum
+guidance: ''
+hint: ''
 name: Entity
 parent-field: identifier
 replacement-field: ''

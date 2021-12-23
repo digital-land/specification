@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: statistical-geography-registration-district-wls
+guidance: ''
+hint: ''
 name: Registration district statistical geography (Wales)
 parent-field: statistical-geography
 replacement-field: ''

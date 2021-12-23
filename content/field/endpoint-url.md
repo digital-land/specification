@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: endpoint-url
+guidance: ''
+hint: ''
 name: Endpoint URL
 parent-field: url
 replacement-field: ''

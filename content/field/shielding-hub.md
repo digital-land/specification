@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: shielding-hub
+guidance: ''
+hint: ''
 name: Shielding hub
 parent-field: organisation
 replacement-field: ''

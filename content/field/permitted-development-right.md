@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: permitted-development-right
+guidance: ''
+hint: ''
 name: Permitted development right
 parent-field: legislation
 replacement-field: ''

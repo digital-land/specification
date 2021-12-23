@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: dataset
+guidance: ''
+hint: ''
 name: Dataset
 parent-field: specification
 replacement-field: ''

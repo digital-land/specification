@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: local-green-space
+guidance: ''
+hint: ''
 name: Local green space
 parent-field: geography
 replacement-field: ''

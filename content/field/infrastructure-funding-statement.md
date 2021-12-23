@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: infrastructure-funding-statement
+guidance: ''
+hint: ''
 name: Infrastructure Funding Statement
 parent-field: document
 replacement-field: ''

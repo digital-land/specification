@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: plural
+guidance: ''
+hint: ''
 name: Plural name
 parent-field: text
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: hazardous-substances
+guidance: ''
+hint: ''
 name: Hazardous substances
 parent-field: category
 replacement-field: ''

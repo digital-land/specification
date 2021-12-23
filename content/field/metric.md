@@ -5,6 +5,8 @@ description: A metric
 end-date: ''
 entry-date: ''
 field: metric
+guidance: ''
+hint: ''
 name: metric
 parent-field: metric
 replacement-field: ''

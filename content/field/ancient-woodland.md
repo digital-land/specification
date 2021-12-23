@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: ancient-woodland
+guidance: ''
+hint: ''
 name: Ancient Woodland
 parent-field: geography
 replacement-field: ''

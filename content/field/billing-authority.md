@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: billing-authority
+guidance: ''
+hint: ''
 name: Billing authority
 parent-field: organisation
 replacement-field: ''

@@ -6,6 +6,8 @@ description: Colour, opacity and other paint options for displaying the dataset 
 end-date: ''
 entry-date: ''
 field: paint-options
+guidance: ''
+hint: ''
 name: Paint options
 parent-field: value
 replacement-field: ''

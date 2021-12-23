@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: main-river
+guidance: ''
+hint: ''
 name: Main river
 parent-field: geography
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: safeguarded-wharf
+guidance: ''
+hint: ''
 name: Safeguarded wharf
 parent-field: geography
 replacement-field: ''

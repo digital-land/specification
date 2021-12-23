@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: policy
+guidance: ''
+hint: ''
 name: Policy
 parent-field: policy
 replacement-field: ''

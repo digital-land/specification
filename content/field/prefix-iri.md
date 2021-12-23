@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: prefix-iri
+guidance: ''
+hint: ''
 name: CURIE prefix IRI
 parent-field: value
 replacement-field: ''

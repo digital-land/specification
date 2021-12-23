@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: maximum-net-dwellings
+guidance: ''
+hint: ''
 name: Maximum net dwellings
 parent-field: number
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: tree
+guidance: ''
+hint: ''
 name: Tree
 parent-field: geography
 replacement-field: ''

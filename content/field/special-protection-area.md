@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: special-protection-area
+guidance: ''
+hint: ''
 name: Special protection area
 parent-field: geography
 replacement-field: ''

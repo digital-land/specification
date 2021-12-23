@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: source
+guidance: ''
+hint: ''
 name: Source
 parent-field: identifier
 replacement-field: ''

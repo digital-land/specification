@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: development-policy-category
+guidance: ''
+hint: ''
 name: Development policy category
 parent-field: category
 replacement-field: ''

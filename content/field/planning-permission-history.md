@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: planning-permission-history
+guidance: ''
+hint: ''
 name: Planning permission history
 parent-field: document-url
 replacement-field: ''

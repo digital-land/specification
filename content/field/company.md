@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: company
+guidance: ''
+hint: ''
 name: Company
 parent-field: organisation
 replacement-field: ''

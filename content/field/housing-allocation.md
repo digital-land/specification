@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: housing-allocation
+guidance: ''
+hint: ''
 name: Housing allocation
 parent-field: geography
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: schema
+guidance: ''
+hint: ''
 name: Schema
 parent-field: specification
 replacement-field: ''

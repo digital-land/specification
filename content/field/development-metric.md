@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: development-metric
+guidance: ''
+hint: ''
 name: Development metric
 parent-field: category
 replacement-field: ''

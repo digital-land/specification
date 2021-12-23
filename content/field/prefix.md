@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: prefix
+guidance: ''
+hint: ''
 name: CURIE prefix
 parent-field: identifier
 replacement-field: ''

@@ -5,6 +5,8 @@ description: Lookup entities
 end-date: ''
 entry-date: ''
 field: lookup
+guidance: ''
+hint: ''
 name: Lookup
 parent-field: specification
 replacement-field: ''

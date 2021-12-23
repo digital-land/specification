@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: public-safety-zone-around-airport
+guidance: ''
+hint: ''
 name: Public safety zone around airport
 parent-field: geography
 replacement-field: ''

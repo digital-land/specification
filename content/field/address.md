@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: address
+guidance: ''
+hint: ''
 name: Address
 parent-field: geography
 replacement-field: ''

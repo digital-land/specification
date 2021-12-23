@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: geometry
+guidance: ''
+hint: ''
 name: Geometry
 parent-field: value
 replacement-field: ''

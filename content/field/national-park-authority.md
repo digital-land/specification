@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: national-park-authority
+guidance: ''
+hint: ''
 name: National park authority
 parent-field: organisation
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: battlefield
+guidance: ''
+hint: ''
 name: Battlefield
 parent-field: geography
 replacement-field: ''

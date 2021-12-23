@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: slug-prefix
+guidance: ''
+hint: ''
 name: Slug prefix
 parent-field: string
 replacement-field: ''

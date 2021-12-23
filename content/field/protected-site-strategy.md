@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: protected-site-strategy
+guidance: ''
+hint: ''
 name: Protected site strategy
 parent-field: document
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: tree-preservation-zone
+guidance: ''
+hint: ''
 name: Tree preservation zone
 parent-field: geography
 replacement-field: ''

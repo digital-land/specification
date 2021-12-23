@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: green-belt
+guidance: ''
+hint: ''
 name: Green belt
 parent-field: geography
 replacement-field: ''

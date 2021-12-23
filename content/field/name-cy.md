@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: name-cy
+guidance: ''
+hint: ''
 name: Name (Welsh)
 parent-field: name
 replacement-field: ''

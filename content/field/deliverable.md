@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: deliverable
+guidance: ''
+hint: ''
 name: Deliverable
 parent-field: category
 replacement-field: ''

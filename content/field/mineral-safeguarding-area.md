@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: mineral-safeguarding-area
+guidance: ''
+hint: ''
 name: Mineral safeguarding area
 parent-field: geography
 replacement-field: ''

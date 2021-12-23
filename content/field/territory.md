@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: territory
+guidance: ''
+hint: ''
 name: Territory
 parent-field: geography
 replacement-field: ''

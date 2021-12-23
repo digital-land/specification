@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: citizen-names
+guidance: ''
+hint: ''
 name: Citizen names
 parent-field: citizen-name
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: twitter
+guidance: ''
+hint: ''
 name: Twitter
 parent-field: identifier
 replacement-field: ''

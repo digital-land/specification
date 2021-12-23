@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: point-geom
+guidance: ''
+hint: ''
 name: Point index
 parent-field: geom
 replacement-field: ''

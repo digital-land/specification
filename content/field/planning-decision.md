@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: planning-decision
+guidance: ''
+hint: ''
 name: Planning decision
 parent-field: document
 replacement-field: ''

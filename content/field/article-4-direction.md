@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: article-4-direction
+guidance: ''
+hint: ''
 name: Article-4 direction
 parent-field: geography
 replacement-field: ''

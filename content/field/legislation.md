@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: legislation
+guidance: ''
+hint: ''
 name: Legislation
 parent-field: document
 replacement-field: ''

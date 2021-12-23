@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: wikidata
+guidance: ''
+hint: ''
 name: Wikidata item
 parent-field: identifier
 replacement-field: ''

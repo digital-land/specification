@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: developer-agreement-contribution
+guidance: ''
+hint: ''
 name: Developer agreement contribution
 parent-field: identifier
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: developer-agreement-transaction
+guidance: ''
+hint: ''
 name: Developer agreement transaction
 parent-field: identifier
 replacement-field: ''

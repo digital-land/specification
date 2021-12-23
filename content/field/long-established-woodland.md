@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: long-established-woodland
+guidance: ''
+hint: ''
 name: Long established woodland
 parent-field: geography
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: protected-view
+guidance: ''
+hint: ''
 name: Protected view
 parent-field: geography
 replacement-field: ''

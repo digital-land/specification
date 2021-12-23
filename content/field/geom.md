@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: geom
+guidance: ''
+hint: ''
 name: Internal BLOB geometry
 parent-field: blob
 replacement-field: ''

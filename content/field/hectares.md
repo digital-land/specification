@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: hectares
+guidance: ''
+hint: ''
 name: Hectares
 parent-field: number
 replacement-field: ''

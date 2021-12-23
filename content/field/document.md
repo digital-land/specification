@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: document
+guidance: ''
+hint: ''
 name: Document
 parent-field: document
 replacement-field: ''

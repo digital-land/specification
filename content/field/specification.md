@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: specification
+guidance: ''
+hint: ''
 name: Specification
 parent-field: specification
 replacement-field: ''

@@ -5,6 +5,8 @@ description: Status of an ancient woodland
 end-date: ''
 entry-date: ''
 field: ancient-woodland-status
+guidance: ''
+hint: ''
 name: Ancient woodland status
 parent-field: category
 replacement-field: ''

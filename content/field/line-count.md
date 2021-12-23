@@ -5,6 +5,8 @@ description: A count of the number of lines in a resource or file
 end-date: ''
 entry-date: ''
 field: line-count
+guidance: ''
+hint: ''
 name: Line count
 parent-field: number
 replacement-field: ''

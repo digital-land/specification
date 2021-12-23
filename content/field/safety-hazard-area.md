@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: safety-hazard-area
+guidance: ''
+hint: ''
 name: Safety hazard area
 parent-field: geography
 replacement-field: ''

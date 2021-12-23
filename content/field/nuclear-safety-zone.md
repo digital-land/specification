@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: nuclear-safety-zone
+guidance: ''
+hint: ''
 name: Nuclear safety zone
 parent-field: geography
 replacement-field: ''

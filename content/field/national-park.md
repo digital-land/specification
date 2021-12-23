@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: national-park
+guidance: ''
+hint: ''
 name: National park
 parent-field: statistical-geography
 replacement-field: ''

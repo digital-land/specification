@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: theme
+guidance: ''
+hint: ''
 name: Theme
 parent-field: category
 replacement-field: ''

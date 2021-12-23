@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: heritage-coast
+guidance: ''
+hint: ''
 name: Heritage Coast
 parent-field: geography
 replacement-field: ''

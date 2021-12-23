@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: document-type
+guidance: ''
+hint: ''
 name: Document type
 parent-field: category
 replacement-field: ''

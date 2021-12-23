@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: scope-field
+guidance: ''
+hint: ''
 name: Scope field
 parent-field: field
 replacement-field: ''

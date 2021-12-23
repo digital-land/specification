@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: neighbourhood-plan-area
+guidance: ''
+hint: ''
 name: Neighbourhood Plan Area
 parent-field: geography
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: issue-type
+guidance: ''
+hint: ''
 name: Issue type
 parent-field: identifier
 replacement-field: ''

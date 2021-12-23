@@ -6,6 +6,8 @@ description: A legal document used to secure contributions from a development fo
 end-date: ''
 entry-date: ''
 field: developer-agreement
+guidance: ''
+hint: ''
 name: Developer agreement
 parent-field: document
 replacement-field: ''

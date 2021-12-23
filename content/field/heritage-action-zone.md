@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: heritage-action-zone
+guidance: ''
+hint: ''
 name: Heritage action zone
 parent-field: geography
 replacement-field: ''

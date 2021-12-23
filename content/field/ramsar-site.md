@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: ramsar-site
+guidance: ''
+hint: ''
 name: Ramsar site
 parent-field: category
 replacement-field: ''

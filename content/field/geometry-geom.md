@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: geometry-geom
+guidance: ''
+hint: ''
 name: Geometry index
 parent-field: geom
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: registry
+guidance: ''
+hint: ''
 name: Registry
 parent-field: organisation
 replacement-field: ''

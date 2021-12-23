@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: pipelines
+guidance: ''
+hint: ''
 name: Pipelines
 parent-field: pipeline
 replacement-field: ''

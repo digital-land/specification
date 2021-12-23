@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: neighbourhood-forum
+guidance: ''
+hint: ''
 name: Neighbourhood forum
 parent-field: organisation
 replacement-field: ''

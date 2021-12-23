@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: parameter
+guidance: ''
+hint: ''
 name: Parameter
 parent-field: string
 replacement-field: ''

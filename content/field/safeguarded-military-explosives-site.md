@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: safeguarded-military-explosives-site
+guidance: ''
+hint: ''
 name: Safeguarded military explosives site
 parent-field: geography
 replacement-field: ''

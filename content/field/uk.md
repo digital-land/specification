@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: uk
+guidance: ''
+hint: ''
 name: UK
 parent-field: geography
 replacement-field: ''

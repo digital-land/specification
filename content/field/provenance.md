@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: provenance
+guidance: ''
+hint: ''
 name: Provenance
 parent-field: hash
 replacement-field: ''

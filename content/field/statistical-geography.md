@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: statistical-geography
+guidance: ''
+hint: ''
 name: Statistical geography
 parent-field: geography
 replacement-field: ''

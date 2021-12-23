@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: website-url
+guidance: ''
+hint: ''
 name: Website URL
 parent-field: url
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: parish
+guidance: ''
+hint: ''
 name: Parish
 parent-field: geography
 replacement-field: ''

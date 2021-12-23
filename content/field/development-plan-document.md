@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: development-plan-document
+guidance: ''
+hint: ''
 name: Development plan document
 parent-field: document
 replacement-field: ''

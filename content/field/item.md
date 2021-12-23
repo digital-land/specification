@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: item
+guidance: ''
+hint: ''
 name: JSON
 parent-field: json
 replacement-field: ''

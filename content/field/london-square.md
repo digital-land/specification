@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: london-square
+guidance: ''
+hint: ''
 name: London square
 parent-field: geography
 replacement-field: ''

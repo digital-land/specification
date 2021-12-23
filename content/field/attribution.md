@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: attribution
+guidance: ''
+hint: ''
 name: Attribution
 parent-field: text
 replacement-field: ''

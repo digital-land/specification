@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: safeguarded-aerodrome
+guidance: ''
+hint: ''
 name: Safeguarded aerodrome
 parent-field: geography
 replacement-field: ''

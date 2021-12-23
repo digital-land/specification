@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: suitable-alternative-green-space
+guidance: ''
+hint: ''
 name: Suitable alternative green space
 parent-field: geography
 replacement-field: ''

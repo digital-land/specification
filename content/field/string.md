@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: string
+guidance: ''
+hint: ''
 name: String
 parent-field: value
 replacement-field: ''

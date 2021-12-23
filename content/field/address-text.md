@@ -5,6 +5,8 @@ description: Address as a single line of text, separated by commas
 end-date: ''
 entry-date: ''
 field: address-text
+guidance: ''
+hint: ''
 name: Address text
 parent-field: text
 replacement-field: ''

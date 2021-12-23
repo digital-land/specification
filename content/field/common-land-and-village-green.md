@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: common-land-and-village-green
+guidance: ''
+hint: ''
 name: Common land and village green
 parent-field: geography
 replacement-field: ''

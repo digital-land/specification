@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: wikipedia
+guidance: ''
+hint: ''
 name: Wikipedia page
 parent-field: identifier
 replacement-field: ''

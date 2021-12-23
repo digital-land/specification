@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: pattern
+guidance: ''
+hint: ''
 name: Pattern
 parent-field: string
 replacement-field: ''

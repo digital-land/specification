@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: principal-local-authority
+guidance: ''
+hint: ''
 name: Principal local authority (Wales)
 parent-field: organisation
 replacement-field: ''

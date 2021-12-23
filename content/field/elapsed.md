@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: elapsed
+guidance: ''
+hint: ''
 name: Elapsed time
 parent-field: number
 replacement-field: ''

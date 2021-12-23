@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: short-name
+guidance: ''
+hint: ''
 name: Short name
 parent-field: name
 replacement-field: ''

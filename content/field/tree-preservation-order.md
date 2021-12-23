@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: tree-preservation-order
+guidance: ''
+hint: ''
 name: Tree preservation order
 parent-field: document
 replacement-field: ''

@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: control-of-major-accident-hazards-site
+guidance: ''
+hint: ''
 name: Control of major accident hazards site
 parent-field: geography
 replacement-field: ''

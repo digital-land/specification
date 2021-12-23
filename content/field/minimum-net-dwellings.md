@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: minimum-net-dwellings
+guidance: ''
+hint: ''
 name: Minimum net dwellings
 parent-field: number
 replacement-field: ''

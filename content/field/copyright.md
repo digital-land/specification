@@ -5,6 +5,8 @@ description: ''
 end-date: ''
 entry-date: ''
 field: copyright
+guidance: ''
+hint: ''
 name: Copyright
 parent-field: attribution
 replacement-field: ''
