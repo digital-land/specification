@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Field | Digital Land</title>
+    <title>Fact resource | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -128,12 +128,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Field</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Fact resource</li>
     
   
   </ol>
@@ -145,84 +145,105 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
-  <h1 class="govuk-heading-xl">Field</h1>
+  <span class="govuk-caption-xl">Dataset</span>
+  <h1 class="govuk-heading-xl">Fact resource</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">the provenance of a fact</p>
     <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
 
     <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
       <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Field</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">field</td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
+          <td class="govuk-table__cell" id="field_fact"><a href="../../field/fact">fact</a>
+          </td>
+          <td class="govuk-table__cell">Fact</td>
+          <td class="govuk-table__cell"><a href="../../datatype/hash">hash</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../specification">specification</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/specification">specification</a></td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Dataset</th>
-          <td class="govuk-table__cell"><a href="../../dataset/field">field</a></td>
+          <td class="govuk-table__cell" id="field_resource"><a href="../../field/resource">resource</a>
+          </td>
+          <td class="govuk-table__cell">Resource</td>
+          <td class="govuk-table__cell"><a href="../../datatype/hash">hash</a></td>
+          <td class="govuk-table__cell">1</td>
         </tr>
+    
         
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_row-number"><a href="../../field/row-number">row-number</a>
+          </td>
+          <td class="govuk-table__cell">Row number</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
       </tbody>
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Schemas</h2>
-    <p class="govuk-body">The following datasets use this field:</p>
+
+    
+    <h2 class="govuk-heading-s" id="">Datasets</h2>
+
+    
+    <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../dataset/column">Pipeline column</a></li>
+      <li><a href="../fact">Fact</a></li>
     
-      <li><a href="../../dataset/concat">Pipeline concatenation</a></li>
-    
-      <li><a href="../../dataset/dataset-field">Dataset field</a></li>
-    
-      <li><a href="../../dataset/default">Pipeline default value</a></li>
-    
-      <li><a href="../../dataset/fact">Fact</a></li>
-    
-      <li><a href="../../dataset/field">Field</a></li>
-    
-      <li><a href="../../dataset/filter">Pipeline filter</a></li>
-    
-      <li><a href="../../dataset/issue">Issue</a></li>
-    
-      <li><a href="../../dataset/patch">Pipeline patch</a></li>
-    
-      <li><a href="../../dataset/provenance">Provenance</a></li>
-    
-      <li><a href="../../dataset/schema-field">Schema field</a></li>
-    
-      <li><a href="../../dataset/transform">Pipeline transformation</a></li>
+      <li><a href="../resource">Resource</a></li>
     
     </ul>
     
 
+    
+
+    
   </div>
 </div>
 

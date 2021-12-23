@@ -58,7 +58,7 @@ developer-contributions,contribution-purpose,,,,,16200000,16299999,Contribution 
 ,convert,Convert a resource during convert,,,,16400000,16499999,Pipeline convert,,Pipeline conversions,,,,specification,specification,,
 ,datapackage-dataset,Datasets included in a datapackage,,,,17000000,17099999,Data package dataset,,Data package datasets,,,,specification,specification,,
 ,datapackage,Collections of datasets,,,,16500000,16599999,Data package,,Data packages,,,,specification,specification,,
-,dataset-field,,,,,16600000,16699999,Dataset field,,Dataset fields,,,,specification,specification,,
+,dataset-field,,,,,0,0,Dataset field,,Dataset fields,,,,specification,specification,,
 ,dataset-schema,,,,,16700000,16799999,Dataset schema,,Dataset schemas,,,,specification,specification,,
 ,dataset,A collection of entities of the same type,,,,4000000,4099999,Dataset,,Datasets,,,,specification,specification,Q1172284,Data_set
 ,datatype,,,,,4100000,4199999,Datatype,,Datatypes,,,,specification,specification,,
@@ -81,7 +81,9 @@ document,document-type,,,,,5700000,5799999,Document type,,Document types,,,,deve
 ,document,,,,,5800000,5899999,Document,,Documents,,,,development,document,Q49848,Document
 employment-allocation,employment-allocation,,,,,5900000,5999999,Employment allocation,,Employment allocations,,,,development,geography,,
 ,endpoint,,,,,6000000,6099999,Endpoint,,Endpoints,,,,specification,specification,,
-,entity,An item of data,,,,6100000,6199999,Entity,,Entities,,,,specification,value,,
+,entity,a data item,,,,0,0,Entity,,Entities,,,,specification,value,,
+,fact-resource,the provenance of a fact,,,,,,Fact resource,,Fact resources,,,,specification,value,,
+,fact,a field and its value for an entity,,,,0,0,Fact,,Facts,,,,specification,value,,
 ,field,,,,,6200000,6299999,Field,,Fields,,,,specification,specification,,
 ,filter,Filter entries,,,,6300000,6399999,Pipeline filter,,Pipeline filters,,,,specification,specification,,
 ,flood-zone-1,,,,,6400000,6499999,Flood zone 1,,Flood zones 1,,,,environment,geography,,
@@ -141,7 +143,7 @@ national-park,national-park,,,,,10000000,10099999,National park,"{ ""colour"": "
 ,non-designated-and-locally-listed-historic-asset,,,,,10300000,10399999,Non-designated and locally listed historic asset,,Non-designated and locally listed historic assets,,,,heritage,geography,,
 ,non-designated-archeology-asset-of-national-importance,,,,,10400000,10499999,Non-designated archeology asset of national importance,,Non-designated archeology assets of national importance,,,,heritage,geography,,
 ,nuclear-safety-zone,,,,,10500000,10599999,Nuclear safety zone,,Nuclear safety zones,,,,environment,geography,,
-,old-entity,Redirect an entity or mark it as gone,,,,10600000,10699999,Entity redirection,,Entity redirections,,,,specification,value,,
+,old-entity,Redirect an entity or mark it as gone,,,,0,0,Entity redirection,,Entity redirections,,,,specification,value,,
 open-space,open-space,,,,,10700000,10799999,Open space,"{ ""colour"": ""#328478"" }",Open spaces,,,,environment,geography,,
 ,organisation,,,,,10800000,10899999,Organisation,,Organisations,,,,,organisation,,
 ownership-status,ownership-status,,,,,10900000,10999999,Ownership status,,Ownership statuses,,,,development,category,,
