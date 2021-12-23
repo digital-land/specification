@@ -11,9 +11,14 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: geojson
+- field: geometry
+- field: geometry-geom
 - field: json
 - field: name
 - field: organisation-entity
+- field: point-geom
+- field: point
 - field: prefix
 - field: reference
 - field: start-date

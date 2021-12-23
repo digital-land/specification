@@ -1,28 +1,25 @@
 ---
 collection: ''
-dataset: dataset-field
-description: ''
+dataset: fact-resource
+description: the provenance of a fact
 end-date: ''
-entity-maximum: '0'
-entity-minimum: '0'
 entry-date: ''
 fields:
 - field: end-date
+- field: fact
 - field: entry-date
-- field: field
-- field: guidance
-- field: hint
-- field: dataset
+- field: resource
+- field: row-number
 - field: start-date
 key-field: ''
-name: Dataset field
+name: Fact resource
 paint-options: ''
-plural: Dataset fields
+plural: Fact resources
 prefix: ''
 start-date: ''
 themes:
 - specification
-typology: specification
+typology: value
 wikidata: ''
 wikipedia: ''
 ---

@@ -1,17 +1,17 @@
 ---
 cardinality: '1'
-datatype: string
+datatype: hash
 description: ''
 end-date: ''
 entry-date: ''
-field: organisation-entity
+field: fact
 guidance: ''
 hint: ''
-name: Organisation entity
-parent-field: entity
+name: Fact
+parent-field: hash
 replacement-field: ''
 start-date: ''
 typology: value
-uri-template: https://www.digital-land.info/entity/{organisation-entity}
+uri-template: https://www.digital-land.info/resource/{resource}
 wikidata-property: ''
 ---

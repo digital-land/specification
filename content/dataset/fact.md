@@ -1,28 +1,32 @@
 ---
 collection: ''
-dataset: dataset-field
-description: ''
+dataset: fact
+description: a field and its value for an entity
 end-date: ''
 entity-maximum: '0'
 entity-minimum: '0'
 entry-date: ''
 fields:
 - field: end-date
-- field: entry-date
+- field: entity
+- field: fact
 - field: field
-- field: guidance
-- field: hint
-- field: dataset
+- field: entry-date
+- field: json
+- field: prefix
+- field: reference
+- field: reference-entity
 - field: start-date
+- field: value
 key-field: ''
-name: Dataset field
+name: Fact
 paint-options: ''
-plural: Dataset fields
+plural: Facts
 prefix: ''
 start-date: ''
 themes:
 - specification
-typology: specification
+typology: value
 wikidata: ''
 wikipedia: ''
 ---

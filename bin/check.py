@@ -113,7 +113,11 @@ def check_datasets():
                     error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
         # check entity ranges .. O(n2)
-        if "specification" != d["typology"] and "entity" != dataset:
+        if (
+            "specification" != d["typology"]
+            and "entity" in d
+            and dataset not in ["entity", "fact", "old-entity"]
+        ):
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
                 error("dataset '%s' is missing an entity-minimum value" % (dataset))
@@ -126,18 +130,21 @@ def check_datasets():
                 for _dataset, _d in tables["dataset"].items():
                     _minimum = Decimal(_d.get("entity-minimum", "") or 0)
                     _maximum = Decimal(_d.get("entity-maximum", "") or 0)
-                    if (
-                        _dataset != dataset
-                        and _minimum
-                        and _maximum
-                    ):
+                    if _dataset != dataset and _minimum and _maximum:
                         if (
                             minimum <= _minimum <= maximum
                             or minimum <= _maximum <= maximum
                         ):
                             error(
                                 "dataset '%s' entity range [%d,%d] overlaps with '%s' [%d,%d]"
-                                % (dataset, minimum, maximum, _dataset, _minimum, _maximum)
+                                % (
+                                    dataset,
+                                    minimum,
+                                    maximum,
+                                    _dataset,
+                                    _minimum,
+                                    _maximum,
+                                )
                             )
 
 

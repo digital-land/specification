@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: organisation-entity
+field: reference-entity
 guidance: ''
 hint: ''
-name: Organisation entity
+name: Reference entity
 parent-field: entity
 replacement-field: ''
 start-date: ''
 typology: value
-uri-template: https://www.digital-land.info/entity/{organisation-entity}
+uri-template: https://www.digital-land.info/entity/{reference-entity}
 wikidata-property: ''
 ---

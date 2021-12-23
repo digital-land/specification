@@ -135,7 +135,7 @@ for dataset, row in table["dataset"].items():
 
     # ensure the key-field is in fields ..
     fields = [field["field"] for field in row["fields"]]
-    if "entity" in fields:
+    if "entity" in fields and dataset not in ["entity", "old-entity", "fact"]:
         key_field = row.get("key-field", "") or dataset
         add_dataset_field(dataset, key_field)
 

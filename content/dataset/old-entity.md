@@ -3,8 +3,8 @@ collection: ''
 dataset: old-entity
 description: Redirect an entity or mark it as gone
 end-date: ''
-entity-maximum: '10699999'
-entity-minimum: '10600000'
+entity-maximum: '0'
+entity-minimum: '0'
 entry-date: ''
 fields:
 - field: end-date
