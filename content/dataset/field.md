@@ -19,6 +19,7 @@ fields:
 - field: parent-field
 - field: replacement-field
 - field: start-date
+- field: text
 - field: typology
 - field: uri-template
 - field: wikidata-property
