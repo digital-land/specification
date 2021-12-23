@@ -34,3 +34,8 @@ typology: geography
 wikidata: Q219538
 wikipedia: Scheduled_monument
 ---
+An historic building or site such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites. Churches or a building in residential use can’t be designated as scheduled monuments.
+
+You will need consent from the Secretary of State before any work is carried out on  a scheduled monument. [Historic England](https://historicengland.org.uk/) manages the process.
+
+The Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport).
