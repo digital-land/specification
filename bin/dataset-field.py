@@ -4,7 +4,7 @@ import sys
 import csv
 import frontmatter
 
-fieldnames = ["dataset", "field", "guidance"]
+fieldnames = ["dataset", "field", "guidance", "hint"]
 
 w = csv.DictWriter(open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction='ignore')
 w.writeheader()

@@ -11,6 +11,7 @@ fields:
 - field: entry-date
 - field: field
 - field: guidance
+- field: hint
 - field: dataset
 - field: start-date
 key-field: ''

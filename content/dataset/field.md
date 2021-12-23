@@ -13,6 +13,8 @@ fields:
 - field: end-date
 - field: entry-date
 - field: field
+- field: guidance
+- field: hint
 - field: name
 - field: parent-field
 - field: replacement-field
