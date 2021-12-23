@@ -176,7 +176,11 @@ organisation,regional-park-authority,,,,,13300000,13399999,Regional park authori
 ,safeguarded-military-explosives-site,,,,,13600000,13699999,Safeguarded military explosives site,,Safeguarded military explosives sites,,,,environment,geography,,
 ,safeguarded-wharf,,,,,13700000,13799999,Safeguarded wharf,,Safeguarded wharves,,,,transport,geography,,
 ,safety-hazard-area,,,,,13800000,13899999,Safety hazard area,,Safety hazard areas,,,,development,geography,,
-historic-england,scheduled-monument,,,,,13900000,13999999,Scheduled monument,"{ ""colour"": ""#0F9CDA"" }",Scheduled monuments,,,,heritage,geography,Q219538,Scheduled_monument
+historic-england,scheduled-monument,,,,,13900000,13999999,Scheduled monument,"{ ""colour"": ""#0F9CDA"" }",Scheduled monuments,,,"An historic building or site such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites. Churches or a building in residential use can’t be designated as scheduled monuments.
+
+You will need consent from the Secretary of State before any work is carried out on  a scheduled monument. [Historic England](https://historicengland.org.uk/) manages the process.
+
+The Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport).",heritage,geography,Q219538,Scheduled_monument
 ,schema-field,,,,,14000000,14099999,Schema field,,Schema fields,,,,specification,specification,,
 ,schema,,,,,14100000,14199999,Schema,,Schemas,,,,specification,specification,,
 ,self-and-custom-buildarea,,,,,14200000,14299999,Self and custom build area,,Self and custom build areas,,,,housing,geography,,
