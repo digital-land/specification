@@ -113,7 +113,7 @@ def check_datasets():
                     error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
         # check entity ranges .. O(n2)
-        if "specification" != d["typology"]:
+        if "specification" != d["typology"] and "entity" != dataset:
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
                 error("dataset '%s' is missing an entity-minimum value" % (dataset))

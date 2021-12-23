@@ -1,10 +1,10 @@
 ---
 collection: ''
 dataset: entity
-description: An item of data
+description: a data item
 end-date: ''
-entity-maximum: '6199999'
-entity-minimum: '6100000'
+entity-maximum: '0'
+entity-minimum: '0'
 entry-date: ''
 fields:
 - field: dataset
