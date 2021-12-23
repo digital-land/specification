@@ -158,7 +158,6 @@ typology: geography
 wikidata: Q896586
 wikipedia: Brownfield_land
 ---
-
 ### What is it?
 
 Brownfield land is currently, or was previously, built on and therefore has good potential for housing-led development.
