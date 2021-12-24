@@ -2,7 +2,11 @@ collection,dataset,description,end-date,entry-date,key-field,entity-minimum,enti
 ,address,,,,,10000000000000,19999999999999,Address,,addresses,uprn,,,administrative,geography,,
 ,addressbase-custodian,,,,,800000,899999,Addressbase custodian,,Addressbase custodians,,,,administrative,category,,
 ancient-woodland,ancient-woodland-status,,,,,29100000,30099999,Ancient woodland status,,Ancient woodlands status,,,,environment,category,,Ancient_woodland
-ancient-woodland,ancient-woodland,,,,,110000000,129999999,Ancient woodland,"{ ""colour"": ""#00703c"", ""opacity"": 0.2 }",Ancient woodlands,,,,environment,geography,Q3078732,Ancient_woodland
+ancient-woodland,ancient-woodland,,,,,110000000,129999999,Ancient woodland,"{ ""colour"": ""#00703c"", ""opacity"": 0.2 }",Ancient woodlands,,,"Areas that have been wooded continuously since at least 1600 AD They are relatively undisturbed by human development and are therefore unique habitats.
+
+Permission for development that will cause the loss or deterioration of irreplaceable habitats is only granted in exceptional circumstances unless there are exceptional reasons and there’s an additional compensation strategy.
+
+Natural England and Forestry Commission [Guidance](https://www.gov.uk/guidance/ancient-woodland-and-veteran-trees-protection-surveys-licences) is used in planning decisions.",environment,geography,Q3078732,Ancient_woodland
 ,archaelogy-area-type,,,,,900000,999999,Archaelogy area type,,Archaelogy area types,,,,heritage,geography,,
 area-of-outstanding-natural-beauty,area-of-outstanding-natural-beauty,Protected areas of countryside with a distinctive character and natural beauty,,,,1000000,1099999,Area of outstanding natural beauty,"{ ""colour"": ""#d53880"" }",Areas of outstanding natural beauty,,,"An Area of Outstanding Natural Beauty (AONB) is a protected area in the countryside with a distinctive character and natural beauty designated by [Natural England](https://www.gov.uk/government/organisations/natural-england) under the [Section 82 of the Countryside and Rights of Way Act 2000](https://www.legislation.gov.uk/ukpga/2000/37/section/82).
 
