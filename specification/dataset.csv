@@ -102,7 +102,11 @@ green-belt,green-belt,,,,,7100000,7199999,Green belt,"{ ""colour"": ""#85994b"" 
 ,guardianship-site-and-english-heritage-site,,,,,7200000,7299999,Guardianship site and English heritage site,,Guardianship sites and English heritage sites,,,,heritage,geography,,
 ,gypsy-and-traveller-site,,,,,7300000,7399999,Gypsy and traveller site,,Gypsy and traveller sites,,,,development,geography,Q74497345,
 ,heritage-action-zone,,,,,7400000,7499999,Heritage action zone,,Heritage action zones,,,,heritage,geography,,
-historic-england,heritage-at-risk,,,,,7500000,7599999,Heritage at risk,"{ ""colour"": ""#8D73AF"" }",Heritage at risk,,,,heritage,geography,Q16983914,Heritage_at_Risk_Register
+historic-england,heritage-at-risk,,,,,7500000,7599999,Heritage at risk,"{ ""colour"": ""#8D73AF"" }",Heritage at risk,,,"Heritage at risk is a register of heritage assets at risk of decay. The register covers Grade I and II* listed buildings, Grade II listed places of worship and Grade II buildings in London, scheduled monuments, registered parks and gardens, registered battlefields, protected wreck sites and conservation areas.
+
+The register aims to protect and manage the historic environment. It allows owners, friends groups, developers and other stakeholders to find solutions for 'at risk' historic places and sites across England.
+
+The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).",heritage,geography,Q16983914,Heritage_at_Risk_Register
 heritage-coast,heritage-coast,,,,,7600000,7699999,Heritage coast,"{ ""colour"": ""#912b88"" }",Heritage coast,,,"A heritage coast is established to conserve the best stretches of undeveloped coast in England. 
 
 Heritage coasts are protected in the planning system. Major development within a heritage coast is unlikely to be appropriate, unless it is compatible with its special character. 
@@ -162,7 +166,13 @@ Authorities and developers may refer to [Sport England’s guidance](http://www.
 ownership-status,ownership-status,,,,,10900000,10999999,Ownership status,,Ownership statuses,,,,development,category,,
 parish,parish,,,,,130000000,139999999,Civil parish,"{ ""colour"": ""#5694ca"" }",Civil parishes,statistical-geography,,,administrative,geography,Q1115575,Civil_parish
 historic-england,park-and-garden-grade,,,,,11000000,11099999,Park and garden grade,,Parks and garden grades,,,,environment;heritage,category,,
-historic-england,park-and-garden,,,,,11100000,11199999,Park and garden,"{ ""colour"": ""#0EB951"" }",Parks and gardens,,,,environment;heritage,geography,Q6975250,Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
+historic-england,park-and-garden,,,,,11100000,11199999,Park and garden,"{ ""colour"": ""#0EB951"" }",Parks and gardens,,,"Historic parks and gardens are those listed in the [Register of Parks and Gardens of Special Historic Interest](https://historicengland.org.uk/listing/what-is-designation/registered-parks-and-gardens/). They intend to protect significant land that has been designed rather than natural land. 
+
+The register is kept by [Historic England](https://historicengland.org.uk/) with assistance from the [Gardens Trust](https://thegardenstrust.org/).
+
+Registration is a 'material consideration' in the planning process, meaning that planning authorities must consider the impact of any proposed development on the landscapes' special character. The [NPPF](https://www.gov.uk/government/publications/national-planning-policy-framework--2) sets out that registered parks and gardens are designated heritage assets of the highest significance.
+
+Local planning authorities must consult Historic England where a planning application affects a Grade I or II* registered park or garden or battlefield. They will also consult the Gardens Trust on all applications affecting registered parks or gardens, regardless of the grade of the site.",environment;heritage,geography,Q6975250,Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
 ,patch,Assert a field value during harmonise,,,,11200000,11299999,Pipeline patch,,Pipeline patches,,,,specification,specification,,
 legislation,permitted-development-right-part,,,,,11400000,11499999,Permitted development right part,,Permitted development right parts,,,,development,category,,
 legislation,permitted-development-right,,,,,11500000,11599999,Permitted development right,,Permitted development right,,,,development,policy,,
