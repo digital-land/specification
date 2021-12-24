@@ -99,7 +99,11 @@ green-belt,green-belt,,,,,7100000,7199999,Green belt,"{ ""colour"": ""#85994b"" 
 ,gypsy-and-traveller-site,,,,,7300000,7399999,Gypsy and traveller site,,Gypsy and traveller sites,,,,development,geography,Q74497345,
 ,heritage-action-zone,,,,,7400000,7499999,Heritage action zone,,Heritage action zones,,,,heritage,geography,,
 historic-england,heritage-at-risk,,,,,7500000,7599999,Heritage at risk,"{ ""colour"": ""#8D73AF"" }",Heritage at risk,,,,heritage,geography,Q16983914,Heritage_at_Risk_Register
-heritage-coast,heritage-coast,,,,,7600000,7699999,Heritage coast,"{ ""colour"": ""#912b88"" }",Heritage coast,,,,environment;heritage,geography,Q13125592,Heritage_coast
+heritage-coast,heritage-coast,,,,,7600000,7699999,Heritage coast,"{ ""colour"": ""#912b88"" }",Heritage coast,,,"A heritage coast is established to conserve the best stretches of undeveloped coast in England. 
+
+Heritage coasts are protected in the planning system. Major development within a heritage coast is unlikely to be appropriate, unless it is compatible with its special character. 
+
+A heritage coast is defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).",environment;heritage,geography,Q13125592,Heritage_coast
 ,historic-non-designed-rural-landscape-local-landscape-area,,,,,7700000,7799999,Historic (non-designed) rural landscape/local landscape area,,Historic (non-designed) rural landscape/local landscape areas,,,,heritage,geography,,
 ,historic-stone-quarry,,,,,7800000,7899999,Historic stone quarry,,Historic stone quarries,,,,heritage,geography,,
 housing-allocation,housing-allocation,,,,,7900000,7999999,Housing allocation,,Housing allocations,,,,housing;monitoring,document,,
