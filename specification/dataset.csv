@@ -20,7 +20,11 @@ Where there’s an article 4 direction, a planning application may be needed for
 Local planning authorities or the [Secretary of State](https://www.gov.uk/government/ministers/secretary-of-state-for-housing-communities-and-local-government). Guidance sets out [when planning permission is needed](https://www.gov.uk/guidance/when-is-permission-required).",heritage,geography,Q16962063,Article_4_direction
 ,asset-of-community-value,,,,,1200000,1299999,Asset of community value,,Assets of community value,,,,heritage,geography,Q16971076,Asset_of_community_value
 ,attribution,,,,,1300000,1399999,Attribution,,Attributions,,,,specification,category,Q2132119,Attribution_(copyright)
-historic-england,battlefield,,,,,1400000,1499999,Battlefield,"{ ""colour"": ""#4d2942"", ""opacity"": 0.2 }",Battlefields,,,,heritage,geography,Q4895508,Battlefield
+historic-england,battlefield,,,,,1400000,1499999,Battlefield,"{ ""colour"": ""#4d2942"", ""opacity"": 0.2 }",Battlefields,,,"Locations of the most important historic military battles on English soil. There are 47 on the Register of Historic Battlefields list.
+
+UK planning rules do not prevent development on battlefield sites but developers need to provide a statement so that the planning authority can make a judgement about whether any development may harm the heritage of the site. 
+
+[Historic England](https://historicengland.org.uk) manage the Register of Historic Battlefields list with assistance from the [Battlefields Trust](https://www.battlefieldstrust.com/).",heritage,geography,Q4895508,Battlefield
 ,best-and-most-versatile-agricultural-land,,,,,1500000,1599999,Best and most versatile agricultural land,,Best and most versatile agricultural land,,,,environment,geography,,
 ,biodiversity-net-gain-assessment,,,,,1600000,1699999,Biodiversity net gain assesment,,Biodiversity net gain assesments,,,,environment,document,,
 brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,,,"### What is it?
@@ -208,7 +212,13 @@ You will not normally be permitted to carry out works that could have an adverse
 SSSIs are created by [Natural England](https://www.gov.uk/government/organisations/natural-england) and there is specific [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) on managing them.",environment,geography,Q422211,Site_of_Special_Scientific_Interest
 ,skip,Remove lines from a resource during normalise,,,,14600000,14699999,Pipeline skip,,Pipeline skips,,,,specification,specification,,
 ,source,,,,,14700000,14799999,Source,,Sources,,,,specification,specification,,
-special-area-of-conservation,special-area-of-conservation,,,,,14800000,14899999,Special area of conservation,"{ ""colour"": ""#7A8705"" }",Special areas of conservation,,,,environment,geography,Q1191622,Special_Area_of_Conservation
+special-area-of-conservation,special-area-of-conservation,,,,,14800000,14899999,Special area of conservation,"{ ""colour"": ""#7A8705"" }",Special areas of conservation,,,"Special areas of conservation (SACs) are areas of land which are internationally designated to protect specific habitats and species.
+
+There are restrictions on activities and developments that might affect a designated or protected area, for example building new houses or roads. 
+
+Special areas of conservation are designated by [DEFRA](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs) with advice from the [Joint Nature Conservation Committee](https://jncc.gov.uk/).
+
+There is specific [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) on how to review planning applications in protected sites and areas.",environment,geography,Q1191622,Special_Area_of_Conservation
 ,special-protection-area,,,,,14900000,14999999,Special protection area,,Special protection areas,,,,environment,document,,
 ,street,,,,,20000000000000,29999999999999,Street,,Streets,,,,administrative,geography,,
 ,suitable-alternative-green-space,,,,,15000000,15099999,Suitable alternative green space,,Suitable alternative green spaces,,,,environment,geography,,
