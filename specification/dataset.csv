@@ -201,7 +201,11 @@ The Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.u
 ,self-and-custom-buildarea,,,,,14200000,14299999,Self and custom build area,,Self and custom build areas,,,,housing,geography,,
 site-category,site-category,,,,,14300000,14399999,Site category,,Site categories,,,,development,category,,
 ,site-of-nature-conservation-importance,,,,,14400000,14499999,Site of nature conservation importancem,,Sites of nature conservation importance,,,,environment,document,,
-site-of-special-scientific-interest,site-of-special-scientific-interest,,,,,14500000,14599999,Site of special scientific interest,"{ ""colour"": ""#308fac"" }",Sites of special scientific interest,,,,environment,geography,Q422211,Site_of_Special_Scientific_Interest
+site-of-special-scientific-interest,site-of-special-scientific-interest,,,,,14500000,14599999,Site of special scientific interest,"{ ""colour"": ""#308fac"" }",Sites of special scientific interest,,,"Sites of special scientific interest (SSSIs) are nationally protected sites that have features such as wildlife or geology. 
+
+You will not normally be permitted to carry out works that could have an adverse effect on a SSSI. There are certain things you cannot do on SSSI land without consulting Natural England and getting consent from them first.
+
+SSSIs are created by [Natural England](https://www.gov.uk/government/organisations/natural-england) and there is specific [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) on managing them.",environment,geography,Q422211,Site_of_Special_Scientific_Interest
 ,skip,Remove lines from a resource during normalise,,,,14600000,14699999,Pipeline skip,,Pipeline skips,,,,specification,specification,,
 ,source,,,,,14700000,14799999,Source,,Sources,,,,specification,specification,,
 special-area-of-conservation,special-area-of-conservation,,,,,14800000,14899999,Special area of conservation,"{ ""colour"": ""#7A8705"" }",Special areas of conservation,,,,environment,geography,Q1191622,Special_Area_of_Conservation
