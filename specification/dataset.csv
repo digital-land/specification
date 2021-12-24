@@ -178,7 +178,11 @@ historic-england,protected-wreck-site,,,,,12800000,12899999,Protected wreck site
 ,provenance,,,,,12900000,12999999,Provenance,,Provenance,,,,specification,specification,,
 organisation,public-authority,,,,,13000000,13099999,Public authority,,Public authorities,wikidata,,,administrative,organisation,,
 ,public-safety-zone-around-airport,,,,,13100000,13199999,Public safety zone around airport,,Public safety zones around airports,,,,transport,geography,,
-ramsar,ramsar-site,,,,,13200000,13299999,Ramsar site,"{ ""colour"": ""#7fcdff"" }",Ramsar sites,,,,environment,category,Q19683138,Ramsar_site
+ramsar,ramsar-site,,,,,13200000,13299999,Ramsar site,"{ ""colour"": ""#7fcdff"" }",Ramsar sites,,,"A Ramsar site is an internationally protected site listed as a Wetland of International Importance.
+
+A Local Authority will need to investigate a planning application that could affect a Ramsar site. 
+
+They are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england). If a ramsar site could be affected by development, Natural England should be consulted. There is specific [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) on how to review planning applications in protected sites and areas.",environment,category,Q19683138,Ramsar_site
 ramsar,ramsar,,,,,612001,619999,Ramsar area,"{ ""colour"": ""#8A8251"" }",Ramsar area,,,,environment,geography,,
 region,region,,,,,30100000,31099999,Region,,Regions,statistical-geography,,,administrative,geography,Q48091,Regions_of_England
 organisation,regional-park-authority,,,,,13300000,13399999,Regional park authority,,Regional park authorities,wikidata,,,administrative,organisation,,
