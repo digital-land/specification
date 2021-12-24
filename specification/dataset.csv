@@ -40,7 +40,11 @@ Building on brownfield land helps protect the countryside by reducing the pressu
 Local planning authorities designate brownfield land. They also keep up-to-date registers of brownfield land appropriate for residential development.",development,geography,Q896586,Brownfield_land
 brownfield-site,brownfield-site,,,,,1800000,1899999,Brownfield site,"{ ""colour"": ""#745729"" }",Brownfield sites,,,,development,geography,Q896586,Brownfield_land
 ,buffer-zone,,,,,1900000,1999999,Buffer zone,,Buffer zones,,,,heritage,geography,,
-historic-england,building-preservation-notice,,,,,2000000,2099999,Building preservation notice,"{ ""colour"": ""#f944c7"" }",Building preservation notices,,,,development,geography,Q98785867,Listed_building#England_and_Wales
+historic-england,building-preservation-notice,,,,,2000000,2099999,Building preservation notice,"{ ""colour"": ""#f944c7"" }",Building preservation notices,,,"Local planning authorities can serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed.
+
+Any works to a building that is the subject of a BPN need listed building consent. 
+
+[Section 3](https://www.designingbuildings.co.uk/wiki/Section)of the Planning (Listed Buildings and Conservation Areas) Act 1990 allows local planning authorities to serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed. The local planning authority must make an application to [Historic England](https://historicengland.org.uk/) to list the building at the same time that the BPN is served.",development,geography,Q98785867,Listed_building#England_and_Wales
 ,category,,,,,2100000,2199999,Category,,Categories,,,,specification,category,,
 central-activities-zone,central-activities-zone,,,,,2200000,2299999,Central activities zone,,Central activities zone,,,,development,geography,,
 historic-england,certificate-of-immunity,,,,,2300000,2399999,Certificate of immunity,"{ ""colour"": ""#D8760D"" }",Certificates of immunity,,,,heritage,geography,Q5065092,Certificate_of_Immunity_from_Listing
