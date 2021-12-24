@@ -34,3 +34,8 @@ typology: geography
 wikidata: Q16983914
 wikipedia: Heritage_at_Risk_Register
 ---
+Heritage at risk is a register of heritage assets at risk of decay. The register covers Grade I and II* listed buildings, Grade II listed places of worship and Grade II buildings in London, scheduled monuments, registered parks and gardens, registered battlefields, protected wreck sites and conservation areas.
+
+The register aims to protect and manage the historic environment. It allows owners, friends groups, developers and other stakeholders to find solutions for 'at risk' historic places and sites across England.
+
+The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).
