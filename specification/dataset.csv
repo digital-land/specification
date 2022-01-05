@@ -244,9 +244,13 @@ There is specific [guidance](https://www.gov.uk/guidance/protected-sites-and-are
 ,transform,,,,,15200000,15299999,Pipeline transformation,,Transformations,,,,specification,specification,,
 organisation,transport-authority,,,,,15300000,15399999,Passenger transport executive,,Passenger transport executive,wikidata,,,administrative,organisation,Q514989,Passenger_transport_executive
 ,transport-under-tcpa-route,,,,,15400000,15499999,Transport (under TCPA route),,Transport (under TCPA route),,,,transport,geography,,
-tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,Tree preservation order,,Tree preservation orders,,,"A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. You must get written consent before doing any work on a tree with a TPO, including felling, lopping or cutting roots. Unauthorised work to a protected tree is a criminal offence.
+tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,Tree preservation order,,Tree preservation orders,,,"A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands.
 
-Anyone wanting to cut down, top, lop or uproot trees subject to an order must first apply to the local planning authority for consent unless an exception applies.
+### Impact on planning decisions
+
+Anyone wanting to cut down, top, lop or uproot trees subject to an order must first apply to the local planning authority for consent unless an [exception applies](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas#limitations). Unauthorised work to a protected tree is a criminal offence.
+
+### Responsible organisations and guidance
 
 Tree Preservation Orders are made by local planning authorities following the [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas).",environment,legal-instrument,,
 ,tree-preservation-type,Types of preservation order,,,,18100000,19099999,Tree preservation type,,Tree preservation types,,,,environment,category,,
