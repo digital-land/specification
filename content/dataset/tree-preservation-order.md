@@ -31,8 +31,12 @@ typology: legal-instrument
 wikidata: ''
 wikipedia: ''
 ---
-A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. You must get written consent before doing any work on a tree with a TPO, including felling, lopping or cutting roots. Unauthorised work to a protected tree is a criminal offence.
+A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands.
 
-Anyone wanting to cut down, top, lop or uproot trees subject to an order must first apply to the local planning authority for consent unless an exception applies.
+### Impact on planning decisions
+
+Anyone wanting to cut down, top, lop or uproot trees subject to an order must first apply to the local planning authority for consent unless an [exception applies](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas#limitations). Unauthorised work to a protected tree is a criminal offence.
+
+### Responsible organisations and guidance
 
 Tree Preservation Orders are made by local planning authorities following the [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas).
