@@ -36,6 +36,10 @@ wikipedia: Battlefield
 ---
 Locations of the most important historic military battles on English soil. There are 47 on the Register of Historic Battlefields list.
 
-UK planning rules do not prevent development on battlefield sites but developers need to provide a statement so that the planning authority can make a judgement about whether any development may harm the heritage of the site. 
+### Why are they important for planning?
+
+Planning rules do not prevent development on battlefield sites but developers need to provide a statement so that the planning authority can make a judgement about whether any development may harm the heritage of the site. 
+
+### Responsible organisations and guidance
 
 [Historic England](https://historicengland.org.uk) manage the Register of Historic Battlefields list with assistance from the [Battlefields Trust](https://www.battlefieldstrust.com/).
