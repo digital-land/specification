@@ -36,7 +36,11 @@ wikipedia: Special_Area_of_Conservation
 ---
 Special areas of conservation (SACs) are areas of land which are internationally designated to protect specific habitats and species.
 
+### Impact on planning decisions
+
 There are restrictions on activities and developments that might affect a designated or protected area, for example building new houses or roads. 
+
+### Responsible organisations and guidance
 
 Special areas of conservation are designated by [DEFRA](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs) with advice from the [Joint Nature Conservation Committee](https://jncc.gov.uk/).
 
