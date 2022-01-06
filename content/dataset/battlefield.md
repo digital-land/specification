@@ -42,4 +42,4 @@ Planning rules do not prevent development on battlefield sites but developers ne
 
 ### Responsible organisations and guidance
 
-[Historic England](https://historicengland.org.uk) manage the Register of Historic Battlefields list with assistance from the [Battlefields Trust](https://www.battlefieldstrust.com/).
+[Historic England](https://historicengland.org.uk) manage the Register of Historic Battlefields list with assistance from the [Battlefields Trust](https://www.battlefieldstrust.com/)..
