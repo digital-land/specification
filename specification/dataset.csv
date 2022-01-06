@@ -185,11 +185,15 @@ national-park,national-park,,,,,10000000,10099999,National park,"{ ""colour"": "
 ,non-designated-archeology-asset-of-national-importance,,,,,10400000,10499999,Non-designated archeology asset of national importance,,Non-designated archeology assets of national importance,,,,heritage,geography,,
 ,nuclear-safety-zone,,,,,10500000,10599999,Nuclear safety zone,,Nuclear safety zones,,,,environment,geography,,
 ,old-entity,Redirect an entity or mark it as gone,,,,0,0,Entity redirection,,Entity redirections,,,,specification,value,,
-open-space,open-space,,,,,10700000,10799999,Open space,"{ ""colour"": ""#328478"" }",Open spaces,,,"Open space, which includes all open space of public value, can include formal sports pitches, open areas within a development and country parks. It can provide health and recreation benefits to people living and working nearby and have an ecological value.
+open-space,open-space,,,,,10700000,10799999,Open space,"{ ""colour"": ""#328478"" }",Open spaces,,,"Open space can include formal sports pitches, open areas within a development and country parks. It provides health and recreation benefits to people living and working nearby or has an ecological value.
+
+### Impact on planning decisions
 
 Local planning authorities should assess the need for open space and opportunities for new provision in their areas and this could affect planning decisions.
 
-Authorities and developers may refer to [Sport England’s guidance](http://www.sportengland.org/facilities-planning/planning-for-sport/planning-tools-and-guidance/) on how to assess the need for sports and recreation facilities. There is also [guidance on Local Green Space designation](https://www.gov.uk/guidance/open-space-sports-and-recreation-facilities-public-rights-of-way-and-local-green-space#Local-Green-Space-designation), which may form part of the overall open space network within an area.",environment,geography,,
+### Responsible organisations and guidance
+
+Authorities and developers may refer to [Sport England's guidance](http://www.sportengland.org/facilities-planning/planning-for-sport/planning-tools-and-guidance/) on how to assess the need for sports and recreation facilities. There is also [guidance on Local Green Space designation](https://www.gov.uk/guidance/open-space-sports-and-recreation-facilities-public-rights-of-way-and-local-green-space#Local-Green-Space-designation), which may form part of the overall open space network within an area.",environment,geography,,
 ,organisation,,,,,10800000,10899999,Organisation,,Organisations,,,,,organisation,,
 ownership-status,ownership-status,,,,,10900000,10999999,Ownership status,,Ownership statuses,,,,development,category,,
 parish,parish,,,,,130000000,139999999,Civil parish,"{ ""colour"": ""#5694ca"" }",Civil parishes,statistical-geography,,,administrative,geography,Q1115575,Civil_parish
