@@ -32,8 +32,12 @@ typology: geography
 wikidata: Q3078732
 wikipedia: Ancient_woodland
 ---
-Areas that have been wooded continuously since at least 1600 AD They are relatively undisturbed by human development and are therefore unique habitats.
+An area that has been wooded continuously since at least 1600 AD, relatively undisturbed by human development and therefore a unique habitat.
 
-Permission for development that will cause the loss or deterioration of irreplaceable habitats is only granted in exceptional circumstances unless there are exceptional reasons and there’s an additional compensation strategy.
+### Impact on planning decisions
 
-Natural England and Forestry Commission [Guidance](https://www.gov.uk/guidance/ancient-woodland-and-veteran-trees-protection-surveys-licences) is used in planning decisions.
+You will only be granted permission for any development that will cause the loss or deterioration of irreplaceable habitats in exceptional circumstances and only if you put an additional compensation strategy in place.
+
+### Responsible organisations and guidance
+
+Natural England and Forestry Commission [Guidance](https://www.gov.uk/guidance/ancient-woodland-and-veteran-trees-protection-surveys-licences)  is used in planning decisions.
