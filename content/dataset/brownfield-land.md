@@ -159,12 +159,12 @@ wikidata: Q896586
 wikipedia: Brownfield_land
 ---
 
-Brownfield land is currently, or was previously, built on and therefore has good potential for housing-led development.
+Brownfield land is currently, or was previously, land built on and therefore is prioritised for development.
 
 ### Impact on planning decisions
 
-Building on brownfield land helps protect the countryside by reducing the pressure to build on greenfield sites or land that has never been built on. It also has the potential advantage of being able to use infrastructure from previous development. The planning process on some brownfield sites can be fast tracked.
+Building on brownfield land helps protect the countryside by reducing the pressure to build on greenfield sites or land that has never been built on. It can also make use of infrastructure from existing development. Planners will usually look more favourably on development proposed for brownfield land.
 
 ### Responsible organisations and guidance
 
-Local planning authorities designate brownfield land. They also keep up-to-date registers of brownfield land appropriate for residential development.
+Local planning authorities designate brownfield land. They also keep up-to-date registers of brownfield land appropriate for development.
