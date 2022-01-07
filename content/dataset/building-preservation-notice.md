@@ -34,6 +34,7 @@ typology: geography
 wikidata: Q98785867
 wikipedia: Listed_building#England_and_Wales
 ---
+
 Local planning authorities can serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed.
 
 Any works to a building that is the subject of a BPN need listed building consent. 

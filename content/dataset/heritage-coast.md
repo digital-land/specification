@@ -35,6 +35,7 @@ typology: geography
 wikidata: Q13125592
 wikipedia: Heritage_coast
 ---
+
 A heritage coast is established to conserve the best stretches of undeveloped coast in England. 
 
 ### Impact on planning decisions

@@ -34,6 +34,7 @@ typology: geography
 wikidata: Q4895508
 wikipedia: Battlefield
 ---
+
 Locations of the most important historic military battles on English soil. There are 47 on the Register of Historic Battlefields list.
 
 ### Why are they important for planning?

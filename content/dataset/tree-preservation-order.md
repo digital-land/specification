@@ -31,6 +31,7 @@ typology: legal-instrument
 wikidata: ''
 wikipedia: ''
 ---
+
 A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands.
 
 ### Impact on planning decisions

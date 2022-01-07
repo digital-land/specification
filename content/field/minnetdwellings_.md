@@ -1,17 +1,17 @@
 ---
 cardinality: '1'
-datatype: hash
+datatype: integer
 description: ''
-end-date: ''
+end-date: '2019-10-31'
 entry-date: ''
-field: fact
+field: MinNetDwellings
 guidance: ''
 hint: ''
-name: Fact
-parent-field: hash
+name: Minimum net dwellings
+parent-field: number
 replacement-field: ''
 start-date: ''
 typology: value
-uri-template: https://www.digital-land.info/resource/{resource}
+uri-template: ''
 wikidata-property: ''
 ---

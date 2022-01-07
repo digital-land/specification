@@ -35,6 +35,7 @@ typology: geography
 wikidata: Q174945
 wikipedia: Area_of_Outstanding_Natural_Beauty
 ---
+
 An area of outstanding natural beauty (AONB) is a protected area of landscape whose distinctive character and natural beauty are precious enough to be safeguarded in the national interest. Each AONB must have a management plan which is reviewed every 5 years.
 
 ### Impact on planning decisions

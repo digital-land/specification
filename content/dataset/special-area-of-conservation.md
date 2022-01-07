@@ -34,6 +34,7 @@ typology: geography
 wikidata: Q1191622
 wikipedia: Special_Area_of_Conservation
 ---
+
 Special areas of conservation (SACs) are areas of land which are internationally designated to protect specific habitats and species.
 
 ### Impact on planning decisions

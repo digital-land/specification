@@ -34,6 +34,7 @@ typology: geography
 wikidata: Q9259
 wikipedia: World_Heritage_Site
 ---
+
 World heritage sites are sites, places, monuments or buildings of "outstanding universal value" to all humanity - today and in future generations. They are afforded legal protection by an international convention administered by [UNESCO](https://en.unesco.org/) for having cultural, historical, scientific or other form of significance.  All UK world heritage sites have a management plan.
 
 Designation of a world heritage site by UNESCO brings no additional statutory controls, but protection is afforded through the planning system as well as through the other designations (listed buildings, scheduled monuments etc) that cover elements, if not the whole, of the site. The [NPPF](https://www.gov.uk/government/publications/national-planning-policy-framework--2) defines a world heritage site as a designated heritage asset. Accordingly, great weight should be given to its conservation and substantial harm to a world heritage sites significance (the heritage aspects of its "outstanding universal value") or total loss of the site should be wholly exceptional ([para 194](https://www.gov.uk/guidance/national-planning-policy-framework/16-conserving-and-enhancing-the-historic-environment#footnote61)).  

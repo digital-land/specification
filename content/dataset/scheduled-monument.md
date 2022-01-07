@@ -34,6 +34,7 @@ typology: geography
 wikidata: Q219538
 wikipedia: Scheduled_monument
 ---
+
 An historic building or site such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites. Churches or a building in residential use can't be designated as scheduled monuments.
 
 ### Impact on planning decisions

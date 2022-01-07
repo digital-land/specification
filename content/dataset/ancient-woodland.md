@@ -32,6 +32,7 @@ typology: geography
 wikidata: Q3078732
 wikipedia: Ancient_woodland
 ---
+
 An area that has been wooded continuously since at least 1600 AD, relatively undisturbed by human development and therefore a unique habitat.
 
 ### Impact on planning decisions

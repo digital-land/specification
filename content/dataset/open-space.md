@@ -31,6 +31,7 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+
 Open space can include formal sports pitches, open areas within a development and country parks. It provides health and recreation benefits to people living and working nearby or has an ecological value.
 
 ### Impact on planning decisions

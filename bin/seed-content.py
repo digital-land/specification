@@ -16,8 +16,17 @@ def dump(_table):
     for name, row in table[_table].items():
         directory = "content/%s" % _table
         Path(directory).mkdir(parents=True, exist_ok=True)
-        with open("%s/%s.md" % (directory, name), "wb") as f:
-            post = frontmatter.Post(row.get("text", ""))
+
+        # support case-insensitive filesystems
+        filename = name
+        if (any(c.isupper() for c in filename)):
+            filename = name.lower() + "_"
+
+        with open("%s/%s.md" % (directory, filename), "wb") as f:
+            text = row.get("text", "")
+            if not text.endswith("\n"):
+                text += "\n"
+            post = frontmatter.Post(text)
             for field in row:
                 if field not in ["text"]:
                     post[field] = row[field]

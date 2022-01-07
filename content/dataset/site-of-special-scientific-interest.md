@@ -34,6 +34,7 @@ typology: geography
 wikidata: Q422211
 wikipedia: Site_of_Special_Scientific_Interest
 ---
+
 Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology. 
 
 ### Impact on planning decisions

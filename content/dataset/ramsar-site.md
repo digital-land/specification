@@ -29,6 +29,7 @@ typology: category
 wikidata: Q19683138
 wikipedia: Ramsar_site
 ---
+
 A Ramsar site is an internationally protected site listed as a Wetland of International Importance.
 
 ### Impact on planning decisions

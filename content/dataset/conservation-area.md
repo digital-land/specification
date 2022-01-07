@@ -34,6 +34,7 @@ typology: geography
 wikidata: Q5162904
 wikipedia: Conservation_area_(United_Kingdom)
 ---
+
 These are designated areas of historic and architectural interest in which there are legal restrictions on what changes can be made to buildings, greenery and street furniture in order to preserve the unique character of the place. 
 
 ### Impact on planning decisions

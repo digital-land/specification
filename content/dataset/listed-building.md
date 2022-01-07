@@ -32,6 +32,7 @@ typology: geography
 wikidata: Q570600
 wikipedia: Listed_building
 ---
+
 Listed building status protects buildings that are of special architectural and historic interest. 
 
 There are three grades of listing:
