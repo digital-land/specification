@@ -35,7 +35,7 @@ wikipedia: Listed_building
 
 Listed building status protects buildings that are of special architectural and historic interest. 
 
-There are three grades of listing:
+There are 3 grades of listing:
 
 -   grade I buildings are of exceptional interest
 
@@ -45,7 +45,7 @@ There are three grades of listing:
 
 ### Why are they important for planning?
 
-You will need special consent before making changes to a listed building that affect its character. 
+You need special consent before making changes to a listed building that affect its character. 
 
 Historic England also need to be notified or consulted when the setting of a Grade I or Grade II* listed building may be affected.
 
