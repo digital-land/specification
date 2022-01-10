@@ -34,7 +34,7 @@ A Ramsar site is an internationally protected site listed as a Wetland of Intern
 
 ### Impact on planning decisions
 
-Any development in a RAMSAR site will need special consideration and may require consultation with specific organisations. 
+Any development in a RAMSAR site will need special consideration and may need consultation with specific organisations. 
 
 ### Responsible organisations and guidance
 
