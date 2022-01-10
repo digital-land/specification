@@ -36,11 +36,11 @@ wikidata: Q174945
 wikipedia: Area_of_Outstanding_Natural_Beauty
 ---
 
-An area of outstanding natural beauty (AONB) is a protected area of landscape whose distinctive character and natural beauty are precious enough to be safeguarded in the national interest. Each AONB must have a management plan which is reviewed every 5 years.
+An area of outstanding natural beauty (AONB) is a protected area of landscape whose distinctive character and natural beauty are precious enough to be safeguarded in the national interest. Each AONB must have a management plan which is reviewed every 5 years. Local Authorities can consult Natural England for advice to help make a decision on a planning application that may have an impact on an AONB.
 
 ### Impact on planning decisions
 
-Local Authorities can consult Natural England for advice to help make a decision on a planning application that may have an impact on an AONB. Natural England can object to a planning application if mitigation measures aren’t acceptable. A local authority may need to request that appropriate compensation measures are included (such as habitat creation on another site) if it isn’t possible to minimise the risks to the protected site. 
+You will need to consult with Natural England on any proposed development in an AONB. You may need to incorporate appropriate compensation measures into any planning application. 
 
 ### Responsible organisations and guidance
 
