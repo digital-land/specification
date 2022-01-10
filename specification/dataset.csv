@@ -43,15 +43,15 @@ Planning rules do not prevent development on battlefield sites but developers ne
 [Historic England](https://historicengland.org.uk) manage the Register of Historic Battlefields list with assistance from the [Battlefields Trust](https://www.battlefieldstrust.com/).",heritage,geography,Q4895508,Battlefield
 ,best-and-most-versatile-agricultural-land,,,,,1500000,1599999,Best and most versatile agricultural land,,Best and most versatile agricultural land,,,,environment,geography,,
 ,biodiversity-net-gain-assessment,,,,,1600000,1699999,Biodiversity net gain assesment,,Biodiversity net gain assesments,,,,environment,document,,
-brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,,,"Brownfield land is currently, or was previously, built on and therefore has good potential for housing-led development.
+brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,,,"Brownfield land is currently, or was previously, land built on and therefore is prioritised for development.
 
 ### Impact on planning decisions
 
-Building on brownfield land helps protect the countryside by reducing the pressure to build on greenfield sites or land that has never been built on. It also has the potential advantage of being able to use infrastructure from previous development. The planning process on some brownfield sites can be fast tracked.
+Building on brownfield land helps protect the countryside by reducing the pressure to build on greenfield sites or land that has never been built on. It can also make use of infrastructure from existing development. Planners will usually look more favourably on development proposed for brownfield land.
 
 ### Responsible organisations and guidance
 
-Local planning authorities designate brownfield land. They also keep up-to-date registers of brownfield land appropriate for residential development.",development,geography,Q896586,Brownfield_land
+Local planning authorities designate brownfield land. They also keep up-to-date registers of brownfield land appropriate for development.",development,geography,Q896586,Brownfield_land
 brownfield-site,brownfield-site,,,,,1800000,1899999,Brownfield site,"{ ""colour"": ""#745729"" }",Brownfield sites,,,,development,geography,Q896586,Brownfield_land
 ,buffer-zone,,,,,1900000,1999999,Buffer zone,,Buffer zones,,,,heritage,geography,,
 historic-england,building-preservation-notice,,,,,2000000,2099999,Building preservation notice,"{ ""colour"": ""#f944c7"" }",Building preservation notices,,,"Local planning authorities can serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed.
