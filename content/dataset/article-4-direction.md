@@ -32,7 +32,7 @@ wikidata: Q16962063
 wikipedia: Article_4_direction
 ---
 
-Some home improvements or extensions do not need a planning application. This is called [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance). An article 4 direction means that a particular development cannot be carried out under permitted development and therefore needs a planning application. 
+Some types of development do not need planning permission. This is called [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance). An article 4 direction means permitted development rights are withdrawn from a building or area.
 
 ### Impact on planning decisions
 
