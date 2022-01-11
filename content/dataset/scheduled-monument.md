@@ -35,7 +35,7 @@ wikidata: Q219538
 wikipedia: Scheduled_monument
 ---
 
-An historic building or site such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites. Churches or a building in residential use can't be designated as scheduled monuments.
+Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments. Churches or a building in residential use can’t.
 
 ### Impact on planning decisions
 
