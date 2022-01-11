@@ -35,7 +35,7 @@ wikidata: Q4895508
 wikipedia: Battlefield
 ---
 
-Locations of the most important historic military battles on English soil. There are 47 on the Register of Historic Battlefields list.
+The Register of Historic Battlefields list includes 47 locations of the most important historic military battles on English soil.
 
 ### Why are they important for planning?
 
