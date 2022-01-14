@@ -215,6 +215,7 @@ Do not include links within hint text. While screen readers will read out the li
 1,string,,,,official-name-cy,,,Official name (Welsh),name,,,,value,,
 1,string,,,,official-name,,,Official name,name,,,,value,,
 1,string,,,,old-entity,,,Old entity,entity,,,,value,,
+1,hash,,,,old-resource,,,Old resource,hash,,,,value,,
 1,string,,,,open-space,,,Open space,geography,,,,geography,,
 1,url,,,,opendatacommunities-area,,,Open Data Communities area,url,,,,value,,
 1,url,,,,opendatacommunities-organisation,,,Open Data Communities organisation,url,,,,value,,
