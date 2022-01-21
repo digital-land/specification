@@ -6,6 +6,7 @@ second-pass::	specification
 include makerules/makerules.mk
 include makerules/specification.mk
 include makerules/render.mk
+include makerules/python.mk
 
 SPECIFICATION_CSV=\
 	specification/collection.csv\
