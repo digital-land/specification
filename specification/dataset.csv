@@ -65,6 +65,7 @@ historic-england,certificate-of-immunity,,,,,2300000,2399999,Certificate of immu
 ,checksum,Checksums of dataset files and other media,,,,,,Pipeline column,,Pipeline columns,,,,specification,specification,,
 ,coastal-change-management-area,,,,,2400000,2499999,Coastal change management area,,Coastal change management areas,,,,environment,geography,,
 ,collection,A collection of resources collected from various sources,,,,2500000,2599999,Collection,,Collections,,,,specification,specification,,
+,column-field,Mapping of columns to fields,,,,,,column field,,Column fields,,,,specification,specification,,
 ,column,Change column and field names during map,,,,2600000,2699999,Pipeline column,,Pipeline columns,,,,specification,specification,,
 ,common-land-and-village-green,,,,,2700000,2799999,Common land and village green,,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
 ,company,,,,,2800000,2899999,Company,,Companies,,,,administrative,organisation,,
@@ -86,6 +87,7 @@ developer-contributions,contribution-purpose,,,,,16200000,16299999,Contribution 
 ,datapackage-dataset,Datasets included in a datapackage,,,,17000000,17099999,Data package dataset,,Data package datasets,,,,specification,specification,,
 ,datapackage,Collections of datasets,,,,16500000,16599999,Data package,,Data packages,,,,specification,specification,,
 ,dataset-field,,,,,0,0,Dataset field,,Dataset fields,,,,specification,specification,,
+,dataset-resource,An index of resources in a dataset,,,,,,Dataset resource,,Dataset resources,,,,specification,specification,,
 ,dataset-schema,,,,,16700000,16799999,Dataset schema,,Dataset schemas,,,,specification,specification,,
 ,dataset,A collection of entities of the same type,,,,4000000,4099999,Dataset,,Datasets,,,,specification,specification,Q1172284,Data_set
 ,datatype,,,,,4100000,4199999,Datatype,,Datatypes,,,,specification,specification,,

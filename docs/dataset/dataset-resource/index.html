@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Dataset | Digital Land</title>
+    <title>Dataset resource | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -133,7 +133,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Dataset</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Dataset resource</li>
     
   
   </ol>
@@ -146,14 +146,14 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Dataset</h1>
+  <h1 class="govuk-heading-xl">Dataset resource</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">A collection of entities of the same type</p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">An index of resources in a dataset</p>
     <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
 
     <table class="govuk-table">
@@ -171,7 +171,7 @@
         
         <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_dataset"><a href="../../field/dataset">dataset</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
+          </td>
           <td class="govuk-table__cell">Dataset</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
@@ -179,127 +179,37 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_collection"><a href="../../field/collection">collection</a>
+          <td class="govuk-table__cell" id="field_entity-count"><a href="../../field/entity-count">entity-count</a>
           </td>
-          <td class="govuk-table__cell">Collection</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_description"><a href="../../field/description">description</a>
-          </td>
-          <td class="govuk-table__cell">Description</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_entity-maximum"><a href="../../field/entity-maximum">entity-maximum</a>
-          </td>
-          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell">Entity count</td>
           <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_entity-minimum"><a href="../../field/entity-minimum">entity-minimum</a>
+          <td class="govuk-table__cell" id="field_line-count"><a href="../../field/line-count">line-count</a>
           </td>
-          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell">Line count</td>
           <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_key-field"><a href="../../field/key-field">key-field</a>
+          <td class="govuk-table__cell" id="field_resource"><a href="../../field/resource">resource</a>
           </td>
-          <td class="govuk-table__cell">Key field</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">Resource</td>
+          <td class="govuk-table__cell"><a href="../../datatype/hash">hash</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          <td class="govuk-table__cell" id="field_row-count"><a href="../../field/row-count">row-count</a>
           </td>
-          <td class="govuk-table__cell">Name</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_paint-options"><a href="../../field/paint-options">paint-options</a>
-          </td>
-          <td class="govuk-table__cell">Paint options</td>
-          <td class="govuk-table__cell"><a href="../../datatype/json">json</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_plural"><a href="../../field/plural">plural</a>
-          </td>
-          <td class="govuk-table__cell">Plural name</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
-          </td>
-          <td class="govuk-table__cell">CURIE prefix</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_text"><a href="../../field/text">text</a>
-          </td>
-          <td class="govuk-table__cell">Text</td>
-          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_themes"><a href="../../field/themes">themes</a>
-          </td>
-          <td class="govuk-table__cell">Themes</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">n</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_typology"><a href="../../field/typology">typology</a>
-          </td>
-          <td class="govuk-table__cell">Typology</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_wikidata"><a href="../../field/wikidata">wikidata</a>
-          </td>
-          <td class="govuk-table__cell">Wikidata item</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_wikipedia"><a href="../../field/wikipedia">wikipedia</a>
-          </td>
-          <td class="govuk-table__cell">Wikipedia page</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">Row count</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -334,9 +244,6 @@
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/specification">specification</a> typology.</p>
-    
 
     
     <h2 class="govuk-heading-s" id="">Datasets</h2>
@@ -345,38 +252,13 @@
     <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../collection">Collection</a></li>
+      <li><a href="../dataset">Dataset</a></li>
     
-      <li><a href="../prefix">CURIE prefix</a></li>
-    
-      <li><a href="../theme">Theme</a></li>
-    
-      <li><a href="../typology">Typology</a></li>
+      <li><a href="../resource">Resource</a></li>
     
     </ul>
     
 
-    
-    <p class="govuk-body">This dataset is linked to by the following other datasets:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../checksum">Pipeline column</a></li>
-    
-      <li><a href="../column-field">column field</a></li>
-    
-      <li><a href="../datapackage-dataset">Data package dataset</a></li>
-    
-      <li><a href="../dataset-field">Dataset field</a></li>
-    
-      <li><a href="../dataset-resource">Dataset resource</a></li>
-    
-      <li><a href="../dataset-schema">Dataset schema</a></li>
-    
-      <li><a href="../entity">Entity</a></li>
-    
-      <li><a href="../project">Project</a></li>
-    
-    </ul>
     
 
     
