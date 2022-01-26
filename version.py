@@ -9,10 +9,10 @@ import subprocess
 def get_version():
     try:
         return (
-            subprocess.check_output(["git", "rev-parse", "HEAD"])[:-1].decode("utf-8")
+            subprocess.check_output(["git", "show", "-s", "--format=%h"])[:-1].decode("utf-8")
         )
     except subprocess.CalledProcessError:
-        print("Unable to get current commit hash from git rev-parse")
+        print("Unable to get current commit hash from git show")
         sys.exit(1)
 
 
