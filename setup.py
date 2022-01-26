@@ -2,6 +2,8 @@ import os
 
 from setuptools import setup
 
+from version import get_version
+
 
 def get_long_description():
     with open(
@@ -13,7 +15,7 @@ def get_long_description():
 
 setup(
     name="specification",
-    version="0.0.1",
+    version=get_version(),
     description="Digital Land specifications, built upon the GOV.UK Registers data model.",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
