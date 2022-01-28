@@ -12,9 +12,6 @@ fields:
 - field: fact
 - field: field
 - field: entry-date
-- field: json
-- field: prefix
-- field: reference
 - field: reference-entity
 - field: start-date
 - field: value
