@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: A count of the number of lines in a resource or file
+description: A count of the number of lines
 end-date: ''
 entry-date: ''
 field: line-count

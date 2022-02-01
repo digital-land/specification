@@ -1,15 +1,15 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'either an entry or line number'
+description: A count of the number of entries
 end-date: ''
 entry-date: ''
-field: row-number
+field: entry-count
 guidance: ''
 hint: ''
-name: Row number
+name: Entry count
 parent-field: number
-replacement-field: 'entry-number'
+replacement-field: ''
 start-date: ''
 typology: value
 uri-template: ''

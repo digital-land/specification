@@ -444,10 +444,10 @@ dataset-field,start-date
 dataset-resource,end-date
 dataset-resource,entry-date
 dataset-resource,dataset
-dataset-resource,resource
 dataset-resource,entity-count
+dataset-resource,entry-count
 dataset-resource,line-count
-dataset-resource,row-count
+dataset-resource,resource
 dataset-resource,start-date
 dataset-schema,dataset
 dataset-schema,end-date
@@ -679,7 +679,7 @@ fact-resource,end-date
 fact-resource,fact
 fact-resource,entry-date
 fact-resource,resource
-fact-resource,row-number
+fact-resource,entry-number
 fact-resource,start-date
 fact,end-date
 fact,entity
@@ -980,10 +980,12 @@ internal-drainage-board,wikidata
 internal-drainage-board,wikipedia
 issue,end-date
 issue,entry-date
+issue,entry-number
 issue,field
 issue,issue-type
-issue,pipeline
+issue,dataset
 issue,resource
+issue,line-number
 issue,row-number
 issue,start-date
 issue,value

@@ -1,15 +1,15 @@
 ---
 cardinality: '1'
 datatype: integer
-description: A count of the number of resource rows
+description: 'entry number in a processed resource'
 end-date: ''
 entry-date: ''
-field: row-count
+field: entry-number
 guidance: ''
 hint: ''
-name: Row count
+name: Entry number
 parent-field: number
-replacement-field: ''
+replacement-field:
 start-date: ''
 typology: value
 uri-template: ''

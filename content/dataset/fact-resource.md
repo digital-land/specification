@@ -11,7 +11,7 @@ fields:
 - field: fact
 - field: entry-date
 - field: resource
-- field: row-number
+- field: entry-number
 - field: start-date
 key-field: ''
 name: Fact resource

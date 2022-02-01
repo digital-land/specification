@@ -8,10 +8,10 @@ fields:
 - field: end-date
 - field: entry-date
 - field: dataset
-- field: resource
 - field: entity-count
+- field: entry-count
 - field: line-count
-- field: row-count
+- field: resource
 - field: start-date
 key-field: ''
 name: Dataset resource

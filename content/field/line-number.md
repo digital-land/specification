@@ -1,15 +1,15 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'either an entry or line number'
+description: 'line number in a resource or file'
 end-date: ''
 entry-date: ''
-field: row-number
+field: line-number
 guidance: ''
 hint: ''
-name: Row number
+name: Line number
 parent-field: number
-replacement-field: 'entry-number'
+replacement-field:
 start-date: ''
 typology: value
 uri-template: ''
