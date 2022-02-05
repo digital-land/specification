@@ -9,7 +9,7 @@ guidance: ''
 hint: ''
 name: OrganisationURI
 parent-field: url
-replacement-field: organisation
+replacement-field:
 start-date: ''
 typology: value
 uri-template: ''
