@@ -29,6 +29,7 @@ specification:: $(SPECIFICATION_CSV)
 # made from dataset content ..
 DATASET_MD=$(sort $(wildcard content/dataset/*.md))
 specification/dataset.csv:	$(DATASET_MD) bin/load-markdown.py
+	@mkdir -p specification/
 	python3 bin/load-markdown.py $@ $(DATASET_MD)
 
 DATATYPE_MD=$(sort $(wildcard content/datatype/*.md))
