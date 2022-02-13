@@ -19,6 +19,7 @@ SPECIFICATION_CSV=\
 	specification/field.csv\
 	specification/datatype.csv\
 	specification/typology.csv\
+	specification/prefix.csv\
 	specification/project.csv\
 	specification/project-status.csv\
 	specification/pipeline.csv\
@@ -80,6 +81,9 @@ specification/schema-field.csv:	$(DATASET_CSV) bin/schema-field.py
 
 specification/pipeline.csv:	$(DATASET_CSV) bin/pipeline.py
 	python3 bin/pipeline.py $@
+
+specification/prefix.csv:	$(DATASET_CSV) content/prefix.csv bin/prefix.py
+	python3 bin/prefix.py $@
 
 DATAPACKAGE_CSV=specification/datapackage.csv
 specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-dataset.py
