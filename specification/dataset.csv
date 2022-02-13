@@ -60,13 +60,13 @@ Any works to a building that is the subject of a BPN need listed building consen
 
 [Section 3](https://www.designingbuildings.co.uk/wiki/Section)of the Planning (Listed Buildings and Conservation Areas) Act 1990 allows local planning authorities to serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed. The local planning authority must make an application to [Historic England](https://historicengland.org.uk/) to list the building at the same time that the BPN is served.",development,geography,Q98785867,Listed_building#England_and_Wales
 ,category,,,,,2100000,2199999,Category,,Categories,,,,specification,category,,
-central-activities-zone,central-activities-zone,,,,,2200000,2299999,Central activities zone,,Central activities zone,,,,development,geography,,
+central-activities-zone,central-activities-zone,,,,,2200000,2299999,Central activities zone,,Central activities zones,,,,development,geography,,
 historic-england,certificate-of-immunity,,,,,2300000,2399999,Certificate of immunity,"{ ""colour"": ""#D8760D"" }",Certificates of immunity,,,,heritage,geography,Q5065092,Certificate_of_Immunity_from_Listing
 ,checksum,Checksums of dataset files and other media,,,,,,Pipeline column,,Pipeline columns,,,,specification,specification,,
 ,coastal-change-management-area,,,,,2400000,2499999,Coastal change management area,,Coastal change management areas,,,,environment,geography,,
 ,collection,A collection of resources collected from various sources,,,,2500000,2599999,Collection,,Collections,,,,specification,specification,,
-,column-field,Mapping of columns to fields,,,,,,column field,,Column fields,,,,specification,specification,,
-,column,Change column and field names during map,,,,2600000,2699999,Pipeline column,,Pipeline columns,,,,specification,specification,,
+,column-field,Mapping of resource columns to dataset fields,,,,,,Column field,,Column fields,,,"This table records the column names found in collected resources, and the field names they have been mapped to during processing.",specification,specification,,
+,column,resource column names for output fields,,,,2600000,2699999,Pipeline column,,Pipeline columns,,,,specification,specification,,
 ,common-land-and-village-green,,,,,2700000,2799999,Common land and village green,,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
 ,company,,,,,2800000,2899999,Company,,Companies,,,,administrative,organisation,,
 ,concat,Concatenate fields during the harmonise phase,,,,2900000,2999999,Pipeline concatenation,,Pipeline concatenations,,,,specification,specification,,
@@ -83,7 +83,7 @@ Local planning authorities are usually responsible for designating conservation 
 developer-contributions,contribution-funding-status,,,,,16900000,16999999,Contribution funding status,,Contribution funding statuses,,,,development,category,,
 developer-contributions,contribution-purpose,,,,,16200000,16299999,Contribution purpose,,Contribution purposes,,,,development,category,,
 ,control-of-major-accident-hazards-site,,,,,16300000,16399999,Control of major accident hazards site,,Control of major accident hazards sites,,,,development,geography,,
-,convert,Convert a resource during convert,,,,16400000,16499999,Pipeline convert,,Pipeline conversions,,,,specification,specification,,
+,convert,Convert a resource,,,,16400000,16499999,Pipeline convert,,Pipeline conversions,,,,specification,specification,,
 ,datapackage-dataset,Datasets included in a datapackage,,,,17000000,17099999,Data package dataset,,Data package datasets,,,,specification,specification,,
 ,datapackage,Collections of datasets,,,,16500000,16599999,Data package,,Data packages,,,,specification,specification,,
 ,dataset-field,,,,,0,0,Dataset field,,Dataset fields,,,,specification,specification,,
@@ -183,12 +183,12 @@ listed-building,locally-listed-building,"locally listed heritage assets, includi
 ,london-square,,,,,9200000,9299999,London square,,London squares,,,,heritage,geography,Q7582093,Squares_in_London
 ,long-established-woodland,,,,,9300000,9399999,Long established woodland,,Long established woodlands,,,,environment,geography,,
 ,long-protected-woodland,,,,,9400000,9499999,Long protected woodland,,Long protected woodlands,,,,environment,geography,,
-,lookup,Lookup entities,,,,9500000,9599999,Pipeline lookup,,Pipeline lookups,,,,specification,specification,,
+,lookup,Lookup entities,,,,,,Pipeline lookup,,Pipeline lookups,,,,specification,specification,,
 ,main-river,,,,,9600000,9699999,Main river,,Main rivers,,,,environment,geography,Q6736223,Main_river
 ,metropolitan-open-land,,,,,9700000,9799999,Metropolitan open land,,Metropolitan open land,,,,environment,geography,Q16997686,Metropolitan_Open_Land
 ,mineral-safeguarding-area,,,,,9800000,9899999,Mineral safeguarding area,,Mineral safeguarding areas,,,,environment,geography,,
 organisation,national-park-authority,,,,,9900000,9999999,National park authority,,National park authorities,wikidata,,,administrative,organisation,Q3336962,National_park_authority
-national-park,national-park,,,,,10000000,10099999,National park,"{ ""colour"": ""#3DA52C"" }",National parks,,,,heritage,geography,Q60256727,National_park
+national-park,national-park,,,,,10000000,10099999,National park,"{ ""colour"": ""#3DA52C"" }",National parks,statistical-geography,,,heritage,geography,Q60256727,National_park
 ,nature-improvement-area,,,,,10100000,10199999,Nature improvement area,,Nature improvement areas,,,,environment,geography,Q6980918,Nature_Improvement_Area
 ,neighbourhood-forum,,,,,10200000,10299999,Designated neighbourhood forum,,Designated neighbourhood forums,,,,administrative,organisation,,
 ,non-designated-and-locally-listed-historic-asset,,,,,10300000,10399999,Non-designated and locally listed historic asset,,Non-designated and locally listed historic assets,,,,heritage,geography,,
@@ -221,7 +221,6 @@ The register is kept by [Historic England](https://historicengland.org.uk/) with
 ,patch,Assert a field value during harmonise,,,,11200000,11299999,Pipeline patch,,Pipeline patches,,,,specification,specification,,
 legislation,permitted-development-right-part,,,,,11400000,11499999,Permitted development right part,,Permitted development right parts,,,,development,category,,
 legislation,permitted-development-right,,,,,11500000,11599999,Permitted development right,,Permitted development right,,,,development,policy,,
-,pipeline,,,,,11600000,11699999,Pipeline,,Pipelines,,,,specification,specification,,
 ,planning-decision,,,,,11700000,11799999,Planning decision,,Planning decisions,,,,housing;monitoring,document,,
 planning-permission-status,planning-permission-status,,,,,11800000,11899999,Planning permission status,,Planning permission statuses,,,,development,category,,
 planning-permission-type,planning-permission-type,,,,,11900000,11999999,Planning permission type,,Planning permission types,,,,development,category,,
@@ -281,7 +280,7 @@ You are not  normally allowed to carry out works that could have an adverse eff
 ### Responsible organisations and guidance
 
 SSSIs are created by [Natural England](https://www.gov.uk/government/organisations/natural-england) and there is specific [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) on managing them.",environment,geography,Q422211,Site_of_Special_Scientific_Interest
-,skip,Remove lines from a resource during normalise,,,,14600000,14699999,Pipeline skip,,Pipeline skips,,,,specification,specification,,
+,skip,Remove lines from a resource during normalise,,,,,,Pipeline skip,,Pipeline skips,,,,specification,specification,,
 ,source,,,,,14700000,14799999,Source,,Sources,,,,specification,specification,,
 special-area-of-conservation,special-area-of-conservation,,,,,14800000,14899999,Special area of conservation,"{ ""colour"": ""#7A8705"" }",Special areas of conservation,,,"Special areas of conservation (SACs) are areas of land which are internationally designated to protect specific habitats and species.
 
