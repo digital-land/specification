@@ -11,7 +11,7 @@ fields:
 - field: entry-date
 - field: field
 - field: pattern
-- field: pipeline
+- field: dataset
 - field: resource
 - field: start-date
 - field: value

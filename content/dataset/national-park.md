@@ -19,7 +19,7 @@ key-field: ''
 name: National park
 paint-options: '{ "colour": "#3DA52C" }'
 plural: National parks
-prefix: ''
+prefix: 'statistical-geography'
 start-date: ''
 themes:
 - heritage

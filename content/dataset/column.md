@@ -1,20 +1,19 @@
 ---
 collection: ''
 dataset: column
-description: Change column and field names during map
+description: resource column names for output fields
 end-date: ''
 entity-maximum: '2699999'
 entity-minimum: '2600000'
 entry-date: ''
 fields:
+- field: column
+- field: dataset
 - field: end-date
 - field: entry-date
 - field: field
-- field: pattern
-- field: pipeline
 - field: resource
 - field: start-date
-- field: value
 key-field: ''
 name: Pipeline column
 paint-options: ''

@@ -10,8 +10,8 @@ fields:
 - field: end-date
 - field: fact
 - field: entry-date
-- field: resource
 - field: entry-number
+- field: resource
 - field: start-date
 key-field: ''
 name: Fact resource

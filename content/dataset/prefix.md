@@ -11,6 +11,7 @@ fields:
 - field: entry-date
 - field: prefix
 - field: prefix-iri
+- field: organisation
 - field: start-date
 key-field: ''
 name: CURIE prefix

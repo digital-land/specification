@@ -15,7 +15,7 @@ fields:
 - field: entry-date
 - field: licence
 - field: organisation
-- field: pipelines
+- field: datasets
 - field: source
 - field: start-date
 key-field: ''

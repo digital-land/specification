@@ -13,8 +13,9 @@ datasets:
 - field
 - licence
 - log
+- lookup
 - patch
-- pipeline
+- prefix
 - provenance
 - resource
 - schema

@@ -1,7 +1,7 @@
 ---
 collection: ''
 dataset: convert
-description: Convert a resource during convert
+description: Convert a resource
 end-date: ''
 entity-maximum: '16499999'
 entity-minimum: '16400000'
@@ -10,7 +10,7 @@ fields:
 - field: end-date
 - field: entry-date
 - field: parameters
-- field: pipeline
+- field: dataset
 - field: plugin
 - field: resource
 - field: start-date

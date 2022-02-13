@@ -11,7 +11,7 @@ fields:
 - field: entry-date
 - field: field
 - field: fields
-- field: pipeline
+- field: dataset
 - field: resource
 - field: separator
 - field: start-date

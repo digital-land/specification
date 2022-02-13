@@ -12,10 +12,9 @@ fields:
 - field: entry-number
 - field: field
 - field: issue-type
+- field: line-number
 - field: dataset
 - field: resource
-- field: line-number
-- field: row-number
 - field: start-date
 - field: value
 key-field: ''

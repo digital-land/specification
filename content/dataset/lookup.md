@@ -3,20 +3,19 @@ collection: ''
 dataset: lookup
 description: Lookup entities
 end-date: ''
-entity-maximum: '9599999'
-entity-minimum: '9500000'
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: organisation
-- field: pipeline
+- field: entry-number
+- field: prefix
 - field: resource
-- field: row-number
 - field: start-date
 - field: value
-- field: lookup
+- field: reference
 key-field: ''
 name: Pipeline lookup
 paint-options: ''
