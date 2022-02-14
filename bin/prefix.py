@@ -12,7 +12,6 @@ for row in csv.DictReader(open("specification/dataset.csv", newline="")):
     prefix = row.get("prefix", "") or dataset
     if row["typology"] in ["specification"]:
         continue
-    print(prefix)
     prefixes[prefix] = row
 
 for row in csv.DictReader(open("content/prefix.csv", newline="")):
