@@ -7,7 +7,6 @@ entity-maximum: '1199999'
 entity-minimum: '1100000'
 entry-date: ''
 fields:
-- field: article-4-direction
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -17,6 +16,7 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
 key-field: ''

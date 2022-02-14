@@ -1,6 +1,6 @@
 ---
 collection: ''
-dataset: dataset-resource
+dataset: resource-dataset
 description: An index of resources in a dataset
 end-date: ''
 entry-date: ''
@@ -11,9 +11,10 @@ fields:
 - field: entity-count
 - field: entry-count
 - field: line-count
+- field: mime-type
+- field: path
 - field: resource
 - field: start-date
-key-field: ''
 name: Dataset resource
 paint-options: ''
 plural: Dataset resources
