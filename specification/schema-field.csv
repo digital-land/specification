@@ -67,7 +67,6 @@ area-of-outstanding-natural-beauty,point
 area-of-outstanding-natural-beauty,reference
 area-of-outstanding-natural-beauty,start-date
 area-of-outstanding-natural-beauty,area-of-outstanding-natural-beauty
-article-4-direction,article-4-direction
 article-4-direction,documentation-url
 article-4-direction,end-date
 article-4-direction,entity
@@ -77,6 +76,7 @@ article-4-direction,name
 article-4-direction,notes
 article-4-direction,organisation
 article-4-direction,point
+article-4-direction,prefix
 article-4-direction,reference
 article-4-direction,start-date
 asset-of-community-value,categories
@@ -437,14 +437,6 @@ dataset-field,guidance
 dataset-field,hint
 dataset-field,dataset
 dataset-field,start-date
-dataset-resource,end-date
-dataset-resource,entry-date
-dataset-resource,dataset
-dataset-resource,entity-count
-dataset-resource,entry-count
-dataset-resource,line-count
-dataset-resource,resource
-dataset-resource,start-date
 dataset-schema,dataset
 dataset-schema,end-date
 dataset-schema,entry-date
@@ -1651,6 +1643,16 @@ regional-park-authority,twitter
 regional-park-authority,website
 regional-park-authority,wikidata
 regional-park-authority,wikipedia
+resource-dataset,end-date
+resource-dataset,entry-date
+resource-dataset,dataset
+resource-dataset,entity-count
+resource-dataset,entry-count
+resource-dataset,line-count
+resource-dataset,mime-type
+resource-dataset,path
+resource-dataset,resource
+resource-dataset,start-date
 resource,bytes
 resource,end-date
 resource,endpoints

@@ -87,7 +87,6 @@ developer-contributions,contribution-purpose,,,,,16200000,16299999,Contribution 
 ,datapackage-dataset,Datasets included in a datapackage,,,,17000000,17099999,Data package dataset,,Data package datasets,,,,specification,specification,,
 ,datapackage,Collections of datasets,,,,16500000,16599999,Data package,,Data packages,,,,specification,specification,,
 ,dataset-field,,,,,0,0,Dataset field,,Dataset fields,,,,specification,specification,,
-,dataset-resource,An index of resources in a dataset,,,,,,Dataset resource,,Dataset resources,,,,specification,specification,,
 ,dataset-schema,,,,,16700000,16799999,Dataset schema,,Dataset schemas,,,,specification,specification,,
 ,dataset,A collection of entities of the same type,,,,4000000,4099999,Dataset,,Datasets,,,,specification,specification,Q1172284,Data_set
 ,datatype,,,,,4100000,4199999,Datatype,,Datatypes,,,,specification,specification,,
@@ -252,6 +251,7 @@ They are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural 
 ramsar,ramsar,,,,,612001,619999,Ramsar area,"{ ""colour"": ""#8A8251"" }",Ramsar area,,,,environment,geography,,
 region,region,,,,,30100000,31099999,Region,,Regions,statistical-geography,,,administrative,geography,Q48091,Regions_of_England
 organisation,regional-park-authority,,,,,13300000,13399999,Regional park authority,,Regional park authorities,wikidata,,,administrative,organisation,,
+,resource-dataset,An index of resources in a dataset,,,,,,Dataset resource,,Dataset resources,,,,specification,specification,,
 ,resource,An index of collected resources,,,,13400000,13499999,Resource,,Resources,,,,specification,specification,,
 ,safeguarded-aerodrome,,,,,13500000,13599999,Safeguarded aerodrome,,Safeguarded aerodromes,,,,transport,geography,,
 ,safeguarded-military-explosives-site,,,,,13600000,13699999,Safeguarded military explosives site,,Safeguarded military explosives sites,,,,environment,geography,,
