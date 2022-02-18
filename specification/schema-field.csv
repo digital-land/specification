@@ -1650,7 +1650,8 @@ resource-dataset,entity-count
 resource-dataset,entry-count
 resource-dataset,line-count
 resource-dataset,mime-type
-resource-dataset,path
+resource-dataset,internal-path
+resource-dataset,internal-mime-type
 resource-dataset,resource
 resource-dataset,start-date
 resource,bytes
