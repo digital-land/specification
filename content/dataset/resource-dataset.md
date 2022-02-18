@@ -12,7 +12,8 @@ fields:
 - field: entry-count
 - field: line-count
 - field: mime-type
-- field: path
+- field: internal-path
+- field: internal-mime-type
 - field: resource
 - field: start-date
 name: Dataset resource

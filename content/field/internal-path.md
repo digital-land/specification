@@ -1,17 +1,17 @@
 ---
 cardinality: '1'
 datatype: string
-description: The Multipurpose Internet Mail Extensions type assigned to a resource
+description: Path of a file within an resource
 end-date: ''
 entry-date: ''
-field: mime-type
+field: internal-path
 guidance: ''
 hint: ''
-name: MIME Type
-parent-field: category
+name: Internal path
+parent-field: string
 replacement-field: ''
 start-date: ''
-typology: category
+typology: value
 uri-template: ''
 wikidata-property: ''
 ---
