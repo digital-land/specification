@@ -1,6 +1,6 @@
 ---
 collection: ''
-dataset: resource-dataset
+dataset: dataset-resource
 description: An index of resources in a dataset
 end-date: ''
 entry-date: ''
