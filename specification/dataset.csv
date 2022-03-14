@@ -221,7 +221,10 @@ The register is kept by [Historic England](https://historicengland.org.uk/) with
 ,patch,Assert a field value during harmonise,,,,11200000,11299999,Pipeline patch,,Pipeline patches,,,,specification,specification,,
 legislation,permitted-development-right-part,,,,,11400000,11499999,Permitted development right part,,Permitted development right parts,,,,development,category,,
 legislation,permitted-development-right,,,,,11500000,11599999,Permitted development right,,Permitted development right,,,,development,policy,,
-,planning-decision,,,,,11700000,11799999,Planning decision,,Planning decisions,,,,housing;monitoring,document,,
+planning-application,planning-application-status,A planning application status,,,,620000,620999,Planning application status,,Planning application statuses,,,,housing;monitoring,category,,
+planning-application,planning-application-type,A type of planning application,,,,621000,621999,Planning application type,,Planning application types,,,,housing;monitoring,category,,
+planning-application,planning-application,An application for planning permission,,,,10000000000,10999999999,Planning application,,Planning applications,,,,housing;monitoring,geography,,
+planning-application,planning-development-category,Planning development category,,,,623000,623999,Planning development category,,Planning development categories,,,,housing;monitoring,category,,
 planning-permission-status,planning-permission-status,,,,,11800000,11899999,Planning permission status,,Planning permission statuses,,,,development,category,,
 planning-permission-type,planning-permission-type,,,,,11900000,11999999,Planning permission type,,Planning permission types,,,,development,category,,
 ,policy,,,,,12000000,12099999,Policy,,Policies,,,,administrative,policy,,
@@ -270,7 +273,7 @@ The Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.u
 ,schema,,,,,14100000,14199999,Schema,,Schemas,,,,specification,specification,,
 ,self-and-custom-buildarea,,,,,14200000,14299999,Self and custom build area,,Self and custom build areas,,,,housing,geography,,
 site-category,site-category,,,,,14300000,14399999,Site category,,Site categories,,,,development,category,,
-,site-of-nature-conservation-importance,,,,,14400000,14499999,Site of nature conservation importancem,,Sites of nature conservation importance,,,,environment,document,,
+,site-of-nature-conservation-importance,,,,,14400000,14499999,Site of nature conservation importance,,Sites of nature conservation importance,,,,environment,document,,
 site-of-special-scientific-interest,site-of-special-scientific-interest,,,,,14500000,14599999,Site of special scientific interest,"{ ""colour"": ""#308fac"" }",Sites of special scientific interest,,,"Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology. 
 
 ### Impact on planning decisions
