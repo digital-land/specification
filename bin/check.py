@@ -115,8 +115,7 @@ def check_datasets():
         # check entity ranges .. O(n2)
         if (
             "specification" != d["typology"]
-            and "entity" in d
-            and dataset not in ["entity", "fact", "old-entity"]
+            and dataset not in ["entity", "fact", "fact-resource", "old-entity", "old-resource"]
         ):
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
