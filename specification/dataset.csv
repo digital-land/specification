@@ -178,6 +178,7 @@ organisation,local-authority-eng,,,,,8700000,8799999,Local authority,,Local auth
 ,local-authority-type,,,,,8800000,8899999,Local authority type,,Local authority types,,,,administrative,category,,
 ,local-green-space,,,,,8900000,8999999,Local green space,,Local green spaces,,,,environment,geography,,
 ,local-nature-recovery-strategy,,,,,9000000,9099999,Local nature recovery strategy,,Local nature recovery strategies,,,,environment,geography,,
+local-planning-authority,local-planning-authority,,,,,624000,626999,Local planing authority,,Local planning authorities,statistical-geography,,,administrative,geography,Q6664495,Local_planning_authority
 listed-building,locally-listed-building,"locally listed heritage assets, including buildings",,,,41100000,42099999,Locally listed building,"{ ""colour"": ""#F9C744"" }",Locally listed buildings,,,"A building or site in a local planning authority’s area that make a positive contribution to its local character and sense of place because of their heritage value. Although such heritage assets may not be nationally designated or even located within the boundaries of a conservation area, they may be offered some level of protection by the local planning authority identifying them on a formally adopted list of local heritage assets.",heritage,geography,Q570600,Listed_building#Locally_listed_buildings
 ,log,,,,,9100000,9199999,Collection log,,Collection logs,,,,specification,specification,,
 ,london-square,,,,,9200000,9299999,London square,,London squares,,,,heritage,geography,Q7582093,Squares_in_London
