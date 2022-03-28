@@ -233,7 +233,6 @@ Do not include links within hint text. While screen readers will read out the li
 1,curie,,,,organisation,,,Organisation,organisation,,,,organisation,,
 1,string,,2019-10-31,,OrganisationLabel,,,OrganisationLabel,value,,,,value,,
 n,string,,,,organisations,,,Organisations,organisation,,,,organisation,,
-1,url,,2019-10-31,,OrganisationURI,,,OrganisationURI,url,organisation,,,value,,
 1,string,,,,ownership-status,,,Ownership status,category,,,,category,,
 1,string,,2019-10-31,,OwnershipStatus,,,OwnershipStatus,value,ownership-status,,,value,,
 1,json,"Colour, opacity and other paint options for displaying the dataset on a map",,,paint-options,,,Paint options,value,,,,value,,
