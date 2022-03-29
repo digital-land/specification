@@ -1,5 +1,5 @@
 ---
-collection: ''
+collection: infrastructure-funding-statement
 dataset: infrastructure-funding-statement
 description: ''
 end-date: ''
