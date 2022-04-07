@@ -11,6 +11,9 @@ endif
 ifeq ($(COLLECTION_DATASET_BUCKET_NAME),)
 COLLECTION_DATASET_BUCKET_NAME=digital-land-$(ENVIRONMENT)-collection-dataset
 endif
+ifeq ($(HOISTED_COLLECTION_DATASET_BUCKET_NAME),)
+HOISTED_COLLECTION_DATASET_BUCKET_NAME=digital-land-$(ENVIRONMENT)-collection-dataset-hoisted
+endif
 define dataset_url
 'https://$(COLLECTION_DATASET_BUCKET_NAME).s3.eu-west-2.amazonaws.com/$(2)-collection/dataset/$(1).sqlite3'
 endef
