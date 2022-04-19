@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: article-4-direction
+field: article-4-direction-rule
 guidance: ''
 hint: ''
-name: Article-4 direction
-parent-field: legal-instrument
+name: Article-4 direction rule
+parent-field: category
 replacement-field: ''
 start-date: ''
-typology: legal-instrument
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---

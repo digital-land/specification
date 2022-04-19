@@ -4,10 +4,10 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: article-4-direction
+field: legal-instrument
 guidance: ''
 hint: ''
-name: Article-4 direction
+name: Legal instrument
 parent-field: legal-instrument
 replacement-field: ''
 start-date: ''

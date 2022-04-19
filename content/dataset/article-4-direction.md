@@ -3,20 +3,18 @@ collection: article-4-direction
 dataset: article-4-direction
 description: ''
 end-date: ''
-entity-maximum: '1199999'
-entity-minimum: '1100000'
+entity-maximum: '6199999'
+entity-minimum: '6100000'
 entry-date: ''
 fields:
 - field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geometry
 - field: name
 - field: description
 - field: notes
 - field: organisation
-- field: point
 - field: prefix
 - field: reference
 - field: start-date
@@ -28,7 +26,7 @@ prefix: ''
 start-date: ''
 themes:
 - heritage
-typology: geography
+typology: legal-instrument
 wikidata: Q16962063
 wikipedia: Article_4_direction
 ---

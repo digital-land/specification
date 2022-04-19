@@ -8,10 +8,10 @@ field: article-4-direction
 guidance: ''
 hint: ''
 name: Article-4 direction
-parent-field: legal-instrument
+parent-field: geography
 replacement-field: ''
 start-date: ''
-typology: legal-instrument
+typology: geography
 uri-template: ''
 wikidata-property: ''
 ---
