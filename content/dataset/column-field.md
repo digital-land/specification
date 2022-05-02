@@ -8,7 +8,6 @@ fields:
 - field: end-date
 - field: entry-date
 - field: field
-- field: issue-type
 - field: dataset
 - field: start-date
 - field: resource
