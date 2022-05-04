@@ -7,15 +7,18 @@ entity-maximum: '43099999'
 entity-minimum: '42100000'
 entry-date: ''
 fields:
+- field: address
+- field: address-text
 - field: documentation-url
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date
 - field: geometry
 - field: listed-building
 - field: listed-building-grade
-- field: listed-building-outline
 - field: name
+- field: notes
 - field: organisation
 - field: point
 - field: reference
