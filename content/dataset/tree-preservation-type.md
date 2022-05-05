@@ -3,7 +3,7 @@ collection: ''
 dataset: tree-preservation-type
 description: Types of preservation order
 end-date: ''
-entity-maximum: '19099999'
+entity-maximum: '18100999'
 entity-minimum: '18100000'
 entry-date: ''
 fields:
