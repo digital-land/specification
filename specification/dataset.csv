@@ -93,6 +93,7 @@ developer-contributions,contribution-purpose,,,,,16200000,16299999,Contribution 
 ,dataset-schema,,,,,16700000,16799999,Dataset schema,,Dataset schemas,,,,specification,specification,,
 ,dataset,A collection of entities of the same type,,,,4000000,4099999,Dataset,,Datasets,,,,specification,specification,Q1172284,Data_set
 ,datatype,,,,,4100000,4199999,Datatype,,Datatypes,,,,specification,specification,,
+,default-value,provide a default value for a missing or empty field,,,,,,Pipeline default value,,Pipleline default values,,,,specification,specification,,
 ,default,Take a missing field default value from another field,,,,4200000,4299999,Pipeline default value,,Pipleline default values,,,,specification,specification,,
 developer-contributions,developer-agreement-contribution,,,,,4300000,4399999,Developer agreement contribution,,Developer agreement contributions,,,,development,metric,,
 developer-contributions,developer-agreement-transaction,,,,,4400000,4499999,Developer agreement transaction,,Developer agreement transactions,,,,development,metric,,

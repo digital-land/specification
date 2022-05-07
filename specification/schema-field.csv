@@ -503,6 +503,14 @@ datatype,entry-date
 datatype,name
 datatype,start-date
 datatype,text
+default-value,end-date
+default-value,entry-date
+default-value,endpoint
+default-value,field
+default-value,dataset
+default-value,resource
+default-value,start-date
+default-value,value
 default,default-field
 default,end-date
 default,entry-date
