@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: article-4-direction-area
+field: design-code-status
 guidance: ''
 hint: ''
-name: Article-4 direction area
-parent-field: geography
+name: Design code status
+parent-field: category
 replacement-field: ''
 start-date: ''
-typology: geography
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---

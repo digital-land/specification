@@ -4,10 +4,10 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: article-4-direction-area
+field: design-code-area
 guidance: ''
 hint: ''
-name: Article-4 direction area
+name: Design code area
 parent-field: geography
 replacement-field: ''
 start-date: ''
