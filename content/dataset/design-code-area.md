@@ -8,8 +8,7 @@ entity-maximum: '639999'
 entry-date: ''
 fields:
 - field: design-code-area
-- field: design-code-status
-- field: design-code-category
+- field: design-code
 - field: description
 - field: documentation-url
 - field: document-url
