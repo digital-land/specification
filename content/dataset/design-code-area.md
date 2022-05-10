@@ -23,14 +23,14 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
-name: Design code
+name: Design code area
 paint-options: ''
-plural: Design codes
+plural: Design code areas
 prefix: ''
 start-date: ''
 themes:
-- administrative
-typology: policy
+- development
+typology: geography
 wikidata: ''
 wikipedia: ''
 ---
