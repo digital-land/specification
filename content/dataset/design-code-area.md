@@ -16,9 +16,11 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: geometry
 - field: name
 - field: notes
 - field: organisation
+- field: point
 - field: prefix
 - field: reference
 - field: start-date
