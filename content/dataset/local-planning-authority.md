@@ -17,7 +17,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
-name: Local planing authority
+name: Local planning authority
 paint-options: ''
 plural: Local planning authorities
 prefix: statistical-geography
