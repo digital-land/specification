@@ -1,5 +1,5 @@
 ---
-collection: ''
+collection: 'special-protection-area'
 dataset: special-protection-area
 description: ''
 end-date: ''
@@ -8,23 +8,19 @@ entity-minimum: '14900000'
 entry-date: ''
 fields:
 - field: description
-- field: developer-agreement-type
-- field: development-plan-document
-- field: development-plan-types
-- field: development-policies
-- field: document
-- field: document-types
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geographies
+- field: geometry
 - field: name
 - field: notes
-- field: organisations
-- field: planning-application
+- field: organisation
+- field: point
 - field: start-date
-- field: special-protection-area
+- field: wikipedia
+- field: wikidata
 key-field: ''
 name: Special protection area
 paint-options: ''
