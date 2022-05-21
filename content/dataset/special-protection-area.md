@@ -29,7 +29,7 @@ prefix: ''
 start-date: ''
 themes:
 - environment
-typology: document
+typology: geography
 wikidata: ''
 wikipedia: ''
 ---
