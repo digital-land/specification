@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Ramsar area | Digital Land</title>
+    <title>Ramsar site | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -133,7 +133,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Ramsar area</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Ramsar site</li>
     
   
   </ol>
@@ -146,7 +146,7 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Ramsar area</h1>
+  <h1 class="govuk-heading-xl">Ramsar site</h1>
   </div>
 </div>
 
@@ -154,7 +154,15 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
-    <!--  -->
+    <!-- A Ramsar site is an internationally protected site listed as a Wetland of International Importance.
+
+### Impact on planning decisions
+
+Any development in a RAMSAR site will need special consideration and may need consultation with specific organisations. 
+
+### Responsible organisations and guidance
+
+They are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england). If a ramsar site could be affected by development, Natural England should be consulted. There is specific [guidance on how to review planning applications in protected sites and areas](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications). -->
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -233,9 +241,45 @@
     
         
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_ramsar-site"><a href="../../field/ramsar-site">ramsar-site</a>
+          </td>
+          <td class="govuk-table__cell">Ramsar site</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
           </td>
           <td class="govuk-table__cell">Reference</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_special-protection-area"><a href="../../field/special-protection-area">special-protection-area</a>
+          </td>
+          <td class="govuk-table__cell">Special protection area</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_wikidata"><a href="../../field/wikidata">wikidata</a>
+          </td>
+          <td class="govuk-table__cell">Wikidata item</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_wikipedia"><a href="../../field/wikipedia">wikipedia</a>
+          </td>
+          <td class="govuk-table__cell">Wikipedia page</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
@@ -289,6 +333,8 @@
       <li><a href="../organisation">Organisation</a></li>
     
       <li><a href="../reference">Reference</a></li>
+    
+      <li><a href="../special-protection-area">Special protection area</a></li>
     
     </ul>
     

@@ -290,7 +290,7 @@ n,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,pl
 1,string,,,,public-authority,,,Public authority,organisation,,,,organisation,,
 1,string,,,,public-safety-zone-around-airport,,,Public safety zone around airport,geography,,,,geography,,
 1,text,,,,purpose,,,Purpose,text,,,,value,,
-1,string,,,,ramsar-site,,,Ramsar site,category,,,,category,,
+1,string,,,,ramsar-site,,,Ramsar site,category,,,See https://rsis.ramsar.org/,category,,
 1,string,,,,ramsar,,,Ramsar,geography,,,,geography,,
 1,string,,,,reference-entity,,,Reference entity,entity,,,,value,https://www.digital-land.info/entity/{reference-entity},
 1,string,,,,reference,,,Reference,text,,,,value,,
