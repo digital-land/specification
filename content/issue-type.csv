@@ -1,4 +1,4 @@
-issue-type,issue-severity,name,description
+issue-type,severity,name,description
 unknown entity,warning,Unknown entity,The entry needs an entity assigning before it will appear in the data.
 combined-value,warning,Combined values,The field value has been constucted by combinining data from multiple different entries.
 invalid coordinates,error,Invalid coordinates,It was not possible to process the field as geospatial coordinates.
