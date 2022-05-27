@@ -1,26 +1,22 @@
 ---
 collection: ''
-dataset: issue
-description: 'issues with fields processing resources'
+dataset: severity
+description: 'severity of a log message or issue'
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
+- field: description
 - field: end-date
 - field: entry-date
-- field: entry-number
-- field: field
-- field: issue-type
-- field: line-number
-- field: dataset
-- field: resource
+- field: name
+- field: severity
 - field: start-date
-- field: value
 key-field: ''
-name: Issue
+name: Severity
 paint-options: ''
-plural: Issues
+plural: Severities
 prefix: ''
 start-date: ''
 themes:
