@@ -276,7 +276,7 @@ n,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,pl
 1,blob,,,,point-geom,,,Point index,geom,,,,value,,
 1,wkt,,,,point,,,Point,geometry,,,,value,,
 1,string,,,,policy,,,Policy,policy,,,,policy,,
-1,url,,,,prefix-iri,,,CURIE prefix IRI,value,,,,value,,
+1,url,,,,prefix-uri,,,CURIE prefix URI,value,,,,value,,
 1,string,,,,prefix,,,CURIE prefix,identifier,,,,value,,
 1,string,,,,principal-local-authority,,,Principal local authority (Wales),organisation,,,,organisation,,
 1,string,,,,prison-estate,,,Prison estate,geography,,,,geography,,
