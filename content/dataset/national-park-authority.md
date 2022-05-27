@@ -29,7 +29,7 @@ fields:
 key-field: ''
 name: National park authority
 paint-options: ''
-plural: National park authorities
+plural: National park authorities, including the Broads
 prefix: wikidata
 start-date: ''
 themes:

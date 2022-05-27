@@ -75,7 +75,7 @@ listed-building-grade,,
 listed-building-outline,,
 listed-building,,
 statistical-geography,http://statistics.data.gov.uk/id/statistical-geography/,government-organisation:D303
-local-authority-eng,,
+local-authority-eng,https://www.digital-land.info/prefix/local-authority/reference/,government-organisation:D1342
 local-authority-type,,
 local-green-space,,
 local-nature-recovery-strategy,,
@@ -137,5 +137,8 @@ wildbelt,,
 wildlife,,
 world-heritage-site-buffer-zone,,
 world-heritage-site,,
+wikidata-item,http://www.wikidata.org/entity/,wikidata:Q2013
 wikidata-property,http://www.wikidata.org/entity/,wikidata:Q2013
+toid,http://data.ordnancesurvey.co.uk/id/,government-organisation:D38
+local-authority,https://www.digital-land.info/prefix/local-authority/reference/,government-organisation:D1342
 ramsar-site,https://rsis.ramsar.org/ris/,wikidata:Q170170

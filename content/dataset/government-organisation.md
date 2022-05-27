@@ -29,7 +29,7 @@ fields:
 key-field: ''
 name: Government organisation
 paint-options: ''
-plural: Government organisations
+plural: Government departments, agencies and public bodies
 prefix: government-organisation
 start-date: ''
 themes:

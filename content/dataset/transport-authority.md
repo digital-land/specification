@@ -28,7 +28,7 @@ fields:
 key-field: ''
 name: Passenger transport executive
 paint-options: ''
-plural: Passenger transport executive
+plural: Passenger transport executives
 prefix: wikidata
 start-date: ''
 themes:

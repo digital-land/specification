@@ -128,7 +128,7 @@ employment-allocation,employment-allocation,,,,,5900000,5999999,Employment alloc
 ,flood-zone-3,,,,,6600000,6699999,Flood zone 3,,Flood zones 3,,,,environment,geography,,
 ,geography,,,,,6700000,6799999,Geography,,Geographies,,,,,geography,,
 ,geometry,Geometry index,,,entity,6800000,6899999,Geometry,,Geometries,,,,specification,value,,
-organisation,government-organisation,,,,,6900000,6999999,Government organisation,,Government organisations,government-organisation,,,administrative,organisation,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
+organisation,government-organisation,,,,,6900000,6999999,Government organisation,,"Government departments, agencies and public bodies",government-organisation,,,administrative,organisation,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
 green-belt,green-belt-core,,,,,7000000,7099999,Green belt urban core,,Green belt urban cores,wikidata,,,environment,category,Q2734873,Green_belt_(United_Kingdom)
 green-belt,green-belt,,,,,7100000,7199999,Green belt,"{ ""colour"": ""#85994b"" }",Green belt,,,,environment,geography,Q2734873,Green_belt_(United_Kingdom)
 ,guardianship-site-and-english-heritage-site,,,,,7200000,7299999,Guardianship site and English heritage site,,Guardianship sites and English heritage sites,,,,heritage,geography,,
@@ -196,7 +196,7 @@ listed-building,locally-listed-building,"locally listed heritage assets, includi
 ,main-river,,,,,9600000,9699999,Main river,,Main rivers,,,,environment,geography,Q6736223,Main_river
 ,metropolitan-open-land,,,,,9700000,9799999,Metropolitan open land,,Metropolitan open land,,,,environment,geography,Q16997686,Metropolitan_Open_Land
 ,mineral-safeguarding-area,,,,,9800000,9899999,Mineral safeguarding area,,Mineral safeguarding areas,,,,environment,geography,,
-organisation,national-park-authority,,,,,9900000,9999999,National park authority,,National park authorities,wikidata,,,administrative,organisation,Q3336962,National_park_authority
+organisation,national-park-authority,,,,,9900000,9999999,National park authority,,"National park authorities, including the Broads",wikidata,,,administrative,organisation,Q3336962,National_park_authority
 national-park,national-park,,,,,10000000,10099999,National park,"{ ""colour"": ""#3DA52C"" }",National parks,statistical-geography,,,heritage,geography,Q60256727,National_park
 ,nature-improvement-area,,,,,10100000,10199999,Nature improvement area,,Nature improvement areas,,,,environment,geography,Q6980918,Nature_Improvement_Area
 ,neighbourhood-forum,,,,,10200000,10299999,Designated neighbourhood forum,,Designated neighbourhood forums,,,,administrative,organisation,,
@@ -310,7 +310,7 @@ special-protection-area,special-protection-area,,,,,14900000,14999999,Special pr
 ,suitable-alternative-green-space,,,,,15000000,15099999,Suitable alternative green space,,Suitable alternative green spaces,,,,environment,geography,,
 ,theme,,,,,15100000,15199999,Theme,,Themes,,,,specification,specification,,
 ,transform,,,,,15200000,15299999,Pipeline transformation,,Transformations,,,,specification,specification,,
-organisation,transport-authority,,,,,15300000,15399999,Passenger transport executive,,Passenger transport executive,wikidata,,,administrative,organisation,Q514989,Passenger_transport_executive
+organisation,transport-authority,,,,,15300000,15399999,Passenger transport executive,,Passenger transport executives,wikidata,,,administrative,organisation,Q514989,Passenger_transport_executive
 ,transport-under-tcpa-route,,,,,15400000,15499999,Transport (under TCPA route),,Transport (under TCPA route),,,,transport,geography,,
 tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,Tree preservation order,,Tree preservation orders,,,"A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands.
 
