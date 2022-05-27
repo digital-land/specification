@@ -158,7 +158,8 @@ housing-allocation,housing-allocation,,,,,7900000,7999999,Housing allocation,,Ho
 ,hs2-safeguarded-area,,,,,8000000,8099999,HS2 safeguarded area,,HS2 safeguarded areas,,,,transport,geography,,
 infrastructure-funding-statement,infrastructure-funding-statement,,,,,8100000,8199999,Infrastructure funding statement,,Infrastructure funding statements,,,,development,document,,
 organisation,internal-drainage-board,,,,,8200000,8299999,Internal drainage board,,Internal drainage boards,,,,administrative,organisation,Q6047836,Internal_drainage_board
-,issue,issues with fields processing resources,,,,8300000,8399999,Issue,,Issues,,,,specification,specification,,
+,issue-type,types of issues with fields processing resources,,,,,,Issue type,,Issue types,,,,specification,specification,,
+,issue,issues with fields processing resources,,,,,,Issue,,Issues,,,,specification,specification,,
 ,licence,,,,,8400000,8499999,Licence,,Licences,,,,specification,category,Q7257461,Public_copyright_license
 listed-building,listed-building-grade,,,,,700000,799999,Listed building grade,,Listed building grades,,,,heritage,category,Q30634609,Listed_building
 listed-building,listed-building-outline,boundary of a listed building,,,,42100000,43099999,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,,,Listed building outlines collected from local planning authority. We expect to merge these with the listed building.,heritage,geography,Q570600,Listed_building
@@ -281,6 +282,7 @@ The Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.u
 ,schema-field,,,,,14000000,14099999,Schema field,,Schema fields,,,,specification,specification,,
 ,schema,,,,,14100000,14199999,Schema,,Schemas,,,,specification,specification,,
 ,self-and-custom-buildarea,,,,,14200000,14299999,Self and custom build area,,Self and custom build areas,,,,housing,geography,,
+,severity,severity of a log message or issue,,,,,,Severity,,Severities,,,,specification,specification,,
 site-category,site-category,,,,,14300000,14399999,Site category,,Site categories,,,,development,category,,
 ,site-of-nature-conservation-importance,,,,,14400000,14499999,Site of nature conservation importance,,Sites of nature conservation importance,,,,environment,document,,
 site-of-special-scientific-interest,site-of-special-scientific-interest,,,,,14500000,14599999,Site of special scientific interest,"{ ""colour"": ""#308fac"" }",Sites of special scientific interest,,,"Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology. 

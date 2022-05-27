@@ -316,6 +316,7 @@ n,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,pl
 1,string,,,,self-and-custom-buildarea,,,Self and custom buildarea,geography,,,,geography,,
 1,string,,,,separator,,,Separator,string,,,,value,,
 1,string,,,,service-type,,,Service type,category,,,,category,,
+1,string,,,,severity,,,Severity,specification,,,,specification,,
 1,curie,,,,shielding-hub,,,Shielding hub,organisation,,,,organisation,,
 1,string,,,,short-name,,,Short name,name,,,,value,,
 1,string,,,,site-address,,,Site address,address-text,address-text,,,value,,
