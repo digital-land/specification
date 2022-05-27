@@ -1,8 +1,12 @@
-prefix,prefix-uri,organisation
-wikidata,http://www.wikidata.org/entity/,wikidata:Q2013
-wikidata-property,http://www.wikidata.org/entity/,wikidata:Q2013
+prefix,prefix-uri,organisation,wikidata
+wikidata,http://www.wikidata.org/entity/,wikidata:Q2013,Q16222597
+wikidata-item,http://www.wikidata.org/entity/,wikidata:Q2013,Q16222597
+wikidata-property,http://www.wikidata.org/entity/,wikidata:Q2013,Q18616576
 uprn,https://uprn.uk/,public-authority:Q5533909
-statistical-geography,http://statistics.data.gov.uk/id/statistical-geography/,government-organisation:D303
+toid,http://data.ordnancesurvey.co.uk/id/,government-organisation:D38
+local-authority-eng,https://www.digital-land.info/prefix/local-authority/reference/,government-organisation:D1342
+local-authority,https://www.digital-land.info/prefix/local-authority/reference/,government-organisation:D1342
+statistical-geography,http://statistics.data.gov.uk/id/statistical-geography/,government-organisation:D303,P836
 site-of-special-scientific-interest,https://designatedsites.naturalengland.org.uk/SiteDetail.aspx?SiteCode=S,government-organisation:PB202
 special-protection-area,https://designatedsites.naturalengland.org.uk/SiteDetail.aspx?SiteCode=,government-organisation:PB202
 ramsar-site,https://rsis.ramsar.org/ris/,wikidata:Q170170
