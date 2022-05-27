@@ -4,10 +4,10 @@ datatype: url
 description: ''
 end-date: ''
 entry-date: ''
-field: prefix-iri
+field: prefix-uri
 guidance: ''
 hint: ''
-name: CURIE prefix IRI
+name: CURIE prefix URI
 parent-field: value
 replacement-field: ''
 start-date: ''

@@ -3,14 +3,14 @@ collection: ''
 dataset: prefix
 description: ''
 end-date: ''
-entity-maximum: '12199999'
-entity-minimum: '12100000'
+entity-maximum: ''
+entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
 - field: entry-date
 - field: prefix
-- field: prefix-iri
+- field: prefix-uri
 - field: organisation
 - field: start-date
 key-field: ''
