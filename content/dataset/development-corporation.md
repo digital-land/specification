@@ -7,19 +7,16 @@ entity-maximum: '4799999'
 entity-minimum: '4700000'
 entry-date: ''
 fields:
-- field: billing-authority
-- field: combined-authority
 - field: company
-- field: development-corporation
 - field: end-date
 - field: entity
 - field: entry-date
-- field: government-organisation
 - field: name
 - field: opendatacommunities-area
 - field: opendatacommunities-organisation
+- field: local-planning-authority
 - field: organisation
-- field: region
+- field: reference
 - field: start-date
 - field: statistical-geography
 - field: twitter
