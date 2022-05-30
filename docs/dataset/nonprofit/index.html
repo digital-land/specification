@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>CURIE prefix | Digital Land</title>
+    <title>Nonprofit organisation | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -133,7 +133,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">CURIE prefix</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Nonprofit organisation</li>
     
   
   </ol>
@@ -146,7 +146,7 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">CURIE prefix</h1>
+  <h1 class="govuk-heading-xl">Nonprofit organisation</h1>
   </div>
 </div>
 
@@ -170,9 +170,27 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">CURIE prefix</td>
+          <td class="govuk-table__cell" id="field_company"><a href="../../field/company">company</a>
+          </td>
+          <td class="govuk-table__cell">Company</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+          </td>
+          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
@@ -188,10 +206,55 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_prefix-uri"><a href="../../field/prefix-uri">prefix-uri</a>
+          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
           </td>
-          <td class="govuk-table__cell">CURIE prefix URI</td>
+          <td class="govuk-table__cell">CURIE prefix</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
+          </td>
+          <td class="govuk-table__cell">Reference</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_twitter"><a href="../../field/twitter">twitter</a>
+          </td>
+          <td class="govuk-table__cell">Twitter</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_website"><a href="../../field/website">website</a>
+          </td>
+          <td class="govuk-table__cell">Website</td>
           <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_wikidata"><a href="../../field/wikidata">wikidata</a>
+          </td>
+          <td class="govuk-table__cell">Wikidata item</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_wikipedia"><a href="../../field/wikipedia">wikipedia</a>
+          </td>
+          <td class="govuk-table__cell">Wikipedia page</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -226,9 +289,6 @@
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/value">value</a> typology.</p>
-    
 
     
     <h2 class="govuk-heading-s" id="">Datasets</h2>
@@ -237,52 +297,19 @@
     <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../organisation">Organisation</a></li>
-    
-    </ul>
-    
-
-    
-    <p class="govuk-body">This dataset is linked to by the following other datasets:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../article-4-direction">Article 4 direction</a></li>
-    
-      <li><a href="../article-4-direction-area">Article 4 direction area</a></li>
-    
-      <li><a href="../article-4-direction-rule">Article 4 direction rule</a></li>
-    
-      <li><a href="../central-activities-zone">Central activities zone</a></li>
-    
-      <li><a href="../dataset">Dataset</a></li>
-    
-      <li><a href="../design-code">Design code</a></li>
-    
-      <li><a href="../design-code-area">Design code area</a></li>
-    
-      <li><a href="../design-code-category">Design code category</a></li>
-    
-      <li><a href="../design-code-status">Design code status</a></li>
+      <li><a href="../company">Company</a></li>
     
       <li><a href="../entity">Entity</a></li>
     
-      <li><a href="../lookup">Pipeline lookup</a></li>
+      <li><a href="../organisation">Organisation</a></li>
     
-      <li><a href="../nonprofit">Nonprofit organisation</a></li>
-    
-      <li><a href="../planning-application">Planning application</a></li>
-    
-      <li><a href="../planning-application-status">Planning application status</a></li>
-    
-      <li><a href="../planning-application-type">Planning application type</a></li>
-    
-      <li><a href="../planning-development-category">Planning development category</a></li>
-    
-      <li><a href="../public-authority">Public authority</a></li>
+      <li><a href="../prefix">CURIE prefix</a></li>
     
       <li><a href="../reference">Reference</a></li>
     
     </ul>
+    
+
     
 
     
