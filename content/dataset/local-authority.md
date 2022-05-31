@@ -20,6 +20,7 @@ fields:
 - field: opendatacommunities-area
 - field: opendatacommunities-organisation
 - field: organisation
+- field: parliament-thesaurus
 - field: prefix
 - field: region
 - field: reference

@@ -4,10 +4,10 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: transport-authority
+field: nonprofit
 guidance: ''
 hint: ''
-name: Transport authority
+name: Nonprofit organisation
 parent-field: organisation
 replacement-field: ''
 start-date: ''

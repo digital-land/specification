@@ -1,6 +1,6 @@
 ---
 collection: organisation
-dataset: transport-authority
+dataset: passenger-transport-executive
 description: ''
 end-date: ''
 entity-maximum: '15399999'
@@ -8,7 +8,6 @@ entity-minimum: '15300000'
 entry-date: ''
 fields:
 - field: billing-authority
-- field: combined-authority
 - field: company
 - field: end-date
 - field: entity
@@ -16,11 +15,12 @@ fields:
 - field: name
 - field: opendatacommunities-area
 - field: opendatacommunities-organisation
-- field: organisation
+- field: parliament-thesaurus
+- field: prefix
 - field: region
+- field: reference
 - field: start-date
 - field: statistical-geography
-- field: transport-authority
 - field: twitter
 - field: website
 - field: wikidata

@@ -8,7 +8,6 @@ entity-minimum: '15800000'
 entry-date: ''
 fields:
 - field: billing-authority
-- field: combined-authority
 - field: company
 - field: end-date
 - field: entity
@@ -16,12 +15,13 @@ fields:
 - field: name
 - field: opendatacommunities-area
 - field: opendatacommunities-organisation
-- field: organisation
+- field: parliament-thesaurus
+- field: prefix
+- field: reference
 - field: region
 - field: start-date
 - field: statistical-geography
 - field: twitter
-- field: waste-authority
 - field: website
 - field: wikidata
 - field: wikipedia

@@ -12,7 +12,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: name
-- field: organisation
+- field: parliament-thesaurus
 - field: prefix
 - field: reference
 - field: start-date
