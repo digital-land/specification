@@ -1,6 +1,6 @@
 ---
 collection: organisation
-dataset: local-authority-eng
+dataset: local-authority
 description: ''
 end-date: ''
 entity-maximum: '8799999'
@@ -10,20 +10,19 @@ fields:
 - field: addressbase-custodian
 - field: billing-authority
 - field: combined-authority
-- field: company
 - field: end-date
 - field: entity
 - field: entry-date
 - field: esd-inventory
-- field: local-authority-eng
 - field: local-authority-type
 - field: local-resilience-forum
 - field: name
-- field: official-name
 - field: opendatacommunities-area
 - field: opendatacommunities-organisation
 - field: organisation
+- field: prefix
 - field: region
+- field: reference
 - field: start-date
 - field: statistical-geography
 - field: twitter
@@ -34,7 +33,6 @@ key-field: ''
 name: Local authority
 paint-options: ''
 plural: Local authorities
-prefix: local-authority-eng
 start-date: ''
 themes:
 - administrative
