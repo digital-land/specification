@@ -183,8 +183,8 @@ Historic England also need to be notified or consulted when the setting of a Gra
 
 [Historic England](https://historicengland.org.uk/)  designates the status but anyone can nominate a building to be listed.",heritage,geography,Q570600,Listed_building
 local-authority-district,local-authority-district,,,,,8600000,8699999,Local authority district,"{""colour"": ""#0b0c0c"", ""opacity"": ""0.1"", ""weight"": 5}",Local authority districts,statistical-geography,,,administrative,geography,Q349084,Districts_of_England
-organisation,local-authority-eng,,,,,8700000,8799999,Local authority,,Local authorities,local-authority-eng,,,administrative,organisation,Q171634,Local_government_in_England
 ,local-authority-type,,,,,8800000,8899999,Local authority type,,Local authority types,,,,administrative,category,,
+organisation,local-authority,,,,,8700000,8799999,Local authority,,Local authorities,,,,administrative,organisation,Q171634,Local_government_in_England
 ,local-green-space,,,,,8900000,8999999,Local green space,,Local green spaces,,,,environment,geography,,
 ,local-nature-recovery-strategy,,,,,9000000,9099999,Local nature recovery strategy,,Local nature recovery strategies,,,,environment,geography,,
 local-planning-authority,local-planning-authority,,,,,624000,626999,Local planning authority,,Local planning authorities,statistical-geography,,,administrative,geography,Q6664495,Local_planning_authority
