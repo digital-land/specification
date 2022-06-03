@@ -13,11 +13,11 @@ fields:
 - field: entry-date
 - field: government-organisation
 - field: name
-- field: local-planning-authority
-- field: national-park-authority
 - field: opendatacommunities-area
 - field: opendatacommunities-organisation
 - field: parliament-thesaurus
+- field: prefix
+- field: reference
 - field: region
 - field: start-date
 - field: statistical-geography
