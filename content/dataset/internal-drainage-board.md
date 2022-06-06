@@ -1,27 +1,23 @@
 ---
-collection: organisation
+collection:
 dataset: internal-drainage-board
 description: ''
 end-date: ''
-entity-maximum: '8299999'
+entity-maximum: '8209999'
 entity-minimum: '8200000'
 entry-date: ''
 fields:
-- field: billing-authority
-- field: combined-authority
 - field: company
 - field: end-date
 - field: entity
 - field: entry-date
-- field: internal-drainage-board
+- field: internal-drainage-district
 - field: legislation
 - field: name
-- field: opendatacommunities-area
-- field: opendatacommunities-organisation
-- field: organisation
+- field: prefix
+- field: reference
 - field: region
 - field: start-date
-- field: statistical-geography
 - field: twitter
 - field: website
 - field: wikidata
