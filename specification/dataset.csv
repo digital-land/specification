@@ -157,7 +157,8 @@ A heritage coast is defined by agreement between the relevant maritime local aut
 housing-allocation,housing-allocation,,,,,7900000,7999999,Housing allocation,,Housing allocations,,,,housing;monitoring,document,,
 ,hs2-safeguarded-area,,,,,8000000,8099999,HS2 safeguarded area,,HS2 safeguarded areas,,,,transport,geography,,
 infrastructure-funding-statement,infrastructure-funding-statement,,,,,8100000,8199999,Infrastructure funding statement,,Infrastructure funding statements,,,,development,document,,
-organisation,internal-drainage-board,,,,,8200000,8299999,Internal drainage board,,Internal drainage boards,,,,administrative,organisation,Q6047836,Internal_drainage_board
+,internal-drainage-board,,,,,8200000,8209999,Internal drainage board,,Internal drainage boards,,,,administrative,organisation,Q6047836,Internal_drainage_board
+,internal-drainage-district,,,,,8210000,8219999,Internal drainage district,,Internal drainage districts,,,,administrative,geography,Q5305553,Drainage_district
 ,issue-type,types of issues with fields processing resources,,,,,,Issue type,,Issue types,,,,specification,specification,,
 ,issue,issues with fields processing resources,,,,,,Issue,,Issues,,,,specification,specification,,
 ,licence,,,,,8400000,8499999,Licence,,Licences,,,,specification,category,Q7257461,Public_copyright_license

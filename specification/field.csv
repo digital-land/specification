@@ -171,6 +171,7 @@ Do not include links within hint text. While screen readers will read out the li
 1,string,,,,identifier,,,Identifier,value,,,,value,,
 1,string,,,,infrastructure-funding-statement,,,Infrastructure Funding Statement,document,,,,document,,
 1,string,,,,internal-drainage-board,,,Internal drainage board,organisation,,,,organisation,,
+1,string,,,,internal-drainage-district,,,Internal drainage district,geography,,,,geography,,
 1,string,The Multipurpose Internet Mail Extensions type assigned to a file within a resource,,,internal-mime-type,,,Internal MIME Type,category,,,,category,,
 1,string,Path of a file within an resource,,,internal-path,,,Internal path,string,,,,value,,
 1,string,,,,issue-type,,,Issue type,identifier,,,,value,,
