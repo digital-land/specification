@@ -20,9 +20,11 @@ fields:
 - field: local-resilience-forum
 - field: name
 - field: official-name
-- field: opendatacommunities-area
-- field: opendatacommunities-organisation
+- field: opendatacommunities-uri
 - field: organisation
+- field: parliament-thesaurus
+- field: prefix
+- field: reference
 - field: region
 - field: shielding-hub
 - field: start-date

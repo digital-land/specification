@@ -13,8 +13,7 @@ fields:
 - field: entry-date
 - field: government-organisation
 - field: name
-- field: opendatacommunities-area
-- field: opendatacommunities-organisation
+- field: opendatacommunities-uri
 - field: parliament-thesaurus
 - field: prefix
 - field: reference

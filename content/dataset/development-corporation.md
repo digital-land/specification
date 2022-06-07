@@ -12,8 +12,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: name
-- field: opendatacommunities-area
-- field: opendatacommunities-organisation
+- field: opendatacommunities-uri
 - field: local-planning-authority
 - field: parliament-thesaurus
 - field: reference

@@ -17,8 +17,7 @@ fields:
 - field: local-authority-type
 - field: local-resilience-forum
 - field: name
-- field: opendatacommunities-area
-- field: opendatacommunities-organisation
+- field: opendatacommunities-uri
 - field: organisation
 - field: parliament-thesaurus
 - field: prefix
