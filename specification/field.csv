@@ -240,6 +240,7 @@ Do not include links within hint text. While screen readers will read out the li
 1,string,,,,open-space,,,Open space,geography,,,,geography,,
 1,url,,,,opendatacommunities-area,,,Open Data Communities area,url,,,,value,,
 1,url,,,,opendatacommunities-organisation,,,Open Data Communities organisation,url,,,,value,,
+1,url,,,,opendatacommunities-uri,,,Open Data Communities URI,url,,,,value,,
 1,string,,,,openstreetmap,,,OpenStreetMap relation,identifier,,,,value,https://www.openstreetmap.org/relation/{openstreetmap},P402
 1,string,,,,organisation-entity,,,Organisation entity,entity,,,,value,https://www.digital-land.info/entity/{organisation-entity},
 1,curie,,,,organisation,,,Organisation,organisation,,,,organisation,,
