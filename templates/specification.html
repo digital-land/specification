@@ -73,51 +73,31 @@
     </p>
     <ul class="govuk-list govuk-list--bullet">
 
-    <li>A hyperlink to the <a href="#heading=h.b8zsu5x96o27">conservation area dataset</a>
+    {% for d in item["datasets"] %}
+      <li>A hyperlink to the <a href="#{{d["dataset"]}}-dataset">{{ d["name"] or d["dataset"] }}</a> data</li>
+    {% endfor %}
 
-    <li>A clear licence for reusing the data <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a>
+    <li>A clear licence for reusing the data, for example <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a>.
     <li>Any attribution needed when using the data, for example <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">Crown Copyright</a>. 
     </li>
     </ul>
 
-    <h2 id="conservation-area-dataset" class="govuk-heading-m">Conservation ares</h2>
-    <p class="govuk-body">
-    The list of conservation areas MUST be published in an <a href="#open-data-format">open data format</a>.
-    </p>
-    <p class="govuk-body">
-    There MUST be at least one entry for each conservation area. Each entry MUST containing the following information:
-    </p>
-        <ul class="govuk-list govuk-list--bullet">
-    <li>Reference – the short reference for the conservation area
-    <li>Name – the official name for the conservation area
-    <li>Geometry – the boundary for the conservation area
-    <li>Start date – the <a href="#heading=h.iwnav04efcex">date</a> the conservation area was adopted. 
-    <li>End date – the <a href="#heading=h.iwnav04efcex">date</a> the conservation area was withdrawn or blank if the conservation area is active.
-    <li>Entry date – the <a href="#heading=h.iwnav04efcex">date</a> this entry was created or updated
-    <li>Documentation url – 
-    </li>
-    </ul>
-    <p class="govuk-body">
-    <em>The URI is inferred by a combination of the reference and the or be provided in an optional URI field.</em>
-    </p>
+    <h2 id="data" class="govuk-heading-m">Data</h2>
 
-    <h2 class="govuk-heading-m"> List of conservation area documents</h2>
+{% for d in item["datasets"] %}
+
+    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">{{ sentence_case(d["name"] or d["dataset"]) }}</h3>
+    <p class="govuk-body">The {{ d["name"] or d["dataset"] }} data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each {{ d["name"] or d["dataset"] }}.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
     <ul class="govuk-list govuk-list--bullet">
-    <li>Reference – a short <a href="#heading=h.qto4937ypozf">reference</a> for the document
-    <li>Name – the title of the document
-    <li>Start date – the <a href="#heading=h.iwnav04efcex">date</a> the document was published. 
-    <li>End date – the <a href="#heading=h.iwnav04efcex">date</a> the document was withdrawn, or superseded by another document. This SHOULD be blank if the document is still relevant to planning.
-    <li>Entry date – the <a href="#heading=h.iwnav04efcex">date</a> this entry was created or updated
-    <li>Document type – the type of the conservation area document which MUST be one of the following values: 
-    <ul class="govuk-list govuk-list--bullet">
-    <li>“area-appraisal”
-    <li>“notice” <br>
-    </li> 
+    {% for f in d["fields"] %}
+    <li>{{ f["field"] }} {% if f["description"] %} &mdash; {{ f["description"] | safe }}{% endif %}</li>
+    {% endfor %}
     </ul>
-    <li>Documentation URL – a link to a web page which contains or links to the document
-    <li>Document URL – a link to the document
-    </li>
-    </ul>
+
+{% endfor %}
 
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
@@ -139,6 +119,9 @@
 
     <h3 id="reference" class="govuk-heading-s">Reference</h3>
     <p class="govuk-body">The reference identifies the entity within a data provider.</p>
+    <p class="govuk-body">
+    <em>The URI for the entity may be constructed by a combination of the reference, or be provided in an optional URI field.</em>
+    </p>
     <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
     <p class="govuk-body">A reference SHOULD be persistent. The same reference should be used by the provider to identify in the future.</p>
