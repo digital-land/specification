@@ -214,51 +214,81 @@
     The documentation page MUST include:
     </p>
     <ul class="govuk-list govuk-list--bullet">
-    <li>A hyperlink to the <a href="#heading=h.b8zsu5x96o27">conservation area dataset</a>
-    <li>A hyperlink to the <a href="#heading=h.z2ixh7xzzsdd">conservation area document dataset</a>
-    <li>A clear licence for reusing the data <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a>
+
+    
+      <li>A hyperlink to the <a href="#conservation-area-dataset">conservation-area</a> data</li>
+    
+      <li>A hyperlink to the <a href="#conservation-area-document-dataset">conservation-area-document</a> data</li>
+    
+
+    <li>A clear licence for reusing the data, for example <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a>.
     <li>Any attribution needed when using the data, for example <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">Crown Copyright</a>. 
     </li>
     </ul>
 
-    <h2 id="conservation-area-dataset" class="govuk-heading-m">Conservation ares</h2>
-    <p class="govuk-body">
-    The list of conservation areas MUST be published in an <a href="#heading=h.501f66izveen">open data format</a>.
-    </p>
-    <p class="govuk-body">
-    There MUST be at least one entry for each conservation area. Each entry MUST containing the following information:
-    </p>
-        <ul class="govuk-list govuk-list--bullet">
-    <li>Reference – the short reference for the conservation area
-    <li>Name – the official name for the conservation area
-    <li>Geometry – the boundary for the conservation area
-    <li>Start date – the <a href="#heading=h.iwnav04efcex">date</a> the conservation area was adopted. 
-    <li>End date – the <a href="#heading=h.iwnav04efcex">date</a> the conservation area was withdrawn or blank if the conservation area is active.
-    <li>Entry date – the <a href="#heading=h.iwnav04efcex">date</a> this entry was created or updated
-    <li>Documentation url – 
-    </li>
-    </ul>
-    <p class="govuk-body">
-    <em>The URI is inferred by a combination of the reference and the or be provided in an optional URI field.</em>
-    </p>
+    <h2 id="data" class="govuk-heading-m">Data</h2>
 
-    <h2 class="govuk-heading-m"> List of conservation area documents</h2>
+
+
+    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
+    Conservation-area
+</h3>
+    <p class="govuk-body">The conservation-area data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each conservation-area.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
     <ul class="govuk-list govuk-list--bullet">
-    <li>Reference – a short <a href="#heading=h.qto4937ypozf">reference</a> for the document
-    <li>Name – the title of the document
-    <li>Start date – the <a href="#heading=h.iwnav04efcex">date</a> the document was published. 
-    <li>End date – the <a href="#heading=h.iwnav04efcex">date</a> the document was withdrawn, or superseded by another document. This SHOULD be blank if the document is still relevant to planning.
-    <li>Entry date – the <a href="#heading=h.iwnav04efcex">date</a> this entry was created or updated
-    <li>Document type – the type of the conservation area document which MUST be one of the following values: 
+    
+    <li>reference </li>
+    
+    <li>name  &mdash; the official name for the conservation area</li>
+    
+    <li>geometry </li>
+    
+    <li>documentation-url  &mdash; an optional URL of a document providing the authoritive source of the boundary. For example a PDF containing a map of the area indicated with a red-line boundary.</li>
+    
+    <li>notes </li>
+    
+    <li>start-date </li>
+    
+    <li>end-date </li>
+    
+    <li>entry-date </li>
+    
+    </ul>
+
+
+
+    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
+    Conservation-area-document
+</h3>
+    <p class="govuk-body">The conservation-area-document data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each conservation-area-document.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
     <ul class="govuk-list govuk-list--bullet">
-    <li>“area-appraisal”
-    <li>“notice” <br>
-    </li> 
+    
+    <li>reference </li>
+    
+    <li>name  &mdash; the title of the conservation area document</li>
+    
+    <li>documentation-url  &mdash; the URL of the webpage citing the document</li>
+    
+    <li>document-url  &mdash; the URL of the document</li>
+    
+    <li>document-type  &mdash; the type of the conservation area document which MUST be one of the following values: 'area-appraisal', 'notice', or blank</li>
+    
+    <li>notes </li>
+    
+    <li>start-date </li>
+    
+    <li>end-date </li>
+    
+    <li>entry-date </li>
+    
     </ul>
-    <li>Documentation URL – a link to a web page which contains or links to the document
-    <li>Document URL – a link to the document
-    </li>
-    </ul>
+
+
 
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
@@ -280,6 +310,9 @@
 
     <h3 id="reference" class="govuk-heading-s">Reference</h3>
     <p class="govuk-body">The reference identifies the entity within a data provider.</p>
+    <p class="govuk-body">
+    <em>The URI for the entity may be constructed by a combination of the reference, or be provided in an optional URI field.</em>
+    </p>
     <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
     <p class="govuk-body">A reference SHOULD be persistent. The same reference should be used by the provider to identify in the future.</p>
@@ -291,7 +324,7 @@
 <p class="govuk-body">
 Entries SHOULD be ordered by the entry-date, with older entries appearing before later entries.
 </p>
-<h2 class="govuk-heading-m">Open data formats</h2>
+<h2 id="open-data-format" class="govuk-heading-m">Open data formats</h2>
 <p class="govuk-body">
 The data MUST be provided in an open data standard format. The preferred format is Comma Separated Value (CSV).
 </p>
