@@ -10,6 +10,7 @@ fields:
 - field: article-4-direction
 - field: article-4-direction-rule
 - field: documentation-url
+- field: document-url
 - field: end-date
 - field: entity
 - field: entry-date

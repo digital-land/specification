@@ -4,6 +4,8 @@ import os
 import csv
 import jinja2
 import markdown
+from glob import glob
+import frontmatter
 from digital_land_frontend.jinja import setup_jinja
 
 docs = "docs/"
@@ -22,6 +24,7 @@ tables = {
     "typology": {},
     "dataset": {},
     "dataset-field": {},
+    "specification": {},
 }
 
 
@@ -35,7 +38,7 @@ def render(path, template, docs="docs", **kwargs):
         f.write(template.render(**kwargs))
 
 
-def load(table):
+def load_csv(table):
     for row in csv.DictReader(open("specification/%s.csv" % (table), newline="")):
         if table not in keys:
             key = table
@@ -44,6 +47,12 @@ def load(table):
             pkey, skey = keys[table]
             tables[table].setdefault(row[pkey], {})
             tables[table][row[pkey]][row[skey]] = row
+
+
+def load_content(table):
+    for path in glob(f"content/{table}/*.md"):
+        post = frontmatter.load(path)
+        tables[table][post[table]] = post
 
 
 def field_typology(f):
@@ -133,6 +142,10 @@ def index_datapackage():
                     tables["field-datapackage"][field].append(datapackage)
 
 
+def index_specification():
+    return
+
+
 def default_names():
     for dataset, s in tables["dataset"].items():
         if not s.get("key-field", ""):
@@ -167,7 +180,10 @@ if __name__ == "__main__":
     env.filters["dataset_sort"] = dataset_sort
 
     for table in tables:
-        load(table)
+        if table in ["specification"]:
+            load_content(table)
+        else:
+            load_csv(table)
 
     default_names()
     index_typologies()
@@ -175,8 +191,9 @@ if __name__ == "__main__":
     index_field()
     index_dataset()
     index_datapackage()
+    index_specification()
 
-    for template in ["datapackage", "dataset", "field", "datatype", "typology"]:
+    for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:
         for name, item in tables[template].items():
             render(
                 "%s/%s/index.html" % (template, name),
@@ -189,12 +206,13 @@ if __name__ == "__main__":
             )
 
     for path, template in [
-        ("index.html", "specifications.html"),
+        ("index.html", "indexes.html"),
         ("datapackage/index.html", "datapackages.html"),
         ("dataset/index.html", "datasets.html"),
         ("field/index.html", "fields.html"),
         ("datatype/index.html", "datatypes.html"),
         ("typology/index.html", "typologies.html"),
+        ("specification/index.html", "specifications.html"),
     ]:
         render(
             path,

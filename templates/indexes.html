@@ -1,0 +1,38 @@
+{% extends "dl-specification-base.html" %}
+
+{% set page_caption = '' %}
+{% set page_title = 'Specification' %}
+
+{% block dl_breadcrumbs %}
+  {{ govukBreadcrumbs({
+    "items": [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification"
+      }
+    ]
+  }) }}
+{% endblock %}
+
+{% block dl_content %}
+<div class="govuk-grid-row">
+ <div class="govuk-grid-column-full">
+    <p class="govuk-body">
+        Technical documentation and guidance.
+    </p>
+    <ul class="govuk-list govuk-list--bullet">
+      <li><a href="dataset">Dataset</a> &mdash; the definition of a dataset including the list of fields</li>
+      <li><a href="field">Field</a> &mdash; the meaning and format of a CSV column, or GeoJSON property</li>
+      <li><a href="datatype">Datatype</a> &mdash; the type of a field</li>
+      <li><a href="typology">Typology</a> &mdash; the categorisation of fields, and datasets</li>
+      <li><a href="specification">Specification</a> &mdash; the specification for providing data</li>
+    </ul>
+    <p class="govuk-body">
+        Visit our <a href="https://www.digital-land.info/dataset">datasets</a> pages to see the actual data.
+    </p>
+  </div>
+</div>
+{% endblock %}
