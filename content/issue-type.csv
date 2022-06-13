@@ -12,7 +12,7 @@ invalid URI,error,Invalid URI,It was not possible to process the field as a URI.
 invalid WKT,error,Invalid WKT,It was not possible to process the field as a WKT value.
 future entry-date,error,Future entry date,The entry-date cannot be in the future.
 default-field,info,Default field,The value has been taken from another field.
-default-value,info,Defualt value,The value has been derrived from other data.
+default-value,info,Default value,The value has been derrived from other data.
 patch,warning,Patched value,The value has changed as a result of processing.
 WGS84 flipped,notice,WGS84 flipped,The latitude and logitude fields values have been exchanged.
 WGS84 out of bounds,error,WGS84 out of bounds,The geospatial coordinates are out of bounds.
