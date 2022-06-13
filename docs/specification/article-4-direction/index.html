@@ -20,6 +20,19 @@
     
 	<meta name="digital-land:template" content="dlf-base.html">
 	
+<style>
+code {
+    padding: 0 5px;
+    color: #d4351c;
+    background-color: #f3f2f1;
+}
+
+code.value {
+    color: #00703c;
+}
+
+</style>
+
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
 	
     
@@ -223,9 +236,8 @@
       <li>A hyperlink to the <a href="#article-4-direction-rule-dataset">article 4 direction rule</a> data</li>
     
 
-    <li>A clear licence for reusing the data, for example <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a>.
-    <li>Any attribution needed when using the data, for example <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">Crown Copyright</a>. 
-    </li>
+    <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
+    <li>Any attribution needed when using the data, for example [<a href="#crown-copyright">Crown Copyright</a>].</li>
     </ul>
 
     <h2 id="data" class="govuk-heading-m">Data</h2>
@@ -241,23 +253,23 @@
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li>reference  &mdash; the <a href="#reference">reference</a> for the article 4 direction</li>
+    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the article 4 direction</li>
     
-    <li>name </li>
+    <li><code class="field">name</code> </li>
     
-    <li>description </li>
+    <li><code class="field">description</code> </li>
     
-    <li>documentation-url </li>
+    <li><code class="field">documentation-url</code> </li>
     
-    <li>document-url </li>
+    <li><code class="field">document-url</code> </li>
     
-    <li>notes </li>
+    <li><code class="field">notes</code> </li>
     
-    <li>start-date </li>
+    <li><code class="field">start-date</code> </li>
     
-    <li>end-date </li>
+    <li><code class="field">end-date</code> </li>
     
-    <li>entry-date </li>
+    <li><code class="field">entry-date</code> </li>
     
     </ul>
 
@@ -272,29 +284,29 @@
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li>reference  &mdash; the <a href="#reference">reference</a> for the article 4 direction area</li>
+    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the article 4 direction area</li>
     
-    <li>name </li>
+    <li><code class="field">name</code> </li>
     
-    <li>geometry </li>
+    <li><code class="field">geometry</code> </li>
     
-    <li>uprn </li>
+    <li><code class="field">uprn</code> </li>
     
-    <li>address-text </li>
+    <li><code class="field">address-text</code> </li>
     
-    <li>article-4-direction  &mdash; the <a href="#reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry</li>
+    <li><code class="field">article-4-direction</code>  &mdash; the <a href="#reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry</li>
     
-    <li>article-4-direction-rules  &mdash; a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">article 4 direction rule</a> entries, separated by a semi-colon ';' character.</li>
+    <li><code class="field">article-4-direction-rules</code>  &mdash; a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">article 4 direction rule</a> entries, separated by a semi-colon ';' character.</li>
     
-    <li>document-url </li>
+    <li><code class="field">document-url</code> </li>
     
-    <li>notes </li>
+    <li><code class="field">notes</code> </li>
     
-    <li>start-date </li>
+    <li><code class="field">start-date</code> </li>
     
-    <li>end-date </li>
+    <li><code class="field">end-date</code> </li>
     
-    <li>entry-date </li>
+    <li><code class="field">entry-date</code> </li>
     
     </ul>
 
@@ -309,21 +321,21 @@
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li>reference  &mdash; the <a href="#reference">reference</a> for the article 4 direction rule</li>
+    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the article 4 direction rule</li>
     
-    <li>name  &mdash; a name for the rule, for example "Change of use, demolition or alteration of pubs is restricted"</li>
+    <li><code class="field">name</code>  &mdash; a name for the rule, for example "Change of use, demolition or alteration of pubs is restricted"</li>
     
-    <li>description </li>
+    <li><code class="field">description</code> </li>
     
-    <li>documentation-url </li>
+    <li><code class="field">documentation-url</code> </li>
     
-    <li>notes </li>
+    <li><code class="field">notes</code> </li>
     
-    <li>start-date </li>
+    <li><code class="field">start-date</code> </li>
     
-    <li>end-date </li>
+    <li><code class="field">end-date</code> </li>
     
-    <li>entry-date </li>
+    <li><code class="field">entry-date</code> </li>
     
     </ul>
 
@@ -333,66 +345,107 @@
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
     <h3 id="date" class="govuk-heading-s">Date</h3>
     <p class="govuk-body">
-    Dates MUST be in ISO 8601 as format as by the open standards for government guidance on formatting dates and times in data. 
+    Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the Open Standards for government guidance on formatting dates and times in data
+    [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
     <p class="govuk-body">
-    A date value SHOULD be blank if it is unknown. The date may just contain the year “YYYY” if only the year is known, or “YYYY-MM” if only the year and month is known.
+    A date value SHOULD be blank if it is unknown. The date may just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
+
     <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
     <p class="govuk-body">
     The boundary for the conservation area as a single POLYGON or MULTIPOLYGON value.
-    Points MUST be in the [<a href="#WGS84">WGS84</a>] coordinate reference system.
     </p>
     <p class="govuk-body">
-    The shape MUST be a valid WKT POLYGON or MULTIPOLYGON when provided as CSV.
+    In all cases all points MUST be either in the
+    [<a href="#WGS84">WGS84</a>] (<a href="#EPSG::4326">EPSG::4326</a>) or
+    [<a href="#ETRS89">ETRS89</a>] (<a href="#EPSG::4258">EPSG::4258</a>) coordinate reference system
+    following the Open Standards for government guidance on the exchange of location points [<a href="#exchange-of-location-point">exchange-of-location-point</a>].
+    </p>
+    <p class="govuk-body">
+    Positions calculated by the WGS84 and ETRS89 systems currently deviate by less than half a metre for points within England.
+    Boundaries provided by this dataset are intended to be used as an index. Survey data SHOULD be used where more precision is needed.
     </p>
 
     <h3 id="reference" class="govuk-heading-s">Reference</h3>
     <p class="govuk-body">The reference identifies the entity within a data provider.</p>
     <p class="govuk-body">
-    <em>The URI for the entity may be constructed by a combination of the reference, or be provided in an optional URI field.</em>
+    <em>A URI for the entity may be constructed by a combination of the reference with a IRI prefix value, or be provided in an optional URI field.</em>
     </p>
     <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
-    <p class="govuk-body">A reference SHOULD be persistent. The same reference should be used by the provider to identify in the future.</p>
+    <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
     <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the article 4 direction.</p>
     <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a article 4 direction when completing a form, or contacting a call centre.</p>
 
+    <h3 id="text" class="govuk-heading-s">Text</h3>
+    <p class="govuk-body">
+    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] following the Open Standards for government guidance on encoding characters [<a href="encoding-characters">encoding-characters</a>].
+    </p>
 
 <h2 class="govuk-heading-m">Historical data</h2>
 <p class="govuk-body">
 Entries SHOULD be ordered by the entry-date, with older entries appearing before later entries.
 </p>
+<p class="govuk-body">
+The <code class="field">end-date</code> field should be used to indicate when an entity is no longer applicable.
+Entries SHOULD NOT be removed from the data except to correct a mistake, or for the purposes of redacting personal or sensitive information.
+</p>
+
 <h2 id="open-data-format" class="govuk-heading-m">Open data formats</h2>
 <p class="govuk-body">
-The data MUST be provided in an open data standard format. The preferred format is Comma Separated Value (CSV).
-</p>
+Data which does not contain geospatial information (a point or geometry field) MUST be provided as (<a href="#csv-format">CSV</a>).
+<p>
 <p class="govuk-body">
-Alternatively, where the dataset includes a geometry or a point field, the data MAY be provided in one of the following open standard geospatial formats:
+Geospatial data MUST be provided in at least one of the following open data formats:
 </p>
 <ul class="govuk-list govuk-list--bullet">
-<li>IETF CSV containing Well Known Text [WKT] 
-<li>IETF GeoJSON
-<li>OGC Geopackage containing points
-<li>OGC GML
-<li>OGC Keyhole Markup Language [KML]
-</li>
+<li><a href="#CSV-format">CSV</a>
+<li><a href="#GeoJSON-format">GeoJSON</a>
+<li>OGC <a href="#GML-format">GML</a>
+<li>OGC <a href="#geopackage-format">Geopackage</a>
+<li>OGC Keyhole Markup Language <a href="#KML-format">KML</a>
 </ul>
 <p class="govuk-body">
-The data may also be provided in other formats such as a zip archive containing a ESRI shapefile collection of files, or Mapinfo TAB file.
+The preferred format for representing geospatial data is Comma Separated Value (<a href="#csv-format">CSV</a>)
+with the <code class="field">geometry</code> and <code class="point">point</code> fields containing Well Known Text [<a href="#WKT">WKT</a>].
 </p>
 <p class="govuk-body">
-In all cases all points MUST be either in the [WGS84] (EPSG::4326) or [ETRS89] (EPSG::4258) coordinate reference system to comply with the Open Standard for government mandate on the exchange of a location point [GOV.UK LOC].
+The data MAY also be provided in other data formats
+such as a [<a href="#ZIP">ZIP</a>] archive containing a collection of ESRI shapefiles [<a href="#Shapefile">Shapefile</a>],
+a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
 </p>
+
+<h3 id="CSV-format" class="govuk-heading-m">CSV</h3>
 <p class="govuk-body">
-Boundaries provided by this dataset are intended to be used as an index. Positions calculated by the WGS84 and ETRS89 systems currently deviate by less than half a metre for points within England. Survey data SHOULD be used where more precision is needed.
 </p>
+
+<h3 id="GeoJSON-format" class="govuk-heading-m">GeoJSON</h3>
+<p class="govuk-body">
+</p>
+
+<h3 id="geopackage-format" class="govuk-heading-m">geopackage</h3>
+<p class="govuk-body">
+</p>
+
+<h3 id="GML-format" class="govuk-heading-m">GML</h3>
+<p class="govuk-body">
+</p>
+
 
     <h2 class="govuk-heading-m">Examples</h2>
     <h2 class="govuk-heading-m">Terminology</h2>
-    <h2 class="govuk-heading-m">Licensing</h2>
+    <h2 class="govuk-heading-m">Licensing of the data</h2>
     <h2 class="govuk-heading-m">Copyright and attribution</h2>
     <h2 class="govuk-heading-m">Security and privacy considerations</h2>
+    <p class="govuk-body">
+    The data MUST NOT contain any personal or sensitive information, unless explicitly required by this specification, or legislation.
+    </p>
+    <p class="govuk-body">
+    There is a risk of people's names or other personally identifiable information appearing in the data, in particular notes, description and other text fields.
+    It is the responsibility of the data provider to review and redact such information before publication.
+    The for example, the [OGL3] licence does not 
+    </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
@@ -429,6 +482,24 @@ Boundaries provided by this dataset are intended to be used as an index. Positio
     </div>
 
     <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC3629">[RFC3629]</dt>
+    <dd class="govuk-summary-list__value">
+        UTF-8, a transformation format of ISO 10646.
+        IETF Internet Standard.
+        <a href="https://datatracker.ietf.org/doc/html/rfc3629">https://datatracker.ietf.org/doc/html/rfc3629</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC4180">[RFC4180]</dt>
+    <dd class="govuk-summary-list__value">
+        Common Format and MIME Type for Comma-Separated Values (CSV) Files.
+        IETF Informational.
+        <a href="https://datatracker.ietf.org/doc/html/rfc4180">https://datatracker.ietf.org/doc/html/rfc4180</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key" id="RFC7946">[RFC7946]</dt>
     <dd class="govuk-summary-list__value">
     The GeoJSON Format.
@@ -441,7 +512,7 @@ Boundaries provided by this dataset are intended to be used as an index. Positio
     <dt class="govuk-summary-list__key" id="RFC3339">[RFC3339]</dt>
     <dd class="govuk-summary-list__value">
     Date and Time on the Internet: Timestamps.
-    Proposed Standard.
+    IETF Proposed Standard.
     <a href="https://datatracker.ietf.org/doc/html/rfc3339">https://datatracker.ietf.org/doc/html/rfc3339</a>
     </dd>
     </div>
@@ -461,6 +532,33 @@ Boundaries provided by this dataset are intended to be used as an index. Positio
     Model for Tabular Data and Metadata on the Web.
     W3C Recommendation.
     <a href="https://www.w3.org/TR/2015/REC-tabular-data-model-20151217">https://www.w3.org/TR/2015/REC-tabular-data-model-20151217</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GML">[GML]</dt>
+    <dd class="govuk-summary-list__value">
+    Geography Markup Language (GML).
+    Open Geospatial Consortium standard (ISO 19136-1:2020).
+    <a href="https://www.ogc.org/standards/gml">https://www.ogc.org/standards/gml</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="OGL3">[OGL3]</dt>
+    <dd class="govuk-summary-list__value">
+    Open Government Licence for public sector information.
+    Version 3.
+    <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="crown-copyright">[crown-copyright]</dt>
+    <dd class="govuk-summary-list__value">
+    Crown copyright.
+    Section 163 of the Copyright, Designs and Patents Act 1988 as works made by officers or servants of the Crown in the course of their duties.
+    <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/</a>
     </dd>
     </div>
 
@@ -494,11 +592,11 @@ Boundaries provided by this dataset are intended to be used as an index. Positio
     </div>
 
     <div class="govuk-summary-list__row">
-    <dt class="govuk-summary-list__key" id="exchange-of-location-point">[exchange-of-location-point]</dt>
+    <dt class="govuk-summary-list__key" id="encoding-characters">[encoding-characters]</dt>
     <dd class="govuk-summary-list__value">
-    Exchange of location point.
+    Encoding characters
     Open Standards for Government.
-    <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point</a>
+    <a href="https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile">https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile</a>
     </dd>
     </div>
 
@@ -512,7 +610,7 @@ Boundaries provided by this dataset are intended to be used as an index. Positio
     </div>
 
     <div class="govuk-summary-list__row">
-    <dt class="govuk-summary-list__key" id="date-times-and-time-stamps-standard">[date-times-and-time-stamps-standard]</dt>
+    <dt class="govuk-summary-list__key" id="formatting-dates-and-times-in-data">[formatting-dates-and-times-in-data]</a></dt>
     <dd class="govuk-summary-list__value">
     Formatting dates and times in data.
     Open Standards for Government.
@@ -526,6 +624,33 @@ Boundaries provided by this dataset are intended to be used as an index. Positio
     Publishing government documents.
     Open Standards for Government.
     <a href="https://www.gov.uk/government/publications/open-standards-for-government/viewing-government-documents">https://www.gov.uk/government/publications/open-standards-for-government/viewing-government-documents</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="exchange-of-location-point">[exchange-of-location-point]</dt>
+    <dd class="govuk-summary-list__value">
+    Exchange of location point.
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="tabular-data-standard">[tabular-data-standard]</dt>
+    <dd class="govuk-summary-list__value">
+    Tabular data standard.
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="using-csv">[using-csv]</dt>
+    <dd class="govuk-summary-list__value">
+    Using CSV file format.
+    Central Digital and Data Office guidance.
+    <a href="https://www.gov.uk/guidance/using-csv-file-format">https://www.gov.uk/guidance/using-csv-file-format</a>
     </dd>
     </div>
 

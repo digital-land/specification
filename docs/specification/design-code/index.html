@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>
-    Tree preservation order
+    Design code
  | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
@@ -143,7 +143,7 @@ code.value {
   
     
     <li class="govuk-breadcrumbs__list-item" aria-current="page">
-    Tree preservation order
+    Design code
 </li>
     
   
@@ -158,7 +158,7 @@ code.value {
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Specification</span>
   <h1 class="govuk-heading-xl">
-    Tree preservation order
+    Design code
 </h1>
   </div>
 </div>
@@ -177,7 +177,7 @@ code.value {
 
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p class="govuk-body">
-    This specification defines the format for how a planning authority should provide information about tree preservation orders as data.
+    This specification defines the format for how a planning authority should provide information about design codes as data.
     </p>
     <p class="govuk-body">
     This technical specification is accompanied by guidance, examples and other tools providing feedback to data providers.
@@ -214,7 +214,7 @@ code.value {
 
     <h2 id="documentation-page" class="govuk-heading-m">Documentation page</h2>
     <p class="govuk-body">
-    A data provider MUST provide a list of all of the tree preservation orders within its jurisdiction on a documentation page.
+    A data provider MUST provide a list of all of the design codes within its jurisdiction on a documentation page.
     </p>
     <p class="govuk-body">
     The documentation page MUST be accessible as HTML from a public URL.
@@ -229,11 +229,11 @@ code.value {
     <ul class="govuk-list govuk-list--bullet">
 
     
-      <li>A hyperlink to the <a href="#tree-preservation-order-dataset">tree preservation order</a> data</li>
+      <li>A hyperlink to the <a href="#design-code-dataset">design code</a> data</li>
     
-      <li>A hyperlink to the <a href="#tree-preservation-zone-dataset">tree preservation zone</a> data</li>
+      <li>A hyperlink to the <a href="#design-code-area-dataset">design code area</a> data</li>
     
-      <li>A hyperlink to the <a href="#tree-dataset">tree</a> data</li>
+      <li>A hyperlink to the <a href="#development-document-dataset">design code document</a> data</li>
     
 
     <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
@@ -245,17 +245,54 @@ code.value {
 
 
     <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
-    Tree preservation order
+    Design code
 </h3>
-    <p class="govuk-body">The tree preservation order data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each tree preservation order.</p>
+    <p class="govuk-body">The design code data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each design code.</p>
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
+    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the design code</li>
     
     <li><code class="field">name</code> </li>
+    
+    <li><code class="field">description</code> </li>
+    
+    <li><code class="field">design-code-status</code> </li>
+    
+    <li><code class="field">design-code-categories</code> </li>
+    
+    <li><code class="field">documentation-url</code> </li>
+    
+    <li><code class="field">document-url</code> </li>
+    
+    <li><code class="field">notes</code> </li>
+    
+    <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the design code comes, or came into force</li>
+    
+    <li><code class="field">end-date</code> </li>
+    
+    <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or last amended</li>
+    
+    </ul>
+
+
+
+    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
+    Design code area
+</h3>
+    <p class="govuk-body">The design code area data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each design code area.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">name</code> </li>
+    
+    <li><code class="field">design-code</code> </li>
     
     <li><code class="field">geometry</code> </li>
     
@@ -265,75 +302,44 @@ code.value {
     
     <li><code class="field">notes</code> </li>
     
-    <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order came into force</li>
+    <li><code class="field">start-date</code> </li>
     
     <li><code class="field">end-date</code> </li>
     
-    <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
+    <li><code class="field">entry-date</code> </li>
     
     </ul>
 
 
 
     <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
-    Tree preservation zone
+    Design code document
 </h3>
-    <p class="govuk-body">The tree preservation zone data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each tree preservation zone.</p>
+    <p class="govuk-body">The design code document data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each design code document.</p>
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation zone</li>
+    <li><code class="field">reference</code> </li>
     
     <li><code class="field">name</code> </li>
     
-    <li><code class="field">tree-preservation-order</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
+    <li><code class="field">description</code> </li>
     
-    <li><code class="field">geometry</code> </li>
+    <li><code class="field">development-document-type</code> </li>
     
-    <li><code class="field">notes</code> </li>
+    <li><code class="field">documentation-url</code> </li>
     
-    <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone came into force</li>
-    
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone was disolved, or blank if the zone is active</li>
-    
-    <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
-    
-    </ul>
-
-
-
-    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
-    Tree
-</h3>
-    <p class="govuk-body">The tree data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each tree.</p>
-    <p class="govuk-body">Each entry MUST containing the following fields:</p>
-
-    <ul class="govuk-list govuk-list--bullet">
-    
-    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the tree</li>
-    
-    <li><code class="field">name</code> </li>
-    
-    <li><code class="field">point</code> </li>
-    
-    <li><code class="field">tree-preservation-order</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
-    
-    <li><code class="field">geometry</code> </li>
-    
-    <li><code class="field">uprn</code> </li>
-    
-    <li><code class="field">address-text</code> </li>
+    <li><code class="field">document-url</code> </li>
     
     <li><code class="field">notes</code> </li>
     
-    <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> from which the tree preservation order affects the tree</li>
+    <li><code class="field">start-date</code> </li>
     
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order no longer affects the tree, or blank if the tree is still under the order</li>
+    <li><code class="field">end-date</code> </li>
     
-    <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
+    <li><code class="field">entry-date</code> </li>
     
     </ul>
 
@@ -373,8 +379,8 @@ code.value {
     <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
     <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
-    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the tree preservation order.</p>
-    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a tree preservation order when completing a form, or contacting a call centre.</p>
+    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the design code.</p>
+    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a design code when completing a form, or contacting a call centre.</p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
     <p class="govuk-body">
