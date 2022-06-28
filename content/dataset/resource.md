@@ -9,6 +9,7 @@ entry-date: ''
 fields:
 - field: bytes
 - field: end-date
+- field: datasets
 - field: endpoints
 - field: entry-date
 - field: mime-type
