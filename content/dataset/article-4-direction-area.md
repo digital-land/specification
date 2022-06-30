@@ -9,6 +9,7 @@ entry-date: ''
 fields:
 - field: article-4-direction
 - field: article-4-direction-rule
+- field: address-text
 - field: documentation-url
 - field: document-url
 - field: end-date
@@ -23,6 +24,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+- field: uprn
 key-field: ''
 name: Article 4 direction area
 paint-options: ''
