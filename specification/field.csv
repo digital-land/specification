@@ -376,6 +376,7 @@ n,string,A list of tree species,,,tree-species-list,,,Tree species list,category
 1,string,,,,typology,,,Typology,specification,,,,specification,,
 1,string,,,,uk,,,UK,geography,,,,geography,,
 1,integer,,,,units,,,Units,number,,,,value,,
+1,string,Unique Property Reference Number,,,uprn,,,UPRN,geography,,,,geography,,
 1,string,,,,uri-template,,,RFC6570 template URL,value,,,,value,,
 1,url,,,,url,,,URL,value,,,,value,,
 1,string,,,,use-class-order,,,Use class order,category,,,,category,,
