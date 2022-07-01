@@ -16,9 +16,9 @@ fields:
 - field: name
 - field: notes
 - field: organisation
+- field: prefix
 - field: reference
 - field: start-date
-- field: tree-preservation-order
 key-field: ''
 name: Tree preservation order
 paint-options: ''
