@@ -7,6 +7,7 @@ entity-maximum: '7001000000'
 entity-minimum: '7001999999'
 entry-date: ''
 fields:
+- field: description
 - field: documentation-url
 - field: document-url
 - field: end-date

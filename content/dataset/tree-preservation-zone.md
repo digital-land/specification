@@ -7,7 +7,6 @@ entity-maximum: '29099999'
 entity-minimum: '19100000'
 entry-date: ''
 fields:
-- field: address
 - field: address-text
 - field: description
 - field: end-date
@@ -24,6 +23,7 @@ fields:
 - field: tree-species-list
 - field: tree-preservation-type
 - field: tree-preservation-order
+- field: uprn
 key-field: ''
 name: Tree preservation zone
 paint-options: ''
