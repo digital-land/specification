@@ -2053,6 +2053,7 @@ transport-under-tcpa-route,point
 transport-under-tcpa-route,reference
 transport-under-tcpa-route,start-date
 transport-under-tcpa-route,transport-under-tcpa-route
+tree-preservation-order,description
 tree-preservation-order,documentation-url
 tree-preservation-order,document-url
 tree-preservation-order,end-date
@@ -2073,7 +2074,6 @@ tree-preservation-type,notes
 tree-preservation-type,reference
 tree-preservation-type,start-date
 tree-preservation-type,tree-preservation-type
-tree-preservation-zone,address
 tree-preservation-zone,address-text
 tree-preservation-zone,description
 tree-preservation-zone,end-date
@@ -2090,6 +2090,7 @@ tree-preservation-zone,start-date
 tree-preservation-zone,tree-species-list
 tree-preservation-zone,tree-preservation-type
 tree-preservation-zone,tree-preservation-order
+tree-preservation-zone,uprn
 tree,address
 tree,address-text
 tree,description
