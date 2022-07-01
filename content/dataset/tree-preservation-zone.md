@@ -9,6 +9,7 @@ entry-date: ''
 fields:
 - field: address
 - field: address-text
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date
@@ -16,10 +17,10 @@ fields:
 - field: name
 - field: notes
 - field: organisation
+- field: prefix
 - field: point
 - field: reference
 - field: start-date
-- field: tree-preservation-zone
 - field: tree-species-list
 - field: tree-preservation-type
 - field: tree-preservation-order
