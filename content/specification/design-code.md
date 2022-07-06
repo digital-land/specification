@@ -13,15 +13,24 @@ datasets:
         - field: reference
           description: the <a href="#reference">reference</a> for the design code
         - field: name
+          description: the name, or title of the design code
         - field: description
+          description: a short, single-line description of the design code
         - field: design-code-status
+          description: a <a href="#design-code-status">design-code-status</a> reference
         - field: design-code-categories
+          description: a list of one or more <a href="#design-code-category">design-code-category</a> references, separated by a semi-colon ';' character
+          example: 'exemplar;urban'
         - field: documentation-url
+          description: the URL for the Web page with guidance on the status of the policy
         - field: document-url
+          description: the URL for the policy document
         - field: notes
+          description: optional notes on the status of the design code
         - field: start-date
           description: the <a href="#date">date</a> the design code comes, or came into force
         - field: end-date
+          description: the <a href="#date">date</a> this date the design code no longer applies
         - field: entry-date
           description: the <a href="#date">date</a> this entry was created or last amended
     - dataset: design-code-area
