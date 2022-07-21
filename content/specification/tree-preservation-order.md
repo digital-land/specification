@@ -47,6 +47,8 @@ datasets:
         - field: point
         - field: tree-preservation-order
           description: the <a href="#reference">reference</a> for the tree preservation order
+        - field: tree-preservation-order-tree
+          description: the tree number or reference which appears in the preservation order
         - field: geometry
         - field: uprn
         - field: address-text
