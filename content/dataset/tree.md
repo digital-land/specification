@@ -24,6 +24,7 @@ fields:
 - field: tree
 - field: tree-species
 - field: tree-preservation-order
+- field: tree-preservation-order-tree
 key-field: ''
 name: Tree
 paint-options: '{ "colour": "#3B453D", "type": "point" }'
