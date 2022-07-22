@@ -22,6 +22,8 @@ datasets:
     - dataset: conservation-area-document
       fields:
         - field: reference
+        - field: conservation-area
+          description: "the reference for the conservation area this document is about"
         - field: name
           description: the title of the conservation area document
         - field: documentation-url
