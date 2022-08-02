@@ -75,6 +75,7 @@ endif
 ifneq (,$(wildcard setup.py))
 	pip install -e .$(PIP_INSTALL_PACKAGE)
 endif
+	sqlite3 --version
 
 submodules::
 	git submodule update --init --recursive --remote
