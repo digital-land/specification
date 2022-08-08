@@ -7,6 +7,7 @@ entity-maximum: '4099999'
 entity-minimum: '4000000'
 entry-date: ''
 fields:
+- field: attribution
 - field: collection
 - field: dataset
 - field: description
@@ -15,6 +16,7 @@ fields:
 - field: key-field
 - field: entity-minimum
 - field: entity-maximum
+- field: licence
 - field: name
 - field: paint-options
 - field: plural
