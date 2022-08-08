@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: nuclear-safety-zone
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: nuclear-safety-zone
 key-field: ''
+licence: ogl3
 name: Nuclear safety zone
 paint-options: ''
 plural: Nuclear safety zones

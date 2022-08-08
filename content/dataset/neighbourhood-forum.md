@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: neighbourhood-forum
 description: ''
@@ -21,6 +22,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Designated neighbourhood forum
 paint-options: ''
 plural: Designated neighbourhood forums

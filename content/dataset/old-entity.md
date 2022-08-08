@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: old-entity
 description: Redirect an entity or mark it as gone
@@ -15,6 +16,7 @@ fields:
 - field: start-date
 - field: status
 key-field: ''
+licence: ogl3
 name: Entity redirection
 paint-options: ''
 plural: Entity redirections

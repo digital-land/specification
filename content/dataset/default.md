@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: default
 description: Take a missing field default value from another field
@@ -15,6 +16,7 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline default value
 paint-options: ''
 plural: Pipleline default values

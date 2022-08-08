@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: non-designated-archeology-asset-of-national-importance
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: non-designated-archeology-asset-of-national-importance
 key-field: ''
+licence: ogl3
 name: Non-designated archeology asset of national importance
 paint-options: ''
 plural: Non-designated archeology assets of national importance

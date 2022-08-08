@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: developer-contributions
 dataset: contribution-purpose
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Contribution purpose
 paint-options: ''
 plural: Contribution purposes

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: datatype
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: start-date
 - field: text
 key-field: ''
+licence: ogl3
 name: Datatype
 paint-options: ''
 plural: Datatypes

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: central-activities-zone
 dataset: central-activities-zone
 description: ''
@@ -21,6 +22,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Central activities zone
 paint-options: ''
 plural: Central activities zones

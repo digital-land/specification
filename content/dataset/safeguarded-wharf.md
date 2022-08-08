@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: safeguarded-wharf
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: safeguarded-wharf
 key-field: ''
+licence: ogl3
 name: Safeguarded wharf
 paint-options: ''
 plural: Safeguarded wharves

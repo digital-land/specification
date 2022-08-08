@@ -1,7 +1,8 @@
 ---
+attribution: crown-copyright
 collection: article-4-direction
 dataset: article-4-direction-area
-description: 'an area covered by an Article 4 direction'
+description: an area covered by an Article 4 direction
 end-date: ''
 entity-maximum: '1199999'
 entity-minimum: '1100000'
@@ -26,6 +27,7 @@ fields:
 - field: start-date
 - field: uprn
 key-field: ''
+licence: ogl3
 name: Article 4 direction area
 paint-options: ''
 plural: Article 4 direction areas
@@ -34,6 +36,6 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-wikidata:
-wikipedia:
+wikidata: ''
+wikipedia: ''
 ---

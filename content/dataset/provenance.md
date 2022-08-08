@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: provenance
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: start-date
 - field: value
 key-field: ''
+licence: ogl3
 name: Provenance
 paint-options: ''
 plural: Provenance

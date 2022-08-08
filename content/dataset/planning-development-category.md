@@ -1,7 +1,8 @@
 ---
-collection: 'planning-application'
+attribution: crown-copyright
+collection: planning-application
 dataset: planning-development-category
-description: 'Planning development category'
+description: Planning development category
 end-date: ''
 entity-maximum: '623999'
 entity-minimum: '623000'
@@ -14,6 +15,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+licence: ogl3
 name: Planning development category
 paint-options: ''
 plural: Planning development categories

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: hs2-safeguarded-area
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: hs2-safeguarded-area
 key-field: ''
+licence: ogl3
 name: HS2 safeguarded area
 paint-options: ''
 plural: HS2 safeguarded areas

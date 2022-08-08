@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: government-organisation
 description: ''
@@ -24,6 +25,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Government organisation
 paint-options: ''
 plural: Government departments, agencies and public bodies

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: document
 description: ''
@@ -25,6 +26,7 @@ fields:
 - field: planning-application
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Document
 paint-options: ''
 plural: Documents

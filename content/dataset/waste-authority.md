@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: waste-authority
 description: ''
@@ -25,6 +26,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Waste disposal authority
 paint-options: ''
 plural: Waste authorities

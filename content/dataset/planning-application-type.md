@@ -1,7 +1,8 @@
 ---
-collection: 'planning-application'
+attribution: crown-copyright
+collection: planning-application
 dataset: planning-application-type
-description: 'A type of planning application'
+description: A type of planning application
 end-date: ''
 entity-maximum: '621999'
 entity-minimum: '621000'
@@ -15,6 +16,7 @@ fields:
 - field: service-type
 - field: reference
 - field: start-date
+licence: ogl3
 name: Planning application type
 paint-options: ''
 plural: Planning application types

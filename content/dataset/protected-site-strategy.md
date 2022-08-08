@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: protected-site-strategy
 description: ''
@@ -26,6 +27,7 @@ fields:
 - field: start-date
 - field: protected-site-strategy
 key-field: ''
+licence: ogl3
 name: Protected site strategy
 paint-options: ''
 plural: Protected site strategies

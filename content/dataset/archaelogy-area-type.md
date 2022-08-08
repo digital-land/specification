@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: archaelogy-area-type
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: archaelogy-area-type
 key-field: ''
+licence: ogl3
 name: Archaelogy area type
 paint-options: ''
 plural: Archaelogy area types

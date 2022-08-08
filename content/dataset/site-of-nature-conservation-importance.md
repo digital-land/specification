@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: site-of-nature-conservation-importance
 description: ''
@@ -26,6 +27,7 @@ fields:
 - field: start-date
 - field: site-of-nature-conservation-importance
 key-field: ''
+licence: ogl3
 name: Site of nature conservation importance
 paint-options: ''
 plural: Sites of nature conservation importance

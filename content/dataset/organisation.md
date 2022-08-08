@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: organisation
 description: ''
@@ -34,6 +35,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Organisation
 paint-options: ''
 plural: Organisations

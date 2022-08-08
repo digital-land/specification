@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: metropolitan-open-land
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: metropolitan-open-land
 key-field: ''
+licence: ogl3
 name: Metropolitan open land
 paint-options: ''
 plural: Metropolitan open land

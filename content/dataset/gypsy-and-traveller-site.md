@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: gypsy-and-traveller-site
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: gypsy-and-traveller-site
 key-field: ''
+licence: ogl3
 name: Gypsy and traveller site
 paint-options: ''
 plural: Gypsy and traveller sites

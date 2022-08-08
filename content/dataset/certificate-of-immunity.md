@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: certificate-of-immunity
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: certificate-of-immunity
 key-field: ''
+licence: ogl3
 name: Certificate of immunity
 paint-options: '{ "colour": "#D8760D" }'
 plural: Certificates of immunity

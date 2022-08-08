@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: brownfield-site
 dataset: brownfield-site
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: brownfield-site
 key-field: ''
+licence: ogl3
 name: Brownfield site
 paint-options: '{ "colour": "#745729" }'
 plural: Brownfield sites

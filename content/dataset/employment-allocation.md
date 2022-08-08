@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: employment-allocation
 dataset: employment-allocation
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: employment-allocation
 key-field: ''
+licence: ogl3
 name: Employment allocation
 paint-options: ''
 plural: Employment allocations

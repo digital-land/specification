@@ -1,5 +1,6 @@
 ---
-collection: 'design-code'
+attribution: crown-copyright
+collection: design-code
 dataset: design-code-category
 description: ''
 end-date: ''
@@ -15,6 +16,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Design code category
 paint-options: ''
 plural: Design code categories

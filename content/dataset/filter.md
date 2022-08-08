@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: filter
 description: Filter entries
@@ -15,6 +16,7 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline filter
 paint-options: ''
 plural: Pipeline filters

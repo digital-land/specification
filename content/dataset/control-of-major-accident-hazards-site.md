@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: control-of-major-accident-hazards-site
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: control-of-major-accident-hazards-site
 key-field: ''
+licence: ogl3
 name: Control of major accident hazards site
 paint-options: ''
 plural: Control of major accident hazards sites

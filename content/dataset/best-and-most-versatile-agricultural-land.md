@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: best-and-most-versatile-agricultural-land
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: best-and-most-versatile-agricultural-land
 key-field: ''
+licence: ogl3
 name: Best and most versatile agricultural land
 paint-options: ''
 plural: Best and most versatile agricultural land

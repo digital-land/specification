@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: buffer-zone
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: buffer-zone
 key-field: ''
+licence: ogl3
 name: Buffer zone
 paint-options: ''
 plural: Buffer zones

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: asset-of-community-value
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: asset-of-community-value
 key-field: ''
+licence: ogl3
 name: Asset of community value
 paint-options: ''
 plural: Assets of community value

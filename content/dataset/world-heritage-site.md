@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: world-heritage-site
 description: ''
@@ -19,6 +20,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: World heritage site
 paint-options: '{ "colour": "#EB1EE5" }'
 plural: World heritage sites

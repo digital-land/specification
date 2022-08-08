@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: fact-resource
 description: the provenance of a fact
@@ -14,6 +15,7 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Fact resource
 paint-options: ''
 plural: Fact resources

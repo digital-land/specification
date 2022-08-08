@@ -1,4 +1,5 @@
 ---
+attribution: natural-england
 collection: special-area-of-conservation
 dataset: special-area-of-conservation
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: special-area-of-conservation
 key-field: ''
+licence: ogl3
 name: Special area of conservation
 paint-options: '{ "colour": "#7A8705" }'
 plural: Special areas of conservation

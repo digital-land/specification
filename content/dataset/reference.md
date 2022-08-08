@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: reference
 description: Redirect a prefix and reference to an entity
@@ -14,6 +15,7 @@ fields:
 - field: start-date
 - field: reference
 key-field: ''
+licence: ogl3
 name: Reference
 paint-options: ''
 plural: References

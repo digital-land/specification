@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: tree-preservation-order
 dataset: tree-preservation-zone
 description: An area covered by a tree preservation order
@@ -25,6 +26,7 @@ fields:
 - field: tree-preservation-order
 - field: uprn
 key-field: ''
+licence: ogl3
 name: Tree preservation zone
 paint-options: ''
 plural: Trees preservation zones

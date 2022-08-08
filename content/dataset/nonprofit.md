@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: nonprofit
 description: ''
@@ -21,6 +22,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Nonprofit organisation
 paint-options: ''
 plural: Nonprofit organisations

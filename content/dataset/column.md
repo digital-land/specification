@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: column
 description: resource column names for output fields
@@ -15,6 +16,7 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline column
 paint-options: ''
 plural: Pipeline columns

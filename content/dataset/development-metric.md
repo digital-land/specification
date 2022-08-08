@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: development-metric
 description: The types of measurement used as a development policy metric
@@ -14,6 +15,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Development metric
 paint-options: ''
 plural: Development metrics

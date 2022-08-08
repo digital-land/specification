@@ -1,4 +1,5 @@
 ---
+attribution: os-open-data
 collection: green-belt
 dataset: green-belt
 description: ''
@@ -17,6 +18,7 @@ fields:
 - field: organisation
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Green belt
 paint-options: '{ "colour": "#85994b" }'
 plural: Green belt

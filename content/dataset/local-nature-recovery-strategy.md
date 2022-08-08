@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: local-nature-recovery-strategy
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: local-nature-recovery-strategy
 key-field: ''
+licence: ogl3
 name: Local nature recovery strategy
 paint-options: ''
 plural: Local nature recovery strategies

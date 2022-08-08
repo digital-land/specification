@@ -1,5 +1,6 @@
 ---
-collection:
+attribution: crown-copyright
+collection: ''
 dataset: internal-drainage-board
 description: ''
 end-date: ''
@@ -23,6 +24,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Internal drainage board
 paint-options: ''
 plural: Internal drainage boards

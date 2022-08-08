@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: lookup
 description: Lookup entities
@@ -17,6 +18,7 @@ fields:
 - field: value
 - field: reference
 key-field: ''
+licence: ogl3
 name: Pipeline lookup
 paint-options: ''
 plural: Pipeline lookups

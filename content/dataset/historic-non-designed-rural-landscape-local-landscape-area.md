@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: historic-non-designed-rural-landscape-local-landscape-area
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: historic-non-designed-rural-landscape-local-landscape-area
 key-field: ''
+licence: ogl3
 name: Historic (non-designed) rural landscape/local landscape area
 paint-options: ''
 plural: Historic (non-designed) rural landscape/local landscape areas

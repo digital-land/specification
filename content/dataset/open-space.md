@@ -1,4 +1,5 @@
 ---
+attribution: os-open-data
 collection: open-space
 dataset: open-space
 description: ''
@@ -20,6 +21,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Open space
 paint-options: '{ "colour": "#328478" }'
 plural: Open spaces

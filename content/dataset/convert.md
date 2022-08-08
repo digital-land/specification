@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: convert
 description: Convert a resource
@@ -15,6 +16,7 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline convert
 paint-options: ''
 plural: Pipeline conversions

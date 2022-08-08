@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: protected-land
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: protected-land
 key-field: ''
+licence: ogl3
 name: Protected land
 paint-options: ''
 plural: Protected land

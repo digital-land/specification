@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: development-plan-document
 dataset: development-plan-document
 description: ''
@@ -21,6 +22,7 @@ fields:
 - field: organisations
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Development plan document
 paint-options: ''
 plural: Development plan documents

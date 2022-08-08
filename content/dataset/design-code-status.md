@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: design-code
 dataset: design-code-status
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Design code status
 paint-options: ''
 plural: Design code statuses

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: prefix
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: organisation
 - field: start-date
 key-field: ''
+licence: ogl3
 name: CURIE prefix
 paint-options: ''
 plural: CURIE prefixes

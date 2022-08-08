@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: dataset-resource
 description: An index of resources in a dataset
@@ -16,6 +17,7 @@ fields:
 - field: internal-mime-type
 - field: resource
 - field: start-date
+licence: ogl3
 name: Dataset resource
 paint-options: ''
 plural: Dataset resources

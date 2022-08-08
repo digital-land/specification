@@ -1,5 +1,6 @@
 ---
-collection:
+attribution: crown-copyright
+collection: ''
 dataset: internal-drainage-district
 description: ''
 end-date: ''
@@ -18,6 +19,7 @@ fields:
 - field: region
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Internal drainage district
 paint-options: ''
 plural: Internal drainage districts

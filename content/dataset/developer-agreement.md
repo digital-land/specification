@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: developer-contributions
 dataset: developer-agreement
 description: ''
@@ -17,6 +18,7 @@ fields:
 - field: planning-application
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Developer agreement
 paint-options: ''
 plural: Developer agreements

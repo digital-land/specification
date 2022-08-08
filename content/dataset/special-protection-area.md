@@ -1,5 +1,6 @@
 ---
-collection: 'special-protection-area'
+attribution: natural-england
+collection: special-protection-area
 dataset: special-protection-area
 description: ''
 end-date: ''
@@ -22,6 +23,7 @@ fields:
 - field: wikipedia
 - field: wikidata
 key-field: ''
+licence: ogl3
 name: Special protection area
 paint-options: ''
 plural: Special protection areas

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: main-river
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: main-river
 key-field: ''
+licence: ogl3
 name: Main river
 paint-options: ''
 plural: Main rivers

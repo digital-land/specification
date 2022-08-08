@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: fact
 description: a field and its value for an entity
@@ -16,6 +17,7 @@ fields:
 - field: start-date
 - field: value
 key-field: ''
+licence: ogl3
 name: Fact
 paint-options: ''
 plural: Facts

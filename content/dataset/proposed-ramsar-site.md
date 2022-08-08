@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: proposed-ramsar-site
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: proposed-ramsar-site
 key-field: ''
+licence: ogl3
 name: Proposed ramsar site
 paint-options: ''
 plural: Proposed ramsar sites

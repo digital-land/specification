@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: schema
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: schema
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Schema
 paint-options: ''
 plural: Schemas

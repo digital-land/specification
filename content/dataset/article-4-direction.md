@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: article-4-direction
 dataset: article-4-direction
 description: ''
@@ -20,6 +21,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Article 4 direction
 paint-options: ''
 plural: Article 4 directions

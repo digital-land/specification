@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: mineral-safeguarding-area
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: mineral-safeguarding-area
 key-field: ''
+licence: ogl3
 name: Mineral safeguarding area
 paint-options: ''
 plural: Mineral safeguarding areas

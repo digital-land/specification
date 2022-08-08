@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: developer-contributions
 dataset: developer-agreement-contribution
 description: ''
@@ -18,6 +19,7 @@ fields:
 - field: start-date
 - field: units
 key-field: ''
+licence: ogl3
 name: Developer agreement contribution
 paint-options: ''
 plural: Developer agreement contributions

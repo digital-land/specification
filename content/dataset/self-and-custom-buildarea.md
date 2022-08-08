@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: self-and-custom-buildarea
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: self-and-custom-buildarea
 key-field: ''
+licence: ogl3
 name: Self and custom build area
 paint-options: ''
 plural: Self and custom build areas

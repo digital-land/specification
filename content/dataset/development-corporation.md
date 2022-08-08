@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: development-corporation
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Development corporation
 paint-options: ''
 plural: Development corporations

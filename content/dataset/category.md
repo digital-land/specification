@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: category
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Category
 paint-options: ''
 plural: Categories

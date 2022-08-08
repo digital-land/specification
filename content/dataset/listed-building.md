@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: listed-building
 dataset: listed-building
 description: ''
@@ -22,6 +23,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Listed building
 paint-options: '{ "colour": "#F9C744", "type": "point" }'
 plural: Listed buildings

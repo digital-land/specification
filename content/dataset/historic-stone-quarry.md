@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: historic-stone-quarry
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: historic-stone-quarry
 key-field: ''
+licence: ogl3
 name: Historic stone quarry
 paint-options: ''
 plural: Historic stone quarries

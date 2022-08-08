@@ -1,4 +1,5 @@
 ---
+attribution: natural-england
 collection: ancient-woodland
 dataset: ancient-woodland
 description: ''
@@ -21,6 +22,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Ancient woodland
 paint-options: '{ "colour": "#00703c", "opacity": 0.2 }'
 plural: Ancient woodlands

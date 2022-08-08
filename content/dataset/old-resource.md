@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: old-resource
 description: Redirect a resource to a fixed version, or mark it as gone
@@ -15,6 +16,7 @@ fields:
 - field: start-date
 - field: status
 key-field: ''
+licence: ogl3
 name: Resource redirection
 paint-options: ''
 plural: Resource redirections

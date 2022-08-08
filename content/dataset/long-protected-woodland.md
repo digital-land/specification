@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: long-protected-woodland
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: long-protected-woodland
 key-field: ''
+licence: ogl3
 name: Long protected woodland
 paint-options: ''
 plural: Long protected woodlands

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: dataset
 description: A collection of entities of the same type
@@ -28,6 +29,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Dataset
 paint-options: ''
 plural: Datasets

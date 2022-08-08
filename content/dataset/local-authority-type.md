@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: local-authority-type
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Local authority type
 paint-options: ''
 plural: Local authority types

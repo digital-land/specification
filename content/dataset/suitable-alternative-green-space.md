@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: suitable-alternative-green-space
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: suitable-alternative-green-space
 key-field: ''
+licence: ogl3
 name: Suitable alternative green space
 paint-options: ''
 plural: Suitable alternative green spaces

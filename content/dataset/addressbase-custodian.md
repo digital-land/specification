@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: addressbase-custodian
 description: ''
@@ -17,6 +18,7 @@ fields:
 - field: start-date
 - field: uk
 key-field: ''
+licence: ogl3
 name: Addressbase custodian
 paint-options: ''
 plural: Addressbase custodians

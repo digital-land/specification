@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: long-established-woodland
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: long-established-woodland
 key-field: ''
+licence: ogl3
 name: Long established woodland
 paint-options: ''
 plural: Long established woodlands

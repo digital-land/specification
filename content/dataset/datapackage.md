@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: datapackage
 description: Collections of datasets
@@ -15,6 +16,7 @@ fields:
 - field: start-date
 - field: text
 key-field: ''
+licence: ogl3
 name: Data package
 paint-options: ''
 plural: Data packages

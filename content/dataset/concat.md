@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: concat
 description: Concatenate fields during the harmonise phase
@@ -16,6 +17,7 @@ fields:
 - field: separator
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline concatenation
 paint-options: ''
 plural: Pipeline concatenations

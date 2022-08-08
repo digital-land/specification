@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: heritage-action-zone
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: heritage-action-zone
 key-field: ''
+licence: ogl3
 name: Heritage action zone
 paint-options: ''
 plural: Heritage action zones

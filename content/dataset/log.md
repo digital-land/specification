@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: log
 description: ''
@@ -17,6 +18,7 @@ fields:
 - field: start-date
 - field: status
 key-field: ''
+licence: ogl3
 name: Collection log
 paint-options: ''
 plural: Collection logs

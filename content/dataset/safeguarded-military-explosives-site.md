@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: safeguarded-military-explosives-site
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: safeguarded-military-explosives-site
 key-field: ''
+licence: ogl3
 name: Safeguarded military explosives site
 paint-options: ''
 plural: Safeguarded military explosives sites

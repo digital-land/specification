@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: building-preservation-notice
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: building-preservation-notice
 key-field: ''
+licence: ogl3
 name: Building preservation notice
 paint-options: '{ "colour": "#f944c7" }'
 plural: Building preservation notices

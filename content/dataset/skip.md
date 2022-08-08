@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: skip
 description: Remove lines from a resource during normalise
@@ -12,6 +13,7 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline skip
 paint-options: ''
 plural: Pipeline skips

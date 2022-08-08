@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: public-safety-zone-around-airport
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: public-safety-zone-around-airport
 key-field: ''
+licence: ogl3
 name: Public safety zone around airport
 paint-options: ''
 plural: Public safety zones around airports

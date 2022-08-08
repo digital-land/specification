@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: checksum
 description: Checksums of dataset files and other media
@@ -16,6 +17,7 @@ fields:
 - field: path
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline column
 paint-options: ''
 plural: Pipeline columns

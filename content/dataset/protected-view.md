@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: protected-view
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: protected-view
 key-field: ''
+licence: ogl3
 name: Protected view
 paint-options: ''
 plural: Protected views

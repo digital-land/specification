@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: site-category
 dataset: site-category
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: site-category
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Site category
 paint-options: ''
 plural: Site categories

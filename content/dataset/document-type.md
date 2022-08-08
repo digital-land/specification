@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: document
 dataset: document-type
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: start-date
 - field: document-type
 key-field: ''
+licence: ogl3
 name: Document type
 paint-options: ''
 plural: Document types

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: source
 description: ''
@@ -19,6 +20,7 @@ fields:
 - field: source
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Source
 paint-options: ''
 plural: Sources

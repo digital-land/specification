@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: safeguarded-aerodrome
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: safeguarded-aerodrome
 key-field: ''
+licence: ogl3
 name: Safeguarded aerodrome
 paint-options: ''
 plural: Safeguarded aerodromes

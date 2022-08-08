@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: safety-hazard-area
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: safety-hazard-area
 key-field: ''
+licence: ogl3
 name: Safety hazard area
 paint-options: ''
 plural: Safety hazard areas

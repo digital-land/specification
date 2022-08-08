@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: contaminated-land
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: contaminated-land
 key-field: ''
+licence: ogl3
 name: Contaminated land
 paint-options: ''
 plural: Contaminated land

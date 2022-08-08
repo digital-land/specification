@@ -1,7 +1,8 @@
 ---
-collection: 'planning-application'
+attribution: crown-copyright
+collection: planning-application
 dataset: planning-application-status
-description: 'A planning application status'
+description: A planning application status
 end-date: ''
 entity-maximum: '620999'
 entity-minimum: '620000'
@@ -14,6 +15,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+licence: ogl3
 name: Planning application status
 paint-options: ''
 plural: Planning application statuses

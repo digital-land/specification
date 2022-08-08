@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: development-policy-metric
 description: Metrics associated with a development policy
@@ -16,6 +17,7 @@ fields:
 - field: value
 - field: development-policy-metric
 key-field: ''
+licence: ogl3
 name: Development policy metric
 paint-options: ''
 plural: Development policy metrics

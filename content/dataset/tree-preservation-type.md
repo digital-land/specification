@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: tree-preservation-type
 description: Types of preservation order
@@ -16,6 +17,7 @@ fields:
 - field: start-date
 - field: tree-preservation-type
 key-field: ''
+licence: ogl3
 name: Tree preservation type
 paint-options: ''
 plural: Tree preservation types

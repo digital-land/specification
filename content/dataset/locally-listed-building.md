@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: listed-building
 dataset: locally-listed-building
 description: locally listed heritage assets, including buildings
@@ -21,6 +22,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Locally listed building
 paint-options: '{ "colour": "#F9C744" }'
 plural: Locally listed buildings

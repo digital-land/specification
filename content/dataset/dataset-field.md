@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: dataset-field
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: dataset
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Dataset field
 paint-options: ''
 plural: Dataset fields

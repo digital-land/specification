@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: planning-permission-status
 dataset: planning-permission-status
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: planning-permission-status
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Planning permission status
 paint-options: ''
 plural: Planning permission statuses

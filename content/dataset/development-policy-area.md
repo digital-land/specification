@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: development-policy-area
 dataset: development-policy-area
 description: ''
@@ -18,6 +19,7 @@ fields:
 - field: start-date
 - field: development-policy-area
 key-field: ''
+licence: ogl3
 name: Development policy area
 paint-options: ''
 plural: Development policy areas

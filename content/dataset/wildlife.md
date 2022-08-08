@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: wildlife
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: wildlife
 key-field: ''
+licence: ogl3
 name: Wildlife
 paint-options: ''
 plural: Wildlife

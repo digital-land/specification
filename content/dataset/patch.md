@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: patch
 description: Assert a field value during harmonise
@@ -17,6 +18,7 @@ fields:
 - field: start-date
 - field: value
 key-field: ''
+licence: ogl3
 name: Pipeline patch
 paint-options: ''
 plural: Pipeline patches

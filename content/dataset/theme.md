@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: theme
 description: ''
@@ -13,6 +14,7 @@ fields:
 - field: start-date
 - field: theme
 key-field: ''
+licence: ogl3
 name: Theme
 paint-options: ''
 plural: Themes

@@ -1,4 +1,5 @@
 ---
+attribution: natural-england
 collection: ramsar
 dataset: ramsar
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Ramsar site
 paint-options: '{ "colour": "#7fcdff" }'
 plural: Ramsar sites

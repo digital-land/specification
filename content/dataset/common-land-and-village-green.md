@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: common-land-and-village-green
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: common-land-and-village-green
 key-field: ''
+licence: ogl3
 name: Common land and village green
 paint-options: ''
 plural: Common land and village greens

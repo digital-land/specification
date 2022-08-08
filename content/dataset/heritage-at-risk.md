@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: heritage-at-risk
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: heritage-at-risk
 key-field: ''
+licence: ogl3
 name: Heritage at risk
 paint-options: '{ "colour": "#8D73AF" }'
 plural: Heritage at risk

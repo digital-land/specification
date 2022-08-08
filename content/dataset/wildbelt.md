@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: wildbelt
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: wildbelt
 key-field: ''
+licence: ogl3
 name: Wildbelt
 paint-options: ''
 plural: Wildbelts

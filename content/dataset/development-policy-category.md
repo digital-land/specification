@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: development-policy-category
 dataset: development-policy-category
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Development policy category
 paint-options: ''
 plural: Development policy categories

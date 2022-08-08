@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: legislation
 dataset: permitted-development-right-part
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: permitted-development-right-part
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Permitted development right part
 paint-options: ''
 plural: Permitted development right parts

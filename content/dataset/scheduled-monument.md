@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: scheduled-monument
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: scheduled-monument
 key-field: ''
+licence: ogl3
 name: Scheduled monument
 paint-options: '{ "colour": "#0F9CDA" }'
 plural: Scheduled monuments

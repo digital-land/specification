@@ -1,4 +1,5 @@
 ---
+attribution: ons-boundary
 collection: local-planning-authority
 dataset: local-planning-authority
 description: ''
@@ -17,6 +18,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Local planning authority
 paint-options: ''
 plural: Local planning authorities

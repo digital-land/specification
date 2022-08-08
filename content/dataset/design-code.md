@@ -1,10 +1,11 @@
 ---
-collection: 'design-code'
+attribution: crown-copyright
+collection: design-code
 dataset: design-code
 description: ''
 end-date: ''
-entity-minimum: '641000'
 entity-maximum: '699999'
+entity-minimum: '641000'
 entry-date: ''
 fields:
 - field: design-code-area
@@ -23,6 +24,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Design code
 paint-options: ''
 plural: Design codes

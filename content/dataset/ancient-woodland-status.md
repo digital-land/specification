@@ -1,4 +1,5 @@
 ---
+attribution: natural-england
 collection: ancient-woodland
 dataset: ancient-woodland-status
 description: ''
@@ -16,6 +17,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Ancient woodland status
 paint-options: ''
 plural: Ancient woodlands status

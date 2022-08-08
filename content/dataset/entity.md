@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: entity
 description: a data item
@@ -24,6 +25,7 @@ fields:
 - field: start-date
 - field: typology
 key-field: ''
+licence: ogl3
 name: Entity
 paint-options: ''
 plural: Entities

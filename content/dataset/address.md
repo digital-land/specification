@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: address
 description: ''
@@ -16,6 +17,7 @@ fields:
 - field: longitude
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Address
 paint-options: ''
 plural: addresses

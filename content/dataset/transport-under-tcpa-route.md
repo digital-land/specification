@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: transport-under-tcpa-route
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: transport-under-tcpa-route
 key-field: ''
+licence: ogl3
 name: Transport (under TCPA route)
 paint-options: ''
 plural: Transport (under TCPA route)

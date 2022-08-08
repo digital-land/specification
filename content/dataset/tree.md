@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: tree-preservation-order
 dataset: tree
 description: An individual tree
@@ -26,6 +27,7 @@ fields:
 - field: tree-preservation-order
 - field: tree-preservation-order-tree
 key-field: ''
+licence: ogl3
 name: Tree
 paint-options: '{ "colour": "#3B453D", "type": "point" }'
 plural: Trees

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: local-authority
 description: ''
@@ -30,6 +31,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Local authority
 paint-options: ''
 plural: Local authorities

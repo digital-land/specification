@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: development-plan-type
 dataset: development-plan-type
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Development plan type
 paint-options: ''
 plural: Development plan types

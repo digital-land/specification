@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: public-authority
 description: ''
@@ -22,6 +23,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Public authority
 paint-options: ''
 plural: Public authorities

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: geometry
 description: Geometry index
@@ -17,6 +18,7 @@ fields:
 - field: point
 - field: start-date
 key-field: entity
+licence: ogl3
 name: Geometry
 paint-options: ''
 plural: Geometries

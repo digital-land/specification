@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: park-and-garden
 description: ''
@@ -19,6 +20,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Historic parks and gardens
 paint-options: '{ "colour": "#0EB951" }'
 plural: Parks and gardens

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: resource
 description: An index of collected resources
@@ -17,6 +18,7 @@ fields:
 - field: resource
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Resource
 paint-options: ''
 plural: Resources

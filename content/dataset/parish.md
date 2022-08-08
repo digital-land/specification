@@ -1,4 +1,5 @@
 ---
+attribution: ons-boundary
 collection: parish
 dataset: parish
 description: ''
@@ -20,6 +21,7 @@ fields:
 - field: start-date
 - field: parish
 key-field: ''
+licence: ogl3
 name: Civil parish
 paint-options: '{ "colour": "#5694ca" }'
 plural: Civil parishes

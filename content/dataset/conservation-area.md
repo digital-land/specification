@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: conservation-area
 dataset: conservation-area
 description: Special architectural or historic interest, the character or appearance
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: conservation-area
 key-field: ''
+licence: ogl3
 name: Conservation area
 paint-options: '{ "colour": "#78AA00" }'
 plural: Conservation areas

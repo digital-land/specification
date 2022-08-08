@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: policy
 description: ''
@@ -19,6 +20,7 @@ fields:
 - field: start-date
 - field: policy
 key-field: ''
+licence: ogl3
 name: Policy
 paint-options: ''
 plural: Policies

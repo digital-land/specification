@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: street
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: start-date
 - field: street
 key-field: ''
+licence: ogl3
 name: Street
 paint-options: ''
 plural: Streets

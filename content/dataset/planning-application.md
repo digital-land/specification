@@ -1,7 +1,8 @@
 ---
-collection: 'planning-application'
+attribution: crown-copyright
+collection: planning-application
 dataset: planning-application
-description: 'An application for planning permission'
+description: An application for planning permission
 end-date: ''
 entity-maximum: '10999999999'
 entity-minimum: '10000000000'
@@ -27,6 +28,7 @@ fields:
 - field: planning-decision-type
 - field: reference
 - field: start-date
+licence: ogl3
 name: Planning application
 paint-options: ''
 plural: Planning applications

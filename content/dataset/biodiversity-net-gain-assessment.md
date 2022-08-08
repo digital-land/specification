@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: biodiversity-net-gain-assessment
 description: ''
@@ -26,6 +27,7 @@ fields:
 - field: start-date
 - field: biodiversity-net-gain-assessment
 key-field: ''
+licence: ogl3
 name: Biodiversity net gain assesment
 paint-options: ''
 plural: Biodiversity net gain assesments

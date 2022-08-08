@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: field
 description: ''
@@ -24,6 +25,7 @@ fields:
 - field: uri-template
 - field: wikidata-property
 key-field: ''
+licence: ogl3
 name: Field
 paint-options: ''
 plural: Fields

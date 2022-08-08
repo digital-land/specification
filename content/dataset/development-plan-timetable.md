@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: development-plan-timetable
 description: The expected timetable for the stages a plan will go through
@@ -16,6 +17,7 @@ fields:
 - field: start-date
 - field: development-plan-timetable
 key-field: ''
+licence: ogl3
 name: Development plan timetable
 paint-options: ''
 plural: Development plan timetables

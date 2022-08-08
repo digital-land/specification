@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: project
 description: ''
@@ -16,6 +17,7 @@ fields:
 - field: project-status
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Project
 paint-options: ''
 plural: Projects

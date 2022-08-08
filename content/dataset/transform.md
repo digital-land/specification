@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: transform
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: replacement-field
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline transformation
 paint-options: ''
 plural: Transformations

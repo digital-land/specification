@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: development-plan-status
 description: The different statuses a plan can have
@@ -14,6 +15,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Development plan status
 paint-options: ''
 plural: Development plan statuses

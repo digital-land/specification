@@ -1,4 +1,5 @@
 ---
+attribution: natural-england
 collection: site-of-special-scientific-interest
 dataset: site-of-special-scientific-interest
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: site-of-special-scientific-interest
 key-field: ''
+licence: ogl3
 name: Site of special scientific interest
 paint-options: '{ "colour": "#308fac" }'
 plural: Sites of special scientific interest

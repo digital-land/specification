@@ -1,4 +1,5 @@
 ---
+attribution: ons-boundary
 collection: local-authority-district
 dataset: local-authority-district
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: local-authority-district
 key-field: ''
+licence: ogl3
 name: Local authority district
 paint-options: '{"colour": "#0b0c0c", "opacity": "0.1", "weight": 5}'
 plural: Local authority districts

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: local-green-space
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: local-green-space
 key-field: ''
+licence: ogl3
 name: Local green space
 paint-options: ''
 plural: Local green spaces

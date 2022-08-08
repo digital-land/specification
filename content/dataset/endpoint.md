@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: endpoint
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: plugin
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Endpoint
 paint-options: ''
 plural: Endpoints

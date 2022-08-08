@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: listed-building
 dataset: listed-building-grade
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: name
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Listed building grade
 paint-options: ''
 plural: Listed building grades

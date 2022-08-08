@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: protected-wreck-site
 description: ''
@@ -17,6 +18,7 @@ fields:
 - field: protected-wreck-site
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Protected wreck site
 paint-options: '{ "colour": "#0b0c0c" }'
 plural: Protected wreck sites

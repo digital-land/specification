@@ -1,4 +1,5 @@
 ---
+attribution: natural-england
 collection: heritage-coast
 dataset: heritage-coast
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: heritage-coast
 key-field: ''
+licence: ogl3
 name: Heritage coast
 paint-options: '{ "colour": "#912b88" }'
 plural: Heritage coast

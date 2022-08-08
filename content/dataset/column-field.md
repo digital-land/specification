@@ -1,7 +1,8 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: column-field
-description: 'Mapping of resource columns to dataset fields'
+description: Mapping of resource columns to dataset fields
 end-date: ''
 entry-date: ''
 fields:
@@ -13,6 +14,7 @@ fields:
 - field: resource
 - field: column
 key-field: ''
+licence: ogl3
 name: Column field
 paint-options: ''
 plural: Column fields

@@ -1,4 +1,5 @@
 ---
+attribution: ons-boundary
 collection: region
 dataset: region
 description: ''
@@ -19,6 +20,7 @@ fields:
 - field: start-date
 - field: region
 key-field: ''
+licence: ogl3
 name: Region
 paint-options: ''
 plural: Regions

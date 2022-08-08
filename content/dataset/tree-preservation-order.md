@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: tree-preservation-order
 dataset: tree-preservation-order
 description: ''
@@ -21,6 +22,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Tree preservation order
 paint-options: ''
 plural: Tree preservation orders

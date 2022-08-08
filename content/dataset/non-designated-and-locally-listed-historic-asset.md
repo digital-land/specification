@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: non-designated-and-locally-listed-historic-asset
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: non-designated-and-locally-listed-historic-asset
 key-field: ''
+licence: ogl3
 name: Non-designated and locally listed historic asset
 paint-options: ''
 plural: Non-designated and locally listed historic assets

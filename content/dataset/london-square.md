@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: london-square
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: london-square
 key-field: ''
+licence: ogl3
 name: London square
 paint-options: ''
 plural: London squares

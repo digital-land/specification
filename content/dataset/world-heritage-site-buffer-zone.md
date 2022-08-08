@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: world-heritage-site-buffer-zone
 description: ''
@@ -21,6 +22,7 @@ fields:
 - field: start-date
 - field: world-heritage-site
 key-field: ''
+licence: ogl3
 name: World heritage site buffer zone
 paint-options: '{ "colour": "#EB1EE5" }'
 plural: World heritage site buffer zones

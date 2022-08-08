@@ -1,7 +1,8 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: issue
-description: 'issues with fields processing resources'
+description: issues with fields processing resources
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
@@ -18,6 +19,7 @@ fields:
 - field: start-date
 - field: value
 key-field: ''
+licence: ogl3
 name: Issue
 paint-options: ''
 plural: Issues

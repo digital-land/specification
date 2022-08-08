@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: brownfield-land
 dataset: brownfield-land
 description: Land that has been previously been developed
@@ -147,6 +148,7 @@ fields:
 - field: start-date
 - field: brownfield-land
 key-field: site
+licence: ogl3
 name: Brownfield land
 paint-options: '{ "colour": "#745729", "type": "point" }'
 plural: Brownfield land

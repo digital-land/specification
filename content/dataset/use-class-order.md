@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: use-class-order
 description: ''
@@ -15,6 +16,7 @@ fields:
 - field: start-date
 - field: use-class-order
 key-field: ''
+licence: ogl3
 name: Use class order
 paint-options: ''
 plural: Use class orders

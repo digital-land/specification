@@ -1,4 +1,5 @@
 ---
+attribution: natural-england
 collection: area-of-outstanding-natural-beauty
 dataset: area-of-outstanding-natural-beauty
 description: Protected areas of countryside with a distinctive character and natural
@@ -24,6 +25,7 @@ fields:
 - field: start-date
 - field: area-of-outstanding-natural-beauty
 key-field: ''
+licence: ogl3
 name: Area of outstanding natural beauty
 paint-options: '{ "colour": "#d53880" }'
 plural: Areas of outstanding natural beauty

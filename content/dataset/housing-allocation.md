@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: housing-allocation
 dataset: housing-allocation
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: housing-allocation
 key-field: ''
+licence: ogl3
 name: Housing allocation
 paint-options: ''
 plural: Housing allocations

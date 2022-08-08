@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: planning-permission-type
 dataset: planning-permission-type
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: planning-permission-type
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Planning permission type
 paint-options: ''
 plural: Planning permission types

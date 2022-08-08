@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: combine
 description: Combine a series of facts from multiple entries
@@ -13,6 +14,7 @@ fields:
 - field: separator
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Pipeline combine facts
 paint-options: ''
 plural: Pipeline combine facts

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: passenger-transport-executive
 description: ''
@@ -25,6 +26,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Passenger transport executive
 paint-options: ''
 plural: Passenger transport executives

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: flood-zone-2
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: flood-zone-2
 key-field: ''
+licence: ogl3
 name: Flood zone 2
 paint-options: ''
 plural: Flood zones 2

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: infrastructure-funding-statement
 dataset: infrastructure-funding-statement
 description: ''
@@ -16,6 +17,7 @@ fields:
 - field: organisation
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Infrastructure funding statement
 paint-options: ''
 plural: Infrastructure funding statements

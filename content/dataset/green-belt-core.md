@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: green-belt
 dataset: green-belt-core
 description: ''
@@ -16,6 +17,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Green belt urban core
 paint-options: ''
 plural: Green belt urban cores

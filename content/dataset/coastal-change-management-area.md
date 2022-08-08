@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: coastal-change-management-area
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: coastal-change-management-area
 key-field: ''
+licence: ogl3
 name: Coastal change management area
 paint-options: ''
 plural: Coastal change management areas

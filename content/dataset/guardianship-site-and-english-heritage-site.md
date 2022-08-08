@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: guardianship-site-and-english-heritage-site
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: guardianship-site-and-english-heritage-site
 key-field: ''
+licence: ogl3
 name: Guardianship site and English heritage site
 paint-options: ''
 plural: Guardianship sites and English heritage sites

@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: organisation
 dataset: regional-park-authority
 description: ''
@@ -24,6 +25,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Regional park authority
 paint-options: ''
 plural: Regional park authorities

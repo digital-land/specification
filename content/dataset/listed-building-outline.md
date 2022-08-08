@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: listed-building
 dataset: listed-building-outline
 description: boundary of a listed building
@@ -26,6 +27,7 @@ fields:
 - field: wikidata
 - field: wikipedia
 key-field: ''
+licence: ogl3
 name: Listed building outline
 paint-options: '{ "colour": "#F9C744" }'
 plural: Listed building outlines

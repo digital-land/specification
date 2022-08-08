@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: nature-improvement-area
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: nature-improvement-area
 key-field: ''
+licence: ogl3
 name: Nature improvement area
 paint-options: ''
 plural: Nature improvement areas

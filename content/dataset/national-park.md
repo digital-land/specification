@@ -1,4 +1,5 @@
 ---
+attribution: ons-boundary
 collection: national-park
 dataset: national-park
 description: ''
@@ -16,10 +17,11 @@ fields:
 - field: organisation
 - field: start-date
 key-field: ''
+licence: ogl3
 name: National park
 paint-options: '{ "colour": "#3DA52C" }'
 plural: National parks
-prefix: 'statistical-geography'
+prefix: statistical-geography
 start-date: ''
 themes:
 - heritage

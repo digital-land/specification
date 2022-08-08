@@ -1,4 +1,5 @@
 ---
+attribution: historic-england
 collection: historic-england
 dataset: battlefield
 description: ''
@@ -23,6 +24,7 @@ fields:
 - field: start-date
 - field: battlefield
 key-field: ''
+licence: ogl3
 name: Battlefield
 paint-options: '{ "colour": "#4d2942", "opacity": 0.2 }'
 plural: Battlefields

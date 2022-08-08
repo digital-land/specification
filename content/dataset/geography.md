@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ''
 dataset: geography
 description: ''
@@ -22,6 +23,7 @@ fields:
 - field: reference
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Geography
 paint-options: ''
 plural: Geographies

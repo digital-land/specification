@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: ownership-status
 dataset: ownership-status
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: ownership-status
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Ownership status
 paint-options: ''
 plural: Ownership statuses

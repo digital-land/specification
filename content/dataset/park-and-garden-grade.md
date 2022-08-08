@@ -1,4 +1,5 @@
 ---
+attribution: crown-copyright
 collection: historic-england
 dataset: park-and-garden-grade
 description: ''
@@ -14,6 +15,7 @@ fields:
 - field: park-and-garden-grade
 - field: start-date
 key-field: ''
+licence: ogl3
 name: Park and garden grade
 paint-options: ''
 plural: Parks and garden grades
