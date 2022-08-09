@@ -8,6 +8,8 @@ include makerules/specification.mk
 include makerules/render.mk
 
 SPECIFICATION_CSV=\
+	specification/attribution.csv\
+	specification/licence.csv\
 	specification/collection.csv\
 	specification/datapackage.csv\
 	specification/datapackage-dataset.csv\
@@ -34,6 +36,16 @@ DATASET_MD=$(sort $(wildcard content/dataset/*.md))
 specification/dataset.csv:	$(DATASET_MD) bin/load-markdown.py
 	@mkdir -p specification/
 	python3 bin/load-markdown.py $@ $(DATASET_MD)
+
+ATTRIBUTION_MD=$(sort $(wildcard content/attribution/*.md))
+specification/attribution.csv:	$(ATTRIBUTION_MD) bin/load-markdown.py
+	@mkdir -p specification/
+	python3 bin/load-markdown.py $@ $(ATTRIBUTION_MD)
+
+LICENCE_MD=$(sort $(wildcard content/licence/*.md))
+specification/licence.csv:	$(LICENCE_MD) bin/load-markdown.py
+	@mkdir -p specification/
+	python3 bin/load-markdown.py $@ $(LICENCE_MD)
 
 DATATYPE_MD=$(sort $(wildcard content/datatype/*.md))
 specification/datatype.csv:	$(DATATYPE_MD) bin/load-markdown.py
