@@ -73,7 +73,9 @@ crown-copyright,,combine,Combine a series of facts from multiple entries,,,,,,og
 crown-copyright,,common-land-and-village-green,,,,,2700000,2799999,ogl3,Common land and village green,,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
 crown-copyright,,company,,,,,2800000,2899999,ogl3,Company,,Companies,,,,administrative,organisation,,
 crown-copyright,,concat,Concatenate fields during the harmonise phase,,,,2900000,2999999,ogl3,Pipeline concatenation,,Pipeline concatenations,,,,specification,specification,,
-historic-england,conservation-area,conservation-area,"Special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",,,,44000000,44999999,ogl3,Conservation area,"{ ""colour"": ""#78AA00"" }",Conservation areas,,,"These are designated areas of historic and architectural interest in which there are legal restrictions on what changes can be made to buildings, greenery and street furniture in order to preserve the unique character of the place.
+historic-england,conservation-area,conservation-area,"Special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",,,,44000000,44999999,ogl3,Conservation area,"{ ""colour"": ""#78AA00"" }",Conservation areas,,,"### Overview
+
+Conservation areas are designated areas of historic and architectural interest in which there are legal restrictions on what changes can be made to buildings, greenery and street furniture in order to preserve the unique character of the place.
 
 ### Impact on planning decisions
 
@@ -236,7 +238,7 @@ crown-copyright,legislation,permitted-development-right-part,,,,,11400000,114999
 crown-copyright,legislation,permitted-development-right,,,,,11500000,11599999,ogl3,Permitted development right,,Permitted development right,,,,development,policy,,
 crown-copyright,planning-application,planning-application-status,A planning application status,,,,620000,620999,ogl3,Planning application status,,Planning application statuses,,,,housing;monitoring,category,,
 crown-copyright,planning-application,planning-application-type,A type of planning application,,,,621000,621999,ogl3,Planning application type,,Planning application types,,,,housing;monitoring,category,,
-crown-copyright,planning-application,planning-application,An application for planning permission,,,,10000000000,10999999999,ogl3,Planning application,,Planning applications,,,,housing;monitoring,geography,,
+crown-copyright,,planning-application,An application for planning permission,,,,10000000000,10999999999,ogl3,Planning application,,Planning applications,,,,housing;monitoring,geography,,
 crown-copyright,planning-application,planning-development-category,Planning development category,,,,623000,623999,ogl3,Planning development category,,Planning development categories,,,,housing;monitoring,category,,
 crown-copyright,planning-permission-status,planning-permission-status,,,,,11800000,11899999,ogl3,Planning permission status,,Planning permission statuses,,,,development,category,,
 crown-copyright,planning-permission-type,planning-permission-type,,,,,11900000,11999999,ogl3,Planning permission type,,Planning permission types,,,,development,category,,
