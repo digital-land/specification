@@ -1,6 +1,6 @@
 ---
 attribution: os-open-data
-collection: open-space
+collection:
 dataset: open-space
 description: ''
 end-date: ''

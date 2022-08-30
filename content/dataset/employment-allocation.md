@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: employment-allocation
+collection:
 dataset: employment-allocation
 description: ''
 end-date: ''
