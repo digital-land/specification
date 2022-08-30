@@ -36,3 +36,6 @@ typology: geography
 wikidata: Q896586
 wikipedia: Brownfield_land
 ---
+
+This is an experimental dataset of the boundaries of brownfield sites found on data.gov.uk and local planning authority web sites.
+We expect to match and combine it with the [brownfield land](/dataset/brownfield-land) dataset in the future.
