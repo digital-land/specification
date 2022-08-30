@@ -45,16 +45,9 @@ Planning rules do not prevent development on battlefield sites but developers ne
 [Historic England](https://historicengland.org.uk) manage the Register of Historic Battlefields list with assistance from the [Battlefields Trust](https://www.battlefieldstrust.com/).",heritage,geography,Q4895508,Battlefield
 crown-copyright,,best-and-most-versatile-agricultural-land,,,,,1500000,1599999,ogl3,Best and most versatile agricultural land,,Best and most versatile agricultural land,,,,environment,geography,,
 crown-copyright,,biodiversity-net-gain-assessment,,,,,1600000,1699999,ogl3,Biodiversity net gain assesment,,Biodiversity net gain assesments,,,,environment,document,,
-crown-copyright,brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,ogl3,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,,,"Brownfield land is currently, or was previously, land built on and therefore is prioritised for development.
-
-### Impact on planning decisions
-
-Building on brownfield land helps protect the countryside by reducing the pressure to build on greenfield sites or land that has never been built on. It can also make use of infrastructure from existing development. Planners will usually look more favourably on development proposed for brownfield land.
-
-### Responsible organisations and guidance
-
-Local planning authorities designate brownfield land. They also keep up-to-date registers of brownfield land appropriate for development.",development,geography,Q896586,Brownfield_land
-crown-copyright,brownfield-site,brownfield-site,,,,,1800000,1899999,ogl3,Brownfield site,"{ ""colour"": ""#745729"" }",Brownfield sites,,,,development,geography,Q896586,Brownfield_land
+crown-copyright,brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,ogl3,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,,,"Local planning authorities designate sites in their area as being [brownfield land](https://www.gov.uk/guidance/brownfield-land-registers), and publish a register of brownfield sites annually following [GOV.UK guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data).",development,geography,Q896586,Brownfield_land
+crown-copyright,brownfield-site,brownfield-site,,,,,1800000,1899999,ogl3,Brownfield site,"{ ""colour"": ""#745729"" }",Brownfield sites,,,"This is an experimental dataset of the boundaries of brownfield sites found on data.gov.uk and local planning authority web sites.
+We expect to match and combine it with the [brownfield land](/dataset/brownfield-land) dataset in the future.",development,geography,Q896586,Brownfield_land
 crown-copyright,,buffer-zone,,,,,1900000,1999999,ogl3,Buffer zone,,Buffer zones,,,,heritage,geography,,
 historic-england,historic-england,building-preservation-notice,,,,,2000000,2099999,ogl3,Building preservation notice,"{ ""colour"": ""#f944c7"" }",Building preservation notices,,,"Local planning authorities can serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed.
 
@@ -331,7 +324,6 @@ crown-copyright,,tree-preservation-type,Types of preservation order,,,,18100000,
 crown-copyright,tree-preservation-order,tree-preservation-zone,An area covered by a tree preservation order,,,,19100000,29099999,ogl3,Tree preservation zone,,Trees preservation zones,,,,environment,geography,Q10884,Tree
 crown-copyright,tree-preservation-order,tree,An individual tree,,,,7002000000,9999999999,ogl3,Tree,"{ ""colour"": ""#3B453D"", ""type"": ""point"" }",Trees,,,,environment,geography,Q10884,Tree
 crown-copyright,,typology,,,,,15600000,15699999,ogl3,Typology,,Typologies,,,,specification,specification,,
-crown-copyright,,use-class-order,,,,,15700000,15799999,ogl3,Use class order,,Use class orders,,,,development,category,,
 crown-copyright,organisation,waste-authority,,,,,15800000,15899999,ogl3,Waste disposal authority,,Waste authorities,wikidata,,,administrative,organisation,Q7972817,Waste_disposal_authority
 crown-copyright,,wildbelt,,,,,15900000,15999999,ogl3,Wildbelt,,Wildbelts,,,,environment,geography,,
 crown-copyright,,wildlife,,,,,16000000,16099999,ogl3,Wildlife,,Wildlife,,,,environment,geography,,
