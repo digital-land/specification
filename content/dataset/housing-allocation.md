@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: housing-allocation
+collection:
 dataset: housing-allocation
 description: ''
 end-date: ''
