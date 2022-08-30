@@ -118,7 +118,7 @@ crown-copyright,,development-policy-metric,Metrics associated with a development
 crown-copyright,development-policy,development-policy,,,,,5600000,5699999,ogl3,Development policy,,Development policies,,,,development,policy,,
 crown-copyright,document,document-type,,,,,5700000,5799999,ogl3,Document type,,Document types,,,,development,category,,
 crown-copyright,,document,,,,,5800000,5899999,ogl3,Document,,Documents,,,,development,document,Q49848,Document
-crown-copyright,employment-allocation,employment-allocation,,,,,5900000,5999999,ogl3,Employment allocation,,Employment allocations,,,,development,geography,,
+crown-copyright,,employment-allocation,,,,,5900000,5999999,ogl3,Employment allocation,,Employment allocations,,,,development,geography,,
 crown-copyright,,endpoint,,,,,6000000,6099999,ogl3,Endpoint,,Endpoints,,,,specification,specification,,
 crown-copyright,,entity,a data item,,,,0,0,ogl3,Entity,,Entities,,,,specification,value,,
 crown-copyright,,fact-resource,the provenance of a fact,,,,,,ogl3,Fact resource,,Fact resources,,,,specification,value,,
@@ -156,7 +156,7 @@ Heritage coasts are protected in the planning system. Major development within a
 A heritage coast is defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).",environment;heritage,geography,Q13125592,Heritage_coast
 crown-copyright,,historic-non-designed-rural-landscape-local-landscape-area,,,,,7700000,7799999,ogl3,Historic (non-designed) rural landscape/local landscape area,,Historic (non-designed) rural landscape/local landscape areas,,,,heritage,geography,,
 crown-copyright,,historic-stone-quarry,,,,,7800000,7899999,ogl3,Historic stone quarry,,Historic stone quarries,,,,heritage,geography,,
-crown-copyright,housing-allocation,housing-allocation,,,,,7900000,7999999,ogl3,Housing allocation,,Housing allocations,,,,housing;monitoring,document,,
+crown-copyright,,housing-allocation,,,,,7900000,7999999,ogl3,Housing allocation,,Housing allocations,,,,housing;monitoring,document,,
 crown-copyright,,hs2-safeguarded-area,,,,,8000000,8099999,ogl3,HS2 safeguarded area,,HS2 safeguarded areas,,,,transport,geography,,
 crown-copyright,infrastructure-funding-statement,infrastructure-funding-statement,,,,,8100000,8199999,ogl3,Infrastructure funding statement,,Infrastructure funding statements,,,,development,document,,
 crown-copyright,,internal-drainage-board,,,,,8200000,8209999,ogl3,Internal drainage board,,Internal drainage boards,,,,administrative,organisation,Q6047836,Internal_drainage_board
@@ -210,7 +210,7 @@ crown-copyright,organisation,nonprofit,,,,,8300000,8399999,ogl3,Nonprofit organi
 crown-copyright,,nuclear-safety-zone,,,,,10500000,10599999,ogl3,Nuclear safety zone,,Nuclear safety zones,,,,environment,geography,,
 crown-copyright,,old-entity,Redirect an entity or mark it as gone,,,,0,0,ogl3,Entity redirection,,Entity redirections,,,,specification,value,,
 crown-copyright,,old-resource,"Redirect a resource to a fixed version, or mark it as gone",,,,0,0,ogl3,Resource redirection,,Resource redirections,,,,specification,value,,
-os-open-data,open-space,open-space,,,,,10700000,10799999,ogl3,Open space,"{ ""colour"": ""#328478"" }",Open spaces,,,"Open space can include formal sports pitches, open areas within a development and country parks. It provides health and recreation benefits to people living and working nearby or has an ecological value.
+os-open-data,,open-space,,,,,10700000,10799999,ogl3,Open space,"{ ""colour"": ""#328478"" }",Open spaces,,,"Open space can include formal sports pitches, open areas within a development and country parks. It provides health and recreation benefits to people living and working nearby or has an ecological value.
 
 ### Impact on planning decisions
 
