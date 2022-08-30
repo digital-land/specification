@@ -21,6 +21,15 @@ mandatory_fields = [
     "end-date",
 ]
 
+# expect datasets to have an entity and reference field, with these exceptions
+expected_fields = {
+    "entity": ["endpoint", "issue", "issue-type", "licence", "old-entity", "old-resource", "patch", "project", "source", "schema", "schema-field", "skip", "theme", "transform", "typology"],
+    "reference": ["endpoint", "issue", "issue-type", "licence", "old-entity", "old-resource", "patch", "project", "source", "schema", "schema-field", "skip", "theme", "transform", "typology"],
+}
+
+# datasets 
+key_field = {"reference": []}
+
 tables = {
     "field": {},
     "datatype": {},
@@ -113,10 +122,13 @@ def check_datasets():
                     error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
         # check entity ranges .. O(n2)
-        if (
-            "specification" != d["typology"]
-            and dataset not in ["entity", "fact", "fact-resource", "old-entity", "old-resource"]
-        ):
+        if "specification" != d["typology"] and dataset not in [
+            "entity",
+            "fact",
+            "fact-resource",
+            "old-entity",
+            "old-resource",
+        ]:
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
                 error("dataset '%s' is missing an entity-minimum value" % (dataset))
@@ -211,6 +223,12 @@ if __name__ == "__main__":
             for field in mandatory_fields:
                 if field not in tables["dataset-field"][dataset]:
                     error("dataset '%s' missing '%s' field" % (dataset, field))
+
+            for field in expected_fields:
+                if field not in tables["dataset-field"][
+                    dataset
+                ] and dataset not in expected_fields.get(field, []):
+                    warning("dataset '%s' missing '%s' field" % (dataset, field))
 
     for key, row in tables["field"].items():
         if not row.get("name", ""):
