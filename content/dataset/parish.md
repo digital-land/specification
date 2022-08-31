@@ -33,3 +33,7 @@ typology: geography
 wikidata: Q1115575
 wikipedia: Civil_parish
 ---
+
+The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.
+The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#parishes-and-communities) provides this
+data for the purposes of producing statistics.
