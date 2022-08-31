@@ -37,5 +37,6 @@ wikidata: Q896586
 wikipedia: Brownfield_land
 ---
 
-This is an experimental dataset of the boundaries of brownfield sites found on data.gov.uk and local planning authority web sites.
-We expect to match and combine it with the [brownfield land](/dataset/brownfield-land) dataset in the future.
+This is an experimental dataset of the boundaries of brownfield sites found on [data.gov.uk](https://www.data.gov.uk/search?q=brownfield)
+and local planning authority web sites.
+We expect to combine this dataset with the [brownfield land](/dataset/brownfield-land) dataset in the near future.
