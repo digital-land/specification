@@ -36,22 +36,5 @@ wikidata: Q570600
 wikipedia: Listed_building
 ---
 
-Listed building status protects buildings that are of special architectural and historic interest. 
-
-There are 3 grades of listing:
-
--   grade I buildings are of exceptional interest
-
--   grade II* buildings are particularly important buildings of more than special interest
-
--   grade II buildings are of special interest
-
-### Why are they important for planning?
-
-You need special consent before making changes to a listed building that affect its character. 
-
-Historic England also need to be notified or consulted when the setting of a Grade I or Grade II* listed building may be affected.
-
-### Responsible organisations and guidance
-
-[Historic England](https://historicengland.org.uk/)  designates the status but anyone can nominate a building to be listed.
+[Listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/).
+Each building has a [listed building grade](/dataset/listed-building-grade).
