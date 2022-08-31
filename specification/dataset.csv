@@ -33,15 +33,7 @@ Each direction may apply to one or more [article 4 direction areas](/dataset/art
 This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://digital-land.github.io/specification/specification/article-4-direction/).",heritage,legal-instrument,Q16962063,Article_4_direction
 crown-copyright,,asset-of-community-value,,,,,1200000,1299999,ogl3,Asset of community value,,Assets of community value,,,,heritage,geography,Q16971076,Asset_of_community_value
 crown-copyright,,attribution,,,,,1300000,1399999,ogl3,Attribution,,Attributions,,,,specification,category,Q2132119,Attribution_(copyright)
-historic-england,historic-england,battlefield,,,,,1400000,1499999,ogl3,Battlefield,"{ ""colour"": ""#4d2942"", ""opacity"": 0.2 }",Battlefields,,,"The Register of Historic Battlefields list includes 47 locations of the most important historic military battles on English soil.
-
-### Why are they important for planning?
-
-Planning rules do not prevent development on battlefield sites but developers need to provide a statement so that the planning authority can make a judgement about whether any development may harm the heritage of the site. 
-
-### Responsible organisations and guidance
-
-[Historic England](https://historicengland.org.uk) manage the Register of Historic Battlefields list with assistance from the [Battlefields Trust](https://www.battlefieldstrust.com/).",heritage,geography,Q4895508,Battlefield
+historic-england,historic-england,battlefield,,,,,1400000,1499999,ogl3,Battlefield,"{ ""colour"": ""#4d2942"", ""opacity"": 0.2 }",Battlefields,,,Battlefields as designated by [Historic England](https://historicengland.org.uk) in their [Register of Historic Battlefields](https://historicengland.org.uk/listing/what-is-designation/registered-battlefields/).,heritage,geography,Q4895508,Battlefield
 crown-copyright,,best-and-most-versatile-agricultural-land,,,,,1500000,1599999,ogl3,Best and most versatile agricultural land,,Best and most versatile agricultural land,,,,environment,geography,,
 crown-copyright,,biodiversity-net-gain-assessment,,,,,1600000,1699999,ogl3,Biodiversity net gain assesment,,Biodiversity net gain assesments,,,,environment,document,,
 crown-copyright,brownfield-land,brownfield-land,Land that has been previously been developed,,,site,1700000,1799999,ogl3,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,,,"Local planning authorities designate sites in their area as being [brownfield land](https://www.gov.uk/guidance/brownfield-land-registers), and publish a register of brownfield sites annually following [GOV.UK guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data).",development,geography,Q896586,Brownfield_land
@@ -152,26 +144,13 @@ crown-copyright,,issue-type,types of issues with fields processing resources,,,,
 crown-copyright,,issue,issues with fields processing resources,,,,,,ogl3,Issue,,Issues,,,,specification,specification,,
 crown-copyright,,licence,,,,,8400000,8499999,ogl3,Licence,,Licences,,,,specification,category,Q7257461,Public_copyright_license
 crown-copyright,listed-building,listed-building-grade,,,,,700000,799999,ogl3,Listed building grade,,Listed building grades,,,The grade assigned to each [listed building](/dataset/listed-building) by [Historic England](https://historicengland.org.uk/).,heritage,category,Q30634609,Listed_building
-crown-copyright,listed-building,listed-building-outline,boundary of a listed building,,,,42100000,43099999,ogl3,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,,,Listed building outlines collected from local planning authority. We expect to merge these with the listed building.,heritage,geography,Q570600,Listed_building
-historic-england,listed-building,listed-building,,,,,31100000,41099999,ogl3,Listed building,"{ ""colour"": ""#F9C744"", ""type"": ""point"" }",Listed buildings,,,"Listed building status protects buildings that are of special architectural and historic interest. 
+crown-copyright,listed-building,listed-building-outline,boundary of a listed building,,,,42100000,43099999,ogl3,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,,,"The geospatial boundary for [listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/) as collected from local planning authorities.
 
-There are 3 grades of listing:
+We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://digital-land.github.io/specification/specification/listed-building/).
 
--   grade I buildings are of exceptional interest
-
--   grade II* buildings are particularly important buildings of more than special interest
-
--   grade II buildings are of special interest
-
-### Why are they important for planning?
-
-You need special consent before making changes to a listed building that affect its character. 
-
-Historic England also need to be notified or consulted when the setting of a Grade I or Grade II* listed building may be affected.
-
-### Responsible organisations and guidance
-
-[Historic England](https://historicengland.org.uk/)  designates the status but anyone can nominate a building to be listed.",heritage,geography,Q570600,Listed_building
+We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.",heritage,geography,Q570600,Listed_building
+historic-england,listed-building,listed-building,,,,,31100000,41099999,ogl3,Listed building,"{ ""colour"": ""#F9C744"", ""type"": ""point"" }",Listed buildings,,,"[Listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/).
+Each building has a [listed building grade](/dataset/listed-building-grade).",heritage,geography,Q570600,Listed_building
 ons-boundary,local-authority-district,local-authority-district,,,,,8600000,8699999,ogl3,Local authority district,"{""colour"": ""#0b0c0c"", ""opacity"": ""0.1"", ""weight"": 5}",Local authority districts,statistical-geography,,The administrative boundaries of local authorities in England as provided by the ONS for the purposes of producing statistics.,administrative,geography,Q349084,Districts_of_England
 crown-copyright,,local-authority-type,,,,,8800000,8899999,ogl3,Local authority type,,Local authority types,,,,administrative,category,,
 crown-copyright,organisation,local-authority,,,,,8700000,8799999,ogl3,Local authority,,Local authorities,,,"A [local authority](https://www.gov.uk/guidance/local-government-structure-and-elections) may have powers to create development policies,
@@ -182,7 +161,10 @@ crown-copyright,,local-green-space,,,,,8900000,8999999,ogl3,Local green space,,L
 crown-copyright,,local-nature-recovery-strategy,,,,,9000000,9099999,ogl3,Local nature recovery strategy,,Local nature recovery strategies,,,,environment,geography,,
 ons-boundary,local-planning-authority,local-planning-authority,,,,,624000,626999,ogl3,Local planning authority,,Local planning authorities,statistical-geography,,"The administrative boundaries of local planning authorities in England as provided by the ONS for the purposes of producing statistics.
 A local planning authority may be a [local authority](/dataset/local-authority), [national park authority](/dataset/national-park-authority) or [development corporation](/dataset/development-corporation).",administrative,geography,Q6664495,Local_planning_authority
-crown-copyright,listed-building,locally-listed-building,"locally listed heritage assets, including buildings",,,,41100000,42099999,ogl3,Locally listed building,"{ ""colour"": ""#F9C744"" }",Locally listed buildings,,,"A building or site in a local planning authority’s area that make a positive contribution to its local character and sense of place because of their heritage value. Although such heritage assets may not be nationally designated or even located within the boundaries of a conservation area, they may be offered some level of protection by the local planning authority identifying them on a formally adopted list of local heritage assets.",heritage,geography,Q570600,Listed_building#Locally_listed_buildings
+crown-copyright,listed-building,locally-listed-building,"locally listed heritage assets, including buildings",,,,41100000,42099999,ogl3,Locally listed building,"{ ""colour"": ""#F9C744"" }",Locally listed buildings,,,"A building or site in a local planning authority’s area that make a positive contribution to its local character and sense of place because of their heritage value. Although such heritage assets may not be nationally designated or even located within the boundaries of a conservation area, they may be offered some level of protection by the local planning authority identifying them on a formally adopted list of local heritage assets.
+
+This is an experimental dataset of locally listed buildings found on [data.gov.uk](https://www.data.gov.uk/search?q=locally+listed+buildings).
+We are [working with a group of local planning authorities](/about/) to help them publish their locally listed buildings, and to develop a data specification for locally listed buildings.",heritage,geography,Q570600,Listed_building#Locally_listed_buildings
 crown-copyright,,log,,,,,9100000,9199999,ogl3,Collection log,,Collection logs,,,,specification,specification,,
 crown-copyright,,london-square,,,,,9200000,9299999,ogl3,London square,,London squares,,,,heritage,geography,Q7582093,Squares_in_London
 crown-copyright,,long-established-woodland,,,,,9300000,9399999,ogl3,Long established woodland,,Long established woodlands,,,,environment,geography,,
