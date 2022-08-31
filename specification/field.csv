@@ -379,7 +379,6 @@ n,string,A list of tree species,,,tree-species-list,,,Tree species list,category
 1,string,Unique Property Reference Number,,,uprn,,,UPRN,geography,,,,geography,,
 1,string,,,,uri-template,,,RFC6570 template URL,value,,,,value,,
 1,url,,,,url,,,URL,value,,,,value,,
-1,string,,,,use-class-order,,,Use class order,category,,,,category,,
 1,string,,,,value,,,Value,value,,,,value,,
 1,string,,,,waste-authority,,,Waste authority,organisation,,,,organisation,,
 1,url,,,,website-url,,,Website URL,url,,,,value,{website-url},
