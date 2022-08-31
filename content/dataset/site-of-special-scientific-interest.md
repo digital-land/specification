@@ -39,10 +39,5 @@ wikipedia: Site_of_Special_Scientific_Interest
 
 Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology. 
 
-### Impact on planning decisions
-
-You are not  normally allowed to carry out works that could have an adverse effect on a SSSI. There are certain things you cannot do on SSSI land without consulting Natural England and getting consent from them first.
-
-### Responsible organisations and guidance
-
-SSSIs are created by [Natural England](https://www.gov.uk/government/organisations/natural-england) and there is specific [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) on managing them.
+SSSIs are designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).
+There is [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) to help local authorities decide on planning applications in protected SSSIs.

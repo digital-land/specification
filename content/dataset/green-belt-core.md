@@ -29,3 +29,5 @@ typology: category
 wikidata: Q2734873
 wikipedia: Green_belt_(United_Kingdom)
 ---
+
+A category used to collect [green belt](/dataset/green-belt) areas which surround an single urban area.

@@ -34,3 +34,6 @@ typology: organisation
 wikidata: ''
 wikipedia: ''
 ---
+
+A selection of not-for-profit organisations and teams.
+We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

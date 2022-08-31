@@ -38,3 +38,6 @@ typology: organisation
 wikidata: Q7972817
 wikipedia: Waste_disposal_authority
 ---
+
+An organisation responsible for municipal waste collection and disposal.
+We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

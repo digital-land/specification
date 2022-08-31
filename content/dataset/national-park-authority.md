@@ -13,6 +13,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: government-organisation
+- field: local-planning-authority
 - field: name
 - field: opendatacommunities-uri
 - field: parliament-thesaurus
@@ -38,3 +39,7 @@ typology: organisation
 wikidata: Q3336962
 wikipedia: National_park_authority
 ---
+
+A [national park authority](https://www.nationalparks.uk/parks/) may have powers to create development policies,
+and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
+We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

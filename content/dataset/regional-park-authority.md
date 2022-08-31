@@ -37,3 +37,6 @@ typology: organisation
 wikidata: ''
 wikipedia: ''
 ---
+
+A statutory body responsible for managing and developing a park.
+We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

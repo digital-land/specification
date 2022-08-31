@@ -38,12 +38,4 @@ wikidata: Q13125592
 wikipedia: Heritage_coast
 ---
 
-A heritage coast is established to conserve the best stretches of undeveloped coast in England. 
-
-### Impact on planning decisions
-
-Heritage coasts are protected in the planning system. Major development within a heritage coast is unlikely to be appropriate, unless it is compatible with its special character. 
-
-### Responsible organisations and guidance
-
-A heritage coast is defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).
+A [heritage coast](https://www.gov.uk/government/publications/heritage-coasts-protecting-undeveloped-coast/heritage-coasts-definition-purpose-and-natural-englands-role) as defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).

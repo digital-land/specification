@@ -38,3 +38,6 @@ typology: organisation
 wikidata: Q514989
 wikipedia: Passenger_transport_executive
 ---
+
+Local government bodies responsible for public transport, usually within large urban areas.
+We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

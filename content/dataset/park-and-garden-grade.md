@@ -28,3 +28,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+
+The grade assigned to each [historic park and garden](/dataset/historic-park-and-garden) by [Historic England](https://historicengland.org.uk/).
+This dataset may be merged with [listed building grade](/dataset/listed-building-grade) dataset in the future.

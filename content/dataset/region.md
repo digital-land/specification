@@ -32,3 +32,6 @@ typology: geography
 wikidata: Q48091
 wikipedia: Regions_of_England
 ---
+
+The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this
+data for the purposes of producing statistics.

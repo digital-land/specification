@@ -35,3 +35,5 @@ typology: organisation
 wikidata: ''
 wikipedia: ''
 ---
+
+We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

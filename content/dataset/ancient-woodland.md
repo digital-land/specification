@@ -35,12 +35,6 @@ wikidata: Q3078732
 wikipedia: Ancient_woodland
 ---
 
-An area that has been wooded continuously since at least 1600 AD, relatively undisturbed by human development and therefore a unique habitat.
-
-### Impact on planning decisions
-
-You will only be granted permission for any development that will cause the loss or deterioration of irreplaceable habitats in exceptional circumstances and only if you put an additional compensation strategy in place.
-
-### Responsible organisations and guidance
+An area designated as ancient woodland by Natural England.
 
 Natural England and Forestry Commission [Guidance](https://www.gov.uk/guidance/ancient-woodland-and-veteran-trees-protection-surveys-licences)  is used in planning decisions.

@@ -27,3 +27,5 @@ typology: category
 wikidata: Q30634609
 wikipedia: Listed_building
 ---
+
+The grade assigned to each [listed building](/dataset/listed-building) by [Historic England](https://historicengland.org.uk/).

@@ -36,3 +36,5 @@ typology: geography
 wikidata: Q349084
 wikipedia: Districts_of_England
 ---
+
+The administrative boundaries of local authorities in England as provided by the ONS for the purposes of producing statistics.

@@ -29,3 +29,5 @@ typology: geography
 wikidata: Q60256727
 wikipedia: National_park
 ---
+
+The administrative boundaries of [national park authorities](/dataset/national-park-authority) in England as provided by the ONS for the purposes of producing statistics.
