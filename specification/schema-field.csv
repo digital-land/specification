@@ -68,7 +68,7 @@ area-of-outstanding-natural-beauty,reference
 area-of-outstanding-natural-beauty,start-date
 area-of-outstanding-natural-beauty,area-of-outstanding-natural-beauty
 article-4-direction-area,article-4-direction
-article-4-direction-area,article-4-direction-rule
+article-4-direction-area,article-4-direction-rules
 article-4-direction-area,address-text
 article-4-direction-area,documentation-url
 article-4-direction-area,document-url
@@ -609,9 +609,9 @@ development-corporation,company
 development-corporation,end-date
 development-corporation,entity
 development-corporation,entry-date
+development-corporation,local-planning-authority
 development-corporation,name
 development-corporation,opendatacommunities-uri
-development-corporation,local-planning-authority
 development-corporation,parliament-thesaurus
 development-corporation,reference
 development-corporation,start-date
@@ -1331,6 +1331,7 @@ national-park-authority,end-date
 national-park-authority,entity
 national-park-authority,entry-date
 national-park-authority,government-organisation
+national-park-authority,local-planning-authority
 national-park-authority,name
 national-park-authority,opendatacommunities-uri
 national-park-authority,parliament-thesaurus
