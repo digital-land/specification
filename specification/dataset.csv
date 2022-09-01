@@ -11,20 +11,20 @@ natural-england,area-of-outstanding-natural-beauty,area-of-outstanding-natural-b
 Natural England provides [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.",environment,geography,Q174945,Area_of_Outstanding_Natural_Beauty
 crown-copyright,article-4-direction,article-4-direction-area,an area covered by an Article 4 direction,,,,1100000,1199999,ogl3,Article 4 direction area,,Article 4 direction areas,,,"A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
 
-Each [article 4 direction](/dataset/article-4-direction) may apply to one or more [article 4 direction areas](/dataset/article-4-direction-area), each with one or more [article 4 direction rules](/dataset/article-4-direction-rule).
+Each [article 4 direction](/dataset/article-4-direction) may apply to one or more article 4 direction areas, each with one or more [article 4 direction rules](/dataset/article-4-direction-rule).
 
-This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://digital-land.github.io/specification/specification/article-4-direction/).",heritage,geography,,
+This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",heritage,geography,,
 crown-copyright,article-4-direction,article-4-direction-rule,the set of changes to permitted development rights effecting an article 4 direction area,,,,8500000,8599999,ogl3,Article 4 direction rule,,Article 4 direction rules,,,"A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
 
 The article 4 direction rule is a category for the rule which have been withdrawn or altered.
 Each [article 4 direction](/dataset/article-4-direction) may apply to one or more [article 4 direction areas](/dataset/article-4-direction-area), each with one or more article 4 direction rules.
 
-This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://digital-land.github.io/specification/specification/article-4-direction/).",heritage,category,,
+This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",heritage,category,,
 crown-copyright,article-4-direction,article-4-direction,,,,,6100000,6199999,ogl3,Article 4 direction,,Article 4 directions,,,"A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
 
 Each direction may apply to one or more [article 4 direction areas](/dataset/article-4-direction-area), each with one or more [article 4 direction rules](/dataset/article-4-direction-rule).
 
-This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://digital-land.github.io/specification/specification/article-4-direction/).",heritage,legal-instrument,Q16962063,Article_4_direction
+This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",heritage,legal-instrument,Q16962063,Article_4_direction
 crown-copyright,,asset-of-community-value,,,,,1200000,1299999,ogl3,Asset of community value,,Assets of community value,,,,heritage,geography,Q16971076,Asset_of_community_value
 crown-copyright,,attribution,,,,,1300000,1399999,ogl3,Attribution,,Attributions,,,,specification,category,Q2132119,Attribution_(copyright)
 historic-england,historic-england,battlefield,,,,,1400000,1499999,ogl3,Battlefield,"{ ""colour"": ""#4d2942"", ""opacity"": 0.2 }",Battlefields,,,Battlefields as designated by [Historic England](https://historicengland.org.uk) in their [Register of Historic Battlefields](https://historicengland.org.uk/listing/what-is-designation/registered-battlefields/).,heritage,geography,Q4895508,Battlefield
@@ -35,13 +35,17 @@ crown-copyright,brownfield-site,brownfield-site,,,,,1800000,1899999,ogl3,Brownfi
 and local planning authority web sites.
 We expect to combine this dataset with the [brownfield land](/dataset/brownfield-land) dataset in the near future.",development,geography,Q896586,Brownfield_land
 crown-copyright,,buffer-zone,,,,,1900000,1999999,ogl3,Buffer zone,,Buffer zones,,,,heritage,geography,,
-historic-england,historic-england,building-preservation-notice,,,,,2000000,2099999,ogl3,Building preservation notice,"{ ""colour"": ""#f944c7"" }",Building preservation notices,,,"Local planning authorities can serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed.
+historic-england,historic-england,building-preservation-notice,,,,,2000000,2099999,ogl3,Building preservation notice,"{ ""colour"": ""#f944c7"" }",Building preservation notices,,,"Local planning authorities can serve a Building Preservation Notice (BPN) on a building owner if they consider a building
+is in danger of demolition or alteration in a way that might affect its special character.
+BPN's take effect immediately, protecting the building for a limited time period, as if it were listed.
 
-Any works to a building that is the subject of a BPN need listed building consent. 
+The local planning authority must make an application to [Historic England](https://historicengland.org.uk/)
+to list the building at the same time that the BPN is served.
 
-[Section 3](https://www.designingbuildings.co.uk/wiki/Section)of the Planning (Listed Buildings and Conservation Areas) Act 1990 allows local planning authorities to serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed. The local planning authority must make an application to [Historic England](https://historicengland.org.uk/) to list the building at the same time that the BPN is served.",development,geography,Q98785867,Listed_building#England_and_Wales
+We expect to develop a data specification to help LPAs to publish their building preservation notices to supplement this data from Historic England.",development,geography,Q98785867,Listed_building#England_and_Wales
 crown-copyright,,category,,,,,2100000,2199999,ogl3,Category,,Categories,,,,specification,category,,
-crown-copyright,central-activities-zone,central-activities-zone,,,,,2200000,2299999,ogl3,Central activities zone,,Central activities zones,,,,development,geography,,
+crown-copyright,central-activities-zone,central-activities-zone,,,,,2200000,2299999,ogl3,Central activities zone,,Central activities zones,,,"The [Greater London Authority](https://www.london.gov.uk/) (GLA) designates a central area of London with [implications for planning](https://www.london.gov.uk/what-we-do/planning/implementing-london-plan/london-plan-guidance-and-spgs/central-activities-zone)
+This dataset combines data provided by the GLA with the boundary from the individual London boroughs.",development,geography,,
 historic-england,historic-england,certificate-of-immunity,,,,,2300000,2399999,ogl3,Certificate of immunity,"{ ""colour"": ""#D8760D"" }",Certificates of immunity,,,,heritage,geography,Q5065092,Certificate_of_Immunity_from_Listing
 crown-copyright,,checksum,Checksums of dataset files and other media,,,,,,ogl3,Pipeline column,,Pipeline columns,,,,specification,specification,,
 crown-copyright,,coastal-change-management-area,,,,,2400000,2499999,ogl3,Coastal change management area,,Coastal change management areas,,,,environment,geography,,
@@ -56,7 +60,7 @@ historic-england,conservation-area,conservation-area,"Special architectural or h
 
 This dataset also contains the boundaries of conservation areas from Historic England, as well as other data found on [data.gov.uk](https://www.data.gov.uk/search?q=conservation+area) and currently contains a number of duplicate areas we are working to remove.
 
-We are also [working with a group of local planning authorities](/about/) to help them publish their conservation areas, and to develop a [data specification for conservation areas](https://digital-land.github.io/specification/specification/conservation-area/).
+We are also [working with a group of local planning authorities](/about/) to help them publish their conservation areas, and to develop a [data specification for conservation areas](https://www.digital-land.info/guidance/specifications/conservation-area).
 
 Historic England provide [guidance](https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/) to help householders understand the implications of living in a conservation area for planning applications.",heritage,geography,Q5162904,Conservation_area_(United_Kingdom)
 crown-copyright,,contaminated-land,,,,,16800000,16899999,ogl3,Contaminated land,,Contaminated land,,,,environment,geography,,
@@ -117,15 +121,7 @@ This data is compiled by the Department for Levelling Up, Housing and Communitie
 crown-copyright,,guardianship-site-and-english-heritage-site,,,,,7200000,7299999,ogl3,Guardianship site and English heritage site,,Guardianship sites and English heritage sites,,,,heritage,geography,,
 crown-copyright,,gypsy-and-traveller-site,,,,,7300000,7399999,ogl3,Gypsy and traveller site,,Gypsy and traveller sites,,,,development,geography,Q74497345,
 crown-copyright,,heritage-action-zone,,,,,7400000,7499999,ogl3,Heritage action zone,,Heritage action zones,,,,heritage,geography,,
-historic-england,historic-england,heritage-at-risk,,,,,7500000,7599999,ogl3,Heritage at risk,"{ ""colour"": ""#8D73AF"" }",Heritage at risk,,,"Heritage at risk is a register of heritage assets at risk of decay. The register covers Grade I and II* listed buildings, Grade II listed places of worship and Grade II buildings in London, scheduled monuments, registered parks and gardens, registered battlefields, protected wreck sites and conservation areas.
-
-### Why is it important for planning?
-
-The register aims to protect and manage the historic environment. It allows owners, friends groups, developers and other stakeholders to find solutions for 'at risk' historic places and sites across England.
-
-### Responsible organisations and guidance
-
-The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).",heritage,geography,Q16983914,Heritage_at_Risk_Register
+historic-england,historic-england,heritage-at-risk,,,,,7500000,7599999,ogl3,Heritage at risk,"{ ""colour"": ""#8D73AF"" }",Heritage at risk,,,The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).,heritage,geography,Q16983914,Heritage_at_Risk_Register
 natural-england,heritage-coast,heritage-coast,,,,,7600000,7699999,ogl3,Heritage coast,"{ ""colour"": ""#912b88"" }",Heritage coast,,,A [heritage coast](https://www.gov.uk/government/publications/heritage-coasts-protecting-undeveloped-coast/heritage-coasts-definition-purpose-and-natural-englands-role) as defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).,environment;heritage,geography,Q13125592,Heritage_coast
 crown-copyright,,historic-non-designed-rural-landscape-local-landscape-area,,,,,7700000,7799999,ogl3,Historic (non-designed) rural landscape/local landscape area,,Historic (non-designed) rural landscape/local landscape areas,,,,heritage,geography,,
 crown-copyright,,historic-stone-quarry,,,,,7800000,7899999,ogl3,Historic stone quarry,,Historic stone quarries,,,,heritage,geography,,
@@ -140,7 +136,7 @@ crown-copyright,,licence,,,,,8400000,8499999,ogl3,Licence,,Licences,,,,specifica
 crown-copyright,listed-building,listed-building-grade,,,,,700000,799999,ogl3,Listed building grade,,Listed building grades,,,The grade assigned to each [listed building](/dataset/listed-building) by [Historic England](https://historicengland.org.uk/).,heritage,category,Q30634609,Listed_building
 crown-copyright,listed-building,listed-building-outline,boundary of a listed building,,,,42100000,43099999,ogl3,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,,,"The geospatial boundary for [listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/) as collected from local planning authorities.
 
-We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://digital-land.github.io/specification/specification/listed-building/).
+We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
 
 We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.",heritage,geography,Q570600,Listed_building
 historic-england,listed-building,listed-building,,,,,31100000,41099999,ogl3,Listed building,"{ ""colour"": ""#F9C744"", ""type"": ""point"" }",Listed buildings,,,"[Listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/).
@@ -200,8 +196,11 @@ historic-england,historic-england,park-and-garden,,,,,11100000,11199999,ogl3,His
 crown-copyright,organisation,passenger-transport-executive,,,,,15300000,15399999,ogl3,Passenger transport executive,,Passenger transport executives,wikidata,,"Local government bodies responsible for public transport, usually within large urban areas.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,Q514989,Passenger_transport_executive
 crown-copyright,,patch,Assert a field value during harmonise,,,,11200000,11299999,ogl3,Pipeline patch,,Pipeline patches,,,,specification,specification,,
-crown-copyright,legislation,permitted-development-right-part,,,,,11400000,11499999,ogl3,Permitted development right part,,Permitted development right parts,,,,development,category,,
-crown-copyright,legislation,permitted-development-right,,,,,11500000,11599999,ogl3,Permitted development right,,Permitted development right,,,,development,policy,,
+crown-copyright,legislation,permitted-development-right-part,,,,,11400000,11499999,ogl3,Permitted development right part,,Permitted development right parts,,,"Permitted development right part is a category used to group the [permitted development right](/dataset/permitted-development-right) categories.
+This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",development,category,,
+crown-copyright,legislation,permitted-development-right,,,,,11500000,11599999,ogl3,Permitted development right,,Permitted development right,,,"This dataset identifies the categories of [permitted development right](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-development-rights-for-householders-technical-guidance).
+Each right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.
+This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",development,policy,,
 crown-copyright,planning-application,planning-application-status,A planning application status,,,,620000,620999,ogl3,Planning application status,,Planning application statuses,,,,housing;monitoring,category,,
 crown-copyright,planning-application,planning-application-type,A type of planning application,,,,621000,621999,ogl3,Planning application type,,Planning application types,,,,housing;monitoring,category,,
 crown-copyright,,planning-application,An application for planning permission,,,,10000000000,10999999999,ogl3,Planning application,,Planning applications,,,,housing;monitoring,geography,,
@@ -264,25 +263,32 @@ natural-england,special-area-of-conservation,special-area-of-conservation,,,,,14
 with advice from the [Joint Nature Conservation Committee](https://jncc.gov.uk/),
 to protect specific habitats and species.
 
-There is [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) on how to review planning applications in protected sites and areas.",environment,geography,Q1191622,Special_Area_of_Conservation
-natural-england,special-protection-area,special-protection-area,,,,,14900000,14999999,ogl3,Special protection area,,Special protection areas,,,,environment,geography,,
+DEFRA and [Natural England](https://www.gov.uk/government/organisations/natural-england) publish
+[guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications)
+on how to review planning applications in protected sites and areas.",environment,geography,Q1191622,Special_Area_of_Conservation
+natural-england,special-protection-area,special-protection-area,,,,,14900000,14999999,ogl3,Special protection area,,Special protection areas,,,"[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated 
+for the protection of birds and wildlife. This dataset is provided by [Natural England](https://www.gov.uk/government/organisations/natural-england).",environment,geography,,
 crown-copyright,,street,,,,,20000000000000,29999999999999,ogl3,Street,,Streets,,,,administrative,geography,,
 crown-copyright,,suitable-alternative-green-space,,,,,15000000,15099999,ogl3,Suitable alternative green space,,Suitable alternative green spaces,,,,environment,geography,,
 crown-copyright,,theme,,,,,15100000,15199999,ogl3,Theme,,Themes,,,,specification,specification,,
 crown-copyright,,transform,,,,,15200000,15299999,ogl3,Pipeline transformation,,Transformations,,,,specification,specification,,
 crown-copyright,,transport-under-tcpa-route,,,,,15400000,15499999,ogl3,Transport (under TCPA route),,Transport (under TCPA route),,,,transport,geography,,
-crown-copyright,tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,ogl3,Tree preservation order,,Tree preservation orders,,,"A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands.
+crown-copyright,tree-preservation-order,tree-preservation-order,,,,,7001999999,7001000000,ogl3,Tree preservation order,,Tree preservation orders,,,"A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. Tree Preservation Orders are made by local planning authorities following [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas) provided by the [Department for Levelling Up, Housing and Communities](https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities).
 
-### Impact on planning decisions
+Each tree preservation order may apply to a number of [tree preservation order zones](/dataset/tree-preservation-order-zone), and a number of individual [trees](/dataset/tree).
 
-Anyone wanting to cut down, top, lop or uproot trees subject to an order must first apply to the local planning authority for consent unless an [exception applies](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas#limitations). Unauthorised work to a protected tree is a criminal offence.
-
-### Responsible organisations and guidance
-
-Tree Preservation Orders are made by local planning authorities following the [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas).",environment,legal-instrument,,
+This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for tree preservation orders](https://www.digital-land.info/guidance/specifications/tree-preservation-order).",environment,legal-instrument,,
 crown-copyright,,tree-preservation-type,Types of preservation order,,,,18100000,18100999,ogl3,Tree preservation type,,Tree preservation types,,,,environment,category,,
-crown-copyright,tree-preservation-order,tree-preservation-zone,An area covered by a tree preservation order,,,,19100000,29099999,ogl3,Tree preservation zone,,Trees preservation zones,,,,environment,geography,Q10884,Tree
-crown-copyright,tree-preservation-order,tree,An individual tree,,,,7002000000,9999999999,ogl3,Tree,"{ ""colour"": ""#3B453D"", ""type"": ""point"" }",Trees,,,,environment,geography,Q10884,Tree
+crown-copyright,tree-preservation-order,tree-preservation-zone,An area covered by a tree preservation order,,,,19100000,29099999,ogl3,Tree preservation zone,,Trees preservation zones,,,"A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. Tree Preservation Orders are made by local planning authorities following [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas) provided by the [Department for Levelling Up, Housing and Communities](https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities).
+
+Each [tree preservation order](/dataset/tree-preservation-order) may apply to a number of tree preservation order zones, and a number of individual [trees](/dataset/tree).
+
+This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for tree preservation orders](https://www.digital-land.info/guidance/specifications/tree-preservation-order).",environment,geography,Q10884,Tree
+crown-copyright,tree-preservation-order,tree,An individual tree,,,,7002000000,9999999999,ogl3,Tree,"{ ""colour"": ""#3B453D"", ""type"": ""point"" }",Trees,,,"A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. Tree Preservation Orders are made by local planning authorities following [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas) provided by the [Department for Levelling Up, Housing and Communities](https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities).
+
+Each [tree preservation order](/dataset/tree-preservation-order) may apply to a number of [tree preservation order zones](/dataset/tree-preservation-order-zone), and a number of individual trees.
+
+This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for tree preservation orders](https://www.digital-land.info/guidance/specifications/tree-preservation-order).",environment,geography,Q10884,Tree
 crown-copyright,,typology,,,,,15600000,15699999,ogl3,Typology,,Typologies,,,,specification,specification,,
 crown-copyright,organisation,waste-authority,,,,,15800000,15899999,ogl3,Waste disposal authority,,Waste authorities,wikidata,,"An organisation responsible for municipal waste collection and disposal.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,Q7972817,Waste_disposal_authority
