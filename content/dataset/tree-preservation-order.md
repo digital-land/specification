@@ -35,12 +35,8 @@ wikidata: ''
 wikipedia: ''
 ---
 
-A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands.
+A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. Tree Preservation Orders are made by local planning authorities following [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas) provided by the [Department for Levelling Up, Housing and Communities](https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities).
 
-### Impact on planning decisions
+Each tree preservation order may apply to a number of [tree preservation order zones](/dataset/tree-preservation-order-zone), and a number of individual [trees](/dataset/tree).
 
-Anyone wanting to cut down, top, lop or uproot trees subject to an order must first apply to the local planning authority for consent unless an [exception applies](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas#limitations). Unauthorised work to a protected tree is a criminal offence.
-
-### Responsible organisations and guidance
-
-Tree Preservation Orders are made by local planning authorities following the [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas).
+This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for tree preservation orders](https://www.digital-land.info/guidance/specifications/tree-preservation-order).
