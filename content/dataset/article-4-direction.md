@@ -34,9 +34,7 @@ wikidata: Q16962063
 wikipedia: Article_4_direction
 ---
 
-A local planning authority may create an article 4 direction to alter or remove permitted development rights from a building or area.
-Where there’s an article 4 direction, a planning application may be needed for work that would otherwise have been allowed as [permitted development](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance).
-Further guidance sets out [when planning permission is needed](https://www.gov.uk/guidance/when-is-permission-required).
+A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
 
 Each direction may apply to one or more [article 4 direction areas](/dataset/article-4-direction-area), each with one or more [article 4 direction rules](/dataset/article-4-direction-rule).
 
