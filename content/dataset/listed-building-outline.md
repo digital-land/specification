@@ -42,6 +42,6 @@ wikipedia: Listed_building
 
 The geospatial boundary for [listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/) as collected from local planning authorities.
 
-We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://digital-land.github.io/specification/specification/listed-building/).
+We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
 
 We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.
