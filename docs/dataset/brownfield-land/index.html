@@ -154,7 +154,14 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <p class="govuk-body govuk-body govuk-!-margin-bottom-9">Land that has been previously been developed</p>
-    <!-- Local planning authorities designate sites in their area as being [brownfield land](https://www.gov.uk/guidance/brownfield-land-registers), and publish a register of brownfield sites annually following [GOV.UK guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data). -->
+    <!-- Local planning authorities designate sites in their area as being [brownfield land](https://www.gov.uk/guidance/brownfield-land-registers), and publish a register of brownfield sites annually following [GOV.UK guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data).
+
+Each site references the following categories:
+
+* [ownership-status](/dataset/ownership-status)
+* [planning-permission-status](/dataset/planning-permission-status)
+* [planning-permission-type](/dataset/planning-permission-type)
+* [site-category](/dataset/site-category) -->
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -548,6 +555,15 @@
     
         
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_site-categories"><a href="../../field/site-categories">site-categories</a>
+          </td>
+          <td class="govuk-table__cell">Site category</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_site-plan-url"><a href="../../field/site-plan-url">site-plan-url</a>
           </td>
           <td class="govuk-table__cell">Site plan URL</td>
@@ -606,6 +622,8 @@
       <li><a href="../planning-permission-status">Planning permission status</a></li>
     
       <li><a href="../planning-permission-type">Planning permission type</a></li>
+    
+      <li><a href="../site-category">Site category</a></li>
     
     </ul>
     

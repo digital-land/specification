@@ -327,6 +327,7 @@ n,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,pl
 1,curie,,,,shielding-hub,,,Shielding hub,organisation,,,,organisation,,
 1,string,,,,short-name,,,Short name,name,,,,value,,
 1,string,,,,site-address,,,Site address,address-text,address-text,,,value,,
+n,string,,,,site-categories,,,Site category,site-category,,,,category,,
 1,string,,,,site-category,,,Site category,category,,,,category,,
 1,string,,,,site-of-nature-conservation-importance,,,Site of nature conservation importance,document,,,,document,,
 1,string,,,,site-of-special-scientific-interest,,,Site of special scientific interest,geography,,,,geography,,
