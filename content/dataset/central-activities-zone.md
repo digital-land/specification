@@ -34,3 +34,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+
+The [Greater London Authority](https://www.london.gov.uk/) (GLA) designates a central area of London with [implications for planning](https://www.london.gov.uk/what-we-do/planning/implementing-london-plan/london-plan-guidance-and-spgs/central-activities-zone)
+This dataset combines data provided by the GLA with the boundary from the individual London boroughs.
