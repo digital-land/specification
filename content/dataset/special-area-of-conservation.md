@@ -42,4 +42,6 @@ Special areas of conservation (SACs) are area of land which have been designated
 with advice from the [Joint Nature Conservation Committee](https://jncc.gov.uk/),
 to protect specific habitats and species.
 
-There is [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) on how to review planning applications in protected sites and areas.
+DEFRA and [Natural England](https://www.gov.uk/government/organisations/natural-england) publish
+[guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications)
+on how to review planning applications in protected sites and areas.
