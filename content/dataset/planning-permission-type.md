@@ -27,3 +27,5 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+
+The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.

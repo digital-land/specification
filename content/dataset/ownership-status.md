@@ -27,3 +27,5 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+
+The ownership status of [brownfield land](/dataset/brownfield-land) or other site.

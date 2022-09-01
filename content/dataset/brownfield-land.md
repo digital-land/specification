@@ -145,6 +145,7 @@ fields:
 - field: site
 - field: site-address
 - field: site-plan-url
+- field: site-categories
 - field: start-date
 - field: brownfield-land
 key-field: site
@@ -162,3 +163,10 @@ wikipedia: Brownfield_land
 ---
 
 Local planning authorities designate sites in their area as being [brownfield land](https://www.gov.uk/guidance/brownfield-land-registers), and publish a register of brownfield sites annually following [GOV.UK guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data).
+
+Each site references the following categories:
+
+* [ownership-status](/dataset/ownership-status)
+* [planning-permission-status](/dataset/planning-permission-status)
+* [planning-permission-type](/dataset/planning-permission-type)
+* [site-category](/dataset/site-category)
