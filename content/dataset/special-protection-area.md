@@ -35,3 +35,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+
+[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated 
+for the protection of birds and wildlife. This dataset is provided by [Natural England](https://www.gov.uk/government/organisations/natural-england).
