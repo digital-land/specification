@@ -41,6 +41,6 @@ Local planning authorities are responsible for designating conservation areas, t
 
 This dataset also contains the boundaries of conservation areas from Historic England, as well as other data found on [data.gov.uk](https://www.data.gov.uk/search?q=conservation+area) and currently contains a number of duplicate areas we are working to remove.
 
-We are also [working with a group of local planning authorities](/about/) to help them publish their conservation areas, and to develop a [data specification for conservation areas](https://digital-land.github.io/specification/specification/conservation-area/).
+We are also [working with a group of local planning authorities](/about/) to help them publish their conservation areas, and to develop a [data specification for conservation areas](https://www.digital-land.info/guidance/specifications/conservation-area).
 
 Historic England provide [guidance](https://historicengland.org.uk/advice/your-home/owning-historic-property/conservation-area/) to help householders understand the implications of living in a conservation area for planning applications.
