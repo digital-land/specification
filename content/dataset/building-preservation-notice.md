@@ -37,8 +37,11 @@ wikidata: Q98785867
 wikipedia: Listed_building#England_and_Wales
 ---
 
-Local planning authorities can serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed.
+Local planning authorities can serve a Building Preservation Notice (BPN) on a building owner if they consider a building
+is in danger of demolition or alteration in a way that might affect its special character.
+BPN's take effect immediately, protecting the building for a limited time period, as if it were listed.
 
-Any works to a building that is the subject of a BPN need listed building consent. 
+The local planning authority must make an application to [Historic England](https://historicengland.org.uk/)
+to list the building at the same time that the BPN is served.
 
-[Section 3](https://www.designingbuildings.co.uk/wiki/Section)of the Planning (Listed Buildings and Conservation Areas) Act 1990 allows local planning authorities to serve a BPN on a building owner if they consider a building is in danger of demolition or alteration in a way that might affect its special character. BPN's take effect immediately, protecting the building for up to six months, as if it were listed. The local planning authority must make an application to [Historic England](https://historicengland.org.uk/) to list the building at the same time that the BPN is served.
+We expect to develop a data specification to help LPAs to publish their building preservation notices to supplement this data from Historic England.
