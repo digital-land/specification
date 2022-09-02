@@ -84,7 +84,7 @@ crown-copyright,,dataset,A collection of entities of the same type,,,,4000000,40
 crown-copyright,,datatype,,,,,4100000,4199999,ogl3,Datatype,,Datatypes,,,,specification,specification,,
 crown-copyright,,default-value,provide a default value for a missing or empty field,,,,,,ogl3,Pipeline default value,,Pipleline default values,,,,specification,specification,,
 crown-copyright,,default,Take a missing field default value from another field,,,,4200000,4299999,ogl3,Pipeline default value,,Pipleline default values,,,,specification,specification,,
-crown-copyright,design-code,design-code-area,,,,,627000,639999,ogl3,Design code area,,Design code areas,,,,development,geography,,
+crown-copyright,design-code,design-code-area,,,,,627000,639999,ogl3,Design code area,,Design code areas,,,Geographical areas covered by a [design code](/dataset/design-code).,development,geography,,
 crown-copyright,design-code,design-code-category,,,,,640000,640999,ogl3,Design code category,,Design code categories,,,,development,category,,
 crown-copyright,design-code,design-code-status,,,,,622000,622999,ogl3,Design code status,,Design code statuses,,,,development,category,,
 crown-copyright,design-code,design-code,,,,,641000,699999,ogl3,Design code,,Design codes,,,,development,policy,,
@@ -100,10 +100,10 @@ crown-copyright,development-plan-document,development-plan-document,,,,,4900000,
 crown-copyright,,development-plan-status,The different statuses a plan can have,,,,5000000,5099999,ogl3,Development plan status,,Development plan statuses,,,,development,category,,
 crown-copyright,,development-plan-timetable,The expected timetable for the stages a plan will go through,,,,5100000,5199999,ogl3,Development plan timetable,,Development plan timetables,,,,development,timetable,,
 crown-copyright,development-plan-type,development-plan-type,,,,,5200000,5299999,ogl3,Development plan type,,Development plan types,,,,development,category,,
-crown-copyright,development-policy-area,development-policy-area,,,,,5300000,5399999,ogl3,Development policy area,,Development policy areas,,,,development,geography,,
-crown-copyright,development-policy-category,development-policy-category,,,,,5400000,5499999,ogl3,Development policy category,,Development policy categories,,,,development,category,Q5962346,Classification_(general_theory)
+crown-copyright,,development-policy-area,,,,,5300000,5399999,ogl3,Development policy area,,Development policy areas,,,,development,geography,,
+crown-copyright,,development-policy-category,,,,,5400000,5499999,ogl3,Development policy category,,Development policy categories,,,,development,category,Q5962346,Classification_(general_theory)
 crown-copyright,,development-policy-metric,Metrics associated with a development policy,,,,5500000,5599999,ogl3,Development policy metric,,Development policy metrics,,,,development,metric,,
-crown-copyright,development-policy,development-policy,,,,,5600000,5699999,ogl3,Development policy,,Development policies,,,,development,policy,,
+crown-copyright,,development-policy,,,,,5600000,5699999,ogl3,Development policy,,Development policies,,,,development,policy,,
 crown-copyright,document,document-type,,,,,5700000,5799999,ogl3,Document type,,Document types,,,,development,category,,
 crown-copyright,,document,,,,,5800000,5899999,ogl3,Document,,Documents,,,,development,document,Q49848,Document
 crown-copyright,,employment-allocation,,,,,5900000,5999999,ogl3,Employment allocation,,Employment allocations,,,,development,geography,,
@@ -244,15 +244,9 @@ crown-copyright,,safeguarded-aerodrome,,,,,13500000,13599999,ogl3,Safeguarded ae
 crown-copyright,,safeguarded-military-explosives-site,,,,,13600000,13699999,ogl3,Safeguarded military explosives site,,Safeguarded military explosives sites,,,,environment,geography,,
 crown-copyright,,safeguarded-wharf,,,,,13700000,13799999,ogl3,Safeguarded wharf,,Safeguarded wharves,,,,transport,geography,,
 crown-copyright,,safety-hazard-area,,,,,13800000,13899999,ogl3,Safety hazard area,,Safety hazard areas,,,,development,geography,,
-historic-england,historic-england,scheduled-monument,,,,,13900000,13999999,ogl3,Scheduled monument,"{ ""colour"": ""#0F9CDA"" }",Scheduled monuments,,,"Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments. Churches or a building in residential use can’t.
+historic-england,historic-england,scheduled-monument,,,,,13900000,13999999,ogl3,Scheduled monument,"{ ""colour"": ""#0F9CDA"" }",Scheduled monuments,,,"Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments by the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport). 
 
-### Impact on planning decisions
-
-You will need consent from the Secretary of State before any work is carried out on a scheduled monument. [Historic England](https://historicengland.org.uk/) manages the process.
-
-### Responsible organisations and guidance
-
-The Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport).",heritage,geography,Q219538,Scheduled_monument
+This list of scheduled monuments is kept and maintained by [Historic England](https://historicengland.org.uk/).",heritage,geography,Q219538,Scheduled_monument
 crown-copyright,,schema-field,,,,,14000000,14099999,ogl3,Schema field,,Schema fields,,,,specification,specification,,
 crown-copyright,,schema,,,,,14100000,14199999,ogl3,Schema,,Schemas,,,,specification,specification,,
 crown-copyright,,self-and-custom-buildarea,,,,,14200000,14299999,ogl3,Self and custom build area,,Self and custom build areas,,,,housing,geography,,
