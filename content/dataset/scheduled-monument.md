@@ -37,12 +37,6 @@ wikidata: Q219538
 wikipedia: Scheduled_monument
 ---
 
-Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments. Churches or a building in residential use can’t.
+Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments by the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport). 
 
-### Impact on planning decisions
-
-You will need consent from the Secretary of State before any work is carried out on a scheduled monument. [Historic England](https://historicengland.org.uk/) manages the process.
-
-### Responsible organisations and guidance
-
-The Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport).
+This list of scheduled monuments is kept and maintained by [Historic England](https://historicengland.org.uk/).
