@@ -37,3 +37,5 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+
+Geographical areas covered by a [design code](/dataset/design-code).
