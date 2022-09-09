@@ -390,4 +390,5 @@ n,string,A list of tree species,,,tree-species-list,,,Tree species list,category
 1,string,,,,wikipedia,,,Wikipedia page,identifier,,,,value,https://en.wikipedia.org/wiki/{wikipedia},
 1,string,,,,wildbelt,,,Wildbelt,geography,,,,geography,,
 1,string,,,,wildlife,,,Wildlife,geography,,,,geography,,
+1,string,,,,world-heritage-convention-site,,,UNESCO World Heritage Convention site,geography,,,,geography,https://whc.unesco.org/en/list/{world-heritage-convention-site},P757
 1,string,,,,world-heritage-site,,,World heritage site,geography,,,,geography,,
