@@ -19,6 +19,9 @@ fields:
 - field: point
 - field: reference
 - field: start-date
+- field: wikipedia
+- field: wikidata
+- field: world-heritage-convention-site
 key-field: ''
 licence: ogl3
 name: World heritage site
