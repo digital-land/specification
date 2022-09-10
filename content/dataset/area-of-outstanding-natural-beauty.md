@@ -9,7 +9,7 @@ entity-maximum: '1099999'
 entity-minimum: '1000000'
 entry-date: ''
 fields:
-- field: categories
+- field: document-url
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -23,7 +23,9 @@ fields:
 - field: point
 - field: reference
 - field: start-date
-- field: area-of-outstanding-natural-beauty
+- field: website
+- field: wikidata
+- field: wikipedia
 key-field: ''
 licence: ogl3
 name: Area of outstanding natural beauty
