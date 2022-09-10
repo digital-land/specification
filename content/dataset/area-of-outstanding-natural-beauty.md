@@ -23,6 +23,7 @@ fields:
 - field: point
 - field: reference
 - field: start-date
+- field: twitter
 - field: website
 - field: wikidata
 - field: wikipedia
