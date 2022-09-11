@@ -8,21 +8,20 @@ entity-maximum: '1499999'
 entity-minimum: '1400000'
 entry-date: ''
 fields:
-- field: categories
+- field: document-url
 - field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geography
 - field: geometry
-- field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
 - field: reference
 - field: start-date
-- field: battlefield
+- field: wikidata
+- field: wikipedia
 key-field: ''
 licence: ogl3
 name: Battlefield
