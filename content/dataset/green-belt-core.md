@@ -18,9 +18,9 @@ fields:
 - field: wikipedia
 key-field: ''
 licence: ogl3
-name: Green belt urban core
+name: Green belt core
 paint-options: ''
-plural: Green belt urban cores
+plural: Green belt cores
 prefix: wikidata
 start-date: ''
 themes:

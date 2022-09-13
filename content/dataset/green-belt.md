@@ -14,6 +14,7 @@ fields:
 - field: geometry
 - field: green-belt
 - field: green-belt-core
+- field: local-authority-district
 - field: name
 - field: organisation
 - field: start-date
