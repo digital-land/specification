@@ -11,8 +11,8 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: green-belt-core
 - field: name
+- field: reference
 - field: start-date
 - field: wikidata
 - field: wikipedia

@@ -12,11 +12,11 @@ fields:
 - field: entity
 - field: entry-date
 - field: geometry
-- field: green-belt
 - field: green-belt-core
 - field: local-authority-district
 - field: name
 - field: organisation
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3
