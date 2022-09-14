@@ -4,8 +4,8 @@ collection: national-park
 dataset: national-park
 description: ''
 end-date: ''
-entity-maximum: '10099999'
-entity-minimum: '10000000'
+entity-maximum: '520999'
+entity-minimum: '520000'
 entry-date: ''
 fields:
 - field: end-date
@@ -13,8 +13,8 @@ fields:
 - field: entry-date
 - field: geometry
 - field: name
-- field: national-park
 - field: organisation
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3
