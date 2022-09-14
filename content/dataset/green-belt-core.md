@@ -21,7 +21,7 @@ licence: ogl3
 name: Green belt core
 paint-options: ''
 plural: Green belt cores
-prefix: wikidata
+prefix: green-belt-core
 start-date: ''
 themes:
 - environment
