@@ -8,21 +8,21 @@ entity-maximum: '14599999'
 entity-minimum: '14500000'
 entry-date: ''
 fields:
-- field: categories
+- field: document-url
 - field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
 - field: geography
 - field: geometry
-- field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
 - field: reference
 - field: start-date
-- field: site-of-special-scientific-interest
+- field: wikipedia
+- field: wikidata
 key-field: ''
 licence: ogl3
 name: Site of special scientific interest
