@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: organisation
 dataset: local-authority-type
 description: ''
 end-date: ''
@@ -11,9 +11,11 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: local-authority-type
+- field: reference
 - field: name
 - field: start-date
+- field: wikidata
+- field: wikipedia
 key-field: ''
 licence: ogl3
 name: Local authority type
