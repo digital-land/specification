@@ -13,6 +13,7 @@ fields:
 - field: entry-date
 - field: reference
 - field: name
+- field: parliament-thesaurus
 - field: start-date
 - field: wikidata
 - field: wikipedia
