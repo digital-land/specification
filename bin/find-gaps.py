@@ -21,7 +21,7 @@ for path in glob.glob("content/dataset/*.md"):
 
 # initial range ..
 ranges = [
-    [Decimal(1), Decimal(999)],  # early assignments
+    [Decimal(1), Decimal(420)],  # early assignments
 ]
 
 for dataset, row in datasets.items():
