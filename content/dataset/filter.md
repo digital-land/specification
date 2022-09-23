@@ -11,6 +11,7 @@ fields:
 - field: end-date
 - field: entry-date
 - field: field
+- field: exclude
 - field: pattern
 - field: dataset
 - field: resource
