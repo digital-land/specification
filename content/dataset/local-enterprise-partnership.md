@@ -4,8 +4,8 @@ collection: organisation
 dataset: local-enterprise-partnership
 description: ''
 end-date: ''
-entity-maximum: '2999'
-entity-minimum: '2000'
+entity-maximum: '4999'
+entity-minimum: '4000'
 entry-date: ''
 fields:
 - field: company

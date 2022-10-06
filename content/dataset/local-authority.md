@@ -4,8 +4,8 @@ collection: organisation
 dataset: local-authority
 description: ''
 end-date: ''
-entity-maximum: '8799999'
-entity-minimum: '8700000'
+entity-maximum: '19999'
+entity-minimum: '10000'
 entry-date: ''
 fields:
 - field: addressbase-custodian
