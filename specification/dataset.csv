@@ -150,11 +150,11 @@ historic-england,listed-building,listed-building,,,,,31100000,41099999,ogl3,List
 Each building has a [listed building grade](/dataset/listed-building-grade).",heritage,geography,Q570600,Listed_building
 ons-boundary,local-authority-district,local-authority-district,,,,,8600000,8699999,ogl3,Local authority district,"{""colour"": ""#0b0c0c"", ""opacity"": ""0.1"", ""weight"": 5}",Local authority districts,statistical-geography,,The administrative boundaries of local authorities in England as provided by the ONS for the purposes of producing statistics.,administrative,geography,Q349084,Districts_of_England
 crown-copyright,organisation,local-authority-type,,,,,8800000,8899999,ogl3,Local authority type,,Local authority types,,,,administrative,category,,
-crown-copyright,organisation,local-authority,,,,,8700000,8799999,ogl3,Local authority,,Local authorities,,,"A [local authority](https://www.gov.uk/guidance/local-government-structure-and-elections) may have powers to create development policies,
+crown-copyright,organisation,local-authority,,,,,10000,19999,ogl3,Local authority,,Local authorities,,,"A [local authority](https://www.gov.uk/guidance/local-government-structure-and-elections) may have powers to create development policies,
 and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
 This data originally came from the [local authority register](https://www.data.gov.uk/dataset/05d3b10a-6670-4643-9c53-7efc98775c8d/local-authority-eng-register).
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,Q171634,Local_government_in_England
-crown-copyright,organisation,local-enterprise-partnership,,,,,2000,2999,ogl3,Local Enterprise Partnership,,Local Enterprise Partnerships,,,We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.,administrative,organisation,,
+crown-copyright,organisation,local-enterprise-partnership,,,,,4000,4999,ogl3,Local Enterprise Partnership,,Local Enterprise Partnerships,,,We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.,administrative,organisation,,
 crown-copyright,,local-green-space,,,,,8900000,8999999,ogl3,Local green space,,Local green spaces,,,,environment,geography,,
 crown-copyright,,local-nature-recovery-strategy,,,,,9000000,9099999,ogl3,Local nature recovery strategy,,Local nature recovery strategies,,,,environment,geography,,
 ons-boundary,local-planning-authority,local-planning-authority,,,,,624000,626999,ogl3,Local planning authority,,Local planning authorities,statistical-geography,,"The administrative boundaries of local planning authorities in England as provided by the ONS for the purposes of producing statistics.
@@ -239,7 +239,7 @@ Natural England provides [guidance ](https://www.gov.uk/guidance/protected-sites
 crown-copyright,,reference,Redirect a prefix and reference to an entity,,,,,,ogl3,Reference,,References,,,,specification,specification,,
 ons-boundary,region,region,,,,,30100000,31099999,ogl3,Region,,Regions,statistical-geography,,"The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this
 data for the purposes of producing statistics.",administrative,geography,Q48091,Regions_of_England
-crown-copyright,organisation,regional-park-authority,,,,,13300000,13399999,ogl3,Regional park authority,,Regional park authorities,wikidata,,"A statutory body responsible for managing and developing a park.
+crown-copyright,organisation,regional-park-authority,,,,,5000,5999,ogl3,Regional park authority,,Regional park authorities,wikidata,,"A statutory body responsible for managing and developing a park.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,,
 crown-copyright,,resource,An index of collected resources,,,,13400000,13499999,ogl3,Resource,,Resources,,,,specification,specification,,
 crown-copyright,,safeguarded-aerodrome,,,,,13500000,13599999,ogl3,Safeguarded aerodrome,,Safeguarded aerodromes,,,,transport,geography,,
