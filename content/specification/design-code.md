@@ -16,6 +16,8 @@ datasets:
           description: the name, or title of the design code
         - field: description
           description: a short, single-line description of the design code
+        - field: design-code-area
+          description: the reference of the design code area
         - field: design-code-status
           description: a <a href="#design-code-status">design-code-status</a> reference
         - field: design-code-categories
@@ -38,21 +40,7 @@ datasets:
       fields:
         - field: reference
         - field: name
-        - field: design-code
         - field: geometry
-        - field: documentation-url
-        - field: document-url
-        - field: notes
-        - field: start-date
-        - field: end-date
-        - field: entry-date
-    - dataset: development-document
-      name: design code document
-      fields:
-        - field: reference
-        - field: name
-        - field: description
-        - field: development-document-type
         - field: documentation-url
         - field: document-url
         - field: notes
