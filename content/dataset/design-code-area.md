@@ -9,6 +9,7 @@ entity-minimum: '627000'
 entry-date: ''
 fields:
 - field: description
+- field: design-code
 - field: documentation-url
 - field: document-url
 - field: end-date

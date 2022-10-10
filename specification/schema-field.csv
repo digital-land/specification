@@ -529,6 +529,7 @@ default,dataset
 default,resource
 default,start-date
 design-code-area,description
+design-code-area,design-code
 design-code-area,documentation-url
 design-code-area,document-url
 design-code-area,end-date
@@ -556,7 +557,6 @@ design-code-status,name
 design-code-status,prefix
 design-code-status,reference
 design-code-status,start-date
-design-code,design-code-area
 design-code,design-code-status
 design-code,design-code-categories
 design-code,description
