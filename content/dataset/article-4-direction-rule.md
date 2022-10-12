@@ -2,7 +2,7 @@
 attribution: crown-copyright
 collection: article-4-direction
 dataset: article-4-direction-rule
-description: the set of changes to permitted development rights effecting an article
+description: the set of changes to permitted development rights affecting an article
   4 direction area
 end-date: ''
 entity-maximum: '8599999'
