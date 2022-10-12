@@ -14,7 +14,7 @@ crown-copyright,article-4-direction,article-4-direction-area,an area covered by 
 Each [article 4 direction](/dataset/article-4-direction) may apply to one or more article 4 direction areas, each with one or more [article 4 direction rules](/dataset/article-4-direction-rule).
 
 This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",heritage,geography,,
-crown-copyright,article-4-direction,article-4-direction-rule,the set of changes to permitted development rights effecting an article 4 direction area,,,,8500000,8599999,ogl3,Article 4 direction rule,,Article 4 direction rules,,,"A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
+crown-copyright,article-4-direction,article-4-direction-rule,the set of changes to permitted development rights affecting an article 4 direction area,,,,8500000,8599999,ogl3,Article 4 direction rule,,Article 4 direction rules,,,"A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
 
 The article 4 direction rule is a category for the rule which have been withdrawn or altered.
 Each [article 4 direction](/dataset/article-4-direction) may apply to one or more [article 4 direction areas](/dataset/article-4-direction-area), each with one or more article 4 direction rules.
@@ -86,6 +86,7 @@ crown-copyright,,default-value,provide a default value for a missing or empty fi
 crown-copyright,,default,Take a missing field default value from another field,,,,4200000,4299999,ogl3,Pipeline default value,,Pipleline default values,,,,specification,specification,,
 crown-copyright,design-code,design-code-area,,,,,627000,639999,ogl3,Design code area,,Design code areas,,,Geographical areas covered by a [design code](/dataset/design-code).,development,geography,,
 crown-copyright,design-code,design-code-category,,,,,640000,640999,ogl3,Design code category,,Design code categories,,,,development,category,,
+crown-copyright,design-code,design-code-rule,the set of design code rules affecting a design code area,,,,8700000,8799999,ogl3,Design code rule,,Design code rules,,,,heritage,category,,
 crown-copyright,design-code,design-code-status,,,,,622000,622999,ogl3,Design code status,,Design code statuses,,,,development,category,,
 crown-copyright,design-code,design-code,,,,,641000,699999,ogl3,Design code,,Design codes,,,,development,policy,,
 crown-copyright,developer-contributions,developer-agreement-contribution,,,,,4300000,4399999,ogl3,Developer agreement contribution,,Developer agreement contributions,,,,development,metric,,

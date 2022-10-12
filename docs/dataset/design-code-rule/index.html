@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>CURIE prefix | Digital Land</title>
+    <title>Design code rule | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -125,7 +125,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">CURIE prefix</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Design code rule</li>
     
   
   </ol>
@@ -138,14 +138,14 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">CURIE prefix</h1>
+  <h1 class="govuk-heading-xl">Design code rule</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">the set of design code rules affecting a design code area</p>
     <!--  -->
 
     <table class="govuk-table">
@@ -162,10 +162,55 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">CURIE prefix</td>
+          <td class="govuk-table__cell" id="field_description"><a href="../../field/description">description</a>
+          </td>
+          <td class="govuk-table__cell">Description</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_document-url"><a href="../../field/document-url">document-url</a>
+          </td>
+          <td class="govuk-table__cell">Document URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
+          </td>
+          <td class="govuk-table__cell">Documentation URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+          </td>
+          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
+          </td>
+          <td class="govuk-table__cell">Notes</td>
+          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -180,10 +225,19 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_prefix-uri"><a href="../../field/prefix-uri">prefix-uri</a>
+          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
           </td>
-          <td class="govuk-table__cell">CURIE prefix URI</td>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">CURIE prefix</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
+          </td>
+          <td class="govuk-table__cell">Reference</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -219,7 +273,7 @@
 
     
     <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/value">value</a> typology.</p>
+    <p class="govuk-body">This dataset belongs to the <a href="../../typology/category">category</a> typology.</p>
     
 
     
@@ -229,82 +283,17 @@
     <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
+      <li><a href="../entity">Entity</a></li>
+    
       <li><a href="../organisation">Organisation</a></li>
+    
+      <li><a href="../prefix">CURIE prefix</a></li>
+    
+      <li><a href="../reference">Reference</a></li>
     
     </ul>
     
 
-    
-    <p class="govuk-body">This dataset is linked to by the following other datasets:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../article-4-direction">Article 4 direction</a></li>
-    
-      <li><a href="../article-4-direction-area">Article 4 direction area</a></li>
-    
-      <li><a href="../article-4-direction-rule">Article 4 direction rule</a></li>
-    
-      <li><a href="../central-activities-zone">Central activities zone</a></li>
-    
-      <li><a href="../dataset">Dataset</a></li>
-    
-      <li><a href="../design-code">Design code</a></li>
-    
-      <li><a href="../design-code-area">Design code area</a></li>
-    
-      <li><a href="../design-code-category">Design code category</a></li>
-    
-      <li><a href="../design-code-rule">Design code rule</a></li>
-    
-      <li><a href="../design-code-status">Design code status</a></li>
-    
-      <li><a href="../entity">Entity</a></li>
-    
-      <li><a href="../government-organisation">Government organisation</a></li>
-    
-      <li><a href="../internal-drainage-board">Internal drainage board</a></li>
-    
-      <li><a href="../internal-drainage-district">Internal drainage district</a></li>
-    
-      <li><a href="../local-authority">Local authority</a></li>
-    
-      <li><a href="../local-enterprise-partnership">Local Enterprise Partnership</a></li>
-    
-      <li><a href="../local-resilience-forum">Local Resilience Forum</a></li>
-    
-      <li><a href="../lookup">Pipeline lookup</a></li>
-    
-      <li><a href="../national-park-authority">National park authority</a></li>
-    
-      <li><a href="../nonprofit">Nonprofit organisation</a></li>
-    
-      <li><a href="../organisation">Organisation</a></li>
-    
-      <li><a href="../passenger-transport-executive">Passenger transport executive</a></li>
-    
-      <li><a href="../planning-application">Planning application</a></li>
-    
-      <li><a href="../planning-application-status">Planning application status</a></li>
-    
-      <li><a href="../planning-application-type">Planning application type</a></li>
-    
-      <li><a href="../planning-development-category">Planning development category</a></li>
-    
-      <li><a href="../public-authority">Public authority</a></li>
-    
-      <li><a href="../reference">Reference</a></li>
-    
-      <li><a href="../regional-park-authority">Regional park authority</a></li>
-    
-      <li><a href="../tree">Tree</a></li>
-    
-      <li><a href="../tree-preservation-order">Tree preservation order</a></li>
-    
-      <li><a href="../tree-preservation-zone">Tree preservation zone</a></li>
-    
-      <li><a href="../waste-authority">Waste disposal authority</a></li>
-    
-    </ul>
     
 
     
