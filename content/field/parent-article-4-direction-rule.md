@@ -4,10 +4,10 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: article-4-direction-rule
+field: parent-article-4-direction-rule
 guidance: ''
 hint: ''
-name: Article 4 direction rule
+name: Parent article 4 direction rule
 parent-field: category
 replacement-field: ''
 start-date: ''

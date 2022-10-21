@@ -18,6 +18,7 @@ fields:
 - field: description
 - field: notes
 - field: organisation
+- field: parent-article-4-direction-rule
 - field: prefix
 - field: reference
 - field: start-date
