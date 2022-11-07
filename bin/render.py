@@ -3,10 +3,12 @@
 import os
 import csv
 import jinja2
-import markdown
-from glob import glob
 import frontmatter
+
+from glob import glob
 from digital_land_frontend.jinja import setup_jinja
+from markdown import Markdown
+from markupsafe import Markup
 
 docs = "docs/"
 staticPath = "https://digital-land.github.io"
@@ -170,8 +172,8 @@ def dataset_sort(dataset):
 if __name__ == "__main__":
     env = setup_jinja()
 
-    md = markdown.Markdown()
-    env.filters["markdown"] = lambda text: jinja2.Markup(
+    md = Markdown()
+    env.filters["markdown"] = lambda text: Markup(
         md.convert(text)
         .replace("<p>", '<p class="govuk-body">')
         .replace("<ul>", '<ul class="govuk-list govuk-list--bullet">')
