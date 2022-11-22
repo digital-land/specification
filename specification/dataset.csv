@@ -250,8 +250,8 @@ crown-copyright,,safety-hazard-area,,,,,13800000,13899999,ogl3,Safety hazard are
 historic-england,historic-england,scheduled-monument,,,,,13900000,13999999,ogl3,Scheduled monument,"{ ""colour"": ""#0F9CDA"" }",Scheduled monuments,,,"Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments by the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport). 
 
 This list of scheduled monuments is kept and maintained by [Historic England](https://historicengland.org.uk/).",heritage,geography,Q219538,Scheduled_monument
-crown-copyright,,schema-field,,,,,14000000,14099999,ogl3,Schema field,,Schema fields,,,,specification,specification,,
-crown-copyright,,schema,,,,,14100000,14199999,ogl3,Schema,,Schemas,,,,specification,specification,,
+crown-copyright,,schema-field,,,,,,,ogl3,Schema field,,Schema fields,,,,specification,specification,,
+crown-copyright,,schema,,,,,,,ogl3,Schema,,Schemas,,,,specification,specification,,
 crown-copyright,,self-and-custom-buildarea,,,,,14200000,14299999,ogl3,Self and custom build area,,Self and custom build areas,,,,housing,geography,,
 crown-copyright,,severity,severity of a log message or issue,,,,,,ogl3,Severity,,Severities,,,,specification,specification,,
 crown-copyright,site-category,site-category,,,,,14300000,14399999,ogl3,Site category,,Site categories,,,,development,category,,
@@ -272,6 +272,7 @@ DEFRA and [Natural England](https://www.gov.uk/government/organisations/natural-
 on how to review planning applications in protected sites and areas.",environment,geography,Q1191622,Special_Area_of_Conservation
 natural-england,special-protection-area,special-protection-area,,,,,14900000,14999999,ogl3,Special protection area,,Special protection areas,,,"[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated 
 for the protection of birds and wildlife. This dataset is provided by [Natural England](https://www.gov.uk/government/organisations/natural-england).",environment,geography,,
+crown-copyright,,specification,,,,,10000000,10099999,ogl3,Specification,,Specification,,,,specification,specification,,
 crown-copyright,,street,,,,,20000000000000,29999999999999,ogl3,Street,,Streets,,,,administrative,geography,,
 crown-copyright,,suitable-alternative-green-space,,,,,15000000,15099999,ogl3,Suitable alternative green space,,Suitable alternative green spaces,,,,environment,geography,,
 crown-copyright,,theme,,,,,15100000,15199999,ogl3,Theme,,Themes,,,,specification,specification,,
