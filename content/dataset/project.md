@@ -15,6 +15,7 @@ fields:
 - field: name
 - field: project
 - field: project-status
+- field: specifications
 - field: start-date
 key-field: ''
 licence: ogl3

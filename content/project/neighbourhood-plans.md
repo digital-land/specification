@@ -3,7 +3,7 @@ datasets: ''
 description: ''
 end-date: ''
 entry-date: ''
-name: ''
+name: Neighbourhood plans
 project: neighbourhood-plans
 project-status: backlog
 start-date: ''

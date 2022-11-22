@@ -4,8 +4,6 @@ collection: ''
 dataset: schema
 description: ''
 end-date: ''
-entity-maximum: '14199999'
-entity-minimum: '14100000'
 entry-date: ''
 fields:
 - field: description

@@ -5,6 +5,6 @@ end-date: ''
 entry-date: ''
 name: Developer contributions
 project: developer-contributions
-project-status: backlog
+project-status: ongoing
 start-date: ''
 ---
