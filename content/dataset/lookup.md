@@ -12,6 +12,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: entry-number
+- field: organisation
 - field: prefix
 - field: resource
 - field: start-date
