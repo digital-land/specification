@@ -27,6 +27,7 @@ tables = {
     "dataset": {},
     "dataset-field": {},
     "specification": {},
+    "specification-status": {},
 }
 
 
