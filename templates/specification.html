@@ -28,7 +28,7 @@ code.value {
   <div class="govuk-grid-column-full">
     <p class="govuk-body">
 
-    <strong class="govuk-tag">{{ item["specification-status"] }}</strong>
+    <strong class="govuk-tag">{{ tables["specification-status"][item["specification-status"]]["name"] }}</strong>
     </p>
     <p class="govuk-body">
       Last updated: <a href="#status">{{ item["entry-date"] }}</a>
