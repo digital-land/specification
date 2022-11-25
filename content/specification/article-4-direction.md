@@ -2,7 +2,7 @@
 specification: article-4-direction
 name: article 4 direction
 plural: article 4 directions
-specification-status: working draft
+specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'

@@ -2,7 +2,7 @@
 specification: listed-building
 name: listed building outline
 plural: listed building outlines
-specification-status: working draft
+specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
