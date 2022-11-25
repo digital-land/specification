@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Specification | Digital Land</title>
+    <title>Organisation dataset | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -125,7 +125,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Specification</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Organisation dataset</li>
     
   
   </ol>
@@ -138,7 +138,7 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Specification</h1>
+  <h1 class="govuk-heading-xl">Organisation dataset</h1>
   </div>
 </div>
 
@@ -146,7 +146,7 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
-    <!--  -->
+    <!-- The datasets we expect an organisation to provide. -->
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -162,63 +162,45 @@
     
         
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_dataset"><a href="../../field/dataset">dataset</a>
+          </td>
+          <td class="govuk-table__cell">Dataset</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
+          </td>
+          <td class="govuk-table__cell">Notes</td>
+          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_project"><a href="../../field/project">project</a>
+          </td>
+          <td class="govuk-table__cell">Project</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_specification"><a href="../../field/specification">specification</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
+          </td>
           <td class="govuk-table__cell">Specification</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_datasets"><a href="../../field/datasets">datasets</a>
-          </td>
-          <td class="govuk-table__cell">Datasets</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">n</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_description"><a href="../../field/description">description</a>
-          </td>
-          <td class="govuk-table__cell">Description</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_json"><a href="../../field/json">json</a>
-          </td>
-          <td class="govuk-table__cell">JSON data</td>
-          <td class="govuk-table__cell"><a href="../../datatype/json">json</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
-          </td>
-          <td class="govuk-table__cell">Name</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
-          </td>
-          <td class="govuk-table__cell">CURIE prefix</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_specification-status"><a href="../../field/specification-status">specification-status</a>
-          </td>
-          <td class="govuk-table__cell">Specification status</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
@@ -254,9 +236,6 @@
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/specification">specification</a> typology.</p>
-    
 
     
     <h2 class="govuk-heading-s" id="">Datasets</h2>
@@ -267,22 +246,15 @@
     
       <li><a href="../dataset">Dataset</a></li>
     
-      <li><a href="../prefix">CURIE prefix</a></li>
+      <li><a href="../organisation">Organisation</a></li>
     
-      <li><a href="../specification-status">Specification status</a></li>
+      <li><a href="../project">Project</a></li>
+    
+      <li><a href="../specification">Specification</a></li>
     
     </ul>
     
 
-    
-    <p class="govuk-body">This dataset is linked to by the following other datasets:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../organisation-dataset">Organisation dataset</a></li>
-    
-      <li><a href="../project">Project</a></li>
-    
-    </ul>
     
 
     
