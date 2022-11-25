@@ -17,7 +17,9 @@ w.writeheader()
 for path in sys.argv[2:]:
     post = frontmatter.load(path)
     row = post.metadata
-    row["themes"] = ";".join(row.get("themes", []))
+    row["themes"] = ";".join(row.get("themes", "") or [])
+    row["specifications"] = ";".join(row.get("specifications", "") or [])
     row["schema"] = row["pipeline"] = row.get(dataset, "")
     row["text"] = post.content
+
     w.writerow(row)
