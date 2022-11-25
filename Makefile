@@ -26,6 +26,8 @@ SPECIFICATION_CSV=\
 	specification/prefix.csv\
 	specification/project.csv\
 	specification/project-status.csv\
+	specification/specification.csv\
+	specification/specification-status.csv\
 	specification/pipeline.csv\
 	specification/theme.csv
 
@@ -75,6 +77,11 @@ DATAPACKAGE_MD=$(sort $(wildcard content/datapackage/*.md))
 specification/datapackage.csv:	$(DATAPACKAGE_MD) bin/load-markdown.py
 	python3 bin/load-markdown.py $@ $(DATAPACKAGE_MD)
 
+SPECIFICATION_MD=$(sort $(wildcard content/specification/*.md))
+specification/specification.csv:	$(SPECIFICATION_MD) bin/load-markdown.py
+	@mkdir -p specification/
+	python3 bin/load-markdown.py $@ $(SPECIFICATION_MD)
+
 
 # made from the dataset.csv ..
 DATASET_CSV=specification/dataset.csv
@@ -104,6 +111,10 @@ specification/issue-type.csv:	content/issue-type.csv
 
 specification/severity.csv:	content/severity.csv
 	cp content/severity.csv $@
+
+specification/specification-status.csv:	content/specification-status.csv
+	cp content/specification-status.csv $@
+
 
 DATAPACKAGE_CSV=specification/datapackage.csv
 specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-dataset.py
