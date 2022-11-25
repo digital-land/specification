@@ -3,6 +3,7 @@
 import frontmatter
 import sys
 import csv
+import json
 from pathlib import Path
 
 path = Path(sys.argv[1])
@@ -21,5 +22,11 @@ for path in sys.argv[2:]:
     row["specifications"] = ";".join(row.get("specifications", "") or [])
     row["schema"] = row["pipeline"] = row.get(dataset, "")
     row["text"] = post.content
+
+    # handle specification datasets ..
+    if dataset == "specification":
+        datasets = row["datasets"]
+        row["json"] = datasets
+        row["datasets"] = ";".join([d["dataset"] for d in datasets])
 
     w.writerow(row)

@@ -13,8 +13,10 @@ fields:
 - field: end-date
 - field: entry-date
 - field: name
+- field: json
 - field: prefix
-- field: reference
+- field: specification
+- field: specification-status
 - field: start-date
 key-field: ''
 licence: ogl3

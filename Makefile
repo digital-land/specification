@@ -28,6 +28,7 @@ SPECIFICATION_CSV=\
 	specification/project-status.csv\
 	specification/specification.csv\
 	specification/specification-status.csv\
+	specification/organisation-dataset.csv\
 	specification/pipeline.csv\
 	specification/theme.csv
 
@@ -114,6 +115,10 @@ specification/severity.csv:	content/severity.csv
 
 specification/specification-status.csv:	content/specification-status.csv
 	cp content/specification-status.csv $@
+
+# hand-made for now, but could be inferred from the project/specification/LPA
+specification/organisation-dataset.csv:	content/organisation-dataset.csv
+	cp content/organisation-dataset.csv $@
 
 
 DATAPACKAGE_CSV=specification/datapackage.csv
