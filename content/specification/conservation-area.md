@@ -1,6 +1,6 @@
 ---
 specification: conservation-area
-name: conservation area
+name: Conservation area
 plural: conservation areas
 specification-status: working-draft
 start-date: ''

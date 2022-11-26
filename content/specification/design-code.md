@@ -1,6 +1,6 @@
 ---
 specification: design-code
-name: design code
+name: Design code
 plural: design codes
 specification-status: working-draft
 start-date: ''

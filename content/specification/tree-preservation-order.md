@@ -1,7 +1,7 @@
 ---
 specification: tree-preservation-order
-name: tree preservation order
-plural: tree preservation orders
+name: Tree preservation order
+plural: Tree preservation orders
 specification-status: working-draft
 start-date: ''
 end-date: ''

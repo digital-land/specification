@@ -1,7 +1,7 @@
 ---
 specification: listed-building
-name: listed building outline
-plural: listed building outlines
+name: Listed building outline
+plural: Listed building outlines
 specification-status: working-draft
 start-date: ''
 end-date: ''

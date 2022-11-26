@@ -1,6 +1,6 @@
 ---
 specification: article-4-direction
-name: article 4 direction
+name: Article 4 direction
 plural: article 4 directions
 specification-status: working-draft
 start-date: ''
