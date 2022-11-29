@@ -12,6 +12,7 @@ fields:
 - field: notes
 - field: organisation
 - field: project
+- field: provision-reason
 - field: specification
 - field: start-date
 key-field: ''
