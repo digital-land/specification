@@ -296,6 +296,7 @@ n,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,pl
 1,string,,,,protected-view,,,Protected view,geography,,,,geography,,
 1,string,,,,protected-wreck-site,,,Protected wreck site,geography,,,,geography,,
 1,hash,,,,provenance,,,Provenance,hash,,,,value,,
+1,string,,,,provision-reason,,,Provision reason,category,,,"The reason an organisation should provide a dataset, or why we are collecting a dataset from an organisation.",category,,
 1,string,,,,public-authority,,,Public authority,organisation,,,,organisation,,
 1,string,,,,public-safety-zone-around-airport,,,Public safety zone around airport,geography,,,,geography,,
 1,text,,,,purpose,,,Purpose,text,,,,value,,
