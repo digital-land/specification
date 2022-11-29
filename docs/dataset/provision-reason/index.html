@@ -120,7 +120,7 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
     </li>
     
   
@@ -137,7 +137,7 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
+  <span class="govuk-caption-xl">Dataset</span>
   <h1 class="govuk-heading-xl">Provision reason</h1>
   </div>
 </div>
@@ -145,56 +145,89 @@
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">The reason a dataset is provided by an organisation</p>
+    <!--  -->
 
     <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
       <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Provision reason</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">provision-reason</td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
+          <td class="govuk-table__cell" id="field_provision-reason"><a href="../../field/provision-reason">provision-reason</a>
+           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
+          <td class="govuk-table__cell">Provision reason</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
           <td class="govuk-table__cell">1</td>
         </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../category">category</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/category">category</a></td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Dataset</th>
-          <td class="govuk-table__cell"><a href="../../dataset/provision-reason">provision-reason</a></td>
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
         </tr>
+    
         
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
       </tbody>
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Schemas</h2>
-    <p class="govuk-body">The following datasets use this field:</p>
+    <h2 class="govuk-heading-s" id="">Typology</h2>
+    <p class="govuk-body">This dataset belongs to the <a href="../../typology/category">category</a> typology.</p>
+    
+
+    
+    <h2 class="govuk-heading-s" id="">Datasets</h2>
+
+    
+
+    
+    <p class="govuk-body">This dataset is linked to by the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../dataset/organisation-dataset">Organisation dataset</a></li>
-    
-      <li><a href="../../dataset/provision-reason">Provision reason</a></li>
+      <li><a href="../organisation-dataset">Organisation dataset</a></li>
     
     </ul>
     
 
+    
   </div>
 </div>
 
