@@ -8,6 +8,7 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
+- field: description
 - field: end-date
 - field: entry-date
 - field: name
