@@ -125,11 +125,14 @@ other = {
     },
 }
 
-extras = [
-    { "dataset": "brownfield-land", "provision-reason": "statutory" },
-    { "dataset": "developer-agreement", "provision-reason": "encouraged" },
-    { "dataset": "developer-agreement-contribution", "provision-reason": "encouraged" },
-    { "dataset": "developer-agreement-transaction", "provision-reason": "encouraged" },
+lpa_datasets = [
+    { "specification": "brownfield-land", "dataset": "brownfield-land", "provision-reason": "statutory" },
+    { "specification": "developer-ageement", "dataset": "developer-agreement", "provision-reason": "encouraged" },
+    { "specification": "developer-ageement", "dataset": "developer-agreement-contribution", "provision-reason": "encouraged" },
+    { "specification": "developer-ageement", "dataset": "developer-agreement-transaction", "provision-reason": "encouraged" },
+    { "specification": "design-code", "dataset": "design-code", "provision-reason": "prospective" },
+    { "specification": "design-code", "dataset": "design-code-area", "provision-reason": "prospective" },
+    { "specification": "design-code", "dataset": "design-code-rule", "provision-reason": "prospective" },
 ]
 
 
@@ -153,7 +156,7 @@ for project, p in sorted(projects.items()):
                     }
                 )
 
-        for row in extras:
+        for row in lpa_datasets:
             row["organisation"] = organisation
             w.writerow(row)
 
