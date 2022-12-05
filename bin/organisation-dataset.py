@@ -125,6 +125,14 @@ other = {
     },
 }
 
+extras = [
+    { "dataset": "brownfield-land", "provision-reason": "statutory" },
+    { "dataset": "developer-agreement", "provision-reason": "encouraged" },
+    { "dataset": "developer-agreement-contribution", "provision-reason": "encouraged" },
+    { "dataset": "developer-agreement-transaction", "provision-reason": "encouraged" },
+]
+
+
 fields = ["organisation", "project", "provision-reason", "specification", "dataset"]
 
 w = csv.DictWriter(open("content/organisation-dataset.csv", "w", newline=""), fields)
@@ -132,6 +140,7 @@ w.writeheader()
 
 for project, p in sorted(projects.items()):
     for organisation in sorted(p["organisations"]):
+
         for specification, datasets in sorted(p["specifications"].items()):
             for dataset in sorted(datasets):
                 w.writerow(
@@ -143,6 +152,11 @@ for project, p in sorted(projects.items()):
                         "dataset": dataset,
                     }
                 )
+
+        for row in extras:
+            row["organisation"] = organisation
+            w.writerow(row)
+
 
 for organisation, reasons in sorted(other.items()):
     for reason in sorted(reasons):
