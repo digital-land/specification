@@ -198,7 +198,7 @@ for row in csv.DictReader(open("var/cache/organisation.csv")):
                 lpas.add(organisation)
 
 
-for organisation in lpas:
+for organisation in sorted(lpas):
     for row in lpa_datasets:
         dataset = row["dataset"]
         if not seen(organisation, dataset):
