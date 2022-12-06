@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 datasets:
-    - dataset: listed-building
+    - dataset: listed-building-outline
       fields:
         - field: reference
           description: the <a href="#reference">reference</a> for the listed building
