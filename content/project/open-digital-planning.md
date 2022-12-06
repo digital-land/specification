@@ -5,6 +5,7 @@ entry-date: ''
 name: Open Digital Planning
 project: open-digital-planning
 project-status: in-progress
+provision-reason: expected
 start-date: ''
 specifications:
 - article-4-direction

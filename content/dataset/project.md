@@ -15,6 +15,7 @@ fields:
 - field: name
 - field: project
 - field: project-status
+- field: provision-reason
 - field: specifications
 - field: start-date
 key-field: ''

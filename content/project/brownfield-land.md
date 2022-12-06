@@ -5,6 +5,7 @@ entry-date: ''
 name: Brownfield land
 project: brownfield-land
 project-status: ongoing
+provision-reason: statutory
 start-date: ''
 specifications:
 - brownfield-land

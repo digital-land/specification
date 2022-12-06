@@ -3,39 +3,12 @@
 #  see content/organisation-data.csv
 
 import csv
+import frontmatter
 
-# TBD: read these from content/project ..
-projects = {
-    "open-digital-planning": {
-        "provision-reason": "expected",
-        "specifications": {
-            "article-4-direction": ["article-4-direction", "article-4-direction-area"],
-            "conservation-area": ["conservation-area"],
-            "listed-building": ["listed-building-outline"],
-            "tree-preservation-order": [
-                "tree",
-                "tree-preservation-zone",
-                "tree",
-            ],
-        },
-        "organisations": [
-            "local-authority:BUC",
-            "local-authority:CAT",
-            "local-authority:CMD",
-            "local-authority:DAC",
-            "local-authority:DNC",
-            "local-authority:GLO",
-            "local-authority:LBH",
-            "local-authority:MDW",
-            "local-authority:NBL",
-            "local-authority:NED",
-            "local-authority:NET",
-            "local-authority:SWK",
-        ],
-    }
-}
 
-# TBD: create projects for these ..
+projects = ["open-digital-planning", "design-codes"]
+
+# TBD: create projects for these?
 other = {
     "government-organisation:D1342": {
         "encouraged": [
@@ -126,14 +99,52 @@ other = {
 }
 
 lpa_datasets = [
-    { "specification": "brownfield-land", "dataset": "brownfield-land", "provision-reason": "statutory" },
-    { "specification": "developer-ageement", "dataset": "developer-agreement", "provision-reason": "encouraged" },
-    { "specification": "developer-ageement", "dataset": "developer-agreement-contribution", "provision-reason": "encouraged" },
-    { "specification": "developer-ageement", "dataset": "developer-agreement-transaction", "provision-reason": "encouraged" },
-    { "specification": "design-code", "dataset": "design-code", "provision-reason": "prospective" },
-    { "specification": "design-code", "dataset": "design-code-area", "provision-reason": "prospective" },
-    { "specification": "design-code", "dataset": "design-code-rule", "provision-reason": "prospective" },
+    {
+        "specification": "brownfield-land",
+        "dataset": "brownfield-land",
+        "provision-reason": "statutory",
+    },
+    {
+        "specification": "developer-ageement",
+        "dataset": "developer-agreement",
+        "provision-reason": "encouraged",
+    },
+    {
+        "specification": "developer-ageement",
+        "dataset": "developer-agreement-contribution",
+        "provision-reason": "encouraged",
+    },
+    {
+        "specification": "developer-ageement",
+        "dataset": "developer-agreement-transaction",
+        "provision-reason": "encouraged",
+    },
+    {
+        "specification": "design-code",
+        "dataset": "design-code",
+        "provision-reason": "prospective",
+    },
+    {
+        "specification": "design-code",
+        "dataset": "design-code-area",
+        "provision-reason": "prospective",
+    },
+    {
+        "specification": "design-code",
+        "dataset": "design-code-rule",
+        "provision-reason": "prospective",
+    },
 ]
+
+
+seen_organisation = {}
+
+def seen(organisation, dataset):
+    global seen_organisation
+    seen_organisation.setdefault(organisation, set())
+    _seen = dataset in seen_organisation[organisation]
+    seen_organisation[organisation].add(dataset)
+    return _seen
 
 
 fields = ["organisation", "project", "provision-reason", "specification", "dataset"]
@@ -141,26 +152,8 @@ fields = ["organisation", "project", "provision-reason", "specification", "datas
 w = csv.DictWriter(open("content/organisation-dataset.csv", "w", newline=""), fields)
 w.writeheader()
 
-for project, p in sorted(projects.items()):
-    for organisation in sorted(p["organisations"]):
 
-        for specification, datasets in sorted(p["specifications"].items()):
-            for dataset in sorted(datasets):
-                w.writerow(
-                    {
-                        "organisation": organisation,
-                        "project": project,
-                        "provision-reason": p["provision-reason"],
-                        "specification": specification,
-                        "dataset": dataset,
-                    }
-                )
-
-        for row in lpa_datasets:
-            row["organisation"] = organisation
-            w.writerow(row)
-
-
+# national datasets ..
 for organisation, reasons in sorted(other.items()):
     for reason in sorted(reasons):
         for dataset in sorted(reasons[reason]):
@@ -171,3 +164,43 @@ for organisation, reasons in sorted(other.items()):
                     "dataset": dataset,
                 }
             )
+
+# project expectations ..
+for project in sorted(projects):
+    proj = frontmatter.load(f"content/project/{project}.md")
+
+    for organisation in sorted(proj["organisations"]):
+        for specification in sorted(proj["specifications"]):
+            spec = frontmatter.load(f"content/specification/{specification}.md")
+            spec_datasets = [item["dataset"] for item in spec["datasets"]]
+            for dataset in sorted(spec_datasets):
+                if not seen(organisation, dataset):
+                    w.writerow(
+                        {
+                            "organisation": organisation,
+                            "project": project,
+                            "provision-reason": proj["provision-reason"],
+                            "specification": specification,
+                            "dataset": dataset,
+                        }
+                    )
+
+# blank out all LPAs ..
+
+lpas = set()
+for row in csv.DictReader(open("var/cache/organisation.csv")):
+    organisation = row["organisation"]
+    if not row["end-date"]:
+        if organisation.startswith("development-corporation") or organisation.startswith("national-park"):
+            lpas.add(organisation)
+        elif organisation.startswith("local-authority"):
+            if row["local-authority-type"] not in ["COMB", "CTY", "SRA"]:
+                lpas.add(organisation)
+
+
+for organisation in lpas:
+    for row in lpa_datasets:
+        dataset = row["dataset"]
+        if not seen(organisation, dataset):
+            row["organisation"] = organisation
+            w.writerow(row)
