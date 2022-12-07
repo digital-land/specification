@@ -72,7 +72,7 @@ other = {
         "alternative": ["conservation-area"],
     },
     "government-organisation:PB202": {
-        "authorititive": [
+        "authoritative": [
             "ancient-woodland",
             "ancient-woodland-status",
             "area-of-outstanding-natural-beauty",
