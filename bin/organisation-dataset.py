@@ -102,18 +102,22 @@ other = {
 lpa_datasets = {
     "brownfield-land": {
         "specification": "brownfield-land",
+        "project": "brownfield-land",
         "provision-reason": "statutory",
     },
     "developer-agreement": {
         "specification": "developer-ageement",
+        "project": "developer-contribution",
         "provision-reason": "encouraged",
     },
     "developer-agreement-contribution": {
         "specification": "developer-ageement",
+        "project": "developer-contribution",
         "provision-reason": "encouraged",
     },
     "developer-agreement-transaction": {
         "specification": "developer-ageement",
+        "project": "developer-contribution",
         "provision-reason": "encouraged",
     },
     # others added from projects ..
