@@ -189,7 +189,7 @@ for project in sorted(projects):
 
 lpas = set()
 for row in csv.DictReader(open("var/cache/organisation.csv")):
-    organisation = row["organisation"]
+    organisation = row["organisation"].replace("local-authority-eng:", "local-authority:")
     if not row["end-date"]:
         if organisation.startswith("development-corporation") or organisation.startswith("national-park"):
             lpas.add(organisation)
