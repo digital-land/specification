@@ -98,43 +98,26 @@ other = {
     },
 }
 
-lpa_datasets = [
-    {
+# TBD: should these come from projects?
+lpa_datasets = {
+    "brownfield-land": {
         "specification": "brownfield-land",
-        "dataset": "brownfield-land",
         "provision-reason": "statutory",
     },
-    {
+    "developer-agreement": {
         "specification": "developer-ageement",
-        "dataset": "developer-agreement",
         "provision-reason": "encouraged",
     },
-    {
+    "developer-agreement-contribution": {
         "specification": "developer-ageement",
-        "dataset": "developer-agreement-contribution",
         "provision-reason": "encouraged",
     },
-    {
+    "developer-agreement-transaction": {
         "specification": "developer-ageement",
-        "dataset": "developer-agreement-transaction",
         "provision-reason": "encouraged",
     },
-    {
-        "specification": "design-code",
-        "dataset": "design-code",
-        "provision-reason": "prospective",
-    },
-    {
-        "specification": "design-code",
-        "dataset": "design-code-area",
-        "provision-reason": "prospective",
-    },
-    {
-        "specification": "design-code",
-        "dataset": "design-code-rule",
-        "provision-reason": "prospective",
-    },
-]
+    # others added from projects ..
+}
 
 
 seen_organisation = {}
@@ -175,15 +158,16 @@ for project in sorted(projects):
             spec_datasets = [item["dataset"] for item in spec["datasets"]]
             for dataset in sorted(spec_datasets):
                 if not seen(organisation, dataset):
-                    w.writerow(
-                        {
-                            "organisation": organisation,
-                            "project": project,
-                            "provision-reason": proj["provision-reason"],
-                            "specification": specification,
-                            "dataset": dataset,
-                        }
-                    )
+                    row = {
+                        "organisation": organisation,
+                        "project": project,
+                        "provision-reason": proj["provision-reason"],
+                        "specification": specification,
+                        "dataset": dataset,
+                    }
+                    w.writerow(row)
+                    lpa_datasets[dataset] = row
+
 
 # blank out all LPAs ..
 
@@ -199,8 +183,10 @@ for row in csv.DictReader(open("var/cache/organisation.csv")):
 
 
 for organisation in sorted(lpas):
-    for row in lpa_datasets:
-        dataset = row["dataset"]
+    for dataset, row in lpa_datasets.items():
         if not seen(organisation, dataset):
+            row["dataset"] = dataset
             row["organisation"] = organisation
+            if row["provision-reason"] == "expected":
+                row["provision-reason"] = "prospective"
             w.writerow(row)
