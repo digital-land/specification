@@ -18,6 +18,7 @@ fields:
 - field: local-authority-type
 - field: local-authority-district
 - field: local-enterprise-partnership
+- field: local-planning-authority
 - field: local-resilience-forum
 - field: name
 - field: opendatacommunities-uri
