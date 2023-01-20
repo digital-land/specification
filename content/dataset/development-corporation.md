@@ -14,6 +14,7 @@ fields:
 - field: entry-date
 - field: local-planning-authority
 - field: name
+- field: organisation
 - field: opendatacommunities-uri
 - field: parliament-thesaurus
 - field: reference

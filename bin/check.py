@@ -128,6 +128,7 @@ def check_datasets():
             "fact-resource",
             "old-entity",
             "old-resource",
+            "organisation",
         ]:
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:

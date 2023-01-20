@@ -8,6 +8,7 @@ entity-maximum: '6999999'
 entity-minimum: '6900000'
 entry-date: ''
 fields:
+- field: addressbase-custodian
 - field: billing-authority
 - field: end-date
 - field: entity
