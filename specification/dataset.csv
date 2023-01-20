@@ -1,11 +1,9 @@
 attribution,collection,dataset,description,end-date,entry-date,key-field,entity-minimum,entity-maximum,licence,name,paint-options,plural,prefix,start-date,text,themes,typology,wikidata,wikipedia
 crown-copyright,,address,,,,,10000000000000,19999999999999,ogl3,Address,,addresses,uprn,,,administrative,geography,,
-crown-copyright,,addressbase-custodian,,,,,800000,899999,ogl3,Addressbase custodian,,Addressbase custodians,,,,administrative,category,,
 natural-england,ancient-woodland,ancient-woodland-status,,,,,29100000,30099999,ogl3,Ancient woodland status,,Ancient woodlands status,,,The status assigned to an area of [ancient woodland](/dataset/ancient-woodland) by Natural England.,environment,category,,Ancient_woodland
 natural-england,ancient-woodland,ancient-woodland,,,,,110000000,129999999,ogl3,Ancient woodland,"{ ""colour"": ""#00703c"", ""opacity"": 0.2 }",Ancient woodlands,,,"An area designated as ancient woodland by Natural England.
 
 Natural England and Forestry Commission [Guidance](https://www.gov.uk/guidance/ancient-woodland-and-veteran-trees-protection-surveys-licences)  is used in planning decisions.",environment,geography,Q3078732,Ancient_woodland
-crown-copyright,,archaelogy-area-type,,,,,900000,999999,ogl3,Archaelogy area type,,Archaelogy area types,,,,heritage,geography,,
 natural-england,area-of-outstanding-natural-beauty,area-of-outstanding-natural-beauty,Protected areas of countryside with a distinctive character and natural beauty,,,,1000000,1099999,ogl3,Area of outstanding natural beauty,"{ ""colour"": ""#d53880"" }",Areas of outstanding natural beauty,,,"An area of outstanding natural beauty (AONB) as designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).
 
 Natural England provides [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.",environment,geography,Q174945,Area_of_Outstanding_Natural_Beauty
@@ -196,7 +194,7 @@ Local planning authorities should assess the need for open space and opportuniti
 
 Authorities and developers may refer to [Sport England's guidance](http://www.sportengland.org/facilities-planning/planning-for-sport/planning-tools-and-guidance/) on how to assess the need for sports and recreation facilities. There is also [guidance on Local Green Space designation](https://www.gov.uk/guidance/open-space-sports-and-recreation-facilities-public-rights-of-way-and-local-green-space#Local-Green-Space-designation), which may form part of the overall open space network within an area.",environment,geography,,
 crown-copyright,,organisation-dataset,,,,,,,ogl3,Organisation dataset,,Organisation datasets,,,The datasets we expect an organisation to provide.,specification,specification,,
-crown-copyright,,organisation,,,,,10800000,10899999,ogl3,Organisation,,Organisations,,,,,organisation,,
+crown-copyright,,organisation,,,,,,,ogl3,Organisation,,Organisations,,,,,organisation,,
 crown-copyright,ownership-status,ownership-status,,,,,10900000,10999999,ogl3,Ownership status,,Ownership statuses,,,The ownership status of [brownfield land](/dataset/brownfield-land) or other site.,development,category,,
 ons-boundary,parish,parish,,,,,130000000,139999999,ogl3,Civil parish,"{ ""colour"": ""#5694ca"" }",Civil parishes,statistical-geography,,"The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.
 The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#parishes-and-communities) provides this
