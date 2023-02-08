@@ -17,6 +17,7 @@ fields:
 - field: prefix
 - field: specification
 - field: specification-status
+- field: documentation-url
 - field: start-date
 key-field: ''
 licence: ogl3
