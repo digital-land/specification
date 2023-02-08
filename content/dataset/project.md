@@ -8,7 +8,6 @@ entity-maximum: '12399999'
 entity-minimum: '12300000'
 entry-date: ''
 fields:
-- field: datasets
 - field: description
 - field: end-date
 - field: entry-date
