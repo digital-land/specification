@@ -2,7 +2,7 @@
 attribution: crown-copyright
 collection: ''
 dataset: column-field
-description: Mapping of resource columns to dataset fields
+description: Log of resource columns mapped to dataset fields
 end-date: ''
 entry-date: ''
 fields:
