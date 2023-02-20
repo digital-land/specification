@@ -37,6 +37,7 @@ tables = {
     "dataset": {},
     "project": {},
     "project-status": {},
+    "specification": {},
     "typology": {},
     "theme": {},
     "dataset-field": {},
@@ -162,9 +163,9 @@ def check_datasets():
 
 def check_projects():
     for project, p in tables["project"].items():
-        for dataset in p["datasets"].split(";"):
-            if dataset and dataset not in tables["dataset"]:
-                error("project '%s' has an unknown dataset '%s'" % (project, dataset))
+        for specification in p["specifications"].split(";"):
+            if specification and specification not in tables["specification"]:
+                error("project '%s' has an unknown specification '%s'" % (project, specification))
 
         for status in p["project-status"].split(";"):
             if status not in tables["project-status"]:
