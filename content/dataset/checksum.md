@@ -18,9 +18,9 @@ fields:
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Pipeline column
+name: Checksum
 paint-options: ''
-plural: Pipeline columns
+plural: Checksums
 prefix: ''
 start-date: ''
 themes:
