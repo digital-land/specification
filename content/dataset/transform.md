@@ -4,15 +4,16 @@ collection: ''
 dataset: transform
 description: ''
 end-date: ''
-entity-maximum: '15299999'
-entity-minimum: '15200000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: field
 - field: dataset
+- field: end-date
+- field: endpoint
+- field: entry-date
+- field: entry-number
+- field: field
 - field: replacement-field
+- field: resource
 - field: start-date
 key-field: ''
 licence: ogl3
@@ -23,6 +24,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

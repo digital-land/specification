@@ -4,13 +4,12 @@ collection: ''
 dataset: column
 description: resource column names for output fields
 end-date: ''
-entity-maximum: '2699999'
-entity-minimum: '2600000'
 entry-date: ''
 fields:
 - field: column
 - field: dataset
 - field: end-date
+- field: endpoint
 - field: entry-date
 - field: field
 - field: resource
@@ -24,6 +23,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

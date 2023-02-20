@@ -9,6 +9,7 @@ entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
+- field: endpoint
 - field: entity
 - field: entry-date
 - field: entry-number
@@ -27,6 +28,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

@@ -4,15 +4,15 @@ collection: ''
 dataset: filter
 description: Filter entries
 end-date: ''
-entity-maximum: '6399999'
-entity-minimum: '6300000'
 entry-date: ''
 fields:
+- field: dataset
 - field: end-date
+- field: endpoint
 - field: entry-date
+- field: entry-number
 - field: field
 - field: pattern
-- field: dataset
 - field: resource
 - field: start-date
 key-field: ''
@@ -24,6 +24,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

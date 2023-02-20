@@ -6,10 +6,12 @@ description: Remove lines from a resource during normalise
 end-date: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: pattern
 - field: dataset
+- field: end-date
+- field: endpoint
+- field: entry-date
+- field: entry-number
+- field: pattern
 - field: resource
 - field: start-date
 key-field: ''
@@ -21,6 +23,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

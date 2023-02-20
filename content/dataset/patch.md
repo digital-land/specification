@@ -4,16 +4,15 @@ collection: ''
 dataset: patch
 description: Assert a field value during harmonise
 end-date: ''
-entity-maximum: '11299999'
-entity-minimum: '11200000'
 entry-date: ''
 fields:
+- field: dataset
 - field: end-date
+- field: endpoint
 - field: entry-date
 - field: entry-number
 - field: field
 - field: pattern
-- field: dataset
 - field: resource
 - field: start-date
 - field: value
@@ -26,6 +25,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

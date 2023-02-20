@@ -4,11 +4,10 @@ collection: ''
 dataset: convert
 description: Convert a resource
 end-date: ''
-entity-maximum: '16499999'
-entity-minimum: '16400000'
 entry-date: ''
 fields:
 - field: end-date
+- field: endpoint
 - field: entry-date
 - field: parameters
 - field: dataset
@@ -24,6 +23,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''
