@@ -6,10 +6,11 @@ description: Combine a series of facts from multiple entries
 end-date: ''
 entry-date: ''
 fields:
+- field: dataset
 - field: end-date
+- field: endpoint
 - field: entry-date
 - field: field
-- field: dataset
 - field: resource
 - field: separator
 - field: start-date
@@ -22,6 +23,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
+- pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''
