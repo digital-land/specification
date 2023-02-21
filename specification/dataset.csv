@@ -57,7 +57,7 @@ crown-copyright,,coastal-change-management-area,,,,,2400000,2499999,ogl3,Coastal
 crown-copyright,,collection,A collection of resources collected from various sources,,,,2500000,2599999,ogl3,Collection,,Collections,,,,specification,specification,,
 crown-copyright,,column-field,Log of resource columns mapped to dataset fields,,,,,,ogl3,Column field,,Column fields,,,"This table records the column names found in collected resources, and the field names they have been mapped to during processing.",specification,specification,,
 crown-copyright,,column,Map resource column name to dataset field,,,,,,ogl3,Pipeline column,,Pipeline columns,,,,specification;pipeline,specification,,
-crown-copyright,,combine,Combine a series of facts from multiple entries,,,,,,ogl3,Pipeline combine facts,,Pipeline combine facts,,,,specification,specification,,
+crown-copyright,,combine,Combine a series of facts from multiple entries,,,,,,ogl3,Pipeline combine facts,,Pipeline combine facts,,,,specification;pipeline,specification,,
 crown-copyright,,common-land-and-village-green,,,,,2700000,2799999,ogl3,Common land and village green,,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
 crown-copyright,,company,,,,,2800000,2899999,ogl3,Company,,Companies,,,,administrative,organisation,,
 crown-copyright,,concat,Concatenate fields during the harmonise phase,,,,,,ogl3,Pipeline concatenation,,Pipeline concatenations,,,,specification;pipeline,specification,,
