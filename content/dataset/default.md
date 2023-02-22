@@ -17,9 +17,9 @@ fields:
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Pipeline default value
+name: Pipeline default field
 paint-options: ''
-plural: Pipleline default values
+plural: Pipleline default fields
 prefix: ''
 start-date: ''
 themes:
