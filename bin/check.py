@@ -21,13 +21,46 @@ mandatory_fields = [
     "end-date",
 ]
 
+# TBD: review this thinking ..
 # expect datasets to have an entity and reference field, with these exceptions
 expected_fields = {
-    "entity": ["endpoint", "issue", "issue-type", "licence", "old-entity", "old-resource", "patch", "project", "source", "schema", "schema-field", "skip", "theme", "transform", "typology"],
-    "reference": ["endpoint", "issue", "issue-type", "licence", "old-entity", "old-resource", "patch", "project", "source", "schema", "schema-field", "skip", "theme", "transform", "typology"],
+    "entity": [
+        "endpoint",
+        "issue",
+        "issue-type",
+        "licence",
+        "old-entity",
+        "old-resource",
+        "patch",
+        "project",
+        "source",
+        "schema",
+        "schema-field",
+        "skip",
+        "theme",
+        "transform",
+        "typology",
+    ],
+    "reference": [
+        "endpoint",
+        "issue",
+        "issue-type",
+        "licence",
+        "old-entity",
+        "old-resource",
+        "patch",
+        "project",
+        "source",
+        "schema",
+        "schema-field",
+        "skip",
+        "theme",
+        "transform",
+        "typology",
+    ],
 }
 
-# datasets 
+# datasets
 key_field = {"reference": []}
 
 tables = {
@@ -123,14 +156,11 @@ def check_datasets():
                     error("dataset '%s' has an unknown theme '%s'" % (dataset, theme))
 
         # check entity ranges .. O(n2)
-        if "specification" != d["typology"] and dataset not in [
-            "entity",
-            "fact",
-            "fact-resource",
-            "old-entity",
-            "old-resource",
-            "organisation",
-        ]:
+        if (
+            "entity" in tables["dataset-field"][dataset]
+            and dataset not in ["entity", "old-entity", "fact", "lookup", "reference"]
+            and dataset != typology
+        ):
             minimum = Decimal(d.get("entity-minimum", "") or 0)
             if not minimum:
                 error("dataset '%s' is missing an entity-minimum value" % (dataset))
@@ -165,7 +195,10 @@ def check_projects():
     for project, p in tables["project"].items():
         for specification in p["specifications"].split(";"):
             if specification and specification not in tables["specification"]:
-                error("project '%s' has an unknown specification '%s'" % (project, specification))
+                error(
+                    "project '%s' has an unknown specification '%s'"
+                    % (project, specification)
+                )
 
         for status in p["project-status"].split(";"):
             if status not in tables["project-status"]:
@@ -218,6 +251,7 @@ if __name__ == "__main__":
             ):
                 error("no name for %s '%s'" % (t, name))
 
+    # TBD: review this thinking ..
     for dataset, d in tables["dataset"].items():
         if dataset not in tables["dataset-field"]:
             error("no fields for dataset '%s'" % (dataset))
