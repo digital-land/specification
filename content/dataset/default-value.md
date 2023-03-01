@@ -11,7 +11,6 @@ fields:
 - field: endpoint
 - field: entry-date
 - field: entry-number
-- field: endpoint
 - field: field
 - field: resource
 - field: start-date
