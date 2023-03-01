@@ -4,8 +4,6 @@ collection: ''
 dataset: entity
 description: a data item
 end-date: ''
-entity-maximum: '0'
-entity-minimum: '0'
 entry-date: ''
 fields:
 - field: dataset
@@ -33,7 +31,7 @@ prefix: ''
 start-date: ''
 themes:
 - specification
-typology: value
+typology: entity
 wikidata: ''
 wikipedia: ''
 ---

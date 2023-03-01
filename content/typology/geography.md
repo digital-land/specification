@@ -1,6 +1,5 @@
 ---
-description: geographical boundary, extent, zone or other area with a geometry and
-  a point
+description: geographical boundary, extent, zone or other area with a geometry and a point
 end-date: ''
 entry-date: ''
 name: Geography
