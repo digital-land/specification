@@ -54,7 +54,7 @@ This dataset combines data provided by the GLA with the boundary from the indivi
 historic-england,historic-england,certificate-of-immunity,,,,,2300000,2399999,ogl3,Certificate of immunity,"{ ""colour"": ""#D8760D"" }",Certificates of immunity,,,,heritage,geography,Q5065092,Certificate_of_Immunity_from_Listing
 crown-copyright,,checksum,Checksums of dataset files and other media,,,,,,ogl3,Checksum,,Checksums,,,,specification,specification,,
 crown-copyright,,coastal-change-management-area,,,,,2400000,2499999,ogl3,Coastal change management area,,Coastal change management areas,,,,environment,geography,,
-crown-copyright,,collection,A collection of resources collected from various sources,,,,2500000,2599999,ogl3,Collection,,Collections,,,,specification,specification,,
+crown-copyright,,collection,A collection of resources collected from various sources,,,,,,ogl3,Collection,,Collections,,,,specification,specification,,
 crown-copyright,,column-field,Log of resource columns mapped to dataset fields,,,,,,ogl3,Column field,,Column fields,,,"This table records the column names found in collected resources, and the field names they have been mapped to during processing.",specification,specification,,
 crown-copyright,,column,Map resource column name to dataset field,,,,,,ogl3,Pipeline column,,Pipeline columns,,,,specification;pipeline,specification,,
 crown-copyright,,combine,Combine a series of facts from multiple entries,,,,,,ogl3,Pipeline combine facts,,Pipeline combine facts,,,,specification;pipeline,specification,,
@@ -81,7 +81,7 @@ crown-copyright,,dataset-schema,,,,,16700000,16799999,ogl3,Dataset schema,,Datas
 crown-copyright,,dataset,A collection of entities of the same type,,,,4000000,4099999,ogl3,Dataset,,Datasets,,,,specification,specification,Q1172284,Data_set
 crown-copyright,,datatype,,,,,4100000,4199999,ogl3,Datatype,,Datatypes,,,,specification,specification,,
 crown-copyright,,default-value,provide a default value for a missing or empty field,,,,,,ogl3,Pipeline default value,,Pipleline default values,,,,specification;pipeline,specification,,
-crown-copyright,,default,Take a missing field default value from another field,,,,,,ogl3,Pipeline default value,,Pipleline default values,,,,specification;pipeline,specification,,
+crown-copyright,,default,Take a missing field default value from another field,,,,,,ogl3,Pipeline default field,,Pipleline default fields,,,,specification;pipeline,pipeline,,
 crown-copyright,design-code,design-code-area,,,,,627000,639999,ogl3,Design code area,,Design code areas,,,Geographical areas covered by a [design code](/dataset/design-code).,development,geography,,
 crown-copyright,design-code,design-code-category,,,,,640000,640999,ogl3,Design code category,,Design code categories,,,,development,category,,
 crown-copyright,design-code,design-code-rule,the set of design code rules affecting a design code area,,,,8700000,8799999,ogl3,Design code rule,,Design code rules,,,,heritage,category,,
@@ -107,7 +107,7 @@ crown-copyright,document,document-type,,,,,5700000,5799999,ogl3,Document type,,D
 crown-copyright,,document,,,,,5800000,5899999,ogl3,Document,,Documents,,,,development,document,Q49848,Document
 crown-copyright,,employment-allocation,,,,,5900000,5999999,ogl3,Employment allocation,,Employment allocations,,,,development,geography,,
 crown-copyright,,endpoint,,,,,6000000,6099999,ogl3,Endpoint,,Endpoints,,,,specification,specification,,
-crown-copyright,,entity,a data item,,,,0,0,ogl3,Entity,,Entities,,,,specification,value,,
+crown-copyright,,entity,a data item,,,,,,ogl3,Entity,,Entities,,,,specification,entity,,
 crown-copyright,,fact-resource,the provenance of a fact,,,,,,ogl3,Fact resource,,Fact resources,,,,specification,value,,
 crown-copyright,,fact,a field and its value for an entity,,,,0,0,ogl3,Fact,,Facts,,,,specification,value,,
 crown-copyright,,field,,,,,6200000,6299999,ogl3,Field,,Fields,,,,specification,specification,,
