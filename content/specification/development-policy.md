@@ -12,20 +12,11 @@ datasets:
       fields:
           - field: reference
           - field: name
-          - field: organisation
+          - field: organisations
           - field: development-plan-type
           - field: development-plan-status
           - field: documentation-url
           - field: document-url
-          - field: start-date
-          - field: end-date
-          - field: entry-date   
-    - dataset: development-plan-organisation
-      name: development plan organisation
-      fields:
-          - field: reference
-          - field: name
-          - field: organisations
           - field: start-date
           - field: end-date
           - field: entry-date   
