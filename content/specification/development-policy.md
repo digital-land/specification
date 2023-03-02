@@ -13,6 +13,8 @@ datasets:
           - field: reference
           - field: name
           - field: organisation
+          - field: development-plan-type
+          - field: development-plan-status
           - field: documentation-url
           - field: document-url
           - field: start-date
