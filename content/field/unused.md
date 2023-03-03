@@ -4,11 +4,11 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: 'Unused'
+field: 'unused'
 guidance: ''
 hint: ''
 name: Unused
-parent-field: ''
+parent-field: string
 replacement-field: ''
 start-date: ''
 typology: value
