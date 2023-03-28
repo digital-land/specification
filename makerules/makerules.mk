@@ -1,5 +1,3 @@
-SOURCE_URL=https://raw.githubusercontent.com/digital-land/
-
 # deduce the repository
 ifeq ($(REPOSITORY),)
 REPOSITORY=$(shell basename -s .git `git config --get remote.origin.url`)
@@ -8,19 +6,37 @@ endif
 ifeq ($(ENVIRONMENT),)
 ENVIRONMENT=production
 endif
+
+ifeq ($(SOURCE_URL),)
+SOURCE_URL=https://raw.githubusercontent.com/digital-land/
+endif
+
+ifeq ($(CONFIG_URL),)
+CONFIG_URL=https://raw.githubusercontent.com/digital-land/config/main/
+endif
+
+ifeq ($(COLLECTION_NAME),)
+COLLECTION_NAME=$(shell echo "$(REPOSITORY)"|sed 's/-collection$$//')
+endif
+
 ifeq ($(COLLECTION_DATASET_BUCKET_NAME),)
 COLLECTION_DATASET_BUCKET_NAME=digital-land-$(ENVIRONMENT)-collection-dataset
 endif
+
 ifeq ($(HOISTED_COLLECTION_DATASET_BUCKET_NAME),)
 HOISTED_COLLECTION_DATASET_BUCKET_NAME=digital-land-$(ENVIRONMENT)-collection-dataset-hoisted
 endif
+
 define dataset_url
 'https://$(COLLECTION_DATASET_BUCKET_NAME).s3.eu-west-2.amazonaws.com/$(2)-collection/dataset/$(1).sqlite3'
 endef
 
+
+
 .PHONY: \
 	makerules\
 	specification\
+	config\
 	init\
 	first-pass\
 	second-pass\
@@ -118,6 +134,10 @@ specification::
 
 init::	specification
 endif
+
+init:: config
+
+config::;
 
 commit-makerules::
 	git add makerules
