@@ -31,6 +31,9 @@ define dataset_url
 'https://$(COLLECTION_DATASET_BUCKET_NAME).s3.eu-west-2.amazonaws.com/$(2)-collection/dataset/$(1).sqlite3'
 endef
 
+ifeq ($(CACHE_DIR),)
+CACHE_DIR=var/cache/
+endif
 
 
 .PHONY: \
@@ -132,8 +135,14 @@ specification::
 	curl -qfsL '$(SOURCE_URL)/specification/main/specification/schema.csv' > specification/schema.csv
 	curl -qfsL '$(SOURCE_URL)/specification/main/specification/schema-field.csv' > specification/schema-field.csv
 
+
 init::	specification
 endif
+
+# local copy of organsiation datapackage
+$(CACHE_DIR)organisation.csv:
+	@mkdir -p $(CACHE_DIR)
+	curl -qfs "https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv" > $(CACHE_DIR)organisation.csv
 
 init:: config
 
