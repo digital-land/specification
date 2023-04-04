@@ -9,7 +9,7 @@ entity-minimum: '4900000'
 entry-date: ''
 fields:
 - field: description
-- field: document-type
+- field: development-policy-document-type
 - field: documentation-url
 - field: document-url
 - field: end-date
