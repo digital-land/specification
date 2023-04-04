@@ -61,6 +61,8 @@ crown-copyright,,combine,Combine a series of facts from multiple entries,,,,,,og
 crown-copyright,,common-land-and-village-green,,,,,2700000,2799999,ogl3,Common land and village green,,Common land and village greens,,,,heritage,geography,Q2259176,Common_land
 crown-copyright,,company,,,,,2800000,2899999,ogl3,Company,,Companies,,,,administrative,organisation,,
 crown-copyright,,concat,Concatenate fields during the harmonise phase,,,,,,ogl3,Pipeline concatenation,,Pipeline concatenations,,,,specification;pipeline,specification,,
+crown-copyright,,conservation-area-document-type,,,,,4210000,4210999,ogl3,Conservation area document type,,Conservation area document types,,,,heritage,category,,
+crown-copyright,conservation-area-document,conservation-area-document,,,,,6300000,6399999,ogl3,Conservation area document,,Conservation area documents,,,,heritage,document,,
 historic-england,conservation-area,conservation-area,"Special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",,,,44000000,44999999,ogl3,Conservation area,"{ ""colour"": ""#78AA00"" }",Conservation areas,,,"Local planning authorities are responsible for designating conservation areas, though [Historic England](https://historicengland.org.uk/) and the Secretary of State also have powers to create them.
 
 This dataset also contains the boundaries of conservation areas from Historic England, as well as other data found on [data.gov.uk](https://www.data.gov.uk/search?q=conservation+area) and currently contains a number of duplicate areas we are working to remove.
@@ -223,7 +225,6 @@ crown-copyright,,project-status,,,,,12200000,12299999,ogl3,Project status,,Proje
 crown-copyright,,project,,,,,12300000,12399999,ogl3,Project,,Projects,,,,specification,specification,,
 crown-copyright,,proposed-ramsar-site,,,,,12400000,12499999,ogl3,Proposed ramsar site,,Proposed ramsar sites,,,,environment,geography,,
 crown-copyright,,protected-land,,,,,12500000,12599999,ogl3,Protected land,,Protected land,,,,heritage,geography,,
-crown-copyright,,protected-site-strategy,,,,,12600000,12699999,ogl3,Protected site strategy,,Protected site strategies,,,,environment,document,,
 crown-copyright,,protected-view,,,,,12700000,12799999,ogl3,Protected view,,Protected views,,,,heritage,geography,Q4118263,Protected_view
 historic-england,historic-england,protected-wreck-site,,,,,12800000,12899999,ogl3,Protected wreck site,"{ ""colour"": ""#0b0c0c"" }",Protected wreck sites,,,"Protected wrecks are records of wreck sites, documented losses and seabed archaeological features.  They can be protected by designation under the [Protection of Wrecks Act 1973](http://www.legislation.gov.uk/ukpga/1973/33), the [Ancient Monuments and Archaeological Areas Act 1979](http://www.legislation.gov.uk/ukpga/1979/46/contents) and the [Protection of Military Remains Act 1986](http://www.legislation.gov.uk/ukpga/1986/35/contents).
 
@@ -256,7 +257,6 @@ crown-copyright,,schema,,,,,,,ogl3,Schema,,Schemas,,,,specification,specificatio
 crown-copyright,,self-and-custom-buildarea,,,,,14200000,14299999,ogl3,Self and custom build area,,Self and custom build areas,,,,housing,geography,,
 crown-copyright,,severity,severity of a log message or issue,,,,,,ogl3,Severity,,Severities,,,,specification,specification,,
 crown-copyright,site-category,site-category,,,,,14300000,14399999,ogl3,Site category,,Site categories,,,,development,category,,
-crown-copyright,,site-of-nature-conservation-importance,,,,,14400000,14499999,ogl3,Site of nature conservation importance,,Sites of nature conservation importance,,,,environment,document,,
 natural-england,site-of-special-scientific-interest,site-of-special-scientific-interest,,,,,14500000,14599999,ogl3,Site of special scientific interest,"{ ""colour"": ""#308fac"" }",Sites of special scientific interest,,,"Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology. 
 
 SSSIs are designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).

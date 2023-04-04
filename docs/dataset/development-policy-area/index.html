@@ -162,10 +162,19 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_development-policy-area"><a href="../../field/development-policy-area">development-policy-area</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">Development policy area</td>
+          <td class="govuk-table__cell" id="field_development-policies"><a href="../../field/development-policies">development-policies</a>
+          </td>
+          <td class="govuk-table__cell">Development policies</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_document-url"><a href="../../field/document-url">document-url</a>
+          </td>
+          <td class="govuk-table__cell">Document URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -184,15 +193,6 @@
           </td>
           <td class="govuk-table__cell">Entity</td>
           <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geography"><a href="../../field/geography">geography</a>
-          </td>
-          <td class="govuk-table__cell">Geography</td>
-          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -220,6 +220,33 @@
           </td>
           <td class="govuk-table__cell">Organisation</td>
           <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_point"><a href="../../field/point">point</a>
+          </td>
+          <td class="govuk-table__cell">Point</td>
+          <td class="govuk-table__cell"><a href="../../datatype/wkt">wkt</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
+          </td>
+          <td class="govuk-table__cell">CURIE prefix</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
+          </td>
+          <td class="govuk-table__cell">Reference</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -265,13 +292,17 @@
     <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../entity">Entity</a></li>
+      <li><a href="../development-policy">Development policy</a></li>
     
-      <li><a href="../geography">Geography</a></li>
+      <li><a href="../entity">Entity</a></li>
     
       <li><a href="../geometry">Geometry</a></li>
     
       <li><a href="../organisation">Organisation</a></li>
+    
+      <li><a href="../prefix">CURIE prefix</a></li>
+    
+      <li><a href="../reference">Reference</a></li>
     
     </ul>
     
