@@ -1,31 +1,31 @@
 ---
 attribution: crown-copyright
-collection: development-plan-document
-dataset: development-plan-document
+collection: development-plan
+dataset: development-plan
 description: ''
 end-date: ''
-entity-maximum: '4999999'
-entity-minimum: '4900000'
+entity-maximum: '4209999'
+entity-minimum: '4200000'
 entry-date: ''
 fields:
 - field: description
-- field: development-plan-document
-- field: development-plan-types
-- field: development-policies
-- field: document-url
+- field: development-plan-type
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geographies
+- field: reference
 - field: name
 - field: notes
-- field: organisations
+- field: period-start-date
+- field: period-end-date
+- field: organisation
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Development plan document
+name: Development plan
 paint-options: ''
-plural: Development plan documents
+plural: Development plans
 prefix: ''
 start-date: ''
 themes:

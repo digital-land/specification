@@ -4,6 +4,7 @@
 
 import sys
 import csv
+import ast
 from decimal import Decimal
 
 dialect = csv.excel
@@ -208,6 +209,37 @@ def check_projects():
                 )
 
 
+def check_specifications():
+    for specification, s in tables["specification"].items():
+        j = ast.literal_eval(s["json"])
+        for d in j:
+            dataset = d["dataset"]
+            if dataset not in tables["dataset"]:
+                warning(
+                    "specificaton '%s' has an unknown dataset '%s'"
+                    % (specification, dataset)
+                )
+            if "fields" not in d:
+                warning(
+                    "specificaton '%s' dataset '%s' has no fields"
+                    % (specification, dataset)
+                )
+            else:
+                for f in d["fields"]:
+                    field = f.get("dataset-field", f["field"])
+                    if field not in tables["field"]:
+                        warning(
+                            "specificaton '%s' dataset '%s' has unknown field '%s'"
+                            % (specification, dataset, field)
+                        )
+                    elif dataset in tables["dataset"] and field not in tables["dataset-field"].get(dataset, []):
+                        warning(
+                            "specificaton '%s' dataset '%s' field '%s' not in dataset '%s'"
+                            % (specification, dataset, field, dataset)
+                        )
+
+
+
 def check(table):
     if table not in tables["dataset"]:
         return error("no dataset for table %s" % (table))
@@ -282,6 +314,7 @@ if __name__ == "__main__":
     check_field_typology()
     check_datasets()
     check_projects()
+    check_specifications()
 
     if errors > 0:
         sys.exit(1)

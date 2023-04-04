@@ -13,7 +13,6 @@ datasets:
         - field: reference
           description: the <a href="#reference">reference</a> for the tree preservation order
         - field: name
-        - field: geometry
         - field: documentation-url
         - field: document-url
         - field: notes
@@ -51,6 +50,7 @@ datasets:
           description: the tree number or reference which appears in the preservation order
         - field: geometry
         - field: uprn
+          dataset-field: address
         - field: address-text
         - field: notes
         - field: start-date

@@ -12,11 +12,11 @@ datasets:
       fields:
           - field: reference
           - field: name
-          - field: organisations
+          - field: organisation
           - field: development-plan-type
-          - field: development-plan-status
           - field: documentation-url
-          - field: document-url
+          - field: period-start-date   
+          - field: period-end-date
           - field: start-date
           - field: end-date
           - field: entry-date   
@@ -28,6 +28,19 @@ datasets:
           - field: organisation
           - field: development-plan
           - field: development-plan-status
+          - field: period-start-date   
+          - field: period-end-date
+          - field: start-date
+          - field: end-date
+          - field: entry-date   
+    - dataset: development-policy-document
+      name: development policy document
+      fields:
+          - field: reference
+          - field: name
+          - field: organisation
+          - field: development-plan
+          - field: development-policy-document-type
           - field: documentation-url
           - field: document-url
           - field: start-date
@@ -39,7 +52,7 @@ datasets:
           - field: reference
           - field: name
           - field: organisation
-          - field: development-plan
+          - field: development-policy-document
           - field: development-policy-categories
           - field: start-date
           - field: end-date

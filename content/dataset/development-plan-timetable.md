@@ -8,14 +8,18 @@ entity-maximum: '5199999'
 entity-minimum: '5100000'
 entry-date: ''
 fields:
-- field: development-plan-document
+- field: development-plan
 - field: development-plan-status
 - field: end-date
 - field: entity
 - field: entry-date
+- field: name
 - field: notes
+- field: organisation
+- field: period-start-date
+- field: period-end-date
+- field: reference
 - field: start-date
-- field: development-plan-timetable
 key-field: ''
 licence: ogl3
 name: Development plan timetable
