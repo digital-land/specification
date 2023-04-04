@@ -9,10 +9,6 @@ entity-minimum: '1600000'
 entry-date: ''
 fields:
 - field: description
-- field: developer-agreement-type
-- field: development-plan-document
-- field: development-plan-types
-- field: development-policies
 - field: document
 - field: document-types
 - field: document-url
@@ -23,9 +19,10 @@ fields:
 - field: name
 - field: notes
 - field: organisations
+- field: prefix
+- field: reference
 - field: planning-application
 - field: start-date
-- field: biodiversity-net-gain-assessment
 key-field: ''
 licence: ogl3
 name: Biodiversity net gain assesment

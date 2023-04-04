@@ -16,6 +16,7 @@ fields:
 - field: name
 - field: notes
 - field: organisation
+- field: prefix
 - field: period-start-date
 - field: period-end-date
 - field: reference

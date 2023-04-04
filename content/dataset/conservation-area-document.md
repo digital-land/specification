@@ -1,16 +1,18 @@
 ---
 attribution: crown-copyright
-collection: development-plan
-dataset: development-plan
+collection: conservation-area-document
+dataset: conservation-area-document
 description: ''
 end-date: ''
-entity-maximum: '4209999'
-entity-minimum: '4200000'
+entity-maximum: '6399999'
+entity-minimum: '6300000'
 entry-date: ''
 fields:
 - field: description
-- field: development-plan-type
+- field: conservation-area 
+- field: conservation-area-document-type
 - field: documentation-url
+- field: document-url
 - field: end-date
 - field: entity
 - field: entry-date
@@ -18,20 +20,18 @@ fields:
 - field: reference
 - field: name
 - field: notes
-- field: period-start-date
-- field: period-end-date
 - field: organisation
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Development plan
+name: Conservation area document
 paint-options: ''
-plural: Development plans
+plural: Conservation area documents
 prefix: ''
 start-date: ''
 themes:
-- development
-typology: organisation
-wikidata: Q5266783
-wikipedia: Development_plan
+- heritage
+typology: document
+wikidata:
+wikipedia:
 ---

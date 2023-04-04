@@ -15,7 +15,9 @@ fields:
 - field: entity
 - field: entry-date
 - field: organisation
+- field: prefix
 - field: planning-application
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

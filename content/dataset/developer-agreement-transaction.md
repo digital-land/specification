@@ -16,6 +16,8 @@ fields:
 - field: entity
 - field: entry-date
 - field: organisation
+- field: prefix
+- field: reference
 - field: start-date
 - field: units
 key-field: ''

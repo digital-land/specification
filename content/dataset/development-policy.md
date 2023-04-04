@@ -9,14 +9,15 @@ entity-minimum: '5600000'
 entry-date: ''
 fields:
 - field: description
-- field: development-policy
+- field: development-policy-document
 - field: development-policy-categories
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geographies
 - field: name
 - field: notes
+- field: prefix
+- field: reference
 - field: organisation
 - field: start-date
 key-field: ''

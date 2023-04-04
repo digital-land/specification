@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: conservation-area
+field: development-policy-document
 guidance: ''
 hint: ''
-name: Conservation area
-parent-field: geography
+name: Development policy document
+parent-field: document
 replacement-field: ''
 start-date: ''
-typology: geography
+typology: document
 uri-template: ''
 wikidata-property: ''
 ---

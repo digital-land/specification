@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: site-of-nature-conservation-importance
+field: development-policy-document-type
 guidance: ''
 hint: ''
-name: Site of nature conservation importance
-parent-field: document
+name: Development document type
+parent-field: category
 replacement-field: ''
 start-date: ''
-typology: document
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---

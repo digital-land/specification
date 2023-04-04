@@ -1,30 +1,31 @@
 ---
 attribution: crown-copyright
 collection:
-dataset: development-policy-category
+dataset: conservation-area-document-type
 description: ''
 end-date: ''
-entity-maximum: '5499999'
-entity-minimum: '5400000'
+entity-maximum: '4210999'
+entity-minimum: '4210000'
 entry-date: ''
 fields:
 - field: end-date
 - field: entity
 - field: entry-date
 - field: name
+- field: notes
 - field: prefix
 - field: reference
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Development policy category
+name: Conservation area document type
 paint-options: ''
-plural: Development policy categories
+plural: Conservation area document types
 prefix: ''
 start-date: ''
 themes:
-- development
+- heritage
 typology: category
-wikidata: Q5962346
-wikipedia: Classification_(general_theory)
+wikidata: ''
+wikipedia: ''
 ---

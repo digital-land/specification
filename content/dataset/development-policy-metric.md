@@ -14,8 +14,11 @@ fields:
 - field: entity
 - field: entry-date
 - field: start-date
+- field: period-end-date
+- field: period-start-date
+- field: prefix
+- field: reference
 - field: value
-- field: development-policy-metric
 key-field: ''
 licence: ogl3
 name: Development policy metric

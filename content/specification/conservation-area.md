@@ -31,6 +31,8 @@ datasets:
         - field: document-url
           description: the URL of the document
         - field: document-type
+          dataset: conservation-area-document-type
+          dataset-field: conservation-area-document-type
           description: "the type of the conservation area document which MUST be one of the following values: 'area-appraisal', 'notice', or blank"
         - field: notes
         - field: start-date

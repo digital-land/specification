@@ -8,16 +8,19 @@ entity-maximum: '5399999'
 entity-minimum: '5300000'
 entry-date: ''
 fields:
+- field: development-policies
 - field: documentation-url
+- field: document-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geography
 - field: geometry
 - field: name
 - field: organisation
+- field: point
+- field: prefix
+- field: reference
 - field: start-date
-- field: development-policy-area
 key-field: ''
 licence: ogl3
 name: Development policy area

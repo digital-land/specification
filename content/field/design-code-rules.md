@@ -1,17 +1,17 @@
 ---
-cardinality: '1'
+cardinality: 'n'
 datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: protected-site-strategy
+field: design-code-rules
 guidance: ''
 hint: ''
-name: Protected site strategy
-parent-field: document
+name: Design code rule
+parent-field: design-code-rule
 replacement-field: ''
 start-date: ''
-typology: document
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---
