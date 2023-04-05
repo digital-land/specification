@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>
-    Development policy
+    Development plan
  | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
@@ -135,7 +135,7 @@ code.value {
   
     
     <li class="govuk-breadcrumbs__list-item" aria-current="page">
-    Development policy
+    Development plan
 </li>
     
   
@@ -150,7 +150,7 @@ code.value {
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Specification</span>
   <h1 class="govuk-heading-xl">
-    Development policy
+    Development plan
 </h1>
   </div>
 </div>
@@ -169,7 +169,7 @@ code.value {
 
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p class="govuk-body">
-    This specification defines the format for how a planning authority should provide information about Development policies as data.
+    This specification defines the format for how a planning authority should provide information about Development plans as data.
     </p>
     <p class="govuk-body">
     This technical specification is accompanied by guidance, examples and other tools providing feedback to data providers.
@@ -206,7 +206,7 @@ code.value {
 
     <h2 id="documentation-page" class="govuk-heading-m">Documentation page</h2>
     <p class="govuk-body">
-    A data provider MUST provide a list of all of the Development policies within its jurisdiction on a documentation page.
+    A data provider MUST provide a list of all of the Development plans within its jurisdiction on a documentation page.
     </p>
     <p class="govuk-body">
     The documentation page MUST be accessible as HTML from a public URL.
@@ -221,9 +221,11 @@ code.value {
     <ul class="govuk-list govuk-list--bullet">
 
     
-      <li>A hyperlink to the <a href="#development-policy-dataset">development policy</a> data</li>
+      <li>A hyperlink to the <a href="#development-plan-dataset">development plan</a> data</li>
     
-      <li>A hyperlink to the <a href="#development-policy-area-dataset">development policy area</a> data</li>
+      <li>A hyperlink to the <a href="#development-plan-timetable-dataset">development plan timetable</a> data</li>
+    
+      <li>A hyperlink to the <a href="#development-plan-document-dataset">development plan document</a> data</li>
     
 
     <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
@@ -235,10 +237,10 @@ code.value {
 
 
     <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
-    Development policy
+    Development plan
 </h3>
-    <p class="govuk-body">The development policy data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each development policy.</p>
+    <p class="govuk-body">The development plan data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each development plan.</p>
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
@@ -249,9 +251,13 @@ code.value {
     
     <li><code class="field">organisation</code> </li>
     
-    <li><code class="field">development-plan-document</code> </li>
+    <li><code class="field">development-plan-type</code> </li>
     
-    <li><code class="field">development-policy-categories</code> </li>
+    <li><code class="field">documentation-url</code> </li>
+    
+    <li><code class="field">period-start-date</code> </li>
+    
+    <li><code class="field">period-end-date</code> </li>
     
     <li><code class="field">start-date</code> </li>
     
@@ -264,10 +270,10 @@ code.value {
 
 
     <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
-    Development policy area
+    Development plan timetable
 </h3>
-    <p class="govuk-body">The development policy area data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each development policy area.</p>
+    <p class="govuk-body">The development plan timetable data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each development plan timetable.</p>
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
@@ -278,9 +284,42 @@ code.value {
     
     <li><code class="field">organisation</code> </li>
     
-    <li><code class="field">geometry</code> </li>
+    <li><code class="field">development-plan</code> </li>
     
-    <li><code class="field">development-policies</code> </li>
+    <li><code class="field">development-plan-event</code> </li>
+    
+    <li><code class="field">event-date</code> </li>
+    
+    <li><code class="field">start-date</code> </li>
+    
+    <li><code class="field">end-date</code> </li>
+    
+    <li><code class="field">entry-date</code> </li>
+    
+    </ul>
+
+
+
+    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
+    Development plan document
+</h3>
+    <p class="govuk-body">The development plan document data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each development plan document.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">name</code> </li>
+    
+    <li><code class="field">organisation</code> </li>
+    
+    <li><code class="field">development-plan-document-type</code> </li>
+    
+    <li><code class="field">documentation-url</code> </li>
+    
+    <li><code class="field">document-url</code> </li>
     
     <li><code class="field">start-date</code> </li>
     
@@ -326,8 +365,8 @@ code.value {
     <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
     <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
-    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the Development policy.</p>
-    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a Development policy when completing a form, or contacting a call centre.</p>
+    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the Development plan.</p>
+    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a Development plan when completing a form, or contacting a call centre.</p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
     <p class="govuk-body">
