@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: development-plan-document
+collection: ''
 dataset: development-plan-document
 description: ''
 end-date: ''

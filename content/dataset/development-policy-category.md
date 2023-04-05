@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 dataset: development-policy-category
 description: ''
 end-date: ''
