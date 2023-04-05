@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
-collection: development-policy-document
-dataset: development-policy-document
+collection: development-plan-document
+dataset: development-plan-document
 description: ''
 end-date: ''
 entity-maximum: '4999999'
@@ -10,7 +10,7 @@ entry-date: ''
 fields:
 - field: description
 - field: development-plan
-- field: development-policy-document-type
+- field: development-plan-document-type
 - field: documentation-url
 - field: document-url
 - field: end-date
@@ -24,9 +24,9 @@ fields:
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Development policy document
+name: Development plan document
 paint-options: ''
-plural: Development policy documents
+plural: Development plan documents
 prefix: ''
 start-date: ''
 themes:

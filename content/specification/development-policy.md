@@ -5,54 +5,15 @@ plural: Development policies
 specification-status: working-draft
 start-date: ''
 end-date: ''
-entry-date: '2023-03-01'
+entry-date: '2023-04-05'
 datasets:
-    - dataset: development-plan
-      name: development plan
-      fields:
-          - field: reference
-          - field: name
-          - field: organisation
-          - field: development-plan-type
-          - field: documentation-url
-          - field: period-start-date   
-          - field: period-end-date
-          - field: start-date
-          - field: end-date
-          - field: entry-date   
-    - dataset: development-plan-timetable
-      name: development plan timetable
-      fields:
-          - field: reference
-          - field: name
-          - field: organisation
-          - field: development-plan
-          - field: development-plan-status
-          - field: period-start-date   
-          - field: period-end-date
-          - field: start-date
-          - field: end-date
-          - field: entry-date   
-    - dataset: development-policy-document
-      name: development policy document
-      fields:
-          - field: reference
-          - field: name
-          - field: organisation
-          - field: development-plan
-          - field: development-policy-document-type
-          - field: documentation-url
-          - field: document-url
-          - field: start-date
-          - field: end-date
-          - field: entry-date   
     - dataset: development-policy
       name: development policy
       fields:
           - field: reference
           - field: name
           - field: organisation
-          - field: development-policy-document
+          - field: development-plan-document
           - field: development-policy-categories
           - field: start-date
           - field: end-date

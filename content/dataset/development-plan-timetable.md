@@ -9,16 +9,15 @@ entity-minimum: '5100000'
 entry-date: ''
 fields:
 - field: development-plan
-- field: development-plan-status
+- field: development-plan-event
 - field: end-date
 - field: entity
 - field: entry-date
+- field: event-date
 - field: name
 - field: notes
 - field: organisation
 - field: prefix
-- field: period-start-date
-- field: period-end-date
 - field: reference
 - field: start-date
 key-field: ''

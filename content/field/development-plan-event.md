@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: development-policy-document
+field: development-plan-event
 guidance: ''
 hint: ''
-name: Development policy document
-parent-field: document
+name: Development plan event
+parent-field: category
 replacement-field: ''
 start-date: ''
-typology: document
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---
