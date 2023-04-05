@@ -1,6 +1,7 @@
 ---
 title: Mermaid style schema diagram of development-plan spec
 ---
+```mermaid
 erDiagram
     organisation {
         string reference
@@ -43,3 +44,4 @@ erDiagram
     organisation ||--o{ development-plan : creates
     development-plan ||--o{ development-plan-timetable : has
     development-plan ||--o{ supporting-document : includes
+```
