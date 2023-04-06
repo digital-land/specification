@@ -38,6 +38,7 @@ datasets:
           - field: reference
           - field: name
           - field: organisation
+          - field: development-plan
           - field: development-plan-document-type
           - field: documentation-url
           - field: document-url
