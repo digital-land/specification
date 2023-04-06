@@ -223,6 +223,10 @@ code.value {
     
       <li>A hyperlink to the <a href="#developer-agreement-dataset">developer-agreement</a> data</li>
     
+      <li>A hyperlink to the <a href="#developer-agreement-contribution-dataset">developer-agreement-contribution</a> data</li>
+    
+      <li>A hyperlink to the <a href="#developer-agreement-transaction-dataset">developer-agreement-transaction</a> data</li>
+    
 
     <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
     <li>Any attribution needed when using the data, for example [<a href="#crown-copyright">Crown Copyright</a>].</li>
@@ -240,6 +244,86 @@ code.value {
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">name</code> </li>
+    
+    <li><code class="field">developer-agreement-type</code> </li>
+    
+    <li><code class="field">planning-application</code> </li>
+    
+    <li><code class="field">document-url</code> </li>
+    
+    <li><code class="field">organisation</code> </li>
+    
+    <li><code class="field">entry-date</code> </li>
+    
+    <li><code class="field">start-date</code> </li>
+    
+    <li><code class="field">end-date</code> </li>
+    
+    </ul>
+
+
+
+    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
+    Developer-agreement-contribution
+</h3>
+    <p class="govuk-body">The developer-agreement-contribution data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each developer-agreement-contribution.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">developer-agreement</code> </li>
+    
+    <li><code class="field">contribution-purpose</code> </li>
+    
+    <li><code class="field">amount</code> </li>
+    
+    <li><code class="field">units</code> </li>
+    
+    <li><code class="field">organisation</code> </li>
+    
+    <li><code class="field">entry-date</code> </li>
+    
+    <li><code class="field">start-date</code> </li>
+    
+    <li><code class="field">end-date</code> </li>
+    
+    </ul>
+
+
+
+    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
+    Developer-agreement-transaction
+</h3>
+    <p class="govuk-body">The developer-agreement-transaction data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each developer-agreement-transaction.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">contribution-funding-status</code> </li>
+    
+    <li><code class="field">amount</code> </li>
+    
+    <li><code class="field">units</code> </li>
+    
+    <li><code class="field">developer-agreement-contribution</code> </li>
+    
+    <li><code class="field">organisation</code> </li>
+    
+    <li><code class="field">entry-date</code> </li>
+    
+    <li><code class="field">start-date</code> </li>
+    
+    <li><code class="field">end-date</code> </li>
     
     </ul>
 
