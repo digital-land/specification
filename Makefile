@@ -134,4 +134,15 @@ commit-specification::
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt specification $(shell date +%F)"; git push origin $(BRANCH))
 
 clean clobber::
-	rm -f specification/*.csv
+	rm -f specification/*.csv 
+
+# generate mermaid diagrams
+MERMAID_MD=$(subst content/specification/,mermaid/,$(SPECIFICATION_MD))
+second-pass:: $(MERMAID_MD)
+
+mermaid/%.md:	content/specification/%.md
+	@mkdir -p mermaid/
+	python3 bin/specification-mermaid.py $< > $@
+
+clobber::
+	rm -rf mermaid/
