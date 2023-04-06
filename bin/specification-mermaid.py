@@ -18,15 +18,15 @@ print("erDiagram")
 datasets = [d["dataset"] for d in row["datasets"]]
 
 for d in row["datasets"]:
-    print(f'{d["dataset"]} {{')
+    print(f'    {d["dataset"]} {{')
     for f in d["fields"]:
-        print(f'    {f["field"]}')
+        print(f'        {f["field"]}')
         if f["field"] in datasets:
             links.append({"from": d["dataset"], "to": f["field"], "line": "|--o{"})
 
-    print('}')
+    print("    }")
 
 for l in links:
-    print(l["from"], l["line"], l["to"])
+    print(f'    {l["from"]} {l["line"]} {l["to"]}')
 
 print("```")
