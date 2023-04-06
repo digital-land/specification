@@ -25,9 +25,9 @@ erDiagram
         url documentation-url
         url document-url
         string notes
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     design-code-rule {
         string reference
@@ -38,9 +38,9 @@ erDiagram
         url documentation-url
         url document-url
         string notes
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     design-code-area ||--o{ design-code : references
     design-code-rule ||--o{ design-code : references

@@ -6,21 +6,21 @@ erDiagram
     development-policy {
         string reference
         string name
-        string organisation
         string development-plan-document
         string development-policy-categories
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     development-policy-area {
         string reference
         string name
-        string organisation
         string geometry
         string development-policies
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
 ```

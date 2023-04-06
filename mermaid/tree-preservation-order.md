@@ -9,9 +9,10 @@ erDiagram
         url documentation-url
         url document-url
         string notes
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     tree-preservation-zone {
         string reference
@@ -19,9 +20,10 @@ erDiagram
         string tree-preservation-order
         string geometry
         string notes
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     tree {
         string reference
@@ -33,9 +35,10 @@ erDiagram
         string uprn
         string address-text
         string notes
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     tree-preservation-zone ||--o{ tree-preservation-order : references
     tree ||--o{ tree-preservation-order : references

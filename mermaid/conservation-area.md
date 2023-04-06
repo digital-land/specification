@@ -6,12 +6,13 @@ erDiagram
     conservation-area {
         string reference
         string name
-        string geometry
         url documentation-url
+        string geometry
         string notes
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     conservation-area-document {
         string reference
@@ -21,9 +22,10 @@ erDiagram
         url document-url
         string document-type
         string notes
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
     conservation-area-document ||--o{ conservation-area : references
 ```

@@ -6,13 +6,14 @@ erDiagram
     listed-building-outline {
         string reference
         string name
-        string geometry
         string listed-building
         string listed-building-grade
         url document-url
         string notes
+        string geometry
+        string organisation
+        date entry-date
         date start-date
         date end-date
-        date entry-date
     }
 ```
