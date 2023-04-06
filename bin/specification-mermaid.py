@@ -32,8 +32,8 @@ for d in row["datasets"]:
                 {
                     "from": d["dataset"],
                     "to": f["field"],
-                    "line": "|--o{",
-                    "reference": "cites",
+                    "line": "||--o{",
+                    "reference": "references",
                 }
             )
 
