@@ -30,7 +30,7 @@ erDiagram
         string reference
         string name
         ref development-plan
-        string development-plan-document-type
+        string document-type
         url documentation-url
         url document-url
         string organisation

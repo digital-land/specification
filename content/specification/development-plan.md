@@ -27,6 +27,7 @@ datasets:
           - field: name
           - field: development-plan
           - field: development-plan-event
+            reference: development-plan-event
           - field: event-date
           - field: organisation
           - field: entry-date   
@@ -38,7 +39,8 @@ datasets:
           - field: reference
           - field: name
           - field: development-plan
-          - field: development-plan-document-type
+          - field: document-type
+            dataset: development-plan-document-type
           - field: documentation-url
           - field: document-url
           - field: organisation
