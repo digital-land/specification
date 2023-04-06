@@ -3,28 +3,28 @@ title: Brownfield land datasets
 ---
 ```mermaid
 erDiagram
-brownfield-land {
-    Deliverable
-    EndDate
-    FirstAddedDate
-    GeoX
-    GeoY
-    HazardousSubstances
-    Hectares
-    LastUpdatedDate
-    MinNetDwellings
-    NetDwellingsRangeFrom
-    NetDwellingsRangeTo
-    Notes
-    OrganisationLabel
-    OrganisationURI
-    OwnershipStatus
-    PermissionDate
-    PermissionType
-    PlanningHistory
-    PlanningStatus
-    SiteNameAddress
-    SiteReference
-    SiteplanURL
-}
+    brownfield-land {
+        Deliverable
+        EndDate
+        FirstAddedDate
+        GeoX
+        GeoY
+        HazardousSubstances
+        Hectares
+        LastUpdatedDate
+        MinNetDwellings
+        NetDwellingsRangeFrom
+        NetDwellingsRangeTo
+        Notes
+        OrganisationLabel
+        OrganisationURI
+        OwnershipStatus
+        PermissionDate
+        PermissionType
+        PlanningHistory
+        PlanningStatus
+        SiteNameAddress
+        SiteReference
+        SiteplanURL
+    }
 ```
