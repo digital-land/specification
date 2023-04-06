@@ -12,13 +12,14 @@ datasets:
         - field: reference
         - field: name
           description: the official name for the conservation area
-        - field: geometry
         - field: documentation-url
           description: an optional URL of a document providing the authoritive source of the boundary. For example a PDF containing a map of the area indicated with a red-line boundary.
+        - field: geometry
         - field: notes
+        - field: organisation
+        - field: entry-date
         - field: start-date
         - field: end-date
-        - field: entry-date
     - dataset: conservation-area-document
       fields:
         - field: reference
@@ -35,7 +36,8 @@ datasets:
           dataset-field: conservation-area-document-type
           description: "the type of the conservation area document which MUST be one of the following values: 'area-appraisal', 'notice', or blank"
         - field: notes
+        - field: organisation
+        - field: entry-date
         - field: start-date
         - field: end-date
-        - field: entry-date
 ---

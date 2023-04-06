@@ -12,21 +12,21 @@ datasets:
       fields:
           - field: reference
           - field: name
-          - field: organisation
           - field: development-plan-document
           - field: development-policy-categories
+          - field: organisation
+          - field: entry-date   
           - field: start-date
           - field: end-date
-          - field: entry-date   
     - dataset: development-policy-area
       name: development policy area
       fields:
           - field: reference
           - field: name
-          - field: organisation
           - field: geometry
           - field: development-policies
+          - field: organisation
+          - field: entry-date   
           - field: start-date
           - field: end-date
-          - field: entry-date   
 ---

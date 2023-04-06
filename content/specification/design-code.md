@@ -46,9 +46,9 @@ datasets:
         - field: documentation-url
         - field: document-url
         - field: notes
+        - field: entry-date
         - field: start-date
         - field: end-date
-        - field: entry-date
     - dataset: design-code-rule
       name: design code rule
       fields:
@@ -61,7 +61,7 @@ datasets:
         - field: documentation-url
         - field: document-url
         - field: notes
+        - field: entry-date
         - field: start-date
         - field: end-date
-        - field: entry-date
 ---

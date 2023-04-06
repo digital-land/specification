@@ -12,37 +12,37 @@ datasets:
       fields:
           - field: reference
           - field: name
-          - field: organisation
           - field: development-plan-type
-          - field: documentation-url
           - field: period-start-date   
           - field: period-end-date
+          - field: documentation-url
+          - field: organisation
+          - field: entry-date   
           - field: start-date
           - field: end-date
-          - field: entry-date   
     - dataset: development-plan-timetable
       name: development plan timetable
       fields:
           - field: reference
           - field: name
-          - field: organisation
           - field: development-plan
           - field: development-plan-event
           - field: event-date
+          - field: organisation
+          - field: entry-date   
           - field: start-date
           - field: end-date
-          - field: entry-date   
     - dataset: development-plan-document
       name: development plan document
       fields:
           - field: reference
           - field: name
-          - field: organisation
           - field: development-plan
           - field: development-plan-document-type
           - field: documentation-url
           - field: document-url
+          - field: organisation
+          - field: entry-date   
           - field: start-date
           - field: end-date
-          - field: entry-date   
 ---
