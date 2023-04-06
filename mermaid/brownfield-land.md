@@ -25,6 +25,6 @@ erDiagram
         string PlanningStatus
         string SiteNameAddress
         string SiteReference
-        string SiteplanURL
+        url SiteplanURL
     }
 ```

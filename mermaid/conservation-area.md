@@ -7,7 +7,7 @@ erDiagram
         string reference
         string name
         url documentation-url
-        string geometry
+        wkt geometry
         string notes
         string organisation
         date entry-date
@@ -16,7 +16,7 @@ erDiagram
     }
     conservation-area-document {
         string reference
-        string conservation-area
+        ref conservation-area
         string name
         url documentation-url
         url document-url

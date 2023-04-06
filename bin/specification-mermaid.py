@@ -22,8 +22,12 @@ for d in row["datasets"]:
     for f in d["fields"]:
         if f["field"].endswith("-date"):
             type = "date"
-        elif f["field"].endswith("-url"):
+        elif f["field"].endswith("-url") or f["field"].endswith("URL"):
             type = "url"
+        elif f["field"] in ["point", "geometry"]:
+            type = "wkt"
+        elif f["field"] in datasets and f["field"] != d["dataset"]:
+            type = "ref"
         else:
             type = "string"
         print(f'        {type} {f["field"]}')

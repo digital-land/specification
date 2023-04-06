@@ -10,7 +10,7 @@ erDiagram
         string listed-building-grade
         url document-url
         string notes
-        string geometry
+        wkt geometry
         string organisation
         date entry-date
         date start-date

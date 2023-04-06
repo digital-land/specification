@@ -16,7 +16,7 @@ erDiagram
     }
     developer-agreement-contribution {
         string reference
-        string developer-agreement
+        ref developer-agreement
         string contribution-purpose
         string amount
         string units
@@ -30,7 +30,7 @@ erDiagram
         string contribution-funding-status
         string amount
         string units
-        string developer-agreement-contribution
+        ref developer-agreement-contribution
         string organisation
         date entry-date
         date start-date

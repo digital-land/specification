@@ -18,7 +18,7 @@ erDiagram
     development-plan-timetable {
         string reference
         string name
-        string development-plan
+        ref development-plan
         string development-plan-event
         date event-date
         string organisation
@@ -29,7 +29,7 @@ erDiagram
     development-plan-document {
         string reference
         string name
-        string development-plan
+        ref development-plan
         string development-plan-document-type
         url documentation-url
         url document-url

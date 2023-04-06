@@ -17,8 +17,8 @@ erDiagram
     tree-preservation-zone {
         string reference
         string name
-        string tree-preservation-order
-        string geometry
+        ref tree-preservation-order
+        wkt geometry
         string notes
         string organisation
         date entry-date
@@ -28,10 +28,10 @@ erDiagram
     tree {
         string reference
         string name
-        string point
-        string tree-preservation-order
+        wkt point
+        ref tree-preservation-order
         string tree-preservation-order-tree
-        string geometry
+        wkt geometry
         string uprn
         string address-text
         string notes

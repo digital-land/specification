@@ -20,8 +20,8 @@ erDiagram
     design-code-area {
         string reference
         string name
-        string geometry
-        string design-code
+        wkt geometry
+        ref design-code
         url documentation-url
         url document-url
         string notes
@@ -32,8 +32,8 @@ erDiagram
     design-code-rule {
         string reference
         string name
-        string geometry
-        string design-code
+        wkt geometry
+        ref design-code
         string description
         url documentation-url
         url document-url

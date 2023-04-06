@@ -18,11 +18,11 @@ erDiagram
     article-4-direction-area {
         string reference
         string name
-        string article-4-direction
+        ref article-4-direction
         string article-4-direction-rules
         string uprn
         string address-text
-        string geometry
+        wkt geometry
         url document-url
         string notes
         string organisation
