@@ -140,7 +140,7 @@ clean clobber::
 MERMAID_MD=$(subst content/specification/,mermaid/,$(SPECIFICATION_MD))
 second-pass:: $(MERMAID_MD)
 
-mermaid/%.md:	content/specification/%.md
+mermaid/%.md:	content/specification/%.md bin/specification-mermaid.py
 	@mkdir -p mermaid/
 	python3 bin/specification-mermaid.py $< > $@
 
