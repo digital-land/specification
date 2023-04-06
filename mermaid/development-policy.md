@@ -4,23 +4,23 @@ title: Development policy datasets
 ```mermaid
 erDiagram
     development-policy {
-        reference
-        name
-        organisation
-        development-plan-document
-        development-policy-categories
-        start-date
-        end-date
-        entry-date
+        string reference
+        string name
+        string organisation
+        string development-plan-document
+        string development-policy-categories
+        date start-date
+        date end-date
+        date entry-date
     }
     development-policy-area {
-        reference
-        name
-        organisation
-        geometry
-        development-policies
-        start-date
-        end-date
-        entry-date
+        string reference
+        string name
+        string organisation
+        string geometry
+        string development-policies
+        date start-date
+        date end-date
+        date entry-date
     }
 ```

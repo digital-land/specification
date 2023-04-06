@@ -4,27 +4,27 @@ title: Brownfield land datasets
 ```mermaid
 erDiagram
     brownfield-land {
-        Deliverable
-        EndDate
-        FirstAddedDate
-        GeoX
-        GeoY
-        HazardousSubstances
-        Hectares
-        LastUpdatedDate
-        MinNetDwellings
-        NetDwellingsRangeFrom
-        NetDwellingsRangeTo
-        Notes
-        OrganisationLabel
-        OrganisationURI
-        OwnershipStatus
-        PermissionDate
-        PermissionType
-        PlanningHistory
-        PlanningStatus
-        SiteNameAddress
-        SiteReference
-        SiteplanURL
+        string Deliverable
+        string EndDate
+        string FirstAddedDate
+        string GeoX
+        string GeoY
+        string HazardousSubstances
+        string Hectares
+        string LastUpdatedDate
+        string MinNetDwellings
+        string NetDwellingsRangeFrom
+        string NetDwellingsRangeTo
+        string Notes
+        string OrganisationLabel
+        string OrganisationURI
+        string OwnershipStatus
+        string PermissionDate
+        string PermissionType
+        string PlanningHistory
+        string PlanningStatus
+        string SiteNameAddress
+        string SiteReference
+        string SiteplanURL
     }
 ```

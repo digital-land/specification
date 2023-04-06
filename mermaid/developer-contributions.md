@@ -4,38 +4,38 @@ title: Developer contributions datasets
 ```mermaid
 erDiagram
     developer-agreement {
-        reference
-        name
-        developer-agreement-type
-        planning-application
-        document-url
-        organisation
-        entry-date
-        start-date
-        end-date
+        string reference
+        string name
+        string developer-agreement-type
+        string planning-application
+        url document-url
+        string organisation
+        date entry-date
+        date start-date
+        date end-date
     }
     developer-agreement-contribution {
-        reference
-        developer-agreement
-        contribution-purpose
-        amount
-        units
-        organisation
-        entry-date
-        start-date
-        end-date
+        string reference
+        string developer-agreement
+        string contribution-purpose
+        string amount
+        string units
+        string organisation
+        date entry-date
+        date start-date
+        date end-date
     }
     developer-agreement-transaction {
-        reference
-        contribution-funding-status
-        amount
-        units
-        developer-agreement-contribution
-        organisation
-        entry-date
-        start-date
-        end-date
+        string reference
+        string contribution-funding-status
+        string amount
+        string units
+        string developer-agreement-contribution
+        string organisation
+        date entry-date
+        date start-date
+        date end-date
     }
-    developer-agreement-contribution |--o{ developer-agreement
-    developer-agreement-transaction |--o{ developer-agreement-contribution
+    developer-agreement-contribution |--o{ developer-agreement : cites
+    developer-agreement-transaction |--o{ developer-agreement-contribution : cites
 ```

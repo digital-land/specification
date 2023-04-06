@@ -4,44 +4,44 @@ title: Design code datasets
 ```mermaid
 erDiagram
     design-code {
-        reference
-        name
-        description
-        design-code-status
-        design-code-categories
-        design-code-rules
-        documentation-url
-        document-url
-        notes
-        start-date
-        end-date
-        entry-date
+        string reference
+        string name
+        string description
+        string design-code-status
+        string design-code-categories
+        string design-code-rules
+        url documentation-url
+        url document-url
+        string notes
+        date start-date
+        date end-date
+        date entry-date
     }
     design-code-area {
-        reference
-        name
-        geometry
-        design-code
-        documentation-url
-        document-url
-        notes
-        start-date
-        end-date
-        entry-date
+        string reference
+        string name
+        string geometry
+        string design-code
+        url documentation-url
+        url document-url
+        string notes
+        date start-date
+        date end-date
+        date entry-date
     }
     design-code-rule {
-        reference
-        name
-        geometry
-        design-code
-        description
-        documentation-url
-        document-url
-        notes
-        start-date
-        end-date
-        entry-date
+        string reference
+        string name
+        string geometry
+        string design-code
+        string description
+        url documentation-url
+        url document-url
+        string notes
+        date start-date
+        date end-date
+        date entry-date
     }
-    design-code-area |--o{ design-code
-    design-code-rule |--o{ design-code
+    design-code-area |--o{ design-code : cites
+    design-code-rule |--o{ design-code : cites
 ```

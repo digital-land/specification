@@ -4,26 +4,26 @@ title: Conservation area datasets
 ```mermaid
 erDiagram
     conservation-area {
-        reference
-        name
-        geometry
-        documentation-url
-        notes
-        start-date
-        end-date
-        entry-date
+        string reference
+        string name
+        string geometry
+        url documentation-url
+        string notes
+        date start-date
+        date end-date
+        date entry-date
     }
     conservation-area-document {
-        reference
-        conservation-area
-        name
-        documentation-url
-        document-url
-        document-type
-        notes
-        start-date
-        end-date
-        entry-date
+        string reference
+        string conservation-area
+        string name
+        url documentation-url
+        url document-url
+        string document-type
+        string notes
+        date start-date
+        date end-date
+        date entry-date
     }
-    conservation-area-document |--o{ conservation-area
+    conservation-area-document |--o{ conservation-area : cites
 ```
