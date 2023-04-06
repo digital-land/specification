@@ -37,6 +37,6 @@ erDiagram
         date end-date
         date entry-date
     }
-    tree-preservation-zone |--o{ tree-preservation-order : cites
-    tree |--o{ tree-preservation-order : cites
+    tree-preservation-zone ||--o{ tree-preservation-order : references
+    tree ||--o{ tree-preservation-order : references
 ```

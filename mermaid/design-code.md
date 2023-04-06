@@ -42,6 +42,6 @@ erDiagram
         date end-date
         date entry-date
     }
-    design-code-area |--o{ design-code : cites
-    design-code-rule |--o{ design-code : cites
+    design-code-area ||--o{ design-code : references
+    design-code-rule ||--o{ design-code : references
 ```

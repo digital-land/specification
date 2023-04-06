@@ -28,5 +28,5 @@ erDiagram
         date end-date
         date entry-date
     }
-    article-4-direction-area |--o{ article-4-direction : cites
+    article-4-direction-area ||--o{ article-4-direction : references
 ```

@@ -38,6 +38,6 @@ erDiagram
         date end-date
         date entry-date
     }
-    development-plan-timetable |--o{ development-plan : cites
-    development-plan-document |--o{ development-plan : cites
+    development-plan-timetable ||--o{ development-plan : references
+    development-plan-document ||--o{ development-plan : references
 ```

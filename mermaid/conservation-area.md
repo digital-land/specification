@@ -25,5 +25,5 @@ erDiagram
         date end-date
         date entry-date
     }
-    conservation-area-document |--o{ conservation-area : cites
+    conservation-area-document ||--o{ conservation-area : references
 ```

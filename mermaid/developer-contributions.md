@@ -36,6 +36,6 @@ erDiagram
         date start-date
         date end-date
     }
-    developer-agreement-contribution |--o{ developer-agreement : cites
-    developer-agreement-transaction |--o{ developer-agreement-contribution : cites
+    developer-agreement-contribution ||--o{ developer-agreement : references
+    developer-agreement-transaction ||--o{ developer-agreement-contribution : references
 ```
