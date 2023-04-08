@@ -18,7 +18,7 @@ for row in csv.DictReader(open("specification/field.csv", newline="")):
     tables["field"][row["field"]] = row
 
 
-def field_datatype(dataset, field):
+def field_datatype(field):
     f = tables["field"][field]
 
     if f["replacement-field"]:
@@ -28,7 +28,7 @@ def field_datatype(dataset, field):
     if field in ["organisation", "geography"]:
         # references which also need the prefix
         datatype = "curie"
-    elif field in tables["dataset"] and field != dataset and field not in ["geometry"]:
+    elif field in tables["dataset"] and field not in ["reference", "geometry"]:
         # references which can default the prefix value, either from the field or within the organisation
         datatype = "reference"
     else:
@@ -36,7 +36,7 @@ def field_datatype(dataset, field):
 
     # indicate cardinality with a *
     if f["cardinality"] == "n":
-        return field_datatype(dataset, f["parent-field"]) + "*"
+        return field_datatype(f["parent-field"]) + "*"
     else:
         return datatype
 
@@ -96,7 +96,7 @@ for d in row["datasets"]:
 
     for f in d["fields"]:
         field = f["field"]
-        datatype = field_datatype(dataset, field)
+        datatype = field_datatype(field)
 
         Y = Y + row_height
 
