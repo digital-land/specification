@@ -17,7 +17,7 @@ text.datatype{fill:#0b0c0c;}
 </marker>
 </defs>
 <path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 294 90 C 254.0 90 254.0 30 214 30"/>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 588 90 C 401.0 90 401.0 30 214 30"/>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 588 70 C 401.0 70 401.0 30 214 30"/>
 <g>
 <rect x="0" y="0" width="214" height="20" class="name"/>
 <text x="107" y="10" class="name">design-code</text>
@@ -127,16 +127,16 @@ text.datatype{fill:#0b0c0c;}
 <text x="755" y="50" class="datatype">string</text>
 <rect x="588" y="60" width="162" height="20" class="field"/>
 <rect x="750" y="60" width="52" height="20" class="datatype"/>
-<text x="593" y="70" class="field">geometry</text>
-<text x="755" y="70" class="datatype">wkt</text>
+<text x="593" y="70" class="field">design-code</text>
+<text x="755" y="70" class="datatype">reference</text>
 <rect x="588" y="80" width="162" height="20" class="field"/>
 <rect x="750" y="80" width="52" height="20" class="datatype"/>
-<text x="593" y="90" class="field">design-code</text>
-<text x="755" y="90" class="datatype">reference</text>
+<text x="593" y="90" class="field">description</text>
+<text x="755" y="90" class="datatype">string</text>
 <rect x="588" y="100" width="162" height="20" class="field"/>
 <rect x="750" y="100" width="52" height="20" class="datatype"/>
-<text x="593" y="110" class="field">description</text>
-<text x="755" y="110" class="datatype">string</text>
+<text x="593" y="110" class="field">geometry</text>
+<text x="755" y="110" class="datatype">wkt</text>
 <rect x="588" y="120" width="162" height="20" class="field"/>
 <rect x="750" y="120" width="52" height="20" class="datatype"/>
 <text x="593" y="130" class="field">documentation-url</text>

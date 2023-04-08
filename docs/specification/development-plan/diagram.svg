@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="802" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" width="802" height="260">
 <defs>
 <style>
 text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
@@ -17,7 +17,7 @@ text.datatype{fill:#0b0c0c;}
 </marker>
 </defs>
 <path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 294 70 C 254.0 70 254.0 30 214 30"/>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 588 70 C 401.0 70 401.0 30 214 30"/>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 588 90 C 401.0 90 401.0 30 214 30"/>
 <g>
 <rect x="0" y="0" width="214" height="20" class="name"/>
 <text x="107" y="10" class="name">development-plan</text>
@@ -31,36 +31,44 @@ text.datatype{fill:#0b0c0c;}
 <text x="167" y="50" class="datatype">string</text>
 <rect x="0" y="60" width="162" height="20" class="field"/>
 <rect x="162" y="60" width="52" height="20" class="datatype"/>
-<text x="5" y="70" class="field">development-plan-type</text>
+<text x="5" y="70" class="field">description</text>
 <text x="167" y="70" class="datatype">string</text>
 <rect x="0" y="80" width="162" height="20" class="field"/>
 <rect x="162" y="80" width="52" height="20" class="datatype"/>
-<text x="5" y="90" class="field">period-start-date</text>
-<text x="167" y="90" class="datatype">date</text>
+<text x="5" y="90" class="field">development-plan-type</text>
+<text x="167" y="90" class="datatype">string</text>
 <rect x="0" y="100" width="162" height="20" class="field"/>
 <rect x="162" y="100" width="52" height="20" class="datatype"/>
-<text x="5" y="110" class="field">period-end-date</text>
+<text x="5" y="110" class="field">period-start-date</text>
 <text x="167" y="110" class="datatype">date</text>
 <rect x="0" y="120" width="162" height="20" class="field"/>
 <rect x="162" y="120" width="52" height="20" class="datatype"/>
-<text x="5" y="130" class="field">documentation-url</text>
-<text x="167" y="130" class="datatype">url</text>
+<text x="5" y="130" class="field">period-end-date</text>
+<text x="167" y="130" class="datatype">date</text>
 <rect x="0" y="140" width="162" height="20" class="field"/>
 <rect x="162" y="140" width="52" height="20" class="datatype"/>
-<text x="5" y="150" class="field">organisation</text>
-<text x="167" y="150" class="datatype">string</text>
+<text x="5" y="150" class="field">documentation-url</text>
+<text x="167" y="150" class="datatype">url</text>
 <rect x="0" y="160" width="162" height="20" class="field"/>
 <rect x="162" y="160" width="52" height="20" class="datatype"/>
-<text x="5" y="170" class="field">entry-date</text>
-<text x="167" y="170" class="datatype">date</text>
+<text x="5" y="170" class="field">notes</text>
+<text x="167" y="170" class="datatype">string</text>
 <rect x="0" y="180" width="162" height="20" class="field"/>
 <rect x="162" y="180" width="52" height="20" class="datatype"/>
-<text x="5" y="190" class="field">start-date</text>
-<text x="167" y="190" class="datatype">date</text>
+<text x="5" y="190" class="field">organisation</text>
+<text x="167" y="190" class="datatype">string</text>
 <rect x="0" y="200" width="162" height="20" class="field"/>
 <rect x="162" y="200" width="52" height="20" class="datatype"/>
-<text x="5" y="210" class="field">end-date</text>
+<text x="5" y="210" class="field">entry-date</text>
 <text x="167" y="210" class="datatype">date</text>
+<rect x="0" y="220" width="162" height="20" class="field"/>
+<rect x="162" y="220" width="52" height="20" class="datatype"/>
+<text x="5" y="230" class="field">start-date</text>
+<text x="167" y="230" class="datatype">date</text>
+<rect x="0" y="240" width="162" height="20" class="field"/>
+<rect x="162" y="240" width="52" height="20" class="datatype"/>
+<text x="5" y="250" class="field">end-date</text>
+<text x="167" y="250" class="datatype">date</text>
 </g>
 <g>
 <rect x="294" y="0" width="214" height="20" class="name"/>
@@ -87,20 +95,24 @@ text.datatype{fill:#0b0c0c;}
 <text x="461" y="110" class="datatype">date</text>
 <rect x="294" y="120" width="162" height="20" class="field"/>
 <rect x="456" y="120" width="52" height="20" class="datatype"/>
-<text x="299" y="130" class="field">organisation</text>
+<text x="299" y="130" class="field">notes</text>
 <text x="461" y="130" class="datatype">string</text>
 <rect x="294" y="140" width="162" height="20" class="field"/>
 <rect x="456" y="140" width="52" height="20" class="datatype"/>
-<text x="299" y="150" class="field">entry-date</text>
-<text x="461" y="150" class="datatype">date</text>
+<text x="299" y="150" class="field">organisation</text>
+<text x="461" y="150" class="datatype">string</text>
 <rect x="294" y="160" width="162" height="20" class="field"/>
 <rect x="456" y="160" width="52" height="20" class="datatype"/>
-<text x="299" y="170" class="field">start-date</text>
+<text x="299" y="170" class="field">entry-date</text>
 <text x="461" y="170" class="datatype">date</text>
 <rect x="294" y="180" width="162" height="20" class="field"/>
 <rect x="456" y="180" width="52" height="20" class="datatype"/>
-<text x="299" y="190" class="field">end-date</text>
+<text x="299" y="190" class="field">start-date</text>
 <text x="461" y="190" class="datatype">date</text>
+<rect x="294" y="200" width="162" height="20" class="field"/>
+<rect x="456" y="200" width="52" height="20" class="datatype"/>
+<text x="299" y="210" class="field">end-date</text>
+<text x="461" y="210" class="datatype">date</text>
 </g>
 <g>
 <rect x="588" y="0" width="214" height="20" class="name"/>
@@ -115,35 +127,43 @@ text.datatype{fill:#0b0c0c;}
 <text x="755" y="50" class="datatype">string</text>
 <rect x="588" y="60" width="162" height="20" class="field"/>
 <rect x="750" y="60" width="52" height="20" class="datatype"/>
-<text x="593" y="70" class="field">development-plan</text>
-<text x="755" y="70" class="datatype">reference</text>
+<text x="593" y="70" class="field">description</text>
+<text x="755" y="70" class="datatype">string</text>
 <rect x="588" y="80" width="162" height="20" class="field"/>
 <rect x="750" y="80" width="52" height="20" class="datatype"/>
-<text x="593" y="90" class="field">document-type</text>
-<text x="755" y="90" class="datatype">string</text>
+<text x="593" y="90" class="field">development-plan</text>
+<text x="755" y="90" class="datatype">reference</text>
 <rect x="588" y="100" width="162" height="20" class="field"/>
 <rect x="750" y="100" width="52" height="20" class="datatype"/>
-<text x="593" y="110" class="field">documentation-url</text>
-<text x="755" y="110" class="datatype">url</text>
+<text x="593" y="110" class="field">document-type</text>
+<text x="755" y="110" class="datatype">string</text>
 <rect x="588" y="120" width="162" height="20" class="field"/>
 <rect x="750" y="120" width="52" height="20" class="datatype"/>
-<text x="593" y="130" class="field">document-url</text>
+<text x="593" y="130" class="field">documentation-url</text>
 <text x="755" y="130" class="datatype">url</text>
 <rect x="588" y="140" width="162" height="20" class="field"/>
 <rect x="750" y="140" width="52" height="20" class="datatype"/>
-<text x="593" y="150" class="field">organisation</text>
-<text x="755" y="150" class="datatype">string</text>
+<text x="593" y="150" class="field">document-url</text>
+<text x="755" y="150" class="datatype">url</text>
 <rect x="588" y="160" width="162" height="20" class="field"/>
 <rect x="750" y="160" width="52" height="20" class="datatype"/>
-<text x="593" y="170" class="field">entry-date</text>
-<text x="755" y="170" class="datatype">date</text>
+<text x="593" y="170" class="field">notes</text>
+<text x="755" y="170" class="datatype">string</text>
 <rect x="588" y="180" width="162" height="20" class="field"/>
 <rect x="750" y="180" width="52" height="20" class="datatype"/>
-<text x="593" y="190" class="field">start-date</text>
-<text x="755" y="190" class="datatype">date</text>
+<text x="593" y="190" class="field">organisation</text>
+<text x="755" y="190" class="datatype">string</text>
 <rect x="588" y="200" width="162" height="20" class="field"/>
 <rect x="750" y="200" width="52" height="20" class="datatype"/>
-<text x="593" y="210" class="field">end-date</text>
+<text x="593" y="210" class="field">entry-date</text>
 <text x="755" y="210" class="datatype">date</text>
+<rect x="588" y="220" width="162" height="20" class="field"/>
+<rect x="750" y="220" width="52" height="20" class="datatype"/>
+<text x="593" y="230" class="field">start-date</text>
+<text x="755" y="230" class="datatype">date</text>
+<rect x="588" y="240" width="162" height="20" class="field"/>
+<rect x="750" y="240" width="52" height="20" class="datatype"/>
+<text x="593" y="250" class="field">end-date</text>
+<text x="755" y="250" class="datatype">date</text>
 </g>
 </svg>

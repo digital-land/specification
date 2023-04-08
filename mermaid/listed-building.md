@@ -8,9 +8,9 @@ erDiagram
         string name
         string listed-building
         string listed-building-grade
+        wkt geometry
         url document-url
         string notes
-        wkt geometry
         string organisation
         date entry-date
         date start-date

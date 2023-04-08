@@ -32,9 +32,9 @@ erDiagram
     design-code-rule {
         string reference
         string name
-        wkt geometry
         ref design-code
         string description
+        wkt geometry
         url documentation-url
         url document-url
         string notes

@@ -28,12 +28,12 @@ erDiagram
     tree {
         string reference
         string name
-        wkt point
         ref tree-preservation-order
         string tree-preservation-order-tree
-        wkt geometry
         string uprn
         string address-text
+        wkt point
+        wkt geometry
         string notes
         string organisation
         date entry-date

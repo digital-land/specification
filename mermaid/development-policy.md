@@ -16,8 +16,8 @@ erDiagram
     development-policy-area {
         string reference
         string name
-        wkt geometry
         string development-policies
+        wkt geometry
         string organisation
         date entry-date
         date start-date

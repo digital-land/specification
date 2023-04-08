@@ -37,16 +37,16 @@ text.datatype{fill:#0b0c0c;}
 <text x="167" y="90" class="datatype">string</text>
 <rect x="0" y="100" width="162" height="20" class="field"/>
 <rect x="162" y="100" width="52" height="20" class="datatype"/>
-<text x="5" y="110" class="field">document-url</text>
-<text x="167" y="110" class="datatype">url</text>
+<text x="5" y="110" class="field">geometry</text>
+<text x="167" y="110" class="datatype">wkt</text>
 <rect x="0" y="120" width="162" height="20" class="field"/>
 <rect x="162" y="120" width="52" height="20" class="datatype"/>
-<text x="5" y="130" class="field">notes</text>
-<text x="167" y="130" class="datatype">string</text>
+<text x="5" y="130" class="field">document-url</text>
+<text x="167" y="130" class="datatype">url</text>
 <rect x="0" y="140" width="162" height="20" class="field"/>
 <rect x="162" y="140" width="52" height="20" class="datatype"/>
-<text x="5" y="150" class="field">geometry</text>
-<text x="167" y="150" class="datatype">wkt</text>
+<text x="5" y="150" class="field">notes</text>
+<text x="167" y="150" class="datatype">string</text>
 <rect x="0" y="160" width="162" height="20" class="field"/>
 <rect x="162" y="160" width="52" height="20" class="datatype"/>
 <text x="5" y="170" class="field">organisation</text>
