@@ -1,6 +1,6 @@
 ---
 cardinality: '1'
-datatype: string
+datatype: longitude
 description: ''
 end-date: '2019-10-31'
 entry-date: ''
