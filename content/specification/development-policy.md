@@ -23,8 +23,9 @@ datasets:
       fields:
           - field: reference
           - field: name
-          - field: geometry
           - field: development-policies
+            dataset: development-policy
+          - field: geometry
           - field: organisation
           - field: entry-date   
           - field: start-date

@@ -12,10 +12,12 @@ datasets:
       fields:
           - field: reference
           - field: name
+          - field: description
           - field: development-plan-type
           - field: period-start-date   
           - field: period-end-date
           - field: documentation-url
+          - field: notes
           - field: organisation
           - field: entry-date   
           - field: start-date
@@ -29,6 +31,7 @@ datasets:
           - field: development-plan-event
             reference: development-plan-event
           - field: event-date
+          - field: notes
           - field: organisation
           - field: entry-date   
           - field: start-date
@@ -38,11 +41,13 @@ datasets:
       fields:
           - field: reference
           - field: name
+          - field: description
           - field: development-plan
           - field: document-type
             dataset: development-plan-document-type
           - field: documentation-url
           - field: document-url
+          - field: notes
           - field: organisation
           - field: entry-date   
           - field: start-date

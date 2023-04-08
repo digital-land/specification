@@ -87,9 +87,14 @@ for d in row["datasets"]:
         points[f"from:{dataset}:{field}"] = (X, Y + text_y)
         points[f"to:{dataset}:{field}"] = (X + row_width, Y + text_y)
 
-        if field in datasets:
+        link_dataset = f.get("dataset", None)
+        if not link_dataset:
+            if field in datasets:
+                link_dataset = field
+
+        if link_dataset in datasets:
             links.append(
-                {"from": f"from:{dataset}:{field}", "to": f"to:{field}:reference"}
+                {"from": f"from:{dataset}:{field}", "to": f"to:{link_dataset}:reference"}
             )
 
     boxes.append(box)

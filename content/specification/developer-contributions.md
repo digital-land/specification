@@ -15,6 +15,7 @@ datasets:
         - field: developer-agreement-type
         - field: planning-application
         - field: document-url
+        - field: notes
         - field: organisation
         - field: entry-date
         - field: start-date
@@ -27,6 +28,7 @@ datasets:
         - field: contribution-purpose
         - field: amount
         - field: units
+        - field: notes
         - field: organisation
         - field: entry-date
         - field: start-date
@@ -34,10 +36,11 @@ datasets:
     - dataset: developer-agreement-transaction
       fields:
         - field: reference
+        - field: developer-agreement-contribution
         - field: contribution-funding-status
         - field: amount
         - field: units
-        - field: developer-agreement-contribution
+        - field: notes
         - field: organisation
         - field: entry-date
         - field: start-date

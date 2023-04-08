@@ -16,9 +16,9 @@ datasets:
           description: the Historic England listed building <a href="#reference">reference</a> for the listed building
         - field: listed-building-grade
           description: the Historic England listed-building-grade value for the listed building
+        - field: geometry
         - field: document-url
         - field: notes
-        - field: geometry
         - field: organisation
         - field: entry-date
         - field: start-date

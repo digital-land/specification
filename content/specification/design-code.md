@@ -54,10 +54,10 @@ datasets:
       fields:
         - field: reference
         - field: name
-        - field: geometry
         - field: design-code
           description: the <a href="#reference">reference</a> for the design code rule which applies to this area
         - field: description
+        - field: geometry
         - field: documentation-url
         - field: document-url
         - field: notes
