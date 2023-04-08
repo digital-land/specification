@@ -12,12 +12,26 @@
 
     {% for specification, item in tables["specification"].items()| sort %}
 
-    <h3 id="{{specification}}" class="govuk-heading-m">
-	    <a href="{{ specification }}#diagram">{{ sentence_case(item["name"]) }}</a></h3>
+    <h3 id="{{specification}}" class="govuk-heading-m">{{ sentence_case(item["name"]) }}</h3>
+
+    <details class="govuk-details" data-module="govuk-details">
+    <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Details
+    </span>
+    </summary>
+    <div class="govuk-details__text">
+    <ul class="govuk-list">
+    <li><a class="govuk-link" href="{{ specification }}">specification</a></li>
+    <li><a class="govuk-link" href="https://raw.githubusercontent.com/digital-land/specification/main/content/specification/{{ specification }}.md">source</a></li>
+    <li><a class="govuk-link" href="{{ specification }}/diagram.svg">diagram</a></li>
+    </div>
+    </details>
 
     <div class="govuk-grid-column-full govuk-!-padding-top-6 govuk-!-padding-bottom-8" style="padding-left: 0">
-    <a href="{{ specification }}/diagram.svg"><img src="{{specification }}/diagram.svg"></a>
+	    <img src="{{specification }}/diagram.svg"></a>
     </div>
+
 
     {% endfor %}
 
