@@ -4,12 +4,12 @@ datatype: string
 description: ''
 end-date: '2019-10-31'
 entry-date: ''
-field: PlanningStatus
+field: PermissionType
 guidance: ''
 hint: ''
-name: Planning permission status
+name: Planning permission type
 parent-field: category
-replacement-field: planning-permission-status
+replacement-field: planning-permission-type
 start-date: ''
 typology: category
 uri-template: ''
