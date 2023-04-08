@@ -216,6 +216,7 @@ if __name__ == "__main__":
         ("datatype/index.html", "datatypes.html"),
         ("typology/index.html", "typologies.html"),
         ("specification/index.html", "specifications.html"),
+        ("specification/diagrams.html", "diagrams.html"),
     ]:
         render(
             path,

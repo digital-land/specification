@@ -1,0 +1,26 @@
+{% extends "dl-specification-base.html" %}
+
+{% set page_title = 'Diagrams' %}
+
+{% macro sentence_case(text) %}
+    {{ text[0]|upper}}{{text[1:] }}
+{% endmacro %}
+
+{% block dl_content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+
+    {% for specification, item in tables["specification"].items()| sort %}
+
+    <h3 id="{{specification}}" class="govuk-heading-m">
+	    <a href="{{ specification }}#diagram">{{ sentence_case(item["name"]) }}</a></h3>
+
+    <div class="govuk-grid-column-full govuk-!-padding-top-6 govuk-!-padding-bottom-8">
+    <a href="{{ specification }}/diagram.svg"><img src="{{specification }}/diagram.svg"></a>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</div>
+{% endblock %}
