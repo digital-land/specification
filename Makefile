@@ -138,7 +138,7 @@ clean clobber::
 
 # generate mermaid diagrams
 MERMAID_MD=$(subst content/specification/,mermaid/,$(SPECIFICATION_MD))
-second-pass:: $(MERMAID_MD)
+render:: $(MERMAID_MD)
 
 mermaid/%.md:	content/specification/%.md bin/specification-mermaid.py
 	@mkdir -p mermaid/
@@ -149,7 +149,7 @@ clobber::
 
 # generate SVG diagrams
 SPECIFICATION_SVG=$(subst .md,/diagram.svg,$(subst content/,docs/,$(SPECIFICATION_MD)))
-second-pass:: $(SPECIFICATION_SVG)
+render:: $(SPECIFICATION_SVG)
 
 docs/specification/%/diagram.svg:	content/specification/%.md bin/specification-svg.py
 	@mkdir -p $(dir $@)
