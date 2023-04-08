@@ -9,14 +9,11 @@ text.field{fill:#0b0c0c;}
 text.datatype{fill:#0b0c0c;}
 .line{stroke:#0b0c0c;}
 </style>
-<marker id="start-dot" markerWidth="6" markerHeight="6" refX="3" refY="3" markerUnits="strokeWidth">
+<marker id="start-dot" markerWidth="6" markerHeight="6" refX="4" refY="3" markerUnits="strokeWidth">
   <circle cx="3" cy="3" r="2" fill="#fff" stroke="#0b0c0c"/>
 </marker>
-<marker id="end-dot" markerWidth="6" markerHeight="6" refX="3" refY="3" markerUnits="strokeWidth">
+<marker id="end-dot" markerWidth="6" markerHeight="6" refX="2" refY="3" markerUnits="strokeWidth">
   <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
-</marker>
-<marker id="end-arrow" markerWidth="6" markerHeight="6" refX="6.25" refY="3" orient="auto" markerUnits="strokeWidth">
-  <polyline points="0 0 6 3 0 6" fill="none" stroke="#0b0c0c"/>
 </marker>
 </defs>
 <path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 294 50 C 254.0 50 254.0 30 214 30"/>
