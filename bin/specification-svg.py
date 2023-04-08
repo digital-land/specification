@@ -1,21 +1,44 @@
 #!/usr/bin/env python3
 
 import sys
+import csv
 from pathlib import Path
 import frontmatter
 
 
+tables = {
+    "dataset": {},
+    "field": {},
+}
+
+for row in csv.DictReader(open("specification/dataset.csv", newline="")):
+    tables["dataset"][row["dataset"]] = row
+
+for row in csv.DictReader(open("specification/field.csv", newline="")):
+    tables["field"][row["field"]] = row
+
+
 def field_datatype(dataset, field):
-    if field.endswith("-date") or field.endswith("Date"):
-        return "date"
-    elif field.endswith("-url") or field.endswith("URI"):
-        return "url"
-    elif field in ["point", "geometry"]:
-        return "wkt"
-    elif field in datasets and field != dataset:
-        return "reference"
+    f = tables["field"][field]
+
+    if f["replacement-field"]:
+        field = f["replacement-field"]
+        f = tables["field"][field]
+
+    if field in ["organisation", "geography"]:
+        # references which also need the prefix
+        datatype = "curie"
+    elif field in tables["dataset"] and field != dataset and field not in ["geometry"]:
+        # references which can default the prefix value, either from the field or within the organisation
+        datatype = "reference"
     else:
-        return "string"
+        datatype = f["datatype"]
+
+    # indicate cardinality with a *
+    if f["cardinality"] == "n":
+        return field_datatype(dataset, f["parent-field"]) + "*"
+    else:
+        return datatype
 
 
 def svg_rect(c, X, Y, h, v):
@@ -39,12 +62,13 @@ path = Path(sys.argv[1])
 spec = frontmatter.load(path)
 row = spec.metadata
 
+
 row_height = 20
 text_y = int(row_height / 2)
 padding = 5
 
 field_width = 162
-datatype_width = 52
+datatype_width = 55
 gap = 80
 
 row_width = field_width + datatype_width
@@ -94,7 +118,10 @@ for d in row["datasets"]:
 
         if link_dataset in datasets:
             links.append(
-                {"from": f"from:{dataset}:{field}", "to": f"to:{link_dataset}:reference"}
+                {
+                    "from": f"from:{dataset}:{field}",
+                    "to": f"to:{link_dataset}:reference",
+                }
             )
 
     boxes.append(box)
