@@ -146,3 +146,11 @@ mermaid/%.md:	content/specification/%.md bin/specification-mermaid.py
 
 clobber::
 	rm -rf mermaid/
+
+# generate SVG diagrams
+SPECIFICATION_SVG=$(subst .md,/diagram.svg,$(subst content/,docs/,$(SPECIFICATION_MD)))
+second-pass:: $(SPECIFICATION_SVG)
+
+docs/specification/%/diagram.svg:	content/specification/%.md bin/specification-svg.py
+	@mkdir -p $(dir $@)
+	python3 bin/specification-svg.py $< > $@
