@@ -14,7 +14,7 @@ tables = {
 }
 
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
-    if row["realm"] == realm:
+    if row["realm"] == realm and row["phase"] != "prioritised":
         tables["dataset"][row["dataset"]] = row
 
 for row in csv.DictReader(open("specification/dataset-field.csv", newline="")):
@@ -103,14 +103,6 @@ row_width = field_width + datatype_width
 
 
 datasets = tables["dataset"].keys()
-maxrows = max(
-    [len(tables["dataset-field"][dataset]) for dataset, d in tables["dataset"].items()]
-)
-ndatasets = len(datasets)
-ngaps = ndatasets - 1
-canvas_width = ndatasets * row_width + ngaps * gap
-canvas_height = (maxrows + 1) * row_height
-
 X = 0
 points = {}
 links = []
@@ -158,6 +150,14 @@ for dataset, d in tables["dataset"].items():
 
     X = X + row_width + gap
 
+
+maxrows = max(
+    [len(tables["dataset-field"][dataset]) for dataset, d in tables["dataset"].items()]
+)
+ndatasets = len(datasets)
+ngaps = ndatasets - 1
+canvas_width = ndatasets * row_width + ngaps * gap
+canvas_height = (maxrows + 1) * row_height
 
 print(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_width}" height="{canvas_height}">'
