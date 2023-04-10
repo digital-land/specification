@@ -34,6 +34,6 @@ start-date: ''
 themes:
 - development
 typology: document
-wikidata: null
-wikipedia: null
+wikidata: ''
+wikipedia: ''
 ---
