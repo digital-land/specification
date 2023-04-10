@@ -21,7 +21,9 @@ fields:
 - field: name
 - field: paint-options
 - field: plural
+- field: phase
 - field: prefix
+- field: realm
 - field: start-date
 - field: text
 - field: themes

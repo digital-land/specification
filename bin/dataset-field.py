@@ -4,9 +4,11 @@ import sys
 import csv
 import frontmatter
 
-fieldnames = ["dataset", "field", "guidance", "hint"]
+fieldnames = ["dataset", "field", "field-dataset", "guidance", "hint"]
 
-w = csv.DictWriter(open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction='ignore')
+w = csv.DictWriter(
+    open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction="ignore"
+)
 w.writeheader()
 
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
@@ -15,4 +17,11 @@ for row in csv.DictReader(open("specification/dataset.csv", newline="")):
 
     post = frontmatter.load(path)
     for field in post.metadata["fields"]:
-        w.writerow({"dataset": dataset, "field": field["field"], "guidance": field.get("guidance", "")})
+        w.writerow(
+            {
+                "dataset": dataset,
+                "field": field["field"],
+                "guidance": field.get("guidance", ""),
+                "field-dataset": field.get("dataset", ""),
+            }
+        )
