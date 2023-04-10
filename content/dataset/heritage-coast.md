@@ -15,14 +15,15 @@ fields:
 - field: entry-date
 - field: geography
 - field: geometry
+- field: heritage-coast
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: heritage-coast
 key-field: ''
 licence: ogl3
 name: Heritage coast

@@ -10,8 +10,9 @@ entry-date: ''
 fields:
 - field: address
 - field: address-text
-- field: documentation-url
 - field: description
+- field: documentation-url
+- field: document-url
 - field: end-date
 - field: entity
 - field: entry-date
@@ -22,6 +23,7 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
 - field: wikidata

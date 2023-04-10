@@ -16,6 +16,7 @@ fields:
 - field: name
 - field: organisation
 - field: point
+- field: prefix
 - field: ramsar
 - field: ramsar-site
 - field: reference

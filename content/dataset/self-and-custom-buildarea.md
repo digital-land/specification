@@ -20,9 +20,10 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
-- field: start-date
 - field: self-and-custom-buildarea
+- field: start-date
 key-field: ''
 licence: ogl3
 name: Self and custom build area

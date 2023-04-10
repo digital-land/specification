@@ -17,13 +17,13 @@ fields:
 - field: name
 - field: notes
 - field: organisation
-- field: prefix
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: tree-species-list
-- field: tree-preservation-type
 - field: tree-preservation-order
+- field: tree-preservation-type
+- field: tree-species-list
 - field: uprn
 key-field: ''
 licence: ogl3

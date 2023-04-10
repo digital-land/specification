@@ -11,9 +11,10 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: reference
 - field: name
 - field: parliament-thesaurus
+- field: prefix
+- field: reference
 - field: start-date
 - field: wikidata
 - field: wikipedia

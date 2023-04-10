@@ -9,6 +9,7 @@ entity-minimum: '2300000'
 entry-date: ''
 fields:
 - field: categories
+- field: certificate-of-immunity
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: certificate-of-immunity
 key-field: ''
 licence: ogl3
 name: Certificate of immunity

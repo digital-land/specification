@@ -15,14 +15,15 @@ fields:
 - field: entry-date
 - field: geography
 - field: geometry
+- field: hs2-safeguarded-area
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: hs2-safeguarded-area
 key-field: ''
 licence: ogl3
 name: HS2 safeguarded area

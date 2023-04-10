@@ -15,7 +15,9 @@ fields:
 - field: geometry
 - field: legislation
 - field: name
+- field: prefix
 - field: protected-wreck-site
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

@@ -123,6 +123,7 @@ fields:
 - field: SiteplanURL
   guidance: Enter the URL of a web page hosting the site plan, beginning with either
     “http://” or “https://”.
+- field: brownfield-land
 - field: deliverable
 - field: end-date
 - field: entity
@@ -142,12 +143,13 @@ fields:
 - field: planning-permission-status
 - field: planning-permission-type
 - field: point
+- field: prefix
+- field: reference
 - field: site
 - field: site-address
-- field: site-plan-url
 - field: site-categories
+- field: site-plan-url
 - field: start-date
-- field: brownfield-land
 key-field: site
 licence: ogl3
 name: Brownfield land

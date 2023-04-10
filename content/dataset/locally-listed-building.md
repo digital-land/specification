@@ -17,6 +17,7 @@ fields:
 - field: locally-listed-building
 - field: name
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
 - field: wikidata

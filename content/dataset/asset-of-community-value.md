@@ -8,6 +8,7 @@ entity-maximum: '1299999'
 entity-minimum: '1200000'
 entry-date: ''
 fields:
+- field: asset-of-community-value
 - field: categories
 - field: documentation-url
 - field: end-date
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: asset-of-community-value
 key-field: ''
 licence: ogl3
 name: Asset of community value

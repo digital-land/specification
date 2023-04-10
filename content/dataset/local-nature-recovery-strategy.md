@@ -16,13 +16,14 @@ fields:
 - field: geography
 - field: geometry
 - field: legislation
+- field: local-nature-recovery-strategy
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: local-nature-recovery-strategy
 key-field: ''
 licence: ogl3
 name: Local nature recovery strategy

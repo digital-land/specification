@@ -15,14 +15,15 @@ fields:
 - field: entry-date
 - field: geography
 - field: geometry
+- field: heritage-action-zone
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: heritage-action-zone
 key-field: ''
 licence: ogl3
 name: Heritage action zone

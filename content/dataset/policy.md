@@ -17,8 +17,10 @@ fields:
 - field: name
 - field: notes
 - field: organisation
-- field: start-date
 - field: policy
+- field: prefix
+- field: reference
+- field: start-date
 key-field: ''
 licence: ogl3
 name: Policy

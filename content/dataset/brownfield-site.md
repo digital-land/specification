@@ -8,6 +8,7 @@ entity-maximum: '1899999'
 entity-minimum: '1800000'
 entry-date: ''
 fields:
+- field: brownfield-site
 - field: categories
 - field: documentation-url
 - field: end-date
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: brownfield-site
 key-field: ''
 licence: ogl3
 name: Brownfield site

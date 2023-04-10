@@ -8,17 +8,17 @@ entity-maximum: '1199999'
 entity-minimum: '1100000'
 entry-date: ''
 fields:
+- field: address-text
 - field: article-4-direction
 - field: article-4-direction-rules
-- field: address-text
-- field: documentation-url
+- field: description
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
 - field: geometry
 - field: name
-- field: description
 - field: notes
 - field: organisation
 - field: point

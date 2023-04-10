@@ -10,6 +10,7 @@ entity-minimum: '44000000'
 entry-date: ''
 fields:
 - field: categories
+- field: conservation-area
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: conservation-area
 key-field: ''
 licence: ogl3
 name: Conservation area

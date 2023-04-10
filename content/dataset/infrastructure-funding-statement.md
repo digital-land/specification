@@ -15,6 +15,8 @@ fields:
 - field: entry-date
 - field: infrastructure-funding-statement
 - field: organisation
+- field: prefix
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

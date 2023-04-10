@@ -17,15 +17,15 @@ fields:
 - field: entity
 - field: entry-date
 - field: ground-area
-- field: point
 - field: name
 - field: notes
 - field: organisation
-- field: prefix
 - field: planning-application-status
 - field: planning-application-type
 - field: planning-decision
 - field: planning-decision-type
+- field: point
+- field: prefix
 - field: reference
 - field: start-date
 licence: ogl3

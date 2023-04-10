@@ -12,6 +12,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: name
+- field: prefix
 - field: reference
 - field: start-date
 - field: wikidata

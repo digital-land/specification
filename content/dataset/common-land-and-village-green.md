@@ -9,6 +9,7 @@ entity-minimum: '2700000'
 entry-date: ''
 fields:
 - field: categories
+- field: common-land-and-village-green
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: common-land-and-village-green
 key-field: ''
 licence: ogl3
 name: Common land and village green

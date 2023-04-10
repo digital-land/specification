@@ -10,8 +10,8 @@ entry-date: ''
 fields:
 - field: description
 - field: design-code
-- field: documentation-url
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date

@@ -20,9 +20,10 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
-- field: start-date
 - field: safeguarded-military-explosives-site
+- field: start-date
 key-field: ''
 licence: ogl3
 name: Safeguarded military explosives site

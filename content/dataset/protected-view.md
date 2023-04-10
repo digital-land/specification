@@ -20,9 +20,10 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
+- field: protected-view
 - field: reference
 - field: start-date
-- field: protected-view
 key-field: ''
 licence: ogl3
 name: Protected view

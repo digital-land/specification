@@ -18,11 +18,12 @@ fields:
 - field: legislation
 - field: name
 - field: notes
+- field: nuclear-safety-zone
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: nuclear-safety-zone
 key-field: ''
 licence: ogl3
 name: Nuclear safety zone

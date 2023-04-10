@@ -18,6 +18,7 @@ fields:
 - field: name
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
 - field: wikidata

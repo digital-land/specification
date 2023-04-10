@@ -17,10 +17,11 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: wikipedia
 - field: wikidata
+- field: wikipedia
 - field: world-heritage-convention-site
 key-field: ''
 licence: ogl3

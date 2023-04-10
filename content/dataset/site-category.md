@@ -12,6 +12,8 @@ fields:
 - field: entity
 - field: entry-date
 - field: name
+- field: prefix
+- field: reference
 - field: site-category
 - field: start-date
 key-field: ''

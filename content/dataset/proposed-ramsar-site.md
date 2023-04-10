@@ -20,9 +20,10 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
+- field: proposed-ramsar-site
 - field: reference
 - field: start-date
-- field: proposed-ramsar-site
 key-field: ''
 licence: ogl3
 name: Proposed ramsar site

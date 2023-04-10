@@ -10,6 +10,7 @@ entry-date: ''
 fields:
 - field: categories
 - field: documentation-url
+- field: employment-allocation
 - field: end-date
 - field: entity
 - field: entry-date
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: employment-allocation
 key-field: ''
 licence: ogl3
 name: Employment allocation

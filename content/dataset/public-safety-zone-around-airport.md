@@ -20,9 +20,10 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
+- field: public-safety-zone-around-airport
 - field: reference
 - field: start-date
-- field: public-safety-zone-around-airport
 key-field: ''
 licence: ogl3
 name: Public safety zone around airport

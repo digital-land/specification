@@ -15,14 +15,15 @@ fields:
 - field: entry-date
 - field: geography
 - field: geometry
+- field: gypsy-and-traveller-site
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: gypsy-and-traveller-site
 key-field: ''
 licence: ogl3
 name: Gypsy and traveller site

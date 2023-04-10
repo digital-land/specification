@@ -14,13 +14,13 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: prefix
-- field: reference
 - field: name
 - field: notes
-- field: period-start-date
-- field: period-end-date
 - field: organisation
+- field: period-end-date
+- field: period-start-date
+- field: prefix
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

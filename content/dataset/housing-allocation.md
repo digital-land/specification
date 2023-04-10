@@ -15,14 +15,15 @@ fields:
 - field: entry-date
 - field: geography
 - field: geometry
+- field: housing-allocation
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: housing-allocation
 key-field: ''
 licence: ogl3
 name: Housing allocation

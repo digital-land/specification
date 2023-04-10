@@ -9,6 +9,7 @@ entity-minimum: '16800000'
 entry-date: ''
 fields:
 - field: categories
+- field: contaminated-land
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: contaminated-land
 key-field: ''
 licence: ogl3
 name: Contaminated land

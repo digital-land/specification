@@ -17,12 +17,13 @@ fields:
 - field: geometry
 - field: legislation
 - field: name
+- field: non-designated-archeology-asset-of-national-importance
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: non-designated-archeology-asset-of-national-importance
 key-field: ''
 licence: ogl3
 name: Non-designated archeology asset of national importance

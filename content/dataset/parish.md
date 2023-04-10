@@ -16,10 +16,11 @@ fields:
 - field: name
 - field: notes
 - field: organisation
+- field: parish
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: parish
 key-field: ''
 licence: ogl3
 name: Civil parish

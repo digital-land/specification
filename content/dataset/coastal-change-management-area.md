@@ -9,6 +9,7 @@ entity-minimum: '2400000'
 entry-date: ''
 fields:
 - field: categories
+- field: coastal-change-management-area
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: coastal-change-management-area
 key-field: ''
 licence: ogl3
 name: Coastal change management area

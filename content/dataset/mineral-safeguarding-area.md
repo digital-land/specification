@@ -16,13 +16,14 @@ fields:
 - field: geography
 - field: geometry
 - field: legislation
+- field: mineral-safeguarding-area
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: mineral-safeguarding-area
 key-field: ''
 licence: ogl3
 name: Mineral safeguarding area

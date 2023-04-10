@@ -17,12 +17,13 @@ fields:
 - field: geometry
 - field: legislation
 - field: name
+- field: nature-improvement-area
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: nature-improvement-area
 key-field: ''
 licence: ogl3
 name: Nature improvement area

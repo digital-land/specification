@@ -15,8 +15,8 @@ fields:
 - field: entity
 - field: entry-date
 - field: esd-inventory
-- field: local-authority-type
 - field: local-authority-district
+- field: local-authority-type
 - field: local-enterprise-partnership
 - field: local-planning-authority
 - field: local-resilience-forum
@@ -25,8 +25,8 @@ fields:
 - field: organisation
 - field: parliament-thesaurus
 - field: prefix
-- field: region
 - field: reference
+- field: region
 - field: start-date
 - field: statistical-geography
 - field: twitter

@@ -8,11 +8,11 @@ entity-maximum: '699999'
 entity-minimum: '641000'
 entry-date: ''
 fields:
-- field: design-code-status
-- field: design-code-categories
 - field: description
-- field: documentation-url
+- field: design-code-categories
+- field: design-code-status
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date

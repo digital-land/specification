@@ -8,13 +8,13 @@ entity-maximum: '8799999'
 entity-minimum: '8700000'
 entry-date: ''
 fields:
-- field: documentation-url
+- field: description
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
 - field: name
-- field: description
 - field: notes
 - field: organisation
 - field: prefix

@@ -20,9 +20,10 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
+- field: protected-land
 - field: reference
 - field: start-date
-- field: protected-land
 key-field: ''
 licence: ogl3
 name: Protected land

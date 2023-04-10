@@ -12,11 +12,13 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: geography
 - field: name
 - field: neighbourhood-forum
 - field: organisation
+- field: prefix
+- field: reference
 - field: start-date
-- field: geography
 - field: twitter
 - field: website
 - field: wikidata

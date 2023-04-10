@@ -9,13 +9,13 @@ entity-maximum: '8599999'
 entity-minimum: '8500000'
 entry-date: ''
 fields:
-- field: documentation-url
+- field: description
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
 - field: name
-- field: description
 - field: notes
 - field: organisation
 - field: parent-article-4-direction-rule

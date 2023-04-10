@@ -8,19 +8,19 @@ entity-maximum: '6399999'
 entity-minimum: '6300000'
 entry-date: ''
 fields:
-- field: description
 - field: conservation-area
 - field: conservation-area-document-type
-- field: documentation-url
+- field: description
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: prefix
-- field: reference
 - field: name
 - field: notes
 - field: organisation
+- field: prefix
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

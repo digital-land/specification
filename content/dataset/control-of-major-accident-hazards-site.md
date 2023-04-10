@@ -9,6 +9,7 @@ entity-minimum: '16300000'
 entry-date: ''
 fields:
 - field: categories
+- field: control-of-major-accident-hazards-site
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: control-of-major-accident-hazards-site
 key-field: ''
 licence: ogl3
 name: Control of major accident hazards site

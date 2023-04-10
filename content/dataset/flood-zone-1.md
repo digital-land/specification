@@ -13,6 +13,7 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: flood-zone-1
 - field: geography
 - field: geometry
 - field: legislation
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: flood-zone-1
 key-field: ''
 licence: ogl3
 name: Flood zone 1

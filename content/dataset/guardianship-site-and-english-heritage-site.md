@@ -15,14 +15,15 @@ fields:
 - field: entry-date
 - field: geography
 - field: geometry
+- field: guardianship-site-and-english-heritage-site
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: guardianship-site-and-english-heritage-site
 key-field: ''
 licence: ogl3
 name: Guardianship site and English heritage site

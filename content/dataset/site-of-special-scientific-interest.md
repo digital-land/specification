@@ -19,10 +19,11 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: wikipedia
 - field: wikidata
+- field: wikipedia
 key-field: ''
 licence: ogl3
 name: Site of special scientific interest

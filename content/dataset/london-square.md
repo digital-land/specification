@@ -16,13 +16,14 @@ fields:
 - field: geography
 - field: geometry
 - field: legislation
+- field: london-square
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: london-square
 key-field: ''
 licence: ogl3
 name: London square

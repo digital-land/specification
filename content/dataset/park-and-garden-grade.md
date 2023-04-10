@@ -13,6 +13,8 @@ fields:
 - field: entry-date
 - field: name
 - field: park-and-garden-grade
+- field: prefix
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

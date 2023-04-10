@@ -8,6 +8,7 @@ entity-maximum: '1999999'
 entity-minimum: '1900000'
 entry-date: ''
 fields:
+- field: buffer-zone
 - field: categories
 - field: documentation-url
 - field: end-date
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: buffer-zone
 key-field: ''
 licence: ogl3
 name: Buffer zone

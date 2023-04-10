@@ -9,12 +9,14 @@ entity-minimum: '5700000'
 entry-date: ''
 fields:
 - field: category
+- field: document-type
 - field: end-date
 - field: entity
 - field: entry-date
 - field: name
+- field: prefix
+- field: reference
 - field: start-date
-- field: document-type
 key-field: ''
 licence: ogl3
 name: Document type

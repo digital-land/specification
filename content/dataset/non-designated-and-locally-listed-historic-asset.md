@@ -17,12 +17,13 @@ fields:
 - field: geometry
 - field: legislation
 - field: name
+- field: non-designated-and-locally-listed-historic-asset
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: non-designated-and-locally-listed-historic-asset
 key-field: ''
 licence: ogl3
 name: Non-designated and locally listed historic asset

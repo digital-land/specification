@@ -14,6 +14,7 @@ fields:
 - field: geometry
 - field: name
 - field: organisation
+- field: prefix
 - field: reference
 - field: start-date
 key-field: ''

@@ -19,9 +19,9 @@ fields:
 - field: name
 - field: notes
 - field: organisations
+- field: planning-application
 - field: prefix
 - field: reference
-- field: planning-application
 - field: start-date
 key-field: ''
 licence: ogl3

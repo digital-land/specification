@@ -17,8 +17,8 @@ fields:
 - field: opendatacommunities-uri
 - field: parliament-thesaurus
 - field: prefix
-- field: region
 - field: reference
+- field: region
 - field: start-date
 - field: statistical-geography
 - field: twitter

@@ -16,13 +16,14 @@ fields:
 - field: geography
 - field: geometry
 - field: legislation
+- field: local-authority-district
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: local-authority-district
 key-field: ''
 licence: ogl3
 name: Local authority district

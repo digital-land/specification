@@ -15,14 +15,15 @@ fields:
 - field: entry-date
 - field: geography
 - field: geometry
+- field: historic-non-designed-rural-landscape-local-landscape-area
 - field: legislation
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: historic-non-designed-rural-landscape-local-landscape-area
 key-field: ''
 licence: ogl3
 name: Historic (non-designed) rural landscape/local landscape area

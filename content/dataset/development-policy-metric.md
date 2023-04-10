@@ -13,11 +13,11 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: start-date
 - field: period-end-date
 - field: period-start-date
 - field: prefix
 - field: reference
+- field: start-date
 - field: value
 key-field: ''
 licence: ogl3

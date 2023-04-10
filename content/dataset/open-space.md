@@ -18,6 +18,7 @@ fields:
 - field: open-space
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
 key-field: ''

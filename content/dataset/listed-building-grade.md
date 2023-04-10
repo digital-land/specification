@@ -13,6 +13,8 @@ fields:
 - field: entry-date
 - field: listed-building-grade
 - field: name
+- field: prefix
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

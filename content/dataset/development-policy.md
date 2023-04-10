@@ -16,9 +16,9 @@ fields:
 - field: entry-date
 - field: name
 - field: notes
+- field: organisation
 - field: prefix
 - field: reference
-- field: organisation
 - field: start-date
 key-field: ''
 licence: ogl3

@@ -16,9 +16,10 @@ fields:
 - field: name
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
-- field: start-date
 - field: region
+- field: start-date
 key-field: ''
 licence: ogl3
 name: Region

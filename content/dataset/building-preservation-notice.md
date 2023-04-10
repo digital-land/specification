@@ -8,6 +8,7 @@ entity-maximum: '2099999'
 entity-minimum: '2000000'
 entry-date: ''
 fields:
+- field: building-preservation-notice
 - field: categories
 - field: documentation-url
 - field: end-date
@@ -20,9 +21,9 @@ fields:
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: building-preservation-notice
 key-field: ''
 licence: ogl3
 name: Building preservation notice

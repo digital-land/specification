@@ -13,8 +13,8 @@ fields:
 - field: entry-date
 - field: name
 - field: prefix
-- field: service-type
 - field: reference
+- field: service-type
 - field: start-date
 licence: ogl3
 name: Planning application type

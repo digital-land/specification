@@ -23,9 +23,9 @@ fields:
 - field: reference
 - field: start-date
 - field: tree
-- field: tree-species
 - field: tree-preservation-order
 - field: tree-preservation-order-tree
+- field: tree-species
 key-field: ''
 licence: ogl3
 name: Tree

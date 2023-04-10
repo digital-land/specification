@@ -16,6 +16,8 @@ fields:
 - field: name
 - field: permitted-development-right
 - field: permitted-development-right-part
+- field: prefix
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

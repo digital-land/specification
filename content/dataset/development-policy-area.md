@@ -9,8 +9,8 @@ entity-minimum: '5300000'
 entry-date: ''
 fields:
 - field: development-policies
-- field: documentation-url
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date

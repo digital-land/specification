@@ -16,13 +16,14 @@ fields:
 - field: geography
 - field: geometry
 - field: legislation
+- field: long-protected-woodland
 - field: name
 - field: notes
 - field: organisation
 - field: point
+- field: prefix
 - field: reference
 - field: start-date
-- field: long-protected-woodland
 key-field: ''
 licence: ogl3
 name: Long protected woodland

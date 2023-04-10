@@ -11,16 +11,16 @@ fields:
 - field: description
 - field: development-plan
 - field: development-plan-document-type
-- field: documentation-url
 - field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: prefix
-- field: reference
 - field: name
 - field: notes
 - field: organisation
+- field: prefix
+- field: reference
 - field: start-date
 key-field: ''
 licence: ogl3

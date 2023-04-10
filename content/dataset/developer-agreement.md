@@ -15,8 +15,8 @@ fields:
 - field: entity
 - field: entry-date
 - field: organisation
-- field: prefix
 - field: planning-application
+- field: prefix
 - field: reference
 - field: start-date
 key-field: ''
