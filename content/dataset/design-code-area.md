@@ -10,6 +10,7 @@ entry-date: ''
 fields:
 - field: description
 - field: design-code
+- field: design-code-rules
 - field: document-url
 - field: documentation-url
 - field: end-date

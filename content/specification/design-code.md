@@ -21,8 +21,6 @@ datasets:
         - field: design-code-categories
           description: a list of one or more <a href="#design-code-category">design-code-category</a> references, separated by a semi-colon ';' character
           example: 'exemplar;urban'
-        - field: design-code-rules
-          description: a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.
         - field: documentation-url
           description: the URL for the Web page with guidance on the status of the policy
         - field: document-url
@@ -43,6 +41,8 @@ datasets:
         - field: geometry
         - field: design-code
           description: the <a href="#reference">reference</a> for the design code which applies to this area
+        - field: design-code-rules
+          description: a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.
         - field: documentation-url
         - field: document-url
         - field: notes
@@ -55,9 +55,8 @@ datasets:
         - field: reference
         - field: name
         - field: design-code
-          description: the <a href="#reference">reference</a> for the design code rule which applies to this area
+          description: the <a href="#reference">reference</a> for the design code where this rule is defined.
         - field: description
-        - field: geometry
         - field: documentation-url
         - field: document-url
         - field: notes
