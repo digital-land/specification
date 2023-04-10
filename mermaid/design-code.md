@@ -9,7 +9,6 @@ erDiagram
         string description
         string design-code-status
         string design-code-categories
-        string design-code-rules
         url documentation-url
         url document-url
         string notes
@@ -22,6 +21,7 @@ erDiagram
         string name
         wkt geometry
         ref design-code
+        string design-code-rules
         url documentation-url
         url document-url
         string notes
@@ -34,7 +34,6 @@ erDiagram
         string name
         ref design-code
         string description
-        wkt geometry
         url documentation-url
         url document-url
         string notes

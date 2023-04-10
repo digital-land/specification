@@ -119,7 +119,6 @@ crown-copyright,,flood-zone-1,,,,,6400000,6499999,ogl3,Flood zone 1,,Flood zones
 crown-copyright,,flood-zone-2,,,,,6500000,6599999,ogl3,Flood zone 2,,Flood zones 2,,,,environment,geography,,
 crown-copyright,,flood-zone-3,,,,,6600000,6699999,ogl3,Flood zone 3,,Flood zones 3,,,,environment,geography,,
 crown-copyright,,geography,,,,,6700000,6799999,ogl3,Geography,,Geographies,,,,,geography,,
-crown-copyright,,geometry,Geometry index,,,entity,6800000,6899999,ogl3,Geometry,,Geometries,,,,specification,value,,
 crown-copyright,organisation,government-organisation,,,,,6900000,6999999,ogl3,Government organisation,,"Government departments, agencies and public bodies",government-organisation,,"A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).
 This data originally came from the [government organisation register](https://www.data.gov.uk/dataset/0f669ee5-7382-4f6d-8bb3-5fd238716c3b/government-organisation-register).
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
@@ -213,6 +212,7 @@ This experimental dataset was created to support the development of a [data spec
 crown-copyright,legislation,permitted-development-right,,,,,11500000,11599999,ogl3,Permitted development right,,Permitted development right,,,"This dataset identifies the categories of [permitted development right](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-development-rights-for-householders-technical-guidance).
 Each right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.
 This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",development,policy,,
+crown-copyright,,phase,phase of development,,,,,,ogl3,Phase,,Phases,,,,specification,category,,
 crown-copyright,planning-application,planning-application-status,A planning application status,,,,620000,620999,ogl3,Planning application status,,Planning application statuses,,,,housing;monitoring,category,,
 crown-copyright,planning-application,planning-application-type,A type of planning application,,,,621000,621999,ogl3,Planning application type,,Planning application types,,,,housing;monitoring,category,,
 crown-copyright,,planning-application,An application for planning permission,,,,10000000000,10999999999,ogl3,Planning application,,Planning applications,,,,housing;monitoring,geography,,
@@ -239,6 +239,7 @@ natural-england,ramsar,ramsar,,,,,612000,619999,ogl3,Ramsar site,"{ ""colour"": 
 Ramsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england).
 
 Natural England provides [guidance ](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.",environment,geography,,
+crown-copyright,,realm,phase of development,,,,,,ogl3,Phase,,Phases,,,,specification,category,,
 crown-copyright,,reference,Redirect a prefix and reference to an entity,,,,,,ogl3,Reference,,References,,,,specification,specification,,
 ons-boundary,region,region,,,,,30100000,31099999,ogl3,Region,,Regions,statistical-geography,,"The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this
 data for the purposes of producing statistics.",administrative,geography,Q48091,Regions_of_England
