@@ -9,7 +9,8 @@ entity-minimum: '6300000'
 entry-date: ''
 fields:
 - field: conservation-area
-- field: conservation-area-document-type
+- field: document-type
+  dataset: conservation-area-document-type
 - field: description
 - field: document-url
 - field: documentation-url
