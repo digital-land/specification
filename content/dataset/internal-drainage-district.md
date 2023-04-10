@@ -14,6 +14,7 @@ fields:
 - field: geometry
 - field: internal-drainage-board
 - field: name
+- field: notes
 - field: prefix
 - field: reference
 - field: region

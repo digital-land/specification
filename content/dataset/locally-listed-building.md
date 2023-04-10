@@ -16,6 +16,7 @@ fields:
 - field: listed-building-grade
 - field: locally-listed-building
 - field: name
+- field: notes
 - field: point
 - field: prefix
 - field: reference

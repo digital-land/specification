@@ -15,6 +15,8 @@ fields:
 - field: entry-date
 - field: latitude
 - field: longitude
+- field: name
+- field: notes
 - field: prefix
 - field: reference
 - field: start-date

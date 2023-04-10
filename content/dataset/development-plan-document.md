@@ -10,8 +10,8 @@ entry-date: ''
 fields:
 - field: description
 - field: development-plan
-- field: document-type
-  dataset: development-plan-document-type
+- dataset: development-plan-document-type
+  field: document-type
 - field: document-url
 - field: documentation-url
 - field: end-date

@@ -14,6 +14,7 @@ fields:
 - field: entry-date
 - field: local-enterprise-partnership-area
 - field: name
+- field: notes
 - field: parliament-thesaurus
 - field: prefix
 - field: reference

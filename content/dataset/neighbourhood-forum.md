@@ -15,6 +15,7 @@ fields:
 - field: geography
 - field: name
 - field: neighbourhood-forum
+- field: notes
 - field: organisation
 - field: prefix
 - field: reference

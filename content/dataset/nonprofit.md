@@ -13,6 +13,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: name
+- field: notes
 - field: organisation
 - field: prefix
 - field: reference

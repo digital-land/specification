@@ -15,6 +15,7 @@ fields:
 - field: green-belt-core
 - field: local-authority-district
 - field: name
+- field: notes
 - field: organisation
 - field: prefix
 - field: reference

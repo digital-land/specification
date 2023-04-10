@@ -13,6 +13,8 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: name
+- field: notes
 - field: period-end-date
 - field: period-start-date
 - field: prefix

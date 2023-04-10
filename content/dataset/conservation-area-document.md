@@ -9,9 +9,9 @@ entity-minimum: '6300000'
 entry-date: ''
 fields:
 - field: conservation-area
-- field: document-type
-  dataset: conservation-area-document-type
 - field: description
+- dataset: conservation-area-document-type
+  field: document-type
 - field: document-url
 - field: documentation-url
 - field: end-date

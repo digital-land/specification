@@ -12,6 +12,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: name
+- field: notes
 - field: ownership-status
 - field: prefix
 - field: reference

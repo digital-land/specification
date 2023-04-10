@@ -15,6 +15,7 @@ fields:
 - field: government-organisation
 - field: local-planning-authority
 - field: name
+- field: notes
 - field: opendatacommunities-uri
 - field: parliament-thesaurus
 - field: prefix

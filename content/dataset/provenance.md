@@ -18,6 +18,7 @@ fields:
 key-field: ''
 licence: ogl3
 name: Provenance
+notes: "No longer used"
 paint-options: ''
 phase: alpha
 plural: Provenance

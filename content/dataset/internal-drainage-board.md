@@ -15,6 +15,7 @@ fields:
 - field: internal-drainage-district
 - field: legislation
 - field: name
+- field: notes
 - field: prefix
 - field: reference
 - field: region

@@ -14,6 +14,8 @@ fields:
 - field: entity
 - field: entry-date
 - field: infrastructure-funding-statement
+- field: name
+- field: notes
 - field: organisation
 - field: prefix
 - field: reference

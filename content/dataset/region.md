@@ -14,6 +14,7 @@ fields:
 - field: entry-date
 - field: geometry
 - field: name
+- field: notes
 - field: organisation
 - field: point
 - field: prefix

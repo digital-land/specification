@@ -14,6 +14,7 @@ fields:
 - field: entry-date
 - field: geometry
 - field: name
+- field: notes
 - field: park-and-garden
 - field: park-and-garden-grade
 - field: point

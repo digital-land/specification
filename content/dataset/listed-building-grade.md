@@ -13,6 +13,7 @@ fields:
 - field: entry-date
 - field: listed-building-grade
 - field: name
+- field: notes
 - field: prefix
 - field: reference
 - field: start-date

@@ -18,6 +18,7 @@ fields:
 - field: local-authority-type
 - field: local-resilience-forum
 - field: name
+- field: notes
 - field: official-name
 - field: opendatacommunities-uri
 - field: organisation

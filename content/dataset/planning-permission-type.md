@@ -12,6 +12,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: name
+- field: notes
 - field: planning-permission-type
 - field: prefix
 - field: reference

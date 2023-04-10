@@ -21,6 +21,7 @@ fields:
 - field: local-planning-authority
 - field: local-resilience-forum
 - field: name
+- field: notes
 - field: opendatacommunities-uri
 - field: organisation
 - field: parliament-thesaurus

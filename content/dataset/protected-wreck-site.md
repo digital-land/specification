@@ -15,6 +15,7 @@ fields:
 - field: geometry
 - field: legislation
 - field: name
+- field: notes
 - field: prefix
 - field: protected-wreck-site
 - field: reference
