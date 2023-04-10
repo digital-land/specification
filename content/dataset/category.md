@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Category
 paint-options: ''
+phase: alpha
 plural: Categories
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - specification

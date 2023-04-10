@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline column
 paint-options: ''
+phase: alpha
 plural: Pipeline columns
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

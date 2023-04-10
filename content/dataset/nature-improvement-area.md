@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Nature improvement area
 paint-options: ''
+phase: prioritised
 plural: Nature improvement areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Entity redirection
 paint-options: ''
+phase: alpha
 plural: Entity redirections
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

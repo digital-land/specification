@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Contribution purpose
 paint-options: ''
+phase: beta
 plural: Contribution purposes
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

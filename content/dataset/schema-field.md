@@ -15,8 +15,10 @@ key-field: ''
 licence: ogl3
 name: Schema field
 paint-options: ''
+phase: alpha
 plural: Schema fields
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

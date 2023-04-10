@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Fact
 paint-options: ''
+phase: alpha
 plural: Facts
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

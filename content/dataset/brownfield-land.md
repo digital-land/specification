@@ -152,8 +152,10 @@ key-field: site
 licence: ogl3
 name: Brownfield land
 paint-options: '{ "colour": "#745729", "type": "point" }'
+phase: live
 plural: Brownfield land
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

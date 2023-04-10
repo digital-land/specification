@@ -23,8 +23,10 @@ key-field: ''
 licence: ogl3
 name: Historic parks and gardens
 paint-options: '{ "colour": "#0EB951" }'
+phase: beta
 plural: Parks and gardens
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

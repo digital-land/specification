@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Permitted development right
 paint-options: ''
+phase: discovery
 plural: Permitted development right
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

@@ -25,8 +25,10 @@ key-field: ''
 licence: ogl3
 name: Nonprofit organisation
 paint-options: ''
+phase: beta
 plural: Nonprofit organisations
 prefix: wikidata
+realm: dataset
 start-date: ''
 themes:
 - administrative

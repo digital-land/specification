@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Green belt core
 paint-options: ''
+phase: beta
 plural: Green belt cores
 prefix: green-belt-core
+realm: dataset
 start-date: ''
 themes:
 - environment

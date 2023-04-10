@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Datatype
 paint-options: ''
+phase: alpha
 plural: Datatypes
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

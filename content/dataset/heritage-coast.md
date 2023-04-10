@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Heritage coast
 paint-options: '{ "colour": "#912b88" }'
+phase: beta
 plural: Heritage coast
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

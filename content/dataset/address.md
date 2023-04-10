@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Address
 paint-options: ''
+phase: prioritised
 plural: addresses
 prefix: uprn
+realm: dataset
 start-date: ''
 themes:
 - administrative

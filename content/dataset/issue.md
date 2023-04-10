@@ -22,8 +22,10 @@ key-field: ''
 licence: ogl3
 name: Issue
 paint-options: ''
+phase: alpha
 plural: Issues
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

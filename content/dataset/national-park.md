@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: National park
 paint-options: '{ "colour": "#3DA52C" }'
+phase: beta
 plural: National parks
 prefix: statistical-geography
+realm: dataset
 start-date: ''
 themes:
 - heritage

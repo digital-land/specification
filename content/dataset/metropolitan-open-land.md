@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Metropolitan open land
 paint-options: ''
+phase: prioritised
 plural: Metropolitan open land
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

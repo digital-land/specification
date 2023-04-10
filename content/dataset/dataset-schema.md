@@ -17,8 +17,10 @@ key-field: ''
 licence: ogl3
 name: Dataset schema
 paint-options: ''
+phase: alpha
 plural: Dataset schemas
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

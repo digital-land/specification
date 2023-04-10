@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Provenance
 paint-options: ''
+phase: alpha
 plural: Provenance
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

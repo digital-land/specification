@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Nuclear safety zone
 paint-options: ''
+phase: prioritised
 plural: Nuclear safety zones
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Checksum
 paint-options: ''
+phase: alpha
 plural: Checksums
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Planning permission type
 paint-options: ''
+phase: live
 plural: Planning permission types
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

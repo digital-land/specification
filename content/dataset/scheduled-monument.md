@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Scheduled monument
 paint-options: '{ "colour": "#0F9CDA" }'
+phase: beta
 plural: Scheduled monuments
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

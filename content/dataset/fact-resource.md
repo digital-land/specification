@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Fact resource
 paint-options: ''
+phase: alpha
 plural: Fact resources
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

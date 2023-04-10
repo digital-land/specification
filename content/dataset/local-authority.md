@@ -37,7 +37,9 @@ key-field: ''
 licence: ogl3
 name: Local authority
 paint-options: ''
+phase: beta
 plural: Local authorities
+realm: dataset
 start-date: ''
 themes:
 - administrative

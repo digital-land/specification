@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Endpoint
 paint-options: ''
+phase: alpha
 plural: Endpoints
 prefix: ''
+realm: collection
 start-date: ''
 themes:
 - specification

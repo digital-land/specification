@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Reference
 paint-options: ''
+phase: alpha
 plural: References
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Safeguarded military explosives site
 paint-options: ''
+phase: prioritised
 plural: Safeguarded military explosives sites
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

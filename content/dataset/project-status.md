@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Project status
 paint-options: ''
+phase: alpha
 plural: Project statuses
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

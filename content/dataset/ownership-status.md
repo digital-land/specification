@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Ownership status
 paint-options: ''
+phase: live
 plural: Ownership statuses
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

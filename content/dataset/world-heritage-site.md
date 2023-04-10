@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: World heritage site
 paint-options: '{ "colour": "#EB1EE5" }'
+phase: beta
 plural: World heritage sites
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

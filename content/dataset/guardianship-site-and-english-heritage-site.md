@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Guardianship site and English heritage site
 paint-options: ''
+phase: prioritised
 plural: Guardianship sites and English heritage sites
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

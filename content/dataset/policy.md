@@ -23,8 +23,10 @@ key-field: ''
 licence: ogl3
 name: Policy
 paint-options: ''
+phase: alpha
 plural: Policies
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - administrative

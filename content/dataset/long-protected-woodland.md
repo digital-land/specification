@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Long protected woodland
 paint-options: ''
+phase: prioritised
 plural: Long protected woodlands
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

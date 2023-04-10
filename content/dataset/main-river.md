@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Main river
 paint-options: ''
+phase: prioritised
 plural: Main rivers
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

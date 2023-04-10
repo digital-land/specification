@@ -19,8 +19,10 @@ fields:
 licence: ogl3
 name: Planning application type
 paint-options: ''
+phase: discovery
 plural: Planning application types
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - housing

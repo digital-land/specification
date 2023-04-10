@@ -22,8 +22,10 @@ key-field: ''
 licence: ogl3
 name: Typology
 paint-options: ''
+phase: alpha
 plural: Typologies
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

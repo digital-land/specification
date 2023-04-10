@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Site of special scientific interest
 paint-options: '{ "colour": "#308fac" }'
+phase: beta
 plural: Sites of special scientific interest
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Asset of community value
 paint-options: ''
+phase: prioritised
 plural: Assets of community value
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

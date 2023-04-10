@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Historic (non-designed) rural landscape/local landscape area
 paint-options: ''
+phase: prioritised
 plural: Historic (non-designed) rural landscape/local landscape areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

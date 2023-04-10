@@ -24,8 +24,10 @@ key-field: ''
 licence: ogl3
 name: Development plan timetable
 paint-options: ''
+phase: alpha
 plural: Development plan timetables
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

@@ -29,8 +29,10 @@ key-field: ''
 licence: ogl3
 name: Waste disposal authority
 paint-options: ''
+phase: beta
 plural: Waste authorities
 prefix: wikidata
+realm: dataset
 start-date: ''
 themes:
 - administrative

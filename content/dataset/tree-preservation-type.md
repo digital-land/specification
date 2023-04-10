@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Tree preservation type
 paint-options: ''
+phase: beta
 plural: Tree preservation types
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

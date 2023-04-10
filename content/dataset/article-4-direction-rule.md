@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: Article 4 direction rule
 paint-options: ''
+phase: beta
 plural: Article 4 direction rules
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage
@@ -35,7 +37,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
-
 
 A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
 

@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Transport (under TCPA route)
 paint-options: ''
+phase: prioritised
 plural: Transport (under TCPA route)
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - transport

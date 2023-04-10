@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: Battlefield
 paint-options: '{ "colour": "#4d2942", "opacity": 0.2 }'
+phase: beta
 plural: Battlefields
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

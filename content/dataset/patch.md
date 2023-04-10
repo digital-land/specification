@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline patch
 paint-options: ''
+phase: alpha
 plural: Pipeline patches
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

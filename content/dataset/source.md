@@ -23,8 +23,10 @@ key-field: ''
 licence: ogl3
 name: Source
 paint-options: ''
+phase: alpha
 plural: Sources
 prefix: ''
+realm: collection
 start-date: ''
 themes:
 - specification

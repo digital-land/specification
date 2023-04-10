@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Ramsar site
 paint-options: '{ "colour": "#7fcdff" }'
+phase: beta
 plural: Ramsar sites
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

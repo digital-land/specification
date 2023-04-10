@@ -2,7 +2,6 @@
 attribution: crown-copyright
 collection: ''
 dataset: realm
-phase: beta
 description: phase of development
 end-date: ''
 entity-maximum: ''
@@ -19,6 +18,7 @@ key-field: ''
 licence: ogl3
 name: Phase
 paint-options: ''
+phase: beta
 plural: Phases
 prefix: ''
 realm: specification

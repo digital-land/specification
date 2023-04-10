@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Site category
 paint-options: ''
+phase: beta
 plural: Site categories
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

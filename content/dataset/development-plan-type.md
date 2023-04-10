@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Development plan type
 paint-options: ''
+phase: alpha
 plural: Development plan types
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

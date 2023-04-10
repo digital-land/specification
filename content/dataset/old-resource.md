@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Resource redirection
 paint-options: ''
+phase: alpha
 plural: Resource redirections
 prefix: ''
+realm: collection
 start-date: ''
 themes:
 - specification

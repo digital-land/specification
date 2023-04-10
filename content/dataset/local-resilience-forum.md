@@ -25,14 +25,16 @@ key-field: ''
 licence: ogl3
 name: Local Resilience Forum
 paint-options: ''
+phase: beta
 plural: Local Resilience Forums
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - administrative
 typology: organisation
-wikidata: 'Q6664240'
-wikipedia: 'Local_resilience_forum'
+wikidata: Q6664240
+wikipedia: Local_resilience_forum
 ---
 
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

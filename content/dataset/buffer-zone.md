@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Buffer zone
 paint-options: ''
+phase: prioritised
 plural: Buffer zones
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

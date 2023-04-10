@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Flood zone 2
 paint-options: ''
+phase: prioritised
 plural: Flood zones 2
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

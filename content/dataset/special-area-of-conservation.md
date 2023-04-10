@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Special area of conservation
 paint-options: '{ "colour": "#7A8705" }'
+phase: beta
 plural: Special areas of conservation
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

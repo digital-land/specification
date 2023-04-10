@@ -36,8 +36,10 @@ key-field: ''
 licence: ogl3
 name: Organisation
 paint-options: ''
+phase: alpha
 plural: Organisations
 prefix: ''
+realm: dataset
 start-date: ''
 themes: []
 typology: organisation

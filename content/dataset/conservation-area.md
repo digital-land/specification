@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Conservation area
 paint-options: '{ "colour": "#78AA00" }'
+phase: beta
 plural: Conservation areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

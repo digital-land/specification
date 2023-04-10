@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Self and custom build area
 paint-options: ''
+phase: prioritised
 plural: Self and custom build areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - housing

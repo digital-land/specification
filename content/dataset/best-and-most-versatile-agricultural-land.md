@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Best and most versatile agricultural land
 paint-options: ''
+phase: prioritised
 plural: Best and most versatile agricultural land
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

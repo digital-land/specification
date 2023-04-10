@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Ancient woodland status
 paint-options: ''
+phase: beta
 plural: Ancient woodlands status
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

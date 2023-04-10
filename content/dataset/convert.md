@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline convert
 paint-options: ''
+phase: alpha
 plural: Pipeline conversions
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

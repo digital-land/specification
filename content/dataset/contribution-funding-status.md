@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Contribution funding status
 paint-options: ''
+phase: beta
 plural: Contribution funding statuses
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

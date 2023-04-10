@@ -24,8 +24,10 @@ key-field: ''
 licence: ogl3
 name: Design code rule
 paint-options: ''
+phase: beta
 plural: Design code rules
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

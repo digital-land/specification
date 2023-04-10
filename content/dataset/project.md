@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Project
 paint-options: ''
+phase: alpha
 plural: Projects
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

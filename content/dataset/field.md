@@ -28,8 +28,10 @@ key-field: ''
 licence: ogl3
 name: Field
 paint-options: ''
+phase: alpha
 plural: Fields
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

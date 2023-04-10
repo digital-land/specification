@@ -24,8 +24,10 @@ key-field: ''
 licence: ogl3
 name: Document
 paint-options: ''
+phase: alpha
 plural: Documents
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

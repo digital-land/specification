@@ -24,8 +24,10 @@ key-field: ''
 licence: ogl3
 name: Article 4 direction
 paint-options: ''
+phase: beta
 plural: Article 4 directions
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

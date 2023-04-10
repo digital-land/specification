@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Street
 paint-options: ''
+phase: prioritised
 plural: Streets
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - administrative

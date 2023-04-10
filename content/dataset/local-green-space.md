@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Local green space
 paint-options: ''
+phase: prioritised
 plural: Local green spaces
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

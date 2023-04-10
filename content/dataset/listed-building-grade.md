@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Listed building grade
 paint-options: ''
+phase: beta
 plural: Listed building grades
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

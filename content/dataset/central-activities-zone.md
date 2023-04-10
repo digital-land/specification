@@ -25,8 +25,10 @@ key-field: ''
 licence: ogl3
 name: Central activities zone
 paint-options: ''
+phase: beta
 plural: Central activities zones
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

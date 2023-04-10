@@ -17,8 +17,10 @@ fields:
 licence: ogl3
 name: Provision reason
 paint-options: ''
+phase: alpha
 plural: Provision reasons
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

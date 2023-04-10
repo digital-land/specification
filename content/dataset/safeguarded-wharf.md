@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Safeguarded wharf
 paint-options: ''
+phase: prioritised
 plural: Safeguarded wharves
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - transport

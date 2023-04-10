@@ -22,8 +22,10 @@ key-field: ''
 licence: ogl3
 name: Green belt
 paint-options: '{ "colour": "#85994b" }'
+phase: beta
 plural: Green belt
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

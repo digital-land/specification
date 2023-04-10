@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Protected land
 paint-options: ''
+phase: prioritised
 plural: Protected land
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

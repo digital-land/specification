@@ -17,8 +17,10 @@ key-field: ''
 licence: ogl3
 name: Column field
 paint-options: ''
+phase: alpha
 plural: Column fields
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

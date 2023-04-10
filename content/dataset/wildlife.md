@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Wildlife
 paint-options: ''
+phase: prioritised
 plural: Wildlife
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

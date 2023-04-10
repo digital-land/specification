@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 dataset: conservation-area-document-type
 description: ''
 end-date: ''
@@ -20,8 +20,10 @@ key-field: ''
 licence: ogl3
 name: Conservation area document type
 paint-options: ''
+phase: discovery
 plural: Conservation area document types
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

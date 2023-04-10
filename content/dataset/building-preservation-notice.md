@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Building preservation notice
 paint-options: '{ "colour": "#f944c7" }'
+phase: prioritised
 plural: Building preservation notices
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

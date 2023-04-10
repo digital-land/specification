@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Attribution
 paint-options: ''
+phase: alpha
 plural: Attributions
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Long established woodland
 paint-options: ''
+phase: prioritised
 plural: Long established woodlands
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

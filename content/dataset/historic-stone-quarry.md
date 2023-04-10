@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Historic stone quarry
 paint-options: ''
+phase: prioritised
 plural: Historic stone quarries
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

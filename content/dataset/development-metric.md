@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Development metric
 paint-options: ''
+phase: discovery
 plural: Development metrics
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

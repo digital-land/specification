@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: CURIE prefix
 paint-options: ''
+phase: alpha
 plural: CURIE prefixes
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

@@ -30,8 +30,10 @@ key-field: ''
 licence: ogl3
 name: Listed building outline
 paint-options: '{ "colour": "#F9C744" }'
+phase: beta
 plural: Listed building outlines
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

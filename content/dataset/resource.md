@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Resource
 paint-options: ''
+phase: alpha
 plural: Resources
 prefix: ''
+realm: collection
 start-date: ''
 themes:
 - specification

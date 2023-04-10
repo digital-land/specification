@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: Geography
 paint-options: ''
+phase: alpha
 plural: Geographies
 prefix: ''
+realm: dataset
 start-date: ''
 themes: []
 typology: geography

@@ -20,8 +20,10 @@ fields:
 licence: ogl3
 name: Dataset resource
 paint-options: ''
+phase: alpha
 plural: Dataset resources
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

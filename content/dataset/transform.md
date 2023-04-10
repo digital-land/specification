@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline transformation
 paint-options: ''
+phase: alpha
 plural: Transformations
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

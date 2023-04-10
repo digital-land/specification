@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Suitable alternative green space
 paint-options: ''
+phase: prioritised
 plural: Suitable alternative green spaces
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

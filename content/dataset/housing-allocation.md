@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 dataset: housing-allocation
 description: ''
 end-date: ''
@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Housing allocation
 paint-options: ''
+phase: prioritised
 plural: Housing allocations
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - housing

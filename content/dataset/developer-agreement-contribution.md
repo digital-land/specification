@@ -24,8 +24,10 @@ key-field: ''
 licence: ogl3
 name: Developer agreement contribution
 paint-options: ''
+phase: beta
 plural: Developer agreement contributions
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

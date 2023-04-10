@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline default field
 paint-options: ''
+phase: alpha
 plural: Pipleline default fields
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

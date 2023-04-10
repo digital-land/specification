@@ -15,8 +15,10 @@ key-field: ''
 licence: ogl3
 name: Collection
 paint-options: ''
+phase: alpha
 plural: Collections
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Collection log
 paint-options: ''
+phase: alpha
 plural: Collection logs
 prefix: ''
+realm: collection
 start-date: ''
 themes:
 - specification

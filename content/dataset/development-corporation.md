@@ -28,8 +28,10 @@ key-field: ''
 licence: ogl3
 name: Development corporation
 paint-options: ''
+phase: beta
 plural: Development corporations
 prefix: wikidata
+realm: dataset
 start-date: ''
 themes:
 - administrative

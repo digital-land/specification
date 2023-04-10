@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: Listed building
 paint-options: '{ "colour": "#F9C744", "type": "point" }'
+phase: beta
 plural: Listed buildings
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

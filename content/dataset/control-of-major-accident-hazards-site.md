@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Control of major accident hazards site
 paint-options: ''
+phase: prioritised
 plural: Control of major accident hazards sites
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

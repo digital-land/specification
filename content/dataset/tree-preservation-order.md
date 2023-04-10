@@ -25,8 +25,10 @@ key-field: ''
 licence: ogl3
 name: Tree preservation order
 paint-options: ''
+phase: beta
 plural: Tree preservation orders
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

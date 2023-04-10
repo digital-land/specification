@@ -28,8 +28,10 @@ key-field: ''
 licence: ogl3
 name: Regional park authority
 paint-options: ''
+phase: beta
 plural: Regional park authorities
 prefix: wikidata
+realm: dataset
 start-date: ''
 themes:
 - administrative

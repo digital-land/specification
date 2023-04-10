@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Developer agreement type
 paint-options: ''
+phase: beta
 plural: Developer agreement types
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

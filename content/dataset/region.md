@@ -23,8 +23,10 @@ key-field: ''
 licence: ogl3
 name: Region
 paint-options: ''
+phase: beta
 plural: Regions
 prefix: statistical-geography
+realm: dataset
 start-date: ''
 themes:
 - administrative

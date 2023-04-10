@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Issue type
 paint-options: ''
+phase: alpha
 plural: Issue types
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

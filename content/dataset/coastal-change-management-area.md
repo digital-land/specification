@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Coastal change management area
 paint-options: ''
+phase: prioritised
 plural: Coastal change management areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

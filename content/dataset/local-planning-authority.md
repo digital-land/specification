@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Local planning authority
 paint-options: ''
+phase: beta
 plural: Local planning authorities
 prefix: statistical-geography
+realm: dataset
 start-date: ''
 themes:
 - administrative

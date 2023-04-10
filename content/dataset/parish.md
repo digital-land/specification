@@ -24,8 +24,10 @@ key-field: ''
 licence: ogl3
 name: Civil parish
 paint-options: '{ "colour": "#5694ca" }'
+phase: beta
 plural: Civil parishes
 prefix: statistical-geography
+realm: dataset
 start-date: ''
 themes:
 - administrative

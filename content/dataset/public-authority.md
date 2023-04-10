@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: Public authority
 paint-options: ''
+phase: beta
 plural: Public authorities
 prefix: wikidata
+realm: dataset
 start-date: ''
 themes:
 - administrative

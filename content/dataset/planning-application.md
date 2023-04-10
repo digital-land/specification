@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 dataset: planning-application
 description: An application for planning permission
 end-date: ''
@@ -31,8 +31,10 @@ fields:
 licence: ogl3
 name: Planning application
 paint-options: ''
+phase: discovery
 plural: Planning applications
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - housing

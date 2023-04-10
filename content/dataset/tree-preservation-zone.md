@@ -29,8 +29,10 @@ key-field: ''
 licence: ogl3
 name: Tree preservation zone
 paint-options: ''
+phase: beta
 plural: Trees preservation zones
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

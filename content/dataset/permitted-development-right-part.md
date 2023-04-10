@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Permitted development right part
 paint-options: ''
+phase: discovery
 plural: Permitted development right parts
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

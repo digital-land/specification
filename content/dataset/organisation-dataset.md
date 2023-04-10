@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Organisation dataset
 paint-options: ''
+phase: alpha
 plural: Organisation datasets
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

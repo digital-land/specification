@@ -23,8 +23,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline lookup
 paint-options: ''
+phase: alpha
 plural: Pipeline lookups
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

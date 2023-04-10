@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Mineral safeguarding area
 paint-options: ''
+phase: prioritised
 plural: Mineral safeguarding areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

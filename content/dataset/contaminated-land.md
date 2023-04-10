@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Contaminated land
 paint-options: ''
+phase: prioritised
 plural: Contaminated land
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

@@ -18,8 +18,10 @@ fields:
 licence: ogl3
 name: Planning development category
 paint-options: ''
+phase: discovery
 plural: Planning development categories
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - housing

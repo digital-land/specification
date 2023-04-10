@@ -9,7 +9,7 @@ entity-minimum: '6300000'
 entry-date: ''
 fields:
 - field: description
-- field: conservation-area 
+- field: conservation-area
 - field: conservation-area-document-type
 - field: documentation-url
 - field: document-url
@@ -26,12 +26,14 @@ key-field: ''
 licence: ogl3
 name: Conservation area document
 paint-options: ''
+phase: discovery
 plural: Conservation area documents
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage
 typology: document
-wikidata:
-wikipedia:
+wikidata: null
+wikipedia: null
 ---

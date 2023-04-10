@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: London square
 paint-options: ''
+phase: prioritised
 plural: London squares
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

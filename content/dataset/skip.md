@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline skip
 paint-options: ''
+phase: alpha
 plural: Pipeline skips
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

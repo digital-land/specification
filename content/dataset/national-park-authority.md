@@ -30,8 +30,10 @@ key-field: ''
 licence: ogl3
 name: National park authority
 paint-options: ''
+phase: beta
 plural: National park authorities, including the Broads
 prefix: wikidata
+realm: dataset
 start-date: ''
 themes:
 - administrative

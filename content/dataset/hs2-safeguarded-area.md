@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: HS2 safeguarded area
 paint-options: ''
+phase: prioritised
 plural: HS2 safeguarded areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - transport

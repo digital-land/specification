@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Safeguarded aerodrome
 paint-options: ''
+phase: prioritised
 plural: Safeguarded aerodromes
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - transport

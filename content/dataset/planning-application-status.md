@@ -18,8 +18,10 @@ fields:
 licence: ogl3
 name: Planning application status
 paint-options: ''
+phase: discovery
 plural: Planning application statuses
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - housing

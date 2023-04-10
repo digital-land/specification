@@ -30,8 +30,10 @@ key-field: ''
 licence: ogl3
 name: Article 4 direction area
 paint-options: ''
+phase: beta
 plural: Article 4 direction areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

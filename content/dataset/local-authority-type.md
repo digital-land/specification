@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Local authority type
 paint-options: ''
+phase: beta
 plural: Local authority types
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - administrative

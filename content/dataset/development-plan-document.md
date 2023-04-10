@@ -26,12 +26,14 @@ key-field: ''
 licence: ogl3
 name: Development plan document
 paint-options: ''
+phase: alpha
 plural: Development plan documents
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development
 typology: document
-wikidata:
-wikipedia:
+wikidata: null
+wikipedia: null
 ---

@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline combine facts
 paint-options: ''
+phase: alpha
 plural: Pipeline combine facts
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

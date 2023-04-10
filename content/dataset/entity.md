@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: Entity
 paint-options: ''
+phase: alpha
 plural: Entities
 prefix: ''
+realm: provenance
 start-date: ''
 themes:
 - specification

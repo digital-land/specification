@@ -21,8 +21,10 @@ key-field: ''
 licence: ogl3
 name: Company
 paint-options: ''
+phase: prioritised
 plural: Companies
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - administrative

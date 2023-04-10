@@ -25,8 +25,10 @@ key-field: ''
 licence: ogl3
 name: World heritage site buffer zone
 paint-options: '{ "colour": "#EB1EE5" }'
+phase: beta
 plural: World heritage site buffer zones
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

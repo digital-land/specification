@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Wildbelt
 paint-options: ''
+phase: prioritised
 plural: Wildbelts
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

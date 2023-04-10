@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Protected view
 paint-options: ''
+phase: prioritised
 plural: Protected views
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

@@ -22,8 +22,10 @@ key-field: ''
 licence: ogl3
 name: Internal drainage district
 paint-options: ''
+phase: discovery
 plural: Internal drainage districts
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - administrative

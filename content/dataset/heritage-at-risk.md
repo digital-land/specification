@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Heritage at risk
 paint-options: '{ "colour": "#8D73AF" }'
+phase: beta
 plural: Heritage at risk
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage

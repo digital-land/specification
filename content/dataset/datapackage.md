@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Data package
 paint-options: ''
+phase: alpha
 plural: Data packages
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

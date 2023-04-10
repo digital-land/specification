@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Park and garden grade
 paint-options: ''
+phase: beta
 plural: Parks and garden grades
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

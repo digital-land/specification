@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Severity
 paint-options: ''
+phase: alpha
 plural: Severities
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

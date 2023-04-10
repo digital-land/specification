@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 dataset: employment-allocation
 description: ''
 end-date: ''
@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Employment allocation
 paint-options: ''
+phase: prioritised
 plural: Employment allocations
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

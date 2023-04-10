@@ -18,8 +18,10 @@ key-field: ''
 licence: ogl3
 name: Licence
 paint-options: ''
+phase: alpha
 plural: Licences
 prefix: ''
+realm: specification
 start-date: ''
 themes:
 - specification

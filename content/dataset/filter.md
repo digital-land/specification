@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline filter
 paint-options: ''
+phase: alpha
 plural: Pipeline filters
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

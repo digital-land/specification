@@ -1,6 +1,6 @@
 ---
 attribution: os-open-data
-collection:
+collection: ''
 dataset: open-space
 description: ''
 end-date: ''
@@ -24,8 +24,10 @@ key-field: ''
 licence: ogl3
 name: Open space
 paint-options: '{ "colour": "#328478" }'
+phase: prioritised
 plural: Open spaces
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

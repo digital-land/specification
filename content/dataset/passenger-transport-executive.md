@@ -29,8 +29,10 @@ key-field: ''
 licence: ogl3
 name: Passenger transport executive
 paint-options: ''
+phase: beta
 plural: Passenger transport executives
 prefix: wikidata
+realm: dataset
 start-date: ''
 themes:
 - administrative

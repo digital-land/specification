@@ -29,8 +29,10 @@ key-field: ''
 licence: ogl3
 name: Government organisation
 paint-options: ''
+phase: beta
 plural: Government departments, agencies and public bodies
 prefix: government-organisation
+realm: dataset
 start-date: ''
 themes:
 - administrative

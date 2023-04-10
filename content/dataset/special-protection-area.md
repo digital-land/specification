@@ -26,8 +26,10 @@ key-field: ''
 licence: ogl3
 name: Special protection area
 paint-options: ''
+phase: beta
 plural: Special protection areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

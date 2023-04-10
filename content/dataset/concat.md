@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Pipeline concatenation
 paint-options: ''
+phase: alpha
 plural: Pipeline concatenations
 prefix: ''
+realm: pipeline
 start-date: ''
 themes:
 - specification

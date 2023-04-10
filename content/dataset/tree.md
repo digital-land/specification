@@ -30,8 +30,10 @@ key-field: ''
 licence: ogl3
 name: Tree
 paint-options: '{ "colour": "#3B453D", "type": "point" }'
+phase: beta
 plural: Trees
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - environment

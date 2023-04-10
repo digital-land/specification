@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Safety hazard area
 paint-options: ''
+phase: prioritised
 plural: Safety hazard areas
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

@@ -25,8 +25,10 @@ key-field: ''
 licence: ogl3
 name: Designated neighbourhood forum
 paint-options: ''
+phase: prioritised
 plural: Designated neighbourhood forums
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - administrative

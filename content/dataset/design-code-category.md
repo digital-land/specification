@@ -19,8 +19,10 @@ key-field: ''
 licence: ogl3
 name: Design code category
 paint-options: ''
+phase: beta
 plural: Design code categories
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - development

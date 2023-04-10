@@ -27,8 +27,10 @@ key-field: ''
 licence: ogl3
 name: Certificate of immunity
 paint-options: '{ "colour": "#D8760D" }'
+phase: beta
 plural: Certificates of immunity
 prefix: ''
+realm: dataset
 start-date: ''
 themes:
 - heritage
