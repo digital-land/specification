@@ -5,17 +5,22 @@ import csv
 from pathlib import Path
 
 
+realm = "dataset"
+
 tables = {
     "dataset": {},
+    "dataset-field": {},
     "field": {},
 }
 
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
-    tables["dataset"][row["dataset"]] = row
+    if row["realm"] == realm:
+        tables["dataset"][row["dataset"]] = row
 
 for row in csv.DictReader(open("specification/dataset-field.csv", newline="")):
-    tables["dataset"][row["dataset"]].setdefault("fields", [])
-    tables["dataset"][row["dataset"]]["fields"].append(row["field"])
+    dataset = row["dataset"]
+    tables["dataset-field"].setdefault(dataset, {})
+    tables["dataset-field"][dataset][row["field"]] = row
 
 for row in csv.DictReader(open("specification/field.csv", newline="")):
     tables["field"][row["field"]] = row
@@ -52,23 +57,37 @@ def svg_text(c, text, X, Y):
     return f'<text x="{X}" y="{Y}" class="{c}">{text}</text>'
 
 
-def svg_spline(c, from_x, from_y, to_x, to_y):
+def svg_spline(c, _id, from_x, from_y, to_x, to_y):
     mid_x = min(from_x, to_x) + abs(from_x - to_x) / 2
     return (
-        f'<path class="{c}" fill="none" stroke-width="2"'
+        f'<path class="{c}" id="{_id}" fill="none" stroke-width="2"'
         f' marker-start="url(#start-dot)" marker-end="url(#end-dot)"'
         f' d="M {from_x} {from_y} C {mid_x} {from_y} {mid_x} {to_y} {to_x} {to_y}"/>'
     )
 
 
-def sort_fields(dataset):
-    fields = sorted(tables["dataset-field"][dataset])
-    for field in ["dataset", "prefix", "reference", "entity", "name", "description"]:
-        fields.append(fields.pop(fields.index(field)))
+def sort_fields(fields):
+    upfront = ["dataset", "prefix", "reference", "entity", "name", "description"]
+    upfront.reverse()
+    for field in upfront:
+        if field in fields:
+            fields.pop(fields.index(field))
+            fields = [field] + fields
 
     # move default register fields to end, order is same as in list
-    for field in ["documentation-url", "document-url", "notes", "organisation", "entry-date", "start-date", "end-date"]:
-        fields.append(fields.pop(fields.index(field)))
+    for field in [
+        "geometry",
+        "point",
+        "documentation-url",
+        "document-url",
+        "notes",
+        "organisation",
+        "entry-date",
+        "start-date",
+        "end-date",
+    ]:
+        if field in fields:
+            fields.append(fields.pop(fields.index(field)))
     return fields
 
 
@@ -84,7 +103,9 @@ row_width = field_width + datatype_width
 
 
 datasets = tables["dataset"].keys()
-maxrows = max([len(d["fields"]) for dataset, d in tables["dataset"].items()])
+maxrows = max(
+    [len(tables["dataset-field"][dataset]) for dataset, d in tables["dataset"].items()]
+)
 ndatasets = len(datasets)
 ngaps = ndatasets - 1
 canvas_width = ndatasets * row_width + ngaps * gap
@@ -96,13 +117,13 @@ links = []
 boxes = []
 
 for dataset, d in tables["dataset"].items():
-
     Y = 0
     box = []
     box.append(svg_rect("name", X, Y, row_width, row_height))
     box.append(svg_text("name", dataset, X + int(row_width / 2), Y + text_y))
 
-    for field in tables["dataset"][dataset]["fields"]:
+    fields = list(tables["dataset-field"][dataset].keys())
+    for field in sort_fields(fields):
         datatype = field_datatype(field)
 
         Y = Y + row_height
@@ -115,29 +136,23 @@ for dataset, d in tables["dataset"].items():
             svg_text("datatype", datatype, X + field_width + padding, Y + text_y)
         )
 
-        points[f"from:{dataset}:{field}"] = (X, Y + text_y)
-        points[f"to:{dataset}:{field}"] = (X + row_width, Y + text_y)
+        points[f"from_{dataset}_{field}"] = (X, Y + text_y)
+        points[f"to_{dataset}_{field}"] = (X + row_width, Y + text_y)
 
-        if field in datasets:
-            link_dataset = field
+        link_dataset = (
+            tables["dataset-field"][dataset][field].get("field-dataset", "") or field
+        )
 
         # TBD: key field should be defined in the dataset.md
         if link_dataset in datasets:
-            if link_dataset in ["attribution", "checksum", "collection", "column", "dataset", "datapackage", "dataset-schema", "datatype", "endpoint", "fact", "field", "issue-type", "licence", "prefix", "project", "project-status", "provenance", "provision-reason", "resource", "severity", "schema", "specification", "specification-status", "source", "theme", "typology"]:
-                key = link_dataset
-            elif link_dataset == "old-entity":
-                key = "entity"
-            elif link_dataset == "old-resource":
-                key = "resource"
-            else:
-                key = "reference"
-
-            links.append(
-                {
-                    "from": f"from:{dataset}:{field}",
-                    "to": f"to:{link_dataset}:{key}",
-                }
-            )
+            link_field = tables["dataset"][link_dataset].get("key-field", "") or "reference"
+            if not (dataset == link_dataset and field == link_field):
+                links.append(
+                    {
+                        "from": f"from_{dataset}_{field}",
+                        "to": f"to_{link_dataset}_{link_field}",
+                    }
+                )
 
     boxes.append(box)
 
@@ -156,7 +171,7 @@ rect.name{fill:#0b0c0c; stroke:#0b0c0c;}
 rect{fill:#fff;stroke:#b1b4b6;}
 text.field{fill:#0b0c0c;}
 text.datatype{fill:#0b0c0c;}
-.line{stroke:#0b0c0c;}
+.line{stroke:#000; opacity:0.2;}
 </style>
 <marker id="start-dot" markerWidth="6" markerHeight="6" refX="4" refY="3" markerUnits="strokeWidth">
   <circle cx="3" cy="3" r="2" fill="#fff" stroke="#0b0c0c"/>
@@ -168,7 +183,8 @@ text.datatype{fill:#0b0c0c;}
 )
 
 for l in links:
-    print(svg_spline("line", *points[l["from"]], *points[l["to"]]))
+    _id = l["from"] + "__" + l["to"]
+    print(svg_spline("line", _id, *points[l["from"]], *points[l["to"]]))
 
 for box in boxes:
     print("<g>")
