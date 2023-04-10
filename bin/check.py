@@ -24,42 +24,58 @@ mandatory_fields = [
 
 # TBD: review this thinking ..
 # expect datasets to have an entity and reference field, with these exceptions
-expected_fields = {
-    "entity": [
-        "endpoint",
-        "issue",
-        "issue-type",
-        "licence",
-        "old-entity",
-        "old-resource",
-        "patch",
-        "project",
-        "source",
-        "schema",
-        "schema-field",
-        "skip",
-        "theme",
-        "transform",
-        "typology",
-    ],
-    "reference": [
-        "endpoint",
-        "issue",
-        "issue-type",
-        "licence",
-        "old-entity",
-        "old-resource",
-        "patch",
-        "project",
-        "source",
-        "schema",
-        "schema-field",
-        "skip",
-        "theme",
-        "transform",
-        "typology",
-    ],
-}
+expected_fields = ["entity", "prefix", "reference"]
+except_expected_fields = [
+    "attribution",
+    "checksum",
+    "collection",
+    "column",
+    "column-field",
+    "concat",
+    "combine",
+    "convert",
+    "datatype",
+    "datapackage",
+    "datapackage-dataset",
+    "default",
+    "default-value",
+    "dataset",
+    "dataset-package",
+    "dataset-field",
+    "dataset-schema",
+    "dataset-resource",
+    "endpoint",
+    "fact",
+    "fact-resource",
+    "field",
+    "filter",
+    "issue",
+    "issue-type",
+    "licence",
+    "log",
+    "old-entity",
+    "old-resource",
+    "organisation-dataset",
+    "patch",
+    "phase",
+    "prefix",
+    "project",
+    "project-status",
+    "provenance",
+    "provision-reason",
+    "realm",
+    "resource",
+    "severity",
+    "source",
+    "schema",
+    "schema-field",
+    "specification",
+    "specification-status",
+    "skip",
+    "theme",
+    "transform",
+    "typology",
+]
 
 # datasets
 key_field = {"reference": []}
@@ -215,12 +231,12 @@ def check_specifications():
         for d in j:
             dataset = d["dataset"]
             if dataset not in tables["dataset"]:
-                warning(
+                error(
                     "specificaton '%s' has an unknown dataset '%s'"
                     % (specification, dataset)
                 )
             if "fields" not in d:
-                warning(
+                error(
                     "specificaton '%s' dataset '%s' has no fields"
                     % (specification, dataset)
                 )
@@ -228,12 +244,12 @@ def check_specifications():
                 for f in d["fields"]:
                     field = f.get("dataset-field", f["field"])
                     if field not in tables["field"]:
-                        warning(
+                        error(
                             "specificaton '%s' dataset '%s' has unknown field '%s'"
                             % (specification, dataset, field)
                         )
                     elif dataset in tables["dataset"] and field not in tables["dataset-field"].get(dataset, []):
-                        warning(
+                        error(
                             "specificaton '%s' dataset '%s' field '%s' not in dataset '%s'"
                             % (specification, dataset, field, dataset)
                         )
@@ -295,8 +311,8 @@ if __name__ == "__main__":
             for field in expected_fields:
                 if field not in tables["dataset-field"][
                     dataset
-                ] and dataset not in expected_fields.get(field, []):
-                    warning("dataset '%s' missing '%s' field" % (dataset, field))
+                    ] and dataset not in except_expected_fields:
+                    error("dataset '%s' missing '%s' field" % (dataset, field))
 
     for key, row in tables["field"].items():
         if not row.get("name", ""):
