@@ -97,67 +97,85 @@ padding = 5
 
 field_width = 162
 datatype_width = 55
-gap = 80
+x_gap = 80
+y_gap = 80
 
 row_width = field_width + datatype_width
 
-
 datasets = tables["dataset"].keys()
+typologies = [
+    "organisation",
+    "legal-instrument",
+    "timetable",
+    "geography",
+    "policy",
+    "document",
+    "metric",
+    "category",
+]
+
 X = 0
 points = {}
 links = []
 boxes = []
+max_Y = 0
 
-for dataset, d in tables["dataset"].items():
+for typology in typologies:
     Y = 0
-    box = []
-    box.append(svg_rect("name", X, Y, row_width, row_height))
-    box.append(svg_text("name", dataset, X + int(row_width / 2), Y + text_y))
+    for dataset, d in tables["dataset"].items():
+        if d["typology"] != typology:
+            continue
 
-    fields = list(tables["dataset-field"][dataset].keys())
-    for field in sort_fields(fields):
-        datatype = field_datatype(field)
+        box = []
+        box.append(svg_rect("name", X, Y, row_width, row_height))
+        box.append(svg_text("name", dataset, X + int(row_width / 2), Y + text_y))
 
-        Y = Y + row_height
+        fields = list(tables["dataset-field"][dataset].keys())
+        for field in sort_fields(fields):
+            datatype = field_datatype(field)
 
-        box.append(svg_rect("field", X, Y, field_width, row_height))
-        box.append(svg_rect("datatype", X + field_width, Y, datatype_width, row_height))
+            Y = Y + row_height
 
-        box.append(svg_text("field", field, X + padding, Y + text_y))
-        box.append(
-            svg_text("datatype", datatype, X + field_width + padding, Y + text_y)
-        )
+            box.append(svg_rect("field", X, Y, field_width, row_height))
+            box.append(svg_rect("datatype", X + field_width, Y, datatype_width, row_height))
 
-        points[f"from_{dataset}_{field}"] = (X, Y + text_y)
-        points[f"to_{dataset}_{field}"] = (X + row_width, Y + text_y)
+            box.append(svg_text("field", field, X + padding, Y + text_y))
+            box.append(
+                svg_text("datatype", datatype, X + field_width + padding, Y + text_y)
+            )
 
-        link_dataset = (
-            tables["dataset-field"][dataset][field].get("field-dataset", "") or field
-        )
+            points[f"from_{dataset}_{field}"] = (X, Y + text_y)
+            points[f"to_{dataset}_{field}"] = (X + row_width, Y + text_y)
 
-        # TBD: key field should be defined in the dataset.md
-        if link_dataset in datasets:
-            link_field = tables["dataset"][link_dataset].get("key-field", "") or "reference"
-            if not (dataset == link_dataset and field == link_field):
-                links.append(
-                    {
-                        "from": f"from_{dataset}_{field}",
-                        "to": f"to_{link_dataset}_{link_field}",
-                    }
+            link_dataset = (
+                tables["dataset-field"][dataset][field].get("field-dataset", "") or field
+            )
+
+            # TBD: key field should be defined in the dataset.md
+            if link_dataset in datasets:
+                link_field = (
+                    tables["dataset"][link_dataset].get("key-field", "") or "reference"
                 )
+                if not (dataset == link_dataset and field == link_field):
+                    links.append(
+                        {
+                            "from": f"from_{dataset}_{field}",
+                            "to": f"to_{link_dataset}_{link_field}",
+                        }
+                    )
 
-    boxes.append(box)
+        boxes.append(box)
+        Y = Y + y_gap
 
-    X = X + row_width + gap
+    if Y > max_Y:
+        max_Y = Y
+    X = X + row_width + x_gap
 
 
-maxrows = max(
-    [len(tables["dataset-field"][dataset]) for dataset, d in tables["dataset"].items()]
-)
 ndatasets = len(datasets)
 ngaps = ndatasets - 1
-canvas_width = ndatasets * row_width + ngaps * gap
-canvas_height = (maxrows + 1) * row_height
+canvas_width = ndatasets * row_width + ngaps * x_gap
+canvas_height = max_Y
 
 print(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_width}" height="{canvas_height}">'
