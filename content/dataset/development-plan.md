@@ -33,7 +33,7 @@ realm: dataset
 start-date: ''
 themes:
 - development
-typology: organisation
+typology: legal-instrument
 wikidata: Q5266783
 wikipedia: Development_plan
 ---
