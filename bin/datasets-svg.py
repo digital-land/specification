@@ -4,7 +4,6 @@ import sys
 import csv
 from pathlib import Path
 
-
 realm = "dataset"
 
 tables = {
@@ -57,12 +56,18 @@ def svg_text(c, text, X, Y):
     return f'<text x="{X}" y="{Y}" class="{c}">{text}</text>'
 
 
-def svg_spline(c, _id, from_x, from_y, to_x, to_y):
-    mid_x = min(from_x, to_x) + abs(from_x - to_x) / 2
+def svg_spline(c, _id, title, from_x, from_y, to_x, to_y, gap_x):
+    if from_x == to_x:
+        mid_x = from_x + gap_x /2
+    else:
+        mid_x = min(from_x, to_x) + abs(from_x - to_x) / 2
+
     return (
         f'<path class="{c}" id="{_id}" fill="none" stroke-width="2"'
         f' marker-start="url(#start-dot)" marker-end="url(#end-dot)"'
-        f' d="M {from_x} {from_y} C {mid_x} {from_y} {mid_x} {to_y} {to_x} {to_y}"/>'
+        f' d="M {from_x} {from_y} C {mid_x} {from_y} {mid_x} {to_y} {to_x} {to_y}">'
+        f'<title>{title}</title>'
+        f'</path>'
     )
 
 
@@ -112,6 +117,7 @@ typologies = [
     "document",
     "metric",
     "category",
+    "specification",
 ]
 
 X = x_gap
@@ -144,8 +150,7 @@ for typology in typologies:
                 svg_text("datatype", datatype, X + field_width + padding, Y + text_y)
             )
 
-            points[f"from_{dataset}_{field}"] = (X, Y + text_y)
-            points[f"to_{dataset}_{field}"] = (X + row_width, Y + text_y)
+            points[f"{dataset}_{field}"] = (X, Y + text_y)
 
             link_dataset = (
                 tables["dataset-field"][dataset][field].get("field-dataset", "") or field
@@ -159,8 +164,8 @@ for typology in typologies:
                 if not (dataset == link_dataset and field == link_field):
                     links.append(
                         {
-                            "from": f"from_{dataset}_{field}",
-                            "to": f"to_{link_dataset}_{link_field}",
+                            "from": f"{dataset}_{field}",
+                            "to": f"{link_dataset}_{link_field}",
                         }
                     )
 
@@ -193,18 +198,30 @@ text.datatype{fill:#0b0c0c;}
 .line{stroke:#000; opacity:0.2;}
 .line:hover{stroke:#f00; opacity:1;}
 </style>
-<marker id="start-dot" markerWidth="6" markerHeight="6" refX="4" refY="3" markerUnits="strokeWidth">
+<marker id="start-dot" markerWidth="6" markerHeight="6" refX="3" refY="3" markerUnits="strokeWidth">
   <circle cx="3" cy="3" r="2" fill="#fff" stroke="#0b0c0c"/>
 </marker>
-<marker id="end-dot" markerWidth="6" markerHeight="6" refX="2" refY="3" markerUnits="strokeWidth">
+<marker id="end-dot" markerWidth="6" markerHeight="6" refX="3" refY="3" markerUnits="strokeWidth">
   <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
 </marker>
 </defs>"""
 )
 
 for l in links:
-    _id = l["from"] + "__" + l["to"]
-    print(svg_spline("line", _id, *points[l["from"]], *points[l["to"]]))
+    from_x, from_y = points[l["from"]]
+    to_x, to_y = points[l["to"]]
+
+    if to_x == from_x:
+        from_x = from_x + row_width
+        to_x = to_x + row_width
+    elif to_x > from_x:
+        from_x = from_x + row_width
+    else:
+        to_x = to_x + row_width
+
+    _id = f'from_{l["from"]}_to_{l["to"]}'
+    title = _id.replace("_", " ")
+    print(svg_spline("line", _id, title, from_x, from_y, to_x, to_y, x_gap))
 
 for box in boxes:
     print("<g>")
