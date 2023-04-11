@@ -22,60 +22,7 @@ mandatory_fields = [
     "end-date",
 ]
 
-# TBD: review this thinking ..
-# expect datasets to have an entity and reference field, with these exceptions
-expected_fields = ["entity", "prefix", "reference"]
-except_expected_fields = [
-    "attribution",
-    "checksum",
-    "collection",
-    "column",
-    "column-field",
-    "concat",
-    "combine",
-    "convert",
-    "datatype",
-    "datapackage",
-    "datapackage-dataset",
-    "default",
-    "default-value",
-    "dataset",
-    "dataset-package",
-    "dataset-field",
-    "dataset-schema",
-    "dataset-resource",
-    "endpoint",
-    "fact",
-    "fact-resource",
-    "field",
-    "filter",
-    "issue",
-    "issue-type",
-    "licence",
-    "log",
-    "old-entity",
-    "old-resource",
-    "organisation-dataset",
-    "patch",
-    "phase",
-    "prefix",
-    "project",
-    "project-status",
-    "provenance",
-    "provision-reason",
-    "realm",
-    "resource",
-    "severity",
-    "source",
-    "schema",
-    "schema-field",
-    "specification",
-    "specification-status",
-    "skip",
-    "theme",
-    "transform",
-    "typology",
-]
+dataset_expected_fields = ["entity", "prefix", "reference", "notes"]
 
 # datasets
 key_field = {"reference": []}
@@ -248,12 +195,13 @@ def check_specifications():
                             "specificaton '%s' dataset '%s' has unknown field '%s'"
                             % (specification, dataset, field)
                         )
-                    elif dataset in tables["dataset"] and field not in tables["dataset-field"].get(dataset, []):
+                    elif dataset in tables["dataset"] and field not in tables[
+                        "dataset-field"
+                    ].get(dataset, []):
                         error(
                             "specificaton '%s' dataset '%s' field '%s' not in dataset '%s'"
                             % (specification, dataset, field, dataset)
                         )
-
 
 
 def check(table):
@@ -308,11 +256,10 @@ if __name__ == "__main__":
                 if field not in tables["dataset-field"][dataset]:
                     error("dataset '%s' missing '%s' field" % (dataset, field))
 
-            for field in expected_fields:
-                if field not in tables["dataset-field"][
-                    dataset
-                    ] and dataset not in except_expected_fields:
-                    error("dataset '%s' missing '%s' field" % (dataset, field))
+            if d["realm"] in ["dataset"]:
+                for field in dataset_expected_fields:
+                    if field not in tables["dataset-field"][dataset]:
+                        error("dataset '%s' missing '%s' field" % (dataset, field))
 
     for key, row in tables["field"].items():
         if not row.get("name", ""):
