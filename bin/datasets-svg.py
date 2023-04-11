@@ -114,7 +114,7 @@ typologies = [
     "category",
 ]
 
-X = 0
+X = x_gap
 points = {}
 links = []
 boxes = []
@@ -169,12 +169,13 @@ for typology in typologies:
 
     if Y > max_Y:
         max_Y = Y
+
     X = X + row_width + x_gap
 
 
-ndatasets = len(datasets)
-ngaps = ndatasets - 1
-canvas_width = ndatasets * row_width + ngaps * x_gap
+ncols = len(typologies)
+ngaps = ncols + 2
+canvas_width = ncols * row_width + ngaps * x_gap
 canvas_height = max_Y
 
 print(
@@ -186,10 +187,11 @@ print(
 text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
 text.name{fill:#fff;font-weight:700;text-anchor:middle}
 rect.name{fill:#0b0c0c; stroke:#0b0c0c;}
-rect{fill:#fff;stroke:#b1b4b6;}
+rect{fill:#fff;stroke:#b1b4b6; opacity: 0.8;}
 text.field{fill:#0b0c0c;}
 text.datatype{fill:#0b0c0c;}
 .line{stroke:#000; opacity:0.2;}
+.line:hover{stroke:#f00; opacity:1;}
 </style>
 <marker id="start-dot" markerWidth="6" markerHeight="6" refX="4" refY="3" markerUnits="strokeWidth">
   <circle cx="3" cy="3" r="2" fill="#fff" stroke="#0b0c0c"/>
