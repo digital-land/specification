@@ -33,22 +33,6 @@ datasets:
           description: the <a href="#date">date</a> this date the design code no longer applies
         - field: entry-date
           description: the <a href="#date">date</a> this entry was created or last amended
-    - dataset: design-code-area
-      name: design code area
-      fields:
-        - field: reference
-        - field: name
-        - field: geometry
-        - field: design-code
-          description: the <a href="#reference">reference</a> for the design code which applies to this area
-        - field: design-code-rules
-          description: a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.
-        - field: documentation-url
-        - field: document-url
-        - field: notes
-        - field: entry-date
-        - field: start-date
-        - field: end-date
     - dataset: design-code-rule
       name: design code rule
       fields:
@@ -57,6 +41,26 @@ datasets:
         - field: design-code
           description: the <a href="#reference">reference</a> for the design code where this rule is defined.
         - field: description
+        - field: documentation-url
+        - field: document-url
+        - field: notes
+        - field: entry-date
+        - field: start-date
+        - field: end-date
+    - dataset: design-code-area
+      name: design code area
+      fields:
+        - field: reference
+          description: the <a href="#reference">reference</a> for the design code area
+        - field: name
+          description: the name, or title of the design code area
+        - field: geometry
+          description: the boundaries of the design code area as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry.
+        - field: design-code
+          description: the <a href="#reference">reference</a> for the design code which applies to this area
+        - field: design-code-rules
+          description: a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.
+          dataset: design-code-rule
         - field: documentation-url
         - field: document-url
         - field: notes
