@@ -223,9 +223,9 @@ code.value {
     
       <li>A hyperlink to the <a href="#design-code-dataset">design code</a> data</li>
     
-      <li>A hyperlink to the <a href="#design-code-area-dataset">design code area</a> data</li>
-    
       <li>A hyperlink to the <a href="#design-code-rule-dataset">design code rule</a> data</li>
+    
+      <li>A hyperlink to the <a href="#design-code-area-dataset">design code area</a> data</li>
     
 
     <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
@@ -276,10 +276,10 @@ code.value {
 
 
     <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
-    Design code area
+    Design code rule
 </h3>
-    <p class="govuk-body">The design code area data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each design code area.</p>
+    <p class="govuk-body">The design code rule data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each design code rule.</p>
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
@@ -288,11 +288,9 @@ code.value {
     
     <li><code class="field">name</code> </li>
     
-    <li><code class="field">geometry</code> </li>
+    <li><code class="field">design-code</code>  &mdash; the <a href="#reference">reference</a> for the design code where this rule is defined.</li>
     
-    <li><code class="field">design-code</code>  &mdash; the <a href="#reference">reference</a> for the design code which applies to this area</li>
-    
-    <li><code class="field">design-code-rules</code>  &mdash; a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.</li>
+    <li><code class="field">description</code> </li>
     
     <li><code class="field">documentation-url</code> </li>
     
@@ -311,21 +309,23 @@ code.value {
 
 
     <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">
-    Design code rule
+    Design code area
 </h3>
-    <p class="govuk-body">The design code rule data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each design code rule.</p>
+    <p class="govuk-body">The design code area data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each design code area.</p>
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><code class="field">reference</code> </li>
+    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the design code area</li>
     
-    <li><code class="field">name</code> </li>
+    <li><code class="field">name</code>  &mdash; the name, or title of the design code area</li>
     
-    <li><code class="field">design-code</code>  &mdash; the <a href="#reference">reference</a> for the design code where this rule is defined.</li>
+    <li><code class="field">geometry</code>  &mdash; the boundaries of the design code area as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry.</li>
     
-    <li><code class="field">description</code> </li>
+    <li><code class="field">design-code</code>  &mdash; the <a href="#reference">reference</a> for the design code which applies to this area</li>
+    
+    <li><code class="field">design-code-rules</code>  &mdash; a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.</li>
     
     <li><code class="field">documentation-url</code> </li>
     

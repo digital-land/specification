@@ -16,6 +16,18 @@ erDiagram
         date end-date
         date entry-date
     }
+    design-code-rule {
+        string reference
+        string name
+        ref design-code
+        string description
+        url documentation-url
+        url document-url
+        string notes
+        date entry-date
+        date start-date
+        date end-date
+    }
     design-code-area {
         string reference
         string name
@@ -29,18 +41,6 @@ erDiagram
         date start-date
         date end-date
     }
-    design-code-rule {
-        string reference
-        string name
-        ref design-code
-        string description
-        url documentation-url
-        url document-url
-        string notes
-        date entry-date
-        date start-date
-        date end-date
-    }
-    design-code-area ||--o{ design-code : references
     design-code-rule ||--o{ design-code : references
+    design-code-area ||--o{ design-code : references
 ```
