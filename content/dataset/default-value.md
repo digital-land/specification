@@ -27,7 +27,7 @@ start-date: ''
 themes:
 - specification
 - pipeline
-typology: specification
+typology: pipeline
 wikidata: ''
 wikipedia: ''
 ---

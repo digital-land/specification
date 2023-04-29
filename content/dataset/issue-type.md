@@ -15,7 +15,7 @@ fields:
 - field: name
 - field: severity
 - field: start-date
-key-field: ''
+key-field: 'issue-type'
 licence: ogl3
 name: Issue type
 paint-options: ''

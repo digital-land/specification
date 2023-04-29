@@ -14,7 +14,7 @@ fields:
 - field: name
 - field: severity
 - field: start-date
-key-field: ''
+key-field: 'severity'
 licence: ogl3
 name: Severity
 paint-options: ''

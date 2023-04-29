@@ -15,7 +15,7 @@ fields:
 - field: old-resource
 - field: start-date
 - field: status
-key-field: ''
+key-field: 'old-resource'
 licence: ogl3
 name: Resource redirection
 paint-options: ''

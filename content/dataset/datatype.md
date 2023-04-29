@@ -14,7 +14,7 @@ fields:
 - field: name
 - field: start-date
 - field: text
-key-field: ''
+key-field: 'datatype'
 licence: ogl3
 name: Datatype
 paint-options: ''

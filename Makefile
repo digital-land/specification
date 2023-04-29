@@ -155,7 +155,10 @@ docs/specification/%/diagram.svg:	content/specification/%.md bin/specification-s
 	@mkdir -p $(dir $@)
 	python3 bin/specification-svg.py $< > $@
 
-render:: docs/dataset/diagram.svg
+render:: docs/dataset/diagram.svg docs/model.svg
 
 docs/dataset/diagram.svg: specification/dataset-field.csv bin/datasets-svg.py
-	bin/datasets-svg.py > $@
+	python3 bin/datasets-svg.py > $@
+
+docs/model.svg: specification/dataset-field.csv bin/model-svg.py
+	python3 bin/model-svg.py > $@

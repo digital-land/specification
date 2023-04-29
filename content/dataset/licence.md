@@ -14,7 +14,7 @@ fields:
 - field: licence
 - field: start-date
 - field: text
-key-field: ''
+key-field: 'licence'
 licence: ogl3
 name: Licence
 paint-options: ''

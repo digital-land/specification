@@ -21,7 +21,7 @@ paint-options: ''
 phase: alpha
 plural: References
 prefix: ''
-realm: pipeline
+realm: entity
 start-date: ''
 themes:
 - specification

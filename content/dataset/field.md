@@ -24,7 +24,7 @@ fields:
 - field: typology
 - field: uri-template
 - field: wikidata-property
-key-field: ''
+key-field: 'field'
 licence: ogl3
 name: Field
 paint-options: ''

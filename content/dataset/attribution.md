@@ -14,7 +14,7 @@ fields:
 - field: entry-date
 - field: start-date
 - field: text
-key-field: ''
+key-field: 'attribution'
 licence: ogl3
 name: Attribution
 paint-options: ''

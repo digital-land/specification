@@ -17,7 +17,7 @@ fields:
 - field: organisations
 - field: resource
 - field: start-date
-key-field: ''
+key-field: 'resource'
 licence: ogl3
 name: Resource
 paint-options: ''

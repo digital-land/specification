@@ -16,7 +16,7 @@ fields:
 - field: reference-entity
 - field: start-date
 - field: value
-key-field: ''
+key-field: 'fact'
 licence: ogl3
 name: Fact
 paint-options: ''

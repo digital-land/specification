@@ -18,7 +18,7 @@ fields:
 - field: typology
 - field: wikidata
 - field: wikipedia
-key-field: ''
+key-field: 'typology'
 licence: ogl3
 name: Typology
 paint-options: ''

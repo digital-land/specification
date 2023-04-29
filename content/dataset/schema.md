@@ -13,7 +13,7 @@ fields:
 - field: name
 - field: schema
 - field: start-date
-key-field: ''
+key-field: 'schema'
 licence: ogl3
 name: Schema
 paint-options: ''

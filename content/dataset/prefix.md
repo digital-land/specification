@@ -14,18 +14,18 @@ fields:
 - field: prefix-uri
 - field: organisation
 - field: start-date
-key-field: ''
+key-field: 'prefix'
 licence: ogl3
 name: CURIE prefix
 paint-options: ''
 phase: alpha
 plural: CURIE prefixes
 prefix: ''
-realm: specification
+realm: entity
 start-date: ''
 themes:
 - specification
-typology: specification
+typology: entity
 wikidata: ''
 wikipedia: ''
 ---

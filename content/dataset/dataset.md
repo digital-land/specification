@@ -30,7 +30,7 @@ fields:
 - field: typology
 - field: wikidata
 - field: wikipedia
-key-field: ''
+key-field: 'dataset'
 licence: ogl3
 name: Dataset
 paint-options: ''

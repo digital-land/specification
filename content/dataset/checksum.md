@@ -16,7 +16,7 @@ fields:
 - field: line-count
 - field: path
 - field: start-date
-key-field: ''
+key-field: 'checksum'
 licence: ogl3
 name: Checksum
 paint-options: ''

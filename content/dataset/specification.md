@@ -19,7 +19,7 @@ fields:
 - field: specification-status
 - field: documentation-url
 - field: start-date
-key-field: ''
+key-field: 'specification'
 licence: ogl3
 name: Specification
 paint-options: ''

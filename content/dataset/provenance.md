@@ -15,7 +15,7 @@ fields:
 - field: resource
 - field: start-date
 - field: value
-key-field: ''
+key-field: 'provenance'
 licence: ogl3
 name: Provenance
 notes: "No longer used"

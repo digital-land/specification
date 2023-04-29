@@ -14,6 +14,7 @@ fields:
 - field: name
 - field: provision-reason
 - field: start-date
+key-field: 'provision-reason'
 licence: ogl3
 name: Provision reason
 paint-options: ''

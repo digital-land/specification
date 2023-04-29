@@ -14,7 +14,7 @@ fields:
 - field: name
 - field: project-status
 - field: start-date
-key-field: ''
+key-field: 'project-status'
 licence: ogl3
 name: Project status
 paint-options: ''

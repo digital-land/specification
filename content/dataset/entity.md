@@ -22,7 +22,7 @@ fields:
 - field: reference
 - field: start-date
 - field: typology
-key-field: ''
+key-field: 'entity'
 licence: ogl3
 name: Entity
 paint-options: ''

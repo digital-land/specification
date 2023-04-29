@@ -14,7 +14,7 @@ fields:
 - field: field
 - field: resource
 - field: start-date
-key-field: ''
+key-field: 'column'
 licence: ogl3
 name: Pipeline column
 paint-options: ''
@@ -26,7 +26,7 @@ start-date: ''
 themes:
 - specification
 - pipeline
-typology: specification
+typology: pipeline
 wikidata: ''
 wikipedia: ''
 ---

@@ -15,7 +15,7 @@ fields:
 - field: old-entity
 - field: start-date
 - field: status
-key-field: ''
+key-field: 'old-entity'
 licence: ogl3
 name: Entity redirection
 paint-options: ''
