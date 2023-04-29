@@ -7,7 +7,7 @@ article-4-direction-area,Article 4 direction area,an area covered by an Article 
 article-4-direction-rule,Article 4 direction rule,the set of changes to permitted development rights affecting an article 4 direction area,
 article-4-direction,Article 4 direction,,
 asset-of-community-value,Asset of community value,,
-attribution,Attribution,,
+attribution,Attribution,,attribution
 battlefield,Battlefield,,
 best-and-most-versatile-agricultural-land,Best and most versatile agricultural land,,
 biodiversity-net-gain-assessment,Biodiversity net gain assesment,,
@@ -18,11 +18,11 @@ building-preservation-notice,Building preservation notice,,
 category,Category,,
 central-activities-zone,Central activities zone,,
 certificate-of-immunity,Certificate of immunity,,
-checksum,Checksum,Checksums of dataset files and other media,
+checksum,Checksum,Checksums of dataset files and other media,checksum
 coastal-change-management-area,Coastal change management area,,
-collection,Collection,A collection of resources collected from various sources,
+collection,Collection,A collection of resources collected from various sources,collection
 column-field,Column field,Log of resource columns mapped to dataset fields,
-column,Pipeline column,Map resource column name to dataset field,
+column,Pipeline column,Map resource column name to dataset field,column
 combine,Pipeline combine facts,Combine a series of facts from multiple entries,
 common-land-and-village-green,Common land and village green,,
 company,Company,,
@@ -36,12 +36,12 @@ contribution-purpose,Contribution purpose,,
 control-of-major-accident-hazards-site,Control of major accident hazards site,,
 convert,Pipeline convert,Convert a resource,
 datapackage-dataset,Data package dataset,Datasets included in a datapackage,
-datapackage,Data package,Collections of datasets,
+datapackage,Data package,Collections of datasets,datapackage
 dataset-field,Dataset field,,
 dataset-resource,Dataset resource,An index of resources in a dataset,
 dataset-schema,Dataset schema,,
-dataset,Dataset,A collection of entities of the same type,
-datatype,Datatype,,
+dataset,Dataset,A collection of entities of the same type,dataset
+datatype,Datatype,,datatype
 default-value,Pipeline default value,provide a default value for a missing or empty field,
 default,Pipeline default field,Take a missing field default value from another field,
 design-code-area,Design code area,,
@@ -67,11 +67,11 @@ development-policy,Development policy,,
 document-type,Document type,,
 document,Document,,
 employment-allocation,Employment allocation,,
-endpoint,Endpoint,,
-entity,Entity,a data item,
+endpoint,Endpoint,,endpoint
+entity,Entity,a data item,entity
 fact-resource,Fact resource,the provenance of a fact,
-fact,Fact,a field and its value for an entity,
-field,Field,,
+fact,Fact,a field and its value for an entity,fact
+field,Field,,field
 filter,Pipeline filter,Filter entries,
 flood-zone-1,Flood zone 1,,
 flood-zone-2,Flood zone 2,,
@@ -92,9 +92,9 @@ hs2-safeguarded-area,HS2 safeguarded area,,
 infrastructure-funding-statement,Infrastructure funding statement,,
 internal-drainage-board,Internal drainage board,,
 internal-drainage-district,Internal drainage district,,
-issue-type,Issue type,types of issues with fields processing resources,
+issue-type,Issue type,types of issues with fields processing resources,issue-type
 issue,Issue,issues with fields processing resources,
-licence,Licence,,
+licence,Licence,,licence
 listed-building-grade,Listed building grade,,
 listed-building-outline,Listed building outline,boundary of a listed building,
 listed-building,Listed building,,
@@ -123,8 +123,8 @@ non-designated-and-locally-listed-historic-asset,Non-designated and locally list
 non-designated-archeology-asset-of-national-importance,Non-designated archeology asset of national importance,,
 nonprofit,Nonprofit organisation,,
 nuclear-safety-zone,Nuclear safety zone,,
-old-entity,Entity redirection,Redirect an entity or mark it as gone,
-old-resource,Resource redirection,"Redirect a resource to a fixed version, or mark it as gone",
+old-entity,Entity redirection,Redirect an entity or mark it as gone,old-entity
+old-resource,Resource redirection,"Redirect a resource to a fixed version, or mark it as gone",old-resource
 open-space,Open space,,
 organisation-dataset,Organisation dataset,,
 organisation,Organisation,,
@@ -144,15 +144,15 @@ planning-development-category,Planning development category,Planning development
 planning-permission-status,Planning permission status,,
 planning-permission-type,Planning permission type,,
 policy,Policy,,
-prefix,CURIE prefix,,
-project-status,Project status,,
-project,Project,,
+prefix,CURIE prefix,,prefix
+project-status,Project status,,project-status
+project,Project,,project
 proposed-ramsar-site,Proposed ramsar site,,
 protected-land,Protected land,,
 protected-view,Protected view,,
 protected-wreck-site,Protected wreck site,,
-provenance,Provenance,,
-provision-reason,Provision reason,The reason a dataset is provided by an organisation,
+provenance,Provenance,,provenance
+provision-reason,Provision reason,The reason a dataset is provided by an organisation,provision-reason
 public-authority,Public authority,,
 public-safety-zone-around-airport,Public safety zone around airport,,
 ramsar,Ramsar site,,
@@ -160,34 +160,34 @@ realm,Phase,phase of development,
 reference,Reference,Redirect a prefix and reference to an entity,
 region,Region,,
 regional-park-authority,Regional park authority,,
-resource,Resource,An index of collected resources,
+resource,Resource,An index of collected resources,resource
 safeguarded-aerodrome,Safeguarded aerodrome,,
 safeguarded-military-explosives-site,Safeguarded military explosives site,,
 safeguarded-wharf,Safeguarded wharf,,
 safety-hazard-area,Safety hazard area,,
 scheduled-monument,Scheduled monument,,
 schema-field,Schema field,,
-schema,Schema,,
+schema,Schema,,schema
 self-and-custom-buildarea,Self and custom build area,,
-severity,Severity,severity of a log message or issue,
+severity,Severity,severity of a log message or issue,severity
 site-category,Site category,,
 site-of-special-scientific-interest,Site of special scientific interest,,
 skip,Pipeline skip,Remove lines from a resource during normalise,
-source,Source,,
+source,Source,,source
 special-area-of-conservation,Special area of conservation,,
 special-protection-area,Special protection area,,
-specification-status,Specification status,status of a specification,
-specification,Specification,,
+specification-status,Specification status,status of a specification,specification-status
+specification,Specification,,specification
 street,Street,,
 suitable-alternative-green-space,Suitable alternative green space,,
-theme,Theme,,
+theme,Theme,,theme
 transform,Pipeline transformation,,
 transport-under-tcpa-route,Transport (under TCPA route),,
 tree-preservation-order,Tree preservation order,,
 tree-preservation-type,Tree preservation type,Types of preservation order,
 tree-preservation-zone,Tree preservation zone,An area covered by a tree preservation order,
 tree,Tree,An individual tree,
-typology,Typology,,
+typology,Typology,,typology
 waste-authority,Waste disposal authority,,
 wildbelt,Wildbelt,,
 wildlife,Wildlife,,
