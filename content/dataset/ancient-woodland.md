@@ -2,7 +2,7 @@
 attribution: natural-england
 collection: ancient-woodland
 dataset: ancient-woodland
-description: ''
+description: 'An area that’s been wooded continuously since at least 1600 AD'
 end-date: ''
 entity-maximum: '129999999'
 entity-minimum: '110000000'

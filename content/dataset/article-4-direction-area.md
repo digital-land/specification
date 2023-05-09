@@ -2,7 +2,7 @@
 attribution: crown-copyright
 collection: article-4-direction
 dataset: article-4-direction-area
-description: an area covered by an Article 4 direction
+description: 'Orders made by the local planning authority to remove all or some of the permitted development rights on a site in order to protect it'
 end-date: ''
 entity-maximum: '1199999'
 entity-minimum: '1100000'
