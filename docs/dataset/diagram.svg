@@ -44,7 +44,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_development-plan_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 550 C 337.0 550 337.0 3490 297 3490"><title>from development-plan organisation to organisation reference</title></path>
 <path class="line" id="from_tree-preservation-order_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 890 C 337.0 890 337.0 3490 297 3490"><title>from tree-preservation-order organisation to organisation reference</title></path>
 <path class="line" id="from_development-plan-timetable_development-plan_to_development-plan_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 110 C 634.0 110 634.0 370 594 370"><title>from development-plan-timetable development-plan to development-plan reference</title></path>
-<path class="line" id="from_development-plan-timetable_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 190 C 485.5 190 485.5 3490 297 3490"><title>from development-plan-timetable organisation to organisation reference</title></path>
+<path class="line" id="from_development-plan-timetable_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 230 C 485.5 230 485.5 3490 297 3490"><title>from development-plan-timetable organisation to organisation reference</title></path>
 <path class="line" id="from_ancient-woodland_ancient-woodland_to_ancient-woodland_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 110 C 1228.0 110 1228.0 50 1188 50"><title>from ancient-woodland ancient-woodland to ancient-woodland reference</title></path>
 <path class="line" id="from_ancient-woodland_ancient-woodland-status_to_ancient-woodland-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 130 C 1673.5 130 1673.5 50 2159 50"><title>from ancient-woodland ancient-woodland-status to ancient-woodland-status reference</title></path>
 <path class="line" id="from_ancient-woodland_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 230 C 634.0 230 634.0 3490 297 3490"><title>from ancient-woodland organisation to organisation reference</title></path>
@@ -1367,24 +1367,32 @@ text.datatype{fill:#0b0c0c;}
 <text x="841" y="150" class="datatype">datetime</text>
 <rect x="674" y="160" width="162" height="20" class="field"/>
 <rect x="836" y="160" width="55" height="20" class="datatype"/>
-<text x="679" y="170" class="field">notes</text>
-<text x="841" y="170" class="datatype">text</text>
+<text x="679" y="170" class="field">documentation-url</text>
+<text x="841" y="170" class="datatype">url</text>
 <rect x="674" y="180" width="162" height="20" class="field"/>
 <rect x="836" y="180" width="55" height="20" class="datatype"/>
-<text x="679" y="190" class="field">organisation</text>
-<text x="841" y="190" class="datatype">curie</text>
+<text x="679" y="190" class="field">document-url</text>
+<text x="841" y="190" class="datatype">url</text>
 <rect x="674" y="200" width="162" height="20" class="field"/>
 <rect x="836" y="200" width="55" height="20" class="datatype"/>
-<text x="679" y="210" class="field">entry-date</text>
-<text x="841" y="210" class="datatype">datetime</text>
+<text x="679" y="210" class="field">notes</text>
+<text x="841" y="210" class="datatype">text</text>
 <rect x="674" y="220" width="162" height="20" class="field"/>
 <rect x="836" y="220" width="55" height="20" class="datatype"/>
-<text x="679" y="230" class="field">start-date</text>
-<text x="841" y="230" class="datatype">datetime</text>
+<text x="679" y="230" class="field">organisation</text>
+<text x="841" y="230" class="datatype">curie</text>
 <rect x="674" y="240" width="162" height="20" class="field"/>
 <rect x="836" y="240" width="55" height="20" class="datatype"/>
-<text x="679" y="250" class="field">end-date</text>
+<text x="679" y="250" class="field">entry-date</text>
 <text x="841" y="250" class="datatype">datetime</text>
+<rect x="674" y="260" width="162" height="20" class="field"/>
+<rect x="836" y="260" width="55" height="20" class="datatype"/>
+<text x="679" y="270" class="field">start-date</text>
+<text x="841" y="270" class="datatype">datetime</text>
+<rect x="674" y="280" width="162" height="20" class="field"/>
+<rect x="836" y="280" width="55" height="20" class="datatype"/>
+<text x="679" y="290" class="field">end-date</text>
+<text x="841" y="290" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="971" y="0" width="217" height="20" class="name"/>
