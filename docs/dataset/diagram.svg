@@ -41,8 +41,8 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_waste-authority_region_to_region_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 5490 C 634.0 5490 634.0 10590 971 10590"><title>from waste-authority region to region reference</title></path>
 <path class="line" id="from_article-4-direction_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 190 C 337.0 190 337.0 3490 297 3490"><title>from article-4-direction organisation to organisation reference</title></path>
 <path class="line" id="from_development-plan_development-plan-type_to_development-plan-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 450 C 1376.5 450 1376.5 3270 2159 3270"><title>from development-plan development-plan-type to development-plan-type reference</title></path>
-<path class="line" id="from_development-plan_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 550 C 337.0 550 337.0 3490 297 3490"><title>from development-plan organisation to organisation reference</title></path>
-<path class="line" id="from_tree-preservation-order_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 890 C 337.0 890 337.0 3490 297 3490"><title>from tree-preservation-order organisation to organisation reference</title></path>
+<path class="line" id="from_development-plan_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 570 C 337.0 570 337.0 3490 297 3490"><title>from development-plan organisation to organisation reference</title></path>
+<path class="line" id="from_tree-preservation-order_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 910 C 337.0 910 337.0 3490 297 3490"><title>from tree-preservation-order organisation to organisation reference</title></path>
 <path class="line" id="from_development-plan-timetable_development-plan_to_development-plan_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 110 C 634.0 110 634.0 370 594 370"><title>from development-plan-timetable development-plan to development-plan reference</title></path>
 <path class="line" id="from_development-plan-timetable_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 230 C 485.5 230 485.5 3490 297 3490"><title>from development-plan-timetable organisation to organisation reference</title></path>
 <path class="line" id="from_ancient-woodland_ancient-woodland_to_ancient-woodland_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 110 C 1228.0 110 1228.0 50 1188 50"><title>from ancient-woodland ancient-woodland to ancient-woodland reference</title></path>
@@ -116,11 +116,11 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_special-area-of-conservation_special-area-of-conservation_to_special-area-of-conservation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 11850 C 1228.0 11850 1228.0 11730 1188 11730"><title>from special-area-of-conservation special-area-of-conservation to special-area-of-conservation reference</title></path>
 <path class="line" id="from_special-area-of-conservation_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 11950 C 634.0 11950 634.0 3490 297 3490"><title>from special-area-of-conservation organisation to organisation reference</title></path>
 <path class="line" id="from_special-protection-area_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 12350 C 634.0 12350 634.0 3490 297 3490"><title>from special-protection-area organisation to organisation reference</title></path>
-<path class="line" id="from_tree-preservation-zone_tree-preservation-order_to_tree-preservation-order_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 12630 C 782.5 12630 782.5 730 594 730"><title>from tree-preservation-zone tree-preservation-order to tree-preservation-order reference</title></path>
+<path class="line" id="from_tree-preservation-zone_tree-preservation-order_to_tree-preservation-order_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 12630 C 782.5 12630 782.5 750 594 750"><title>from tree-preservation-zone tree-preservation-order to tree-preservation-order reference</title></path>
 <path class="line" id="from_tree-preservation-zone_tree-preservation-type_to_tree-preservation-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 12650 C 1673.5 12650 1673.5 7170 2159 7170"><title>from tree-preservation-zone tree-preservation-type to tree-preservation-type reference</title></path>
 <path class="line" id="from_tree-preservation-zone_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 12770 C 634.0 12770 634.0 3490 297 3490"><title>from tree-preservation-zone organisation to organisation reference</title></path>
 <path class="line" id="from_tree_tree_to_tree_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 13070 C 1228.0 13070 1228.0 12950 1188 12950"><title>from tree tree to tree reference</title></path>
-<path class="line" id="from_tree_tree-preservation-order_to_tree-preservation-order_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 13090 C 782.5 13090 782.5 730 594 730"><title>from tree tree-preservation-order to tree-preservation-order reference</title></path>
+<path class="line" id="from_tree_tree-preservation-order_to_tree-preservation-order_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 13090 C 782.5 13090 782.5 750 594 750"><title>from tree tree-preservation-order to tree-preservation-order reference</title></path>
 <path class="line" id="from_tree_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 13210 C 634.0 13210 634.0 3490 297 3490"><title>from tree organisation to organisation reference</title></path>
 <path class="line" id="from_world-heritage-site-buffer-zone_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 13450 C 1228.0 13450 1228.0 5030 1188 5030"><title>from world-heritage-site-buffer-zone geography to geography reference</title></path>
 <path class="line" id="from_world-heritage-site-buffer-zone_world-heritage-site_to_world-heritage-site_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 13470 C 1228.0 13470 1228.0 13750 1188 13750"><title>from world-heritage-site-buffer-zone world-heritage-site to world-heritage-site reference</title></path>
@@ -1259,80 +1259,84 @@ text.datatype{fill:#0b0c0c;}
 <text x="544" y="510" class="datatype">url</text>
 <rect x="377" y="520" width="162" height="20" class="field"/>
 <rect x="539" y="520" width="55" height="20" class="datatype"/>
-<text x="382" y="530" class="field">notes</text>
-<text x="544" y="530" class="datatype">text</text>
+<text x="382" y="530" class="field">document-url</text>
+<text x="544" y="530" class="datatype">url</text>
 <rect x="377" y="540" width="162" height="20" class="field"/>
 <rect x="539" y="540" width="55" height="20" class="datatype"/>
-<text x="382" y="550" class="field">organisation</text>
-<text x="544" y="550" class="datatype">curie</text>
+<text x="382" y="550" class="field">notes</text>
+<text x="544" y="550" class="datatype">text</text>
 <rect x="377" y="560" width="162" height="20" class="field"/>
 <rect x="539" y="560" width="55" height="20" class="datatype"/>
-<text x="382" y="570" class="field">entry-date</text>
-<text x="544" y="570" class="datatype">datetime</text>
+<text x="382" y="570" class="field">organisation</text>
+<text x="544" y="570" class="datatype">curie</text>
 <rect x="377" y="580" width="162" height="20" class="field"/>
 <rect x="539" y="580" width="55" height="20" class="datatype"/>
-<text x="382" y="590" class="field">start-date</text>
+<text x="382" y="590" class="field">entry-date</text>
 <text x="544" y="590" class="datatype">datetime</text>
 <rect x="377" y="600" width="162" height="20" class="field"/>
 <rect x="539" y="600" width="55" height="20" class="datatype"/>
-<text x="382" y="610" class="field">end-date</text>
+<text x="382" y="610" class="field">start-date</text>
 <text x="544" y="610" class="datatype">datetime</text>
+<rect x="377" y="620" width="162" height="20" class="field"/>
+<rect x="539" y="620" width="55" height="20" class="datatype"/>
+<text x="382" y="630" class="field">end-date</text>
+<text x="544" y="630" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="377" y="680" width="217" height="20" class="name"/>
-<text x="485" y="690" class="name">tree-preservation-order</text>
-<rect x="377" y="700" width="162" height="20" class="field"/>
-<rect x="539" y="700" width="55" height="20" class="datatype"/>
-<text x="382" y="710" class="field">prefix</text>
-<text x="544" y="710" class="datatype">string</text>
+<rect x="377" y="700" width="217" height="20" class="name"/>
+<text x="485" y="710" class="name">tree-preservation-order</text>
 <rect x="377" y="720" width="162" height="20" class="field"/>
 <rect x="539" y="720" width="55" height="20" class="datatype"/>
-<text x="382" y="730" class="field">reference</text>
+<text x="382" y="730" class="field">prefix</text>
 <text x="544" y="730" class="datatype">string</text>
 <rect x="377" y="740" width="162" height="20" class="field"/>
 <rect x="539" y="740" width="55" height="20" class="datatype"/>
-<text x="382" y="750" class="field">entity</text>
-<text x="544" y="750" class="datatype">integer</text>
+<text x="382" y="750" class="field">reference</text>
+<text x="544" y="750" class="datatype">string</text>
 <rect x="377" y="760" width="162" height="20" class="field"/>
 <rect x="539" y="760" width="55" height="20" class="datatype"/>
-<text x="382" y="770" class="field">name</text>
-<text x="544" y="770" class="datatype">string</text>
+<text x="382" y="770" class="field">entity</text>
+<text x="544" y="770" class="datatype">integer</text>
 <rect x="377" y="780" width="162" height="20" class="field"/>
 <rect x="539" y="780" width="55" height="20" class="datatype"/>
-<text x="382" y="790" class="field">description</text>
+<text x="382" y="790" class="field">name</text>
 <text x="544" y="790" class="datatype">string</text>
 <rect x="377" y="800" width="162" height="20" class="field"/>
 <rect x="539" y="800" width="55" height="20" class="datatype"/>
-<text x="382" y="810" class="field">legislation</text>
+<text x="382" y="810" class="field">description</text>
 <text x="544" y="810" class="datatype">string</text>
 <rect x="377" y="820" width="162" height="20" class="field"/>
 <rect x="539" y="820" width="55" height="20" class="datatype"/>
-<text x="382" y="830" class="field">documentation-url</text>
-<text x="544" y="830" class="datatype">url</text>
+<text x="382" y="830" class="field">legislation</text>
+<text x="544" y="830" class="datatype">string</text>
 <rect x="377" y="840" width="162" height="20" class="field"/>
 <rect x="539" y="840" width="55" height="20" class="datatype"/>
-<text x="382" y="850" class="field">document-url</text>
+<text x="382" y="850" class="field">documentation-url</text>
 <text x="544" y="850" class="datatype">url</text>
 <rect x="377" y="860" width="162" height="20" class="field"/>
 <rect x="539" y="860" width="55" height="20" class="datatype"/>
-<text x="382" y="870" class="field">notes</text>
-<text x="544" y="870" class="datatype">text</text>
+<text x="382" y="870" class="field">document-url</text>
+<text x="544" y="870" class="datatype">url</text>
 <rect x="377" y="880" width="162" height="20" class="field"/>
 <rect x="539" y="880" width="55" height="20" class="datatype"/>
-<text x="382" y="890" class="field">organisation</text>
-<text x="544" y="890" class="datatype">curie</text>
+<text x="382" y="890" class="field">notes</text>
+<text x="544" y="890" class="datatype">text</text>
 <rect x="377" y="900" width="162" height="20" class="field"/>
 <rect x="539" y="900" width="55" height="20" class="datatype"/>
-<text x="382" y="910" class="field">entry-date</text>
-<text x="544" y="910" class="datatype">datetime</text>
+<text x="382" y="910" class="field">organisation</text>
+<text x="544" y="910" class="datatype">curie</text>
 <rect x="377" y="920" width="162" height="20" class="field"/>
 <rect x="539" y="920" width="55" height="20" class="datatype"/>
-<text x="382" y="930" class="field">start-date</text>
+<text x="382" y="930" class="field">entry-date</text>
 <text x="544" y="930" class="datatype">datetime</text>
 <rect x="377" y="940" width="162" height="20" class="field"/>
 <rect x="539" y="940" width="55" height="20" class="datatype"/>
-<text x="382" y="950" class="field">end-date</text>
+<text x="382" y="950" class="field">start-date</text>
 <text x="544" y="950" class="datatype">datetime</text>
+<rect x="377" y="960" width="162" height="20" class="field"/>
+<rect x="539" y="960" width="55" height="20" class="datatype"/>
+<text x="382" y="970" class="field">end-date</text>
+<text x="544" y="970" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="674" y="0" width="217" height="20" class="name"/>
