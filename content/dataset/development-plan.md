@@ -11,6 +11,7 @@ fields:
 - field: description
 - field: development-plan-type
 - field: documentation-url
+- field: document-url
 - field: end-date
 - field: entity
 - field: entry-date
