@@ -10,6 +10,8 @@ entry-date: ''
 fields:
 - field: development-plan
 - field: development-plan-event
+- field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
