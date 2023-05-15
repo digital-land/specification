@@ -27,12 +27,56 @@ datasets:
             description: The web page where you can find the documentation for the planning application.
           - field: notes
           - field: planning-application-type
+            dataset: planning-application-type
           - field: planning-decision
+            dataset: planning-decision
           - field: planning-decision-type
+            dataset: planning-decision-type
           - field: notes
             description: Optional notes
           - field: organisation
             description: The code for the responsible organisation
+          - field: entry-date   
+          - field: start-date
+          - field: end-date
+    - dataset: planning-application-log
+      name: planning application log
+      fields:
+          - field: reference
+          - field: planning-application
+          - field: planning-application-status
+            dataset: planning-application-status
+          - field: document-url
+          - field: documentation-url
+          - field: event-date
+          - field: notes
+          - field: organisation
+            description: The code for the responsible organisation
+          - field: entry-date
+          - field: start-date
+          - field: end-date
+    - dataset: planning-application-document
+      name: planning application document
+      fields:
+          - field: reference
+            description: An unique identifier for this record (for example, xyz-123-abc)
+          - field: name
+            description: The name of this document
+          - field: description
+            description: Brief description of this document
+          - field: planning-application
+            description: The planning application reference (for example, "27/AP/9032")
+          - field: document-type
+            dataset: planning-application-document-type
+            description: The code for this document type (for example "proposed-plan")
+          - field: documentation-url
+            description: The webpage where you can find this document 
+          - field: document-url
+            description: The URL of the actual document
+          - field: notes
+            description: Optional notes
+          - field: organisation
+            description: The code for the responsible organisation (for example, local-authority-eng:BST)
           - field: entry-date   
           - field: start-date
           - field: end-date
