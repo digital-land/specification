@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Planning application | Digital Land</title>
+    <title>Planning application log | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -120,12 +120,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Planning application</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Planning application log</li>
     
   
   </ol>
@@ -137,68 +137,185 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
-  <h1 class="govuk-heading-xl">Planning application</h1>
+  <span class="govuk-caption-xl">Dataset</span>
+  <h1 class="govuk-heading-xl">Planning application log</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">The stages a planning application has gone through</p>
+    <!--  -->
 
     <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
       <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Planning application</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">planning-application</td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
+          <td class="govuk-table__cell" id="field_document-url"><a href="../../field/document-url">document-url</a>
+          </td>
+          <td class="govuk-table__cell">Document URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../policy">policy</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/policy">policy</a></td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Dataset</th>
-          <td class="govuk-table__cell"><a href="../../dataset/planning-application">planning-application</a></td>
+          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
+          </td>
+          <td class="govuk-table__cell">Documentation URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">1</td>
         </tr>
+    
         
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+          </td>
+          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_event-date"><a href="../../field/event-date">event-date</a>
+          </td>
+          <td class="govuk-table__cell">Event date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
+          </td>
+          <td class="govuk-table__cell">Notes</td>
+          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_planning-application"><a href="../../field/planning-application">planning-application</a>
+          </td>
+          <td class="govuk-table__cell">Planning application</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_planning-application-status"><a href="../../field/planning-application-status">planning-application-status</a>
+          </td>
+          <td class="govuk-table__cell">Planning application status</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
+          </td>
+          <td class="govuk-table__cell">CURIE prefix</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
+          </td>
+          <td class="govuk-table__cell">Reference</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
       </tbody>
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Schemas</h2>
-    <p class="govuk-body">The following datasets use this field:</p>
+
+    
+    <h2 class="govuk-heading-s" id="">Datasets</h2>
+
+    
+    <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../dataset/biodiversity-net-gain-assessment">Biodiversity net gain assesment</a></li>
+      <li><a href="../entity">Entity</a></li>
     
-      <li><a href="../../dataset/developer-agreement">Developer agreement</a></li>
+      <li><a href="../organisation">Organisation</a></li>
     
-      <li><a href="../../dataset/planning-application-document">Planning application document</a></li>
+      <li><a href="../planning-application">Planning application</a></li>
     
-      <li><a href="../../dataset/planning-application-log">Planning application log</a></li>
+      <li><a href="../planning-application-status">Planning application status</a></li>
+    
+      <li><a href="../prefix">CURIE prefix</a></li>
+    
+      <li><a href="../reference">Reference</a></li>
     
     </ul>
     
 
+    
+
+    
   </div>
 </div>
 

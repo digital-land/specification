@@ -213,6 +213,8 @@ crown-copyright,legislation,permitted-development-right,,,,,11500000,11599999,og
 Each right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.
 This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",development,policy,,
 crown-copyright,,phase,phase of development,,,,,,ogl3,Phase,,Phases,beta,,specification,,,specification,category,,
+crown-copyright,,planning-application-document,,,,,200000000,299999999,ogl3,Planning application document,,Planning application documents,alpha,,dataset,,,development,document,,
+crown-copyright,,planning-application-log,The stages a planning application has gone through,,,,140000000,199999999,ogl3,Planning application log,,Planning application logs,alpha,,dataset,,,development,timetable,,
 crown-copyright,planning-application,planning-application-status,A planning application status,,,,620000,620999,ogl3,Planning application status,,Planning application statuses,discovery,,dataset,,,housing;monitoring,category,,
 crown-copyright,planning-application,planning-application-type,A type of planning application,,,,621000,621999,ogl3,Planning application type,,Planning application types,discovery,,dataset,,,housing;monitoring,category,,
 crown-copyright,,planning-application,An application for planning permission,,,,10000000000,10999999999,ogl3,Planning application,,Planning applications,discovery,,dataset,,,housing;monitoring,geography,,

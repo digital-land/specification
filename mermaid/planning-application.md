@@ -22,4 +22,33 @@ erDiagram
         date start-date
         date end-date
     }
+    planning-application-log {
+        string reference
+        ref planning-application
+        string planning-application-status
+        url document-url
+        url documentation-url
+        date event-date
+        string notes
+        string organisation
+        date entry-date
+        date start-date
+        date end-date
+    }
+    planning-application-document {
+        string reference
+        string name
+        string description
+        ref planning-application
+        string document-type
+        url documentation-url
+        url document-url
+        string notes
+        string organisation
+        date entry-date
+        date start-date
+        date end-date
+    }
+    planning-application-log ||--o{ planning-application : references
+    planning-application-document ||--o{ planning-application : references
 ```
