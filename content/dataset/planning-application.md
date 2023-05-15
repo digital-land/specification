@@ -16,10 +16,12 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: geometry
 - field: ground-area
 - field: name
 - field: notes
 - field: organisation
+- field: point
 - field: planning-application-status
 - field: planning-application-type
 - field: planning-decision
