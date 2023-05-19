@@ -10,6 +10,7 @@ entry-date: ''
 fields:
 - field: address
 - field: address-text
+- field: decision-date
 - field: description
 - field: development-classification
 - field: documentation-url

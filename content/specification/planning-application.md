@@ -11,55 +11,71 @@ datasets:
       name: planning application
       fields:
           - field: reference
-            description: An unique identifier for a planning application
+            description: The planning application reference (for example, "27/AP/9032")
           - field: name
             description: Name of the planning application (for example, "Residential alteration to Downton House")
           - field: description
             description: Brief description of the application (for example, "Alterations to two windows on the southern elevation of the 3rd floor flat")
           - field: address-text
-            description: The address of the site as a single line of text
+            description: The address of the site as a single line of text (for example, "11 High Street, Ambridge, BO22 3LL")
           - field: address
-            description: The UPRN for the address of the site
+            description: The UPRN for the primary address of the site
           - field: geometry
             description: the boundary of the site as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry
           - field: point
           - field: documentation-url
-            description: The web page where you can find the documentation for the planning application.
+            description: The URL of this planning application in the planning register.
           - field: notes
           - field: planning-application-type
             dataset: planning-application-type
+            description: The reference code for the type of planning application (for example "full-planning-permission")
           - field: planning-decision
             dataset: planning-decision
+            description: The reference code for the planning decision made (for example "pending" or "permission-in-principle")
           - field: planning-decision-type
             dataset: planning-decision-type
+            description: The reference code for the way the decision was made (for example "committee")
           - field: notes
-            description: Optional notes
+            description: Optional notes text
           - field: organisation
-            description: The code for the responsible organisation
+            description: The reference code for the organisation responsible for processing the planning application
           - field: entry-date   
+            description: The date this data was created or last updated
           - field: start-date
+            description: The date the planning application was submitted
+          - field: decision-date
+            description: The date the planning application was decided upon
           - field: end-date
+            description: The date the planning application was withdrawn or removed from the register
     - dataset: planning-application-log
       name: planning application log
       fields:
           - field: reference
+            description: The reference for the planning application status (for example, "27/AP/9032/FULL")
           - field: planning-application
+            description: The planning application reference (for example, "27/AP/9032")
           - field: planning-application-status
             dataset: planning-application-status
-          - field: document-url
+            description: The reference code for the change of planning application status (for example "validated", "decided" or "under-appeal")
           - field: documentation-url
-          - field: event-date
+            description: The URL for a web page where a user can see the change in the planning application status
+          - field: document-url
+            description: The URL for a document which evidences the change in the planning application status
           - field: notes
+            description: Optional notes text
           - field: organisation
-            description: The code for the responsible organisation
-          - field: entry-date
+            description: The code for the organisation responsible for processing the application
+          - field: entry-date   
+            description: The date this data was created or last updated
           - field: start-date
+            description: The date this change in status applies from
           - field: end-date
+            description: The date this change of event no longer applies. This is the same as the start-date in case of an error
     - dataset: planning-application-document
       name: planning application document
       fields:
           - field: reference
-            description: An unique identifier for this record (for example, xyz-123-abc)
+            description: An unique identifier for the document (for example, "27/AP/9032/DOC/3")
           - field: name
             description: The name of this document
           - field: description
@@ -78,6 +94,7 @@ datasets:
           - field: organisation
             description: The code for the responsible organisation (for example, local-authority-eng:BST)
           - field: entry-date   
+            description: The date this data was created or last updated
           - field: start-date
-          - field: end-date
+            description: The date the document was published
 ---
