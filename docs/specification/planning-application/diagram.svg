@@ -39,8 +39,8 @@ text.datatype{fill:#0b0c0c;}
 <text x="167" y="90" class="datatype">string</text>
 <rect x="0" y="100" width="162" height="20" class="field"/>
 <rect x="162" y="100" width="55" height="20" class="datatype"/>
-<text x="5" y="110" class="field">address</text>
-<text x="167" y="110" class="datatype">reference</text>
+<text x="5" y="110" class="field">uprn</text>
+<text x="167" y="110" class="datatype">string</text>
 <rect x="0" y="120" width="162" height="20" class="field"/>
 <rect x="162" y="120" width="55" height="20" class="datatype"/>
 <text x="5" y="130" class="field">geometry</text>

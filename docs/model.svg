@@ -583,7 +583,6 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_planning-application_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 40030 C 931.0 40030 931.0 30 1565 30"><title>from planning-application prefix to prefix prefix</title></path>
 <path class="line" id="from_planning-application_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 40050 C 931.0 40050 931.0 250 1565 250"><title>from planning-application reference to reference reference</title></path>
 <path class="line" id="from_planning-application_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 40070 C 782.5 40070 782.5 550 1268 550"><title>from planning-application entity to entity entity</title></path>
-<path class="line" id="from_planning-application_address_to_address_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 40130 C 337.0 40130 337.0 50 297 50"><title>from planning-application address to address reference</title></path>
 <path class="line" id="from_planning-application_planning-application-status_to_planning-application-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 40230 C 337.0 40230 337.0 39550 297 39550"><title>from planning-application planning-application-status to planning-application-status reference</title></path>
 <path class="line" id="from_planning-application_planning-application-type_to_planning-application-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 40250 C 337.0 40250 337.0 39790 297 39790"><title>from planning-application planning-application-type to planning-application-type reference</title></path>
 <path class="line" id="from_planning-application_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 40390 C 337.0 40390 337.0 35990 297 35990"><title>from planning-application organisation to organisation reference</title></path>
@@ -7594,8 +7593,8 @@ text.datatype{fill:#0b0c0c;}
 <text x="247" y="40110" class="datatype">string</text>
 <rect x="80" y="40120" width="162" height="20" class="field"/>
 <rect x="242" y="40120" width="55" height="20" class="datatype"/>
-<text x="85" y="40130" class="field">address</text>
-<text x="247" y="40130" class="datatype">reference</text>
+<text x="85" y="40130" class="field">uprn</text>
+<text x="247" y="40130" class="datatype">string</text>
 <rect x="80" y="40140" width="162" height="20" class="field"/>
 <rect x="242" y="40140" width="55" height="20" class="datatype"/>
 <text x="85" y="40150" class="field">address-text</text>

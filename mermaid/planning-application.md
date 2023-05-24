@@ -8,7 +8,7 @@ erDiagram
         string name
         string description
         string address-text
-        string address
+        string uprn
         wkt geometry
         wkt point
         url documentation-url
