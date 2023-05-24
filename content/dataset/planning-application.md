@@ -8,7 +8,7 @@ entity-maximum: '10999999999'
 entity-minimum: '10000000000'
 entry-date: ''
 fields:
-- field: address
+- field: uprn
 - field: address-text
 - field: decision-date
 - field: description

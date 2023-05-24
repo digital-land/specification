@@ -18,7 +18,7 @@ datasets:
             description: Brief description of the application (for example, "Alterations to two windows on the southern elevation of the 3rd floor flat")
           - field: address-text
             description: The address of the site as a single line of text (for example, "11 High Street, Ambridge, BO22 3LL")
-          - field: address
+          - field: uprn
             description: The UPRN for the primary address of the site
           - field: geometry
             description: the boundary of the site as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry
