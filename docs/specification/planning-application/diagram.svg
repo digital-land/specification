@@ -64,11 +64,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="0" y="220" width="162" height="20" class="field"/>
 <rect x="162" y="220" width="55" height="20" class="datatype"/>
 <text x="5" y="230" class="field">planning-decision</text>
-<text x="167" y="230" class="datatype">string</text>
+<text x="167" y="230" class="datatype">reference</text>
 <rect x="0" y="240" width="162" height="20" class="field"/>
 <rect x="162" y="240" width="55" height="20" class="datatype"/>
 <text x="5" y="250" class="field">planning-decision-type</text>
-<text x="167" y="250" class="datatype">string</text>
+<text x="167" y="250" class="datatype">reference</text>
 <rect x="0" y="260" width="162" height="20" class="field"/>
 <rect x="162" y="260" width="55" height="20" class="datatype"/>
 <text x="5" y="270" class="field">notes</text>
