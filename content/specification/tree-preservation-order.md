@@ -43,12 +43,10 @@ datasets:
       name: tree
       fields:
         - field: reference
-          description: the <a href="#reference">reference</a> for the tree
+          description: the number or reference for the tree which appears in the preservation order
         - field: name
         - field: tree-preservation-order
           description: the <a href="#reference">reference</a> for the tree preservation order
-        - field: tree-preservation-order-tree
-          description: the tree number or reference which appears in the preservation order
         - field: uprn
           dataset-field: address
         - field: address-text
