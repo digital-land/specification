@@ -29,7 +29,6 @@ erDiagram
         string reference
         string name
         ref tree-preservation-order
-        string tree-preservation-order-tree
         string uprn
         string address-text
         wkt point

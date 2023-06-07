@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: planning-application
+collection:
 dataset: planning-development-category
 description: Planning development category
 end-date: ''
