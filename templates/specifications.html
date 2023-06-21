@@ -6,38 +6,51 @@
     {{ text[0]|upper}}{{text[1:] }}
 {% endmacro %}
 
+{% macro specification_list(status, specifications) %}
+<ul class="govuk-list govuk-list--bullet">
+  {% for specification, item in specifications.items()| sort %}
+    {% if item['specification-status'] == status %}
+    <li><a href="{{specification}}">{{sentence_case(item["name"])}}</a>
+      {% if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endmacro %}
+
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+
     <p class="govuk-body">Technical specifications to help Local Planning Authorities provide consistent planning data.</p>
-    <h2 id="mandated-standard" class="govuk-heading-m">Data standards</h2>
-    <p class="govuk-body">The following specifications are mandated as data standards.</p>
-    <ul class="govuk-list govuk-list--bullet">
+    <h2 id="open-standard" class="govuk-heading-m">Open standards</h2>
+    <p class="govuk-body">The following specifications are open data standards.</p>
+    <p class="govuk-body">These standards have been tested with data providers and we are confident they meet the needs of data consumers.</p>
+    <p class="govuk-body">We don't expect these standards to change very often but they may be expanded if required. We expect publishers to follow these standards</p>
+    <!-- <ul class="govuk-list govuk-list--bullet">
       <li><a href="https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data">Brownfield land</a></li>
-    </ul>
+    </ul> -->
+    {{ specification_list('open-standard', tables["specification"]) }}
 
     <h2 id="candidate-standard" class="govuk-heading-m">Candidate standards</h2>
-    <p class="govuk-body">The following specifications are being tested with a larger group of users before becoming a data standard.</p>
-    <ul class="govuk-list govuk-list--bullet">
-      <li><a href="https://www.gov.uk/guidance/publish-your-developer-contributions-data">Developer contributions</a></li>
-    </ul>
+    <p class="govuk-body">The following specifications are being tested with a larger group of users before becoming an open standard.</p>
+    {{ specification_list('candidate-standard', tables["specification"]) }}
+
+    <h2 id="piloting" class="govuk-heading-m">Pilot standards</h2>
+    <p class="govuk-body">The following specifications are being tested with a select number of data providers to ensure they work with their processes, are able to represent existing data, and meet the needs of data consumers.</p>
+    {{ specification_list('piloting', tables["specification"]) }}
 
     <h2 id="working-draft" class="govuk-heading-m">Working drafts</h2>
-    <p class="govuk-body">The following specifications are being developed with a small number of data providers to ensure they work with their processes, are able to represent existing data, and meet the needs of data consumers.</p>
-    <ul class="govuk-list govuk-list--bullet">
-    {% for specification, item in tables["specification"].items()| sort %}
-      <li><a href="{{specification}}">{{sentence_case(item["name"])}}</a>
-          {% if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif %}
-      </li>
-    {% endfor %}
-    </ul>
+    <p class="govuk-body">The following specifications are currently being developed to meet the needs of data consumers.</p>
+    {{ specification_list('working-draft', tables["specification"]) }}
 
-    <h2 id="discovery" class="govuk-heading-m">In discovery</h2>
+
+    <!-- <h2 id="discovery" class="govuk-heading-m">In discovery</h2>
     <p class="govuk-body">The following areas are under research to understand the users and needs for prospective data specifications.</p>
     <ul class="govuk-list govuk-list--bullet">
       <li>Local plan</li>
       <li>Planning application</li>
-    </ul>
+    </ul> -->
 
   </div>
 </div>
