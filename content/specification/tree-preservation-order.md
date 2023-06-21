@@ -2,7 +2,7 @@
 specification: tree-preservation-order
 name: Tree preservation order
 plural: Tree preservation orders
-specification-status: working-draft
+specification-status: piloting
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
