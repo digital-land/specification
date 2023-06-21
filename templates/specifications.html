@@ -22,8 +22,44 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
 
-    <p class="govuk-body">Technical specifications to help Local Planning Authorities provide consistent planning data.</p>
-    <h2 id="open-standard" class="govuk-heading-m">Open standards</h2>
+    <p class="govuk-body">Technical specifications to help users publish and use consistent planning data.</p>
+    
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-3">
+  {% set specifications = tables["specification"].values()|list %}
+  <div class="govuk-grid-column-one-quarter">
+    <div class="data-item">
+      <span class="data-item__number">{{ specifications|selectattr('specification-status', 'equalto', 'open-standard')|list|length }}</span>
+      <span class="data-item__label"><a href="#open-standard" class="govuk-link govuk-link--text-colour">Open standards</a></span>
+    </div>
+  </div>
+
+  <div class="govuk-grid-column-one-quarter">
+    <div class="data-item">
+      <span class="data-item__number">{{ specifications|selectattr('specification-status', 'equalto', 'candidate-standard')|list|length }}</span>
+      <span class="data-item__label"><a href="#candidate-standard" class="govuk-link govuk-link--text-colour">Candidate standards</a></span>
+    </div>
+  </div>
+
+  <div class="govuk-grid-column-one-quarter">
+    <div class="data-item">
+      <span class="data-item__number">{{ specifications|selectattr('specification-status', 'equalto', 'piloting')|list|length }}</span>
+      <span class="data-item__label"><a href="#piloting" class="govuk-link govuk-link--text-colour">Pilot standards</a></span>
+    </div>
+  </div>
+
+  <div class="govuk-grid-column-one-quarter">
+    <div class="data-item">
+      <span class="data-item__number">{{ specifications|selectattr('specification-status', 'equalto', 'working-draft')|list|length }}</span>
+      <span class="data-item__label"><a href="#working-draft" class="govuk-link govuk-link--text-colour">Working drafts</a></span>
+    </div>  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 id="open-standard" class="govuk-heading-m govuk-!-margin-top-9">Open standards</h2>
     <p class="govuk-body">The following specifications are open data standards.</p>
     <p class="govuk-body">These standards have been tested with data providers and we are confident they meet the needs of data consumers.</p>
     <p class="govuk-body">We don't expect these standards to change very often but they may be expanded if required. We expect publishers to follow these standards</p>
@@ -32,15 +68,15 @@
     </ul> -->
     {{ specification_list('open-standard', tables["specification"]) }}
 
-    <h2 id="candidate-standard" class="govuk-heading-m">Candidate standards</h2>
+    <h2 id="candidate-standard" class="govuk-heading-m govuk-!-margin-top-9">Candidate standards</h2>
     <p class="govuk-body">The following specifications are being tested with a larger group of users before becoming an open standard.</p>
     {{ specification_list('candidate-standard', tables["specification"]) }}
 
-    <h2 id="piloting" class="govuk-heading-m">Pilot standards</h2>
+    <h2 id="piloting" class="govuk-heading-m govuk-!-margin-top-9">Pilot standards</h2>
     <p class="govuk-body">The following specifications are being tested with a select number of data providers to ensure they work with their processes, are able to represent existing data, and meet the needs of data consumers.</p>
     {{ specification_list('piloting', tables["specification"]) }}
 
-    <h2 id="working-draft" class="govuk-heading-m">Working drafts</h2>
+    <h2 id="working-draft" class="govuk-heading-m govuk-!-margin-top-9">Working drafts</h2>
     <p class="govuk-body">The following specifications are currently being developed to meet the needs of data consumers.</p>
     {{ specification_list('working-draft', tables["specification"]) }}
 
