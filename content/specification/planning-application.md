@@ -65,10 +65,12 @@ datasets:
             description: Optional notes text
           - field: organisation
             description: The code for the organisation responsible for processing the application
+          - field: event-date   
+            description: The date this event happened or the change in status applies from
           - field: entry-date   
             description: The date this data was created or last updated
           - field: start-date
-            description: The date this change in status applies from
+            description: The date this fact was true from
           - field: end-date
             description: The date this change of event no longer applies. This is the same as the start-date in case of an error
     - dataset: planning-application-document
