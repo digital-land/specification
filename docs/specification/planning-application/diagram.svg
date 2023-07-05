@@ -127,16 +127,20 @@ text.datatype{fill:#0b0c0c;}
 <text x="464" y="150" class="datatype">curie</text>
 <rect x="297" y="160" width="162" height="20" class="field"/>
 <rect x="459" y="160" width="55" height="20" class="datatype"/>
-<text x="302" y="170" class="field">entry-date</text>
+<text x="302" y="170" class="field">event-date</text>
 <text x="464" y="170" class="datatype">datetime</text>
 <rect x="297" y="180" width="162" height="20" class="field"/>
 <rect x="459" y="180" width="55" height="20" class="datatype"/>
-<text x="302" y="190" class="field">start-date</text>
+<text x="302" y="190" class="field">entry-date</text>
 <text x="464" y="190" class="datatype">datetime</text>
 <rect x="297" y="200" width="162" height="20" class="field"/>
 <rect x="459" y="200" width="55" height="20" class="datatype"/>
-<text x="302" y="210" class="field">end-date</text>
+<text x="302" y="210" class="field">start-date</text>
 <text x="464" y="210" class="datatype">datetime</text>
+<rect x="297" y="220" width="162" height="20" class="field"/>
+<rect x="459" y="220" width="55" height="20" class="datatype"/>
+<text x="302" y="230" class="field">end-date</text>
+<text x="464" y="230" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="594" y="0" width="217" height="20" class="name"/>
