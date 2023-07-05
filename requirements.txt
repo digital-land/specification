@@ -1,5 +1,6 @@
 -e git+https://github.com/digital-land/digital-land-python.git#egg=digital-land
 -e git+https://github.com/digital-land/frontend.git#egg=digital_land_frontend
+filelock
 MarkupSafe
 Markdown==3.2.2
 jinja2==3.0.3
