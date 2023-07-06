@@ -17,6 +17,7 @@ fields:
 - field: resource
 - field: start-date
 - field: status
+- field: exception
 key-field: ''
 licence: ogl3
 name: Collection log
