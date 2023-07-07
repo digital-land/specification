@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="811" height="380">
+<svg xmlns="http://www.w3.org/2000/svg" width="811" height="360">
 <defs>
 <style>
 text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
@@ -55,44 +55,40 @@ text.datatype{fill:#0b0c0c;}
 <text x="167" y="170" class="datatype">url</text>
 <rect x="0" y="180" width="162" height="20" class="field"/>
 <rect x="162" y="180" width="55" height="20" class="datatype"/>
-<text x="5" y="190" class="field">notes</text>
-<text x="167" y="190" class="datatype">text</text>
+<text x="5" y="190" class="field">planning-application-type</text>
+<text x="167" y="190" class="datatype">reference</text>
 <rect x="0" y="200" width="162" height="20" class="field"/>
 <rect x="162" y="200" width="55" height="20" class="datatype"/>
-<text x="5" y="210" class="field">planning-application-type</text>
+<text x="5" y="210" class="field">planning-decision</text>
 <text x="167" y="210" class="datatype">reference</text>
 <rect x="0" y="220" width="162" height="20" class="field"/>
 <rect x="162" y="220" width="55" height="20" class="datatype"/>
-<text x="5" y="230" class="field">planning-decision</text>
+<text x="5" y="230" class="field">planning-decision-type</text>
 <text x="167" y="230" class="datatype">reference</text>
 <rect x="0" y="240" width="162" height="20" class="field"/>
 <rect x="162" y="240" width="55" height="20" class="datatype"/>
-<text x="5" y="250" class="field">planning-decision-type</text>
-<text x="167" y="250" class="datatype">reference</text>
+<text x="5" y="250" class="field">notes</text>
+<text x="167" y="250" class="datatype">text</text>
 <rect x="0" y="260" width="162" height="20" class="field"/>
 <rect x="162" y="260" width="55" height="20" class="datatype"/>
-<text x="5" y="270" class="field">notes</text>
-<text x="167" y="270" class="datatype">text</text>
+<text x="5" y="270" class="field">organisation</text>
+<text x="167" y="270" class="datatype">curie</text>
 <rect x="0" y="280" width="162" height="20" class="field"/>
 <rect x="162" y="280" width="55" height="20" class="datatype"/>
-<text x="5" y="290" class="field">organisation</text>
-<text x="167" y="290" class="datatype">curie</text>
+<text x="5" y="290" class="field">entry-date</text>
+<text x="167" y="290" class="datatype">datetime</text>
 <rect x="0" y="300" width="162" height="20" class="field"/>
 <rect x="162" y="300" width="55" height="20" class="datatype"/>
-<text x="5" y="310" class="field">entry-date</text>
+<text x="5" y="310" class="field">start-date</text>
 <text x="167" y="310" class="datatype">datetime</text>
 <rect x="0" y="320" width="162" height="20" class="field"/>
 <rect x="162" y="320" width="55" height="20" class="datatype"/>
-<text x="5" y="330" class="field">start-date</text>
+<text x="5" y="330" class="field">decision-date</text>
 <text x="167" y="330" class="datatype">datetime</text>
 <rect x="0" y="340" width="162" height="20" class="field"/>
 <rect x="162" y="340" width="55" height="20" class="datatype"/>
-<text x="5" y="350" class="field">decision-date</text>
+<text x="5" y="350" class="field">end-date</text>
 <text x="167" y="350" class="datatype">datetime</text>
-<rect x="0" y="360" width="162" height="20" class="field"/>
-<rect x="162" y="360" width="55" height="20" class="datatype"/>
-<text x="5" y="370" class="field">end-date</text>
-<text x="167" y="370" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="297" y="0" width="217" height="20" class="name"/>
