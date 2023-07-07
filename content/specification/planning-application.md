@@ -25,7 +25,6 @@ datasets:
           - field: point
           - field: documentation-url
             description: The URL of this planning application in the planning register.
-          - field: notes
           - field: planning-application-type
             dataset: planning-application-type
             description: The reference code for the type of planning application (for example "full-planning-permission")
