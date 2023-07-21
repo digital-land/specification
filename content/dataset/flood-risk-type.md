@@ -1,41 +1,34 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: flood-zone-2
+dataset: flood-risk-type
 description: ''
 end-date: ''
-entity-maximum: '6599999'
-entity-minimum: '6500000'
+entity-maximum: '6499999'
+entity-minimum: '6400000'
 entry-date: ''
 fields:
-- field: categories
-- field: documentation-url
+- field: flood-risk-type
 - field: end-date
 - field: entity
 - field: entry-date
-- field: flood-zone-2
-- field: geography
-- field: geometry
-- field: legislation
 - field: name
 - field: notes
-- field: organisation
-- field: point
 - field: prefix
 - field: reference
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Flood zone 2
+name: Flood risk type
 paint-options: ''
 phase: prioritised
-plural: Flood zones 2
+plural: Flood risk types
 prefix: ''
 realm: dataset
 start-date: ''
 themes:
 - environment
-typology: geography
+typology: category
 wikidata: ''
 wikipedia: ''
 ---
