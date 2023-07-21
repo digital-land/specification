@@ -115,9 +115,9 @@ crown-copyright,,fact-resource,the provenance of a fact,,,,,,ogl3,Fact resource,
 crown-copyright,,fact,a field and its value for an entity,,,fact,0,0,ogl3,Fact,,Facts,alpha,,provenance,,,specification,value,,
 crown-copyright,,field,,,,field,6200000,6299999,ogl3,Field,,Fields,alpha,,provenance,,,specification,specification,,
 crown-copyright,,filter,Filter entries,,,,,,ogl3,Pipeline filter,,Pipeline filters,alpha,,pipeline,,,specification;pipeline,specification,,
-crown-copyright,,flood-zone-1,,,,,6400000,6499999,ogl3,Flood zone 1,,Flood zones 1,prioritised,,dataset,,,environment,geography,,
-crown-copyright,,flood-zone-2,,,,,6500000,6599999,ogl3,Flood zone 2,,Flood zones 2,prioritised,,dataset,,,environment,geography,,
-crown-copyright,,flood-zone-3,,,,,6600000,6699999,ogl3,Flood zone 3,,Flood zones 3,prioritised,,dataset,,,environment,geography,,
+crown-copyright,,flood-risk-level,,,,,6450000,6499999,ogl3,Flood risk level,,Flood risk levels,prioritised,,dataset,,,environment,category,,
+crown-copyright,,flood-risk-type,,,,,6400000,6449999,ogl3,Flood risk type,,Flood risk types,prioritised,,dataset,,,environment,category,,
+crown-copyright,,flood-risk-zone,,,,,6500000,6599999,ogl3,Flood risk zone,,Flood risk zones,prioritised,,dataset,,,environment,geography,,
 crown-copyright,,geography,,,,,6700000,6799999,ogl3,Geography,,Geographies,alpha,,dataset,,,,geography,,
 crown-copyright,organisation,government-organisation,,,,,6900000,6999999,ogl3,Government organisation,,"Government departments, agencies and public bodies",beta,government-organisation,dataset,,"A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).
 This data originally came from the [government organisation register](https://www.data.gov.uk/dataset/0f669ee5-7382-4f6d-8bb3-5fd238716c3b/government-organisation-register).
