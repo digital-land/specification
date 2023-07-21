@@ -4,7 +4,7 @@ collection: ''
 dataset: flood-risk-type
 description: ''
 end-date: ''
-entity-maximum: '6499999'
+entity-maximum: '6449999'
 entity-minimum: '6400000'
 entry-date: ''
 fields:

@@ -5,7 +5,7 @@ dataset: flood-risk-level
 description: ''
 end-date: ''
 entity-maximum: '6499999'
-entity-minimum: '6400000'
+entity-minimum: '6450000'
 entry-date: ''
 fields:
 - field: flood-risk-level
