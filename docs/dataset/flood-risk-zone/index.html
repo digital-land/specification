@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Flood zone 2 | Digital Land</title>
+    <title>Flood risk zone | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -125,7 +125,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Flood zone 2</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Flood risk zone</li>
     
   
   </ol>
@@ -138,7 +138,7 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Flood zone 2</h1>
+  <h1 class="govuk-heading-xl">Flood risk zone</h1>
   </div>
 </div>
 
@@ -162,33 +162,6 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_flood-zone-2"><a href="../../field/flood-zone-2">flood-zone-2</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">Flood zone 2</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_categories"><a href="../../field/categories">categories</a>
-          </td>
-          <td class="govuk-table__cell">Categories</td>
-          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
-          <td class="govuk-table__cell">n</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
-          </td>
-          <td class="govuk-table__cell">Documentation URL</td>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
           </td>
           <td class="govuk-table__cell">Entity</td>
@@ -198,10 +171,19 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geography"><a href="../../field/geography">geography</a>
+          <td class="govuk-table__cell" id="field_flood-risk-level"><a href="../../field/flood-risk-level">flood-risk-level</a>
           </td>
-          <td class="govuk-table__cell">Geography</td>
-          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">Flood risk level</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_flood-risk-type"><a href="../../field/flood-risk-type">flood-risk-type</a>
+          </td>
+          <td class="govuk-table__cell">Flood risk type</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -211,24 +193,6 @@
           </td>
           <td class="govuk-table__cell">Geometry</td>
           <td class="govuk-table__cell"><a href="../../datatype/wkt">wkt</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_legislation"><a href="../../field/legislation">legislation</a>
-          </td>
-          <td class="govuk-table__cell">Legislation</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
-          </td>
-          <td class="govuk-table__cell">Name</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -308,9 +272,6 @@
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/geography">geography</a> typology.</p>
-    
 
     
     <h2 class="govuk-heading-s" id="">Datasets</h2>
@@ -319,11 +280,11 @@
     <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../category">Category</a></li>
-    
       <li><a href="../entity">Entity</a></li>
     
-      <li><a href="../geography">Geography</a></li>
+      <li><a href="../flood-risk-level">Flood risk level</a></li>
+    
+      <li><a href="../flood-risk-type">Flood risk type</a></li>
     
       <li><a href="../organisation">Organisation</a></li>
     
