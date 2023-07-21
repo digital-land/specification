@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: flood-zone-3
+field: flood-risk-level
 guidance: ''
 hint: ''
-name: Flood zone 3
-parent-field: geography
+name: Flood risk level
+parent-field: category
 replacement-field: ''
 start-date: ''
-typology: geography
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---
