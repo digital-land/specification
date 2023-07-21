@@ -14,7 +14,6 @@ fields:
 - field: flood-risk-type
 - field: flood-risk-level
 - field: geometry
-- field: name
 - field: notes
 - field: organisation
 - field: point
