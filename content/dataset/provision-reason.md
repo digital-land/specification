@@ -10,9 +10,12 @@ entry-date: ''
 fields:
 - field: description
 - field: end-date
+- field: entity
 - field: entry-date
 - field: name
+- field: prefix
 - field: provision-reason
+- field: reference
 - field: start-date
 key-field: 'provision-reason'
 licence: ogl3
