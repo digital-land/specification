@@ -4,8 +4,8 @@ collection: ''
 dataset: provision-reason
 description: The reason a dataset is provided by an organisation
 end-date: ''
-entity-maximum: ''
-entity-minimum: ''
+entity-maximum: '6999'
+entity-minimum: '6000'
 entry-date: ''
 fields:
 - field: description
