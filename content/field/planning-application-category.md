@@ -1,13 +1,13 @@
 ---
 cardinality: '1'
 datatype: string
-description: ''
+description: 'A grouping of the planning-application-type i.e. full, householder, change of use'
 end-date: ''
 entry-date: ''
-field: service-type
+field: planning-application-category
 guidance: ''
 hint: ''
-name: Service type
+name: Planning application category
 parent-field: category
 replacement-field: ''
 start-date: ''

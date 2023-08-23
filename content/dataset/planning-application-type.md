@@ -15,7 +15,7 @@ fields:
 - field: notes
 - field: prefix
 - field: reference
-- field: service-type
+- field: planning-application-category
 - field: start-date
 licence: ogl3
 name: Planning application type
