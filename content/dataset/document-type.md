@@ -9,7 +9,7 @@ entity-minimum: '5700000'
 entry-date: ''
 fields:
 - field: category
-- field: document-type
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date

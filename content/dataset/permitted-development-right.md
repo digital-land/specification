@@ -15,7 +15,6 @@ fields:
 - field: entry-date
 - field: name
 - field: notes
-- field: permitted-development-right
 - field: permitted-development-right-part
 - field: prefix
 - field: reference

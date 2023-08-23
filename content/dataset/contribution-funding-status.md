@@ -8,7 +8,7 @@ entity-maximum: '16999999'
 entity-minimum: '16900000'
 entry-date: ''
 fields:
-- field: contribution-funding-status
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date

@@ -8,12 +8,12 @@ entity-maximum: '11999999'
 entity-minimum: '11900000'
 entry-date: ''
 fields:
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date
 - field: name
 - field: notes
-- field: planning-permission-type
 - field: prefix
 - field: reference
 - field: start-date

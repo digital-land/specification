@@ -8,10 +8,10 @@ entity-maximum: '799999'
 entity-minimum: '700000'
 entry-date: ''
 fields:
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date
-- field: listed-building-grade
 - field: name
 - field: notes
 - field: prefix

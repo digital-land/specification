@@ -8,7 +8,7 @@ entity-maximum: '4599999'
 entity-minimum: '4500000'
 entry-date: ''
 fields:
-- field: developer-agreement-type
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date

@@ -8,7 +8,7 @@ entity-maximum: '30099999'
 entity-minimum: '29100000'
 entry-date: ''
 fields:
-- field: ancient-woodland-status
+- field: description
 - field: documentation-url
 - field: end-date
 - field: entity
