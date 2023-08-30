@@ -168,7 +168,6 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_design-code-rule_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 2110 C 1228.0 2110 1228.0 3490 297 3490"><title>from design-code-rule organisation to organisation reference</title></path>
 <path class="line" id="from_document-type_category_to_category_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 3830 C 2416.0 3830 2416.0 670 2376 670"><title>from document-type category to category reference</title></path>
 <path class="line" id="from_park-and-garden-grade_park-and-garden-grade_to_park-and-garden-grade_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 5190 C 2416.0 5190 2416.0 5130 2376 5130"><title>from park-and-garden-grade park-and-garden-grade to park-and-garden-grade reference</title></path>
-<path class="line" id="from_permitted-development-right-part_permitted-development-right-part_to_permitted-development-right-part_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 5450 C 2416.0 5450 2416.0 5390 2376 5390"><title>from permitted-development-right-part permitted-development-right-part to permitted-development-right-part reference</title></path>
 <path class="line" id="from_site-category_site-category_to_site-category_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 7450 C 2416.0 7450 2416.0 7390 2376 7390"><title>from site-category site-category to site-category reference</title></path>
 <path class="line" id="from_tree-preservation-type_tree-preservation-type_to_tree-preservation-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 7710 C 2416.0 7710 2416.0 7650 2376 7650"><title>from tree-preservation-type tree-preservation-type to tree-preservation-type reference</title></path>
 <g>
@@ -5440,8 +5439,8 @@ text.datatype{fill:#0b0c0c;}
 <text x="2326" y="5430" class="datatype">string</text>
 <rect x="2159" y="5440" width="162" height="20" class="field"/>
 <rect x="2321" y="5440" width="55" height="20" class="datatype"/>
-<text x="2164" y="5450" class="field">permitted-development-right-part</text>
-<text x="2326" y="5450" class="datatype">reference</text>
+<text x="2164" y="5450" class="field">description</text>
+<text x="2326" y="5450" class="datatype">string</text>
 <rect x="2159" y="5460" width="162" height="20" class="field"/>
 <rect x="2321" y="5460" width="55" height="20" class="datatype"/>
 <text x="2164" y="5470" class="field">notes</text>

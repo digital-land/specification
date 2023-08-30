@@ -546,7 +546,6 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_permitted-development-right-part_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 37870 C 931.0 37870 931.0 30 1565 30"><title>from permitted-development-right-part prefix to prefix prefix</title></path>
 <path class="line" id="from_permitted-development-right-part_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 37890 C 931.0 37890 931.0 250 1565 250"><title>from permitted-development-right-part reference to reference reference</title></path>
 <path class="line" id="from_permitted-development-right-part_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 37910 C 782.5 37910 782.5 550 1268 550"><title>from permitted-development-right-part entity to entity entity</title></path>
-<path class="line" id="from_permitted-development-right-part_permitted-development-right-part_to_permitted-development-right-part_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 37950 C 337.0 37950 337.0 37890 297 37890"><title>from permitted-development-right-part permitted-development-right-part to permitted-development-right-part reference</title></path>
 <path class="line" id="from_permitted-development-right_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 38130 C 931.0 38130 931.0 30 1565 30"><title>from permitted-development-right prefix to prefix prefix</title></path>
 <path class="line" id="from_permitted-development-right_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 38150 C 931.0 38150 931.0 250 1565 250"><title>from permitted-development-right reference to reference reference</title></path>
 <path class="line" id="from_permitted-development-right_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 38170 C 782.5 38170 782.5 550 1268 550"><title>from permitted-development-right entity to entity entity</title></path>
@@ -7226,8 +7225,8 @@ text.datatype{fill:#0b0c0c;}
 <text x="247" y="37930" class="datatype">string</text>
 <rect x="80" y="37940" width="162" height="20" class="field"/>
 <rect x="242" y="37940" width="55" height="20" class="datatype"/>
-<text x="85" y="37950" class="field">permitted-development-right-part</text>
-<text x="247" y="37950" class="datatype">reference</text>
+<text x="85" y="37950" class="field">description</text>
+<text x="247" y="37950" class="datatype">string</text>
 <rect x="80" y="37960" width="162" height="20" class="field"/>
 <rect x="242" y="37960" width="55" height="20" class="datatype"/>
 <text x="85" y="37970" class="field">notes</text>
