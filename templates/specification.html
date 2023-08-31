@@ -104,7 +104,7 @@ code.value {
 
 {% for d in item["datasets"] %}
 
-    <h3 id="{d["dataset"]{}}-dataset" class="govuk-heading-m">{{ sentence_case(d["name"] or d["dataset"]) }}</h3>
+    <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(d["name"] or d["dataset"]) }}</h3>
     <p class="govuk-body">The {{ d["name"] or d["dataset"] }} data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
     <p class="govuk-body">The data MUST contain at least one entry for each {{ d["name"] or d["dataset"] }}.</p>
     <p class="govuk-body">Each entry MUST containing the following fields:</p>
