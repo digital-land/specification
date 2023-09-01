@@ -2,6 +2,7 @@
 
 import os
 import csv
+import shutil
 import jinja2
 import frontmatter
 
@@ -11,6 +12,7 @@ from markdown import Markdown
 from markupsafe import Markup
 
 docs = "docs/"
+content = "content/"
 staticPath = "https://digital-land.github.io"
 assetPath = "https://digital-land.github.io"
 
@@ -195,6 +197,44 @@ if __name__ == "__main__":
     index_dataset()
     index_datapackage()
     index_specification()
+
+
+    def version_exists(parent_dir, version):
+        version_dir = os.path.join(parent_dir, version)
+        # Check if the directory_to_check exists within the parent_directory
+        if os.path.exists(parent_dir) and os.path.exists(version_dir):
+            # Check if directory_to_check is a subdirectory of parent_directory
+            if os.path.commonpath([parent_dir, version_dir]) == parent_dir:
+                return True
+        return False
+
+
+    # generate versions of specification and dataset pages
+    for template in ["specification"]:
+        for name, item in tables[template].items():
+            # only if version in frontmatter
+            if 'version' in item.metadata:
+                latest_version = item.metadata['version']
+                parent_dir = os.path.join(docs, template, name)
+                if not version_exists(parent_dir, f'v{latest_version}'):
+                    # render the html page
+                    version_dir = "%s/%s/%s" % (template, name, f'v{latest_version}')
+                    render(
+                        "%s/index.html" % (version_dir),
+                        env.get_template(template + ".html"),
+                        name=name,
+                        item=item,
+                        tables=tables,
+                        staticPath=staticPath,
+                        assetPath=assetPath,
+                    )
+                    # make a copy of .md
+                    source_file = os.path.join(content, template, f'{name}.md')
+                    try:
+                        shutil.copy(source_file, os.path.join(docs, version_dir))
+                    except Exception as e:
+                        print(f"An error occurred: {e}")
+
 
     for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:
         for name, item in tables[template].items():
