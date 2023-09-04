@@ -35,15 +35,12 @@ new_rows = []
 fieldnames_with_version = ["dataset", "field", "field-dataset", "guidance", "hint", "version"]
 
 def row_exists(csv_file, subset_values):
-    print(subset_values)
     # lets open file each time
     with open(csv_file, 'r', newline='') as csvfile:
         csv_reader = csv.DictReader(csvfile)
         for r in csv_reader:
-            print(r)
             # Check if the subset_values are present in the row
             if all(v == r[k] for k, v in subset_values.items()):
-                print('in here')
                 return True
         return False
 
