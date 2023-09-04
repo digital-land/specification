@@ -57,7 +57,7 @@ def svg_spline(c, from_x, from_y, to_x, to_y):
         f' d="M {from_x} {from_y} C {mid_x} {from_y} {mid_x} {to_y} {to_x} {to_y}"/>'
     )
 
-
+# this is provided in makerule target
 path = Path(sys.argv[1])
 spec = frontmatter.load(path)
 row = spec.metadata
