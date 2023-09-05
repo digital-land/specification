@@ -37,6 +37,7 @@ themes:
 - environment
 - heritage
 typology: geography
+version: 1.0
 wikidata: Q13125592
 wikipedia: Heritage_coast
 ---

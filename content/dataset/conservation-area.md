@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
+version: 1.0
 wikidata: Q5162904
 wikipedia: Conservation_area_(United_Kingdom)
 ---

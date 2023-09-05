@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - environment
 typology: geography
+version: 1.0
 wikidata: Q422211
 wikipedia: Site_of_Special_Scientific_Interest
 ---

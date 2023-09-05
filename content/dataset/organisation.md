@@ -44,6 +44,7 @@ realm: dataset
 start-date: ''
 themes: []
 typology: organisation
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

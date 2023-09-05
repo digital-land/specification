@@ -28,6 +28,7 @@ start-date: ''
 themes:
 - heritage
 typology: category
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

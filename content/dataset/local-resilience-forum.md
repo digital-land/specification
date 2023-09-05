@@ -34,6 +34,7 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
+version: 1.0
 wikidata: Q6664240
 wikipedia: Local_resilience_forum
 ---

@@ -26,6 +26,7 @@ start-date: ''
 themes:
 - specification
 typology: category
+version: 1.0
 wikidata: Q2132119
 wikipedia: Attribution_(copyright)
 ---

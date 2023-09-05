@@ -38,6 +38,7 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
+version: 1.0
 wikidata: Q7972817
 wikipedia: Waste_disposal_authority
 ---

@@ -26,6 +26,7 @@ start-date: ''
 themes:
 - specification
 typology: value
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

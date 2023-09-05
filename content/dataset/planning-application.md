@@ -43,6 +43,7 @@ themes:
 - housing
 - monitoring
 typology: geography
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

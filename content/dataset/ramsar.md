@@ -37,6 +37,7 @@ start-date: ''
 themes:
 - environment
 typology: geography
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

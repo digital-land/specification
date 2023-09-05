@@ -37,6 +37,7 @@ themes:
 - housing
 - monitoring
 typology: document
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---
