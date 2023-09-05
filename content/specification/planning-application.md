@@ -6,6 +6,7 @@ specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2023-05-15'
+version: 1.1.1
 datasets:
     - dataset: planning-application
       name: planning application
