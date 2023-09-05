@@ -4,12 +4,15 @@ import os
 import csv
 import shutil
 import jinja2
+import importlib
 import frontmatter
 
 from glob import glob
 from digital_land_frontend.jinja import setup_jinja
 from markdown import Markdown
 from markupsafe import Markup
+
+specification_svg = importlib.import_module("specification-svg")
 
 docs = "docs/"
 content = "content/"
@@ -234,6 +237,10 @@ if __name__ == "__main__":
                         shutil.copy(source_file, os.path.join(docs, version_dir))
                     except Exception as e:
                         print(f"An error occurred: {e}")
+                    # generate svg for the version
+                    diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
+                    specification_svg.generate(source_file, diagram_version_path)
+                    
 
 
     for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:

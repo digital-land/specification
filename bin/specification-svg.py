@@ -5,7 +5,13 @@ import csv
 from pathlib import Path
 import frontmatter
 
-def generate_svg(specification_path, output_path=None):
+
+def output_to_file(file_path, output_string):
+    with open(file_path, "a") as file:
+        file.write(output_string)
+
+
+def generate(specification_path, output_path=None):
     svg_content = []
 
     tables = {
@@ -163,9 +169,15 @@ def generate_svg(specification_path, output_path=None):
         svg_content.append("</g>")
 
     svg_content.append("</svg>")
-    print("\n".join(svg_content))
+
+    if output_path:
+        # output to file
+        output_to_file(output_path, "\n".join(svg_content))
+    else:
+        # output to stdout
+        print("\n".join(svg_content))
 
 if __name__ == "__main__":
     specification_path = Path(sys.argv[1])
-    #output_path = Path(sys.argv[2])
-    generate_svg(specification_path)
+
+    generate(specification_path)
