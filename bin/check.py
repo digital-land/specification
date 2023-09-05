@@ -106,6 +106,9 @@ def check_field_typology():
 
 def check_datasets():
     for dataset, d in tables["dataset"].items():
+        if not d.get("version"):
+            error("dataset '%s' missing version number" % (dataset))
+
         if not d.get("plural", ""):
             error("dataset '%s' missing plural" % (dataset))
 
