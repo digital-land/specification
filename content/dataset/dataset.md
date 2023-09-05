@@ -28,6 +28,7 @@ fields:
 - field: text
 - field: themes
 - field: typology
+- field: version
 - field: wikidata
 - field: wikipedia
 key-field: 'dataset'
