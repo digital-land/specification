@@ -19,6 +19,7 @@ fields:
 - field: specification-status
 - field: documentation-url
 - field: start-date
+- field: version
 key-field: 'specification'
 licence: ogl3
 name: Specification
@@ -31,6 +32,7 @@ start-date: ''
 themes:
 - specification
 typology: specification
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

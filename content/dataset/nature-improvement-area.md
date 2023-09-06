@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - environment
 typology: geography
+version: 1.0
 wikidata: Q6980918
 wikipedia: Nature_Improvement_Area
 ---

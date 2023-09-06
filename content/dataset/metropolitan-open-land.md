@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - environment
 typology: geography
+version: 1.0
 wikidata: Q16997686
 wikipedia: Metropolitan_Open_Land
 ---

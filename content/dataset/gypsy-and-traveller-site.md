@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - development
 typology: geography
+version: 1.0
 wikidata: Q74497345
 wikipedia: ''
 ---

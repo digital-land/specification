@@ -30,6 +30,7 @@ themes:
 - environment
 - heritage
 typology: category
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

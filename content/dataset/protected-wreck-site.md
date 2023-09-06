@@ -32,6 +32,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
+version: 1.0
 wikidata: Q6616121
 wikipedia: List_of_designations_under_the_Protection_of_Wrecks_Act
 ---

@@ -27,11 +27,11 @@ code.value {
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <p class="govuk-body">
-
-    <strong class="govuk-tag">{{ tables["specification-status"][item["specification-status"]]["name"] }}</strong>
+      <strong class="govuk-tag">{{ tables["specification-status"][item["specification-status"]]["name"] }}</strong>
     </p>
     <p class="govuk-body">
-      Last updated: <a href="#status">{{ item["entry-date"] }}</a>
+      Version: <a href="v{{ item['version'] }}" class="govuk-link">{{ item["version"] }}</a> - published {{ item["entry-date"] }}
+      {% if versions and versions|length > 0 %}- <a href="#versions" class="govuk-link">see previous versions</a>{% endif %}
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
@@ -492,6 +492,24 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     </div>
 
     </dl>
+
+    {% if versions and versions|length > 0 %}
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    <h2 id="versions" class="govuk-heading-m">Previous versions</h2>
+
+    <p class="govuk-body">These specifications are living documents. When we make material changes to the data structure we update the version number.</p>
+
+    <p class="govuk-body">Previous versions of the {{ name }} specification are:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    {% for version in versions %}
+      <li>Version <a href="{{ version }}" class="govuk-link">{{ version[1:] }}</a>{% if loop.first %} (current){% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <p class="govuk-body">See <a href="../#versions" class="govuk-link">other versions</a></p>
+    {% endif %}
 
   </div>
 </div>

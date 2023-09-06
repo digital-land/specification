@@ -29,6 +29,7 @@ start-date: ''
 themes:
 - environment
 typology: category
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

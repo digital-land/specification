@@ -39,6 +39,7 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
+version: 1.0
 wikidata: Q3336962
 wikipedia: National_park_authority
 ---

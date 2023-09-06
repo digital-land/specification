@@ -6,6 +6,7 @@ specification-status: piloting
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
+version: 1.1.1
 datasets:
     - dataset: article-4-direction
       name: article 4 direction

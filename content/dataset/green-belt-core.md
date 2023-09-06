@@ -30,6 +30,7 @@ start-date: ''
 themes:
 - environment
 typology: category
+version: 1.0
 wikidata: Q2734873
 wikipedia: Green_belt_(United_Kingdom)
 ---

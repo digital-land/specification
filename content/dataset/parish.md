@@ -33,6 +33,7 @@ start-date: ''
 themes:
 - administrative
 typology: geography
+version: 1.0
 wikidata: Q1115575
 wikipedia: Civil_parish
 ---

@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
+version: 1.0
 wikidata: Q4118263
 wikipedia: Protected_view
 ---

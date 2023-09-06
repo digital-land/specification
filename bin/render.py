@@ -2,7 +2,9 @@
 
 import os
 import csv
+import shutil
 import jinja2
+import importlib
 import frontmatter
 
 from glob import glob
@@ -10,7 +12,10 @@ from digital_land_frontend.jinja import setup_jinja
 from markdown import Markdown
 from markupsafe import Markup
 
+specification_svg = importlib.import_module("specification-svg")
+
 docs = "docs/"
+content = "content/"
 staticPath = "https://digital-land.github.io"
 assetPath = "https://digital-land.github.io"
 
@@ -42,7 +47,7 @@ def render(path, template, docs="docs", **kwargs):
 
 
 def load_csv(table):
-    for row in csv.DictReader(open("specification/%s.csv" % (table), newline="")):
+    for row in csv.DictReader(open(f"specification/{table}.csv", newline="")):
         if table not in keys:
             key = table
             tables[table][row[key]] = row
@@ -196,16 +201,64 @@ if __name__ == "__main__":
     index_datapackage()
     index_specification()
 
+
+    def version_exists(parent_dir, version):
+        version_dir = os.path.join(parent_dir, version)
+        # Check if the directory_to_check exists within the parent_directory
+        if os.path.exists(parent_dir) and os.path.exists(version_dir):
+            # Check if directory_to_check is a subdirectory of parent_directory
+            if os.path.commonpath([parent_dir, version_dir]) == parent_dir:
+                return True
+        return False
+
+
+    # generate versions of specification and dataset pages
+    for template in ["specification"]:
+        for name, item in tables[template].items():
+            # only if version in frontmatter
+            if 'version' in item.metadata:
+                latest_version = item.metadata['version']
+                parent_dir = os.path.join(docs, template, name)
+                if not version_exists(parent_dir, f'v{latest_version}'):
+                    # render the html page
+                    version_dir = f"{template}/{name}/v{latest_version}"
+                    render(
+                        f"{version_dir}/index.html",
+                        env.get_template(f"{template}.html"),
+                        name=name,
+                        item=item,
+                        tables=tables,
+                        staticPath=staticPath,
+                        assetPath=assetPath,
+                    )
+                    # make a copy of .md
+                    source_file = os.path.join(content, template, f'{name}.md')
+                    try:
+                        shutil.copy(source_file, os.path.join(docs, version_dir))
+                    except Exception as e:
+                        print(f"An error occurred: {e}")
+                    # generate svg for the version
+                    diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
+                    specification_svg.generate(source_file, diagram_version_path)
+
+
+
     for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:
         for name, item in tables[template].items():
+            versions = []
+            if template == "specification":
+                specification_dir = os.path.join(docs, template, name)
+                versions = [v for v in os.listdir(specification_dir) if os.path.isdir(os.path.join(specification_dir, v))]
+                versions.sort(reverse=True)
             render(
-                "%s/%s/index.html" % (template, name),
-                env.get_template(template + ".html"),
+                f"{template}/{name}/index.html",
+                env.get_template(f"{template}.html"),
                 name=name,
                 item=item,
                 tables=tables,
                 staticPath=staticPath,
                 assetPath=assetPath,
+                versions=versions
             )
 
     for path, template in [

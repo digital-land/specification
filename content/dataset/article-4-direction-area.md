@@ -38,6 +38,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
+version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

@@ -35,6 +35,7 @@ start-date: ''
 themes:
 - development
 typology: legal-instrument
+version: 1.0
 wikidata: Q5266783
 wikipedia: Development_plan
 ---

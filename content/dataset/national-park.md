@@ -30,6 +30,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
+version: 1.0
 wikidata: Q60256727
 wikipedia: National_park
 ---

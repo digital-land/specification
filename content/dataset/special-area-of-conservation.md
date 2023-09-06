@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - environment
 typology: geography
+version: 1.0
 wikidata: Q1191622
 wikipedia: Special_Area_of_Conservation
 ---

@@ -36,6 +36,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
+version: 1.0
 wikidata: Q16983914
 wikipedia: Heritage_at_Risk_Register
 ---
