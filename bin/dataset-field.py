@@ -14,7 +14,7 @@ w.writeheader()
 
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
     dataset = row["schema"] = row["dataset"]
-    path = "content/dataset/%s.md" % dataset
+    path = f"content/dataset/{dataset}.md"
 
     post = frontmatter.load(path)
     for field in post.metadata["fields"]:
@@ -52,7 +52,7 @@ def append_rows(csv_file, fieldnames, rows):
         csv_writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         if csvfile.tell() == 0:
             csv_writer.writeheader()
-    
+
         csv_writer.writerows(rows)
 
 
@@ -60,7 +60,7 @@ csv_file = 'specification/dataset-field-version.csv'
 
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
     dataset = row["schema"] = row["dataset"]
-    path = "content/dataset/%s.md" % dataset
+    path = f"content/dataset/{dataset}.md"
 
     post = frontmatter.load(path)
     # check schema has version number
@@ -68,8 +68,8 @@ for row in csv.DictReader(open("specification/dataset.csv", newline="")):
         version = version_major_number(post.metadata["version"])
         for field in post.metadata["fields"]:
             dataset_field_version_row = {
-                'dataset': dataset, 
-                'field': field['field'], 
+                'dataset': dataset,
+                'field': field['field'],
                 'version': version
             }
             if not row_exists(csv_file, dataset_field_version_row):

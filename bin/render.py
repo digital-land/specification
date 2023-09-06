@@ -47,7 +47,7 @@ def render(path, template, docs="docs", **kwargs):
 
 
 def load_csv(table):
-    for row in csv.DictReader(open("specification/%s.csv" % (table), newline="")):
+    for row in csv.DictReader(open(f"specification/{table}.csv", newline="")):
         if table not in keys:
             key = table
             tables[table][row[key]] = row
@@ -221,10 +221,10 @@ if __name__ == "__main__":
                 parent_dir = os.path.join(docs, template, name)
                 if not version_exists(parent_dir, f'v{latest_version}'):
                     # render the html page
-                    version_dir = "%s/%s/%s" % (template, name, f'v{latest_version}')
+                    version_dir = f"{template}/{name}/v{latest_version}"
                     render(
-                        "%s/index.html" % (version_dir),
-                        env.get_template(template + ".html"),
+                        f"{version_dir}/index.html",
+                        env.get_template(f"{template}.html"),
                         name=name,
                         item=item,
                         tables=tables,
@@ -240,14 +240,14 @@ if __name__ == "__main__":
                     # generate svg for the version
                     diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
                     specification_svg.generate(source_file, diagram_version_path)
-                    
+
 
 
     for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:
         for name, item in tables[template].items():
             render(
-                "%s/%s/index.html" % (template, name),
-                env.get_template(template + ".html"),
+                f"{template}/{name}/index.html",
+                env.get_template(f"{template}.html"),
                 name=name,
                 item=item,
                 tables=tables,
