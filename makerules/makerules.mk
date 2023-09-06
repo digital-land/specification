@@ -134,7 +134,6 @@ specification::
 	curl -qfsL '$(SOURCE_URL)/specification/main/specification/dataset-schema.csv' > specification/dataset-schema.csv
 	curl -qfsL '$(SOURCE_URL)/specification/main/specification/schema.csv' > specification/schema.csv
 	curl -qfsL '$(SOURCE_URL)/specification/main/specification/schema-field.csv' > specification/schema-field.csv
-	curl -qfsL '$(SOURCE_URL)/specification/main/specification/dataset-field-version.csv' > specification/dataset-field-version.csv
 
 
 init::	specification
