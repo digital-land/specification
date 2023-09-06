@@ -3,6 +3,7 @@
 import sys
 import csv
 import frontmatter
+import requests
 
 # create dataset-field.csv
 fieldnames = ["dataset", "field", "field-dataset", "guidance", "hint"]
@@ -35,7 +36,14 @@ new_rows = []
 fieldnames_with_version = ["dataset", "field", "field-dataset", "guidance", "hint", "version"]
 
 def row_exists(csv_file, subset_values):
-    # lets open file each time
+    #TODO remove this once version number is moved to dataset-field.csv
+    github_url = 'https://raw.githubusercontent.com/digital-land/digital-land/master'
+    version_file_url = f'{github_url}/specification/dataset-field-version.csv'
+
+    resp = requests.get(version_file_url)
+    with open(csv_file, 'w', newline='') as csvfile:
+        csvfile.write(resp.text)
+
     with open(csv_file, 'r', newline='') as csvfile:
         csv_reader = csv.DictReader(csvfile)
         for r in csv_reader:
