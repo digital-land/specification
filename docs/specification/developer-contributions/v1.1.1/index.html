@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+    Developer contributions
+ | Digital Land</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+	<link rel="shortcut icon" sizes="48x48" href="https://digital-land.github.io/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" sizes="32x32" href="https://digital-land.github.io/images/favicon-32x32.png" type="image/png">
+<link rel="shortcut icon" sizes="16x16" href="https://digital-land.github.io/images/favicon-16x16.png" type="image/png">
+<link rel="apple-touch-icon" href="https://digital-land.github.io/images/apple-touch-icon.png">
+
+
+    
+	<meta name="digital-land:template" content="dlf-base.html">
+	
+<style>
+code {
+    padding: 0 5px;
+    color: #d4351c;
+    background-color: #f3f2f1;
+}
+
+code.value {
+    color: #00703c;
+}
+
+</style>
+
+	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
+	
+    
+    
+    <meta property="og:image" content="https://digital-land.github.io/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+<!-- Cookie banner partial version 1.0.1 -->
+<div id="global-cookie-message" class="govuk-clearfix global-cookie-message" data-module="cookie-banner" role="region" aria-label="cookie banner" data-nosnippet="">
+
+  <div id="cookie-banner" class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <div class="cookie-banner__message govuk-!-margin-top-6">
+          <h2 class="govuk-heading-m">Tell us whether you accept cookies</h2>
+          <p class="govuk-body">We use <a class="govuk-link" href="/cookies">cookies to collect information</a> about how you use the Digital Land website to make the website work as well as possible.</p>
+        </div>
+        <div class="cooke-banner__buttons govuk-grid-row">
+          <div class="govuk-grid-column-one-half">
+            <button class="govuk-button" onclick="acceptCookies();showCookieConfirmation();">Accept all cookies</button>
+          </div>
+          <div class="govuk-grid-column-one-half">
+            <a class="govuk-button" href="/cookies">Set cookie preferences</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cookie-confirmation" class="govuk-width-container govuk-!-padding-top-6" tabindex="-1" style="display: none;">
+    <p class="cookie-banner__confirmation-message govuk-body">You’ve accepted all cookies. You can <a class="govuk-link" href="/cookies">change your cookie settings</a> at any time.</p>
+    <button class="cookie-banner__hide-button govuk-button govuk-button--secondary" onclick="document.getElementById('cookie-confirmation').style.display='none';">Hide</button>
+  </div>
+
+</div>
+
+
+<header role="banner" id="global-header" class="govuk-header  with-proposition dl-header" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="header-proposition">
+      <div class="govuk-header__content">
+        <a href="https://digital-land.github.io/" class="govuk-header__link govuk-header__link--service-name">
+        Digital Land
+        </a>
+        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+        <nav>
+          <ul id="navigation" class="govuk-header__navigation" aria-label="Top Level Navigation">
+            
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/about/">About</a>
+            </li>
+            
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/project/">Projects</a>
+            </li>
+            
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/weeknote/">Weeknotes</a>
+            </li>
+            
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/blog-post/">Blog</a>
+            </li>
+            
+          </ul>
+        </nav>
+        </div>
+    </div>
+  </div>
+</header>
+
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+  <div class="govuk-breadcrumbs ">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="https://digital-land.github.io/">Digital Land</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../">Specification</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">
+    Developer contributions
+</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+<div class="govuk-grid-row">
+ <div class="govuk-grid-column-full">
+  <span class="govuk-caption-xl">Specification</span>
+  <h1 class="govuk-heading-xl">
+    Developer contributions
+</h1>
+  </div>
+</div>
+
+  
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <p class="govuk-body">
+      <strong class="govuk-tag">Open standard</strong>
+    </p>
+    <p class="govuk-body">
+      Version: <a href="v1.1.1" class="govuk-link">1.1.1</a> - published 2022-06-09
+      
+    </p>
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
+    <p class="govuk-body">
+    This specification defines the format for how a planning authority should provide information about Developer contributions as data.
+    </p>
+    <p class="govuk-body">
+    This technical specification is accompanied by guidance, examples and other tools providing feedback to data providers.
+    </p>
+
+    <h2 id="status" class="govuk-heading-m">Status of this specification</h2>
+    <p class="govuk-body">
+    This is a draft specification, following the standards for planning data process [<a href="#process">process</a>].
+    The contents of this specification are currently under development, and liable to change based on feedback.
+    </p>
+    <p class="govuk-body">
+    This specification is intended to be published as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration bill [<a href="#LURB">LURB</a>], as introduced to parliament on 19 May 2022.
+    </p>
+    <div class="govuk-warning-text"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+    <strong class="govuk-warning-text__text"><span class="govuk-warning-text__assistive">Warning</span>
+    It is inappropriate to cite this document as other than a work in progress.
+    </strong>
+    </div>
+    <p id="feedback" class="govuk-body">
+    Comments and feedback on this specification may be provided on the GitHub issue [TBD] or sent to
+    <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
+    </p>
+
+    <h2 id="conformance" class="govuk-heading-m">Conformance</h2>
+    <p class="govuk-body">
+    As well as sections marked as non-normative, all authoring guidelines, diagrams, examples, and notes in this specification are non-normative. Everything else in this specification is normative.
+    </p>
+    <p class="govuk-body">
+    The key words MAY, MUST, NOT, and SHOULD in this document are to be interpreted as described in [<a href="#RFC2119">RFC2119</a>]
+    when, and only when, they appear in all capitals [<a href="#RFC8174">RFC8174</a>] as shown here.
+    </p>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    <h2 id="documentation-page" class="govuk-heading-m">Documentation page</h2>
+    <p class="govuk-body">
+    A data provider MUST provide a list of all of the Developer contributions within its jurisdiction on a documentation page.
+    </p>
+    <p class="govuk-body">
+    The documentation page MUST be accessible as HTML from a public URL.
+    </p>
+    <p class="govuk-body">
+    The documentation page MUST be clearly owned and operated by the data provider.
+    Where the data provider is a local authority or other public body, the web page MUST be on a .gov.uk domain.
+    </p>
+    <p class="govuk-body">
+    The documentation page MUST include:
+    </p>
+    <ul class="govuk-list govuk-list--bullet">
+
+    
+      <li>A hyperlink to the <a href="#developer-agreement-dataset">developer-agreement</a> data</li>
+    
+      <li>A hyperlink to the <a href="#developer-agreement-contribution-dataset">developer-agreement-contribution</a> data</li>
+    
+      <li>A hyperlink to the <a href="#developer-agreement-transaction-dataset">developer-agreement-transaction</a> data</li>
+    
+
+    <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
+    <li>Any attribution needed when using the data, for example [<a href="#crown-copyright">Crown Copyright</a>].</li>
+    </ul>
+
+    <h2 id="data" class="govuk-heading-m">Data</h2>
+
+    <div id="diagram" class="govuk-grid-column-full govuk-!-padding-bottom-6">
+	    <img src="diagram.svg">
+    </div>
+
+
+
+    <h3 id="developer-agreement-dataset" class="govuk-heading-m">
+    Developer-agreement
+</h3>
+    <p class="govuk-body">The developer-agreement data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each developer-agreement.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">name</code> </li>
+    
+    <li><code class="field">developer-agreement-type</code> </li>
+    
+    <li><code class="field">planning-application</code> </li>
+    
+    <li><code class="field">document-url</code> </li>
+    
+    <li><code class="field">notes</code> </li>
+    
+    <li><code class="field">organisation</code> </li>
+    
+    <li><code class="field">entry-date</code> </li>
+    
+    <li><code class="field">start-date</code> </li>
+    
+    <li><code class="field">end-date</code> </li>
+    
+    </ul>
+
+
+
+    <h3 id="developer-agreement-contribution-dataset" class="govuk-heading-m">
+    Developer-agreement-contribution
+</h3>
+    <p class="govuk-body">The developer-agreement-contribution data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each developer-agreement-contribution.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">developer-agreement</code> </li>
+    
+    <li><code class="field">contribution-purpose</code> </li>
+    
+    <li><code class="field">amount</code> </li>
+    
+    <li><code class="field">units</code> </li>
+    
+    <li><code class="field">notes</code> </li>
+    
+    <li><code class="field">organisation</code> </li>
+    
+    <li><code class="field">entry-date</code> </li>
+    
+    <li><code class="field">start-date</code> </li>
+    
+    <li><code class="field">end-date</code> </li>
+    
+    </ul>
+
+
+
+    <h3 id="developer-agreement-transaction-dataset" class="govuk-heading-m">
+    Developer-agreement-transaction
+</h3>
+    <p class="govuk-body">The developer-agreement-transaction data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one entry for each developer-agreement-transaction.</p>
+    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code> </li>
+    
+    <li><code class="field">developer-agreement-contribution</code> </li>
+    
+    <li><code class="field">contribution-funding-status</code> </li>
+    
+    <li><code class="field">amount</code> </li>
+    
+    <li><code class="field">units</code> </li>
+    
+    <li><code class="field">notes</code> </li>
+    
+    <li><code class="field">organisation</code> </li>
+    
+    <li><code class="field">entry-date</code> </li>
+    
+    <li><code class="field">start-date</code> </li>
+    
+    <li><code class="field">end-date</code> </li>
+    
+    </ul>
+
+
+
+
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
+    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <p class="govuk-body">
+    Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the Open Standards for government guidance on formatting dates and times in data
+    [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
+    </p>
+    <p class="govuk-body">
+    A date value SHOULD be blank if it is unknown. The date may just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
+    </p>
+
+    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <p class="govuk-body">
+    The boundary for the conservation area as a single POLYGON or MULTIPOLYGON value.
+    </p>
+    <p class="govuk-body">
+    In all cases all points MUST be either in the
+    [<a href="#WGS84">WGS84</a>] (<a href="#EPSG::4326">EPSG::4326</a>) or
+    [<a href="#ETRS89">ETRS89</a>] (<a href="#EPSG::4258">EPSG::4258</a>) coordinate reference system
+    following the Open Standards for government guidance on the exchange of location points [<a href="#exchange-of-location-point">exchange-of-location-point</a>].
+    </p>
+    <p class="govuk-body">
+    Positions calculated by the WGS84 and ETRS89 systems currently deviate by less than half a metre for points within England.
+    Boundaries provided by this dataset are intended to be used as an index. Survey data SHOULD be used where more precision is needed.
+    </p>
+
+    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <p class="govuk-body">The reference identifies the entity within a data provider.</p>
+    <p class="govuk-body">
+    <em>A URI for the entity may be constructed by a combination of the reference with a IRI prefix value, or be provided in an optional URI field.</em>
+    </p>
+    <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
+    <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
+    <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
+    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the Developer contributions.</p>
+    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a Developer contributions when completing a form, or contacting a call centre.</p>
+
+    <h3 id="text" class="govuk-heading-s">Text</h3>
+    <p class="govuk-body">
+    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] following the Open Standards for government guidance on encoding characters [<a href="encoding-characters">encoding-characters</a>].
+    </p>
+
+<h2 class="govuk-heading-m">Historical data</h2>
+<p class="govuk-body">
+Entries SHOULD be ordered by the entry-date, with older entries appearing before later entries.
+</p>
+<p class="govuk-body">
+The <code class="field">end-date</code> field should be used to indicate when an entity is no longer applicable.
+Entries SHOULD NOT be removed from the data except to correct a mistake, or for the purposes of redacting personal or sensitive information.
+</p>
+
+<h2 id="open-data-format" class="govuk-heading-m">Open data formats</h2>
+<p class="govuk-body">
+Data which does not contain geospatial information (a point or geometry field) MUST be provided as (<a href="#csv-format">CSV</a>).
+<p>
+<p class="govuk-body">
+Geospatial data MUST be provided in at least one of the following open data formats:
+</p>
+<ul class="govuk-list govuk-list--bullet">
+<li><a href="#CSV-format">CSV</a>
+<li><a href="#GeoJSON-format">GeoJSON</a>
+<li>OGC <a href="#GML-format">GML</a>
+<li>OGC <a href="#geopackage-format">Geopackage</a>
+<li>OGC Keyhole Markup Language <a href="#KML-format">KML</a>
+</ul>
+<p class="govuk-body">
+The preferred format for representing geospatial data is Comma Separated Value (<a href="#csv-format">CSV</a>)
+with the <code class="field">geometry</code> and <code class="point">point</code> fields containing Well Known Text [<a href="#WKT">WKT</a>].
+</p>
+<p class="govuk-body">
+The data MAY also be provided in other data formats
+such as a [<a href="#ZIP">ZIP</a>] archive containing a collection of ESRI shapefiles [<a href="#Shapefile">Shapefile</a>],
+a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
+</p>
+
+<!--
+<h3 id="CSV-format" class="govuk-heading-m">CSV</h3>
+<p class="govuk-body">
+</p>
+
+<h3 id="GeoJSON-format" class="govuk-heading-m">GeoJSON</h3>
+<p class="govuk-body">
+</p>
+
+<h3 id="geopackage-format" class="govuk-heading-m">geopackage</h3>
+<p class="govuk-body">
+</p>
+
+<h3 id="GML-format" class="govuk-heading-m">GML</h3>
+<p class="govuk-body">
+</p>
+
+
+    <h2 class="govuk-heading-m">Examples</h2>
+    <h2 class="govuk-heading-m">Terminology</h2>
+    <h2 class="govuk-heading-m">Licensing of the data</h2>
+    <h2 class="govuk-heading-m">Copyright and attribution</h2>
+  -->
+    <h2 class="govuk-heading-m">Security and privacy considerations</h2>
+    <p class="govuk-body">
+    The data MUST NOT contain any personal or sensitive information, unless explicitly required by this specification, or legislation.
+    </p>
+    <p class="govuk-body">
+    There is a risk of people's names or other personally identifiable information appearing in the data, in particular notes, description and other text fields.
+    It is the responsibility of the data provider to review and redact such information before publication.
+    The for example, the [OGL3] licence does not 
+    </p>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    <h2 id="colophon" class="govuk-heading-m">Colophon</h2>
+    <p class="govuk-body">
+    This document is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown Copyright</a> and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a> licence.
+    </p>
+
+    <h2 id="acknowledgements" class="govuk-heading-m">Acknowledgements</h2>
+    <p class="govuk-body">
+    The specification builds upon work from the <a href="https://www.localdigital.gov.uk/ripa-bops-eoi/">local digital pathfinding local planning authorities</a>, the <a href="https://ripa.digital">Reducing Invalid Planning Applications (RIPA)</a> and <a href="https://bops.digital">Back Office Planning System (BOPS)</a> projects.
+    </p>
+
+    <h2 id="references" class="govuk-heading-m">References</h2>
+    <h3 id="normative-references" class="govuk-heading-s">Normative references</h2>
+    <dl class="govuk-summary-list">
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC2119">[RFC2119]</dt>
+    <dd class="govuk-summary-list__value">
+        Key words for use in RFCs to Indicate Requirement Levels.
+        IETF Best Current Practice.
+        <a href="https://tools.ietf.org/html/rfc2119">https://tools.ietf.org/html/rfc2119</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC8174">[RFC8174]</dt>
+    <dd class="govuk-summary-list__value">
+        Ambiguity of Uppercase vs Lowercase in [<a href="#RFC2119">RFC2119</a>] Key Words.
+        IETF Best Current Practice.
+        <a href="https://datatracker.ietf.org/doc/html/rfc8174">https://datatracker.ietf.org/doc/html/rfc8174</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC3629">[RFC3629]</dt>
+    <dd class="govuk-summary-list__value">
+        UTF-8, a transformation format of ISO 10646.
+        IETF Internet Standard.
+        <a href="https://datatracker.ietf.org/doc/html/rfc3629">https://datatracker.ietf.org/doc/html/rfc3629</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC4180">[RFC4180]</dt>
+    <dd class="govuk-summary-list__value">
+        Common Format and MIME Type for Comma-Separated Values (CSV) Files.
+        IETF Informational.
+        <a href="https://datatracker.ietf.org/doc/html/rfc4180">https://datatracker.ietf.org/doc/html/rfc4180</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC7946">[RFC7946]</dt>
+    <dd class="govuk-summary-list__value">
+    The GeoJSON Format.
+    Proposed Standard.
+    <a href="https://datatracker.ietf.org/doc/html/rfc7946">https://datatracker.ietf.org/doc/html/rfc7946</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="RFC3339">[RFC3339]</dt>
+    <dd class="govuk-summary-list__value">
+    Date and Time on the Internet: Timestamps.
+    IETF Proposed Standard.
+    <a href="https://datatracker.ietf.org/doc/html/rfc3339">https://datatracker.ietf.org/doc/html/rfc3339</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="tabular-metadata">[tabular-metadata]</dt>
+    <dd class="govuk-summary-list__value">
+    Metadata Vocabulary for Tabular Data.
+    W3C Recommendation.
+    <a href="https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/">https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="tabular-data-model">[tabular-data-model]</dt>
+    <dd class="govuk-summary-list__value">
+    Model for Tabular Data and Metadata on the Web.
+    W3C Recommendation.
+    <a href="https://www.w3.org/TR/2015/REC-tabular-data-model-20151217">https://www.w3.org/TR/2015/REC-tabular-data-model-20151217</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GML">[GML]</dt>
+    <dd class="govuk-summary-list__value">
+    Geography Markup Language (GML).
+    Open Geospatial Consortium standard (ISO 19136-1:2020).
+    <a href="https://www.ogc.org/standards/gml">https://www.ogc.org/standards/gml</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="OGL3">[OGL3]</dt>
+    <dd class="govuk-summary-list__value">
+    Open Government Licence for public sector information.
+    Version 3.
+    <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="crown-copyright">[crown-copyright]</dt>
+    <dd class="govuk-summary-list__value">
+    Crown copyright.
+    Section 163 of the Copyright, Designs and Patents Act 1988 as works made by officers or servants of the Crown in the course of their duties.
+    <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/</a>
+    </dd>
+    </div>
+
+    </dl>
+
+    <h3 id="informative-references" class="govuk-heading-s">Informative references</h2>
+    <dl class="govuk-summary-list">
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="LURB">[LURB]</dt>
+    <dd class="govuk-summary-list__value">
+    Levelling-up and Regeneration Bill.  Originated in the House of Commons, Session 2022-23.
+    <a href="https://bills.parliament.uk/bills/3155">https://bills.parliament.uk/bills/3155</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="process">[process]</dt>
+    <dd class="govuk-summary-list__value">
+    <i>Department for Levelling Up, Housing and Communities planning data standards design process (under development)</i>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="CURIE">[CURIE]</dt>
+    <dd class="govuk-summary-list__value">
+        CURIE Syntax 1.0 A syntax for expressing Compact URIs.
+        W3C Working Group Note.
+        <a href="https://www.w3.org/TR/2010/NOTE-curie-20101216/">https://www.w3.org/TR/2010/NOTE-curie-20101216/</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="encoding-characters">[encoding-characters]</dt>
+    <dd class="govuk-summary-list__value">
+    Encoding characters
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile">https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="persistent-resolvable-identifiers">[persistent-resolvable-identifiers]</dt>
+    <dd class="govuk-summary-list__value">
+    Persistent resolvable identifiers.
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/open-standards-for-government/persistent-resolvable-identifiers">https://www.gov.uk/government/publications/open-standards-for-government/persistent-resolvable-identifiers</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="formatting-dates-and-times-in-data">[formatting-dates-and-times-in-data]</a></dt>
+    <dd class="govuk-summary-list__value">
+    Formatting dates and times in data.
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="publishing-government-documents">[publishing-government-documents]</dt>
+    <dd class="govuk-summary-list__value">
+    Publishing government documents.
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/open-standards-for-government/viewing-government-documents">https://www.gov.uk/government/publications/open-standards-for-government/viewing-government-documents</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="exchange-of-location-point">[exchange-of-location-point]</dt>
+    <dd class="govuk-summary-list__value">
+    Exchange of location point.
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="tabular-data-standard">[tabular-data-standard]</dt>
+    <dd class="govuk-summary-list__value">
+    Tabular data standard.
+    Open Standards for Government.
+    <a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="using-csv">[using-csv]</dt>
+    <dd class="govuk-summary-list__value">
+    Using CSV file format.
+    Central Digital and Data Office guidance.
+    <a href="https://www.gov.uk/guidance/using-csv-file-format">https://www.gov.uk/guidance/using-csv-file-format</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="csv-on-the-web">[csv-on-the-web]</dt>
+    <dd class="govuk-summary-list__value">
+    CSV on the Web: A Primer.
+    W3C Working Group Note.
+    <a href="https://www.w3.org/TR/tabular-data-primer/">https://www.w3.org/TR/tabular-data-primer/</a> 
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="EPSG-4326">[EPSG-4326]</dt>
+    <dd class="govuk-summary-list__value">
+    WGS84 - World Geodetic System 1984, used in GPS.
+    EPSG Geodetic Parameter Dataset.
+    <a href="https://epsg.io/4326">https://epsg.io/4326</a> 
+    </dd>
+    </div>
+
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GDAL">[GDAL]</dt>
+    <dd class="govuk-summary-list__value">
+    GDAL.
+    Open Source Geospatial Foundation.
+    <a href="https://gdal.org/">https://gdal.org/</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="URI-Fragment">[URI-Fragment]</dt>
+    <dd class="govuk-summary-list__value">
+    <a href="https://en.wikipedia.org/wiki/URI_fragment">https://en.wikipedia.org/wiki/URI_fragment</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="TAB">[TAB]</dt>
+    <dd class="govuk-summary-list__value">
+    MapInfo TAB format.
+    <a href="https://en.wikipedia.org/wiki/MapInfo_TAB_format">https://en.wikipedia.org/wiki/MapInfo_TAB_format</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="Shapefile">[Shapefile]</dt>
+    <dd class="govuk-summary-list__value">
+    ESRI Shapefile format.
+    <a href="https://en.wikipedia.org/wiki/Shapefile">https://en.wikipedia.org/wiki/Shapefile</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="ZIP">[ZIP]</dt>
+    <dd class="govuk-summary-list__value">
+    ZIP format.
+    <a href="https://en.wikipedia.org/wiki/ZIP_(file_format)">https://en.wikipedia.org/wiki/ZIP_(file_format)</a>
+    </dd>
+    </div>
+
+    </dl>
+
+    
+    <p class="govuk-body">See <a href="../#versions" class="govuk-link">other versions</a></p>
+    
+
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    
+
+    
+  
+  
+
+
+
+
+
+
+
+<footer class="govuk-footer " role="contentinfo"
+        >
+  <div class="govuk-width-container ">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+              <ul class="govuk-footer__inline-list">
+                
+                  <li class="govuk-footer__inline-list-item">
+                    <a class="govuk-footer__link" href="/cookies">
+                      Cookies
+                    </a>
+                  </li>
+                
+                  <li class="govuk-footer__inline-list-item">
+                    <a class="govuk-footer__link" href="/accessibility-statement">
+                      Accessibility statement
+                    </a>
+                  </li>
+                
+                  <li class="govuk-footer__inline-list-item">
+                    <a class="govuk-footer__link" href="/design-system">
+                      Design system
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          
+          
+            <div class="govuk-footer__meta-custom">
+              The <a class="govuk-footer__link" href="https://github.com/digital-land/specification/">software</a> and <a class="govuk-footer__link" href="https://github.com/digital-land/specification/">data</a> used to build these pages is <a class="govuk-footer__link" href="https://github.com/digital-land/specification/blob/master/LICENSE">open source</a>.
+            </div>
+          
+        
+        <svg
+          role="presentation"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://digital-land.github.io/javascripts/dl-cookies.js"></script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- end google analytics -->
+	
+
+	<script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend.min.js"></script>
+	<script>
+		// initiate all GOVUK components
+		window.GOVUKFrontend.initAll();
+	</script>
+
+	
+	
+	<script src="https://digital-land.github.io/javascripts/dl-frontend.js"></script>
+	<script>
+		// adds any necessary polyfills
+		window.DLFrontend.polyfill();
+	</script>
+	
+
+
+  </body>
+</html>

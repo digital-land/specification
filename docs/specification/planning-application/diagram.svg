@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="811" height="360">
 <defs>
-<style>
-text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
-text.name{fill:#fff;font-weight:700;text-anchor:middle}
-rect.name{fill:#0b0c0c; stroke:#0b0c0c;}
-rect{fill:#fff;stroke:#b1b4b6;}
-text.field{fill:#0b0c0c;}
-text.datatype{fill:#0b0c0c;}
-.line{stroke:#0b0c0c;}
-</style>
-<marker id="start-dot" markerWidth="6" markerHeight="6" refX="4" refY="3" markerUnits="strokeWidth">
-  <circle cx="3" cy="3" r="2" fill="#fff" stroke="#0b0c0c"/>
-</marker>
-<marker id="end-dot" markerWidth="6" markerHeight="6" refX="2" refY="3" markerUnits="strokeWidth">
-  <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
-</marker>
-</defs>
+    <style>
+    text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
+    text.name{fill:#fff;font-weight:700;text-anchor:middle}
+    rect.name{fill:#0b0c0c; stroke:#0b0c0c;}
+    rect{fill:#fff;stroke:#b1b4b6;}
+    text.field{fill:#0b0c0c;}
+    text.datatype{fill:#0b0c0c;}
+    .line{stroke:#0b0c0c;}
+    </style>
+    <marker id="start-dot" markerWidth="6" markerHeight="6" refX="4" refY="3" markerUnits="strokeWidth">
+    <circle cx="3" cy="3" r="2" fill="#fff" stroke="#0b0c0c"/>
+    </marker>
+    <marker id="end-dot" markerWidth="6" markerHeight="6" refX="2" refY="3" markerUnits="strokeWidth">
+    <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
+    </marker>
+    </defs>
 <path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 50 C 257.0 50 257.0 30 217 30"/>
 <path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 90 C 405.5 90 405.5 30 217 30"/>
 <g>
