@@ -245,6 +245,11 @@ if __name__ == "__main__":
 
     for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:
         for name, item in tables[template].items():
+            versions = []
+            if template == "specification":
+                specification_dir = os.path.join(docs, template, name)
+                versions = [v for v in os.listdir(specification_dir) if os.path.isdir(os.path.join(specification_dir, v))]
+                versions.sort(reverse=True)
             render(
                 f"{template}/{name}/index.html",
                 env.get_template(f"{template}.html"),
@@ -253,6 +258,7 @@ if __name__ == "__main__":
                 tables=tables,
                 staticPath=staticPath,
                 assetPath=assetPath,
+                versions=versions
             )
 
     for path, template in [
