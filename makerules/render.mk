@@ -48,12 +48,8 @@ endif
 second-pass:: render
 
 render:: $(TEMPLATE_FILES) $(SPECIFICATION_FILES) $(DATASET_FILES) $(DATASET_PATH) $(VIEW_MODEL)
-	@-rm -rf $(DOCS_DIR)/datapackage
-	@-rm -rf $(DOCS_DIR)/dataset
-	@-rm -rf $(DOCS_DIR)/datatype
-	@-rm -rf $(DOCS_DIR)/field
-	@-rm -rf $(DOCS_DIR)/typology
-	@-mkdir -p $(DOCS_DIR)/{datapackage,dataset,datatype,field,typology}
+	@-rm -rf $(DOCS_DIR)
+	@-mkdir -p $(DOCS_DIR)
 ifneq ($(RENDER_COMMAND),)
 	$(RENDER_COMMAND)
 else
@@ -71,11 +67,7 @@ clobber-dataset::
 	rm -rf $(DATASET_PATH)
 	
 clobber-docs::
-	@-rm -rf $(DOCS_DIR)/datapackage
-	@-rm -rf $(DOCS_DIR)/dataset
-	@-rm -rf $(DOCS_DIR)/datatype
-	@-rm -rf $(DOCS_DIR)/field
-	@-rm -rf $(DOCS_DIR)/typology
+	rm -rf $(DOCS_DIR)
 
 makerules::
 	curl -qfsL '$(SOURCE_URL)/makerules/main/render.mk' > makerules/render.mk
@@ -93,10 +85,6 @@ endif
 # TBD: remove this rule
 # -- templates should have relative links to ensure we are testing deployed pages locally
 local::
-	@-rm -rf $(DOCS_DIR)/datapackage
-	@-rm -rf $(DOCS_DIR)/dataset
-	@-rm -rf $(DOCS_DIR)/datatype
-	@-rm -rf $(DOCS_DIR)/field
-	@-rm -rf $(DOCS_DIR)/typology
-	@-mkdir -p $(DOCS_DIR)/{datapackage,dataset,datatype,field,typology}
+	@rm -rf $(DOCS_DIR)
+	@mkdir $(DOCS_DIR)
 	digital-land --pipeline-name $(DATASET) render --dataset-path $(DATASET_PATH) --local
