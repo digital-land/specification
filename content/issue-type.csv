@@ -22,3 +22,4 @@ OSGB,info,OSGB conversion,The geospatial data has been processed as OSGB coordin
 OSGB flipped,warning,OSGB flipped,The latitude and longitude fields have been processed as flipped OSGB coordinates.
 removed URI prefix,info,Removed URI prefix,The URI value has been converted into a CURIE value.
 invalid geometry,error,Invalid geometry,An error was encountered processing the geometry.
+missing organisation,error,Missing Organisation,No organisation was assigned during processing
