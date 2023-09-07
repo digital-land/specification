@@ -3,7 +3,7 @@ unknown entity,notice,Unknown entity,The entry needs an entity assigning before 
 combined-value,info,Combined values,The field value has been constructed by combining data from multiple different entries.
 invalid coordinates,error,Invalid coordinates,It was not possible to process the field as geospatial coordinates.
 invalid date,error,Invalid date,It was not possible to process the field as a date value.
-invalid decimal,error,Invalid decimal,It was not possible tp process the field as a decimal number.
+invalid decimal,error,Invalid decimal,It was not possible to process the field as a decimal number.
 invalid integer,error,Invalid integer,It was not possible to process the field as an integer value.
 too small,error,Value too small,The number was less than the minimum value allowed for the field.
 too large,error,Value too large,The decimal value was greater than the maximum value allowed for the field.
