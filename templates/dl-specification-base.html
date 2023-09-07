@@ -3,20 +3,41 @@
 {% set github_repository = 'specification' %}
 
 {% block dl_breadcrumbs %}
-  {{ govukBreadcrumbs({
-    "items": [
+  {% if not version %}
+    {% set items = [
       {
         "text": "Digital Land",
         "href": "https://digital-land.github.io/"
       },
       {
         "text": "Specification",
-        "href": "../"
+        "href": sectionPath
       },
       {
         "text": page_title
       },
-    ]
+    ] %}
+  {% else %}
+  {% set items = [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification",
+        "href": sectionPath
+      },
+      {
+        "text": page_title,
+        "href": sectionPath + "/" + name
+      },
+      {
+        "text": version
+      },
+    ] %}
+  {% endif %}
+  {{ govukBreadcrumbs({
+    "items": items
   }) }}
 {% endblock %}
 

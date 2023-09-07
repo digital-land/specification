@@ -18,6 +18,7 @@ docs = "docs/"
 content = "content/"
 staticPath = "https://digital-land.github.io"
 assetPath = "https://digital-land.github.io"
+specification_repo_url = "/specification"
 
 keys = {
     "dataset-field": ["dataset", "field"],
@@ -230,6 +231,8 @@ if __name__ == "__main__":
                         tables=tables,
                         staticPath=staticPath,
                         assetPath=assetPath,
+                        sectionPath=f"{specification_repo_url}/{template}",
+                        version=f'v{latest_version}'
                     )
                     # make a copy of .md
                     source_file = os.path.join(content, template, f'{name}.md')
@@ -258,6 +261,7 @@ if __name__ == "__main__":
                 tables=tables,
                 staticPath=staticPath,
                 assetPath=assetPath,
+                sectionPath=f"{specification_repo_url}/{template}",
                 versions=versions
             )
 
