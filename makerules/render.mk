@@ -59,7 +59,7 @@ endif
 
 # serve docs for testing
 server:
-	python3 bin/server.py
+	cd docs && python3 -m http.server
 
 clobber clean:: clobber-dataset clobber-docs
 	
