@@ -248,6 +248,9 @@ if __name__ == "__main__":
 
     for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:
         for name, item in tables[template].items():
+            if name in ["Deliverable", "Hectares", "Notes"]:
+                print(f"skipping deprecated field: {name}")
+                continue
             versions = []
             if template == "specification":
                 specification_dir = os.path.join(docs, template, name)
