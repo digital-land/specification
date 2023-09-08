@@ -8,6 +8,7 @@ entity-maximum: '7001000000'
 entity-minimum: '7001999999'
 entry-date: ''
 fields:
+- field: confirmed-date
 - field: description
 - field: document-url
 - field: documentation-url
@@ -15,6 +16,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: legislation
+- field: made-date
 - field: name
 - field: notes
 - field: organisation
@@ -35,7 +37,7 @@ themes:
 typology: legal-instrument
 wikidata: ''
 wikipedia: ''
-version: 1.1
+version: 2.0
 ---
 
 A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. Tree Preservation Orders are made by local planning authorities following [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas) provided by the [Department for Levelling Up, Housing and Communities](https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities).

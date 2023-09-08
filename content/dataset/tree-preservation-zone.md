@@ -22,7 +22,7 @@ fields:
 - field: reference
 - field: start-date
 - field: tree-preservation-order
-- field: tree-preservation-type
+- field: tree-preservation-zone-type
 - field: tree-species-list
 - field: uprn
 key-field: ''
@@ -37,7 +37,7 @@ start-date: ''
 themes:
 - environment
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: Q10884
 wikipedia: Tree
 ---
