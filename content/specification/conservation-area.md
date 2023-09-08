@@ -5,7 +5,7 @@ plural: conservation areas
 specification-status: piloting
 start-date: ''
 end-date: ''
-entry-date: '2022-06-09'
+entry-date: '2023-09-08'
 version: 1.2.2
 datasets:
     - dataset: conservation-area
