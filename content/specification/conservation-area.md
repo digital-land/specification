@@ -6,7 +6,7 @@ specification-status: piloting
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
-version: 1.1.1
+version: 1.2.2
 datasets:
     - dataset: conservation-area
       fields:
@@ -14,8 +14,10 @@ datasets:
         - field: name
           description: the official name for the conservation area
         - field: documentation-url
-          description: an optional URL of a document providing the authoritive source of the boundary. For example a PDF containing a map of the area indicated with a red-line boundary.
+          description: a URL to a page on the local planning authority website that provides information about the conservation area
         - field: geometry
+        - field: point
+          description: provide the centre point of the conservation area if you do not have a full geometry available
         - field: notes
         - field: organisation
         - field: entry-date
