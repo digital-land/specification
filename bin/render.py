@@ -2,6 +2,7 @@
 
 import os
 import csv
+from pathlib import Path
 import shutil
 import jinja2
 import importlib
@@ -202,7 +203,6 @@ if __name__ == "__main__":
     index_datapackage()
     index_specification()
 
-
     def version_exists(parent_dir, version):
         version_dir = os.path.join(parent_dir, version)
         # Check if the directory_to_check exists within the parent_directory
@@ -212,15 +212,14 @@ if __name__ == "__main__":
                 return True
         return False
 
-
     # generate versions of specification and dataset pages
     for template in ["specification"]:
         for name, item in tables[template].items():
             # only if version in frontmatter
-            if 'version' in item.metadata:
-                latest_version = item.metadata['version']
+            if "version" in item.metadata:
+                latest_version = item.metadata["version"]
                 parent_dir = os.path.join(docs, template, name)
-                if not version_exists(parent_dir, f'v{latest_version}'):
+                if not version_exists(parent_dir, f"v{latest_version}"):
                     # render the html page
                     version_dir = f"{template}/{name}/v{latest_version}"
                     render(
@@ -232,21 +231,31 @@ if __name__ == "__main__":
                         staticPath=staticPath,
                         assetPath=assetPath,
                         sectionPath=f"{specification_repo_url}/{template}",
-                        version=f'v{latest_version}'
+                        version=f"v{latest_version}",
                     )
                     # make a copy of .md
-                    source_file = os.path.join(content, template, f'{name}.md')
+                    source_file = os.path.join(content, template, f"{name}.md")
                     try:
                         shutil.copy(source_file, os.path.join(docs, version_dir))
                     except Exception as e:
                         print(f"An error occurred: {e}")
                     # generate svg for the version
-                    diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
+                    diagram_version_path = os.path.join(
+                        docs, version_dir, "diagram.svg"
+                    )
                     specification_svg.generate(source_file, diagram_version_path)
+                    # make copy of new diagram.svg to unversioned directory - i.e. latest
+                    parent_dir = Path(diagram_version_path).parent.parent
+                    shutil.copy(diagram_version_path, parent_dir)
 
-
-
-    for template in ["datapackage", "dataset", "field", "datatype", "specification", "typology"]:
+    for template in [
+        "datapackage",
+        "dataset",
+        "field",
+        "datatype",
+        "specification",
+        "typology",
+    ]:
         for name, item in tables[template].items():
             if name in ["Deliverable", "Hectares", "Notes"]:
                 print(f"skipping deprecated field: {name}")
@@ -254,7 +263,11 @@ if __name__ == "__main__":
             versions = []
             if template == "specification":
                 specification_dir = os.path.join(docs, template, name)
-                versions = [v for v in os.listdir(specification_dir) if os.path.isdir(os.path.join(specification_dir, v))]
+                versions = [
+                    v
+                    for v in os.listdir(specification_dir)
+                    if os.path.isdir(os.path.join(specification_dir, v))
+                ]
                 versions.sort(reverse=True)
             render(
                 f"{template}/{name}/index.html",
@@ -265,7 +278,7 @@ if __name__ == "__main__":
                 staticPath=staticPath,
                 assetPath=assetPath,
                 sectionPath=f"{specification_repo_url}/{template}",
-                versions=versions
+                versions=versions,
             )
 
     for path, template in [

@@ -37,7 +37,7 @@ fieldnames_with_version = ["dataset", "field", "field-dataset", "guidance", "hin
 
 def row_exists(csv_file, subset_values):
     #TODO remove this once version number is moved to dataset-field.csv
-    github_url = 'https://raw.githubusercontent.com/digital-land/digital-land/master'
+    github_url = 'https://raw.githubusercontent.com/digital-land/specification/main'
     version_file_url = f'{github_url}/specification/dataset-field-version.csv'
 
     resp = requests.get(version_file_url)
