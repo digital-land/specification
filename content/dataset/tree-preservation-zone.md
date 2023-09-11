@@ -22,7 +22,7 @@ fields:
 - field: reference
 - field: start-date
 - field: tree-preservation-order
-- field: tree-preservation-type
+- field: tree-preservation-zone-type
 - field: tree-species-list
 - field: uprn
 key-field: ''
