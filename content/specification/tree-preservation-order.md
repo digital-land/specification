@@ -32,8 +32,6 @@ datasets:
         - field: tree-preservation-order
           description: the <a href="#reference">reference</a> for the tree preservation order
         - field: geometry
-        - field: point
-          description: the centre of the tree preservation zone if you can not provide the full geometry
         - field: notes
         - field: organisation
         - field: entry-date
