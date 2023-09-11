@@ -16,7 +16,6 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
-- field: tree-preservation-type
 key-field: ''
 licence: ogl3
 name: Tree preservation zone type
