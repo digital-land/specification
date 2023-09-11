@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: tree-preservation-order
 dataset: tree-preservation-zone-type
 description: Types of zone covered by the tree preservation order
 end-date: ''
