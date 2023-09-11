@@ -10,7 +10,6 @@ entry-date: ''
 fields:
 - field: address-text
 - field: article-4-direction
-- field: article-4-direction-rules
 - field: description
 - field: document-url
 - field: documentation-url
@@ -21,6 +20,7 @@ fields:
 - field: name
 - field: notes
 - field: organisation
+- field: permitted-development-right
 - field: point
 - field: prefix
 - field: reference
@@ -38,7 +38,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
