@@ -37,7 +37,6 @@ datasets:
         - field: address-text
         - field: geometry
         - field: point
-        - field: document-url
         - field: notes
         - field: organisation
         - field: entry-date

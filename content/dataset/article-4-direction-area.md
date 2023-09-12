@@ -11,8 +11,6 @@ fields:
 - field: address-text
 - field: article-4-direction
 - field: description
-- field: document-url
-- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
