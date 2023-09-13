@@ -18,7 +18,7 @@ fields:
 - field: name
 - field: notes
 - field: organisation
-- field: permitted-development-right
+- field: permitted-development-rights
 - field: point
 - field: prefix
 - field: reference
