@@ -5,8 +5,8 @@ plural: article 4 directions
 specification-status: piloting
 start-date: ''
 end-date: ''
-entry-date: '2022-06-09'
-version: 1.1.1
+entry-date: '2023-09-11'
+version: 1.2.2
 datasets:
     - dataset: article-4-direction
       name: article 4 direction
@@ -30,13 +30,13 @@ datasets:
         - field: name
         - field: article-4-direction
           description: the <a href="#reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry
-        - field: article-4-direction-rules
-          description: a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">article 4 direction rule</a> entries, separated by a semi-colon ';' character.
+        - field: permitted-development-rights
+          description: a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">permitted development right</a> entries, separated by a semi-colon ';'.
         - field: uprn
           dataset: address
         - field: address-text
         - field: geometry
-        - field: document-url
+        - field: point
         - field: notes
         - field: organisation
         - field: entry-date
