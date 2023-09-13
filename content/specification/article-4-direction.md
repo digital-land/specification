@@ -30,7 +30,7 @@ datasets:
         - field: name
         - field: article-4-direction
           description: the <a href="#reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry
-        - field: permitted-development-right
+        - field: permitted-development-rights
           description: a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">permitted development right</a> entries, separated by a semi-colon ';'.
         - field: uprn
           dataset: address
