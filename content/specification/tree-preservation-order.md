@@ -5,8 +5,8 @@ plural: Tree preservation orders
 specification-status: piloting
 start-date: ''
 end-date: ''
-entry-date: '2022-06-09'
-version: 1.1.1
+entry-date: '2023-09-08'
+version: 1.2.2
 datasets:
     - dataset: tree-preservation-order
       name: tree preservation order
@@ -16,6 +16,10 @@ datasets:
         - field: name
         - field: documentation-url
         - field: document-url
+        - field: made-date
+          description: The date the tree preservation order was "made"
+        - field: confirmed-date
+          description: The date the tree preservation order was "confirmed"
         - field: notes
         - field: organisation
         - field: entry-date
@@ -31,7 +35,11 @@ datasets:
         - field: name
         - field: tree-preservation-order
           description: the <a href="#reference">reference</a> for the tree preservation order
+        - field: tree-preservation-zone-type
+          description: the type of zone, for example area, group or woodland
         - field: geometry
+        - field: point
+          description: the centre of the tree preservation zone if you can not provide the full geometry
         - field: notes
         - field: organisation
         - field: entry-date
