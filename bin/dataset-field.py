@@ -35,15 +35,17 @@ for row in csv.DictReader(open("specification/dataset.csv", newline="")):
 new_rows = []
 fieldnames_with_version = ["dataset", "field", "field-dataset", "guidance", "hint", "version"]
 
-def row_exists(csv_file, subset_values):
+def fetch_current_pubished_csv():
     #TODO remove this once version number is moved to dataset-field.csv
     github_url = 'https://raw.githubusercontent.com/digital-land/specification/main'
     version_file_url = f'{github_url}/specification/dataset-field-version.csv'
 
     resp = requests.get(version_file_url)
-    with open(csv_file, 'w', newline='') as csvfile:
+    with open('specification/dataset-field-version.csv', 'w', newline='') as csvfile:
         csvfile.write(resp.text)
 
+
+def row_exists(csv_file, subset_values):
     with open(csv_file, 'r', newline='') as csvfile:
         csv_reader = csv.DictReader(csvfile)
         for r in csv_reader:
@@ -63,9 +65,11 @@ def append_rows(csv_file, fieldnames, rows):
 
         csv_writer.writerows(rows)
 
-
+# set dataset-field-version.csv to latest version
+fetch_current_pubished_csv()
 csv_file = 'specification/dataset-field-version.csv'
 
+# determine if new dataset-field-version rows need to be added
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
     dataset = row["schema"] = row["dataset"]
     path = f"content/dataset/{dataset}.md"
