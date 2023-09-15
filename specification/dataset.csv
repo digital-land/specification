@@ -98,6 +98,7 @@ and make planning decisions for a [local planning authority](/dataset/local-plan
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,Q5266682,Development_corporation
 crown-copyright,,development-metric,The types of measurement used as a development policy metric,,,,4800000,4899999,ogl3,Development metric,,Development metrics,discovery,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan-document,,,,,4900000,4999999,ogl3,Development plan document,,Development plan documents,alpha,,dataset,,,development,document,1.0,,
+crown-copyright,,development-plan-event,The different event types in a development plan timetable,,2023-09-14,,2900000,2999999,ogl3,Development plan event,,Development plan events,alpha,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan-status,The different statuses a plan can have,,,,5000000,5099999,ogl3,Development plan status,,Development plan statuses,alpha,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan-timetable,The expected timetable for the stages a plan will go through,,,,5100000,5199999,ogl3,Development plan timetable,,Development plan timetables,alpha,,dataset,,,development,timetable,1.0,,
 crown-copyright,,development-plan-type,,,,,5200000,5299999,ogl3,Development plan type,,Development plan types,alpha,,dataset,,,development,category,1.0,,
@@ -220,6 +221,7 @@ crown-copyright,legislation,permitted-development-right,,,,,11500000,11599999,og
 Each right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.
 This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",development,policy,1.0,,
 crown-copyright,,phase,phase of development,,,,,,ogl3,Phase,,Phases,beta,,specification,,,specification,category,1.0,,
+crown-copyright,,planning-application-category,"A planning application category is a high level categorisation of the type of planning application, such as ""householder"" or ""full planning application""",,2023-09-14,,3900000,3999999,ogl3,Planning application category,,Planning application categories,discovery,,dataset,,,housing;monitoring,category,1.0,,
 crown-copyright,,planning-application-document,,,,,200000000,299999999,ogl3,Planning application document,,Planning application documents,alpha,,dataset,,,development,document,1.0,,
 crown-copyright,,planning-application-log,The stages a planning application has gone through,,,,140000000,199999999,ogl3,Planning application log,,Planning application logs,alpha,,dataset,,,development,timetable,1.0,,
 crown-copyright,,planning-application-status,A planning application status,,,,620000,620999,ogl3,Planning application status,,Planning application statuses,discovery,,dataset,,,housing;monitoring,category,1.0,,
