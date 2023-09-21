@@ -6,7 +6,7 @@ specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2023-04-05'
-version: 1.1.1
+version: 2.2.2
 datasets:
     - dataset: development-plan
       name: development plan
@@ -23,12 +23,14 @@ datasets:
             description: The start date of the period the plan covers
           - field: period-end-date
             description: The end date of the period the plan covers
+          - field: development-plan-geography
+            description: The reference code for the geography the plan covers
           - field: documentation-url
             description: The web page where you can find the documentation for the plan
           - field: notes
             description: Optional notes
-          - field: organisation
-            description: The code for the responsible organisation
+          - field: organisations
+            description: A list of codes for the responsible organisations, spearated by ;
           - field: entry-date   
           - field: start-date
           - field: end-date
@@ -77,4 +79,15 @@ datasets:
           - field: entry-date   
           - field: start-date
           - field: end-date
+    - dataset: development-plan-geography
+      name: Development plan geography
+      fields:
+        - field: reference
+        - field: name
+        - field: geometry
+        - field: development-plan-geography-type
+        - field: description
+        - field: entry-date
+        - field: start-date
+        - field: end-date
 ---
