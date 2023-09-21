@@ -120,7 +120,7 @@ crown-copyright,,field,,,,field,6200000,6299999,ogl3,Field,,Fields,alpha,,proven
 crown-copyright,,filter,Filter entries,,,,,,ogl3,Pipeline filter,,Pipeline filters,alpha,,pipeline,,,specification;pipeline,specification,1.0,,
 crown-copyright,,flood-risk-level,,,,,6450000,6499999,ogl3,Flood risk level,,Flood risk levels,prioritised,,dataset,,,environment,category,1.0,,
 crown-copyright,,flood-risk-type,,,,,6400000,6449999,ogl3,Flood risk type,,Flood risk types,prioritised,,dataset,,,environment,category,1.0,,
-crown-copyright,,flood-risk-zone,,,,,6500000,6599999,ogl3,Flood risk zone,,Flood risk zones,prioritised,,dataset,,,environment,geography,1.0,,
+crown-copyright,flood-risk-zone,flood-risk-zone,,,,,6500000,6599999,ogl3,Flood risk zone,,Flood risk zones,prioritised,,dataset,,,environment,geography,1.0,,
 crown-copyright,,geography,,,,,6700000,6799999,ogl3,Geography,,Geographies,alpha,,dataset,,,,geography,1.0,,
 crown-copyright,organisation,government-organisation,,,,,6900000,6999999,ogl3,Government organisation,,"Government departments, agencies and public bodies",beta,government-organisation,dataset,,"A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).
 This data originally came from the [government organisation register](https://www.data.gov.uk/dataset/0f669ee5-7382-4f6d-8bb3-5fd238716c3b/government-organisation-register).
