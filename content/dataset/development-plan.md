@@ -15,9 +15,10 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: development-plan-geography
 - field: name
 - field: notes
-- field: organisation
+- field: organisations
 - field: period-end-date
 - field: period-start-date
 - field: prefix
@@ -35,7 +36,7 @@ start-date: ''
 themes:
 - development
 typology: legal-instrument
-version: 1.0
+version: 2.0
 wikidata: Q5266783
 wikipedia: Development_plan
 ---
