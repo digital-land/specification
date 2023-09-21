@@ -1,8 +1,8 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: nationally-significant-infrastructure-project
-description: An application for a nationally significant infrastructure development
+dataset: infrastructure-project
+description: An application for a infrastructure development
 end-date: ''
 entity-maximum: '11999999999'
 entity-minimum: '11100000000'
@@ -21,16 +21,16 @@ fields:
 - field: notes
 - field: organisation
 - field: point
-- field: nationally-significant-infrastructure-project-type
-- field: nationally-significant-infrastructure-project-decision
+- field: infrastructure-project-type
+- field: infrastructure-project-decision
 - field: prefix
 - field: reference
 - field: start-date
 licence: ogl3
-name: Nationally significant infrastructure project
+name: Infrastructure project
 paint-options: ''
 phase: discovery
-plural: Nationally significant infrastructure project
+plural: Infrastructure project
 prefix: ''
 realm: dataset
 start-date: ''

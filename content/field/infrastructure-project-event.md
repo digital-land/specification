@@ -4,10 +4,10 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: nationally-significant-infrastructure-project-type
+field: infrastructure-project-event
 guidance: ''
 hint: ''
-name: Nationally significant infrastructure project type
+name: Infrastructure project event
 parent-field: category
 replacement-field: ''
 start-date: ''

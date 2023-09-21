@@ -1,34 +1,39 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: nationally-significant-infrastructure-project-type
-description: The types of nationally significant infrastructure projects
+dataset: infrastructure-project-document
+description: The documents published and produced for a infrastructure project
 end-date: ''
-entity-maximum: '11029999999'
-entity-minimum: '11020000000'
+entity-maximum: '11069999999'
+entity-minimum: '11050000000'
 entry-date: '2023-09-13'
 fields:
 - field: description
+- dataset: infrastructure-project-type
+  field: document-type
+- field: document-url
+- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
 - field: name
+- field: infrastructure-project
 - field: notes
 - field: organisation
 - field: prefix
 - field: reference
 - field: start-date
 licence: ogl3
-name: Nationally significant infrastructure project type
+name: Infrastructure project document
 paint-options: ''
 phase: discovery
-plural: Nationally significant infrastructure project types
+plural: Infrastructure project documents
 prefix: ''
 realm: dataset
 start-date: ''
 themes:
 - development
-typology: category
+typology: document
 version: 1.0
 wikidata: ''
 wikipedia: ''

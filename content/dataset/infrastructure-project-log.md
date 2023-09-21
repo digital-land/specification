@@ -1,17 +1,20 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: nationally-significant-infrastructure-project-document-type
-description: The types of document produced and published for nationally significant infrastructure projects
+dataset: infrastructure-project-log
+description: A log of events that happen during the infrastructure projects
 end-date: ''
-entity-maximum: '11049999999'
-entity-minimum: '11040000000'
+entity-maximum: '11089999999'
+entity-minimum: '11070000000'
 entry-date: '2023-09-13'
 fields:
 - field: description
 - field: end-date
 - field: entity
 - field: entry-date
+- field: event-date
+- field: infrastructure-project
+- field: infrastructure-project-event
 - field: name
 - field: notes
 - field: organisation
@@ -19,16 +22,16 @@ fields:
 - field: reference
 - field: start-date
 licence: ogl3
-name: Nationally significant infrastructure project document type
+name: Infrastructure project log
 paint-options: ''
 phase: discovery
-plural: Nationally significant infrastructure project document types
+plural: Infrastructure project logs
 prefix: ''
 realm: dataset
 start-date: ''
 themes:
 - development
-typology: category
+typology: timetable
 version: 1.0
 wikidata: ''
 wikipedia: ''

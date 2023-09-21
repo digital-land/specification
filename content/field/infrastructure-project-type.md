@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: nationally-significant-infrastructure-project
+field: infrastructure-project-type
 guidance: ''
 hint: ''
-name: Nationally significant infrastructure project
-parent-field: policy
+name: Infrastructure project type
+parent-field: category
 replacement-field: ''
 start-date: ''
-typology: policy
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---

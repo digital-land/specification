@@ -1,11 +1,11 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: nationally-significant-infrastructure-project-event
-description: The events that happen during the nationally significant infrastructure projects stages
+dataset: infrastructure-project-type
+description: The types of infrastructure projects
 end-date: ''
-entity-maximum: '11039999999'
-entity-minimum: '11030000000'
+entity-maximum: '11029999999'
+entity-minimum: '11020000000'
 entry-date: '2023-09-13'
 fields:
 - field: description
@@ -19,10 +19,10 @@ fields:
 - field: reference
 - field: start-date
 licence: ogl3
-name: Nationally significant infrastructure project event
+name: Infrastructure project type
 paint-options: ''
 phase: discovery
-plural: Nationally significant infrastructure project events
+plural: Infrastructure project types
 prefix: ''
 realm: dataset
 start-date: ''

@@ -1,8 +1,8 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: nationally-significant-infrastructure-project-decision
-description: The types of decision for nationally significant infrastructure projects
+dataset: infrastructure-project-decision
+description: The types of decision for infrastructure projects
 end-date: ''
 entity-maximum: '11019999999'
 entity-minimum: '11010000000'
@@ -19,10 +19,10 @@ fields:
 - field: reference
 - field: start-date
 licence: ogl3
-name: Nationally significant infrastructure project decision
+name: Infrastructure project decision
 paint-options: ''
 phase: discovery
-plural: Nationally significant infrastructure project decisions
+plural: Infrastructure project decisions
 prefix: ''
 realm: dataset
 start-date: ''
