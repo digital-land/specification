@@ -13,6 +13,7 @@ fields:
 - field: entry-date
 - field: name
 - field: notes
+- field: description
 - field: prefix
 - field: reference
 - field: start-date
