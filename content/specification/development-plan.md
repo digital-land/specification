@@ -6,7 +6,7 @@ specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2023-04-05'
-version: 2.2.2
+version: 2.3.3
 datasets:
     - dataset: development-plan
       name: development plan
@@ -27,6 +27,8 @@ datasets:
             description: The reference code for the geography the plan covers
           - field: documentation-url
             description: The web page where you can find the documentation for the plan
+          - field: adopted-date
+            description: The date a plan is officially adopted
           - field: notes
             description: Optional notes
           - field: organisations

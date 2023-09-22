@@ -8,6 +8,7 @@ entity-maximum: '4209999'
 entity-minimum: '4200000'
 entry-date: ''
 fields:
+- field: adopted-date
 - field: description
 - field: development-plan-type
 - field: documentation-url
@@ -36,7 +37,7 @@ start-date: ''
 themes:
 - development
 typology: legal-instrument
-version: 2.0
+version: 3.0
 wikidata: Q5266783
 wikipedia: Development_plan
 ---
