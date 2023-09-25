@@ -4,8 +4,8 @@ collection: flood-risk-zone
 dataset: flood-risk-zone
 description: ''
 end-date: ''
-entity-maximum: '6599999'
-entity-minimum: '6500000'
+entity-maximum: '65999999'
+entity-minimum: '65000000'
 entry-date: ''
 fields:
 - field: end-date
