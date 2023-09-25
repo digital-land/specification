@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: flood-risk-zone
+collection: ''
 dataset: flood-risk-zone
 description: ''
 end-date: ''
