@@ -12,7 +12,6 @@ erDiagram
         wkt geometry
         wkt point
         url documentation-url
-        string notes
         string planning-application-type
         string planning-decision
         string planning-decision-type
@@ -31,6 +30,7 @@ erDiagram
         url document-url
         string notes
         string organisation
+        date event-date
         date entry-date
         date start-date
         date end-date

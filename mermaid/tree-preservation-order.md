@@ -8,6 +8,8 @@ erDiagram
         string name
         url documentation-url
         url document-url
+        date made-date
+        date confirmed-date
         string notes
         string organisation
         date entry-date
@@ -18,7 +20,9 @@ erDiagram
         string reference
         string name
         ref tree-preservation-order
+        string tree-preservation-zone-type
         wkt geometry
+        wkt point
         string notes
         string organisation
         date entry-date

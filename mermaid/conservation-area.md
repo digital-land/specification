@@ -8,6 +8,7 @@ erDiagram
         string name
         url documentation-url
         wkt geometry
+        wkt point
         string notes
         string organisation
         date entry-date

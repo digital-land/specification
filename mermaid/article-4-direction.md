@@ -19,11 +19,11 @@ erDiagram
         string reference
         string name
         ref article-4-direction
-        string article-4-direction-rules
+        string permitted-development-rights
         string uprn
         string address-text
         wkt geometry
-        url document-url
+        wkt point
         string notes
         string organisation
         date entry-date
