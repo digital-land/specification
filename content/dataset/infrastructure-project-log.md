@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: infrastructure-project
 dataset: infrastructure-project-log
 description: A log of events that happen during the infrastructure projects
 end-date: ''
