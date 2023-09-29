@@ -41,3 +41,5 @@ version: 1.0
 wikidata: ''
 wikipedia: ''
 ---
+
+The boundaries shown are used to inform the [Environmental Impact Assessment](https://www.gov.uk/guidance/environmental-impact-assessment) (EIA). This information is used by the [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) (PINS) to identify the consultation bodies. These site boundaries may change.
