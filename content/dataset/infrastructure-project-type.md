@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: infrastructure-project
 dataset: infrastructure-project-type
 description: The types of infrastructure projects
 end-date: ''
