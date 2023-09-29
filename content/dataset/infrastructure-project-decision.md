@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: infrastructure-project
 dataset: infrastructure-project-decision
 description: The types of decision for infrastructure projects
 end-date: ''
