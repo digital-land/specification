@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: infrastructure-project
 dataset: infrastructure-project-document-type
 description: The types of document produced and published for infrastructure projects
 end-date: ''
