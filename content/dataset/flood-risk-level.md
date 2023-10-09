@@ -8,7 +8,6 @@ entity-maximum: '6499999'
 entity-minimum: '6450000'
 entry-date: ''
 fields:
-- field: flood-risk-level
 - field: end-date
 - field: entity
 - field: entry-date
