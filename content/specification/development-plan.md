@@ -6,7 +6,7 @@ specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2023-04-05'
-version: 2.3.3
+version: 2.4.3
 datasets:
     - dataset: development-plan
       name: development plan
@@ -29,8 +29,6 @@ datasets:
             description: The web page where you can find the documentation for the plan
           - field: adopted-date
             description: The date a plan is officially adopted
-          - field: notes
-            description: Optional notes
           - field: organisations
             description: A list of codes for the responsible organisations, spearated by ;
           - field: entry-date   
@@ -74,8 +72,6 @@ datasets:
             description: The webpage where you can find this document 
           - field: document-url
             description: The URL of the actual document
-          - field: notes
-            description: Optional notes
           - field: organisation
             description: The code for the responsible organisation (for example, local-authority-eng:BST)
           - field: entry-date   
