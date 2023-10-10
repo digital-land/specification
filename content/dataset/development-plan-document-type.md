@@ -5,7 +5,7 @@ dataset: development-plan-document-type
 description: The types of documents published for a development plan
 end-date: ''
 entity-maximum: '5299999'
-entity-minimum: '5250000'
+entity-minimum: '5260000'
 entry-date: '2023-10-10'
 fields:
 - field: description
