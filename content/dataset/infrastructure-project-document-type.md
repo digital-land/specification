@@ -14,7 +14,6 @@ fields:
 - field: entry-date
 - field: name
 - field: notes
-- field: organisation
 - field: prefix
 - field: reference
 - field: start-date

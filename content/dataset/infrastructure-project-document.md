@@ -9,7 +9,7 @@ entity-minimum: '11050000000'
 entry-date: '2023-09-13'
 fields:
 - field: description
-- dataset: infrastructure-project-type
+- dataset: infrastructure-project-document-type
   field: document-type
 - field: document-url
 - field: documentation-url
