@@ -1,13 +1,14 @@
 ---
 attribution: crown-copyright
-collection: ''
-dataset: development-plan-type
-description: ''
+collection:
+dataset: development-plan-document-type
+description: The types of documents published for a development plan
 end-date: ''
-entity-maximum: '5259999'
-entity-minimum: '5200000'
-entry-date: ''
+entity-maximum: '5299999'
+entity-minimum: '5250000'
+entry-date: '2023-10-10'
 fields:
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date
@@ -16,12 +17,11 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
-key-field: ''
 licence: ogl3
-name: Development plan type
+name: Development plan document type
 paint-options: ''
-phase: alpha
-plural: Development plan types
+phase: discovery
+plural: Development plan document types
 prefix: ''
 realm: dataset
 start-date: ''
