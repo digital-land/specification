@@ -97,13 +97,14 @@ crown-copyright,organisation,development-corporation,,,,,4700000,4799999,ogl3,De
 and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,Q5266682,Development_corporation
 crown-copyright,,development-metric,The types of measurement used as a development policy metric,,,,4800000,4899999,ogl3,Development metric,,Development metrics,discovery,,dataset,,,development,category,1.0,,
+crown-copyright,,development-plan-document-type,The types of documents published for a development plan,,2023-10-10,,5260000,5299999,ogl3,Development plan document type,,Development plan document types,discovery,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan-document,,,,,4900000,4999999,ogl3,Development plan document,,Development plan documents,alpha,,dataset,,,development,document,1.0,,
 crown-copyright,,development-plan-event,The different event types in a development plan timetable,,2023-09-14,,2900000,2999999,ogl3,Development plan event,,Development plan events,alpha,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan-geography-type,A type of geography that a development plan covers,,2023-09-21,,3000000,3009999,ogl3,Development plan geography type,,Development plan geography types,alpha,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan-geography,A geography that a development plan covers,,2023-09-19,,3010000,3099999,ogl3,Development plan geography,,Development plan geographies,alpha,,dataset,,,development,geography,1.0,,
 crown-copyright,,development-plan-status,The different statuses a plan can have,,,,5000000,5099999,ogl3,Development plan status,,Development plan statuses,alpha,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan-timetable,The expected timetable for the stages a plan will go through,,,,5100000,5199999,ogl3,Development plan timetable,,Development plan timetables,alpha,,dataset,,,development,timetable,1.0,,
-crown-copyright,,development-plan-type,,,,,5200000,5299999,ogl3,Development plan type,,Development plan types,alpha,,dataset,,,development,category,1.0,,
+crown-copyright,,development-plan-type,,,,,5200000,5259999,ogl3,Development plan type,,Development plan types,alpha,,dataset,,,development,category,1.0,,
 crown-copyright,,development-plan,,,,,4200000,4209999,ogl3,Development plan,,Development plans,alpha,,dataset,,,development,legal-instrument,3.0,Q5266783,Development_plan
 crown-copyright,,development-policy-area,,,,,5300000,5399999,ogl3,Development policy area,,Development policy areas,discovery,,dataset,,,development,geography,1.0,,
 crown-copyright,,development-policy-category,,,,,5400000,5499999,ogl3,Development policy category,,Development policy categories,discovery,,dataset,,,development,category,1.0,Q5962346,Classification_(general_theory)
@@ -118,8 +119,8 @@ crown-copyright,,fact-resource,the provenance of a fact,,,,,,ogl3,Fact resource,
 crown-copyright,,fact,a field and its value for an entity,,,fact,0,0,ogl3,Fact,,Facts,alpha,,provenance,,,specification,value,1.0,,
 crown-copyright,,field,,,,field,6200000,6299999,ogl3,Field,,Fields,alpha,,provenance,,,specification,specification,1.0,,
 crown-copyright,,filter,Filter entries,,,,,,ogl3,Pipeline filter,,Pipeline filters,alpha,,pipeline,,,specification;pipeline,specification,1.0,,
-crown-copyright,flood-risk-zone,flood-risk-level,,,,,6450000,6499999,ogl3,Flood risk level,,Flood risk levels,prioritised,,dataset,,,environment,category,1.0,,
-crown-copyright,flood-risk-zone,flood-risk-type,,,,,6400000,6449999,ogl3,Flood risk type,,Flood risk types,prioritised,,dataset,,,environment,category,1.0,,
+crown-copyright,flood-risk-zone,flood-risk-level,,,,,6450000,6499999,ogl3,Flood risk level,,Flood risk levels,prioritised,,dataset,,,environment,category,2.0,,
+crown-copyright,flood-risk-zone,flood-risk-type,,,,,6400000,6449999,ogl3,Flood risk type,,Flood risk types,prioritised,,dataset,,,environment,category,2.0,,
 crown-copyright,flood-risk-zone,flood-risk-zone,,,,,65000000,65999999,ogl3,Flood risk zone,,Flood risk zones,prioritised,,dataset,,,environment,geography,1.0,,
 crown-copyright,,geography,,,,,6700000,6799999,ogl3,Geography,,Geographies,alpha,,dataset,,,,geography,1.0,,
 crown-copyright,organisation,government-organisation,,,,,6900000,6999999,ogl3,Government organisation,,"Government departments, agencies and public bodies",beta,government-organisation,dataset,,"A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).

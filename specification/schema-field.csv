@@ -702,6 +702,15 @@ development-metric,notes
 development-metric,prefix
 development-metric,reference
 development-metric,start-date
+development-plan-document-type,description
+development-plan-document-type,end-date
+development-plan-document-type,entity
+development-plan-document-type,entry-date
+development-plan-document-type,name
+development-plan-document-type,notes
+development-plan-document-type,prefix
+development-plan-document-type,reference
+development-plan-document-type,start-date
 development-plan-document,description
 development-plan-document,development-plan
 development-plan-document,document-type
@@ -1184,7 +1193,6 @@ infrastructure-project-decision,entity
 infrastructure-project-decision,entry-date
 infrastructure-project-decision,name
 infrastructure-project-decision,notes
-infrastructure-project-decision,organisation
 infrastructure-project-decision,prefix
 infrastructure-project-decision,reference
 infrastructure-project-decision,start-date
@@ -1194,7 +1202,6 @@ infrastructure-project-document-type,entity
 infrastructure-project-document-type,entry-date
 infrastructure-project-document-type,name
 infrastructure-project-document-type,notes
-infrastructure-project-document-type,organisation
 infrastructure-project-document-type,prefix
 infrastructure-project-document-type,reference
 infrastructure-project-document-type,start-date
@@ -1218,7 +1225,6 @@ infrastructure-project-event,entity
 infrastructure-project-event,entry-date
 infrastructure-project-event,name
 infrastructure-project-event,notes
-infrastructure-project-event,organisation
 infrastructure-project-event,prefix
 infrastructure-project-event,reference
 infrastructure-project-event,start-date
@@ -1241,7 +1247,6 @@ infrastructure-project-type,entity
 infrastructure-project-type,entry-date
 infrastructure-project-type,name
 infrastructure-project-type,notes
-infrastructure-project-type,organisation
 infrastructure-project-type,prefix
 infrastructure-project-type,reference
 infrastructure-project-type,start-date
