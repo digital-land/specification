@@ -2,7 +2,7 @@
 attribution: crown-copyright
 collection: flood-risk-zone
 dataset: flood-risk-zone
-description: ''
+description: 'Area identified as being at risk of flooding from rivers or the sea'
 end-date: ''
 entity-maximum: '65999999'
 entity-minimum: '65000000'
