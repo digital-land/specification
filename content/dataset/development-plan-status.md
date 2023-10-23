@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 dataset: development-plan-status
 description: The different statuses a plan can have
-end-date: ''
+end-date: '2023-10-23'
 entity-maximum: '5099999'
 entity-minimum: '5000000'
 entry-date: ''
