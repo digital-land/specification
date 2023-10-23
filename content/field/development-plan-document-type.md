@@ -7,7 +7,7 @@ entry-date: ''
 field: development-plan-document-type
 guidance: ''
 hint: ''
-name: Development plan type
+name: Development plan document type
 parent-field: category
 replacement-field: ''
 start-date: ''

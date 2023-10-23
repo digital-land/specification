@@ -1,13 +1,13 @@
 ---
 cardinality: '1'
 datatype: integer
-description: ''
+description: 'End of entity range set for a dataset'
 end-date: ''
 entry-date: ''
 field: entity-maximum
 guidance: ''
 hint: ''
-name: Entity
+name: Entity maximum
 parent-field: identifier
 replacement-field: ''
 start-date: ''
