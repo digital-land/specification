@@ -23,6 +23,11 @@
         <div class="govuk-grid-column-full">
         {% for log in changelog %}
             <p class="govuk-body">Updates to {{log.current}} from {{log.previous}}</p>
+            {% if log.dataset_change and (log.dataset_change.added or log.dataset_change.removed)  %}
+                <p>Dataset changes</p>
+                <p>added: {{log.dataset_change.added}}</p>
+                <p>removed: {{log.dataset_change.removed}}</p>
+            {% endif %}
             {% for c in log.changes %}
                 <p class="govuk-body">updates to: {{c.dataset.name}}</p>
                 <p class="govuk-body">added: {{c.added}}</p>

@@ -44,8 +44,8 @@ tables = {
 }
 
 
-def get_field_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str]]:
-    field_changes = []
+def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str]]:
+    changes = []
     for dataset in current_frontmatter.metadata["datasets"]:
         current_fields = set([field["field"] for field in dataset["fields"]])
         previous_dataset = [ds for ds in previous_frontmatter.metadata["datasets"] if ds["dataset"] == dataset["dataset"]]
@@ -55,8 +55,14 @@ def get_field_changes(current_frontmatter, previous_frontmatter) -> Dict[str, Li
             added_fields = list(previous_fields - current_fields)
             removed_fields = list(current_fields - previous_fields)
             if added_fields or removed_fields:
-                field_changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
-    return field_changes
+                changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
+
+    current_datasets = set([ds["dataset"] for ds in current_frontmatter.metadata["datasets"]])
+    previous_datasets = set([ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]])
+    datasets_added = list(previous_datasets - current_datasets)
+    datasets_removed = list(current_datasets - previous_datasets)
+
+    return changes, {"added": datasets_added, "removed": datasets_removed}
 
 
 @total_ordering
@@ -361,10 +367,11 @@ if __name__ == "__main__":
                     with open(os.path.join(next_version_path, f"{specification}.md"), "r") as f:
                         next_frontmatter = frontmatter.load(f)
 
-                    dataset_field_changes = get_field_changes(current_frontmatter, next_frontmatter)
+                    dataset_field_changes, dataset_change = get_changes(current_frontmatter, next_frontmatter)
                     changelog.append({"current": current_version.version_str,
                                       "previous": previous_version.version_str,
-                                      "changes": dataset_field_changes})
+                                      "changes": dataset_field_changes,
+                                      "dataset_change": dataset_change})
 
             render(f"specification/{specification}/changelog.html",
                    env.get_template("changelog.html"),
