@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from datetime import datetime
+from functools import total_ordering
 import os
 import csv
 from pathlib import Path
@@ -7,11 +9,15 @@ import shutil
 import jinja2
 import importlib
 import frontmatter
+import glob
 
 from glob import glob
 from digital_land_frontend.jinja import setup_jinja
 from markdown import Markdown
 from markupsafe import Markup
+
+from typing import Dict, List
+
 
 specification_svg = importlib.import_module("specification-svg")
 
@@ -36,6 +42,51 @@ tables = {
     "specification": {},
     "specification-status": {},
 }
+
+
+def get_field_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str]]:
+    field_changes = []
+    for dataset in current_frontmatter.metadata["datasets"]:
+        current_fields = set([field["field"] for field in dataset["fields"]])
+        previous_dataset = [ds for ds in previous_frontmatter.metadata["datasets"] if ds["dataset"] == dataset["dataset"]]
+        if previous_dataset:
+            previous_dataset = previous_dataset[0]
+            previous_fields = set([field["field"] for field in previous_dataset["fields"]])
+            added_fields = list(previous_fields - current_fields)
+            removed_fields = list(current_fields - previous_fields)
+            if added_fields or removed_fields:
+                field_changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
+    return field_changes
+
+
+@total_ordering
+class Version:
+
+    def __init__(self, version_str, version_date) -> None:
+        self.version_str = version_str
+        numbers = self.version_str.replace("v", "")
+        major, minor, patch = numbers.split(".")
+        self.major = int(major)
+        self.minor = int(minor)
+        self.patch = int(patch)
+        self.date = version_date
+
+    def __eq__(self, other):
+        self.major == other.major and self.minor == other.minor and self.patch == other.patch
+
+    def __lt__(self, other):
+        if self.major < other.major:
+            return True
+        elif self.major == other.major and self.minor < other.minor:
+            return True
+        elif (
+            self.major == other.major
+            and self.minor == other.minor
+            and self.patch < other.patch
+        ):
+            return True
+        else:
+            return False
 
 
 def render(path, template, docs="docs", **kwargs):
@@ -281,6 +332,48 @@ if __name__ == "__main__":
                 versions=versions,
             )
 
+    # generated changelog pages
+    for specification in tables["specification"]:
+        specification_docs_dir = os.path.join(docs, "specification", specification)
+        versions = glob(f"{specification_docs_dir}/v*", recursive=True)
+        if len(versions) > 1:
+            version_dates = {}
+            version_numbers = []
+
+            for version in versions:
+                version_path = Path(version)
+                version_date = datetime.fromtimestamp(version_path.stat().st_ctime)
+                version_dates[version_path.name] = version_date
+                version_numbers = [Version(Path(f).name, version_date) for f in versions]
+
+            sorted_versions = sorted(version_numbers, reverse=True)
+            changelog = []
+
+            for i, current_version in enumerate(sorted_versions):
+                if i + 1 < len(sorted_versions):
+                    previous_version = sorted_versions[i + 1]
+                    current_version_path = os.path.join(specification_docs_dir, current_version.version_str)
+                    next_version_path = os.path.join(specification_docs_dir, previous_version.version_str)
+
+                    with open(os.path.join(current_version_path, f"{specification}.md"), "r") as f:
+                        current_frontmatter = frontmatter.load(f)
+
+                    with open(os.path.join(next_version_path, f"{specification}.md"), "r") as f:
+                        next_frontmatter = frontmatter.load(f)
+
+                    dataset_field_changes = get_field_changes(current_frontmatter, next_frontmatter)
+                    changelog.append({"current": current_version.version_str,
+                                      "previous": previous_version.version_str,
+                                      "changes": dataset_field_changes})
+
+            render(f"specification/{specification}/changelog.html",
+                   env.get_template("changelog.html"),
+                   changelog=changelog,
+                   tables=tables,
+                   staticPath=staticPath,
+                   assetPath=assetPath,
+                   sectionPath=f"{specification_repo_url}/specification")
+
     for path, template in [
         ("index.html", "indexes.html"),
         ("datapackage/index.html", "datapackages.html"),
@@ -298,3 +391,5 @@ if __name__ == "__main__":
             staticPath=staticPath,
             assetPath=assetPath,
         )
+
+
