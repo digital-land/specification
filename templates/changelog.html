@@ -22,15 +22,24 @@
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
         {% for log in changelog %}
-        <p class="govuk-body">Updates to <a href="{{sectionPath}}/{{specification.specification}}/{{log.current}}"
-                class="govuk-link">{{log.current}}</a> from <a
-                href="{{sectionPath}}/{{specification.specification}}/{{log.previous}}"
-                class="govuk-link">{{log.previous}}</a></p>
-        {% for c in log.changes %}
-        <p class="govuk-body">updates to: {{c.dataset.name}}</p>
-        <p class="govuk-body">added: {{c.added}}</p>
-        <p class="govuk-body">removed: {{c.removed}}</p>
-        {% endfor %}
+            <p class="govuk-body">Updates to <a href="{{sectionPath}}/{{specification.specification}}/{{log.current}}"
+                    class="govuk-link">{{log.current}}</a> from <a
+                    href="{{sectionPath}}/{{specification.specification}}/{{log.previous}}"
+                    class="govuk-link">{{log.previous}}</a></p>
+
+            <!-- Colm this would show any new or removed datasets
+            {% if log.dataset_change and (log.dataset_change.added or log.dataset_change.removed) %}
+                <p>Dataset changes</p>
+                <p>added: {{log.dataset_change.added}}</p>
+                <p>removed: {{log.dataset_change.removed}}</p>
+            {% endif %}
+            -->
+
+            {% for c in log.changes %}
+                <p class="govuk-body">updates to: {{c.dataset.name}}</p>
+                <p class="govuk-body">added: {{c.added}}</p>
+                <p class="govuk-body">removed: {{c.removed}}</p>
+            {% endfor %}
         <hr class="govuk-section-break govuk-section-break--visible">
         {% endfor %}
     </div>
