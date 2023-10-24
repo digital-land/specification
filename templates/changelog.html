@@ -43,8 +43,31 @@
 </style>
 {% endblock dlStyle %}
 
-{% set page_caption = "Specification" %}
-{% set page_title = specification.name + " changelog" %}
+{% block dl_breadcrumbs %}
+  {% set items = [
+      {
+        "text": "Digital Land",
+        "href": "https://digital-land.github.io/"
+      },
+      {
+        "text": "Specification",
+        "href": sectionPath
+      },
+      {
+        "text": page_title,
+        "href": sectionPath + "/" + specification.name
+      },
+      {
+        "text": "changelog"
+      },
+    ] %}
+  {{ govukBreadcrumbs({
+    "items": items
+  }) }}
+{% endblock %}
+
+{% set page_caption = "Changelog" %}
+{% set page_title = specification.name + " specification" %}
 
 {% block dl_content %}
 
