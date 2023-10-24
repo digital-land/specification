@@ -19,14 +19,43 @@
 	<meta name="digital-land:template" content="dlf-base.html">
 	
 <style>
-    code {
-        padding: 0 5px;
-        color: #d4351c;
-        background-color: #f3f2f1;
+    .app-list {
+      margin-left: 0.5em;
     }
 
-    code.value {
-        color: #00703c;
+    .app-list li {
+      padding-left: 0.5em
+    }
+
+    .app-list--plus {
+      list-style-type: "+" !important;
+      margin-bottom: 0 !important;
+    }
+
+    .app-list--minus {
+      list-style-type: "-" !important;
+    }
+
+    .app-diff {
+      display: inline-block;
+      padding: 3px 5px;
+      margin-right: 0.25em;
+    }
+
+    .app-diff--addition {
+      background: #e6ffec;
+    }
+
+    .app-diff--removal {
+      background: #ffebe9;
+    }
+
+    .app-changelog .govuk-heading-l {
+      margin-top: 45px;
+    }
+
+    .app-changelog .govuk-heading-l:first-of-type {
+      margin-top: 0;
     }
 </style>
 
@@ -154,10 +183,10 @@
   
 
 <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
+    <div class="govuk-grid-column-full app-changelog">
         
         <h2 class="govuk-heading-l"><a href="/specification/specification/tree-preservation-order/v1.2.2"
-          class="govuk-link">v1.2.2</a></h2>
+          class="govuk-link">v1.2.2</a> changes</h2>
             <p class="govuk-body">Previous version was <a
                     href="/specification/specification/tree-preservation-order/v1.1.1"
                     class="govuk-link">v1.1.1</a></p>
@@ -168,26 +197,22 @@
             <h3 class="govuk-heading-m">What fields have changed?</h3>
             
             <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">tree preservation order</strong> dataset</p>
-            <p class="govuk-body">Added:</p>
-            <ul class="govuk-list govuk-list--bullet">
-              <li>confirmed-date</li>
+            <ul class="govuk-list app-list app-list--plus">
+              <li><span class="app-diff app-diff--addition">made-date</span> was added</li>
               
-              <li>made-date</li>
+              <li><span class="app-diff app-diff--addition">confirmed-date</span> was added</li>
               </ul>
-            <p class="govuk-body">Removed:</p>
-            <ul class="govuk-list govuk-list--bullet"></ul>
+            <ul class="govuk-list app-list app-list--minus"></ul>
             
             <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">tree preservation zone</strong> dataset</p>
-            <p class="govuk-body">Added:</p>
-            <ul class="govuk-list govuk-list--bullet">
-              <li>tree-preservation-zone-type</li>
+            <ul class="govuk-list app-list app-list--plus">
+              <li><span class="app-diff app-diff--addition">tree-preservation-zone-type</span> was added</li>
               
-              <li>point</li>
+              <li><span class="app-diff app-diff--addition">point</span> was added</li>
               </ul>
-            <p class="govuk-body">Removed:</p>
-            <ul class="govuk-list govuk-list--bullet"></ul>
+            <ul class="govuk-list app-list app-list--minus"></ul>
             
-        <hr class="govuk-section-break govuk-section-break--visible">
+        <hr class="govuk-section-break">
         
     </div>
 </div>
