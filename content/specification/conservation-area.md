@@ -21,8 +21,11 @@ datasets:
         - field: notes
         - field: organisation
         - field: entry-date
+          description: the date the information has been entered as a record
         - field: start-date
+          description: the date the validity of the record starts
         - field: end-date
+          description: the date the validity of the record ends
     - dataset: conservation-area-document
       fields:
         - field: reference

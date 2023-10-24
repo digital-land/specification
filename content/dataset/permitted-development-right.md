@@ -30,7 +30,7 @@ realm: dataset
 start-date: ''
 themes:
 - development
-typology: policy
+typology: category
 version: 1.0
 wikidata: ''
 wikipedia: ''
