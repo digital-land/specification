@@ -2,14 +2,43 @@
 
 {% block dlStyle %}
 <style>
-    code {
-        padding: 0 5px;
-        color: #d4351c;
-        background-color: #f3f2f1;
+    .app-list {
+      margin-left: 0.5em;
     }
 
-    code.value {
-        color: #00703c;
+    .app-list li {
+      padding-left: 0.5em
+    }
+
+    .app-list--plus {
+      list-style-type: "+" !important;
+      margin-bottom: 0 !important;
+    }
+
+    .app-list--minus {
+      list-style-type: "-" !important;
+    }
+
+    .app-diff {
+      display: inline-block;
+      padding: 3px 5px;
+      margin-right: 0.25em;
+    }
+
+    .app-diff--addition {
+      background: #e6ffec;
+    }
+
+    .app-diff--removal {
+      background: #ffebe9;
+    }
+
+    .app-changelog .govuk-heading-l {
+      margin-top: 45px;
+    }
+
+    .app-changelog .govuk-heading-l:first-of-type {
+      margin-top: 0;
     }
 </style>
 {% endblock dlStyle %}
@@ -20,10 +49,10 @@
 {% block dl_content %}
 
 <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
+    <div class="govuk-grid-column-full app-changelog">
         {% for log in changelog %}
         <h2 class="govuk-heading-l"><a href="{{sectionPath}}/{{specification.specification}}/{{log.current}}"
-          class="govuk-link">{{log.current}}</a></h2>
+          class="govuk-link">{{log.current}}</a> changes</h2>
             <p class="govuk-body">Previous version was <a
                     href="{{sectionPath}}/{{specification.specification}}/{{log.previous}}"
                     class="govuk-link">{{log.previous}}</a></p>
@@ -38,20 +67,18 @@
             <h3 class="govuk-heading-m">What fields have changed?</h3>
             {% for c in log.changes %}
             <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">{{c.dataset.name}}</strong> dataset</p>
-            <p class="govuk-body">Added:</p>
-            <ul class="govuk-list govuk-list--bullet">
+            <ul class="govuk-list app-list app-list--plus">
               {%- for field in c.added %}
-              <li>{{ field }}</li>
+              <li><span class="app-diff app-diff--addition">{{ field }}</span> was added</li>
               {% endfor -%}
             </ul>
-            <p class="govuk-body">Removed:</p>
-            <ul class="govuk-list govuk-list--bullet">
+            <ul class="govuk-list app-list app-list--minus">
               {%- for field in c.removed %}
-              <li>{{ field }}</li>
+              <li><span class="app-diff app-diff--removal">{{ field }}</span> was removed</li>
               {% endfor -%}
             </ul>
             {% endfor %}
-        <hr class="govuk-section-break govuk-section-break--visible">
+        <hr class="govuk-section-break">
         {% endfor %}
     </div>
 </div>
