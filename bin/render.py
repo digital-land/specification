@@ -52,15 +52,15 @@ def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str
         if previous_dataset:
             previous_dataset = previous_dataset[0]
             previous_fields = set([field["field"] for field in previous_dataset["fields"]])
-            added_fields = list(previous_fields - current_fields)
-            removed_fields = list(current_fields - previous_fields)
+            added_fields = list(current_fields - previous_fields)
+            removed_fields = list(previous_fields - current_fields)
             if added_fields or removed_fields:
                 changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
 
     current_datasets = set([ds["dataset"] for ds in current_frontmatter.metadata["datasets"]])
     previous_datasets = set([ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]])
-    datasets_added = list(previous_datasets - current_datasets)
-    datasets_removed = list(current_datasets - previous_datasets)
+    datasets_added = list(current_datasets - previous_datasets)
+    datasets_removed = list(previous_datasets - current_datasets)
 
     return changes, {"added": datasets_added, "removed": datasets_removed}
 
