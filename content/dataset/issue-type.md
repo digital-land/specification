@@ -15,6 +15,7 @@ fields:
 - field: name
 - field: severity
 - field: start-date
+- field: responsibility
 key-field: 'issue-type'
 licence: ogl3
 name: Issue type
