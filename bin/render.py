@@ -375,6 +375,7 @@ if __name__ == "__main__":
 
             render(f"specification/{specification}/changelog.html",
                    env.get_template("changelog.html"),
+                   specification=tables["specification"][specification].metadata,
                    changelog=changelog,
                    tables=tables,
                    staticPath=staticPath,

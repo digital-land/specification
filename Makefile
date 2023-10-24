@@ -162,3 +162,6 @@ docs/dataset/diagram.svg: specification/dataset-field.csv bin/datasets-svg.py
 
 docs/model.svg: specification/dataset-field.csv bin/model-svg.py
 	python3 bin/model-svg.py > $@
+
+fields.json: 
+	python3 bin/dump-fields.py

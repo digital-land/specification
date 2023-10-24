@@ -7,7 +7,7 @@ entry-date: ''
 field: design-code-rules
 guidance: ''
 hint: ''
-name: Design code rule
+name: Design code rules
 parent-field: design-code-rule
 replacement-field: ''
 start-date: ''

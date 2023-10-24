@@ -7,7 +7,7 @@ entry-date: ''
 field: geographies
 guidance: ''
 hint: ''
-name: Geography
+name: Geographies
 parent-field: geography
 replacement-field: ''
 start-date: ''

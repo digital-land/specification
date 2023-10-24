@@ -7,7 +7,7 @@ entry-date: ''
 field: site-categories
 guidance: ''
 hint: ''
-name: Site category
+name: Site categories
 parent-field: site-category
 replacement-field: ''
 start-date: ''
