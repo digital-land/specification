@@ -12,8 +12,22 @@ code.value {
     color: #00703c;
 }
 
+.app-version-banner {
+  border: 5px solid #f47738;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.app-version-banner p {
+  margin-bottom: 0;
+}
 </style>
 {% endblock dlStyle %}
+
+{% block beforeContent %}
+{{ super() }}
+<!-- [Replace with warning banner if version is updated] -->
+{% endblock beforeContent %}
 
 {% macro sentence_case(text) %}
     {{ text[0]|upper}}{{text[1:] }}

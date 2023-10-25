@@ -268,6 +268,39 @@ if __name__ == "__main__":
             if os.path.commonpath([parent_dir, version_dir]) == parent_dir:
                 return True
         return False
+    
+    placeholder_html = "<!-- [Replace with warning banner if version is updated] -->"
+    replacement_html = '''
+<div class="app-version-banner">
+  <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
+</div>
+'''
+    
+    # in old static version of specs, insert a banner
+    def inject_version_banner(file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            html_content = file.read()
+
+        modified_content = html_content.replace(placeholder_html, replacement_html)
+
+        # Update the HTML file with the modified content
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(modified_content)
+    
+    def check_for_old_versions(specification_path, latest_version):
+        for root, dirs, files in os.walk(specification_path):
+            if root == specification_path:
+                # Exclude the index.html file in the specification root
+                if 'index.html' in files:
+                    files.remove('index.html')
+            if f'v{latest_version}' in dirs:
+                # Exclude latest version directory
+                 dirs.remove(f'v{latest_version}')
+            for file_name in files:
+                if file_name.endswith('.html'):
+                    file_path = os.path.join(root, file_name)
+                    inject_version_banner(file_path)
+                    
 
     # generate versions of specification and dataset pages
     for template in ["specification"]:
@@ -276,6 +309,7 @@ if __name__ == "__main__":
             if "version" in item.metadata:
                 latest_version = item.metadata["version"]
                 parent_dir = os.path.join(docs, template, name)
+                check_for_old_versions(parent_dir, latest_version)
                 if not version_exists(parent_dir, f"v{latest_version}"):
                     # render the html page
                     version_dir = f"{template}/{name}/v{latest_version}"

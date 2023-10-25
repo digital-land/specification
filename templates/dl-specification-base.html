@@ -1,7 +1,8 @@
 {% extends "dl-base.html" %}
 
-{% set github_repository = 'specification' %}
+{%- set github_repository = 'specification' -%}
 
+{% block beforeContent -%}
 {% block dl_breadcrumbs %}
   {% if not version %}
     {% set items = [
@@ -40,4 +41,5 @@
     "items": items
   }) }}
 {% endblock %}
+{%- endblock %}
 
