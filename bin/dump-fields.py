@@ -28,6 +28,7 @@ with open(fields_csv, 'r', newline='') as fields_file:
             'description': row['description'],
             'cardinality': row['cardinality'],
             'end-date': row['end-date'],
+            'typology': row['typology']
         }
 
 # Read dataset-field.csv and store field-dataset relationships
@@ -53,6 +54,7 @@ for field_name, field_info in fields_info.items():
         'description': field_info['description'],
         'cardinality': field_info['cardinality'],
         'end-date': field_info['end-date'],
+        'typology': field_info['typology'],
         'datasets': datasets
     })
 
