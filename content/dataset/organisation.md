@@ -29,6 +29,7 @@ fields:
 - field: shielding-hub
 - field: start-date
 - field: statistical-geography
+- field: local-planning-authority
 - field: twitter
 - field: website
 - field: wikidata
