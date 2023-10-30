@@ -30,10 +30,13 @@ datasets:
           - field: adopted-date
             description: The date a plan is officially adopted
           - field: organisations
-            description: A list of codes for the responsible organisations, spearated by ;
-          - field: entry-date   
+            description: A list of codes for the responsible organisations, separated by ;
+          - field: entry-date
+            description: the date this information has been entered as a record
           - field: start-date
+            description: the date the validity of the record starts
           - field: end-date
+            description: the date the validity of the record ends
     - dataset: development-plan-timetable
       name: development plan timetable
       fields:
