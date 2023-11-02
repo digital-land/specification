@@ -29,3 +29,4 @@ WGS84 out of bounds of England,error,WGS84 out of bounds of England,Our default 
 WGS84 out of bounds of custom boundary,error,WGS84 out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
 OSGB out of bounds of England,error,OSGB out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
 OSGB out of bounds of custom boundary,error,OSGB out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+invalid type geojson,warning,invalid Type Geojson,if reading a wkt fails this checks incase it can load a geojson.,external
