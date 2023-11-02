@@ -1,25 +1,32 @@
-issue-type,severity,name,description
-unknown entity,notice,Unknown entity,The entry needs an entity assigning before it will appear in the data.
-combined-value,info,Combined values,The field value has been constructed by combining data from multiple different entries.
-invalid coordinates,error,Invalid coordinates,It was not possible to process the field as geospatial coordinates.
-invalid date,error,Invalid date,It was not possible to process the field as a date value.
-invalid decimal,error,Invalid decimal,It was not possible to process the field as a decimal number.
-invalid integer,error,Invalid integer,It was not possible to process the field as an integer value.
-too small,error,Value too small,The number was less than the minimum value allowed for the field.
-too large,error,Value too large,The decimal value was greater than the maximum value allowed for the field.
-invalid flag,error,Invalid flag,It was not possible to process the field as a yes or no value.
-invalid URI,error,Invalid URI,It was not possible to process the field as a URI.
-invalid WKT,error,Invalid WKT,It was not possible to process the field as a WKT value.
-future entry-date,error,Future entry date,The entry-date cannot be in the future.
-default-field,info,Default field,The value has been taken from another field.
-default-value,info,Default value,The value has been derived from other data.
-patch,warning,Patched value,The value has changed as a result of processing.
-WGS84 flipped,notice,WGS84 flipped,The latitude and longitude fields values have been exchanged.
-WGS84 out of bounds,error,WGS84 out of bounds,The geospatial coordinates are out of bounds.
-Mercator,warning,Mercator conversion,The geospatial data has been processed as Mercator coordinates.
-Mercator flipped,warning,Mercator flipped,The geospatial data has been processed as flipped Mercator coordinates.
-OSGB,info,OSGB conversion,The geospatial data has been processed as OSGB coordinates.
-OSGB flipped,warning,OSGB flipped,The latitude and longitude fields have been processed as flipped OSGB coordinates.
-removed URI prefix,info,Removed URI prefix,The URI value has been converted into a CURIE value.
-invalid geometry,error,Invalid geometry,An error was encountered processing the geometry.
-invalid organisation,warning,Invalid Organisation,Organisation data obtained during processing is invalid.
+issue-type,severity,name,description,responsibility
+unknown entity,notice,Unknown entity,The entry needs an entity assigning before it will appear in the data.,internal
+combined-value,info,Combined values,The field value has been constructed by combining data from multiple different entries.,internal
+invalid coordinates,error,Invalid coordinates,It was not possible to process the field as geospatial coordinates.,external
+invalid date,error,Invalid date,It was not possible to process the field as a date value.,external
+invalid decimal,error,Invalid decimal,It was not possible to process the field as a decimal number.,external
+invalid integer,error,Invalid integer,It was not possible to process the field as an integer value.,external
+too small,error,Value too small,The number was less than the minimum value allowed for the field.,external
+too large,error,Value too large,The decimal value was greater than the maximum value allowed for the field.,external
+invalid flag,error,Invalid flag,It was not possible to process the field as a yes or no value.,external
+invalid URI,error,Invalid URI,It was not possible to process the field as a URI.,extarnal
+invalid WKT,error,Invalid WKT,It was not possible to process the field as a WKT value.,internal
+future entry-date,error,Future entry date,The entry-date cannot be in the future.,external
+default-field,info,Default field,The value has been taken from another field.,internal
+default-value,info,Default value,The value has been derived from other data.,internal
+patch,warning,Patched value,The value has changed as a result of processing.,internal
+WGS84 flipped,warning,WGS84 flipped,The latitude and longitude fields values have been exchanged.,external
+WGS84 out of bounds,error,WGS84 out of bounds,The geospatial coordinates are out of bounds.,external
+Mercator,warning,Mercator conversion,The geospatial data has been processed as Mercator coordinates.,external
+Mercator flipped,warning,Mercator flipped,The geospatial data has been processed as flipped Mercator coordinates.,external
+OSGB,info,OSGB conversion,The geospatial data has been processed as OSGB coordinates.,internal
+OSGB flipped,warning,OSGB flipped,The latitude and longitude fields have been processed as flipped OSGB coordinates.,external
+removed URI prefix,info,Removed URI prefix,The URI value has been converted into a CURIE value.,internal
+invalid geometry,error,Invalid geometry,An error was encountered processing the geometry.,internal
+invalid organisation,warning,Invalid Organisation,Organisation data obtained during processing is invalid.,internal
+Unexpected geom type,error,Unexpected Geometry Type,check the geometry type of a wkt if it's not within a given set and we remove it form the data.,external
+Unexpected geom type within GeometryCollection,error,Unexpected geom type within GeometryCollection,when a geometry collection is provided we check for a polygon if it doesn't exist then it is removed.,external
+WGS84 out of bounds of England,error,WGS84 out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+WGS84 out of bounds of custom boundary,error,WGS84 out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+OSGB out of bounds of England,error,OSGB out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+OSGB out of bounds of custom boundary,error,OSGB out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+invalid type geojson,warning,invalid Type Geojson,if reading a wkt fails this checks incase it can load a geojson.,external

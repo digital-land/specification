@@ -318,6 +318,7 @@ n,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,pl
 1,url,,,,resource-url,,,Resource URL,url,,,,value,,
 1,hash,,,,resource,,,Resource,hash,,,,value,,
 1,json,,,,response-headers,,,Response headers,json,,,,value,,
+1,string,Used for issue types to descrive whether an issue is the responsibility of internal or extarnal teams,,,responsibility,,,Responsibility,text,,,,value,,
 1,string,,,,safeguarded-aerodrome,,,Safeguarded aerodrome,geography,,,,geography,,
 1,string,,,,safeguarded-military-explosives-site,,,Safeguarded military explosives site,geography,,,,geography,,
 1,string,,,,safeguarded-wharf,,,Safeguarded wharf,geography,,,,geography,,
