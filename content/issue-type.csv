@@ -25,3 +25,7 @@ invalid geometry,error,Invalid geometry,An error was encountered processing the 
 invalid organisation,warning,Invalid Organisation,Organisation data obtained during processing is invalid.,internal
 Unexpected geom type,error,Unexpected Geometry Type,check the geometry type of a wkt if it's not within a given set and we remove it form the data.,external
 Unexpected geom type within GeometryCollection,error,Unexpected geom type within GeometryCollection,when a geometry collection is provided we check for a polygon if it doesn't exist then it is removed.,external
+WGS84 out of bounds of England,error,WGS84 out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+WGS84 out of bounds of custom boundary,error,WGS84 out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+OSGB out of bounds of England,error,OSGB out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
+OSGB out of bounds of custom boundary,error,OSGB out of bounds of England,Our default bounds are a bounding box around england. This issue is recorded when the geometry is outside of this.,external
