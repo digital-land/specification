@@ -114,6 +114,10 @@
       {% endfor %}
       {%- endif -%}
 
+      {# we don't track description changes - they are only minor #}
+      {%- if log.dataset_change.added|length == 0 and log.dataset_change.removed|length == 0 and log.changes|length == 0 %}
+      <p class="govuk-body">Some of the field descriptions have been updated.</p>
+      {% endif -%}
     {% endfor %}
     </div>
 </div>
