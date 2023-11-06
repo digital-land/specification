@@ -6,31 +6,31 @@ specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2023-04-05'
-version: 2.4.3
+version: 2.4.4
 datasets:
     - dataset: development-plan
       name: development plan
       fields:
           - field: reference
-            description: An unique identifier for a development plan
+            description: an unique identifier for a development plan
           - field: name
-            description: Name of the development plan (for example, The Adopted Local Plan for Leeds)
+            description: the name of the development plan (for example, The Adopted Local Plan for Leeds)
           - field: description
-            description: Brief description of plan
+            description: brief description of plan
           - field: development-plan-type
-            description: A code for the plan type
+            description: a code for the plan type
           - field: period-start-date
-            description: The start date of the period the plan covers
+            description: the start date of the period the plan covers
           - field: period-end-date
-            description: The end date of the period the plan covers
+            description: the end date of the period the plan covers
           - field: development-plan-geography
-            description: The reference code for the geography the plan covers
+            description: the reference code for the geography the plan covers
           - field: documentation-url
-            description: The web page where you can find the documentation for the plan
+            description: the web page where you can find the documentation for the plan
           - field: adopted-date
-            description: The date a plan is officially adopted
+            description: the date a plan is officially adopted
           - field: organisations
-            description: A list of codes for the responsible organisations, separated by ;
+            description: a list of codes for the responsible organisations, separated by ;
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date
