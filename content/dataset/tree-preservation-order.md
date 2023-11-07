@@ -4,8 +4,8 @@ collection: tree-preservation-order
 dataset: tree-preservation-order
 description: ''
 end-date: ''
-entity-maximum: '7001000000'
-entity-minimum: '7001999999'
+entity-maximum: '7001999999'
+entity-minimum: '7001000000'
 entry-date: ''
 fields:
 - field: confirmed-date
