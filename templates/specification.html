@@ -123,8 +123,8 @@ code.value {
 
     <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(d["name"] or d["dataset"]) }}</h3>
     <p class="govuk-body">The {{ d["name"] or d["dataset"] }} data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each {{ d["name"] or d["dataset"] }}.</p>
-    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+    <p class="govuk-body">The data MUST contain at least one record for each {{ d["name"] or d["dataset"] }}.</p>
+    <p class="govuk-body">Each record MUST contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     {% for f in d["fields"] %}
@@ -239,7 +239,7 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     <p class="govuk-body">
     There is a risk of people's names or other personally identifiable information appearing in the data, in particular notes, description and other text fields.
     It is the responsibility of the data provider to review and redact such information before publication.
-    The for example, the [OGL3] licence does not 
+    For example, the [OGL3] licence does not cover personal data in the Information.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
