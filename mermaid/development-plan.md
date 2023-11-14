@@ -13,7 +13,6 @@ erDiagram
         ref development-plan-geography
         url documentation-url
         date adopted-date
-        string notes
         string organisations
         date entry-date
         date start-date
@@ -39,7 +38,6 @@ erDiagram
         string document-type
         url documentation-url
         url document-url
-        string notes
         string organisation
         date entry-date
         date start-date
