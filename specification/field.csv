@@ -398,6 +398,7 @@ n,string,A list of tree species,,,tree-species-list,,,Tree species list,category
 1,string,,,,waste-authority,,,Waste authority,organisation,,,,organisation,,
 1,url,,,,website-url,,,Website URL,url,,,,value,{website-url},
 1,url,,,,website,,,Website,url,website-url,,,value,{website},
+1,string,,,,whatdotheyknow-body,,,What Do They Know body,identifier,,,,value,https://www.whatdotheyknow.com/body/{whatdotheyknow-body},
 1,string,,,,wikidata-property,,,Wikidata property,identifier,,,,value,https://www.wikidata.org/wiki/Property:{wikidata-property},
 1,string,,,,wikidata,,,Wikidata item,identifier,,,,value,https://www.wikidata.org/wiki/{wikidata},
 1,url,,,,wikipedia-url,,,Wikipedia page,url,,,,value,{wikipedia-url},
