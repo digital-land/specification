@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Development plan specification | Digital Land</title>
+    <title>Title boundary | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -18,47 +18,6 @@
     
 	<meta name="digital-land:template" content="dlf-base.html">
 	
-<style>
-    .app-list {
-      margin-left: 0.5em;
-    }
-
-    .app-list li {
-      padding-left: 0.5em
-    }
-
-    .app-list--plus {
-      list-style-type: "+" !important;
-      margin-bottom: 0 !important;
-    }
-
-    .app-list--minus {
-      list-style-type: "-" !important;
-    }
-
-    .app-diff {
-      display: inline-block;
-      padding: 3px 5px;
-      margin-right: 0.25em;
-    }
-
-    .app-diff--addition {
-      background: #e6ffec;
-    }
-
-    .app-diff--removal {
-      background: #ffebe9;
-    }
-
-    .app-changelog .govuk-heading-l {
-      margin-top: 45px;
-    }
-
-    .app-changelog .govuk-heading-l:first-of-type {
-      margin-top: 0;
-    }
-</style>
-
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
 	
     
@@ -144,7 +103,6 @@
       <div class="govuk-width-container ">
         
 
-  
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
   
@@ -156,18 +114,18 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/specification/specification">Specification</a>
+      <a class="govuk-breadcrumbs__link" href="../../">Specification</a>
     </li>
     
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/specification/specification/development-plan">Development plan specification</a>
+      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">changelog</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Title boundary</li>
     
   
   </ol>
@@ -179,83 +137,155 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Changelog</span>
-  <h1 class="govuk-heading-xl">Development plan specification</h1>
+  <span class="govuk-caption-xl">Dataset</span>
+  <h1 class="govuk-heading-xl">Title boundary</h1>
   </div>
 </div>
 
   
-
 <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full app-changelog">
+  <div class="govuk-grid-column-full">
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
+    <!-- Otherwise known as Land Registry Index polygons, these polygons are shapes that show the position and indicative extent of a registered property. -->
+
+    <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
     
-      <h2 class="govuk-heading-l"><a href="/specification/specification/development-plan/v2.4.4"
-        class="govuk-link">v2.4.4</a> changes</h2>
-      <p class="govuk-body">Previous version was <a
-        href="/specification/specification/development-plan/v2.4.3"
-        class="govuk-link">v2.4.3</a></p>
-      <p class="govuk-body">Some of the field descriptions have been updated.</p>
-      
-      <h2 class="govuk-heading-l"><a href="/specification/specification/development-plan/v2.4.3"
-        class="govuk-link">v2.4.3</a> changes</h2>
-      <p class="govuk-body">Previous version was <a
-        href="/specification/specification/development-plan/v2.3.3"
-        class="govuk-link">v2.3.3</a></p>
-      <h3 class="govuk-heading-m">What fields have changed?</h3>
-      
-      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">development plan</strong> dataset</p>
-      <ul class="govuk-list app-list app-list--plus"></ul>
-      <ul class="govuk-list app-list app-list--minus">
-        <li><span class="app-diff app-diff--removal">notes</span> was removed</li>
-        </ul>
-      
-      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">development plan document</strong> dataset</p>
-      <ul class="govuk-list app-list app-list--plus"></ul>
-      <ul class="govuk-list app-list app-list--minus">
-        <li><span class="app-diff app-diff--removal">notes</span> was removed</li>
-        </ul>
-      
-      <h2 class="govuk-heading-l"><a href="/specification/specification/development-plan/v2.3.3"
-        class="govuk-link">v2.3.3</a> changes</h2>
-      <p class="govuk-body">Previous version was <a
-        href="/specification/specification/development-plan/v2.2.2"
-        class="govuk-link">v2.2.2</a></p>
-      <h3 class="govuk-heading-m">What fields have changed?</h3>
-      
-      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">development plan</strong> dataset</p>
-      <ul class="govuk-list app-list app-list--plus">
-        <li><span class="app-diff app-diff--addition">adopted-date</span> was added</li>
-        </ul>
-      <ul class="govuk-list app-list app-list--minus"></ul>
-      
-      <h2 class="govuk-heading-l"><a href="/specification/specification/development-plan/v2.2.2"
-        class="govuk-link">v2.2.2</a> changes</h2>
-      <p class="govuk-body">Previous version was <a
-        href="/specification/specification/development-plan/v1.1.1"
-        class="govuk-link">v1.1.1</a></p>
-      
-      <h3 class="govuk-heading-m">What datasets have changed?</h3>
-      
-      <p class="govuk-body">We have added the 
-        <a href="/specification/specification/development-plan/v2.2.2#development-plan-geography-dataset" class="govuk-link">development-plan-geography</a>
-       dataset.</p>
-      
-      
-      
-      
-      <h3 class="govuk-heading-m">What fields have changed?</h3>
-      
-      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">development plan</strong> dataset</p>
-      <ul class="govuk-list app-list app-list--plus">
-        <li><span class="app-diff app-diff--addition">development-plan-geography</span> was added</li>
         
-        <li><span class="app-diff app-diff--addition">organisations</span> was added</li>
-        </ul>
-      <ul class="govuk-list app-list app-list--minus">
-        <li><span class="app-diff app-diff--removal">organisation</span> was removed</li>
-        </ul>
-      
-    </div>
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+          </td>
+          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_geometry"><a href="../../field/geometry">geometry</a>
+          </td>
+          <td class="govuk-table__cell">Geometry</td>
+          <td class="govuk-table__cell"><a href="../../datatype/wkt">wkt</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
+          </td>
+          <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
+          </td>
+          <td class="govuk-table__cell">Notes</td>
+          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_point"><a href="../../field/point">point</a>
+          </td>
+          <td class="govuk-table__cell">Point</td>
+          <td class="govuk-table__cell"><a href="../../datatype/wkt">wkt</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
+          </td>
+          <td class="govuk-table__cell">CURIE prefix</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
+          </td>
+          <td class="govuk-table__cell">Reference</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+      </tbody>
+    </table>
+
+    
+
+    
+    <h2 class="govuk-heading-s" id="">Datasets</h2>
+
+    
+    <p class="govuk-body">This dataset links to the following other datasets:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    
+      <li><a href="../entity">Entity</a></li>
+    
+      <li><a href="../organisation">Organisation</a></li>
+    
+      <li><a href="../prefix">CURIE prefix</a></li>
+    
+      <li><a href="../reference">Reference</a></li>
+    
+    </ul>
+    
+
+    
+
+    
+  </div>
 </div>
 
 
