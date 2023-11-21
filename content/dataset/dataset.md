@@ -14,6 +14,7 @@ fields:
 - field: description
 - field: end-date
 - field: entry-date
+- field: github-discussion
 - field: key-field
 - field: entity-minimum
 - field: entity-maximum
