@@ -6,7 +6,7 @@ specification-status: piloting
 start-date: ''
 end-date: ''
 entry-date: '2023-11-23'
-version: 1.1.1
+version: 1.2.2
 datasets:
     - dataset: infrastructure-funding-statement
       fields:
@@ -20,6 +20,10 @@ datasets:
           description: a url to the page where the IFS document has been published
         - field: organisation
           description: a reference to the publishing organisation
+        - field: period-start-date
+          description: a date for the start of the period the document covers 
+        - field: period-end-date
+          description: a date for the end of the period the document covers 
         - field: notes
           description: any additional notes
         - field: entry-date
