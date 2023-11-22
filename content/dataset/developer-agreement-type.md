@@ -17,6 +17,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 34
 key-field: ''
 licence: ogl3
 name: Developer agreement type

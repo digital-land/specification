@@ -24,6 +24,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 35
 key-field: ''
 licence: ogl3
 name: Gypsy and traveller site

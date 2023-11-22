@@ -17,6 +17,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 26
 licence: ogl3
 name: Development plan document type
 paint-options: ''

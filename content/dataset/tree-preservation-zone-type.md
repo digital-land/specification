@@ -16,6 +16,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 43
 key-field: ''
 licence: ogl3
 name: Tree preservation zone type

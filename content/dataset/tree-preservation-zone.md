@@ -25,6 +25,7 @@ fields:
 - field: tree-preservation-zone-type
 - field: tree-species-list
 - field: uprn
+github-discussion: 43
 key-field: ''
 licence: ogl3
 name: Tree preservation zone

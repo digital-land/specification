@@ -17,6 +17,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 25
 licence: ogl3
 name: Planning application category
 paint-options: ''

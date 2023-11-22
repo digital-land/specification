@@ -23,6 +23,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 25
 key-field: ''
 licence: ogl3
 name: Planning application document

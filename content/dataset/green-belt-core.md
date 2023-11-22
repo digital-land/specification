@@ -18,6 +18,7 @@ fields:
 - field: start-date
 - field: wikidata
 - field: wikipedia
+github-discussion: 45
 key-field: ''
 licence: ogl3
 name: Green belt core

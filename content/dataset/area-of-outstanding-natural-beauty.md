@@ -27,6 +27,7 @@ fields:
 - field: website
 - field: wikidata
 - field: wikipedia
+github-discussion: 31
 key-field: ''
 licence: ogl3
 name: Area of outstanding natural beauty

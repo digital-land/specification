@@ -24,6 +24,7 @@ fields:
 - field: start-date
 - field: wikidata
 - field: wikipedia
+github-discussion: 44
 key-field: ''
 licence: ogl3
 name: Listed building

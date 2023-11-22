@@ -150,6 +150,7 @@ fields:
 - field: site-categories
 - field: site-plan-url
 - field: start-date
+github-discussion: 28
 key-field: site
 licence: ogl3
 name: Brownfield land

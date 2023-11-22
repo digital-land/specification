@@ -22,6 +22,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 32
 key-field: ''
 licence: ogl3
 name: Ancient woodland

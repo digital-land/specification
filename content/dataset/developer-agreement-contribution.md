@@ -22,6 +22,7 @@ fields:
 - field: reference
 - field: start-date
 - field: units
+github-discussion: 34
 key-field: ''
 licence: ogl3
 name: Developer agreement contribution

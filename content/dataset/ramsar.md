@@ -25,6 +25,7 @@ fields:
 - field: start-date
 - field: wikidata
 - field: wikipedia
+github-discussion: 41
 key-field: ''
 licence: ogl3
 name: Ramsar site

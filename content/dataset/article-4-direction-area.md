@@ -24,6 +24,7 @@ fields:
 - field: reference
 - field: start-date
 - field: uprn
+github-discussion: 30
 key-field: ''
 licence: ogl3
 name: Article 4 direction area

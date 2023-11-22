@@ -26,6 +26,7 @@ fields:
 - field: tree-preservation-order
 - field: tree-preservation-order-tree
 - field: tree-species
+github-discussion: 43
 key-field: ''
 licence: ogl3
 name: Tree
