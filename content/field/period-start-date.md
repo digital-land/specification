@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: ''
+description: 'The date for the beginning of the period the entity covers'
 end-date: ''
 entry-date: ''
 field: period-start-date
