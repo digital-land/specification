@@ -13,6 +13,7 @@ fields:
 - field: entry-date
 - field: geometry
 - field: name
+- field: nature-reserve-status
 - field: notes
 - field: organisation
 - field: point
