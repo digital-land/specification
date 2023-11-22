@@ -13,7 +13,6 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
-- field: infrastructure-funding-statement
 - field: name
 - field: notes
 - field: organisation
@@ -34,7 +33,7 @@ start-date: ''
 themes:
 - development
 typology: document
-version: 2.0
+version: 3.0
 wikidata: ''
 wikipedia: ''
 ---

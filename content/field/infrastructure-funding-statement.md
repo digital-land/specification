@@ -2,7 +2,7 @@
 cardinality: '1'
 datatype: string
 description: ''
-end-date: ''
+end-date: '2023-11-22'
 entry-date: ''
 field: infrastructure-funding-statement
 guidance: ''
