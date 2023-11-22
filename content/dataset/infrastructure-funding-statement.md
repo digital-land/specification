@@ -17,6 +17,8 @@ fields:
 - field: name
 - field: notes
 - field: organisation
+- field: period-end-date
+- field: period-start-date
 - field: prefix
 - field: reference
 - field: start-date
@@ -32,7 +34,7 @@ start-date: ''
 themes:
 - development
 typology: document
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
