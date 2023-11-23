@@ -6,6 +6,7 @@ specification-status: open-standard
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
+github-discussion: 34
 version: 1.1.1
 datasets:
     - dataset: developer-agreement

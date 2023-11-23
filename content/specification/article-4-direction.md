@@ -6,6 +6,7 @@ specification-status: piloting
 start-date: ''
 end-date: ''
 entry-date: '2023-09-11'
+github-discussion: 30
 version: 1.2.2
 datasets:
     - dataset: article-4-direction

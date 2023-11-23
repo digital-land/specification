@@ -6,6 +6,7 @@ specification-status: piloting
 start-date: ''
 end-date: ''
 entry-date: '2023-09-08'
+github-discussion: 43
 version: 1.2.2
 datasets:
     - dataset: tree-preservation-order

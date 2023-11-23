@@ -12,6 +12,7 @@ fields:
 - field: description
 - field: end-date
 - field: entry-date
+- field: github-discussion
 - field: name
 - field: json
 - field: prefix
@@ -32,7 +33,7 @@ start-date: ''
 themes:
 - specification
 typology: specification
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
