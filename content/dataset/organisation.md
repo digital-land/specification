@@ -33,7 +33,6 @@ fields:
 - field: shielding-hub
 - field: start-date
 - field: statistical-geography
-- field: twitter
 - field: website
 - field: wikidata
 - field: wikipedia
