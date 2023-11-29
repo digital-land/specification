@@ -21,7 +21,7 @@ Mercator flipped,warning,Mercator flipped,The geospatial data has been processed
 OSGB,info,OSGB conversion,The geospatial data has been processed as OSGB coordinates.,internal
 OSGB flipped,warning,OSGB flipped,The latitude and longitude fields have been processed as flipped OSGB coordinates.,external
 removed URI prefix,info,Removed URI prefix,The URI value has been converted into a CURIE value.,internal
-invalid geometry - fixed,info,Invalid geometry,An error encountered while processing the geometry has been resolved.,internal
+invalid geometry - fixed,warning,Invalid geometry,An error encountered while processing the geometry has been resolved.,external
 invalid geometry - not fixable,error,Invalid geometry,An error was encountered processing the geometry remains unresolved.,external
 invalid organisation,warning,Invalid Organisation,Organisation data obtained during processing is invalid.,internal
 Unexpected geom type,error,Unexpected Geometry Type,check the geometry type of a wkt if it's not within a given set and we remove it form the data.,external
