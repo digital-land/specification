@@ -10,6 +10,7 @@ entry-date: ''
 fields:
 - field: addressbase-custodian
 - field: billing-authority
+- field: company
 - field: end-date
 - field: entity
 - field: entry-date
