@@ -1,5 +1,5 @@
 ---
-attribution: 
+attribution: inspire-index-polygon
 collection: title-boundary
 dataset: title-boundary
 description: ''
