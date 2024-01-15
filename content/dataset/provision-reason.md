@@ -17,6 +17,7 @@ fields:
 - field: provision-reason
 - field: reference
 - field: start-date
+- field: description
 key-field: 'provision-reason'
 licence: ogl3
 name: Provision reason

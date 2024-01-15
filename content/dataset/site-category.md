@@ -17,6 +17,7 @@ fields:
 - field: reference
 - field: site-category
 - field: start-date
+- field: description
 key-field: ''
 licence: ogl3
 name: Site category

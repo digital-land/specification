@@ -16,6 +16,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+- field: description
 github-discussion: 46
 key-field: ''
 licence: ogl3

@@ -17,6 +17,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+- field: description
 key-field: ''
 licence: ogl3
 name: Park and garden grade
