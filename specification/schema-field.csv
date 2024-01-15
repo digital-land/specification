@@ -744,6 +744,7 @@ development-plan-geography-type,notes
 development-plan-geography-type,prefix
 development-plan-geography-type,reference
 development-plan-geography-type,start-date
+development-plan-geography-type,description
 development-plan-geography,development-plan-geography-type
 development-plan-geography,end-date
 development-plan-geography,entity
@@ -958,6 +959,7 @@ flood-risk-level,notes
 flood-risk-level,prefix
 flood-risk-level,reference
 flood-risk-level,start-date
+flood-risk-level,description
 flood-risk-type,end-date
 flood-risk-type,entity
 flood-risk-type,entry-date
@@ -966,6 +968,7 @@ flood-risk-type,notes
 flood-risk-type,prefix
 flood-risk-type,reference
 flood-risk-type,start-date
+flood-risk-type,description
 flood-risk-zone,end-date
 flood-risk-zone,entity
 flood-risk-zone,entry-date
@@ -1869,6 +1872,7 @@ park-and-garden-grade,park-and-garden-grade
 park-and-garden-grade,prefix
 park-and-garden-grade,reference
 park-and-garden-grade,start-date
+park-and-garden-grade,description
 park-and-garden,documentation-url
 park-and-garden,end-date
 park-and-garden,entity
@@ -1995,6 +1999,7 @@ planning-application-status,notes
 planning-application-status,prefix
 planning-application-status,reference
 planning-application-status,start-date
+planning-application-status,description
 planning-application-type,end-date
 planning-application-type,entity
 planning-application-type,entry-date
@@ -2004,6 +2009,7 @@ planning-application-type,prefix
 planning-application-type,reference
 planning-application-type,planning-application-category
 planning-application-type,start-date
+planning-application-type,description
 planning-application,uprn
 planning-application,address-text
 planning-application,decision-date
@@ -2086,6 +2092,7 @@ planning-decision,notes
 planning-decision,prefix
 planning-decision,reference
 planning-decision,start-date
+planning-decision,description
 planning-development-category,end-date
 planning-development-category,entity
 planning-development-category,entry-date
@@ -2222,6 +2229,7 @@ provision-reason,prefix
 provision-reason,provision-reason
 provision-reason,reference
 provision-reason,start-date
+provision-reason,description
 public-authority,company
 public-authority,end-date
 public-authority,entity
@@ -2444,6 +2452,7 @@ site-category,prefix
 site-category,reference
 site-category,site-category
 site-category,start-date
+site-category,description
 site-of-special-scientific-interest,document-url
 site-of-special-scientific-interest,documentation-url
 site-of-special-scientific-interest,end-date
@@ -2619,6 +2628,7 @@ tree-preservation-zone-type,notes
 tree-preservation-zone-type,prefix
 tree-preservation-zone-type,reference
 tree-preservation-zone-type,start-date
+tree-preservation-zone-type,description
 tree-preservation-zone,address-text
 tree-preservation-zone,description
 tree-preservation-zone,end-date
