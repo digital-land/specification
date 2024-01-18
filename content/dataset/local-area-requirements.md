@@ -26,7 +26,7 @@ licence: ogl3
 name: Local area requirements
 paint-options: ''
 phase: alpha
-plural: Title boundaries
+plural: Local area requirements
 prefix: ''
 realm: dataset
 start-date: ''
