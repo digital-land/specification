@@ -8,7 +8,6 @@ entity-maximum: '11599999'
 entity-minimum: '11500000'
 entry-date: ''
 fields:
-- field: class
 - field: description
 - field: documentation-url
 - field: end-date
@@ -16,6 +15,7 @@ fields:
 - field: entry-date
 - field: name
 - field: notes
+- field: permitted-development-right-class
 - field: permitted-development-right-part
 - field: prefix
 - field: reference

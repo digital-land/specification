@@ -1,13 +1,13 @@
 ---
 cardinality: '1'
 datatype: string
-description: ''
+description: 'Each permitted development right rule includes a class'
 end-date: ''
 entry-date: '19-01-2024'
-field: class
+field: permitted-development-right-class
 guidance: ''
 hint: ''
-name: Class
+name: Permitted development right class
 parent-field: value
 replacement-field: ''
 start-date: ''
@@ -16,4 +16,3 @@ uri-template: ''
 wikidata-property: ''
 ---
 
-`Class` is part of a permitted development right rule.
