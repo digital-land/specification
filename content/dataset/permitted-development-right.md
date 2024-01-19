@@ -8,6 +8,7 @@ entity-maximum: '11599999'
 entity-minimum: '11500000'
 entry-date: ''
 fields:
+- field: class
 - field: description
 - field: documentation-url
 - field: end-date
@@ -24,7 +25,7 @@ key-field: ''
 licence: ogl3
 name: Permitted development right
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Permitted development right
 prefix: ''
 realm: dataset
@@ -32,7 +33,7 @@ start-date: ''
 themes:
 - development
 typology: category
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
