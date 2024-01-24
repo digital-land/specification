@@ -1233,7 +1233,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="80" y="1580" width="162" height="20" class="field"/>
 <rect x="242" y="1580" width="55" height="20" class="datatype"/>
 <text x="85" y="1590" class="field">permitted-development-rights</text>
-<text x="247" y="1590" class="datatype">string</text>
+<text x="247" y="1590" class="datatype">string*</text>
 <rect x="80" y="1600" width="162" height="20" class="field"/>
 <rect x="242" y="1600" width="55" height="20" class="datatype"/>
 <text x="85" y="1610" class="field">uprn</text>

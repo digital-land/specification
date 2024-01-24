@@ -1745,7 +1745,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="980" width="162" height="20" class="field"/>
 <rect x="1133" y="980" width="55" height="20" class="datatype"/>
 <text x="976" y="990" class="field">permitted-development-rights</text>
-<text x="1138" y="990" class="datatype">string</text>
+<text x="1138" y="990" class="datatype">string*</text>
 <rect x="971" y="1000" width="162" height="20" class="field"/>
 <rect x="1133" y="1000" width="55" height="20" class="datatype"/>
 <text x="976" y="1010" class="field">uprn</text>
