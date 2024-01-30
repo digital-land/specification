@@ -165,3 +165,6 @@ docs/model.svg: specification/dataset-field.csv bin/model-svg.py
 
 fields.json: 
 	python3 bin/dump-fields.py
+
+extract-entity-ranges:
+	python3 bin/extract-entity-ranges.py

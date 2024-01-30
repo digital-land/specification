@@ -15,6 +15,7 @@ fields:
 - field: entry-date
 - field: name
 - field: notes
+- field: permitted-development-right-class
 - field: permitted-development-right-part
 - field: prefix
 - field: reference
@@ -24,7 +25,7 @@ key-field: ''
 licence: ogl3
 name: Permitted development right
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Permitted development right
 prefix: ''
 realm: dataset
@@ -32,7 +33,7 @@ start-date: ''
 themes:
 - development
 typology: category
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

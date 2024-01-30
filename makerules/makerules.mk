@@ -142,7 +142,7 @@ endif
 # local copy of organsiation datapackage
 $(CACHE_DIR)organisation.csv:
 	@mkdir -p $(CACHE_DIR)
-	curl -qfs "https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv" > $(CACHE_DIR)organisation.csv
+	curl -qfs "https://files.planning.data.gov.uk/organisation-collection/dataset/organisation.csv" > $(CACHE_DIR)organisation.csv
 
 init:: config
 

@@ -25,7 +25,7 @@ fields:
 key-field: ''
 licence: ogl3
 name: World heritage site buffer zone
-paint-options: '{ "colour": "#EB1EE5" }'
+paint-options: '{ "colour": "#EB1EE5", "opacity": 0.2 }'
 phase: beta
 plural: World heritage site buffer zones
 prefix: ''
