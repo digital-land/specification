@@ -4,7 +4,7 @@ collection: tree-preservation-order
 dataset: tree
 description: An individual tree
 end-date: ''
-entity-maximum: '9999999999'
+entity-maximum: '7009999999'
 entity-minimum: '7002000000'
 entry-date: ''
 fields:
