@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: conservation-area-document
 dataset: conservation-area-document
 description: ''
 end-date: ''
