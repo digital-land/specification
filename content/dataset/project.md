@@ -12,6 +12,7 @@ fields:
 - field: end-date
 - field: entry-date
 - field: name
+- field: parent-project
 - field: project
 - field: project-status
 - field: provision-reason
