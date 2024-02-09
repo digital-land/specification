@@ -73,7 +73,7 @@ def svg_text(c, text, X, Y):
 
 def svg_spline(c, _id, title, from_x, from_y, to_x, to_y, gap_x):
     if from_x == to_x:
-        mid_x = from_x + gap_x /2
+        mid_x = from_x + gap_x / 2
     else:
         mid_x = min(from_x, to_x) + abs(from_x - to_x) / 2
 
@@ -81,8 +81,8 @@ def svg_spline(c, _id, title, from_x, from_y, to_x, to_y, gap_x):
         f'<path class="{c}" id="{_id}" fill="none" stroke-width="2"'
         f' marker-start="url(#start-dot)" marker-end="url(#end-dot)"'
         f' d="M {from_x} {from_y} C {mid_x} {from_y} {mid_x} {to_y} {to_x} {to_y}">'
-        f'<title>{title}</title>'
-        f'</path>'
+        f"<title>{title}</title>"
+        f"</path>"
     )
 
 
@@ -147,7 +147,9 @@ for realm in realms:
             Y = Y + row_height
 
             box.append(svg_rect("field", X, Y, field_width, row_height))
-            box.append(svg_rect("datatype", X + field_width, Y, datatype_width, row_height))
+            box.append(
+                svg_rect("datatype", X + field_width, Y, datatype_width, row_height)
+            )
 
             box.append(svg_text("field", field, X + padding, Y + text_y))
             box.append(
@@ -157,10 +159,13 @@ for realm in realms:
             points[f"{dataset}_{field}"] = (X, Y + text_y)
 
             link_dataset = (
-                tables["dataset-field"][dataset][field].get("field-dataset", "") or field
+                tables["field"][field].get("dataset", "")
+                or tables["dataset-field"][dataset][field].get("field-dataset", "")
+                or field
             )
 
             # TBD: key field should be defined in the dataset.md
+            # TBD: links to come from a field-dataset.csv of generated links
             if link_dataset in datasets:
                 link_field = (
                     tables["dataset"][link_dataset].get("key-field", "") or "reference"
