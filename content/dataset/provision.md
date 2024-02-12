@@ -1,8 +1,8 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: organisation-dataset
-description: ''
+dataset: provision
+description: 'Datasets an organisation we expect an organisation to provide'
 end-date: ''
 entry-date: ''
 fields:
@@ -13,14 +13,15 @@ fields:
 - field: organisation
 - field: project
 - field: provision-reason
+- field: provision-rule
 - field: specification
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Organisation dataset
+name: Provision
 paint-options: ''
 phase: alpha
-plural: Organisation datasets
+plural: Provisions
 prefix: ''
 realm: provenance
 start-date: ''
