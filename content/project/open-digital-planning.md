@@ -14,118 +14,118 @@ specifications:
 - listed-building
 - tree-preservation-order
 organisations:
-- local-authority:SWK
+- organisation: local-authority:SWK
   start-date: 2020-11-01
   cohort: RIPA-BOPS
-- local-authority:LBH
+- organisation: local-authority:LBH
   start-date: 2020-11-01
   cohort: RIPA-BOPS
-- local-authority:BUC
+- organisation: local-authority:BUC
   start-date: 2020-11-01
   cohort: RIPA-BOPS
-- local-authority:COV
+- organisation: local-authority:COV
   start-date: 2020-11-01
   end-date:
   cohort: RIPA-BOPS
-- local-authority:CMD
+- organisation: local-authority:CMD
   start-date: 2020-11-01
   cohort: RIPA-BOPS
-- local-authority:BOS
+- organisation: local-authority:BOS
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:NED
+- organisation: local-authority:NED
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:CMD
+- organisation: local-authority:CMD
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:DAC
+- organisation: local-authority:DAC
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:DNC
+- organisation: local-authority:DNC
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:GLO
+- organisation: local-authority:GLO
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:CAT
+- organisation: local-authority:CAT
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:MDW
+- organisation: local-authority:MDW
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:NET
+- organisation: local-authority:NET
   start-date: 2022-01-21
   cohort: BETA
-- local-authority:BIR
+- organisation: local-authority:BIR
   start-date: 2023-03-01
   cohort: TRACK1
-- local-authority:CAT
+- organisation: local-authority:CAT
   start-date: 2022-03-01
   cohort: TRACK1
-- local-authority:EPS
+- organisation: local-authority:EPS
   start-date: 2022-03-01
   cohort: TRACK1
-- local-authority:BNE
+- organisation: local-authority:BNE
   start-date: 2022-03-01
   cohort: TRACK1
-- local-authority:GRY
+- organisation: local-authority:GRY
   start-date: 2022-03-01
   cohort: TRACK2
   notes: "developing an integration with Planning Portal"
-- local-authority:GAT
+- organisation: local-authority:GAT
   start-date: 2022-03-01
   cohort: TRACK2
   notes: "integrating with Idox"
-- local-authority:KTT
+- organisation: local-authority:KTT
   start-date: 2022-03-01
   cohort: TRACK2
   notes: "integrating with Idox"
-- local-authority:TEW
+- organisation: local-authority:TEW
   start-date: 2022-03-01
   cohort: TRACK2
   notes: "integrating with Idox"
-- local-authority:WBK
+- organisation: local-authority:WBK
   start-date: 2022-03-01
   cohort: TRACK2
   notes: "integrating with Idox"
-- local-authority:SAL
+- organisation: local-authority:SAL
   start-date: 2022-03-01
   cohort: TRACK2
   notes: "integrating with Agile Applications"
-- local-authority:DST
+- organisation: local-authority:DST
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with DEF and Planning Portal"
-- local-authority:DOV
+- organisation: local-authority:DOV
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with ESRI"
-- local-authority:LIV
+- organisation: local-authority:LIV
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with DLUHC’s DELTA team"
-- local-authority:RED
+- organisation: local-authority:RED
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with Agile Applications and Planning Portal"
-- local-authority:WFT
+- organisation: local-authority:WFT
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with Idox"
-- local-authority:NLN
+- organisation: local-authority:NLN
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with Planning Portal and Arcus Global"
-- local-authority:NSM
+- organisation: local-authority:NSM
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with Planning Portal"
-- local-authority:SLF
+- organisation: local-authority:SLF
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with Agile Applications, Arcus Global and Objective"
-- local-authority:WRL
+- organisation: local-authority:WRL
   start-date: 2022-03-01
   cohort: TRACK3
   notes: "working with Idox"
