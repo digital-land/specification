@@ -1,5 +1,7 @@
 reference,role,priority,include-exclude,dataset,local-authority-type,organisation,entry-date,start-date,end-date,notes
 LPA-LA,local-planning-authority,3,include,local-authority,,,,2017-04-16,,
+LPA-COMB,local-planning-authority,2,exclude,,COMB,,,2017-04-16,,
+LPA-SRA,local-planning-authority,2,exclude,,SRA,,,2017-04-16,,
 LPA-CTY,local-planning-authority,2,exclude,,CTY,,,2017-04-16,,
 LPA-COMB,local-planning-authority,2,exclude,,COMB,,,2017-04-16,,
 LPA-SRA,local-planning-authority,2,exclude,,SRA,,,2017-04-16,,
