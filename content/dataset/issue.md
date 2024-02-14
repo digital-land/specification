@@ -18,6 +18,7 @@ fields:
 - field: resource
 - field: start-date
 - field: value
+- field: message
 key-field: ''
 licence: ogl3
 name: Issue
