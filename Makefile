@@ -29,6 +29,7 @@ SPECIFICATION_CSV=\
 	specification/project-status.csv\
 	specification/specification.csv\
 	specification/specification-status.csv\
+	specification/organisation-dataset.csv\
 	specification/provision.csv\
 	specification/provision-reason.csv\
 	specification/provision-rule.csv\
@@ -145,6 +146,10 @@ specification/role-organisation.csv:	bin/role-organisation.py specification/role
 
 specification/provision.csv:	bin/provision.py specification/provision-rule.csv specification/project.csv specification/role-organisation.csv specification/project-organisation.csv
 	python3 bin/provision.py $@
+
+# for backwards compatability
+specification/organisation-dataset.csv:	specification/provision.csv
+	cp specification/provision.csv $@
 
 DATAPACKAGE_CSV=specification/datapackage.csv
 specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-dataset.py
