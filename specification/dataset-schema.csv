@@ -75,6 +75,7 @@ endpoint,endpoint
 entity,entity
 fact-resource,fact-resource
 fact,fact
+dataset-field,dataset-field
 field,field
 filter,filter
 flood-risk-level,flood-risk-level
@@ -140,7 +141,6 @@ nuclear-safety-zone,nuclear-safety-zone
 old-entity,old-entity
 old-resource,old-resource
 open-space,open-space
-organisation-dataset,organisation-dataset
 organisation,organisation
 ownership-status,ownership-status
 parish,parish
@@ -177,6 +177,8 @@ protected-view,protected-view
 protected-wreck-site,protected-wreck-site
 provenance,provenance
 provision-reason,provision-reason
+provision-rule,provision-rule
+provision,provision
 public-authority,public-authority
 public-safety-zone-around-airport,public-safety-zone-around-airport
 ramsar,ramsar

@@ -75,6 +75,7 @@ endpoint,Endpoint,,endpoint
 entity,Entity,a data item,entity
 fact-resource,Fact resource,the provenance of a fact,
 fact,Fact,a field and its value for an entity,fact
+dataset-field,Field dataset,Links between datasets,
 field,Field,,field
 filter,Pipeline filter,Filter entries,
 flood-risk-level,Flood risk level,,
@@ -140,7 +141,6 @@ nuclear-safety-zone,Nuclear safety zone,,
 old-entity,Entity redirection,Redirect an entity or mark it as gone,old-entity
 old-resource,Resource redirection,"Redirect a resource to a fixed version, or mark it as gone",old-resource
 open-space,Open space,,
-organisation-dataset,Organisation dataset,,
 organisation,Organisation,,
 ownership-status,Ownership status,,
 parish,Civil parish,,
@@ -177,6 +177,8 @@ protected-view,Protected view,,
 protected-wreck-site,Protected wreck site,,
 provenance,Provenance,,provenance
 provision-reason,Provision reason,The reason a dataset is provided by an organisation,provision-reason
+provision-rule,Provision rule,Rules for the datasets an organisation is expected to priovide,
+provision,Provision,Datasets an organisation we expect an organisation to provide,
 public-authority,Public authority,,
 public-safety-zone-around-airport,Public safety zone around airport,,
 ramsar,Ramsar site,,

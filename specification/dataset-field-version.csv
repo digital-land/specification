@@ -2933,3 +2933,31 @@ permitted-development-right,reference,,,,2
 permitted-development-right,start-date,,,,2
 permitted-development-right,permitted-development-right-class,,,,2
 issue,message,,,,1
+field,dataset,,The dataset this field links to.,,1
+project,parent-project,,,,1
+provision-rule,dataset,,The dataset these organisations should provide.,,1
+provision-rule,end-date,,,,1
+provision-rule,entry-date,,,,1
+provision-rule,include-exclude,,If this rule adds (includes) or removes (excludes) organisations from this rule.,,1
+provision-rule,local-authority-type,,Match organisations with this value. A blank value matches any organisation.,,1
+provision-rule,notes,,,,1
+provision-rule,organisation,,Match the organisation with this CURIE. A blank value matches any organisation.,,1
+provision-rule,organisation-dataset,,Match all the organisations within this dataset. A blank value matches any organisation.,,1
+provision-rule,priority,,Rules with a lower number trump those with a larger value.,,1
+provision-rule,project,,Match all the organisations in the project-organisation with a project field of this value.,,1
+provision-rule,provision-reason,,The reason why organisations included by this rule should provide this dataset.,,1
+provision-rule,reference,,,,1
+provision-rule,start-date,,,,1
+provision,dataset,,,,1
+provision,end-date,,,,1
+provision,entry-date,,,,1
+provision,field,,,,1
+provision,value,,,,1
+provision,cohort,,,,1
+provision,notes,,,,1
+provision,organisation,,,,1
+provision,project,,,,1
+provision,provision-reason,,,,1
+provision,provision-rule,,,,1
+provision,specification,,,,1
+provision,start-date,,,,1

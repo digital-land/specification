@@ -115,6 +115,9 @@ crown-copyright,,endpoint,,,,,endpoint,6000000,6099999,ogl3,Endpoint,,Endpoints,
 crown-copyright,,entity,a data item,,,,entity,,,ogl3,Entity,,Entities,alpha,,provenance,,,specification,entity,1.0,,
 crown-copyright,,fact-resource,the provenance of a fact,,,,,,,ogl3,Fact resource,,Fact resources,alpha,,provenance,,,specification,value,1.0,,
 crown-copyright,,fact,a field and its value for an entity,,,,fact,0,0,ogl3,Fact,,Facts,alpha,,provenance,,,specification,value,1.0,,
+crown-copyright,,dataset-field,Links between datasets,,,,,0,0,ogl3,Field dataset,,Fields dataset,alpha,,specification,,"A generated list of links between datasets.
+
+The `dataset` `field` contains a value matching the dataset `field-dataset` field `dataset-field`.",specification,specification,1.0,,
 crown-copyright,,field,,,,,field,6200000,6299999,ogl3,Field,,Fields,alpha,,provenance,,,specification,specification,1.0,,
 crown-copyright,,filter,Filter entries,,,,,,,ogl3,Pipeline filter,,Pipeline filters,alpha,,pipeline,,,specification;pipeline,specification,1.0,,
 crown-copyright,flood-risk-zone,flood-risk-level,,,,46,,6450000,6499999,ogl3,Flood risk level,,Flood risk levels,prioritised,,dataset,,,environment,category,2.0,,
@@ -209,7 +212,6 @@ Local planning authorities should assess the need for open space and opportuniti
 ### Responsible organisations and guidance
 
 Authorities and developers may refer to [Sport England's guidance](http://www.sportengland.org/facilities-planning/planning-for-sport/planning-tools-and-guidance/) on how to assess the need for sports and recreation facilities. There is also [guidance on Local Green Space designation](https://www.gov.uk/guidance/open-space-sports-and-recreation-facilities-public-rights-of-way-and-local-green-space#Local-Green-Space-designation), which may form part of the overall open space network within an area.",environment,geography,1.0,,
-crown-copyright,,organisation-dataset,,,,,,,,ogl3,Organisation dataset,,Organisation datasets,alpha,,provenance,,The datasets we expect an organisation to provide.,specification,specification,1.0,,
 crown-copyright,,organisation,,,,,,,,ogl3,Organisation,,Organisations,alpha,,dataset,,,,organisation,1.0,,
 crown-copyright,ownership-status,ownership-status,,,,,,10900000,10999999,ogl3,Ownership status,,Ownership statuses,live,,dataset,,The ownership status of [brownfield land](/dataset/brownfield-land) or other site.,development,category,1.0,,
 ons-boundary,parish,parish,,,,38,,130000000,139999999,ogl3,Civil parish,"{ ""colour"": ""#5694ca"" }",Civil parishes,beta,statistical-geography,dataset,,"The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.
@@ -257,6 +259,8 @@ The Protection of Wrecks Act 1973 allows the Secretary of State for [Digital, Cu
 Where a protected wreck site is within local authority boundaries then it will be considered a designated heritage asset for the purpose of the NPPF and offered the same level of protection in planning decisions as is afforded to scheduled monuments and highly graded listed buildings.",heritage,geography,1.0,Q6616121,List_of_designations_under_the_Protection_of_Wrecks_Act
 crown-copyright,,provenance,,,,,provenance,12900000,12999999,ogl3,Provenance,,Provenance,alpha,,provenance,,,specification,specification,1.0,,
 crown-copyright,,provision-reason,The reason a dataset is provided by an organisation,,,,provision-reason,6000,6999,ogl3,Provision reason,,Provision reasons,alpha,,specification,,,specification,specification,1.0,,
+crown-copyright,,provision-rule,Rules for the datasets an organisation is expected to priovide,,,,,,,ogl3,Provision rule,,Provision rules,alpha,,provenance,,Rules for the data we expect an organisation to priovide. These rules are used to generate the provision dataset.,specification,specification,1.0,,
+crown-copyright,,provision,Datasets an organisation we expect an organisation to provide,,,,,,,ogl3,Provision,,Provisions,alpha,,provenance,,The datasets we expect an organisation to provide.,specification,specification,1.0,,
 crown-copyright,organisation,public-authority,,,,,,13000000,13099999,ogl3,Public authority,,Public authorities,beta,wikidata,dataset,,We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.,administrative,organisation,1.0,,
 crown-copyright,,public-safety-zone-around-airport,,,,,,13100000,13199999,ogl3,Public safety zone around airport,,Public safety zones around airports,prioritised,,dataset,,,transport,geography,1.0,,
 natural-england,ramsar,ramsar,,,,41,,612000,619999,ogl3,Ramsar site,"{ ""colour"": ""#7fcdff"" }",Ramsar sites,beta,,dataset,,"An internationally protected site listed as a wetland of international importance.
