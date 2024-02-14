@@ -9,6 +9,9 @@ fields:
 - field: dataset
 - field: end-date
 - field: entry-date
+- field: field
+- field: value
+- field: cohort
 - field: notes
 - field: organisation
 - field: project
