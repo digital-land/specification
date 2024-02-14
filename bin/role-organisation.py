@@ -9,9 +9,9 @@ import csv
 
 organisations = {}
 lookups = {
-        "organisation": {},
-        "dataset": {},
-        "local-authority-type": {},
+    "organisation": {},
+    "dataset": {},
+    "local-authority-type": {},
 }
 role_rules = {}
 role_organisations = {}
@@ -23,7 +23,6 @@ def rule_set(rule, field, a):
         return a | b
     else:
         return a - b
-
 
 
 # load organisations
@@ -56,11 +55,17 @@ for role, priorities in sorted(role_rules.items()):
     role_organisations.setdefault(role, set())
     for priority, rules in sorted(priorities.items(), reverse=True):
         for rule in rules:
-            role_organisations[role] = rule_set(rule, "organisation", role_organisations[role])
-            role_organisations[role] = rule_set(rule, "dataset", role_organisations[role])
-            role_organisations[role] = rule_set(rule, "local-authority-type", role_organisations[role])
+            role_organisations[role] = rule_set(
+                rule, "organisation", role_organisations[role]
+            )
+            role_organisations[role] = rule_set(
+                rule, "dataset", role_organisations[role]
+            )
+            role_organisations[role] = rule_set(
+                rule, "local-authority-type", role_organisations[role]
+            )
 
-# write 
+# write
 fieldnames = ["role", "organisation", "entry-date", "start-date", "end-date"]
 w = csv.DictWriter(
     open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction="ignore"
@@ -69,7 +74,11 @@ w.writeheader()
 
 for role, orgs in role_organisations.items():
     for org in sorted(orgs):
-        w.writerow({"organisation": org, "role": role,
-                    "start-date": organisations[org]["start-date"],
-                    "end-date": organisations[org]["end-date"],
-                    })
+        w.writerow(
+            {
+                "organisation": org,
+                "role": role,
+                "start-date": organisations[org]["start-date"],
+                "end-date": organisations[org]["end-date"],
+            }
+        )
