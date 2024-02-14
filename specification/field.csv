@@ -215,6 +215,7 @@ Do not include links within hint text. While screen readers will read out the li
 1,integer,,,,maximum-net-dwellings,,,Maximum net dwellings,number,,,,value,,
 1,curie,,,,member-organisation,,,Organisation which is a member of this organisation,organisation,,,,organisation,,
 1,curie,,,,member-organisations,,,Organisations which are a member of this organisation,organisation,,,,organisation,,
+1,string,customized message on issue list,,,message,,,Message,text,,,,value,,
 1,string,A metric,,,metric,,,metric,metric,,,,metric,,
 1,string,,,,metropolitan-open-land,,,Metropolitan open land,geography,,,,geography,,
 1,string,The Multipurpose Internet Mail Extensions type assigned to a resource,,,mime-type,,,MIME Type,category,,,,category,,
