@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Tree preservation order specification | Digital Land</title>
+    <title>Message | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -18,47 +18,6 @@
     
 	<meta name="digital-land:template" content="dlf-base.html">
 	
-<style>
-    .app-list {
-      margin-left: 0.5em;
-    }
-
-    .app-list li {
-      padding-left: 0.5em
-    }
-
-    .app-list--plus {
-      list-style-type: "+" !important;
-      margin-bottom: 0 !important;
-    }
-
-    .app-list--minus {
-      list-style-type: "-" !important;
-    }
-
-    .app-diff {
-      display: inline-block;
-      padding: 3px 5px;
-      margin-right: 0.25em;
-    }
-
-    .app-diff--addition {
-      background: #e6ffec;
-    }
-
-    .app-diff--removal {
-      background: #ffebe9;
-    }
-
-    .app-changelog .govuk-heading-l {
-      margin-top: 45px;
-    }
-
-    .app-changelog .govuk-heading-l:first-of-type {
-      margin-top: 0;
-    }
-</style>
-
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
 	
     
@@ -144,7 +103,6 @@
       <div class="govuk-width-container ">
         
 
-  
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
   
@@ -156,18 +114,18 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/specification/specification">Specification</a>
+      <a class="govuk-breadcrumbs__link" href="../../">Specification</a>
     </li>
     
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/specification/specification/tree-preservation-order">Tree preservation order specification</a>
+      <a class="govuk-breadcrumbs__link" href="../">Field</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">changelog</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Message</li>
     
   
   </ol>
@@ -179,40 +137,58 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Changelog</span>
-  <h1 class="govuk-heading-xl">Tree preservation order specification</h1>
+  <span class="govuk-caption-xl">Field</span>
+  <h1 class="govuk-heading-xl">Message</h1>
   </div>
 </div>
 
   
-
 <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full app-changelog">
+  <div class="govuk-grid-column-full">
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">customized message on issue list</p>
+
+    <table class="govuk-table">
+      <tbody class="govuk-table__body">
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Name</th>
+          <td class="govuk-table__cell">Message</td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Field</th>
+          <td class="govuk-table__cell">message</td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Datatype</th>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Cardinality</th>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Parent field</th>
+          <td class="govuk-table__cell"><a href="../text">text</a></td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Typology</th>
+          <td class="govuk-table__cell"><a href="../../typology/value">value</a></td>
+        </tr>
+        
+      </tbody>
+    </table>
+
     
-      <h2 class="govuk-heading-l"><a href="/specification/specification/tree-preservation-order/v1.2.2"
-        class="govuk-link">v1.2.2</a> changes</h2>
-      <p class="govuk-body">Previous version was <a
-        href="/specification/specification/tree-preservation-order/v1.1.1"
-        class="govuk-link">v1.1.1</a></p>
-      <h3 class="govuk-heading-m">What fields have changed?</h3>
-      
-      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">tree preservation order</strong> dataset</p>
-      <ul class="govuk-list app-list app-list--plus">
-        <li><span class="app-diff app-diff--addition">confirmed-date</span> was added</li>
-        
-        <li><span class="app-diff app-diff--addition">made-date</span> was added</li>
-        </ul>
-      <ul class="govuk-list app-list app-list--minus"></ul>
-      
-      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">tree preservation zone</strong> dataset</p>
-      <ul class="govuk-list app-list app-list--plus">
-        <li><span class="app-diff app-diff--addition">tree-preservation-zone-type</span> was added</li>
-        
-        <li><span class="app-diff app-diff--addition">point</span> was added</li>
-        </ul>
-      <ul class="govuk-list app-list app-list--minus"></ul>
-      
-    </div>
+    <h2 class="govuk-heading-s" id="">Schemas</h2>
+    <p class="govuk-body">The following datasets use this field:</p>
+    <ul class="govuk-list govuk-list--bullet">
+    
+      <li><a href="../../dataset/issue">Issue</a></li>
+    
+    </ul>
+    
+
+  </div>
 </div>
 
 
