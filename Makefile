@@ -25,6 +25,7 @@ SPECIFICATION_CSV=\
 	specification/include-exclude.csv\
 	specification/severity.csv\
 	specification/prefix.csv\
+	specification/cohort.csv\
 	specification/project.csv\
 	specification/project-organisation.csv\
 	specification/project-status.csv\
