@@ -9,6 +9,8 @@ entity-minimum: '6200000'
 entry-date: ''
 fields:
 - field: cardinality
+- field: dataset
+  guidance: "The dataset this field links to."
 - field: datatype
 - field: description
 - field: end-date

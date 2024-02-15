@@ -30,6 +30,7 @@ for row in csv.DictReader(open("specification/dataset.csv", newline="")):
 
 # ----------------------------------------------------------------
 
+# TBD: review this code. specifications are controlled documents, but datasets shouldn't need to be versioned
 # amend dataset-field-version.csv
 
 new_rows = []
@@ -40,6 +41,7 @@ def fetch_current_pubished_csv():
     github_url = 'https://raw.githubusercontent.com/digital-land/specification/main'
     version_file_url = f'{github_url}/specification/dataset-field-version.csv'
 
+    # TBD: replace this, it doesn't work offline
     resp = requests.get(version_file_url)
     with open('specification/dataset-field-version.csv', 'w', newline='') as csvfile:
         csvfile.write(resp.text)
