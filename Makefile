@@ -22,15 +22,20 @@ SPECIFICATION_CSV=\
 	specification/datatype.csv\
 	specification/typology.csv\
 	specification/issue-type.csv\
+	specification/include-exclude.csv\
 	specification/severity.csv\
 	specification/prefix.csv\
 	specification/project.csv\
+	specification/project-organisation.csv\
 	specification/project-status.csv\
 	specification/specification.csv\
 	specification/specification-status.csv\
 	specification/organisation-dataset.csv\
+	specification/provision.csv\
 	specification/provision-reason.csv\
+	specification/provision-rule.csv\
 	specification/pipeline.csv\
+	specification/role.csv\
 	specification/theme.csv
 
 specification:: $(SPECIFICATION_CSV)
@@ -90,7 +95,7 @@ DATASET_CSV=specification/dataset.csv
 specification/collection.csv:	$(DATASET_CSV) bin/collection.py
 	python3 bin/collection.py $@
 
-specification/dataset-field.csv:	$(DATASET_CSV) bin/dataset-field.py
+specification/dataset-field.csv:	$(DATASET_MD) $(DATASET_CSV) bin/dataset-field.py
 	python3 bin/dataset-field.py $@
 
 specification/dataset-schema.csv:	$(DATASET_CSV) bin/dataset-schema.py
@@ -117,13 +122,38 @@ specification/severity.csv:	content/severity.csv
 specification/specification-status.csv:	content/specification-status.csv
 	cp content/specification-status.csv $@
 
-# hand-made for now, but could be inferred from the project/specification/LPA
-specification/organisation-dataset.csv:	content/organisation-dataset.csv
-	cp content/organisation-dataset.csv $@
-
 specification/provision-reason.csv:	content/provision-reason.csv
 	cp content/provision-reason.csv $@
 
+specification/provision-rule.csv:	content/provision-rule.csv
+	cp content/provision-rule.csv $@
+
+specification/include-exclude.csv:	content/include-exclude.csv
+	cp content/include-exclude.csv $@
+
+specification/role-organisation-rule.csv:	content/role-organisation-rule.csv
+	cp content/role-organisation-rule.csv $@
+
+specification/cohort.csv:	content/cohort.csv
+	cp content/cohort.csv $@
+
+specification/role.csv:	content/role.csv
+	cp content/role.csv $@
+
+# build organisations in a project
+PROJECT_CSV=specification/project.csv
+specification/project-organisation.csv:	$(PROJECT_MD) $(PROJECT_CSV) bin/project-organisation.py
+	python3 bin/project-organisation.py $@
+
+specification/role-organisation.csv:	bin/role-organisation.py specification/role-organisation-rule.csv $(CACHE_DIR)organisation.csv
+	python3 bin/role-organisation.py $@
+
+specification/provision.csv:	bin/provision.py specification/provision-rule.csv specification/project.csv specification/role-organisation.csv specification/project-organisation.csv
+	python3 bin/provision.py $@
+
+# deprecated
+specification/organisation-dataset.csv:        specification/provision.csv
+	cp specification/provision.csv $@
 
 DATAPACKAGE_CSV=specification/datapackage.csv
 specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-dataset.py
