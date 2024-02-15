@@ -8,6 +8,7 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
+- field: cohort
 - field: description
 - field: documentation-url
 - field: end-date
