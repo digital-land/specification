@@ -32,102 +32,102 @@ organisations:
   cohort: RIPA-BOPS
 - organisation: local-authority:BOS
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:NED
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:CMD
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:DAC
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:DNC
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:GLO
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:CAT
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:MDW
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:NET
   start-date: 2022-01-21
-  cohort: BETA
+  cohort: ODP-Beta
 - organisation: local-authority:BIR
   start-date: 2023-03-01
-  cohort: TRACK1
+  cohort: Track-1
 - organisation: local-authority:CAT
   start-date: 2022-03-01
-  cohort: TRACK1
+  cohort: Track-1
 - organisation: local-authority:EPS
   start-date: 2022-03-01
-  cohort: TRACK1
+  cohort: Track-1
 - organisation: local-authority:BNE
   start-date: 2022-03-01
-  cohort: TRACK1
+  cohort: Track-1
 - organisation: local-authority:GRY
   start-date: 2022-03-01
-  cohort: TRACK2
+  cohort: Track-2
   notes: "developing an integration with Planning Portal"
 - organisation: local-authority:GAT
   start-date: 2022-03-01
-  cohort: TRACK2
+  cohort: Track-2
   notes: "integrating with Idox"
 - organisation: local-authority:KTT
   start-date: 2022-03-01
-  cohort: TRACK2
+  cohort: Track-2
   notes: "integrating with Idox"
 - organisation: local-authority:TEW
   start-date: 2022-03-01
-  cohort: TRACK2
+  cohort: Track-2
   notes: "integrating with Idox"
 - organisation: local-authority:WBK
   start-date: 2022-03-01
-  cohort: TRACK2
+  cohort: Track-2
   notes: "integrating with Idox"
 - organisation: local-authority:SAL
   start-date: 2022-03-01
-  cohort: TRACK2
+  cohort: Track-2
   notes: "integrating with Agile Applications"
 - organisation: local-authority:DST
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with DEF and Planning Portal"
 - organisation: local-authority:DOV
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with ESRI"
 - organisation: local-authority:LIV
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with DLUHC’s DELTA team"
 - organisation: local-authority:RED
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with Agile Applications and Planning Portal"
 - organisation: local-authority:WFT
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with Idox"
 - organisation: local-authority:NLN
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with Planning Portal and Arcus Global"
 - organisation: local-authority:NSM
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with Planning Portal"
 - organisation: local-authority:SLF
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with Agile Applications, Arcus Global and Objective"
 - organisation: local-authority:WRL
   start-date: 2022-03-01
-  cohort: TRACK3
+  cohort: Track-3
   notes: "working with Idox"
 ---
 

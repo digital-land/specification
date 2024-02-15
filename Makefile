@@ -134,6 +134,9 @@ specification/include-exclude.csv:	content/include-exclude.csv
 specification/role-organisation-rule.csv:	content/role-organisation-rule.csv
 	cp content/role-organisation-rule.csv $@
 
+specification/cohort.csv:	content/cohort.csv
+	cp content/cohort.csv $@
+
 specification/role.csv:	content/role.csv
 	cp content/role.csv $@
 
