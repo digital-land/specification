@@ -20,6 +20,7 @@ central-activities-zone,Central activities zone,,
 certificate-of-immunity,Certificate of immunity,,
 checksum,Checksum,Checksums of dataset files and other media,checksum
 coastal-change-management-area,Coastal change management area,,
+cohort,Project,,
 collection,Collection,A collection of resources collected from various sources,collection
 column-field,Column field,Log of resource columns mapped to dataset fields,
 column,Pipeline column,Map resource column name to dataset field,column
@@ -177,6 +178,8 @@ protected-view,Protected view,,
 protected-wreck-site,Protected wreck site,,
 provenance,Provenance,,provenance
 provision-reason,Provision reason,The reason a dataset is provided by an organisation,provision-reason
+provision-rule,Provision rule,Rules for the datasets an organisation is expected to priovide,
+provision,Provision,Datasets an organisation we expect an organisation to provide,
 public-authority,Public authority,,
 public-safety-zone-around-airport,Public safety zone around airport,,
 ramsar,Ramsar site,,
