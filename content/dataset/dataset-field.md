@@ -8,13 +8,13 @@ entity-maximum: '0'
 entity-minimum: '0'
 entry-date: ''
 fields:
+- field: dataset
 - field: end-date
 - field: entry-date
 - field: field
 - field: field-dataset
 - field: guidance
 - field: hint
-- field: dataset
 - field: start-date
 key-field: ''
 licence: ogl3
