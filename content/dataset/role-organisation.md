@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: project-organisation
+dataset: role-organisation
 description: ''
 end-date: ''
 entry-date: ''
@@ -11,14 +11,14 @@ fields:
 - field: cohort
 - field: notes
 - field: organisation
-- field: project
+- field: role
 - field: start-date
 key-field: ''
 licence: ogl3
-name: Project organisation
+name: Role organisation
 paint-options: ''
 phase: alpha
-plural: Project organisations
+plural: Role organisations
 prefix: ''
 realm: specification
 start-date: ''
