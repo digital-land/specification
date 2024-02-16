@@ -1,20 +1,13 @@
 #!/usr/bin/env python3
 
-# generate the provision dataset from rules in the provison-rule dataset
-# TBD: start-date and end-date should come from project-organisation ..
+# generate the provision dataset following the provison-rule dataset
 
 
 import sys
 import csv
 
 
-organisations = {
-    "role": {},
-    "cohort": {},
-    "project": {},
-    "organisation": {},
-}
-sets = {
+sets = organisations = {
     "role": {},
     "cohort": {},
     "project": {},
@@ -53,6 +46,7 @@ def apply_rule(dataset, rule, field):
                 "value": value,
             }
 
+
 # load organisations
 def load_organisations(field, path):
     for row in csv.DictReader(open(path)):
@@ -61,6 +55,7 @@ def load_organisations(field, path):
         sets[field].setdefault(row[field], set())
         sets[field][row[field]].add(row["organisation"])
         sets[field][""] = set()
+
 
 load_organisations("organisation", "var/cache/organisation.csv")
 load_organisations("project", "specification/project-organisation.csv")
@@ -83,8 +78,21 @@ for dataset, priorities in sorted(dataset_rules.items()):
                 apply_rule(dataset, rule, field)
 
 
-# write 
-fieldnames = ["organisation", "dataset", "specification", "provision-reason", "provision-rule", "role", "project", "cohort", "entry-date", "start-date", "end-date", "notes"]
+# write
+fieldnames = [
+    "organisation",
+    "dataset",
+    "specification",
+    "provision-reason",
+    "provision-rule",
+    "role",
+    "project",
+    "cohort",
+    "entry-date",
+    "start-date",
+    "end-date",
+    "notes",
+]
 w = csv.DictWriter(
     open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction="ignore"
 )
@@ -96,15 +104,26 @@ for organisation, datasets in sorted(organisation_datasets.items()):
         value = reason["value"]
         rule = reason["rule"]
 
-        if organisation in dataset_organisations[dataset] and organisation in sets[field][value]:
+        if (
+            organisation in dataset_organisations[dataset]
+            and organisation in sets[field][value]
+        ):
 
-            dates = [organisations["organisation"][organisation].get("start-date", "") or ""]
-            dates.append(organisations[field][value][organisation].get("start-date", "") or "")
+            dates = [
+                organisations["organisation"][organisation].get("start-date", "") or ""
+            ]
+            dates.append(
+                organisations[field][value][organisation].get("start-date", "") or ""
+            )
             dates.append(rule.get("start-date", "") or "")
             start_date = max(dates)
 
-            dates = [organisations["organisation"][organisation].get("end-date", "") or ""]
-            dates.append(organisations[field][value][organisation].get("end-date", "") or "")
+            dates = [
+                organisations["organisation"][organisation].get("end-date", "") or ""
+            ]
+            dates.append(
+                organisations[field][value][organisation].get("end-date", "") or ""
+            )
             dates.append(rule.get("end-date", "") or "")
             dates = [x for x in dates if x]
             end_date = min(dates) if dates else ""
@@ -118,16 +137,18 @@ for organisation, datasets in sorted(organisation_datasets.items()):
             role = value if field == "role" else ""
             project = value if field == "project" else ""
 
-            w.writerow({
-                "dataset": dataset,
-                "organisation": organisation,
-                "specification": rule["specification"],
-                "provision-rule": rule["provision-rule"],
-                "provision-reason": rule["provision-reason"],
-                "project": project,
-                "role": role,
-                "cohort": cohort,
-                "start-date": start_date,
-                "end-date": end_date,
-                "notes": notes,
-            })
+            w.writerow(
+                {
+                    "dataset": dataset,
+                    "organisation": organisation,
+                    "specification": rule["specification"],
+                    "provision-rule": rule["provision-rule"],
+                    "provision-reason": rule["provision-reason"],
+                    "project": project,
+                    "role": role,
+                    "cohort": cohort,
+                    "start-date": start_date,
+                    "end-date": end_date,
+                    "notes": notes,
+                }
+            )
