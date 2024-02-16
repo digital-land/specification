@@ -9,6 +9,17 @@ entry-date: '2023-04-05'
 github-discussion: 26
 version: 2.4.4
 datasets:
+    - dataset: development-plan-geography
+      name: Development plan geography
+      fields:
+          - field: reference
+          - field: name
+          - field: geometry
+          - field: development-plan-geography-type
+          - field: description
+          - field: entry-date
+          - field: start-date
+          - field: end-date
     - dataset: development-plan
       name: development plan
       fields:
@@ -81,15 +92,4 @@ datasets:
           - field: entry-date   
           - field: start-date
           - field: end-date
-    - dataset: development-plan-geography
-      name: Development plan geography
-      fields:
-        - field: reference
-        - field: name
-        - field: geometry
-        - field: development-plan-geography-type
-        - field: description
-        - field: entry-date
-        - field: start-date
-        - field: end-date
 ---
