@@ -2385,6 +2385,13 @@ resource,mime-type
 resource,organisations
 resource,resource
 resource,start-date
+role-organisation,end-date
+role-organisation,entry-date
+role-organisation,cohort
+role-organisation,notes
+role-organisation,organisation
+role-organisation,role
+role-organisation,start-date
 role,description
 role,end-date
 role,entry-date
