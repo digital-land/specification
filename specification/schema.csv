@@ -94,6 +94,7 @@ historic-non-designed-rural-landscape-local-landscape-area,Historic (non-designe
 historic-stone-quarry,Historic stone quarry,,
 housing-allocation,Housing allocation,,
 hs2-safeguarded-area,HS2 safeguarded area,,
+include-exclude,Include/Exclude,Include or exclude items from a set,include-exclude
 infrastructure-funding-statement,Infrastructure funding statement,,
 infrastructure-project-decision,Infrastructure project decision,The types of decision for infrastructure projects,
 infrastructure-project-document-type,Infrastructure project document type,The types of document produced and published for infrastructure projects,
@@ -179,7 +180,7 @@ protected-view,Protected view,,
 protected-wreck-site,Protected wreck site,,
 provenance,Provenance,,provenance
 provision-reason,Provision reason,The reason a dataset is provided by an organisation,provision-reason
-provision-rule,Provision rule,Rules for the datasets an organisation is expected to priovide,
+provision-rule,Provision rule,Rules for the datasets an organisation is expected to priovide,provision-rule
 provision,Provision,Datasets an organisation we expect an organisation to provide,
 public-authority,Public authority,,
 public-safety-zone-around-airport,Public safety zone around airport,,
@@ -189,7 +190,7 @@ reference,Reference,Redirect a prefix and reference to an entity,
 region,Region,,
 regional-park-authority,Regional park authority,,
 resource,Resource,An index of collected resources,resource
-role-organisation-rule,Role organisation rule,Rules for the organisations with a role,
+role-organisation-rule,Role organisation rule,Rules for the organisations with a role,reference
 role-organisation,Role organisation,,
 role,Role,,
 safeguarded-aerodrome,Safeguarded aerodrome,,

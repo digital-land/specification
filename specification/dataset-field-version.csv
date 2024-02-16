@@ -3005,4 +3005,13 @@ role-organisation-rule,priority,,Rules with a lower number trump those with a la
 role-organisation-rule,reference,,,,1
 role-organisation-rule,start-date,,,,1
 provision,role,,,,1
+include-exclude,end-date,,,,1
+include-exclude,entity,,,,1
+include-exclude,entry-date,,,,1
+include-exclude,include-exclude,,,,1
+include-exclude,name,,,,1
+include-exclude,start-date,,,,1
 project,documentation-url,,,,1
+provision-rule,provision-rule,,Reference for this rule,,1
+provision-rule,role,,Match organisations with this role. A blank value matches any organisation.,,1
+provision-rule,specification,,The specfication to follow.,,1
