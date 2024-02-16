@@ -225,15 +225,15 @@ local-authority:BMH,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:BMH,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,2019-03-31,
 local-authority:BMH,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,2019-03-31,
 local-authority:BMH,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,2019-03-31,
-local-authority:BNE,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:BNE,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
+local-authority:BNE,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:BNE,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
 local-authority:BNE,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:BNE,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:BNE,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:BNE,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:BNE,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:BNE,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:BNE,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
+local-authority:BNE,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:BNE,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:BNE,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:BNE,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:BNE,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:BNE,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
 local-authority:BNH,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BNH,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BNH,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -261,15 +261,15 @@ local-authority:BOL,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:BOL,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BOL,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BOL,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:BOS,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:BOS,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:BOS,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:BOS,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:BOS,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:BOS,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:BOS,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:BOS,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:BOS,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:BOS,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:BOS,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:BOS,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:BOS,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:BOS,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:BOS,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:BOS,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:BOS,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:BOT,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BOT,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BOT,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -396,15 +396,15 @@ local-authority:BST,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:BST,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BST,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BST,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:BUC,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:BUC,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:BUC,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:BUC,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:BUC,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2020-04-01,,
-local-authority:BUC,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:BUC,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:BUC,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:BUC,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:BUC,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:BUC,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:BUC,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:BUC,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:BUC,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:BUC,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:BUC,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:BUC,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:BUN,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BUN,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:BUN,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -459,15 +459,15 @@ local-authority:CAS,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:CAS,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CAS,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CAS,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CAT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:CAT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
+local-authority:CAT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:CAT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
 local-authority:CAT,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CAT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:CAT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:CAT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:CAT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:CAT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:CAT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
+local-authority:CAT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:CAT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:CAT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:CAT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:CAT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:CAT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
 local-authority:CBF,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CBF,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CBF,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -585,15 +585,15 @@ local-authority:CLD,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:CLD,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CLD,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CLD,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CMD,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:CMD,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:CMD,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:CMD,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:CMD,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CMD,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:CMD,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:CMD,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:CMD,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:CMD,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:CMD,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:CMD,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:CMD,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:CMD,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:CMD,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:CMD,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:CMD,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:COL,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:COL,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:COL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -639,15 +639,15 @@ local-authority:COT,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:COT,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:COT,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:COT,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:COV,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:COV,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:COV,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
+local-authority:COV,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
 local-authority:COV,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:COV,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:COV,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:COV,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:COV,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:COV,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:COV,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:COV,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
+local-authority:COV,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
+local-authority:COV,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
+local-authority:COV,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
+local-authority:COV,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
+local-authority:COV,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,BOPS-Beta,,2020-03-01,,
 local-authority:CRA,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
 local-authority:CRA,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
 local-authority:CRA,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
@@ -666,15 +666,15 @@ local-authority:CRW,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:CRW,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CRW,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:CRW,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:CRY,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:CRY,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
 local-authority:CRY,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,conservation-area,conservation-area,prospective,CA-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,conservation-area-document,conservation-area,prospective,CAD-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,listed-building-outline,listed-building,prospective,LBO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:CRY,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:CRY,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:CRY,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:CRY,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:CRY,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:CRY,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:CRY,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
 local-authority:CUA,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2023-04-01,,
 local-authority:CUA,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2023-04-01,,
 local-authority:CUA,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2023-04-01,,
@@ -684,15 +684,15 @@ local-authority:CUA,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:CUA,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2023-04-01,,
 local-authority:CUA,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2023-04-01,,
 local-authority:CUA,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2023-04-01,,
-local-authority:DAC,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DAC,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:DAC,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DAC,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:DAC,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:DAC,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DAC,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DAC,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DAC,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DAC,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DAC,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:DAC,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DAC,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DAC,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DAC,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DAC,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DAC,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:DAL,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:DAL,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:DAL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -738,33 +738,33 @@ local-authority:DER,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:DER,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:DER,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:DER,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:DNC,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DNC,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:DNC,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DNC,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:DNC,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:DNC,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DNC,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DNC,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DNC,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DNC,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DNC,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:DOV,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
-local-authority:DOV,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
+local-authority:DNC,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DNC,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DNC,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DNC,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DNC,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DNC,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:DOV,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
+local-authority:DOV,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
 local-authority:DOV,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:DOV,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
-local-authority:DOV,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
-local-authority:DOV,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
-local-authority:DOV,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
-local-authority:DOV,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
-local-authority:DOV,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with ESRI
-local-authority:DST,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
-local-authority:DST,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
+local-authority:DOV,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
+local-authority:DOV,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
+local-authority:DOV,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
+local-authority:DOV,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
+local-authority:DOV,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
+local-authority:DOV,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with ESRI
+local-authority:DST,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
+local-authority:DST,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
 local-authority:DST,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2019-04-01,,
-local-authority:DST,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
-local-authority:DST,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
-local-authority:DST,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
-local-authority:DST,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
-local-authority:DST,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
-local-authority:DST,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DEF and Planning Portal
+local-authority:DST,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
+local-authority:DST,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
+local-authority:DST,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
+local-authority:DST,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
+local-authority:DST,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
+local-authority:DST,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DEF and Planning Portal
 local-authority:DUD,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:DUD,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:DUD,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -909,15 +909,15 @@ local-authority:EPP,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:EPP,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:EPP,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:EPP,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:EPS,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:EPS,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
+local-authority:EPS,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:EPS,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
 local-authority:EPS,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:EPS,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:EPS,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:EPS,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:EPS,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:EPS,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
-local-authority:EPS,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track1,,2022-03-01,,
+local-authority:EPS,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:EPS,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:EPS,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:EPS,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:EPS,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
+local-authority:EPS,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track1,,2023-03-01,,
 local-authority:ERE,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:ERE,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:ERE,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1008,15 +1008,15 @@ local-authority:FYL,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:FYL,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:FYL,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:FYL,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:GAT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:GAT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:GAT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:GAT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:GAT,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:GAT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:GAT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:GAT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:GAT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:GAT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:GAT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:GAT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:GAT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:GAT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:GAT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:GAT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:GAT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:GED,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GED,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GED,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1026,15 +1026,23 @@ local-authority:GED,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:GED,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GED,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GED,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:GLO,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:GLO,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:GLA,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLA,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLA,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLA,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLA,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLA,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLA,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLA,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:GLO,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:GLO,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:GLO,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:GLO,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:GLO,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:GLO,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:GLO,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:GLO,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:GLO,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:GLO,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:GLO,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:GLO,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:GLO,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:GLO,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:GLO,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:GOS,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GOS,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GOS,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1071,15 +1079,15 @@ local-authority:GRT,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:GRT,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GRT,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:GRT,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:GRY,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
-local-authority:GRY,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
+local-authority:GRY,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
+local-authority:GRY,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
 local-authority:GRY,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:GRY,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
-local-authority:GRY,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
-local-authority:GRY,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
-local-authority:GRY,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
-local-authority:GRY,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
-local-authority:GRY,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,developing an integration with Planning Portal
+local-authority:GRY,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
+local-authority:GRY,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
+local-authority:GRY,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
+local-authority:GRY,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
+local-authority:GRY,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
+local-authority:GRY,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,developing an integration with Planning Portal
 local-authority:HAA,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:HAA,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:HAA,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1161,15 +1169,15 @@ local-authority:HAV,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:HAV,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:HAV,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:HAV,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:HCK,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:HCK,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
 local-authority:HCK,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,conservation-area,conservation-area,prospective,CA-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,conservation-area-document,conservation-area,prospective,CAD-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,listed-building-outline,listed-building,prospective,LBO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:HCK,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:HCK,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:HCK,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:HCK,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:HCK,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:HCK,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
+local-authority:HCK,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,BOPS-Alpha,,2018-12-07,2020-02-01,
 local-authority:HEF,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:HEF,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:HEF,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1368,15 +1376,15 @@ local-authority:KIR,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:KIR,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:KIR,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:KIR,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:KTT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:KTT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:KTT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:KTT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:KTT,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:KTT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:KTT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:KTT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:KTT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:KTT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:KTT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:KTT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:KTT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:KTT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:KTT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:KTT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:KTT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:KWL,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:KWL,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:KWL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1395,15 +1403,15 @@ local-authority:LAC,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:LAC,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LAC,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LAC,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LBH,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:LBH,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:LBH,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:LBH,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:LBH,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LBH,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:LBH,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:LBH,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:LBH,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:LBH,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:LBH,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:LBH,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:LBH,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:LBH,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:LBH,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:LBH,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:LBH,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:LCE,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LCE,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LCE,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1431,15 +1439,15 @@ local-authority:LEE,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:LEE,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LEE,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LEE,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:LEW,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:LEW,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
 local-authority:LEW,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,conservation-area,conservation-area,prospective,CA-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,conservation-area-document,conservation-area,prospective,CAD-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,listed-building-outline,listed-building,prospective,LBO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LEW,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:LEW,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:LEW,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:LEW,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:LEW,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:LEW,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:LEW,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
 local-authority:LIC,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LIC,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LIC,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1458,15 +1466,15 @@ local-authority:LIF,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:LIF,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LIF,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LIF,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LIV,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
-local-authority:LIV,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
 local-authority:LIV,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:LIV,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
-local-authority:LIV,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
-local-authority:LIV,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
-local-authority:LIV,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
-local-authority:LIV,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
-local-authority:LIV,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
+local-authority:LIV,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with DLUHC’s DELTA team
 local-authority:LND,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LND,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:LND,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1548,15 +1556,15 @@ local-authority:MDE,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:MDE,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:MDE,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:MDE,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:MDW,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:MDW,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:MDW,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:MDW,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:MDW,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:MDW,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:MDW,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:MDW,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:MDW,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:MDW,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:MDW,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:MDW,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:MDW,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:MDW,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:MDW,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:MDW,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:MDW,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:MEL,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:MEL,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:MEL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1620,15 +1628,15 @@ local-authority:MSU,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:MSU,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:MSU,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:MSU,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:NBL,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:NBL,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:NBL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,conservation-area,conservation-area,prospective,CA-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,conservation-area-document,conservation-area,prospective,CAD-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,listed-building-outline,listed-building,prospective,LBO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NBL,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
+local-authority:NBL,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:NBL,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:NBL,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:NBL,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:NBL,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:NBL,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:NDE,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NDE,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NDE,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1665,15 +1673,15 @@ local-authority:NEC,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:NEC,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEC,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEC,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NED,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NED,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:NED,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NED,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:NED,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NED,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NED,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NED,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NED,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NED,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NED,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:NED,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NED,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NED,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NED,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NED,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NED,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:NEL,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEL,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1683,15 +1691,15 @@ local-authority:NEL,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:NEL,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEL,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEL,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NET,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NET,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:NET,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NET,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:NET,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NET,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NET,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NET,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NET,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NET,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
-local-authority:NET,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Beta,,2022-01-21,,
+local-authority:NET,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NET,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NET,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NET,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NET,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
+local-authority:NET,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2022-01-21,,
 local-authority:NEW,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEW,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NEW,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1728,15 +1736,15 @@ local-authority:NKE,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:NKE,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NKE,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NKE,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NLN,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
-local-authority:NLN,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
 local-authority:NLN,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NLN,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
-local-authority:NLN,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
-local-authority:NLN,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
-local-authority:NLN,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
-local-authority:NLN,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
-local-authority:NLN,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
+local-authority:NLN,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal and Arcus Global
 local-authority:NNO,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NNO,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NNO,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1773,15 +1781,15 @@ local-authority:NOW,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:NOW,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NOW,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NOW,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NSM,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
-local-authority:NSM,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
+local-authority:NSM,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
+local-authority:NSM,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
 local-authority:NSM,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:NSM,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
-local-authority:NSM,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
-local-authority:NSM,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
-local-authority:NSM,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
-local-authority:NSM,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
-local-authority:NSM,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Planning Portal
+local-authority:NSM,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
+local-authority:NSM,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
+local-authority:NSM,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
+local-authority:NSM,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
+local-authority:NSM,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
+local-authority:NSM,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Planning Portal
 local-authority:NTY,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NTY,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:NTY,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -1962,15 +1970,15 @@ local-authority:RDG,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:RDG,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:RDG,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:RDG,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:RED,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
 local-authority:RED,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:RED,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
 local-authority:REI,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:REI,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:REI,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -2097,15 +2105,15 @@ local-authority:RYE,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:RYE,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
 local-authority:RYE,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
 local-authority:RYE,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
-local-authority:SAL,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
-local-authority:SAL,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
+local-authority:SAL,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
+local-authority:SAL,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
 local-authority:SAL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:SAL,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
-local-authority:SAL,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
-local-authority:SAL,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
-local-authority:SAL,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
-local-authority:SAL,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
-local-authority:SAL,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Agile Applications
+local-authority:SAL,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
+local-authority:SAL,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
+local-authority:SAL,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
+local-authority:SAL,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
+local-authority:SAL,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
+local-authority:SAL,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Agile Applications
 local-authority:SAW,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SAW,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SAW,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -2286,15 +2294,15 @@ local-authority:SLA,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:SLA,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
 local-authority:SLA,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
 local-authority:SLA,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,2023-03-31,
-local-authority:SLF,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
-local-authority:SLF,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
 local-authority:SLF,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:SLF,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
-local-authority:SLF,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
-local-authority:SLF,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
-local-authority:SLF,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
-local-authority:SLF,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
-local-authority:SLF,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
+local-authority:SLF,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,"working with Agile Applications, Arcus Global and Objective"
 local-authority:SLG,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SLG,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SLG,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -2520,15 +2528,15 @@ local-authority:SWD,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:SWD,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SWD,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SWD,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:SWK,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:SWK,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:SWK,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:SWK,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:SWK,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:SWK,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:SWK,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:SWK,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:SWK,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:SWK,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
-local-authority:SWK,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-BOPS,,2020-11-01,,
+local-authority:SWK,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:SWK,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:SWK,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:SWK,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:SWK,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
+local-authority:SWK,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-Beta,,2020-03-01,,
 local-authority:SWL,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SWL,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:SWL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -2610,15 +2618,15 @@ local-authority:TES,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:TES,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:TES,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:TES,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:TEW,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:TEW,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:TEW,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:TEW,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:TEW,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:TEW,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:TEW,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:TEW,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:TEW,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:TEW,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:TEW,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:TEW,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:TEW,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:TEW,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:TEW,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:TEW,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:TEW,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:TFW,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:TFW,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:TFW,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -2763,15 +2771,15 @@ local-authority:WAW,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:WAW,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WAW,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WAW,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:WBK,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:WBK,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:WBK,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:WBK,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:WBK,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:WBK,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:WBK,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:WBK,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:WBK,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:WBK,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
-local-authority:WBK,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2022-03-01,,integrating with Idox
+local-authority:WBK,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:WBK,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:WBK,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:WBK,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:WBK,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
+local-authority:WBK,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track2,,2023-03-01,,integrating with Idox
 local-authority:WDE,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WDE,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WDE,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -2826,15 +2834,15 @@ local-authority:WEY,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:WEY,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,2019-03-31,
 local-authority:WEY,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,2019-03-31,
 local-authority:WEY,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,2019-03-31,
-local-authority:WFT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WFT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
+local-authority:WFT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WFT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
 local-authority:WFT,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:WFT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WFT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WFT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WFT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WFT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WFT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
+local-authority:WFT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WFT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WFT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WFT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WFT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WFT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
 local-authority:WFUA,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2023-04-01,,
 local-authority:WFUA,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2023-04-01,,
 local-authority:WFUA,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2023-04-01,,
@@ -2988,15 +2996,15 @@ local-authority:WOX,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:WOX,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WOX,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WOX,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:WRL,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WRL,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
+local-authority:WRL,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WRL,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
 local-authority:WRL,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:WRL,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WRL,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WRL,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WRL,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WRL,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
-local-authority:WRL,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2022-03-01,,working with Idox
+local-authority:WRL,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WRL,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WRL,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WRL,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WRL,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
+local-authority:WRL,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Idox
 local-authority:WRT,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WRT,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WRT,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -3051,15 +3059,15 @@ local-authority:WYE,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:WYE,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WYE,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WYE,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,,
-local-authority:WYO,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
-local-authority:WYO,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
+local-authority:WYO,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:WYO,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
 local-authority:WYO,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
-local-authority:WYO,conservation-area,conservation-area,prospective,CA-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
-local-authority:WYO,conservation-area-document,conservation-area,prospective,CAD-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
-local-authority:WYO,listed-building-outline,listed-building,prospective,LBO-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
-local-authority:WYO,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
-local-authority:WYO,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
-local-authority:WYO,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2017-04-16,2020-03-31,
+local-authority:WYO,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:WYO,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:WYO,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:WYO,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:WYO,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
+local-authority:WYO,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,RIPA-Alpha,,2019-10-31,2020-04-01,
 local-authority:WYR,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WYR,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:WYR,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
