@@ -7,12 +7,15 @@ import sys
 import csv
 
 
-sets = organisations = {
-    "role": {},
-    "cohort": {},
-    "project": {},
-    "organisation": {},
+fields = {
+    "organisation": "var/cache/organisation.csv",
+    "project": "specification/project-organisation.csv",
+    "cohort": "specification/project-organisation.csv",
+    "role": "specification/role-organisation.csv",
 }
+
+sets = {}
+organisations = {}
 values = {}
 dataset_rules = {}
 rules = {}
@@ -49,6 +52,8 @@ def apply_rule(dataset, rule, field):
 
 # load organisations
 def load_organisations(field, path):
+    organisations[field] = {}
+    sets[field] = {}
     for row in csv.DictReader(open(path)):
         organisations[field].setdefault(row[field], {})
         organisations[field][row[field]][row["organisation"]] = row
@@ -56,11 +61,8 @@ def load_organisations(field, path):
         sets[field][row[field]].add(row["organisation"])
         sets[field][""] = set()
 
-
-load_organisations("organisation", "var/cache/organisation.csv")
-load_organisations("project", "specification/project-organisation.csv")
-load_organisations("cohort", "specification/project-organisation.csv")
-load_organisations("role", "specification/role-organisation.csv")
+for field, path in fields.items():
+    load_organisations(field, path)
 
 # load rules
 for row in csv.DictReader(open("content/provision-rule.csv")):
