@@ -143,7 +143,8 @@ specification/role.csv:	content/role.csv
 
 # build organisations in a project
 PROJECT_CSV=specification/project.csv
-specification/project-organisation.csv:	$(PROJECT_MD) $(PROJECT_CSV) bin/project-organisation.py
+COHORT_CSV=specification/cohort.csv
+specification/project-organisation.csv:	$(PROJECT_MD) $(PROJECT_CSV) $(COHORT_CSV) bin/project-organisation.py
 	python3 bin/project-organisation.py $@
 
 specification/role-organisation.csv:	bin/role-organisation.py specification/role-organisation-rule.csv $(CACHE_DIR)organisation.csv

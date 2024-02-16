@@ -14,6 +14,10 @@ w = csv.DictWriter(
 )
 w.writeheader()
 
+# load cohorts
+cohorts = {}
+for row in csv.DictReader(open("specification/cohort.csv", newline="")):
+    cohorts[row["cohort"]] = row
 
 # load projects and organisations
 for row in csv.DictReader(open("specification/project.csv", newline="")):
@@ -21,9 +25,21 @@ for row in csv.DictReader(open("specification/project.csv", newline="")):
     path = f"content/project/{project}.md"
 
     post = frontmatter.load(path)
-    start_date = post.metadata["start-date"]
-    end_date = post.metadata["end-date"]
+
     for o in post.metadata["organisations"] or {}:
+
+        cohort = o.get("cohort", "")
+
+        dates = [post.metadata["start-date"]]
+        if cohort in cohorts:
+            dates.append(cohorts[cohort].get("start-date", "") or "")
+        start_date = max(dates)
+
+        dates = [post.metadata["end-date"]]
+        if cohort in cohorts:
+            dates.append(cohorts[cohort].get("end-date", "") or "")
+        dates = [x for x in dates if x]
+        end_date = min(dates) if dates else ""
 
         w.writerow(
             {
