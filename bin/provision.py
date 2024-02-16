@@ -106,6 +106,9 @@ for organisation, datasets in sorted(organisation_datasets.items()):
             dates = [x for x in dates if x]
             end_date = min(dates) if dates else ""
 
+            if start_date and end_date and end_date < start_date:
+                continue
+
             cohort = organisations[field][value][organisation].get("cohort", "")
             notes = organisations[field][value][organisation].get("notes", "")
 
