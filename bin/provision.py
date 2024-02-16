@@ -61,6 +61,7 @@ def load_organisations(field, path):
         sets[field][row[field]].add(row["organisation"])
         sets[field][""] = set()
 
+
 for field, path in fields.items():
     load_organisations(field, path)
 
@@ -111,30 +112,29 @@ for organisation, datasets in sorted(organisation_datasets.items()):
             and organisation in sets[field][value]
         ):
 
+            o = organisations["organisation"][organisation]
+            f = organisations[field][value][organisation]
+
             dates = [
-                organisations["organisation"][organisation].get("start-date", "") or ""
+                o.get("start-date", "") or "",
+                f.get("start-date", "") or "",
+                rule.get("start-date", "") or "",
             ]
-            dates.append(
-                organisations[field][value][organisation].get("start-date", "") or ""
-            )
-            dates.append(rule.get("start-date", "") or "")
             start_date = max(dates)
 
             dates = [
-                organisations["organisation"][organisation].get("end-date", "") or ""
+                o.get("end-date", "") or "",
+                f.get("end-date", "") or "",
+                rule.get("end-date", "") or "",
             ]
-            dates.append(
-                organisations[field][value][organisation].get("end-date", "") or ""
-            )
-            dates.append(rule.get("end-date", "") or "")
             dates = [x for x in dates if x]
             end_date = min(dates) if dates else ""
 
             if start_date and end_date and end_date < start_date:
                 continue
 
-            cohort = organisations[field][value][organisation].get("cohort", "")
-            notes = organisations[field][value][organisation].get("notes", "")
+            cohort = f.get("cohort", "")
+            notes = f.get("notes", "")
 
             role = value if field == "role" else ""
             project = value if field == "project" else ""
