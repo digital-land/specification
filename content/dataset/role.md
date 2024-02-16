@@ -1,0 +1,35 @@
+---
+attribution: crown-copyright
+collection: ''
+dataset: role
+description: ''
+end-date: ''
+entry-date: ''
+fields:
+- field: description
+- field: end-date
+- field: entry-date
+- field: notes
+- field: organisation
+- field: specification
+- field: reference
+- field: role
+- field: start-date
+- field: wikipedia
+- field: wikidata
+key-field: ''
+licence: ogl3
+name: Role
+paint-options: ''
+phase: alpha
+plural: Roles
+prefix: ''
+realm: specification
+start-date: ''
+themes:
+- specification
+typology: specification
+version: 1.0
+wikidata: ''
+wikipedia: ''
+---
