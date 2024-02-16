@@ -2994,3 +2994,13 @@ role-organisation,notes,,,,1
 role-organisation,organisation,,,,1
 role-organisation,role,,,,1
 role-organisation,start-date,,,,1
+role-organisation-rule,dataset,,Match all the organisations within this dataset. A blank value matches any organisation.,,1
+role-organisation-rule,end-date,,,,1
+role-organisation-rule,entry-date,,,,1
+role-organisation-rule,include-exclude,,If this rule adds (includes) or removes (excludes) organisations from this rule.,,1
+role-organisation-rule,local-authority-type,,Match organisations with this value. A blank value matches any organisation.,,1
+role-organisation-rule,notes,,,,1
+role-organisation-rule,organisation,,Match the organisation with this CURIE. A blank value matches any organisation.,,1
+role-organisation-rule,priority,,Rules with a lower number trump those with a larger value.,,1
+role-organisation-rule,reference,,,,1
+role-organisation-rule,start-date,,,,1

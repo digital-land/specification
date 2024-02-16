@@ -2385,6 +2385,16 @@ resource,mime-type
 resource,organisations
 resource,resource
 resource,start-date
+role-organisation-rule,dataset
+role-organisation-rule,end-date
+role-organisation-rule,entry-date
+role-organisation-rule,include-exclude
+role-organisation-rule,local-authority-type
+role-organisation-rule,notes
+role-organisation-rule,organisation
+role-organisation-rule,priority
+role-organisation-rule,reference
+role-organisation-rule,start-date
 role-organisation,end-date
 role-organisation,entry-date
 role-organisation,cohort
