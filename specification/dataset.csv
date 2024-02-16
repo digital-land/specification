@@ -246,6 +246,7 @@ crown-copyright,planning-permission-status,planning-permission-status,,,,25,,118
 crown-copyright,planning-permission-type,planning-permission-type,,,,25,,11900000,11999999,ogl3,Planning permission type,,Planning permission types,live,,dataset,,The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.,development,category,1.0,,
 crown-copyright,,policy,,,,,,12000000,12099999,ogl3,Policy,,Policies,alpha,,dataset,,,administrative,policy,1.0,,
 crown-copyright,,prefix,,,,,prefix,,,ogl3,CURIE prefix,,CURIE prefixes,alpha,,entity,,,specification,entity,1.0,,
+crown-copyright,,project-organisation,,,,,,,,ogl3,Provision,,Project organisation,alpha,,specification,,,specification,specification,1.0,,
 crown-copyright,,project-status,,,,,project-status,12200000,12299999,ogl3,Project status,,Project statuses,alpha,,specification,,,specification,specification,1.0,,
 crown-copyright,,project,,,,,project,12300000,12399999,ogl3,Project,,Projects,alpha,,specification,,,specification,specification,1.0,,
 crown-copyright,,proposed-ramsar-site,,,,,,12400000,12499999,ogl3,Proposed ramsar site,,Proposed ramsar sites,prioritised,,dataset,,,environment,geography,1.0,,
