@@ -81,7 +81,7 @@ for dataset, priorities in sorted(dataset_rules.items()):
 
 
 # write 
-fieldnames = ["organisation", "dataset", "specification", "provision-reason", "provision-rule", "field", "value", "cohort", "entry-date", "start-date", "end-date", "notes"]
+fieldnames = ["organisation", "dataset", "specification", "provision-reason", "provision-rule", "role", "project", "cohort", "entry-date", "start-date", "end-date", "notes"]
 w = csv.DictWriter(
     open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction="ignore"
 )
@@ -112,14 +112,17 @@ for organisation, datasets in sorted(organisation_datasets.items()):
             cohort = organisations[field][value][organisation].get("cohort", "")
             notes = organisations[field][value][organisation].get("notes", "")
 
+            role = value if field == "role" else ""
+            project = value if field == "project" else ""
+
             w.writerow({
                 "dataset": dataset,
                 "organisation": organisation,
                 "specification": rule["specification"],
                 "provision-rule": rule["reference"],
                 "provision-reason": rule["provision-reason"],
-                "field": field,
-                "value": value,
+                "project": project,
+                "role": role,
                 "cohort": cohort,
                 "start-date": start_date,
                 "end-date": end_date,

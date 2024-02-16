@@ -9,14 +9,13 @@ fields:
 - field: dataset
 - field: end-date
 - field: entry-date
-- field: field
-- field: value
 - field: cohort
 - field: notes
 - field: organisation
 - field: project
 - field: provision-reason
 - field: provision-rule
+- field: role
 - field: specification
 - field: start-date
 key-field: ''
