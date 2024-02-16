@@ -3,6 +3,16 @@ title: Development plan datasets
 ---
 ```mermaid
 erDiagram
+    development-plan-geography {
+        string reference
+        string name
+        wkt geometry
+        string development-plan-geography-type
+        string description
+        date entry-date
+        date start-date
+        date end-date
+    }
     development-plan {
         string reference
         string name
@@ -39,16 +49,6 @@ erDiagram
         url documentation-url
         url document-url
         string organisation
-        date entry-date
-        date start-date
-        date end-date
-    }
-    development-plan-geography {
-        string reference
-        string name
-        wkt geometry
-        string development-plan-geography-type
-        string description
         date entry-date
         date start-date
         date end-date
