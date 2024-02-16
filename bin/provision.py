@@ -10,11 +10,13 @@ import csv
 
 organisations = {
     "role": {},
+    "cohort": {},
     "project": {},
     "organisation": {},
 }
 sets = {
     "role": {},
+    "cohort": {},
     "project": {},
     "organisation": {},
 }
@@ -62,11 +64,12 @@ def load_organisations(field, path):
 
 load_organisations("organisation", "var/cache/organisation.csv")
 load_organisations("project", "specification/project-organisation.csv")
+load_organisations("cohort", "specification/project-organisation.csv")
 load_organisations("role", "specification/role-organisation.csv")
 
 # load rules
 for row in csv.DictReader(open("content/provision-rule.csv")):
-    rules[row["reference"]] = row
+    rules[row["provision-rule"]] = row
     dataset_rules.setdefault(row["dataset"], {})
     dataset_rules[row["dataset"]].setdefault(row["priority"], [])
     dataset_rules[row["dataset"]][row["priority"]].append(row)
@@ -76,7 +79,7 @@ for dataset, priorities in sorted(dataset_rules.items()):
     dataset_organisations.setdefault(dataset, set())
     for priority, priority_rules in sorted(priorities.items(), reverse=True):
         for rule in priority_rules:
-            for field in ["project", "role", "organisation"]:
+            for field in ["project", "cohort", "role", "organisation"]:
                 apply_rule(dataset, rule, field)
 
 
@@ -119,7 +122,7 @@ for organisation, datasets in sorted(organisation_datasets.items()):
                 "dataset": dataset,
                 "organisation": organisation,
                 "specification": rule["specification"],
-                "provision-rule": rule["reference"],
+                "provision-rule": rule["provision-rule"],
                 "provision-reason": rule["provision-reason"],
                 "project": project,
                 "role": role,

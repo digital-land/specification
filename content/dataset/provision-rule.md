@@ -17,17 +17,20 @@ fields:
 - field: notes
 - field: organisation
   guidance: "Match the organisation with this CURIE. A blank value matches any organisation."
-- field: organisation-dataset
-  guidance: "Match all the organisations within this dataset. A blank value matches any organisation."
 - field: priority
   guidance: "Rules with a lower number trump those with a larger value."
 - field: project
   guidance: "Match all the organisations in the project-organisation with a project field of this value."
 - field: provision-reason
   guidance: "The reason why organisations included by this rule should provide this dataset."
-- field: reference
+- field: provision-rule
+  guidance: "Reference for this rule"
+- field: role
+  guidance: "Match organisations with this role. A blank value matches any organisation."
+- field: specification
+  guidance: "The specfication to follow."
 - field: start-date
-key-field: ''
+key-field: 'provision-rule'
 licence: ogl3
 name: Provision rule
 paint-options: ''

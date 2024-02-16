@@ -21,7 +21,7 @@ fields:
   guidance: "Rules with a lower number trump those with a larger value."
 - field: reference
 - field: start-date
-key-field: ''
+key-field: 'reference'
 licence: ogl3
 name: Role organisation rule
 paint-options: ''
