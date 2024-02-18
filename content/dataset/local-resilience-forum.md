@@ -11,6 +11,7 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: local-resilience-forum-boundary
 - field: name
 - field: notes
 - field: parliament-thesaurus
@@ -20,6 +21,7 @@ fields:
 - field: statistical-geography
 - field: twitter
 - field: website
+- field: whatdotheyknow-body
 - field: wikidata
 - field: wikipedia
 key-field: ''
