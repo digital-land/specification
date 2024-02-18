@@ -26,10 +26,10 @@ fields:
 - field: wikipedia
 key-field: ''
 licence: ogl3
-name: Local Resilience Forum
+name: Local resilience forum
 paint-options: ''
 phase: beta
-plural: Local Resilience Forums
+plural: Local resilience forums
 prefix: ''
 realm: dataset
 start-date: ''

@@ -7,7 +7,7 @@ entry-date: ''
 field: local-resilience-forum-boundary
 guidance: ''
 hint: ''
-name: Local Resilience Forum Boundary
+name: Local resilience forum boundary
 parent-field: statistical-geography
 replacement-field: ''
 start-date: ''
