@@ -1,6 +1,6 @@
 ---
 cardinality: '1'
-datatype: wkt
+datatype: point
 description: ''
 end-date: ''
 entry-date: ''
