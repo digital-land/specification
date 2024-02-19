@@ -54,6 +54,9 @@ def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str
             previous_fields = set([field["field"] for field in previous_dataset["fields"]])
             added_fields = list(current_fields - previous_fields)
             removed_fields = list(previous_fields - current_fields)
+            # sort fields so that the changelog is consistent
+            added_fields.sort()
+            removed_fields.sort()
             if added_fields or removed_fields:
                 changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
 
@@ -61,6 +64,9 @@ def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str
     previous_datasets = set([ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]])
     datasets_added = list(current_datasets - previous_datasets)
     datasets_removed = list(previous_datasets - current_datasets)
+    # sort datasets so that the changelog is consistent
+    datasets_added.sort()
+    datasets_removed.sort()
 
     return changes, {"added": datasets_added, "removed": datasets_removed}
 
@@ -268,14 +274,14 @@ if __name__ == "__main__":
             if os.path.commonpath([parent_dir, version_dir]) == parent_dir:
                 return True
         return False
-    
+
     placeholder_html = "<!-- [Replace with warning banner if version is updated] -->"
     replacement_html = '''
 <div class="app-version-banner">
   <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
 </div>
 '''
-    
+
     # in old static version of specs, insert a banner
     def inject_version_banner(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -286,7 +292,7 @@ if __name__ == "__main__":
         # Update the HTML file with the modified content
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(modified_content)
-    
+
     def check_for_old_versions(specification_path, latest_version):
         for root, dirs, files in os.walk(specification_path):
             if root == specification_path:
@@ -300,7 +306,7 @@ if __name__ == "__main__":
                 if file_name.endswith('.html'):
                     file_path = os.path.join(root, file_name)
                     inject_version_banner(file_path)
-                    
+
 
     # generate versions of specification and dataset pages
     for template in ["specification"]:
@@ -433,5 +439,3 @@ if __name__ == "__main__":
             staticPath=staticPath,
             assetPath=assetPath,
         )
-
-
