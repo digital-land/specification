@@ -302,7 +302,7 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,string,,,,plugin,,,Plugin,identifier,,,,value,,
 1,,string,,,,plural,,,Plural name,text,,,,value,,
 1,,blob,,,,point-geom,,,Point index,geom,,,,value,,
-1,,wkt,,,,point,,,Point,geometry,,,,value,,
+1,,point,,,,point,,,Point,geometry,,,,value,,
 1,,string,,,,policy,,,Policy,policy,,,,policy,,
 1,,url,,,,prefix-uri,,,CURIE prefix URI,value,,,,value,,
 1,,string,,,,prefix,,,CURIE prefix,identifier,,,,value,,

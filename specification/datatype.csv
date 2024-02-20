@@ -10,6 +10,7 @@ json,,,JSON,,A blob of data encoded as a canonicalised JSON string compatible wi
 latitude,,,Latitude,,"A latitude value which should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system."
 longitude,,,Longitude,,"A longitude value which should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system."
 pattern,,,Pattern,,A regular expression pattern compatible with the [IEEE POSIX](https://en.wikipedia.org/wiki/POSIX) Basic Regular Syntax (BRE).
+point,,,Point,,"A geometry encoded in the [OGC Well-known text (WKT)](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) format as defined by [ISO/IEC 13249-3:2016](https://www.iso.org/standard/60343.html) Coordinate values should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system."
 string,,,String,,A string of [Unicode 6.2.x](http://www.unicode.org/versions/Unicode6.2.0/) characters encoded as [UTF-8](http://en.wikipedia.org/wiki/UTF-8).
 text,,,Text,,A string of text which may contain [Markdown](http://en.wikipedia.org/wiki/Markdown) formatting instructions.
 url,,,URL,,A [URL](http://en.wikipedia.org/wiki/Uniform_resource_locator) reference to another resource on the Web.
