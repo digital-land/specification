@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
-datatype: point
+datatype: wkt
 description: ''
 end-date: ''
 entry-date: ''
-field: point
+field: wkt
 guidance: ''
 hint: ''
-name: Point
-parent-field: wkt
+name: WKT
+parent-field: value
 replacement-field: ''
 start-date: ''
 typology: value
