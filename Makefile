@@ -163,10 +163,11 @@ specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-datase
 
 commit-specification::
 	git add specification
+	git add data
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt specification $(shell date +%F)"; git push origin $(BRANCH))
 
 clean clobber::
-	rm -f specification/*.csv 
+	rm -f specification/*.csv
 
 # generate mermaid diagrams
 MERMAID_MD=$(subst content/specification/,mermaid/,$(SPECIFICATION_MD))
@@ -195,7 +196,7 @@ docs/dataset/diagram.svg: specification/dataset-field.csv bin/datasets-svg.py
 docs/model.svg: specification/dataset-field.csv bin/model-svg.py
 	python3 bin/model-svg.py > $@
 
-fields.json: 
+fields.json:
 	python3 bin/dump-fields.py
 
 extract-entity-ranges:
