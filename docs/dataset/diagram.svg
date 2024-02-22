@@ -1613,11 +1613,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="140" width="162" height="20" class="field"/>
 <rect x="1133" y="140" width="55" height="20" class="datatype"/>
 <text x="976" y="150" class="field">geometry</text>
-<text x="1138" y="150" class="datatype">wkt</text>
+<text x="1138" y="150" class="datatype">multipolygon</text>
 <rect x="971" y="160" width="162" height="20" class="field"/>
 <rect x="1133" y="160" width="55" height="20" class="datatype"/>
 <text x="976" y="170" class="field">point</text>
-<text x="1138" y="170" class="datatype">wkt</text>
+<text x="1138" y="170" class="datatype">point</text>
 <rect x="971" y="180" width="162" height="20" class="field"/>
 <rect x="1133" y="180" width="55" height="20" class="datatype"/>
 <text x="976" y="190" class="field">documentation-url</text>
@@ -1689,11 +1689,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="580" width="162" height="20" class="field"/>
 <rect x="1133" y="580" width="55" height="20" class="datatype"/>
 <text x="976" y="590" class="field">geometry</text>
-<text x="1138" y="590" class="datatype">wkt</text>
+<text x="1138" y="590" class="datatype">multipolygon</text>
 <rect x="971" y="600" width="162" height="20" class="field"/>
 <rect x="1133" y="600" width="55" height="20" class="datatype"/>
 <text x="976" y="610" class="field">point</text>
-<text x="1138" y="610" class="datatype">wkt</text>
+<text x="1138" y="610" class="datatype">point</text>
 <rect x="971" y="620" width="162" height="20" class="field"/>
 <rect x="1133" y="620" width="55" height="20" class="datatype"/>
 <text x="976" y="630" class="field">documentation-url</text>
@@ -1765,11 +1765,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="1020" width="162" height="20" class="field"/>
 <rect x="1133" y="1020" width="55" height="20" class="datatype"/>
 <text x="976" y="1030" class="field">geometry</text>
-<text x="1138" y="1030" class="datatype">wkt</text>
+<text x="1138" y="1030" class="datatype">multipolygon</text>
 <rect x="971" y="1040" width="162" height="20" class="field"/>
 <rect x="1133" y="1040" width="55" height="20" class="datatype"/>
 <text x="976" y="1050" class="field">point</text>
-<text x="1138" y="1050" class="datatype">wkt</text>
+<text x="1138" y="1050" class="datatype">point</text>
 <rect x="971" y="1060" width="162" height="20" class="field"/>
 <rect x="1133" y="1060" width="55" height="20" class="datatype"/>
 <text x="976" y="1070" class="field">notes</text>
@@ -1821,11 +1821,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="1360" width="162" height="20" class="field"/>
 <rect x="1133" y="1360" width="55" height="20" class="datatype"/>
 <text x="976" y="1370" class="field">geometry</text>
-<text x="1138" y="1370" class="datatype">wkt</text>
+<text x="1138" y="1370" class="datatype">multipolygon</text>
 <rect x="971" y="1380" width="162" height="20" class="field"/>
 <rect x="1133" y="1380" width="55" height="20" class="datatype"/>
 <text x="976" y="1390" class="field">point</text>
-<text x="1138" y="1390" class="datatype">wkt</text>
+<text x="1138" y="1390" class="datatype">point</text>
 <rect x="971" y="1400" width="162" height="20" class="field"/>
 <rect x="1133" y="1400" width="55" height="20" class="datatype"/>
 <text x="976" y="1410" class="field">documentation-url</text>
@@ -1981,11 +1981,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="2220" width="162" height="20" class="field"/>
 <rect x="1133" y="2220" width="55" height="20" class="datatype"/>
 <text x="976" y="2230" class="field">latitude</text>
-<text x="1138" y="2230" class="datatype">wkt</text>
+<text x="1138" y="2230" class="datatype">point</text>
 <rect x="971" y="2240" width="162" height="20" class="field"/>
 <rect x="1133" y="2240" width="55" height="20" class="datatype"/>
 <text x="976" y="2250" class="field">longitude</text>
-<text x="1138" y="2250" class="datatype">wkt</text>
+<text x="1138" y="2250" class="datatype">point</text>
 <rect x="971" y="2260" width="162" height="20" class="field"/>
 <rect x="1133" y="2260" width="55" height="20" class="datatype"/>
 <text x="976" y="2270" class="field">maximum-net-dwellings</text>
@@ -2033,7 +2033,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="2480" width="162" height="20" class="field"/>
 <rect x="1133" y="2480" width="55" height="20" class="datatype"/>
 <text x="976" y="2490" class="field">point</text>
-<text x="1138" y="2490" class="datatype">wkt</text>
+<text x="1138" y="2490" class="datatype">point</text>
 <rect x="971" y="2500" width="162" height="20" class="field"/>
 <rect x="1133" y="2500" width="55" height="20" class="datatype"/>
 <text x="976" y="2510" class="field">notes</text>
@@ -2093,11 +2093,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="2840" width="162" height="20" class="field"/>
 <rect x="1133" y="2840" width="55" height="20" class="datatype"/>
 <text x="976" y="2850" class="field">geometry</text>
-<text x="1138" y="2850" class="datatype">wkt</text>
+<text x="1138" y="2850" class="datatype">multipolygon</text>
 <rect x="971" y="2860" width="162" height="20" class="field"/>
 <rect x="1133" y="2860" width="55" height="20" class="datatype"/>
 <text x="976" y="2870" class="field">point</text>
-<text x="1138" y="2870" class="datatype">wkt</text>
+<text x="1138" y="2870" class="datatype">point</text>
 <rect x="971" y="2880" width="162" height="20" class="field"/>
 <rect x="1133" y="2880" width="55" height="20" class="datatype"/>
 <text x="976" y="2890" class="field">documentation-url</text>
@@ -2149,11 +2149,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="3180" width="162" height="20" class="field"/>
 <rect x="1133" y="3180" width="55" height="20" class="datatype"/>
 <text x="976" y="3190" class="field">geometry</text>
-<text x="1138" y="3190" class="datatype">wkt</text>
+<text x="1138" y="3190" class="datatype">multipolygon</text>
 <rect x="971" y="3200" width="162" height="20" class="field"/>
 <rect x="1133" y="3200" width="55" height="20" class="datatype"/>
 <text x="976" y="3210" class="field">point</text>
-<text x="1138" y="3210" class="datatype">wkt</text>
+<text x="1138" y="3210" class="datatype">point</text>
 <rect x="971" y="3220" width="162" height="20" class="field"/>
 <rect x="1133" y="3220" width="55" height="20" class="datatype"/>
 <text x="976" y="3230" class="field">documentation-url</text>
@@ -2217,11 +2217,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="3580" width="162" height="20" class="field"/>
 <rect x="1133" y="3580" width="55" height="20" class="datatype"/>
 <text x="976" y="3590" class="field">geometry</text>
-<text x="1138" y="3590" class="datatype">wkt</text>
+<text x="1138" y="3590" class="datatype">multipolygon</text>
 <rect x="971" y="3600" width="162" height="20" class="field"/>
 <rect x="1133" y="3600" width="55" height="20" class="datatype"/>
 <text x="976" y="3610" class="field">point</text>
-<text x="1138" y="3610" class="datatype">wkt</text>
+<text x="1138" y="3610" class="datatype">point</text>
 <rect x="971" y="3620" width="162" height="20" class="field"/>
 <rect x="1133" y="3620" width="55" height="20" class="datatype"/>
 <text x="976" y="3630" class="field">documentation-url</text>
@@ -2281,11 +2281,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="3960" width="162" height="20" class="field"/>
 <rect x="1133" y="3960" width="55" height="20" class="datatype"/>
 <text x="976" y="3970" class="field">geometry</text>
-<text x="1138" y="3970" class="datatype">wkt</text>
+<text x="1138" y="3970" class="datatype">multipolygon</text>
 <rect x="971" y="3980" width="162" height="20" class="field"/>
 <rect x="1133" y="3980" width="55" height="20" class="datatype"/>
 <text x="976" y="3990" class="field">point</text>
-<text x="1138" y="3990" class="datatype">wkt</text>
+<text x="1138" y="3990" class="datatype">point</text>
 <rect x="971" y="4000" width="162" height="20" class="field"/>
 <rect x="1133" y="4000" width="55" height="20" class="datatype"/>
 <text x="976" y="4010" class="field">documentation-url</text>
@@ -2345,11 +2345,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="4340" width="162" height="20" class="field"/>
 <rect x="1133" y="4340" width="55" height="20" class="datatype"/>
 <text x="976" y="4350" class="field">geometry</text>
-<text x="1138" y="4350" class="datatype">wkt</text>
+<text x="1138" y="4350" class="datatype">multipolygon</text>
 <rect x="971" y="4360" width="162" height="20" class="field"/>
 <rect x="1133" y="4360" width="55" height="20" class="datatype"/>
 <text x="976" y="4370" class="field">point</text>
-<text x="1138" y="4370" class="datatype">wkt</text>
+<text x="1138" y="4370" class="datatype">point</text>
 <rect x="971" y="4380" width="162" height="20" class="field"/>
 <rect x="1133" y="4380" width="55" height="20" class="datatype"/>
 <text x="976" y="4390" class="field">documentation-url</text>
@@ -2409,11 +2409,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="4720" width="162" height="20" class="field"/>
 <rect x="1133" y="4720" width="55" height="20" class="datatype"/>
 <text x="976" y="4730" class="field">geometry</text>
-<text x="1138" y="4730" class="datatype">wkt</text>
+<text x="1138" y="4730" class="datatype">multipolygon</text>
 <rect x="971" y="4740" width="162" height="20" class="field"/>
 <rect x="1133" y="4740" width="55" height="20" class="datatype"/>
 <text x="976" y="4750" class="field">point</text>
-<text x="1138" y="4750" class="datatype">wkt</text>
+<text x="1138" y="4750" class="datatype">point</text>
 <rect x="971" y="4760" width="162" height="20" class="field"/>
 <rect x="1133" y="4760" width="55" height="20" class="datatype"/>
 <text x="976" y="4770" class="field">notes</text>
@@ -2457,11 +2457,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="5020" width="162" height="20" class="field"/>
 <rect x="1133" y="5020" width="55" height="20" class="datatype"/>
 <text x="976" y="5030" class="field">geometry</text>
-<text x="1138" y="5030" class="datatype">wkt</text>
+<text x="1138" y="5030" class="datatype">multipolygon</text>
 <rect x="971" y="5040" width="162" height="20" class="field"/>
 <rect x="1133" y="5040" width="55" height="20" class="datatype"/>
 <text x="976" y="5050" class="field">point</text>
-<text x="1138" y="5050" class="datatype">wkt</text>
+<text x="1138" y="5050" class="datatype">point</text>
 <rect x="971" y="5060" width="162" height="20" class="field"/>
 <rect x="1133" y="5060" width="55" height="20" class="datatype"/>
 <text x="976" y="5070" class="field">documentation-url</text>
@@ -2525,11 +2525,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="5420" width="162" height="20" class="field"/>
 <rect x="1133" y="5420" width="55" height="20" class="datatype"/>
 <text x="976" y="5430" class="field">geometry</text>
-<text x="1138" y="5430" class="datatype">wkt</text>
+<text x="1138" y="5430" class="datatype">multipolygon</text>
 <rect x="971" y="5440" width="162" height="20" class="field"/>
 <rect x="1133" y="5440" width="55" height="20" class="datatype"/>
 <text x="976" y="5450" class="field">point</text>
-<text x="1138" y="5450" class="datatype">wkt</text>
+<text x="1138" y="5450" class="datatype">point</text>
 <rect x="971" y="5460" width="162" height="20" class="field"/>
 <rect x="1133" y="5460" width="55" height="20" class="datatype"/>
 <text x="976" y="5470" class="field">documentation-url</text>
@@ -2585,7 +2585,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="5780" width="162" height="20" class="field"/>
 <rect x="1133" y="5780" width="55" height="20" class="datatype"/>
 <text x="976" y="5790" class="field">geometry</text>
-<text x="1138" y="5790" class="datatype">wkt</text>
+<text x="1138" y="5790" class="datatype">multipolygon</text>
 <rect x="971" y="5800" width="162" height="20" class="field"/>
 <rect x="1133" y="5800" width="55" height="20" class="datatype"/>
 <text x="976" y="5810" class="field">notes</text>
@@ -2645,11 +2645,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="6140" width="162" height="20" class="field"/>
 <rect x="1133" y="6140" width="55" height="20" class="datatype"/>
 <text x="976" y="6150" class="field">geometry</text>
-<text x="1138" y="6150" class="datatype">wkt</text>
+<text x="1138" y="6150" class="datatype">multipolygon</text>
 <rect x="971" y="6160" width="162" height="20" class="field"/>
 <rect x="1133" y="6160" width="55" height="20" class="datatype"/>
 <text x="976" y="6170" class="field">point</text>
-<text x="1138" y="6170" class="datatype">wkt</text>
+<text x="1138" y="6170" class="datatype">point</text>
 <rect x="971" y="6180" width="162" height="20" class="field"/>
 <rect x="1133" y="6180" width="55" height="20" class="datatype"/>
 <text x="976" y="6190" class="field">documentation-url</text>
@@ -2713,11 +2713,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="6540" width="162" height="20" class="field"/>
 <rect x="1133" y="6540" width="55" height="20" class="datatype"/>
 <text x="976" y="6550" class="field">geometry</text>
-<text x="1138" y="6550" class="datatype">wkt</text>
+<text x="1138" y="6550" class="datatype">multipolygon</text>
 <rect x="971" y="6560" width="162" height="20" class="field"/>
 <rect x="1133" y="6560" width="55" height="20" class="datatype"/>
 <text x="976" y="6570" class="field">point</text>
-<text x="1138" y="6570" class="datatype">wkt</text>
+<text x="1138" y="6570" class="datatype">point</text>
 <rect x="971" y="6580" width="162" height="20" class="field"/>
 <rect x="1133" y="6580" width="55" height="20" class="datatype"/>
 <text x="976" y="6590" class="field">documentation-url</text>
@@ -2789,11 +2789,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="6980" width="162" height="20" class="field"/>
 <rect x="1133" y="6980" width="55" height="20" class="datatype"/>
 <text x="976" y="6990" class="field">geometry</text>
-<text x="1138" y="6990" class="datatype">wkt</text>
+<text x="1138" y="6990" class="datatype">multipolygon</text>
 <rect x="971" y="7000" width="162" height="20" class="field"/>
 <rect x="1133" y="7000" width="55" height="20" class="datatype"/>
 <text x="976" y="7010" class="field">point</text>
-<text x="1138" y="7010" class="datatype">wkt</text>
+<text x="1138" y="7010" class="datatype">point</text>
 <rect x="971" y="7020" width="162" height="20" class="field"/>
 <rect x="1133" y="7020" width="55" height="20" class="datatype"/>
 <text x="976" y="7030" class="field">documentation-url</text>
@@ -2849,7 +2849,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="7340" width="162" height="20" class="field"/>
 <rect x="1133" y="7340" width="55" height="20" class="datatype"/>
 <text x="976" y="7350" class="field">geometry</text>
-<text x="1138" y="7350" class="datatype">wkt</text>
+<text x="1138" y="7350" class="datatype">multipolygon</text>
 <rect x="971" y="7360" width="162" height="20" class="field"/>
 <rect x="1133" y="7360" width="55" height="20" class="datatype"/>
 <text x="976" y="7370" class="field">notes</text>
@@ -2917,11 +2917,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="7740" width="162" height="20" class="field"/>
 <rect x="1133" y="7740" width="55" height="20" class="datatype"/>
 <text x="976" y="7750" class="field">geometry</text>
-<text x="1138" y="7750" class="datatype">wkt</text>
+<text x="1138" y="7750" class="datatype">multipolygon</text>
 <rect x="971" y="7760" width="162" height="20" class="field"/>
 <rect x="1133" y="7760" width="55" height="20" class="datatype"/>
 <text x="976" y="7770" class="field">point</text>
-<text x="1138" y="7770" class="datatype">wkt</text>
+<text x="1138" y="7770" class="datatype">point</text>
 <rect x="971" y="7780" width="162" height="20" class="field"/>
 <rect x="1133" y="7780" width="55" height="20" class="datatype"/>
 <text x="976" y="7790" class="field">documentation-url</text>
@@ -2989,11 +2989,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="8160" width="162" height="20" class="field"/>
 <rect x="1133" y="8160" width="55" height="20" class="datatype"/>
 <text x="976" y="8170" class="field">geometry</text>
-<text x="1138" y="8170" class="datatype">wkt</text>
+<text x="1138" y="8170" class="datatype">multipolygon</text>
 <rect x="971" y="8180" width="162" height="20" class="field"/>
 <rect x="1133" y="8180" width="55" height="20" class="datatype"/>
 <text x="976" y="8190" class="field">point</text>
-<text x="1138" y="8190" class="datatype">wkt</text>
+<text x="1138" y="8190" class="datatype">point</text>
 <rect x="971" y="8200" width="162" height="20" class="field"/>
 <rect x="1133" y="8200" width="55" height="20" class="datatype"/>
 <text x="976" y="8210" class="field">documentation-url</text>
@@ -3057,11 +3057,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="8560" width="162" height="20" class="field"/>
 <rect x="1133" y="8560" width="55" height="20" class="datatype"/>
 <text x="976" y="8570" class="field">geometry</text>
-<text x="1138" y="8570" class="datatype">wkt</text>
+<text x="1138" y="8570" class="datatype">multipolygon</text>
 <rect x="971" y="8580" width="162" height="20" class="field"/>
 <rect x="1133" y="8580" width="55" height="20" class="datatype"/>
 <text x="976" y="8590" class="field">point</text>
-<text x="1138" y="8590" class="datatype">wkt</text>
+<text x="1138" y="8590" class="datatype">point</text>
 <rect x="971" y="8600" width="162" height="20" class="field"/>
 <rect x="1133" y="8600" width="55" height="20" class="datatype"/>
 <text x="976" y="8610" class="field">documentation-url</text>
@@ -3113,11 +3113,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="8900" width="162" height="20" class="field"/>
 <rect x="1133" y="8900" width="55" height="20" class="datatype"/>
 <text x="976" y="8910" class="field">geometry</text>
-<text x="1138" y="8910" class="datatype">wkt</text>
+<text x="1138" y="8910" class="datatype">multipolygon</text>
 <rect x="971" y="8920" width="162" height="20" class="field"/>
 <rect x="1133" y="8920" width="55" height="20" class="datatype"/>
 <text x="976" y="8930" class="field">point</text>
-<text x="1138" y="8930" class="datatype">wkt</text>
+<text x="1138" y="8930" class="datatype">point</text>
 <rect x="971" y="8940" width="162" height="20" class="field"/>
 <rect x="1133" y="8940" width="55" height="20" class="datatype"/>
 <text x="976" y="8950" class="field">notes</text>
@@ -3161,11 +3161,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="9200" width="162" height="20" class="field"/>
 <rect x="1133" y="9200" width="55" height="20" class="datatype"/>
 <text x="976" y="9210" class="field">geometry</text>
-<text x="1138" y="9210" class="datatype">wkt</text>
+<text x="1138" y="9210" class="datatype">multipolygon</text>
 <rect x="971" y="9220" width="162" height="20" class="field"/>
 <rect x="1133" y="9220" width="55" height="20" class="datatype"/>
 <text x="976" y="9230" class="field">point</text>
-<text x="1138" y="9230" class="datatype">wkt</text>
+<text x="1138" y="9230" class="datatype">point</text>
 <rect x="971" y="9240" width="162" height="20" class="field"/>
 <rect x="1133" y="9240" width="55" height="20" class="datatype"/>
 <text x="976" y="9250" class="field">notes</text>
@@ -3225,11 +3225,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="9580" width="162" height="20" class="field"/>
 <rect x="1133" y="9580" width="55" height="20" class="datatype"/>
 <text x="976" y="9590" class="field">geometry</text>
-<text x="1138" y="9590" class="datatype">wkt</text>
+<text x="1138" y="9590" class="datatype">multipolygon</text>
 <rect x="971" y="9600" width="162" height="20" class="field"/>
 <rect x="1133" y="9600" width="55" height="20" class="datatype"/>
 <text x="976" y="9610" class="field">point</text>
-<text x="1138" y="9610" class="datatype">wkt</text>
+<text x="1138" y="9610" class="datatype">point</text>
 <rect x="971" y="9620" width="162" height="20" class="field"/>
 <rect x="1133" y="9620" width="55" height="20" class="datatype"/>
 <text x="976" y="9630" class="field">documentation-url</text>
@@ -3281,11 +3281,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="9920" width="162" height="20" class="field"/>
 <rect x="1133" y="9920" width="55" height="20" class="datatype"/>
 <text x="976" y="9930" class="field">geometry</text>
-<text x="1138" y="9930" class="datatype">wkt</text>
+<text x="1138" y="9930" class="datatype">multipolygon</text>
 <rect x="971" y="9940" width="162" height="20" class="field"/>
 <rect x="1133" y="9940" width="55" height="20" class="datatype"/>
 <text x="976" y="9950" class="field">point</text>
-<text x="1138" y="9950" class="datatype">wkt</text>
+<text x="1138" y="9950" class="datatype">point</text>
 <rect x="971" y="9960" width="162" height="20" class="field"/>
 <rect x="1133" y="9960" width="55" height="20" class="datatype"/>
 <text x="976" y="9970" class="field">notes</text>
@@ -3329,7 +3329,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="10220" width="162" height="20" class="field"/>
 <rect x="1133" y="10220" width="55" height="20" class="datatype"/>
 <text x="976" y="10230" class="field">geometry</text>
-<text x="1138" y="10230" class="datatype">wkt</text>
+<text x="1138" y="10230" class="datatype">multipolygon</text>
 <rect x="971" y="10240" width="162" height="20" class="field"/>
 <rect x="1133" y="10240" width="55" height="20" class="datatype"/>
 <text x="976" y="10250" class="field">notes</text>
@@ -3377,11 +3377,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="10520" width="162" height="20" class="field"/>
 <rect x="1133" y="10520" width="55" height="20" class="datatype"/>
 <text x="976" y="10530" class="field">geometry</text>
-<text x="1138" y="10530" class="datatype">wkt</text>
+<text x="1138" y="10530" class="datatype">multipolygon</text>
 <rect x="971" y="10540" width="162" height="20" class="field"/>
 <rect x="1133" y="10540" width="55" height="20" class="datatype"/>
 <text x="976" y="10550" class="field">point</text>
-<text x="1138" y="10550" class="datatype">wkt</text>
+<text x="1138" y="10550" class="datatype">point</text>
 <rect x="971" y="10560" width="162" height="20" class="field"/>
 <rect x="1133" y="10560" width="55" height="20" class="datatype"/>
 <text x="976" y="10570" class="field">documentation-url</text>
@@ -3437,11 +3437,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="10880" width="162" height="20" class="field"/>
 <rect x="1133" y="10880" width="55" height="20" class="datatype"/>
 <text x="976" y="10890" class="field">geometry</text>
-<text x="1138" y="10890" class="datatype">wkt</text>
+<text x="1138" y="10890" class="datatype">multipolygon</text>
 <rect x="971" y="10900" width="162" height="20" class="field"/>
 <rect x="1133" y="10900" width="55" height="20" class="datatype"/>
 <text x="976" y="10910" class="field">point</text>
-<text x="1138" y="10910" class="datatype">wkt</text>
+<text x="1138" y="10910" class="datatype">point</text>
 <rect x="971" y="10920" width="162" height="20" class="field"/>
 <rect x="1133" y="10920" width="55" height="20" class="datatype"/>
 <text x="976" y="10930" class="field">documentation-url</text>
@@ -3525,11 +3525,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="11380" width="162" height="20" class="field"/>
 <rect x="1133" y="11380" width="55" height="20" class="datatype"/>
 <text x="976" y="11390" class="field">geometry</text>
-<text x="1138" y="11390" class="datatype">wkt</text>
+<text x="1138" y="11390" class="datatype">multipolygon</text>
 <rect x="971" y="11400" width="162" height="20" class="field"/>
 <rect x="1133" y="11400" width="55" height="20" class="datatype"/>
 <text x="976" y="11410" class="field">point</text>
-<text x="1138" y="11410" class="datatype">wkt</text>
+<text x="1138" y="11410" class="datatype">point</text>
 <rect x="971" y="11420" width="162" height="20" class="field"/>
 <rect x="1133" y="11420" width="55" height="20" class="datatype"/>
 <text x="976" y="11430" class="field">documentation-url</text>
@@ -3585,7 +3585,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="11740" width="162" height="20" class="field"/>
 <rect x="1133" y="11740" width="55" height="20" class="datatype"/>
 <text x="976" y="11750" class="field">geometry</text>
-<text x="1138" y="11750" class="datatype">wkt</text>
+<text x="1138" y="11750" class="datatype">multipolygon</text>
 <rect x="971" y="11760" width="162" height="20" class="field"/>
 <rect x="1133" y="11760" width="55" height="20" class="datatype"/>
 <text x="976" y="11770" class="field">documentation-url</text>
@@ -3649,11 +3649,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="12120" width="162" height="20" class="field"/>
 <rect x="1133" y="12120" width="55" height="20" class="datatype"/>
 <text x="976" y="12130" class="field">geometry</text>
-<text x="1138" y="12130" class="datatype">wkt</text>
+<text x="1138" y="12130" class="datatype">multipolygon</text>
 <rect x="971" y="12140" width="162" height="20" class="field"/>
 <rect x="1133" y="12140" width="55" height="20" class="datatype"/>
 <text x="976" y="12150" class="field">point</text>
-<text x="1138" y="12150" class="datatype">wkt</text>
+<text x="1138" y="12150" class="datatype">point</text>
 <rect x="971" y="12160" width="162" height="20" class="field"/>
 <rect x="1133" y="12160" width="55" height="20" class="datatype"/>
 <text x="976" y="12170" class="field">documentation-url</text>
@@ -3705,11 +3705,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="12460" width="162" height="20" class="field"/>
 <rect x="1133" y="12460" width="55" height="20" class="datatype"/>
 <text x="976" y="12470" class="field">geometry</text>
-<text x="1138" y="12470" class="datatype">wkt</text>
+<text x="1138" y="12470" class="datatype">multipolygon</text>
 <rect x="971" y="12480" width="162" height="20" class="field"/>
 <rect x="1133" y="12480" width="55" height="20" class="datatype"/>
 <text x="976" y="12490" class="field">point</text>
-<text x="1138" y="12490" class="datatype">wkt</text>
+<text x="1138" y="12490" class="datatype">point</text>
 <rect x="971" y="12500" width="162" height="20" class="field"/>
 <rect x="1133" y="12500" width="55" height="20" class="datatype"/>
 <text x="976" y="12510" class="field">documentation-url</text>
@@ -3773,11 +3773,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="12860" width="162" height="20" class="field"/>
 <rect x="1133" y="12860" width="55" height="20" class="datatype"/>
 <text x="976" y="12870" class="field">geometry</text>
-<text x="1138" y="12870" class="datatype">wkt</text>
+<text x="1138" y="12870" class="datatype">multipolygon</text>
 <rect x="971" y="12880" width="162" height="20" class="field"/>
 <rect x="1133" y="12880" width="55" height="20" class="datatype"/>
 <text x="976" y="12890" class="field">point</text>
-<text x="1138" y="12890" class="datatype">wkt</text>
+<text x="1138" y="12890" class="datatype">point</text>
 <rect x="971" y="12900" width="162" height="20" class="field"/>
 <rect x="1133" y="12900" width="55" height="20" class="datatype"/>
 <text x="976" y="12910" class="field">documentation-url</text>
@@ -3837,11 +3837,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="13240" width="162" height="20" class="field"/>
 <rect x="1133" y="13240" width="55" height="20" class="datatype"/>
 <text x="976" y="13250" class="field">geometry</text>
-<text x="1138" y="13250" class="datatype">wkt</text>
+<text x="1138" y="13250" class="datatype">multipolygon</text>
 <rect x="971" y="13260" width="162" height="20" class="field"/>
 <rect x="1133" y="13260" width="55" height="20" class="datatype"/>
 <text x="976" y="13270" class="field">point</text>
-<text x="1138" y="13270" class="datatype">wkt</text>
+<text x="1138" y="13270" class="datatype">point</text>
 <rect x="971" y="13280" width="162" height="20" class="field"/>
 <rect x="1133" y="13280" width="55" height="20" class="datatype"/>
 <text x="976" y="13290" class="field">documentation-url</text>
@@ -3909,11 +3909,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="13660" width="162" height="20" class="field"/>
 <rect x="1133" y="13660" width="55" height="20" class="datatype"/>
 <text x="976" y="13670" class="field">geometry</text>
-<text x="1138" y="13670" class="datatype">wkt</text>
+<text x="1138" y="13670" class="datatype">multipolygon</text>
 <rect x="971" y="13680" width="162" height="20" class="field"/>
 <rect x="1133" y="13680" width="55" height="20" class="datatype"/>
 <text x="976" y="13690" class="field">point</text>
-<text x="1138" y="13690" class="datatype">wkt</text>
+<text x="1138" y="13690" class="datatype">point</text>
 <rect x="971" y="13700" width="162" height="20" class="field"/>
 <rect x="1133" y="13700" width="55" height="20" class="datatype"/>
 <text x="976" y="13710" class="field">documentation-url</text>
@@ -3973,11 +3973,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="14040" width="162" height="20" class="field"/>
 <rect x="1133" y="14040" width="55" height="20" class="datatype"/>
 <text x="976" y="14050" class="field">geometry</text>
-<text x="1138" y="14050" class="datatype">wkt</text>
+<text x="1138" y="14050" class="datatype">multipolygon</text>
 <rect x="971" y="14060" width="162" height="20" class="field"/>
 <rect x="1133" y="14060" width="55" height="20" class="datatype"/>
 <text x="976" y="14070" class="field">point</text>
-<text x="1138" y="14070" class="datatype">wkt</text>
+<text x="1138" y="14070" class="datatype">point</text>
 <rect x="971" y="14080" width="162" height="20" class="field"/>
 <rect x="1133" y="14080" width="55" height="20" class="datatype"/>
 <text x="976" y="14090" class="field">documentation-url</text>
@@ -4029,11 +4029,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="14380" width="162" height="20" class="field"/>
 <rect x="1133" y="14380" width="55" height="20" class="datatype"/>
 <text x="976" y="14390" class="field">geometry</text>
-<text x="1138" y="14390" class="datatype">wkt</text>
+<text x="1138" y="14390" class="datatype">multipolygon</text>
 <rect x="971" y="14400" width="162" height="20" class="field"/>
 <rect x="1133" y="14400" width="55" height="20" class="datatype"/>
 <text x="976" y="14410" class="field">point</text>
-<text x="1138" y="14410" class="datatype">wkt</text>
+<text x="1138" y="14410" class="datatype">point</text>
 <rect x="971" y="14420" width="162" height="20" class="field"/>
 <rect x="1133" y="14420" width="55" height="20" class="datatype"/>
 <text x="976" y="14430" class="field">notes</text>
@@ -4101,11 +4101,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="14800" width="162" height="20" class="field"/>
 <rect x="1133" y="14800" width="55" height="20" class="datatype"/>
 <text x="976" y="14810" class="field">geometry</text>
-<text x="1138" y="14810" class="datatype">wkt</text>
+<text x="1138" y="14810" class="datatype">multipolygon</text>
 <rect x="971" y="14820" width="162" height="20" class="field"/>
 <rect x="1133" y="14820" width="55" height="20" class="datatype"/>
 <text x="976" y="14830" class="field">point</text>
-<text x="1138" y="14830" class="datatype">wkt</text>
+<text x="1138" y="14830" class="datatype">point</text>
 <rect x="971" y="14840" width="162" height="20" class="field"/>
 <rect x="1133" y="14840" width="55" height="20" class="datatype"/>
 <text x="976" y="14850" class="field">notes</text>
@@ -4177,11 +4177,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="15240" width="162" height="20" class="field"/>
 <rect x="1133" y="15240" width="55" height="20" class="datatype"/>
 <text x="976" y="15250" class="field">geometry</text>
-<text x="1138" y="15250" class="datatype">wkt</text>
+<text x="1138" y="15250" class="datatype">multipolygon</text>
 <rect x="971" y="15260" width="162" height="20" class="field"/>
 <rect x="1133" y="15260" width="55" height="20" class="datatype"/>
 <text x="976" y="15270" class="field">point</text>
-<text x="1138" y="15270" class="datatype">wkt</text>
+<text x="1138" y="15270" class="datatype">point</text>
 <rect x="971" y="15280" width="162" height="20" class="field"/>
 <rect x="1133" y="15280" width="55" height="20" class="datatype"/>
 <text x="976" y="15290" class="field">notes</text>
@@ -4233,11 +4233,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="15580" width="162" height="20" class="field"/>
 <rect x="1133" y="15580" width="55" height="20" class="datatype"/>
 <text x="976" y="15590" class="field">geometry</text>
-<text x="1138" y="15590" class="datatype">wkt</text>
+<text x="1138" y="15590" class="datatype">multipolygon</text>
 <rect x="971" y="15600" width="162" height="20" class="field"/>
 <rect x="1133" y="15600" width="55" height="20" class="datatype"/>
 <text x="976" y="15610" class="field">point</text>
-<text x="1138" y="15610" class="datatype">wkt</text>
+<text x="1138" y="15610" class="datatype">point</text>
 <rect x="971" y="15620" width="162" height="20" class="field"/>
 <rect x="1133" y="15620" width="55" height="20" class="datatype"/>
 <text x="976" y="15630" class="field">documentation-url</text>
@@ -4297,11 +4297,11 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="15960" width="162" height="20" class="field"/>
 <rect x="1133" y="15960" width="55" height="20" class="datatype"/>
 <text x="976" y="15970" class="field">geometry</text>
-<text x="1138" y="15970" class="datatype">wkt</text>
+<text x="1138" y="15970" class="datatype">multipolygon</text>
 <rect x="971" y="15980" width="162" height="20" class="field"/>
 <rect x="1133" y="15980" width="55" height="20" class="datatype"/>
 <text x="976" y="15990" class="field">point</text>
-<text x="1138" y="15990" class="datatype">wkt</text>
+<text x="1138" y="15990" class="datatype">point</text>
 <rect x="971" y="16000" width="162" height="20" class="field"/>
 <rect x="1133" y="16000" width="55" height="20" class="datatype"/>
 <text x="976" y="16010" class="field">documentation-url</text>

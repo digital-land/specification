@@ -1,6 +1,6 @@
 ---
 cardinality: '1'
-datatype: wkt
+datatype: multipolygon
 description: ''
 end-date: ''
 entry-date: ''
@@ -8,7 +8,7 @@ field: geometry
 guidance: ''
 hint: ''
 name: Geometry
-parent-field: value
+parent-field: multipolygon-wkt
 replacement-field: ''
 start-date: ''
 typology: value

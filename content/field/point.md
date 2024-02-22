@@ -1,6 +1,6 @@
 ---
 cardinality: '1'
-datatype: wkt
+datatype: point
 description: ''
 end-date: ''
 entry-date: ''
@@ -8,7 +8,7 @@ field: point
 guidance: ''
 hint: ''
 name: Point
-parent-field: geometry
+parent-field: point-wkt
 replacement-field: ''
 start-date: ''
 typology: value
