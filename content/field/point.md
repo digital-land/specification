@@ -8,7 +8,7 @@ field: point
 guidance: ''
 hint: ''
 name: Point
-parent-field: wkt
+parent-field: point-wkt
 replacement-field: ''
 start-date: ''
 typology: value

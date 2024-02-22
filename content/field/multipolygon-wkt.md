@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
-datatype: multipolygon
+datatype: wkt
 description: ''
 end-date: ''
 entry-date: ''
-field: geometry
+field: multipolygon-wkt
 guidance: ''
 hint: ''
-name: Geometry
-parent-field: multipolygon-wkt
+name: Multipolygon-WKT
+parent-field: wkt
 replacement-field: ''
 start-date: ''
 typology: value
