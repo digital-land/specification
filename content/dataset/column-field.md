@@ -7,6 +7,7 @@ end-date: ''
 entry-date: ''
 fields:
 - field: end-date
+- field: entry-date
 - field: field
 - field: dataset
 - field: start-date
