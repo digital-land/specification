@@ -4,7 +4,7 @@ collection: design-code
 dataset: design-code-status
 description: ''
 end-date: ''
-entity-maximum: '622999'
+entity-maximum: '622499'
 entity-minimum: '622000'
 entry-date: ''
 fields:
