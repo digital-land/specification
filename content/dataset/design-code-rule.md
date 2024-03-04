@@ -34,7 +34,7 @@ realm: dataset
 start-date: ''
 themes:
 - heritage
-typology: category
+typology: policy
 version: 2.0
 wikidata: ''
 wikipedia: ''
