@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 github-discussion: 27
-version: 1.1.1
+version: 1.2.2
 datasets:
     - dataset: design-code
       name: design code
@@ -20,9 +20,6 @@ datasets:
           description: a short, single-line description of the design code
         - field: design-code-status
           description: a <a href="#design-code-status">design-code-status</a> reference
-        - field: design-code-categories
-          description: a list of one or more <a href="#design-code-category">design-code-category</a> references, separated by a semi-colon ';' character
-          example: 'exemplar;urban'
         - field: documentation-url
           description: the URL for the Web page with guidance on the design code policy document
         - field: document-url
@@ -49,6 +46,9 @@ datasets:
         - field: documentation-url
           description: the URL for guidance on the design code rule
         - field: document-url
+        - field: design-code-rule-categories
+          description: a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character
+          example: 'public-art;building-height'
         - field: notes
         - field: entry-date
         - field: start-date
@@ -67,6 +67,8 @@ datasets:
         - field: design-code-rules
           description: a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.
           dataset: design-code-rule
+        - field: design-code-area-type
+          dataset: design-code-area-type
         - field: documentation-url
         - field: document-url
         - field: notes
