@@ -587,6 +587,7 @@ design-code-area-type,reference
 design-code-area-type,start-date
 design-code-area,description
 design-code-area,design-code
+design-code-area,design-code-area-type
 design-code-area,design-code-rules
 design-code-area,document-url
 design-code-area,documentation-url
@@ -622,6 +623,7 @@ design-code-rule-category,reference
 design-code-rule-category,start-date
 design-code-rule,description
 design-code-rule,design-code
+design-code-rule,design-code-rule-categories
 design-code-rule,document-url
 design-code-rule,documentation-url
 design-code-rule,end-date
@@ -643,7 +645,6 @@ design-code-status,prefix
 design-code-status,reference
 design-code-status,start-date
 design-code,description
-design-code,design-code-categories
 design-code,design-code-status
 design-code,document-url
 design-code,documentation-url
