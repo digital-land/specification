@@ -45,8 +45,10 @@ dataset,Dataset,A collection of entities of the same type,dataset
 datatype,Datatype,,datatype
 default-value,Pipeline default value,provide a default value for a missing or empty field,
 default,Pipeline default field,Take a missing field default value from another field,
+design-code-area-type,Design code area type,,
 design-code-area,Design code area,,
-design-code-category,Design code category,,
+design-code-characteristic,Design code characteristic,,
+design-code-rule-category,Design code rule category,,
 design-code-rule,Design code rule,the set of design code rules affecting a design code area,
 design-code-status,Design code status,,
 design-code,Design code,,
