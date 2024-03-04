@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: design-code
-dataset: design-code-category
+dataset: design-code-characteristic
 description: ''
 end-date: ''
 entity-maximum: '640999'
@@ -20,10 +20,10 @@ fields:
 github-discussion: 27
 key-field: ''
 licence: ogl3
-name: Design code category
+name: Design code characteristic
 paint-options: ''
 phase: beta
-plural: Design code categories
+plural: Design code characteristics
 prefix: ''
 realm: dataset
 start-date: ''
