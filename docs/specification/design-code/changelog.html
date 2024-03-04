@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Design code category | Digital Land</title>
+    <title>Design code specification | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -18,6 +18,47 @@
     
 	<meta name="digital-land:template" content="dlf-base.html">
 	
+<style>
+    .app-list {
+      margin-left: 0.5em;
+    }
+
+    .app-list li {
+      padding-left: 0.5em
+    }
+
+    .app-list--plus {
+      list-style-type: "+" !important;
+      margin-bottom: 0 !important;
+    }
+
+    .app-list--minus {
+      list-style-type: "-" !important;
+    }
+
+    .app-diff {
+      display: inline-block;
+      padding: 3px 5px;
+      margin-right: 0.25em;
+    }
+
+    .app-diff--addition {
+      background: #e6ffec;
+    }
+
+    .app-diff--removal {
+      background: #ffebe9;
+    }
+
+    .app-changelog .govuk-heading-l {
+      margin-top: 45px;
+    }
+
+    .app-changelog .govuk-heading-l:first-of-type {
+      margin-top: 0;
+    }
+</style>
+
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
 	
     
@@ -103,6 +144,7 @@
       <div class="govuk-width-container ">
         
 
+  
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
   
@@ -114,18 +156,18 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../../">Specification</a>
+      <a class="govuk-breadcrumbs__link" href="/specification/specification">Specification</a>
     </li>
     
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="/specification/specification/design-code">Design code specification</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Design code category</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">changelog</li>
     
   
   </ol>
@@ -137,50 +179,42 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
-  <h1 class="govuk-heading-xl">Design code category</h1>
+  <span class="govuk-caption-xl">Changelog</span>
+  <h1 class="govuk-heading-xl">Design code specification</h1>
   </div>
 </div>
 
   
+
 <div class="govuk-grid-row">
-  <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
-
-    <table class="govuk-table">
-      <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Design code category</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">design-code-category</td>
-        </tr>
-        
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../category">category</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/category">category</a></td>
-        </tr>
-        
-      </tbody>
-    </table>
-
+    <div class="govuk-grid-column-full app-changelog">
     
-
-  </div>
+      <h2 class="govuk-heading-l"><a href="/specification/specification/design-code/v1.2.2"
+        class="govuk-link">v1.2.2</a> changes</h2>
+      <p class="govuk-body">Previous version was <a
+        href="/specification/specification/design-code/v1.1.1"
+        class="govuk-link">v1.1.1</a></p>
+      <h3 class="govuk-heading-m">What fields have changed?</h3>
+      
+      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">design code</strong> dataset</p>
+      <ul class="govuk-list app-list app-list--plus"></ul>
+      <ul class="govuk-list app-list app-list--minus">
+        <li><span class="app-diff app-diff--removal">design-code-categories</span> was removed</li>
+        </ul>
+      
+      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">design code rule</strong> dataset</p>
+      <ul class="govuk-list app-list app-list--plus">
+        <li><span class="app-diff app-diff--addition">design-code-rule-categories</span> was added</li>
+        </ul>
+      <ul class="govuk-list app-list app-list--minus"></ul>
+      
+      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">design code area</strong> dataset</p>
+      <ul class="govuk-list app-list app-list--plus">
+        <li><span class="app-diff app-diff--addition">design-code-area-type</span> was added</li>
+        </ul>
+      <ul class="govuk-list app-list app-list--minus"></ul>
+      
+    </div>
 </div>
 
 
