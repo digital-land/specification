@@ -4,11 +4,11 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: design-code-categories
+field: design-code-rule-categories
 guidance: ''
 hint: ''
-name: Design code categories
-parent-field: design-code-category
+name: Design code rule categories
+parent-field: design-code-rule-category
 replacement-field: ''
 start-date: ''
 typology: category

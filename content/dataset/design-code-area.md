@@ -10,6 +10,7 @@ entry-date: ''
 fields:
 - field: description
 - field: design-code
+- field: design-code-area-type
 - field: design-code-rules
 - field: document-url
 - field: documentation-url
@@ -37,7 +38,7 @@ start-date: ''
 themes:
 - development
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

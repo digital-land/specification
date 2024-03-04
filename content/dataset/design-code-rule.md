@@ -10,6 +10,7 @@ entry-date: ''
 fields:
 - field: description
 - field: design-code
+- field: design-code-rule-categories
 - field: document-url
 - field: documentation-url
 - field: end-date
@@ -34,7 +35,7 @@ start-date: ''
 themes:
 - heritage
 typology: category
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
