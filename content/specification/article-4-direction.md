@@ -25,7 +25,7 @@ datasets:
         - field: notes
           description: optional notes
         - field: organisation
-          description: the organisation responsible for article 4 directions
+          description: the organisation responsible for this article 4 direction
         - field: entry-date
           description: the date this information has been entered as a record
         - field: start-date
@@ -47,7 +47,7 @@ datasets:
           description: unique property reference numbers for any addressable properties
           dataset: address
         - field: address-text
-          description: the address of the property 
+          description: the address of any properties
         - field: geometry
           description: the boundary of the area covered by the article 4 direction in WKT format 
         - field: point
