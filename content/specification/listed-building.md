@@ -26,7 +26,7 @@ datasets:
         - field: notes
           description: optional notes
         - field: organisation
-          description: the organisation responsible for listed buildings
+          description: the organisation responsible for the listed building
         - field: entry-date
           description: the date this information has been entered as a record
         - field: start-date
