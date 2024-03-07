@@ -18,6 +18,7 @@ datasets:
         - field: documentation-url
           description: a URL to a page on the local planning authority website that provides information about the conservation area
         - field: geometry
+          description: the boundary of the area covered by the conservation area in WKT format 
         - field: point
           description: provide the centre point of the conservation area if you do not have a full geometry available
         - field: notes
@@ -35,7 +36,7 @@ datasets:
         - field: reference
           description: provide a reference such as CA01-decision-notice
         - field: conservation-area
-          description: "the reference for the conservation area this document is about"
+          description: the reference for the conservation area this document is about
         - field: name
           description: the title of the conservation area document
         - field: documentation-url
@@ -44,12 +45,15 @@ datasets:
           description: the URL of the document
         - field: document-type
           dataset: conservation-area-document-type
-          description: "the type of the conservation area document which MUST be one of the following values: 'area-appraisal', 'notice', or blank"
+          description: the type of the conservation area document which must be one of the following values: 'area-appraisal', 'notice', or leave blank
         - field: notes
           description: provide any extra information if needed
         - field: organisation
           description: the organisation that published the document
         - field: entry-date
+          description: the date this information has been entered as a record
         - field: start-date
+          description: the date the validity of the record starts
         - field: end-date
+          description: the date the validity of the record ends
 ---
