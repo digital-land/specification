@@ -21,9 +21,9 @@ datasets:
         - field: document-url
           description: the URL of the tree preservation order document
         - field: made-date
-          description: The date the tree preservation order was "made"
+          description: the date the tree preservation order was "made"
         - field: confirmed-date
-          description: The date the tree preservation order was "confirmed"
+          description: the date the tree preservation order was "confirmed"
         - field: notes
           description: optional notes
         - field: organisation
