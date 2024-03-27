@@ -78,6 +78,7 @@ n,,string,,,,design-code-rule-categories,,,Design code rule categories,design-co
 n,,string,,,,design-code-rules,,,Design code rules,design-code-rule,,,,category,,
 1,,string,,,,design-code,,,Design code,policy,,,,policy,,
 1,,string,,,,design-code-status,,,Design code status,category,,,,category,,
+1,,datetime,,,2024-03-27,designation-date,,,Designation date,datetime,,,,value,,
 1,,string,,,,developer-agreement-contribution,,,Developer agreement contribution,identifier,,,,value,,
 1,,string,,,,developer-agreement-transaction,,,Developer agreement transaction,identifier,,,,value,,
 1,,string,,,,developer-agreement-type,,,Developer agreement type,category,,,,category,,
