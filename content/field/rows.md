@@ -1,5 +1,5 @@
 ---
-cardinality: n
+cardinality: 1
 datatype: string
 description: ''
 end-date: ''
