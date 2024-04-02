@@ -350,7 +350,7 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,string,,,,role,,,Role,category,,,,category,,
 1,,string,,,,row-id,,,Row identifier,value,,,,value,,
 1,,string,,,,row,,,Row,value,,,,value,,
-n,,string,,,,rows,,,Rows,row,,,,value,,
+1,,string,,,,rows,,,Rows,row,,,,value,,
 1,,string,,,,safeguarded-aerodrome,,,Safeguarded aerodrome,geography,,,,geography,,
 1,,string,,,,safeguarded-military-explosives-site,,,Safeguarded military explosives site,geography,,,,geography,,
 1,,string,,,,safeguarded-wharf,,,Safeguarded wharf,geography,,,,geography,,
