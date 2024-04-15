@@ -2,13 +2,13 @@
 attribution: crown-copyright
 collection: ''
 dataset: expectation-issue
-description: issues found checking expecatations
+description: Issues found checking expecatations
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: response-id
+- field: result-id
 - field: scope
 - field: message
 - field: dataset

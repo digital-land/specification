@@ -1,14 +1,14 @@
 ---
 attribution: crown-copyright
 collection: ''
-dataset: expectation-response
-description: Responses from checking expectations
+dataset: expectation-result
+description: Result from checking expectations
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: response-id
+- field: result-id
 - field: result
 - field: message
 - field: severity
@@ -20,10 +20,10 @@ fields:
 - field: end-date
 key-field: ''
 licence: ogl3
-name: Expectation resource
+name: Expectation result
 paint-options: ''
 phase: alpha
-plural: Expecation responses
+plural: Expecation results
 prefix: ''
 realm: provenance
 start-date: ''

@@ -4,10 +4,10 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: response-id
+field: result-id
 guidance: ''
 hint: ''
-name: Response identifier
+name: Result identifier
 parent-field: identifier
 replacement-field: ''
 start-date: ''
