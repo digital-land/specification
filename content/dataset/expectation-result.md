@@ -8,8 +8,8 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: result-id
 - field: result
+- field: passed
 - field: message
 - field: severity
 - field: responsibility

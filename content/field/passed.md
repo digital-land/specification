@@ -4,14 +4,14 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: result-id
+field: passed
 guidance: ''
 hint: ''
-name: Result identifier
-parent-field: identifier
+name: Passed
+parent-field: category
 replacement-field: ''
 start-date: ''
-typology: value
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---
