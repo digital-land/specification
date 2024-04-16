@@ -978,8 +978,9 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_entity_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 530 C 1525.0 530 1525.0 250 1565 250"><title>from entity reference to reference reference</title></path>
 <path class="line" id="from_entity_typology_to_typology_typology" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 690 C 1079.5 690 1079.5 6510 891 6510"><title>from entity typology to typology typology</title></path>
 <path class="line" id="from_expectation-issue_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 890 C 1079.5 890 1079.5 1790 891 1790"><title>from expectation-issue dataset to dataset dataset</title></path>
+<path class="line" id="from_expectation-issue_expectation-result_to_expectation-result_expectation-result" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 910 C 1525.0 910 1525.0 1250 1485 1250"><title>from expectation-issue expectation-result to expectation-result expectation-result</title></path>
 <path class="line" id="from_expectation-issue_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1090 C 782.5 1090 782.5 40970 297 40970"><title>from expectation-issue organisation to organisation reference</title></path>
-<path class="line" id="from_expectation-response_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1310 C 1079.5 1310 1079.5 5550 891 5550"><title>from expectation-response severity to severity severity</title></path>
+<path class="line" id="from_expectation-result_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1310 C 1079.5 1310 1079.5 5550 891 5550"><title>from expectation-result severity to severity severity</title></path>
 <path class="line" id="from_fact-resource_fact_to_fact_fact" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1530 C 1525.0 1530 1525.0 1750 1485 1750"><title>from fact-resource fact to fact fact</title></path>
 <path class="line" id="from_fact-resource_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1570 C 931.0 1570 931.0 850 594 850"><title>from fact-resource resource to resource resource</title></path>
 <path class="line" id="from_fact_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1730 C 1525.0 1730 1525.0 550 1485 550"><title>from fact entity to entity entity</title></path>
@@ -13050,8 +13051,8 @@ text.datatype{fill:#0b0c0c;}
 <text x="1435" y="890" class="datatype">reference</text>
 <rect x="1268" y="900" width="162" height="20" class="field"/>
 <rect x="1430" y="900" width="55" height="20" class="datatype"/>
-<text x="1273" y="910" class="field">response-id</text>
-<text x="1435" y="910" class="datatype">string</text>
+<text x="1273" y="910" class="field">expectation-result</text>
+<text x="1435" y="910" class="datatype">reference</text>
 <rect x="1268" y="920" width="162" height="20" class="field"/>
 <rect x="1430" y="920" width="55" height="20" class="datatype"/>
 <text x="1273" y="930" class="field">scope</text>
@@ -13103,14 +13104,14 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="1268" y="1220" width="217" height="20" class="name"/>
-<text x="1376" y="1230" class="name">expectation-response</text>
+<text x="1376" y="1230" class="name">expectation-result</text>
 <rect x="1268" y="1240" width="162" height="20" class="field"/>
 <rect x="1430" y="1240" width="55" height="20" class="datatype"/>
-<text x="1273" y="1250" class="field">response-id</text>
-<text x="1435" y="1250" class="datatype">string</text>
+<text x="1273" y="1250" class="field">expectation-result</text>
+<text x="1435" y="1250" class="datatype">reference</text>
 <rect x="1268" y="1260" width="162" height="20" class="field"/>
 <rect x="1430" y="1260" width="55" height="20" class="datatype"/>
-<text x="1273" y="1270" class="field">result</text>
+<text x="1273" y="1270" class="field">passed</text>
 <text x="1435" y="1270" class="datatype">string</text>
 <rect x="1268" y="1280" width="162" height="20" class="field"/>
 <rect x="1430" y="1280" width="55" height="20" class="datatype"/>
