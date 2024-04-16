@@ -2,13 +2,13 @@
 attribution: crown-copyright
 collection: ''
 dataset: expectation-result
-description: Result from checking expectations
+description: Results from checking expectations
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: result
+- field: expectation-result
 - field: passed
 - field: message
 - field: severity
@@ -18,7 +18,7 @@ fields:
 - field: entry-date
 - field: start-date
 - field: end-date
-key-field: ''
+key-field: 'expectation-result'
 licence: ogl3
 name: Expectation result
 paint-options: ''

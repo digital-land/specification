@@ -8,7 +8,7 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: result
+- field: expectation-result
 - field: scope
 - field: message
 - field: dataset

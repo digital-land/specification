@@ -4,10 +4,10 @@ datatype: hash
 description: ''
 end-date: ''
 entry-date: ''
-field: result
+field: expectation-result
 guidance: ''
 hint: ''
-name: Result
+name: Expectation result
 parent-field: hash
 replacement-field: ''
 start-date: ''
