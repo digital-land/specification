@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
-datatype: string
+datatype: hash
 description: ''
 end-date: ''
 entry-date: ''
-field: response-id
+field: expectation-result
 guidance: ''
 hint: ''
-name: Response identifier
-parent-field: identifier
+name: Expectation result
+parent-field: hash
 replacement-field: ''
 start-date: ''
 typology: value

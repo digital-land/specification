@@ -4,10 +4,10 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: result
+field: passed
 guidance: ''
 hint: ''
-name: Result
+name: Passed
 parent-field: category
 replacement-field: ''
 start-date: ''
