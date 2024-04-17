@@ -63,6 +63,8 @@ organisations:
   cohort: RIPA-Beta
 - organisation: local-authority:BOS
   cohort: RIPA-BOPS
+  notes: "returned funding"
+  end-date: 2022-01-21
 - organisation: local-authority:NED
   cohort: RIPA-BOPS
 - organisation: local-authority:CMD
