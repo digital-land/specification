@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 github-discussion: 27
-version: 1.2.2
+version: 1.2.3
 datasets:
     - dataset: design-code
       name: design code
@@ -23,7 +23,7 @@ datasets:
         - field: documentation-url
           description: the URL for the Web page with guidance on the design code policy document
         - field: document-url
-          description: the URL for the design code policy document
+          description: the URL for the Design Code. This should be a URL to a website or document
         - field: notes
           description: optional notes on the status of the design code
         - field: start-date
@@ -50,9 +50,13 @@ datasets:
           description: a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character
           example: 'public-art;building-height'
         - field: notes
+          description: a field to capture notes about the design code rule
         - field: entry-date
+          description: the date this information has been entered as a record
         - field: start-date
+          description: the date the validity of the record starts
         - field: end-date
+          description: the date the validity of the record ends
     - dataset: design-code-area
       name: design code area
       fields:
@@ -69,10 +73,17 @@ datasets:
           dataset: design-code-rule
         - field: design-code-area-type
           dataset: design-code-area-type
+          description: the classification of the area, for example Rural Settlements or Urban Neighbourhood
         - field: documentation-url
+          description: the URL for guidance or information defining the design code area
         - field: document-url
+          description: a URL to a document that defines the design code area, if it is not included in the Design Code document
         - field: notes
+          description: a field to capture notes about the design code area
         - field: entry-date
+          description: the date this information has been entered as a record
         - field: start-date
+          description: the date the validity of the record starts
         - field: end-date
+          description: the date the validity of the record ends
 ---
