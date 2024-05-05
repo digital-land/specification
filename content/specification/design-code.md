@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 github-discussion: 27
-version: 1.2.3
+version: 1.3.3
 datasets:
     - dataset: design-code
       name: design code
@@ -45,7 +45,6 @@ datasets:
           description: a short, single-line description of the design code rule
         - field: documentation-url
           description: the URL for guidance on the design code rule
-        - field: document-url
         - field: design-code-rule-categories
           description: a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character
           example: 'public-art;building-height'
@@ -76,8 +75,6 @@ datasets:
           description: the classification of the area, for example Rural Settlements or Urban Neighbourhood
         - field: documentation-url
           description: the URL for guidance or information defining the design code area
-        - field: document-url
-          description: a URL to a document that defines the design code area, if it is not included in the Design Code document
         - field: notes
           description: a field to capture notes about the design code area
         - field: entry-date

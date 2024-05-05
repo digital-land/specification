@@ -12,7 +12,6 @@ fields:
 - field: design-code
 - field: design-code-area-type
 - field: design-code-rules
-- field: document-url
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -38,7 +37,7 @@ start-date: ''
 themes:
 - development
 typology: geography
-version: 2.0
+version: 3.0
 wikidata: ''
 wikipedia: ''
 ---
