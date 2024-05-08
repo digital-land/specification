@@ -9,7 +9,7 @@ entity-minimum: '6000000'
 entry-date: ''
 fields:
 - field: datasets
-- field: documention-url
+- field: documentation-url
 - field: end-date
 - field: endpoint
 - field: endpoint-url
