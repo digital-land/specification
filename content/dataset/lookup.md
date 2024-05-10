@@ -17,7 +17,6 @@ fields:
 - field: prefix
 - field: resource
 - field: start-date
-- field: value
 - field: reference
 key-field: ''
 licence: ogl3
