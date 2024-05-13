@@ -48,7 +48,7 @@ datasets:
         - field: discharged-date
           description: the date the condition is discharged
         - field: notes
-          description: an additional notes about the planning application - condition connection
+          description: any additional notes about the planning application - condition connection
         - field: entry-date
           description: the date the record was created
         - field: start-date
