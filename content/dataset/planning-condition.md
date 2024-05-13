@@ -15,9 +15,6 @@ fields:
 - field: name
 - field: notes
 - field: organisation
-- field: planning-condition-target
-- field: planning-condition-type
-- field: planning-condition-purpose
 - field: prefix
 - field: reference
 - field: start-date
@@ -34,7 +31,7 @@ themes:
 - housing
 - monitoring
 typology: policy
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

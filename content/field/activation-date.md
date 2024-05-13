@@ -1,13 +1,13 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'The date a planning condition was applied'
+description: 'The date a planning condition became active'
 end-date: ''
 entry-date: ''
-field: applied-date
+field: activation-date
 guidance: ''
 hint: ''
-name: Applied date
+name: Activation date
 parent-field: datetime
 replacement-field: ''
 start-date: ''

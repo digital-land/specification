@@ -8,7 +8,7 @@ entity-maximum: '71000000'
 entity-minimum: '72999999'
 entry-date: ''
 fields:
-- field: applied-date
+- field: activation-date
 - field: description
 - field: discharged-date
 - field: end-date
@@ -35,7 +35,7 @@ themes:
 - housing
 - monitoring
 typology: policy
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

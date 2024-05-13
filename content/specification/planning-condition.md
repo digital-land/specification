@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-11-09'
 github-discussion: 40
-version: 1.1.1
+version: 1.2.2
 datasets:
     - dataset: planning-condition
       name: planning condition
@@ -20,15 +20,6 @@ datasets:
           description: text explaining the condition
         - field: organisation
           description: the organisation that created the condition
-        - field: planning-condition-target
-          dataset: planning-condition-target
-          description: the target of the condition, for example the planning application or the property
-        - field: planning-condition-type
-          dataset: planning-condition-type
-          description: the type of thing the condition affects, for example permitted development rights
-        - field: planning-condition-purpose
-          dataset: planning-condition-purpose
-          description: the high-level purpose of the condition, for example to restrict
         - field: notes
           description: any additional notes about the condition
         - field: entry-date
@@ -47,11 +38,13 @@ datasets:
           description: a planning application reference
         - field: planning-condition
           dataset: planning-condition
-          description: a planning conidtion reference
+          description: a planning condition reference
+        - field: description
+          description: a description of the condition applied to the application
         - field: organisation
           description: the organisation that as added the condition to the planning application
-        - field: applied-date
-          description: the date the condition applies from
+        - field: activation-date
+          description: the date the condition becomes active
         - field: discharged-date
           description: the date the condition is discharged
         - field: notes
