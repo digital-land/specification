@@ -1,4 +1,5 @@
 cardinality,dataset,datatype,description,end-date,entry-date,field,guidance,hint,name,parent-field,replacement-field,start-date,text,typology,uri-template,wikidata-property
+1,,datetime,The date a planning condition became active,,,activation-date,,,Activation date,datetime,,,,value,,
 1,,string,"Address as a single line of text, separated by commas",,,address-text,,,Address text,text,,,,value,,
 1,,string,,,,address,,,Address,geography,,,,geography,,
 1,,string,,,,addressbase-custodian,,,AddressBase custodian,organisation,,,,organisation,,
@@ -7,7 +8,6 @@ cardinality,dataset,datatype,description,end-date,entry-date,field,guidance,hint
 1,,string,Status of an ancient woodland,,,ancient-woodland-status,,,Ancient woodland status,category,,,,category,,
 1,,string,,,,ancient-woodland,,,Ancient Woodland,geography,,,,geography,,
 1,,string,,,,applicant-organisation,,,Applicant organisation,organisation,,,,organisation,,
-1,,datetime,The date a planning condition was applied,,,applied-date,,,Applied date,datetime,,,,value,,
 1,,string,,,,archaelogy-area-type,,,Archaelogy area type,geography,,,,geography,,
 1,,string,A protected area of countryside with a distinctive character and natural beauty,,,area-of-outstanding-natural-beauty,,,Area of Outstanding Natural Beauty,geography,,,,geography,,
 1,,string,,,,article-4-direction-area,,,Article-4 direction area,geography,,,,geography,,
