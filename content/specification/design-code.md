@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 github-discussion: 27
-version: 1.3.3
+version: 1.4.4
 datasets:
     - dataset: design-code
       name: design code
@@ -43,8 +43,10 @@ datasets:
           description: the <a href="#reference">reference</a> for the design code where this rule is defined.
         - field: description
           description: a short, single-line description of the design code rule
+        - field: document-url
+          description: the URL for the design code rule. This should be a URL to a website or document
         - field: documentation-url
-          description: the URL for guidance on the design code rule
+          description: the URL for a page where we can find a link to the design code rule, this is usually a contents or summary page
         - field: design-code-rule-categories
           description: a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character
           example: 'public-art;building-height'
