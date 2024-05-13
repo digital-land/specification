@@ -78,7 +78,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_certificate-of-immunity_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 3550 C 1228.0 3550 1228.0 5290 1188 5290"><title>from certificate-of-immunity geography to geography reference</title></path>
 <path class="line" id="from_certificate-of-immunity_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 3670 C 634.0 3670 634.0 3590 297 3590"><title>from certificate-of-immunity organisation to organisation reference</title></path>
 <path class="line" id="from_conservation-area_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 4030 C 634.0 4030 634.0 3590 297 3590"><title>from conservation-area organisation to organisation reference</title></path>
-<path class="line" id="from_design-code-area_design-code_to_design-code_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 4290 C 1228.0 4290 1228.0 390 1268 390"><title>from design-code-area design-code to design-code reference</title></path>
+<path class="line" id="from_design-code-area_design-code_to_design-code_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 4290 C 1228.0 4290 1228.0 410 1268 410"><title>from design-code-area design-code to design-code reference</title></path>
 <path class="line" id="from_design-code-area_design-code-area-type_to_design-code-area-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 4310 C 1673.5 4310 1673.5 1710 2159 1710"><title>from design-code-area design-code-area-type to design-code-area-type reference</title></path>
 <path class="line" id="from_design-code-area_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 4430 C 634.0 4430 634.0 3590 297 3590"><title>from design-code-area organisation to organisation reference</title></path>
 <path class="line" id="from_development-plan-geography_development-plan-geography-type_to_development-plan-geography-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 4690 C 1673.5 4690 1673.5 3790 2159 3790"><title>from development-plan-geography development-plan-geography-type to development-plan-geography-type reference</title></path>
@@ -150,21 +150,21 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_world-heritage-site-buffer-zone_world-heritage-site_to_world-heritage-site_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 15550 C 1228.0 15550 1228.0 15830 1188 15830"><title>from world-heritage-site-buffer-zone world-heritage-site to world-heritage-site reference</title></path>
 <path class="line" id="from_world-heritage-site-buffer-zone_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 15650 C 634.0 15650 634.0 3590 297 3590"><title>from world-heritage-site-buffer-zone organisation to organisation reference</title></path>
 <path class="line" id="from_world-heritage-site_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 16030 C 634.0 16030 634.0 3590 297 3590"><title>from world-heritage-site organisation to organisation reference</title></path>
-<path class="line" id="from_design-code-rule_design-code_to_design-code_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 130 C 1525.0 130 1525.0 390 1485 390"><title>from design-code-rule design-code to design-code reference</title></path>
-<path class="line" id="from_design-code-rule_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 210 C 782.5 210 782.5 3590 297 3590"><title>from design-code-rule organisation to organisation reference</title></path>
-<path class="line" id="from_design-code_design-code-status_to_design-code-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 470 C 1822.0 470 1822.0 2510 2159 2510"><title>from design-code design-code-status to design-code-status reference</title></path>
-<path class="line" id="from_design-code_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 550 C 782.5 550 782.5 3590 297 3590"><title>from design-code organisation to organisation reference</title></path>
-<path class="line" id="from_development-policy_development-plan-document_to_development-plan-document_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 810 C 1525.0 810 1525.0 750 1565 750"><title>from development-policy development-plan-document to development-plan-document reference</title></path>
-<path class="line" id="from_development-policy_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 870 C 782.5 870 782.5 3590 297 3590"><title>from development-policy organisation to organisation reference</title></path>
-<path class="line" id="from_planning-application-condition_planning-application_to_planning-application_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1170 C 1228.0 1170 1228.0 11110 1188 11110"><title>from planning-application-condition planning-application to planning-application reference</title></path>
-<path class="line" id="from_planning-application-condition_planning-condition_to_planning-condition_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1190 C 1525.0 1190 1525.0 1410 1485 1410"><title>from planning-application-condition planning-condition to planning-condition reference</title></path>
-<path class="line" id="from_planning-application-condition_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1230 C 782.5 1230 782.5 3590 297 3590"><title>from planning-application-condition organisation to organisation reference</title></path>
-<path class="line" id="from_planning-condition_planning-condition-target_to_planning-condition-target_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1490 C 1822.0 1490 1822.0 9130 2159 9130"><title>from planning-condition planning-condition-target to planning-condition-target reference</title></path>
-<path class="line" id="from_planning-condition_planning-condition-type_to_planning-condition-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1510 C 1822.0 1510 1822.0 9410 2159 9410"><title>from planning-condition planning-condition-type to planning-condition-type reference</title></path>
-<path class="line" id="from_planning-condition_planning-condition-purpose_to_planning-condition-purpose_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1530 C 1822.0 1530 1822.0 8850 2159 8850"><title>from planning-condition planning-condition-purpose to planning-condition-purpose reference</title></path>
-<path class="line" id="from_planning-condition_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1570 C 782.5 1570 782.5 3590 297 3590"><title>from planning-condition organisation to organisation reference</title></path>
-<path class="line" id="from_policy_policy_to_policy_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1870 C 1525.0 1870 1525.0 1750 1485 1750"><title>from policy policy to policy reference</title></path>
-<path class="line" id="from_policy_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1910 C 782.5 1910 782.5 3590 297 3590"><title>from policy organisation to organisation reference</title></path>
+<path class="line" id="from_design-code-rule_design-code_to_design-code_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 130 C 1525.0 130 1525.0 410 1485 410"><title>from design-code-rule design-code to design-code reference</title></path>
+<path class="line" id="from_design-code-rule_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 230 C 782.5 230 782.5 3590 297 3590"><title>from design-code-rule organisation to organisation reference</title></path>
+<path class="line" id="from_design-code_design-code-status_to_design-code-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 490 C 1822.0 490 1822.0 2510 2159 2510"><title>from design-code design-code-status to design-code-status reference</title></path>
+<path class="line" id="from_design-code_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 570 C 782.5 570 782.5 3590 297 3590"><title>from design-code organisation to organisation reference</title></path>
+<path class="line" id="from_development-policy_development-plan-document_to_development-plan-document_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 830 C 1525.0 830 1525.0 750 1565 750"><title>from development-policy development-plan-document to development-plan-document reference</title></path>
+<path class="line" id="from_development-policy_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 890 C 782.5 890 782.5 3590 297 3590"><title>from development-policy organisation to organisation reference</title></path>
+<path class="line" id="from_planning-application-condition_planning-application_to_planning-application_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1190 C 1228.0 1190 1228.0 11110 1188 11110"><title>from planning-application-condition planning-application to planning-application reference</title></path>
+<path class="line" id="from_planning-application-condition_planning-condition_to_planning-condition_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1210 C 1525.0 1210 1525.0 1430 1485 1430"><title>from planning-application-condition planning-condition to planning-condition reference</title></path>
+<path class="line" id="from_planning-application-condition_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1250 C 782.5 1250 782.5 3590 297 3590"><title>from planning-application-condition organisation to organisation reference</title></path>
+<path class="line" id="from_planning-condition_planning-condition-target_to_planning-condition-target_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1510 C 1822.0 1510 1822.0 9130 2159 9130"><title>from planning-condition planning-condition-target to planning-condition-target reference</title></path>
+<path class="line" id="from_planning-condition_planning-condition-type_to_planning-condition-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1530 C 1822.0 1530 1822.0 9410 2159 9410"><title>from planning-condition planning-condition-type to planning-condition-type reference</title></path>
+<path class="line" id="from_planning-condition_planning-condition-purpose_to_planning-condition-purpose_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1550 C 1822.0 1550 1822.0 8850 2159 8850"><title>from planning-condition planning-condition-purpose to planning-condition-purpose reference</title></path>
+<path class="line" id="from_planning-condition_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1590 C 782.5 1590 782.5 3590 297 3590"><title>from planning-condition organisation to organisation reference</title></path>
+<path class="line" id="from_policy_policy_to_policy_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1890 C 1525.0 1890 1525.0 1770 1485 1770"><title>from policy policy to policy reference</title></path>
+<path class="line" id="from_policy_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1930 C 782.5 1930 782.5 3590 297 3590"><title>from policy organisation to organisation reference</title></path>
 <path class="line" id="from_conservation-area-document_conservation-area_to_conservation-area_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1565 130 C 1376.5 130 1376.5 3850 1188 3850"><title>from conservation-area-document conservation-area to conservation-area reference</title></path>
 <path class="line" id="from_conservation-area-document_document-type_to_conservation-area-document-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1782 150 C 1970.5 150 1970.5 930 2159 930"><title>from conservation-area-document document-type to conservation-area-document-type reference</title></path>
 <path class="line" id="from_conservation-area-document_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1565 230 C 931.0 230 931.0 3590 297 3590"><title>from conservation-area-document organisation to organisation reference</title></path>
@@ -191,7 +191,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_developer-agreement-transaction_developer-agreement-transaction_to_developer-agreement-transaction_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 530 C 2119.0 530 2119.0 410 2079 410"><title>from developer-agreement-transaction developer-agreement-transaction to developer-agreement-transaction reference</title></path>
 <path class="line" id="from_developer-agreement-transaction_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 590 C 1079.5 590 1079.5 3590 297 3590"><title>from developer-agreement-transaction organisation to organisation reference</title></path>
 <path class="line" id="from_development-policy-metric_development-metric_to_development-metric_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 830 C 2119.0 830 2119.0 3030 2159 3030"><title>from development-policy-metric development-metric to development-metric reference</title></path>
-<path class="line" id="from_development-policy-metric_development-policy_to_development-policy_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 850 C 1673.5 850 1673.5 730 1485 730"><title>from development-policy-metric development-policy to development-policy reference</title></path>
+<path class="line" id="from_development-policy-metric_development-policy_to_development-policy_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 850 C 1673.5 850 1673.5 750 1485 750"><title>from development-policy-metric development-policy to development-policy reference</title></path>
 <path class="line" id="from_article-4-direction-rule_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 490 C 1228.0 490 1228.0 3590 297 3590"><title>from article-4-direction-rule organisation to organisation reference</title></path>
 <path class="line" id="from_category_category_to_category_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 730 C 2416.0 730 2416.0 670 2376 670"><title>from category category to category reference</title></path>
 <path class="line" id="from_contribution-purpose_developer-agreement-type_to_developer-agreement-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 1510 C 2416.0 1510 2416.0 2770 2376 2770"><title>from contribution-purpose developer-agreement-type to developer-agreement-type reference</title></path>
@@ -4365,304 +4365,308 @@ text.datatype{fill:#0b0c0c;}
 <text x="1435" y="170" class="datatype">url</text>
 <rect x="1268" y="180" width="162" height="20" class="field"/>
 <rect x="1430" y="180" width="55" height="20" class="datatype"/>
-<text x="1273" y="190" class="field">notes</text>
-<text x="1435" y="190" class="datatype">text</text>
+<text x="1273" y="190" class="field">document-url</text>
+<text x="1435" y="190" class="datatype">url</text>
 <rect x="1268" y="200" width="162" height="20" class="field"/>
 <rect x="1430" y="200" width="55" height="20" class="datatype"/>
-<text x="1273" y="210" class="field">organisation</text>
-<text x="1435" y="210" class="datatype">curie</text>
+<text x="1273" y="210" class="field">notes</text>
+<text x="1435" y="210" class="datatype">text</text>
 <rect x="1268" y="220" width="162" height="20" class="field"/>
 <rect x="1430" y="220" width="55" height="20" class="datatype"/>
-<text x="1273" y="230" class="field">entry-date</text>
-<text x="1435" y="230" class="datatype">datetime</text>
+<text x="1273" y="230" class="field">organisation</text>
+<text x="1435" y="230" class="datatype">curie</text>
 <rect x="1268" y="240" width="162" height="20" class="field"/>
 <rect x="1430" y="240" width="55" height="20" class="datatype"/>
-<text x="1273" y="250" class="field">start-date</text>
+<text x="1273" y="250" class="field">entry-date</text>
 <text x="1435" y="250" class="datatype">datetime</text>
 <rect x="1268" y="260" width="162" height="20" class="field"/>
 <rect x="1430" y="260" width="55" height="20" class="datatype"/>
-<text x="1273" y="270" class="field">end-date</text>
+<text x="1273" y="270" class="field">start-date</text>
 <text x="1435" y="270" class="datatype">datetime</text>
+<rect x="1268" y="280" width="162" height="20" class="field"/>
+<rect x="1430" y="280" width="55" height="20" class="datatype"/>
+<text x="1273" y="290" class="field">end-date</text>
+<text x="1435" y="290" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="1268" y="340" width="217" height="20" class="name"/>
-<text x="1376" y="350" class="name">design-code</text>
-<rect x="1268" y="360" width="162" height="20" class="field"/>
-<rect x="1430" y="360" width="55" height="20" class="datatype"/>
-<text x="1273" y="370" class="field">prefix</text>
-<text x="1435" y="370" class="datatype">string</text>
+<rect x="1268" y="360" width="217" height="20" class="name"/>
+<text x="1376" y="370" class="name">design-code</text>
 <rect x="1268" y="380" width="162" height="20" class="field"/>
 <rect x="1430" y="380" width="55" height="20" class="datatype"/>
-<text x="1273" y="390" class="field">reference</text>
+<text x="1273" y="390" class="field">prefix</text>
 <text x="1435" y="390" class="datatype">string</text>
 <rect x="1268" y="400" width="162" height="20" class="field"/>
 <rect x="1430" y="400" width="55" height="20" class="datatype"/>
-<text x="1273" y="410" class="field">entity</text>
-<text x="1435" y="410" class="datatype">integer</text>
+<text x="1273" y="410" class="field">reference</text>
+<text x="1435" y="410" class="datatype">string</text>
 <rect x="1268" y="420" width="162" height="20" class="field"/>
 <rect x="1430" y="420" width="55" height="20" class="datatype"/>
-<text x="1273" y="430" class="field">name</text>
-<text x="1435" y="430" class="datatype">string</text>
+<text x="1273" y="430" class="field">entity</text>
+<text x="1435" y="430" class="datatype">integer</text>
 <rect x="1268" y="440" width="162" height="20" class="field"/>
 <rect x="1430" y="440" width="55" height="20" class="datatype"/>
-<text x="1273" y="450" class="field">description</text>
+<text x="1273" y="450" class="field">name</text>
 <text x="1435" y="450" class="datatype">string</text>
 <rect x="1268" y="460" width="162" height="20" class="field"/>
 <rect x="1430" y="460" width="55" height="20" class="datatype"/>
-<text x="1273" y="470" class="field">design-code-status</text>
-<text x="1435" y="470" class="datatype">reference</text>
+<text x="1273" y="470" class="field">description</text>
+<text x="1435" y="470" class="datatype">string</text>
 <rect x="1268" y="480" width="162" height="20" class="field"/>
 <rect x="1430" y="480" width="55" height="20" class="datatype"/>
-<text x="1273" y="490" class="field">documentation-url</text>
-<text x="1435" y="490" class="datatype">url</text>
+<text x="1273" y="490" class="field">design-code-status</text>
+<text x="1435" y="490" class="datatype">reference</text>
 <rect x="1268" y="500" width="162" height="20" class="field"/>
 <rect x="1430" y="500" width="55" height="20" class="datatype"/>
-<text x="1273" y="510" class="field">document-url</text>
+<text x="1273" y="510" class="field">documentation-url</text>
 <text x="1435" y="510" class="datatype">url</text>
 <rect x="1268" y="520" width="162" height="20" class="field"/>
 <rect x="1430" y="520" width="55" height="20" class="datatype"/>
-<text x="1273" y="530" class="field">notes</text>
-<text x="1435" y="530" class="datatype">text</text>
+<text x="1273" y="530" class="field">document-url</text>
+<text x="1435" y="530" class="datatype">url</text>
 <rect x="1268" y="540" width="162" height="20" class="field"/>
 <rect x="1430" y="540" width="55" height="20" class="datatype"/>
-<text x="1273" y="550" class="field">organisation</text>
-<text x="1435" y="550" class="datatype">curie</text>
+<text x="1273" y="550" class="field">notes</text>
+<text x="1435" y="550" class="datatype">text</text>
 <rect x="1268" y="560" width="162" height="20" class="field"/>
 <rect x="1430" y="560" width="55" height="20" class="datatype"/>
-<text x="1273" y="570" class="field">entry-date</text>
-<text x="1435" y="570" class="datatype">datetime</text>
+<text x="1273" y="570" class="field">organisation</text>
+<text x="1435" y="570" class="datatype">curie</text>
 <rect x="1268" y="580" width="162" height="20" class="field"/>
 <rect x="1430" y="580" width="55" height="20" class="datatype"/>
-<text x="1273" y="590" class="field">start-date</text>
+<text x="1273" y="590" class="field">entry-date</text>
 <text x="1435" y="590" class="datatype">datetime</text>
 <rect x="1268" y="600" width="162" height="20" class="field"/>
 <rect x="1430" y="600" width="55" height="20" class="datatype"/>
-<text x="1273" y="610" class="field">end-date</text>
+<text x="1273" y="610" class="field">start-date</text>
 <text x="1435" y="610" class="datatype">datetime</text>
+<rect x="1268" y="620" width="162" height="20" class="field"/>
+<rect x="1430" y="620" width="55" height="20" class="datatype"/>
+<text x="1273" y="630" class="field">end-date</text>
+<text x="1435" y="630" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="1268" y="680" width="217" height="20" class="name"/>
-<text x="1376" y="690" class="name">development-policy</text>
-<rect x="1268" y="700" width="162" height="20" class="field"/>
-<rect x="1430" y="700" width="55" height="20" class="datatype"/>
-<text x="1273" y="710" class="field">prefix</text>
-<text x="1435" y="710" class="datatype">string</text>
+<rect x="1268" y="700" width="217" height="20" class="name"/>
+<text x="1376" y="710" class="name">development-policy</text>
 <rect x="1268" y="720" width="162" height="20" class="field"/>
 <rect x="1430" y="720" width="55" height="20" class="datatype"/>
-<text x="1273" y="730" class="field">reference</text>
+<text x="1273" y="730" class="field">prefix</text>
 <text x="1435" y="730" class="datatype">string</text>
 <rect x="1268" y="740" width="162" height="20" class="field"/>
 <rect x="1430" y="740" width="55" height="20" class="datatype"/>
-<text x="1273" y="750" class="field">entity</text>
-<text x="1435" y="750" class="datatype">integer</text>
+<text x="1273" y="750" class="field">reference</text>
+<text x="1435" y="750" class="datatype">string</text>
 <rect x="1268" y="760" width="162" height="20" class="field"/>
 <rect x="1430" y="760" width="55" height="20" class="datatype"/>
-<text x="1273" y="770" class="field">name</text>
-<text x="1435" y="770" class="datatype">string</text>
+<text x="1273" y="770" class="field">entity</text>
+<text x="1435" y="770" class="datatype">integer</text>
 <rect x="1268" y="780" width="162" height="20" class="field"/>
 <rect x="1430" y="780" width="55" height="20" class="datatype"/>
-<text x="1273" y="790" class="field">description</text>
+<text x="1273" y="790" class="field">name</text>
 <text x="1435" y="790" class="datatype">string</text>
 <rect x="1268" y="800" width="162" height="20" class="field"/>
 <rect x="1430" y="800" width="55" height="20" class="datatype"/>
-<text x="1273" y="810" class="field">development-plan-document</text>
-<text x="1435" y="810" class="datatype">reference</text>
+<text x="1273" y="810" class="field">description</text>
+<text x="1435" y="810" class="datatype">string</text>
 <rect x="1268" y="820" width="162" height="20" class="field"/>
 <rect x="1430" y="820" width="55" height="20" class="datatype"/>
-<text x="1273" y="830" class="field">development-policy-categories</text>
-<text x="1435" y="830" class="datatype">reference*</text>
+<text x="1273" y="830" class="field">development-plan-document</text>
+<text x="1435" y="830" class="datatype">reference</text>
 <rect x="1268" y="840" width="162" height="20" class="field"/>
 <rect x="1430" y="840" width="55" height="20" class="datatype"/>
-<text x="1273" y="850" class="field">notes</text>
-<text x="1435" y="850" class="datatype">text</text>
+<text x="1273" y="850" class="field">development-policy-categories</text>
+<text x="1435" y="850" class="datatype">reference*</text>
 <rect x="1268" y="860" width="162" height="20" class="field"/>
 <rect x="1430" y="860" width="55" height="20" class="datatype"/>
-<text x="1273" y="870" class="field">organisation</text>
-<text x="1435" y="870" class="datatype">curie</text>
+<text x="1273" y="870" class="field">notes</text>
+<text x="1435" y="870" class="datatype">text</text>
 <rect x="1268" y="880" width="162" height="20" class="field"/>
 <rect x="1430" y="880" width="55" height="20" class="datatype"/>
-<text x="1273" y="890" class="field">entry-date</text>
-<text x="1435" y="890" class="datatype">datetime</text>
+<text x="1273" y="890" class="field">organisation</text>
+<text x="1435" y="890" class="datatype">curie</text>
 <rect x="1268" y="900" width="162" height="20" class="field"/>
 <rect x="1430" y="900" width="55" height="20" class="datatype"/>
-<text x="1273" y="910" class="field">start-date</text>
+<text x="1273" y="910" class="field">entry-date</text>
 <text x="1435" y="910" class="datatype">datetime</text>
 <rect x="1268" y="920" width="162" height="20" class="field"/>
 <rect x="1430" y="920" width="55" height="20" class="datatype"/>
-<text x="1273" y="930" class="field">end-date</text>
+<text x="1273" y="930" class="field">start-date</text>
 <text x="1435" y="930" class="datatype">datetime</text>
+<rect x="1268" y="940" width="162" height="20" class="field"/>
+<rect x="1430" y="940" width="55" height="20" class="datatype"/>
+<text x="1273" y="950" class="field">end-date</text>
+<text x="1435" y="950" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="1268" y="1000" width="217" height="20" class="name"/>
-<text x="1376" y="1010" class="name">planning-application-condition</text>
-<rect x="1268" y="1020" width="162" height="20" class="field"/>
-<rect x="1430" y="1020" width="55" height="20" class="datatype"/>
-<text x="1273" y="1030" class="field">prefix</text>
-<text x="1435" y="1030" class="datatype">string</text>
+<rect x="1268" y="1020" width="217" height="20" class="name"/>
+<text x="1376" y="1030" class="name">planning-application-condition</text>
 <rect x="1268" y="1040" width="162" height="20" class="field"/>
 <rect x="1430" y="1040" width="55" height="20" class="datatype"/>
-<text x="1273" y="1050" class="field">reference</text>
+<text x="1273" y="1050" class="field">prefix</text>
 <text x="1435" y="1050" class="datatype">string</text>
 <rect x="1268" y="1060" width="162" height="20" class="field"/>
 <rect x="1430" y="1060" width="55" height="20" class="datatype"/>
-<text x="1273" y="1070" class="field">entity</text>
-<text x="1435" y="1070" class="datatype">integer</text>
+<text x="1273" y="1070" class="field">reference</text>
+<text x="1435" y="1070" class="datatype">string</text>
 <rect x="1268" y="1080" width="162" height="20" class="field"/>
 <rect x="1430" y="1080" width="55" height="20" class="datatype"/>
-<text x="1273" y="1090" class="field">name</text>
-<text x="1435" y="1090" class="datatype">string</text>
+<text x="1273" y="1090" class="field">entity</text>
+<text x="1435" y="1090" class="datatype">integer</text>
 <rect x="1268" y="1100" width="162" height="20" class="field"/>
 <rect x="1430" y="1100" width="55" height="20" class="datatype"/>
-<text x="1273" y="1110" class="field">description</text>
+<text x="1273" y="1110" class="field">name</text>
 <text x="1435" y="1110" class="datatype">string</text>
 <rect x="1268" y="1120" width="162" height="20" class="field"/>
 <rect x="1430" y="1120" width="55" height="20" class="datatype"/>
-<text x="1273" y="1130" class="field">applied-date</text>
-<text x="1435" y="1130" class="datatype">datetime</text>
+<text x="1273" y="1130" class="field">description</text>
+<text x="1435" y="1130" class="datatype">string</text>
 <rect x="1268" y="1140" width="162" height="20" class="field"/>
 <rect x="1430" y="1140" width="55" height="20" class="datatype"/>
-<text x="1273" y="1150" class="field">discharged-date</text>
+<text x="1273" y="1150" class="field">applied-date</text>
 <text x="1435" y="1150" class="datatype">datetime</text>
 <rect x="1268" y="1160" width="162" height="20" class="field"/>
 <rect x="1430" y="1160" width="55" height="20" class="datatype"/>
-<text x="1273" y="1170" class="field">planning-application</text>
-<text x="1435" y="1170" class="datatype">reference</text>
+<text x="1273" y="1170" class="field">discharged-date</text>
+<text x="1435" y="1170" class="datatype">datetime</text>
 <rect x="1268" y="1180" width="162" height="20" class="field"/>
 <rect x="1430" y="1180" width="55" height="20" class="datatype"/>
-<text x="1273" y="1190" class="field">planning-condition</text>
+<text x="1273" y="1190" class="field">planning-application</text>
 <text x="1435" y="1190" class="datatype">reference</text>
 <rect x="1268" y="1200" width="162" height="20" class="field"/>
 <rect x="1430" y="1200" width="55" height="20" class="datatype"/>
-<text x="1273" y="1210" class="field">notes</text>
-<text x="1435" y="1210" class="datatype">text</text>
+<text x="1273" y="1210" class="field">planning-condition</text>
+<text x="1435" y="1210" class="datatype">reference</text>
 <rect x="1268" y="1220" width="162" height="20" class="field"/>
 <rect x="1430" y="1220" width="55" height="20" class="datatype"/>
-<text x="1273" y="1230" class="field">organisation</text>
-<text x="1435" y="1230" class="datatype">curie</text>
+<text x="1273" y="1230" class="field">notes</text>
+<text x="1435" y="1230" class="datatype">text</text>
 <rect x="1268" y="1240" width="162" height="20" class="field"/>
 <rect x="1430" y="1240" width="55" height="20" class="datatype"/>
-<text x="1273" y="1250" class="field">entry-date</text>
-<text x="1435" y="1250" class="datatype">datetime</text>
+<text x="1273" y="1250" class="field">organisation</text>
+<text x="1435" y="1250" class="datatype">curie</text>
 <rect x="1268" y="1260" width="162" height="20" class="field"/>
 <rect x="1430" y="1260" width="55" height="20" class="datatype"/>
-<text x="1273" y="1270" class="field">start-date</text>
+<text x="1273" y="1270" class="field">entry-date</text>
 <text x="1435" y="1270" class="datatype">datetime</text>
 <rect x="1268" y="1280" width="162" height="20" class="field"/>
 <rect x="1430" y="1280" width="55" height="20" class="datatype"/>
-<text x="1273" y="1290" class="field">end-date</text>
+<text x="1273" y="1290" class="field">start-date</text>
 <text x="1435" y="1290" class="datatype">datetime</text>
+<rect x="1268" y="1300" width="162" height="20" class="field"/>
+<rect x="1430" y="1300" width="55" height="20" class="datatype"/>
+<text x="1273" y="1310" class="field">end-date</text>
+<text x="1435" y="1310" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="1268" y="1360" width="217" height="20" class="name"/>
-<text x="1376" y="1370" class="name">planning-condition</text>
-<rect x="1268" y="1380" width="162" height="20" class="field"/>
-<rect x="1430" y="1380" width="55" height="20" class="datatype"/>
-<text x="1273" y="1390" class="field">prefix</text>
-<text x="1435" y="1390" class="datatype">string</text>
+<rect x="1268" y="1380" width="217" height="20" class="name"/>
+<text x="1376" y="1390" class="name">planning-condition</text>
 <rect x="1268" y="1400" width="162" height="20" class="field"/>
 <rect x="1430" y="1400" width="55" height="20" class="datatype"/>
-<text x="1273" y="1410" class="field">reference</text>
+<text x="1273" y="1410" class="field">prefix</text>
 <text x="1435" y="1410" class="datatype">string</text>
 <rect x="1268" y="1420" width="162" height="20" class="field"/>
 <rect x="1430" y="1420" width="55" height="20" class="datatype"/>
-<text x="1273" y="1430" class="field">entity</text>
-<text x="1435" y="1430" class="datatype">integer</text>
+<text x="1273" y="1430" class="field">reference</text>
+<text x="1435" y="1430" class="datatype">string</text>
 <rect x="1268" y="1440" width="162" height="20" class="field"/>
 <rect x="1430" y="1440" width="55" height="20" class="datatype"/>
-<text x="1273" y="1450" class="field">name</text>
-<text x="1435" y="1450" class="datatype">string</text>
+<text x="1273" y="1450" class="field">entity</text>
+<text x="1435" y="1450" class="datatype">integer</text>
 <rect x="1268" y="1460" width="162" height="20" class="field"/>
 <rect x="1430" y="1460" width="55" height="20" class="datatype"/>
-<text x="1273" y="1470" class="field">description</text>
+<text x="1273" y="1470" class="field">name</text>
 <text x="1435" y="1470" class="datatype">string</text>
 <rect x="1268" y="1480" width="162" height="20" class="field"/>
 <rect x="1430" y="1480" width="55" height="20" class="datatype"/>
-<text x="1273" y="1490" class="field">planning-condition-target</text>
-<text x="1435" y="1490" class="datatype">reference</text>
+<text x="1273" y="1490" class="field">description</text>
+<text x="1435" y="1490" class="datatype">string</text>
 <rect x="1268" y="1500" width="162" height="20" class="field"/>
 <rect x="1430" y="1500" width="55" height="20" class="datatype"/>
-<text x="1273" y="1510" class="field">planning-condition-type</text>
+<text x="1273" y="1510" class="field">planning-condition-target</text>
 <text x="1435" y="1510" class="datatype">reference</text>
 <rect x="1268" y="1520" width="162" height="20" class="field"/>
 <rect x="1430" y="1520" width="55" height="20" class="datatype"/>
-<text x="1273" y="1530" class="field">planning-condition-purpose</text>
+<text x="1273" y="1530" class="field">planning-condition-type</text>
 <text x="1435" y="1530" class="datatype">reference</text>
 <rect x="1268" y="1540" width="162" height="20" class="field"/>
 <rect x="1430" y="1540" width="55" height="20" class="datatype"/>
-<text x="1273" y="1550" class="field">notes</text>
-<text x="1435" y="1550" class="datatype">text</text>
+<text x="1273" y="1550" class="field">planning-condition-purpose</text>
+<text x="1435" y="1550" class="datatype">reference</text>
 <rect x="1268" y="1560" width="162" height="20" class="field"/>
 <rect x="1430" y="1560" width="55" height="20" class="datatype"/>
-<text x="1273" y="1570" class="field">organisation</text>
-<text x="1435" y="1570" class="datatype">curie</text>
+<text x="1273" y="1570" class="field">notes</text>
+<text x="1435" y="1570" class="datatype">text</text>
 <rect x="1268" y="1580" width="162" height="20" class="field"/>
 <rect x="1430" y="1580" width="55" height="20" class="datatype"/>
-<text x="1273" y="1590" class="field">entry-date</text>
-<text x="1435" y="1590" class="datatype">datetime</text>
+<text x="1273" y="1590" class="field">organisation</text>
+<text x="1435" y="1590" class="datatype">curie</text>
 <rect x="1268" y="1600" width="162" height="20" class="field"/>
 <rect x="1430" y="1600" width="55" height="20" class="datatype"/>
-<text x="1273" y="1610" class="field">start-date</text>
+<text x="1273" y="1610" class="field">entry-date</text>
 <text x="1435" y="1610" class="datatype">datetime</text>
 <rect x="1268" y="1620" width="162" height="20" class="field"/>
 <rect x="1430" y="1620" width="55" height="20" class="datatype"/>
-<text x="1273" y="1630" class="field">end-date</text>
+<text x="1273" y="1630" class="field">start-date</text>
 <text x="1435" y="1630" class="datatype">datetime</text>
+<rect x="1268" y="1640" width="162" height="20" class="field"/>
+<rect x="1430" y="1640" width="55" height="20" class="datatype"/>
+<text x="1273" y="1650" class="field">end-date</text>
+<text x="1435" y="1650" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="1268" y="1700" width="217" height="20" class="name"/>
-<text x="1376" y="1710" class="name">policy</text>
-<rect x="1268" y="1720" width="162" height="20" class="field"/>
-<rect x="1430" y="1720" width="55" height="20" class="datatype"/>
-<text x="1273" y="1730" class="field">prefix</text>
-<text x="1435" y="1730" class="datatype">string</text>
+<rect x="1268" y="1720" width="217" height="20" class="name"/>
+<text x="1376" y="1730" class="name">policy</text>
 <rect x="1268" y="1740" width="162" height="20" class="field"/>
 <rect x="1430" y="1740" width="55" height="20" class="datatype"/>
-<text x="1273" y="1750" class="field">reference</text>
+<text x="1273" y="1750" class="field">prefix</text>
 <text x="1435" y="1750" class="datatype">string</text>
 <rect x="1268" y="1760" width="162" height="20" class="field"/>
 <rect x="1430" y="1760" width="55" height="20" class="datatype"/>
-<text x="1273" y="1770" class="field">entity</text>
-<text x="1435" y="1770" class="datatype">integer</text>
+<text x="1273" y="1770" class="field">reference</text>
+<text x="1435" y="1770" class="datatype">string</text>
 <rect x="1268" y="1780" width="162" height="20" class="field"/>
 <rect x="1430" y="1780" width="55" height="20" class="datatype"/>
-<text x="1273" y="1790" class="field">name</text>
-<text x="1435" y="1790" class="datatype">string</text>
+<text x="1273" y="1790" class="field">entity</text>
+<text x="1435" y="1790" class="datatype">integer</text>
 <rect x="1268" y="1800" width="162" height="20" class="field"/>
 <rect x="1430" y="1800" width="55" height="20" class="datatype"/>
-<text x="1273" y="1810" class="field">description</text>
+<text x="1273" y="1810" class="field">name</text>
 <text x="1435" y="1810" class="datatype">string</text>
 <rect x="1268" y="1820" width="162" height="20" class="field"/>
 <rect x="1430" y="1820" width="55" height="20" class="datatype"/>
-<text x="1273" y="1830" class="field">categories</text>
-<text x="1435" y="1830" class="datatype">reference*</text>
+<text x="1273" y="1830" class="field">description</text>
+<text x="1435" y="1830" class="datatype">string</text>
 <rect x="1268" y="1840" width="162" height="20" class="field"/>
 <rect x="1430" y="1840" width="55" height="20" class="datatype"/>
-<text x="1273" y="1850" class="field">geographies</text>
-<text x="1435" y="1850" class="datatype">curie*</text>
+<text x="1273" y="1850" class="field">categories</text>
+<text x="1435" y="1850" class="datatype">reference*</text>
 <rect x="1268" y="1860" width="162" height="20" class="field"/>
 <rect x="1430" y="1860" width="55" height="20" class="datatype"/>
-<text x="1273" y="1870" class="field">policy</text>
-<text x="1435" y="1870" class="datatype">reference</text>
+<text x="1273" y="1870" class="field">geographies</text>
+<text x="1435" y="1870" class="datatype">curie*</text>
 <rect x="1268" y="1880" width="162" height="20" class="field"/>
 <rect x="1430" y="1880" width="55" height="20" class="datatype"/>
-<text x="1273" y="1890" class="field">notes</text>
-<text x="1435" y="1890" class="datatype">text</text>
+<text x="1273" y="1890" class="field">policy</text>
+<text x="1435" y="1890" class="datatype">reference</text>
 <rect x="1268" y="1900" width="162" height="20" class="field"/>
 <rect x="1430" y="1900" width="55" height="20" class="datatype"/>
-<text x="1273" y="1910" class="field">organisation</text>
-<text x="1435" y="1910" class="datatype">curie</text>
+<text x="1273" y="1910" class="field">notes</text>
+<text x="1435" y="1910" class="datatype">text</text>
 <rect x="1268" y="1920" width="162" height="20" class="field"/>
 <rect x="1430" y="1920" width="55" height="20" class="datatype"/>
-<text x="1273" y="1930" class="field">entry-date</text>
-<text x="1435" y="1930" class="datatype">datetime</text>
+<text x="1273" y="1930" class="field">organisation</text>
+<text x="1435" y="1930" class="datatype">curie</text>
 <rect x="1268" y="1940" width="162" height="20" class="field"/>
 <rect x="1430" y="1940" width="55" height="20" class="datatype"/>
-<text x="1273" y="1950" class="field">start-date</text>
+<text x="1273" y="1950" class="field">entry-date</text>
 <text x="1435" y="1950" class="datatype">datetime</text>
 <rect x="1268" y="1960" width="162" height="20" class="field"/>
 <rect x="1430" y="1960" width="55" height="20" class="datatype"/>
-<text x="1273" y="1970" class="field">end-date</text>
+<text x="1273" y="1970" class="field">start-date</text>
 <text x="1435" y="1970" class="datatype">datetime</text>
+<rect x="1268" y="1980" width="162" height="20" class="field"/>
+<rect x="1430" y="1980" width="55" height="20" class="datatype"/>
+<text x="1273" y="1990" class="field">end-date</text>
+<text x="1435" y="1990" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="1565" y="0" width="217" height="20" class="name"/>
