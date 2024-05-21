@@ -60,7 +60,7 @@ crown-copyright,,combine,Combine a series of facts from multiple entries,,,,,,,o
 crown-copyright,,common-land-and-village-green,,,,,,2700000,2799999,ogl3,Common land and village green,,Common land and village greens,prioritised,,dataset,,,heritage,geography,1.0,Q2259176,Common_land
 crown-copyright,,company,,,,,,2800000,2899999,ogl3,Company,,Companies,prioritised,,dataset,,,administrative,organisation,1.0,,
 crown-copyright,,concat,Concatenate fields during the harmonise phase,,,,,,,ogl3,Pipeline concatenation,,Pipeline concatenations,alpha,,pipeline,,,specification;pipeline,specification,1.0,,
-crown-copyright,,conservation-area-document-type,,,,33,,4210000,4210999,ogl3,Conservation area document type,,Conservation area document types,discovery,,dataset,,,heritage,category,1.0,,
+crown-copyright,conservation-area,conservation-area-document-type,,,,33,,4210000,4210999,ogl3,Conservation area document type,,Conservation area document types,discovery,,dataset,,,heritage,category,1.0,,
 crown-copyright,conservation-area,conservation-area-document,,,,33,,6300000,6399999,ogl3,Conservation area document,,Conservation area documents,discovery,,dataset,,,heritage,document,1.0,,
 historic-england,conservation-area,conservation-area,"Special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",,,33,,44000000,44999999,ogl3,Conservation area,"{ ""colour"": ""#78AA00"" }",Conservation areas,beta,,dataset,,"Local planning authorities are responsible for designating conservation areas, though [Historic England](https://historicengland.org.uk/) and the Secretary of State also have powers to create them.
 
