@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-09-08'
 github-discussion: 33
-version: 1.3.2
+version: 1.4.3
 datasets:
     - dataset: conservation-area
       fields:
@@ -17,6 +17,8 @@ datasets:
           description: the official name for the conservation area
         - field: designation-date
           description: the date that the conservation area was officially designated
+        - field: document-url
+          description: a URL to the authoritative source for the area, this is often a PDF containing a map with the area drawn on it
         - field: documentation-url
           description: a URL to a page on the local planning authority website that provides information about the conservation area
         - field: geometry

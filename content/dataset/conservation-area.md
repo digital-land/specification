@@ -10,6 +10,7 @@ entity-minimum: '44000000'
 entry-date: ''
 fields:
 - field: designation-date
+- field: document-url
 - field: documentation-url
 - field: end-date
 - field: entity
@@ -36,7 +37,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 2.0
+version: 3.0
 wikidata: Q5162904
 wikipedia: Conservation_area_(United_Kingdom)
 ---
