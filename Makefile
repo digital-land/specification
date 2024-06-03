@@ -153,6 +153,16 @@ specification/role-organisation.csv:	bin/role-organisation.py specification/role
 specification/provision.csv:	bin/provision.py specification/provision-rule.csv specification/project.csv specification/role-organisation.csv specification/project-organisation.csv
 	python3 bin/provision.py $@
 
+# LLC project from GOV.UK list
+content/project/local-land-charges.md: var/llc.csv bin/llc-project.py
+	python3 bin/llc-project.py var/llc.csv > $@
+
+var/llc.csv: var/cache/llc.html var/cache/organisation.csv bin/llc-parse.py
+	python3 bin/llc-parse.py var/cache/llc.html $@
+
+var/cache/llc.html:
+	curl -L 'https://www.gov.uk/government/publications/hm-land-registry-local-land-charges-programme/local-land-charges-programme' > $@
+
 # deprecated
 specification/organisation-dataset.csv:        specification/provision.csv
 	cp specification/provision.csv $@
