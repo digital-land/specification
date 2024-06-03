@@ -79,7 +79,7 @@
 <rect x="297" y="80" width="162" height="20" class="field"/>
 <rect x="459" y="80" width="55" height="20" class="datatype"/>
 <text x="302" y="90" class="field">permitted-development-rights</text>
-<text x="464" y="90" class="datatype">string</text>
+<text x="464" y="90" class="datatype">string*</text>
 <rect x="297" y="100" width="162" height="20" class="field"/>
 <rect x="459" y="100" width="55" height="20" class="datatype"/>
 <text x="302" y="110" class="field">uprn</text>
@@ -91,11 +91,11 @@
 <rect x="297" y="140" width="162" height="20" class="field"/>
 <rect x="459" y="140" width="55" height="20" class="datatype"/>
 <text x="302" y="150" class="field">geometry</text>
-<text x="464" y="150" class="datatype">wkt</text>
+<text x="464" y="150" class="datatype">multipolygon</text>
 <rect x="297" y="160" width="162" height="20" class="field"/>
 <rect x="459" y="160" width="55" height="20" class="datatype"/>
 <text x="302" y="170" class="field">point</text>
-<text x="464" y="170" class="datatype">wkt</text>
+<text x="464" y="170" class="datatype">point</text>
 <rect x="297" y="180" width="162" height="20" class="field"/>
 <rect x="459" y="180" width="55" height="20" class="datatype"/>
 <text x="302" y="190" class="field">notes</text>

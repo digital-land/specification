@@ -8,9 +8,6 @@ erDiagram
         string name
         string description
         string organisation
-        string planning-condition-target
-        string planning-condition-type
-        string planning-condition-purpose
         string notes
         date entry-date
         date start-date
@@ -20,8 +17,9 @@ erDiagram
         string reference
         string planning-application
         ref planning-condition
+        string description
         string organisation
-        date applied-date
+        date activation-date
         date discharged-date
         string notes
         date entry-date

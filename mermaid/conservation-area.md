@@ -6,6 +6,8 @@ erDiagram
     conservation-area {
         string reference
         string name
+        date designation-date
+        url document-url
         url documentation-url
         wkt geometry
         wkt point
