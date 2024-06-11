@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-collection: 
+collection: built-up-area
 dataset: built-up-area
 description: 'built-up areas equal to or greater than 20 hectares'
 end-date: ''
