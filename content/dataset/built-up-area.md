@@ -18,6 +18,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+github-discussion: 63
 key-field: ''
 licence: ogl3
 name: Built up area
