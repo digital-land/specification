@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: 'assets-of-community-value'
 dataset: asset-of-community-value
 description: ''
 end-date: ''
