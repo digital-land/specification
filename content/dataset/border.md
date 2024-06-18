@@ -1,7 +1,7 @@
 ---
 attribution: ons-boundary
 collection:
-consideration: ''
+consideration: border
 dataset: border
 description: ''
 end-date: ''

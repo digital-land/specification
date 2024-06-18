@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: infrastructure-project
-consideration: ''
+consideration: nationally-significant-infrastructure-projects
 dataset: infrastructure-project-document
 description: The documents published and produced for a infrastructure project
 end-date: ''

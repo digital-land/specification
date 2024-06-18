@@ -1,7 +1,7 @@
 ---
 attribution: os-open-data
 collection: green-belt
-consideration: ''
+consideration: greenbelt
 dataset: green-belt
 description: ''
 end-date: ''

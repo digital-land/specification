@@ -1,7 +1,7 @@
 ---
 attribution: ons-boundary
 collection: parish
-consideration: ''
+consideration: parish
 dataset: parish
 description: ''
 end-date: ''

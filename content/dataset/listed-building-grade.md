@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: listed-building
-consideration: ''
+consideration: listed-buildings
 dataset: listed-building-grade
 description: ''
 end-date: ''

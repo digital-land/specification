@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: planning-conditions
 dataset: planning-condition-type
 description: The type of the planning condition, for example the removal of permitted
   development rights

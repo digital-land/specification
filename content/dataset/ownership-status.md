@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ownership-status
-consideration: ''
+consideration: brownfield-land
 dataset: ownership-status
 description: ''
 end-date: ''

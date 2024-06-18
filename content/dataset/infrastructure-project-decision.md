@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: infrastructure-project
-consideration: ''
+consideration: nationally-significant-infrastructure-projects
 dataset: infrastructure-project-decision
 description: The types of decision for infrastructure projects
 end-date: ''

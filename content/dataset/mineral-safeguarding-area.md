@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: mineral-safeguarding-areas
 dataset: mineral-safeguarding-area
 description: ''
 end-date: ''

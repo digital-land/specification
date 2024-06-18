@@ -1,7 +1,7 @@
 ---
 attribution: natural-england
 collection: site-of-special-scientific-interest
-consideration: ''
+consideration: sites-of-special-scientific-interest
 dataset: site-of-special-scientific-interest
 description: ''
 end-date: ''

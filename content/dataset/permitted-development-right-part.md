@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: legislation
-consideration: ''
+consideration: permitted-development-rights
 dataset: permitted-development-right-part
 description: ''
 end-date: ''

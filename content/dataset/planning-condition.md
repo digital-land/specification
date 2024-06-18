@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: planning-conditions
 dataset: planning-condition
 description: A condition that is attached to planning permission
 end-date: ''

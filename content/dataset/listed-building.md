@@ -1,7 +1,7 @@
 ---
 attribution: historic-england
 collection: listed-building
-consideration: ''
+consideration: listed-buildings
 dataset: listed-building
 description: ''
 end-date: ''

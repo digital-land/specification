@@ -1,7 +1,7 @@
 ---
 attribution: natural-england
 collection: heritage-coast
-consideration: ''
+consideration: heritage-coast
 dataset: heritage-coast
 description: ''
 end-date: ''

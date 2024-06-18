@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: planning-applications-decisions
 dataset: planning-application-log
 description: The stages a planning application has gone through
 end-date: ''

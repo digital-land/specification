@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: local-plan-policies
 dataset: development-policy-metric
 description: Metrics associated with a development policy
 end-date: ''

@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: protected-views
 dataset: protected-view
 description: ''
 end-date: ''

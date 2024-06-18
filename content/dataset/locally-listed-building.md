@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: listed-building
-consideration: ''
+consideration: locally-listed-buildings
 dataset: locally-listed-building
 description: locally listed heritage assets, including buildings
 end-date: ''

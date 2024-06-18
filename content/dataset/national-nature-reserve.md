@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: national-nature-reserve
-consideration: ''
+consideration: national-nature-reserves
 dataset: national-nature-reserve
 description: ''
 end-date: ''

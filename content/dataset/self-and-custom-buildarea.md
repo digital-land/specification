@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: self-and-custom-build-area
 dataset: self-and-custom-buildarea
 description: ''
 end-date: ''

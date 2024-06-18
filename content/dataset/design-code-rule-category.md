@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: design-code
-consideration: ''
+consideration: design-codes
 dataset: design-code-rule-category
 description: ''
 end-date: ''

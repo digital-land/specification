@@ -1,7 +1,7 @@
 ---
 attribution: historic-england
 collection: historic-england
-consideration: ''
+consideration: certificate-of-immunity
 dataset: certificate-of-immunity
 description: ''
 end-date: ''

@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: non-designated-heritage-asset
 dataset: non-designated-archeology-asset-of-national-importance
 description: ''
 end-date: ''

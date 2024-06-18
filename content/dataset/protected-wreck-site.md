@@ -1,7 +1,7 @@
 ---
 attribution: historic-england
 collection: historic-england
-consideration: ''
+consideration: protected-wreck-sites
 dataset: protected-wreck-site
 description: ''
 end-date: ''

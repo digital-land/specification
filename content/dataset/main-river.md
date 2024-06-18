@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: main-rivers
 dataset: main-river
 description: ''
 end-date: ''

@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: hs2-safeguarded-area
 dataset: hs2-safeguarded-area
 description: ''
 end-date: ''

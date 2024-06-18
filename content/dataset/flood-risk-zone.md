@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: flood-risk-zone
-consideration: ''
+consideration: flood-risk-zones
 dataset: flood-risk-zone
 description: 'Area identified as being at risk of flooding from rivers or the sea'
 end-date: ''

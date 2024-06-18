@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: developer-contributions
-consideration: ''
+consideration: developer-contributions
 dataset: contribution-purpose
 description: ''
 end-date: ''

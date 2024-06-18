@@ -1,7 +1,7 @@
 ---
 attribution: ons-boundary
 collection: local-planning-authority
-consideration: ''
+consideration: local-planning-authority
 dataset: local-planning-authority
 description: ''
 end-date: ''

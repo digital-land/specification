@@ -1,7 +1,7 @@
 ---
 attribution: natural-england
 collection: special-area-of-conservation
-consideration: ''
+consideration: special-areas-of-conservation
 dataset: special-area-of-conservation
 description: ''
 end-date: ''

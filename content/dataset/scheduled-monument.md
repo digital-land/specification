@@ -1,7 +1,7 @@
 ---
 attribution: historic-england
 collection: historic-england
-consideration: ''
+consideration: scheduled-monuments
 dataset: scheduled-monument
 description: ''
 end-date: ''

@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: ''
+consideration: suitable-alternative-natural-greenspace
 dataset: suitable-alternative-green-space
 description: ''
 end-date: ''

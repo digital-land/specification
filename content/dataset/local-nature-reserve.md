@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: local-nature-reserve
-consideration: ''
+consideration: local-nature-reserves
 dataset: local-nature-reserve
 description: ''
 end-date: ''

@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: infrastructure-funding-statement
-consideration: ''
+consideration: infrastructure-funding-statements
 dataset: infrastructure-funding-statement
 description: ''
 end-date: ''
