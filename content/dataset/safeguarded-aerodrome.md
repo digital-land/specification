@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: safeguarded-aerodrome
 description: ''
 end-date: ''

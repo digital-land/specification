@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: old-entity
 description: Redirect an entity or mark it as gone
 end-date: ''

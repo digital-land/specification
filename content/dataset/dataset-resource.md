@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: dataset-resource
 description: An index of resources in a dataset
 end-date: ''

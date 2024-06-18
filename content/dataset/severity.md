@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: severity
 description: severity of a log message or issue
 end-date: ''

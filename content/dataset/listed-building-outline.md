@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: listed-building
+consideration: ''
 dataset: listed-building-outline
 description: boundary of a listed building
 end-date: ''

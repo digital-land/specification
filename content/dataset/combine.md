@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: combine
 description: Combine a series of facts from multiple entries
 end-date: ''

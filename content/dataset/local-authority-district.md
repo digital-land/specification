@@ -1,6 +1,7 @@
 ---
 attribution: ons-boundary
 collection: local-authority-district
+consideration: ''
 dataset: local-authority-district
 description: ''
 end-date: ''

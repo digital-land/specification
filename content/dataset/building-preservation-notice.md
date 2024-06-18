@@ -1,6 +1,7 @@
 ---
 attribution: historic-england
 collection: historic-england
+consideration: ''
 dataset: building-preservation-notice
 description: ''
 end-date: ''

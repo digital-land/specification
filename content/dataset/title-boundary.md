@@ -1,6 +1,7 @@
 ---
 attribution: inspire-index-polygon
 collection: title-boundary
+consideration: ''
 dataset: title-boundary
 description: ''
 end-date: ''

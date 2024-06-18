@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: typology
 description: ''
 end-date: ''
@@ -18,7 +19,7 @@ fields:
 - field: typology
 - field: wikidata
 - field: wikipedia
-key-field: 'typology'
+key-field: typology
 licence: ogl3
 name: Typology
 paint-options: ''

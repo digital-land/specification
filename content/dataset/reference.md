@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: reference
 description: Redirect a prefix and reference to an entity
 end-date: ''

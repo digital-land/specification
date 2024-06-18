@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: planning-condition-target
 description: The target of the condition, for example a property or site
 end-date: ''

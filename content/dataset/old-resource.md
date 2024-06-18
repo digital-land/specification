@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: old-resource
 description: Redirect a resource to a fixed version, or mark it as gone
 end-date: ''

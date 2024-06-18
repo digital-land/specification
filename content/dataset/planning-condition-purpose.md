@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: planning-condition-purpose
 description: The primary purpose of the condition, for example to restrict something
 end-date: ''

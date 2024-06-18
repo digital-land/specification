@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: role-organisation-rule
 description: 'Rules for the organisations with a role'
 end-date: ''

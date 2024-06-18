@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: brownfield-site
+consideration: ''
 dataset: brownfield-site
 description: ''
 end-date: ''

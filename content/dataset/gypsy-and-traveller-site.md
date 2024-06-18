@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: gypsy-and-traveller-site
 description: ''
 end-date: ''

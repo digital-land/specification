@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: article-4-direction
+consideration: ''
 dataset: article-4-direction-area
 description: 'Orders made by the local planning authority to remove all or some of the permitted development rights on a site in order to protect it'
 end-date: ''

@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: heritage-action-zone
 description: ''
 end-date: ''

@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ownership-status
+consideration: ''
 dataset: ownership-status
 description: ''
 end-date: ''

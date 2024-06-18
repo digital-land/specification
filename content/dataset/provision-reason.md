@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: provision-reason
 description: The reason a dataset is provided by an organisation
 end-date: ''

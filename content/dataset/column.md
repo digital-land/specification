@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: column
 description: Map resource column name to dataset field
 end-date: ''

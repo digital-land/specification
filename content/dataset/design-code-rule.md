@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: design-code
+consideration: ''
 dataset: design-code-rule
 description: the set of design code rules affecting a design code area
 end-date: ''

@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: column-field
 description: Log of resource columns mapped to dataset fields
 end-date: ''

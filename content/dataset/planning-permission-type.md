@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: planning-permission-type
+consideration: ''
 dataset: planning-permission-type
 description: ''
 end-date: ''

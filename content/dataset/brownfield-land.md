@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: brownfield-land
+consideration: ''
 dataset: brownfield-land
 description: Land that has been previously been developed
 end-date: ''

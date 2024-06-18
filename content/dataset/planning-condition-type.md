@@ -1,8 +1,10 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: planning-condition-type
-description: The type of the planning condition, for example the removal of permitted development rights
+description: The type of the planning condition, for example the removal of permitted
+  development rights
 end-date: ''
 entity-maximum: '70001000'
 entity-minimum: '70001999'

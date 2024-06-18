@@ -1,8 +1,10 @@
 ---
 attribution: crown-copyright
 collection:
+consideration: ''
 dataset: planning-application-category
-description: 'A planning application category is a high level categorisation of the type of planning application, such as "householder" or "full planning application"'
+description: 'A planning application category is a high level categorisation of the
+  type of planning application, such as "householder" or "full planning application"'
 end-date: ''
 entity-maximum: '3999999'
 entity-minimum: '3900000'

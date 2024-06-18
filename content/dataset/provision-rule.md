@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: provision-rule
 description: 'Rules for the datasets an organisation is expected to priovide'
 end-date: ''

@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection:
+consideration: ''
 dataset: planning-decision
 description: A planning decision
 end-date: ''

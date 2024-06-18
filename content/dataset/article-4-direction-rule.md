@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: 
+consideration: ''
 dataset: article-4-direction-rule
 description: the set of changes to permitted development rights affecting an article
   4 direction area

@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: central-activities-zone
+consideration: ''
 dataset: central-activities-zone
 description: ''
 end-date: ''

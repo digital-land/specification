@@ -1,6 +1,7 @@
 ---
 attribution: historic-england
 collection: historic-england
+consideration: ''
 dataset: world-heritage-site-buffer-zone
 description: ''
 end-date: ''

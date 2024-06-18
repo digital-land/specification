@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: safety-hazard-area
 description: ''
 end-date: ''

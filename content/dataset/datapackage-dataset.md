@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: datapackage-dataset
 description: Datasets included in a datapackage
 end-date: ''

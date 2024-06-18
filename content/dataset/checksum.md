@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: checksum
 description: Checksums of dataset files and other media
 end-date: ''

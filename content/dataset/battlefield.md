@@ -1,6 +1,7 @@
 ---
 attribution: historic-england
 collection: historic-england
+consideration: ''
 dataset: battlefield
 description: ''
 end-date: ''

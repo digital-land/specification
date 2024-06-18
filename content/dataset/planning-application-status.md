@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection:
+consideration: ''
 dataset: planning-application-status
 description: A planning application status
 end-date: ''

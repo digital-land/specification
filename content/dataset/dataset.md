@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: dataset
 description: A collection of entities of the same type
 end-date: ''
@@ -10,6 +11,7 @@ entry-date: ''
 fields:
 - field: attribution
 - field: collection
+- field: consideration
 - field: dataset
 - field: description
 - field: end-date

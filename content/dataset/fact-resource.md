@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: fact-resource
 description: the provenance of a fact
 end-date: ''

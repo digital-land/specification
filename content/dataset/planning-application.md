@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: planning-application
 description: An application for planning permission
 end-date: ''

@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: green-belt
+consideration: ''
 dataset: green-belt-core
 description: ''
 end-date: ''

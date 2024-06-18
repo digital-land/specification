@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: development-plan-geography-type
 description: A type of geography that a development plan covers
 end-date: ''

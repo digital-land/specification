@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: historic-stone-quarry
 description: ''
 end-date: ''

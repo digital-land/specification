@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: ''
+consideration: ''
 dataset: fact
 description: a field and its value for an entity
 end-date: ''

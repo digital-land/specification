@@ -1,6 +1,7 @@
 ---
 attribution: crown-copyright
 collection: organisation
+consideration: ''
 dataset: local-enterprise-partnership
 description: ''
 end-date: ''
