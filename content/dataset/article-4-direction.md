@@ -1,7 +1,7 @@
 ---
 attribution: crown-copyright
 collection: article-4-direction
-consideration: 'article-4-directions'
+consideration: article-4-directions
 dataset: article-4-direction
 description: ''
 end-date: ''
