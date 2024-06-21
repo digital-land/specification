@@ -19,6 +19,7 @@ fields:
 - field: point
 - field: prefix
 - field: reference
+- field: region
 - field: start-date
 github-discussion: 36
 key-field: ''
