@@ -18,7 +18,6 @@ fields:
 - field: prefix
 - field: resource
 - field: start-date
-- field: value
 - field: reference
 key-field: ''
 licence: ogl3
@@ -33,7 +32,7 @@ themes:
 - specification
 - pipeline
 typology: specification
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
