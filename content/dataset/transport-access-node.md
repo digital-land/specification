@@ -14,6 +14,8 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: GeoX
+- field: GeoY
 - field: name
 - field: naptan-code
 - field: notes
@@ -37,7 +39,7 @@ themes:
 - development
 - transport
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
