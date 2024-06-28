@@ -11,6 +11,18 @@ address,notes
 address,prefix
 address,reference
 address,start-date
+agricultural-land-classification,agricultural-land-classification-grade
+agricultural-land-classification,end-date
+agricultural-land-classification,entity
+agricultural-land-classification,entry-date
+agricultural-land-classification,geometry
+agricultural-land-classification,name
+agricultural-land-classification,notes
+agricultural-land-classification,organisation
+agricultural-land-classification,point
+agricultural-land-classification,prefix
+agricultural-land-classification,reference
+agricultural-land-classification,start-date
 ancient-woodland-status,description
 ancient-woodland-status,documentation-url
 ancient-woodland-status,end-date
@@ -1706,7 +1718,6 @@ lookup,organisation
 lookup,prefix
 lookup,resource
 lookup,start-date
-lookup,value
 lookup,reference
 main-river,categories
 main-river,documentation-url
@@ -2770,6 +2781,8 @@ transport-access-node,description
 transport-access-node,end-date
 transport-access-node,entity
 transport-access-node,entry-date
+transport-access-node,GeoX
+transport-access-node,GeoY
 transport-access-node,name
 transport-access-node,naptan-code
 transport-access-node,notes
