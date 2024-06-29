@@ -29,6 +29,8 @@ organisations:
   start-date: 2023-07-20
 - organisation: local-authority:BRM
   start-date: 2021-10-13
+- organisation: local-authority:BRX
+  start-date: 2024-08-01
 - organisation: local-authority:BRT
   start-date: 2024-04-25
 - organisation: local-authority:BUN
@@ -99,6 +101,8 @@ organisations:
   start-date: 2022-11-15
 - organisation: local-authority:MAV
   start-date: 2023-01-12
+- organisation: local-authority:MDW
+  start-date: 2024-07-12
 - organisation: local-authority:MDE
   start-date: 2023-10-10
 - organisation: local-authority:MSU
