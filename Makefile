@@ -163,6 +163,18 @@ var/llc.csv: var/cache/llc.html var/cache/organisation.csv bin/llc-parse.py
 var/cache/llc.html:
 	curl -L 'https://www.gov.uk/government/publications/hm-land-registry-local-land-charges-programme/local-land-charges-programme' > $@
 
+# localgov-drupal project from website list
+content/project/localgov-drupal.md: var/lgd.csv bin/lgd-project.py
+	@mkdir -p var/cache/
+	python3 bin/lgd-project.py var/lgd.csv > $@
+
+var/lgd.csv: var/cache/lgd.html var/cache/organisation.csv bin/lgd-parse.py
+	python3 bin/lgd-parse.py var/cache/lgd.html $@
+
+var/cache/lgd.html:
+	@mkdir -p var/cache/
+	curl -L 'https://localgovdrupal.org/community/our-councils' > $@
+
 # deprecated
 specification/organisation-dataset.csv:        specification/provision.csv
 	cp specification/provision.csv $@
