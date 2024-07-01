@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 
+collection: transport-access-node
 consideration: national-public-transport-access-nodes
 dataset: transport-access-node
 description: 	All public transport access points where you can get on or off public transport
