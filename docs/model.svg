@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1942" height="62760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1942" height="63040">
 <defs>
 <style>
 text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
@@ -858,33 +858,37 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_tree_tree_to_tree_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60510 C 337.0 60510 337.0 60390 297 60390"><title>from tree tree to tree reference</title></path>
 <path class="line" id="from_tree_tree-preservation-order_to_tree-preservation-order_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60530 C 337.0 60530 337.0 59330 297 59330"><title>from tree tree-preservation-order to tree-preservation-order reference</title></path>
 <path class="line" id="from_tree_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60650 C 337.0 60650 337.0 42190 297 42190"><title>from tree organisation to organisation reference</title></path>
-<path class="line" id="from_waste-authority_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60810 C 931.0 60810 931.0 30 1565 30"><title>from waste-authority prefix to prefix prefix</title></path>
-<path class="line" id="from_waste-authority_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60830 C 931.0 60830 931.0 250 1565 250"><title>from waste-authority reference to reference reference</title></path>
-<path class="line" id="from_waste-authority_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60850 C 782.5 60850 782.5 550 1268 550"><title>from waste-authority entity to entity entity</title></path>
-<path class="line" id="from_waste-authority_company_to_company_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60910 C 337.0 60910 337.0 9050 297 9050"><title>from waste-authority company to company reference</title></path>
-<path class="line" id="from_waste-authority_region_to_region_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60970 C 337.0 60970 337.0 52930 297 52930"><title>from waste-authority region to region reference</title></path>
-<path class="line" id="from_wildbelt_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61250 C 931.0 61250 931.0 30 1565 30"><title>from wildbelt prefix to prefix prefix</title></path>
-<path class="line" id="from_wildbelt_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61270 C 931.0 61270 931.0 250 1565 250"><title>from wildbelt reference to reference reference</title></path>
-<path class="line" id="from_wildbelt_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61290 C 782.5 61290 782.5 550 1268 550"><title>from wildbelt entity to entity entity</title></path>
-<path class="line" id="from_wildbelt_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61350 C 337.0 61350 337.0 21970 297 21970"><title>from wildbelt geography to geography reference</title></path>
-<path class="line" id="from_wildbelt_wildbelt_to_wildbelt_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61390 C 337.0 61390 337.0 61270 297 61270"><title>from wildbelt wildbelt to wildbelt reference</title></path>
-<path class="line" id="from_wildbelt_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61490 C 337.0 61490 337.0 42190 297 42190"><title>from wildbelt organisation to organisation reference</title></path>
-<path class="line" id="from_wildlife_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61650 C 931.0 61650 931.0 30 1565 30"><title>from wildlife prefix to prefix prefix</title></path>
-<path class="line" id="from_wildlife_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61670 C 931.0 61670 931.0 250 1565 250"><title>from wildlife reference to reference reference</title></path>
-<path class="line" id="from_wildlife_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61690 C 782.5 61690 782.5 550 1268 550"><title>from wildlife entity to entity entity</title></path>
-<path class="line" id="from_wildlife_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61750 C 337.0 61750 337.0 21970 297 21970"><title>from wildlife geography to geography reference</title></path>
-<path class="line" id="from_wildlife_wildlife_to_wildlife_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61790 C 337.0 61790 337.0 61670 297 61670"><title>from wildlife wildlife to wildlife reference</title></path>
-<path class="line" id="from_wildlife_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61890 C 337.0 61890 337.0 42190 297 42190"><title>from wildlife organisation to organisation reference</title></path>
-<path class="line" id="from_world-heritage-site-buffer-zone_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62050 C 931.0 62050 931.0 30 1565 30"><title>from world-heritage-site-buffer-zone prefix to prefix prefix</title></path>
-<path class="line" id="from_world-heritage-site-buffer-zone_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62070 C 931.0 62070 931.0 250 1565 250"><title>from world-heritage-site-buffer-zone reference to reference reference</title></path>
-<path class="line" id="from_world-heritage-site-buffer-zone_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62090 C 782.5 62090 782.5 550 1268 550"><title>from world-heritage-site-buffer-zone entity to entity entity</title></path>
-<path class="line" id="from_world-heritage-site-buffer-zone_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62130 C 337.0 62130 337.0 21970 297 21970"><title>from world-heritage-site-buffer-zone geography to geography reference</title></path>
-<path class="line" id="from_world-heritage-site-buffer-zone_world-heritage-site_to_world-heritage-site_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62150 C 337.0 62150 337.0 62430 297 62430"><title>from world-heritage-site-buffer-zone world-heritage-site to world-heritage-site reference</title></path>
-<path class="line" id="from_world-heritage-site-buffer-zone_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62250 C 337.0 62250 337.0 42190 297 42190"><title>from world-heritage-site-buffer-zone organisation to organisation reference</title></path>
-<path class="line" id="from_world-heritage-site_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62410 C 931.0 62410 931.0 30 1565 30"><title>from world-heritage-site prefix to prefix prefix</title></path>
-<path class="line" id="from_world-heritage-site_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62430 C 931.0 62430 931.0 250 1565 250"><title>from world-heritage-site reference to reference reference</title></path>
-<path class="line" id="from_world-heritage-site_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62450 C 782.5 62450 782.5 550 1268 550"><title>from world-heritage-site entity to entity entity</title></path>
-<path class="line" id="from_world-heritage-site_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62630 C 337.0 62630 337.0 42190 297 42190"><title>from world-heritage-site organisation to organisation reference</title></path>
+<path class="line" id="from_ward_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60810 C 931.0 60810 931.0 30 1565 30"><title>from ward prefix to prefix prefix</title></path>
+<path class="line" id="from_ward_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60830 C 931.0 60830 931.0 250 1565 250"><title>from ward reference to reference reference</title></path>
+<path class="line" id="from_ward_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60850 C 782.5 60850 782.5 550 1268 550"><title>from ward entity to entity entity</title></path>
+<path class="line" id="from_ward_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 60930 C 337.0 60930 337.0 42190 297 42190"><title>from ward organisation to organisation reference</title></path>
+<path class="line" id="from_waste-authority_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61090 C 931.0 61090 931.0 30 1565 30"><title>from waste-authority prefix to prefix prefix</title></path>
+<path class="line" id="from_waste-authority_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61110 C 931.0 61110 931.0 250 1565 250"><title>from waste-authority reference to reference reference</title></path>
+<path class="line" id="from_waste-authority_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61130 C 782.5 61130 782.5 550 1268 550"><title>from waste-authority entity to entity entity</title></path>
+<path class="line" id="from_waste-authority_company_to_company_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61190 C 337.0 61190 337.0 9050 297 9050"><title>from waste-authority company to company reference</title></path>
+<path class="line" id="from_waste-authority_region_to_region_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61250 C 337.0 61250 337.0 52930 297 52930"><title>from waste-authority region to region reference</title></path>
+<path class="line" id="from_wildbelt_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61530 C 931.0 61530 931.0 30 1565 30"><title>from wildbelt prefix to prefix prefix</title></path>
+<path class="line" id="from_wildbelt_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61550 C 931.0 61550 931.0 250 1565 250"><title>from wildbelt reference to reference reference</title></path>
+<path class="line" id="from_wildbelt_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61570 C 782.5 61570 782.5 550 1268 550"><title>from wildbelt entity to entity entity</title></path>
+<path class="line" id="from_wildbelt_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61630 C 337.0 61630 337.0 21970 297 21970"><title>from wildbelt geography to geography reference</title></path>
+<path class="line" id="from_wildbelt_wildbelt_to_wildbelt_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61670 C 337.0 61670 337.0 61550 297 61550"><title>from wildbelt wildbelt to wildbelt reference</title></path>
+<path class="line" id="from_wildbelt_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61770 C 337.0 61770 337.0 42190 297 42190"><title>from wildbelt organisation to organisation reference</title></path>
+<path class="line" id="from_wildlife_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61930 C 931.0 61930 931.0 30 1565 30"><title>from wildlife prefix to prefix prefix</title></path>
+<path class="line" id="from_wildlife_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61950 C 931.0 61950 931.0 250 1565 250"><title>from wildlife reference to reference reference</title></path>
+<path class="line" id="from_wildlife_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 61970 C 782.5 61970 782.5 550 1268 550"><title>from wildlife entity to entity entity</title></path>
+<path class="line" id="from_wildlife_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62030 C 337.0 62030 337.0 21970 297 21970"><title>from wildlife geography to geography reference</title></path>
+<path class="line" id="from_wildlife_wildlife_to_wildlife_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62070 C 337.0 62070 337.0 61950 297 61950"><title>from wildlife wildlife to wildlife reference</title></path>
+<path class="line" id="from_wildlife_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62170 C 337.0 62170 337.0 42190 297 42190"><title>from wildlife organisation to organisation reference</title></path>
+<path class="line" id="from_world-heritage-site-buffer-zone_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62330 C 931.0 62330 931.0 30 1565 30"><title>from world-heritage-site-buffer-zone prefix to prefix prefix</title></path>
+<path class="line" id="from_world-heritage-site-buffer-zone_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62350 C 931.0 62350 931.0 250 1565 250"><title>from world-heritage-site-buffer-zone reference to reference reference</title></path>
+<path class="line" id="from_world-heritage-site-buffer-zone_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62370 C 782.5 62370 782.5 550 1268 550"><title>from world-heritage-site-buffer-zone entity to entity entity</title></path>
+<path class="line" id="from_world-heritage-site-buffer-zone_geography_to_geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62410 C 337.0 62410 337.0 21970 297 21970"><title>from world-heritage-site-buffer-zone geography to geography reference</title></path>
+<path class="line" id="from_world-heritage-site-buffer-zone_world-heritage-site_to_world-heritage-site_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62430 C 337.0 62430 337.0 62710 297 62710"><title>from world-heritage-site-buffer-zone world-heritage-site to world-heritage-site reference</title></path>
+<path class="line" id="from_world-heritage-site-buffer-zone_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62530 C 337.0 62530 337.0 42190 297 42190"><title>from world-heritage-site-buffer-zone organisation to organisation reference</title></path>
+<path class="line" id="from_world-heritage-site_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62690 C 931.0 62690 931.0 30 1565 30"><title>from world-heritage-site prefix to prefix prefix</title></path>
+<path class="line" id="from_world-heritage-site_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62710 C 931.0 62710 931.0 250 1565 250"><title>from world-heritage-site reference to reference reference</title></path>
+<path class="line" id="from_world-heritage-site_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62730 C 782.5 62730 782.5 550 1268 550"><title>from world-heritage-site entity to entity entity</title></path>
+<path class="line" id="from_world-heritage-site_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 62910 C 337.0 62910 337.0 42190 297 42190"><title>from world-heritage-site organisation to organisation reference</title></path>
 <path class="line" id="from_log_endpoint_to_endpoint_endpoint" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 350 C 634.0 350 634.0 50 594 50"><title>from log endpoint to endpoint endpoint</title></path>
 <path class="line" id="from_log_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 370 C 634.0 370 634.0 890 594 890"><title>from log resource to resource resource</title></path>
 <path class="line" id="from_old-resource_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 570 C 634.0 570 634.0 890 594 890"><title>from old-resource resource to resource resource</title></path>
@@ -11142,7 +11146,7 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="80" y="60780" width="217" height="20" class="name"/>
-<text x="188" y="60790" class="name">waste-authority</text>
+<text x="188" y="60790" class="name">ward</text>
 <rect x="80" y="60800" width="162" height="20" class="field"/>
 <rect x="242" y="60800" width="55" height="20" class="datatype"/>
 <text x="85" y="60810" class="field">prefix</text>
@@ -11161,320 +11165,364 @@ text.datatype{fill:#0b0c0c;}
 <text x="247" y="60870" class="datatype">string</text>
 <rect x="80" y="60880" width="162" height="20" class="field"/>
 <rect x="242" y="60880" width="55" height="20" class="datatype"/>
-<text x="85" y="60890" class="field">billing-authority</text>
-<text x="247" y="60890" class="datatype">string</text>
+<text x="85" y="60890" class="field">geometry</text>
+<text x="247" y="60890" class="datatype">multipolygon</text>
 <rect x="80" y="60900" width="162" height="20" class="field"/>
 <rect x="242" y="60900" width="55" height="20" class="datatype"/>
-<text x="85" y="60910" class="field">company</text>
-<text x="247" y="60910" class="datatype">reference</text>
+<text x="85" y="60910" class="field">notes</text>
+<text x="247" y="60910" class="datatype">text</text>
 <rect x="80" y="60920" width="162" height="20" class="field"/>
 <rect x="242" y="60920" width="55" height="20" class="datatype"/>
-<text x="85" y="60930" class="field">opendatacommunities-uri</text>
-<text x="247" y="60930" class="datatype">url</text>
+<text x="85" y="60930" class="field">organisation</text>
+<text x="247" y="60930" class="datatype">curie</text>
 <rect x="80" y="60940" width="162" height="20" class="field"/>
 <rect x="242" y="60940" width="55" height="20" class="datatype"/>
-<text x="85" y="60950" class="field">parliament-thesaurus</text>
-<text x="247" y="60950" class="datatype">string</text>
+<text x="85" y="60950" class="field">entry-date</text>
+<text x="247" y="60950" class="datatype">datetime</text>
 <rect x="80" y="60960" width="162" height="20" class="field"/>
 <rect x="242" y="60960" width="55" height="20" class="datatype"/>
-<text x="85" y="60970" class="field">region</text>
-<text x="247" y="60970" class="datatype">reference</text>
+<text x="85" y="60970" class="field">start-date</text>
+<text x="247" y="60970" class="datatype">datetime</text>
 <rect x="80" y="60980" width="162" height="20" class="field"/>
 <rect x="242" y="60980" width="55" height="20" class="datatype"/>
-<text x="85" y="60990" class="field">statistical-geography</text>
-<text x="247" y="60990" class="datatype">string</text>
-<rect x="80" y="61000" width="162" height="20" class="field"/>
-<rect x="242" y="61000" width="55" height="20" class="datatype"/>
-<text x="85" y="61010" class="field">twitter</text>
-<text x="247" y="61010" class="datatype">string</text>
-<rect x="80" y="61020" width="162" height="20" class="field"/>
-<rect x="242" y="61020" width="55" height="20" class="datatype"/>
-<text x="85" y="61030" class="field">website</text>
-<text x="247" y="61030" class="datatype">url</text>
-<rect x="80" y="61040" width="162" height="20" class="field"/>
-<rect x="242" y="61040" width="55" height="20" class="datatype"/>
-<text x="85" y="61050" class="field">wikidata</text>
-<text x="247" y="61050" class="datatype">string</text>
-<rect x="80" y="61060" width="162" height="20" class="field"/>
-<rect x="242" y="61060" width="55" height="20" class="datatype"/>
-<text x="85" y="61070" class="field">wikipedia</text>
-<text x="247" y="61070" class="datatype">string</text>
-<rect x="80" y="61080" width="162" height="20" class="field"/>
-<rect x="242" y="61080" width="55" height="20" class="datatype"/>
-<text x="85" y="61090" class="field">notes</text>
-<text x="247" y="61090" class="datatype">text</text>
-<rect x="80" y="61100" width="162" height="20" class="field"/>
-<rect x="242" y="61100" width="55" height="20" class="datatype"/>
-<text x="85" y="61110" class="field">entry-date</text>
-<text x="247" y="61110" class="datatype">datetime</text>
-<rect x="80" y="61120" width="162" height="20" class="field"/>
-<rect x="242" y="61120" width="55" height="20" class="datatype"/>
-<text x="85" y="61130" class="field">start-date</text>
-<text x="247" y="61130" class="datatype">datetime</text>
-<rect x="80" y="61140" width="162" height="20" class="field"/>
-<rect x="242" y="61140" width="55" height="20" class="datatype"/>
-<text x="85" y="61150" class="field">end-date</text>
-<text x="247" y="61150" class="datatype">datetime</text>
+<text x="85" y="60990" class="field">end-date</text>
+<text x="247" y="60990" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="80" y="61220" width="217" height="20" class="name"/>
-<text x="188" y="61230" class="name">wildbelt</text>
+<rect x="80" y="61060" width="217" height="20" class="name"/>
+<text x="188" y="61070" class="name">waste-authority</text>
+<rect x="80" y="61080" width="162" height="20" class="field"/>
+<rect x="242" y="61080" width="55" height="20" class="datatype"/>
+<text x="85" y="61090" class="field">prefix</text>
+<text x="247" y="61090" class="datatype">reference</text>
+<rect x="80" y="61100" width="162" height="20" class="field"/>
+<rect x="242" y="61100" width="55" height="20" class="datatype"/>
+<text x="85" y="61110" class="field">reference</text>
+<text x="247" y="61110" class="datatype">string</text>
+<rect x="80" y="61120" width="162" height="20" class="field"/>
+<rect x="242" y="61120" width="55" height="20" class="datatype"/>
+<text x="85" y="61130" class="field">entity</text>
+<text x="247" y="61130" class="datatype">reference</text>
+<rect x="80" y="61140" width="162" height="20" class="field"/>
+<rect x="242" y="61140" width="55" height="20" class="datatype"/>
+<text x="85" y="61150" class="field">name</text>
+<text x="247" y="61150" class="datatype">string</text>
+<rect x="80" y="61160" width="162" height="20" class="field"/>
+<rect x="242" y="61160" width="55" height="20" class="datatype"/>
+<text x="85" y="61170" class="field">billing-authority</text>
+<text x="247" y="61170" class="datatype">string</text>
+<rect x="80" y="61180" width="162" height="20" class="field"/>
+<rect x="242" y="61180" width="55" height="20" class="datatype"/>
+<text x="85" y="61190" class="field">company</text>
+<text x="247" y="61190" class="datatype">reference</text>
+<rect x="80" y="61200" width="162" height="20" class="field"/>
+<rect x="242" y="61200" width="55" height="20" class="datatype"/>
+<text x="85" y="61210" class="field">opendatacommunities-uri</text>
+<text x="247" y="61210" class="datatype">url</text>
+<rect x="80" y="61220" width="162" height="20" class="field"/>
+<rect x="242" y="61220" width="55" height="20" class="datatype"/>
+<text x="85" y="61230" class="field">parliament-thesaurus</text>
+<text x="247" y="61230" class="datatype">string</text>
 <rect x="80" y="61240" width="162" height="20" class="field"/>
 <rect x="242" y="61240" width="55" height="20" class="datatype"/>
-<text x="85" y="61250" class="field">prefix</text>
+<text x="85" y="61250" class="field">region</text>
 <text x="247" y="61250" class="datatype">reference</text>
 <rect x="80" y="61260" width="162" height="20" class="field"/>
 <rect x="242" y="61260" width="55" height="20" class="datatype"/>
-<text x="85" y="61270" class="field">reference</text>
+<text x="85" y="61270" class="field">statistical-geography</text>
 <text x="247" y="61270" class="datatype">string</text>
 <rect x="80" y="61280" width="162" height="20" class="field"/>
 <rect x="242" y="61280" width="55" height="20" class="datatype"/>
-<text x="85" y="61290" class="field">entity</text>
-<text x="247" y="61290" class="datatype">reference</text>
+<text x="85" y="61290" class="field">twitter</text>
+<text x="247" y="61290" class="datatype">string</text>
 <rect x="80" y="61300" width="162" height="20" class="field"/>
 <rect x="242" y="61300" width="55" height="20" class="datatype"/>
-<text x="85" y="61310" class="field">name</text>
-<text x="247" y="61310" class="datatype">string</text>
+<text x="85" y="61310" class="field">website</text>
+<text x="247" y="61310" class="datatype">url</text>
 <rect x="80" y="61320" width="162" height="20" class="field"/>
 <rect x="242" y="61320" width="55" height="20" class="datatype"/>
-<text x="85" y="61330" class="field">categories</text>
-<text x="247" y="61330" class="datatype">reference*</text>
+<text x="85" y="61330" class="field">wikidata</text>
+<text x="247" y="61330" class="datatype">string</text>
 <rect x="80" y="61340" width="162" height="20" class="field"/>
 <rect x="242" y="61340" width="55" height="20" class="datatype"/>
-<text x="85" y="61350" class="field">geography</text>
-<text x="247" y="61350" class="datatype">curie</text>
+<text x="85" y="61350" class="field">wikipedia</text>
+<text x="247" y="61350" class="datatype">string</text>
 <rect x="80" y="61360" width="162" height="20" class="field"/>
 <rect x="242" y="61360" width="55" height="20" class="datatype"/>
-<text x="85" y="61370" class="field">legislation</text>
-<text x="247" y="61370" class="datatype">string</text>
+<text x="85" y="61370" class="field">notes</text>
+<text x="247" y="61370" class="datatype">text</text>
 <rect x="80" y="61380" width="162" height="20" class="field"/>
 <rect x="242" y="61380" width="55" height="20" class="datatype"/>
-<text x="85" y="61390" class="field">wildbelt</text>
-<text x="247" y="61390" class="datatype">reference</text>
+<text x="85" y="61390" class="field">entry-date</text>
+<text x="247" y="61390" class="datatype">datetime</text>
 <rect x="80" y="61400" width="162" height="20" class="field"/>
 <rect x="242" y="61400" width="55" height="20" class="datatype"/>
-<text x="85" y="61410" class="field">geometry</text>
-<text x="247" y="61410" class="datatype">multipolygon</text>
+<text x="85" y="61410" class="field">start-date</text>
+<text x="247" y="61410" class="datatype">datetime</text>
 <rect x="80" y="61420" width="162" height="20" class="field"/>
 <rect x="242" y="61420" width="55" height="20" class="datatype"/>
-<text x="85" y="61430" class="field">point</text>
-<text x="247" y="61430" class="datatype">point</text>
-<rect x="80" y="61440" width="162" height="20" class="field"/>
-<rect x="242" y="61440" width="55" height="20" class="datatype"/>
-<text x="85" y="61450" class="field">documentation-url</text>
-<text x="247" y="61450" class="datatype">url</text>
-<rect x="80" y="61460" width="162" height="20" class="field"/>
-<rect x="242" y="61460" width="55" height="20" class="datatype"/>
-<text x="85" y="61470" class="field">notes</text>
-<text x="247" y="61470" class="datatype">text</text>
-<rect x="80" y="61480" width="162" height="20" class="field"/>
-<rect x="242" y="61480" width="55" height="20" class="datatype"/>
-<text x="85" y="61490" class="field">organisation</text>
-<text x="247" y="61490" class="datatype">curie</text>
-<rect x="80" y="61500" width="162" height="20" class="field"/>
-<rect x="242" y="61500" width="55" height="20" class="datatype"/>
-<text x="85" y="61510" class="field">entry-date</text>
-<text x="247" y="61510" class="datatype">datetime</text>
+<text x="85" y="61430" class="field">end-date</text>
+<text x="247" y="61430" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="80" y="61500" width="217" height="20" class="name"/>
+<text x="188" y="61510" class="name">wildbelt</text>
 <rect x="80" y="61520" width="162" height="20" class="field"/>
 <rect x="242" y="61520" width="55" height="20" class="datatype"/>
-<text x="85" y="61530" class="field">start-date</text>
-<text x="247" y="61530" class="datatype">datetime</text>
+<text x="85" y="61530" class="field">prefix</text>
+<text x="247" y="61530" class="datatype">reference</text>
 <rect x="80" y="61540" width="162" height="20" class="field"/>
 <rect x="242" y="61540" width="55" height="20" class="datatype"/>
-<text x="85" y="61550" class="field">end-date</text>
-<text x="247" y="61550" class="datatype">datetime</text>
-</g>
-<g>
-<rect x="80" y="61620" width="217" height="20" class="name"/>
-<text x="188" y="61630" class="name">wildlife</text>
+<text x="85" y="61550" class="field">reference</text>
+<text x="247" y="61550" class="datatype">string</text>
+<rect x="80" y="61560" width="162" height="20" class="field"/>
+<rect x="242" y="61560" width="55" height="20" class="datatype"/>
+<text x="85" y="61570" class="field">entity</text>
+<text x="247" y="61570" class="datatype">reference</text>
+<rect x="80" y="61580" width="162" height="20" class="field"/>
+<rect x="242" y="61580" width="55" height="20" class="datatype"/>
+<text x="85" y="61590" class="field">name</text>
+<text x="247" y="61590" class="datatype">string</text>
+<rect x="80" y="61600" width="162" height="20" class="field"/>
+<rect x="242" y="61600" width="55" height="20" class="datatype"/>
+<text x="85" y="61610" class="field">categories</text>
+<text x="247" y="61610" class="datatype">reference*</text>
+<rect x="80" y="61620" width="162" height="20" class="field"/>
+<rect x="242" y="61620" width="55" height="20" class="datatype"/>
+<text x="85" y="61630" class="field">geography</text>
+<text x="247" y="61630" class="datatype">curie</text>
 <rect x="80" y="61640" width="162" height="20" class="field"/>
 <rect x="242" y="61640" width="55" height="20" class="datatype"/>
-<text x="85" y="61650" class="field">prefix</text>
-<text x="247" y="61650" class="datatype">reference</text>
+<text x="85" y="61650" class="field">legislation</text>
+<text x="247" y="61650" class="datatype">string</text>
 <rect x="80" y="61660" width="162" height="20" class="field"/>
 <rect x="242" y="61660" width="55" height="20" class="datatype"/>
-<text x="85" y="61670" class="field">reference</text>
-<text x="247" y="61670" class="datatype">string</text>
+<text x="85" y="61670" class="field">wildbelt</text>
+<text x="247" y="61670" class="datatype">reference</text>
 <rect x="80" y="61680" width="162" height="20" class="field"/>
 <rect x="242" y="61680" width="55" height="20" class="datatype"/>
-<text x="85" y="61690" class="field">entity</text>
-<text x="247" y="61690" class="datatype">reference</text>
+<text x="85" y="61690" class="field">geometry</text>
+<text x="247" y="61690" class="datatype">multipolygon</text>
 <rect x="80" y="61700" width="162" height="20" class="field"/>
 <rect x="242" y="61700" width="55" height="20" class="datatype"/>
-<text x="85" y="61710" class="field">name</text>
-<text x="247" y="61710" class="datatype">string</text>
+<text x="85" y="61710" class="field">point</text>
+<text x="247" y="61710" class="datatype">point</text>
 <rect x="80" y="61720" width="162" height="20" class="field"/>
 <rect x="242" y="61720" width="55" height="20" class="datatype"/>
-<text x="85" y="61730" class="field">categories</text>
-<text x="247" y="61730" class="datatype">reference*</text>
+<text x="85" y="61730" class="field">documentation-url</text>
+<text x="247" y="61730" class="datatype">url</text>
 <rect x="80" y="61740" width="162" height="20" class="field"/>
 <rect x="242" y="61740" width="55" height="20" class="datatype"/>
-<text x="85" y="61750" class="field">geography</text>
-<text x="247" y="61750" class="datatype">curie</text>
+<text x="85" y="61750" class="field">notes</text>
+<text x="247" y="61750" class="datatype">text</text>
 <rect x="80" y="61760" width="162" height="20" class="field"/>
 <rect x="242" y="61760" width="55" height="20" class="datatype"/>
-<text x="85" y="61770" class="field">legislation</text>
-<text x="247" y="61770" class="datatype">string</text>
+<text x="85" y="61770" class="field">organisation</text>
+<text x="247" y="61770" class="datatype">curie</text>
 <rect x="80" y="61780" width="162" height="20" class="field"/>
 <rect x="242" y="61780" width="55" height="20" class="datatype"/>
-<text x="85" y="61790" class="field">wildlife</text>
-<text x="247" y="61790" class="datatype">reference</text>
+<text x="85" y="61790" class="field">entry-date</text>
+<text x="247" y="61790" class="datatype">datetime</text>
 <rect x="80" y="61800" width="162" height="20" class="field"/>
 <rect x="242" y="61800" width="55" height="20" class="datatype"/>
-<text x="85" y="61810" class="field">geometry</text>
-<text x="247" y="61810" class="datatype">multipolygon</text>
+<text x="85" y="61810" class="field">start-date</text>
+<text x="247" y="61810" class="datatype">datetime</text>
 <rect x="80" y="61820" width="162" height="20" class="field"/>
 <rect x="242" y="61820" width="55" height="20" class="datatype"/>
-<text x="85" y="61830" class="field">point</text>
-<text x="247" y="61830" class="datatype">point</text>
-<rect x="80" y="61840" width="162" height="20" class="field"/>
-<rect x="242" y="61840" width="55" height="20" class="datatype"/>
-<text x="85" y="61850" class="field">documentation-url</text>
-<text x="247" y="61850" class="datatype">url</text>
-<rect x="80" y="61860" width="162" height="20" class="field"/>
-<rect x="242" y="61860" width="55" height="20" class="datatype"/>
-<text x="85" y="61870" class="field">notes</text>
-<text x="247" y="61870" class="datatype">text</text>
-<rect x="80" y="61880" width="162" height="20" class="field"/>
-<rect x="242" y="61880" width="55" height="20" class="datatype"/>
-<text x="85" y="61890" class="field">organisation</text>
-<text x="247" y="61890" class="datatype">curie</text>
-<rect x="80" y="61900" width="162" height="20" class="field"/>
-<rect x="242" y="61900" width="55" height="20" class="datatype"/>
-<text x="85" y="61910" class="field">entry-date</text>
-<text x="247" y="61910" class="datatype">datetime</text>
+<text x="85" y="61830" class="field">end-date</text>
+<text x="247" y="61830" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="80" y="61900" width="217" height="20" class="name"/>
+<text x="188" y="61910" class="name">wildlife</text>
 <rect x="80" y="61920" width="162" height="20" class="field"/>
 <rect x="242" y="61920" width="55" height="20" class="datatype"/>
-<text x="85" y="61930" class="field">start-date</text>
-<text x="247" y="61930" class="datatype">datetime</text>
+<text x="85" y="61930" class="field">prefix</text>
+<text x="247" y="61930" class="datatype">reference</text>
 <rect x="80" y="61940" width="162" height="20" class="field"/>
 <rect x="242" y="61940" width="55" height="20" class="datatype"/>
-<text x="85" y="61950" class="field">end-date</text>
-<text x="247" y="61950" class="datatype">datetime</text>
-</g>
-<g>
-<rect x="80" y="62020" width="217" height="20" class="name"/>
-<text x="188" y="62030" class="name">world-heritage-site-buffer-zone</text>
+<text x="85" y="61950" class="field">reference</text>
+<text x="247" y="61950" class="datatype">string</text>
+<rect x="80" y="61960" width="162" height="20" class="field"/>
+<rect x="242" y="61960" width="55" height="20" class="datatype"/>
+<text x="85" y="61970" class="field">entity</text>
+<text x="247" y="61970" class="datatype">reference</text>
+<rect x="80" y="61980" width="162" height="20" class="field"/>
+<rect x="242" y="61980" width="55" height="20" class="datatype"/>
+<text x="85" y="61990" class="field">name</text>
+<text x="247" y="61990" class="datatype">string</text>
+<rect x="80" y="62000" width="162" height="20" class="field"/>
+<rect x="242" y="62000" width="55" height="20" class="datatype"/>
+<text x="85" y="62010" class="field">categories</text>
+<text x="247" y="62010" class="datatype">reference*</text>
+<rect x="80" y="62020" width="162" height="20" class="field"/>
+<rect x="242" y="62020" width="55" height="20" class="datatype"/>
+<text x="85" y="62030" class="field">geography</text>
+<text x="247" y="62030" class="datatype">curie</text>
 <rect x="80" y="62040" width="162" height="20" class="field"/>
 <rect x="242" y="62040" width="55" height="20" class="datatype"/>
-<text x="85" y="62050" class="field">prefix</text>
-<text x="247" y="62050" class="datatype">reference</text>
+<text x="85" y="62050" class="field">legislation</text>
+<text x="247" y="62050" class="datatype">string</text>
 <rect x="80" y="62060" width="162" height="20" class="field"/>
 <rect x="242" y="62060" width="55" height="20" class="datatype"/>
-<text x="85" y="62070" class="field">reference</text>
-<text x="247" y="62070" class="datatype">string</text>
+<text x="85" y="62070" class="field">wildlife</text>
+<text x="247" y="62070" class="datatype">reference</text>
 <rect x="80" y="62080" width="162" height="20" class="field"/>
 <rect x="242" y="62080" width="55" height="20" class="datatype"/>
-<text x="85" y="62090" class="field">entity</text>
-<text x="247" y="62090" class="datatype">reference</text>
+<text x="85" y="62090" class="field">geometry</text>
+<text x="247" y="62090" class="datatype">multipolygon</text>
 <rect x="80" y="62100" width="162" height="20" class="field"/>
 <rect x="242" y="62100" width="55" height="20" class="datatype"/>
-<text x="85" y="62110" class="field">name</text>
-<text x="247" y="62110" class="datatype">string</text>
+<text x="85" y="62110" class="field">point</text>
+<text x="247" y="62110" class="datatype">point</text>
 <rect x="80" y="62120" width="162" height="20" class="field"/>
 <rect x="242" y="62120" width="55" height="20" class="datatype"/>
-<text x="85" y="62130" class="field">geography</text>
-<text x="247" y="62130" class="datatype">curie</text>
+<text x="85" y="62130" class="field">documentation-url</text>
+<text x="247" y="62130" class="datatype">url</text>
 <rect x="80" y="62140" width="162" height="20" class="field"/>
 <rect x="242" y="62140" width="55" height="20" class="datatype"/>
-<text x="85" y="62150" class="field">world-heritage-site</text>
-<text x="247" y="62150" class="datatype">reference</text>
+<text x="85" y="62150" class="field">notes</text>
+<text x="247" y="62150" class="datatype">text</text>
 <rect x="80" y="62160" width="162" height="20" class="field"/>
 <rect x="242" y="62160" width="55" height="20" class="datatype"/>
-<text x="85" y="62170" class="field">geometry</text>
-<text x="247" y="62170" class="datatype">multipolygon</text>
+<text x="85" y="62170" class="field">organisation</text>
+<text x="247" y="62170" class="datatype">curie</text>
 <rect x="80" y="62180" width="162" height="20" class="field"/>
 <rect x="242" y="62180" width="55" height="20" class="datatype"/>
-<text x="85" y="62190" class="field">point</text>
-<text x="247" y="62190" class="datatype">point</text>
+<text x="85" y="62190" class="field">entry-date</text>
+<text x="247" y="62190" class="datatype">datetime</text>
 <rect x="80" y="62200" width="162" height="20" class="field"/>
 <rect x="242" y="62200" width="55" height="20" class="datatype"/>
-<text x="85" y="62210" class="field">documentation-url</text>
-<text x="247" y="62210" class="datatype">url</text>
+<text x="85" y="62210" class="field">start-date</text>
+<text x="247" y="62210" class="datatype">datetime</text>
 <rect x="80" y="62220" width="162" height="20" class="field"/>
 <rect x="242" y="62220" width="55" height="20" class="datatype"/>
-<text x="85" y="62230" class="field">notes</text>
-<text x="247" y="62230" class="datatype">text</text>
-<rect x="80" y="62240" width="162" height="20" class="field"/>
-<rect x="242" y="62240" width="55" height="20" class="datatype"/>
-<text x="85" y="62250" class="field">organisation</text>
-<text x="247" y="62250" class="datatype">curie</text>
-<rect x="80" y="62260" width="162" height="20" class="field"/>
-<rect x="242" y="62260" width="55" height="20" class="datatype"/>
-<text x="85" y="62270" class="field">entry-date</text>
-<text x="247" y="62270" class="datatype">datetime</text>
-<rect x="80" y="62280" width="162" height="20" class="field"/>
-<rect x="242" y="62280" width="55" height="20" class="datatype"/>
-<text x="85" y="62290" class="field">start-date</text>
-<text x="247" y="62290" class="datatype">datetime</text>
-<rect x="80" y="62300" width="162" height="20" class="field"/>
-<rect x="242" y="62300" width="55" height="20" class="datatype"/>
-<text x="85" y="62310" class="field">end-date</text>
-<text x="247" y="62310" class="datatype">datetime</text>
+<text x="85" y="62230" class="field">end-date</text>
+<text x="247" y="62230" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="80" y="62380" width="217" height="20" class="name"/>
-<text x="188" y="62390" class="name">world-heritage-site</text>
+<rect x="80" y="62300" width="217" height="20" class="name"/>
+<text x="188" y="62310" class="name">world-heritage-site-buffer-zone</text>
+<rect x="80" y="62320" width="162" height="20" class="field"/>
+<rect x="242" y="62320" width="55" height="20" class="datatype"/>
+<text x="85" y="62330" class="field">prefix</text>
+<text x="247" y="62330" class="datatype">reference</text>
+<rect x="80" y="62340" width="162" height="20" class="field"/>
+<rect x="242" y="62340" width="55" height="20" class="datatype"/>
+<text x="85" y="62350" class="field">reference</text>
+<text x="247" y="62350" class="datatype">string</text>
+<rect x="80" y="62360" width="162" height="20" class="field"/>
+<rect x="242" y="62360" width="55" height="20" class="datatype"/>
+<text x="85" y="62370" class="field">entity</text>
+<text x="247" y="62370" class="datatype">reference</text>
+<rect x="80" y="62380" width="162" height="20" class="field"/>
+<rect x="242" y="62380" width="55" height="20" class="datatype"/>
+<text x="85" y="62390" class="field">name</text>
+<text x="247" y="62390" class="datatype">string</text>
 <rect x="80" y="62400" width="162" height="20" class="field"/>
 <rect x="242" y="62400" width="55" height="20" class="datatype"/>
-<text x="85" y="62410" class="field">prefix</text>
-<text x="247" y="62410" class="datatype">reference</text>
+<text x="85" y="62410" class="field">geography</text>
+<text x="247" y="62410" class="datatype">curie</text>
 <rect x="80" y="62420" width="162" height="20" class="field"/>
 <rect x="242" y="62420" width="55" height="20" class="datatype"/>
-<text x="85" y="62430" class="field">reference</text>
-<text x="247" y="62430" class="datatype">string</text>
+<text x="85" y="62430" class="field">world-heritage-site</text>
+<text x="247" y="62430" class="datatype">reference</text>
 <rect x="80" y="62440" width="162" height="20" class="field"/>
 <rect x="242" y="62440" width="55" height="20" class="datatype"/>
-<text x="85" y="62450" class="field">entity</text>
-<text x="247" y="62450" class="datatype">reference</text>
+<text x="85" y="62450" class="field">geometry</text>
+<text x="247" y="62450" class="datatype">multipolygon</text>
 <rect x="80" y="62460" width="162" height="20" class="field"/>
 <rect x="242" y="62460" width="55" height="20" class="datatype"/>
-<text x="85" y="62470" class="field">name</text>
-<text x="247" y="62470" class="datatype">string</text>
+<text x="85" y="62470" class="field">point</text>
+<text x="247" y="62470" class="datatype">point</text>
 <rect x="80" y="62480" width="162" height="20" class="field"/>
 <rect x="242" y="62480" width="55" height="20" class="datatype"/>
-<text x="85" y="62490" class="field">wikidata</text>
-<text x="247" y="62490" class="datatype">string</text>
+<text x="85" y="62490" class="field">documentation-url</text>
+<text x="247" y="62490" class="datatype">url</text>
 <rect x="80" y="62500" width="162" height="20" class="field"/>
 <rect x="242" y="62500" width="55" height="20" class="datatype"/>
-<text x="85" y="62510" class="field">wikipedia</text>
-<text x="247" y="62510" class="datatype">string</text>
+<text x="85" y="62510" class="field">notes</text>
+<text x="247" y="62510" class="datatype">text</text>
 <rect x="80" y="62520" width="162" height="20" class="field"/>
 <rect x="242" y="62520" width="55" height="20" class="datatype"/>
-<text x="85" y="62530" class="field">world-heritage-convention-site</text>
-<text x="247" y="62530" class="datatype">string</text>
+<text x="85" y="62530" class="field">organisation</text>
+<text x="247" y="62530" class="datatype">curie</text>
 <rect x="80" y="62540" width="162" height="20" class="field"/>
 <rect x="242" y="62540" width="55" height="20" class="datatype"/>
-<text x="85" y="62550" class="field">geometry</text>
-<text x="247" y="62550" class="datatype">multipolygon</text>
+<text x="85" y="62550" class="field">entry-date</text>
+<text x="247" y="62550" class="datatype">datetime</text>
 <rect x="80" y="62560" width="162" height="20" class="field"/>
 <rect x="242" y="62560" width="55" height="20" class="datatype"/>
-<text x="85" y="62570" class="field">point</text>
-<text x="247" y="62570" class="datatype">point</text>
+<text x="85" y="62570" class="field">start-date</text>
+<text x="247" y="62570" class="datatype">datetime</text>
 <rect x="80" y="62580" width="162" height="20" class="field"/>
 <rect x="242" y="62580" width="55" height="20" class="datatype"/>
-<text x="85" y="62590" class="field">documentation-url</text>
-<text x="247" y="62590" class="datatype">url</text>
-<rect x="80" y="62600" width="162" height="20" class="field"/>
-<rect x="242" y="62600" width="55" height="20" class="datatype"/>
-<text x="85" y="62610" class="field">notes</text>
-<text x="247" y="62610" class="datatype">text</text>
-<rect x="80" y="62620" width="162" height="20" class="field"/>
-<rect x="242" y="62620" width="55" height="20" class="datatype"/>
-<text x="85" y="62630" class="field">organisation</text>
-<text x="247" y="62630" class="datatype">curie</text>
-<rect x="80" y="62640" width="162" height="20" class="field"/>
-<rect x="242" y="62640" width="55" height="20" class="datatype"/>
-<text x="85" y="62650" class="field">entry-date</text>
-<text x="247" y="62650" class="datatype">datetime</text>
-<rect x="80" y="62660" width="162" height="20" class="field"/>
-<rect x="242" y="62660" width="55" height="20" class="datatype"/>
-<text x="85" y="62670" class="field">start-date</text>
-<text x="247" y="62670" class="datatype">datetime</text>
+<text x="85" y="62590" class="field">end-date</text>
+<text x="247" y="62590" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="80" y="62660" width="217" height="20" class="name"/>
+<text x="188" y="62670" class="name">world-heritage-site</text>
 <rect x="80" y="62680" width="162" height="20" class="field"/>
 <rect x="242" y="62680" width="55" height="20" class="datatype"/>
-<text x="85" y="62690" class="field">end-date</text>
-<text x="247" y="62690" class="datatype">datetime</text>
+<text x="85" y="62690" class="field">prefix</text>
+<text x="247" y="62690" class="datatype">reference</text>
+<rect x="80" y="62700" width="162" height="20" class="field"/>
+<rect x="242" y="62700" width="55" height="20" class="datatype"/>
+<text x="85" y="62710" class="field">reference</text>
+<text x="247" y="62710" class="datatype">string</text>
+<rect x="80" y="62720" width="162" height="20" class="field"/>
+<rect x="242" y="62720" width="55" height="20" class="datatype"/>
+<text x="85" y="62730" class="field">entity</text>
+<text x="247" y="62730" class="datatype">reference</text>
+<rect x="80" y="62740" width="162" height="20" class="field"/>
+<rect x="242" y="62740" width="55" height="20" class="datatype"/>
+<text x="85" y="62750" class="field">name</text>
+<text x="247" y="62750" class="datatype">string</text>
+<rect x="80" y="62760" width="162" height="20" class="field"/>
+<rect x="242" y="62760" width="55" height="20" class="datatype"/>
+<text x="85" y="62770" class="field">wikidata</text>
+<text x="247" y="62770" class="datatype">string</text>
+<rect x="80" y="62780" width="162" height="20" class="field"/>
+<rect x="242" y="62780" width="55" height="20" class="datatype"/>
+<text x="85" y="62790" class="field">wikipedia</text>
+<text x="247" y="62790" class="datatype">string</text>
+<rect x="80" y="62800" width="162" height="20" class="field"/>
+<rect x="242" y="62800" width="55" height="20" class="datatype"/>
+<text x="85" y="62810" class="field">world-heritage-convention-site</text>
+<text x="247" y="62810" class="datatype">string</text>
+<rect x="80" y="62820" width="162" height="20" class="field"/>
+<rect x="242" y="62820" width="55" height="20" class="datatype"/>
+<text x="85" y="62830" class="field">geometry</text>
+<text x="247" y="62830" class="datatype">multipolygon</text>
+<rect x="80" y="62840" width="162" height="20" class="field"/>
+<rect x="242" y="62840" width="55" height="20" class="datatype"/>
+<text x="85" y="62850" class="field">point</text>
+<text x="247" y="62850" class="datatype">point</text>
+<rect x="80" y="62860" width="162" height="20" class="field"/>
+<rect x="242" y="62860" width="55" height="20" class="datatype"/>
+<text x="85" y="62870" class="field">documentation-url</text>
+<text x="247" y="62870" class="datatype">url</text>
+<rect x="80" y="62880" width="162" height="20" class="field"/>
+<rect x="242" y="62880" width="55" height="20" class="datatype"/>
+<text x="85" y="62890" class="field">notes</text>
+<text x="247" y="62890" class="datatype">text</text>
+<rect x="80" y="62900" width="162" height="20" class="field"/>
+<rect x="242" y="62900" width="55" height="20" class="datatype"/>
+<text x="85" y="62910" class="field">organisation</text>
+<text x="247" y="62910" class="datatype">curie</text>
+<rect x="80" y="62920" width="162" height="20" class="field"/>
+<rect x="242" y="62920" width="55" height="20" class="datatype"/>
+<text x="85" y="62930" class="field">entry-date</text>
+<text x="247" y="62930" class="datatype">datetime</text>
+<rect x="80" y="62940" width="162" height="20" class="field"/>
+<rect x="242" y="62940" width="55" height="20" class="datatype"/>
+<text x="85" y="62950" class="field">start-date</text>
+<text x="247" y="62950" class="datatype">datetime</text>
+<rect x="80" y="62960" width="162" height="20" class="field"/>
+<rect x="242" y="62960" width="55" height="20" class="datatype"/>
+<text x="85" y="62970" class="field">end-date</text>
+<text x="247" y="62970" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="377" y="0" width="217" height="20" class="name"/>
