@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-collection: ''
+collection: border
 consideration: border
 dataset: border
 description: ''
