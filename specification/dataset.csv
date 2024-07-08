@@ -342,7 +342,7 @@ Each [tree preservation order](/dataset/tree-preservation-order) may apply to a 
 
 This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for tree preservation orders](https://www.digital-land.info/guidance/specifications/tree-preservation-order).",environment,geography,1.0,Q10884,Tree
 crown-copyright,,,typology,,,,,typology,15600000,15699999,ogl3,Typology,,Typologies,alpha,,specification,,,specification,specification,1.0,,
-ons-boundary,,council-wards,ward,Local areas that have been divided for voting purposes,,2024-07-02,,,800000,899999,ogl3,Ward,"{ ""colour"": ""#3DA52C"" }",Wards,alpha,statistical-geography,dataset,,"Boundaries for Wards, in the United Kingdom",administrative,geography,1.0,,
+ons-boundary,ward,council-wards,ward,Local areas that have been divided for voting purposes,,2024-07-02,,,800000,899999,ogl3,Ward,"{ ""colour"": ""#3DA52C"" }",Wards,alpha,statistical-geography,dataset,,"Boundaries for Wards, in the United Kingdom",administrative,geography,1.0,,
 crown-copyright,organisation,,waste-authority,,,,,,15800000,15899999,ogl3,Waste disposal authority,,Waste authorities,beta,wikidata,dataset,,"An organisation responsible for municipal waste collection and disposal.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,Q7972817,Waste_disposal_authority
 crown-copyright,,wildbelt-designations,wildbelt,,,,,,15900000,15999999,ogl3,Wildbelt,,Wildbelts,prioritised,,dataset,,,environment,geography,1.0,,
