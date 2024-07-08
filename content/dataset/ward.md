@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-collection: 
+collection: ward
 consideration: council-wards
 dataset: ward
 description: Local areas that have been divided for voting purposes
