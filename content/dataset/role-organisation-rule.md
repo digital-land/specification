@@ -20,6 +20,8 @@ fields:
   guidance: "Match the organisation with this CURIE. A blank value matches any organisation."
 - field: priority
   guidance: "Rules with a lower number trump those with a larger value."
+- field: role
+  guidance: "Role assigned by the rule"
 - field: reference
 - field: start-date
 key-field: 'reference'
