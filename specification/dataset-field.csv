@@ -2552,6 +2552,7 @@ role-organisation-rule,local-authority-type,,Match organisations with this value
 role-organisation-rule,notes,,,
 role-organisation-rule,organisation,,Match the organisation with this CURIE. A blank value matches any organisation.,
 role-organisation-rule,priority,,Rules with a lower number trump those with a larger value.,
+role-organisation-rule,role,,Role assigned by the rule,
 role-organisation-rule,reference,,,
 role-organisation-rule,start-date,,,
 role-organisation,end-date,,,
