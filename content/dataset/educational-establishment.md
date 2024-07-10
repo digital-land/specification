@@ -1,0 +1,47 @@
+---
+attribution: crown-copyright
+collection: 
+consideration: educational-establishment
+dataset: educational-establishment
+description: ''
+end-date: ''
+entity-maximum: 3499999
+entity-minimum: 3100000
+entry-date: '2024-07-09'
+fields:
+- field: end-date
+- field: entity
+- field: entry-date
+- field: educational-establishment-number
+- field: educational-establishment-status
+- field: educational-establishment-type
+- field: local-authority-district
+- field: name
+- field: notes
+- field: open-date
+- field: organisation
+- field: point
+- field: prefix
+- field: reference
+- field: school-capacity
+- field: start-date
+- field: uprn
+- field: website-url
+- field: ward
+key-field: ''
+licence: ogl3
+name: Educational establishments
+paint-options: ''
+phase: alpha
+plural: Educational establishments
+prefix: 
+realm: dataset
+start-date: ''
+themes:
+- administrative
+typology: geography
+version: 1.0
+wikidata: 
+wikipedia: 
+---
+
