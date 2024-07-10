@@ -28,6 +28,8 @@ fields:
 - field: uprn
 - field: website-url
 - field: ward
+- field: GeoX
+- field: GeoY
 key-field: ''
 licence: ogl3
 name: Educational establishments
@@ -40,7 +42,7 @@ start-date: ''
 themes:
 - administrative
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: 
 wikipedia: 
 ---
