@@ -2,6 +2,7 @@ import os
 import glob
 import frontmatter
 
+
 def extract_ranges_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         dataset = frontmatter.load(file)
@@ -9,8 +10,8 @@ def extract_ranges_from_file(file_path):
         if 'entity-maximum' in dataset and dataset['entity-maximum'] != '' and 'entity-minimum' in dataset and dataset['entity-minimum'] != '':
             return {
                 'name': dataset.get('name', 'Unknown'),
-                'maximum': int(dataset['entity-maximum']),
-                'minimum': int(dataset['entity-minimum'])
+                'maximum': int(dataset['entity-maximum']) if dataset['entity-maximum'] is not None else 0,
+                'minimum': int(dataset['entity-minimum']) if dataset['entity-minimum'] is not None else 0
             }
 
     return None
