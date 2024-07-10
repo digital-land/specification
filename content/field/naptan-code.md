@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: A 7 digital code given to each transport access node that can be included in an SMS
+description: A 7 or 8 digital code given to each transport access node that can be included in an SMS
 end-date: ''
 entry-date: ''
 field: naptan-code
