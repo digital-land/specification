@@ -105,7 +105,13 @@ def check_field_typology():
 
 
 def check_datasets():
+    print("Checking datasets...")
     for dataset, d in tables["dataset"].items():
+        # if dataset has been ended we don't need to include in checks
+        if d.get('end-date'):
+            print("Skipping check of", dataset, "[end-date:", d.get('end-date'), "]")
+            continue
+
         if not d.get("version"):
             error("dataset '%s' missing version number" % (dataset))
 
@@ -140,7 +146,8 @@ def check_datasets():
                 for _dataset, _d in tables["dataset"].items():
                     _minimum = Decimal(_d.get("entity-minimum", "") or 0)
                     _maximum = Decimal(_d.get("entity-maximum", "") or 0)
-                    if _dataset != dataset and _minimum and _maximum:
+                    if _dataset != dataset and _minimum and _maximum and _d['end-date'] == '':
+
                         if (
                             minimum <= _minimum <= maximum
                             or minimum <= _maximum <= maximum
