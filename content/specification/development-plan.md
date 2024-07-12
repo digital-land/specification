@@ -7,16 +7,20 @@ start-date: ''
 end-date: ''
 entry-date: '2023-04-05'
 github-discussion: 26
-version: 2.4.4
+version: 3.5.5
 datasets:
-    - dataset: development-plan-geography
-      name: Development plan geography
+    - dataset: development-plan-boundary
+      name: Development plan boundary
       fields:
           - field: reference
           - field: name
           - field: geometry
-          - field: development-plan-geography-type
+          - field: development-plan-boundary-type
+            dataset: development-plan-boundary-type
+            description: the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`
           - field: description
+          - field: organisation
+            description: reference to the organisation responsible for the designation
           - field: entry-date
           - field: start-date
           - field: end-date
