@@ -4,7 +4,7 @@ collection: ''
 consideration: development-plans-and-timetables
 dataset: development-plan-geography
 description: A geography that a development plan covers
-end-date: ''
+end-date: '2024-07-12'
 entity-maximum: '3099999'
 entity-minimum: '3010000'
 entry-date: '2023-09-19'
@@ -30,7 +30,7 @@ phase: alpha
 plural: Development plan geographies
 prefix: ''
 realm: dataset
-replacement-dataset: ''
+replacement-dataset: 'development-plan-boundary'
 start-date: ''
 themes:
 - development

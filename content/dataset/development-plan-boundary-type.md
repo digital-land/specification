@@ -2,12 +2,12 @@
 attribution: crown-copyright
 collection: ''
 consideration: development-plans-and-timetables
-dataset: development-plan-geography-type
-description: A type of geography that a development plan covers
-end-date: '2024-07-12'
+dataset: development-plan-boundary-type
+description: A type of boundary covered by the development plan
+end-date: ''
 entity-maximum: '3009999'
 entity-minimum: '3000000'
-entry-date: '2023-09-21'
+entry-date: '2024-07-12'
 fields:
 - field: end-date
 - field: entity
@@ -21,13 +21,13 @@ fields:
 github-discussion: 26
 key-field: ''
 licence: ogl3
-name: Development plan geography type
+name: Development plan boundary type
 paint-options: ''
 phase: alpha
-plural: Development plan geography types
+plural: Development plan boundary types
 prefix: ''
 realm: dataset
-replacement-dataset: 'development-plan-boundary-type'
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

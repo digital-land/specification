@@ -4,12 +4,12 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: '2024-07-12'
-field: development-plan-geography-type
+field: development-plan-boundary-type
 guidance: ''
 hint: ''
-name: Development plan geography type
+name: Development plan boundary type
 parent-field: category
-replacement-field: 'development-plan-boundary-type'
+replacement-field: ''
 start-date: ''
 typology: category
 uri-template: ''
