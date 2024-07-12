@@ -28,6 +28,7 @@ phase: beta
 plural: Borders
 prefix: statistical-geography
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

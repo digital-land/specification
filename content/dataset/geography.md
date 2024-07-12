@@ -32,6 +32,7 @@ phase: alpha
 plural: Geographies
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes: []
 typology: geography

@@ -33,6 +33,7 @@ phase: beta
 plural: Sites of special scientific interest
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

@@ -27,6 +27,7 @@ phase: live
 plural: Planning permission statuses
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

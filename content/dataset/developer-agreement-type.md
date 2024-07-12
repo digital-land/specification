@@ -27,6 +27,7 @@ phase: beta
 plural: Developer agreement types
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

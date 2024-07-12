@@ -23,6 +23,7 @@ phase: alpha
 plural: Fact resources
 prefix: ''
 realm: provenance
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

@@ -27,6 +27,7 @@ phase: beta
 plural: Tree preservation zone types
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

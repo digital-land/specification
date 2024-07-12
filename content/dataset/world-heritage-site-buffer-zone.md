@@ -31,6 +31,7 @@ phase: beta
 plural: World heritage site buffer zones
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

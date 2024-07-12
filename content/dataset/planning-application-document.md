@@ -33,6 +33,7 @@ phase: alpha
 plural: Planning application documents
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

@@ -35,6 +35,7 @@ phase: beta
 plural: Waste authorities
 prefix: wikidata
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

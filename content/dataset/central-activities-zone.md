@@ -30,6 +30,7 @@ phase: beta
 plural: Central activities zones
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

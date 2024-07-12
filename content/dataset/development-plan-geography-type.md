@@ -27,6 +27,7 @@ phase: alpha
 plural: Development plan geography types
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

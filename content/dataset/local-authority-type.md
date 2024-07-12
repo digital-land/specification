@@ -28,6 +28,7 @@ phase: beta
 plural: Local authority types
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

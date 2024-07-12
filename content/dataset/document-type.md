@@ -27,6 +27,7 @@ phase: beta
 plural: Document types
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

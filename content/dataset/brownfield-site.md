@@ -34,6 +34,7 @@ phase: discovery
 plural: Brownfield sites
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

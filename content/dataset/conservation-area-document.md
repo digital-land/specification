@@ -33,6 +33,7 @@ phase: discovery
 plural: Conservation area documents
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

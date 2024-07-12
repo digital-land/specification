@@ -35,6 +35,7 @@ phase: beta
 plural: Development corporations
 prefix: wikidata
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

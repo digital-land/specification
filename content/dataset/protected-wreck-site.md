@@ -29,6 +29,7 @@ phase: beta
 plural: Protected wreck sites
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

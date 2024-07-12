@@ -28,6 +28,7 @@ phase: beta
 plural: Built up areas
 prefix: statistical-geography
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - housing

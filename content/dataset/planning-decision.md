@@ -26,6 +26,7 @@ phase: discovery
 plural: Planning decision
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - housing

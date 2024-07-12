@@ -24,6 +24,7 @@ phase: alpha
 plural: Entity redirections
 prefix: ''
 realm: pipeline
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

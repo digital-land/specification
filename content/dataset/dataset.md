@@ -27,6 +27,7 @@ fields:
 - field: phase
 - field: prefix
 - field: realm
+- field: replacement-dataset
 - field: start-date
 - field: text
 - field: themes
@@ -42,6 +43,7 @@ phase: alpha
 plural: Datasets
 prefix: ''
 realm: specification
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

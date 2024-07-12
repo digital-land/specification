@@ -23,6 +23,7 @@ phase: alpha
 plural: CURIE prefixes
 prefix: ''
 realm: entity
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

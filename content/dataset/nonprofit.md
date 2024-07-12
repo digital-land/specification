@@ -31,6 +31,7 @@ phase: beta
 plural: Nonprofit organisations
 prefix: wikidata
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

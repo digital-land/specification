@@ -30,6 +30,7 @@ phase: alpha
 plural: Forest inventory
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

@@ -32,6 +32,7 @@ phase: beta
 plural: World heritage sites
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

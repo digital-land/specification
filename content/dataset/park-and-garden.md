@@ -30,6 +30,7 @@ phase: beta
 plural: Parks and gardens
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

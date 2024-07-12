@@ -30,6 +30,7 @@ phase: alpha
 plural: Agricultural land classifications
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

@@ -34,6 +34,7 @@ phase: beta
 plural: Conservation areas
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

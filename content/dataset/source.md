@@ -28,6 +28,7 @@ phase: alpha
 plural: Sources
 prefix: ''
 realm: collection
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

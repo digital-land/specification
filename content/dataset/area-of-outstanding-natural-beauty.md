@@ -37,6 +37,7 @@ phase: beta
 plural: Areas of outstanding natural beauty
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

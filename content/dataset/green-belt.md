@@ -30,6 +30,7 @@ phase: beta
 plural: Green belt
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

@@ -34,6 +34,7 @@ phase: alpha
 plural: Public transport access node
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

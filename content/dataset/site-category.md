@@ -27,6 +27,7 @@ phase: beta
 plural: Site categories
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - development

@@ -33,6 +33,7 @@ phase: beta
 plural: Special protection areas
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

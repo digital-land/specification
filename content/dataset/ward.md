@@ -27,6 +27,7 @@ phase: alpha
 plural: Wards
 prefix: statistical-geography
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

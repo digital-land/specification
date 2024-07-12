@@ -24,6 +24,7 @@ phase: alpha
 plural: Pipleline default fields
 prefix: ''
 realm: pipeline
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

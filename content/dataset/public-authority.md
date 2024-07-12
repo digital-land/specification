@@ -32,6 +32,7 @@ phase: beta
 plural: Public authorities
 prefix: wikidata
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

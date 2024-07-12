@@ -27,6 +27,7 @@ phase: beta
 plural: National parks
 prefix: statistical-geography
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

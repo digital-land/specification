@@ -22,6 +22,7 @@ phase: alpha
 plural: Dataset schemas
 prefix: ''
 realm: specification
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

@@ -34,6 +34,7 @@ phase: beta
 plural: Regional park authorities
 prefix: wikidata
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

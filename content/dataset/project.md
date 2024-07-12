@@ -27,6 +27,7 @@ phase: alpha
 plural: Projects
 prefix: ''
 realm: specification
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

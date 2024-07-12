@@ -30,6 +30,7 @@ phase: alpha
 plural: Local nature reserves
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

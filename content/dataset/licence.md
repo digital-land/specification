@@ -23,6 +23,7 @@ phase: alpha
 plural: Licences
 prefix: ''
 realm: specification
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

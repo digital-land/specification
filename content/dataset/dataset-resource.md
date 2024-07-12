@@ -25,6 +25,7 @@ phase: alpha
 plural: Dataset resources
 prefix: ''
 realm: specification
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

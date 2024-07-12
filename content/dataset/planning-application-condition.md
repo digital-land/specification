@@ -31,6 +31,7 @@ phase: discovery
 plural: Planning application conditions
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - housing

@@ -31,6 +31,7 @@ phase: beta
 plural: Civil parishes
 prefix: statistical-geography
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

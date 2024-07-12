@@ -30,6 +30,7 @@ phase: alpha
 plural: National nature reserves
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment

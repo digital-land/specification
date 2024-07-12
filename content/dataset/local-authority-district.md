@@ -33,6 +33,7 @@ phase: beta
 plural: Local authority districts
 prefix: statistical-geography
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

@@ -26,6 +26,7 @@ phase: alpha
 plural: Endpoints
 prefix: ''
 realm: collection
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

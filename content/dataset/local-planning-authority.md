@@ -30,6 +30,7 @@ phase: beta
 plural: Local planning authorities
 prefix: statistical-geography
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - administrative

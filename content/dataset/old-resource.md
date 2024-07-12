@@ -24,6 +24,7 @@ phase: alpha
 plural: Resource redirections
 prefix: ''
 realm: collection
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

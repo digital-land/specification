@@ -20,6 +20,7 @@ phase: alpha
 plural: Collections
 prefix: ''
 realm: specification
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

@@ -33,6 +33,7 @@ phase: beta
 plural: Scheduled monuments
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

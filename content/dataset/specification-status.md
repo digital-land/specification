@@ -23,6 +23,7 @@ phase: alpha
 plural: Specification statuses
 prefix: ''
 realm: specification
+replacement-dataset: ''
 start-date: ''
 themes:
 - specification

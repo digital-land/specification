@@ -33,6 +33,7 @@ phase: beta
 plural: Special areas of conservation
 prefix: ''
 realm: dataset
+replacement-dataset: ''
 start-date: ''
 themes:
 - environment
