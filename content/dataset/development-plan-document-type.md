@@ -22,7 +22,7 @@ github-discussion: 26
 licence: ogl3
 name: Development plan document type
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Development plan document types
 prefix: ''
 realm: dataset

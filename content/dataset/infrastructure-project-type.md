@@ -21,7 +21,7 @@ fields:
 licence: ogl3
 name: Infrastructure project type
 paint-options: ''
-phase: discovery
+phase: beta
 plural: Infrastructure project types
 prefix: ''
 realm: dataset

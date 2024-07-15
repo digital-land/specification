@@ -22,7 +22,7 @@ github-discussion: 25
 licence: ogl3
 name: Planning decision
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Planning decision
 prefix: ''
 realm: dataset

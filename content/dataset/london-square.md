@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: London square
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: London squares
 prefix: ''
 realm: dataset

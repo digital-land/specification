@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Non-designated archeology asset of national importance
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Non-designated archeology assets of national importance
 prefix: ''
 realm: dataset

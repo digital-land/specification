@@ -30,7 +30,7 @@ key-field: ''
 licence: ogl3
 name: Brownfield site
 paint-options: '{ "colour": "#745729" }'
-phase: discovery
+phase: alpha
 plural: Brownfield sites
 prefix: ''
 realm: dataset

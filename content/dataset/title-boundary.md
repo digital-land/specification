@@ -25,7 +25,7 @@ key-field: ''
 licence: ogl3
 name: Title boundary
 paint-options: ''
-phase: alpha
+phase: beta
 plural: Title boundaries
 prefix: ''
 realm: dataset

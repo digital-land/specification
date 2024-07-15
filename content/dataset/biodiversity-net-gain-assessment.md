@@ -28,7 +28,7 @@ key-field: ''
 licence: ogl3
 name: Biodiversity net gain assesment
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Biodiversity net gain assesments
 prefix: ''
 realm: dataset

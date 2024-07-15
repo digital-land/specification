@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Protected view
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Protected views
 prefix: ''
 realm: dataset

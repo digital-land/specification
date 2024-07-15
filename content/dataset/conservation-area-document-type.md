@@ -23,7 +23,7 @@ key-field: ''
 licence: ogl3
 name: Conservation area document type
 paint-options: ''
-phase: discovery
+phase: beta
 plural: Conservation area document types
 prefix: ''
 realm: dataset

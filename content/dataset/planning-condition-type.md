@@ -24,7 +24,7 @@ github-discussion: 40
 licence: ogl3
 name: Planning condition type
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Planning condition types
 prefix: ''
 realm: dataset

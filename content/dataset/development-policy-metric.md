@@ -26,7 +26,7 @@ key-field: ''
 licence: ogl3
 name: Development policy metric
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Development policy metrics
 prefix: ''
 realm: dataset

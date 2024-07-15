@@ -28,7 +28,7 @@ key-field: ''
 licence: ogl3
 name: Ancient woodland
 paint-options: '{ "colour": "#00703c", "opacity": 0.2 }'
-phase: beta
+phase: live
 plural: Ancient woodlands
 prefix: ''
 realm: dataset

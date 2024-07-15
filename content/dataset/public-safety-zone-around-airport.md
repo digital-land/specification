@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Public safety zone around airport
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Public safety zones around airports
 prefix: ''
 realm: dataset

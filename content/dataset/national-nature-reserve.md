@@ -26,7 +26,7 @@ key-field: ''
 licence: ogl3
 name: National nature reserve
 paint-options: ''
-phase: alpha
+phase: beta
 plural: National nature reserves
 prefix: ''
 realm: dataset

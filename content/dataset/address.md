@@ -25,7 +25,7 @@ key-field: ''
 licence: ogl3
 name: Address
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: addresses
 prefix: uprn
 realm: dataset

@@ -23,7 +23,7 @@ key-field: ''
 licence: ogl3
 name: Listed building grade
 paint-options: ''
-phase: beta
+phase: live
 plural: Listed building grades
 prefix: ''
 realm: dataset

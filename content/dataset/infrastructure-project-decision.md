@@ -21,7 +21,7 @@ fields:
 licence: ogl3
 name: Infrastructure project decision
 paint-options: ''
-phase: discovery
+phase: beta
 plural: Infrastructure project decisions
 prefix: ''
 realm: dataset

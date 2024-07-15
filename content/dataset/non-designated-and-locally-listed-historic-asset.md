@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Non-designated and locally listed historic asset
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Non-designated and locally listed historic assets
 prefix: ''
 realm: dataset

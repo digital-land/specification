@@ -24,7 +24,7 @@ key-field: ''
 licence: ogl3
 name: Design code rule category
 paint-options: ''
-phase: beta
+phase: alpha
 plural: Design code rule categories
 prefix: ''
 realm: dataset

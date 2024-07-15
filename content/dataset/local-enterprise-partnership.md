@@ -28,7 +28,7 @@ key-field: ''
 licence: ogl3
 name: Local Enterprise Partnership
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Local Enterprise Partnerships
 prefix: ''
 realm: dataset

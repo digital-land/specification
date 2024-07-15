@@ -25,7 +25,7 @@ key-field: ''
 licence: ogl3
 name: Development policy
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Development policies
 prefix: ''
 realm: dataset

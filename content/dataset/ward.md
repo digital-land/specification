@@ -23,7 +23,7 @@ key-field: ''
 licence: ogl3
 name: Ward
 paint-options: '{ "colour": "#3DA52C" }'
-phase: alpha
+phase: beta
 plural: Wards
 prefix: statistical-geography
 realm: dataset

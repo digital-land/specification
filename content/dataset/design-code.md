@@ -27,7 +27,7 @@ key-field: ''
 licence: ogl3
 name: Design code
 paint-options: ''
-phase: beta
+phase: alpha
 plural: Design codes
 prefix: ''
 realm: dataset

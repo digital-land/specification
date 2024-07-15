@@ -26,7 +26,7 @@ key-field: ''
 licence: ogl3
 name: Infrastructure funding statement
 paint-options: ''
-phase: alpha
+phase: beta
 plural: Infrastructure funding statements
 prefix: ''
 realm: dataset

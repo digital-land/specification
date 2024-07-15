@@ -25,7 +25,7 @@ fields:
 licence: ogl3
 name: Infrastructure project log
 paint-options: ''
-phase: discovery
+phase: beta
 plural: Infrastructure project logs
 prefix: ''
 realm: dataset

@@ -30,7 +30,7 @@ key-field: ''
 licence: ogl3
 name: Design code area
 paint-options: ''
-phase: beta
+phase: alpha
 plural: Design code areas
 prefix: ''
 realm: dataset

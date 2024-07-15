@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Asset of community value
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Assets of community value
 prefix: ''
 realm: dataset

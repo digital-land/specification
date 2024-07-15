@@ -33,7 +33,7 @@ key-field: ''
 licence: ogl3
 name: Area of outstanding natural beauty
 paint-options: '{ "colour": "#d53880" }'
-phase: beta
+phase: live
 plural: Areas of outstanding natural beauty
 prefix: ''
 realm: dataset

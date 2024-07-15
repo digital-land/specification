@@ -23,7 +23,7 @@ key-field: ''
 licence: ogl3
 name: Contribution purpose
 paint-options: ''
-phase: beta
+phase: live
 plural: Contribution purposes
 prefix: ''
 realm: dataset

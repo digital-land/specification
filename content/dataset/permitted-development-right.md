@@ -26,7 +26,7 @@ key-field: ''
 licence: ogl3
 name: Permitted development right
 paint-options: ''
-phase: alpha
+phase: beta
 plural: Permitted development right
 prefix: ''
 realm: dataset

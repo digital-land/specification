@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: HS2 safeguarded area
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: HS2 safeguarded areas
 prefix: ''
 realm: dataset

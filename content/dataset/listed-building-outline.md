@@ -34,7 +34,7 @@ key-field: ''
 licence: ogl3
 name: Listed building outline
 paint-options: '{ "colour": "#F9C744" }'
-phase: beta
+phase: alpha
 plural: Listed building outlines
 prefix: ''
 realm: dataset

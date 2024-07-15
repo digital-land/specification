@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Historic stone quarry
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Historic stone quarries
 prefix: ''
 realm: dataset

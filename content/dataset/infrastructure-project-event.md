@@ -21,7 +21,7 @@ fields:
 licence: ogl3
 name: Infrastructure project event
 paint-options: ''
-phase: discovery
+phase: beta
 plural: Infrastructure project events
 prefix: ''
 realm: dataset

@@ -23,7 +23,7 @@ key-field: ''
 licence: ogl3
 name: Flood risk type
 paint-options: ''
-phase: prioritised
+phase: live
 plural: Flood risk types
 prefix: ''
 realm: dataset

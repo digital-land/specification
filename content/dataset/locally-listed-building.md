@@ -28,7 +28,7 @@ key-field: ''
 licence: ogl3
 name: Locally listed building
 paint-options: '{ "colour": "#F9C744" }'
-phase: prioritised
+phase: alpha
 plural: Locally listed buildings
 prefix: ''
 realm: dataset

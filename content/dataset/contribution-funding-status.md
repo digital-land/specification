@@ -22,7 +22,7 @@ key-field: ''
 licence: ogl3
 name: Contribution funding status
 paint-options: ''
-phase: beta
+phase: live
 plural: Contribution funding statuses
 prefix: ''
 realm: dataset

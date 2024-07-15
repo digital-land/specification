@@ -20,7 +20,7 @@ fields:
 licence: ogl3
 name: Planning development category
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Planning development categories
 prefix: ''
 realm: dataset

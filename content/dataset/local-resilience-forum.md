@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Local resilience forum
 paint-options: ''
-phase: beta
+phase: alpha
 plural: Local resilience forums
 prefix: ''
 realm: dataset

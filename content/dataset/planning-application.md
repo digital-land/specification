@@ -36,7 +36,7 @@ github-discussion: 25
 licence: ogl3
 name: Planning application
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Planning applications
 prefix: ''
 realm: dataset

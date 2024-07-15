@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Heritage action zone
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Heritage action zones
 prefix: ''
 realm: dataset

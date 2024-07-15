@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Common land and village green
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Common land and village greens
 prefix: ''
 realm: dataset

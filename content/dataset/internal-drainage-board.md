@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Internal drainage board
 paint-options: ''
-phase: discovery
+phase: alpha
 plural: Internal drainage boards
 prefix: ''
 realm: dataset

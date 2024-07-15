@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Designated neighbourhood forum
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Designated neighbourhood forums
 prefix: ''
 realm: dataset

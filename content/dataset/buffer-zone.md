@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Buffer zone
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Buffer zones
 prefix: ''
 realm: dataset

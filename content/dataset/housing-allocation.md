@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Housing allocation
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Housing allocations
 prefix: ''
 realm: dataset

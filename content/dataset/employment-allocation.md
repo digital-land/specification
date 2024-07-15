@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Employment allocation
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Employment allocations
 prefix: ''
 realm: dataset

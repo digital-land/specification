@@ -26,7 +26,7 @@ key-field: ''
 licence: ogl3
 name: Local nature reserve
 paint-options: ''
-phase: alpha
+phase: beta
 plural: Local nature reserves
 prefix: ''
 realm: dataset

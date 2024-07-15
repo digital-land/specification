@@ -25,7 +25,7 @@ key-field: ''
 licence: ogl3
 name: Company
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Companies
 prefix: ''
 realm: dataset

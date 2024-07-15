@@ -25,7 +25,7 @@ key-field: ''
 licence: ogl3
 name: Protected wreck site
 paint-options: '{ "colour": "#0b0c0c" }'
-phase: beta
+phase: live
 plural: Protected wreck sites
 prefix: ''
 realm: dataset

@@ -30,7 +30,7 @@ key-field: ''
 licence: ogl3
 name: Gypsy and traveller site
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Gypsy and traveller sites
 prefix: ''
 realm: dataset

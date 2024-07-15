@@ -29,7 +29,7 @@ key-field: ''
 licence: ogl3
 name: Local nature recovery strategy
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Local nature recovery strategies
 prefix: ''
 realm: dataset
