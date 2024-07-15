@@ -1,6 +1,6 @@
 ---
 attribution: natural-england
-collection: 
+collection: agricultural-land-classification
 consideration: agricultural-land-classification
 dataset: agricultural-land-classification
 description: 	A system that grades the quality of land for agricultural use
