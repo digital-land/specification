@@ -9,7 +9,6 @@ guidance: ''
 hint: ''
 name: UPRNs
 parent-field: uprn
-prefix: ''
 replacement-field: ''
 start-date: ''
 typology: geography
