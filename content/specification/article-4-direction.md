@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-09-11'
 github-discussion: 30
-version: 1.2.2
+version: 1.3.3
 datasets:
     - dataset: article-4-direction
       name: article 4 direction
@@ -43,11 +43,10 @@ datasets:
           description: the <a href="#reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry
         - field: permitted-development-rights
           description: a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">permitted development right</a> entries, separated by a semi-colon ';'.
-        - field: uprn
-          description: unique property reference numbers for any addressable properties
-          dataset: address
+        - field: uprns
+          description: unique property reference numbers for any addressable properties, separated by `;`
         - field: address-text
-          description: the address of any properties
+          description: the addresses of any properties reference. The addresses should be written as address-text (a single line separated by commas). To write multiple address end each address with `;`
         - field: geometry
           description: the boundary of the area covered by the article 4 direction in WKT format 
         - field: point

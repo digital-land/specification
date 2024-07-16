@@ -9,7 +9,7 @@ entity-maximum: '7019999999'
 entity-minimum: '7010000000'
 entry-date: ''
 fields:
-- field: address-text
+- field: address-texts
 - field: article-4-direction
 - field: description
 - field: end-date
@@ -24,7 +24,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
-- field: uprn
+- field: uprns
 github-discussion: 30
 key-field: ''
 licence: ogl3
@@ -39,7 +39,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 2.0
+version: 3.0
 wikidata: ''
 wikipedia: ''
 ---
