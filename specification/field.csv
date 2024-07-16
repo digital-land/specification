@@ -1,6 +1,7 @@
 cardinality,dataset,datatype,description,end-date,entry-date,field,guidance,hint,name,parent-field,replacement-field,start-date,text,typology,uri-template,wikidata-property
 1,,datetime,The date a planning condition became active,,,activation-date,,,Activation date,datetime,,,,value,,
 1,,string,"Address as a single line of text, separated by commas",,,address-text,,,Address text,text,,,,value,,
+n,,string,"A list of Address texts, spearated by a `;`. Each Address as a single line of text, separated by commas",,2024-07-16,address-texts,,,Address texts,address-text,,,,value,,
 1,,string,,,,address,,,Address,geography,,,,geography,,
 1,,string,,,,addressbase-custodian,,,AddressBase custodian,organisation,,,,organisation,,
 1,,datetime,The date a plan is officially adopted.,,2023-09-08,adopted-date,,,Adopted date,datetime,,,,value,,
@@ -433,6 +434,7 @@ n,,string,A list of tree species,,,tree-species-list,,,Tree species list,categor
 1,,integer,,,,units,,,Units,number,,,,value,,
 1,,string,,,,unused,,,Unused,string,,,,value,,
 1,,string,Unique Property Reference Number,,,uprn,,,UPRN,geography,,,,geography,,
+n,,string,A list of Unique Property Reference Numbers,,2024-07-16,uprns,,,UPRNs,uprn,,,,geography,,
 1,,string,,,,uri-template,,,RFC6570 template URL,value,,,,value,,
 1,,url,,,,url,,,URL,value,,,,value,,
 1,,string,,,,value,,,Value,value,,,,value,,
