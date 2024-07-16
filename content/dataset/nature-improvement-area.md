@@ -1,5 +1,5 @@
 ---
-attribution: crown-copyright
+attribution: natural-england
 collection: ''
 consideration: nature-improvement-areas
 dataset: nature-improvement-area
@@ -7,18 +7,13 @@ description: ''
 end-date: ''
 entity-maximum: '10199999'
 entity-minimum: '10100000'
-entry-date: ''
+entry-date: '2024-07-16'
 fields:
-- field: categories
-- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geography
 - field: geometry
-- field: legislation
 - field: name
-- field: nature-improvement-area
 - field: notes
 - field: organisation
 - field: point
@@ -29,7 +24,7 @@ key-field: ''
 licence: ogl3
 name: Nature improvement area
 paint-options: ''
-phase: prioritised
+phase: alpha
 plural: Nature improvement areas
 prefix: ''
 realm: dataset
