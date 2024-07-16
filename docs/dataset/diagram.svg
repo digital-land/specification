@@ -2086,8 +2086,8 @@ text.datatype{fill:#0b0c0c;}
 <text x="1138" y="1570" class="datatype">string</text>
 <rect x="971" y="1580" width="162" height="20" class="field"/>
 <rect x="1133" y="1580" width="55" height="20" class="datatype"/>
-<text x="976" y="1590" class="field">address-text</text>
-<text x="1138" y="1590" class="datatype">string</text>
+<text x="976" y="1590" class="field">address-texts</text>
+<text x="1138" y="1590" class="datatype">string*</text>
 <rect x="971" y="1600" width="162" height="20" class="field"/>
 <rect x="1133" y="1600" width="55" height="20" class="datatype"/>
 <text x="976" y="1610" class="field">article-4-direction</text>
@@ -2098,8 +2098,8 @@ text.datatype{fill:#0b0c0c;}
 <text x="1138" y="1630" class="datatype">string*</text>
 <rect x="971" y="1640" width="162" height="20" class="field"/>
 <rect x="1133" y="1640" width="55" height="20" class="datatype"/>
-<text x="976" y="1650" class="field">uprn</text>
-<text x="1138" y="1650" class="datatype">string</text>
+<text x="976" y="1650" class="field">uprns</text>
+<text x="1138" y="1650" class="datatype">string*</text>
 <rect x="971" y="1660" width="162" height="20" class="field"/>
 <rect x="1133" y="1660" width="55" height="20" class="datatype"/>
 <text x="976" y="1670" class="field">geometry</text>
