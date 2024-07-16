@@ -3,12 +3,13 @@ title: Development plan datasets
 ---
 ```mermaid
 erDiagram
-    development-plan-geography {
+    development-plan-boundary {
         string reference
         string name
         wkt geometry
-        string development-plan-geography-type
+        string development-plan-boundary-type
         string description
+        string organisation
         date entry-date
         date start-date
         date end-date
@@ -20,7 +21,7 @@ erDiagram
         string development-plan-type
         date period-start-date
         date period-end-date
-        ref development-plan-geography
+        string development-plan-geography
         url documentation-url
         date adopted-date
         string organisations
@@ -53,7 +54,6 @@ erDiagram
         date start-date
         date end-date
     }
-    development-plan ||--o{ development-plan-geography : references
     development-plan-timetable ||--o{ development-plan : references
     development-plan-document ||--o{ development-plan : references
 ```

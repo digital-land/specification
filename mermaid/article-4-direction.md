@@ -20,8 +20,8 @@ erDiagram
         string name
         ref article-4-direction
         string permitted-development-rights
-        string uprn
-        string address-text
+        string uprns
+        string address-texts
         wkt geometry
         wkt point
         string notes
