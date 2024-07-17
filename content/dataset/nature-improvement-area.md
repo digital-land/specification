@@ -1,6 +1,6 @@
 ---
 attribution: natural-england
-collection: ''
+collection: nature-improvement-area
 consideration: nature-improvement-areas
 dataset: nature-improvement-area
 description: ''
