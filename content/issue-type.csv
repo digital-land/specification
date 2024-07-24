@@ -9,7 +9,7 @@ too small,error,Value too small,The number was less than the minimum value allow
 too large,error,Value too large,The decimal value was greater than the maximum value allowed for the field.,external
 invalid flag,error,Invalid flag,It was not possible to process the field as a yes or no value.,external
 invalid URI,error,Invalid URI,It was not possible to process the field as a URI.,external
-invalid WKT,error,Invalid WKT,It was not possible to process the field as a WKT value.,internal
+invalid WKT,error,Invalid WKT,It was not possible to process the field as a WKT value.,external
 future entry-date,error,Future entry date,The entry-date cannot be in the future.,external
 default-field,info,Default field,The value has been taken from another field.,internal
 default-value,info,Default value,The value has been derived from other data.,internal
@@ -33,4 +33,4 @@ OSGB out of bounds of custom boundary,error,OSGB out of bounds of England,Our de
 invalid type geojson,warning,invalid Type Geojson,if reading a wkt fails this checks incase it can load a geojson.,external
 missing value,error,Missing Value,This field is required in the dataset and while the field is in the resource the value is blank for the entry in the resource.,external
 unknown entity - missing reference,error,Unknown entity,The entry has a missing reference because of which entity cannot be assigned.,external
-
+reference values are not unique, error, Reference values are not unique,There are multiple entries in this resource with this reference and entry date.,external
