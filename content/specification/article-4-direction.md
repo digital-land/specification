@@ -2,7 +2,7 @@
 specification: article-4-direction
 name: Article 4 direction
 plural: article 4 directions
-specification-status: piloting
+specification-status: candidate-standard
 start-date: ''
 end-date: ''
 entry-date: '2023-09-11'
