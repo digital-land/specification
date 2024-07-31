@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 
+collection: educational-establishment
 consideration: educational-establishment
 dataset: educational-establishment
 description: ''
