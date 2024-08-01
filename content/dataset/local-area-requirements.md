@@ -9,6 +9,7 @@ entity-maximum: '29999'
 entity-minimum: '20000'
 entry-date: ''
 fields:
+- field: description
 - field: documentation-url
 - field: document-urls
 - field: end-date
@@ -36,7 +37,7 @@ themes:
 - administrative
 - housing
 typology: document
-version: 1.0
+version: 2.0
 wikidata: 
 wikipedia: 
 ---
