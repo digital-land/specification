@@ -34,3 +34,4 @@ invalid type geojson,warning,invalid Type Geojson,if reading a wkt fails this ch
 missing value,error,Missing Value,This field is required in the dataset and while the field is in the resource the value is blank for the entry in the resource.,external
 unknown entity - missing reference,error,Unknown entity,The entry has a missing reference because of which entity cannot be assigned.,external
 reference values are not unique,error,Reference values are not unique,There are multiple entries in this resource with this reference and entry date.,external
+invalid category values,error,Categorical values are invalid,The categorical field values inserted for this resource are not valid against it's categorical dataset.,external
