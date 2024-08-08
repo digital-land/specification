@@ -3440,3 +3440,5 @@ local-area-requirements,period-start-date,,,,2
 local-area-requirements,prefix,,,,2
 local-area-requirements,reference,,,,2
 local-area-requirements,start-date,,,,2
+fact-resource,priority,,"Used to order facts into a history, smaller values are higher priority than larger values.",,1
+fact,priority,,"The lowest priority of any fact-Used to order facts into a history, smaller values are higher priority than larger values.",,1

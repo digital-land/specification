@@ -1049,6 +1049,7 @@ fact-resource,end-date
 fact-resource,fact
 fact-resource,entry-date
 fact-resource,entry-number
+fact-resource,priority
 fact-resource,resource
 fact-resource,start-date
 fact,end-date
@@ -1056,6 +1057,7 @@ fact,entity
 fact,fact
 fact,field
 fact,entry-date
+fact,priority
 fact,reference-entity
 fact,start-date
 fact,value
