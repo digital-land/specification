@@ -186,6 +186,7 @@ specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-datase
 commit-specification::
 	git add specification
 	git add data
+	git add mermaid
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt specification $(shell date +%F)"; git push origin $(BRANCH))
 
 clean clobber::
