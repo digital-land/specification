@@ -186,22 +186,22 @@ specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-datase
 commit-specification::
 	git add specification
 	git add data
-	git add mermaid
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt specification $(shell date +%F)"; git push origin $(BRANCH))
 
 clean clobber::
 	rm -f specification/*.csv
 
 # generate mermaid diagrams
-MERMAID_MD=$(subst content/specification/,mermaid/,$(SPECIFICATION_MD))
+MERMAID_MD=$(subst content/specification/,docs/mermaid/,$(SPECIFICATION_MD))
 render:: $(MERMAID_MD)
 
-mermaid/%.md:	content/specification/%.md bin/specification-mermaid.py
-	@mkdir -p mermaid/
+docs/mermaid/%.md:	content/specification/%.md bin/specification-mermaid.py
+	@mkdir -p docs/mermaid/
 	python3 bin/specification-mermaid.py $< > $@
 
 clobber::
-	rm -rf mermaid/
+	rm -rf docs/mermaid/
+
 
 # generate SVG diagrams
 SPECIFICATION_SVG=$(subst .md,/diagram.svg,$(subst content/,docs/,$(SPECIFICATION_MD)))
