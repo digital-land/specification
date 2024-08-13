@@ -3442,3 +3442,10 @@ local-area-requirements,reference,,,,2
 local-area-requirements,start-date,,,,2
 fact-resource,priority,,"Used to order facts into a history, smaller values are higher priority than larger values.",,1
 fact,priority,,"The lowest priority of any fact-Used to order facts into a history, smaller values are higher priority than larger values.",,1
+entity-organisation,dataset,,The dataset which includes this entity.,,1
+entity-organisation,end-date,,The date the entity was marked as gone or redirected in the old-entity table.,,1
+entity-organisation,entry-date,,The date this record was last modified or created.,,1
+entity-organisation,entity-maximum,,,,1
+entity-organisation,entity-minimum,,,,1
+entity-organisation,organisation,,The primary organisation responsible for managing the entity.,,1
+entity-organisation,start-date,,,,1
