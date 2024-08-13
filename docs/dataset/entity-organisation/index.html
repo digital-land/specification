@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Entity minimum | Digital Land</title>
+    <title>Entity organisation | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -120,12 +120,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Entity minimum</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Entity organisation</li>
     
   
   </ol>
@@ -137,59 +137,120 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
-  <h1 class="govuk-heading-xl">Entity minimum</h1>
+  <span class="govuk-caption-xl">Dataset</span>
+  <h1 class="govuk-heading-xl">Entity organisation</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">Beginning of entity range set for a dataset</p>
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">The organisation responsible for managing a range of entities.</p>
+    <!-- This dataset assigns the organisation responsible for managing a single or range of entity numbers.
+
+The entity ranges cannot overlap within this dataset.
+
+Data from this organisation is more authorititive and taken in priority over data from other sources.
+
+The organisation responsible for an entity is identified as a part of the data design process. -->
 
     <table class="govuk-table">
+      <caption class="govuk-table__caption">Fields</caption>
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Field</th>
+          <th scope="col" class="govuk-table__header">Name</th>
+          <th scope="col" class="govuk-table__header">Datatype</th>
+          <th scope="col" class="govuk-table__header">Cardinality</th>
+        </tr>
+      </thead>
       <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Entity minimum</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">entity-minimum</td>
-        </tr>
+    
         
         <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
-          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
+          <td class="govuk-table__cell" id="field_dataset"><a href="../../field/dataset">dataset</a>
+          </td>
+          <td class="govuk-table__cell">Dataset</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../identifier">identifier</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/value">value</a></td>
-        </tr>
+    
         
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity-maximum"><a href="../../field/entity-maximum">entity-maximum</a>
+          </td>
+          <td class="govuk-table__cell">Entity maximum</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity-minimum"><a href="../../field/entity-minimum">entity-minimum</a>
+          </td>
+          <td class="govuk-table__cell">Entity minimum</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
+          </td>
+          <td class="govuk-table__cell">Entry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
+          </td>
+          <td class="govuk-table__cell">Start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
+          </td>
+          <td class="govuk-table__cell">End date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
       </tbody>
     </table>
 
     
-    <h2 class="govuk-heading-s" id="">Schemas</h2>
-    <p class="govuk-body">The following datasets use this field:</p>
+
+    
+    <h2 class="govuk-heading-s" id="">Datasets</h2>
+
+    
+    <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../../dataset/dataset">Dataset</a></li>
+      <li><a href="../dataset">Dataset</a></li>
     
-      <li><a href="../../dataset/entity-organisation">Entity organisation</a></li>
+      <li><a href="../organisation">Organisation</a></li>
     
     </ul>
     
 
+    
+
+    
   </div>
 </div>
 

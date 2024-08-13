@@ -1005,6 +1005,13 @@ endpoint,entry-date
 endpoint,parameters
 endpoint,plugin
 endpoint,start-date
+entity-organisation,dataset
+entity-organisation,end-date
+entity-organisation,entry-date
+entity-organisation,entity-maximum
+entity-organisation,entity-minimum
+entity-organisation,organisation
+entity-organisation,start-date
 entity,dataset
 entity,end-date
 entity,entity
