@@ -6,13 +6,17 @@
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    {% for group in tables["dataset"].items() | groupby("1.realm") %}
+    {% set realm = group.grouper %}
+    <h2 class="govuk-heading-m" id="{{ realm }}">{{ tables["realm"][realm]["name"] }}</h2>
     <ul class="govuk-list govuk-list--bullet">
-    {% for dataset, item in tables["dataset"].items()| sort %}
-      <li><a href="{{dataset}}">{{item["name"]}}</a>
+    {% for dataset, item in group.list %}
+    <li><a href="{{dataset}}">{{item["name"]}}</a>
           {%- if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif -%}
       </li>
     {% endfor %}
     </ul>
+    {% endfor %}
   </div>
 </div>
 {% endblock %}

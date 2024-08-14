@@ -36,6 +36,7 @@ tables = {
     "datapackage-dataset": {},
     "datatype": {},
     "field": {},
+    "realm": {},
     "typology": {},
     "dataset": {},
     "dataset-field": {},

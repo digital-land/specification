@@ -14,8 +14,9 @@ fields:
 - field: entry-date
 - field: name
 - field: reference
+- field: realm
 - field: start-date
-key-field: ''
+key-field: 'realm'
 licence: ogl3
 name: Phase
 paint-options: ''

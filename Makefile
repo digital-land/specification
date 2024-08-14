@@ -36,6 +36,7 @@ SPECIFICATION_CSV=\
 	specification/provision-reason.csv\
 	specification/provision-rule.csv\
 	specification/pipeline.csv\
+	specification/realm.csv\
 	specification/role.csv\
 	specification/theme.csv
 
@@ -137,6 +138,9 @@ specification/role-organisation-rule.csv:	content/role-organisation-rule.csv
 
 specification/cohort.csv:	content/cohort.csv
 	cp content/cohort.csv $@
+
+specification/realm.csv:	content/realm.csv
+	cp content/realm.csv $@
 
 specification/role.csv:	content/role.csv
 	cp content/role.csv $@
