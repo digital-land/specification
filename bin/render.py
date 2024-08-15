@@ -439,4 +439,4 @@ if __name__ == "__main__":
             tables=tables,
             staticPath=staticPath,
             assetPath=assetPath,
-        )
+            sectionPath=f"{specification_repo_url}")
