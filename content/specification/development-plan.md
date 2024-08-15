@@ -5,7 +5,7 @@ plural: Development plans
 specification-status: working-draft
 start-date: ''
 end-date: ''
-entry-date: '2023-04-05'
+entry-date: '2024-08-15'
 github-discussion: 26
 version: 3.6.0
 datasets:
