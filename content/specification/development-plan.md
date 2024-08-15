@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-04-05'
 github-discussion: 26
-version: 3.5.5
+version: 3.6.0
 datasets:
     - dataset: development-plan-boundary
       name: Development plan boundary
@@ -39,8 +39,8 @@ datasets:
             description: the start date of the period the plan covers
           - field: period-end-date
             description: the end date of the period the plan covers
-          - field: development-plan-geography
-            description: the reference code for the geography the plan covers
+          - field: development-plan-boundary
+            description: the reference code for the boundary the plan covers
           - field: documentation-url
             description: the web page where you can find the documentation for the plan
           - field: adopted-date
