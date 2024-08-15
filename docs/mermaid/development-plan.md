@@ -21,7 +21,7 @@ erDiagram
         string development-plan-type
         date period-start-date
         date period-end-date
-        string development-plan-geography
+        ref development-plan-boundary
         url documentation-url
         date adopted-date
         string organisations
@@ -54,6 +54,7 @@ erDiagram
         date start-date
         date end-date
     }
+    development-plan ||--o{ development-plan-boundary : references
     development-plan-timetable ||--o{ development-plan : references
     development-plan-document ||--o{ development-plan : references
 ```

@@ -59,7 +59,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_waste-authority_region_to_region_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 6350 C 634.0 6350 634.0 25670 971 25670"><title>from waste-authority region to region reference</title></path>
 <path class="line" id="from_article-4-direction_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 190 C 337.0 190 337.0 4310 297 4310"><title>from article-4-direction organisation to organisation reference</title></path>
 <path class="line" id="from_development-plan_development-plan-type_to_development-plan-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 470 C 1376.5 470 1376.5 4570 2159 4570"><title>from development-plan development-plan-type to development-plan-type reference</title></path>
-<path class="line" id="from_development-plan_development-plan-geography_to_development-plan-geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 490 C 782.5 490 782.5 9390 971 9390"><title>from development-plan development-plan-geography to development-plan-geography reference</title></path>
+<path class="line" id="from_development-plan_development-plan-boundary_to_development-plan-boundary_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 490 C 782.5 490 782.5 9050 971 9050"><title>from development-plan development-plan-boundary to development-plan-boundary reference</title></path>
 <path class="line" id="from_tree-preservation-order_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 377 990 C 337.0 990 337.0 4310 297 4310"><title>from tree-preservation-order organisation to organisation reference</title></path>
 <path class="line" id="from_development-plan-timetable_development-plan_to_development-plan_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 110 C 634.0 110 634.0 370 594 370"><title>from development-plan-timetable development-plan to development-plan reference</title></path>
 <path class="line" id="from_development-plan-timetable_development-plan-event_to_development-plan-event_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 130 C 1525.0 130 1525.0 3810 2159 3810"><title>from development-plan-timetable development-plan-event to development-plan-event reference</title></path>
@@ -1538,7 +1538,7 @@ text.datatype{fill:#0b0c0c;}
 <text x="544" y="470" class="datatype">reference</text>
 <rect x="377" y="480" width="162" height="20" class="field"/>
 <rect x="539" y="480" width="55" height="20" class="datatype"/>
-<text x="382" y="490" class="field">development-plan-geography</text>
+<text x="382" y="490" class="field">development-plan-boundary</text>
 <text x="544" y="490" class="datatype">reference</text>
 <rect x="377" y="500" width="162" height="20" class="field"/>
 <rect x="539" y="500" width="55" height="20" class="datatype"/>

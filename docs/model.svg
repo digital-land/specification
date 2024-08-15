@@ -273,7 +273,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_development-plan_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 18770 C 931.0 18770 931.0 470 1565 470"><title>from development-plan reference to reference reference</title></path>
 <path class="line" id="from_development-plan_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 18790 C 782.5 18790 782.5 550 1268 550"><title>from development-plan entity to entity entity</title></path>
 <path class="line" id="from_development-plan_development-plan-type_to_development-plan-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 18870 C 337.0 18870 337.0 18530 297 18530"><title>from development-plan development-plan-type to development-plan-type reference</title></path>
-<path class="line" id="from_development-plan_development-plan-geography_to_development-plan-geography_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 18890 C 337.0 18890 337.0 17610 297 17610"><title>from development-plan development-plan-geography to development-plan-geography reference</title></path>
+<path class="line" id="from_development-plan_development-plan-boundary_to_development-plan-boundary_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 18890 C 337.0 18890 337.0 16130 297 16130"><title>from development-plan development-plan-boundary to development-plan-boundary reference</title></path>
 <path class="line" id="from_development-policy-area_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 19170 C 931.0 19170 931.0 250 1565 250"><title>from development-policy-area prefix to prefix prefix</title></path>
 <path class="line" id="from_development-policy-area_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 19190 C 931.0 19190 931.0 470 1565 470"><title>from development-policy-area reference to reference reference</title></path>
 <path class="line" id="from_development-policy-area_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 19210 C 782.5 19210 782.5 550 1268 550"><title>from development-policy-area entity to entity entity</title></path>
@@ -4188,7 +4188,7 @@ text.datatype{fill:#0b0c0c;}
 <text x="247" y="18870" class="datatype">reference</text>
 <rect x="80" y="18880" width="162" height="20" class="field"/>
 <rect x="242" y="18880" width="55" height="20" class="datatype"/>
-<text x="85" y="18890" class="field">development-plan-geography</text>
+<text x="85" y="18890" class="field">development-plan-boundary</text>
 <text x="247" y="18890" class="datatype">reference</text>
 <rect x="80" y="18900" width="162" height="20" class="field"/>
 <rect x="242" y="18900" width="55" height="20" class="datatype"/>
