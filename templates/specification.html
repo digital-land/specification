@@ -129,7 +129,7 @@ code.value {
 
     <ul class="govuk-list govuk-list--bullet">
     {% for f in d["fields"] %}
-    <li><code class="field">{{ f["field"] }}</code> {% if f["description"] %} &mdash; {{ f["description"] | safe }}{% endif %}{% if f["dataset"] %} &mdash; <a href="{{dataset_editor_url}}/dataset/{{f['dataset']}}">list of values here</a>{% endif %}</li>
+    <li><code class="field">{{ f["field"] }}</code> {% if f["description"] %} &mdash; {{ f["description"] | safe }}{% endif %}{% if f["dataset"] %} (<a href="{{dataset_editor_url}}/dataset/{{f['dataset']}}/finder">See list of allowable values</a>){% endif %}</li>
     {% endfor %}
     </ul>
 
