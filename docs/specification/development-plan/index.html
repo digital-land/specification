@@ -177,7 +177,7 @@ code.value {
       <strong class="govuk-tag">Working draft</strong>
     </p>
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/development-plan/v3.6.0" class="govuk-link">3.6.0</a> - published 2024-08-15
+      Version: <a href="/specification/specification/development-plan/v3.6.1" class="govuk-link">3.6.1</a> - published 2024-08-15
     </p>
     <p class="govuk-body govuk-!-font-size-16">
        <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog" class="govuk-link">See changelog</a>
@@ -267,23 +267,23 @@ code.value {
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><code class="field">reference</code> </li>
+    <li><code class="field">reference</code>  &mdash; a unique identifier for the boundary the plan covers. If it covers the planning authority boundary reference should be the planning authority boundary reference</li>
     
-    <li><code class="field">name</code> </li>
+    <li><code class="field">name</code>  &mdash; a name for the boundary. For example, `City of York boundary`</li>
     
-    <li><code class="field">geometry</code> </li>
+    <li><code class="field">geometry</code>  &mdash; the boundary in WKT format</li>
     
     <li><code class="field">development-plan-boundary-type</code>  &mdash; the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area` (<a href="https://dluhc-datasets.planning-data.dev/dataset/development-plan-boundary-type/finder">See list of allowable values</a>)</li>
     
-    <li><code class="field">description</code> </li>
+    <li><code class="field">description</code>  &mdash; a description of the boundary. Provide more detail if boundary is different from planning authority boundary</li>
     
     <li><code class="field">organisation</code>  &mdash; reference to the organisation responsible for the designation</li>
     
-    <li><code class="field">entry-date</code> </li>
+    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
     
-    <li><code class="field">start-date</code> </li>
+    <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
     
-    <li><code class="field">end-date</code> </li>
+    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
     
     </ul>
 
@@ -304,7 +304,7 @@ code.value {
     
     <li><code class="field">description</code>  &mdash; brief description of plan</li>
     
-    <li><code class="field">development-plan-type</code>  &mdash; a code for the plan type</li>
+    <li><code class="field">development-plan-type</code>  &mdash; a code for the plan type (<a href="https://dluhc-datasets.planning-data.dev/dataset/development-plan-type/finder">See list of allowable values</a>)</li>
     
     <li><code class="field">period-start-date</code>  &mdash; the start date of the period the plan covers</li>
     
@@ -343,7 +343,7 @@ code.value {
     
     <li><code class="field">development-plan</code>  &mdash; The code for a particular development plan (for example, dorcester-new-local-plan)</li>
     
-    <li><code class="field">development-plan-event</code>  &mdash; The code for a development plan event (for example plan-adopted)</li>
+    <li><code class="field">development-plan-event</code>  &mdash; The code for a development plan event (for example plan-adopted) (<a href="https://dluhc-datasets.planning-data.dev/dataset/development-plan-event/finder">See list of allowable values</a>)</li>
     
     <li><code class="field">event-date</code>  &mdash; The date this event happened</li>
     
@@ -351,11 +351,11 @@ code.value {
     
     <li><code class="field">organisation</code>  &mdash; The code for the responsible organisation (for example, local-authority-eng:BST)</li>
     
-    <li><code class="field">entry-date</code> </li>
+    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
     
-    <li><code class="field">start-date</code> </li>
+    <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
     
-    <li><code class="field">end-date</code> </li>
+    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
     
     </ul>
 
@@ -386,11 +386,11 @@ code.value {
     
     <li><code class="field">organisation</code>  &mdash; The code for the responsible organisation (for example, local-authority-eng:BST)</li>
     
-    <li><code class="field">entry-date</code> </li>
+    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
     
-    <li><code class="field">start-date</code> </li>
+    <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
     
-    <li><code class="field">end-date</code> </li>
+    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
     
     </ul>
 
@@ -783,7 +783,9 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
 
     <ul class="govuk-list govuk-list--bullet">
     
-      <li>Version <a href="v3.6.0" class="govuk-link">3.6.0</a> (current)</li>
+      <li>Version <a href="v3.6.1" class="govuk-link">3.6.1</a> (current)</li>
+    
+      <li>Version <a href="v3.6.0" class="govuk-link">3.6.0</a></li>
     
       <li>Version <a href="v3.5.5" class="govuk-link">3.5.5</a></li>
     
