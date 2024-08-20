@@ -7,23 +7,30 @@ start-date: ''
 end-date: ''
 entry-date: '2024-08-15'
 github-discussion: 26
-version: 3.6.0
+version: 3.6.1
 datasets:
     - dataset: development-plan-boundary
       name: Development plan boundary
       fields:
           - field: reference
+            description: a unique identifier for the boundary the plan covers. If it covers the planning authority boundary reference should be the planning authority boundary reference
           - field: name
+            description: a name for the boundary. For example, `City of York boundary`
           - field: geometry
+            description: the boundary in WKT format 
           - field: development-plan-boundary-type
             dataset: development-plan-boundary-type
             description: the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`
           - field: description
+            description: a description of the boundary. Provide more detail if boundary is different from planning authority boundary
           - field: organisation
             description: reference to the organisation responsible for the designation
           - field: entry-date
+            description: the date this information has been entered as a record
           - field: start-date
+            description: the date the validity of the record starts
           - field: end-date
+            description: the date the validity of the record ends
     - dataset: development-plan
       name: development plan
       fields:
@@ -72,9 +79,12 @@ datasets:
             description: Optional notes
           - field: organisation
             description: The code for the responsible organisation (for example, local-authority-eng:BST)
-          - field: entry-date   
+          - field: entry-date
+            description: the date this information has been entered as a record
           - field: start-date
+            description: the date the validity of the record starts
           - field: end-date
+            description: the date the validity of the record ends
     - dataset: development-plan-document
       name: development plan document
       fields:
@@ -95,7 +105,10 @@ datasets:
             description: The URL of the actual document
           - field: organisation
             description: The code for the responsible organisation (for example, local-authority-eng:BST)
-          - field: entry-date   
+          - field: entry-date
+            description: the date this information has been entered as a record
           - field: start-date
+            description: the date the validity of the record starts
           - field: end-date
+            description: the date the validity of the record ends
 ---
