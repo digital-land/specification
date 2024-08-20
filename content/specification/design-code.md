@@ -73,7 +73,6 @@ datasets:
           description: the <a href="#reference">reference</a> for the design code which applies to this area
         - field: design-code-rules
           description: a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.
-          dataset: design-code-rule
         - field: design-code-area-type
           dataset: design-code-area-type
           description: the classification of the area, for example Rural Settlements or Urban Neighbourhood

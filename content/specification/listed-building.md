@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 github-discussion: 44
-version: 1.1.1
+version: 1.1.2
 datasets:
     - dataset: listed-building-outline
       fields:
@@ -19,6 +19,7 @@ datasets:
           description: the Historic England <a href="#reference">reference</a> for the listed building
         - field: listed-building-grade
           description: the Historic England listed-building-grade value for the listed building
+          dataset: listed-building-grade
         - field: geometry
           description: the boundary of the listed building in WKT format 
         - field: document-url

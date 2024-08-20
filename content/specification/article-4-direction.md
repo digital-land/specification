@@ -43,6 +43,7 @@ datasets:
           description: the <a href="#reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry
         - field: permitted-development-rights
           description: a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">permitted development right</a> entries, separated by a semi-colon ';'.
+          dataset: permitted-development-right
         - field: uprns
           description: unique property reference numbers for any addressable properties, separated by `;`
         - field: address-texts

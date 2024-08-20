@@ -45,6 +45,7 @@ datasets:
           description: the <a href="#reference">reference</a> for the tree preservation order
         - field: tree-preservation-zone-type
           description: the type of zone, for example area, group or woodland
+          dataset: tree-preservation-zone-type
         - field: geometry
           description: the boundary of the area covered by the tree preservation zone in WKT format 
         - field: point

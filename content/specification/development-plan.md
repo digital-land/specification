@@ -35,6 +35,7 @@ datasets:
             description: brief description of plan
           - field: development-plan-type
             description: a code for the plan type
+            dataset: development-plan-type
           - field: period-start-date
             description: the start date of the period the plan covers
           - field: period-end-date
@@ -64,6 +65,7 @@ datasets:
           - field: development-plan-event
             reference: development-plan-event
             description: The code for a development plan event (for example plan-adopted)
+            dataset: development-plan-event
           - field: event-date
             description: The date this event happened 
           - field: notes
