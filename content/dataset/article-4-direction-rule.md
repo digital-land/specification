@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: article-4-direction
+collection:
 consideration: article-4-directions
 dataset: article-4-direction-rule
 description: the set of changes to permitted development rights affecting an article
