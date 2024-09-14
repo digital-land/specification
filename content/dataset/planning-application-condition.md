@@ -9,9 +9,8 @@ entity-maximum: '71000000'
 entity-minimum: '72999999'
 entry-date: ''
 fields:
-- field: activation-date
+- field: document-url
 - field: description
-- field: discharged-date
 - field: end-date
 - field: entity
 - field: entry-date
@@ -37,7 +36,7 @@ themes:
 - housing
 - monitoring
 typology: policy
-version: 2.0
+version: 3.0
 wikidata: ''
 wikipedia: ''
 ---

@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-11-09'
 github-discussion: 40
-version: 1.2.2
+version: 1.3.0
 datasets:
     - dataset: planning-condition
       name: planning condition
@@ -39,14 +39,12 @@ datasets:
         - field: planning-condition
           dataset: planning-condition
           description: a planning condition reference
+        - field: document-url
+          description: a url to the decision notice that includes details of the condition applying to the planning application
         - field: description
           description: a description of the condition applied to the application
         - field: organisation
           description: the organisation that as added the condition to the planning application
-        - field: activation-date
-          description: the date the condition becomes active
-        - field: discharged-date
-          description: the date the condition is discharged
         - field: notes
           description: any additional notes about the planning application - condition connection
         - field: entry-date
