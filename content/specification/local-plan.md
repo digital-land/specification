@@ -23,8 +23,8 @@ datasets:
             description: the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`
           - field: description
             description: a description of the boundary. Provide more detail if boundary is different from planning authority boundary
-          - field: organisation
-            description: reference to the organisation responsible for the designation
+          - field: organisations
+            description: a list of codes for the responsible organisations, separated by ;
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date
@@ -75,8 +75,8 @@ datasets:
             description: The webpage where you can find this document 
           - field: document-url
             description: The URL of the actual document
-          - field: organisation
-            description: The code for the responsible organisation (for example, local-authority-eng:BST)
+          - field: organisations
+            description: a list of codes for the responsible organisations, separated by ;
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date
