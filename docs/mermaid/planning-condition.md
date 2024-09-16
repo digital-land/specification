@@ -17,10 +17,9 @@ erDiagram
         string reference
         string planning-application
         ref planning-condition
+        url document-url
         string description
         string organisation
-        date activation-date
-        date discharged-date
         string notes
         date entry-date
         date start-date

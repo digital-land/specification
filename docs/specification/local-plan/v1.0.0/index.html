@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>
-    Planning condition
+    Local plan
  | Digital Land</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
@@ -129,7 +129,7 @@ code.value {
 
 
   
-    
+  
   
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
@@ -147,9 +147,15 @@ code.value {
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">
-    Planning condition
-</li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/specification/specification/local-plan">
+    Local plan
+</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">v1.0.0</li>
     
   
   </ol>
@@ -165,7 +171,7 @@ code.value {
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Specification</span>
   <h1 class="govuk-heading-xl">
-    Planning condition
+    Local plan
 </h1>
   </div>
 </div>
@@ -177,16 +183,13 @@ code.value {
       <strong class="govuk-tag">Working draft</strong>
     </p>
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/planning-condition/v1.3.0" class="govuk-link">1.3.0</a> - published 2023-11-09
-    </p>
-    <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog" class="govuk-link">See changelog</a>
+      Version: <a href="/specification/specification/local-plan/v1.0.0" class="govuk-link">1.0.0</a> - published 2024-09-13
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p class="govuk-body">
-      This specification defines the format for how Planning conditions must be provided as data.
+      This specification defines the format for how Local plans must be provided as data.
     </p>
     <p class="govuk-body">
     This technical specification is accompanied by guidance, examples and other tools providing feedback to data providers.
@@ -208,7 +211,7 @@ code.value {
     </strong>
     </div>
     <p id="feedback" class="govuk-body">
-    Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/40" class="govuk-link">GitHub discussion</a> or sent to
+    Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/26" class="govuk-link">GitHub discussion</a> or sent to
     <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
     </p>
 
@@ -229,7 +232,7 @@ code.value {
 
     <p class="govuk-body">The documentation page MUST be owned and operated by the data provider. Where the data provider is a local authority or other public body, the web page MUST be on your .gov.uk domain.</p>
     
-    <p class="govuk-body">A data provider MUST provide a link to the data for all of the Planning conditions within its jurisdiction on a documentation page.</p>
+    <p class="govuk-body">A data provider MUST provide a link to the data for all of the Local plans within its jurisdiction on a documentation page.</p>
 
     <p class="govuk-body">
     The documentation page MUST include:
@@ -237,9 +240,11 @@ code.value {
     <ul class="govuk-list govuk-list--bullet">
 
     
-      <li>A hyperlink to the <a href="#planning-condition-dataset">planning condition</a> data</li>
+      <li>A hyperlink to the <a href="#local-plan-boundary-dataset">local plan boundary</a> data</li>
     
-      <li>A hyperlink to the <a href="#planning-application-condition-dataset">planning application condition</a> data</li>
+      <li>A hyperlink to the <a href="#local-plan-dataset">local plan</a> data</li>
+    
+      <li>A hyperlink to the <a href="#local-plan-document-dataset">local plan document</a> data</li>
     
 
     <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
@@ -254,63 +259,104 @@ code.value {
 
 
 
-    <h3 id="planning-condition-dataset" class="govuk-heading-m">
-    Planning condition
+    <h3 id="local-plan-boundary-dataset" class="govuk-heading-m">
+    Local plan boundary
 </h3>
-    <p class="govuk-body">The planning condition data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each planning condition.</p>
+    <p class="govuk-body">The local plan boundary data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one record for each local plan boundary.</p>
     <p class="govuk-body">Each record MUST contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><code class="field">reference</code>  &mdash; a reference for the planning condition</li>
+    <li><code class="field">reference</code>  &mdash; a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the planning authority boundary reference</li>
     
-    <li><code class="field">name</code>  &mdash; a name used for this planning condition</li>
+    <li><code class="field">name</code>  &mdash; a name for the boundary. For example, `City of York boundary`</li>
     
-    <li><code class="field">description</code>  &mdash; text explaining the condition</li>
+    <li><code class="field">geometry</code>  &mdash; the boundary in WKT format</li>
     
-    <li><code class="field">organisation</code>  &mdash; the organisation that created the condition</li>
+    <li><code class="field">plan-boundary-type</code>  &mdash; the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area` (<a href="https://dluhc-datasets.planning-data.dev/dataset/development-plan-boundary-type/finder">See list of allowable values</a>)</li>
     
-    <li><code class="field">notes</code>  &mdash; any additional notes about the condition</li>
+    <li><code class="field">description</code>  &mdash; a description of the boundary. Provide more detail if boundary is different from planning authority boundary</li>
     
-    <li><code class="field">entry-date</code>  &mdash; the date the condition record was created</li>
+    <li><code class="field">organisations</code>  &mdash; a list of codes for the responsible organisations, separated by ;</li>
+    
+    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
     
     <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
     
-    <li><code class="field">end-date</code>  &mdash; the date the validity of the record starts</li>
+    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
     
     </ul>
 
 
 
-    <h3 id="planning-application-condition-dataset" class="govuk-heading-m">
-    Planning application condition
+    <h3 id="local-plan-dataset" class="govuk-heading-m">
+    Local plan
 </h3>
-    <p class="govuk-body">The planning application condition data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each planning application condition.</p>
+    <p class="govuk-body">The local plan data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one record for each local plan.</p>
     <p class="govuk-body">Each record MUST contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><code class="field">reference</code>  &mdash; a reference for the planning application - condition connection</li>
+    <li><code class="field">reference</code>  &mdash; an unique identifier for a local plan</li>
     
-    <li><code class="field">planning-application</code>  &mdash; a planning application reference (<a href="https://dluhc-datasets.planning-data.dev/dataset/planning-application/finder">See list of allowable values</a>)</li>
+    <li><code class="field">name</code>  &mdash; the name of the local plan (for example, The Adopted Local Plan for Leeds)</li>
     
-    <li><code class="field">planning-condition</code>  &mdash; a planning condition reference (<a href="https://dluhc-datasets.planning-data.dev/dataset/planning-condition/finder">See list of allowable values</a>)</li>
+    <li><code class="field">description</code>  &mdash; brief description of plan</li>
     
-    <li><code class="field">document-url</code>  &mdash; a url to the decision notice that includes details of the condition applying to the planning application</li>
+    <li><code class="field">period-start-date</code>  &mdash; the start date of the period the plan covers</li>
     
-    <li><code class="field">description</code>  &mdash; a description of the condition applied to the application</li>
+    <li><code class="field">period-end-date</code>  &mdash; the end date of the period the plan covers</li>
     
-    <li><code class="field">organisation</code>  &mdash; the organisation that as added the condition to the planning application</li>
+    <li><code class="field">local-plan-boundary</code>  &mdash; the reference code for the boundary the plan covers</li>
     
-    <li><code class="field">notes</code>  &mdash; any additional notes about the planning application - condition connection</li>
+    <li><code class="field">documentation-url</code>  &mdash; the web page where you can find the documentation for the plan</li>
     
-    <li><code class="field">entry-date</code>  &mdash; the date the record was created</li>
+    <li><code class="field">adopted-date</code>  &mdash; the date a plan is officially adopted</li>
+    
+    <li><code class="field">organisations</code>  &mdash; a list of codes for the responsible organisations, separated by ;</li>
+    
+    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
     
     <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
     
-    <li><code class="field">end-date</code>  &mdash; the date the validity of the record starts</li>
+    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
+    
+    </ul>
+
+
+
+    <h3 id="local-plan-document-dataset" class="govuk-heading-m">
+    Local plan document
+</h3>
+    <p class="govuk-body">The local plan document data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one record for each local plan document.</p>
+    <p class="govuk-body">Each record MUST contain the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code>  &mdash; An unique identifier for this record (for example, xyz-123-abc)</li>
+    
+    <li><code class="field">name</code>  &mdash; The name of this document</li>
+    
+    <li><code class="field">description</code>  &mdash; Brief description of this document</li>
+    
+    <li><code class="field">local-plan</code>  &mdash; The reference for the particular local plan (for example, dorcester-new-local-plan)</li>
+    
+    <li><code class="field">document-types</code>  &mdash; The code for this document type (for example policy map)</li>
+    
+    <li><code class="field">documentation-url</code>  &mdash; The webpage where you can find this document</li>
+    
+    <li><code class="field">document-url</code>  &mdash; The URL of the actual document</li>
+    
+    <li><code class="field">organisations</code>  &mdash; a list of codes for the responsible organisations, separated by ;</li>
+    
+    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
+    
+    <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
+    
+    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
     
     </ul>
 
@@ -350,8 +396,8 @@ code.value {
     <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
     <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
-    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the Planning condition.</p>
-    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a Planning condition when completing a form, or contacting a call centre.</p>
+    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the Local plan.</p>
+    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a Local plan when completing a form, or contacting a call centre.</p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
     <p class="govuk-body">
@@ -693,25 +739,7 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     </dl>
 
     
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-    <h2 id="versions" class="govuk-heading-m">Previous versions</h2>
-
-    <p class="govuk-body">These specifications are living documents. When we make material changes to the data structure we update the version number.</p>
-
-    <p class="govuk-body">Previous versions of the planning-condition specification are:</p>
-
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li>Version <a href="v1.3.0" class="govuk-link">1.3.0</a> (current)</li>
-    
-      <li>Version <a href="v1.2.2" class="govuk-link">1.2.2</a></li>
-    
-      <li>Version <a href="v1.1.1" class="govuk-link">1.1.1</a></li>
-    
-      <li>Version <a href="v1.1.0" class="govuk-link">1.1.0</a></li>
-    
-    </ul>
+    <p class="govuk-body">See <a href="../#versions" class="govuk-link">other versions</a></p>
     
 
   </div>
