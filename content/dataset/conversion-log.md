@@ -2,8 +2,8 @@
 attribution: crown-copyright
 collection: ''
 consideration: ''
-dataset: converted-resource
-description: Result of resource conversion
+dataset: conversion-log
+description: Log of the resource conversion process
 end-date: ''
 entry-date: ''
 fields:
