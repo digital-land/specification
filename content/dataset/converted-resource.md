@@ -9,6 +9,7 @@ entry-date: ''
 fields:
 - field: dataset
 - field: resource
+- field: duration
 - field: status
 - field: exception
 - field: end-date
