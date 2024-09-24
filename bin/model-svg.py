@@ -13,13 +13,6 @@ tables = {
 realms = {
     "dataset": [
         "organisation",
-        "legal-instrument",
-        "timetable",
-        "geography",
-        "policy",
-        "document",
-        "metric",
-        "category",
     ],
     "collection": [],
     "specification": [],
