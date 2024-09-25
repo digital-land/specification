@@ -58,5 +58,9 @@ for h3 in pq("h3").items():
             row = {}
             row["name"] = name
             row["cohort"] = cohort
-            row["organisation"] = find_organisation(row["name"])
-            w.writerow(row)
+            try:
+                row["organisation"] = find_organisation(row["name"])
+                w.writerow(row)
+            except NameError as e:
+                print(f"Unknown organisation: {e}")
+                continue

@@ -52,6 +52,10 @@ for tr in pq("tr").items():
         row["start-date"] = datetime.strptime(cols[1].text, "%d %B %Y").strftime(
             "%Y-%m-%d"
         )
-        row["organisation"] = find_organisation(row["name"])
-        if row["organisation"]:
-            w.writerow(row)
+        try:
+            row["organisation"] = find_organisation(row["name"])
+            if row["organisation"]:
+                w.writerow(row)
+        except NameError as e:
+            print(f"Unknown organisation: {e}")
+            continue
