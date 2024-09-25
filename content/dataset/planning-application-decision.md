@@ -2,7 +2,7 @@
 attribution: crown-copyright
 collection: ''
 consideration: planning-applications-decisions
-dataset: planning-application
+dataset: planning-application-decision
 description: An application for planning permission
 end-date: ''
 entity-maximum: '10999999999'
@@ -34,10 +34,10 @@ fields:
 - field: start-date
 github-discussion: 25
 licence: ogl3
-name: Planning application
+name: Planning application decision
 paint-options: ''
 phase: alpha
-plural: Planning applications
+plural: Planning application decisions
 prefix: ''
 realm: dataset
 replacement-dataset: ''
