@@ -21,7 +21,7 @@ datasets:
           description: the Historic England listed-building-grade value for the listed building
           dataset: listed-building-grade
         - field: geometry
-          description: the boundary of the listed building - format under review 
+          description: the boundary of the listed building, format under review 
         - field: document-url
           description: the URL of the web page where you can find the document for the listed building
         - field: notes
