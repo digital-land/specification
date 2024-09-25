@@ -1,9 +1,9 @@
 ---
-title: Planning application datasets
+title: Planning application decision datasets
 ---
 ```mermaid
 erDiagram
-    planning-application {
+    planning-application-decision {
         string reference
         string name
         string description
@@ -24,7 +24,7 @@ erDiagram
     }
     planning-application-log {
         string reference
-        ref planning-application
+        string planning-application
         string planning-application-status
         url documentation-url
         url document-url
@@ -39,7 +39,7 @@ erDiagram
         string reference
         string name
         string description
-        ref planning-application
+        string planning-application
         string document-type
         url documentation-url
         url document-url
@@ -48,6 +48,4 @@ erDiagram
         date entry-date
         date start-date
     }
-    planning-application-log ||--o{ planning-application : references
-    planning-application-document ||--o{ planning-application : references
 ```
