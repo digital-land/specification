@@ -526,6 +526,14 @@ convert,dataset
 convert,plugin
 convert,resource
 convert,start-date
+converted-resource,dataset
+converted-resource,elapsed
+converted-resource,end-date
+converted-resource,entry-date
+converted-resource,exception
+converted-resource,resource
+converted-resource,start-date
+converted-resource,status
 datapackage-dataset,datapackage
 datapackage-dataset,dataset
 datapackage-dataset,end-date
