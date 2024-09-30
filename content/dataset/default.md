@@ -23,7 +23,7 @@ paint-options: ''
 phase: alpha
 plural: Pipleline default fields
 prefix: ''
-realm: pipeline
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

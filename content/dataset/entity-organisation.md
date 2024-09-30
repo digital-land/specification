@@ -27,7 +27,7 @@ paint-options: ''
 phase: alpha
 plural: Entity organisations
 prefix: ''
-realm: entity
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

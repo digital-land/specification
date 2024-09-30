@@ -25,7 +25,7 @@ paint-options: ''
 phase: alpha
 plural: Resources
 prefix: ''
-realm: collection
+realm: log
 replacement-dataset: ''
 start-date: ''
 themes:
