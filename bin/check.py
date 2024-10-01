@@ -4,7 +4,7 @@
 
 import sys
 import csv
-import ast
+import json
 from decimal import Decimal
 
 dialect = csv.excel
@@ -184,7 +184,7 @@ def check_projects():
 
 def check_specifications():
     for specification, s in tables["specification"].items():
-        j = ast.literal_eval(s["json"])
+        j = json.loads(s["json"])
         for d in j:
             dataset = d["dataset"]
             if dataset not in tables["dataset"]:
