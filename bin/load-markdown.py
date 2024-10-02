@@ -26,7 +26,7 @@ for path in sys.argv[2:]:
     # handle specification datasets ..
     if dataset == "specification":
         datasets = row["datasets"]
-        row["json"] = datasets
+        row["json"] = json.dumps(datasets)
         row["datasets"] = ";".join([d["dataset"] for d in datasets])
 
     w.writerow(row)
