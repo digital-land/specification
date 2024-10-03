@@ -88,11 +88,11 @@
 <rect x="297" y="100" width="162" height="20" class="field"/>
 <rect x="459" y="100" width="55" height="20" class="datatype"/>
 <text x="302" y="110" class="field">geometry</text>
-<text x="464" y="110" class="datatype">wkt</text>
+<text x="464" y="110" class="datatype">multipolygon</text>
 <rect x="297" y="120" width="162" height="20" class="field"/>
 <rect x="459" y="120" width="55" height="20" class="datatype"/>
 <text x="302" y="130" class="field">point</text>
-<text x="464" y="130" class="datatype">wkt</text>
+<text x="464" y="130" class="datatype">point</text>
 <rect x="297" y="140" width="162" height="20" class="field"/>
 <rect x="459" y="140" width="55" height="20" class="datatype"/>
 <text x="302" y="150" class="field">notes</text>
@@ -140,11 +140,11 @@
 <rect x="594" y="120" width="162" height="20" class="field"/>
 <rect x="756" y="120" width="55" height="20" class="datatype"/>
 <text x="599" y="130" class="field">point</text>
-<text x="761" y="130" class="datatype">wkt</text>
+<text x="761" y="130" class="datatype">point</text>
 <rect x="594" y="140" width="162" height="20" class="field"/>
 <rect x="756" y="140" width="55" height="20" class="datatype"/>
 <text x="599" y="150" class="field">geometry</text>
-<text x="761" y="150" class="datatype">wkt</text>
+<text x="761" y="150" class="datatype">multipolygon</text>
 <rect x="594" y="160" width="162" height="20" class="field"/>
 <rect x="756" y="160" width="55" height="20" class="datatype"/>
 <text x="599" y="170" class="field">notes</text>

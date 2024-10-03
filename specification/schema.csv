@@ -23,7 +23,7 @@ central-activities-zone,Central activities zone,,
 certificate-of-immunity,Certificate of immunity,,
 checksum,Checksum,Checksums of dataset files and other media,checksum
 coastal-change-management-area,Coastal change management area,,
-cohort,Project,,
+cohort,Project,,cohort
 collection,Collection,A collection of resources collected from various sources,collection
 column-field,Column field,Log of resource columns mapped to dataset fields,
 column,Pipeline column,Map resource column name to dataset field,column
@@ -119,6 +119,7 @@ infrastructure-project-type,Infrastructure project type,The types of infrastruct
 infrastructure-project,Infrastructure project,An application for a infrastructure development,
 internal-drainage-board,Internal drainage board,,
 internal-drainage-district,Internal drainage district,,
+intervention,Intervention,,intervention
 issue-type,Issue type,types of issues with fields processing resources,issue-type
 issue,Issue,issues with fields processing resources,
 licence,Licence,,licence

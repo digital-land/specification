@@ -360,9 +360,10 @@ cohort,description
 cohort,documentation-url
 cohort,end-date
 cohort,entry-date
+cohort,intervention
 cohort,name
+cohort,notes
 cohort,project
-cohort,reference
 cohort,start-date
 collection,collection
 collection,end-date
@@ -1481,6 +1482,12 @@ internal-drainage-district,prefix
 internal-drainage-district,reference
 internal-drainage-district,region
 internal-drainage-district,start-date
+intervention,end-date
+intervention,entry-date
+intervention,intervention
+intervention,name
+intervention,project
+intervention,start-date
 issue-type,description
 issue-type,end-date
 issue-type,entry-date

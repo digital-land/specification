@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>
     Tree preservation order
- | Digital Land</title>
+ | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -40,7 +40,6 @@ code.value {
 .app-version-banner p {
   margin-bottom: 0;
 }
-
 </style>
 
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
@@ -86,59 +85,41 @@ code.value {
   </div>
 
 </div>
-
-
-<header role="banner" id="global-header" class="govuk-header  with-proposition dl-header" data-module="govuk-header">
+<header id="global-header" class="govuk-header" data-module="govuk-header" role="banner">
   <div class="govuk-header__container govuk-width-container">
     <div class="header-proposition">
       <div class="govuk-header__content">
-        <a href="https://digital-land.github.io/" class="govuk-header__link govuk-header__link--service-name">
-        Digital Land
-        </a>
-        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
-        <nav>
-          <ul id="navigation" class="govuk-header__navigation" aria-label="Top Level Navigation">
-            
-            <li class="govuk-header__navigation-item">
-              <a class="govuk-header__link" href="/about/">About</a>
-            </li>
-            
-            <li class="govuk-header__navigation-item">
-              <a class="govuk-header__link" href="/project/">Projects</a>
-            </li>
-            
-            <li class="govuk-header__navigation-item">
-              <a class="govuk-header__link" href="/weeknote/">Weeknotes</a>
-            </li>
-            
-            <li class="govuk-header__navigation-item">
-              <a class="govuk-header__link" href="/blog-post/">Blog</a>
-            </li>
-            
-          </ul>
-        </nav>
-        </div>
+        <a href="/" class="govuk-header__link govuk-header__link--service-name">Planning and housing data in England</a>
+          <nav class="govuk-header__navigation" aria-label="Menu">
+            <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide menu" hidden>Menu</button>
+            <ul id="navigation" class="govuk-header__navigation-list">
+              <li class="govuk-header__navigation-item">
+                <a class="govuk-header__link" href="https://design.planning.data.gov.uk">Design data</a>
+              </li>
+              <li class="govuk-header__navigation-item">
+                <a class="govuk-header__link" href="https://www.planning.data.gov.uk/guidance/">Provide data</a>
+              </li>
+              <li class="govuk-header__navigation-item">
+                <a class="govuk-header__link" href="https://www.planning.data.gov.uk">Use data</a>
+              </li>
+            </ul>
+          </nav>
+      </div>
     </div>
   </div>
 </header>
 
 
-
     
       <div class="govuk-width-container ">
         
-  
+
+
   
   
   
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
-  
-    
-    <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="https://digital-land.github.io/">Digital Land</a>
-    </li>
-    
   
     
     <li class="govuk-breadcrumbs__list-item">
@@ -161,6 +142,7 @@ code.value {
   </ol>
 </div>
 
+
 <!-- [Replace with warning banner if version is updated] -->
 
         <main class="govuk-main-wrapper " id="main-content" role="main">
@@ -181,19 +163,20 @@ code.value {
     <p class="govuk-body">
       <strong class="govuk-tag">Piloting</strong>
     </p>
-    <p class="govuk-body">
+    <p class="govuk-body govuk-!-margin-bottom-1">
       Version: <a href="/specification/specification/tree-preservation-order/v1.2.2" class="govuk-link">1.2.2</a> - published 2023-09-08
-      
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p class="govuk-body">
-    This specification defines the format for how a planning authority should provide information about Tree preservation orders as data.
+      This specification defines the format for how Tree preservation orders must be provided as data.
     </p>
     <p class="govuk-body">
     This technical specification is accompanied by guidance, examples and other tools providing feedback to data providers.
     </p>
+
+    <p class="govuk-body"><a href="https://digital-land.github.io/data-standards/what-are-technical-specifications" class="govuk-link">What are technical specifications?</a></p>
 
     <h2 id="status" class="govuk-heading-m">Status of this specification</h2>
     <p class="govuk-body">
@@ -201,7 +184,7 @@ code.value {
     The contents of this specification are currently under development, and liable to change based on feedback.
     </p>
     <p class="govuk-body">
-    This specification is intended to be published as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration bill [<a href="#LURB">LURB</a>], as introduced to parliament on 19 May 2022.
+    This specification is intended to be published as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
     </p>
     <div class="govuk-warning-text"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
     <strong class="govuk-warning-text__text"><span class="govuk-warning-text__assistive">Warning</span>
@@ -209,7 +192,7 @@ code.value {
     </strong>
     </div>
     <p id="feedback" class="govuk-body">
-    Comments and feedback on this specification may be provided on the GitHub issue [TBD] or sent to
+    Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/43" class="govuk-link">GitHub discussion</a> or sent to
     <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
     </p>
 
@@ -225,16 +208,13 @@ code.value {
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <h2 id="documentation-page" class="govuk-heading-m">Documentation page</h2>
-    <p class="govuk-body">
-    A data provider MUST provide a list of all of the Tree preservation orders within its jurisdiction on a documentation page.
-    </p>
-    <p class="govuk-body">
-    The documentation page MUST be accessible as HTML from a public URL.
-    </p>
-    <p class="govuk-body">
-    The documentation page MUST be clearly owned and operated by the data provider.
-    Where the data provider is a local authority or other public body, the web page MUST be on a .gov.uk domain.
-    </p>
+
+    <p class="govuk-body">The documentation page is a web page on your website that MUST be accessible as HTML from a public URL.</p>
+
+    <p class="govuk-body">The documentation page MUST be owned and operated by the data provider. Where the data provider is a local authority or other public body, the web page MUST be on your .gov.uk domain.</p>
+    
+    <p class="govuk-body">A data provider MUST provide a link to the data for all of the Tree preservation orders within its jurisdiction on a documentation page.</p>
+
     <p class="govuk-body">
     The documentation page MUST include:
     </p>
@@ -264,32 +244,32 @@ code.value {
     Tree preservation order
 </h3>
     <p class="govuk-body">The tree preservation order data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each tree preservation order.</p>
-    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+    <p class="govuk-body">The data MUST contain at least one record for each tree preservation order.</p>
+    <p class="govuk-body">Each record MUST contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
     <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
     
-    <li><code class="field">name</code> </li>
+    <li><code class="field">name</code>  &mdash; the name of the tree preservation order</li>
     
-    <li><code class="field">documentation-url</code> </li>
+    <li><code class="field">documentation-url</code>  &mdash; the URL of the web page where you can find information about the tree preservation order</li>
     
-    <li><code class="field">document-url</code> </li>
+    <li><code class="field">document-url</code>  &mdash; the URL of the tree preservation order document</li>
     
-    <li><code class="field">made-date</code>  &mdash; The date the tree preservation order was "made"</li>
+    <li><code class="field">made-date</code>  &mdash; the date the tree preservation order was "made"</li>
     
-    <li><code class="field">confirmed-date</code>  &mdash; The date the tree preservation order was "confirmed"</li>
+    <li><code class="field">confirmed-date</code>  &mdash; the date the tree preservation order was "confirmed"</li>
     
-    <li><code class="field">notes</code> </li>
+    <li><code class="field">notes</code>  &mdash; optional notes</li>
     
-    <li><code class="field">organisation</code> </li>
+    <li><code class="field">organisation</code>  &mdash; the organisation responsible for this tree preservation order</li>
     
     <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
     
     <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order came into force</li>
     
-    <li><code class="field">end-date</code> </li>
+    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order ended or leave blank if the zone is still active</li>
     
     </ul>
 
@@ -299,32 +279,32 @@ code.value {
     Tree preservation zone
 </h3>
     <p class="govuk-body">The tree preservation zone data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each tree preservation zone.</p>
-    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+    <p class="govuk-body">The data MUST contain at least one record for each tree preservation zone.</p>
+    <p class="govuk-body">Each record MUST contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
     <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation zone</li>
     
-    <li><code class="field">name</code> </li>
+    <li><code class="field">name</code>  &mdash; the name of the tree preservation zone</li>
     
     <li><code class="field">tree-preservation-order</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
     
-    <li><code class="field">tree-preservation-zone-type</code>  &mdash; the type of zone, for example area, group or woodland</li>
+    <li><code class="field">tree-preservation-zone-type</code>  &mdash; the type of zone, for example area, group or woodland (<a href="https://dluhc-datasets.planning-data.dev/dataset/tree-preservation-zone-type/finder">See list of allowable values</a>)</li>
     
-    <li><code class="field">geometry</code> </li>
+    <li><code class="field">geometry</code>  &mdash; the boundary of the area covered by the tree preservation zone in WKT format</li>
     
-    <li><code class="field">point</code>  &mdash; the centre of the tree preservation zone if you can not provide the full geometry</li>
+    <li><code class="field">point</code>  &mdash; the centre of the tree preservation zone if you cannot provide the full geometry</li>
     
-    <li><code class="field">notes</code> </li>
+    <li><code class="field">notes</code>  &mdash; optional notes</li>
     
-    <li><code class="field">organisation</code> </li>
+    <li><code class="field">organisation</code>  &mdash; the organisation responsible for this tree preservation order</li>
     
     <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
     
     <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone came into force</li>
     
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone was disolved, or blank if the zone is active</li>
+    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone ended or leave blank if the zone is still active</li>
     
     </ul>
 
@@ -334,34 +314,34 @@ code.value {
     Tree
 </h3>
     <p class="govuk-body">The tree data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one entry for each tree.</p>
-    <p class="govuk-body">Each entry MUST containing the following fields:</p>
+    <p class="govuk-body">The data MUST contain at least one record for each tree.</p>
+    <p class="govuk-body">Each record MUST contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     
     <li><code class="field">reference</code>  &mdash; the number or reference for the tree which appears in the preservation order</li>
     
-    <li><code class="field">name</code> </li>
+    <li><code class="field">name</code>  &mdash; the name of the tree</li>
     
     <li><code class="field">tree-preservation-order</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
     
-    <li><code class="field">uprn</code> </li>
+    <li><code class="field">uprn</code>  &mdash; unique property reference number if the tree is located on an addressable property</li>
     
-    <li><code class="field">address-text</code> </li>
+    <li><code class="field">address-text</code>  &mdash; the address of the property</li>
     
-    <li><code class="field">point</code> </li>
+    <li><code class="field">point</code>  &mdash; the centre of the tree area if you cannot provide the full geometry</li>
     
-    <li><code class="field">geometry</code> </li>
+    <li><code class="field">geometry</code>  &mdash; the boundary of the area covered by the tree in WKT format</li>
     
-    <li><code class="field">notes</code> </li>
+    <li><code class="field">notes</code>  &mdash; optional notes</li>
     
-    <li><code class="field">organisation</code> </li>
+    <li><code class="field">organisation</code>  &mdash; the organisation responsible for this tree</li>
     
     <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
     
     <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> from which the tree preservation order affects the tree</li>
     
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order no longer affects the tree, or blank if the tree is still under the order</li>
+    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order</li>
     
     </ul>
 
@@ -380,7 +360,7 @@ code.value {
 
     <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
     <p class="govuk-body">
-    The boundary for the conservation area as a single POLYGON or MULTIPOLYGON value.
+    The boundary for the area as a single POLYGON or MULTIPOLYGON value.
     </p>
     <p class="govuk-body">
     In all cases all points MUST be either in the
@@ -472,7 +452,7 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     <p class="govuk-body">
     There is a risk of people's names or other personally identifiable information appearing in the data, in particular notes, description and other text fields.
     It is the responsibility of the data provider to review and redact such information before publication.
-    The for example, the [OGL3] licence does not 
+    For example, the [OGL3] licence does not cover personal data in the Information.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -596,10 +576,10 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     <dl class="govuk-summary-list">
 
     <div class="govuk-summary-list__row">
-    <dt class="govuk-summary-list__key" id="LURB">[LURB]</dt>
+    <dt class="govuk-summary-list__key" id="LURA">[LURA]</dt>
     <dd class="govuk-summary-list__value">
-    Levelling-up and Regeneration Bill.  Originated in the House of Commons, Session 2022-23.
-    <a href="https://bills.parliament.uk/bills/3155">https://bills.parliament.uk/bills/3155</a>
+    Levelling-up and Regeneration Act.  Originated in the House of Commons, Session 2022-23.
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55/enacted">https://www.legislation.gov.uk/ukpga/2023/55/enacted</a>
     </dd>
     </div>
 
