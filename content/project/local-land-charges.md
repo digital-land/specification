@@ -37,6 +37,8 @@ organisations:
   start-date: 2023-04-27
 - organisation: local-authority:BUR
   start-date: 2022-07-14
+- organisation: local-authority:CLD
+  start-date: 2024-10-28
 - organisation: local-authority:CAR
   start-date: 2020-04-21
 - organisation: local-authority:CHL
@@ -67,6 +69,8 @@ organisations:
   start-date: 2022-09-06
 - organisation: local-authority:GED
   start-date: 2024-03-27
+- organisation: local-authority:GRA
+  start-date: 2024-10-09
 - organisation: local-authority:HAL
   start-date: 2023-03-16
 - organisation: local-authority:HAE
@@ -137,6 +141,8 @@ organisations:
   start-date: 2021-10-13
 - organisation: local-authority:RIH
   start-date: 2022-10-27
+- organisation: local-authority:RUG
+  start-date: 2024-09-05
 - organisation: local-authority:RUT
   start-date: 2022-12-12
 - organisation: local-authority:RYE

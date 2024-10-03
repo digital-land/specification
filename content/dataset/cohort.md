@@ -14,11 +14,12 @@ fields:
 - field: documentation-url
 - field: end-date
 - field: entry-date
+- field: intervention
 - field: name
+- field: notes
 - field: project
-- field: reference
 - field: start-date
-key-field: ''
+key-field: 'cohort'
 licence: ogl3
 name: Project
 paint-options: ''

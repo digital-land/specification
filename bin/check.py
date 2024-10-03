@@ -34,6 +34,8 @@ tables = {
     "dataset": {},
     "project": {},
     "project-status": {},
+    "cohort": {},
+    "intervention": {},
     "specification": {},
     "typology": {},
     "theme": {},
@@ -185,6 +187,12 @@ def check_projects():
                 )
 
 
+def check_cohorts():
+    for cohort, c in tables["cohort"].items():
+        if c["intervention"] and c["intervention"] not in tables["intervention"]:
+            error(f"cohort '{cohort}' has an unknown intervention '{c['intervention']}'")
+
+
 def check_specifications():
     for specification, s in tables["specification"].items():
         j = json.loads(s["json"])
@@ -290,6 +298,7 @@ if __name__ == "__main__":
     check_field_typology()
     check_datasets()
     check_projects()
+    check_cohorts()
     check_specifications()
 
     if errors > 0:

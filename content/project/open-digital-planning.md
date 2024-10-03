@@ -3,7 +3,7 @@ description: ''
 end-date: ''
 entry-date: ''
 name: Open Digital Planning
-parent-project: ''
+parent-project: 'digital-planning'
 project: open-digital-planning
 project-status: in-progress
 provision-reason: expected

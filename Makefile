@@ -26,6 +26,7 @@ SPECIFICATION_CSV=\
 	specification/severity.csv\
 	specification/prefix.csv\
 	specification/cohort.csv\
+	specification/intervention.csv\
 	specification/project.csv\
 	specification/project-organisation.csv\
 	specification/project-status.csv\
@@ -135,6 +136,9 @@ specification/include-exclude.csv:	content/include-exclude.csv
 
 specification/role-organisation-rule.csv:	content/role-organisation-rule.csv
 	cp content/role-organisation-rule.csv $@
+
+specification/intervention.csv:	content/intervention.csv
+	cp content/intervention.csv $@
 
 specification/cohort.csv:	content/cohort.csv
 	cp content/cohort.csv $@
