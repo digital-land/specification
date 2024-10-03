@@ -5,8 +5,8 @@ consideration: planning-conditions
 dataset: planning-condition
 description: A condition that is attached to planning permission
 end-date: ''
-entity-maximum: '70002000'
-entity-minimum: '70999999'
+entity-maximum: '73999999'
+entity-minimum: '73000000'
 entry-date: ''
 fields:
 - field: description

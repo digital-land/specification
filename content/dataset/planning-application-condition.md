@@ -5,8 +5,8 @@ consideration: planning-conditions
 dataset: planning-application-condition
 description: A record of which conditions apply to which planning applications
 end-date: ''
-entity-maximum: '71000000'
-entity-minimum: '72999999'
+entity-maximum: '72999999'
+entity-minimum: '71000000'
 entry-date: ''
 fields:
 - field: document-url

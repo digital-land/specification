@@ -5,8 +5,8 @@ consideration: planning-conditions
 dataset: planning-condition-purpose
 description: The primary purpose of the condition, for example to restrict something
 end-date: ''
-entity-maximum: '70000000'
-entity-minimum: '70000499'
+entity-maximum: '70000499'
+entity-minimum: '70000000'
 entry-date: ''
 fields:
 - field: description
