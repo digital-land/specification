@@ -10,17 +10,20 @@ tables = {
     "field": {},
 }
 
+skip_links = [
+    "geography",
+    "company",
+    "local-authority-type",
+    "local-resilience-forum",
+    "local-resilience-forum-boundary",
+    "local-planning-authority",
+    "local-authority-district",
+    "national-park",
+    "region",
+]
+
 realms = {
-    "dataset": [
-        "organisation",
-        "legal-instrument",
-        "timetable",
-        "geography",
-        "policy",
-        "document",
-        "metric",
-        "category",
-    ],
+    "dataset": ["organisation"],
     "collection": [],
     "specification": [],
     "pipeline": [],
@@ -133,7 +136,7 @@ max_Y = 0
 for realm in realms:
     Y = 0
     for dataset, d in tables["dataset"].items():
-        if d["realm"] != realm:
+        if d["realm"] != realm or realms[realm] and dataset not in realms[realm]:
             continue
 
         box = []
@@ -217,6 +220,9 @@ text.datatype{fill:#0b0c0c;}
 )
 
 for l in links:
+    if l["to"].removesuffix("_reference") in skip_links:
+        continue
+
     from_x, from_y = points[l["from"]]
     to_x, to_y = points[l["to"]]
 

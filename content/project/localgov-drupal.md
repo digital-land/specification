@@ -43,6 +43,8 @@ organisations:
   cohort: LGD-Subscriber
 - organisation: local-authority:NKE
   cohort: LGD-Subscriber
+- organisation: local-authority:NBL
+  cohort: LGD-Subscriber
 - organisation: local-authority:SHA
   cohort: LGD-Subscriber
 - organisation: local-authority:WFT
@@ -58,6 +60,10 @@ organisations:
 - organisation: local-authority:EPP
   cohort: LGD-Subscriber
 - organisation: local-authority:KWL
+  cohort: LGD-Subscriber
+- organisation: local-authority:LDS
+  cohort: LGD-Subscriber
+- organisation: local-authority:WOI
   cohort: LGD-Subscriber
 - organisation: local-authority:BDG
   cohort: LGD-Contributor

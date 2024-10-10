@@ -23,7 +23,7 @@ central-activities-zone,Central activities zone,,
 certificate-of-immunity,Certificate of immunity,,
 checksum,Checksum,Checksums of dataset files and other media,checksum
 coastal-change-management-area,Coastal change management area,,
-cohort,Project,,
+cohort,Project,,cohort
 collection,Collection,A collection of resources collected from various sources,collection
 column-field,Column field,Log of resource columns mapped to dataset fields,
 column,Pipeline column,Map resource column name to dataset field,column
@@ -39,6 +39,7 @@ contribution-funding-status,Contribution funding status,,
 contribution-purpose,Contribution purpose,,
 control-of-major-accident-hazards-site,Control of major accident hazards site,,
 convert,Pipeline convert,Convert a resource,
+converted-resource,Converted resource,Result of resource conversion,
 datapackage-dataset,Data package dataset,Datasets included in a datapackage,
 datapackage,Data package,Collections of datasets,datapackage
 dataset-field,Dataset field,,
@@ -118,6 +119,7 @@ infrastructure-project-type,Infrastructure project type,The types of infrastruct
 infrastructure-project,Infrastructure project,An application for a infrastructure development,
 internal-drainage-board,Internal drainage board,,
 internal-drainage-district,Internal drainage district,,
+intervention,Intervention,,intervention
 issue-type,Issue type,types of issues with fields processing resources,issue-type
 issue,Issue,issues with fields processing resources,
 licence,Licence,,licence
@@ -172,11 +174,11 @@ permitted-development-right,Permitted development right,,
 phase,Phase,phase of development,
 planning-application-category,Planning application category,"A planning application category is a high level categorisation of the type of planning application, such as ""householder"" or ""full planning application""",
 planning-application-condition,Planning application condition,A record of which conditions apply to which planning applications,
+planning-application-decision,Planning application decision,An application for planning permission,
 planning-application-document,Planning application document,,
 planning-application-log,Planning application log,The stages a planning application has gone through,
 planning-application-status,Planning application status,A planning application status,
 planning-application-type,Planning application type,A type of planning application,
-planning-application,Planning application,An application for planning permission,
 planning-condition-purpose,Planning condition purpose,"The primary purpose of the condition, for example to restrict something",
 planning-condition-target,Planning condition target,"The target of the condition, for example a property or site",
 planning-condition-type,Planning condition type,"The type of the planning condition, for example the removal of permitted development rights",

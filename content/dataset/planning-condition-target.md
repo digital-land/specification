@@ -5,8 +5,8 @@ consideration: planning-conditions
 dataset: planning-condition-target
 description: The target of the condition, for example a property or site
 end-date: ''
-entity-maximum: '70000500'
-entity-minimum: '70000999'
+entity-maximum: '70000999'
+entity-minimum: '70000500'
 entry-date: ''
 fields:
 - field: description

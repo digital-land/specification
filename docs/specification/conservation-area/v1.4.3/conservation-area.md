@@ -2,7 +2,7 @@
 specification: conservation-area
 name: Conservation area
 plural: conservation areas
-specification-status: piloting
+specification-status: candidate-standard
 start-date: ''
 end-date: ''
 entry-date: '2023-09-08'

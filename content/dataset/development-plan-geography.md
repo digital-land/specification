@@ -5,8 +5,8 @@ consideration: development-plans-and-timetables
 dataset: development-plan-geography
 description: A geography that a development plan covers
 end-date: '2024-07-12'
-entity-maximum: '3099999'
-entity-minimum: '3010000'
+entity-maximum: 0
+entity-minimum: 0
 entry-date: '2023-09-19'
 fields:
 - field: development-plan-geography-type

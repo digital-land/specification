@@ -10,4 +10,4 @@ check::	bin/check.py $(SPECIFICATION_FILES)
 	python3 bin/check.py
 
 makerules::
-	curl -qfsL '$(SOURCE_URL)/makerules/main/specification.mk' > makerules/specification.mk
+	curl -qfsL '$(MAKERULES_URL)specification.mk' > makerules/specification.mk

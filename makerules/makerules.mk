@@ -11,6 +11,10 @@ ifeq ($(SOURCE_URL),)
 SOURCE_URL=https://raw.githubusercontent.com/digital-land/
 endif
 
+ifeq ($(MAKERULES_URL),)
+MAKERULES_URL=$(SOURCE_URL)makerules/main/
+endif
+
 ifeq ($(CONFIG_URL),)
 CONFIG_URL=https://raw.githubusercontent.com/digital-land/config/main/
 endif
@@ -31,8 +35,12 @@ define dataset_url
 'https://$(COLLECTION_DATASET_BUCKET_NAME).s3.eu-west-2.amazonaws.com/$(2)-collection/dataset/$(1).sqlite3'
 endef
 
+ifeq ($(VAR_DIR),)
+VAR_DIR=var/
+endif
+
 ifeq ($(CACHE_DIR),)
-CACHE_DIR=var/cache/
+CACHE_DIR=$(VAR_DIR)cache/
 endif
 
 
@@ -113,11 +121,11 @@ clean::
 
 # prune back to source code
 prune::
-	rm -rf ./var $(VALIDATION_DIR)
+	rm -rf ./$(VAR_DIR) $(VALIDATION_DIR)
 
 # update makerules from source
 makerules::
-	curl -qfsL '$(SOURCE_URL)/makerules/main/makerules.mk' > makerules/makerules.mk
+	curl -qfsL '$(MAKERULES_URL)makerules.mk' > makerules/makerules.mk
 
 ifeq (,$(wildcard ./makerules/specification.mk))
 # update local copies of specification files

@@ -7,6 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 documentation-url: https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data
+github-discussion: 28
 version: 1.1.1
 datasets:
     - dataset: brownfield-land

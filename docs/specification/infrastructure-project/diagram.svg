@@ -52,11 +52,11 @@
 <rect x="0" y="160" width="162" height="20" class="field"/>
 <rect x="162" y="160" width="55" height="20" class="datatype"/>
 <text x="5" y="170" class="field">geometry</text>
-<text x="167" y="170" class="datatype">wkt</text>
+<text x="167" y="170" class="datatype">multipolygon</text>
 <rect x="0" y="180" width="162" height="20" class="field"/>
 <rect x="162" y="180" width="55" height="20" class="datatype"/>
 <text x="5" y="190" class="field">point</text>
-<text x="167" y="190" class="datatype">wkt</text>
+<text x="167" y="190" class="datatype">point</text>
 <rect x="0" y="200" width="162" height="20" class="field"/>
 <rect x="162" y="200" width="55" height="20" class="datatype"/>
 <text x="5" y="210" class="field">documentation-url</text>
