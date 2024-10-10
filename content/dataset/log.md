@@ -26,7 +26,7 @@ paint-options: ''
 phase: alpha
 plural: Collection logs
 prefix: ''
-realm: collection
+realm: log
 replacement-dataset: ''
 start-date: ''
 themes:

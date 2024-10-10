@@ -25,7 +25,7 @@ paint-options: ''
 phase: alpha
 plural: Endpoints
 prefix: ''
-realm: collection
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

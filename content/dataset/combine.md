@@ -22,7 +22,7 @@ paint-options: ''
 phase: alpha
 plural: Pipeline combine facts
 prefix: ''
-realm: pipeline
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

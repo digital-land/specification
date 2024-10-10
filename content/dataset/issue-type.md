@@ -24,7 +24,7 @@ paint-options: ''
 phase: alpha
 plural: Issue types
 prefix: ''
-realm: pipeline
+realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
