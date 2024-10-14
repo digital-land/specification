@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-09-08'
 github-discussion: 43
-version: 1.2.3
+version: 1.3.1
 datasets:
     - dataset: tree-preservation-order
       name: tree preservation order
@@ -82,10 +82,12 @@ datasets:
           description: optional notes
         - field: organisation
           description: the organisation responsible for this tree 
+        - field: felled-date
+          description: the date the tree was felled
         - field: entry-date
           description: the <a href="#date">date</a> this entry was created or amended
         - field: start-date
           description: the <a href="#date">date</a> from which the tree preservation order affects the tree
         - field: end-date
-          description: the <a href="#date">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order
+          description: the <a href="#date">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.
 ---
