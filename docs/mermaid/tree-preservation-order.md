@@ -39,6 +39,7 @@ erDiagram
         wkt geometry
         string notes
         string organisation
+        date felled-date
         date entry-date
         date start-date
         date end-date
