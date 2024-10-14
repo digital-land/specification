@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-09-08'
 github-discussion: 43
-version: 1.2.2
+version: 1.2.3
 datasets:
     - dataset: tree-preservation-order
       name: tree preservation order
@@ -19,7 +19,7 @@ datasets:
         - field: documentation-url
           description: the URL of the web page where you can find information about the tree preservation order
         - field: document-url
-          description: the URL of the tree preservation order document
+          description: the URL of the tree preservation order document. If a TPO is revoked you can blank out this field.
         - field: made-date
           description: the date the tree preservation order was "made"
         - field: confirmed-date
@@ -33,7 +33,7 @@ datasets:
         - field: start-date
           description: the <a href="#date">date</a> the tree preservation order came into force
         - field: end-date
-          description: the <a href="#date">date</a> the tree preservation order ended or leave blank if the zone is still active
+          description: the <a href="#date">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active
     - dataset: tree-preservation-zone
       name: tree preservation zone
       fields:
