@@ -17,6 +17,7 @@ fields:
 - field: notes
 - field: organisation
 - field: prefix
+- field: reason
 - field: reference
 - field: start-date
 github-discussion: 40
@@ -33,7 +34,7 @@ themes:
 - housing
 - monitoring
 typology: policy
-version: 2.0
+version: 3.0
 wikidata: ''
 wikipedia: ''
 ---

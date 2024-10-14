@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-11-09'
 github-discussion: 40
-version: 1.3.0
+version: 1.4.0
 datasets:
     - dataset: planning-condition
       name: planning condition
@@ -18,6 +18,8 @@ datasets:
           description: a name used for this planning condition
         - field: description
           description: text explaining the condition
+        - field: reason
+          description: a text reason for the condition
         - field: organisation
           description: the organisation that created the condition
         - field: notes
