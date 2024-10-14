@@ -7,6 +7,7 @@ erDiagram
         string reference
         string name
         string description
+        string reason
         string organisation
         string notes
         date entry-date
