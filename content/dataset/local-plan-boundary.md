@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: local-plan-boundary
 description: A boundary that a local plan covers

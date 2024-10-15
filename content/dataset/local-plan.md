@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: 'local-plan'
 consideration: devlopment-plans-and-timetables
 dataset: local-plan
 description: ''
