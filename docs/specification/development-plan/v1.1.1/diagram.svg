@@ -166,4 +166,172 @@
 <text x="599" y="250" class="field">end-date</text>
 <text x="761" y="250" class="datatype">datetime</text>
 </g>
+</svg><svg xmlns="http://www.w3.org/2000/svg" width="811" height="260">
+<defs>
+    <style>
+    text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
+    text.name{fill:#fff;font-weight:700;text-anchor:middle}
+    rect.name{fill:#0b0c0c; stroke:#0b0c0c;}
+    rect{fill:#fff;stroke:#b1b4b6;}
+    text.field{fill:#0b0c0c;}
+    text.datatype{fill:#0b0c0c;}
+    .line{stroke:#0b0c0c;}
+    </style>
+    <marker id="start-dot" markerWidth="6" markerHeight="6" refX="4" refY="3" markerUnits="strokeWidth">
+    <circle cx="3" cy="3" r="2" fill="#fff" stroke="#0b0c0c"/>
+    </marker>
+    <marker id="end-dot" markerWidth="6" markerHeight="6" refX="2" refY="3" markerUnits="strokeWidth">
+    <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
+    </marker>
+    </defs>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 70 C 257.0 70 257.0 30 217 30"/>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 594 90 C 405.5 90 405.5 30 217 30"/>
+<g>
+<rect x="0" y="0" width="217" height="20" class="name"/>
+<text x="108" y="10" class="name">development-plan</text>
+<rect x="0" y="20" width="162" height="20" class="field"/>
+<rect x="162" y="20" width="55" height="20" class="datatype"/>
+<text x="5" y="30" class="field">reference</text>
+<text x="167" y="30" class="datatype">string</text>
+<rect x="0" y="40" width="162" height="20" class="field"/>
+<rect x="162" y="40" width="55" height="20" class="datatype"/>
+<text x="5" y="50" class="field">name</text>
+<text x="167" y="50" class="datatype">string</text>
+<rect x="0" y="60" width="162" height="20" class="field"/>
+<rect x="162" y="60" width="55" height="20" class="datatype"/>
+<text x="5" y="70" class="field">description</text>
+<text x="167" y="70" class="datatype">string</text>
+<rect x="0" y="80" width="162" height="20" class="field"/>
+<rect x="162" y="80" width="55" height="20" class="datatype"/>
+<text x="5" y="90" class="field">development-plan-type</text>
+<text x="167" y="90" class="datatype">reference</text>
+<rect x="0" y="100" width="162" height="20" class="field"/>
+<rect x="162" y="100" width="55" height="20" class="datatype"/>
+<text x="5" y="110" class="field">period-start-date</text>
+<text x="167" y="110" class="datatype">datetime</text>
+<rect x="0" y="120" width="162" height="20" class="field"/>
+<rect x="162" y="120" width="55" height="20" class="datatype"/>
+<text x="5" y="130" class="field">period-end-date</text>
+<text x="167" y="130" class="datatype">datetime</text>
+<rect x="0" y="140" width="162" height="20" class="field"/>
+<rect x="162" y="140" width="55" height="20" class="datatype"/>
+<text x="5" y="150" class="field">documentation-url</text>
+<text x="167" y="150" class="datatype">url</text>
+<rect x="0" y="160" width="162" height="20" class="field"/>
+<rect x="162" y="160" width="55" height="20" class="datatype"/>
+<text x="5" y="170" class="field">notes</text>
+<text x="167" y="170" class="datatype">text</text>
+<rect x="0" y="180" width="162" height="20" class="field"/>
+<rect x="162" y="180" width="55" height="20" class="datatype"/>
+<text x="5" y="190" class="field">organisation</text>
+<text x="167" y="190" class="datatype">curie</text>
+<rect x="0" y="200" width="162" height="20" class="field"/>
+<rect x="162" y="200" width="55" height="20" class="datatype"/>
+<text x="5" y="210" class="field">entry-date</text>
+<text x="167" y="210" class="datatype">datetime</text>
+<rect x="0" y="220" width="162" height="20" class="field"/>
+<rect x="162" y="220" width="55" height="20" class="datatype"/>
+<text x="5" y="230" class="field">start-date</text>
+<text x="167" y="230" class="datatype">datetime</text>
+<rect x="0" y="240" width="162" height="20" class="field"/>
+<rect x="162" y="240" width="55" height="20" class="datatype"/>
+<text x="5" y="250" class="field">end-date</text>
+<text x="167" y="250" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="297" y="0" width="217" height="20" class="name"/>
+<text x="405" y="10" class="name">development-plan-timetable</text>
+<rect x="297" y="20" width="162" height="20" class="field"/>
+<rect x="459" y="20" width="55" height="20" class="datatype"/>
+<text x="302" y="30" class="field">reference</text>
+<text x="464" y="30" class="datatype">string</text>
+<rect x="297" y="40" width="162" height="20" class="field"/>
+<rect x="459" y="40" width="55" height="20" class="datatype"/>
+<text x="302" y="50" class="field">name</text>
+<text x="464" y="50" class="datatype">string</text>
+<rect x="297" y="60" width="162" height="20" class="field"/>
+<rect x="459" y="60" width="55" height="20" class="datatype"/>
+<text x="302" y="70" class="field">development-plan</text>
+<text x="464" y="70" class="datatype">reference</text>
+<rect x="297" y="80" width="162" height="20" class="field"/>
+<rect x="459" y="80" width="55" height="20" class="datatype"/>
+<text x="302" y="90" class="field">development-plan-event</text>
+<text x="464" y="90" class="datatype">reference</text>
+<rect x="297" y="100" width="162" height="20" class="field"/>
+<rect x="459" y="100" width="55" height="20" class="datatype"/>
+<text x="302" y="110" class="field">event-date</text>
+<text x="464" y="110" class="datatype">datetime</text>
+<rect x="297" y="120" width="162" height="20" class="field"/>
+<rect x="459" y="120" width="55" height="20" class="datatype"/>
+<text x="302" y="130" class="field">notes</text>
+<text x="464" y="130" class="datatype">text</text>
+<rect x="297" y="140" width="162" height="20" class="field"/>
+<rect x="459" y="140" width="55" height="20" class="datatype"/>
+<text x="302" y="150" class="field">organisation</text>
+<text x="464" y="150" class="datatype">curie</text>
+<rect x="297" y="160" width="162" height="20" class="field"/>
+<rect x="459" y="160" width="55" height="20" class="datatype"/>
+<text x="302" y="170" class="field">entry-date</text>
+<text x="464" y="170" class="datatype">datetime</text>
+<rect x="297" y="180" width="162" height="20" class="field"/>
+<rect x="459" y="180" width="55" height="20" class="datatype"/>
+<text x="302" y="190" class="field">start-date</text>
+<text x="464" y="190" class="datatype">datetime</text>
+<rect x="297" y="200" width="162" height="20" class="field"/>
+<rect x="459" y="200" width="55" height="20" class="datatype"/>
+<text x="302" y="210" class="field">end-date</text>
+<text x="464" y="210" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="594" y="0" width="217" height="20" class="name"/>
+<text x="702" y="10" class="name">development-plan-document</text>
+<rect x="594" y="20" width="162" height="20" class="field"/>
+<rect x="756" y="20" width="55" height="20" class="datatype"/>
+<text x="599" y="30" class="field">reference</text>
+<text x="761" y="30" class="datatype">string</text>
+<rect x="594" y="40" width="162" height="20" class="field"/>
+<rect x="756" y="40" width="55" height="20" class="datatype"/>
+<text x="599" y="50" class="field">name</text>
+<text x="761" y="50" class="datatype">string</text>
+<rect x="594" y="60" width="162" height="20" class="field"/>
+<rect x="756" y="60" width="55" height="20" class="datatype"/>
+<text x="599" y="70" class="field">description</text>
+<text x="761" y="70" class="datatype">string</text>
+<rect x="594" y="80" width="162" height="20" class="field"/>
+<rect x="756" y="80" width="55" height="20" class="datatype"/>
+<text x="599" y="90" class="field">development-plan</text>
+<text x="761" y="90" class="datatype">reference</text>
+<rect x="594" y="100" width="162" height="20" class="field"/>
+<rect x="756" y="100" width="55" height="20" class="datatype"/>
+<text x="599" y="110" class="field">document-type</text>
+<text x="761" y="110" class="datatype">reference</text>
+<rect x="594" y="120" width="162" height="20" class="field"/>
+<rect x="756" y="120" width="55" height="20" class="datatype"/>
+<text x="599" y="130" class="field">documentation-url</text>
+<text x="761" y="130" class="datatype">url</text>
+<rect x="594" y="140" width="162" height="20" class="field"/>
+<rect x="756" y="140" width="55" height="20" class="datatype"/>
+<text x="599" y="150" class="field">document-url</text>
+<text x="761" y="150" class="datatype">url</text>
+<rect x="594" y="160" width="162" height="20" class="field"/>
+<rect x="756" y="160" width="55" height="20" class="datatype"/>
+<text x="599" y="170" class="field">notes</text>
+<text x="761" y="170" class="datatype">text</text>
+<rect x="594" y="180" width="162" height="20" class="field"/>
+<rect x="756" y="180" width="55" height="20" class="datatype"/>
+<text x="599" y="190" class="field">organisation</text>
+<text x="761" y="190" class="datatype">curie</text>
+<rect x="594" y="200" width="162" height="20" class="field"/>
+<rect x="756" y="200" width="55" height="20" class="datatype"/>
+<text x="599" y="210" class="field">entry-date</text>
+<text x="761" y="210" class="datatype">datetime</text>
+<rect x="594" y="220" width="162" height="20" class="field"/>
+<rect x="756" y="220" width="55" height="20" class="datatype"/>
+<text x="599" y="230" class="field">start-date</text>
+<text x="761" y="230" class="datatype">datetime</text>
+<rect x="594" y="240" width="162" height="20" class="field"/>
+<rect x="756" y="240" width="55" height="20" class="datatype"/>
+<text x="599" y="250" class="field">end-date</text>
+<text x="761" y="250" class="datatype">datetime</text>
+</g>
 </svg>
