@@ -26,7 +26,7 @@ Use the script
 
         bin/new-version.py --specification [specification name] --version [major|minor|patch]
 
-This will create a version directory "vn.n.n" in a subdirectory for the specification in it.
+This will create a version directory "vn.n.n" in a subdirectory for the specification.
 
 It will copy the current specifiation markdown to that directory and update the version number in the
 top level specification markdown. You can then edit the top level file as required.
