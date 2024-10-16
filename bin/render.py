@@ -251,14 +251,13 @@ def version_exists(parent_dir, version):
     return False
 
 
-def render_version(version_number, name, item=None, render_svg=True, latest_version=True):
+def render_version(version_number, name, item=None, latest_version=True):
     if version_number[0] != "v":
         version = f"v{version_number}"
     else:
         version = version_number
     version_dir = f"specification/{name}/{version}"
     if item is None:
-        render_svg = False
         specification_file = os.path.join(content, "specification", name, version, f"{name}.md")
         item = frontmatter.load(specification_file)
     else:
@@ -273,16 +272,13 @@ def render_version(version_number, name, item=None, render_svg=True, latest_vers
         assetPath=assetPath,
         sectionPath=f"{specification_repo_url}/specification",
         version=version,
-        latest_version=latest_version,
-        render_svg=render_svg
+        latest_version=latest_version
     )
     # make a copy of .md
     try:
         shutil.copy(specification_file, os.path.join(docs, version_dir))
     except Exception as e:
         print(f"An error occurred: {e}")
-    if render_svg:
-        pass
     # generate svg for the version
     diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
     specification_svg.generate(specification_file, diagram_version_path)
