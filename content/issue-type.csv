@@ -35,3 +35,4 @@ missing value,error,Missing Value,This field is required in the dataset and whil
 unknown entity - missing reference,error,Unknown entity,The entry has a missing reference because of which entity cannot be assigned.,external
 reference values are not unique,error,Reference values are not unique,There are multiple entries in this resource with this reference and entry date.,external
 invalid category value,error,Invalid category value,The category value given is not recognised.,external
+entity number out of range,notice,Entity number out of range,The entry contains an entity number that is not within the acceptable entity range defined for the dataset.,internal
