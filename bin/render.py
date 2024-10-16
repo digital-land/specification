@@ -45,33 +45,6 @@ tables = {
 }
 
 
-def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str]]:
-    changes = []
-    for dataset in current_frontmatter.metadata["datasets"]:
-        current_fields = set([field["field"] for field in dataset["fields"]])
-        previous_dataset = [ds for ds in previous_frontmatter.metadata["datasets"] if ds["dataset"] == dataset["dataset"]]
-        if previous_dataset:
-            previous_dataset = previous_dataset[0]
-            previous_fields = set([field["field"] for field in previous_dataset["fields"]])
-            added_fields = list(current_fields - previous_fields)
-            removed_fields = list(previous_fields - current_fields)
-            # sort fields so that the changelog is consistent
-            added_fields.sort()
-            removed_fields.sort()
-            if added_fields or removed_fields:
-                changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
-
-    current_datasets = set([ds["dataset"] for ds in current_frontmatter.metadata["datasets"]])
-    previous_datasets = set([ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]])
-    datasets_added = list(current_datasets - previous_datasets)
-    datasets_removed = list(previous_datasets - current_datasets)
-    # sort datasets so that the changelog is consistent
-    datasets_added.sort()
-    datasets_removed.sort()
-
-    return changes, {"added": datasets_added, "removed": datasets_removed}
-
-
 @total_ordering
 class Version:
 
@@ -100,6 +73,33 @@ class Version:
             return True
         else:
             return False
+
+
+def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str]]:
+    changes = []
+    for dataset in current_frontmatter.metadata["datasets"]:
+        current_fields = set([field["field"] for field in dataset["fields"]])
+        previous_dataset = [ds for ds in previous_frontmatter.metadata["datasets"] if ds["dataset"] == dataset["dataset"]]
+        if previous_dataset:
+            previous_dataset = previous_dataset[0]
+            previous_fields = set([field["field"] for field in previous_dataset["fields"]])
+            added_fields = list(current_fields - previous_fields)
+            removed_fields = list(previous_fields - current_fields)
+            # sort fields so that the changelog is consistent
+            added_fields.sort()
+            removed_fields.sort()
+            if added_fields or removed_fields:
+                changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
+
+    current_datasets = set([ds["dataset"] for ds in current_frontmatter.metadata["datasets"]])
+    previous_datasets = set([ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]])
+    datasets_added = list(current_datasets - previous_datasets)
+    datasets_removed = list(previous_datasets - current_datasets)
+    # sort datasets so that the changelog is consistent
+    datasets_added.sort()
+    datasets_removed.sort()
+
+    return changes, {"added": datasets_added, "removed": datasets_removed}
 
 
 def render(path, template, docs="docs", **kwargs):
@@ -241,6 +241,68 @@ def dataset_sort(dataset):
     return fields
 
 
+def version_exists(parent_dir, version):
+    version_dir = os.path.join(parent_dir, version)
+    # Check if the directory_to_check exists within the parent_directory
+    if os.path.exists(parent_dir) and os.path.exists(version_dir):
+        # Check if directory_to_check is a subdirectory of parent_directory
+        if os.path.commonpath([parent_dir, version_dir]) == parent_dir:
+            return True
+    return False
+
+
+def render_version(version_number, name, item=None, render_svg=True, latest_version=True):
+    if version_number[0] != "v":
+        version = f"v{version_number}"
+    else:
+        version = version_number
+    version_dir = f"specification/{name}/{version}"
+    if item is None:
+        render_svg = False
+        specification_file = os.path.join(content, "specification", name, version, f"{name}.md")
+        item = frontmatter.load(specification_file)
+    else:
+        specification_file = os.path.join(content, "specification", f"{name}.md")
+    render(
+        f"{version_dir}/index.html",
+        env.get_template("specification.html"),
+        name=name,
+        item=item,
+        tables=tables,
+        staticPath=staticPath,
+        assetPath=assetPath,
+        sectionPath=f"{specification_repo_url}/specification",
+        version=version,
+        latest_version=latest_version,
+        render_svg=render_svg
+    )
+    # make a copy of .md
+    try:
+        shutil.copy(specification_file, os.path.join(docs, version_dir))
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    if render_svg:
+        pass
+    # generate svg for the version
+    diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
+    specification_svg.generate(specification_file, diagram_version_path)
+    # make copy of new diagram.svg to unversioned directory - i.e. latest
+    parent_dir = Path(diagram_version_path).parent.parent
+    shutil.copy(diagram_version_path, parent_dir)
+
+
+def get_previous_versions(source_dir, latest_version):
+    previous_versions = []
+    if not os.path.exists(source_dir):
+        return previous_versions
+    for version in os.listdir(source_dir):
+        if os.path.isdir(os.path.join(source_dir, version)):
+            if version != f"v{latest_version}":
+                previous_versions.append(version)
+    return previous_versions
+
+
+
 if __name__ == "__main__":
     env = setup_jinja()
 
@@ -267,47 +329,6 @@ if __name__ == "__main__":
     index_datapackage()
     index_specification()
 
-    def version_exists(parent_dir, version):
-        version_dir = os.path.join(parent_dir, version)
-        # Check if the directory_to_check exists within the parent_directory
-        if os.path.exists(parent_dir) and os.path.exists(version_dir):
-            # Check if directory_to_check is a subdirectory of parent_directory
-            if os.path.commonpath([parent_dir, version_dir]) == parent_dir:
-                return True
-        return False
-
-    placeholder_html = "<!-- [Replace with warning banner if version is updated] -->"
-    replacement_html = '''
-<div class="app-version-banner">
-  <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
-</div>
-'''
-
-    # in old static version of specs, insert a banner
-    def inject_version_banner(file_path):
-        with open(file_path, 'r', encoding='utf-8') as file:
-            html_content = file.read()
-
-        modified_content = html_content.replace(placeholder_html, replacement_html)
-
-        # Update the HTML file with the modified content
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(modified_content)
-
-    def check_for_old_versions(specification_path, latest_version):
-        for root, dirs, files in os.walk(specification_path):
-            if root == specification_path:
-                # Exclude the index.html file in the specification root
-                if 'index.html' in files:
-                    files.remove('index.html')
-            if f'v{latest_version}' in dirs:
-                # Exclude latest version directory
-                 dirs.remove(f'v{latest_version}')
-            for file_name in files:
-                if file_name.endswith('.html'):
-                    file_path = os.path.join(root, file_name)
-                    inject_version_banner(file_path)
-
 
     # generate versions of specification and dataset pages
     for template in ["specification"]:
@@ -316,43 +337,19 @@ if __name__ == "__main__":
             if "version" in item.metadata:
                 latest_version = item.metadata["version"]
                 parent_dir = os.path.join(docs, template, name)
-                check_for_old_versions(parent_dir, latest_version)
+                source_dir = os.path.join(content, template, name)
+                # check_for_old_versions(parent_dir, latest_version)
+                previous_versions = get_previous_versions(source_dir, latest_version)
                 if not version_exists(parent_dir, f"v{latest_version}"):
                     # render the html page
-                    version_dir = f"{template}/{name}/v{latest_version}"
-                    render(
-                        f"{version_dir}/index.html",
-                        env.get_template(f"{template}.html"),
-                        name=name,
-                        item=item,
-                        tables=tables,
-                        staticPath=staticPath,
-                        assetPath=assetPath,
-                        sectionPath=f"{specification_repo_url}/{template}",
-                        version=f"v{latest_version}",
-                    )
-                    # make a copy of .md
-                    source_file = os.path.join(content, template, f"{name}.md")
-                    try:
-                        shutil.copy(source_file, os.path.join(docs, version_dir))
-                    except Exception as e:
-                        print(f"An error occurred: {e}")
-                    # generate svg for the version
-                    diagram_version_path = os.path.join(
-                        docs, version_dir, "diagram.svg"
-                    )
-                    specification_svg.generate(source_file, diagram_version_path)
-                    # make copy of new diagram.svg to unversioned directory - i.e. latest
-                    parent_dir = Path(diagram_version_path).parent.parent
-                    shutil.copy(diagram_version_path, parent_dir)
+                    render_version(latest_version, name, item=item)
+
+                for version_number in previous_versions:
+                    if not version_exists(parent_dir, f"v{version_number}"):
+                        render_version(version_number, name, item=None, latest_version=False)
 
     for template in [
-        "datapackage",
-        "dataset",
-        "field",
-        "datatype",
         "specification",
-        "typology",
     ]:
         for name, item in tables[template].items():
             if name in ["Deliverable", "Hectares", "Notes"]:
@@ -377,6 +374,7 @@ if __name__ == "__main__":
                 assetPath=assetPath,
                 sectionPath=f"{specification_repo_url}/{template}",
                 versions=versions,
+                latest_version=True
             )
 
     # generated changelog pages

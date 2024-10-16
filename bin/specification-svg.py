@@ -27,7 +27,7 @@ def generate(specification_path, output_path=None):
 
 
     def field_datatype(field):
-        f = tables["field"][field]
+        f = tables["field"].get(field, None)
 
         if f["replacement-field"]:
             field = f["replacement-field"]

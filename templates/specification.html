@@ -26,7 +26,11 @@ code.value {
 
 {% block beforeContent %}
 {{ super() }}
-<!-- [Replace with warning banner if version is updated] -->
+  {% if not latest_version %}
+    <div class="app-version-banner">
+      <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
+    </div>
+  {% endif %}
 {% endblock beforeContent %}
 
 {% macro sentence_case(text) %}
@@ -49,7 +53,7 @@ code.value {
     </p>
     {%- if versions and versions|length > 0 %}
     <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog" class="govuk-link">See changelog</a>
+       <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog.html" class="govuk-link">See changelog</a>
     </p>
     {%- endif %}
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -114,11 +118,13 @@ code.value {
     <li>Any attribution needed when using the data, for example [<a href="#crown-copyright">Crown Copyright</a>].</li>
     </ul>
 
-    <h2 id="data" class="govuk-heading-m">Data</h2>
 
+    <h2 id="data" class="govuk-heading-m">Data</h2>
     <div id="diagram" class="govuk-grid-column-full govuk-!-padding-bottom-6">
-	    <img src="diagram.svg">
+      <img src="diagram.svg">
     </div>
+  
+    
 
 {% for d in item["datasets"] %}
 
