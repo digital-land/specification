@@ -48,11 +48,8 @@ endif
 second-pass:: render
 
 render:: $(TEMPLATE_FILES) $(SPECIFICATION_FILES) $(DATASET_FILES) $(DATASET_PATH) $(VIEW_MODEL)
-	@-rm -rf $(DOCS_DIR)/datapackage
-	@-rm -rf $(DOCS_DIR)/dataset
-	@-rm -rf $(DOCS_DIR)/datatype
-	@-rm -rf $(DOCS_DIR)/field
-	@-rm -rf $(DOCS_DIR)/typology
+	@-rm -rf $(DOCS_DIR)
+	@-mkdir -p $(DOCS_DIR)
 	@-mkdir -p $(DOCS_DIR)/{datapackage,dataset,datatype,field,typology}
 ifneq ($(RENDER_COMMAND),)
 	$(RENDER_COMMAND)
@@ -71,11 +68,7 @@ clobber-dataset::
 	rm -rf $(DATASET_PATH)
 
 clobber-docs::
-	@-rm -rf $(DOCS_DIR)/datapackage
-	@-rm -rf $(DOCS_DIR)/dataset
-	@-rm -rf $(DOCS_DIR)/datatype
-	@-rm -rf $(DOCS_DIR)/field
-	@-rm -rf $(DOCS_DIR)/typology
+	rm -rf $(DOCS_DIR)
 
 commit-docs::
 	git add docs
