@@ -7,7 +7,6 @@ erDiagram
         string reference
         string name
         string listed-building
-        string listed-building-grade
         wkt geometry
         url document-url
         string notes
