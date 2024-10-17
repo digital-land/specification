@@ -345,7 +345,12 @@ if __name__ == "__main__":
                         render_version(version_number, name, item=None, latest_version=False)
 
     for template in [
+        "datapackage",
+        "dataset",
+        "field",
+        "datatype",
         "specification",
+        "typology",
     ]:
         for name, item in tables[template].items():
             if name in ["Deliverable", "Hectares", "Notes"]:
