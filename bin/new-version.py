@@ -69,7 +69,8 @@ def get_new_version(current_version, version_type):
 
 
 def move_current_version(specification, current_version, spec_file):
-    version_directory = Path(spec_file).parent / specification / current_version
+    version_with_prefix = f"v{current_version}"
+    version_directory = Path(spec_file).parent / specification / version_with_prefix
     if not version_directory.exists():
         version_directory.mkdir(parents=True)
         print(f"Created directory: {version_directory}")
