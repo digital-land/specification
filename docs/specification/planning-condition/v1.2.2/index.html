@@ -116,7 +116,7 @@ code.value {
 
 
   
-    
+  
   
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
@@ -128,15 +128,25 @@ code.value {
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/specification/specification/planning-condition">
     Planning condition
-</li>
+</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">v1.2.2</li>
     
   
   </ol>
 </div>
 
 
+  
+    <div class="app-version-banner">
+      <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
+    </div>
   
 
         <main class="govuk-main-wrapper " id="main-content" role="main">
@@ -158,10 +168,7 @@ code.value {
       <strong class="govuk-tag">Working draft</strong>
     </p>
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/planning-condition/v1.4.0" class="govuk-link">1.4.0</a> - published 2023-11-09
-    </p>
-    <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog.html" class="govuk-link">See changelog</a>
+      Version: <a href="/specification/specification/planning-condition/v1.2.2" class="govuk-link">1.2.2</a> - published 2023-11-09
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
@@ -252,8 +259,6 @@ code.value {
     
     <li><code class="field">description</code>  &mdash; text explaining the condition</li>
     
-    <li><code class="field">reason</code>  &mdash; a text reason for the condition</li>
-    
     <li><code class="field">organisation</code>  &mdash; the organisation that created the condition</li>
     
     <li><code class="field">notes</code>  &mdash; any additional notes about the condition</li>
@@ -283,13 +288,15 @@ code.value {
     
     <li><code class="field">planning-condition</code>  &mdash; a planning condition reference</li>
     
-    <li><code class="field">document-url</code>  &mdash; a url to the decision notice that includes details of the condition applying to the planning application</li>
-    
     <li><code class="field">description</code>  &mdash; a description of the condition applied to the application</li>
     
     <li><code class="field">organisation</code>  &mdash; the organisation that as added the condition to the planning application</li>
     
-    <li><code class="field">notes</code>  &mdash; any additional notes about the planning application - condition connection</li>
+    <li><code class="field">activation-date</code>  &mdash; the date the condition becomes active</li>
+    
+    <li><code class="field">discharged-date</code>  &mdash; the date the condition is discharged</li>
+    
+    <li><code class="field">notes</code>  &mdash; an additional notes about the planning application - condition connection</li>
     
     <li><code class="field">entry-date</code>  &mdash; the date the record was created</li>
     
@@ -678,27 +685,7 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     </dl>
 
     
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-    <h2 id="versions" class="govuk-heading-m">Previous versions</h2>
-
-    <p class="govuk-body">These specifications are living documents. When we make material changes to the data structure we update the version number.</p>
-
-    <p class="govuk-body">Previous versions of the planning-condition specification are:</p>
-
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li>Version <a href="v1.4.0" class="govuk-link">1.4.0</a> (current)</li>
-    
-      <li>Version <a href="v1.3.0" class="govuk-link">1.3.0</a></li>
-    
-      <li>Version <a href="v1.2.2" class="govuk-link">1.2.2</a></li>
-    
-      <li>Version <a href="v1.1.1" class="govuk-link">1.1.1</a></li>
-    
-      <li>Version <a href="v1.1.0" class="govuk-link">1.1.0</a></li>
-    
-    </ul>
+    <p class="govuk-body">See <a href="../#versions" class="govuk-link">other versions</a></p>
     
 
   </div>
