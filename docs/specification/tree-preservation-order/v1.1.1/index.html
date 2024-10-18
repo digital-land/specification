@@ -116,7 +116,7 @@ code.value {
 
 
   
-    
+  
   
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
@@ -128,15 +128,25 @@ code.value {
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/specification/specification/tree-preservation-order">
     Tree preservation order
-</li>
+</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">v1.1.1</li>
     
   
   </ol>
 </div>
 
 
+  
+    <div class="app-version-banner">
+      <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
+    </div>
   
 
         <main class="govuk-main-wrapper " id="main-content" role="main">
@@ -158,10 +168,7 @@ code.value {
       <strong class="govuk-tag">Piloting</strong>
     </p>
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/tree-preservation-order/v1.3.1" class="govuk-link">1.3.1</a> - published 2023-09-08
-    </p>
-    <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog.html" class="govuk-link">See changelog</a>
+      Version: <a href="/specification/specification/tree-preservation-order/v1.1.1" class="govuk-link">1.1.1</a> - published 2022-06-09
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
@@ -189,7 +196,7 @@ code.value {
     </strong>
     </div>
     <p id="feedback" class="govuk-body">
-    Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/43" class="govuk-link">GitHub discussion</a> or sent to
+    Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/" class="govuk-link">GitHub discussion</a> or sent to
     <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
     </p>
 
@@ -250,25 +257,21 @@ code.value {
     
     <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
     
-    <li><code class="field">name</code>  &mdash; the name of the tree preservation order</li>
+    <li><code class="field">name</code> </li>
     
-    <li><code class="field">documentation-url</code>  &mdash; the URL of the web page where you can find information about the tree preservation order</li>
+    <li><code class="field">documentation-url</code> </li>
     
-    <li><code class="field">document-url</code>  &mdash; the URL of the tree preservation order document. If a TPO is revoked you can blank out this field.</li>
+    <li><code class="field">document-url</code> </li>
     
-    <li><code class="field">made-date</code>  &mdash; the date the tree preservation order was "made"</li>
+    <li><code class="field">notes</code> </li>
     
-    <li><code class="field">confirmed-date</code>  &mdash; the date the tree preservation order was "confirmed"</li>
-    
-    <li><code class="field">notes</code>  &mdash; optional notes</li>
-    
-    <li><code class="field">organisation</code>  &mdash; the organisation responsible for this tree preservation order</li>
+    <li><code class="field">organisation</code> </li>
     
     <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
     
     <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order came into force</li>
     
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active</li>
+    <li><code class="field">end-date</code> </li>
     
     </ul>
 
@@ -285,25 +288,21 @@ code.value {
     
     <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation zone</li>
     
-    <li><code class="field">name</code>  &mdash; the name of the tree preservation zone</li>
+    <li><code class="field">name</code> </li>
     
     <li><code class="field">tree-preservation-order</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
     
-    <li><code class="field">tree-preservation-zone-type</code>  &mdash; the type of zone, for example area, group or woodland (<a href="https://dluhc-datasets.planning-data.dev/dataset/tree-preservation-zone-type/finder">See list of allowable values</a>)</li>
+    <li><code class="field">geometry</code> </li>
     
-    <li><code class="field">geometry</code>  &mdash; the boundary of the area covered by the tree preservation zone in WKT format</li>
+    <li><code class="field">notes</code> </li>
     
-    <li><code class="field">point</code>  &mdash; the centre of the tree preservation zone if you cannot provide the full geometry</li>
-    
-    <li><code class="field">notes</code>  &mdash; optional notes</li>
-    
-    <li><code class="field">organisation</code>  &mdash; the organisation responsible for this tree preservation order</li>
+    <li><code class="field">organisation</code> </li>
     
     <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
     
     <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone came into force</li>
     
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone ended or leave blank if the zone is still active</li>
+    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation zone was disolved, or blank if the zone is active</li>
     
     </ul>
 
@@ -320,29 +319,27 @@ code.value {
     
     <li><code class="field">reference</code>  &mdash; the number or reference for the tree which appears in the preservation order</li>
     
-    <li><code class="field">name</code>  &mdash; the name of the tree</li>
+    <li><code class="field">name</code> </li>
     
     <li><code class="field">tree-preservation-order</code>  &mdash; the <a href="#reference">reference</a> for the tree preservation order</li>
     
-    <li><code class="field">uprn</code>  &mdash; unique property reference number if the tree is located on an addressable property</li>
+    <li><code class="field">uprn</code> </li>
     
-    <li><code class="field">address-text</code>  &mdash; the address of the property</li>
+    <li><code class="field">address-text</code> </li>
     
-    <li><code class="field">point</code>  &mdash; the centre of the tree area if you cannot provide the full geometry</li>
+    <li><code class="field">point</code> </li>
     
-    <li><code class="field">geometry</code>  &mdash; the boundary of the area covered by the tree in WKT format</li>
+    <li><code class="field">geometry</code> </li>
     
-    <li><code class="field">notes</code>  &mdash; optional notes</li>
+    <li><code class="field">notes</code> </li>
     
-    <li><code class="field">organisation</code>  &mdash; the organisation responsible for this tree</li>
-    
-    <li><code class="field">felled-date</code>  &mdash; the date the tree was felled</li>
+    <li><code class="field">organisation</code> </li>
     
     <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or amended</li>
     
     <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> from which the tree preservation order affects the tree</li>
     
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.</li>
+    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> the tree preservation order no longer affects the tree, or blank if the tree is still under the order</li>
     
     </ul>
 
@@ -725,23 +722,7 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     </dl>
 
     
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-    <h2 id="versions" class="govuk-heading-m">Previous versions</h2>
-
-    <p class="govuk-body">These specifications are living documents. When we make material changes to the data structure we update the version number.</p>
-
-    <p class="govuk-body">Previous versions of the tree-preservation-order specification are:</p>
-
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li>Version <a href="v1.3.1" class="govuk-link">1.3.1</a> (current)</li>
-    
-      <li>Version <a href="v1.2.2" class="govuk-link">1.2.2</a></li>
-    
-      <li>Version <a href="v1.1.1" class="govuk-link">1.1.1</a></li>
-    
-    </ul>
+    <p class="govuk-body">See <a href="../#versions" class="govuk-link">other versions</a></p>
     
 
   </div>
