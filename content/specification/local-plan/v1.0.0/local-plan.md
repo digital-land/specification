@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2024-09-13'
 github-discussion: 26
-version: 2.0.0
+version: 1.0.0
 datasets:
     - dataset: local-plan-boundary
       name: local plan boundary
@@ -77,30 +77,6 @@ datasets:
             description: The URL of the actual document
           - field: organisations
             description: a list of codes for the responsible organisations, separated by ;
-          - field: entry-date
-            description: the date this information has been entered as a record
-          - field: start-date
-            description: the date the validity of the record starts
-          - field: end-date
-            description: the date the validity of the record ends
-    - dataset: local-plan-timetable
-      name: local plan timetable
-      fields:
-          - field: reference
-            description: An unique identifier for this record (for example, xyz-wquiw-309)
-          - field: name
-            description: a human readable name for the event
-          - field: local-plan
-            description: the code for a particular local plan (for example, dorcester-new-local-plan)
-          - field: local-plan-event
-            dataset: local-plan-event
-            description: The code for a local plan event (for example plan-adopted)
-          - field: event-date
-            description: The date this event happened 
-          - field: notes
-            description: Optional notes
-          - field: organisation
-            description: The code for the responsible organisation (for example, local-authority-eng:BST)
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date
