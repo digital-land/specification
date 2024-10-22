@@ -282,9 +282,10 @@ def render_version(version_number, name, item=None, latest_version=True):
     # generate svg for the version
     diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
     specification_svg.generate(specification_file, diagram_version_path)
-    # make copy of new diagram.svg to unversioned directory - i.e. latest
-    parent_dir = Path(diagram_version_path).parent.parent
-    shutil.copy(diagram_version_path, parent_dir)
+    if latest_version:
+        # make copy of new diagram.svg to unversioned directory - i.e. latest
+        parent_dir = Path(diagram_version_path).parent.parent
+        shutil.copy(diagram_version_path, parent_dir)
 
 
 def get_previous_versions(source_dir, latest_version):
