@@ -1,8 +1,8 @@
 ---
 attribution: crown-copyright
 collection: ''
-consideration: lcoal-plans-and-timetables
-dataset: lcoal-plan-timetable
+consideration: development-plans-and-timetables
+dataset: local-plan-timetable
 description: The log of estimated and actual events of the local plan making process for a local plan
 end-date: ''
 entity-maximum: '4299999'
