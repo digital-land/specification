@@ -14,7 +14,6 @@ fields:
 - field: entity
 - field: entry-date
 - field: geometry
-- field: listed-building
 - field: listed-building-grade
 - field: name
 - field: notes
