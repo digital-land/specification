@@ -136,17 +136,13 @@ code.value {
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">v1.0.0</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">v2.0.0</li>
     
   
   </ol>
 </div>
 
 
-  
-    <div class="app-version-banner">
-      <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
-    </div>
   
 
         <main class="govuk-main-wrapper " id="main-content" role="main">
@@ -168,7 +164,7 @@ code.value {
       <strong class="govuk-tag">Working draft</strong>
     </p>
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/local-plan/v1.0.0" class="govuk-link">1.0.0</a> - published 2024-09-13
+      Version: <a href="/specification/specification/local-plan/v2.0.0" class="govuk-link">2.0.0</a> - published 2024-09-13
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
@@ -230,6 +226,8 @@ code.value {
       <li>A hyperlink to the <a href="#local-plan-dataset">local plan</a> data</li>
     
       <li>A hyperlink to the <a href="#local-plan-document-dataset">local plan document</a> data</li>
+    
+      <li>A hyperlink to the <a href="#local-plan-timetable-dataset">local plan timetable</a> data</li>
     
 
     <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
@@ -338,6 +336,39 @@ code.value {
     <li><code class="field">document-url</code>  &mdash; The URL of the actual document</li>
     
     <li><code class="field">organisations</code>  &mdash; a list of codes for the responsible organisations, separated by ;</li>
+    
+    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
+    
+    <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
+    
+    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
+    
+    </ul>
+
+
+
+    <h3 id="local-plan-timetable-dataset" class="govuk-heading-m">
+    Local plan timetable
+</h3>
+    <p class="govuk-body">The local plan timetable data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
+    <p class="govuk-body">The data MUST contain at least one record for each local plan timetable.</p>
+    <p class="govuk-body">Each record MUST contain the following fields:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><code class="field">reference</code>  &mdash; An unique identifier for this record (for example, xyz-wquiw-309)</li>
+    
+    <li><code class="field">name</code>  &mdash; a human readable name for the event</li>
+    
+    <li><code class="field">local-plan</code>  &mdash; the code for a particular local plan (for example, dorcester-new-local-plan)</li>
+    
+    <li><code class="field">local-plan-event</code>  &mdash; The code for a local plan event (for example plan-adopted) (<a href="https://dluhc-datasets.planning-data.dev/dataset/local-plan-event/finder">See list of allowable values</a>)</li>
+    
+    <li><code class="field">event-date</code>  &mdash; The date this event happened</li>
+    
+    <li><code class="field">notes</code>  &mdash; Optional notes</li>
+    
+    <li><code class="field">organisation</code>  &mdash; The code for the responsible organisation (for example, local-authority-eng:BST)</li>
     
     <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
     

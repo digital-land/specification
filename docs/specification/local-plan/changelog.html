@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Document URL | Planning Data</title>
+    <title>Local plan specification | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -18,6 +18,47 @@
     
 	<meta name="digital-land:template" content="dlf-base.html">
 	
+<style>
+    .app-list {
+      margin-left: 0.5em;
+    }
+
+    .app-list li {
+      padding-left: 0.5em
+    }
+
+    .app-list--plus {
+      list-style-type: "+" !important;
+      margin-bottom: 0 !important;
+    }
+
+    .app-list--minus {
+      list-style-type: "-" !important;
+    }
+
+    .app-diff {
+      display: inline-block;
+      padding: 3px 5px;
+      margin-right: 0.25em;
+    }
+
+    .app-diff--addition {
+      background: #e6ffec;
+    }
+
+    .app-diff--removal {
+      background: #ffebe9;
+    }
+
+    .app-changelog .govuk-heading-l {
+      margin-top: 45px;
+    }
+
+    .app-changelog .govuk-heading-l:first-of-type {
+      margin-top: 0;
+    }
+</style>
+
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
 	
     
@@ -90,23 +131,24 @@
       <div class="govuk-width-container ">
         
 
+  
   <div class="govuk-breadcrumbs ">
   <ol class="govuk-breadcrumbs__list">
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../../">Specification</a>
+      <a class="govuk-breadcrumbs__link" href="/specification/specification">Specification</a>
     </li>
     
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Field</a>
+      <a class="govuk-breadcrumbs__link" href="/specification/specification/local-plan">Local plan specification</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Document URL</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">changelog</li>
     
   
   </ol>
@@ -118,110 +160,32 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Field</span>
-  <h1 class="govuk-heading-xl">Document URL</h1>
+  <span class="govuk-caption-xl">Changelog</span>
+  <h1 class="govuk-heading-xl">Local plan specification</h1>
   </div>
 </div>
 
   
+
 <div class="govuk-grid-row">
-  <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">A url to a document</p>
-
-    <table class="govuk-table">
-      <tbody class="govuk-table__body">
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Name</th>
-          <td class="govuk-table__cell">Document URL</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Field</th>
-          <td class="govuk-table__cell">document-url</td>
-        </tr>
-        
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Datatype</th>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Cardinality</th>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Parent field</th>
-          <td class="govuk-table__cell"><a href="../url">url</a></td>
-        </tr>
-        <tr class="govuk-table__row">
-          <th scope="row" class="govuk-table__header">Typology</th>
-          <td class="govuk-table__cell"><a href="../../typology/value">value</a></td>
-        </tr>
-        
-      </tbody>
-    </table>
-
+    <div class="govuk-grid-column-full app-changelog">
     
-    <h2 class="govuk-heading-s" id="">Schemas</h2>
-    <p class="govuk-body">The following datasets use this field:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../../dataset/area-of-outstanding-natural-beauty">Area of outstanding natural beauty</a></li>
-    
-      <li><a href="../../dataset/article-4-direction">Article 4 direction</a></li>
-    
-      <li><a href="../../dataset/article-4-direction-rule">Article 4 direction rule</a></li>
-    
-      <li><a href="../../dataset/battlefield">Battlefield</a></li>
-    
-      <li><a href="../../dataset/biodiversity-net-gain-assessment">Biodiversity net gain assesment</a></li>
-    
-      <li><a href="../../dataset/conservation-area">Conservation area</a></li>
-    
-      <li><a href="../../dataset/conservation-area-document">Conservation area document</a></li>
-    
-      <li><a href="../../dataset/design-code">Design code</a></li>
-    
-      <li><a href="../../dataset/design-code-rule">Design code rule</a></li>
-    
-      <li><a href="../../dataset/developer-agreement">Developer agreement</a></li>
-    
-      <li><a href="../../dataset/development-plan">Development plan</a></li>
-    
-      <li><a href="../../dataset/development-plan-document">Development plan document</a></li>
-    
-      <li><a href="../../dataset/development-plan-timetable">Development plan timetable</a></li>
-    
-      <li><a href="../../dataset/development-policy-area">Development policy area</a></li>
-    
-      <li><a href="../../dataset/document">Document</a></li>
-    
-      <li><a href="../../dataset/infrastructure-funding-statement">Infrastructure funding statement</a></li>
-    
-      <li><a href="../../dataset/infrastructure-project-document">Infrastructure project document</a></li>
-    
-      <li><a href="../../dataset/listed-building-outline">Listed building outline</a></li>
-    
-      <li><a href="../../dataset/local-plan">Local plan</a></li>
-    
-      <li><a href="../../dataset/local-plan-document">Local plan document</a></li>
-    
-      <li><a href="../../dataset/local-plan-timetable">Local plan timetable</a></li>
-    
-      <li><a href="../../dataset/planning-application-condition">Planning application condition</a></li>
-    
-      <li><a href="../../dataset/planning-application-document">Planning application document</a></li>
-    
-      <li><a href="../../dataset/planning-application-log">Planning application log</a></li>
-    
-      <li><a href="../../dataset/site-of-special-scientific-interest">Site of special scientific interest</a></li>
-    
-      <li><a href="../../dataset/special-protection-area">Special protection area</a></li>
-    
-      <li><a href="../../dataset/tree-preservation-order">Tree preservation order</a></li>
-    
-    </ul>
-    
-
-  </div>
+      <h2 class="govuk-heading-l"><a href="/specification/specification/local-plan/v2.0.0"
+        class="govuk-link">v2.0.0</a> changes</h2>
+      <p class="govuk-body">Previous version was <a
+        href="/specification/specification/local-plan/v1.0.0"
+        class="govuk-link">v1.0.0</a></p>
+      
+      <h3 class="govuk-heading-m">What datasets have changed?</h3>
+      
+      <p class="govuk-body">We have added the 
+        <a href="/specification/specification/local-plan/v2.0.0#local-plan-timetable-dataset" class="govuk-link">local-plan-timetable</a>
+       dataset.</p>
+      
+      
+      
+      
+    </div>
 </div>
 
 
