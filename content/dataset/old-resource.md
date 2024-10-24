@@ -23,7 +23,7 @@ paint-options: ''
 phase: alpha
 plural: Resource redirections
 prefix: ''
-realm: collection
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

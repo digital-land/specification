@@ -26,7 +26,7 @@ paint-options: ''
 phase: alpha
 plural: Pipeline lookups
 prefix: ''
-realm: pipeline
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
