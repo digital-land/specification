@@ -2,12 +2,12 @@
 attribution: crown-copyright
 collection:
 consideration: development-plans-and-timetables
-dataset: development-plan-document-type
-description: The types of documents published for a development plan
+dataset: local-plan-document-type
+description: The types of documents published for a local plan
 end-date: ''
-entity-maximum: '5279999'
-entity-minimum: '5260000'
-entry-date: '2023-10-10'
+entity-maximum: '5299999'
+entity-minimum: '5280000'
+entry-date: '2024-10-24'
 fields:
 - field: description
 - field: end-date
@@ -20,10 +20,10 @@ fields:
 - field: start-date
 github-discussion: 26
 licence: ogl3
-name: Development plan document type
+name: Local plan document type
 paint-options: ''
 phase: alpha
-plural: Development plan document types
+plural: Local plan document types
 prefix: ''
 realm: dataset
 replacement-dataset: ''
