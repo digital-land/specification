@@ -24,7 +24,7 @@ paint-options: ''
 phase: alpha
 plural: Pipeline patches
 prefix: ''
-realm: pipeline
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

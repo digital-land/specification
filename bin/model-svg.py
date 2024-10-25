@@ -29,6 +29,8 @@ realms = {
     "pipeline": [],
     "provenance": [],
     "entity": [],
+    "configuration":[],
+    "log":[]
 }
 
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
