@@ -125,18 +125,40 @@
   <div class="govuk-grid-column-full">
     
     
-    <h2 class="govuk-heading-m" id="collection">Collection</h2>
+    <h2 class="govuk-heading-m" id="configuration">Configuration</h2>
     <ul class="govuk-list govuk-list--bullet">
+    
+    <li><a href="column">Pipeline column</a> &mdash; map resource column name to dataset field</li>
+    
+    <li><a href="combine">Pipeline combine facts</a> &mdash; combine a series of facts from multiple entries</li>
+    
+    <li><a href="concat">Pipeline concatenation</a> &mdash; concatenate fields during the harmonise phase</li>
+    
+    <li><a href="convert">Pipeline convert</a> &mdash; convert a resource</li>
+    
+    <li><a href="default-value">Pipeline default value</a> &mdash; provide a default value for a missing or empty field</li>
+    
+    <li><a href="default">Pipeline default field</a> &mdash; take a missing field default value from another field</li>
     
     <li><a href="endpoint">Endpoint</a></li>
     
-    <li><a href="log">Collection log</a></li>
+    <li><a href="entity-organisation">Entity organisation</a> &mdash; the organisation responsible for managing a range of entities.</li>
+    
+    <li><a href="filter">Pipeline filter</a> &mdash; filter entries</li>
+    
+    <li><a href="lookup">Pipeline lookup</a> &mdash; lookup entities</li>
+    
+    <li><a href="old-entity">Entity redirection</a> &mdash; redirect an entity or mark it as gone</li>
     
     <li><a href="old-resource">Resource redirection</a> &mdash; redirect a resource to a fixed version, or mark it as gone</li>
     
-    <li><a href="resource">Resource</a> &mdash; an index of collected resources</li>
+    <li><a href="patch">Pipeline patch</a> &mdash; assert a field value during harmonise</li>
+    
+    <li><a href="skip">Pipeline skip</a> &mdash; remove lines from a resource during normalise</li>
     
     <li><a href="source">Source</a></li>
+    
+    <li><a href="transform">Pipeline transformation</a></li>
     
     </ul>
     
@@ -524,8 +546,6 @@
     <h2 class="govuk-heading-m" id="entity">Entity</h2>
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><a href="entity-organisation">Entity organisation</a> &mdash; the organisation responsible for managing a range of entities.</li>
-    
     <li><a href="prefix">CURIE prefix</a></li>
     
     <li><a href="reference">Reference</a> &mdash; redirect a prefix and reference to an entity</li>
@@ -533,34 +553,16 @@
     </ul>
     
     
-    <h2 class="govuk-heading-m" id="pipeline">Pipeline</h2>
+    <h2 class="govuk-heading-m" id="log">Log</h2>
     <ul class="govuk-list govuk-list--bullet">
     
-    <li><a href="column">Pipeline column</a> &mdash; map resource column name to dataset field</li>
+    <li><a href="column-field">Column field</a> &mdash; log of resource columns mapped to dataset fields</li>
     
-    <li><a href="combine">Pipeline combine facts</a> &mdash; combine a series of facts from multiple entries</li>
+    <li><a href="issue">Issue</a> &mdash; issues with fields processing resources</li>
     
-    <li><a href="concat">Pipeline concatenation</a> &mdash; concatenate fields during the harmonise phase</li>
+    <li><a href="log">Collection log</a></li>
     
-    <li><a href="convert">Pipeline convert</a> &mdash; convert a resource</li>
-    
-    <li><a href="default-value">Pipeline default value</a> &mdash; provide a default value for a missing or empty field</li>
-    
-    <li><a href="default">Pipeline default field</a> &mdash; take a missing field default value from another field</li>
-    
-    <li><a href="filter">Pipeline filter</a> &mdash; filter entries</li>
-    
-    <li><a href="issue-type">Issue type</a> &mdash; types of issues with fields processing resources</li>
-    
-    <li><a href="lookup">Pipeline lookup</a> &mdash; lookup entities</li>
-    
-    <li><a href="old-entity">Entity redirection</a> &mdash; redirect an entity or mark it as gone</li>
-    
-    <li><a href="patch">Pipeline patch</a> &mdash; assert a field value during harmonise</li>
-    
-    <li><a href="skip">Pipeline skip</a> &mdash; remove lines from a resource during normalise</li>
-    
-    <li><a href="transform">Pipeline transformation</a></li>
+    <li><a href="resource">Resource</a> &mdash; an index of collected resources</li>
     
     </ul>
     
@@ -569,8 +571,6 @@
     <ul class="govuk-list govuk-list--bullet">
     
     <li><a href="checksum">Checksum</a> &mdash; checksums of dataset files and other media</li>
-    
-    <li><a href="column-field">Column field</a> &mdash; log of resource columns mapped to dataset fields</li>
     
     <li><a href="entity">Entity</a> &mdash; a data item</li>
     
@@ -583,8 +583,6 @@
     <li><a href="fact">Fact</a> &mdash; a field and its value for an entity</li>
     
     <li><a href="field">Field</a></li>
-    
-    <li><a href="issue">Issue</a> &mdash; issues with fields processing resources</li>
     
     <li><a href="organisation-dataset">Organisation dataset</a></li>
     
@@ -625,6 +623,8 @@
     <li><a href="include-exclude">Include/Exclude</a> &mdash; include or exclude items from a set</li>
     
     <li><a href="intervention">Intervention</a></li>
+    
+    <li><a href="issue-type">Issue type</a> &mdash; types of issues with fields processing resources</li>
     
     <li><a href="licence">Licence</a></li>
     
