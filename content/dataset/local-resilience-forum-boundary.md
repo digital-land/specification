@@ -28,7 +28,7 @@ fields:
 key-field: ''
 licence: ogl3
 name: Local resilience forum boundary
-paint-options: '{"colour": "#f499be", "opacity": "0.1", "weight": 5}'
+paint-options: '{"colour": "#f499be", "opacity": 0.1, "weight": 5}'
 phase: beta
 plural: Local resilience forum boundaries
 prefix: statistical-geography
