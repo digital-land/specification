@@ -23,7 +23,7 @@ fields:
 key-field: ''
 licence: ogl3
 name: Border
-paint-options: '{"colour": "#0b0c0c", "opacity": "0.1", "weight": 5}'
+paint-options: '{"colour": "#0b0c0c", "opacity": 0.1, "weight": 5}'
 phase: beta
 plural: Borders
 prefix: statistical-geography
