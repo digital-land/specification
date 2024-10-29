@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: local-plan-event
 description: The different event types in a local plan timetable
