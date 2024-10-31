@@ -32,7 +32,7 @@ fields:
 - field: GeoY
 key-field: ''
 licence: ogl3
-name: Educational establishments
+name: Educational establishment
 paint-options: ''
 phase: alpha
 plural: Educational establishments
