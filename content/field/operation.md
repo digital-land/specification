@@ -1,17 +1,17 @@
 ---
 cardinality: n
 datatype: string
-description: 'a json string field containing key value pairs'
+description: 'a text string referencing an operation to be performed'
 end-date: ''
 entry-date: ''
-field: parameters
+field: organisations
 guidance: ''
 hint: ''
-name: Parameters
-parent-field: string
+name: Organisations
+parent-field: organisation
 replacement-field: ''
 start-date: ''
-typology: value
+typology: organisation
 uri-template: ''
 wikidata-property: ''
 ---
