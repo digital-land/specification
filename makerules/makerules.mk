@@ -71,7 +71,9 @@ LANG := C.UTF-8
 LC_COLLATE := C.UTF-8
 
 # current git branch
+ifeq ($(BRANCH),)
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
+endif
 
 UNAME := $(shell uname)
 
