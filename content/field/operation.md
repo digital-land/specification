@@ -1,17 +1,17 @@
 ---
-cardinality: n
+cardinality: 1
 datatype: string
 description: 'a text string referencing an operation to be performed'
 end-date: ''
 entry-date: ''
-field: organisations
+field: operation
 guidance: ''
 hint: ''
-name: Organisations
-parent-field: organisation
+name: Operation
+parent-field: string
 replacement-field: ''
 start-date: ''
-typology: organisation
+typology: value
 uri-template: ''
 wikidata-property: ''
 ---
