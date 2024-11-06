@@ -2,7 +2,7 @@
 attribution: crown-copyright
 collection: ''
 consideration: ''
-dataset: expect
+dataset: expectation
 description: The output of running expectations based on the rules defined in the expect dataset
 end-date: ''
 entry-date: ''
