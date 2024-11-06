@@ -87,7 +87,7 @@ entity,Entity,a data item,entity
 expect,Expectation Rule,A set of rules which can be turned into an expectation of a dataset,
 expectation-issue,Expectation issue,Issues found checking expecatations,
 expectation-result,Expectation result,Results from checking expectations,expectation-result
-expect,Expectation Log,The output of running expectations based on the rules defined in the expect dataset,
+expectation,Expectation Log,The output of running expectations based on the rules defined in the expect dataset,
 fact-resource,Fact resource,the provenance of a fact,
 fact,Fact,a field and its value for an entity,fact
 field,Field,,field
