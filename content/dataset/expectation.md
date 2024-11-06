@@ -21,10 +21,10 @@ fields:
 - field: entry-date
 - field: start-date
 licence: ogl3
-name: expectation rule
+name: Expectation Log
 paint-options: ''
 phase: alpha
-plural: expectation rules
+plural: Expectation Logs
 prefix: ''
 realm: log
 replacement-dataset: ''
