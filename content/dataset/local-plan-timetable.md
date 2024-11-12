@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: local-plan-timetable
 description: The log of estimated and actual events of the local plan making process for a local plan
