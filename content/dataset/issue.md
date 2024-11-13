@@ -10,6 +10,7 @@ entity-minimum: ''
 entry-date: ''
 fields:
 - field: end-date
+- field: entity
 - field: entry-date
 - field: entry-number
 - field: field
