@@ -116,7 +116,7 @@ organisations:
 - organisation: local-authority:LIV
   cohort: ODP-Track3
   notes: "working with DLUHC’s DELTA team"
-- organisation: local-authority:RED
+- organisation: local-authority:RDB
   cohort: ODP-Track3
   notes: "working with Agile Applications and Planning Portal"
 - organisation: local-authority:WFT
