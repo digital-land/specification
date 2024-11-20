@@ -3574,12 +3574,12 @@ local-authority:RCH,listed-building-outline,listed-building,expected,LBO-ODP,,op
 local-authority:RCH,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track4,,2024-02-27,,
 local-authority:RCH,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track4,,2024-02-27,,
 local-authority:RCH,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track4,,2024-02-27,,
-local-authority:RDB,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2022-06-01,,
-local-authority:RDB,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RDB,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RDB,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
 local-authority:RDB,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:RDB,brownfield-site,,prospective,BFS-LPA,local-planning-authority,,,,,,
-local-authority:RDB,conservation-area,conservation-area,prospective,CA-LPA,local-planning-authority,,,,2022-06-01,,
-local-authority:RDB,conservation-area-document,conservation-area,prospective,CAD-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RDB,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RDB,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
 local-authority:RDB,developer-agreement,,statutory,DA-LPA,local-planning-authority,,,,,,
 local-authority:RDB,developer-agreement-contribution,,statutory,DAC-LPA,local-planning-authority,,,,,,
 local-authority:RDB,developer-agreement-transaction,,statutory,DAT-LPA,local-planning-authority,,,,,,
@@ -3587,10 +3587,10 @@ local-authority:RDB,development-plan,development-plan,prospective,DP-LPA,local-p
 local-authority:RDB,development-plan-document,development-plan,prospective,DPD-LPA,local-planning-authority,,,,2023-09-01,,
 local-authority:RDB,development-plan-geography,development-plan,prospective,DPB-LPA,local-planning-authority,,,,2023-09-01,,
 local-authority:RDB,development-plan-timetable,development-plan,prospective,DPT-LPA,local-planning-authority,,,,2023-09-01,,
-local-authority:RDB,listed-building-outline,listed-building,prospective,LBO-LPA,local-planning-authority,,,,2022-06-01,,
-local-authority:RDB,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2022-06-01,,
-local-authority:RDB,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2022-06-01,,
-local-authority:RDB,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RDB,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RDB,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RDB,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RDB,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
 local-authority:RDG,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:RDG,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:RDG,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
@@ -3608,12 +3608,12 @@ local-authority:RDG,listed-building-outline,listed-building,prospective,LBO-LPA,
 local-authority:RDG,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:RDG,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:RDG,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2022-06-01,,
-local-authority:RED,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RED,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:RED,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
 local-authority:RED,brownfield-site,,prospective,BFS-LPA,local-planning-authority,,,,,,
-local-authority:RED,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,conservation-area,conservation-area,prospective,CA-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RED,conservation-area-document,conservation-area,prospective,CAD-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:RED,developer-agreement,,statutory,DA-LPA,local-planning-authority,,,,,,
 local-authority:RED,developer-agreement-contribution,,statutory,DAC-LPA,local-planning-authority,,,,,,
 local-authority:RED,developer-agreement-transaction,,statutory,DAT-LPA,local-planning-authority,,,,,,
@@ -3621,10 +3621,10 @@ local-authority:RED,development-plan,development-plan,prospective,DP-LPA,local-p
 local-authority:RED,development-plan-document,development-plan,prospective,DPD-LPA,local-planning-authority,,,,2023-09-01,,
 local-authority:RED,development-plan-geography,development-plan,prospective,DPB-LPA,local-planning-authority,,,,2023-09-01,,
 local-authority:RED,development-plan-timetable,development-plan,prospective,DPT-LPA,local-planning-authority,,,,2023-09-01,,
-local-authority:RED,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
-local-authority:RED,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,ODP-Track3,,2023-03-01,,working with Agile Applications and Planning Portal
+local-authority:RED,listed-building-outline,listed-building,prospective,LBO-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RED,tree,tree-preservation-order,prospective,TPOT-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RED,tree-preservation-order,tree-preservation-order,prospective,TPO-LPA,local-planning-authority,,,,2022-06-01,,
+local-authority:RED,tree-preservation-zone,tree-preservation-order,prospective,TPOZ-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:REI,article-4-direction,article-4-direction,prospective,A4-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:REI,article-4-direction-area,article-4-direction,prospective,A4A-LPA,local-planning-authority,,,,2022-06-01,,
 local-authority:REI,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,2017-04-16,,
