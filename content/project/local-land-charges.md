@@ -101,8 +101,12 @@ organisations:
   start-date: 2024-04-17
 - organisation: local-authority:ENF
   start-date: 2022-08-15
+- organisation: local-authority:HRW
+  start-date: 2024-11-25
 - organisation: local-authority:WND
   start-date: 2022-11-15
+- organisation: local-authority:MAL
+  start-date: 2024-11-05
 - organisation: local-authority:MAV
   start-date: 2023-01-12
 - organisation: local-authority:MDW
