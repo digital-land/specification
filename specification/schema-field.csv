@@ -786,7 +786,6 @@ development-plan-boundary-type,prefix
 development-plan-boundary-type,reference
 development-plan-boundary-type,start-date
 development-plan-boundary-type,description
-development-plan-boundary,development-plan-boundary-type
 development-plan-boundary,end-date
 development-plan-boundary,entity
 development-plan-boundary,entry-date
@@ -1707,7 +1706,6 @@ local-nature-reserve,point
 local-nature-reserve,prefix
 local-nature-reserve,reference
 local-nature-reserve,start-date
-local-plan-boundary,plan-boundary-type
 local-plan-boundary,end-date
 local-plan-boundary,entity
 local-plan-boundary,entry-date
