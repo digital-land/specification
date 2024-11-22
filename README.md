@@ -26,6 +26,10 @@ Use the script
 
         bin/new-version.py --specification [specification name] --version [major|minor|patch]
 
+Use *patch* when updating descriptions.
+Use *minor* when adding or removing fields from datasets.
+Use *major* when adding or removing datasets from the specification.
+
 This will create a version directory "vn.n.n" in a subdirectory for the specification.
 
 It will copy the current specifiation markdown to that directory and update the version number in the
