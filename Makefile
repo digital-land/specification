@@ -41,6 +41,10 @@ SPECIFICATION_CSV=\
 	specification/role.csv\
 	specification/theme.csv
 
+# these are scraped from other sites ..
+GENERATED_CONTENT=\
+	content/project/local-land-charges.md
+
 specification:: $(SPECIFICATION_CSV)
 
 # made from dataset content ..
@@ -198,6 +202,7 @@ commit-specification::
 
 clean clobber::
 	rm -f specification/*.csv
+	rm -f $(GENERATED_CONTENT) 
 
 # generate mermaid diagrams
 MERMAID_MD=$(subst content/specification/,docs/mermaid/,$(SPECIFICATION_MD))
