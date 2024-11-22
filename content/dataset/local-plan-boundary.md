@@ -9,8 +9,6 @@ entity-maximum: '4219999'
 entity-minimum: '4211000'
 entry-date: '2024-09-14'
 fields:
-- field: plan-boundary-type
-  dataset: development-plan-boundary-type
 - field: end-date
 - field: entity
 - field: entry-date
@@ -37,7 +35,7 @@ start-date: ''
 themes:
 - development
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

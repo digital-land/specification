@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2024-09-13'
 github-discussion: 26
-version: 2.1.0
+version: 2.0.0
 datasets:
     - dataset: local-plan-boundary
       name: local plan boundary
@@ -18,6 +18,9 @@ datasets:
             description: a name for the boundary. For example, `City of York boundary`
           - field: geometry
             description: the boundary in WKT format 
+          - field: plan-boundary-type
+            dataset: development-plan-boundary-type
+            description: the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`
           - field: description
             description: a description of the boundary. Provide more detail if boundary is different from planning authority boundary
           - field: organisations
