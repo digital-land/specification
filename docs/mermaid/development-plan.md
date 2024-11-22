@@ -7,7 +7,6 @@ erDiagram
         string reference
         string name
         wkt geometry
-        string development-plan-boundary-type
         string description
         string organisation
         date entry-date
