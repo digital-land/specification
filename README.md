@@ -1,12 +1,21 @@
-# Digital Land Specification dataset
+# Digital Land Specification data
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/brownfield-land/blob/master/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
 [![Run pipeline](https://github.com/digital-land/specification/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/specification/actions/workflows/run.yml)
 
-Digital Land specifications, built upon the [GOV.UK Registers](https://www.registers.service.gov.uk/) data model.
+Specifications and other data used to model the data for https://planning.data.gov.uk
 
-This repository also builds the [specification](https://digital-land.github.io/specification/) pages, but we expect to split the dataset and pages into separate repositories.
+* [content](content/) – source data as Frontmatter Markdown and CSV files
+* [content](content/specification) – Frontmatter Markdown for technical specifications for providing the data
+* [content](content/dataset) – Frontmatter Markdown for each dataset on the platform
+* [content](content/field) – Frontmatter Markdown for each dataset field
+* [content](content/datatype) – Frontmatter Markdown for field datatypes
+
+This content is used to build:
+
+* [specification](specification/) – the model as CSV files, built from the content available at https://datasette.planning.data.gov.uk/digital\_land
+* [doc](doc/) – documentation GitHub pages https://digital-land.github.io/specification/ which we expect to move to https://planning.data.gov.uk
 
 # Updating the collection
 
@@ -14,11 +23,6 @@ We recommend working in [virtual environment](http://docs.python-guide.org/en/la
 
     $ make init
     $ make
-
-Files which can't be downloaded may be added to the collection manually:
-
-    $ digital-land fetch file:cache/foo.zip
-
 
 # Creating a new version of a specification
 
