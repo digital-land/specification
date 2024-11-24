@@ -7,14 +7,14 @@
 Specifications and other data used to model the data for https://planning.data.gov.uk
 
 * [content](content/) – source data as Frontmatter Markdown and CSV files
-* [content](content/specification) – Frontmatter Markdown for technical specifications for providing the data
-* [content](content/dataset) – Frontmatter Markdown for each dataset on the platform
-* [content](content/field) – Frontmatter Markdown for each dataset field
-* [content](content/datatype) – Frontmatter Markdown for field datatypes
+* [content/specification](content/specification) – Frontmatter Markdown for technical specifications for providing the data
+* [content/dataset](content/dataset) – Frontmatter Markdown for each dataset on the platform
+* [content/field](content/field) – Frontmatter Markdown for each dataset field
+* [content/datatype](content/datatype) – Frontmatter Markdown for field datatypes
 
 This content is used to build:
 
-* [specification](specification/) – the model as CSV files, built from the content available at https://datasette.planning.data.gov.uk/digital\_land
+* [specification](specification/) – the model as CSV files, built from the content available at https://datasette.planning.data.gov.uk/digital_land
 * [doc](doc/) – documentation GitHub pages https://digital-land.github.io/specification/ which we expect to move to https://planning.data.gov.uk
 
 # Updating the collection
