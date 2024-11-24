@@ -9,11 +9,11 @@ entity-maximum: '12300099'
 entity-minimum: '12300000'
 entry-date: ''
 fields:
+- field: description
 - field: end-date
 - field: entry-date
 - field: intervention
 - field: name
-- field: project
 - field: start-date
 key-field: 'intervention'
 licence: ogl3

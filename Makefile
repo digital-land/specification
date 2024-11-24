@@ -9,6 +9,7 @@ include makerules/render.mk
 
 SPECIFICATION_CSV=\
 	specification/attribution.csv\
+	specification/award.csv\
 	specification/licence.csv\
 	specification/collection.csv\
 	specification/datapackage.csv\
@@ -19,6 +20,7 @@ SPECIFICATION_CSV=\
 	specification/schema.csv\
 	specification/schema-field.csv\
 	specification/field.csv\
+	specification/fund.csv\
 	specification/datatype.csv\
 	specification/typology.csv\
 	specification/issue-type.csv\
@@ -42,8 +44,9 @@ SPECIFICATION_CSV=\
 	specification/theme.csv
 
 # these are scraped from other sites ..
-GENERATED_CONTENT=\
-	content/project/local-land-charges.md
+PROJECT_MD_GENERATED=\
+	content/project/local-land-charges.md\
+	content/project/localgov-drupal.md
 
 specification:: $(SPECIFICATION_CSV)
 
@@ -71,7 +74,7 @@ FIELD_MD=$(sort $(wildcard content/field/*.md))
 specification/field.csv:	$(FIELD_MD) bin/load-markdown.py
 	python3 bin/load-markdown.py $@ $(FIELD_MD)
 
-PROJECT_MD=$(sort $(wildcard content/project/*.md))
+PROJECT_MD=$(sort $(wildcard content/project/*.md)) $(PROJECT_MD_GENERATED)
 specification/project.csv:	$(PROJECT_MD) bin/load-markdown.py
 	python3 bin/load-markdown.py $@ $(PROJECT_MD)
 
@@ -144,6 +147,12 @@ specification/role-organisation-rule.csv:	content/role-organisation-rule.csv
 specification/intervention.csv:	content/intervention.csv
 	cp content/intervention.csv $@
 
+specification/fund.csv:	content/fund.csv
+	cp content/fund.csv $@
+
+specification/award.csv:	content/award.csv
+	cp content/award.csv $@
+
 specification/cohort.csv:	content/cohort.csv
 	cp content/cohort.csv $@
 
@@ -202,7 +211,7 @@ commit-specification::
 
 clean clobber::
 	rm -f specification/*.csv
-	rm -f $(GENERATED_CONTENT) 
+	rm -f $(PROJECT_MD_GENERATED) 
 
 # generate mermaid diagrams
 MERMAID_MD=$(subst content/specification/,docs/mermaid/,$(SPECIFICATION_MD))
