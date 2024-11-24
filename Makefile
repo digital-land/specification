@@ -182,6 +182,7 @@ var/llc.csv: var/cache/llc.html var/cache/organisation.csv bin/llc-parse.py
 	python3 bin/llc-parse.py var/cache/llc.html $@
 
 var/cache/llc.html:
+	@mkdir -p var/cache/
 	curl -L 'https://www.gov.uk/government/publications/hm-land-registry-local-land-charges-programme/local-land-charges-programme' > $@
 
 # localgov-drupal project from website list
