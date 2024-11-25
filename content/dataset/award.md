@@ -2,26 +2,32 @@
 attribution: crown-copyright
 collection: ''
 consideration: ''
-dataset: fund
+dataset: award
 description: ''
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
+- field: award
+- field: amount
 - field: documentation-url
 - field: end-date
 - field: entry-date
 - field: fund
-- field: name
+- field: intervention
 - field: notes
+- field: organisation
+  guidance: 'The organisation which was awarded the amount'
+- field: organisations
+  guidance: 'An optional list of other organisations working in partnership with the lead organisation'
 - field: start-date
-key-field: 'fund'
+key-field: 'award'
 licence: ogl3
-name: Fund
+name: Award
 paint-options: ''
 phase: alpha
-plural: Funds
+plural: Awards
 prefix: ''
 realm: specification
 replacement-dataset: ''

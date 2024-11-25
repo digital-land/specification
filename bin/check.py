@@ -36,6 +36,8 @@ tables = {
     "project-status": {},
     "cohort": {},
     "intervention": {},
+    "award": {},
+    "fund": {},
     "specification": {},
     "typology": {},
     "theme": {},
