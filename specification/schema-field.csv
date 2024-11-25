@@ -129,6 +129,17 @@ attribution,entity
 attribution,entry-date
 attribution,start-date
 attribution,text
+award,award
+award,amount
+award,documentation-url
+award,end-date
+award,entry-date
+award,fund
+award,intervention
+award,notes
+award,organisation
+award,organisations
+award,start-date
 battlefield,document-url
 battlefield,documentation-url
 battlefield,end-date
@@ -1185,7 +1196,6 @@ fund,entry-date
 fund,fund
 fund,name
 fund,notes
-fund,project
 fund,start-date
 geography,categories
 geography,documentation-url
