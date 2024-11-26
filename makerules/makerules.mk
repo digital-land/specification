@@ -16,7 +16,7 @@ MAKERULES_URL=$(SOURCE_URL)makerules/main/
 endif
 
 ifeq ($(CONFIG_URL),)
-CONFIG_URL=https://raw.githubusercontent.com/digital-land/config/main/
+CONFIG_URL=https://files.planning.data.gov.uk/config/
 endif
 
 ifeq ($(COLLECTION_NAME),)
