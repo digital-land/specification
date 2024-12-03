@@ -10,6 +10,7 @@ fields:
 - field: description
 - field: end-date
 - field: entry-date
+- field: name
 - field: notes
 - field: organisation
 - field: specification
