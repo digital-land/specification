@@ -20,6 +20,7 @@ fields:
 - field: end-date
 - field: entry-date
 - field: start-date
+- field: details
 licence: ogl3
 name: Expectation Log
 paint-options: ''
