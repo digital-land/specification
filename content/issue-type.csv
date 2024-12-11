@@ -11,17 +11,17 @@ invalid flag,error,Invalid flag,It was not possible to process the field as a ye
 invalid URI,error,Invalid URI,It was not possible to process the field as a URI.,external,validity,any other validity error,3
 invalid WKT,error,Invalid WKT,It was not possible to process the field as a WKT value.,external,validity,any other validity error,3
 future entry-date,error,Future entry date,The entry-date cannot be in the future.,external,accuracy,any other validity error,3
-default-field,info,Default field,The value has been taken from another field.,internal,,,,
-default-value,info,Default value,The value has been derived from other data.,internal,,,,
-patch,info,Patched value,The value has changed during processing as a result of a patching rule in configuration.,internal,,,,
-WGS84 flipped,warning,WGS84 flipped,The latitude and longitude fields values have been exchanged.,external,validity,,,
+default-field,info,Default field,The value has been taken from another field.,internal,,,
+default-value,info,Default value,The value has been derived from other data.,internal,,,
+patch,info,Patched value,The value has changed during processing as a result of a patching rule in configuration.,internal,,,
+WGS84 flipped,warning,WGS84 flipped,The latitude and longitude fields values have been exchanged.,external,validity,,
 WGS84 out of bounds,error,WGS84 out of bounds,The geospatial coordinates are out of bounds.,external,accuracy,geometry errors,2
-Mercator,warning,Mercator conversion,The geospatial data has been processed as Mercator coordinates.,external,validity,,,
-Mercator flipped,warning,Mercator flipped,The geospatial data has been processed as flipped Mercator coordinates.,external,validity,,,
-OSGB,warning,OSGB conversion,The geospatial data has been processed as OSGB coordinates.,external,validity,,,
-OSGB flipped,warning,OSGB flipped,The latitude and longitude fields have been processed as flipped OSGB coordinates.,external,validity,,,
-removed URI prefix,info,Removed URI prefix,The URI value has been converted into a CURIE value.,internal,,,,
-invalid geometry - fixed,warning,Invalid geometry,An error encountered while processing the geometry has been resolved.,external,validity,,,
+Mercator,warning,Mercator conversion,The geospatial data has been processed as Mercator coordinates.,external,validity,,
+Mercator flipped,warning,Mercator flipped,The geospatial data has been processed as flipped Mercator coordinates.,external,validity,,
+OSGB,warning,OSGB conversion,The geospatial data has been processed as OSGB coordinates.,external,validity,,
+OSGB flipped,warning,OSGB flipped,The latitude and longitude fields have been processed as flipped OSGB coordinates.,external,validity,,
+removed URI prefix,info,Removed URI prefix,The URI value has been converted into a CURIE value.,internal,,,
+invalid geometry - fixed,warning,Invalid geometry,An error encountered while processing the geometry has been resolved.,external,validity,,
 invalid geometry - not fixable,error,Invalid geometry,An error encountered while processing the geometry remains unresolved.,external,validity,geometry errors,2
 invalid organisation,error,Invalid Organisation,Organisation data obtained during processing is invalid.,internal,validity,any other validity error,3
 Unexpected geom type,error,Unexpected Geometry Type,Check the geometry type of a WKT if it's not within a given set and we remove it from the data.,external,validity,geometry errors,2
@@ -30,9 +30,9 @@ WGS84 out of bounds of England,error,WGS84 out of bounds of England,Our default 
 WGS84 out of bounds of custom boundary,error,WGS84 out of bounds of England,Our default bounds are a bounding box around England. This issue is recorded when the geometry is outside of this.,external,accuracy,geometry errors,2
 OSGB out of bounds of England,error,OSGB out of bounds of England,Our default bounds are a bounding box around England. This issue is recorded when the geometry is outside of this.,external,accuracy,geometry errors,2
 OSGB out of bounds of custom boundary,error,OSGB out of bounds of England,Our default bounds are a bounding box around England. This issue is recorded when the geometry is outside of this.,external,accuracy,geometry errors,2
-invalid type geojson,warning,Invalid Type GeoJSON,If reading a WKT fails, this checks if it can load a GeoJSON.,external,validity,,,
+invalid type geojson,warning,Invalid Type GeoJSON,If reading a WKT fails, this checks if it can load a GeoJSON.,external,validity,,
 missing value,error,Missing Value,This field is required in the dataset and while the field is in the resource the value is blank for the entry in the resource.,external,completeness,any other validity error,3
 unknown entity - missing reference,error,Unknown entity,The entry has a missing reference because of which an entity cannot be assigned.,external,validity,any other validity error,2
 reference values are not unique,error,Reference values are not unique,There are multiple entries in this resource with this reference and entry date.,external,uniqueness,duplicate reference values,2
 invalid category value,error,Invalid category value,The category value given is not recognised.,external,validity,any other validity error,3
-entity number out of range,notice,Entity number out of range,The entry contains an entity number that is not within the acceptable entity range defined for the dataset.,internal,,,,
+entity number out of range,notice,Entity number out of range,The entry contains an entity number that is not within the acceptable entity range defined for the dataset.,internal,,,
