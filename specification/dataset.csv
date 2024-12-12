@@ -62,6 +62,7 @@ crown-copyright,,,column-field,Log of resource columns mapped to dataset fields,
 crown-copyright,,,column,Map resource column name to dataset field,,,,column,,,ogl3,Pipeline column,,Pipeline columns,alpha,,configuration,,,,specification;pipeline,pipeline,1.0,,
 crown-copyright,,,combine,Combine a series of facts from multiple entries,,,,,,,ogl3,Pipeline combine facts,,Pipeline combine facts,alpha,,configuration,,,,specification;pipeline,specification,1.0,,
 crown-copyright,,common-land-and-village-greens,common-land-and-village-green,,,,,,2700000,2799999,ogl3,Common land and village green,,Common land and village greens,alpha,,dataset,,,,heritage,geography,1.0,Q2259176,Common_land
+crown-copyright,,community-infrastructure-levy,community-infrastructure-levy-schedule,,,2024-12-12,99,,900000,909999,ogl3,Community infrastructure levy schedule,,Community infrastructure levy schedules,alpha,,dataset,,,,administrative;development,document,1.0,,
 crown-copyright,,,company,,,,,,2800000,2899999,ogl3,Company,,Companies,alpha,,dataset,,,,administrative,organisation,1.0,,
 crown-copyright,,,concat,Concatenate fields during the harmonise phase,,,,,,,ogl3,Pipeline concatenation,,Pipeline concatenations,alpha,,configuration,,,,specification;pipeline,specification,1.0,,
 crown-copyright,conservation-area,conservation-areas,conservation-area-document-type,,,,33,,4210000,4210999,ogl3,Conservation area document type,,Conservation area document types,beta,,dataset,,,,heritage,category,1.0,,
