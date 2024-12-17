@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: community-infrastructure-levy-schedule
 consideration: community-infrastructure-levy
 dataset: community-infrastructure-levy-schedule
 description: ''
