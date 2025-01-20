@@ -154,13 +154,9 @@ organisations:
   cohort: ODP-Track4
 - organisation: local-authority:WSM
   cohort: ODP-Track4
-- organisation: local-authority:EHE
-  cohort: ODP-Track4
 - organisation: local-authority:HOR
   cohort: ODP-Track4
 - organisation: local-authority:LCE
-  cohort: ODP-Track4
-- organisation: local-authority:BDG
   cohort: ODP-Track4
 - organisation: local-authority:CRY
   cohort: ODP-Track4
@@ -171,8 +167,6 @@ organisations:
 - organisation: local-authority:HNS
   cohort: ODP-Track4
 - organisation: local-authority:TWH
-  cohort: ODP-Track4
-- organisation: local-authority:MIK
   cohort: ODP-Track4
 - organisation: local-authority:NEW
   cohort: ODP-Track4
@@ -186,8 +180,6 @@ organisations:
   cohort: ODP-Track4
 - organisation: local-authority:PLY
   cohort: ODP-Track4
-- organisation: local-authority:RCH
-  cohort: ODP-Track4
 - organisation: local-authority:ROS
   cohort: ODP-Track4
 - organisation: local-authority:ROH
@@ -200,8 +192,6 @@ organisations:
   cohort: ODP-Track4
 - organisation: local-authority:SGC
   cohort: ODP-Track4
-- organisation: local-authority:SST
-  cohort: ODP-Track4
 - organisation: local-authority:SPE
   cohort: ODP-Track4
 - organisation: local-authority:SUR
@@ -212,11 +202,7 @@ organisations:
   cohort: ODP-Track4
 - organisation: local-authority:TOB
   cohort: ODP-Track4
-- organisation: local-authority:TRF
-  cohort: ODP-Track4
 - organisation: local-authority:WAE
-  cohort: ODP-Track4
-- organisation: local-authority:WSM
   cohort: ODP-Track4
 - organisation: local-authority:SNO
   cohort: ODP-Track4
