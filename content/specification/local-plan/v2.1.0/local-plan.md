@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2024-09-13'
 github-discussion: 26
-version: 2.1.1
+version: 2.1.0
 datasets:
     - dataset: local-plan-boundary
       name: local plan boundary
@@ -68,7 +68,6 @@ datasets:
             description: The reference for the particular local plan (for example, dorcester-new-local-plan)
           - field: document-types
             description: The code for this document type (for example policy map)
-            dataset: local-plan-document-type
           - field: documentation-url
             description: The webpage where you can find this document 
           - field: document-url
