@@ -12,17 +12,17 @@ start-date: ''
 specifications:
 organisations:
 - organisation: local-authority:BRC
-  cohort: LGD-Member
+  cohort: LGD-Subscriber
 - organisation: local-authority:HAT
-  cohort: LGD-Member
+  cohort: LGD-Subscriber
 - organisation: local-authority:NDE
-  cohort: LGD-Member
+  cohort: LGD-Subscriber
 - organisation: local-authority:WRL
-  cohort: LGD-Member
+  cohort: LGD-Subscriber
 - organisation: local-authority:BAS
-  cohort: LGD-Member
+  cohort: LGD-Subscriber
 - organisation: local-authority:NET
-  cohort: LGD-Member
+  cohort: LGD-Subscriber
 - organisation: local-authority:NOW
   cohort: LGD-Subscriber
 - organisation: local-authority:BBD
@@ -65,6 +65,8 @@ organisations:
   cohort: LGD-Subscriber
 - organisation: local-authority:WOI
   cohort: LGD-Subscriber
+- organisation: local-authority:TAW
+  cohort: LGD-Subscriber
 - organisation: local-authority:BDG
   cohort: LGD-Contributor
 - organisation: local-authority:BDF
@@ -79,8 +81,6 @@ organisations:
   cohort: LGD-Contributor
 - organisation: local-authority:LBH
   cohort: LGD-Contributor
-- organisation: local-authority:MIK
-  cohort: LGD-Contributor
 - organisation: local-authority:RCC
   cohort: LGD-Contributor
 - organisation: local-authority:RUT
@@ -88,8 +88,6 @@ organisations:
 - organisation: local-authority:SHF
   cohort: LGD-Contributor
 - organisation: local-authority:SST
-  cohort: LGD-Contributor
-- organisation: local-authority:TAW
   cohort: LGD-Contributor
 - organisation: local-authority:WOK
   cohort: LGD-Contributor

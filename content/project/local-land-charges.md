@@ -117,8 +117,6 @@ organisations:
   start-date: 2022-01-20
 - organisation: local-authority:MSS
   start-date: 2022-03-21
-- organisation: local-authority:MIK
-  start-date: 2020-08-27
 - organisation: local-authority:NEA
   start-date: 2021-10-26
 - organisation: local-authority:NEC
@@ -147,6 +145,8 @@ organisations:
   start-date: 2022-10-27
 - organisation: local-authority:RUG
   start-date: 2024-09-05
+- organisation: local-authority:RUN
+  start-date: 2025-01-17
 - organisation: local-authority:RUT
   start-date: 2022-12-12
 - organisation: local-authority:RYE
@@ -207,6 +207,8 @@ organisations:
   start-date: 2024-04-24
 - organisation: local-authority:WOI
   start-date: 2024-03-21
+- organisation: local-authority:WOC
+  start-date: 2025-02-10
 - organisation: local-authority:WYE
   start-date: 2024-04-19
 ---

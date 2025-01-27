@@ -226,6 +226,9 @@ clobber::
 	rm -rf docs/mermaid/
 
 
+init::	$(CACHE_DIR)organisation.csv
+
+
 # generate SVG diagrams
 SPECIFICATION_SVG=$(subst .md,/diagram.svg,$(subst content/,docs/,$(SPECIFICATION_MD)))
 render:: $(SPECIFICATION_SVG)
