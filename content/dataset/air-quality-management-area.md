@@ -1,6 +1,6 @@
 ---
 attribution: defra
-collection: 
+collection: air-quality-management-area
 consideration: 'air-quality-management-areas'
 dataset: air-quality-management-area
 description: 'Areas where air pollution levels have exceeded the national air quality objectives'
