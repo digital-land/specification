@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2023-11-09'
 github-discussion: 40
-version: 1.5.0
+version: 1.4.0
 datasets:
     - dataset: planning-condition
       name: planning condition
@@ -43,8 +43,6 @@ datasets:
           description: a planning condition reference
         - field: document-url
           description: a url to the decision notice that includes details of the condition applying to the planning application
-        - field: documentation-url
-          description: a url to a page where it is possible to find the decision notice
         - field: description
           description: a description of the condition applied to the application
         - field: organisation

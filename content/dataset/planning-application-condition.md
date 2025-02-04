@@ -9,6 +9,7 @@ entity-maximum: '72999999'
 entity-minimum: '71000000'
 entry-date: ''
 fields:
+- field: documentation-url
 - field: document-url
 - field: description
 - field: end-date
@@ -36,7 +37,7 @@ themes:
 - housing
 - monitoring
 typology: policy
-version: 3.0
+version: 4.0
 wikidata: ''
 wikipedia: ''
 ---
