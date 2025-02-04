@@ -188,7 +188,9 @@ crown-copyright,listed-building,listed-buildings,listed-building-outline,boundar
 
 We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
 
-We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.",heritage,geography,1.0,Q570600,Listed_building
+We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.
+
+*This dataset is compiled from data provided by Local Planning Authorities. This dataset does not consistently show the curtilage of listed buildings for planning purposes. Therefore, this dataset should only be used as an indicative guide and users should do further checks before making any planning decision.*",heritage,geography,1.0,Q570600,Listed_building
 historic-england,listed-building,listed-buildings,listed-building,,,,44,,31100000,41099999,ogl3,Listed building,"{ ""colour"": ""#F9C744"", ""type"": ""point"" }",Listed buildings,beta,,dataset,,,"[Listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/).
 Each building has a [listed building grade](/dataset/listed-building-grade).",heritage,geography,1.0,Q570600,Listed_building
 crown-copyright,local-area-requirements,local-area-requirements,local-area-requirements,,,,52,,20000,29999,ogl3,Local area requirements,,Local area requirements,alpha,,dataset,,,,administrative;housing,document,2.0,,
