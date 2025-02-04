@@ -12,6 +12,7 @@ n,,string,"A list of Address texts, spearated by a `;`. Each Address as a single
 1,,string,,,,applicant-organisation,,,Applicant organisation,organisation,,,,organisation,,
 1,,datetime,The date a planning condition was applied,2024-05-13,,applied-date,,,Applied date,datetime,,,,value,,
 1,,string,,,,archaelogy-area-type,,,Archaelogy area type,geography,,,,geography,,
+1,,string,Tier given to indicate levels of sensitivity to development,,2025-02-04,archaeological-risk-tier,,,Archaeological risk tier,category,,,,category,,
 1,,string,A protected area of countryside with a distinctive character and natural beauty,,,area-of-outstanding-natural-beauty,,,Area of Outstanding Natural Beauty,geography,,,,geography,,
 1,,string,,,,article-4-direction-area,,,Article-4 direction area,geography,,,,geography,,
 1,,string,,,,article-4-direction-rule,,,Article 4 direction rule,category,,,,category,,

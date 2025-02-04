@@ -8,6 +8,12 @@ natural-england,ancient-woodland,ancient-woodlands,ancient-woodland-status,,,,32
 natural-england,ancient-woodland,ancient-woodlands,ancient-woodland,An area that’s been wooded continuously since at least 1600 AD,,,32,,110000000,129999999,ogl3,Ancient woodland,"{ ""colour"": ""#00703c"", ""opacity"": 0.2 }",Ancient woodlands,live,,dataset,,,"An area designated as ancient woodland by Natural England.
 
 Natural England and Forestry Commission [Guidance](https://www.gov.uk/guidance/ancient-woodland-and-veteran-trees-protection-surveys-licences)  is used in planning decisions.",environment,geography,1.0,Q3078732,Ancient_woodland
+historic-england,,greater-london-archaeological-priority-areas,archaeological-priority-area,Areas of Greater London where there is significant known archaeological interest or potential for new discoveries,,2025-02-04,89,,40000,59999,ogl3,Archaeological priority area,"{ ""colour"": ""#c9ada7"", ""opacity"": 0.2 }",Archaeological priority areas,live,,dataset,,,"The Greater London Archaeological Priority Areas (APAs) are areas in London that have significant archaeological interest or potential for new discoveries
+
+The APAs are based on evidence in the Greater London Historic Environment Record (GLHER)
+They were created in the 1970s and 1980s by boroughs and local museums
+They are being updated using new evidence and standards
+The new system assigns all land to one of four tiers based on archaeological risk",environment;heritage,geography,1.0,,
 natural-england,area-of-outstanding-natural-beauty,areas-of-outstanding-natural-beauty,area-of-outstanding-natural-beauty,Land protected by law to conserve and enhance its natural beauty,,,31,,1000000,1099999,ogl3,Area of outstanding natural beauty,"{ ""colour"": ""#d53880"" }",Areas of outstanding natural beauty,live,,dataset,,,"An area of outstanding natural beauty (AONB) as designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).
 
 Natural England provides [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.",environment,geography,1.0,Q174945,Area_of_Outstanding_Natural_Beauty
