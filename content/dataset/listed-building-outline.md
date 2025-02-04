@@ -52,3 +52,5 @@ The geospatial boundary for [listed buildings](https://historicengland.org.uk/li
 We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
 
 We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.
+
+*This dataset is compiled from data provided by Local Planning Authorities. This dataset does not consistently show the curtilage of listed buildings for planning purposes. Therefore, this dataset should only be used as an indicative guide and users should do further checks before making any planning decision.*
