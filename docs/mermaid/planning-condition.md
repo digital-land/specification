@@ -19,6 +19,7 @@ erDiagram
         string planning-application
         ref planning-condition
         url document-url
+        url documentation-url
         string description
         string organisation
         string notes
