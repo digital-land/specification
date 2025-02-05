@@ -9,6 +9,7 @@ entity-maximum: '59999'
 entity-minimum: '40000'
 entry-date: '2025-02-04'
 fields:
+- field: archaeological-risk-tier
 - field: end-date
 - field: entity
 - field: entry-date
@@ -35,7 +36,7 @@ themes:
 - environment
 - heritage
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: 
 wikipedia: 
 ---
