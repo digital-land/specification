@@ -16,6 +16,8 @@ fields:
 - field: resource
 - field: separator
 - field: start-date
+- field: prepend
+- field: append
 key-field: ''
 licence: ogl3
 name: Pipeline concatenation
