@@ -1,6 +1,6 @@
 ---
 attribution: historic-england
-collection: archaeological-priority-area
+collection:
 consideration: greater-london-archaeological-priority-areas
 dataset: archaeological-priority-area
 description: Areas of Greater London where there is significant known archaeological interest or potential for new discoveries
