@@ -8,7 +8,6 @@ erDiagram
         string name
         string listed-building
         wkt geometry
-        url document-url
         string notes
         string organisation
         date entry-date
