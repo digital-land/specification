@@ -12,8 +12,6 @@ fields:
 - field: address
 - field: address-text
 - field: description
-- field: document-url
-- field: documentation-url
 - field: end-date
 - field: entity
 - field: entry-date
@@ -42,7 +40,7 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 1.0
+version: 2.0
 wikidata: Q570600
 wikipedia: Listed_building
 ---

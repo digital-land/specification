@@ -7,7 +7,7 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 github-discussion: 44
-version: 1.3.0
+version: 1.2.0
 datasets:
     - dataset: listed-building-outline
       fields:
@@ -19,6 +19,8 @@ datasets:
           description: the Historic England identifier for the listed building, for example <a href="https://historicengland.org.uk/listing/the-list/list-entry/1024710" class="govuk-link">1024710</a>
         - field: geometry
           description: Under review 
+        - field: document-url
+          description: the URL of the web page where you can find the document for the listed building
         - field: notes
           description: optional notes
         - field: organisation
