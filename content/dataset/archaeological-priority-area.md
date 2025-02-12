@@ -25,7 +25,7 @@ github-discussion: 89
 key-field: ''
 licence: ogl3
 name: Archaeological priority area
-paint-options: '{ "colour": "#c9ada7", "opacity": 0.4 }'
+paint-options: '{ "colour": "#b54405", "opacity": 0.35 }'
 phase: live
 plural: Archaeological priority areas
 prefix: ''
