@@ -5,6 +5,7 @@ import argparse
 import frontmatter
 import shutil
 import re
+from datetime import date
 
 from pathlib import Path
 
@@ -46,8 +47,10 @@ def main():
         new_version = get_new_version(current_version, args.version)
         print(f"Current version: {current_version}")
         print(f"New {args.version} version: {new_version}")
+        end_current_version(spec_file)
         move_current_version(args.specification, current_version, spec_file)
         update_current_version(spec_file, new_version)
+        
     else:
         print(f"Specification file not found: {spec_file}")
         sys.exit(-1)
@@ -88,16 +91,47 @@ def update_current_version(spec_file, new_version):
     if not frontmatter_match:
         raise ValueError("No frontmatter found in the file")
 
-    frontmatter = frontmatter_match.group(1)
-    updated_frontmatter = re.sub(r"(?m)^version:\s*.*$", f"version: {new_version}", frontmatter)
-
-    updated_content = content.replace(frontmatter, updated_frontmatter, 1)
+    frontmatter = frontmatter_match.group(0)
+    frontmatter_content = frontmatter_match.group(1)
+    
+    # Make all updates to frontmatter_content at once
+    updated_frontmatter_content = re.sub(r"(?m)^version:\s*.*$", f"version: {new_version}", frontmatter_content)
+    
+    # Update entry-date to today's date
+    today = date.today().strftime("%Y-%m-%d")
+    updated_frontmatter_content = re.sub(r"(?m)^entry-date:\s*.*$", f"entry-date: '{today}'", updated_frontmatter_content)
+    
+    # Update end-date to empty string
+    updated_frontmatter_content = re.sub(r"(?m)^end-date:\s*.*$", "end-date: ''", updated_frontmatter_content)
+    
+    # Reconstruct the full frontmatter with --- markers
+    new_frontmatter = f"---\n{updated_frontmatter_content}\n---\n"
+    updated_content = content.replace(frontmatter, new_frontmatter, 1)
 
     with open(spec_file, "w", encoding="utf-8") as file:
         file.write(updated_content)
 
     print(f"Updated version in {spec_file}")
 
+
+def end_current_version(current_version):
+    with open(current_version, "r", encoding="utf-8") as file:
+        content = file.read()
+
+    frontmatter_match = re.search(r"^---\n(.*?)\n---\n", content, re.DOTALL)    
+    if not frontmatter_match:
+        raise ValueError("No frontmatter found in the file")
+
+    frontmatter = frontmatter_match.group(1)
+    today = date.today().strftime("%Y-%m-%d")
+    updated_frontmatter = re.sub(r"(?m)^end-date:\s*.*$", f"end-date: '{today}'", frontmatter)
+
+    updated_content = content.replace(frontmatter, updated_frontmatter, 1)
+
+    with open(current_version, "w", encoding="utf-8") as file:
+        file.write(updated_content)
+
+    print(f"Ended current version in {current_version}")
 
 if __name__ == "__main__":
     main()
