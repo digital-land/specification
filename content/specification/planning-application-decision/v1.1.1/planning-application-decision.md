@@ -4,13 +4,13 @@ name: Planning application decision
 plural: Planning application decisions
 specification-status: working-draft
 start-date: ''
-end-date: ''
-entry-date: '2025-02-13'
+end-date: '2025-02-13'
+entry-date: '2023-05-15'
 github-discussion: 25
-version: 2.0.0
+version: 1.1.1
 datasets:
-    - dataset: planning-application
-      name: Planning application
+    - dataset: planning-application-decision
+      name: planning application decision
       fields:
           - field: reference
             description: The planning application reference (for example, "27/AP/9032")
