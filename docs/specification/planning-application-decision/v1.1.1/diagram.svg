@@ -98,7 +98,7 @@
 <rect x="297" y="40" width="162" height="20" class="field"/>
 <rect x="459" y="40" width="55" height="20" class="datatype"/>
 <text x="302" y="50" class="field">planning-application</text>
-<text x="464" y="50" class="datatype">string</text>
+<text x="464" y="50" class="datatype">reference</text>
 <rect x="297" y="60" width="162" height="20" class="field"/>
 <rect x="459" y="60" width="55" height="20" class="datatype"/>
 <text x="302" y="70" class="field">planning-application-status</text>
@@ -154,7 +154,7 @@
 <rect x="594" y="80" width="162" height="20" class="field"/>
 <rect x="756" y="80" width="55" height="20" class="datatype"/>
 <text x="599" y="90" class="field">planning-application</text>
-<text x="761" y="90" class="datatype">string</text>
+<text x="761" y="90" class="datatype">reference</text>
 <rect x="594" y="100" width="162" height="20" class="field"/>
 <rect x="756" y="100" width="55" height="20" class="datatype"/>
 <text x="599" y="110" class="field">document-type</text>
