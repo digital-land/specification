@@ -126,8 +126,12 @@
   
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9"></p>
-    <!--  -->
+    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">Buildings or pieces of land that are used for the social wellbeing and interests of the local community</p>
+    <!-- This data contributes towards a clear picture of all planning and land designations.
+
+Being an asset of community value does not place any restriction on what an owner can do with their property, but some LPAs may decide (through planning policy), that listing as an asset of community value is a material consideration if an application for change of use is submitted, considering all the circumstances of the case. 
+
+Listing an asset of community value is also a Local Land Charge, which is a restriction or financial claim on a property or piece of land, and is an important consideration during the selling of a property or piece of land. -->
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -143,28 +147,37 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_asset-of-community-value"><a href="../../field/asset-of-community-value">asset-of-community-value</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">Asset of community value</td>
+          <td class="govuk-table__cell" id="field_address-text"><a href="../../field/address-text">address-text</a>
+          </td>
+          <td class="govuk-table__cell">Address text</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_categories"><a href="../../field/categories">categories</a>
+          <td class="govuk-table__cell" id="field_decision"><a href="../../field/decision">decision</a>
           </td>
-          <td class="govuk-table__cell">Categories</td>
-          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
-          <td class="govuk-table__cell">n</td>
+          <td class="govuk-table__cell">Decision</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
         </tr>
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
+          <td class="govuk-table__cell" id="field_decision-date"><a href="../../field/decision-date">decision-date</a>
           </td>
-          <td class="govuk-table__cell">Documentation URL</td>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">Decision date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_description"><a href="../../field/description">description</a>
+          </td>
+          <td class="govuk-table__cell">Description</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -179,10 +192,10 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geography"><a href="../../field/geography">geography</a>
+          <td class="govuk-table__cell" id="field_expiry-date"><a href="../../field/expiry-date">expiry-date</a>
           </td>
-          <td class="govuk-table__cell">Geography</td>
-          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">Expiry date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -197,9 +210,9 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_legislation"><a href="../../field/legislation">legislation</a>
+          <td class="govuk-table__cell" id="field_interested-group"><a href="../../field/interested-group">interested-group</a>
           </td>
-          <td class="govuk-table__cell">Legislation</td>
+          <td class="govuk-table__cell">Interested group</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
@@ -215,10 +228,37 @@
     
         
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_nominating-group"><a href="../../field/nominating-group">nominating-group</a>
+          </td>
+          <td class="govuk-table__cell">Nominating group</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_nomination-date"><a href="../../field/nomination-date">nomination-date</a>
+          </td>
+          <td class="govuk-table__cell">Nomination date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
           </td>
           <td class="govuk-table__cell">Notes</td>
           <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_notification-to-sell-date"><a href="../../field/notification-to-sell-date">notification-to-sell-date</a>
+          </td>
+          <td class="govuk-table__cell">Notification to sell date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -246,6 +286,15 @@
           </td>
           <td class="govuk-table__cell">CURIE prefix</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_protected-period-start-date"><a href="../../field/protected-period-start-date">protected-period-start-date</a>
+          </td>
+          <td class="govuk-table__cell">Protected period start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -300,11 +349,7 @@
     <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../category">Category</a></li>
-    
       <li><a href="../entity">Entity</a></li>
-    
-      <li><a href="../geography">Geography</a></li>
     
       <li><a href="../organisation">Organisation</a></li>
     
