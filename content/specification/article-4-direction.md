@@ -37,12 +37,6 @@ datasets:
         - field: documentation-url
           description: the URL of the web page where you can find information about the article 4 direction
           guidance: |
-            The URL of an authoritative order or notice designating the article 4 direction.
-
-            Example: `http://www.LPAwebsite.org.uk/article4direction1.pdf`
-        - field: document-url
-          description: the URL of the web page where you can find the document for the article 4 direction
-          guidance: |
             The URL of the webpage on your website that introduces the document.
 
             Each document should be linked to from a documentation webpage that includes a short description of the data and the document you’re linking to. Each article 4 direction should have a unique URL. This means you can create a separate page for each one, or you could list several on one page. If you do that, there must be a separate anchor link (fragment identifier) for each one.
@@ -60,6 +54,12 @@ datasets:
             `http://www.LPAwebsite.org.uk/data/article4directions#smithroad`
 
             `http://www.LPAwebsite.org.uk/data/article4directions#broadhousepark`
+        - field: document-url
+          description: the URL of the web page where you can find the document for the article 4 direction
+          guidance: |
+            The URL of an authoritative order or notice designating the article 4 direction.
+
+            Example: `http://www.LPAwebsite.org.uk/article4direction1.pdf`
         - field: notes
           description: optional notes
           guidance: |
@@ -129,7 +129,7 @@ datasets:
 
             If you provide the UPRN, you must also provide the address text.
         - field: address-texts
-          description: the addresses of any properties reference. The addresses should be written as address-text (a single line separated by commas). To write multiple address end each address with `;`
+          description: the addresses of any properties reference. The addresses should be written as address-text (a single line separated by commas). To write multiple addresses end each address with `;`
           guidance: |
             If the geometry is the boundary of a building, you can provide the address of the article 4 direction, written as text.
 
