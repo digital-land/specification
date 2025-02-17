@@ -1,39 +1,45 @@
 ---
 attribution: crown-copyright
-collection: ''
-consideration: 'assets-of-community-value'
+collection: 
+consideration: assets-of-community-value
 dataset: asset-of-community-value
-description: ''
+description: "Buildings or pieces of land that are used for the social wellbeing and interests of the local community"
 end-date: ''
-entity-maximum: '1299999'
-entity-minimum: '1200000'
-entry-date: ''
+entity-maximum: '17299999'
+entity-minimum: '17100000'
+entry-date: '2025-02-17'
 fields:
-- field: asset-of-community-value
-- field: categories
-- field: documentation-url
+- field: address-text
+- field: decision
+- field: decision-date
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date
-- field: geography
+- field: expiry-date
 - field: geometry
-- field: legislation
+- field: interested-group
 - field: name
+- field: nominating-group
+- field: nomination-date
 - field: notes
+- field: notification-to-sell-date
 - field: organisation
 - field: point
 - field: prefix
+- field: protected-period-start-date
 - field: reference
 - field: start-date
+github-discussion: 100
 key-field: ''
 licence: ogl3
 name: Asset of community value
-paint-options: ''
+paint-options: 
 phase: alpha
 plural: Assets of community value
-prefix: ''
+prefix: asset-of-community-value
 realm: dataset
-replacement-dataset: ''
+replacement-dataset: 
 start-date: ''
 themes:
 - heritage
@@ -42,3 +48,9 @@ version: 1.0
 wikidata: Q16971076
 wikipedia: Asset_of_community_value
 ---
+
+This data contributes towards a clear picture of all planning and land designations.
+
+Being an asset of community value does not place any restriction on what an owner can do with their property, but some LPAs may decide (through planning policy), that listing as an asset of community value is a material consideration if an application for change of use is submitted, considering all the circumstances of the case. 
+
+Listing an asset of community value is also a Local Land Charge, which is a restriction or financial claim on a property or piece of land, and is an important consideration during the selling of a property or piece of land.
