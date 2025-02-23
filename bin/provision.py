@@ -52,15 +52,21 @@ def apply_rule(dataset, rule, field):
         }
 
 
-# load organisations
+# load sets of organisations for each field
 def load_organisations(field, path):
     organisations[field] = {}
     sets[field] = {}
     for row in csv.DictReader(open(path)):
+        organisation = row["organisation"]
+
+        # remove historicial reasons
+        #if row["end-date"] and row["end-date"] < today:
+            #continue
+
         organisations[field].setdefault(row[field], {})
-        organisations[field][row[field]][row["organisation"]] = row
+        organisations[field][row[field]][organisation] = row
         sets[field].setdefault(row[field], set())
-        sets[field][row[field]].add(row["organisation"])
+        sets[field][row[field]].add(organisation)
         sets[field][""] = set()
 
 
@@ -69,10 +75,6 @@ for field, path in fields.items():
 
 # load rules
 for row in csv.DictReader(open("content/provision-rule.csv")):
-    # skip rules with the same start and end date
-    if row["start-date"] and row["end-date"] and row["end_date"] <= row["start_date"]:
-        continue
-
     rules[row["provision-rule"]] = row
     dataset_rules.setdefault(row["dataset"], {})
     dataset_rules[row["dataset"]].setdefault(row["priority"], [])
