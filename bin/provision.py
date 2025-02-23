@@ -5,7 +5,10 @@
 
 import sys
 import csv
+from datetime import datetime
 
+
+today = datetime.today().strftime("%Y-%m-%d")
 
 fields = {
     "organisation": "var/cache/organisation.csv",
@@ -23,7 +26,7 @@ dataset_organisations = {}
 organisation_datasets = {}
 
 
-def rule_set(rule, field, a):
+def rule_set(rule, field, a, b):
     if rule["include-exclude"] == "include":
         return a | b
     else:
@@ -34,20 +37,19 @@ def apply_rule(dataset, rule, field):
     value = rule[field]
     if not value:
         return
+
     s = sets[field][value]
 
-    if rule["include-exclude"] == "exclude":
-        dataset_organisations[dataset] = dataset_organisations[dataset] - s
-    else:
-        dataset_organisations[dataset] = dataset_organisations[dataset] | s
-        for organisation in s:
-            organisation_datasets.setdefault(organisation, {})
-            organisation_datasets[organisation].setdefault(dataset, [])
-            organisation_datasets[organisation][dataset] = {
-                "rule": rule,
-                "field": field,
-                "value": value,
-            }
+    dataset_organisations[dataset] = rule_set(rule, field, dataset_organisations[dataset], s)
+
+    for organisation in s:
+        organisation_datasets.setdefault(organisation, {})
+        organisation_datasets[organisation].setdefault(dataset, [])
+        organisation_datasets[organisation][dataset] = {
+            "rule": rule,
+            "field": field,
+            "value": value,
+        }
 
 
 # load organisations
@@ -67,6 +69,10 @@ for field, path in fields.items():
 
 # load rules
 for row in csv.DictReader(open("content/provision-rule.csv")):
+    # skip rules with the same start and end date
+    if row["start-date"] and row["end-date"] and row["end_date"] <= row["start_date"]:
+        continue
+
     rules[row["provision-rule"]] = row
     dataset_rules.setdefault(row["dataset"], {})
     dataset_rules[row["dataset"]].setdefault(row["priority"], [])
@@ -103,6 +109,7 @@ w.writeheader()
 
 for organisation, datasets in sorted(organisation_datasets.items()):
     for dataset, reason in sorted(datasets.items()):
+
         field = reason["field"]
         value = reason["value"]
         rule = reason["rule"]
@@ -128,6 +135,7 @@ for organisation, datasets in sorted(organisation_datasets.items()):
                 rule.get("end-date", "") or "",
             ]
             dates = [x for x in dates if x]
+
             end_date = min(dates) if dates else ""
 
             if start_date and end_date and end_date < start_date:
@@ -139,18 +147,18 @@ for organisation, datasets in sorted(organisation_datasets.items()):
             role = value if field == "role" else ""
             project = value if field == "project" else ""
 
-            w.writerow(
-                {
-                    "dataset": dataset,
-                    "organisation": organisation,
-                    "specification": rule["specification"],
-                    "provision-rule": rule["provision-rule"],
-                    "provision-reason": rule["provision-reason"],
-                    "project": project,
-                    "role": role,
-                    "cohort": cohort,
-                    "start-date": start_date,
-                    "end-date": end_date,
-                    "notes": notes,
-                }
-            )
+            row = {
+                "dataset": dataset,
+                "organisation": organisation,
+                "specification": rule["specification"],
+                "provision-rule": rule["provision-rule"],
+                "provision-reason": rule["provision-reason"],
+                "project": project,
+                "role": role,
+                "cohort": cohort,
+                "start-date": start_date,
+                "end-date": end_date,
+                "notes": notes,
+            }
+
+            w.writerow(row)
