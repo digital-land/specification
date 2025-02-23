@@ -59,9 +59,9 @@ def load_organisations(field, path):
     for row in csv.DictReader(open(path)):
         organisation = row["organisation"]
 
-        # remove historicial reasons
-        #if row["end-date"] and row["end-date"] < today:
-            #continue
+        # skip historicial project involvement ..
+        if field == "project" and row["end-date"] and row["end-date"] < today:
+            continue
 
         organisations[field].setdefault(row[field], {})
         organisations[field][row[field]][organisation] = row
