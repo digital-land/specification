@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: planning-condition
 consideration: planning-conditions
 dataset: planning-application-condition
 description: A record of which conditions apply to which planning applications

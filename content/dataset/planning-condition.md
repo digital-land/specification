@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: planning-condition
 consideration: planning-conditions
 dataset: planning-condition
 description: A condition that is attached to planning permission
