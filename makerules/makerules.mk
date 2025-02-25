@@ -39,10 +39,6 @@ ifeq ($(DATASETTE_URL),)
 DATASETTE_URL=https://datasette.planning.data.gov.uk/
 endif
 
-ifeq ($(DOCUMENT_DATASET),)
-DOCUMENT_DATASET := $(notdir $(VAR_DIR))
-endif
-
 .PHONY: \
 	makerules\
 	specification\
@@ -161,10 +157,8 @@ else
 	curl -qfs "$(DATASTORE_URL)organisation-collection/dataset/organisation.csv" > $(CACHE_DIR)organisation.csv
 endif
 
-$(CACHE_DIR)provision_summary:
-	@mkdir -p $(CACHE_DIR)provision_summary
-	curl -qfs "$(DATASETTE_URL)performance.csv?sql=select%20organisation%20from%20provision_summary%20where%20active_endpoint_count%20%3E%200%20and%20dataset%20%3D%20'$(DOCUMENT_DATASET)'&_size=max" > $(CACHE_DIR)provision_summary/$(DOCUMENT_DATASET).csv
-
+$(CACHE_DIR)provision_summary.csv:
+	curl -qfs "$(DATASETTE_URL)performance.csv?sql=select%20organisation%2C%20dataset%2C%20active_endpoint_count%20from%20provision_summary%20where%20active_endpoint_count%20%3E%200%20order%20by%20organisation%3B&_size=max" > $(CACHE_DIR)provision_summary.csv
 
 init:: config
 
