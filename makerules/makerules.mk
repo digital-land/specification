@@ -35,9 +35,6 @@ ifeq ($(CACHE_DIR),)
 CACHE_DIR=$(VAR_DIR)cache/
 endif
 
-ifeq ($(DATASETTE_URL),)
-DATASETTE_URL=https://datasette.planning.data.gov.uk/
-endif
 
 .PHONY: \
 	makerules\
@@ -156,9 +153,6 @@ ifneq ($(COLLECTION_DATASET_BUCKET_NAME),)
 else
 	curl -qfs "$(DATASTORE_URL)organisation-collection/dataset/organisation.csv" > $(CACHE_DIR)organisation.csv
 endif
-
-$(CACHE_DIR)provision_summary.csv:
-	curl -qfs "$(DATASETTE_URL)performance.csv?sql=select%20organisation%2C%20dataset%2C%20active_endpoint_count%20from%20provision_summary%20where%20active_endpoint_count%20%3E%200%20order%20by%20organisation%3B&_size=max" > $(CACHE_DIR)provision_summary.csv
 
 init:: config
 
