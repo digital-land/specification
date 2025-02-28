@@ -4,10 +4,10 @@ name: Listed building outline
 plural: Listed building outlines
 specification-status: piloting
 start-date: ''
-end-date: '2025-02-28'
-entry-date: '2022-06-09'
+end-date: ''
+entry-date: '2025-02-28'
 github-discussion: 44
-version: 1.3.0
+version: 1.3.1
 datasets:
     - dataset: listed-building-outline
       fields:
@@ -34,7 +34,7 @@ datasets:
 
             Example: `1480524`
         - field: geometry
-          description: Under review
+          description: the boundary of the area related to the listed building. Use curtilage (according to the [Historic England advice note](https://historicengland.org.uk/images-books/publications/listed-buildings-and-curtilage-advice-note-10/heag125-listed-buildings-and-curtilage/)) if it’s available.
           guidance: |
             The outline of the listed building as a single polygon or multipolygon value. All points in the polygon must be in the WGS84 coordinate reference system.
 
