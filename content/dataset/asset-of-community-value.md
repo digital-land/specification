@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 
+collection: asset-of-community-value
 consideration: assets-of-community-value
 dataset: asset-of-community-value
 description: "Buildings or pieces of land that are used for the social wellbeing and interests of the local community"
