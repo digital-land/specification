@@ -34,7 +34,7 @@ datasets:
 
             Example: `1480524`
         - field: geometry
-          description: the boundary of the area related to the listed building. Use curtilage (according to the [Historic England advice note](https://historicengland.org.uk/images-books/publications/listed-buildings-and-curtilage-advice-note-10/heag125-listed-buildings-and-curtilage/)) if it’s available.
+          description: the boundary of the area related to the listed building. Use curtilage (according to the <a href="https://historicengland.org.uk/images-books/publications/listed-buildings-and-curtilage-advice-note-10/heag125-listed-buildings-and-curtilage/" class="govuk-link">Historic England advice note</a>) if it’s available.
           guidance: |
             The outline of the listed building as a single polygon or multipolygon value. All points in the polygon must be in the WGS84 coordinate reference system.
 
