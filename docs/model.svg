@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2536" height="8060">
+<svg xmlns="http://www.w3.org/2000/svg" width="2536" height="8280">
 <defs>
 <style>
 text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
@@ -37,16 +37,16 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_dataset-resource_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 1870 C 931.0 1870 931.0 2350 891 2350"><title>from dataset-resource dataset to dataset dataset</title></path>
 <path class="line" id="from_dataset-resource_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2010 C 1525.0 2010 1525.0 1310 2159 1310"><title>from dataset-resource resource to resource resource</title></path>
 <path class="line" id="from_dataset-schema_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2170 C 931.0 2170 931.0 2350 891 2350"><title>from dataset-schema dataset to dataset dataset</title></path>
-<path class="line" id="from_dataset-schema_schema_to_schema_schema" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2190 C 931.0 2190 931.0 6730 891 6730"><title>from dataset-schema schema to schema schema</title></path>
+<path class="line" id="from_dataset-schema_schema_to_schema_schema" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2190 C 931.0 2190 931.0 6950 891 6950"><title>from dataset-schema schema to schema schema</title></path>
 <path class="line" id="from_dataset_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2370 C 1228.0 2370 1228.0 30 1565 30"><title>from dataset prefix to prefix prefix</title></path>
 <path class="line" id="from_dataset_attribution_to_attribution_attribution" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2430 C 931.0 2430 931.0 50 891 50"><title>from dataset attribution to attribution attribution</title></path>
 <path class="line" id="from_dataset_collection_to_collection_collection" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2450 C 931.0 2450 931.0 830 891 830"><title>from dataset collection to collection collection</title></path>
 <path class="line" id="from_dataset_licence_to_licence_licence" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2570 C 931.0 2570 931.0 4090 891 4090"><title>from dataset licence to licence licence</title></path>
 <path class="line" id="from_dataset_phase_to_phase_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2630 C 931.0 2630 931.0 4270 891 4270"><title>from dataset phase to phase reference</title></path>
-<path class="line" id="from_dataset_realm_to_realm_realm" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2650 C 931.0 2650 931.0 5490 891 5490"><title>from dataset realm to realm realm</title></path>
-<path class="line" id="from_dataset_typology_to_typology_typology" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2730 C 931.0 2730 931.0 7890 891 7890"><title>from dataset typology to typology typology</title></path>
+<path class="line" id="from_dataset_realm_to_realm_realm" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2650 C 931.0 2650 931.0 5710 891 5710"><title>from dataset realm to realm realm</title></path>
+<path class="line" id="from_dataset_typology_to_typology_typology" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 2730 C 931.0 2730 931.0 8110 891 8110"><title>from dataset typology to typology typology</title></path>
 <path class="line" id="from_include-exclude_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 3370 C 1079.5 3370 1079.5 330 1268 330"><title>from include-exclude entity to entity entity</title></path>
-<path class="line" id="from_issue-type_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 3830 C 931.0 3830 931.0 6930 891 6930"><title>from issue-type severity to severity severity</title></path>
+<path class="line" id="from_issue-type_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 3830 C 931.0 3830 931.0 7150 891 7150"><title>from issue-type severity to severity severity</title></path>
 <path class="line" id="from_licence_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 4070 C 1079.5 4070 1079.5 330 1268 330"><title>from licence entity to entity entity</title></path>
 <path class="line" id="from_phase_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 4270 C 1228.0 4270 1228.0 250 1565 250"><title>from phase reference to reference reference</title></path>
 <path class="line" id="from_project-organisation_cohort_to_cohort_cohort" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 4470 C 931.0 4470 931.0 570 891 570"><title>from project-organisation cohort to cohort cohort</title></path>
@@ -57,43 +57,44 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_provision-reason_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5170 C 1228.0 5170 1228.0 30 1565 30"><title>from provision-reason prefix to prefix prefix</title></path>
 <path class="line" id="from_provision-reason_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5190 C 1228.0 5190 1228.0 250 1565 250"><title>from provision-reason reference to reference reference</title></path>
 <path class="line" id="from_provision-reason_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5210 C 1079.5 5210 1079.5 330 1268 330"><title>from provision-reason entity to entity entity</title></path>
-<path class="line" id="from_realm_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5430 C 1228.0 5430 1228.0 250 1565 250"><title>from realm reference to reference reference</title></path>
-<path class="line" id="from_role-organisation-rule_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5650 C 931.0 5650 931.0 2350 891 2350"><title>from role-organisation-rule dataset to dataset dataset</title></path>
-<path class="line" id="from_role-organisation-rule_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5670 C 1228.0 5670 1228.0 250 1565 250"><title>from role-organisation-rule reference to reference reference</title></path>
-<path class="line" id="from_role-organisation-rule_include-exclude_to_include-exclude_include-exclude" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5690 C 931.0 5690 931.0 3410 891 3410"><title>from role-organisation-rule include-exclude to include-exclude include-exclude</title></path>
-<path class="line" id="from_role-organisation-rule_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5750 C 931.0 5750 931.0 6170 891 6170"><title>from role-organisation-rule role to role reference</title></path>
-<path class="line" id="from_role-organisation-rule_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 5790 C 485.5 5790 485.5 70 297 70"><title>from role-organisation-rule organisation to organisation reference</title></path>
-<path class="line" id="from_role-organisation_cohort_to_cohort_cohort" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5950 C 931.0 5950 931.0 570 891 570"><title>from role-organisation cohort to cohort cohort</title></path>
-<path class="line" id="from_role-organisation_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5970 C 931.0 5970 931.0 6170 891 6170"><title>from role-organisation role to role reference</title></path>
-<path class="line" id="from_role-organisation_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 6010 C 485.5 6010 485.5 70 297 70"><title>from role-organisation organisation to organisation reference</title></path>
-<path class="line" id="from_role_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6170 C 1228.0 6170 1228.0 250 1565 250"><title>from role reference to reference reference</title></path>
-<path class="line" id="from_role_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6230 C 931.0 6230 931.0 7410 891 7410"><title>from role specification to specification specification</title></path>
-<path class="line" id="from_role_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6250 C 931.0 6250 931.0 6170 891 6170"><title>from role role to role reference</title></path>
-<path class="line" id="from_role_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 6330 C 485.5 6330 485.5 70 297 70"><title>from role organisation to organisation reference</title></path>
-<path class="line" id="from_schema-field_field_to_field_field" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6490 C 1079.5 6490 1079.5 1890 1268 1890"><title>from schema-field field to field field</title></path>
-<path class="line" id="from_schema-field_schema_to_schema_schema" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6510 C 931.0 6510 931.0 6730 891 6730"><title>from schema-field schema to schema schema</title></path>
-<path class="line" id="from_specification_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 7290 C 1228.0 7290 1228.0 30 1565 30"><title>from specification prefix to prefix prefix</title></path>
-<path class="line" id="from_specification_specification-status_to_specification-status_specification-status" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 7430 C 931.0 7430 931.0 7130 891 7130"><title>from specification specification-status to specification-status specification-status</title></path>
+<path class="line" id="from_quality_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5430 C 1228.0 5430 1228.0 250 1565 250"><title>from quality reference to reference reference</title></path>
+<path class="line" id="from_realm_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5650 C 1228.0 5650 1228.0 250 1565 250"><title>from realm reference to reference reference</title></path>
+<path class="line" id="from_role-organisation-rule_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5870 C 931.0 5870 931.0 2350 891 2350"><title>from role-organisation-rule dataset to dataset dataset</title></path>
+<path class="line" id="from_role-organisation-rule_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5890 C 1228.0 5890 1228.0 250 1565 250"><title>from role-organisation-rule reference to reference reference</title></path>
+<path class="line" id="from_role-organisation-rule_include-exclude_to_include-exclude_include-exclude" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5910 C 931.0 5910 931.0 3410 891 3410"><title>from role-organisation-rule include-exclude to include-exclude include-exclude</title></path>
+<path class="line" id="from_role-organisation-rule_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 5970 C 931.0 5970 931.0 6390 891 6390"><title>from role-organisation-rule role to role reference</title></path>
+<path class="line" id="from_role-organisation-rule_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 6010 C 485.5 6010 485.5 70 297 70"><title>from role-organisation-rule organisation to organisation reference</title></path>
+<path class="line" id="from_role-organisation_cohort_to_cohort_cohort" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6170 C 931.0 6170 931.0 570 891 570"><title>from role-organisation cohort to cohort cohort</title></path>
+<path class="line" id="from_role-organisation_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6190 C 931.0 6190 931.0 6390 891 6390"><title>from role-organisation role to role reference</title></path>
+<path class="line" id="from_role-organisation_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 6230 C 485.5 6230 485.5 70 297 70"><title>from role-organisation organisation to organisation reference</title></path>
+<path class="line" id="from_role_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6390 C 1228.0 6390 1228.0 250 1565 250"><title>from role reference to reference reference</title></path>
+<path class="line" id="from_role_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6450 C 931.0 6450 931.0 7630 891 7630"><title>from role specification to specification specification</title></path>
+<path class="line" id="from_role_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6470 C 931.0 6470 931.0 6390 891 6390"><title>from role role to role reference</title></path>
+<path class="line" id="from_role_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 6550 C 485.5 6550 485.5 70 297 70"><title>from role organisation to organisation reference</title></path>
+<path class="line" id="from_schema-field_field_to_field_field" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6710 C 1079.5 6710 1079.5 1890 1268 1890"><title>from schema-field field to field field</title></path>
+<path class="line" id="from_schema-field_schema_to_schema_schema" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 6730 C 931.0 6730 931.0 6950 891 6950"><title>from schema-field schema to schema schema</title></path>
+<path class="line" id="from_specification_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 7510 C 1228.0 7510 1228.0 30 1565 30"><title>from specification prefix to prefix prefix</title></path>
+<path class="line" id="from_specification_specification-status_to_specification-status_specification-status" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 7650 C 931.0 7650 931.0 7350 891 7350"><title>from specification specification-status to specification-status specification-status</title></path>
 <path class="line" id="from_checksum_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 30 C 1079.5 30 1079.5 2350 891 2350"><title>from checksum dataset to dataset dataset</title></path>
 <path class="line" id="from_entity_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 270 C 1079.5 270 1079.5 2350 891 2350"><title>from entity dataset to dataset dataset</title></path>
 <path class="line" id="from_entity_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 290 C 1525.0 290 1525.0 30 1565 30"><title>from entity prefix to prefix prefix</title></path>
 <path class="line" id="from_entity_reference_to_reference_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 310 C 1525.0 310 1525.0 250 1565 250"><title>from entity reference to reference reference</title></path>
-<path class="line" id="from_entity_typology_to_typology_typology" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 470 C 1079.5 470 1079.5 7890 891 7890"><title>from entity typology to typology typology</title></path>
+<path class="line" id="from_entity_typology_to_typology_typology" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 470 C 1079.5 470 1079.5 8110 891 8110"><title>from entity typology to typology typology</title></path>
 <path class="line" id="from_expectation-issue_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 670 C 1079.5 670 1079.5 2350 891 2350"><title>from expectation-issue dataset to dataset dataset</title></path>
 <path class="line" id="from_expectation-issue_expectation-result_to_expectation-result_expectation-result" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 690 C 1525.0 690 1525.0 1030 1485 1030"><title>from expectation-issue expectation-result to expectation-result expectation-result</title></path>
 <path class="line" id="from_expectation-issue_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 870 C 782.5 870 782.5 70 297 70"><title>from expectation-issue organisation to organisation reference</title></path>
-<path class="line" id="from_expectation-result_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1090 C 1079.5 1090 1079.5 6930 891 6930"><title>from expectation-result severity to severity severity</title></path>
+<path class="line" id="from_expectation-result_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1090 C 1079.5 1090 1079.5 7150 891 7150"><title>from expectation-result severity to severity severity</title></path>
 <path class="line" id="from_fact-resource_fact_to_fact_fact" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1310 C 1525.0 1310 1525.0 1550 1485 1550"><title>from fact-resource fact to fact fact</title></path>
 <path class="line" id="from_fact-resource_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1370 C 1822.0 1370 1822.0 1310 2159 1310"><title>from fact-resource resource to resource resource</title></path>
 <path class="line" id="from_fact_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1530 C 1525.0 1530 1525.0 330 1485 330"><title>from fact entity to entity entity</title></path>
 <path class="line" id="from_fact_field_to_field_field" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 1570 C 1525.0 1570 1525.0 1890 1485 1890"><title>from fact field to field field</title></path>
 <path class="line" id="from_field_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1790 C 1079.5 1790 1079.5 2350 891 2350"><title>from field dataset to dataset dataset</title></path>
 <path class="line" id="from_field_datatype_to_datatype_datatype" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 1870 C 1079.5 1870 1079.5 2970 891 2970"><title>from field datatype to datatype datatype</title></path>
-<path class="line" id="from_field_typology_to_typology_typology" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2010 C 1079.5 2010 1079.5 7890 891 7890"><title>from field typology to typology typology</title></path>
+<path class="line" id="from_field_typology_to_typology_typology" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2010 C 1079.5 2010 1079.5 8110 891 8110"><title>from field typology to typology typology</title></path>
 <path class="line" id="from_organisation-dataset_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2210 C 1079.5 2210 1079.5 2350 891 2350"><title>from organisation-dataset dataset to dataset dataset</title></path>
 <path class="line" id="from_organisation-dataset_project_to_project_project" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2230 C 1079.5 2230 1079.5 4930 891 4930"><title>from organisation-dataset project to project project</title></path>
 <path class="line" id="from_organisation-dataset_provision-reason_to_provision-reason_provision-reason" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2250 C 1079.5 2250 1079.5 5270 891 5270"><title>from organisation-dataset provision-reason to provision-reason provision-reason</title></path>
-<path class="line" id="from_organisation-dataset_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2270 C 1079.5 2270 1079.5 7410 891 7410"><title>from organisation-dataset specification to specification specification</title></path>
+<path class="line" id="from_organisation-dataset_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2270 C 1079.5 2270 1079.5 7630 891 7630"><title>from organisation-dataset specification to specification specification</title></path>
 <path class="line" id="from_organisation-dataset_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2310 C 782.5 2310 782.5 70 297 70"><title>from organisation-dataset organisation to organisation reference</title></path>
 <path class="line" id="from_provenance_field_to_field_field" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 2470 C 1525.0 2470 1525.0 1890 1485 1890"><title>from provenance field to field field</title></path>
 <path class="line" id="from_provenance_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 2510 C 1822.0 2510 1822.0 1310 2159 1310"><title>from provenance resource to resource resource</title></path>
@@ -101,16 +102,16 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_provision-rule_include-exclude_to_include-exclude_include-exclude" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2710 C 1079.5 2710 1079.5 3410 891 3410"><title>from provision-rule include-exclude to include-exclude include-exclude</title></path>
 <path class="line" id="from_provision-rule_project_to_project_project" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2770 C 1079.5 2770 1079.5 4930 891 4930"><title>from provision-rule project to project project</title></path>
 <path class="line" id="from_provision-rule_provision-reason_to_provision-reason_provision-reason" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2790 C 1079.5 2790 1079.5 5270 891 5270"><title>from provision-rule provision-reason to provision-reason provision-reason</title></path>
-<path class="line" id="from_provision-rule_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2830 C 1079.5 2830 1079.5 6170 891 6170"><title>from provision-rule role to role reference</title></path>
-<path class="line" id="from_provision-rule_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2850 C 1079.5 2850 1079.5 7410 891 7410"><title>from provision-rule specification to specification specification</title></path>
+<path class="line" id="from_provision-rule_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2830 C 1079.5 2830 1079.5 6390 891 6390"><title>from provision-rule role to role reference</title></path>
+<path class="line" id="from_provision-rule_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2850 C 1079.5 2850 1079.5 7630 891 7630"><title>from provision-rule specification to specification specification</title></path>
 <path class="line" id="from_provision-rule_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 2890 C 782.5 2890 782.5 70 297 70"><title>from provision-rule organisation to organisation reference</title></path>
 <path class="line" id="from_provision_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3050 C 1079.5 3050 1079.5 2350 891 2350"><title>from provision dataset to dataset dataset</title></path>
 <path class="line" id="from_provision_cohort_to_cohort_cohort" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3070 C 1079.5 3070 1079.5 570 891 570"><title>from provision cohort to cohort cohort</title></path>
 <path class="line" id="from_provision_project_to_project_project" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3090 C 1079.5 3090 1079.5 4930 891 4930"><title>from provision project to project project</title></path>
 <path class="line" id="from_provision_provision-reason_to_provision-reason_provision-reason" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3110 C 1079.5 3110 1079.5 5270 891 5270"><title>from provision provision-reason to provision-reason provision-reason</title></path>
 <path class="line" id="from_provision_provision-rule_to_provision-rule_provision-rule" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1485 3130 C 1525.0 3130 1525.0 2810 1485 2810"><title>from provision provision-rule to provision-rule provision-rule</title></path>
-<path class="line" id="from_provision_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3150 C 1079.5 3150 1079.5 6170 891 6170"><title>from provision role to role reference</title></path>
-<path class="line" id="from_provision_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3170 C 1079.5 3170 1079.5 7410 891 7410"><title>from provision specification to specification specification</title></path>
+<path class="line" id="from_provision_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3150 C 1079.5 3150 1079.5 6390 891 6390"><title>from provision role to role reference</title></path>
+<path class="line" id="from_provision_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3170 C 1079.5 3170 1079.5 7630 891 7630"><title>from provision specification to specification specification</title></path>
 <path class="line" id="from_provision_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1268 3210 C 782.5 3210 782.5 70 297 70"><title>from provision organisation to organisation reference</title></path>
 <path class="line" id="from_prefix_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1565 70 C 931.0 70 931.0 70 297 70"><title>from prefix organisation to organisation reference</title></path>
 <path class="line" id="from_reference_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1782 230 C 1822.0 230 1822.0 30 1782 30"><title>from reference prefix to prefix prefix</title></path>
@@ -140,7 +141,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_default_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 1410 C 2119.0 1410 2119.0 1310 2159 1310"><title>from default resource to resource resource</title></path>
 <path class="line" id="from_entity-organisation_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 1830 C 1376.5 1830 1376.5 2350 891 2350"><title>from entity-organisation dataset to dataset dataset</title></path>
 <path class="line" id="from_entity-organisation_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 1890 C 1079.5 1890 1079.5 70 297 70"><title>from entity-organisation organisation to organisation reference</title></path>
-<path class="line" id="from_expect_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 2170 C 1376.5 2170 1376.5 6930 891 6930"><title>from expect severity to severity severity</title></path>
+<path class="line" id="from_expect_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 2170 C 1376.5 2170 1376.5 7150 891 7150"><title>from expect severity to severity severity</title></path>
 <path class="line" id="from_filter_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 2370 C 1376.5 2370 1376.5 2350 891 2350"><title>from filter dataset to dataset dataset</title></path>
 <path class="line" id="from_filter_endpoint_to_endpoint_endpoint" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 2390 C 2119.0 2390 2119.0 1590 2079 1590"><title>from filter endpoint to endpoint endpoint</title></path>
 <path class="line" id="from_filter_field_to_field_field" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 2430 C 1673.5 2430 1673.5 1890 1485 1890"><title>from filter field to field field</title></path>
@@ -174,7 +175,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_column-field_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 70 C 2416.0 70 2416.0 1310 2376 1310"><title>from column-field resource to resource resource</title></path>
 <path class="line" id="from_column-field_column_to_column_column" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 90 C 2119.0 90 2119.0 50 2079 50"><title>from column-field column to column column</title></path>
 <path class="line" id="from_expectation_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 250 C 1525.0 250 1525.0 2350 891 2350"><title>from expectation dataset to dataset dataset</title></path>
-<path class="line" id="from_expectation_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 390 C 1525.0 390 1525.0 6930 891 6930"><title>from expectation severity to severity severity</title></path>
+<path class="line" id="from_expectation_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 390 C 1525.0 390 1525.0 7150 891 7150"><title>from expectation severity to severity severity</title></path>
 <path class="line" id="from_expectation_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 450 C 1228.0 450 1228.0 70 297 70"><title>from expectation organisation to organisation reference</title></path>
 <path class="line" id="from_issue_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 610 C 1525.0 610 1525.0 2350 891 2350"><title>from issue dataset to dataset dataset</title></path>
 <path class="line" id="from_issue_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2159 630 C 1822.0 630 1822.0 330 1485 330"><title>from issue entity to entity entity</title></path>
@@ -1125,7 +1126,7 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="674" y="5400" width="217" height="20" class="name"/>
-<text x="782" y="5410" class="name">realm</text>
+<text x="782" y="5410" class="name">quality</text>
 <rect x="674" y="5420" width="162" height="20" class="field"/>
 <rect x="836" y="5420" width="55" height="20" class="datatype"/>
 <text x="679" y="5430" class="field">reference</text>
@@ -1140,7 +1141,7 @@ text.datatype{fill:#0b0c0c;}
 <text x="841" y="5470" class="datatype">string</text>
 <rect x="674" y="5480" width="162" height="20" class="field"/>
 <rect x="836" y="5480" width="55" height="20" class="datatype"/>
-<text x="679" y="5490" class="field">realm</text>
+<text x="679" y="5490" class="field">quality</text>
 <text x="841" y="5490" class="datatype">reference</text>
 <rect x="674" y="5500" width="162" height="20" class="field"/>
 <rect x="836" y="5500" width="55" height="20" class="datatype"/>
@@ -1157,59 +1158,59 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="674" y="5620" width="217" height="20" class="name"/>
-<text x="782" y="5630" class="name">role-organisation-rule</text>
+<text x="782" y="5630" class="name">realm</text>
 <rect x="674" y="5640" width="162" height="20" class="field"/>
 <rect x="836" y="5640" width="55" height="20" class="datatype"/>
-<text x="679" y="5650" class="field">dataset</text>
-<text x="841" y="5650" class="datatype">reference</text>
+<text x="679" y="5650" class="field">reference</text>
+<text x="841" y="5650" class="datatype">string</text>
 <rect x="674" y="5660" width="162" height="20" class="field"/>
 <rect x="836" y="5660" width="55" height="20" class="datatype"/>
-<text x="679" y="5670" class="field">reference</text>
+<text x="679" y="5670" class="field">name</text>
 <text x="841" y="5670" class="datatype">string</text>
 <rect x="674" y="5680" width="162" height="20" class="field"/>
 <rect x="836" y="5680" width="55" height="20" class="datatype"/>
-<text x="679" y="5690" class="field">include-exclude</text>
-<text x="841" y="5690" class="datatype">reference</text>
+<text x="679" y="5690" class="field">description</text>
+<text x="841" y="5690" class="datatype">string</text>
 <rect x="674" y="5700" width="162" height="20" class="field"/>
 <rect x="836" y="5700" width="55" height="20" class="datatype"/>
-<text x="679" y="5710" class="field">local-authority-type</text>
+<text x="679" y="5710" class="field">realm</text>
 <text x="841" y="5710" class="datatype">reference</text>
 <rect x="674" y="5720" width="162" height="20" class="field"/>
 <rect x="836" y="5720" width="55" height="20" class="datatype"/>
-<text x="679" y="5730" class="field">priority</text>
-<text x="841" y="5730" class="datatype">integer</text>
+<text x="679" y="5730" class="field">entry-date</text>
+<text x="841" y="5730" class="datatype">datetime</text>
 <rect x="674" y="5740" width="162" height="20" class="field"/>
 <rect x="836" y="5740" width="55" height="20" class="datatype"/>
-<text x="679" y="5750" class="field">role</text>
-<text x="841" y="5750" class="datatype">reference</text>
+<text x="679" y="5750" class="field">start-date</text>
+<text x="841" y="5750" class="datatype">datetime</text>
 <rect x="674" y="5760" width="162" height="20" class="field"/>
 <rect x="836" y="5760" width="55" height="20" class="datatype"/>
-<text x="679" y="5770" class="field">notes</text>
-<text x="841" y="5770" class="datatype">text</text>
-<rect x="674" y="5780" width="162" height="20" class="field"/>
-<rect x="836" y="5780" width="55" height="20" class="datatype"/>
-<text x="679" y="5790" class="field">organisation</text>
-<text x="841" y="5790" class="datatype">curie</text>
-<rect x="674" y="5800" width="162" height="20" class="field"/>
-<rect x="836" y="5800" width="55" height="20" class="datatype"/>
-<text x="679" y="5810" class="field">entry-date</text>
-<text x="841" y="5810" class="datatype">datetime</text>
-<rect x="674" y="5820" width="162" height="20" class="field"/>
-<rect x="836" y="5820" width="55" height="20" class="datatype"/>
-<text x="679" y="5830" class="field">start-date</text>
-<text x="841" y="5830" class="datatype">datetime</text>
-<rect x="674" y="5840" width="162" height="20" class="field"/>
-<rect x="836" y="5840" width="55" height="20" class="datatype"/>
-<text x="679" y="5850" class="field">end-date</text>
-<text x="841" y="5850" class="datatype">datetime</text>
+<text x="679" y="5770" class="field">end-date</text>
+<text x="841" y="5770" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="674" y="5920" width="217" height="20" class="name"/>
-<text x="782" y="5930" class="name">role-organisation</text>
+<rect x="674" y="5840" width="217" height="20" class="name"/>
+<text x="782" y="5850" class="name">role-organisation-rule</text>
+<rect x="674" y="5860" width="162" height="20" class="field"/>
+<rect x="836" y="5860" width="55" height="20" class="datatype"/>
+<text x="679" y="5870" class="field">dataset</text>
+<text x="841" y="5870" class="datatype">reference</text>
+<rect x="674" y="5880" width="162" height="20" class="field"/>
+<rect x="836" y="5880" width="55" height="20" class="datatype"/>
+<text x="679" y="5890" class="field">reference</text>
+<text x="841" y="5890" class="datatype">string</text>
+<rect x="674" y="5900" width="162" height="20" class="field"/>
+<rect x="836" y="5900" width="55" height="20" class="datatype"/>
+<text x="679" y="5910" class="field">include-exclude</text>
+<text x="841" y="5910" class="datatype">reference</text>
+<rect x="674" y="5920" width="162" height="20" class="field"/>
+<rect x="836" y="5920" width="55" height="20" class="datatype"/>
+<text x="679" y="5930" class="field">local-authority-type</text>
+<text x="841" y="5930" class="datatype">reference</text>
 <rect x="674" y="5940" width="162" height="20" class="field"/>
 <rect x="836" y="5940" width="55" height="20" class="datatype"/>
-<text x="679" y="5950" class="field">cohort</text>
-<text x="841" y="5950" class="datatype">reference</text>
+<text x="679" y="5950" class="field">priority</text>
+<text x="841" y="5950" class="datatype">integer</text>
 <rect x="674" y="5960" width="162" height="20" class="field"/>
 <rect x="836" y="5960" width="55" height="20" class="datatype"/>
 <text x="679" y="5970" class="field">role</text>
@@ -1237,95 +1238,95 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="674" y="6140" width="217" height="20" class="name"/>
-<text x="782" y="6150" class="name">role</text>
+<text x="782" y="6150" class="name">role-organisation</text>
 <rect x="674" y="6160" width="162" height="20" class="field"/>
 <rect x="836" y="6160" width="55" height="20" class="datatype"/>
-<text x="679" y="6170" class="field">reference</text>
-<text x="841" y="6170" class="datatype">string</text>
+<text x="679" y="6170" class="field">cohort</text>
+<text x="841" y="6170" class="datatype">reference</text>
 <rect x="674" y="6180" width="162" height="20" class="field"/>
 <rect x="836" y="6180" width="55" height="20" class="datatype"/>
-<text x="679" y="6190" class="field">name</text>
-<text x="841" y="6190" class="datatype">string</text>
+<text x="679" y="6190" class="field">role</text>
+<text x="841" y="6190" class="datatype">reference</text>
 <rect x="674" y="6200" width="162" height="20" class="field"/>
 <rect x="836" y="6200" width="55" height="20" class="datatype"/>
-<text x="679" y="6210" class="field">description</text>
-<text x="841" y="6210" class="datatype">string</text>
+<text x="679" y="6210" class="field">notes</text>
+<text x="841" y="6210" class="datatype">text</text>
 <rect x="674" y="6220" width="162" height="20" class="field"/>
 <rect x="836" y="6220" width="55" height="20" class="datatype"/>
-<text x="679" y="6230" class="field">specification</text>
-<text x="841" y="6230" class="datatype">reference</text>
+<text x="679" y="6230" class="field">organisation</text>
+<text x="841" y="6230" class="datatype">curie</text>
 <rect x="674" y="6240" width="162" height="20" class="field"/>
 <rect x="836" y="6240" width="55" height="20" class="datatype"/>
-<text x="679" y="6250" class="field">role</text>
-<text x="841" y="6250" class="datatype">reference</text>
+<text x="679" y="6250" class="field">entry-date</text>
+<text x="841" y="6250" class="datatype">datetime</text>
 <rect x="674" y="6260" width="162" height="20" class="field"/>
 <rect x="836" y="6260" width="55" height="20" class="datatype"/>
-<text x="679" y="6270" class="field">wikipedia</text>
-<text x="841" y="6270" class="datatype">string</text>
+<text x="679" y="6270" class="field">start-date</text>
+<text x="841" y="6270" class="datatype">datetime</text>
 <rect x="674" y="6280" width="162" height="20" class="field"/>
 <rect x="836" y="6280" width="55" height="20" class="datatype"/>
-<text x="679" y="6290" class="field">wikidata</text>
-<text x="841" y="6290" class="datatype">string</text>
-<rect x="674" y="6300" width="162" height="20" class="field"/>
-<rect x="836" y="6300" width="55" height="20" class="datatype"/>
-<text x="679" y="6310" class="field">notes</text>
-<text x="841" y="6310" class="datatype">text</text>
-<rect x="674" y="6320" width="162" height="20" class="field"/>
-<rect x="836" y="6320" width="55" height="20" class="datatype"/>
-<text x="679" y="6330" class="field">organisation</text>
-<text x="841" y="6330" class="datatype">curie</text>
-<rect x="674" y="6340" width="162" height="20" class="field"/>
-<rect x="836" y="6340" width="55" height="20" class="datatype"/>
-<text x="679" y="6350" class="field">entry-date</text>
-<text x="841" y="6350" class="datatype">datetime</text>
-<rect x="674" y="6360" width="162" height="20" class="field"/>
-<rect x="836" y="6360" width="55" height="20" class="datatype"/>
-<text x="679" y="6370" class="field">start-date</text>
-<text x="841" y="6370" class="datatype">datetime</text>
+<text x="679" y="6290" class="field">end-date</text>
+<text x="841" y="6290" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="674" y="6360" width="217" height="20" class="name"/>
+<text x="782" y="6370" class="name">role</text>
 <rect x="674" y="6380" width="162" height="20" class="field"/>
 <rect x="836" y="6380" width="55" height="20" class="datatype"/>
-<text x="679" y="6390" class="field">end-date</text>
-<text x="841" y="6390" class="datatype">datetime</text>
-</g>
-<g>
-<rect x="674" y="6460" width="217" height="20" class="name"/>
-<text x="782" y="6470" class="name">schema-field</text>
+<text x="679" y="6390" class="field">reference</text>
+<text x="841" y="6390" class="datatype">string</text>
+<rect x="674" y="6400" width="162" height="20" class="field"/>
+<rect x="836" y="6400" width="55" height="20" class="datatype"/>
+<text x="679" y="6410" class="field">name</text>
+<text x="841" y="6410" class="datatype">string</text>
+<rect x="674" y="6420" width="162" height="20" class="field"/>
+<rect x="836" y="6420" width="55" height="20" class="datatype"/>
+<text x="679" y="6430" class="field">description</text>
+<text x="841" y="6430" class="datatype">string</text>
+<rect x="674" y="6440" width="162" height="20" class="field"/>
+<rect x="836" y="6440" width="55" height="20" class="datatype"/>
+<text x="679" y="6450" class="field">specification</text>
+<text x="841" y="6450" class="datatype">reference</text>
+<rect x="674" y="6460" width="162" height="20" class="field"/>
+<rect x="836" y="6460" width="55" height="20" class="datatype"/>
+<text x="679" y="6470" class="field">role</text>
+<text x="841" y="6470" class="datatype">reference</text>
 <rect x="674" y="6480" width="162" height="20" class="field"/>
 <rect x="836" y="6480" width="55" height="20" class="datatype"/>
-<text x="679" y="6490" class="field">field</text>
-<text x="841" y="6490" class="datatype">reference</text>
+<text x="679" y="6490" class="field">wikipedia</text>
+<text x="841" y="6490" class="datatype">string</text>
 <rect x="674" y="6500" width="162" height="20" class="field"/>
 <rect x="836" y="6500" width="55" height="20" class="datatype"/>
-<text x="679" y="6510" class="field">schema</text>
-<text x="841" y="6510" class="datatype">reference</text>
+<text x="679" y="6510" class="field">wikidata</text>
+<text x="841" y="6510" class="datatype">string</text>
 <rect x="674" y="6520" width="162" height="20" class="field"/>
 <rect x="836" y="6520" width="55" height="20" class="datatype"/>
-<text x="679" y="6530" class="field">entry-date</text>
-<text x="841" y="6530" class="datatype">datetime</text>
+<text x="679" y="6530" class="field">notes</text>
+<text x="841" y="6530" class="datatype">text</text>
 <rect x="674" y="6540" width="162" height="20" class="field"/>
 <rect x="836" y="6540" width="55" height="20" class="datatype"/>
-<text x="679" y="6550" class="field">start-date</text>
-<text x="841" y="6550" class="datatype">datetime</text>
+<text x="679" y="6550" class="field">organisation</text>
+<text x="841" y="6550" class="datatype">curie</text>
 <rect x="674" y="6560" width="162" height="20" class="field"/>
 <rect x="836" y="6560" width="55" height="20" class="datatype"/>
-<text x="679" y="6570" class="field">end-date</text>
+<text x="679" y="6570" class="field">entry-date</text>
 <text x="841" y="6570" class="datatype">datetime</text>
+<rect x="674" y="6580" width="162" height="20" class="field"/>
+<rect x="836" y="6580" width="55" height="20" class="datatype"/>
+<text x="679" y="6590" class="field">start-date</text>
+<text x="841" y="6590" class="datatype">datetime</text>
+<rect x="674" y="6600" width="162" height="20" class="field"/>
+<rect x="836" y="6600" width="55" height="20" class="datatype"/>
+<text x="679" y="6610" class="field">end-date</text>
+<text x="841" y="6610" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="674" y="6640" width="217" height="20" class="name"/>
-<text x="782" y="6650" class="name">schema</text>
-<rect x="674" y="6660" width="162" height="20" class="field"/>
-<rect x="836" y="6660" width="55" height="20" class="datatype"/>
-<text x="679" y="6670" class="field">name</text>
-<text x="841" y="6670" class="datatype">string</text>
-<rect x="674" y="6680" width="162" height="20" class="field"/>
-<rect x="836" y="6680" width="55" height="20" class="datatype"/>
-<text x="679" y="6690" class="field">description</text>
-<text x="841" y="6690" class="datatype">string</text>
+<rect x="674" y="6680" width="217" height="20" class="name"/>
+<text x="782" y="6690" class="name">schema-field</text>
 <rect x="674" y="6700" width="162" height="20" class="field"/>
 <rect x="836" y="6700" width="55" height="20" class="datatype"/>
-<text x="679" y="6710" class="field">key-field</text>
-<text x="841" y="6710" class="datatype">string</text>
+<text x="679" y="6710" class="field">field</text>
+<text x="841" y="6710" class="datatype">reference</text>
 <rect x="674" y="6720" width="162" height="20" class="field"/>
 <rect x="836" y="6720" width="55" height="20" class="datatype"/>
 <text x="679" y="6730" class="field">schema</text>
@@ -1345,7 +1346,7 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="674" y="6860" width="217" height="20" class="name"/>
-<text x="782" y="6870" class="name">severity</text>
+<text x="782" y="6870" class="name">schema</text>
 <rect x="674" y="6880" width="162" height="20" class="field"/>
 <rect x="836" y="6880" width="55" height="20" class="datatype"/>
 <text x="679" y="6890" class="field">name</text>
@@ -1356,56 +1357,56 @@ text.datatype{fill:#0b0c0c;}
 <text x="841" y="6910" class="datatype">string</text>
 <rect x="674" y="6920" width="162" height="20" class="field"/>
 <rect x="836" y="6920" width="55" height="20" class="datatype"/>
-<text x="679" y="6930" class="field">severity</text>
-<text x="841" y="6930" class="datatype">reference</text>
+<text x="679" y="6930" class="field">key-field</text>
+<text x="841" y="6930" class="datatype">string</text>
 <rect x="674" y="6940" width="162" height="20" class="field"/>
 <rect x="836" y="6940" width="55" height="20" class="datatype"/>
-<text x="679" y="6950" class="field">entry-date</text>
-<text x="841" y="6950" class="datatype">datetime</text>
+<text x="679" y="6950" class="field">schema</text>
+<text x="841" y="6950" class="datatype">reference</text>
 <rect x="674" y="6960" width="162" height="20" class="field"/>
 <rect x="836" y="6960" width="55" height="20" class="datatype"/>
-<text x="679" y="6970" class="field">start-date</text>
+<text x="679" y="6970" class="field">entry-date</text>
 <text x="841" y="6970" class="datatype">datetime</text>
 <rect x="674" y="6980" width="162" height="20" class="field"/>
 <rect x="836" y="6980" width="55" height="20" class="datatype"/>
-<text x="679" y="6990" class="field">end-date</text>
+<text x="679" y="6990" class="field">start-date</text>
 <text x="841" y="6990" class="datatype">datetime</text>
+<rect x="674" y="7000" width="162" height="20" class="field"/>
+<rect x="836" y="7000" width="55" height="20" class="datatype"/>
+<text x="679" y="7010" class="field">end-date</text>
+<text x="841" y="7010" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="674" y="7060" width="217" height="20" class="name"/>
-<text x="782" y="7070" class="name">specification-status</text>
-<rect x="674" y="7080" width="162" height="20" class="field"/>
-<rect x="836" y="7080" width="55" height="20" class="datatype"/>
-<text x="679" y="7090" class="field">name</text>
-<text x="841" y="7090" class="datatype">string</text>
+<rect x="674" y="7080" width="217" height="20" class="name"/>
+<text x="782" y="7090" class="name">severity</text>
 <rect x="674" y="7100" width="162" height="20" class="field"/>
 <rect x="836" y="7100" width="55" height="20" class="datatype"/>
-<text x="679" y="7110" class="field">description</text>
+<text x="679" y="7110" class="field">name</text>
 <text x="841" y="7110" class="datatype">string</text>
 <rect x="674" y="7120" width="162" height="20" class="field"/>
 <rect x="836" y="7120" width="55" height="20" class="datatype"/>
-<text x="679" y="7130" class="field">specification-status</text>
-<text x="841" y="7130" class="datatype">reference</text>
+<text x="679" y="7130" class="field">description</text>
+<text x="841" y="7130" class="datatype">string</text>
 <rect x="674" y="7140" width="162" height="20" class="field"/>
 <rect x="836" y="7140" width="55" height="20" class="datatype"/>
-<text x="679" y="7150" class="field">entry-date</text>
-<text x="841" y="7150" class="datatype">datetime</text>
+<text x="679" y="7150" class="field">severity</text>
+<text x="841" y="7150" class="datatype">reference</text>
 <rect x="674" y="7160" width="162" height="20" class="field"/>
 <rect x="836" y="7160" width="55" height="20" class="datatype"/>
-<text x="679" y="7170" class="field">start-date</text>
+<text x="679" y="7170" class="field">entry-date</text>
 <text x="841" y="7170" class="datatype">datetime</text>
 <rect x="674" y="7180" width="162" height="20" class="field"/>
 <rect x="836" y="7180" width="55" height="20" class="datatype"/>
-<text x="679" y="7190" class="field">end-date</text>
+<text x="679" y="7190" class="field">start-date</text>
 <text x="841" y="7190" class="datatype">datetime</text>
+<rect x="674" y="7200" width="162" height="20" class="field"/>
+<rect x="836" y="7200" width="55" height="20" class="datatype"/>
+<text x="679" y="7210" class="field">end-date</text>
+<text x="841" y="7210" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="674" y="7260" width="217" height="20" class="name"/>
-<text x="782" y="7270" class="name">specification</text>
-<rect x="674" y="7280" width="162" height="20" class="field"/>
-<rect x="836" y="7280" width="55" height="20" class="datatype"/>
-<text x="679" y="7290" class="field">prefix</text>
-<text x="841" y="7290" class="datatype">reference</text>
+<rect x="674" y="7280" width="217" height="20" class="name"/>
+<text x="782" y="7290" class="name">specification-status</text>
 <rect x="674" y="7300" width="162" height="20" class="field"/>
 <rect x="836" y="7300" width="55" height="20" class="datatype"/>
 <text x="679" y="7310" class="field">name</text>
@@ -1416,112 +1417,144 @@ text.datatype{fill:#0b0c0c;}
 <text x="841" y="7330" class="datatype">string</text>
 <rect x="674" y="7340" width="162" height="20" class="field"/>
 <rect x="836" y="7340" width="55" height="20" class="datatype"/>
-<text x="679" y="7350" class="field">datasets</text>
-<text x="841" y="7350" class="datatype">reference*</text>
+<text x="679" y="7350" class="field">specification-status</text>
+<text x="841" y="7350" class="datatype">reference</text>
 <rect x="674" y="7360" width="162" height="20" class="field"/>
 <rect x="836" y="7360" width="55" height="20" class="datatype"/>
-<text x="679" y="7370" class="field">github-discussion</text>
-<text x="841" y="7370" class="datatype">string</text>
+<text x="679" y="7370" class="field">entry-date</text>
+<text x="841" y="7370" class="datatype">datetime</text>
 <rect x="674" y="7380" width="162" height="20" class="field"/>
 <rect x="836" y="7380" width="55" height="20" class="datatype"/>
-<text x="679" y="7390" class="field">json</text>
-<text x="841" y="7390" class="datatype">json</text>
+<text x="679" y="7390" class="field">start-date</text>
+<text x="841" y="7390" class="datatype">datetime</text>
 <rect x="674" y="7400" width="162" height="20" class="field"/>
 <rect x="836" y="7400" width="55" height="20" class="datatype"/>
-<text x="679" y="7410" class="field">specification</text>
-<text x="841" y="7410" class="datatype">reference</text>
-<rect x="674" y="7420" width="162" height="20" class="field"/>
-<rect x="836" y="7420" width="55" height="20" class="datatype"/>
-<text x="679" y="7430" class="field">specification-status</text>
-<text x="841" y="7430" class="datatype">reference</text>
-<rect x="674" y="7440" width="162" height="20" class="field"/>
-<rect x="836" y="7440" width="55" height="20" class="datatype"/>
-<text x="679" y="7450" class="field">version</text>
-<text x="841" y="7450" class="datatype">decimal</text>
-<rect x="674" y="7460" width="162" height="20" class="field"/>
-<rect x="836" y="7460" width="55" height="20" class="datatype"/>
-<text x="679" y="7470" class="field">documentation-url</text>
-<text x="841" y="7470" class="datatype">url</text>
-<rect x="674" y="7480" width="162" height="20" class="field"/>
-<rect x="836" y="7480" width="55" height="20" class="datatype"/>
-<text x="679" y="7490" class="field">entry-date</text>
-<text x="841" y="7490" class="datatype">datetime</text>
-<rect x="674" y="7500" width="162" height="20" class="field"/>
-<rect x="836" y="7500" width="55" height="20" class="datatype"/>
-<text x="679" y="7510" class="field">start-date</text>
-<text x="841" y="7510" class="datatype">datetime</text>
-<rect x="674" y="7520" width="162" height="20" class="field"/>
-<rect x="836" y="7520" width="55" height="20" class="datatype"/>
-<text x="679" y="7530" class="field">end-date</text>
-<text x="841" y="7530" class="datatype">datetime</text>
+<text x="679" y="7410" class="field">end-date</text>
+<text x="841" y="7410" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="674" y="7600" width="217" height="20" class="name"/>
-<text x="782" y="7610" class="name">theme</text>
+<rect x="674" y="7480" width="217" height="20" class="name"/>
+<text x="782" y="7490" class="name">specification</text>
+<rect x="674" y="7500" width="162" height="20" class="field"/>
+<rect x="836" y="7500" width="55" height="20" class="datatype"/>
+<text x="679" y="7510" class="field">prefix</text>
+<text x="841" y="7510" class="datatype">reference</text>
+<rect x="674" y="7520" width="162" height="20" class="field"/>
+<rect x="836" y="7520" width="55" height="20" class="datatype"/>
+<text x="679" y="7530" class="field">name</text>
+<text x="841" y="7530" class="datatype">string</text>
+<rect x="674" y="7540" width="162" height="20" class="field"/>
+<rect x="836" y="7540" width="55" height="20" class="datatype"/>
+<text x="679" y="7550" class="field">description</text>
+<text x="841" y="7550" class="datatype">string</text>
+<rect x="674" y="7560" width="162" height="20" class="field"/>
+<rect x="836" y="7560" width="55" height="20" class="datatype"/>
+<text x="679" y="7570" class="field">datasets</text>
+<text x="841" y="7570" class="datatype">reference*</text>
+<rect x="674" y="7580" width="162" height="20" class="field"/>
+<rect x="836" y="7580" width="55" height="20" class="datatype"/>
+<text x="679" y="7590" class="field">github-discussion</text>
+<text x="841" y="7590" class="datatype">string</text>
+<rect x="674" y="7600" width="162" height="20" class="field"/>
+<rect x="836" y="7600" width="55" height="20" class="datatype"/>
+<text x="679" y="7610" class="field">json</text>
+<text x="841" y="7610" class="datatype">json</text>
 <rect x="674" y="7620" width="162" height="20" class="field"/>
 <rect x="836" y="7620" width="55" height="20" class="datatype"/>
-<text x="679" y="7630" class="field">name</text>
-<text x="841" y="7630" class="datatype">string</text>
+<text x="679" y="7630" class="field">specification</text>
+<text x="841" y="7630" class="datatype">reference</text>
 <rect x="674" y="7640" width="162" height="20" class="field"/>
 <rect x="836" y="7640" width="55" height="20" class="datatype"/>
-<text x="679" y="7650" class="field">theme</text>
+<text x="679" y="7650" class="field">specification-status</text>
 <text x="841" y="7650" class="datatype">reference</text>
 <rect x="674" y="7660" width="162" height="20" class="field"/>
 <rect x="836" y="7660" width="55" height="20" class="datatype"/>
-<text x="679" y="7670" class="field">entry-date</text>
-<text x="841" y="7670" class="datatype">datetime</text>
+<text x="679" y="7670" class="field">version</text>
+<text x="841" y="7670" class="datatype">decimal</text>
 <rect x="674" y="7680" width="162" height="20" class="field"/>
 <rect x="836" y="7680" width="55" height="20" class="datatype"/>
-<text x="679" y="7690" class="field">start-date</text>
-<text x="841" y="7690" class="datatype">datetime</text>
+<text x="679" y="7690" class="field">documentation-url</text>
+<text x="841" y="7690" class="datatype">url</text>
 <rect x="674" y="7700" width="162" height="20" class="field"/>
 <rect x="836" y="7700" width="55" height="20" class="datatype"/>
-<text x="679" y="7710" class="field">end-date</text>
+<text x="679" y="7710" class="field">entry-date</text>
 <text x="841" y="7710" class="datatype">datetime</text>
+<rect x="674" y="7720" width="162" height="20" class="field"/>
+<rect x="836" y="7720" width="55" height="20" class="datatype"/>
+<text x="679" y="7730" class="field">start-date</text>
+<text x="841" y="7730" class="datatype">datetime</text>
+<rect x="674" y="7740" width="162" height="20" class="field"/>
+<rect x="836" y="7740" width="55" height="20" class="datatype"/>
+<text x="679" y="7750" class="field">end-date</text>
+<text x="841" y="7750" class="datatype">datetime</text>
 </g>
 <g>
-<rect x="674" y="7780" width="217" height="20" class="name"/>
-<text x="782" y="7790" class="name">typology</text>
-<rect x="674" y="7800" width="162" height="20" class="field"/>
-<rect x="836" y="7800" width="55" height="20" class="datatype"/>
-<text x="679" y="7810" class="field">name</text>
-<text x="841" y="7810" class="datatype">string</text>
-<rect x="674" y="7820" width="162" height="20" class="field"/>
-<rect x="836" y="7820" width="55" height="20" class="datatype"/>
-<text x="679" y="7830" class="field">description</text>
-<text x="841" y="7830" class="datatype">string</text>
+<rect x="674" y="7820" width="217" height="20" class="name"/>
+<text x="782" y="7830" class="name">theme</text>
 <rect x="674" y="7840" width="162" height="20" class="field"/>
 <rect x="836" y="7840" width="55" height="20" class="datatype"/>
-<text x="679" y="7850" class="field">plural</text>
+<text x="679" y="7850" class="field">name</text>
 <text x="841" y="7850" class="datatype">string</text>
 <rect x="674" y="7860" width="162" height="20" class="field"/>
 <rect x="836" y="7860" width="55" height="20" class="datatype"/>
-<text x="679" y="7870" class="field">text</text>
-<text x="841" y="7870" class="datatype">text</text>
+<text x="679" y="7870" class="field">theme</text>
+<text x="841" y="7870" class="datatype">reference</text>
 <rect x="674" y="7880" width="162" height="20" class="field"/>
 <rect x="836" y="7880" width="55" height="20" class="datatype"/>
-<text x="679" y="7890" class="field">typology</text>
-<text x="841" y="7890" class="datatype">reference</text>
+<text x="679" y="7890" class="field">entry-date</text>
+<text x="841" y="7890" class="datatype">datetime</text>
 <rect x="674" y="7900" width="162" height="20" class="field"/>
 <rect x="836" y="7900" width="55" height="20" class="datatype"/>
-<text x="679" y="7910" class="field">wikidata</text>
-<text x="841" y="7910" class="datatype">string</text>
+<text x="679" y="7910" class="field">start-date</text>
+<text x="841" y="7910" class="datatype">datetime</text>
 <rect x="674" y="7920" width="162" height="20" class="field"/>
 <rect x="836" y="7920" width="55" height="20" class="datatype"/>
-<text x="679" y="7930" class="field">wikipedia</text>
-<text x="841" y="7930" class="datatype">string</text>
-<rect x="674" y="7940" width="162" height="20" class="field"/>
-<rect x="836" y="7940" width="55" height="20" class="datatype"/>
-<text x="679" y="7950" class="field">entry-date</text>
-<text x="841" y="7950" class="datatype">datetime</text>
-<rect x="674" y="7960" width="162" height="20" class="field"/>
-<rect x="836" y="7960" width="55" height="20" class="datatype"/>
-<text x="679" y="7970" class="field">start-date</text>
-<text x="841" y="7970" class="datatype">datetime</text>
-<rect x="674" y="7980" width="162" height="20" class="field"/>
-<rect x="836" y="7980" width="55" height="20" class="datatype"/>
-<text x="679" y="7990" class="field">end-date</text>
-<text x="841" y="7990" class="datatype">datetime</text>
+<text x="679" y="7930" class="field">end-date</text>
+<text x="841" y="7930" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="674" y="8000" width="217" height="20" class="name"/>
+<text x="782" y="8010" class="name">typology</text>
+<rect x="674" y="8020" width="162" height="20" class="field"/>
+<rect x="836" y="8020" width="55" height="20" class="datatype"/>
+<text x="679" y="8030" class="field">name</text>
+<text x="841" y="8030" class="datatype">string</text>
+<rect x="674" y="8040" width="162" height="20" class="field"/>
+<rect x="836" y="8040" width="55" height="20" class="datatype"/>
+<text x="679" y="8050" class="field">description</text>
+<text x="841" y="8050" class="datatype">string</text>
+<rect x="674" y="8060" width="162" height="20" class="field"/>
+<rect x="836" y="8060" width="55" height="20" class="datatype"/>
+<text x="679" y="8070" class="field">plural</text>
+<text x="841" y="8070" class="datatype">string</text>
+<rect x="674" y="8080" width="162" height="20" class="field"/>
+<rect x="836" y="8080" width="55" height="20" class="datatype"/>
+<text x="679" y="8090" class="field">text</text>
+<text x="841" y="8090" class="datatype">text</text>
+<rect x="674" y="8100" width="162" height="20" class="field"/>
+<rect x="836" y="8100" width="55" height="20" class="datatype"/>
+<text x="679" y="8110" class="field">typology</text>
+<text x="841" y="8110" class="datatype">reference</text>
+<rect x="674" y="8120" width="162" height="20" class="field"/>
+<rect x="836" y="8120" width="55" height="20" class="datatype"/>
+<text x="679" y="8130" class="field">wikidata</text>
+<text x="841" y="8130" class="datatype">string</text>
+<rect x="674" y="8140" width="162" height="20" class="field"/>
+<rect x="836" y="8140" width="55" height="20" class="datatype"/>
+<text x="679" y="8150" class="field">wikipedia</text>
+<text x="841" y="8150" class="datatype">string</text>
+<rect x="674" y="8160" width="162" height="20" class="field"/>
+<rect x="836" y="8160" width="55" height="20" class="datatype"/>
+<text x="679" y="8170" class="field">entry-date</text>
+<text x="841" y="8170" class="datatype">datetime</text>
+<rect x="674" y="8180" width="162" height="20" class="field"/>
+<rect x="836" y="8180" width="55" height="20" class="datatype"/>
+<text x="679" y="8190" class="field">start-date</text>
+<text x="841" y="8190" class="datatype">datetime</text>
+<rect x="674" y="8200" width="162" height="20" class="field"/>
+<rect x="836" y="8200" width="55" height="20" class="datatype"/>
+<text x="679" y="8210" class="field">end-date</text>
+<text x="841" y="8210" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="1268" y="0" width="217" height="20" class="name"/>

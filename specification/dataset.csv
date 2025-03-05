@@ -312,6 +312,7 @@ crown-copyright,,,provision-rule,Rules for the datasets an organisation is expec
 crown-copyright,,,provision,Datasets an organisation we expect an organisation to provide,,,,,,,ogl3,Provision,,Provisions,alpha,,provenance,,,The datasets we expect an organisation to provide.,specification,specification,1.0,,
 crown-copyright,organisation,,public-authority,,,,,,13000000,13099999,ogl3,Public authority,,Public authorities,beta,wikidata,dataset,,,We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.,administrative,organisation,1.0,,
 crown-copyright,,public-safety-zone-around-airport,public-safety-zone-around-airport,,,,,,13100000,13199999,ogl3,Public safety zone around airport,,Public safety zones around airports,alpha,,dataset,,,,transport,geography,1.0,,
+crown-copyright,,,quality,,,,,quality,7100,7199,ogl3,Quality,,Qualities,alpha,,specification,,,,specification,specification,1.0,,
 natural-england,ramsar,ramsar,ramsar,,,,41,,612000,619999,ogl3,Ramsar site,"{ ""colour"": ""#7fcdff"" }",Ramsar sites,beta,,dataset,,,"An internationally protected site listed as a wetland of international importance.
 Ramsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england).
 
