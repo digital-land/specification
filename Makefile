@@ -16,6 +16,7 @@ SPECIFICATION_CSV=\
 	specification/datapackage-dataset.csv\
 	specification/dataset.csv\
 	specification/dataset-field.csv\
+	data/dataset-field-version.csv\
 	specification/dataset-schema.csv\
 	specification/schema.csv\
 	specification/schema-field.csv\
@@ -107,6 +108,9 @@ specification/collection.csv:	$(DATASET_CSV) bin/collection.py
 
 specification/dataset-field.csv:	$(DATASET_MD) $(DATASET_CSV) bin/dataset-field.py
 	python3 bin/dataset-field.py $@
+
+data/dataset-field-version.csv:	$(DATASET_MD) $(DATASET_CSV) bin/dataset-field-version.py
+	python3 bin/dataset-field-version.py
 
 specification/dataset-schema.csv:	$(DATASET_CSV) bin/dataset-schema.py
 	python3 bin/dataset-schema.py $@
