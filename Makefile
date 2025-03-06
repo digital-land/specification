@@ -40,6 +40,7 @@ SPECIFICATION_CSV=\
 	specification/provision-reason.csv\
 	specification/provision-rule.csv\
 	specification/pipeline.csv\
+	specification/quality.csv\
 	specification/realm.csv\
 	specification/role.csv\
 	specification/theme.csv
@@ -165,6 +166,10 @@ specification/realm.csv:	content/realm.csv
 
 specification/role.csv:	content/role.csv
 	cp content/role.csv $@
+
+specification/quality.csv:	content/quality.csv
+	cp content/quality.csv $@
+
 
 # build organisations in a project
 PROJECT_CSV=specification/project.csv
