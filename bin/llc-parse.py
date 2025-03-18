@@ -49,7 +49,7 @@ for tr in pq("tr").items():
     if cols:
         row = {}
         row["name"] = cols[0].text
-        row["start-date"] = datetime.strptime(cols[1].text, "%d %B %Y").strftime(
+        row["start-date"] = datetime.strptime(cols[1].text.strip(), "%d %B %Y").strftime(
             "%Y-%m-%d"
         )
         try:
