@@ -167,6 +167,8 @@ organisations:
   start-date: 2022-04-25
 - organisation: local-authority:SGC
   start-date: 2024-07-01
+- organisation: local-authority:SHA
+  start-date: 2025-04-15
 - organisation: local-authority:SNO
   start-date: 2022-06-22
 - organisation: local-authority:SST
@@ -183,8 +185,12 @@ organisations:
   start-date: 2022-01-07
 - organisation: local-authority:TAM
   start-date: 2021-10-18
+- organisation: local-authority:THR
+  start-date: 2025-04-15
 - organisation: local-authority:TON
   start-date: 2024-04-25
+- organisation: local-authority:TOR
+  start-date: 2025-03-04
 - organisation: local-authority:TRF
   start-date: 2023-04-24
 - organisation: local-authority:WKF
@@ -197,6 +203,8 @@ organisations:
   start-date: 2021-05-26
 - organisation: local-authority:WBK
   start-date: 2024-04-25
+- organisation: local-authority:WDE
+  start-date: 2025-04-15
 - organisation: local-authority:WLI
   start-date: 2023-04-18
 - organisation: local-authority:WOX
