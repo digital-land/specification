@@ -55,6 +55,8 @@ organisations:
   start-date: 2019-01-17
 - organisation: local-authority:CRA
   start-date: 2023-03-28
+- organisation: local-authority:DOV
+  start-date: 2025-04-23
 - organisation: local-authority:DUD
   start-date: 2021-07-19
 - organisation: local-authority:ECA
@@ -95,6 +97,8 @@ organisations:
   start-date: 2019-10-01
 - organisation: local-authority:LDS
   start-date: 2024-01-08
+- organisation: local-authority:LEE
+  start-date: 2025-04-30
 - organisation: local-authority:LIV
   start-date: 2018-09-03
 - organisation: local-authority:BEX
@@ -117,6 +121,8 @@ organisations:
   start-date: 2022-01-20
 - organisation: local-authority:MSS
   start-date: 2022-03-21
+- organisation: local-authority:MIK
+  start-date: 2020-08-27
 - organisation: local-authority:NEA
   start-date: 2021-10-26
 - organisation: local-authority:NEC
@@ -147,6 +153,8 @@ organisations:
   start-date: 2024-09-05
 - organisation: local-authority:RUN
   start-date: 2025-01-17
+- organisation: local-authority:RUS
+  start-date: 2025-04-17
 - organisation: local-authority:RUT
   start-date: 2022-12-12
 - organisation: local-authority:RYE
@@ -169,6 +177,8 @@ organisations:
   start-date: 2024-07-01
 - organisation: local-authority:SHA
   start-date: 2025-04-15
+- organisation: local-authority:SKE
+  start-date: 2025-04-23
 - organisation: local-authority:SNO
   start-date: 2022-06-22
 - organisation: local-authority:SST
@@ -185,6 +195,8 @@ organisations:
   start-date: 2022-01-07
 - organisation: local-authority:TAM
   start-date: 2021-10-18
+- organisation: local-authority:TEW
+  start-date: 2025-05-22
 - organisation: local-authority:THR
   start-date: 2025-04-15
 - organisation: local-authority:TON
@@ -193,6 +205,8 @@ organisations:
   start-date: 2025-03-04
 - organisation: local-authority:TRF
   start-date: 2023-04-24
+- organisation: local-authority:UTT
+  start-date: 2025-04-23
 - organisation: local-authority:WKF
   start-date: 2024-04-22
 - organisation: local-authority:WAW
