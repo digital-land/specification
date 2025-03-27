@@ -10,11 +10,13 @@ for row in csv.DictReader(open("var/cache/organisation.csv", newline="")):
 # Skip Welsh councils
 for o in [
     "Blaenau Gwent County Borough Council",
+    "Carmarthenshire County Council",
     "Caerphilly County Borough Council",
     "City and County of Swansea Council",
     "Merthyr Tydfil County Borough Council",
     "Torfaen County Borough Council",
     "Pembrokeshire County Council",
+    "Bridgend County Borough Council",
 ]:
     organisations.setdefault(o, {"organisation": ""})
 
@@ -25,6 +27,7 @@ for o, n in [
     ("Haringey Council", "London Borough of Haringey"),
     ("Kingston upon Hull City Council", "Hull City Council"),
     ("Lambeth Council", "London Borough of Lambeth"),
+    ("Milton Keynes Council", "Milton Keynes City Council"),
     ("Sutton Council", "London Borough of Sutton"),
 ]:
     organisations[o] = organisations[n]
@@ -44,6 +47,7 @@ fieldnames = ["organisation", "name", "start-date"]
 w = csv.DictWriter(open(sys.argv[2], "w", newline=""), fieldnames)
 w.writeheader()
 
+errors = 0
 for tr in pq("tr").items():
     cols = list(tr("td"))
     if cols:
@@ -52,10 +56,14 @@ for tr in pq("tr").items():
         row["start-date"] = datetime.strptime(cols[1].text.strip(), "%d %B %Y").strftime(
             "%Y-%m-%d"
         )
+        print(row, file=sys.stderr)
         try:
             row["organisation"] = find_organisation(row["name"])
             if row["organisation"]:
                 w.writerow(row)
         except NameError as e:
             print(f"Unknown organisation: {e}")
-            continue
+            errors += 1
+
+if errors:
+            sys.exit(2)
