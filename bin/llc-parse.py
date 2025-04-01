@@ -29,6 +29,7 @@ for o, n in [
     ("Lambeth Council", "London Borough of Lambeth"),
     ("Milton Keynes Council", "Milton Keynes City Council"),
     ("Sutton Council", "London Borough of Sutton"),
+    ("York City Council", "City of York Council"),
 ]:
     organisations[o] = organisations[n]
 
