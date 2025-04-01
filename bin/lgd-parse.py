@@ -30,6 +30,12 @@ for o, n in [
     ("Redcar and Cleveland Council", "Redcar and Cleveland Borough Council"),
     ("Isles of Scilly", "Council of the Isles of Scilly"),
     ("Islington Council", "London Borough of Islington"),
+    ("Kingston upon Thames London Borough Council", "Royal Borough of Kingston upon Thames"),
+    ("South Kestevan District Council", "South Kesteven District Council"),
+    ("Southwark Council", "London Borough of Southwark"),
+    ("Trafford Council", "Trafford Metropolitan Borough Council"),
+    ("Walsall Council", "Walsall Metropolitan Borough Council"),
+    ("Milton Keynes Council", "Milton Keynes City Council"),
 ]:
     organisations[o] = organisations[n]
 
@@ -44,14 +50,15 @@ def find_organisation(name):
 pq = PyQuery(filename=sys.argv[1])
 
 fieldnames = ["organisation", "name", "cohort"]
+errors = 0
 
 w = csv.DictWriter(open(sys.argv[2], "w", newline=""), fieldnames)
 w.writeheader()
 
 for h3 in pq("h3").items():
     if h3.text() in ["Members", "Subscribers", "Contributors"]:
-        cohort = "LGD-" + h3.text()[:-1]
-        for name in h3.next("p").text().split("\n"):
+        cohort = "LGD-" + str(h3.text())[:-1]
+        for name in str(h3.next("p").text()).split("\n"):
             if name in ["London Councils", "Tipperary County Council", "Argyll & Bute Council"]:
                 continue;
             name = re.sub("\s*\(.*$", "", name)
@@ -63,4 +70,7 @@ for h3 in pq("h3").items():
                 w.writerow(row)
             except NameError as e:
                 print(f"Unknown organisation: {e}")
-                continue
+                errors += 1
+
+if errors:
+      sys.exit(2)
