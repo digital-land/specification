@@ -32,7 +32,7 @@ github-discussion: 43
 key-field: ''
 licence: ogl3
 name: Tree
-paint-options: '{ "colour": "#3B453D", "type": "point" }'
+paint-options: '{ "colour": "#3B453D" }'
 phase: beta
 plural: Trees
 prefix: ''
