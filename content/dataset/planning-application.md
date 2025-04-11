@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: planning-application
 consideration: planning-applications-decisions
 dataset: planning-application
 description: An application for planning permission
