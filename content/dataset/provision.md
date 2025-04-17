@@ -7,10 +7,12 @@ description: 'Datasets an organisation we expect an organisation to provide'
 end-date: ''
 entry-date: ''
 fields:
+- field: cohort
 - field: dataset
 - field: end-date
 - field: entry-date
-- field: cohort
+- field: geography
+  guidance: A CURIE identifying the geographic area which entities provided by this organisation are expected to be within.
 - field: notes
 - field: organisation
 - field: project

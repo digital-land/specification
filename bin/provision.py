@@ -99,6 +99,7 @@ fieldnames = [
     "role",
     "project",
     "cohort",
+    "geography",
     "entry-date",
     "start-date",
     "end-date",
@@ -144,6 +145,7 @@ for organisation, datasets in sorted(organisation_datasets.items()):
                 continue
 
             cohort = f.get("cohort", "")
+            geography = f.get("geography", "")
             notes = f.get("notes", "")
 
             role = value if field == "role" else ""
@@ -158,6 +160,7 @@ for organisation, datasets in sorted(organisation_datasets.items()):
                 "project": project,
                 "role": role,
                 "cohort": cohort,
+                "geography": geography,
                 "start-date": start_date,
                 "end-date": end_date,
                 "notes": notes,
