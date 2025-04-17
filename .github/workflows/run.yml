@@ -49,6 +49,9 @@ jobs:
     - name: Install dependencies
       run: make init
 
+    - name: Scrape pages
+      run: make scraping
+
     - name: Build specification
       run: make specification
 

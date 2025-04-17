@@ -1,7 +1,7 @@
 NO_DATASET=true
 RENDER_COMMAND=python3 ./bin/render.py
 
-second-pass::	specification
+second-pass::	scraping specification
 
 include makerules/makerules.mk
 include makerules/specification.mk
@@ -49,6 +49,8 @@ SPECIFICATION_CSV=\
 PROJECT_MD_GENERATED=\
 	content/project/local-land-charges.md\
 	content/project/localgov-drupal.md
+
+scraping:: $(PROJECT_MD_GENERATED)
 
 specification:: $(SPECIFICATION_CSV)
 
