@@ -63,6 +63,8 @@ organisations:
   start-date: 2022-12-05
 - organisation: local-authority:EDE
   start-date: 2024-01-04
+- organisation: local-authority:EHE
+  start-date: 2025-04-28
 - organisation: local-authority:ELI
   start-date: 2020-06-26
 - organisation: local-authority:EPP
@@ -149,6 +151,8 @@ organisations:
   start-date: 2021-10-13
 - organisation: local-authority:RIH
   start-date: 2022-10-27
+- organisation: local-authority:KTT
+  start-date: 2025-04-25
 - organisation: local-authority:RUG
   start-date: 2024-09-05
 - organisation: local-authority:RUN
@@ -195,8 +199,12 @@ organisations:
   start-date: 2022-01-07
 - organisation: local-authority:TAM
   start-date: 2021-10-18
+- organisation: local-authority:TAN
+  start-date: 2025-04-28
 - organisation: local-authority:TEW
   start-date: 2025-05-22
+- organisation: local-authority:THE
+  start-date: 2025-04-28
 - organisation: local-authority:THR
   start-date: 2025-04-15
 - organisation: local-authority:TON
@@ -231,6 +239,10 @@ organisations:
   start-date: 2024-03-21
 - organisation: local-authority:WOC
   start-date: 2025-02-10
+- organisation: local-authority:WYC
+  start-date: 2025-05-12
 - organisation: local-authority:WYE
   start-date: 2024-04-19
+- organisation: local-authority:YOR
+  start-date: 2025-04-28
 ---
