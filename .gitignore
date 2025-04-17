@@ -16,6 +16,9 @@ tmp/
 # ignore intermediate files
 var/
 
+# ignore uncommited file
+specification/dataset-field-version.csv
+
 # ignore made dataset
 /dataset/
 .idea/
