@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: provision
-description: 'Datasets an organisation we expect an organisation to provide'
+description: 'Data expected to be provided by an organisation'
 end-date: ''
 entry-date: ''
 fields:
