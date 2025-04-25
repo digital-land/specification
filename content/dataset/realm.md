@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: realm
-description: phase of development
+description: dataset grouping
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
@@ -18,10 +18,10 @@ fields:
 - field: start-date
 key-field: 'realm'
 licence: ogl3
-name: Phase
+name: Realm
 paint-options: ''
 phase: beta
-plural: Phases
+plural: Realms
 prefix: ''
 realm: specification
 replacement-dataset: ''

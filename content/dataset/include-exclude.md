@@ -22,7 +22,7 @@ paint-options: ''
 phase: alpha
 plural: Include/Excludes
 prefix: ''
-realm: specification
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

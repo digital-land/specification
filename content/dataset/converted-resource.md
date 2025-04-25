@@ -21,7 +21,7 @@ paint-options: ''
 phase: alpha
 plural: Converted resources
 prefix: ''
-realm: specification
+realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:

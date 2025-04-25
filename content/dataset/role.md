@@ -26,7 +26,7 @@ paint-options: ''
 phase: alpha
 plural: Roles
 prefix: ''
-realm: specification
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

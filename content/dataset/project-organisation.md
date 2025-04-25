@@ -21,7 +21,7 @@ paint-options: ''
 phase: alpha
 plural: Project organisations
 prefix: ''
-realm: specification
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
