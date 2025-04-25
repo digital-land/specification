@@ -34,7 +34,7 @@ paint-options: ''
 phase: alpha
 plural: Fields
 prefix: ''
-realm: provenance
+realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
