@@ -23,14 +23,11 @@ skip_links = [
 ]
 
 realms = {
-    "dataset": ["organisation"],
-    "collection": [],
     "specification": [],
-    "pipeline": [],
+    "configuration": [],
     "provenance": [],
-    "entity": [],
-    "configuration":[],
-    "log":[]
+    "dataset": [],
+    "datapackage": [],
 }
 
 for row in csv.DictReader(open("specification/dataset.csv", newline="")):
