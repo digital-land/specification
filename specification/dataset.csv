@@ -37,7 +37,7 @@ Being an asset of community value does not place any restriction on what an owne
 
 Listing an asset of community value is also a Local Land Charge, which is a restriction or financial claim on a property or piece of land, and is an important consideration during the selling of a property or piece of land.",heritage,geography,1.0,Q16971076,Asset_of_community_value
 crown-copyright,,,attribution,,,,,attribution,1300000,1399999,ogl3,Attribution,,Attributions,alpha,,specification,,,,specification,category,1.0,Q2132119,Attribution_(copyright)
-crown-copyright,,,award,,,,,award,,,ogl3,Award,,Awards,alpha,,specification,,,,specification,specification,1.0,,
+crown-copyright,,,award,,,,,award,,,ogl3,Award,,Awards,alpha,,configuration,,,,specification,specification,1.0,,
 historic-england,historic-england,battlefields,battlefield,,,,,,1400000,1499999,ogl3,Battlefield,"{ ""colour"": ""#4d2942"", ""opacity"": 0.2 }",Battlefields,live,,dataset,,,Battlefields as designated by [Historic England](https://historicengland.org.uk) in their [Register of Historic Battlefields](https://historicengland.org.uk/listing/what-is-designation/registered-battlefields/).,heritage,geography,1.0,Q4895508,Battlefield
 crown-copyright,,best-and-most-versatile-agricultural-land,best-and-most-versatile-agricultural-land,,,,,,1500000,1599999,ogl3,Best and most versatile agricultural land,,Best and most versatile agricultural land,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,biodiversity-net-gain-assessments,biodiversity-net-gain-assessment,,,,,,1600000,1699999,ogl3,Biodiversity net gain assesment,,Biodiversity net gain assesments,alpha,,dataset,,,,environment,document,1.0,,
@@ -63,15 +63,15 @@ to list the building at the same time that the BPN is served.
 
 We expect to develop a data specification to help LPAs to publish their building preservation notices to supplement this data from Historic England.",development,geography,1.0,Q98785867,Listed_building#England_and_Wales
 ons-boundary,built-up-area,built-up-areas,built-up-area,built-up areas equal to or greater than 20 hectares,,,63,,2500000,2699999,ogl3,Built up area,"{ ""colour"": ""#f47738"" }",Built up areas,beta,statistical-geography,dataset,,,Built up areas in England as provided by the ONS for the purposes of producing statistics.,housing,geography,1.0,,
-crown-copyright,,,category,,,,,,2100000,2199999,ogl3,Category,,Categories,alpha,,dataset,,,,specification,category,1.0,,
+crown-copyright,,,category,,,,,,2100000,2199999,ogl3,Category,,Categories,alpha,,datapackage,,,,specification,category,1.0,,
 crown-copyright,central-activities-zone,central-activty-zones,central-activities-zone,,,,,,2200000,2299999,ogl3,Central activities zone,,Central activities zones,beta,,dataset,,,"The [Greater London Authority](https://www.london.gov.uk/) (GLA) designates a central area of London with [implications for planning](https://www.london.gov.uk/what-we-do/planning/implementing-london-plan/london-plan-guidance-and-spgs/central-activities-zone)
 This dataset combines data provided by the GLA with the boundary from the individual London boroughs.",development,geography,1.0,,
 historic-england,historic-england,certificate-of-immunity,certificate-of-immunity,,,,,,2300000,2399999,ogl3,Certificate of immunity,"{ ""colour"": ""#D8760D"" }",Certificates of immunity,beta,,dataset,,,,heritage,geography,1.0,Q5065092,Certificate_of_Immunity_from_Listing
 crown-copyright,,,checksum,Checksums of dataset files and other media,,,,checksum,,,ogl3,Checksum,,Checksums,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,coastal-change-management-areas,coastal-change-management-area,,,,,,2400000,2499999,ogl3,Coastal change management area,,Coastal change management areas,alpha,,dataset,,,,environment,geography,1.0,,
-crown-copyright,,,cohort,,,,,cohort,,,ogl3,Project,,Cohorts,alpha,,specification,,,,specification,specification,1.0,,
+crown-copyright,,,cohort,,,,,cohort,,,ogl3,Project,,Cohorts,alpha,,configuration,,,,specification,specification,1.0,,
 crown-copyright,,,collection,A collection of resources collected from various sources,,,,collection,,,ogl3,Collection,,Collections,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,column-field,Log of resource columns mapped to dataset fields,,,,,,,ogl3,Column field,,Column fields,alpha,,log,,,"This table records the column names found in collected resources, and the field names they have been mapped to during processing.",specification,specification,1.0,,
+crown-copyright,,,column-field,Log of resource columns mapped to dataset fields,,,,,,,ogl3,Column field,,Column fields,alpha,,provenance,,,"This table records the column names found in collected resources, and the field names they have been mapped to during processing.",specification,specification,1.0,,
 crown-copyright,,,column,Map resource column name to dataset field,,,,column,,,ogl3,Pipeline column,,Pipeline columns,alpha,,configuration,,,,specification;pipeline,pipeline,1.0,,
 crown-copyright,,,combine,Combine a series of facts from multiple entries,,,,,,,ogl3,Pipeline combine facts,,Pipeline combine facts,alpha,,configuration,,,,specification;pipeline,specification,1.0,,
 crown-copyright,,common-land-and-village-greens,common-land-and-village-green,,,,,,2700000,2799999,ogl3,Common land and village green,,Common land and village greens,alpha,,dataset,,,,heritage,geography,1.0,Q2259176,Common_land
@@ -92,7 +92,7 @@ crown-copyright,developer-contributions,developer-contributions,contribution-fun
 crown-copyright,developer-contributions,developer-contributions,contribution-purpose,,,,,,16200000,16299999,ogl3,Contribution purpose,,Contribution purposes,live,,dataset,,,,development,category,1.0,,
 crown-copyright,,control-of-major-accident-and-hazard-sites,control-of-major-accident-hazards-site,,,,,,16300000,16399999,ogl3,Control of major accident hazards site,,Control of major accident hazards sites,alpha,,dataset,,,,development,geography,1.0,,
 crown-copyright,,,convert,Convert a resource,,,,,,,ogl3,Pipeline convert,,Pipeline conversions,alpha,,configuration,,,,specification;pipeline,specification,1.0,,
-crown-copyright,,,converted-resource,Result of resource conversion,,,,,,,ogl3,Converted resource,,Converted resources,alpha,,specification,,,,specification,specification,1.0,,
+crown-copyright,,,converted-resource,Result of resource conversion,,,,,,,ogl3,Converted resource,,Converted resources,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,datapackage-dataset,Datasets included in a datapackage,,,,,17000000,17099999,ogl3,Data package dataset,,Data package datasets,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,datapackage,Collections of datasets,,,,datapackage,16500000,16599999,ogl3,Data package,,Data packages,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,dataset-field,,,,,,0,0,ogl3,Dataset field,,Dataset fields,alpha,,specification,,,,specification,specification,1.0,,
@@ -133,7 +133,7 @@ crown-copyright,,local-plan-policies,development-policy-category,,,,,,5400000,54
 crown-copyright,,local-plan-policies,development-policy-metric,Metrics associated with a development policy,,,,,5500000,5599999,ogl3,Development policy metric,,Development policy metrics,alpha,,dataset,,,,development,metric,1.0,,
 crown-copyright,,local-plan-policies,development-policy,,,,,,5600000,5699999,ogl3,Development policy,,Development policies,alpha,,dataset,,,,development,policy,1.0,,
 crown-copyright,document,,document-type,,,,,,5700000,5799999,ogl3,Document type,,Document types,beta,,dataset,,,,development,category,1.0,,
-crown-copyright,,,document,,,,,,5800000,5899999,ogl3,Document,,Documents,alpha,,dataset,,,,development,document,1.0,Q49848,Document
+crown-copyright,,,document,,,,,,5800000,5899999,ogl3,Document,,Documents,alpha,,datapackage,,,,development,document,1.0,Q49848,Document
 crown-copyright,educational-establishment,educational-establishment,educational-establishment,,,2024-07-09,,,3100000,3499999,ogl3,Educational establishment,,Educational establishments,alpha,,dataset,,,,administrative,geography,2.0,,
 crown-copyright,,employment-allocations,employment-allocation,,,,,,5900000,5999999,ogl3,Employment allocation,,Employment allocations,alpha,,dataset,,,,development,geography,1.0,,
 crown-copyright,,,endpoint,,,,,endpoint,6000000,6099999,ogl3,Endpoint,,Endpoints,alpha,,configuration,,,,specification,specification,1.0,,
@@ -148,10 +148,10 @@ crown-copyright,,,entity,a data item,,,,entity,,,ogl3,Entity,,Entities,alpha,,pr
 crown-copyright,,,expect,A set of rules which can be turned into an expectation of a dataset,,,,,,,ogl3,Expectation Rule,,Expectation Rules,alpha,,configuration,,,,pipeline,pipeline,1.0,,
 crown-copyright,,,expectation-issue,Issues found checking expecatations,,,,,,,ogl3,Expectation issue,,Expecation issues,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,expectation-result,Results from checking expectations,,,,expectation-result,,,ogl3,Expectation result,,Expecation results,alpha,,provenance,,,,specification,specification,1.0,,
-crown-copyright,,,expectation,The output of running expectations based on the rules defined in the expect dataset,,,,,,,ogl3,Expectation Log,,Expectation Logs,alpha,,log,,,,pipeline,pipeline,1.0,,
+crown-copyright,,,expectation,The output of running expectations based on the rules defined in the expect dataset,,,,,,,ogl3,Expectation Log,,Expectation Logs,alpha,,provenance,,,,pipeline,pipeline,1.0,,
 crown-copyright,,,fact-resource,the provenance of a fact,,,,,,,ogl3,Fact resource,,Fact resources,alpha,,provenance,,,,specification,value,1.1,,
 crown-copyright,,,fact,a field and its value for an entity,,,,fact,0,0,ogl3,Fact,,Facts,alpha,,provenance,,,,specification,value,1.1,,
-crown-copyright,,,field,,,,,field,6200000,6299999,ogl3,Field,,Fields,alpha,,provenance,,,,specification,specification,1.0,,
+crown-copyright,,,field,,,,,field,6200000,6299999,ogl3,Field,,Fields,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,filter,Filter entries,,,,,,,ogl3,Pipeline filter,,Pipeline filters,alpha,,configuration,,,,specification;pipeline,specification,1.0,,
 crown-copyright,flood-risk-zone,flood-risk-zones,flood-risk-level,,,,46,,6450000,6499999,ogl3,Flood risk level,,Flood risk levels,live,,dataset,,,,environment,category,2.0,,
 crown-copyright,flood-risk-zone,flood-risk-zones,flood-risk-type,,,,46,,6400000,6449999,ogl3,Flood risk type,,Flood risk types,live,,dataset,,,,environment,category,2.0,,
@@ -160,8 +160,8 @@ crown-copyright,flood-risk-zone,flood-risk-zones,flood-risk-zone,Area identified
 The flood zones were produced to help developers, councils and communities understand the flood risks present in specific locations or regions. Despite being a very useful indicator of an area’s flood risk, the zones cannot tell you whether a location will definitely flood or to what severity.",environment,geography,1.0,,
 crown-copyright,flood-storage-area,flood-storage-areas,flood-storage-area,"Areas that act as a balancing reservoir, storage basin or balancing pond for flood control",,2024-06-28,68,,521000,529999,ogl3,Flood storage area,,Flood storage areas,alpha,,dataset,,,,environment,geography,1.0,,
 forestry-commission,,national-forest-inventory,forest-inventory,"All forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it",,2024-07-05,84,,60000000,60999999,ogl3,Forest inventory,,Forest inventory,alpha,,dataset,,,,environment,geography,1.0,,
-crown-copyright,,,fund,,,,,fund,,,ogl3,Fund,,Funds,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,geography,,,,,,6700000,6799999,ogl3,Geography,,Geographies,alpha,,dataset,,,,,geography,1.0,,
+crown-copyright,,,fund,,,,,fund,,,ogl3,Fund,,Funds,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,geography,,,,,,6700000,6799999,ogl3,Geography,,Geographies,alpha,,datapackage,,,,,geography,1.0,,
 crown-copyright,organisation,,government-organisation,,,,,,6900000,6999999,ogl3,Government organisation,,"Government departments, agencies and public bodies",beta,government-organisation,dataset,,,"A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).
 This data originally came from the [government organisation register](https://www.data.gov.uk/dataset/0f669ee5-7382-4f6d-8bb3-5fd238716c3b/government-organisation-register).
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
@@ -178,7 +178,7 @@ crown-copyright,,,historic-non-designed-rural-landscape-local-landscape-area,,,,
 crown-copyright,,historic-stone-quarry,historic-stone-quarry,,,,,,7800000,7899999,ogl3,Historic stone quarry,,Historic stone quarries,alpha,,dataset,,,,heritage,geography,1.0,,
 crown-copyright,,,housing-allocation,,,,,,7900000,7999999,ogl3,Housing allocation,,Housing allocations,alpha,,dataset,,,,housing;monitoring,document,1.0,,
 crown-copyright,,hs2-safeguarded-area,hs2-safeguarded-area,,,,,,8000000,8099999,ogl3,HS2 safeguarded area,,HS2 safeguarded areas,alpha,,dataset,,,,transport,geography,1.0,,
-crown-copyright,,,include-exclude,Include or exclude items from a set,,,,include-exclude,7000,7099,ogl3,Include/Exclude,,Include/Excludes,alpha,,specification,,,,specification,specification,1.0,,
+crown-copyright,,,include-exclude,Include or exclude items from a set,,,,include-exclude,7000,7099,ogl3,Include/Exclude,,Include/Excludes,alpha,,configuration,,,,specification,specification,1.0,,
 crown-copyright,infrastructure-funding-statement,infrastructure-funding-statements,infrastructure-funding-statement,,,,,,8100000,8199999,ogl3,Infrastructure funding statement,,Infrastructure funding statements,beta,,dataset,,,,development,document,3.0,,
 crown-copyright,infrastructure-project,nationally-significant-infrastructure-projects,infrastructure-project-decision,The types of decision for infrastructure projects,,2023-09-13,,,11010000000,11019999999,ogl3,Infrastructure project decision,,Infrastructure project decisions,beta,,dataset,,,,development,category,1.0,,
 crown-copyright,infrastructure-project,nationally-significant-infrastructure-projects,infrastructure-project-document-type,The types of document produced and published for infrastructure projects,,2023-09-13,,,11040000000,11049999999,ogl3,Infrastructure project document type,,Infrastructure project document types,beta,,dataset,,,,development,category,1.0,,
@@ -189,9 +189,9 @@ crown-copyright,infrastructure-project,nationally-significant-infrastructure-pro
 crown-copyright,infrastructure-project,nationally-significant-infrastructure-projects,infrastructure-project,An application for a infrastructure development,,2023-09-13,,,11100000000,11999999999,ogl3,Infrastructure project,,Infrastructure project,beta,,dataset,,,The boundaries shown are used to inform the [Environmental Impact Assessment](https://www.gov.uk/guidance/environmental-impact-assessment) (EIA). This information is used by the [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) (PINS) to identify the consultation bodies. These site boundaries may change.,development,geography,1.0,,
 crown-copyright,,,internal-drainage-board,,,,,,8200000,8209999,ogl3,Internal drainage board,,Internal drainage boards,alpha,,dataset,,,,administrative,organisation,1.0,Q6047836,Internal_drainage_board
 crown-copyright,,internal-drainage-district,internal-drainage-district,,,,,,8210000,8219999,ogl3,Internal drainage district,,Internal drainage districts,alpha,,dataset,,,,administrative,geography,1.0,Q5305553,Drainage_district
-crown-copyright,,,intervention,,,,,intervention,12300000,12300099,ogl3,Intervention,,Interventions,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,issue-type,types of issues with fields processing resources,,,,issue-type,,,ogl3,Issue type,,Issue types,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,issue,issues with fields processing resources,,,,,,,ogl3,Issue,,Issues,alpha,,log,,,,specification,specification,1.0,,
+crown-copyright,,,intervention,,,,,intervention,12300000,12300099,ogl3,Intervention,,Interventions,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,issue-type,types of issues with fields processing resources,,,,issue-type,,,ogl3,Issue type,,Issue types,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,issue,issues with fields processing resources,,,,,,,ogl3,Issue,,Issues,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,licence,,,,,licence,8400000,8499999,ogl3,Licence,,Licences,alpha,,specification,,,,specification,category,1.0,Q7257461,Public_copyright_license
 crown-copyright,listed-building,listed-buildings,listed-building-grade,,,,44,,700000,799999,ogl3,Listed building grade,,Listed building grades,live,,dataset,,,The grade assigned to each [listed building](/dataset/listed-building) by [Historic England](https://historicengland.org.uk/).,heritage,category,1.0,Q30634609,Listed_building
 crown-copyright,listed-building,listed-buildings,listed-building-outline,boundary of a listed building,,,44,,42100000,43099999,ogl3,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,alpha,,dataset,,,"The geospatial boundary for [listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/) as collected from local planning authorities.
@@ -228,7 +228,7 @@ crown-copyright,listed-building,locally-listed-buildings,locally-listed-building
 
 This is an experimental dataset of locally listed buildings found on [data.gov.uk](https://www.data.gov.uk/search?q=locally+listed+buildings).
 We are [working with a group of local planning authorities](/about/) to help them publish their locally listed buildings, and to develop a data specification for locally listed buildings.",heritage,geography,1.0,Q570600,Listed_building#Locally_listed_buildings
-crown-copyright,,,log,,,,,,9100000,9199999,ogl3,Collection log,,Collection logs,alpha,,log,,,,specification,specification,1.0,,
+crown-copyright,,,log,,,,,,9100000,9199999,ogl3,Collection log,,Collection logs,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,london-square,,,,,,9200000,9299999,ogl3,London square,,London squares,alpha,,dataset,,,,heritage,geography,1.0,Q7582093,Squares_in_London
 crown-copyright,,,long-established-woodland,,,,,,9300000,9399999,ogl3,Long established woodland,,Long established woodlands,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,,long-protected-woodland,,,,,,9400000,9499999,ogl3,Long protected woodland,,Long protected woodlands,prioritised,,dataset,,,,environment,geography,1.0,,
@@ -259,8 +259,7 @@ Local planning authorities should assess the need for open space and opportuniti
 ### Responsible organisations and guidance
 
 Authorities and developers may refer to [Sport England's guidance](http://www.sportengland.org/facilities-planning/planning-for-sport/planning-tools-and-guidance/) on how to assess the need for sports and recreation facilities. There is also [guidance on Local Green Space designation](https://www.gov.uk/guidance/open-space-sports-and-recreation-facilities-public-rights-of-way-and-local-green-space#Local-Green-Space-designation), which may form part of the overall open space network within an area.",environment,geography,1.0,,
-crown-copyright,,,organisation-dataset,,,,,,,,ogl3,Organisation dataset,,Organisation datasets,alpha,,provenance,,,The datasets we expect an organisation to provide.,specification,specification,1.0,,
-crown-copyright,,,organisation,,,,,,,,ogl3,Organisation,,Organisations,alpha,,dataset,,,,,organisation,1.0,,
+crown-copyright,,,organisation,,,,,,,,ogl3,Organisation,,Organisations,alpha,,datapackage,,,,,organisation,1.0,,
 crown-copyright,ownership-status,brownfield-land,ownership-status,,,,,,10900000,10999999,ogl3,Ownership status,,Ownership statuses,live,,dataset,,,The ownership status of [brownfield land](/dataset/brownfield-land) or other site.,development,category,1.0,,
 ons-boundary,parish,parish,parish,,,,38,,130000000,139999999,ogl3,Civil parish,"{ ""colour"": ""#5694ca"" }",Civil parishes,beta,statistical-geography,dataset,,,"The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.
 The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#parishes-and-communities) provides this
@@ -293,11 +292,11 @@ crown-copyright,,planning-applications-decisions,planning-decision,A planning de
 crown-copyright,,,planning-development-category,Planning development category,,,,,623000,623999,ogl3,Planning development category,,Planning development categories,alpha,,dataset,,,,housing;monitoring,category,1.0,,
 crown-copyright,planning-permission-status,,planning-permission-status,,,,25,,11800000,11899999,ogl3,Planning permission status,,Planning permission statuses,live,,dataset,,,The status of planning permission for a [brownfield land](/dataset/brownfield-land) or other site.,development,category,1.0,,
 crown-copyright,planning-permission-type,,planning-permission-type,,,,25,,11900000,11999999,ogl3,Planning permission type,,Planning permission types,live,,dataset,,,The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.,development,category,1.0,,
-crown-copyright,,,policy,,,,,,12000000,12099999,ogl3,Policy,,Policies,alpha,,dataset,,,,administrative,policy,1.0,,
-crown-copyright,,,prefix,,,,,prefix,,,ogl3,CURIE prefix,,CURIE prefixes,alpha,,entity,,,,specification,entity,1.0,,
-crown-copyright,,,project-organisation,,,,,,,,ogl3,Project organisation,,Project organisations,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,project-status,,,,,project-status,12200000,12299999,ogl3,Project status,,Project statuses,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,project,,,,,project,12300000,12399999,ogl3,Project,,Projects,alpha,,specification,,,,specification,specification,1.0,,
+crown-copyright,,,policy,,,,,,12000000,12099999,ogl3,Policy,,Policies,alpha,,datapackage,,,,administrative,policy,1.0,,
+crown-copyright,,,prefix,,,,,prefix,,,ogl3,Prefix,,Prefixes,alpha,,configuration,,,,specification,entity,1.0,,
+crown-copyright,,,project-organisation,,,,,,,,ogl3,Project organisation,,Project organisations,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,project-status,,,,,project-status,12200000,12299999,ogl3,Project status,,Project statuses,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,project,,,,,project,12300000,12399999,ogl3,Project,,Projects,alpha,,configuration,,,,specification,specification,1.0,,
 crown-copyright,,proposed-ramsar-sites,proposed-ramsar-site,,,,,,12400000,12499999,ogl3,Proposed ramsar site,,Proposed ramsar sites,prioritised,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,protected-land,protected-land,,,,,,12500000,12599999,ogl3,Protected land,,Protected land,prioritised,,dataset,,,,heritage,geography,1.0,,
 crown-copyright,,protected-views,protected-view,,,,,,12700000,12799999,ogl3,Protected view,,Protected views,alpha,,dataset,,,,heritage,geography,1.0,Q4118263,Protected_view
@@ -308,8 +307,8 @@ The Protection of Wrecks Act 1973 allows the Secretary of State for [Digital, Cu
 Where a protected wreck site is within local authority boundaries then it will be considered a designated heritage asset for the purpose of the NPPF and offered the same level of protection in planning decisions as is afforded to scheduled monuments and highly graded listed buildings.",heritage,geography,1.0,Q6616121,List_of_designations_under_the_Protection_of_Wrecks_Act
 crown-copyright,,,provenance,,,,,provenance,12900000,12999999,ogl3,Provenance,,Provenance,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,provision-quality,Quality of data provided by an organisation on a date,,,,,,,ogl3,Provision quality,,Provision qualities,alpha,,provenance,,,The quality of data provided by an organisation on a specific date. Used to create the service performance pages.,specification,specification,1.0,,
-crown-copyright,,,provision-reason,The reason a dataset is provided by an organisation,,,,provision-reason,6000,6999,ogl3,Provision reason,,Provision reasons,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,provision-rule,Rules for the datasets an organisation is expected to priovide,,,,provision-rule,,,ogl3,Provision rule,,Provision rules,alpha,,provenance,,,Rules for the data we expect an organisation to priovide. These rules are used to generate the provision dataset.,specification,specification,1.0,,
+crown-copyright,,,provision-reason,The reason a dataset is provided by an organisation,,,,provision-reason,6000,6999,ogl3,Provision reason,,Provision reasons,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,provision-rule,Rules for the datasets an organisation is expected to priovide,,,,provision-rule,,,ogl3,Provision rule,,Provision rules,alpha,,configuration,,,Rules for the data we expect an organisation to priovide. These rules are used to generate the provision dataset.,specification,specification,1.0,,
 crown-copyright,,,provision,Data expected to be provided by an organisation,,,,,,,ogl3,Provision,,Provisions,alpha,,provenance,,,The datasets we expect an organisation to provide.,specification,specification,1.0,,
 crown-copyright,organisation,,public-authority,,,,,,13000000,13099999,ogl3,Public authority,,Public authorities,beta,wikidata,dataset,,,We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.,administrative,organisation,1.0,,
 crown-copyright,,public-safety-zone-around-airport,public-safety-zone-around-airport,,,,,,13100000,13199999,ogl3,Public safety zone around airport,,Public safety zones around airports,alpha,,dataset,,,,transport,geography,1.0,,
@@ -318,16 +317,15 @@ natural-england,ramsar,ramsar,ramsar,,,,41,,612000,619999,ogl3,Ramsar site,"{ ""
 Ramsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england).
 
 Natural England provides [guidance ](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.",environment,geography,1.0,,
-crown-copyright,,,realm,phase of development,,,,realm,,,ogl3,Phase,,Phases,beta,,specification,,,,specification,category,1.0,,
-crown-copyright,,,reference,Redirect a prefix and reference to an entity,,,,,,,ogl3,Reference,,References,alpha,,entity,,,,specification,specification,1.0,,
+crown-copyright,,,realm,dataset grouping,,,,realm,,,ogl3,Realm,,Realms,beta,,specification,,,,specification,category,1.0,,
 ons-boundary,region,,region,,,,,,30100000,31099999,ogl3,Region,,Regions,beta,statistical-geography,dataset,,,"The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this
 data for the purposes of producing statistics.",administrative,geography,1.0,Q48091,Regions_of_England
 crown-copyright,organisation,,regional-park-authority,,,,,,5000,5999,ogl3,Regional park authority,,Regional park authorities,beta,wikidata,dataset,,,"A statutory body responsible for managing and developing a park.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,,
-crown-copyright,,,resource,An index of collected resources,,,,resource,13400000,13499999,ogl3,Resource,,Resources,alpha,,log,,,,specification,specification,1.0,,
-crown-copyright,,,role-organisation-rule,Rules for the organisations with a role,,,,reference,,,ogl3,Role organisation rule,,Role organisation rules,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,role-organisation,,,,,,,,ogl3,Role organisation,,Role organisations,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,role,,,,,,,,ogl3,Role,,Roles,alpha,,specification,,,,specification,specification,1.0,,
+crown-copyright,,,resource,An index of collected resources,,,,resource,13400000,13499999,ogl3,Resource,,Resources,alpha,,provenance,,,,specification,specification,1.0,,
+crown-copyright,,,role-organisation-rule,Rules for the organisations with a role,,,,reference,,,ogl3,Role organisation rule,,Role organisation rules,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,role-organisation,,,,,,,,ogl3,Role organisation,,Role organisations,alpha,,configuration,,,,specification,specification,1.0,,
+crown-copyright,,,role,,,,,,,,ogl3,Role,,Roles,alpha,,configuration,,,,specification,specification,1.0,,
 crown-copyright,,safeguarding-aerodromes-technical-sites-and-military-explosives-storage-areas,safeguarded-aerodrome,,,,,,13500000,13599999,ogl3,Safeguarded aerodrome,,Safeguarded aerodromes,prioritised,,dataset,,,,transport,geography,1.0,,
 crown-copyright,,safeguarding-aerodromes-technical-sites-and-military-explosives-storage-areas,safeguarded-military-explosives-site,,,,,,13600000,13699999,ogl3,Safeguarded military explosives site,,Safeguarded military explosives sites,prioritised,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,safeguarded-wharves,safeguarded-wharf,,,,,,13700000,13799999,ogl3,Safeguarded wharf,,Safeguarded wharves,prioritised,,dataset,,,,transport,geography,1.0,,

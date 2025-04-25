@@ -171,7 +171,6 @@ nuclear-safety-zone,Nuclear safety zone,,
 old-entity,Entity redirection,Redirect an entity or mark it as gone,old-entity
 old-resource,Resource redirection,"Redirect a resource to a fixed version, or mark it as gone",old-resource
 open-space,Open space,,
-organisation-dataset,Organisation dataset,,
 organisation,Organisation,,
 ownership-status,Ownership status,,
 parish,Civil parish,,
@@ -199,7 +198,7 @@ planning-development-category,Planning development category,Planning development
 planning-permission-status,Planning permission status,,
 planning-permission-type,Planning permission type,,
 policy,Policy,,
-prefix,CURIE prefix,,prefix
+prefix,Prefix,,prefix
 project-organisation,Project organisation,,
 project-status,Project status,,project-status
 project,Project,,project
@@ -216,8 +215,7 @@ public-authority,Public authority,,
 public-safety-zone-around-airport,Public safety zone around airport,,
 quality,Quality,,quality
 ramsar,Ramsar site,,
-realm,Phase,phase of development,realm
-reference,Reference,Redirect a prefix and reference to an entity,
+realm,Realm,dataset grouping,realm
 region,Region,,
 regional-park-authority,Regional park authority,,
 resource,Resource,An index of collected resources,resource

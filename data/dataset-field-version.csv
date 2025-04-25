@@ -3866,3 +3866,10 @@ quality,quality,,,,1
 quality,reference,,,,1
 quality,start-date,,,,1
 provision,geography,,A CURIE identifying the geographic area which entities provided by this organisation are expected to be within.,,1
+provision-quality,dataset,,dataset being provided,,1
+provision-quality,end-date,,,,1
+provision-quality,entry-date,,date the quality of the provided data was assessed,,1
+provision-quality,notes,,,,1
+provision-quality,organisation,,organisation providing the dataset,,1
+provision-quality,quality,,,,1
+provision-quality,start-date,,date the quality assessment applies,,1

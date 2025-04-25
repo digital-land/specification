@@ -128,6 +128,10 @@
     <h2 class="govuk-heading-m" id="configuration">Configuration</h2>
     <ul class="govuk-list govuk-list--bullet">
     
+    <li><a href="award">Award</a> &mdash; a funding award</li>
+    
+    <li><a href="cohort">Project</a> &mdash; a group of organisations</li>
+    
     <li><a href="column">Pipeline column</a> &mdash; map resource column name to dataset field</li>
     
     <li><a href="combine">Pipeline combine facts</a> &mdash; combine a series of facts from multiple entries</li>
@@ -148,6 +152,14 @@
     
     <li><a href="filter">Pipeline filter</a> &mdash; filter entries</li>
     
+    <li><a href="fund">Fund</a> &mdash; a funding round</li>
+    
+    <li><a href="include-exclude">Include/Exclude</a> &mdash; include or exclude items from a set</li>
+    
+    <li><a href="intervention">Intervention</a></li>
+    
+    <li><a href="issue-type">Issue type</a> &mdash; types of issues with fields processing resources</li>
+    
     <li><a href="lookup">Pipeline lookup</a> &mdash; lookup entities</li>
     
     <li><a href="old-entity">Entity redirection</a> &mdash; redirect an entity or mark it as gone</li>
@@ -156,11 +168,45 @@
     
     <li><a href="patch">Pipeline patch</a> &mdash; assert a field value during harmonise</li>
     
+    <li><a href="prefix">Prefix</a></li>
+    
+    <li><a href="project-organisation">Project organisation</a></li>
+    
+    <li><a href="project-status">Project status</a></li>
+    
+    <li><a href="project">Project</a></li>
+    
+    <li><a href="provision-reason">Provision reason</a> &mdash; the reason a dataset is provided by an organisation</li>
+    
+    <li><a href="provision-rule">Provision rule</a> &mdash; rules for the datasets an organisation is expected to priovide</li>
+    
+    <li><a href="role-organisation-rule">Role organisation rule</a> &mdash; rules for the organisations with a role</li>
+    
+    <li><a href="role-organisation">Role organisation</a></li>
+    
+    <li><a href="role">Role</a></li>
+    
     <li><a href="skip">Pipeline skip</a> &mdash; remove lines from a resource during normalise</li>
     
     <li><a href="source">Source</a></li>
     
     <li><a href="transform">Pipeline transformation</a></li>
+    
+    </ul>
+    
+    
+    <h2 class="govuk-heading-m" id="datapackage">Data package</h2>
+    <ul class="govuk-list govuk-list--bullet">
+    
+    <li><a href="category">Category</a></li>
+    
+    <li><a href="document">Document</a></li>
+    
+    <li><a href="geography">Geography</a></li>
+    
+    <li><a href="organisation">Organisation</a></li>
+    
+    <li><a href="policy">Policy</a></li>
     
     </ul>
     
@@ -207,8 +253,6 @@
     <li><a href="building-preservation-notice">Building preservation notice</a></li>
     
     <li><a href="built-up-area">Built up area</a> &mdash; built-up areas equal to or greater than 20 hectares</li>
-    
-    <li><a href="category">Category</a></li>
     
     <li><a href="central-activities-zone">Central activities zone</a></li>
     
@@ -294,8 +338,6 @@
     
     <li><a href="document-type">Document type</a></li>
     
-    <li><a href="document">Document</a></li>
-    
     <li><a href="educational-establishment">Educational establishment</a></li>
     
     <li><a href="employment-allocation">Employment allocation</a></li>
@@ -309,8 +351,6 @@
     <li><a href="flood-storage-area">Flood storage area</a> &mdash; areas that act as a balancing reservoir, storage basin or balancing pond for flood control</li>
     
     <li><a href="forest-inventory">Forest inventory</a> &mdash; all forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it</li>
-    
-    <li><a href="geography">Geography</a></li>
     
     <li><a href="government-organisation">Government organisation</a></li>
     
@@ -430,8 +470,6 @@
     
     <li><a href="open-space">Open space</a></li>
     
-    <li><a href="organisation">Organisation</a></li>
-    
     <li><a href="ownership-status">Ownership status</a></li>
     
     <li><a href="parish">Civil parish</a></li>
@@ -477,8 +515,6 @@
     <li><a href="planning-permission-status">Planning permission status</a></li>
     
     <li><a href="planning-permission-type">Planning permission type</a></li>
-    
-    <li><a href="policy">Policy</a></li>
     
     <li><a href="proposed-ramsar-site">Proposed ramsar site</a></li>
     
@@ -553,36 +589,14 @@
     </ul>
     
     
-    <h2 class="govuk-heading-m" id="entity">Entity</h2>
-    <ul class="govuk-list govuk-list--bullet">
-    
-    <li><a href="prefix">CURIE prefix</a></li>
-    
-    <li><a href="reference">Reference</a> &mdash; redirect a prefix and reference to an entity</li>
-    
-    </ul>
-    
-    
-    <h2 class="govuk-heading-m" id="log">Log</h2>
-    <ul class="govuk-list govuk-list--bullet">
-    
-    <li><a href="column-field">Column field</a> &mdash; log of resource columns mapped to dataset fields</li>
-    
-    <li><a href="expectation">Expectation Log</a> &mdash; the output of running expectations based on the rules defined in the expect dataset</li>
-    
-    <li><a href="issue">Issue</a> &mdash; issues with fields processing resources</li>
-    
-    <li><a href="log">Collection log</a></li>
-    
-    <li><a href="resource">Resource</a> &mdash; an index of collected resources</li>
-    
-    </ul>
-    
-    
     <h2 class="govuk-heading-m" id="provenance">Provenance</h2>
     <ul class="govuk-list govuk-list--bullet">
     
     <li><a href="checksum">Checksum</a> &mdash; checksums of dataset files and other media</li>
+    
+    <li><a href="column-field">Column field</a> &mdash; log of resource columns mapped to dataset fields</li>
+    
+    <li><a href="converted-resource">Converted resource</a> &mdash; result of resource conversion</li>
     
     <li><a href="entity">Entity</a> &mdash; a data item</li>
     
@@ -590,21 +604,23 @@
     
     <li><a href="expectation-result">Expectation result</a> &mdash; results from checking expectations</li>
     
+    <li><a href="expectation">Expectation Log</a> &mdash; the output of running expectations based on the rules defined in the expect dataset</li>
+    
     <li><a href="fact-resource">Fact resource</a> &mdash; the provenance of a fact</li>
     
     <li><a href="fact">Fact</a> &mdash; a field and its value for an entity</li>
     
-    <li><a href="field">Field</a></li>
+    <li><a href="issue">Issue</a> &mdash; issues with fields processing resources</li>
     
-    <li><a href="organisation-dataset">Organisation dataset</a></li>
+    <li><a href="log">Collection log</a></li>
     
     <li><a href="provenance">Provenance</a></li>
     
     <li><a href="provision-quality">Provision quality</a> &mdash; quality of data provided by an organisation on a date</li>
     
-    <li><a href="provision-rule">Provision rule</a> &mdash; rules for the datasets an organisation is expected to priovide</li>
-    
     <li><a href="provision">Provision</a> &mdash; data expected to be provided by an organisation</li>
+    
+    <li><a href="resource">Resource</a> &mdash; an index of collected resources</li>
     
     </ul>
     
@@ -614,13 +630,7 @@
     
     <li><a href="attribution">Attribution</a></li>
     
-    <li><a href="award">Award</a> &mdash; a funding award</li>
-    
-    <li><a href="cohort">Project</a> &mdash; a group of organisations</li>
-    
     <li><a href="collection">Collection</a> &mdash; a collection of resources collected from various sources</li>
-    
-    <li><a href="converted-resource">Converted resource</a> &mdash; result of resource conversion</li>
     
     <li><a href="datapackage-dataset">Data package dataset</a> &mdash; datasets included in a datapackage</li>
     
@@ -636,35 +646,15 @@
     
     <li><a href="datatype">Datatype</a></li>
     
-    <li><a href="fund">Fund</a> &mdash; a funding round</li>
-    
-    <li><a href="include-exclude">Include/Exclude</a> &mdash; include or exclude items from a set</li>
-    
-    <li><a href="intervention">Intervention</a></li>
-    
-    <li><a href="issue-type">Issue type</a> &mdash; types of issues with fields processing resources</li>
+    <li><a href="field">Field</a></li>
     
     <li><a href="licence">Licence</a></li>
     
     <li><a href="phase">Phase</a> &mdash; phase of development</li>
     
-    <li><a href="project-organisation">Project organisation</a></li>
-    
-    <li><a href="project-status">Project status</a></li>
-    
-    <li><a href="project">Project</a></li>
-    
-    <li><a href="provision-reason">Provision reason</a> &mdash; the reason a dataset is provided by an organisation</li>
-    
     <li><a href="quality">Quality</a></li>
     
-    <li><a href="realm">Phase</a> &mdash; phase of development</li>
-    
-    <li><a href="role-organisation-rule">Role organisation rule</a> &mdash; rules for the organisations with a role</li>
-    
-    <li><a href="role-organisation">Role organisation</a></li>
-    
-    <li><a href="role">Role</a></li>
+    <li><a href="realm">Realm</a> &mdash; dataset grouping</li>
     
     <li><a href="schema-field">Schema field</a></li>
     
