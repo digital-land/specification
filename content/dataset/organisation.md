@@ -44,7 +44,7 @@ paint-options: ''
 phase: alpha
 plural: Organisations
 prefix: ''
-realm: dataset
+realm: datapackage
 replacement-dataset: ''
 start-date: ''
 themes: []

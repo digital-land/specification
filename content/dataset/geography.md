@@ -31,7 +31,7 @@ paint-options: ''
 phase: alpha
 plural: Geographies
 prefix: ''
-realm: dataset
+realm: datapackage
 replacement-dataset: ''
 start-date: ''
 themes: []

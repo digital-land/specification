@@ -28,7 +28,7 @@ paint-options: ''
 phase: alpha
 plural: Documents
 prefix: ''
-realm: dataset
+realm: datapackage
 replacement-dataset: ''
 start-date: ''
 themes:
