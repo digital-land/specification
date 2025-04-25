@@ -28,7 +28,7 @@ paint-options: ''
 phase: alpha
 plural: Issues
 prefix: ''
-realm: log
+realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:

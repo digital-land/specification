@@ -17,12 +17,12 @@ fields:
 - field: start-date
 key-field: 'prefix'
 licence: ogl3
-name: CURIE prefix
+name: Prefix
 paint-options: ''
 phase: alpha
-plural: CURIE prefixes
+plural: Prefixes
 prefix: ''
-realm: entity
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

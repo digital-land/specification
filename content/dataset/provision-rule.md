@@ -38,7 +38,7 @@ paint-options: ''
 phase: alpha
 plural: Provision rules
 prefix: ''
-realm: provenance
+realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:

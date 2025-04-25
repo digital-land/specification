@@ -27,7 +27,7 @@ paint-options: ''
 phase: alpha
 plural: Expectation Logs
 prefix: ''
-realm: log
+realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
