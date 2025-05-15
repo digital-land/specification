@@ -42,4 +42,4 @@ wikipedia: Green_belt_(United_Kingdom)
 
 Boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),
 grouped using the [greenbelt core](/dataset/greenbelt-core) category.
-This data is compiled by the Department for Levelling Up, Housing and Communities for the purposes of gathering [green belt statistics](https://www.gov.uk/government/collections/green-belt-statistics).
+This data is compiled by the Ministry of Housing, Communities and Local Government for the purposes of gathering [green belt statistics](https://www.gov.uk/government/collections/green-belt-statistics).
