@@ -36,5 +36,5 @@ unknown entity - missing reference,error,Unknown entity,The entry has a missing 
 reference values are not unique,error,Reference values are not unique,There are multiple entries in this resource with this reference and entry date.,external,uniqueness,duplicate reference values,2
 invalid category value,error,Invalid category value,The category value given is not recognised.,external,validity,any other validity error,3
 entity number out of range,notice,Entity number out of range,The entry contains an entity number that is not within the acceptable entity range defined for the dataset.,internal,,,
-no associated documents found for this area,error,No associated documents found for this area,There are no associated documents found for the given area.,internal,consistency,,3
+missing associated entity,error,Missing associated entity,There is no associated entity found.,internal,consistency,,3
 reference value contains reference_prefix,info,Reference value contains reference_prefix,The reference value contains a prefix value.,internal,,,
