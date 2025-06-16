@@ -9,14 +9,13 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: end-date
+- field: dataset
 - field: fact
 - field: entry-date
 - field: entry-number
 - field: priority
   guidance: 'Used to order facts into a history, smaller values are higher priority than larger values.'
 - field: resource
-- field: start-date
 key-field: ''
 licence: ogl3
 name: Fact resource
@@ -33,4 +32,7 @@ typology: value
 version: 1.1
 wikidata: ''
 wikipedia: ''
+partitions:
+- dataset
+- resource
 ---
