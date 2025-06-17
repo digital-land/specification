@@ -36,6 +36,9 @@ for o, n in [
     ("Trafford Council", "Trafford Metropolitan Borough Council"),
     ("Walsall Council", "Walsall Metropolitan Borough Council"),
     ("Milton Keynes Council", "Milton Keynes City Council"),
+    ("Solihull Council","Solihull Metropolitan Borough Council"),
+    ("Westminster City Council","City of Westminster"),
+    ("Westmoreland and Furness Council","Westmorland and Furness Council")
 ]:
     organisations[o] = organisations[n]
 
@@ -59,7 +62,7 @@ for h3 in pq("h3").items():
     if h3.text() in ["Members", "Subscribers", "Contributors"]:
         cohort = "LGD-" + str(h3.text())[:-1]
         for name in str(h3.next("p").text()).split("\n"):
-            if name in ["London Councils", "Tipperary County Council", "Argyll & Bute Council"]:
+            if name in ["London Councils", "Tipperary County Council", "Argyll & Bute Council","Tipperary Council"]:
                 continue;
             name = re.sub("\s*\(.*$", "", name)
             row = {}
