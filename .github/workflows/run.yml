@@ -66,3 +66,41 @@ jobs:
 
     - name: Commit docs
       run: make commit-docs
+
+  check-build-specification-failure:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    if: needs.build.result == 'failure'
+    steps:
+      - name: send failure notification
+        uses: slackapi/slack-github-action@v1
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        with:
+          channel-id: 'planning-data-platform'
+          payload: |
+            {
+              "text": "Build specification has failed",
+              "icon_emoji": ":rotating_light:",
+              "username": "Build specification",
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "Build specification has failed"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "The report is available on <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|GitHub>"
+                  }
+                }
+              ]
+            }
