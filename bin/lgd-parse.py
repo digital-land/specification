@@ -37,8 +37,7 @@ for o, n in [
     ("Walsall Council", "Walsall Metropolitan Borough Council"),
     ("Milton Keynes Council", "Milton Keynes City Council"),
     ("Solihull Council","Solihull Metropolitan Borough Council"),
-    ("Westminster City Council","City of Westminster"),
-    ("Westmoreland and Furness Council","Westmorland and Furness Council")
+    ("Westminster City Council","City of Westminster")
 ]:
     organisations[o] = organisations[n]
 
