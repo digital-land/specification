@@ -71,7 +71,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - build
-    if: needs.build.result == 'failure'
+    if: always() && needs.build.result == 'failure'
     steps:
       - name: send failure notification
         uses: slackapi/slack-github-action@v1
