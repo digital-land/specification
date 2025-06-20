@@ -3,7 +3,6 @@
 import sys
 import csv
 import frontmatter
-import requests
 
 
 # create project-organisation.csv
@@ -26,7 +25,7 @@ for row in csv.DictReader(open("specification/project.csv", newline="")):
 
     post = frontmatter.load(path)
 
-    for o in post.metadata["organisations"] or {}:
+    for o in post.metadata["organisations"] or []:
 
         cohort = o.get("cohort", "")
 
