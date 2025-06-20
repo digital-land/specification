@@ -139,6 +139,8 @@ organisations:
   start-date: 2022-07-27
 - organisation: local-authority:NOW
   start-date: 2019-07-11
+- organisation: local-authority:OAD
+  start-date: 2025-07-07
 - organisation: local-authority:PEN
   start-date: 2021-11-15
 - organisation: local-authority:PTE
@@ -187,6 +189,8 @@ organisations:
   start-date: 2022-06-22
 - organisation: local-authority:SST
   start-date: 2022-08-11
+- organisation: local-authority:SWK
+  start-date: 2025-07-14
 - organisation: local-authority:SPE
   start-date: 2021-04-23
 - organisation: local-authority:SKP

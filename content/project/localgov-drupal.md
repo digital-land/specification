@@ -31,11 +31,15 @@ organisations:
   cohort: LGD-Subscriber
 - organisation: local-authority:ESS
   cohort: LGD-Subscriber
+- organisation: local-authority:GRE
+  cohort: LGD-Subscriber
 - organisation: local-authority:HMF
   cohort: LGD-Subscriber
 - organisation: local-authority:HRY
   cohort: LGD-Subscriber
 - organisation: local-authority:HAT
+  cohort: LGD-Subscriber
+- organisation: local-authority:ISL
   cohort: LGD-Subscriber
 - organisation: local-authority:KTT
   cohort: LGD-Subscriber
@@ -65,8 +69,6 @@ organisations:
   cohort: LGD-Subscriber
 - organisation: local-authority:WLL
   cohort: LGD-Subscriber
-- organisation: local-authority:WFT
-  cohort: LGD-Subscriber
 - organisation: local-authority:WDE
   cohort: LGD-Subscriber
 - organisation: local-authority:WLI
@@ -85,13 +87,9 @@ organisations:
   cohort: LGD-Contributor
 - organisation: local-authority:EHA
   cohort: LGD-Contributor
-- organisation: local-authority:GRE
-  cohort: LGD-Contributor
 - organisation: local-authority:IPS
   cohort: LGD-Contributor
 - organisation: local-authority:IOS
-  cohort: LGD-Contributor
-- organisation: local-authority:ISL
   cohort: LGD-Contributor
 - organisation: local-authority:KEC
   cohort: LGD-Contributor
@@ -112,6 +110,14 @@ organisations:
 - organisation: local-authority:SHF
   cohort: LGD-Contributor
 - organisation: local-authority:SST
+  cohort: LGD-Contributor
+- organisation: local-authority:SOL
+  cohort: LGD-Contributor
+- organisation: local-authority:WFT
+  cohort: LGD-Contributor
+- organisation: local-authority:WSM
+  cohort: LGD-Contributor
+- organisation: local-authority:WFUA
   cohort: LGD-Contributor
 - organisation: local-authority:WOK
   cohort: LGD-Contributor
