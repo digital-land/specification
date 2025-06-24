@@ -1,6 +1,6 @@
 reference,quality,priority,name,description
-none,none,No data,0,We have no data
-some,some,Some data,1,We have some data from an alternative source
+none,none,0,No data,We have no data
+some,some,1,Some data,We have some data from an alternative source
 authoritative,authoritative,2,Authoritative data,We have some data from the authoritative source
-usable,usable,Usable data,3,We have data from the authoritative source
+usable,usable,3,Usable data,We have data from the authoritative source
 trustworthy,trustworthy,5,Trustworthy data,We have authorititive data linked to material information
