@@ -3,7 +3,6 @@
 import sys
 import csv
 import frontmatter
-import requests
 
 
 # create project-organisation.csv
@@ -26,14 +25,14 @@ for row in csv.DictReader(open("specification/project.csv", newline="")):
 
     post = frontmatter.load(path)
 
-    for o in post.metadata["organisations"] or {}:
+    for o in post.metadata["organisations"] or []:
 
         cohort = o.get("cohort", "")
 
         dates = [post.metadata["start-date"]]
         if cohort in cohorts:
             dates.append(cohorts[cohort].get("start-date", "") or "")
-        start_date = max(dates)
+        start_date = min(dates)
 
         dates = [post.metadata["end-date"]]
         if cohort in cohorts:
