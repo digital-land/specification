@@ -13,6 +13,7 @@ fields:
 - field: end-date
 - field: entry-date
 - field: name
+- field: priority
 - field: quality
 - field: reference
 - field: start-date
