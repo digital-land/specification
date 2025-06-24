@@ -95,8 +95,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_infrastructure-project_infrastructure-project-decision_to_infrastructure-project-decision_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 16290 C 1673.5 16290 1673.5 5870 2159 5870"><title>from infrastructure-project infrastructure-project-decision to infrastructure-project-decision reference</title></path>
 <path class="line" id="from_internal-drainage-district_internal-drainage-board_to_internal-drainage-board_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 16630 C 634.0 16630 634.0 1270 297 1270"><title>from internal-drainage-district internal-drainage-board to internal-drainage-board reference</title></path>
 <path class="line" id="from_internal-drainage-district_region_to_region_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 16650 C 1228.0 16650 1228.0 26250 1188 26250"><title>from internal-drainage-district region to region reference</title></path>
-<path class="line" id="from_listed-building-outline_address_to_address_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 16950 C 1228.0 16950 1228.0 50 1188 50"><title>from listed-building-outline address to address reference</title></path>
-<path class="line" id="from_listed-building-outline_listed-building_to_listed-building_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 16990 C 1228.0 16990 1228.0 17290 1188 17290"><title>from listed-building-outline listed-building to listed-building reference</title></path>
+<path class="line" id="from_listed-building-outline_listed-building_to_listed-building_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 16970 C 1228.0 16970 1228.0 17290 1188 17290"><title>from listed-building-outline listed-building to listed-building reference</title></path>
 <path class="line" id="from_listed-building_listed-building-grade_to_listed-building-grade_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 17350 C 1673.5 17350 1673.5 6910 2159 6910"><title>from listed-building listed-building-grade to listed-building-grade reference</title></path>
 <path class="line" id="from_local-authority-district_local-authority-district_to_local-authority-district_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 17790 C 1228.0 17790 1228.0 17670 1188 17670"><title>from local-authority-district local-authority-district to local-authority-district reference</title></path>
 <path class="line" id="from_local-green-space_local-green-space_to_local-green-space_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 18190 C 1228.0 18190 1228.0 18070 1188 18070"><title>from local-green-space local-green-space to local-green-space reference</title></path>
@@ -4546,16 +4545,16 @@ text.datatype{fill:#0b0c0c;}
 <text x="1138" y="16930" class="datatype">string</text>
 <rect x="971" y="16940" width="162" height="20" class="field"/>
 <rect x="1133" y="16940" width="55" height="20" class="datatype"/>
-<text x="976" y="16950" class="field">address</text>
-<text x="1138" y="16950" class="datatype">reference</text>
+<text x="976" y="16950" class="field">address-text</text>
+<text x="1138" y="16950" class="datatype">string</text>
 <rect x="971" y="16960" width="162" height="20" class="field"/>
 <rect x="1133" y="16960" width="55" height="20" class="datatype"/>
-<text x="976" y="16970" class="field">address-text</text>
-<text x="1138" y="16970" class="datatype">string</text>
+<text x="976" y="16970" class="field">listed-building</text>
+<text x="1138" y="16970" class="datatype">reference</text>
 <rect x="971" y="16980" width="162" height="20" class="field"/>
 <rect x="1133" y="16980" width="55" height="20" class="datatype"/>
-<text x="976" y="16990" class="field">listed-building</text>
-<text x="1138" y="16990" class="datatype">reference</text>
+<text x="976" y="16990" class="field">uprns</text>
+<text x="1138" y="16990" class="datatype">reference*</text>
 <rect x="971" y="17000" width="162" height="20" class="field"/>
 <rect x="1133" y="17000" width="55" height="20" class="datatype"/>
 <text x="976" y="17010" class="field">wikidata</text>

@@ -4,10 +4,10 @@ name: Listed building outline
 plural: Listed building outlines
 specification-status: piloting
 start-date: ''
-end-date: '2025-06-24'
-entry-date: '2025-02-28'
+end-date: ''
+entry-date: '2025-06-24'
 github-discussion: 44
-version: 1.3.1
+version: 1.4.0
 datasets:
     - dataset: listed-building-outline
       fields:
@@ -43,12 +43,16 @@ datasets:
             Example: `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
 
             If you’re providing geometry in a GeoJSON, GML or Geopackage, use the associated geometry format.
+        - field: description
+          description: a description of the area impacted by the listing
         - field: notes
           description: optional notes
           guidance: |
             Optional text on how this data was made or produced, or how it can be interpreted.
         - field: organisation
           description: the organisation responsible for the listed building
+        - field: uprns
+          description: a list of uprns contained in the area and therefore affected by the listing
         - field: entry-date
           description: the date this information has been entered as a record
           guidance: |

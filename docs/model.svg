@@ -480,8 +480,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_listed-building-grade_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 31770 C 931.0 31770 931.0 790 891 790"><title>from listed-building-grade entity to entity entity</title></path>
 <path class="line" id="from_listed-building-outline_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 31990 C 782.5 31990 782.5 5130 594 5130"><title>from listed-building-outline prefix to prefix prefix</title></path>
 <path class="line" id="from_listed-building-outline_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 32030 C 931.0 32030 931.0 790 891 790"><title>from listed-building-outline entity to entity entity</title></path>
-<path class="line" id="from_listed-building-outline_address_to_address_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 32090 C 1228.0 32090 1228.0 50 1188 50"><title>from listed-building-outline address to address reference</title></path>
-<path class="line" id="from_listed-building-outline_listed-building_to_listed-building_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 32130 C 1228.0 32130 1228.0 32430 1188 32430"><title>from listed-building-outline listed-building to listed-building reference</title></path>
+<path class="line" id="from_listed-building-outline_listed-building_to_listed-building_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 32110 C 1228.0 32110 1228.0 32430 1188 32430"><title>from listed-building-outline listed-building to listed-building reference</title></path>
 <path class="line" id="from_listed-building-outline_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 32250 C 1228.0 32250 1228.0 1030 1268 1030"><title>from listed-building-outline organisation to organisation reference</title></path>
 <path class="line" id="from_listed-building_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 32410 C 782.5 32410 782.5 5130 594 5130"><title>from listed-building prefix to prefix prefix</title></path>
 <path class="line" id="from_listed-building_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 32450 C 931.0 32450 931.0 790 891 790"><title>from listed-building entity to entity entity</title></path>
@@ -8836,16 +8835,16 @@ text.datatype{fill:#0b0c0c;}
 <text x="1138" y="32070" class="datatype">string</text>
 <rect x="971" y="32080" width="162" height="20" class="field"/>
 <rect x="1133" y="32080" width="55" height="20" class="datatype"/>
-<text x="976" y="32090" class="field">address</text>
-<text x="1138" y="32090" class="datatype">reference</text>
+<text x="976" y="32090" class="field">address-text</text>
+<text x="1138" y="32090" class="datatype">string</text>
 <rect x="971" y="32100" width="162" height="20" class="field"/>
 <rect x="1133" y="32100" width="55" height="20" class="datatype"/>
-<text x="976" y="32110" class="field">address-text</text>
-<text x="1138" y="32110" class="datatype">string</text>
+<text x="976" y="32110" class="field">listed-building</text>
+<text x="1138" y="32110" class="datatype">reference</text>
 <rect x="971" y="32120" width="162" height="20" class="field"/>
 <rect x="1133" y="32120" width="55" height="20" class="datatype"/>
-<text x="976" y="32130" class="field">listed-building</text>
-<text x="1138" y="32130" class="datatype">reference</text>
+<text x="976" y="32130" class="field">uprns</text>
+<text x="1138" y="32130" class="datatype">reference*</text>
 <rect x="971" y="32140" width="162" height="20" class="field"/>
 <rect x="1133" y="32140" width="55" height="20" class="datatype"/>
 <text x="976" y="32150" class="field">wikidata</text>

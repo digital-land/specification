@@ -127,7 +127,7 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <p class="govuk-body govuk-body govuk-!-margin-bottom-9">boundary of a listed building</p>
-    <!-- The geospatial boundary for [listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/) as collected from local planning authorities.
+    <!-- A geospatial boundary or extent for [listings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/). These areas indictate what is affected by the listing and we collect them from the local planning authorities.
 
 We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
 
@@ -146,15 +146,6 @@ We expect to eventually merge this dataset with the [listed building](/dataset/l
         </tr>
       </thead>
       <tbody class="govuk-table__body">
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_address"><a href="../../field/address">address</a>
-          </td>
-          <td class="govuk-table__cell">Address</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
     
         
         <tr class="govuk-table__row">
@@ -257,6 +248,15 @@ We expect to eventually merge this dataset with the [listed building](/dataset/l
     
         
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_uprns"><a href="../../field/uprns">uprns</a>
+          </td>
+          <td class="govuk-table__cell">UPRNs</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_wikidata"><a href="../../field/wikidata">wikidata</a>
           </td>
           <td class="govuk-table__cell">Wikidata item</td>
@@ -315,8 +315,6 @@ We expect to eventually merge this dataset with the [listed building](/dataset/l
     <p class="govuk-body">This dataset links to the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../address">Address</a></li>
-    
       <li><a href="../entity">Entity</a></li>
     
       <li><a href="../listed-building">Listed building</a></li>
@@ -324,6 +322,8 @@ We expect to eventually merge this dataset with the [listed building](/dataset/l
       <li><a href="../organisation">Organisation</a></li>
     
       <li><a href="../prefix">Prefix</a></li>
+    
+      <li><a href="../uprn">UPRN</a></li>
     
     </ul>
     
