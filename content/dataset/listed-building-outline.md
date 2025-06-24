@@ -9,7 +9,6 @@ entity-maximum: '43099999'
 entity-minimum: '42100000'
 entry-date: ''
 fields:
-- field: address
 - field: address-text
 - field: description
 - field: end-date
@@ -24,6 +23,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+- field: uprns
 - field: wikidata
 - field: wikipedia
 github-discussion: 44
@@ -40,12 +40,12 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 2.0
+version: 3.0
 wikidata: Q570600
 wikipedia: Listed_building
 ---
 
-The geospatial boundary for [listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/) as collected from local planning authorities.
+A geospatial boundary or extent for [listings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/). These areas indictate what is affected by the listing and we collect them from the local planning authorities.
 
 We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
 
