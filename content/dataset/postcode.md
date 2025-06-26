@@ -3,7 +3,7 @@ attribution: ogl3
 collection: 
 consideration: postcodes
 dataset: postcode
-description: Postcode
+description: Postcodes in England
 end-date: ''
 entity-maximum: 499999999
 entity-minimum: 300000000
