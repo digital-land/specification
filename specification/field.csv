@@ -348,6 +348,7 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,wkt,,,,point-wkt,,,Point-WKT,wkt,,,,value,,
 1,,point,,,,point,,,Point,point-wkt,,,,value,,
 1,,string,,,,policy,,,Policy,policy,,,,policy,,
+1,,string,Postcode,,,postcode,,,postcode,geography,,,,geography,,
 1,,url,,,,prefix-uri,,,CURIE prefix URI,value,,,,value,,
 1,,string,,,,prefix,,,CURIE prefix,identifier,,,,value,,
 1,,string,,,,prepend,,,Prepend,string,,,,value,,
