@@ -9,6 +9,83 @@ entry-date: '2023-09-08'
 github-discussion: 43
 version: 1.3.1
 datasets:
+    - dataset: tree-preservation-zone
+      name: tree preservation zone
+      fields:
+        - field: reference
+          description: the <a href="#reference">reference</a> for the tree preservation zone
+          guidance: |
+            A reference or ID for each tree preservation zone that is:
+
+            - unique within your dataset
+            - permanent - it doesn't change when the dataset is updated
+            If you don't use a reference already, you will need to create one. This can be a short set of letters or numbers.
+
+            Example: `TPO1`
+        - field: name
+          description: the name of the tree preservation zone
+          guidance: |
+            This will be the display name of the page hosting data about this tree preservation zone on your website. This can be:
+
+            - name
+            - reference
+            - address
+            - blank
+        - field: tree-preservation-order
+          description: the <a href="#reference">reference</a> for the tree preservation order
+          guidance: |
+            The reference for the tree preservation order that covers this zone.
+        - field: tree-preservation-zone-type
+          description: the type of zone, for example area, group or woodland
+          dataset: tree-preservation-zone-type
+          guidance: |
+            What sort of tree preservation zone this is.
+
+            This can be:
+
+            - area
+            - group
+            - woodland
+        - field: geometry
+          description: the boundary of the area covered by the tree preservation zone in WKT format
+          guidance: |
+            The boundary for the tree preservation zone as a single polygon or multipolygon value. All points in the polygon must be in the WGS84 coordinate reference system.
+
+            If you’re providing geometry in a CSV, geometry should be in well-known text (WKT).
+
+            Example: `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+
+            If you’re providing geometry in a GeoJSON, GML or Geopackage, use the associated geometry format.
+        - field: point
+          description: the centre of the tree preservation zone if you cannot provide the full geometry
+        - field: notes
+          description: optional notes
+          guidance: |
+            Optional text on how this data was made or produced, or how it can be interpreted.
+        - field: organisation
+          description: the organisation responsible for this tree preservation order
+        - field: entry-date
+          description: the <a href="#date">date</a> this entry was created or amended
+          guidance: |
+            The date the entity was last updated.
+
+            If the entity has never been updated, enter the same date as start-date.
+
+            Write in `YYYY-MM-DD` format.
+
+            Example: `2022-12-20`
+        - field: start-date
+          description: the <a href="#date">date</a> the tree preservation zone came into force
+          guidance: |
+            The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
+
+            Example: `1984-03-28`
+        - field: end-date
+          description: the <a href="#date">date</a> the tree preservation zone ended or leave blank if the zone is still active
+          guidance: |
+            If applicable, the date that the tree preservation order was revoked, written in `YYYY-MM-DD` format. If it's still in effect, leave the cell blank.
+
+            Example: `1999-01-20`
     - dataset: tree-preservation-order
       name: tree preservation order
       fields:
@@ -99,83 +176,6 @@ datasets:
           description: the <a href="#date">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active
           guidance: |
             Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
-
-            Example: `1999-01-20`
-    - dataset: tree-preservation-zone
-      name: tree preservation zone
-      fields:
-        - field: reference
-          description: the <a href="#reference">reference</a> for the tree preservation zone
-          guidance: |
-            A reference or ID for each tree preservation zone that is:
-
-            - unique within your dataset
-            - permanent - it doesn't change when the dataset is updated
-            If you don't use a reference already, you will need to create one. This can be a short set of letters or numbers.
-
-            Example: `TPO1`
-        - field: name
-          description: the name of the tree preservation zone
-          guidance: |
-            This will be the display name of the page hosting data about this tree preservation zone on your website. This can be:
-
-            - name
-            - reference
-            - address
-            - blank
-        - field: tree-preservation-order
-          description: the <a href="#reference">reference</a> for the tree preservation order
-          guidance: |
-            The reference for the tree preservation order that covers this zone.
-        - field: tree-preservation-zone-type
-          description: the type of zone, for example area, group or woodland
-          dataset: tree-preservation-zone-type
-          guidance: |
-            What sort of tree preservation zone this is.
-
-            This can be:
-
-            - area
-            - group
-            - woodland
-        - field: geometry
-          description: the boundary of the area covered by the tree preservation zone in WKT format
-          guidance: |
-            The boundary for the tree preservation zone as a single polygon or multipolygon value. All points in the polygon must be in the WGS84 coordinate reference system.
-
-            If you’re providing geometry in a CSV, geometry should be in well-known text (WKT).
-
-            Example: `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
-
-            If you’re providing geometry in a GeoJSON, GML or Geopackage, use the associated geometry format.
-        - field: point
-          description: the centre of the tree preservation zone if you cannot provide the full geometry
-        - field: notes
-          description: optional notes
-          guidance: |
-            Optional text on how this data was made or produced, or how it can be interpreted.
-        - field: organisation
-          description: the organisation responsible for this tree preservation order
-        - field: entry-date
-          description: the <a href="#date">date</a> this entry was created or amended
-          guidance: |
-            The date the entity was last updated.
-
-            If the entity has never been updated, enter the same date as start-date.
-
-            Write in `YYYY-MM-DD` format.
-
-            Example: `2022-12-20`
-        - field: start-date
-          description: the <a href="#date">date</a> the tree preservation zone came into force
-          guidance: |
-            The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
-
-            Example: `1984-03-28`
-        - field: end-date
-          description: the <a href="#date">date</a> the tree preservation zone ended or leave blank if the zone is still active
-          guidance: |
-            If applicable, the date that the tree preservation order was revoked, written in `YYYY-MM-DD` format. If it's still in effect, leave the cell blank.
 
             Example: `1999-01-20`
     - dataset: tree
