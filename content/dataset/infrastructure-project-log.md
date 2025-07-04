@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: infrastructure-project
+collection:
 consideration: nationally-significant-infrastructure-projects
 dataset: infrastructure-project-log
 description: A log of events that happen during the infrastructure projects
