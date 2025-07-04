@@ -62,7 +62,7 @@ def generate(specification_path, output_path=None):
             return (
                 f'<path class="{c}" fill="none" stroke-width="2"'
                 f' marker-start="url(#start-dot)" marker-end="url(#end-dot)"'
-                f' d="M 217 70 C 240 70 274 30 297 30"/>'
+                f' d="M 221 70 C 240 70 274 30 293 30"/>'
             )
         mid_x = min(from_x, to_x) + abs(from_x - to_x) / 2
         return (
