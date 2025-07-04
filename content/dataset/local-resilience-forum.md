@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: organisation
+collection:
 consideration: ''
 dataset: local-resilience-forum
 description: ''
