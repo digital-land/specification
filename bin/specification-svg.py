@@ -57,7 +57,13 @@ def generate(specification_path, output_path=None):
         return f'<text x="{X}" y="{Y}" class="{c}">{text}</text>'
 
 
-    def svg_spline(c, from_x, from_y, to_x, to_y):
+    def svg_spline(c, from_x, from_y, to_x, to_y, from_id=None, to_id=None):
+        if from_id == "from:tree-preservation-zone:tree-preservation-order" and to_id == "to:tree-preservation-order:reference":
+            return (
+                f'<path class="{c}" fill="none" stroke-width="2"'
+                f' marker-start="url(#start-dot)" marker-end="url(#end-dot)"'
+                f' d="M 217 70 C 240 70 274 30 297 30"/>'
+            )
         mid_x = min(from_x, to_x) + abs(from_x - to_x) / 2
         return (
             f'<path class="{c}" fill="none" stroke-width="2"'
@@ -161,7 +167,7 @@ def generate(specification_path, output_path=None):
     )
 
     for l in links:
-        svg_content.append(svg_spline("line", *points[l["from"]], *points[l["to"]]))
+        svg_content.append(svg_spline("line", *points[l["from"]], *points[l["to"]], l["from"], l["to"]))
 
     for box in boxes:
         svg_content.append("<g>")
