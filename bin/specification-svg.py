@@ -103,7 +103,7 @@ def generate(specification_path, output_path=None):
     padding = 5
 
     field_width = 162
-    datatype_width = 55
+    datatype_width = 64
     gap = 80
 
     row_width = field_width + datatype_width
