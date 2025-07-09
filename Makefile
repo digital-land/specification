@@ -206,7 +206,7 @@ var/lgd.csv: var/cache/lgd.html var/cache/organisation.csv bin/lgd-parse.py
 
 var/cache/lgd.html:
 	@mkdir -p var/cache/
-	curl -L 'https://localgovdrupal.org/community/our-councils' > $@
+	curl -L -A 'MHCLG Planning Data Collector' 'https://localgovdrupal.org/community/our-councils' > $@
 
 # deprecated
 specification/organisation-dataset.csv:        specification/provision.csv
