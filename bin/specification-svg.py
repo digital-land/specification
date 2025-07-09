@@ -64,6 +64,33 @@ def generate(specification_path, output_path=None):
             f' marker-start="url(#start-dot)" marker-end="url(#end-dot)"'
             f' d="M {from_x} {from_y} C {mid_x} {from_y} {mid_x} {to_y} {to_x} {to_y}"/>'
         )
+    
+    def get_links(dataset, datasets):
+        """
+        Get links for a dataset.
+        If the dataset has a field that is a reference to another dataset, return the link.
+        If the field is a reference to a field in another
+        dataset, return the link.
+        """
+        links = []
+        for f in dataset["fields"]:
+            field = f["field"]
+            # find the dataset that this field references
+            link_dataset = f.get("dataset", None)
+            if not link_dataset:
+                if field in datasets:
+                    link_dataset = field
+
+            if link_dataset == "tree-preservation-order":
+                print('found it')
+            if link_dataset in datasets:
+                links.append(
+                    {
+                        "from": f"from:{dataset['dataset']}:{field}",
+                        "to": f"to:{link_dataset}:reference",
+                    }
+                )
+        return links
 
     # this is provided in makerule target
     path = specification_path
@@ -76,7 +103,7 @@ def generate(specification_path, output_path=None):
     padding = 5
 
     field_width = 162
-    datatype_width = 55
+    datatype_width = 64
     gap = 80
 
     row_width = field_width + datatype_width
@@ -90,6 +117,7 @@ def generate(specification_path, output_path=None):
     canvas_height = (maxrows + 1) * row_height
 
     X = 0
+    Y_OFFSET = 0
     points = {}
     links = []
     boxes = []
@@ -98,6 +126,22 @@ def generate(specification_path, output_path=None):
         dataset = d["dataset"]
 
         Y = 0
+
+        # do linking logic first as it affects the original X and Y values
+        dataset_links = get_links(d, datasets)
+        if dataset_links:
+            links.extend(dataset_links)
+            linked_datasets = [link["to"].split(':')[1] for link in dataset_links]
+            min_link_index = min(
+                [datasets.index(link) for link in linked_datasets]
+            )
+            # if there is a link behind the current row then we need to offset  the Y further
+            if datasets.index(dataset) - 1 > min_link_index:
+                # offset the Y to put it under the  previous table
+                Y = Y + Y_OFFSET
+                X = X -row_width - gap
+                canvas_height = canvas_height + (maxrows + 1) * row_height
+                
         box = []
         box.append(svg_rect("name", X, Y, row_width, row_height))
         box.append(svg_text("name", dataset, X + int(row_width / 2), Y + text_y))
@@ -119,22 +163,10 @@ def generate(specification_path, output_path=None):
             points[f"from:{dataset}:{field}"] = (X, Y + text_y)
             points[f"to:{dataset}:{field}"] = (X + row_width, Y + text_y)
 
-            link_dataset = f.get("dataset", None)
-            if not link_dataset:
-                if field in datasets:
-                    link_dataset = field
-
-            if link_dataset in datasets:
-                links.append(
-                    {
-                        "from": f"from:{dataset}:{field}",
-                        "to": f"to:{link_dataset}:reference",
-                    }
-                )
-
         boxes.append(box)
 
         X = X + row_width + gap
+        Y_OFFSET = Y + gap
 
 
     svg_content.append(
