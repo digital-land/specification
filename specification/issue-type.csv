@@ -38,3 +38,5 @@ invalid category value,error,Invalid category value,The category value given is 
 entity number out of range,notice,Entity number out of range,The entry contains an entity number that is not within the acceptable entity range defined for the dataset.,internal,,,
 missing associated entity,error,Missing associated entity,There is no associated entity found.,external,consistency,,3
 reference value contains reference_prefix,info,Reference value contains reference_prefix,The reference value contains a prefix value.,internal,,,
+far-past-date,error,Far past date,The date is before 1800 so unlikely to be correct,internal,validity,any other validity error,3
+far-future-date,error,Far future date,The date is more than 50 years in the future,internal,validity,any other validity error,3
