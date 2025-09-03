@@ -78,7 +78,7 @@ jobs:
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         with:
-          channel-id: 'planning-data-platform'
+          channel-id: 'planning-data-alerts'
           payload: |
             {
               "text": "Build specification has failed",
