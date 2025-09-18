@@ -44,7 +44,7 @@ wikidata: ''
 wikipedia: ''
 ---
 
-A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.
+A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building, or an area.
 
 Each [article 4 direction](/dataset/article-4-direction) may apply to one or more article 4 direction areas.
 
