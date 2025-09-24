@@ -40,5 +40,10 @@ wikidata: Q6664495
 wikipedia: Local_planning_authority
 ---
 
-The administrative boundaries of local planning authorities in England as provided by the ONS for the purposes of producing statistics.
-A local planning authority may be a [local authority](/dataset/local-authority), [national park authority](/dataset/national-park-authority) or [development corporation](/dataset/development-corporation).
+This dataset contains the administrative boundaries of local planning authorities in England.
+
+It can be used for:
+<ul>
+<li>producing statistics</li>
+<li>understanding responsible LPAs on a national scale for planning applications, for example</li>
+</ul>
