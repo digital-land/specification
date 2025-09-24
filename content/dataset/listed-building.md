@@ -43,5 +43,13 @@ wikidata: Q570600
 wikipedia: Listed_building
 ---
 
-[Listed buildings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/).
-Each building has a [listed building grade](/dataset/listed-building-grade).
+This dataset contains data about special architectural or historic buildings with legal protection.
+
+It can be used for:
+<ul>
+<li>guiding conservation efforts</li>
+<li>identifying, protecting, and managing historic buildings by informing planning decisions</li>
+<li>providing public information about a building's special architectural and historical interest</li>
+</ul>
+
+This data shows a point within the listed building and does not define the extent of the area affected by the listing.
