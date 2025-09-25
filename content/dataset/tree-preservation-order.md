@@ -43,8 +43,8 @@ wikipedia: ''
 version: 2.0
 ---
 
-A Tree Preservation Order (TPO) can be placed on single trees, groups of trees and even whole woodlands. Tree Preservation Orders are made by local planning authorities following [guidance](https://www.gov.uk/guidance/tree-preservation-orders-and-trees-in-conservation-areas) provided by the [Ministry of Housing, Communities and Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-local-government).
+This dataset contains information on trees with preservation orders.
 
-Each tree preservation order may apply to a number of [tree preservation order zones](/dataset/tree-preservation-order-zone), and a number of individual [trees](/dataset/tree).
+It can be used for managing and protecting important trees by preventing their unauthorised removal or damage. 
 
-This dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for tree preservation orders](https://www.digital-land.info/guidance/specifications/tree-preservation-order).
+Members of the public and developers use the data to check if a tree is protected and to inform planning applications or tree work proposals. The data helps ensure trees remain a significant part of the local environment and public amenity.
