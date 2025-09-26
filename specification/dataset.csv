@@ -223,10 +223,16 @@ This data shows a point within the listed building and does not define the exten
 crown-copyright,local-area-requirements,local-area-requirements,local-area-requirements,,,,52,,20000,29999,ogl3,Local area requirements,,Local area requirements,alpha,,dataset,,,,administrative;housing,document,2.0,,
 ons-boundary,local-authority-district,local-authority-district,local-authority-district,,,,,,8600000,8699999,ogl3,Local authority district,"{""colour"": ""#0b0c0c"", ""opacity"": 0.1, ""weight"": 5}",Local authority districts,beta,statistical-geography,dataset,,,The administrative boundaries of local authorities in England as provided by the ONS for the purposes of producing statistics.,administrative,geography,1.0,Q349084,Districts_of_England
 crown-copyright,organisation,,local-authority-type,,,,,,8800000,8899999,ogl3,Local authority type,,Local authority types,beta,,dataset,,,,administrative,category,1.0,,
-crown-copyright,organisation,,local-authority,,,,,,10000,19999,ogl3,Local authority,,Local authorities,beta,,dataset,,,"A [local authority](https://www.gov.uk/guidance/local-government-structure-and-elections) may have powers to create development policies,
-and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
-This data originally came from the [local authority register](https://www.data.gov.uk/dataset/05d3b10a-6670-4643-9c53-7efc98775c8d/local-authority-eng-register).
-We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,Q171634,Local_government_in_England
+crown-copyright,organisation,,local-authority,,,,,,10000,19999,ogl3,Local authority,,Local authorities,beta,,dataset,,,"This dataset contains information about local authorities which have powers to create development policies, and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
+
+It can be used for:
+<u>
+<li>internal management, such as improving service delivery</li>
+<li>allocating resources and identifying social problems</li>
+<li>policy-making by central government</li>
+<li>financial management by central government</li>
+<li>public reporting by central government</li>
+</u>",administrative,organisation,1.0,Q171634,Local_government_in_England
 crown-copyright,,,local-enterprise-partnership,,,,,,4000,4999,ogl3,Local Enterprise Partnership,,Local Enterprise Partnerships,alpha,,dataset,,,We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.,administrative,organisation,1.0,,
 crown-copyright,,local-green-space,local-green-space,,,,,,8900000,8999999,ogl3,Local green space,,Local green spaces,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,local-nature-recovery-strategy,local-nature-recovery-strategy,,,,,,9000000,9099999,ogl3,Local nature recovery strategy,,Local nature recovery strategies,alpha,,dataset,,,,environment,geography,1.0,,
