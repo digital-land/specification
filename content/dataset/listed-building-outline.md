@@ -45,10 +45,12 @@ wikidata: Q570600
 wikipedia: Listed_building
 ---
 
-A geospatial boundary or extent for [listings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/). These areas indictate what is affected by the listing and we collect them from the local planning authorities.
+This dataset contains geospatial boundary or extent information about listings.
 
-We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
+It can be used for identifying and protecting buildings of special architectural or historic interest, ensuring that any work on or near these properties requires special consent and design considerations to prevent harm to the building's significance.
 
-We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.
+This spatial data can help in planning applications, conservation efforts, and policy development by showing the locations and boundaries of designated heritage assets, influencing development proposals and land use decisions. 
 
-*This dataset is compiled from data provided by Local Planning Authorities. This dataset does not consistently show the curtilage of listed buildings for planning purposes. Therefore, this dataset should only be used as an indicative guide and users should do further checks before making any planning decision.*
+This dataset does not consistently show the curtilage of listed buildings for planning purposes and should only be used as an indicative guide. We encourage users to make further checks before making any planning decision.
+
+Data shows the extent of the land associated with the listing. This dataset is a work in progress and does not have full coverage across England.
