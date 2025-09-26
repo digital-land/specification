@@ -170,7 +170,7 @@ wikidata: Q896586
 wikipedia: Brownfield_land
 ---
 
-Local planning authorities designate sites in their area as being [brownfield land](https://www.gov.uk/guidance/brownfield-land-registers), and publish a register of brownfield sites annually following [GOV.UK guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data).
+This dataset contains a register of Brownfield land sites in England that are suitable to be added to the Brownfield land register. 
 
 Each site references the following categories:
 
@@ -178,3 +178,11 @@ Each site references the following categories:
 * [planning-permission-status](/dataset/planning-permission-status)
 * [planning-permission-type](/dataset/planning-permission-type)
 * [site-category](/dataset/site-category)
+
+It can be used for:
+<ul>
+<li>informing planning policies</li>
+<li>identifying suitable sites for residential and other development</li>
+<li>encouraging private investment</li>
+<li>accelerating housing construction by providing clear, publicly available information on previously developed land with development potential</li>
+</ul>
