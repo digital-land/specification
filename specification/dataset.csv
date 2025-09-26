@@ -42,14 +42,22 @@ historic-england,historic-england,battlefields,battlefield,,,,,,1400000,1499999,
 crown-copyright,,best-and-most-versatile-agricultural-land,best-and-most-versatile-agricultural-land,,,,,,1500000,1599999,ogl3,Best and most versatile agricultural land,,Best and most versatile agricultural land,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,biodiversity-net-gain-assessments,biodiversity-net-gain-assessment,,,,,,1600000,1699999,ogl3,Biodiversity net gain assesment,,Biodiversity net gain assesments,alpha,,dataset,,,,environment,document,1.0,,
 ons-boundary,border,border,border,,,,,,31000,31999,ogl3,Border,"{""colour"": ""#0b0c0c"", ""opacity"": 0.1, ""weight"": 5}",Borders,beta,statistical-geography,dataset,,,The boundary of England as provided by the ONS for the purposes of producing statistics.,administrative,geography,1.0,,
-crown-copyright,brownfield-land,brownfield-land,brownfield-land,Land that has been previously been developed,,,28,site,1700000,1799999,ogl3,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,live,,dataset,,,"Local planning authorities designate sites in their area as being [brownfield land](https://www.gov.uk/guidance/brownfield-land-registers), and publish a register of brownfield sites annually following [GOV.UK guidance](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data).
+crown-copyright,brownfield-land,brownfield-land,brownfield-land,Land that has been previously been developed,,,28,site,1700000,1799999,ogl3,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,live,,dataset,,,"This dataset contains a register of Brownfield land sites in England that are suitable to be added to the Brownfield land register. 
 
 Each site references the following categories:
 
 * [ownership-status](/dataset/ownership-status)
 * [planning-permission-status](/dataset/planning-permission-status)
 * [planning-permission-type](/dataset/planning-permission-type)
-* [site-category](/dataset/site-category)",development,geography,1.1,Q896586,Brownfield_land
+* [site-category](/dataset/site-category)
+
+It can be used for:
+<ul>
+<li>informing planning policies</li>
+<li>identifying suitable sites for residential and other development</li>
+<li>encouraging private investment</li>
+<li>accelerating housing construction by providing clear, publicly available information on previously developed land with development potential</li>
+</ul>",development,geography,1.1,Q896586,Brownfield_land
 crown-copyright,brownfield-site,brownfield-land,brownfield-site,,,,28,,1800000,1899999,ogl3,Brownfield site,"{ ""colour"": ""#745729"" }",Brownfield sites,alpha,,dataset,,,"This is an experimental dataset of the boundaries of brownfield sites found on [data.gov.uk](https://www.data.gov.uk/search?q=brownfield)
 and local planning authority web sites.
 We expect to combine this dataset with the [brownfield land](/dataset/brownfield-land) dataset in the near future.",development,geography,1.0,Q896586,Brownfield_land
