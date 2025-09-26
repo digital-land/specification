@@ -40,6 +40,9 @@ wikidata: Q2734873
 wikipedia: Green_belt_(United_Kingdom)
 ---
 
-Boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),
+This dataset contains boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),
 grouped using the [greenbelt core](/dataset/greenbelt-core) category.
-This data is compiled by the Ministry of Housing, Communities and Local Government for the purposes of gathering [green belt statistics](https://www.gov.uk/government/collections/green-belt-statistics).
+
+It can be used for planning purposes, such as preparing local plans to define areas that are kept permanently open and free from urban sprawl.
+
+Local planning authorities provide annual returns in March and we publish the data in autumn. This provides a snapshot in time and won't reflect any changes to green belt boundaries made since the local planning authorities submitted their annual returns.
