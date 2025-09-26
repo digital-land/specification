@@ -52,7 +52,13 @@ wikidata: Q171634
 wikipedia: Local_government_in_England
 ---
 
-A [local authority](https://www.gov.uk/guidance/local-government-structure-and-elections) may have powers to create development policies,
-and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
-This data originally came from the [local authority register](https://www.data.gov.uk/dataset/05d3b10a-6670-4643-9c53-7efc98775c8d/local-authority-eng-register).
-We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.
+This dataset contains information about local authorities which have powers to create development policies, and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
+
+It can be used for:
+<u>
+<li>internal management, such as improving service delivery</li>
+<li>allocating resources and identifying social problems</li>
+<li>policy-making by central government</li>
+<li>financial management by central government</li>
+<li>public reporting by central government</li>
+</u>
