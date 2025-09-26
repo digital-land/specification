@@ -190,13 +190,15 @@ crown-copyright,,,issue-type,types of issues with fields processing resources,,,
 crown-copyright,,,issue,issues with fields processing resources,,,,,,,ogl3,Issue,,Issues,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,licence,,,,,licence,8400000,8499999,ogl3,Licence,,Licences,alpha,,specification,,,,specification,category,1.0,Q7257461,Public_copyright_license
 crown-copyright,listed-building,listed-buildings,listed-building-grade,,,,44,,700000,799999,ogl3,Listed building grade,,Listed building grades,live,,dataset,,,The grade assigned to each [listed building](/dataset/listed-building) by [Historic England](https://historicengland.org.uk/).,heritage,category,1.0,Q30634609,Listed_building
-crown-copyright,listed-building,listed-buildings,listed-building-outline,boundary of a listed building,,,44,,42100000,43099999,ogl3,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,alpha,,dataset,,,"A geospatial boundary or extent for [listings](https://historicengland.org.uk/listing/what-is-designation/listed-buildings) as designated by [Historic England](https://historicengland.org.uk/). These areas indictate what is affected by the listing and we collect them from the local planning authorities.
+crown-copyright,listed-building,listed-buildings,listed-building-outline,boundary of a listed building,,,44,,42100000,43099999,ogl3,Listed building outline,"{ ""colour"": ""#F9C744"" }",Listed building outlines,alpha,,dataset,,,"This dataset contains geospatial boundary or extent information about listings.
 
-We are [working with a group of local planning authorities](/about/) to help them publish their data to inform planning decisions, and to develop a [data specification for listed building outlines](https://www.digital-land.info/guidance/specifications/listed-building).
+It can be used for identifying and protecting buildings of special architectural or historic interest, ensuring that any work on or near these properties requires special consent and design considerations to prevent harm to the building's significance.
 
-We expect to eventually merge this dataset with the [listed building](/dataset/listed-building) dataset.
+This spatial data can help in planning applications, conservation efforts, and policy development by showing the locations and boundaries of designated heritage assets, influencing development proposals and land use decisions. 
 
-*This dataset is compiled from data provided by Local Planning Authorities. This dataset does not consistently show the curtilage of listed buildings for planning purposes. Therefore, this dataset should only be used as an indicative guide and users should do further checks before making any planning decision.*",heritage,geography,3.0,Q570600,Listed_building
+This dataset does not consistently show the curtilage of listed buildings for planning purposes and should only be used as an indicative guide. We encourage users to make further checks before making any planning decision.
+
+Data shows the extent of the land associated with the listing. This dataset is a work in progress and does not have full coverage across England.",heritage,geography,3.0,Q570600,Listed_building
 historic-england,listed-building,listed-buildings,listed-building,,,,44,,31100000,41099999,ogl3,Listed building,"{ ""colour"": ""#F9C744"", ""type"": ""point"" }",Listed buildings,beta,,dataset,,,"This dataset contains data about special architectural or historic buildings with legal protection.
 
 It can be used for:
