@@ -16,7 +16,8 @@ fields:
 - field: notes
 - field: prefix
 - field: reference
-- field: planning-application-category
+- field: legislation-urls
+- field: synonyms
 - field: start-date
 - field: description
 github-discussion: 25
@@ -33,7 +34,7 @@ themes:
 - housing
 - monitoring
 typology: category
-version: 1.0
+version: 2.0
 wikidata: ''
 wikipedia: ''
 ---
