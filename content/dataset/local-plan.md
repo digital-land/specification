@@ -10,6 +10,8 @@ entity-minimum: '4220000'
 entry-date: '2024-09-14'
 fields:
 - field: adopted-date
+- field: allocated-houses
+- field: committed-houses
 - field: description
 - field: documentation-url
 - field: document-url
@@ -24,6 +26,7 @@ fields:
 - field: period-start-date
 - field: prefix
 - field: reference
+- field: required-houses
 - field: start-date
 github-discussion: 26
 key-field: ''

@@ -5,9 +5,9 @@ plural: Local plans
 specification-status: working-draft
 start-date: ''
 end-date: ''
-entry-date: '2024-09-13'
+entry-date: '2025-09-27'
 github-discussion: 26
-version: 2.1.1
+version: 2.2.1
 datasets:
     - dataset: local-plan-boundary
       name: local plan boundary
@@ -34,7 +34,7 @@ datasets:
           - field: reference
             description: an unique identifier for a local plan
           - field: name
-            description: the name of the local plan (for example, The Adopted Local Plan for Leeds)
+            description: the name of the local plan (for example, `Leeds Local Plan`)
           - field: description
             description: brief description of plan
           - field: period-start-date
@@ -48,7 +48,13 @@ datasets:
           - field: adopted-date
             description: the date a plan is officially adopted
           - field: organisations
-            description: a list of codes for the responsible organisations, separated by ;
+            description: a list of CURIE references for the responsible organisations, separated by ;
+          - field: required-houses
+            description: the total housing requirement (net additional dwellinghouses) for the plan period
+          - field: committed-houses
+            description: the number of dwellinghouses already committed for development within the local plan area
+          - field: allocated-houses
+            description: the number of additional dwellinghouses allocated to sites by the local plan
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date
@@ -59,15 +65,15 @@ datasets:
       name: local plan document
       fields:
           - field: reference
-            description: An unique identifier for this record (for example, xyz-123-abc)
+            description: An unique identifier for this record (for example, `document-123`)
           - field: name
             description: The name of this document
           - field: description
             description: Brief description of this document
           - field: local-plan
-            description: The reference for the particular local plan (for example, dorcester-new-local-plan)
+            description: The reference for the particular local plan (for example, `dorcester-local-plan-23`)
           - field: document-types
-            description: The code for this document type (for example policy map)
+            description: The reference code for this document type (for example "policy-map")
             dataset: local-plan-document-type
           - field: documentation-url
             description: The webpage where you can find this document 
@@ -89,16 +95,16 @@ datasets:
           - field: name
             description: a human readable name for the event
           - field: local-plan
-            description: the code for a particular local plan (for example, dorcester-new-local-plan)
+            description: the reference code for a particular local plan (for example, "dorcester-new-local-plan")
           - field: local-plan-event
             dataset: local-plan-event
-            description: The code for a local plan event (for example plan-adopted)
+            description: The reference code for the type of local plan event (for example "plan-adopted")
           - field: event-date
             description: The date this event happened 
           - field: notes
             description: Optional notes
           - field: organisation
-            description: The code for the responsible organisation (for example, local-authority-eng:BST)
+            description: The code for the responsible organisation (for example, "local-authority-eng:BST")
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date
