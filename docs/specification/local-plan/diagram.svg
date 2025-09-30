@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1144" height="520">
+<svg xmlns="http://www.w3.org/2000/svg" width="1144" height="640">
 <defs>
     <style>
     text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
@@ -96,16 +96,28 @@
 <text x="473" y="190" class="datatype">curie*</text>
 <rect x="306" y="200" width="162" height="20" class="field"/>
 <rect x="468" y="200" width="64" height="20" class="datatype"/>
-<text x="311" y="210" class="field">entry-date</text>
-<text x="473" y="210" class="datatype">datetime</text>
+<text x="311" y="210" class="field">required-houses</text>
+<text x="473" y="210" class="datatype">integer</text>
 <rect x="306" y="220" width="162" height="20" class="field"/>
 <rect x="468" y="220" width="64" height="20" class="datatype"/>
-<text x="311" y="230" class="field">start-date</text>
-<text x="473" y="230" class="datatype">datetime</text>
+<text x="311" y="230" class="field">committed-houses</text>
+<text x="473" y="230" class="datatype">integer</text>
 <rect x="306" y="240" width="162" height="20" class="field"/>
 <rect x="468" y="240" width="64" height="20" class="datatype"/>
-<text x="311" y="250" class="field">end-date</text>
-<text x="473" y="250" class="datatype">datetime</text>
+<text x="311" y="250" class="field">allocated-houses</text>
+<text x="473" y="250" class="datatype">integer</text>
+<rect x="306" y="260" width="162" height="20" class="field"/>
+<rect x="468" y="260" width="64" height="20" class="datatype"/>
+<text x="311" y="270" class="field">entry-date</text>
+<text x="473" y="270" class="datatype">datetime</text>
+<rect x="306" y="280" width="162" height="20" class="field"/>
+<rect x="468" y="280" width="64" height="20" class="datatype"/>
+<text x="311" y="290" class="field">start-date</text>
+<text x="473" y="290" class="datatype">datetime</text>
+<rect x="306" y="300" width="162" height="20" class="field"/>
+<rect x="468" y="300" width="64" height="20" class="datatype"/>
+<text x="311" y="310" class="field">end-date</text>
+<text x="473" y="310" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="612" y="0" width="226" height="20" class="name"/>

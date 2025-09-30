@@ -1829,6 +1829,8 @@ local-plan-timetable,prefix
 local-plan-timetable,reference
 local-plan-timetable,start-date
 local-plan,adopted-date
+local-plan,allocated-houses
+local-plan,committed-houses
 local-plan,description
 local-plan,documentation-url
 local-plan,document-url
@@ -1843,6 +1845,7 @@ local-plan,period-end-date
 local-plan,period-start-date
 local-plan,prefix
 local-plan,reference
+local-plan,required-houses
 local-plan,start-date
 local-planning-authority,end-date
 local-planning-authority,entity
