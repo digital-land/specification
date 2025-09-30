@@ -192,13 +192,13 @@ def generate(specification_path, output_path=None):
     </defs>"""
     )
 
-    for l in links:
-        svg_content.append(svg_spline("line", *points[l["from"]], *points[l["to"]]))
-
     for box in boxes:
         svg_content.append("<g>")
         svg_content.append("\n".join(box))
         svg_content.append("</g>")
+
+    for l in links:
+        svg_content.append(svg_spline("line", *points[l["from"]], *points[l["to"]]))
 
     svg_content.append("</svg>")
 
