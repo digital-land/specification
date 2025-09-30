@@ -13,7 +13,7 @@ datasets:
       name: local plan boundary
       fields:
           - field: reference
-            description: a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the planning authority boundary reference
+            description: a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the local planning authority boundary reference
           - field: name
             description: a name for the boundary. For example, `City of York boundary`
           - field: geometry
@@ -104,7 +104,7 @@ datasets:
           - field: notes
             description: Optional notes
           - field: organisation
-            description: The code for the responsible organisation (for example, "local-authority-eng:BST")
+            description: The CURIE reference for the responsible organisation (for example, "local-authority-eng:BST")
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date
