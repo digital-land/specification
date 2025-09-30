@@ -16,7 +16,6 @@
     <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
     </marker>
     </defs>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 70 C 266.0 70 266.0 30 226 30"/>
 <g>
 <rect x="0" y="0" width="226" height="20" class="name"/>
 <text x="113" y="10" class="name">planning-condition</text>
@@ -97,4 +96,5 @@
 <text x="311" y="210" class="field">end-date</text>
 <text x="473" y="210" class="datatype">datetime</text>
 </g>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 70 C 266.0 70 266.0 30 226 30"/>
 </svg>

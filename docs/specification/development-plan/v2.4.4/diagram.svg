@@ -16,9 +16,6 @@
     <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
     </marker>
     </defs>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 0 150 C 419.0 150 419.0 30 838 30"/>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 70 C 266.0 70 266.0 30 226 30"/>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 370 C 266.0 370 266.0 30 226 30"/>
 <g>
 <rect x="0" y="0" width="226" height="20" class="name"/>
 <text x="113" y="10" class="name">development-plan</text>
@@ -203,4 +200,7 @@
 <text x="617" y="170" class="field">end-date</text>
 <text x="779" y="170" class="datatype">datetime</text>
 </g>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 0 150 C 419.0 150 419.0 30 838 30"/>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 70 C 266.0 70 266.0 30 226 30"/>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 370 C 266.0 370 266.0 30 226 30"/>
 </svg>

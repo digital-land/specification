@@ -16,9 +16,6 @@
     <circle cx="3" cy="3" r="2" fill="#0b0c0c" />
     </marker>
     </defs>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 130 C 266.0 130 266.0 30 226 30"/>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 612 90 C 572.0 90 572.0 30 532 30"/>
-<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 612 370 C 572.0 370 572.0 30 532 30"/>
 <g>
 <rect x="0" y="0" width="226" height="20" class="name"/>
 <text x="113" y="10" class="name">local-plan-boundary</text>
@@ -199,4 +196,7 @@
 <text x="617" y="510" class="field">end-date</text>
 <text x="779" y="510" class="datatype">datetime</text>
 </g>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 130 C 266.0 130 266.0 30 226 30"/>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 612 90 C 572.0 90 572.0 30 532 30"/>
+<path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 612 370 C 572.0 370 572.0 30 532 30"/>
 </svg>
