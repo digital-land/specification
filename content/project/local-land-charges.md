@@ -11,6 +11,8 @@ documentation-url: https://www.gov.uk/government/publications/hm-land-registry-l
 start-date: ''
 specifications:
 organisations:
+- organisation: local-authority:ASH
+  start-date: 2025-08-01
 - organisation: local-authority:BAB
   start-date: 2022-01-20
 - organisation: local-authority:BAE
@@ -39,8 +41,12 @@ organisations:
   start-date: 2022-07-14
 - organisation: local-authority:CLD
   start-date: 2024-10-28
+- organisation: local-authority:CAT
+  start-date: 2025-08-21
 - organisation: local-authority:CAR
   start-date: 2020-04-21
+- organisation: local-authority:CAS
+  start-date: 2025-09-23
 - organisation: local-authority:CHL
   start-date: 2023-03-28
 - organisation: local-authority:CHT
@@ -135,6 +141,8 @@ organisations:
   start-date: 2021-12-16
 - organisation: local-authority:NLN
   start-date: 2024-05-31
+- organisation: local-authority:NNO
+  start-date: 2025-10-14
 - organisation: local-authority:NWL
   start-date: 2022-07-27
 - organisation: local-authority:NOW
@@ -199,6 +207,8 @@ organisations:
   start-date: 2021-04-07
 - organisation: local-authority:STR
   start-date: 2021-05-10
+- organisation: local-authority:STO
+  start-date: 2025-10-17
 - organisation: local-authority:STN
   start-date: 2022-01-07
 - organisation: local-authority:TAM
@@ -225,6 +235,8 @@ organisations:
   start-date: 2018-07-11
 - organisation: local-authority:WAT
   start-date: 2020-02-06
+- organisation: local-authority:WEA
+  start-date: 2025-10-09
 - organisation: local-authority:WEW
   start-date: 2021-05-26
 - organisation: local-authority:WBK
