@@ -49,11 +49,11 @@ code.value {
       <strong class="govuk-tag">{{ tables["specification-status"][item["specification-status"]]["name"] }}</strong>
     </p>
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="{{ sectionPath }}/{{ name }}/v{{ item['version'] }}" class="govuk-link">{{ item["version"] }}</a> - published {{ item["entry-date"] }}
+      Version: <a href="{{ sectionPath }}/{{ name }}/v{{ item['version'] }}" class="govuk-link">{{ item["version"] }}</a> &mdash; published {{ item["entry-date"] }}
     </p>
     {%- if versions and versions|length > 0 %}
     <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog.html" class="govuk-link">See changelog</a>
+       <a href="#versions" class="govuk-link">See versions</a> &mdash; <a href="changelog.html" class="govuk-link">See changelog</a>
     </p>
     {%- endif %}
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
