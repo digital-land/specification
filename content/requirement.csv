@@ -1,0 +1,4 @@
+reference,requirement,priority,name,description
+MUST,MUST,0,MUST,"The item is an absolute requirement to conform with this specification"
+SHOULD,SHOULD,2,SHOULD,"There may be valid reasons in particular circumstances to not include the definition"
+MAY,MAY,3,MAY,"The item is truly optional"
