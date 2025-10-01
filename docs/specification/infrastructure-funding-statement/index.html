@@ -157,20 +157,30 @@ code.value {
     <p class="govuk-body">
       <strong class="govuk-tag">Piloting</strong>
     </p>
+    <p class="govuk-body">
+    This document sets out the requirements for providing data in conformance to the specification which is  
+    currently under development.
+    Providing data to this specification is at present optional, though encouraged.
+    </p>
+    <div class="govuk-warning-text"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+    <strong class="govuk-warning-text__text"><span class="govuk-warning-text__assistive">Warning</span>
+    It is inappropriate to cite this document as other than a work in progress.
+    </strong>
+    </div>
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/infrastructure-funding-statement/v1.2.2" class="govuk-link">1.2.2</a> - published 2023-11-23
+      Version: <a href="/specification/specification/infrastructure-funding-statement/v1.2.2" class="govuk-link">1.2.2</a> &mdash; published 2023-11-23
     </p>
     <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> - <a href="changelog.html" class="govuk-link">See changelog</a>
+       <a href="#versions" class="govuk-link">See versions</a> &mdash; <a href="changelog.html" class="govuk-link">See changelog</a>
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p class="govuk-body">
-      This specification defines the format for how Infrastructure funding statements must be provided as data.
+      This specification defines a format for how Infrastructure funding statements may be provided as data.
     </p>
     <p class="govuk-body">
-    This technical specification is accompanied by guidance, examples and other tools providing feedback to data providers.
+    This technical specification is accompanied by guidance, examples and other tools which provide feedback to organisations creating data to this specification.
     </p>
 
     <h2 id="status" class="govuk-heading-m">Status of this specification</h2>
@@ -179,13 +189,8 @@ code.value {
     The contents of this specification are currently under development, and liable to change based on feedback.
     </p>
     <p class="govuk-body">
-    This specification is intended to be published as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
+    This specification may be published as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
     </p>
-    <div class="govuk-warning-text"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
-    <strong class="govuk-warning-text__text"><span class="govuk-warning-text__assistive">Warning</span>
-    It is inappropriate to cite this document as other than a work in progress.
-    </strong>
-    </div>
     <p id="feedback" class="govuk-body">
     Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/" class="govuk-link">GitHub discussion</a> or sent to
     <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
@@ -206,7 +211,7 @@ code.value {
 
     <p class="govuk-body">The documentation page is a web page on your website that MUST be accessible as HTML from a public URL.</p>
 
-    <p class="govuk-body">The documentation page MUST be owned and operated by the data provider. Where the data provider is a local authority or other public body, the web page MUST be on your .gov.uk domain.</p>
+    <p class="govuk-body">The documentation page MUST be owned and operated by the data provider. Where the data provider is a local authority or other public body, the web page MUST be on the offical website, usually a .gov.uk domain.</p>
     
     <p class="govuk-body">A data provider MUST provide a link to the data for all of the Infrastructure funding statements within its jurisdiction on a documentation page.</p>
 
@@ -238,7 +243,7 @@ code.value {
 </h3>
     <p class="govuk-body">The infrastructure-funding-statement data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
     <p class="govuk-body">The data MUST contain at least one record for each infrastructure-funding-statement.</p>
-    <p class="govuk-body">Each record MUST contain the following fields:</p>
+    <p class="govuk-body">Each infrastructure-funding-statement record SHOULD contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     

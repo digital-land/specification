@@ -33,6 +33,7 @@ SPECIFICATION_CSV=\
 	specification/project.csv\
 	specification/project-organisation.csv\
 	specification/project-status.csv\
+	specification/requirement.csv\
 	specification/specification.csv\
 	specification/specification-status.csv\
 	specification/organisation-dataset.csv\
@@ -171,6 +172,9 @@ specification/role.csv:	content/role.csv
 
 specification/quality.csv:	content/quality.csv
 	cp content/quality.csv $@
+
+specification/requirement.csv:	content/requirement.csv
+	cp content/requirement.csv $@
 
 
 # build organisations in a project

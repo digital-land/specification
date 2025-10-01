@@ -391,6 +391,7 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,string,,,,replacement-field,,,Replacement field,field,,,,specification,,
 1,,json,,,,request-headers,,,Request headers,json,,,,value,,
 1,,integer,required number of additional dwellinghouses,,,required-houses,,,Required houses,number,,,,value,,
+1,,string,,,,requirement,,,Requirement,category,,,,category,,
 1,,url,,,,resource-url,,,Resource URL,url,,,,value,,
 1,,hash,,,,resource,,,Resource,hash,,,,value,,
 1,,json,,,,response-headers,,,Response headers,json,,,,value,,
