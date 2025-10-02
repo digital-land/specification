@@ -57,20 +57,19 @@ datasets:
           guidance: Enter the date the most recent permission was granted on the site, in
             the format YYYY-MM-DD. If no permission has been granted leave this blank.
         - field: PermissionType
-          guidance: 'Choose one of the following to indicate what permission type the site
-            has:
+          guidance: 'Choose one of the following to indicate what permission type the site has:
 
-            * full planning permission * outline planning permission * reserved matters approval
-            * permission in principle * technical details consent * planning permission granted
-            under an order * other
+            * full planning permission
+            * outline planning permission
+            * reserved matters approval
+            * permission in principle
+            * technical details consent
+            * planning permission granted under an order
+            * other
 
-            ‘Planning permission granted under an order’ means planning permission granted
-            under a local development order, a mayoral development order or a neighbourhood
-            development order.
+    ‘Planning permission granted under an order’ means planning permission granted under a local development order, a mayoral development order or a neighbourhood development order.
 
-            Where more than one permission exists for the site, identify the latest permission
-            granted. List any other permissions, including the date that each permission was
-            granted or deemed to have been granted, in the ’Notes’ column.'
+    Where more than one permission exists for the site, identify the latest permission granted. List any other permissions, including the date that each permission was granted or deemed to have been granted, in the ’Notes’ column.'
         - field: PlanningHistory
           guidance: Enter links to any web pages that give information on the site’s planning
             history (include the “http://” or “https://” prefix). Fields in this column can
