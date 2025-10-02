@@ -45,6 +45,13 @@ code.value {
 {% block dl_content %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+    <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
+    <p class="govuk-body">
+      This specification defines the format and contents which may be used to provide information about {{ item["plural"] }}.
+    </p>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+    <h2 id="status" class="govuk-heading-m">Status of this specification</h2>
     <p class="govuk-body">
       <strong class="govuk-tag">{{ tables["specification-status"][item["specification-status"]]["name"] }}</strong>
     </p>
@@ -59,6 +66,23 @@ code.value {
     currently under development.
     Providing data to this draft specification is at present optional, though encouraged.
     </p>
+    <p class="govuk-body">
+    This is a draft specification, following the standards for planning data process [<a href="#process">process</a>].
+    The contents of this specification are currently under development, and liable to change based on feedback.
+    </p>
+    <p class="govuk-body">
+    This document places no obligations on any party to provide data in conformance to this specification. A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
+    </p>
+    <p class="govuk-body">
+    This technical specification is accompanied by guidance, examples and other tools which provide feedback to organisations creating data to this specification.
+    </p>
+    <p id="feedback" class="govuk-body">
+    Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/{{ item['github-discussion'] }}" class="govuk-link">GitHub discussion</a> or sent to
+    <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
+    </p>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
     <p class="govuk-body govuk-!-margin-bottom-1">
       Version: <a href="{{ sectionPath }}/{{ name }}/v{{ item['version'] }}" class="govuk-link">{{ item["version"] }}</a> &mdash; published {{ item["entry-date"] }}
     </p>
@@ -69,26 +93,6 @@ code.value {
     {%- endif %}
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
-    <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
-    <p class="govuk-body">
-      This specification defines a format for how {{ item["plural"] }} SHOULD be provided as data.
-    </p>
-    <p class="govuk-body">
-    This technical specification is accompanied by guidance, examples and other tools which provide feedback to organisations creating data to this specification.
-    </p>
-
-    <h2 id="status" class="govuk-heading-m">Status of this specification</h2>
-    <p class="govuk-body">
-    This is a draft specification, following the standards for planning data process [<a href="#process">process</a>].
-    The contents of this specification are currently under development, and liable to change based on feedback.
-    </p>
-    <p class="govuk-body">
-    This specification may be published as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
-    </p>
-    <p id="feedback" class="govuk-body">
-    Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/{{ item['github-discussion'] }}" class="govuk-link">GitHub discussion</a> or sent to
-    <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
-    </p>
 
     <h2 id="conformance" class="govuk-heading-m">Conformance</h2>
     <p class="govuk-body">
