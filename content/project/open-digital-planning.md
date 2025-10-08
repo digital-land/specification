@@ -364,7 +364,7 @@ organisations:
   cohort: odp-round-4
 - organisation: local-authority:SWL
   cohort: odp-round-4
-- organisation: local-authority:WFU
+- organisation: local-authority:WFUA
   cohort: odp-round-4
 - organisation: local-authority:WIL
   cohort: odp-round-4
