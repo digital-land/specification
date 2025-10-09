@@ -114,7 +114,13 @@ specification/dataset-field.csv:	$(DATASET_MD) $(DATASET_CSV) bin/dataset-field.
 	python3 bin/dataset-field.py $@
 
 data/dataset-field-version.csv:	$(DATASET_MD) $(DATASET_CSV) bin/dataset-field-version.py
+	echo SKIP:${SKIP_FIELD_VERSION}
+ifeq ("${SKIP_FIELD_VERSION}","")
 	python3 bin/dataset-field-version.py
+else
+	@echo WARNING: SKIPPING FIELD VERSION
+endif
+
 
 specification/dataset-schema.csv:	$(DATASET_CSV) bin/dataset-schema.py
 	python3 bin/dataset-schema.py $@
