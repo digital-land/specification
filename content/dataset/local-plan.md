@@ -10,8 +10,8 @@ entity-minimum: '4220000'
 entry-date: '2024-09-14'
 fields:
 - field: adopted-date
-- field: allocated-houses
-- field: committed-houses
+- field: allocated-dwellings
+- field: committed-dwellings
 - field: description
 - field: documentation-url
 - field: document-url
@@ -26,8 +26,9 @@ fields:
 - field: period-start-date
 - field: prefix
 - field: reference
-- field: required-houses
+- field: required-dwellings
 - field: start-date
+- field: windfall-dwellings
 github-discussion: 26
 key-field: ''
 licence: ogl3

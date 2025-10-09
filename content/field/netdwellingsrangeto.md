@@ -8,7 +8,7 @@ field: NetDwellingsRangeTo
 guidance: ''
 hint: ''
 name: Maximum net dwellings
-parent-field: number
+parent-field: dwelling-count
 replacement-field: maximum-net-dwellings
 start-date: ''
 typology: value

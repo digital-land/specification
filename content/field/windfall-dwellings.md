@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'number of dwellinghouses allocated in a plan or to a site'
+description: 'number of additional dwellings expected to be delivered from windfall development'
 end-date: ''
 entry-date: ''
-field: allocated-houses 
+field: windfall-dwellings
 guidance: ''
 hint: ''
-name: Allocated houses
-parent-field: number
+name: Windfall dwellings
+parent-field: dwelling-count
 replacement-field: ''
 start-date: ''
 typology: value

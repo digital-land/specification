@@ -1,15 +1,15 @@
 ---
 cardinality: '1'
 datatype: integer
-description: ''
-end-date: '2019-10-31'
+description: 'required number of additional dwellings'
+end-date: ''
 entry-date: ''
-field: NetDwellingsRangeFrom
+field: required-dwellings 
 guidance: ''
 hint: ''
-name: Minimum net dwellings
+name: Required dwellings
 parent-field: dwelling-count
-replacement-field: minimum-net-dwellings
+replacement-field: ''
 start-date: ''
 typology: value
 uri-template: ''

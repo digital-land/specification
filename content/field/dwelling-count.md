@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
 datatype: integer
-description: ''
-end-date: '2019-10-31'
+description: 'number of dwellings'
+end-date: ''
 entry-date: ''
-field: MinNetDwellings
+field: dwelling-count
 guidance: ''
 hint: ''
-name: Minimum net dwellings
-parent-field: dwelling-count
+name: Dwelling count
+parent-field: number
 replacement-field: ''
 start-date: ''
 typology: value

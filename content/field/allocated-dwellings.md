@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'required number of additional dwellinghouses'
+description: 'number of dwellings allocated in a plan or to a site'
 end-date: ''
 entry-date: ''
-field: required-houses 
+field: allocated-dwellings 
 guidance: ''
 hint: ''
-name: Required houses
-parent-field: number
+name: Allocated dwellings
+parent-field: dwelling-count
 replacement-field: ''
 start-date: ''
 typology: value

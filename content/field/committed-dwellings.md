@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'number of dwellinghouses which have commenced but not completed development'
+description: 'number of dwellings which have commenced but not completed development'
 end-date: ''
 entry-date: ''
-field: committed-houses 
+field: committed-dwellings 
 guidance: ''
 hint: ''
-name: Committed houses
-parent-field: number
+name: Committed dwellings
+parent-field: dwelling-count
 replacement-field: ''
 start-date: ''
 typology: value
