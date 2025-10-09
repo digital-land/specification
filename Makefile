@@ -57,7 +57,7 @@ specification:: $(SPECIFICATION_CSV)
 
 # made from dataset content ..
 DATASET_MD=$(sort $(wildcard content/dataset/*.md))
-specification/dataset.csv:	$(DATASET_MD) bin/load-markdown.py
+specification/dataset.csv:	$(DATASET_MD) bin/load-markdown.py $(CACHE_DIR)organisation.csv
 	@mkdir -p specification/
 	python3 bin/load-markdown.py $@ $(DATASET_MD)
 
@@ -180,7 +180,7 @@ specification/requirement.csv:	content/requirement.csv
 # build organisations in a project
 PROJECT_CSV=specification/project.csv
 COHORT_CSV=specification/cohort.csv
-specification/project-organisation.csv:	$(PROJECT_MD) $(PROJECT_CSV) $(COHORT_CSV) bin/project-organisation.py
+specification/project-organisation.csv:	$(PROJECT_MD) $(PROJECT_CSV) $(COHORT_CSV) bin/project-organisation.py $(CACHE_DIR)organisation.csv
 	python3 bin/project-organisation.py $@
 
 specification/role-organisation.csv:	bin/role-organisation.py specification/role-organisation-rule.csv $(CACHE_DIR)organisation.csv
@@ -225,6 +225,8 @@ commit-specification::
 	git add data
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt specification $(shell date +%F)"; git push origin $(BRANCH))
 
+clean::
+	rm -rf var/
 clean clobber::
 	rm -f specification/*.csv
 	rm -f $(PROJECT_MD_GENERATED) 

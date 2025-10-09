@@ -75,6 +75,8 @@ organisations:
   start-date: 2020-06-26
 - organisation: local-authority:EPP
   start-date: 2023-04-25
+- organisation: local-authority:EPS
+  start-date: 2025-10-28
 - organisation: local-authority:FEN
   start-date: 2022-09-06
 - organisation: local-authority:GED
@@ -147,6 +149,8 @@ organisations:
   start-date: 2022-07-27
 - organisation: local-authority:NOW
   start-date: 2019-07-11
+- organisation: local-authority:NUN
+  start-date: 2025-10-31
 - organisation: local-authority:OAD
   start-date: 2025-07-07
 - organisation: local-authority:PEN
