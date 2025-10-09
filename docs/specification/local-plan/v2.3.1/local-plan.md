@@ -6,8 +6,8 @@ specification-status: working-draft
 start-date: ''
 end-date: ''
 entry-date: '2025-10-09'
-github-discussion: 26
-version: 2.2.2
+github-discussion: 97
+version: 2.3.1
 datasets:
     - dataset: local-plan-boundary
       name: local plan boundary
@@ -49,12 +49,14 @@ datasets:
             description: the date a plan is officially adopted
           - field: organisations
             description: a list of CURIE references for the responsible organisations, separated by ;
-          - field: required-houses
-            description: the total housing requirement (net additional dwellinghouses) for the plan period
-          - field: committed-houses
-            description: the number of dwellinghouses already committed for development within the local plan area
-          - field: allocated-houses
-            description: the number of additional dwellinghouses allocated to sites by the local plan
+          - field: required-dwellings
+            description: the total housing requirement (net additional dwellings) for the local plan period
+          - field: committed-dwellings
+            description: the number of dwellings already committed for development within the local plan area
+          - field: allocated-dwellings
+            description: the number of additional dwellings allocated to sites in the local plan
+          - field: windfall-dwellings
+            description: the number of additional dwellings expected to be delivered from windfall developments during the local plan period
           - field: entry-date
             description: the date this information has been entered as a record
           - field: start-date

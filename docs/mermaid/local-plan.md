@@ -23,9 +23,10 @@ erDiagram
         url documentation-url
         date adopted-date
         string organisations
-        string required-houses
-        string committed-houses
-        string allocated-houses
+        string required-dwellings
+        string committed-dwellings
+        string allocated-dwellings
+        string windfall-dwellings
         date entry-date
         date start-date
         date end-date
