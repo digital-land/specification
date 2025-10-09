@@ -5,9 +5,9 @@ plural: Local plans
 specification-status: working-draft
 start-date: ''
 end-date: ''
-entry-date: '2025-09-27'
+entry-date: '2025-10-09'
 github-discussion: 26
-version: 2.2.1
+version: 2.2.2
 datasets:
     - dataset: local-plan-boundary
       name: local plan boundary

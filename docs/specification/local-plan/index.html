@@ -152,11 +152,11 @@ code.value {
 </div>
 
   
-<div class="govuk-grid-row">
+<div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
-    <p class="govuk-body">
-      This specification defines the format and contents which may be used to provide information about Local plans.
+    <p>
+      This specification defines the format and contents which a planning authority or other party may use to provide information about one or more Local plans.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -170,22 +170,25 @@ code.value {
     It is inappropriate to cite this draft document as other than a work in progress.
     </strong>
     </div>
-    <p class="govuk-body">
+    <p>
     This document sets out the requirements for providing data in conformance to the specification which is
     currently under development.
     Providing data to this draft specification is at present optional, though encouraged.
     </p>
-    <p class="govuk-body">
+    <p>
     This is a draft specification, following the standards for planning data process [<a href="#process">process</a>].
     The contents of this specification are currently under development, and liable to change based on feedback.
     </p>
-    <p class="govuk-body">
-    This document places no obligations on any party to provide data in conformance to this specification. A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
+    <p>
+    This document places no obligations on any party to provide data in conformance to this specification. 
     </p>
-    <p class="govuk-body">
+    <p>
+    A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
+    </p>
+    <p>
     This technical specification is accompanied by guidance, examples and other tools which provide feedback to organisations creating data to this specification.
     </p>
-    <p id="feedback" class="govuk-body">
+    <p id="feedback">
     Comments and feedback on this specification may be provided on the <a href="https://github.com/digital-land/data-standards-backlog/discussions/26" class="govuk-link">GitHub discussion</a> or sent to
     <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
     </p>
@@ -193,7 +196,7 @@ code.value {
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/local-plan/v2.2.1" class="govuk-link">2.2.1</a> &mdash; published 2025-09-27
+      Version: <a href="/specification/specification/local-plan/v2.2.2" class="govuk-link">2.2.2</a> &mdash; published 2025-10-09
     </p>
     <p class="govuk-body govuk-!-font-size-16">
        <a href="#versions" class="govuk-link">See versions</a> &mdash; <a href="changelog.html" class="govuk-link">See changelog</a>
@@ -214,11 +217,20 @@ code.value {
 
     <h2 id="documentation-page" class="govuk-heading-m">Documentation page</h2>
 
-    <p class="govuk-body">The documentation page is a web page on your website that MUST be accessible as HTML from a public URL.</p>
+    <details class="govuk-details" open>
+        <summary class="govuk-details__summary"><span class="govuk-details__summary-text">
+            Note
+        </span></summary>
+        <div class="govuk-details__text">
+            The documentation page is a web page intended to help a user find the data. 
+            The page SHOULD contain information about how and why the data has been published along with links to where the data may be downloaded.
+        </div>
+    </details>
 
-    <p class="govuk-body">The documentation page MUST be owned and operated by the data provider. Where the data provider is a local authority or other public body, the web page MUST be on the offical website, usually a <code>.gov.uk</code> domain.</p>
+    <p>The documentation page SHOULD be accessible as HTML from a public URL.</p>
 
-    <p class="govuk-body">A data provider MUST provide a link to the data for all of the Local plans within its jurisdiction on a documentation page.</p>
+    <p>The documentation page SHOULD be owned and operated by the data provider.</p>
+    <p>Where the data provider is a local authority or other public body, the web page SHOULD be on the offical website for the organisation which is usually on a <code>.gov.uk</code> domain.</p>
 
     <p class="govuk-body">
     The documentation page MUST include:
@@ -226,17 +238,18 @@ code.value {
     <ul class="govuk-list govuk-list--bullet">
 
     
-      <li>A hyperlink to the <a href="#local-plan-boundary-dataset">local plan boundary</a> data</li>
+      <li>A hyperlink to the <a href="#local-plan-boundary-dataset">local plan boundary</a> endpoint.</li>
     
-      <li>A hyperlink to the <a href="#local-plan-dataset">local plan</a> data</li>
+      <li>A hyperlink to the <a href="#local-plan-dataset">local plan</a> endpoint.</li>
     
-      <li>A hyperlink to the <a href="#local-plan-document-dataset">local plan document</a> data</li>
+      <li>A hyperlink to the <a href="#local-plan-document-dataset">local plan document</a> endpoint.</li>
     
-      <li>A hyperlink to the <a href="#local-plan-timetable-dataset">local plan timetable</a> data</li>
+      <li>A hyperlink to the <a href="#local-plan-timetable-dataset">local plan timetable</a> endpoint.</li>
     
 
-    <li>A clear licence for reusing the data, for example [<a href="#OGL3">OGL3</a>].</li>
-    <li>Any attribution needed when using the data, for example [<a href="#crown-copyright">Crown Copyright</a>].</li>
+    <li>A clear licence for reusing the data, for example, 
+        <i>"This data is available is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>."</i> [<a href="#OGL3">OGL3</a>].</li>
+    <li>Any attribution a user of the data will need to provide when using the data, for example <i>"<a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>"</i>. [<a href="#crown-copyright">Crown Copyright</a>].</li>
     </ul>
 
 
@@ -392,25 +405,25 @@ code.value {
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
     <h3 id="date" class="govuk-heading-s">Date</h3>
-    <p class="govuk-body">
+    <p>
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the Open Standards for government guidance on formatting dates and times in data
     [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
-    <p class="govuk-body">
+    <p>
     A date value SHOULD be blank if it is unknown. The date may just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
     <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
-    <p class="govuk-body">
+    <p>
     The boundary for the area as a single POLYGON or MULTIPOLYGON value.
     </p>
-    <p class="govuk-body">
+    <p>
     In all cases all points MUST be either in the
     [<a href="#WGS84">WGS84</a>] (<a href="#EPSG::4326">EPSG::4326</a>) or
     [<a href="#ETRS89">ETRS89</a>] (<a href="#EPSG::4258">EPSG::4258</a>) coordinate reference system
     following the Open Standards for government guidance on the exchange of location points [<a href="#exchange-of-location-point">exchange-of-location-point</a>].
     </p>
-    <p class="govuk-body">
+    <p>
     Positions calculated by the WGS84 and ETRS89 systems currently deviate by less than half a metre for points within England.
     Boundaries provided by this dataset are intended to be used as an index. Survey data SHOULD be used where more precision is needed.
     </p>
@@ -418,7 +431,7 @@ code.value {
     <h3 id="reference" class="govuk-heading-s">Reference</h3>
     <p class="govuk-body">The reference identifies the entity within a data provider.</p>
     <p class="govuk-body">
-    <em>A URI for the entity may be constructed by a combination of the reference with a IRI prefix value, or be provided in an optional URI field.</em>
+    <em>A URI for the entity may be constructed by a combination of the reference with prefix value.</em>
     </p>
     <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
@@ -427,7 +440,7 @@ code.value {
     <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a Local plan when completing a form, or contacting a call centre.</p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
-    <p class="govuk-body">
+    <p>
     All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] following the Open Standards for government guidance on encoding characters [<a href="encoding-characters">encoding-characters</a>].
     </p>
 
@@ -443,25 +456,20 @@ Entries SHOULD NOT be removed from the data except to correct a mistake, or for 
 <h2 id="open-data-format" class="govuk-heading-m">Open data formats</h2>
 <p class="govuk-body">
 Data which does not contain geospatial information (a point or geometry field) MUST be provided as (<a href="#csv-format">CSV</a>).
-<p>
+</p>
 <p class="govuk-body">
 Geospatial data MUST be provided in at least one of the following open data formats:
 </p>
 <ul class="govuk-list govuk-list--bullet">
 <li><a href="#CSV-format">CSV</a>
 <li><a href="#GeoJSON-format">GeoJSON</a>
-<li>OGC <a href="#GML-format">GML</a>
+<li>OGC <a href="#GML">GML</a>
 <li>OGC <a href="#geopackage-format">Geopackage</a>
-<li>OGC Keyhole Markup Language <a href="#KML-format">KML</a>
+<li>OGC Keyhole Markup Language <a href="#KML">KML</a>
 </ul>
 <p class="govuk-body">
 The preferred format for representing geospatial data is Comma Separated Value (<a href="#csv-format">CSV</a>)
 with the <code class="field">geometry</code> and <code class="point">point</code> fields containing Well Known Text [<a href="#WKT">WKT</a>].
-</p>
-<p class="govuk-body">
-The data MAY also be provided in other data formats
-such as a [<a href="#ZIP">ZIP</a>] archive containing a collection of ESRI shapefiles [<a href="#Shapefile">Shapefile</a>],
-a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
 </p>
 
 <!--
@@ -607,6 +615,15 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     Geography Markup Language (GML).
     Open Geospatial Consortium standard (ISO 19136-1:2020).
     <a href="https://www.ogc.org/standards/gml">https://www.ogc.org/standards/gml</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="KML">[KML]</dt>
+    <dd class="govuk-summary-list__value">
+    OGC KML 2.3.
+    Open Geospatial Consortium standard (12-007r2).
+    <a href="http://www.opengis.net/doc/IS/kml/2.3">http://www.opengis.net/doc/IS/kml/2.3</a>
     </dd>
     </div>
 
@@ -773,6 +790,15 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
     </dd>
     </div>
 
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="URL">[URL]</dt>
+    <dd class="govuk-summary-list__value">
+    WHATWG URL. Living Standard.
+    Interoperability of URL with URI and IRI values.
+    <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
+    </dd>
+    </div>
+
     </dl>
 
     
@@ -786,7 +812,7 @@ a Mapinfo TAB [<a href="#TAB">TAB</a>] file.
 
     <ul class="govuk-list govuk-list--bullet">
     
-      <li>Version <a href="v2.2.1" class="govuk-link">2.2.1</a> (current)</li>
+      <li>Version <a href="v2.2.2" class="govuk-link">2.2.2</a> (current)</li>
     
       <li>Version <a href="v2.1.0" class="govuk-link">2.1.0</a></li>
     
