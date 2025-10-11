@@ -11,7 +11,6 @@ github-discussion: 97
 version: 2.4.0
 datasets:
     - dataset: local-plan-boundary
-      name: local plan boundary
       fields:
           - field: reference
             requirement-level: MUST
@@ -28,7 +27,6 @@ datasets:
           - field: notes
             requirement-level: MAY
     - dataset: local-plan
-      name: local plan
       fields:
           - field: reference
             requirement-level: MUST
@@ -72,7 +70,6 @@ datasets:
           - field: notes
             requirement-level: MAY
     - dataset: local-plan-document
-      name: local plan document
       fields:
           - field: reference
             requirement-level: MUST
@@ -98,7 +95,6 @@ datasets:
           - field: notes
             requirement-level: MAY
     - dataset: local-plan-timetable
-      name: local plan timetable
       fields:
           - field: reference
             requirement-level: MUST
