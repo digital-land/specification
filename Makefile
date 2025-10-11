@@ -43,6 +43,7 @@ SPECIFICATION_CSV=\
 	specification/pipeline.csv\
 	specification/quality.csv\
 	specification/realm.csv\
+	specification/requirement-level.csv\
 	specification/role.csv\
 	specification/theme.csv
 
@@ -171,6 +172,9 @@ specification/cohort.csv:	content/cohort.csv
 
 specification/realm.csv:	content/realm.csv
 	cp content/realm.csv $@
+
+specification/requirement-level.csv:	content/requirement-level.csv
+	cp content/requirement-level.csv $@
 
 specification/role.csv:	content/role.csv
 	cp content/role.csv $@
