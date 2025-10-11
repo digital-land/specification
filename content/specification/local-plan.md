@@ -2,115 +2,122 @@
 specification: local-plan
 name: Local plan
 plural: Local plans
+description: local plan
 specification-status: working-draft
 start-date: ''
 end-date: ''
-entry-date: '2025-10-09'
+entry-date: '2025-10-11'
 github-discussion: 97
-version: 2.3.1
+version: 2.4.0
 datasets:
     - dataset: local-plan-boundary
       name: local plan boundary
       fields:
           - field: reference
-            description: a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the local planning authority boundary reference
+            requirement-level: MUST
           - field: name
-            description: a name for the boundary. For example, `City of York boundary`
+            requirement-level: SHOULD
           - field: geometry
-            description: the boundary in WKT format 
-          - field: description
-            description: a description of the boundary. Provide more detail if boundary is different from planning authority boundary
-          - field: organisations
-            description: a list of codes for the responsible organisations, separated by ;
+            requirement-level: MUST
           - field: entry-date
-            description: the date this information has been entered as a record
+            requirement-level: SHOULD
           - field: start-date
-            description: the date the validity of the record starts
+            requirement-level: SHOULD
           - field: end-date
-            description: the date the validity of the record ends
+            requirement-level: MAY
+          - field: notes
+            requirement-level: MAY
     - dataset: local-plan
       name: local plan
       fields:
           - field: reference
-            description: an unique identifier for a local plan
+            requirement-level: MUST
           - field: name
-            description: the name of the local plan (for example, `Leeds Local Plan`)
-          - field: description
-            description: brief description of plan
-          - field: period-start-date
-            description: the start date of the period the plan covers
-          - field: period-end-date
-            description: the end date of the period the plan covers
-          - field: local-plan-boundary
-            description: the reference code for the boundary the plan covers
-          - field: documentation-url
-            description: the web page where you can find the documentation for the plan
-          - field: adopted-date
-            description: the date a plan is officially adopted
+            requirement-level: SHOULD
+            assertions:
+                - reference: local-plan-A001
+                  requirement-level: SHOULD
+                  text: 'match the title of the document at `document-url`.'  
           - field: organisations
-            description: a list of CURIE references for the responsible organisations, separated by ;
+            requirement-level: SHOULD
+          - field: period-start-date
+            requirement-level: SHOULD
+          - field: period-end-date
+            requirement-level: SHOULD
+          - field: local-plan-boundary
+          - field: documentation-url
+            requirement-level: MUST
+          - field: document-url
+            requirement-level: MUST
+            assertions:
+                - reference: local-plan-A002
+                  requirement-level: MUST
+                  text: 'link to the core local plan document described by this data.'
+          - field: adopted-date
+            requirement-level: SHOULD
           - field: required-dwellings
-            description: the total housing requirement (net additional dwellings) for the local plan period
+            requirement-level: SHOULD
           - field: committed-dwellings
-            description: the number of dwellings already committed for development within the local plan area
+            requirement-level: SHOULD
           - field: allocated-dwellings
-            description: the number of additional dwellings allocated to sites in the local plan
+            requirement-level: SHOULD
           - field: windfall-dwellings
-            description: the number of additional dwellings expected to be delivered from windfall developments during the local plan period
+            requirement-level: SHOULD
           - field: entry-date
-            description: the date this information has been entered as a record
+            requirement-level: SHOULD
           - field: start-date
-            description: the date the validity of the record starts
+            requirement-level: SHOULD
           - field: end-date
-            description: the date the validity of the record ends
+            requirement-level: MAY
+          - field: notes
+            requirement-level: MAY
     - dataset: local-plan-document
       name: local plan document
       fields:
           - field: reference
-            description: An unique identifier for this record (for example, `document-123`)
+            requirement-level: MUST
           - field: name
-            description: The name of this document
+            requirement-level: MUST
           - field: description
-            description: Brief description of this document
+            requirement-level: MAY
           - field: local-plan
-            description: The reference for the particular local plan (for example, `dorcester-local-plan-23`)
           - field: document-types
-            description: The reference code for this document type (for example "policy-map")
-            dataset: local-plan-document-type
+            requirement-level: SHOULD
           - field: documentation-url
-            description: The webpage where you can find this document 
+            requirement-level: SHOULD
           - field: document-url
-            description: The URL of the actual document
+            requirement-level: MUST
           - field: organisations
-            description: a list of codes for the responsible organisations, separated by ;
+            requirement-level: SHOULD
           - field: entry-date
-            description: the date this information has been entered as a record
+            requirement-level: SHOULD
           - field: start-date
-            description: the date the validity of the record starts
+            requirement-level: SHOULD
           - field: end-date
-            description: the date the validity of the record ends
+            requirement-level: MAY
+          - field: notes
+            requirement-level: MAY
     - dataset: local-plan-timetable
       name: local plan timetable
       fields:
           - field: reference
-            description: An unique identifier for this record (for example, xyz-wquiw-309)
-          - field: name
-            description: a human readable name for the event
+            requirement-level: MUST
           - field: local-plan
-            description: the reference code for a particular local plan (for example, "dorcester-new-local-plan")
+            requirement-level: MUST
           - field: local-plan-event
+            requirement-level: MUST
             dataset: local-plan-event
-            description: The reference code for the type of local plan event (for example "plan-adopted")
           - field: event-date
-            description: The date this event happened 
-          - field: notes
-            description: Optional notes
-          - field: organisation
-            description: The CURIE reference for the responsible organisation (for example, "local-authority-eng:BST")
+            requirement-level: MUST
           - field: entry-date
-            description: the date this information has been entered as a record
+            requirement-level: SHOULD
           - field: start-date
-            description: the date the validity of the record starts
+            requirement-level: SHOULD
           - field: end-date
-            description: the date the validity of the record ends
+            requirement-level: SHOULD
+          - field: notes
+            requirement-level: MAY
+examples:
+    - durham-local-plan
+    - linconshire-local-plan
 ---
