@@ -151,16 +151,32 @@ code.value {
 
     <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(d["name"] or d["dataset"]) }}</h3>
     <p class="govuk-body">The {{ d["name"] or d["dataset"] }} data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each {{ d["name"] or d["dataset"] }}.</p>
-    <p class="govuk-body">Each {{ d["name"] or d["dataset"] }} record SHOULD contain the following fields:</p>
+    <p class="govuk-body">The data SHOULD contain at least one record for each {{ d["name"] or d["dataset"] }}.</p>
+
+    <p class="govuk-body">Each {{ d["name"] or d["dataset"] }} record MUST contain the following fields:</p>
 
     <ul class="govuk-list govuk-list--bullet">
     {% for f in d["fields"] %}
-    <li><code class="field">{{ f["field"] }}</code> {% if f["description"] %} &mdash; {{ f["description"] | safe }}{% endif %}{% if f["dataset"] and tables["dataset"].get(f["dataset"]) and tables["dataset"][f["dataset"]].get("typology", "") == "category" %} (<a href="{{dataset_editor_url}}/dataset/{{f['dataset']}}/finder">See list of allowable values</a>){% endif %}</li>
+    <li><code class="field">{{ f["field"] }}</code> {% if f["description"] %} &mdash; {{ f["description"] | safe }}{% endif %}</li>
+
+        {% if f["dataset"] and tables["dataset"].get(f["dataset"]) and tables["dataset"][f["dataset"]].get("typology", "") == "category" %} (<a href="{{dataset_editor_url}}/dataset/{{f['dataset']}}/finder">See list of allowable values</a>){% endif %}</li>
     {% endfor %}
     </ul>
 
 {% endfor %}
+
+    <h2 id="fields" class="govuk-heading-m">Fields</h2>
+
+    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <p class="govuk-body">The reference identifies the entity within a data provider.</p>
+    <p class="govuk-body">
+    <em>A URI for the entity may be constructed by a combination of the reference with prefix value.</em>
+    </p>
+    <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
+    <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
+    <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
+    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the {{ item["name"]}}.</p>
+    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a {{item["name"]}} when completing a form, or contacting a call centre.</p>
 
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
@@ -187,17 +203,6 @@ code.value {
     Positions calculated by the WGS84 and ETRS89 systems currently deviate by less than half a metre for points within England.
     Boundaries provided by this dataset are intended to be used as an index. Survey data SHOULD be used where more precision is needed.
     </p>
-
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
-    <p class="govuk-body">The reference identifies the entity within a data provider.</p>
-    <p class="govuk-body">
-    <em>A URI for the entity may be constructed by a combination of the reference with prefix value.</em>
-    </p>
-    <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
-    <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
-    <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
-    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the {{ item["name"]}}.</p>
-    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a {{item["name"]}} when completing a form, or contacting a call centre.</p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
     <p>
