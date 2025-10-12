@@ -3,7 +3,7 @@ attribution: historic-england
 collection: conservation-area
 consideration: conservation-areas
 dataset: conservation-area
-description: Special architectural or historic interest, the character or appearance
+description: An area of special architectural or historic interest, the character or appearance
   of which it is desirable to preserve or enhance
 end-date: ''
 entity-maximum: '44999999'
@@ -44,6 +44,10 @@ wikidata: Q5162904
 wikipedia: Conservation_area_(United_Kingdom)
 ---
 
-This dataset contains the boundaries of conservation areas from Historic England, as well as other data found on [data.gov.uk](https://www.data.gov.uk/search?q=conservation+area) and currently contains a number of duplicate areas we are working to remove.
+This dataset is primarily intended to be used for informing development decisions.
 
-It can be used for informing developers if their prospective development is going to be in a conservation area.
+This dataset is incomplete, and contains some authoritative data provided by local authorities, 
+as well as conservation area boundaries from Historic England, and other secondary sources found on
+[data.gov.uk](https://www.data.gov.uk/search?q=conservation+area). 
+The data currently contains a number of duplicate areas we are working to remove.
+
