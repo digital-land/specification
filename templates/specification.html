@@ -227,14 +227,17 @@ a.para:hover {
 
     <h3 id="{{d["dataset"]}}__fields">Fields</h3>
     {%- for f in d["fields"] %}
-    <h4>{{ f["field"] }}</h4>
+    {% set field = f["field"] %}
+    {% set fieldname = tables["field"][field]["name"] %}
+
+    <h4>{{ fieldname }}</h4>
 
     {% set level = f["requirement-level"] or "MAY" %}
     {% set datatype = tables["field"][f["field"]]["datatype"] %}
     {% set datatype_name = tables["datatype"][datatype]["name"] or "??" %}
 
-    <p class="assertion">Each {{ name }} entry {{level}} contain a {{f["field"]}} field.</p>
-    <p class="assertion">The {{ name }} {{d["field"]}} value MUST conform to the [<a href="#datatype-{{datatype}}">{{datatype_name}}</a>] Datatype.</p>
+    <p class="assertion">Each {{ name }} entry {{level}} contain a <code>{{f["field"]}}</code> field.</p>
+    <p class="assertion">The {{ name }} <code>{{field}}</code> value MUST conform to the [<a href="#datatype-{{datatype}}">{{datatype_name}}</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->{% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
 
