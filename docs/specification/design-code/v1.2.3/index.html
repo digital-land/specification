@@ -40,6 +40,38 @@ code.value {
 .app-version-banner p {
   margin-bottom: 0;
 }
+
+.guidance, .note, .example, .description {
+    margin: 0 0 20px 0;
+    background-color: #f3f2f1;
+    padding: 30px;
+}
+
+.guidance:before, .note::before, .example::before, .description::before {
+    font-weight: bold;
+    clear: right;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.guidance:before {
+    content: "Guidance" ;
+}
+
+.note::before {
+    content: "Note" ;
+}
+
+.example::before {
+    content: "Example";
+}
+
+.description:before {
+    content: "Description" ;
+}
+
+
+
 </style>
 
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
@@ -222,249 +254,648 @@ code.value {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
-    <h2 id="documentation-page" class="govuk-heading-m">Documentation page</h2>
+    <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
-    <details class="govuk-details" open>
-        <summary class="govuk-details__summary"><span class="govuk-details__summary-text">
-            Note
-        </span></summary>
-        <div class="govuk-details__text">
-            The documentation page is a web page intended to help a user find the data. 
-            The page SHOULD contain information about how and why the data has been published along with links to where the data may be downloaded.
-        </div>
-    </details>
+    <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
 
-    <p>The documentation page SHOULD be accessible as HTML from a public URL.</p>
+    <p>The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
 
-    <p>The documentation page SHOULD be owned and operated by the data provider.</p>
-    <p>Where the data provider is a local authority or other public body, the web page SHOULD be on the offical website for the organisation which is usually on a <code>.gov.uk</code> domain.</p>
+    <p class="note">Finding the information on the organisation's official website helps users check the information 
+    in the data. It increases the trust the user may place in the origin of the data, and that it is more likely to be sustained. </p>
 
-    <p class="govuk-body">
-    The documentation page MUST include:
+    <p class="assertion">The source documentation SHOULD be on the offical website for the organisation.</p> 
+
+    <p class="note">A Local Authority or other public body should put the documentation page under their <code>.gov.uk</code> domain.</p>
+
+    <p class="assertion">The source documentation MAY either contain the [<a href="#endpoint-documentation">endpoint documentation</a>],
+    or link to one or more separate [<a href="#endpiint-documentatino">Endpoint documentation</a>] pages.</p> 
+
+    <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
+
+    <p class="note">The endpoint documentation is a web page where a user can find a link to where they can download the data (the endpoint), 
+    along with other information relevant to a data user, such as the date the data was last updated.
+    Every endpoint needs to be findable via a link on the [<a href="#source">Source documentation</a>] page,
+    and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
     </p>
-    <ul class="govuk-list govuk-list--bullet">
+
+    <p>The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
+
+    <p>The endpoint documentation URL SHOULD have the same [<a href="#URL">URL</a>] as the <a href="#source-documentation">source documentation</a>.</p>
 
     
-      <li>A hyperlink to the <a href="#design-code-dataset">design code</a> endpoint.</li>
     
-      <li>A hyperlink to the <a href="#design-code-rule-dataset">design code rule</a> endpoint.</li>
+    <p>
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#design-code-dataset">design code</a> data.
+    </p>
     
-      <li>A hyperlink to the <a href="#design-code-area-dataset">design code area</a> endpoint.</li>
+    
+    <p>
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#design-code-rule-dataset">design code rule</a> data.
+    </p>
+    
+    
+    <p>
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#design-code-area-dataset">design code area</a> data.
+    </p>
     
 
-    <li>A clear licence for reusing the data, for example, 
-        <i>"This data is available is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>."</i> [<a href="#OGL3">OGL3</a>].</li>
-    <li>Any attribution a user of the data will need to provide when using the data, for example <i>"<a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>"</i>. [<a href="#crown-copyright">Crown Copyright</a>].</li>
-    </ul>
+    <p>The endpoint documentation page SHOULD include a clear licence for reusing the data.</p>
+
+    <p class="assertion" id="preferred-licensing">
+    The data SHOULD be published as [<a href="#crown-copyright">Crown Copyright</a>] under [<a href="#OGL3">OGL3</a>].
+    </p>
 
 
-    <h2 id="data" class="govuk-heading-m">Data</h2>
-    <div id="diagram" class="govuk-grid-column-full govuk-!-padding-bottom-6">
-      <img src="diagram.svg">
-    </div>
+    <p class="example" id="example-attribution">
+    This data is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+    and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
+    </p>
 
+    <p>The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
 
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+    <p class="note">The following diagram illustrates the [<a href="#datasets">Datasets</a>] specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg">
 
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
 
+    
+    
 
     <h3 id="design-code-dataset" class="govuk-heading-m">
     Design code
 </h3>
-    <p class="govuk-body">The design code data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each design code.</p>
-    <p class="govuk-body">Each design code record SHOULD contain the following fields:</p>
+    <p class="description">
+    .
+</p>
 
+    <p class="govuk-body">The Design code dataset  contain at least one entry for each Design code for which the data provider is the responsible authority.</p>
+
+    
+    <p class="govuk-body">Each Design code entry MUST contain the following fields:</p>
     <ul class="govuk-list govuk-list--bullet">
-    
-    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the design code</li>
-    
-    <li><code class="field">name</code>  &mdash; the name, or title of the design code</li>
-    
-    <li><code class="field">description</code>  &mdash; a short, single-line description of the design code</li>
-    
-    <li><code class="field">design-code-status</code>  &mdash; a <a href="#design-code-status">design-code-status</a> reference</li>
-    
-    <li><code class="field">documentation-url</code>  &mdash; the URL for the Web page with guidance on the design code policy document</li>
-    
-    <li><code class="field">document-url</code>  &mdash; the URL for the Design Code. This should be a URL to a website or document</li>
-    
-    <li><code class="field">notes</code>  &mdash; optional notes on the status of the design code</li>
-    
-    <li><code class="field">start-date</code>  &mdash; the <a href="#date">date</a> the design code comes, or came into force</li>
-    
-    <li><code class="field">end-date</code>  &mdash; the <a href="#date">date</a> this date the design code no longer applies</li>
-    
-    <li><code class="field">entry-date</code>  &mdash; the <a href="#date">date</a> this entry was created or last amended</li>
-    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ul>
+    
+    <p class="govuk-body">Each Design code entry SHOULD contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+    <p class="govuk-body">Each Design code entry MAY contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        <li>[<a href="#design-code_reference">reference</a>]</li>
+        
+        
+        <li>[<a href="#design-code_name">name</a>]</li>
+        
+        
+        <li>[<a href="#design-code_description">description</a>]</li>
+        
+        
+        <li>[<a href="#design-code_design-code-status">design-code-status</a>]</li>
+        
+        
+        <li>[<a href="#design-code_documentation-url">documentation-url</a>]</li>
+        
+        
+        <li>[<a href="#design-code_document-url">document-url</a>]</li>
+        
+        
+        <li>[<a href="#design-code_notes">notes</a>]</li>
+        
+        
+        <li>[<a href="#design-code_start-date">start-date</a>]</li>
+        
+        
+        <li>[<a href="#design-code_end-date">end-date</a>]</li>
+        
+        
+        <li>[<a href="#design-code_entry-date">entry-date</a>]</li>
+        
+    </ul>
+    
 
+    <h3 id="design-code__fields">Fields</h3>
+    <h4>reference</h4>
 
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>name</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>description</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a short, single-line description of the design code</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>design-code-status</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a <a href="#design-code-status">design-code-status</a> reference</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>documentation-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the URL for the Web page with guidance on the design code policy document</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>document-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the URL for the Design Code. This should be a URL to a website or document</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>notes</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">optional notes on the status of the design code</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>start-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#date">date</a> the design code comes, or came into force</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>end-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#date">date</a> this date the design code no longer applies</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>entry-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#date">date</a> this entry was created or last amended</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+
+    
+    
 
     <h3 id="design-code-rule-dataset" class="govuk-heading-m">
     Design code rule
 </h3>
-    <p class="govuk-body">The design code rule data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each design code rule.</p>
-    <p class="govuk-body">Each design code rule record SHOULD contain the following fields:</p>
+    <p class="description">
+    The set of design code rules affecting a design code area.
+</p>
 
+    <p class="govuk-body">The Design code rule dataset  contain at least one entry for each Design code rule for which the data provider is the responsible authority.</p>
+
+    
+    <p class="govuk-body">Each Design code rule entry MUST contain the following fields:</p>
     <ul class="govuk-list govuk-list--bullet">
-    
-    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the design code rule</li>
-    
-    <li><code class="field">name</code>  &mdash; the name, or title of the design code rule</li>
-    
-    <li><code class="field">design-code</code>  &mdash; the <a href="#reference">reference</a> for the design code where this rule is defined.</li>
-    
-    <li><code class="field">description</code>  &mdash; a short, single-line description of the design code rule</li>
-    
-    <li><code class="field">documentation-url</code>  &mdash; the URL for guidance on the design code rule</li>
-    
-    <li><code class="field">document-url</code> </li>
-    
-    <li><code class="field">design-code-rule-categories</code>  &mdash; a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character</li>
-    
-    <li><code class="field">notes</code>  &mdash; a field to capture notes about the design code rule</li>
-    
-    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
-    
-    <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
-    
-    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
-    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ul>
+    
+    <p class="govuk-body">Each Design code rule entry SHOULD contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+    <p class="govuk-body">Each Design code rule entry MAY contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        <li>[<a href="#design-code-rule_reference">reference</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_name">name</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_design-code">design-code</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_description">description</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_documentation-url">documentation-url</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_document-url">document-url</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_design-code-rule-categories">design-code-rule-categories</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_notes">notes</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_entry-date">entry-date</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_start-date">start-date</a>]</li>
+        
+        
+        <li>[<a href="#design-code-rule_end-date">end-date</a>]</li>
+        
+    </ul>
+    
 
+    <h3 id="design-code-rule__fields">Fields</h3>
+    <h4>reference</h4>
 
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code rule</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>name</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code rule</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>design-code</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code where this rule is defined.</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>description</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a short, single-line description of the design code rule</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>documentation-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the URL for guidance on the design code rule</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>document-url</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>design-code-rule-categories</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>notes</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a field to capture notes about the design code rule</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>entry-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>start-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>end-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+
+    
+    
 
     <h3 id="design-code-area-dataset" class="govuk-heading-m">
     Design code area
 </h3>
-    <p class="govuk-body">The design code area data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each design code area.</p>
-    <p class="govuk-body">Each design code area record SHOULD contain the following fields:</p>
+    <p class="description">
+    .
+</p>
 
+    <p class="govuk-body">The Design code area dataset  contain at least one entry for each Design code area for which the data provider is the responsible authority.</p>
+
+    
+    <p class="govuk-body">Each Design code area entry MUST contain the following fields:</p>
     <ul class="govuk-list govuk-list--bullet">
-    
-    <li><code class="field">reference</code>  &mdash; the <a href="#reference">reference</a> for the design code area</li>
-    
-    <li><code class="field">name</code>  &mdash; the name, or title of the design code area</li>
-    
-    <li><code class="field">geometry</code>  &mdash; the boundaries of the design code area as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry.</li>
-    
-    <li><code class="field">design-code</code>  &mdash; the <a href="#reference">reference</a> for the design code which applies to this area</li>
-    
-    <li><code class="field">design-code-rules</code>  &mdash; a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.</li>
-    
-    <li><code class="field">design-code-area-type</code>  &mdash; the classification of the area, for example Rural Settlements or Urban Neighbourhood (<a href="https://dataset-editor.planning.data.gov.uk/dataset/design-code-area-type/finder">See list of allowable values</a>)</li>
-    
-    <li><code class="field">documentation-url</code>  &mdash; the URL for guidance or information defining the design code area</li>
-    
-    <li><code class="field">document-url</code>  &mdash; a URL to a document that defines the design code area, if it is not included in the Design Code document</li>
-    
-    <li><code class="field">notes</code>  &mdash; a field to capture notes about the design code area</li>
-    
-    <li><code class="field">entry-date</code>  &mdash; the date this information has been entered as a record</li>
-    
-    <li><code class="field">start-date</code>  &mdash; the date the validity of the record starts</li>
-    
-    <li><code class="field">end-date</code>  &mdash; the date the validity of the record ends</li>
-    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ul>
+    
+    <p class="govuk-body">Each Design code area entry SHOULD contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+    <p class="govuk-body">Each Design code area entry MAY contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        <li>[<a href="#design-code-area_reference">reference</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_name">name</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_geometry">geometry</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_design-code">design-code</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_design-code-rules">design-code-rules</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_design-code-area-type">design-code-area-type</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_documentation-url">documentation-url</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_document-url">document-url</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_notes">notes</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_entry-date">entry-date</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_start-date">start-date</a>]</li>
+        
+        
+        <li>[<a href="#design-code-area_end-date">end-date</a>]</li>
+        
+    </ul>
+    
+
+    <h3 id="design-code-area__fields">Fields</h3>
+    <h4>reference</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code area</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>name</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code area</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>geometry</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the boundaries of the design code area as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry.</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>design-code</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code which applies to this area</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>design-code-rules</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>design-code-area-type</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the classification of the area, for example Rural Settlements or Urban Neighbourhood</p>
+
+    <!- brute force for now, needs an index -->
+
+    [<a href="https://planning.data.gov.uk/dataset/design-code-area-type">design-code-area-type dataset</a>]</li>
+    <h4>documentation-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the URL for guidance or information defining the design code area</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>document-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a URL to a document that defines the design code area, if it is not included in the Design Code document</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>notes</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a field to capture notes about the design code area</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>entry-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>start-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>end-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
 
 
+    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+
+    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <p>A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
+    
+    <p>A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
+    <p>The reference MAY be used in other contexts to refer to the entity. For example, the reference MAY be used to construct a <a href="#URL">URL</a> to a web page with more information about the Design code.</p>
+    <p>A reference SHOULD be short and meaningful to a user. For example, the reference MAY be used to refer to the entity when completing an offline form, or contacting a call centre.</p>
 
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
     <h3 id="date" class="govuk-heading-s">Date</h3>
     <p>
-    Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the Open Standards for government guidance on formatting dates and times in data
-    [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
+    Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
     <p>
-    A date value SHOULD be blank if it is unknown. The date may just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
+    A date value SHOULD be blank if it is unknown.</p> 
+    <p>The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
     <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
     <p>
-    The boundary for the area as a single POLYGON or MULTIPOLYGON value.
+    A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.
     </p>
     <p>
-    In all cases all points MUST be either in the
+    When using Comma Separated Value (CSV), the geometry SHOULD be encoded as Well Known Text [<a href="#WKT">WKT</a>].
+    </p>
+    <p>
+    All points SHOULD be either in the
     [<a href="#WGS84">WGS84</a>] (<a href="#EPSG::4326">EPSG::4326</a>) or
     [<a href="#ETRS89">ETRS89</a>] (<a href="#EPSG::4258">EPSG::4258</a>) coordinate reference system
-    following the Open Standards for government guidance on the exchange of location points [<a href="#exchange-of-location-point">exchange-of-location-point</a>].
+    following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="#exchange-of-location-point">exchange-of-location-point</a>].
     </p>
-    <p>
-    Positions calculated by the WGS84 and ETRS89 systems currently deviate by less than half a metre for points within England.
-    Boundaries provided by this dataset are intended to be used as an index. Survey data SHOULD be used where more precision is needed.
+    <p class="note">Boundaries provided by this dataset are intended to be used as an index. 
+    Positions calculated by the WGS84 and ETRS89 systems can currently deviate by half a metre for points within England.
+    Survey data should be used where more precision is needed.
     </p>
-
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
-    <p class="govuk-body">The reference identifies the entity within a data provider.</p>
-    <p class="govuk-body">
-    <em>A URI for the entity may be constructed by a combination of the reference with prefix value.</em>
-    </p>
-    <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
-    <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
-    <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
-    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the Design code.</p>
-    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a Design code when completing a form, or contacting a call centre.</p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
     <p>
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] following the Open Standards for government guidance on encoding characters [<a href="encoding-characters">encoding-characters</a>].
+    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 
 <h2 class="govuk-heading-m">Historical data</h2>
-<p class="govuk-body">
-Entries SHOULD be ordered by the entry-date, with older entries appearing before later entries.
-</p>
-<p class="govuk-body">
-The <code class="field">end-date</code> field should be used to indicate when an entity is no longer applicable.
-Entries SHOULD NOT be removed from the data except to correct a mistake, or for the purposes of redacting personal or sensitive information.
-</p>
 
-<h2 id="open-data-format" class="govuk-heading-m">Open data formats</h2>
-<p class="govuk-body">
-Data which does not contain geospatial information (a point or geometry field) MUST be provided as (<a href="#csv-format">CSV</a>).
+<p class="note">Removing historical data can reduce the trust a user places in the quality of the data.
+There are also many uses for historical documents, data and material information in planning, such as when developing an older property, 
+processing an appeal, and monitoring the delivery of housing on older brownfield land, and when collecting evidence for plan-making.</a>
+
+<p class="assertion">
+Entries SHOULD NOT be changed or removed from the data except to correct a mistake, or for the purposes of redacting personal or otherwise sensitive information.
 </p>
-<p class="govuk-body">
-Geospatial data MUST be provided in at least one of the following open data formats:
-</p>
+<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer `entry-date`.</p>
+<p class="assertion">Entries SHOULD be ordered within a dataset by the `entry-date` value, with older entries appearing before later entries.</p>
+<p class="assertion">The [<a href="#field_end-date">end-date</a>] field should be used to indicate when an entity is no longer applicable.</p>
+
+<h2 id="data-format" class="govuk-heading-m">Data file formats</h2>
+
+<p class="assertion">Data MUST be provided in at least one of the following file formats: </p>
 <ul class="govuk-list govuk-list--bullet">
-<li><a href="#CSV-format">CSV</a>
-<li><a href="#GeoJSON-format">GeoJSON</a>
-<li>OGC <a href="#GML">GML</a>
-<li>OGC <a href="#geopackage-format">Geopackage</a>
-<li>OGC Keyhole Markup Language <a href="#KML">KML</a>
+    <li>Comma Separated Value (CSV) [<a href="#RFC4180">RFC4180</a>]
+    <li>GeoJSON [<a href="#RFC7946">RFC7946</a>]
+    <li>OGC [<a href="#GML">GML</a>]
+    <li>OGC [<a href="#Geopackage">Geopackage</a>]
+    <li>OGC Keyhole Markup Language [<a href="#KML">KML</a>]
 </ul>
-<p class="govuk-body">
-The preferred format for representing geospatial data is Comma Separated Value (<a href="#csv-format">CSV</a>)
-with the <code class="field">geometry</code> and <code class="point">point</code> fields containing Well Known Text [<a href="#WKT">WKT</a>].
+<p class="note">The preferred format for geospatial data is GeoJSON.</p>
+<p>Tabular data SHOULD be provided as (CSV) [<a href="#RFC4180">RFC4180</a>]
+following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="#tabular-data-standard">tabular-data-standard</a>].</p>
+
+<h2 id="field-names" class="govuk-heading-m">Field names</h2>
+<p class="note">
+The case and punctuation used in field names is insignificant, meaning
+fields with the name <code>Start Date</code>, <code>StartDate</code>, <code>START_DATE</code> and <code>start.date</code> 
+are all valid ways of naming the <code>start-date</code> field.
 </p>
+<p class="assertion">A field name SHOULD be treated as being case insensitive.</p> 
+<p class="assertion">Any non-alphanumeric characters in a field name SHOULD be treated as being insignificant.</p> 
 
-<!--
-<h3 id="CSV-format" class="govuk-heading-m">CSV</h3>
-<p class="govuk-body">
-</p>
+<h2 id="examples" class="govuk-heading-m">Examples</h2>
 
-<h3 id="GeoJSON-format" class="govuk-heading-m">GeoJSON</h3>
-<p class="govuk-body">
-</p>
-
-<h3 id="geopackage-format" class="govuk-heading-m">geopackage</h3>
-<p class="govuk-body">
-</p>
-
-<h3 id="GML-format" class="govuk-heading-m">GML</h3>
-<p class="govuk-body">
-</p>
-
-
-    <h2 class="govuk-heading-m">Examples</h2>
-    <h2 class="govuk-heading-m">Terminology</h2>
-    <h2 class="govuk-heading-m">Licensing of the data</h2>
-    <h2 class="govuk-heading-m">Copyright and attribution</h2>
-  -->
     <h2 class="govuk-heading-m">Security and privacy considerations</h2>
     <p class="govuk-body">
     The data MUST NOT contain any personal or sensitive information, unless explicitly required by this specification, or legislation.
@@ -472,7 +903,7 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     <p class="govuk-body">
     There is a risk of people's names or other personally identifiable information appearing in the data, in particular notes, description and other text fields.
     It is the responsibility of the data provider to review and redact such information before publication.
-    For example, the [OGL3] licence does not cover personal data in the Information.
+    For example, the [<a href="#OGL3">OGL3</a>] licence does not cover personal data in the Information.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -480,11 +911,6 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     <h2 id="colophon" class="govuk-heading-m">Colophon</h2>
     <p class="govuk-body">
     This document is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown Copyright</a> and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a> licence.
-    </p>
-
-    <h2 id="acknowledgements" class="govuk-heading-m">Acknowledgements</h2>
-    <p class="govuk-body">
-    The specification builds upon work from the <a href="https://www.localdigital.gov.uk/ripa-bops-eoi/">local digital pathfinding local planning authorities</a>, the <a href="https://ripa.digital">Reducing Invalid Planning Applications (RIPA)</a> and <a href="https://bops.digital">Back Office Planning System (BOPS)</a> projects.
     </p>
 
     <h2 id="references" class="govuk-heading-m">References</h2>
@@ -598,6 +1024,16 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     </div>
 
     <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="Geopackage">[Geopackage]</dt>
+    <dd class="govuk-summary-list__value">
+    OGC Geopackage 1,4
+    Open Geospatial Consortium standard (12-128r19).
+    <a href="http://www.opengis.net/doc/IS/geopackage/1.4">http://www.opengis.net/doc/IS/geopackage/1.4</a>
+    </dd>
+    </div>
+
+
+    <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key" id="OGL3">[OGL3]</dt>
     <dd class="govuk-summary-list__value">
     Open Government Licence for public sector information.
@@ -644,6 +1080,15 @@ with the <code class="field">geometry</code> and <code class="point">point</code
         <a href="https://www.w3.org/TR/2010/NOTE-curie-20101216/">https://www.w3.org/TR/2010/NOTE-curie-20101216/</a>
     </dd>
     </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="open-standards-for-government">[open-standards-for-government]</dt>
+    <dd class="govuk-summary-list__value">
+        Government Digital Service and Central Digital and Data Office.
+        <a href="https://www.gov.uk/government/collections/open-standards-for-government-data-and-technology">Open standards for government</a> 
+    </dd>
+    </div>
+
 
     <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key" id="encoding-characters">[encoding-characters]</dt>
@@ -757,6 +1202,14 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     <dd class="govuk-summary-list__value">
     ZIP format.
     <a href="https://en.wikipedia.org/wiki/ZIP_(file_format)">https://en.wikipedia.org/wiki/ZIP_(file_format)</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="HTML">[HTML]</dt>
+    <dd class="govuk-summary-list__value">
+    WHATWG HTML. Living Standard.
+    <a href="https://html.spec.whatwg.org/">https://html.spec.whatwg.org/</a>
     </dd>
     </div>
 

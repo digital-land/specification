@@ -146,6 +146,7 @@ n,,hash,,,,endpoints,,,Endpoints,endpoint,,,,value,,
 1,,integer,entry number in a processed resource,,,entry-number,,,Entry number,number,,,,value,,
 1,,string,,,,esd-inventory,,,ESD inventory,identifier,,,,value,,
 1,,datetime,,,,event-date,,,Event date,datetime,,,,value,,
+1,,string,,,,example,,,Example,specification,,,,specification,,
 1,,string,,,,exception,,,Exception,text,,,,value,,
 1,,hash,,,,expectation-result,,,Expectation result,hash,,,,value,,
 1,,datetime,,,2025-02-17,expiry-date,,,Expiry date,datetime,,,,value,,
@@ -167,7 +168,13 @@ n,,curie,,,,geographies,,,Geographies,geography,,,,geography,,
 1,,json,,,,geojson,,,GeoJSON data,json,,,,value,,
 1,,blob,,,,geom,,,Internal BLOB geometry,blob,,,,value,,
 1,,blob,,,,geometry-geom,,,Geometry index,geom,,,,value,,
-1,,multipolygon,,,,geometry,,,Geometry,multipolygon-wkt,,,,value,,
+1,,multipolygon,A polygon or multipolygon boundary,,,geometry,"The boundary may be a single polygon, or a multipolygon value.
+All points should be in the WGS84 coordinate reference system.
+You may provide data containing points in another coordinate reference system, such as British National Grid,
+but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
+Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
+If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
+",,Geometry,multipolygon-wkt,,,,value,,
 1,,longitude,,2019-10-31,,GeoX,,,GeoX,value,longitude,,,value,,
 1,,latitude,,2019-10-31,,GeoY,,,GeoY,value,latitude,,,value,,
 1,,string,Identifier for the relevant gituhb discussion in the data standards backlog repository,,,github-discussion,,,Github discussion identifier,identifier,,,,value,https://github.com/digital-land/data-standards-backlog/discussions/{github-discussion},
@@ -301,7 +308,12 @@ n,,string,One or more legislation urls,,2025-09-29,legislation-urls,,,Legislatio
 1,,string,,,,organisation-entity,,,Organisation entity,entity,,,,value,https://www.digital-land.info/entity/{organisation-entity},
 1,,curie,,,,organisation,,,Organisation,organisation,,,,organisation,,
 1,,string,,2019-10-31,,OrganisationLabel,,,OrganisationLabel,value,,,,value,,
-n,,string,"a semicolon separate list of organisations identified using their CURIEs, these should be found on our platform in datasets with the organisation typology",,,organisations,,,Organisations,organisation,,,,organisation,,
+n,,string,list of organisations.,,,organisations,"A list of CURIE references for one or more organisations.
+Where you need to list more than one organisation, separate the values with a semicolon ';' character.
+You can find the CURIE reference for each organisation from our [list of organisations](https://www.planning.data.gov.uk/organisation/).
+The CURIE is made from the prefix value, followed by a colon ':' character, and then the reference value for the organisation being identified. 
+You may leave this value blank when the list of organisations is just the single organisation providing the data.
+",,Organisations,organisation,,,,organisation,,
 1,,url,,2019-10-31,,OrganisationURI,,,OrganisationURI,url,,,,value,,
 1,,string,,,,ownership-status,,,Ownership status,category,,,,category,,
 1,,string,,2019-10-31,,OwnershipStatus,,,OwnershipStatus,value,ownership-status,,,value,,
@@ -382,7 +394,14 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,string,,,,realm,,,Realm,category,,,,category,,
 1,,string,"For providing a reason, for example, the reason a plannig condition has been set on an application",,2024-10-14,reason,,,Reason,text,,,,value,,
 1,,string,,,,reference-entity,,,Reference entity,entity,,,,value,https://www.digital-land.info/entity/{reference-entity},
-1,,string,,,,reference,,,Reference,text,,,,value,,
+1,,string,,,,reference,"A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.
+",,Reference,text,,,,value,,
 1,,curie,,,,region,,,Region,geography,,,,geography,,
 1,,string,,,,regional-park-authority,,,Regional park authority,organisation,,,,organisation,,
 1,,string,,,,register,,,Register,specification,,,,specification,,
@@ -392,6 +411,7 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,string,,,,replacement-field,,,Replacement field,field,,,,specification,,
 1,,json,,,,request-headers,,,Request headers,json,,,,value,,
 1,,integer,required number of additional dwellings,,,required-dwellings,,,Required dwellings,dwelling-count,,,,value,,
+1,,string,Key word used in specifications to indicate the level of a requirement,,,requirement-level,,,Requirement level,category,,,,category,,
 1,,string,,,,requirement,,,Requirement,category,,,,category,,
 1,,url,,,,resource-url,,,Resource URL,url,,,,value,,
 1,,hash,,,,resource,,,Resource,hash,,,,value,,

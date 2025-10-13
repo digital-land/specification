@@ -88,9 +88,12 @@ crown-copyright,,,company,,,,,,2800000,2899999,ogl3,Company,,Companies,alpha,,da
 crown-copyright,,,concat,Concatenate fields during the harmonise phase,,,,,,,ogl3,Pipeline concatenation,,Pipeline concatenations,alpha,,configuration,,,,specification;pipeline,specification,1.0,,
 crown-copyright,conservation-area,conservation-areas,conservation-area-document-type,,,,33,,4210000,4210999,ogl3,Conservation area document type,,Conservation area document types,beta,,dataset,,,,heritage,category,1.0,,
 crown-copyright,conservation-area,conservation-areas,conservation-area-document,,,,33,,6300000,6399999,ogl3,Conservation area document,,Conservation area documents,beta,,dataset,,,,heritage,document,1.0,,
-historic-england,conservation-area,conservation-areas,conservation-area,"Special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",,,33,,44000000,44999999,ogl3,Conservation area,"{ ""colour"": ""#78AA00"" }",Conservation areas,beta,,dataset,,,"This dataset contains the boundaries of conservation areas from Historic England, as well as other data found on [data.gov.uk](https://www.data.gov.uk/search?q=conservation+area) and currently contains a number of duplicate areas we are working to remove.
+historic-england,conservation-area,conservation-areas,conservation-area,"An area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",,,33,,44000000,44999999,ogl3,Conservation area,"{ ""colour"": ""#78AA00"" }",Conservation areas,beta,,dataset,,,"This dataset is primarily intended to be used for informing development decisions.
 
-It can be used for informing developers if their prospective development is going to be in a conservation area.",heritage,geography,3.0,Q5162904,Conservation_area_(United_Kingdom)
+This dataset is incomplete, and contains some authoritative data provided by local authorities, 
+as well as conservation area boundaries from Historic England, and other secondary sources found on
+[data.gov.uk](https://www.data.gov.uk/search?q=conservation+area). 
+The data currently contains a number of duplicate areas we are working to remove.",heritage,geography,3.0,Q5162904,Conservation_area_(United_Kingdom)
 crown-copyright,,contaminated-land,contaminated-land,,,,,,16800000,16899999,ogl3,Contaminated land,,Contaminated land,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,developer-contributions,developer-contributions,contribution-funding-status,,,,,,16900000,16999999,ogl3,Contribution funding status,,Contribution funding statuses,live,,dataset,,,,development,category,1.0,,
 crown-copyright,developer-contributions,developer-contributions,contribution-purpose,,,,,,16200000,16299999,ogl3,Contribution purpose,,Contribution purposes,live,,dataset,,,,development,category,1.0,,
@@ -149,6 +152,8 @@ Data from this organisation is more authorititive and taken in priority over dat
 
 The organisation responsible for an entity is identified as a part of the data design process.",specification,entity,1.0,,
 crown-copyright,,,entity,a data item,,,,entity,,,ogl3,Entity,,Entities,alpha,,provenance,,,,specification,entity,1.0,,
+crown-copyright,,,example,A collection of example field values,,,,,,,ogl3,Example,,Examples,alpha,,specification,,,,specification,specification,1.0,,
+crown-copyright,,,example,,,,,,,,ogl3,Example,,Examples,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,expect,A set of rules which can be turned into an expectation of a dataset,,,,,,,ogl3,Expectation Rule,,Expectation Rules,alpha,,configuration,,,,pipeline,pipeline,1.0,,
 crown-copyright,,,expectation-issue,Issues found checking expecatations,,,,,,,ogl3,Expectation issue,,Expecation issues,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,expectation-result,Results from checking expectations,,,,expectation-result,,,ogl3,Expectation result,,Expecation results,alpha,,provenance,,,,specification,specification,1.0,,
@@ -237,12 +242,12 @@ crown-copyright,,,local-enterprise-partnership,,,,,,4000,4999,ogl3,Local Enterpr
 crown-copyright,,local-green-space,local-green-space,,,,,,8900000,8999999,ogl3,Local green space,,Local green spaces,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,local-nature-recovery-strategy,local-nature-recovery-strategy,,,,,,9000000,9099999,ogl3,Local nature recovery strategy,,Local nature recovery strategies,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,local-nature-reserve,local-nature-reserves,local-nature-reserve,,,,48,,45250000,45499999,ogl3,Local nature reserve,,Local nature reserves,beta,,dataset,,,Local nature reserves (LNR) are statutory designations for certain nature reserves in Great Britain.,environment;heritage,geography,1.0,Q3457526,Local_nature_reserve
-crown-copyright,local-plan,development-plans-and-timetables,local-plan-boundary,A boundary that a local plan covers,,2024-09-14,26,,4211000,4219999,ogl3,Local plan boundary,,Local plan boundaries,alpha,,dataset,,,,development,geography,2.0,,
+crown-copyright,local-plan,development-plans-and-timetables,local-plan-boundary,The boundary covered by a local plan.,,2024-09-14,26,,4211000,4219999,ogl3,Local plan boundary,,Local plan boundaries,alpha,,dataset,,,,development,geography,2.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-document-type,The types of documents published for a local plan,,2024-10-24,26,,5280000,5299999,ogl3,Local plan document type,,Local plan document types,alpha,,dataset,,,,development,category,1.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-document,,,2024-09-14,26,,3800000,3899999,ogl3,Local plan document,,Local plan documents,alpha,,dataset,,,,development,document,1.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-event,The different event types in a local plan timetable,,2024-10-22,26,,2950000,2999999,ogl3,Local plan event,,Local plan events,alpha,,dataset,,,,development,category,1.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-timetable,The log of estimated and actual events of the local plan making process for a local plan,,2024-10-22,26,,4230000,4299999,ogl3,Local plan timetable,,Local plan timetables,alpha,,dataset,,,,development,timetable,1.0,,
-crown-copyright,local-plan,devlopment-plans-and-timetables,local-plan,,,2024-09-14,26,,4220000,4229999,ogl3,Local plan,,Local plans,alpha,,dataset,,,,development,legal-instrument,1.0,,
+crown-copyright,local-plan,devlopment-plans-and-timetables,local-plan,Local plans prepared by a Local Planning Authority,,2024-09-14,26,,4220000,4229999,ogl3,Local plan,,Local plans,alpha,,dataset,,,,development,legal-instrument,1.0,,
 ons-boundary,local-planning-authority,local-planning-authority,local-planning-authority,,,,36,,624000,626999,ogl3,Local planning authority,,Local planning authorities,beta,statistical-geography,dataset,,,"This dataset contains the administrative boundaries of local planning authorities in England.
 
 It can be used for:
@@ -351,6 +356,7 @@ ons-boundary,region,,region,,,,,,30100000,31099999,ogl3,Region,,Regions,beta,sta
 data for the purposes of producing statistics.",administrative,geography,1.0,Q48091,Regions_of_England
 crown-copyright,organisation,,regional-park-authority,,,,,,5000,5999,ogl3,Regional park authority,,Regional park authorities,beta,wikidata,dataset,,,"A statutory body responsible for managing and developing a park.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,,
+crown-copyright,,,requirement-level,Key word used in specifications to indicate the level of a requirement,,,,,,,ogl3,Requirement level,,Requirement levels,beta,,specification,,,,specification,category,1.0,,
 crown-copyright,,,requirement,,,,,requirement,7200,7299,ogl3,Requirement,,Requirements,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,resource,An index of collected resources,,,,resource,13400000,13499999,ogl3,Resource,,Resources,alpha,,provenance,,,,specification,specification,1.0,,
 crown-copyright,,,role-organisation-rule,Rules for the organisations with a role,,,,reference,,,ogl3,Role organisation rule,,Role organisation rules,alpha,,configuration,,,,specification,specification,1.0,,

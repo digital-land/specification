@@ -9,8 +9,8 @@ entry-date: '2023-05-15'
 github-discussion: 25
 version: 1.1.1
 datasets:
-    - dataset: planning-application-decision
-      name: planning application decision
+    - dataset: planning-application
+      name: planning application
       fields:
           - field: reference
             description: The planning application reference (for example, "27/AP/9032")

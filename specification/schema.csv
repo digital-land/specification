@@ -37,7 +37,7 @@ company,Company,,
 concat,Pipeline concatenation,Concatenate fields during the harmonise phase,
 conservation-area-document-type,Conservation area document type,,
 conservation-area-document,Conservation area document,,
-conservation-area,Conservation area,"Special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",
+conservation-area,Conservation area,"An area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",
 contaminated-land,Contaminated land,,
 contribution-funding-status,Contribution funding status,,
 contribution-purpose,Contribution purpose,,
@@ -88,6 +88,8 @@ employment-allocation,Employment allocation,,
 endpoint,Endpoint,,endpoint
 entity-organisation,Entity organisation,The organisation responsible for managing a range of entities.,entity
 entity,Entity,a data item,entity
+example,Example,A collection of example field values,
+example,Example,,
 expect,Expectation Rule,A set of rules which can be turned into an expectation of a dataset,
 expectation-issue,Expectation issue,Issues found checking expecatations,
 expectation-result,Expectation result,Results from checking expectations,expectation-result
@@ -141,12 +143,12 @@ local-enterprise-partnership,Local Enterprise Partnership,,
 local-green-space,Local green space,,
 local-nature-recovery-strategy,Local nature recovery strategy,,
 local-nature-reserve,Local nature reserve,,
-local-plan-boundary,Local plan boundary,A boundary that a local plan covers,
+local-plan-boundary,Local plan boundary,The boundary covered by a local plan.,
 local-plan-document-type,Local plan document type,The types of documents published for a local plan,
 local-plan-document,Local plan document,,
 local-plan-event,Local plan event,The different event types in a local plan timetable,
 local-plan-timetable,Local plan timetable,The log of estimated and actual events of the local plan making process for a local plan,
-local-plan,Local plan,,
+local-plan,Local plan,Local plans prepared by a Local Planning Authority,
 local-planning-authority,Local planning authority,,
 local-resilience-forum-boundary,Local resilience forum boundary,,
 local-resilience-forum,Local resilience forum,,
@@ -219,6 +221,7 @@ ramsar,Ramsar site,,
 realm,Realm,dataset grouping,realm
 region,Region,,
 regional-park-authority,Regional park authority,,
+requirement-level,Requirement level,Key word used in specifications to indicate the level of a requirement,
 requirement,Requirement,,requirement
 resource,Resource,An index of collected resources,resource
 role-organisation-rule,Role organisation rule,Rules for the organisations with a role,reference

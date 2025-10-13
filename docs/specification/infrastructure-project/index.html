@@ -40,6 +40,38 @@ code.value {
 .app-version-banner p {
   margin-bottom: 0;
 }
+
+.guidance, .note, .example, .description {
+    margin: 0 0 20px 0;
+    background-color: #f3f2f1;
+    padding: 30px;
+}
+
+.guidance:before, .note::before, .example::before, .description::before {
+    font-weight: bold;
+    clear: right;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.guidance:before {
+    content: "Guidance" ;
+}
+
+.note::before {
+    content: "Note" ;
+}
+
+.example::before {
+    content: "Example";
+}
+
+.description:before {
+    content: "Description" ;
+}
+
+
+
 </style>
 
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
@@ -215,255 +247,684 @@ code.value {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
-    <h2 id="documentation-page" class="govuk-heading-m">Documentation page</h2>
+    <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
-    <details class="govuk-details" open>
-        <summary class="govuk-details__summary"><span class="govuk-details__summary-text">
-            Note
-        </span></summary>
-        <div class="govuk-details__text">
-            The documentation page is a web page intended to help a user find the data. 
-            The page SHOULD contain information about how and why the data has been published along with links to where the data may be downloaded.
-        </div>
-    </details>
+    <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
 
-    <p>The documentation page SHOULD be accessible as HTML from a public URL.</p>
+    <p>The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
 
-    <p>The documentation page SHOULD be owned and operated by the data provider.</p>
-    <p>Where the data provider is a local authority or other public body, the web page SHOULD be on the offical website for the organisation which is usually on a <code>.gov.uk</code> domain.</p>
+    <p class="note">Finding the information on the organisation's official website helps users check the information 
+    in the data. It increases the trust the user may place in the origin of the data, and that it is more likely to be sustained. </p>
 
-    <p class="govuk-body">
-    The documentation page MUST include:
+    <p class="assertion">The source documentation SHOULD be on the offical website for the organisation.</p> 
+
+    <p class="note">A Local Authority or other public body should put the documentation page under their <code>.gov.uk</code> domain.</p>
+
+    <p class="assertion">The source documentation MAY either contain the [<a href="#endpoint-documentation">endpoint documentation</a>],
+    or link to one or more separate [<a href="#endpiint-documentatino">Endpoint documentation</a>] pages.</p> 
+
+    <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
+
+    <p class="note">The endpoint documentation is a web page where a user can find a link to where they can download the data (the endpoint), 
+    along with other information relevant to a data user, such as the date the data was last updated.
+    Every endpoint needs to be findable via a link on the [<a href="#source">Source documentation</a>] page,
+    and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
     </p>
-    <ul class="govuk-list govuk-list--bullet">
+
+    <p>The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
+
+    <p>The endpoint documentation URL SHOULD have the same [<a href="#URL">URL</a>] as the <a href="#source-documentation">source documentation</a>.</p>
 
     
-      <li>A hyperlink to the <a href="#infrastructure-project-dataset">Infrastructure project</a> endpoint.</li>
     
-      <li>A hyperlink to the <a href="#infrastructure-project-log-dataset">Infrastructure project log</a> endpoint.</li>
+    <p>
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#infrastructure-project-dataset">Infrastructure project</a> data.
+    </p>
     
-      <li>A hyperlink to the <a href="#infrastructure-project-document-dataset">Infrastructure project document</a> endpoint.</li>
+    
+    <p>
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#infrastructure-project-log-dataset">Infrastructure project log</a> data.
+    </p>
+    
+    
+    <p>
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#infrastructure-project-document-dataset">Infrastructure project document</a> data.
+    </p>
     
 
-    <li>A clear licence for reusing the data, for example, 
-        <i>"This data is available is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>."</i> [<a href="#OGL3">OGL3</a>].</li>
-    <li>Any attribution a user of the data will need to provide when using the data, for example <i>"<a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>"</i>. [<a href="#crown-copyright">Crown Copyright</a>].</li>
-    </ul>
+    <p>The endpoint documentation page SHOULD include a clear licence for reusing the data.</p>
+
+    <p class="assertion" id="preferred-licensing">
+    The data SHOULD be published as [<a href="#crown-copyright">Crown Copyright</a>] under [<a href="#OGL3">OGL3</a>].
+    </p>
 
 
-    <h2 id="data" class="govuk-heading-m">Data</h2>
-    <div id="diagram" class="govuk-grid-column-full govuk-!-padding-bottom-6">
-      <img src="diagram.svg">
-    </div>
+    <p class="example" id="example-attribution">
+    This data is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+    and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
+    </p>
 
+    <p>The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
 
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+    <p class="note">The following diagram illustrates the [<a href="#datasets">Datasets</a>] specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg">
 
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
 
+    
+    
 
     <h3 id="infrastructure-project-dataset" class="govuk-heading-m">
     Infrastructure project
 </h3>
-    <p class="govuk-body">The Infrastructure project data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each Infrastructure project.</p>
-    <p class="govuk-body">Each Infrastructure project record SHOULD contain the following fields:</p>
+    <p class="description">
+    An application for a infrastructure development.
+</p>
 
+    <p class="govuk-body">The Infrastructure project dataset  contain at least one entry for each Infrastructure project for which the data provider is the responsible authority.</p>
+
+    
+    <p class="govuk-body">Each Infrastructure project entry MUST contain the following fields:</p>
     <ul class="govuk-list govuk-list--bullet">
-    
-    <li><code class="field">reference</code>  &mdash; the NSIP id</li>
-    
-    <li><code class="field">name</code>  &mdash; the name of the project</li>
-    
-    <li><code class="field">description</code>  &mdash; a brief description of the project</li>
-    
-    <li><code class="field">applicant-organisation</code>  &mdash; the organisation id of the organisation making the application</li>
-    
-    <li><code class="field">infrastructure-project-decision</code>  &mdash; the decision, once it has been made. For example `consent-granted` (<a href="https://dataset-editor.planning.data.gov.uk/dataset/infrastructure-project-decision/finder">See list of allowable values</a>)</li>
-    
-    <li><code class="field">decision-date</code>  &mdash; the date the decision was made, for example `2023-09-14`</li>
-    
-    <li><code class="field">decision-maker</code>  &mdash; which secretary of state made the decision</li>
-    
-    <li><code class="field">geometry</code>  &mdash; the site boundary for the proposed development</li>
-    
-    <li><code class="field">point</code> </li>
-    
-    <li><code class="field">documentation-url</code>  &mdash; a url to a page with more information about the project</li>
-    
-    <li><code class="field">infrastructure-project-type</code>  &mdash; the type of project, for example generating-stations (<a href="https://dataset-editor.planning.data.gov.uk/dataset/infrastructure-project-type/finder">See list of allowable values</a>)</li>
-    
-    <li><code class="field">notes</code>  &mdash; any additional notes in this field</li>
-    
-    <li><code class="field">organisation</code>  &mdash; the organisation id of the organisation that provided this data</li>
-    
-    <li><code class="field">entry-date</code> </li>
-    
-    <li><code class="field">start-date</code> </li>
-    
-    <li><code class="field">end-date</code> </li>
-    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ul>
+    
+    <p class="govuk-body">Each Infrastructure project entry SHOULD contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+    <p class="govuk-body">Each Infrastructure project entry MAY contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        <li>[<a href="#infrastructure-project_reference">reference</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_name">name</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_description">description</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_applicant-organisation">applicant-organisation</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_infrastructure-project-decision">infrastructure-project-decision</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_decision-date">decision-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_decision-maker">decision-maker</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_geometry">geometry</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_point">point</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_documentation-url">documentation-url</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_infrastructure-project-type">infrastructure-project-type</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_notes">notes</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_organisation">organisation</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_entry-date">entry-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_start-date">start-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project_end-date">end-date</a>]</li>
+        
+    </ul>
+    
 
+    <h3 id="infrastructure-project__fields">Fields</h3>
+    <h4>reference</h4>
 
+    <!-- deprecated specification description .. --> <p class="description">the NSIP id</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>name</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the name of the project</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>description</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a brief description of the project</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>applicant-organisation</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation making the application</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>infrastructure-project-decision</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the decision, once it has been made. For example `consent-granted`</p>
+
+    <!- brute force for now, needs an index -->
+
+    [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-decision">infrastructure-project-decision dataset</a>]</li>
+    <h4>decision-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date the decision was made, for example `2023-09-14`</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>decision-maker</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">which secretary of state made the decision</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>geometry</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the site boundary for the proposed development</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>point</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>documentation-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a url to a page with more information about the project</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>infrastructure-project-type</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the type of project, for example generating-stations</p>
+
+    <!- brute force for now, needs an index -->
+
+    [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-type">infrastructure-project-type dataset</a>]</li>
+    <h4>notes</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">any additional notes in this field</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>organisation</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation that provided this data</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>entry-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>start-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>end-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+
+    
+    
 
     <h3 id="infrastructure-project-log-dataset" class="govuk-heading-m">
     Infrastructure project log
 </h3>
-    <p class="govuk-body">The Infrastructure project log data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each Infrastructure project log.</p>
-    <p class="govuk-body">Each Infrastructure project log record SHOULD contain the following fields:</p>
+    <p class="description">
+    A log of events that happen during the infrastructure projects.
+</p>
 
+    <p class="govuk-body">The Infrastructure project log dataset  contain at least one entry for each Infrastructure project log for which the data provider is the responsible authority.</p>
+
+    
+    <p class="govuk-body">Each Infrastructure project log entry MUST contain the following fields:</p>
     <ul class="govuk-list govuk-list--bullet">
-    
-    <li><code class="field">reference</code> </li>
-    
-    <li><code class="field">infrastructure-project</code>  &mdash; the ID of the infrastructure project</li>
-    
-    <li><code class="field">infrastructure-project-event</code>  &mdash; an event reference for something that has happened during the process (<a href="https://dataset-editor.planning.data.gov.uk/dataset/infrastructure-project-event/finder">See list of allowable values</a>)</li>
-    
-    <li><code class="field">event-date</code>  &mdash; the date the event happened, for example `2023-09-14`</li>
-    
-    <li><code class="field">notes</code>  &mdash; any additional notes in this field</li>
-    
-    <li><code class="field">organisation</code>  &mdash; the organisation id of the organisation that provided this data</li>
-    
-    <li><code class="field">entry-date</code> </li>
-    
-    <li><code class="field">start-date</code> </li>
-    
-    <li><code class="field">end-date</code> </li>
-    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ul>
+    
+    <p class="govuk-body">Each Infrastructure project log entry SHOULD contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+    <p class="govuk-body">Each Infrastructure project log entry MAY contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        <li>[<a href="#infrastructure-project-log_reference">reference</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_infrastructure-project">infrastructure-project</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_infrastructure-project-event">infrastructure-project-event</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_event-date">event-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_notes">notes</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_organisation">organisation</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_entry-date">entry-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_start-date">start-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-log_end-date">end-date</a>]</li>
+        
+    </ul>
+    
 
+    <h3 id="infrastructure-project-log__fields">Fields</h3>
+    <h4>reference</h4>
 
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>infrastructure-project</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the ID of the infrastructure project</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>infrastructure-project-event</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">an event reference for something that has happened during the process</p>
+
+    <!- brute force for now, needs an index -->
+
+    [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-event">infrastructure-project-event dataset</a>]</li>
+    <h4>event-date</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the date the event happened, for example `2023-09-14`</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>notes</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">any additional notes in this field</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>organisation</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation that provided this data</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>entry-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>start-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>end-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+
+    
+    
 
     <h3 id="infrastructure-project-document-dataset" class="govuk-heading-m">
     Infrastructure project document
 </h3>
-    <p class="govuk-body">The Infrastructure project document data MUST be published in an <a href="#open-data-format">open data format</a>.</p>
-    <p class="govuk-body">The data MUST contain at least one record for each Infrastructure project document.</p>
-    <p class="govuk-body">Each Infrastructure project document record SHOULD contain the following fields:</p>
+    <p class="description">
+    The documents published and produced for a infrastructure project.
+</p>
 
+    <p class="govuk-body">The Infrastructure project document dataset  contain at least one entry for each Infrastructure project document for which the data provider is the responsible authority.</p>
+
+    
+    <p class="govuk-body">Each Infrastructure project document entry MUST contain the following fields:</p>
     <ul class="govuk-list govuk-list--bullet">
-    
-    <li><code class="field">reference</code> </li>
-    
-    <li><code class="field">infrastructure-project</code>  &mdash; the ID of the infrastructure project</li>
-    
-    <li><code class="field">document-type</code>  &mdash; the type of document, for example development-consent-order (<a href="https://dataset-editor.planning.data.gov.uk/dataset/infrastructure-project-document-type/finder">See list of allowable values</a>)</li>
-    
-    <li><code class="field">name</code>  &mdash; a name for the document</li>
-    
-    <li><code class="field">notes</code>  &mdash; any additional notes in this field</li>
-    
-    <li><code class="field">organisation</code>  &mdash; the organisation id of the organisation that provided this data</li>
-    
-    <li><code class="field">document-url</code>  &mdash; a url to the document</li>
-    
-    <li><code class="field">documentation-url</code>  &mdash; a url to the webpage where the document has been published</li>
-    
-    <li><code class="field">entry-date</code> </li>
-    
-    <li><code class="field">start-date</code> </li>
-    
-    <li><code class="field">end-date</code> </li>
-    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </ul>
+    
+    <p class="govuk-body">Each Infrastructure project document entry SHOULD contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+    <p class="govuk-body">Each Infrastructure project document entry MAY contain the following fields:</p>
+    <ul class="govuk-list govuk-list--bullet">
+      
+        
+        <li>[<a href="#infrastructure-project-document_reference">reference</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_infrastructure-project">infrastructure-project</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_document-type">document-type</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_name">name</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_notes">notes</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_organisation">organisation</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_document-url">document-url</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_documentation-url">documentation-url</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_entry-date">entry-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_start-date">start-date</a>]</li>
+        
+        
+        <li>[<a href="#infrastructure-project-document_end-date">end-date</a>]</li>
+        
+    </ul>
+    
+
+    <h3 id="infrastructure-project-document__fields">Fields</h3>
+    <h4>reference</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>infrastructure-project</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the ID of the infrastructure project</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>document-type</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the type of document, for example development-consent-order</p>
+
+    <!- brute force for now, needs an index -->
+
+    [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-document-type">infrastructure-project-document-type dataset</a>]</li>
+    <h4>name</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a name for the document</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>notes</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">any additional notes in this field</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>organisation</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation that provided this data</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>document-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a url to the document</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>documentation-url</h4>
+
+    <!-- deprecated specification description .. --> <p class="description">a url to the webpage where the document has been published</p>
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>entry-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>start-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    <h4>end-date</h4>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
 
 
+    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+
+    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <p>A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
+    
+    <p>A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
+    <p>The reference MAY be used in other contexts to refer to the entity. For example, the reference MAY be used to construct a <a href="#URL">URL</a> to a web page with more information about the infrastructure project.</p>
+    <p>A reference SHOULD be short and meaningful to a user. For example, the reference MAY be used to refer to the entity when completing an offline form, or contacting a call centre.</p>
 
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
     <h3 id="date" class="govuk-heading-s">Date</h3>
     <p>
-    Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the Open Standards for government guidance on formatting dates and times in data
-    [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
+    Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
     <p>
-    A date value SHOULD be blank if it is unknown. The date may just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
+    A date value SHOULD be blank if it is unknown.</p> 
+    <p>The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
     <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
     <p>
-    The boundary for the area as a single POLYGON or MULTIPOLYGON value.
+    A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.
     </p>
     <p>
-    In all cases all points MUST be either in the
+    When using Comma Separated Value (CSV), the geometry SHOULD be encoded as Well Known Text [<a href="#WKT">WKT</a>].
+    </p>
+    <p>
+    All points SHOULD be either in the
     [<a href="#WGS84">WGS84</a>] (<a href="#EPSG::4326">EPSG::4326</a>) or
     [<a href="#ETRS89">ETRS89</a>] (<a href="#EPSG::4258">EPSG::4258</a>) coordinate reference system
-    following the Open Standards for government guidance on the exchange of location points [<a href="#exchange-of-location-point">exchange-of-location-point</a>].
+    following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="#exchange-of-location-point">exchange-of-location-point</a>].
     </p>
-    <p>
-    Positions calculated by the WGS84 and ETRS89 systems currently deviate by less than half a metre for points within England.
-    Boundaries provided by this dataset are intended to be used as an index. Survey data SHOULD be used where more precision is needed.
+    <p class="note">Boundaries provided by this dataset are intended to be used as an index. 
+    Positions calculated by the WGS84 and ETRS89 systems can currently deviate by half a metre for points within England.
+    Survey data should be used where more precision is needed.
     </p>
-
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
-    <p class="govuk-body">The reference identifies the entity within a data provider.</p>
-    <p class="govuk-body">
-    <em>A URI for the entity may be constructed by a combination of the reference with prefix value.</em>
-    </p>
-    <p class="govuk-body">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
-    <p class="govuk-body">A reference MUST be unique within the dataset; it MUST NOT have been used by the data provider to identify a different entity.</p>
-    <p class="govuk-body">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
-    <p class="govuk-body">The reference MAY be used in other contexts to refer to the entity. For example, the reference may be used to construct a <a href="#URL">URL</a> to a web page with more information about the infrastructure project.</p>
-    <p class="govuk-body">A reference SHOULD be short and meaningful to a user. For example, the reference may be used to refer to a infrastructure project when completing a form, or contacting a call centre.</p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
     <p>
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] following the Open Standards for government guidance on encoding characters [<a href="encoding-characters">encoding-characters</a>].
+    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 
 <h2 class="govuk-heading-m">Historical data</h2>
-<p class="govuk-body">
-Entries SHOULD be ordered by the entry-date, with older entries appearing before later entries.
-</p>
-<p class="govuk-body">
-The <code class="field">end-date</code> field should be used to indicate when an entity is no longer applicable.
-Entries SHOULD NOT be removed from the data except to correct a mistake, or for the purposes of redacting personal or sensitive information.
-</p>
 
-<h2 id="open-data-format" class="govuk-heading-m">Open data formats</h2>
-<p class="govuk-body">
-Data which does not contain geospatial information (a point or geometry field) MUST be provided as (<a href="#csv-format">CSV</a>).
+<p class="note">Removing historical data can reduce the trust a user places in the quality of the data.
+There are also many uses for historical documents, data and material information in planning, such as when developing an older property, 
+processing an appeal, and monitoring the delivery of housing on older brownfield land, and when collecting evidence for plan-making.</a>
+
+<p class="assertion">
+Entries SHOULD NOT be changed or removed from the data except to correct a mistake, or for the purposes of redacting personal or otherwise sensitive information.
 </p>
-<p class="govuk-body">
-Geospatial data MUST be provided in at least one of the following open data formats:
-</p>
+<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer `entry-date`.</p>
+<p class="assertion">Entries SHOULD be ordered within a dataset by the `entry-date` value, with older entries appearing before later entries.</p>
+<p class="assertion">The [<a href="#field_end-date">end-date</a>] field should be used to indicate when an entity is no longer applicable.</p>
+
+<h2 id="data-format" class="govuk-heading-m">Data file formats</h2>
+
+<p class="assertion">Data MUST be provided in at least one of the following file formats: </p>
 <ul class="govuk-list govuk-list--bullet">
-<li><a href="#CSV-format">CSV</a>
-<li><a href="#GeoJSON-format">GeoJSON</a>
-<li>OGC <a href="#GML">GML</a>
-<li>OGC <a href="#geopackage-format">Geopackage</a>
-<li>OGC Keyhole Markup Language <a href="#KML">KML</a>
+    <li>Comma Separated Value (CSV) [<a href="#RFC4180">RFC4180</a>]
+    <li>GeoJSON [<a href="#RFC7946">RFC7946</a>]
+    <li>OGC [<a href="#GML">GML</a>]
+    <li>OGC [<a href="#Geopackage">Geopackage</a>]
+    <li>OGC Keyhole Markup Language [<a href="#KML">KML</a>]
 </ul>
-<p class="govuk-body">
-The preferred format for representing geospatial data is Comma Separated Value (<a href="#csv-format">CSV</a>)
-with the <code class="field">geometry</code> and <code class="point">point</code> fields containing Well Known Text [<a href="#WKT">WKT</a>].
+<p class="note">The preferred format for geospatial data is GeoJSON.</p>
+<p>Tabular data SHOULD be provided as (CSV) [<a href="#RFC4180">RFC4180</a>]
+following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="#tabular-data-standard">tabular-data-standard</a>].</p>
+
+<h2 id="field-names" class="govuk-heading-m">Field names</h2>
+<p class="note">
+The case and punctuation used in field names is insignificant, meaning
+fields with the name <code>Start Date</code>, <code>StartDate</code>, <code>START_DATE</code> and <code>start.date</code> 
+are all valid ways of naming the <code>start-date</code> field.
 </p>
+<p class="assertion">A field name SHOULD be treated as being case insensitive.</p> 
+<p class="assertion">Any non-alphanumeric characters in a field name SHOULD be treated as being insignificant.</p> 
 
-<!--
-<h3 id="CSV-format" class="govuk-heading-m">CSV</h3>
-<p class="govuk-body">
-</p>
+<h2 id="examples" class="govuk-heading-m">Examples</h2>
 
-<h3 id="GeoJSON-format" class="govuk-heading-m">GeoJSON</h3>
-<p class="govuk-body">
-</p>
-
-<h3 id="geopackage-format" class="govuk-heading-m">geopackage</h3>
-<p class="govuk-body">
-</p>
-
-<h3 id="GML-format" class="govuk-heading-m">GML</h3>
-<p class="govuk-body">
-</p>
-
-
-    <h2 class="govuk-heading-m">Examples</h2>
-    <h2 class="govuk-heading-m">Terminology</h2>
-    <h2 class="govuk-heading-m">Licensing of the data</h2>
-    <h2 class="govuk-heading-m">Copyright and attribution</h2>
-  -->
     <h2 class="govuk-heading-m">Security and privacy considerations</h2>
     <p class="govuk-body">
     The data MUST NOT contain any personal or sensitive information, unless explicitly required by this specification, or legislation.
@@ -471,7 +932,7 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     <p class="govuk-body">
     There is a risk of people's names or other personally identifiable information appearing in the data, in particular notes, description and other text fields.
     It is the responsibility of the data provider to review and redact such information before publication.
-    For example, the [OGL3] licence does not cover personal data in the Information.
+    For example, the [<a href="#OGL3">OGL3</a>] licence does not cover personal data in the Information.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -479,11 +940,6 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     <h2 id="colophon" class="govuk-heading-m">Colophon</h2>
     <p class="govuk-body">
     This document is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown Copyright</a> and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence version 3</a> licence.
-    </p>
-
-    <h2 id="acknowledgements" class="govuk-heading-m">Acknowledgements</h2>
-    <p class="govuk-body">
-    The specification builds upon work from the <a href="https://www.localdigital.gov.uk/ripa-bops-eoi/">local digital pathfinding local planning authorities</a>, the <a href="https://ripa.digital">Reducing Invalid Planning Applications (RIPA)</a> and <a href="https://bops.digital">Back Office Planning System (BOPS)</a> projects.
     </p>
 
     <h2 id="references" class="govuk-heading-m">References</h2>
@@ -597,6 +1053,16 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     </div>
 
     <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="Geopackage">[Geopackage]</dt>
+    <dd class="govuk-summary-list__value">
+    OGC Geopackage 1,4
+    Open Geospatial Consortium standard (12-128r19).
+    <a href="http://www.opengis.net/doc/IS/geopackage/1.4">http://www.opengis.net/doc/IS/geopackage/1.4</a>
+    </dd>
+    </div>
+
+
+    <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key" id="OGL3">[OGL3]</dt>
     <dd class="govuk-summary-list__value">
     Open Government Licence for public sector information.
@@ -643,6 +1109,15 @@ with the <code class="field">geometry</code> and <code class="point">point</code
         <a href="https://www.w3.org/TR/2010/NOTE-curie-20101216/">https://www.w3.org/TR/2010/NOTE-curie-20101216/</a>
     </dd>
     </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="open-standards-for-government">[open-standards-for-government]</dt>
+    <dd class="govuk-summary-list__value">
+        Government Digital Service and Central Digital and Data Office.
+        <a href="https://www.gov.uk/government/collections/open-standards-for-government-data-and-technology">Open standards for government</a> 
+    </dd>
+    </div>
+
 
     <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key" id="encoding-characters">[encoding-characters]</dt>
@@ -756,6 +1231,14 @@ with the <code class="field">geometry</code> and <code class="point">point</code
     <dd class="govuk-summary-list__value">
     ZIP format.
     <a href="https://en.wikipedia.org/wiki/ZIP_(file_format)">https://en.wikipedia.org/wiki/ZIP_(file_format)</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="HTML">[HTML]</dt>
+    <dd class="govuk-summary-list__value">
+    WHATWG HTML. Living Standard.
+    <a href="https://html.spec.whatwg.org/">https://html.spec.whatwg.org/</a>
     </dd>
     </div>
 
