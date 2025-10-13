@@ -224,20 +224,17 @@ a.para:hover {
 
     <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
 
-    {% for level in ["MUST", "SHOULD", "MAY"] %}
-    <p class="govuk-body">Each {{ name }} entry {{level}} contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      {% for f in d["fields"] %}
-        {% if (f["requirement-level"] == level) or ("requirement-level" not in f and level == "MAY") %}
-        <li>[<a href="#{{d["dataset"]}}_{{f["field"]}}">{{ f["field"] }}</a>]</li>
-        {% endif %}
-      {%- endfor %}
-    </ul>
-    {% endfor %}
 
     <h3 id="{{d["dataset"]}}__fields">Fields</h3>
     {%- for f in d["fields"] %}
     <h4>{{ f["field"] }}</h4>
+
+    {% set level = f["requirement-level"] or "MAY" %}
+    {% set datatype = tables["field"][f["field"]]["datatype"] %}
+    {% set datatype_name = tables["datatype"][datatype]["name"] or "??" %}
+
+    <p class="assertion">Each {{ name }} entry {{level}} contain a {{f["field"]}} field.</p>
+    <p class="assertion">The {{ name }} {{d["field"]}} value MUST conform to the [<a href="#datatype-{{datatype}}">{{datatype_name}}</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->{% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
 
@@ -255,9 +252,9 @@ a.para:hover {
     {%- endfor %}
 {% endfor %}
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -283,8 +280,7 @@ a.para:hover {
     </p>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
-    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -294,7 +290,7 @@ a.para:hover {
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 
