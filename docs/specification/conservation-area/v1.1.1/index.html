@@ -70,6 +70,20 @@ code.value {
     content: "Description" ;
 }
 
+.assertion:before {
+    content: "¶ " ;
+}
+
+a.para {
+  margin-right: 0.5em;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.para:hover {
+  color: #0066cc;
+}
+
 
 
 </style>
@@ -258,7 +272,7 @@ code.value {
 
     <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
 
-    <p>The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
+    <p class="assertion">The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
 
     <p class="note">Finding the information on the organisation's official website helps users check the information 
     in the data. It increases the trust the user may place in the origin of the data, and that it is more likely to be sustained. </p>
@@ -278,25 +292,25 @@ code.value {
     and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
     </p>
 
-    <p>The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
+    <p class="assertion">The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public [<a href="#URL">URL</a>].</p>
 
-    <p>The endpoint documentation URL SHOULD have the same [<a href="#URL">URL</a>] as the <a href="#source-documentation">source documentation</a>.</p>
+    <p class="assertion">The endpoint documentation URL SHOULD have the same [<a href="#URL">URL</a>] as the <a href="#source-documentation">source documentation</a>.</p>
 
     
     
-    <p>
+    <p class="assertion">
     The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
     <a href="#conservation-area-dataset">Conservation area</a> data.
     </p>
     
     
-    <p>
+    <p class="assertion">
     The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
     <a href="#conservation-area-document-dataset">Conservation area document</a> data.
     </p>
     
 
-    <p>The endpoint documentation page SHOULD include a clear licence for reusing the data.</p>
+    <p class="assertion">The endpoint documentation page SHOULD include a clear licence for reusing the data.</p>
 
     <p class="assertion" id="preferred-licensing">
     The data SHOULD be published as [<a href="#crown-copyright">Crown Copyright</a>] under [<a href="#OGL3">OGL3</a>].
@@ -308,7 +322,7 @@ code.value {
     and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
     </p>
 
-    <p>The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
+    <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
 
     <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
     <p class="note">The following diagram illustrates the [<a href="#datasets">Datasets</a>] specified by this document,
@@ -328,7 +342,7 @@ code.value {
     An area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance.
 </p>
 
-    <p class="govuk-body">The Conservation area dataset  contain at least one entry for each Conservation area for which the data provider is the responsible authority.</p>
+    <p class="assertion">The Conservation area dataset  contain at least one entry for each Conservation area for which the data provider is the responsible authority.</p>
 
     
     <p class="govuk-body">Each Conservation area entry MUST contain the following fields:</p>
@@ -467,7 +481,7 @@ code.value {
     .
 </p>
 
-    <p class="govuk-body">The Conservation area document dataset  contain at least one entry for each Conservation area document for which the data provider is the responsible authority.</p>
+    <p class="assertion">The Conservation area document dataset  contain at least one entry for each Conservation area document for which the data provider is the responsible authority.</p>
 
     
     <p class="govuk-body">Each Conservation area document entry MUST contain the following fields:</p>
@@ -624,31 +638,49 @@ code.value {
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
 
     <h3 id="reference" class="govuk-heading-s">Reference</h3>
-    <p>A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
+    <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
+
+    <!--
+        TBD: explain about linking to document fragments ..
+    <p class="note">The reference may be used as a web page fragment identifier a web page with more information about the Conservation area.</p>
+    -->
+
+    <p class="assertion">A reference value MUST be either a [<a href="#CURIE">CURIE</a>] or the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     
-    <p>A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
-    <p>The reference MAY be used in other contexts to refer to the entity. For example, the reference MAY be used to construct a <a href="#URL">URL</a> to a web page with more information about the Conservation area.</p>
-    <p>A reference SHOULD be short and meaningful to a user. For example, the reference MAY be used to refer to the entity when completing an offline form, or contacting a call centre.</p>
+    <p class="assertion">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
+
+    <p class="assertion">A reference SHOULD NOT be used to refer to a different entity in the future.</p> 
+
+    <p class="note">Where a reference has been used to refer to two different entities, add a year or other text to disambiguate the references, for example use <code>CA01</code> and <code>CA01/2022</code> rather than just <code>CA01</code> for two different conservation areas.</p>
+
+    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p> 
+
+    <p class="guidance">A good reference is short, meaningful and easily read out loud by a user. 
+        It should be something you already use, such as the reference number sent in letters, asked for in forms,
+        a section reference in documents,
+        a part of your web site URLs (a "furl" or "slug"),
+        or a fragment identifier (anchor) in your <a href="#source-documentation">Source documentation</a> web page.
+    </p>
 
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
     <h3 id="date" class="govuk-heading-s">Date</h3>
-    <p>
+    <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
-    <p>
+    <p class="assertion">
     A date value SHOULD be blank if it is unknown.</p> 
-    <p>The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
+
+    <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
     <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
-    <p>
-    A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.
-    </p>
-    <p>
-    When using Comma Separated Value (CSV), the geometry SHOULD be encoded as Well Known Text [<a href="#WKT">WKT</a>].
-    </p>
-    <p>
+
+    <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
+
+    <p class="assertion"> When using Comma Separated Value (CSV), the geometry SHOULD be encoded as Well Known Text [<a href="#WKT">WKT</a>].</p>
+
+    <p class="assertion">
     All points SHOULD be either in the
     [<a href="#WGS84">WGS84</a>] (<a href="#EPSG::4326">EPSG::4326</a>) or
     [<a href="#ETRS89">ETRS89</a>] (<a href="#EPSG::4258">EPSG::4258</a>) coordinate reference system
@@ -660,7 +692,7 @@ code.value {
     </p>
 
     <h3 id="text" class="govuk-heading-s">Text</h3>
-    <p>
+    <p class="assertion">
     All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
@@ -674,8 +706,8 @@ processing an appeal, and monitoring the delivery of housing on older brownfield
 <p class="assertion">
 Entries SHOULD NOT be changed or removed from the data except to correct a mistake, or for the purposes of redacting personal or otherwise sensitive information.
 </p>
-<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer `entry-date`.</p>
-<p class="assertion">Entries SHOULD be ordered within a dataset by the `entry-date` value, with older entries appearing before later entries.</p>
+<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer <code>entry-date</code>.</p>
+<p class="assertion">Entries SHOULD be ordered within a dataset by the <code>entry-date</code> value, with older entries appearing before later entries.</p>
 <p class="assertion">The [<a href="#field_end-date">end-date</a>] field should be used to indicate when an entity is no longer applicable.</p>
 
 <h2 id="data-format" class="govuk-heading-m">Data file formats</h2>
@@ -689,19 +721,33 @@ Entries SHOULD NOT be changed or removed from the data except to correct a mista
     <li>OGC Keyhole Markup Language [<a href="#KML">KML</a>]
 </ul>
 <p class="note">The preferred format for geospatial data is GeoJSON.</p>
-<p>Tabular data SHOULD be provided as (CSV) [<a href="#RFC4180">RFC4180</a>]
+
+<p class="assertion">Tabular data SHOULD be provided as (CSV) [<a href="#RFC4180">RFC4180</a>]
 following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="#tabular-data-standard">tabular-data-standard</a>].</p>
 
 <h2 id="field-names" class="govuk-heading-m">Field names</h2>
+
 <p class="note">
 The case and punctuation used in field names is insignificant, meaning
 fields with the name <code>Start Date</code>, <code>StartDate</code>, <code>START_DATE</code> and <code>start.date</code> 
 are all valid ways of naming the <code>start-date</code> field.
 </p>
+
 <p class="assertion">A field name SHOULD be treated as being case insensitive.</p> 
+
 <p class="assertion">Any non-alphanumeric characters in a field name SHOULD be treated as being insignificant.</p> 
 
+<h2 id="evolution" class="govuk-heading-m">Evolution</h2>
+
+<p><i>TBD: guidance for how the specification may evolve in a similar way to HTML. Whilst the specification document is versioned, the data may evolves following three principles: the data may contain additional fields in the future version. Processors of this version should ignore any fields they aren't expecting. Fields in this specification may be deprecated in a future version, but won't be removed, or change their semantic meaning.</i></p>
+
+<h2 id="extensibility" class="govuk-heading-m">Extensibility</h2>
+
+<p><i>TBD: guidance for supporting local variance and existing data ..</i></p>
+
 <h2 id="examples" class="govuk-heading-m">Examples</h2>
+
+<p><i>TBD: include examples</i></p>
 
     <h2 class="govuk-heading-m">Security and privacy considerations</h2>
     <p class="govuk-body">
