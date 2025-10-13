@@ -21,7 +21,7 @@
 	<meta name="digital-land:template" content="dlf-base.html">
 	
 <style>
-code {
+code, code.field {
     padding: 0 5px;
     color: #d4351c;
     background-color: #f3f2f1;
@@ -41,20 +41,28 @@ code.value {
   margin-bottom: 0;
 }
 
-.guidance, .note, .example, .description {
+.guidance,
+.note,
+.example,
+.description,
+.TBD {
     margin: 0 0 20px 0;
     background-color: #f3f2f1;
     padding: 30px;
 }
 
-.guidance:before, .note::before, .example::before, .description::before {
+.guidance:before,
+.note::before,
+.example::before,
+.description::before,
+.TBD::before {
     font-weight: bold;
     clear: right;
     display: block;
     padding-bottom: 1em;
 }
 
-.guidance:before {
+.guidance::before {
     content: "Guidance" ;
 }
 
@@ -66,12 +74,17 @@ code.value {
     content: "Example";
 }
 
-.description:before {
-    content: "Description" ;
+.description::before {
+    content: "Description";
 }
 
-.assertion:before {
+.assertion::before {
     content: "¶ " ;
+}
+
+.TBD::before {
+    content: "TBD";
+    font-style: italic;
 }
 
 a.para {
@@ -84,6 +97,11 @@ a.para:hover {
   color: #0066cc;
 }
 
+/*
+h1, h2::before, h3::before, h4::before {
+   content: "§ ";
+}
+*/
 
 
 </style>
@@ -275,16 +293,16 @@ a.para:hover {
 
     <p class="assertion">The source documentation SHOULD be on the offical website for the organisation.</p> 
 
-    <p class="note">A Local Authority or other public body should put the documentation page under their <code>.gov.uk</code> domain.</p>
+    <p class="note">A Local Authority or other public body should put the documentation page under their <code class="value">.gov.uk</code> domain.</p>
 
     <p class="assertion">The source documentation MAY either contain the [<a href="#endpoint-documentation">endpoint documentation</a>],
-    or link to one or more separate [<a href="#endpiint-documentatino">Endpoint documentation</a>] pages.</p> 
+    or link to one or more separate [<a href="#endpiint-documentatino">endpoint documentation</a>] pages.</p> 
 
     <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
 
     <p class="note">The endpoint documentation is a web page where a user can find a link to where they can download the data (the endpoint), 
     along with other information relevant to a data user, such as the date the data was last updated.
-    Every endpoint needs to be findable via a link on the [<a href="#source">Source documentation</a>] page,
+    Every endpoint needs to be findable via a link on the [<a href="#source">source documentation</a>] page,
     and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
     </p>
 
@@ -347,7 +365,9 @@ a.para:hover {
     <p class="assertion">The Design code dataset  contain at least one entry for each Design code for which the data provider is the responsible authority.</p>
 
 
-    <h3 id="design-code__fields">Fields</h3>
+    <h3 id="design-code__fields">
+    Design code
+ fields</h3>
     
     
 
@@ -357,8 +377,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>reference</code> field.</p>
-    <p class="assertion">The Design code <code>reference</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">reference</code> field.</p>
+    <p class="assertion">The Design code <code class="field">reference</code> field MUST be a [<a href="#fieldtype-reference">reference</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code</p>
 
@@ -374,8 +394,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>name</code> field.</p>
-    <p class="assertion">The Design code <code>name</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">name</code> field.</p>
+    <p class="assertion">The Design code <code class="field">name</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code</p>
 
@@ -391,8 +411,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>description</code> field.</p>
-    <p class="assertion">The Design code <code>description</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">description</code> field.</p>
+    <p class="assertion">The Design code <code class="field">description</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a short, single-line description of the design code</p>
 
@@ -408,8 +428,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>design-code-status</code> field.</p>
-    <p class="assertion">The Design code <code>design-code-status</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">design-code-status</code> field.</p>
+    <p class="assertion">The Design code <code class="field">design-code-status</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a <a href="#design-code-status">design-code-status</a> reference</p>
 
@@ -425,8 +445,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>documentation-url</code> field.</p>
-    <p class="assertion">The Design code <code>documentation-url</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Design code <code class="field">documentation-url</code> field MUST be a [<a href="#fieldtype-url">url</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the URL for the Web page with guidance on the design code policy document</p>
 
@@ -442,8 +462,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>document-url</code> field.</p>
-    <p class="assertion">The Design code <code>document-url</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">document-url</code> field.</p>
+    <p class="assertion">The Design code <code class="field">document-url</code> field MUST be a [<a href="#fieldtype-url">url</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the URL for the Design Code. This should be a URL to a website or document</p>
 
@@ -459,8 +479,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>notes</code> field.</p>
-    <p class="assertion">The Design code <code>notes</code> value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">notes</code> field.</p>
+    <p class="assertion">The Design code <code class="field">notes</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">optional notes on the status of the design code</p>
 
@@ -476,8 +496,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>start-date</code> field.</p>
-    <p class="assertion">The Design code <code>start-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Design code <code class="field">start-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#date">date</a> the design code comes, or came into force</p>
 
@@ -493,8 +513,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>end-date</code> field.</p>
-    <p class="assertion">The Design code <code>end-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Design code <code class="field">end-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#date">date</a> this date the design code no longer applies</p>
 
@@ -510,8 +530,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code entry MAY contain a <code>entry-date</code> field.</p>
-    <p class="assertion">The Design code <code>entry-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code entry MAY contain a <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Design code <code class="field">entry-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#date">date</a> this entry was created or last amended</p>
 
@@ -532,7 +552,9 @@ a.para:hover {
     <p class="assertion">The Design code rule dataset  contain at least one entry for each Design code rule for which the data provider is the responsible authority.</p>
 
 
-    <h3 id="design-code-rule__fields">Fields</h3>
+    <h3 id="design-code-rule__fields">
+    Design code rule
+ fields</h3>
     
     
 
@@ -542,8 +564,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>reference</code> field.</p>
-    <p class="assertion">The Design code rule <code>reference</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">reference</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">reference</code> field MUST be a [<a href="#fieldtype-reference">reference</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code rule</p>
 
@@ -559,8 +581,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>name</code> field.</p>
-    <p class="assertion">The Design code rule <code>name</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">name</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">name</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code rule</p>
 
@@ -576,8 +598,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>design-code</code> field.</p>
-    <p class="assertion">The Design code rule <code>design-code</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">design-code</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">design-code</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code where this rule is defined.</p>
 
@@ -593,8 +615,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>description</code> field.</p>
-    <p class="assertion">The Design code rule <code>description</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">description</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">description</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a short, single-line description of the design code rule</p>
 
@@ -610,8 +632,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>document-url</code> field.</p>
-    <p class="assertion">The Design code rule <code>document-url</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">document-url</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">document-url</code> field MUST be a [<a href="#fieldtype-url">url</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the URL for the design code rule. This should be a URL to a website or document</p>
 
@@ -627,8 +649,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>documentation-url</code> field.</p>
-    <p class="assertion">The Design code rule <code>documentation-url</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">documentation-url</code> field MUST be a [<a href="#fieldtype-url">url</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the URL for a page where we can find a link to the design code rule, this is usually a contents or summary page</p>
 
@@ -644,8 +666,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>design-code-rule-categories</code> field.</p>
-    <p class="assertion">The Design code rule <code>design-code-rule-categories</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">design-code-rule-categories</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">design-code-rule-categories</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character</p>
 
@@ -661,8 +683,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>notes</code> field.</p>
-    <p class="assertion">The Design code rule <code>notes</code> value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">notes</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">notes</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a field to capture notes about the design code rule</p>
 
@@ -678,8 +700,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>entry-date</code> field.</p>
-    <p class="assertion">The Design code rule <code>entry-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">entry-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
 
@@ -695,8 +717,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>start-date</code> field.</p>
-    <p class="assertion">The Design code rule <code>start-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">start-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
@@ -712,8 +734,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code rule entry MAY contain a <code>end-date</code> field.</p>
-    <p class="assertion">The Design code rule <code>end-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code rule entry MAY contain a <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Design code rule <code class="field">end-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
 
@@ -734,7 +756,9 @@ a.para:hover {
     <p class="assertion">The Design code area dataset  contain at least one entry for each Design code area for which the data provider is the responsible authority.</p>
 
 
-    <h3 id="design-code-area__fields">Fields</h3>
+    <h3 id="design-code-area__fields">
+    Design code area
+ fields</h3>
     
     
 
@@ -744,8 +768,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>reference</code> field.</p>
-    <p class="assertion">The Design code area <code>reference</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">reference</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">reference</code> field MUST be a [<a href="#fieldtype-reference">reference</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code area</p>
 
@@ -761,8 +785,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>name</code> field.</p>
-    <p class="assertion">The Design code area <code>name</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">name</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">name</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code area</p>
 
@@ -778,8 +802,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>geometry</code> field.</p>
-    <p class="assertion">The Design code area <code>geometry</code> value MUST conform to the [<a href="#datatype-multipolygon">Multipolygon</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">geometry</code> field MUST be a [<a href="#fieldtype-geometry">geometry</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the boundaries of the design code area as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry.</p>
 
@@ -795,8 +819,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>design-code</code> field.</p>
-    <p class="assertion">The Design code area <code>design-code</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">design-code</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">design-code</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code which applies to this area</p>
 
@@ -812,8 +836,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>design-code-rules</code> field.</p>
-    <p class="assertion">The Design code area <code>design-code-rules</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">design-code-rules</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">design-code-rules</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.</p>
 
@@ -829,8 +853,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>design-code-area-type</code> field.</p>
-    <p class="assertion">The Design code area <code>design-code-area-type</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">design-code-area-type</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">design-code-area-type</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the classification of the area, for example Rural Settlements or Urban Neighbourhood</p>
 
@@ -846,8 +870,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>documentation-url</code> field.</p>
-    <p class="assertion">The Design code area <code>documentation-url</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">documentation-url</code> field MUST be a [<a href="#fieldtype-url">url</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the URL for guidance or information defining the design code area</p>
 
@@ -863,8 +887,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>notes</code> field.</p>
-    <p class="assertion">The Design code area <code>notes</code> value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">notes</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">notes</code> field MUST be a [<a href="#fieldtype-text">text</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a field to capture notes about the design code area</p>
 
@@ -880,8 +904,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>entry-date</code> field.</p>
-    <p class="assertion">The Design code area <code>entry-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">entry-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
 
@@ -897,8 +921,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>start-date</code> field.</p>
-    <p class="assertion">The Design code area <code>start-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">start-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
@@ -914,8 +938,8 @@ a.para:hover {
     
     
 
-    <p class="assertion">Each Design code area entry MAY contain a <code>end-date</code> field.</p>
-    <p class="assertion">The Design code area <code>end-date</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Design code area entry MAY contain a <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Design code area <code class="field">end-date</code> field MUST be a [<a href="#fieldtype-datetime">datetime</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
 
@@ -924,9 +948,9 @@ a.para:hover {
     </li>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
+    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
 
-    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="fieldtype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -940,7 +964,7 @@ a.para:hover {
 
     <p class="assertion">A reference SHOULD NOT be used to refer to a different entity in the future.</p> 
 
-    <p class="note">Where a reference has been used to refer to two different entities, add a year or other text to disambiguate the references, for example use <code>CA01</code> and <code>CA01/2022</code> rather than just <code>CA01</code> for two different conservation areas.</p>
+    <p class="note">Where a reference has been used to refer to two different entities, add a year or other text to disambiguate the references, for example use <code class="value">CA01</code> and <code class="value">CA01/2022</code> rather than just <code class="value">CA01</code> for two different conservation areas.</p>
 
     <p class="assertion">A reference SHOULD be short and meaningful to a user.</p> 
 
@@ -948,11 +972,11 @@ a.para:hover {
         It should be something you already use, such as the reference number sent in letters, asked for in forms,
         a section reference in documents,
         a part of your web site URLs (a "furl" or "slug"),
-        or a fragment identifier (anchor) in your <a href="#source-documentation">Source documentation</a> web page.
+        or a fragment identifier (anchor) in your <a href="#source-documentation">source documentation</a> web page.
     </p>
 
 
-    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
+    <h3 id="fieldtype-datetime" class="govuk-heading-s">Datetime</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -962,7 +986,7 @@ a.para:hover {
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="fieldtype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 
@@ -979,7 +1003,10 @@ a.para:hover {
     Survey data should be used where more precision is needed.
     </p>
 
-    <h3 id="text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-integer" class="govuk-heading-s">Integer</h3>
+    <p class="TBD">Reference CSV on the web and xs:decimal</p>
+
+    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
     <p class="assertion">
     All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
@@ -994,8 +1021,8 @@ processing an appeal, and monitoring the delivery of housing on older brownfield
 <p class="assertion">
 Entries SHOULD NOT be changed or removed from the data except to correct a mistake, or for the purposes of redacting personal or otherwise sensitive information.
 </p>
-<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer <code>entry-date</code>.</p>
-<p class="assertion">Entries SHOULD be ordered within a dataset by the <code>entry-date</code> value, with older entries appearing before later entries.</p>
+<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer <code class="field">entry-date</code>.</p>
+<p class="assertion">Entries SHOULD be ordered within a dataset by the <code class="field">entry-date</code> value, with older entries appearing before later entries.</p>
 <p class="assertion">The [<a href="#field_end-date">end-date</a>] field should be used to indicate when an entity is no longer applicable.</p>
 
 <h2 id="data-format" class="govuk-heading-m">Data file formats</h2>
@@ -1017,25 +1044,38 @@ following the [<a href="#open-standards-for-government">Open Standards for gover
 
 <p class="note">
 The case and punctuation used in field names is insignificant, meaning
-fields with the name <code>Start Date</code>, <code>StartDate</code>, <code>START_DATE</code> and <code>start.date</code> 
-are all valid ways of naming the <code>start-date</code> field.
+fields with the name <code class="value">Start Date</code>, <code class="value">StartDate</code>, <code class="value">START_DATE</code> and <code class="value">start.date</code> 
+are all valid ways of naming the <code class="field">start-date</code> field.
 </p>
 
-<p class="assertion">A field name SHOULD be treated as being case insensitive.</p> 
+<p class="assertion">A field name MAY be treated as being case insensitive.</p> 
 
-<p class="assertion">Any non-alphanumeric characters in a field name SHOULD be treated as being insignificant.</p> 
+<p class="assertion">A non-alphanumeric character in a field name MAY be ignored.</p> 
 
 <h2 id="evolution" class="govuk-heading-m">Evolution</h2>
 
-<p><i>TBD: guidance for how the specification may evolve in a similar way to HTML. Whilst the specification document is versioned, the data may evolves following three principles: the data may contain additional fields in the future version. Processors of this version should ignore any fields they aren't expecting. Fields in this specification may be deprecated in a future version, but won't be removed, or change their semantic meaning.</i></p>
+<p class="TBD">Guidance for how the specification may evolve in a similar way to HTML. Whilst the specification document is versioned, the data may evolves following three principles: the data may contain additional fields in the future version. Processors of this version should ignore any fields they aren't expecting. Fields in this specification may be deprecated in a future version, but won't be removed, or change their semantic meaning.</p>
 
 <h2 id="extensibility" class="govuk-heading-m">Extensibility</h2>
 
-<p><i>TBD: guidance for supporting local variance and existing data ..</i></p>
+<p class="TBD">Guidance for how we support local variance and collecting data from existing sources.</p>
+
+<h2 id="endpoint" class="govuk-heading-m">Endpoint</h2>
+
+<section class="guidance">
+    Your data must be on a URL the public can access. We collect the latest data from there every day. We call this the ‘endpoint URL’.
+    <p>Endpoints typically fall into 1 of the following 2 categories:</a>
+<ul>
+    <li>a file hosted on your web server — these will usually be URLs which end in something like .json or .csv
+    <li>a live feed of the data from an API — these are usually hosted by your GIS (Geographic Information System) software or open data platform
+</ul>
+<p>Whenever your data changes, update it in the endpoint URL. Your endpoint URL should remain the same, do not change it when you make updates.</p>
+</section>
+<p class="TBD"></p>
 
 <h2 id="examples" class="govuk-heading-m">Examples</h2>
 
-<p><i>TBD: include examples</i></p>
+<p class="TBD">Complete examples</p>
 
     <h2 class="govuk-heading-m">Security and privacy considerations</h2>
     <p class="govuk-body">
