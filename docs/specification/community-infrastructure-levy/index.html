@@ -331,80 +331,16 @@ a.para:hover {
 
     <p class="assertion">The Community infrastructure levy schedule dataset  contain at least one entry for each Community infrastructure levy schedule for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Community infrastructure levy schedule entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Community infrastructure levy schedule entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Community infrastructure levy schedule entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_name">name</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_description">description</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_document-url">document-url</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_documentation-url">documentation-url</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_organisation">organisation</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_adopted-date">adopted-date</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_notes">notes</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#community-infrastructure-levy-schedule_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="community-infrastructure-levy-schedule__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a reference field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a unique code for this document record, for example `ADU/1`</p>
 
@@ -413,12 +349,26 @@ a.para:hover {
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a name field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a name for the document, for example, CIL Schedule 2023</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>description</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a description field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a field to provide details about the document</p>
 
@@ -427,12 +377,26 @@ a.para:hover {
     </li>
     <h4>document-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a document-url field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a URL to the publication whether it is document, such as a pdf, or a webpage</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>documentation-url</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a documentation-url field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a URL to the page on a planning authority site where this document is published</p>
 
@@ -441,12 +405,26 @@ a.para:hover {
     </li>
     <h4>organisation</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a organisation field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a code for the organisation that published the schedule</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>adopted-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a adopted-date field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the schedule was adopted, for example 2024-12-01</p>
 
@@ -455,12 +433,26 @@ a.para:hover {
     </li>
     <h4>notes</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a notes field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">optional notes</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date this record was created</p>
 
@@ -469,12 +461,26 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a start-date field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the document was published</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a end-date field.</p>
+    <p class="assertion">The Community infrastructure levy schedule  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date this document was superseded</p>
 
@@ -483,9 +489,9 @@ a.para:hover {
     </li>
 
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -511,8 +517,7 @@ a.para:hover {
     </p>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
-    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -522,7 +527,7 @@ a.para:hover {
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 

@@ -338,70 +338,16 @@ a.para:hover {
 
     <p class="assertion">The Listed building outline dataset  contain at least one entry for each Listed building outline for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Listed building outline entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Listed building outline entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Listed building outline entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#listed-building-outline_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_name">name</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_listed-building">listed-building</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_geometry">geometry</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_notes">notes</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_organisation">organisation</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#listed-building-outline_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="listed-building-outline__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a reference field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the listed building</p>
 
@@ -410,12 +356,26 @@ a.para:hover {
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a name field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the name of the listed building</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>listed-building</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a listed-building field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the Historic England identifier for the listed building, for example <a href="https://historicengland.org.uk/listing/the-list/list-entry/1024710" class="govuk-link">1024710</a></p>
 
@@ -424,12 +384,26 @@ a.para:hover {
     </li>
     <h4>geometry</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a geometry field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-multipolygon">Multipolygon</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">Under review</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a notes field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">optional notes</p>
 
@@ -438,12 +412,26 @@ a.para:hover {
     </li>
     <h4>organisation</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a organisation field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the organisation responsible for the listed building</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
 
@@ -452,12 +440,26 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a start-date field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Listed building outline entry MAY contain a end-date field.</p>
+    <p class="assertion">The Listed building outline  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
 
@@ -466,9 +468,9 @@ a.para:hover {
     </li>
 
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -494,8 +496,7 @@ a.para:hover {
     </p>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
-    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -505,7 +506,7 @@ a.para:hover {
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 

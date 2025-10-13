@@ -350,70 +350,16 @@ a.para:hover {
 
     <p class="assertion">The Local plan boundary dataset  contain at least one entry for each Local plan boundary for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Local plan boundary entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan boundary entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan boundary entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#local-plan-boundary_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_name">name</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_geometry">geometry</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_plan-boundary-type">plan-boundary-type</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_description">description</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_organisations">organisations</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="local-plan-boundary__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a reference field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the planning authority boundary reference</p>
 
@@ -424,6 +370,13 @@ a.para:hover {
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a name field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a name for the boundary. For example, `City of York boundary`</p>
 
     <!- brute force for now, needs an index --><p class="description">
@@ -432,6 +385,13 @@ a.para:hover {
 
     </li>
     <h4>geometry</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a geometry field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-multipolygon">Multipolygon</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the boundary in WKT format</p>
 
@@ -442,6 +402,13 @@ a.para:hover {
     </li>
     <h4>plan-boundary-type</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a plan-boundary-type field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`</p>
 
     <!- brute force for now, needs an index -->
@@ -449,12 +416,26 @@ a.para:hover {
     [<a href="https://planning.data.gov.uk/dataset/development-plan-boundary-type">development-plan-boundary-type dataset</a>]</li>
     <h4>description</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a description field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a description of the boundary. Provide more detail if boundary is different from planning authority boundary</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>organisations</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a organisations field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of codes for the responsible organisations, separated by ;</p>
 
@@ -465,6 +446,13 @@ a.para:hover {
     </li>
     <h4>entry-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
 
     <!- brute force for now, needs an index -->
@@ -472,12 +460,26 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a start-date field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a end-date field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
 
@@ -497,85 +499,16 @@ a.para:hover {
 
     <p class="assertion">The Local plan dataset  contain at least one entry for each Local plan for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Local plan entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#local-plan_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_name">name</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_description">description</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_period-start-date">period-start-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_period-end-date">period-end-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_local-plan-boundary">local-plan-boundary</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_documentation-url">documentation-url</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_adopted-date">adopted-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_organisations">organisations</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="local-plan__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a reference field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">an unique identifier for a local plan</p>
 
@@ -586,6 +519,13 @@ a.para:hover {
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a name field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the name of the local plan (for example, The Adopted Local Plan for Leeds)</p>
 
     <!- brute force for now, needs an index --><p class="description">
@@ -595,12 +535,26 @@ a.para:hover {
     </li>
     <h4>description</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a description field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">brief description of plan</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>period-start-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a period-start-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the start date of the period the plan covers</p>
 
@@ -611,6 +565,13 @@ a.para:hover {
     </li>
     <h4>period-end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a period-end-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the end date of the period the plan covers</p>
 
     <!- brute force for now, needs an index --><p class="description">
@@ -619,6 +580,13 @@ a.para:hover {
 
     </li>
     <h4>local-plan-boundary</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a local-plan-boundary field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the reference code for the boundary the plan covers</p>
 
@@ -635,6 +603,13 @@ in your <code>local-plan-boundary</code> data.</p></div>
     </li>
     <h4>documentation-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a documentation-url field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the web page where you can find the documentation for the plan</p>
 
     <!- brute force for now, needs an index --><p class="description">
@@ -643,6 +618,13 @@ in your <code>local-plan-boundary</code> data.</p></div>
 
     </li>
     <h4>adopted-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a adopted-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date a plan is officially adopted</p>
 
@@ -655,6 +637,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>organisations</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a organisations field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a list of codes for the responsible organisations, separated by ;</p>
 
     <!- brute force for now, needs an index --><p class="description">
@@ -664,6 +653,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>entry-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
 
     <!- brute force for now, needs an index -->
@@ -671,12 +667,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a start-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a end-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
 
@@ -696,80 +706,16 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <p class="assertion">The Local plan document dataset  contain at least one entry for each Local plan document for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Local plan document entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan document entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan document entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#local-plan-document_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_name">name</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_description">description</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_local-plan">local-plan</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_document-types">document-types</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_documentation-url">documentation-url</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_document-url">document-url</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_organisations">organisations</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="local-plan-document__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a reference field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">An unique identifier for this record (for example, xyz-123-abc)</p>
 
@@ -778,12 +724,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a name field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">The name of this document</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>description</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a description field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">Brief description of this document</p>
 
@@ -792,12 +752,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>local-plan</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a local-plan field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">The reference for the particular local plan (for example, dorcester-new-local-plan)</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>document-types</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a document-types field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The code for this document type (for example policy map)</p>
 
@@ -806,12 +780,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>documentation-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a documentation-url field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">The webpage where you can find this document</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>document-url</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a document-url field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The URL of the actual document</p>
 
@@ -820,12 +808,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>organisations</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a organisations field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a list of codes for the responsible organisations, separated by ;</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date this information has been entered as a record</p>
 
@@ -834,12 +836,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a start-date field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a end-date field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record ends</p>
 
@@ -848,9 +864,9 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
 
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -876,8 +892,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </p>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
-    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -887,7 +902,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 

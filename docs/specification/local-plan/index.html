@@ -349,110 +349,16 @@ a.para:hover {
 
     <p class="assertion">The Local plan dataset SHOULD contain at least one entry for each Local plan for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Local plan entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#local-plan_reference">reference</a>]</li>
-        
-        
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan_documentation-url">documentation-url</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_document-url">document-url</a>]</li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        <li>[<a href="#local-plan_name">name</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_organisations">organisations</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_period-start-date">period-start-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_period-end-date">period-end-date</a>]</li>
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan_adopted-date">adopted-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_required-dwellings">required-dwellings</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_committed-dwellings">committed-dwellings</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_allocated-dwellings">allocated-dwellings</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_windfall-dwellings">windfall-dwellings</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_start-date">start-date</a>]</li>
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan_local-plan-boundary">local-plan-boundary</a>]</li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan_end-date">end-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan_notes">notes</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="local-plan__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MUST contain a reference field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -463,6 +369,13 @@ a.para:hover {
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a name field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -471,6 +384,13 @@ a.para:hover {
 
     </li>
     <h4>organisations</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a organisations field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -481,6 +401,13 @@ a.para:hover {
     </li>
     <h4>period-start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a period-start-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -490,6 +417,13 @@ a.para:hover {
     </li>
     <h4>period-end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a period-end-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -498,6 +432,13 @@ a.para:hover {
 
     </li>
     <h4>local-plan-boundary</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a local-plan-boundary field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -514,6 +455,13 @@ in your <code>local-plan-boundary</code> data.</p></div>
     </li>
     <h4>documentation-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MUST contain a documentation-url field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -523,6 +471,13 @@ in your <code>local-plan-boundary</code> data.</p></div>
     </li>
     <h4>document-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MUST contain a document-url field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -531,6 +486,13 @@ in your <code>local-plan-boundary</code> data.</p></div>
 
     </li>
     <h4>adopted-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a adopted-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -543,6 +505,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>required-dwellings</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a required-dwellings field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -551,6 +520,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     </li>
     <h4>committed-dwellings</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a committed-dwellings field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -561,6 +537,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>allocated-dwellings</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a allocated-dwellings field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -569,6 +552,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     </li>
     <h4>windfall-dwellings</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a windfall-dwellings field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -579,12 +569,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>entry-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a entry-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>start-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain a start-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -593,12 +597,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a end-date field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry MAY contain a notes field.</p>
+    <p class="assertion">The Local plan  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -618,65 +636,16 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <p class="assertion">The Local plan timetable dataset SHOULD contain at least one entry for each Local plan timetable for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Local plan timetable entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#local-plan-timetable_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-timetable_local-plan">local-plan</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-timetable_local-plan-event">local-plan-event</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-timetable_event-date">event-date</a>]</li>
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan timetable entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan-timetable_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-timetable_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-timetable_end-date">end-date</a>]</li>
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan timetable entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan-timetable_notes">notes</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="local-plan-timetable__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry MUST contain a reference field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -685,12 +654,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>local-plan</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry MUST contain a local-plan field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>local-plan-event</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry MUST contain a local-plan-event field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -699,12 +682,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     [<a href="https://planning.data.gov.uk/dataset/local-plan-event">local-plan-event dataset</a>]</li>
     <h4>event-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry MUST contain a event-date field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry SHOULD contain a entry-date field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -713,6 +710,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry SHOULD contain a start-date field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
@@ -720,12 +724,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry SHOULD contain a end-date field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan timetable entry MAY contain a notes field.</p>
+    <p class="assertion">The Local plan timetable  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -745,85 +763,16 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <p class="assertion">The Local plan document dataset MAY contain at least one entry for each Local plan document for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Local plan document entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#local-plan-document_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_name">name</a>]</li>
-        
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan-document_document-url">document-url</a>]</li>
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan document entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan-document_document-types">document-types</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_documentation-url">documentation-url</a>]</li>
-        
-        
-        
-        <li>[<a href="#local-plan-document_organisations">organisations</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_start-date">start-date</a>]</li>
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan document entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        <li>[<a href="#local-plan-document_description">description</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_local-plan">local-plan</a>]</li>
-        
-        
-        
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan-document_end-date">end-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-document_notes">notes</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="local-plan-document__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MUST contain a reference field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -832,12 +781,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MUST contain a name field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>description</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a description field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -846,12 +809,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>local-plan</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a local-plan field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>document-types</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry SHOULD contain a document-types field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -860,12 +837,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>documentation-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry SHOULD contain a documentation-url field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>document-url</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MUST contain a document-url field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -874,12 +865,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>organisations</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry SHOULD contain a organisations field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry SHOULD contain a entry-date field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -888,6 +893,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry SHOULD contain a start-date field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
@@ -895,12 +907,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a end-date field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan document entry MAY contain a notes field.</p>
+    <p class="assertion">The Local plan document  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -920,60 +946,16 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <p class="assertion">The Local plan boundary dataset MAY contain at least one entry for each Local plan boundary for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Local plan boundary entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#local-plan-boundary_reference">reference</a>]</li>
-        
-        
-        
-        <li>[<a href="#local-plan-boundary_geometry">geometry</a>]</li>
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan boundary entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        <li>[<a href="#local-plan-boundary_name">name</a>]</li>
-        
-        
-        
-        <li>[<a href="#local-plan-boundary_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_start-date">start-date</a>]</li>
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Local plan boundary entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        <li>[<a href="#local-plan-boundary_end-date">end-date</a>]</li>
-        
-        
-        <li>[<a href="#local-plan-boundary_notes">notes</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="local-plan-boundary__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MUST contain a reference field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -984,6 +966,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry SHOULD contain a name field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
@@ -992,6 +981,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     </li>
     <h4>geometry</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MUST contain a geometry field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-multipolygon">Multipolygon</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1002,12 +998,26 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>entry-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry SHOULD contain a entry-date field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>start-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry SHOULD contain a start-date field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1016,6 +1026,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a end-date field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
@@ -1023,6 +1040,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
     <h4>notes</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a notes field.</p>
+    <p class="assertion">The Local plan boundary  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
@@ -1030,9 +1054,9 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </li>
 
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -1058,8 +1082,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     </p>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
-    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -1069,7 +1092,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 

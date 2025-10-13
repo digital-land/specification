@@ -344,65 +344,16 @@ a.para:hover {
 
     <p class="assertion">The Planning condition dataset  contain at least one entry for each Planning condition for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Planning condition entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Planning condition entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Planning condition entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#planning-condition_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#planning-condition_name">name</a>]</li>
-        
-        
-        <li>[<a href="#planning-condition_description">description</a>]</li>
-        
-        
-        <li>[<a href="#planning-condition_organisation">organisation</a>]</li>
-        
-        
-        <li>[<a href="#planning-condition_notes">notes</a>]</li>
-        
-        
-        <li>[<a href="#planning-condition_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#planning-condition_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#planning-condition_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="planning-condition__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a reference field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a reference for the planning condition</p>
 
@@ -411,12 +362,26 @@ a.para:hover {
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a name field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a name used for this planning condition</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>description</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a description field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">text explaining the condition</p>
 
@@ -425,12 +390,26 @@ a.para:hover {
     </li>
     <h4>organisation</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a organisation field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the organisation that created the condition</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a notes field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">any additional notes about the condition</p>
 
@@ -439,6 +418,13 @@ a.para:hover {
     </li>
     <h4>entry-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the condition record was created</p>
 
     <!- brute force for now, needs an index -->
@@ -446,12 +432,26 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a start-date field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning condition entry MAY contain a end-date field.</p>
+    <p class="assertion">The Planning condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
@@ -471,80 +471,16 @@ a.para:hover {
 
     <p class="assertion">The Planning application condition dataset  contain at least one entry for each Planning application condition for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Planning application condition entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Planning application condition entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Planning application condition entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#planning-application-condition_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_planning-application">planning-application</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_planning-condition">planning-condition</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_description">description</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_organisation">organisation</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_activation-date">activation-date</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_discharged-date">discharged-date</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_notes">notes</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#planning-application-condition_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="planning-application-condition__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a reference field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a reference for the planning application - condition connection</p>
 
@@ -553,12 +489,26 @@ a.para:hover {
     </li>
     <h4>planning-application</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a planning-application field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a planning application reference</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>planning-condition</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a planning-condition field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a planning condition reference</p>
 
@@ -567,12 +517,26 @@ a.para:hover {
     </li>
     <h4>description</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a description field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a description of the condition applied to the application</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>organisation</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a organisation field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the organisation that as added the condition to the planning application</p>
 
@@ -581,12 +545,26 @@ a.para:hover {
     </li>
     <h4>activation-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a activation-date field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the condition becomes active</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>discharged-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a discharged-date field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the condition is discharged</p>
 
@@ -595,12 +573,26 @@ a.para:hover {
     </li>
     <h4>notes</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a notes field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">an additional notes about the planning application - condition connection</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the date the record was created</p>
 
@@ -609,6 +601,13 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a start-date field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index -->
@@ -616,6 +615,13 @@ a.para:hover {
     </li>
     <h4>end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Planning application condition entry MAY contain a end-date field.</p>
+    <p class="assertion">The Planning application condition  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index -->
@@ -623,9 +629,9 @@ a.para:hover {
     </li>
 
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -651,8 +657,7 @@ a.para:hover {
     </p>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
-    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -662,7 +667,7 @@ a.para:hover {
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 

@@ -346,105 +346,16 @@ a.para:hover {
 
     <p class="assertion">The Infrastructure project dataset  contain at least one entry for each Infrastructure project for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Infrastructure project entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Infrastructure project entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Infrastructure project entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#infrastructure-project_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_name">name</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_description">description</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_applicant-organisation">applicant-organisation</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_infrastructure-project-decision">infrastructure-project-decision</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_decision-date">decision-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_decision-maker">decision-maker</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_geometry">geometry</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_point">point</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_documentation-url">documentation-url</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_infrastructure-project-type">infrastructure-project-type</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_notes">notes</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_organisation">organisation</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="infrastructure-project__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a reference field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the NSIP id</p>
 
@@ -453,12 +364,26 @@ a.para:hover {
     </li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a name field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the name of the project</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>description</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a description field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a brief description of the project</p>
 
@@ -467,12 +392,26 @@ a.para:hover {
     </li>
     <h4>applicant-organisation</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a applicant-organisation field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation making the application</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>infrastructure-project-decision</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a infrastructure-project-decision field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the decision, once it has been made. For example `consent-granted`</p>
 
@@ -481,12 +420,26 @@ a.para:hover {
     [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-decision">infrastructure-project-decision dataset</a>]</li>
     <h4>decision-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a decision-date field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the decision was made, for example `2023-09-14`</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>decision-maker</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a decision-maker field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">which secretary of state made the decision</p>
 
@@ -495,12 +448,26 @@ a.para:hover {
     </li>
     <h4>geometry</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a geometry field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-multipolygon">Multipolygon</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the site boundary for the proposed development</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>point</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a point field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-point">Point</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -509,12 +476,26 @@ a.para:hover {
     </li>
     <h4>documentation-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a documentation-url field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a url to a page with more information about the project</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>infrastructure-project-type</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a infrastructure-project-type field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the type of project, for example generating-stations</p>
 
@@ -523,12 +504,26 @@ a.para:hover {
     [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-type">infrastructure-project-type dataset</a>]</li>
     <h4>notes</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a notes field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">any additional notes in this field</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>organisation</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a organisation field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation that provided this data</p>
 
@@ -537,6 +532,13 @@ a.para:hover {
     </li>
     <h4>entry-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
@@ -544,12 +546,26 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a start-date field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a end-date field.</p>
+    <p class="assertion">The Infrastructure project  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -569,70 +585,16 @@ a.para:hover {
 
     <p class="assertion">The Infrastructure project log dataset  contain at least one entry for each Infrastructure project log for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Infrastructure project log entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Infrastructure project log entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Infrastructure project log entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#infrastructure-project-log_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_infrastructure-project">infrastructure-project</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_infrastructure-project-event">infrastructure-project-event</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_event-date">event-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_notes">notes</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_organisation">organisation</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-log_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="infrastructure-project-log__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a reference field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -641,12 +603,26 @@ a.para:hover {
     </li>
     <h4>infrastructure-project</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a infrastructure-project field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the ID of the infrastructure project</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>infrastructure-project-event</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a infrastructure-project-event field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">an event reference for something that has happened during the process</p>
 
@@ -655,12 +631,26 @@ a.para:hover {
     [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-event">infrastructure-project-event dataset</a>]</li>
     <h4>event-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a event-date field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the date the event happened, for example `2023-09-14`</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a notes field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">any additional notes in this field</p>
 
@@ -669,12 +659,26 @@ a.para:hover {
     </li>
     <h4>organisation</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a organisation field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation that provided this data</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -683,12 +687,26 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a start-date field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>end-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a end-date field.</p>
+    <p class="assertion">The Infrastructure project log  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -708,80 +726,16 @@ a.para:hover {
 
     <p class="assertion">The Infrastructure project document dataset  contain at least one entry for each Infrastructure project document for which the data provider is the responsible authority.</p>
 
-    
-    <p class="govuk-body">Each Infrastructure project document entry MUST contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Infrastructure project document entry SHOULD contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </ul>
-    
-    <p class="govuk-body">Each Infrastructure project document entry MAY contain the following fields:</p>
-    <ul class="govuk-list govuk-list--bullet">
-      
-        
-        <li>[<a href="#infrastructure-project-document_reference">reference</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_infrastructure-project">infrastructure-project</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_document-type">document-type</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_name">name</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_notes">notes</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_organisation">organisation</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_document-url">document-url</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_documentation-url">documentation-url</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_entry-date">entry-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_start-date">start-date</a>]</li>
-        
-        
-        <li>[<a href="#infrastructure-project-document_end-date">end-date</a>]</li>
-        
-    </ul>
-    
 
     <h3 id="infrastructure-project-document__fields">Fields</h3>
     <h4>reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a reference field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -790,12 +744,26 @@ a.para:hover {
     </li>
     <h4>infrastructure-project</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a infrastructure-project field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the ID of the infrastructure project</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>document-type</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a document-type field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the type of document, for example development-consent-order</p>
 
@@ -804,12 +772,26 @@ a.para:hover {
     [<a href="https://planning.data.gov.uk/dataset/infrastructure-project-document-type">infrastructure-project-document-type dataset</a>]</li>
     <h4>name</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a name field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a name for the document</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a notes field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">any additional notes in this field</p>
 
@@ -818,12 +800,26 @@ a.para:hover {
     </li>
     <h4>organisation</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a organisation field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-curie">CURIE</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">the organisation id of the organisation that provided this data</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>document-url</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a document-url field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a url to the document</p>
 
@@ -832,12 +828,26 @@ a.para:hover {
     </li>
     <h4>documentation-url</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a documentation-url field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+
     <!-- deprecated specification description .. --> <p class="description">a url to the webpage where the document has been published</p>
 
     <!- brute force for now, needs an index -->
 
     </li>
     <h4>entry-date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a entry-date field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -846,6 +856,13 @@ a.para:hover {
     </li>
     <h4>start-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a start-date field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
@@ -853,6 +870,13 @@ a.para:hover {
     </li>
     <h4>end-date</h4>
 
+    
+    
+    
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a end-date field.</p>
+    <p class="assertion">The Infrastructure project document  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
@@ -860,9 +884,9 @@ a.para:hover {
     </li>
 
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -888,8 +912,7 @@ a.para:hover {
     </p>
 
 
-    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
-    <h3 id="date" class="govuk-heading-s">Date</h3>
+    <h3 id="datatype-date" class="govuk-heading-s">Date</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -899,7 +922,7 @@ a.para:hover {
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 
