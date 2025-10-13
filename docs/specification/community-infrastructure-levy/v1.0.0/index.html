@@ -80,6 +80,7 @@ code.value {
 
 .assertion::before {
     content: "¶ " ;
+    color: #b1b4b6;
 }
 
 .TBD::before {
@@ -417,7 +418,7 @@ h1, h2::before, h3::before, h4::before {
     
 
     <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a <code class="field">document-url</code> field.</p>
-    <p class="assertion">The Community infrastructure levy schedule <code class="field">document-url</code> field MUST be a [<a href="#fieldtype-url">url</a>] value.</p>
+    <p class="assertion">The Community infrastructure levy schedule <code class="field">document-url</code> field MUST be a [<a href="#fieldtype-URL">URL</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a URL to the publication whether it is document, such as a pdf, or a webpage</p>
 
@@ -434,7 +435,7 @@ h1, h2::before, h3::before, h4::before {
     
 
     <p class="assertion">Each Community infrastructure levy schedule entry MAY contain a <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Community infrastructure levy schedule <code class="field">documentation-url</code> field MUST be a [<a href="#fieldtype-url">url</a>] value.</p>
+    <p class="assertion">The Community infrastructure levy schedule <code class="field">documentation-url</code> field MUST be a [<a href="#fieldtype-URL">URL</a>] value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a URL to the page on a planning authority site where this document is published</p>
 
@@ -568,7 +569,7 @@ h1, h2::before, h3::before, h4::before {
     <p class="guidance">A good reference is short, meaningful and easily read out loud by a user. 
         It should be something you already use, such as the reference number sent in letters, asked for in forms,
         a section reference in documents,
-        a part of your web site URLs (a "furl" or "slug"),
+        the significant part of the URL for an entity (its "furl" or "slug"),
         or a fragment identifier (anchor) in your <a href="#source-documentation">source documentation</a> web page.
     </p>
 
@@ -602,6 +603,12 @@ h1, h2::before, h3::before, h4::before {
 
     <h3 id="fieldtype-integer" class="govuk-heading-s">Integer</h3>
     <p class="TBD">Reference CSV on the web and xs:decimal</p>
+
+    <h3 id="fieldtype-markdown" class="govuk-heading-s">Markdown</h3>
+    <p class="TBD">Reference [<a href="#govspeak-markdown">govspeak-markdown</a>]</p>
+
+    <h3 id="fieldtype-url" class="govuk-heading-s">URL</h3>
+    <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
     <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
     <p class="assertion">
@@ -750,7 +757,7 @@ are all valid ways of naming the <code class="field">start-date</code> field.
     </div>
 
     <div class="govuk-summary-list__row">
-    <dt class="govuk-summary-list__key" id="RFC3386">[RFC3386]</dt>
+    <dt class="govuk-summary-list__key" id="RFC3986">[RFC3986]</dt>
     <dd class="govuk-summary-list__value">
     IETF Standard. Uniform Resource Identifier (URI): Generic Syntax.
     <a href="https://datatracker.ietf.org/doc/html/rfc3986">https://datatracker.ietf.org/doc/html/rfc3986</a>
@@ -856,6 +863,14 @@ are all valid ways of naming the <code class="field">start-date</code> field.
         CURIE Syntax 1.0 A syntax for expressing Compact URIs.
         W3C Working Group Note.
         <a href="https://www.w3.org/TR/2010/NOTE-curie-20101216/">https://www.w3.org/TR/2010/NOTE-curie-20101216/</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="govspeak-markdown">[govspeak-markdown]</dt>
+    <dd class="govuk-summary-list__value">
+    How to publish on GOV.UK: Govspeak Markdown.
+    <a href="https://www.gov.uk/guidance/how-to-publish-on-gov-uk/markdown">https://www.gov.uk/guidance/how-to-publish-on-gov-uk/markdown</a>
     </dd>
     </div>
 
@@ -992,13 +1007,14 @@ are all valid ways of naming the <code class="field">start-date</code> field.
     </div>
 
     <div class="govuk-summary-list__row">
-    <dt class="govuk-summary-list__key" id="URL">[URL]</dt>
+    <dt class="govuk-summary-list__key" id="URL-interoperability">[URL-interoperability]</dt>
     <dd class="govuk-summary-list__value">
     WHATWG URL. Living Standard.
     Interoperability of URL with URI and IRI values.
     <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
     </dd>
     </div>
+
 
     </dl>
 
