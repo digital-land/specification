@@ -265,11 +265,22 @@ a.para:hover {
     <p class="note">The reference may be used as a web page fragment identifier a web page with more information about the {{ item["name"]}}.</p>
     -->
 
-    <p class="assertion">A reference value MUST be suitable as the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
+    <p class="assertion">A reference value MUST be either a [<a href="#CURIE">CURIE</a>] or the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
     
     <p class="assertion">A reference SHOULD be persistent. A reference SHOULD be used by the data provider to identify the same entity in the future.</p>
 
-    <p class="assertion">A reference SHOULD be short and meaningful to a user. For example, the reference MAY be used to refer to the entity when completing an offline form, or contacting a call centre.</p>
+    <p class="assertion">A reference SHOULD NOT be used to refer to a different entity in the future.</p> 
+
+    <p class="note">Where a reference has been used to refer to two different entities, add a year or other text to disambiguate the references, for example use <code>CA01</code> and <code>CA01/2022</code> rather than just <code>CA01</code> for two different conservation areas.</p>
+
+    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p> 
+
+    <p class="guidance">A good reference is short, meaningful and easily read out loud by a user. 
+        It should be something you already use, such as the reference number sent in letters, asked for in forms,
+        a section reference in documents,
+        a part of your web site URLs (a "furl" or "slug"),
+        or a fragment identifier (anchor) in your <a href="#source-documentation">Source documentation</a> web page.
+    </p>
 
 
     <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
@@ -315,8 +326,8 @@ processing an appeal, and monitoring the delivery of housing on older brownfield
 <p class="assertion">
 Entries SHOULD NOT be changed or removed from the data except to correct a mistake, or for the purposes of redacting personal or otherwise sensitive information.
 </p>
-<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer `entry-date`.</p>
-<p class="assertion">Entries SHOULD be ordered within a dataset by the `entry-date` value, with older entries appearing before later entries.</p>
+<p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer <code>entry-date</code>.</p>
+<p class="assertion">Entries SHOULD be ordered within a dataset by the <code>entry-date</code> value, with older entries appearing before later entries.</p>
 <p class="assertion">The [<a href="#field_end-date">end-date</a>] field should be used to indicate when an entity is no longer applicable.</p>
 
 <h2 id="data-format" class="govuk-heading-m">Data file formats</h2>
