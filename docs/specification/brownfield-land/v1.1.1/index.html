@@ -336,14 +336,17 @@ a.para:hover {
 
 
     <h3 id="brownfield-land__fields">Fields</h3>
+    
+    
+
     <h4>SiteReference</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a SiteReference field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>SiteReference</code> field.</p>
+    <p class="assertion">The Brownfield land <code>SiteReference</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -352,14 +355,17 @@ If one doesn’t exist, you need to create one. It should not be used by your or
 <code>EH/141</code></p></div>
 
     </li>
+    
+    
+
     <h4>SiteNameAddress</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a SiteNameAddress field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>SiteNameAddress</code> field.</p>
+    <p class="assertion">The Brownfield land <code>SiteNameAddress</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -367,98 +373,119 @@ If one doesn’t exist, you need to create one. It should not be used by your or
 <code>Parcel of land behind, 221B Baker Street, Marylebone, London, NW1 6XE</code></p></div>
 
     </li>
+    
+    
+
     <h4>Deliverable</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a Deliverable field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-flag">Flag</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>Deliverable</code> field.</p>
+    <p class="assertion">The Brownfield land <code>Deliverable</code> value MUST conform to the [<a href="#datatype-flag">Flag</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter ‘yes’ if there is a reasonable prospect that residential development will take place on the land within 5 years of the date you enter this site in the register. Otherwise leave this field blank.</p></div>
 
     </li>
+    
+    
+
     <h4>HazardousSubstances</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a HazardousSubstances field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-flag">Flag</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>HazardousSubstances</code> field.</p>
+    <p class="assertion">The Brownfield land <code>HazardousSubstances</code> value MUST conform to the [<a href="#datatype-flag">Flag</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter ‘yes’ if the local planning authority is required by regulation 26(3) of the <a href="https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made">Planning (Hazardous Substances) Regulations 2015</a> to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.</p></div>
 
     </li>
+    
+    
+
     <h4>Hectares</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a Hectares field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-decimal">Decimal</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>Hectares</code> field.</p>
+    <p class="assertion">The Brownfield land <code>Hectares</code> value MUST conform to the [<a href="#datatype-decimal">Decimal</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the land area of the site in hectares, up to 2 decimal places. Use digits (2) rather than words (two).</p></div>
 
     </li>
-    <h4>MinNetDwellings</h4>
+    
+    
+
+    <h4>Minimum net dwellings</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a MinNetDwellings field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>MinNetDwellings</code> field.</p>
+    <p class="assertion">The Brownfield land <code>MinNetDwellings</code> value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
-    <h4>NetDwellingsRangeFrom</h4>
+    
+    
+
+    <h4>Minimum net dwellings</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a NetDwellingsRangeFrom field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>NetDwellingsRangeFrom</code> field.</p>
+    <p class="assertion">The Brownfield land <code>NetDwellingsRangeFrom</code> value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the minimum number of dwellings that the local planning authority estimates the site should support, as defined in <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p></div>
 
     </li>
-    <h4>NetDwellingsRangeTo</h4>
+    
+    
+
+    <h4>Maximum net dwellings</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a NetDwellingsRangeTo field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>NetDwellingsRangeTo</code> field.</p>
+    <p class="assertion">The Brownfield land <code>NetDwellingsRangeTo</code> value MUST conform to the [<a href="#datatype-integer">Integer</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the maximum number of dwellings that the local planning authority estimates the site should support, as defined in <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p></div>
 
     </li>
+    
+    
+
     <h4>OwnershipStatus</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a OwnershipStatus field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>OwnershipStatus</code> field.</p>
+    <p class="assertion">The Brownfield land <code>OwnershipStatus</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -467,28 +494,34 @@ If one doesn’t exist, you need to create one. It should not be used by your or
 For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.</p></div>
 
     </li>
-    <h4>PermissionDate</h4>
+    
+    
+
+    <h4>Planning permission date</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a PermissionDate field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>PermissionDate</code> field.</p>
+    <p class="assertion">The Brownfield land <code>PermissionDate</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the date the most recent permission was granted on the site, in the format YYYY-MM-DD. If no permission has been granted leave this blank.</p></div>
 
     </li>
-    <h4>PermissionType</h4>
+    
+    
+
+    <h4>Planning permission type</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a PermissionType field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>PermissionType</code> field.</p>
+    <p class="assertion">The Brownfield land <code>PermissionType</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -498,28 +531,34 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
 Where more than one permission exists for the site, identify the latest permission granted. List any other permissions, including the date that each permission was granted or deemed to have been granted, in the ’Notes’ column.</p></div>
 
     </li>
-    <h4>PlanningHistory</h4>
+    
+    
+
+    <h4>Planning permission history</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a PlanningHistory field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>PlanningHistory</code> field.</p>
+    <p class="assertion">The Brownfield land <code>PlanningHistory</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.</p></div>
 
     </li>
-    <h4>PlanningStatus</h4>
+    
+    
+
+    <h4>Planning permission status</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a PlanningStatus field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>PlanningStatus</code> field.</p>
+    <p class="assertion">The Brownfield land <code>PlanningStatus</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -529,56 +568,68 @@ When part of a site is permissioned, it should be recorded as “permissioned”
 For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.</p></div>
 
     </li>
+    
+    
+
     <h4>SiteplanURL</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a SiteplanURL field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>SiteplanURL</code> field.</p>
+    <p class="assertion">The Brownfield land <code>SiteplanURL</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the URL of a web page hosting the site plan, beginning with either “http://” or “https://”.</p></div>
 
     </li>
+    
+    
+
     <h4>GeoX</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a GeoX field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-longitude">Longitude</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>GeoX</code> field.</p>
+    <p class="assertion">The Brownfield land <code>GeoX</code> value MUST conform to the [<a href="#datatype-longitude">Longitude</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>. $CTA Be sure you do not mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2. $CTA</p></div>
 
     </li>
+    
+    
+
     <h4>GeoY</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a GeoY field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-latitude">Latitude</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>GeoY</code> field.</p>
+    <p class="assertion">The Brownfield land <code>GeoY</code> value MUST conform to the [<a href="#datatype-latitude">Latitude</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>.</p></div>
 
     </li>
+    
+    
+
     <h4>Notes</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a Notes field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>Notes</code> field.</p>
+    <p class="assertion">The Brownfield land <code>Notes</code> value MUST conform to the [<a href="#datatype-text">Text</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -589,70 +640,85 @@ You may also describe any non-housing development proposed for the site. Indicat
 Content in this field does not need to be on a single line, but should be no longer than 4,000 characters. You can leave this field blank.</p></div>
 
     </li>
+    
+    
+
     <h4>OrganisationLabel</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a OrganisationLabel field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>OrganisationLabel</code> field.</p>
+    <p class="assertion">The Brownfield land <code>OrganisationLabel</code> value MUST conform to the [<a href="#datatype-string">String</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index -->
 
     </li>
+    
+    
+
     <h4>OrganisationURI</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a OrganisationURI field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>OrganisationURI</code> field.</p>
+    <p class="assertion">The Brownfield land <code>OrganisationURI</code> value MUST conform to the [<a href="#datatype-url">URL</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body"><a href="https://www.digital-land.info/entity?typology=organisation">Find your organisation in this list</a> and enter the corresponding Open Data Communities URI.</p></div>
 
     </li>
+    
+    
+
     <h4>LastUpdatedDate</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a LastUpdatedDate field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>LastUpdatedDate</code> field.</p>
+    <p class="assertion">The Brownfield land <code>LastUpdatedDate</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the date this entry in the register was updated, in the format YYYY-MM-DD.</p></div>
 
     </li>
+    
+    
+
     <h4>FirstAddedDate</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a FirstAddedDate field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>FirstAddedDate</code> field.</p>
+    <p class="assertion">The Brownfield land <code>FirstAddedDate</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the date that the site was first added to this register, in the format YYYY-MM-DD.</p></div>
 
     </li>
+    
+    
+
     <h4>EndDate</h4>
 
     
     
     
 
-    <p class="assertion">Each Brownfield land entry MAY contain a EndDate field.</p>
-    <p class="assertion">The Brownfield land  value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
+    <p class="assertion">Each Brownfield land entry MAY contain a <code>EndDate</code> field.</p>
+    <p class="assertion">The Brownfield land <code>EndDate</code> value MUST conform to the [<a href="#datatype-datetime">Datetime</a>] Datatype.</p>
 
     <!-- deprecated specification description .. -->
 
