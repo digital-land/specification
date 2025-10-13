@@ -11,6 +11,8 @@ github-discussion: 97
 version: 2.4.0
 datasets:
     - dataset: local-plan-boundary
+      priority: 4
+      requirement-level: MAY
       fields:
           - field: reference
             requirement-level: MUST
@@ -27,6 +29,8 @@ datasets:
           - field: notes
             requirement-level: MAY
     - dataset: local-plan
+      priority: 1
+      requirement-level: SHOULD
       fields:
           - field: reference
             requirement-level: MUST
@@ -69,7 +73,30 @@ datasets:
             requirement-level: MAY
           - field: notes
             requirement-level: MAY
+    - dataset: local-plan-timetable
+      priority: 2
+      requirement-level: SHOULD
+      fields:
+          - field: reference
+            requirement-level: MUST
+          - field: local-plan
+            requirement-level: MUST
+          - field: local-plan-event
+            requirement-level: MUST
+            dataset: local-plan-event
+          - field: event-date
+            requirement-level: MUST
+          - field: entry-date
+            requirement-level: SHOULD
+          - field: start-date
+            requirement-level: SHOULD
+          - field: end-date
+            requirement-level: SHOULD
+          - field: notes
+            requirement-level: MAY
     - dataset: local-plan-document
+      priority: 3
+      requirement-level: MAY
       fields:
           - field: reference
             requirement-level: MUST
@@ -92,25 +119,6 @@ datasets:
             requirement-level: SHOULD
           - field: end-date
             requirement-level: MAY
-          - field: notes
-            requirement-level: MAY
-    - dataset: local-plan-timetable
-      fields:
-          - field: reference
-            requirement-level: MUST
-          - field: local-plan
-            requirement-level: MUST
-          - field: local-plan-event
-            requirement-level: MUST
-            dataset: local-plan-event
-          - field: event-date
-            requirement-level: MUST
-          - field: entry-date
-            requirement-level: SHOULD
-          - field: start-date
-            requirement-level: SHOULD
-          - field: end-date
-            requirement-level: SHOULD
           - field: notes
             requirement-level: MAY
 examples:

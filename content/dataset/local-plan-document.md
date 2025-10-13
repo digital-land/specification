@@ -12,6 +12,8 @@ fields:
 - field: description
 - field: local-plan
 - field: document-types
+  datasets:
+    - dataset: local-plan-document-type
 - field: document-url
 - field: documentation-url
 - field: end-date

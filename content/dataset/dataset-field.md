@@ -10,6 +10,7 @@ entity-minimum: '0'
 entry-date: ''
 fields:
 - field: dataset
+- field: description
 - field: end-date
 - field: entry-date
 - field: field

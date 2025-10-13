@@ -66,9 +66,9 @@ datasets:
 
             ![](https://digital-land.github.io/images/diagrams/document-documentation-url.png)
         - field: geometry
-          description: the boundary of the area covered by the conservation area in WKT format
+          description: the boundary of a designated conservation area
           guidance: |
-            The boundary for the conservation area geography as a single polygon or multipolygon value. All points in the polygon should be in the WGS84 coordinate reference system if possible. If you can’t do this, give us what you have and then we can transform it into WGS84. However, this could mean there’s a small loss of precision when we do the transformation. If you’re providing geometry in a CSV, geometry should be in well-known text (WKT).
+            The boundary for the designated conservation area. The boundary may be a single polygon or a multipolygon value. All points should be in the WGS84 coordinate reference system if possible. If you can’t do this, give us what you have and then we can transform it into WGS84. However, this could mean there’s a small loss of precision when we do the transformation. If you’re providing geometry in a CSV, geometry should be in well-known text (WKT).
 
             Example: `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
 
