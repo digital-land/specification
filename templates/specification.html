@@ -255,7 +255,9 @@ h1, h2::before, h3::before, h4::before {
     {% set datatype = tables["field"][f["field"]]["datatype"] %}
     {% set fieldtype = {"reference": "reference"}.get(field, None) or { "url": "URL", "curie": "reference", "multipolygon": "geometry", "string": "text" }.get(datatype, datatype) %}
 
-    <p class="assertion">Each {{ name }} entry {{level}} contain a <code class="field">{{f["field"]}}</code> field.</p>
+    <p class="assertion">Each {{ name }} entry {{level}} contain 
+    a{% if f["field"][0] in "aeiou" %}n{% endif %} 
+    <code class="field">{{f["field"]}}</code> field.</p>
     <p class="assertion">The {{ name }} <code class="field">{{field}}</code> field MUST be
     a{% if fieldtype[0] in "aeiou" %}n{% endif %} 
     <a href="#fieldtype-{{fieldtype}}">{{fieldtype}}</a> value.</p>
