@@ -2,6 +2,7 @@
 specification: planning-application-decision
 name: Planning application decision
 plural: Planning application decisions
+description: "planning application"
 specification-status: working-draft
 start-date: ''
 end-date: ''
@@ -40,7 +41,7 @@ datasets:
             description: Optional notes text
           - field: organisation
             description: The reference code for the organisation responsible for processing the planning application
-          - field: entry-date   
+          - field: entry-date
             description: The date this data was created or last updated
           - field: start-date
             description: The date the planning application was submitted
@@ -66,9 +67,9 @@ datasets:
             description: Optional notes text
           - field: organisation
             description: The code for the organisation responsible for processing the application
-          - field: event-date   
+          - field: event-date
             description: The date this event happened or the change in status applies from
-          - field: entry-date   
+          - field: entry-date
             description: The date this data was created or last updated
           - field: start-date
             description: The date this fact was true from
