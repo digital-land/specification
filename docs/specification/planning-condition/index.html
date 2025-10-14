@@ -294,13 +294,13 @@ h1, h2::before, h3::before, h4::before {
     <p class="note">A Local Authority or other public body should put the documentation page under their <code class="value">.gov.uk</code> domain.</p>
 
     <p class="assertion">The source documentation MAY either contain the <a href="#endpoint-documentation">endpoint documentation</a>,
-    or link to one or more separate <a href="#endpiint-documentatino">endpoint documentation</a> pages.</p> 
+    or link to one or more separate <a href="#endpoint-documentation">endpoint documentation</a> pages.</p> 
 
     <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
 
     <p class="note">The endpoint documentation is a web page where a user can find a link to where they can download the data (the endpoint), 
     along with other information relevant to a data user, such as the date the data was last updated.
-    Every endpoint needs to be findable via a link on the <a href="#source">source documentation</a> page,
+    Every endpoint needs to be findable via a link on the <a href="#source-documentation">source documentation</a> page,
     and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
     </p>
 
@@ -841,7 +841,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 
-    <p class="assertion"> When using Comma Separated Value (CSV), the geometry SHOULD be encoded as Well Known Text [<a href="#WKT">WKT</a>].</p>
+    <p class="assertion">When using Comma Separated Value (CSV), the geometry SHOULD be encoded as Well Known Text [<a href="#WKT">WKT</a>].</p>
 
     <p class="assertion">
     All points SHOULD be either in the
@@ -853,6 +853,8 @@ h1, h2::before, h3::before, h4::before {
     Positions calculated by the WGS84 and ETRS89 systems can currently deviate by half a metre for points within England.
     Survey data should be used where more precision is needed.
     </p>
+
+    <p class="assertion">Coordinate values should be 6 or fewer decimal places.</p>
 
     <h3 id="fieldtype-integer" class="govuk-heading-s">Integer</h3>
     <p class="TBD">Reference CSV on the web and xs:decimal</p>
@@ -1218,14 +1220,22 @@ are all valid ways of naming the '<code class="field">start-date</code>' field.
     </div>
 
     <div class="govuk-summary-list__row">
-    <dt class="govuk-summary-list__key" id="EPSG-4326">[EPSG-4326]</dt>
+    <dt class="govuk-summary-list__key" id="EPSG::4326">[EPSG::4326]</dt>
     <dd class="govuk-summary-list__value">
-    WGS84 - World Geodetic System 1984, used in GPS.
+    World Geodetic System 1984 [<a href="#WGS84">WGS84</a>]
     EPSG Geodetic Parameter Dataset.
     <a href="https://epsg.io/4326">https://epsg.io/4326</a>
     </dd>
     </div>
 
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="EPSG::4258">[EPSG::4258]</dt>
+    <dd class="govuk-summary-list__value">
+    The European Terrestrial Reference System 89 [<a href="#ETRS89">ETRS89</a>]
+    EPSG Geodetic Parameter Dataset.
+    <a href="https://epsg.io/4326">https://epsg.io/4326</a>
+    </dd>
+    </div>
 
     <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key" id="GDAL">[GDAL]</dt>
@@ -1257,6 +1267,43 @@ are all valid ways of naming the '<code class="field">start-date</code>' field.
     <dd class="govuk-summary-list__value">
     ZIP format.
     <a href="https://en.wikipedia.org/wiki/ZIP_(file_format)">https://en.wikipedia.org/wiki/ZIP_(file_format)</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="WGS84">[WGS84]</dt>
+    <dd class="govuk-summary-list__value">
+    National Imagery and Mapping Agency, "Department of Defense World Geodetic System 1984: 
+    Its Definition and Relationships with Local Geodetic Systems", Third Edition, 1984.
+    The code for this standard in the European Petroleum Survey Group (EPSG) Registry is [<a href="#EPSG::4326">EPSG::4326</a>].
+    <a href="https://nsgreg.nga.mil/doc/view?i=4085">https://nsgreg.nga.mil/doc/view?i=4085</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="ETRS89">[ETRS89]</dt>
+    <dd class="govuk-summary-list__value">
+    The European Terrestrial Reference System 89 (ETRS89)
+    The code for this standard in the European Petroleum Survey Group (EPSG) Registry is [<a href="#EPSG::4258">EPSG::4258</a>].
+    <a href="http://etrs89.ensg.ign.fr/">http://etrs89.ensg.ign.fr/</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="WKT">[WKT]</dt>
+    <dd class="govuk-summary-list__value">
+    OGC Well-known text (WKT) as defined by ISO/IEC 13249-3:2016.
+    <a href="https://www.iso.org/standard/60343.html">https://www.iso.org/standard/60343.html</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="ISO8601">[ISO8601]</dt>
+    <dd class="govuk-summary-list__value">
+    Data elements and interchange formats &ndash;
+    Information interchange &ndash;
+    Representation of dates and times", ISO 8601:1988(E),
+    International Organization for Standardization, June, 1988.
     </dd>
     </div>
 
