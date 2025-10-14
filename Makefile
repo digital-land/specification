@@ -221,6 +221,10 @@ var/cache/lgd.html:
 	@mkdir -p var/cache/
 	curl -L -A 'MHCLG Planning Data Collector' 'https://localgovdrupal.org/community/our-councils' > $@
 
+# could check every html file ..
+render::
+	python3 bin/check-anchors.py docs/specification/local-plan/index.html
+
 # deprecated
 specification/organisation-dataset.csv:        specification/provision.csv
 	cp specification/provision.csv $@
