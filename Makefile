@@ -258,6 +258,8 @@ clobber::
 
 init::	$(CACHE_DIR)organisation.csv
 
+init::
+	gem install govspeak
 
 # generate SVG diagrams
 SPECIFICATION_SVG=$(subst .md,/diagram.svg,$(subst content/,docs/,$(SPECIFICATION_MD)))
