@@ -1,5 +1,5 @@
 ---
-title: Local plan datasets
+title: local plan datasets
 ---
 ```mermaid
 erDiagram
@@ -31,16 +31,6 @@ erDiagram
         date end-date
         string notes
     }
-    local-plan-timetable {
-        string reference
-        ref local-plan
-        string local-plan-event
-        date event-date
-        date entry-date
-        date start-date
-        date end-date
-        string notes
-    }
     local-plan-document {
         string reference
         string name
@@ -56,6 +46,5 @@ erDiagram
         string notes
     }
     local-plan ||--o{ local-plan-boundary : references
-    local-plan-timetable ||--o{ local-plan : references
     local-plan-document ||--o{ local-plan : references
 ```

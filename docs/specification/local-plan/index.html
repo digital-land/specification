@@ -221,7 +221,8 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the format and contents which a planning authority or other party may use to provide information about one or more Local plans.
+      This specification defines the format and contents which a planning authority or other party may use to provide information about one or more 
+      local plans.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -261,7 +262,7 @@ h1, h2::before, h3::before, h4::before {
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/local-plan/v2.4.0" class="govuk-link">2.4.0</a> &mdash; published 2025-10-11
+      Version: <a href="/specification/specification/local-plan/v3.0.1" class="govuk-link">3.0.1</a> &mdash; published 2025-10-18
     </p>
     <p class="govuk-body govuk-!-font-size-16">
        <a href="#versions" class="govuk-link">See versions</a> &mdash; <a href="changelog.html" class="govuk-link">See changelog</a>
@@ -313,12 +314,6 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">
     The endpoint documentation SHOULD include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
     <a href="#local-plan-dataset">Local plan</a> data.
-    </p>
-    
-    
-    <p class="assertion">
-    The endpoint documentation SHOULD include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#local-plan-timetable-dataset">Local plan timetable</a> data.
     </p>
     
     
@@ -761,191 +756,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">You may provide a short description to help users differentiate the plan from others with a similar name.</p></div>
-
-    </li>
-
-    
-    
-
-    <h3 id="local-plan-timetable-dataset" class="govuk-heading-m">
-    Local plan timetable
-</h3>
-    <p class="description">
-    The log of estimated and actual events of the local plan making process for a local plan.
-</p>
-
-    <p class="assertion">The Local plan timetable dataset SHOULD contain at least one entry for each Local plan timetable for which the data provider is the responsible authority.</p>
-
-
-    <h3 id="local-plan-timetable__fields">
-    Local plan timetable
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry MUST contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>Local plan</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry MUST contain 
-    a 
-    <code class="field">local-plan</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">local-plan</code> field MUST be
-    a 
-    <a href="#fieldtype-text">text</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>Local plan event</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry MUST contain 
-    a 
-    <code class="field">local-plan-event</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">local-plan-event</code> field MUST be
-    a 
-    <a href="#fieldtype-text">text</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    <a href="https://planning.data.gov.uk/dataset/local-plan-event">local-plan-event dataset</a></li>
-    
-    
-
-    <h4>Event date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry MUST contain 
-    an 
-    <code class="field">event-date</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">event-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry SHOULD contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry SHOULD contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry SHOULD contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan timetable entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Local plan timetable <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-text">text</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
 
     </li>
 
@@ -1396,7 +1206,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <!--
         TBD: explain about linking to document fragments ..
-    <p class="note">The reference may be used as a web page fragment identifier a web page with more information about the Local plan.</p>
+    <p class="note">The reference may be used as a web page fragment identifier a web page with more information about the local plan.</p>
     -->
 
     <p class="assertion">A reference value MUST be either a [<a href="#CURIE">CURIE</a>] or the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
@@ -1927,7 +1737,7 @@ are all valid ways of naming the '<code class="field">start-date</code>' field.
 
     <ul class="govuk-list govuk-list--bullet">
     
-      <li>Version <a href="v2.4.0" class="govuk-link">2.4.0</a> (current)</li>
+      <li>Version <a href="v3.0.1" class="govuk-link">3.0.1</a> (current)</li>
     
       <li>Version <a href="v2.1.0" class="govuk-link">2.1.0</a></li>
     
