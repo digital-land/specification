@@ -1,14 +1,14 @@
 ---
 specification: local-plan
-name: Local plan
-plural: Local plans
-description: local plan
+name: local plan
+plural: local plans
+description: local plan headline information
 specification-status: working-draft
 start-date: ''
 end-date: ''
-entry-date: '2025-10-11'
+entry-date: '2025-10-18'
 github-discussion: 97
-version: 2.4.0
+version: 3.0.1
 datasets:
     - dataset: local-plan-boundary
       priority: 4
@@ -71,27 +71,6 @@ datasets:
             requirement-level: SHOULD
           - field: end-date
             requirement-level: MAY
-          - field: notes
-            requirement-level: MAY
-    - dataset: local-plan-timetable
-      priority: 2
-      requirement-level: SHOULD
-      fields:
-          - field: reference
-            requirement-level: MUST
-          - field: local-plan
-            requirement-level: MUST
-          - field: local-plan-event
-            requirement-level: MUST
-            dataset: local-plan-event
-          - field: event-date
-            requirement-level: MUST
-          - field: entry-date
-            requirement-level: SHOULD
-          - field: start-date
-            requirement-level: SHOULD
-          - field: end-date
-            requirement-level: SHOULD
           - field: notes
             requirement-level: MAY
     - dataset: local-plan-document
