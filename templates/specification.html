@@ -103,7 +103,7 @@ h1, h2::before, h3::before, h4::before {
 {% endmacro %}
 
 {% macro sentence(text) %}
-    {{ text[0]|upper}}{{text[1:] }}.
+    {{ sentence_case(text) }}.
 {% endmacro %}
 
 {% set page_caption = 'Specification' %}

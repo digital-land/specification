@@ -2,7 +2,7 @@
 specification: local-plan-timetable
 name: local plan timetable
 plural: local plan timetables
-description: local plan past and predicted milestones and events
+description: a log of past and predicted milestones and events for producing a local plan
 specification-status: working-draft
 start-date: ''
 end-date: ''

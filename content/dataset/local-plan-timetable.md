@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: local-plan-timetable
-description: The log of estimated and actual events of the local plan making process for a local plan
+description: a log of past and predicted milestones and events for producing a local plan
 end-date: ''
 entity-maximum: '4299999'
 entity-minimum: '4230000'
