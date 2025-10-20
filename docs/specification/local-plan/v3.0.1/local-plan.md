@@ -2,7 +2,7 @@
 specification: local-plan
 name: local plan
 plural: local plans
-description: local plan headline information
+description: headline information about one or more local plans
 specification-status: working-draft
 start-date: ''
 end-date: ''
