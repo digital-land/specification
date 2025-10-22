@@ -1,6 +1,6 @@
 ---
 cardinality: '1'
-datatype: curie
+datatype: string
 description: ''
 end-date: ''
 entry-date: ''
