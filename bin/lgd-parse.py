@@ -19,6 +19,7 @@ for o, n in [
     ("Brighton and Hove Council", "Brighton and Hove City Council"),
     ("Croydon London Borough Council", "London Borough of Croydon"),
     ("Cumberland", "Cumberland Unitary Authority"),
+    ("Colchester Borough Council", "Colchester City Council"),
     ("Hammersmith & Fulham Council", "London Borough of Hammersmith & Fulham"),
     ("Haringey Council", "London Borough of Haringey"),
     ("Waltham Forest Council", "London Borough of Waltham Forest"),
