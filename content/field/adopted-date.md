@@ -9,9 +9,11 @@ guidance: ''
 hint: ''
 name: Adopted date
 parent-field: datetime
-replacement-field: ''
+replacement-field: 'start-date'
 start-date: ''
 typology: value
 uri-template: ''
 wikidata-property: ''
 ---
+
+This field was added by instead of following the pattern of using the start-date as the date an entity came into force.
