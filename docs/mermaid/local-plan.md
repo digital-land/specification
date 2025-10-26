@@ -3,29 +3,28 @@ title: local plan datasets
 ---
 ```mermaid
 erDiagram
-    local-plan-boundary {
+    local-plan {
         string reference
         string name
-        wkt geometry
+        date period-start-date
+        date period-end-date
+        string local-planning-authorities
+        url documentation-url
+        url document-url
         date entry-date
         date start-date
         date end-date
         string notes
     }
-    local-plan {
+    local-plan-housing {
         string reference
-        string name
-        string organisations
-        date period-start-date
-        date period-end-date
-        ref local-plan-boundary
-        url documentation-url
-        url document-url
-        date adopted-date
-        string required-dwellings
-        string committed-dwellings
-        string allocated-dwellings
-        string windfall-dwellings
+        ref local-plan
+        string local-planning-authority
+        string required-housing
+        string committed-housing
+        string allocated-housing
+        string broad-locations-housing
+        string windfall-housing
         date entry-date
         date start-date
         date end-date
@@ -39,12 +38,11 @@ erDiagram
         string document-types
         url documentation-url
         url document-url
-        string organisations
         date entry-date
         date start-date
         date end-date
         string notes
     }
-    local-plan ||--o{ local-plan-boundary : references
+    local-plan-housing ||--o{ local-plan : references
     local-plan-document ||--o{ local-plan : references
 ```

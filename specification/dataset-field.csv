@@ -1830,6 +1830,29 @@ local-plan-event,description,,,,
 local-plan-event,prefix,prefix,,,
 local-plan-event,reference,,,,
 local-plan-event,start-date,,,,
+local-plan-housing,allocated-housing,,amount of additional housing allocated to sites within the local-planning-authority area in the local-plan,"Enter the amount of net additional housing which have been allocated to sites with the local planning authority area in the local plan.
+",
+local-plan-housing,broad-locations-housing,,amount of net additional housing expected to be delivered from broad locations for development within the local-planning-authority-area in the local plan,"Enter the amount of net additional housing which have been allocated to sites in the local plan.
+",
+local-plan-housing,committed-housing,,the amount of housing already committed for development within the local-plannning-authority area in the local-plan,Enter the amount of housing already committed for development within the local plan area at the time the local plan was adopted.,
+local-plan-housing,description,,,,
+local-plan-housing,documentation-url,,local plan documentation page,,
+local-plan-housing,document-url,,local plan document,The URL of the [Source documentation](#source-documentation) page.,
+local-plan-housing,end-date,,,,
+local-plan-housing,entity,entity,,,
+local-plan-housing,entry-date,,,,
+local-plan-housing,local-plan,local-plan,,,
+local-plan-housing,local-planning-authority,local-planning-authority,local planning authority area,"This should be the statistical geography for the local-planning-authority area to which the housing numbers apply.
+See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
+",
+local-plan-housing,notes,,,You may provide a short description to help users differentiate the plan from others with a similar name.,
+local-plan-housing,organisation,organisation,organisations responsible for this local plan,,
+local-plan-housing,prefix,prefix,,,
+local-plan-housing,reference,,local plan reference,"Give each local plan a reference value.
+",
+local-plan-housing,required-housing,,the total housing requirement (net additional housing) for the local-plan period,Enter the amount of housing required in the local planning authority area for the local plan period.,
+local-plan-housing,start-date,,,,
+local-plan-housing,windfall-housing,,the amount of additional housing expected to be delivered from windfall developments during the local plan period,,
 local-plan-timetable,local-plan,local-plan,,,
 local-plan-timetable,local-plan-event,local-plan-event,,,
 local-plan-timetable,document-url,,,,
@@ -1844,26 +1867,16 @@ local-plan-timetable,organisation,organisation,,,
 local-plan-timetable,prefix,prefix,,,
 local-plan-timetable,reference,,,,
 local-plan-timetable,start-date,,,,
-local-plan,adopted-date,,when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
-Leave this value blank for plans which are being prepared, or haven't yet been adopted.
-",
-local-plan,allocated-dwellings,,number of additional dwellings allocated to sites in the local plan,"Enter the number of net additional dwellings which have been allocated to sites in the local plan.
-",
-local-plan,committed-dwellings,,the number of dwellings already committed for development within the local plan area,Enter the number of dwellings already committed for development within the local plan area at the time the local plan was adopted.,
-local-plan,description,,,,
+local-plan,adopted-date,,,,
 local-plan,documentation-url,,local plan documentation page,,
 local-plan,document-url,,local plan document,The URL of the [Source documentation](#source-documentation) page.,
 local-plan,end-date,,,,
 local-plan,entity,entity,,,
 local-plan,entry-date,,,,
-local-plan,local-plan-boundary,local-plan-boundary,area covered by the local plan,"In the case where the local plan area is the same as an existing statistical geography,
-use the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority), 
-[Local Authority District](https://www.planning.data.gov.uk/dataset/local-authority-district),
-or other statistical-geography (GSS code) for the area as the reference value.
-Where there isn't a GSS code for the existing area, such as for a joint local plan, 
-you will need to provide one and ensure there is a correspoinding entry using the same reference
-in your `local-plan-boundary` data.
+local-plan,local-plan-boundary,local-plan-boundary,,,
+local-plan,local-planning-authorities,,area covered by the local plan,"Enter the reference (the GSS code) for [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
+area covered by the plan.
+For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
 ",
 local-plan,name,,local plan name,Use the title of the adopted local plan document.,
 local-plan,notes,,,You may provide a short description to help users differentiate the plan from others with a similar name.,
@@ -1873,9 +1886,10 @@ local-plan,period-start-date,,the start date of the period the plan covers,Enter
 local-plan,prefix,prefix,,,
 local-plan,reference,,local plan reference,"Give each local plan a reference value.
 ",
-local-plan,required-dwellings,,the total housing requirement (net additional dwellings) for the local plan period,Enter the number of dwellings required in the local plan area for the local plan period.,
-local-plan,start-date,,,,
-local-plan,windfall-dwellings,,the number of additional dwellings expected to be delivered from windfall developments during the local plan period,,
+local-plan,start-date,,when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
+This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
+Leave this value blank for plans which are being prepared, or haven't yet been adopted.
+",
 local-planning-authority,end-date,,,,
 local-planning-authority,entity,entity,,,
 local-planning-authority,entry-date,,,,

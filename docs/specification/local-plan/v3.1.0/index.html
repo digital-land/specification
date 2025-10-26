@@ -201,7 +201,7 @@ h1, h2::before, h3::before, h4::before {
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">v3.0.1</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">v3.1.0</li>
     
   
   </ol>
@@ -268,7 +268,7 @@ h1, h2::before, h3::before, h4::before {
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/local-plan/v3.0.1" class="govuk-link">3.0.1</a> &mdash; published 2025-10-18
+      Version: <a href="/specification/specification/local-plan/v3.1.0" class="govuk-link">3.1.0</a> &mdash; published 2025-10-18
     </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
@@ -323,14 +323,14 @@ h1, h2::before, h3::before, h4::before {
     
     
     <p class="assertion">
-    The endpoint documentation MAY include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#local-plan-document-dataset">Local plan document</a> data.
+    The endpoint documentation SHOULD include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#local-plan-housing-dataset">Local plan housing number</a> data.
     </p>
     
     
     <p class="assertion">
     The endpoint documentation MAY include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#local-plan-boundary-dataset">Local plan boundary</a> data.
+    <a href="#local-plan-document-dataset">Local plan document</a> data.
     </p>
     
 
@@ -427,31 +427,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <h4>Organisations</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan entry SHOULD contain 
-    an 
-    <code class="field">organisations</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">organisations</code> field MUST be
-    a 
-    <a href="#fieldtype-text">text</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Organisations responsible for this local plan
-.
-</p>
-
-    </li>
-    
-    
-
     <h4>Period start date</h4>
 
     
@@ -502,7 +477,7 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <h4>Local plan boundary</h4>
+    <h4>Local Planning Authorities</h4>
 
     
     
@@ -510,10 +485,10 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Local plan entry MAY contain 
     a 
-    <code class="field">local-plan-boundary</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">local-plan-boundary</code> field MUST be
+    <code class="field">local-planning-authorities</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">local-planning-authorities</code> field MUST be
     a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
+    <a href="#fieldtype-text">text</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -521,13 +496,9 @@ h1, h2::before, h3::before, h4::before {
     
     Area covered by the local plan
 .
-</p><div class="guidance"><p class="govuk-body">In the case where the local plan area is the same as an existing statistical geography,
-use the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>, 
-<a href="https://www.planning.data.gov.uk/dataset/local-authority-district">Local Authority District</a>,
-or other statistical-geography (GSS code) for the area as the reference value.
-Where there isn't a GSS code for the existing area, such as for a joint local plan, 
-you will need to provide one and ensure there is a correspoinding entry using the same reference
-in your <code>local-plan-boundary</code> data.</p></div>
+</p><div class="guidance"><p class="govuk-body">Enter the reference (the GSS code) for <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
+area covered by the plan.
+For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.</p></div>
 
     </li>
     
@@ -583,133 +554,6 @@ in your <code>local-plan-boundary</code> data.</p></div>
     
     
 
-    <h4>Adopted date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan entry SHOULD contain 
-    an 
-    <code class="field">adopted-date</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">adopted-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    When the plan was officially adopted
-.
-</p><div class="guidance"><p class="govuk-body">Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
-Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></div>
-
-    </li>
-    
-    
-
-    <h4>Required dwellings</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan entry SHOULD contain 
-    a 
-    <code class="field">required-dwellings</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">required-dwellings</code> field MUST be
-    an 
-    <a href="#fieldtype-integer">integer</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    The total housing requirement (net additional dwellings) for the local plan period
-.
-</p><div class="guidance"><p class="govuk-body">Enter the number of dwellings required in the local plan area for the local plan period.</p></div>
-
-    </li>
-    
-    
-
-    <h4>Committed dwellings</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan entry SHOULD contain 
-    a 
-    <code class="field">committed-dwellings</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">committed-dwellings</code> field MUST be
-    an 
-    <a href="#fieldtype-integer">integer</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    The number of dwellings already committed for development within the local plan area
-.
-</p><div class="guidance"><p class="govuk-body">Enter the number of dwellings already committed for development within the local plan area at the time the local plan was adopted.</p></div>
-
-    </li>
-    
-    
-
-    <h4>Allocated dwellings</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan entry SHOULD contain 
-    an 
-    <code class="field">allocated-dwellings</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">allocated-dwellings</code> field MUST be
-    an 
-    <a href="#fieldtype-integer">integer</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Number of additional dwellings allocated to sites in the local plan
-.
-</p><div class="guidance"><p class="govuk-body">Enter the number of net additional dwellings which have been allocated to sites in the local plan.</p></div>
-
-    </li>
-    
-    
-
-    <h4>Windfall dwellings</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan entry SHOULD contain 
-    a 
-    <code class="field">windfall-dwellings</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">windfall-dwellings</code> field MUST be
-    an 
-    <a href="#fieldtype-integer">integer</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    The number of additional dwellings expected to be delivered from windfall developments during the local plan period
-.
-</p>
-
-    </li>
-    
-    
-
     <h4>Entry date</h4>
 
     
@@ -746,7 +590,13 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <!-- deprecated specification description .. -->
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    When the plan was officially adopted
+.
+</p><div class="guidance"><p class="govuk-body">Enter the date when the plan was officially adopted. 
+This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
+Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></div>
 
     </li>
     
@@ -783,6 +633,306 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     a 
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Local plan <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-text">text</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">You may provide a short description to help users differentiate the plan from others with a similar name.</p></div>
+
+    </li>
+
+    
+    
+
+    <h3 id="local-plan-housing-dataset" class="govuk-heading-m">
+    Local plan housing number
+</h3>
+    <p class="description">
+    
+    Housing numbers for a Local Planning Authority in a local plan
+.
+</p>
+
+    <p class="assertion">The Local plan housing number dataset SHOULD contain at least one entry for each Local plan housing number for which the data provider is the responsible authority.</p>
+
+
+    <h3 id="local-plan-housing__fields">
+    Local plan housing number
+ fields</h3>
+    
+    
+
+    <h4>Reference</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry MUST contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Local plan reference
+.
+</p><div class="guidance"><p class="govuk-body">Give each local plan a reference value.</p></div>
+
+    </li>
+    
+    
+
+    <h4>Local plan</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    a 
+    <code class="field">local-plan</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">local-plan</code> field MUST be
+    a 
+    <a href="#fieldtype-text">text</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    
+    
+
+    <h4>Local Planning Authority</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    a 
+    <code class="field">local-planning-authority</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">local-planning-authority</code> field MUST be
+    a 
+    <a href="#fieldtype-text">text</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Local planning authority area
+.
+</p><div class="guidance"><p class="govuk-body">This should be the statistical geography for the local-planning-authority area to which the housing numbers apply.
+See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a> dataset.</p></div>
+
+    </li>
+    
+    
+
+    <h4>Required housing</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    a 
+    <code class="field">required-housing</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">required-housing</code> field MUST be
+    an 
+    <a href="#fieldtype-integer">integer</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    The total housing requirement (net additional housing) for the local-plan period
+.
+</p><div class="guidance"><p class="govuk-body">Enter the amount of housing required in the local planning authority area for the local plan period.</p></div>
+
+    </li>
+    
+    
+
+    <h4>Committed housing</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    a 
+    <code class="field">committed-housing</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">committed-housing</code> field MUST be
+    an 
+    <a href="#fieldtype-integer">integer</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    The amount of housing already committed for development within the local-plannning-authority area in the local-plan
+.
+</p><div class="guidance"><p class="govuk-body">Enter the amount of housing already committed for development within the local plan area at the time the local plan was adopted.</p></div>
+
+    </li>
+    
+    
+
+    <h4>Allocated housing</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    an 
+    <code class="field">allocated-housing</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">allocated-housing</code> field MUST be
+    an 
+    <a href="#fieldtype-integer">integer</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Amount of additional housing allocated to sites within the local-planning-authority area in the local-plan
+.
+</p><div class="guidance"><p class="govuk-body">Enter the amount of net additional housing which have been allocated to sites with the local planning authority area in the local plan.</p></div>
+
+    </li>
+    
+    
+
+    <h4>Broad locations housing</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    a 
+    <code class="field">broad-locations-housing</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">broad-locations-housing</code> field MUST be
+    an 
+    <a href="#fieldtype-integer">integer</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Amount of net additional housing expected to be delivered from broad locations for development within the local-planning-authority-area in the local plan
+.
+</p><div class="guidance"><p class="govuk-body">Enter the amount of net additional housing which have been allocated to sites in the local plan.</p></div>
+
+    </li>
+    
+    
+
+    <h4>Windfall housing</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    a 
+    <code class="field">windfall-housing</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">windfall-housing</code> field MUST be
+    an 
+    <a href="#fieldtype-integer">integer</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    The amount of additional housing expected to be delivered from windfall developments during the local plan period
+.
+</p>
+
+    </li>
+    
+    
+
+    <h4>Entry date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    
+    
+
+    <h4>Start date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    
+    
+
+    <h4>End date</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index -->
+
+    </li>
+    
+    
+
+    <h4>Notes</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Local plan housing number <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-text">text</a> value.</p>
 
@@ -960,27 +1110,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    <h4>Organisations</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan document entry SHOULD contain 
-    an 
-    <code class="field">organisations</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">organisations</code> field MUST be
-    a 
-    <a href="#fieldtype-text">text</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
     <h4>Entry date</h4>
 
     
@@ -1054,184 +1183,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     a 
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-text">text</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-
-    
-    
-
-    <h3 id="local-plan-boundary-dataset" class="govuk-heading-m">
-    Local plan boundary
-</h3>
-    <p class="description">
-    
-    The boundary covered by a local plan.
-.
-</p>
-
-    <p class="assertion">The Local plan boundary dataset MAY contain at least one entry for each Local plan boundary for which the data provider is the responsible authority.</p>
-
-
-    <h3 id="local-plan-boundary__fields">
-    Local plan boundary
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan boundary entry MUST contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan boundary reference
-.
-</p><div class="guidance"><p class="govuk-body">A reference value for the local plan area.</p></div>
-
-    </li>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan boundary entry SHOULD contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-text">text</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan boundary name
-.
-</p>
-
-    </li>
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan boundary entry MUST contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan boundary
-.
-</p>
-
-    </li>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan boundary entry SHOULD contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan boundary entry SHOULD contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-text">text</a> value.</p>
 
