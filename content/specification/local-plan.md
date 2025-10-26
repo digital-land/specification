@@ -8,26 +8,8 @@ start-date: ''
 end-date: ''
 entry-date: '2025-10-18'
 github-discussion: 97
-version: 3.0.1
+version: 3.1.0
 datasets:
-    - dataset: local-plan-boundary
-      priority: 4
-      requirement-level: MAY
-      fields:
-          - field: reference
-            requirement-level: MUST
-          - field: name
-            requirement-level: SHOULD
-          - field: geometry
-            requirement-level: MUST
-          - field: entry-date
-            requirement-level: SHOULD
-          - field: start-date
-            requirement-level: SHOULD
-          - field: end-date
-            requirement-level: MAY
-          - field: notes
-            requirement-level: MAY
     - dataset: local-plan
       priority: 1
       requirement-level: SHOULD
@@ -40,13 +22,11 @@ datasets:
                 - reference: local-plan-A001
                   requirement-level: SHOULD
                   text: 'match the title of the document at `document-url`.'  
-          - field: organisations
-            requirement-level: SHOULD
           - field: period-start-date
             requirement-level: SHOULD
           - field: period-end-date
             requirement-level: SHOULD
-          - field: local-plan-boundary
+          - field: local-planning-authorities
           - field: documentation-url
             requirement-level: MUST
           - field: document-url
@@ -55,15 +35,32 @@ datasets:
                 - reference: local-plan-A002
                   requirement-level: MUST
                   text: 'link to the core local plan document described by this data.'
-          - field: adopted-date
+          - field: entry-date
             requirement-level: SHOULD
-          - field: required-dwellings
+          - field: start-date
             requirement-level: SHOULD
-          - field: committed-dwellings
+          - field: end-date
+            requirement-level: MAY
+          - field: notes
+            requirement-level: MAY
+    - dataset: local-plan-housing
+      priority: 3
+      requirement-level: SHOULD
+      fields:
+          - field: reference
+            requirement-level: MUST
+          - field: local-plan
+          - field: local-planning-authority
             requirement-level: SHOULD
-          - field: allocated-dwellings
+          - field: required-housing
             requirement-level: SHOULD
-          - field: windfall-dwellings
+          - field: committed-housing
+            requirement-level: SHOULD
+          - field: allocated-housing
+            requirement-level: SHOULD
+          - field: broad-locations-housing
+            requirement-level: SHOULD
+          - field: windfall-housing
             requirement-level: SHOULD
           - field: entry-date
             requirement-level: SHOULD
@@ -90,8 +87,6 @@ datasets:
             requirement-level: SHOULD
           - field: document-url
             requirement-level: MUST
-          - field: organisations
-            requirement-level: SHOULD
           - field: entry-date
             requirement-level: SHOULD
           - field: start-date

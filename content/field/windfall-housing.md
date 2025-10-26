@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'ammount of net additional housing expected to be delivered from windfall development'
+description: 'amount of net additional housing expected to be delivered from windfall development'
 end-date: ''
 entry-date: ''
 field: windfall-housing

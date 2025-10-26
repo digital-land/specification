@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'required ammount of net additional housing'
+description: 'required amount of net additional housing'
 end-date: ''
 entry-date: ''
 field: required-housing 
