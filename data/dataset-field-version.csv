@@ -3943,3 +3943,30 @@ requirement-level,start-date,,,,1
 example,notes,,,,1
 example,notes,,,,1
 dataset-field,description,,,,1
+local-plan-housing,allocated-housing,,"Enter the amount of net additional housing which have been allocated to sites with the local planning authority area in the local plan.
+",,1
+local-plan-housing,broad-locations-housing,,"Enter the amount of net additional housing which have been allocated to sites in the local plan.
+",,1
+local-plan-housing,committed-housing,,Enter the amount of housing already committed for development within the local plan area at the time the local plan was adopted.,,1
+local-plan-housing,description,,,,1
+local-plan-housing,documentation-url,,,,1
+local-plan-housing,document-url,,The URL of the [Source documentation](#source-documentation) page.,,1
+local-plan-housing,end-date,,,,1
+local-plan-housing,entity,,,,1
+local-plan-housing,entry-date,,,,1
+local-plan-housing,local-plan,,,,1
+local-plan-housing,local-planning-authority,,"This should be the statistical geography for the local-planning-authority area to which the housing numbers apply.
+See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
+",,1
+local-plan-housing,notes,,You may provide a short description to help users differentiate the plan from others with a similar name.,,1
+local-plan-housing,organisation,,,,1
+local-plan-housing,prefix,,,,1
+local-plan-housing,reference,,"Give each local plan a reference value.
+",,1
+local-plan-housing,required-housing,,Enter the amount of housing required in the local planning authority area for the local plan period.,,1
+local-plan-housing,start-date,,,,1
+local-plan-housing,windfall-housing,,,,1
+local-plan,local-planning-authorities,,"Enter the reference (the GSS code) for [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
+area covered by the plan.
+For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
+",,1
