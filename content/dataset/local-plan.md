@@ -19,8 +19,13 @@ fields:
 - field: entity
 - field: entry-date
 - field: local-plan-boundary
+  description: the area covered by the local plan
+  guidance: This area is created by the planning data platform from the local-planning-authorites values.
+- field: local-plan-process
+  description: 'examination process under which this local plan was or is being produced'
+  guidance: 'Enter the local plan examination process under which this local plan was or is being produced.'
 - field: local-planning-authorities
-  description: area covered by the local plan
+  description: local planning authority areas covered by the local plan
   guidance: |
         Enter the reference (the GSS code) for [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
         area covered by the plan.
@@ -93,6 +98,6 @@ themes:
 - development
 typology: legal-instrument
 version: 1.0
-wikidata: 
-wikipedia: 
+wikidata: Q6664491
+wikipedia: Local_plan
 ---

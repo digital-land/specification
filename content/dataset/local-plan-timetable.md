@@ -17,6 +17,9 @@ fields:
 - field: entity
 - field: entry-date
 - field: event-date
+  notes: "deprecated field"
+- field: estimated-period-start-date
+- field: estimated-period-end-date
 - field: name
 - field: notes
 - field: organisation

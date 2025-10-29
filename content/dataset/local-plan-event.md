@@ -9,12 +9,14 @@ entity-maximum: '2999999'
 entity-minimum: '2950000'
 entry-date: '2024-10-22'
 fields:
+- field: description
 - field: end-date
 - field: entity
 - field: entry-date
+- field: local-plan-processes
 - field: name
 - field: notes
-- field: description
+- field: priority
 - field: prefix
 - field: reference
 - field: start-date
