@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -360,9 +362,7 @@ h1, h2::before, h3::before, h4::before {
     Design code
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Design code dataset  contain at least one entry for each Design code for which the data provider is the responsible authority.</p>
@@ -406,7 +406,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Design code <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code</p>
 
@@ -427,7 +427,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Design code <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a short, single-line description of the design code</p>
 
@@ -448,7 +448,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">design-code-status</code> field.</p>
     <p class="assertion">The Design code <code class="field">design-code-status</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a <a href="#design-code-status">design-code-status</a> reference</p>
 
@@ -511,7 +511,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Design code <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">optional notes on the status of the design code</p>
 
@@ -589,9 +589,7 @@ h1, h2::before, h3::before, h4::before {
     Design code rule
 </h3>
     <p class="description">
-    
-    The set of design code rules affecting a design code area
-.
+    The set of design code rules affecting a design code area.
 </p>
 
     <p class="assertion">The Design code rule dataset  contain at least one entry for each Design code rule for which the data provider is the responsible authority.</p>
@@ -635,7 +633,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Design code rule <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code rule</p>
 
@@ -656,7 +654,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">design-code</code> field.</p>
     <p class="assertion">The Design code rule <code class="field">design-code</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code where this rule is defined.</p>
 
@@ -677,7 +675,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Design code rule <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a short, single-line description of the design code rule</p>
 
@@ -740,7 +738,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">design-code-rule-categories</code> field.</p>
     <p class="assertion">The Design code rule <code class="field">design-code-rule-categories</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character</p>
 
@@ -761,7 +759,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Design code rule <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a field to capture notes about the design code rule</p>
 
@@ -839,9 +837,7 @@ h1, h2::before, h3::before, h4::before {
     Design code area
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Design code area dataset  contain at least one entry for each Design code area for which the data provider is the responsible authority.</p>
@@ -885,7 +881,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Design code area <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name, or title of the design code area</p>
 
@@ -927,7 +923,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">design-code</code> field.</p>
     <p class="assertion">The Design code area <code class="field">design-code</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the design code which applies to this area</p>
 
@@ -948,7 +944,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">design-code-rules</code> field.</p>
     <p class="assertion">The Design code area <code class="field">design-code-rules</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of one or more <a href="#reference">reference</a> values for <a href="design-code-rule-dataset">design code rule</a> entries, separated by a semi-colon ';' character.</p>
 
@@ -969,7 +965,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">design-code-area-type</code> field.</p>
     <p class="assertion">The Design code area <code class="field">design-code-area-type</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the classification of the area, for example Rural Settlements or Urban Neighbourhood</p>
 
@@ -1011,7 +1007,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Design code area <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a field to capture notes about the design code area</p>
 
@@ -1149,9 +1145,9 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 

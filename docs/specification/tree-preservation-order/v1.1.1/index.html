@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -367,9 +369,7 @@ h1, h2::before, h3::before, h4::before {
     Tree preservation order
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Tree preservation order dataset  contain at least one entry for each Tree preservation order for which the data provider is the responsible authority.</p>
@@ -413,7 +413,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Tree preservation order <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -476,7 +476,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Tree preservation order <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -575,9 +575,7 @@ h1, h2::before, h3::before, h4::before {
     Tree preservation zone
 </h3>
     <p class="description">
-    
-    An area covered by a tree preservation order
-.
+    An area covered by a tree preservation order.
 </p>
 
     <p class="assertion">The Tree preservation zone dataset  contain at least one entry for each Tree preservation zone for which the data provider is the responsible authority.</p>
@@ -621,7 +619,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Tree preservation zone <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -642,7 +640,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">tree-preservation-order</code> field.</p>
     <p class="assertion">The Tree preservation zone <code class="field">tree-preservation-order</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
 
@@ -684,7 +682,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Tree preservation zone <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -783,9 +781,7 @@ h1, h2::before, h3::before, h4::before {
     Tree
 </h3>
     <p class="description">
-    
-    An individual tree
-.
+    An individual tree.
 </p>
 
     <p class="assertion">The Tree dataset  contain at least one entry for each Tree for which the data provider is the responsible authority.</p>
@@ -829,7 +825,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Tree <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -850,7 +846,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">tree-preservation-order</code> field.</p>
     <p class="assertion">The Tree <code class="field">tree-preservation-order</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
 
@@ -871,7 +867,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">uprn</code> field.</p>
     <p class="assertion">The Tree <code class="field">uprn</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -892,7 +888,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">address-text</code> field.</p>
     <p class="assertion">The Tree <code class="field">address-text</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -955,7 +951,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Tree <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1114,9 +1110,9 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 

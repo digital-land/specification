@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -373,9 +375,7 @@ h1, h2::before, h3::before, h4::before {
     Local plan boundary
 </h3>
     <p class="description">
-    
-    The boundary covered by a local plan.
-.
+    The boundary covered by a local plan..
 </p>
 
     <p class="assertion">The Local plan boundary dataset  contain at least one entry for each Local plan boundary for which the data provider is the responsible authority.</p>
@@ -403,9 +403,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the planning authority boundary reference</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan boundary reference
-.
+    Local plan boundary reference.
 </p><div class="guidance"><p class="govuk-body">A reference value for the local plan area.</p></div>
 
     </li>
@@ -423,14 +421,12 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Local plan boundary <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a name for the boundary. For example, `City of York boundary`</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan boundary name
-.
+    Local plan boundary name.
 </p>
 
     </li>
@@ -453,9 +449,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">the boundary in WKT format</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan boundary
-.
+    Local plan boundary.
 </p>
 
     </li>
@@ -473,7 +467,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">plan-boundary-type</code> field.</p>
     <p class="assertion">The Local plan boundary <code class="field">plan-boundary-type</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`</p>
 
@@ -494,7 +488,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Local plan boundary <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a description of the boundary. Provide more detail if boundary is different from planning authority boundary</p>
 
@@ -515,14 +509,12 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">organisations</code> field.</p>
     <p class="assertion">The Local plan boundary <code class="field">organisations</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of codes for the responsible organisations, separated by ;</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    One or more organisations responsible for this local plan area
-.
+    One or more organisations responsible for this local plan area.
 </p>
 
     </li>
@@ -597,9 +589,7 @@ h1, h2::before, h3::before, h4::before {
     Local plan
 </h3>
     <p class="description">
-    
-    Local plans prepared by a Local Planning Authority
-.
+    Local plans prepared by a Local Planning Authority.
 </p>
 
     <p class="assertion">The Local plan dataset  contain at least one entry for each Local plan for which the data provider is the responsible authority.</p>
@@ -627,9 +617,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">an unique identifier for a local plan</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan reference
-.
+    Local plan reference.
 </p><div class="guidance"><p class="govuk-body">Give each local plan a reference value.</p></div>
 
     </li>
@@ -647,14 +635,12 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Local plan <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name of the local plan (for example, The Adopted Local Plan for Leeds)</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan name
-.
+    Local plan name.
 </p><div class="guidance"><p class="govuk-body">Use the title of the adopted local plan document.</p></div>
 
     </li>
@@ -672,7 +658,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Local plan <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">brief description of plan</p>
 
@@ -698,9 +684,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">the start date of the period the plan covers</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The start date of the period the plan covers
-.
+    The start date of the period the plan covers.
 </p><div class="guidance"><p class="govuk-body">Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.</p></div>
 
     </li>
@@ -723,9 +707,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">the end date of the period the plan covers</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The end date of the period the plan covers
-.
+    The end date of the period the plan covers.
 </p><div class="guidance"><p class="govuk-body">Enter the end of the plan period. This is may be just the year in <code>YYYY</code> format.</p></div>
 
     </li>
@@ -748,9 +730,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">the reference code for the boundary the plan covers</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The area covered by the local plan
-.
+    The area covered by the local plan.
 </p><div class="guidance"><p class="govuk-body">This area is created by the planning data platform from the local-planning-authorites values.</p></div>
 
     </li>
@@ -773,9 +753,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">the web page where you can find the documentation for the plan</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan documentation page
-.
+    Local plan documentation page.
 </p>
 
     </li>
@@ -814,14 +792,12 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">organisations</code> field.</p>
     <p class="assertion">The Local plan <code class="field">organisations</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of codes for the responsible organisations, separated by ;</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Organisations responsible for this local plan
-.
+    Organisations responsible for this local plan.
 </p>
 
     </li>
@@ -865,9 +841,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. --> <p class="description">the date the validity of the record starts</p>
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    When the plan was officially adopted
-.
+    When the plan was officially adopted.
 </p><div class="guidance"><p class="govuk-body">Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></div>
@@ -902,9 +876,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     Local plan document
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Local plan document dataset  contain at least one entry for each Local plan document for which the data provider is the responsible authority.</p>
@@ -948,7 +920,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">name</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The name of this document</p>
 
@@ -969,7 +941,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">description</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">Brief description of this document</p>
 
@@ -990,7 +962,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">local-plan</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">local-plan</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The reference for the particular local plan (for example, dorcester-new-local-plan)</p>
 
@@ -1011,7 +983,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">document-types</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">document-types</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The code for this document type (for example policy map)</p>
 
@@ -1074,7 +1046,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">organisations</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">organisations</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of codes for the responsible organisations, separated by ;</p>
 
@@ -1152,9 +1124,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     Local plan timetable
 </h3>
     <p class="description">
-    
-    A log of past and predicted milestones and events for producing a local plan
-.
+    A log of past and predicted milestones and events for producing a local plan.
 </p>
 
     <p class="assertion">The Local plan timetable dataset  contain at least one entry for each Local plan timetable for which the data provider is the responsible authority.</p>
@@ -1198,7 +1168,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">name</code> field.</p>
     <p class="assertion">The Local plan timetable <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a human readable name for the event</p>
 
@@ -1219,7 +1189,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">local-plan</code> field.</p>
     <p class="assertion">The Local plan timetable <code class="field">local-plan</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the code for a particular local plan (for example, dorcester-new-local-plan)</p>
 
@@ -1240,7 +1210,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">local-plan-event</code> field.</p>
     <p class="assertion">The Local plan timetable <code class="field">local-plan-event</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The code for a local plan event (for example plan-adopted)</p>
 
@@ -1282,7 +1252,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Local plan timetable <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">Optional notes</p>
 
@@ -1441,9 +1411,9 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 

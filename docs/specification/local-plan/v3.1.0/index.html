@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -363,9 +365,7 @@ h1, h2::before, h3::before, h4::before {
     Local plan
 </h3>
     <p class="description">
-    
-    Local plans prepared by a Local Planning Authority
-.
+    Local plans prepared by a Local Planning Authority.
 </p>
 
     <p class="assertion">The Local plan dataset SHOULD contain at least one entry for each Local plan for which the data provider is the responsible authority.</p>
@@ -393,9 +393,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan reference
-.
+    Local plan reference.
 </p><div class="guidance"><p class="govuk-body">Give each local plan a reference value.</p></div>
 
     </li>
@@ -413,14 +411,12 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Local plan <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan name
-.
+    Local plan name.
 </p><div class="guidance"><p class="govuk-body">Use the title of the adopted local plan document.</p></div>
 
     </li>
@@ -443,9 +439,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The start date of the period the plan covers
-.
+    The start date of the period the plan covers.
 </p><div class="guidance"><p class="govuk-body">Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.</p></div>
 
     </li>
@@ -468,9 +462,7 @@ h1, h2::before, h3::before, h4::before {
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The end date of the period the plan covers
-.
+    The end date of the period the plan covers.
 </p><div class="guidance"><p class="govuk-body">Enter the end of the plan period. This is may be just the year in <code>YYYY</code> format.</p></div>
 
     </li>
@@ -488,17 +480,38 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">local-planning-authorities</code> field.</p>
     <p class="assertion">The Local plan <code class="field">local-planning-authorities</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local planning authority areas covered by the local plan
-.
+    Local planning authority areas covered by the local plan.
 </p><div class="guidance"><p class="govuk-body">Enter the reference (the GSS code) for <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
 area covered by the plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.</p></div>
+
+    </li>
+    
+    
+
+    <h4>Local plan process</h4>
+
+    
+    
+    
+
+    <p class="assertion">Each Local plan entry SHOULD contain 
+    a 
+    <code class="field">local-plan-process</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">local-plan-process</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <!-- deprecated specification description .. -->
+
+    <!- brute force for now, needs an index --><p class="description">
+    Examination process under which this local plan was or is being produced.
+</p><div class="guidance"><p class="govuk-body">Enter the local plan examination process under which this local plan was or is being produced.</p></div>
 
     </li>
     
@@ -520,9 +533,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan documentation page
-.
+    Local plan documentation page.
 </p>
 
     </li>
@@ -545,9 +556,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan document
-.
+    Local plan document.
 </p><div class="guidance"><p class="govuk-body">The URL of the <a href="#source-documentation">Source documentation</a> page.</p></div>
 
     </li>
@@ -591,9 +600,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    When the plan was officially adopted
-.
+    When the plan was officially adopted.
 </p><div class="guidance"><p class="govuk-body">Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></div>
@@ -634,7 +641,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Local plan <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -649,9 +656,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     Local plan housing number
 </h3>
     <p class="description">
-    
-    Housing numbers for a Local Planning Authority in a local plan
-.
+    Housing numbers for a Local Planning Authority in a local plan.
 </p>
 
     <p class="assertion">The Local plan housing number dataset SHOULD contain at least one entry for each Local plan housing number for which the data provider is the responsible authority.</p>
@@ -679,9 +684,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local plan reference
-.
+    Local plan reference.
 </p><div class="guidance"><p class="govuk-body">Give each local plan a reference value.</p></div>
 
     </li>
@@ -699,7 +702,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">local-plan</code> field.</p>
     <p class="assertion">The Local plan housing number <code class="field">local-plan</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -720,14 +723,12 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <code class="field">local-planning-authority</code> field.</p>
     <p class="assertion">The Local plan housing number <code class="field">local-planning-authority</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Local planning authority area
-.
+    Local planning authority area.
 </p><div class="guidance"><p class="govuk-body">This should be the statistical geography for the local-planning-authority area to which the housing numbers apply.
 See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a> dataset.</p></div>
 
@@ -751,9 +752,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The total housing requirement (net additional housing) for the local-plan period
-.
+    The total housing requirement (net additional housing) for the local-plan period.
 </p><div class="guidance"><p class="govuk-body">Enter the amount of housing required in the local planning authority area for the local plan period.</p></div>
 
     </li>
@@ -776,9 +775,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The amount of housing already committed for development within the local-plannning-authority area in the local-plan
-.
+    The amount of housing already committed for development within the local-plannning-authority area in the local-plan.
 </p><div class="guidance"><p class="govuk-body">Enter the amount of housing already committed for development within the local plan area at the time the local plan was adopted.</p></div>
 
     </li>
@@ -801,9 +798,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Amount of additional housing allocated to sites within the local-planning-authority area in the local-plan
-.
+    Amount of additional housing allocated to sites within the local-planning-authority area in the local-plan.
 </p><div class="guidance"><p class="govuk-body">Enter the amount of net additional housing which have been allocated to sites with the local planning authority area in the local plan.</p></div>
 
     </li>
@@ -826,9 +821,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    Amount of net additional housing expected to be delivered from broad locations for development within the local-planning-authority-area in the local plan
-.
+    Amount of net additional housing expected to be delivered from broad locations for development within the local-planning-authority-area in the local plan.
 </p><div class="guidance"><p class="govuk-body">Enter the amount of net additional housing which have been allocated to sites in the local plan.</p></div>
 
     </li>
@@ -851,9 +844,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <!-- deprecated specification description .. -->
 
     <!- brute force for now, needs an index --><p class="description">
-    
-    The amount of additional housing expected to be delivered from windfall developments during the local plan period
-.
+    The amount of additional housing expected to be delivered from windfall developments during the local plan period.
 </p>
 
     </li>
@@ -934,7 +925,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Local plan housing number <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -949,9 +940,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     Local plan document
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Local plan document dataset MAY contain at least one entry for each Local plan document for which the data provider is the responsible authority.</p>
@@ -995,7 +984,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <code class="field">name</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1016,7 +1005,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <code class="field">description</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1037,7 +1026,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <code class="field">local-plan</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">local-plan</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1058,7 +1047,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <code class="field">document-types</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">document-types</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1184,7 +1173,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Local plan document <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1259,9 +1248,9 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 

@@ -41,28 +41,32 @@
 <text x="167" y="110" class="datatype">reference*</text>
 <rect x="0" y="120" width="162" height="20" class="field"/>
 <rect x="162" y="120" width="64" height="20" class="datatype"/>
-<text x="5" y="130" class="field">documentation-url</text>
-<text x="167" y="130" class="datatype">url</text>
+<text x="5" y="130" class="field">local-plan-process</text>
+<text x="167" y="130" class="datatype">reference</text>
 <rect x="0" y="140" width="162" height="20" class="field"/>
 <rect x="162" y="140" width="64" height="20" class="datatype"/>
-<text x="5" y="150" class="field">document-url</text>
+<text x="5" y="150" class="field">documentation-url</text>
 <text x="167" y="150" class="datatype">url</text>
 <rect x="0" y="160" width="162" height="20" class="field"/>
 <rect x="162" y="160" width="64" height="20" class="datatype"/>
-<text x="5" y="170" class="field">entry-date</text>
-<text x="167" y="170" class="datatype">datetime</text>
+<text x="5" y="170" class="field">document-url</text>
+<text x="167" y="170" class="datatype">url</text>
 <rect x="0" y="180" width="162" height="20" class="field"/>
 <rect x="162" y="180" width="64" height="20" class="datatype"/>
-<text x="5" y="190" class="field">start-date</text>
+<text x="5" y="190" class="field">entry-date</text>
 <text x="167" y="190" class="datatype">datetime</text>
 <rect x="0" y="200" width="162" height="20" class="field"/>
 <rect x="162" y="200" width="64" height="20" class="datatype"/>
-<text x="5" y="210" class="field">end-date</text>
+<text x="5" y="210" class="field">start-date</text>
 <text x="167" y="210" class="datatype">datetime</text>
 <rect x="0" y="220" width="162" height="20" class="field"/>
 <rect x="162" y="220" width="64" height="20" class="datatype"/>
-<text x="5" y="230" class="field">notes</text>
-<text x="167" y="230" class="datatype">text</text>
+<text x="5" y="230" class="field">end-date</text>
+<text x="167" y="230" class="datatype">datetime</text>
+<rect x="0" y="240" width="162" height="20" class="field"/>
+<rect x="162" y="240" width="64" height="20" class="datatype"/>
+<text x="5" y="250" class="field">notes</text>
+<text x="167" y="250" class="datatype">text</text>
 </g>
 <g>
 <rect x="306" y="0" width="226" height="20" class="name"/>

@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -366,9 +368,7 @@ h1, h2::before, h3::before, h4::before {
     Development plan boundary
 </h3>
     <p class="description">
-    
-    A boundary that a development plan covers
-.
+    A boundary that a development plan covers.
 </p>
 
     <p class="assertion">The Development plan boundary dataset  contain at least one entry for each Development plan boundary for which the data provider is the responsible authority.</p>
@@ -412,7 +412,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Development plan boundary <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a name for the boundary. For example, `City of York boundary`</p>
 
@@ -454,7 +454,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Development plan boundary <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a description of the boundary. Provide more detail if boundary is different from planning authority boundary</p>
 
@@ -553,9 +553,7 @@ h1, h2::before, h3::before, h4::before {
     Development plan
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Development plan dataset  contain at least one entry for each Development plan for which the data provider is the responsible authority.</p>
@@ -599,7 +597,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Development plan <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">the name of the development plan (for example, The Adopted Local Plan for Leeds)</p>
 
@@ -620,7 +618,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Development plan <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">brief description of plan</p>
 
@@ -641,7 +639,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">development-plan-type</code> field.</p>
     <p class="assertion">The Development plan <code class="field">development-plan-type</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a code for the plan type</p>
 
@@ -767,7 +765,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">organisations</code> field.</p>
     <p class="assertion">The Development plan <code class="field">organisations</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a list of codes for the responsible organisations, separated by ;</p>
 
@@ -845,9 +843,7 @@ h1, h2::before, h3::before, h4::before {
     Development plan timetable
 </h3>
     <p class="description">
-    
-    The expected timetable for the stages a plan will go through
-.
+    The expected timetable for the stages a plan will go through.
 </p>
 
     <p class="assertion">The Development plan timetable dataset  contain at least one entry for each Development plan timetable for which the data provider is the responsible authority.</p>
@@ -891,7 +887,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Development plan timetable <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -912,7 +908,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">development-plan</code> field.</p>
     <p class="assertion">The Development plan timetable <code class="field">development-plan</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The code for a particular development plan (for example, dorcester-new-local-plan)</p>
 
@@ -933,7 +929,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">development-plan-event</code> field.</p>
     <p class="assertion">The Development plan timetable <code class="field">development-plan-event</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The code for a development plan event (for example plan-adopted)</p>
 
@@ -975,7 +971,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Development plan timetable <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">Optional notes</p>
 
@@ -1074,9 +1070,7 @@ h1, h2::before, h3::before, h4::before {
     Development plan document
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Development plan document dataset  contain at least one entry for each Development plan document for which the data provider is the responsible authority.</p>
@@ -1120,7 +1114,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Development plan document <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The name of this document</p>
 
@@ -1141,7 +1135,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Development plan document <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">Brief description of this document</p>
 
@@ -1162,7 +1156,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">development-plan</code> field.</p>
     <p class="assertion">The Development plan document <code class="field">development-plan</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The code for the particular development plan (for example, dorcester-new-local-plan)</p>
 
@@ -1183,7 +1177,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">document-type</code> field.</p>
     <p class="assertion">The Development plan document <code class="field">document-type</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">The code for this document type (for example new-report)</p>
 
@@ -1384,9 +1378,9 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 

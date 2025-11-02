@@ -9,6 +9,7 @@ erDiagram
         date period-start-date
         date period-end-date
         string local-planning-authorities
+        string local-plan-process
         url documentation-url
         url document-url
         date entry-date

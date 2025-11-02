@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -360,9 +362,7 @@ h1, h2::before, h3::before, h4::before {
     Developer agreement
 </h3>
     <p class="description">
-    
-    A developer agreement is any legal document that secures contributions from a development for infrastructure or affordable housing (including section 106 planning obligations and section 278 agreements), or any demand notice for CIL.
-.
+    A developer agreement is any legal document that secures contributions from a development for infrastructure or affordable housing (including section 106 planning obligations and section 278 agreements), or any demand notice for CIL..
 </p>
 
     <p class="assertion">The Developer agreement dataset  contain at least one entry for each Developer agreement for which the data provider is the responsible authority.</p>
@@ -406,7 +406,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Developer agreement <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -427,7 +427,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">developer-agreement-type</code> field.</p>
     <p class="assertion">The Developer agreement <code class="field">developer-agreement-type</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -448,7 +448,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">planning-application</code> field.</p>
     <p class="assertion">The Developer agreement <code class="field">planning-application</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -490,7 +490,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Developer agreement <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -589,9 +589,7 @@ h1, h2::before, h3::before, h4::before {
     Developer agreement contribution
 </h3>
     <p class="description">
-    
-    Developer agreement contributions are the individual obligations or sums within an agreement, assigned to particular purposes such as affordable housing.
-.
+    Developer agreement contributions are the individual obligations or sums within an agreement, assigned to particular purposes such as affordable housing..
 </p>
 
     <p class="assertion">The Developer agreement contribution dataset  contain at least one entry for each Developer agreement contribution for which the data provider is the responsible authority.</p>
@@ -635,7 +633,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">developer-agreement</code> field.</p>
     <p class="assertion">The Developer agreement contribution <code class="field">developer-agreement</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -656,7 +654,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">contribution-purpose</code> field.</p>
     <p class="assertion">The Developer agreement contribution <code class="field">contribution-purpose</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -719,7 +717,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Developer agreement contribution <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -818,9 +816,7 @@ h1, h2::before, h3::before, h4::before {
     Developer agreement transaction
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Developer agreement transaction dataset  contain at least one entry for each Developer agreement transaction for which the data provider is the responsible authority.</p>
@@ -864,7 +860,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">developer-agreement-contribution</code> field.</p>
     <p class="assertion">The Developer agreement transaction <code class="field">developer-agreement-contribution</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -885,7 +881,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">contribution-funding-status</code> field.</p>
     <p class="assertion">The Developer agreement transaction <code class="field">contribution-funding-status</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -948,7 +944,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Developer agreement transaction <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -1107,9 +1103,9 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 

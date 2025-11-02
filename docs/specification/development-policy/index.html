@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -354,9 +356,7 @@ h1, h2::before, h3::before, h4::before {
     Development policy
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Development policy dataset  contain at least one entry for each Development policy for which the data provider is the responsible authority.</p>
@@ -400,7 +400,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Development policy <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -421,7 +421,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">development-plan-document</code> field.</p>
     <p class="assertion">The Development policy <code class="field">development-plan-document</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -442,7 +442,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">development-policy-categories</code> field.</p>
     <p class="assertion">The Development policy <code class="field">development-policy-categories</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -541,9 +541,7 @@ h1, h2::before, h3::before, h4::before {
     Development policy area
 </h3>
     <p class="description">
-    
-    
-.
+    .
 </p>
 
     <p class="assertion">The Development policy area dataset  contain at least one entry for each Development policy area for which the data provider is the responsible authority.</p>
@@ -587,7 +585,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Development policy area <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -608,7 +606,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">development-policies</code> field.</p>
     <p class="assertion">The Development policy area <code class="field">development-policies</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
 
@@ -788,9 +786,9 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 

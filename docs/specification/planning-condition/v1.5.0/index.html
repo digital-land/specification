@@ -78,10 +78,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -357,9 +359,7 @@ h1, h2::before, h3::before, h4::before {
     Planning condition
 </h3>
     <p class="description">
-    
-    A condition that is attached to planning permission
-.
+    A condition that is attached to planning permission.
 </p>
 
     <p class="assertion">The Planning condition dataset  contain at least one entry for each Planning condition for which the data provider is the responsible authority.</p>
@@ -403,7 +403,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">name</code> field.</p>
     <p class="assertion">The Planning condition <code class="field">name</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a name used for this planning condition</p>
 
@@ -424,7 +424,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Planning condition <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">text explaining the condition</p>
 
@@ -445,7 +445,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">reason</code> field.</p>
     <p class="assertion">The Planning condition <code class="field">reason</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a text reason for the condition</p>
 
@@ -487,7 +487,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Planning condition <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">any additional notes about the condition</p>
 
@@ -565,9 +565,7 @@ h1, h2::before, h3::before, h4::before {
     Planning application condition
 </h3>
     <p class="description">
-    
-    A record of which conditions apply to which planning applications
-.
+    A record of which conditions apply to which planning applications.
 </p>
 
     <p class="assertion">The Planning application condition dataset  contain at least one entry for each Planning application condition for which the data provider is the responsible authority.</p>
@@ -611,7 +609,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">planning-application</code> field.</p>
     <p class="assertion">The Planning application condition <code class="field">planning-application</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a planning application reference</p>
 
@@ -632,7 +630,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">planning-condition</code> field.</p>
     <p class="assertion">The Planning application condition <code class="field">planning-condition</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a planning condition reference</p>
 
@@ -695,7 +693,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">description</code> field.</p>
     <p class="assertion">The Planning application condition <code class="field">description</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">a description of the condition applied to the application</p>
 
@@ -737,7 +735,7 @@ h1, h2::before, h3::before, h4::before {
     <code class="field">notes</code> field.</p>
     <p class="assertion">The Planning application condition <code class="field">notes</code> field MUST be
     a 
-    <a href="#fieldtype-text">text</a> value.</p>
+    <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. --> <p class="description">any additional notes about the planning application - condition connection</p>
 
@@ -875,9 +873,9 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
     <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-text" class="govuk-heading-s">Text</h3>
+    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All text fields MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 
