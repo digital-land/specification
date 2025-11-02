@@ -3977,3 +3977,27 @@ local-plan-timetable,estimate-end-date,,,,1
 local-plan-timetable,estimated-period-start-date,,,,1
 local-plan-timetable,estimated-period-end-date,,,,1
 local-plan,local-plan-process,,Enter the local plan examination process under which this local plan was or is being produced.,,1
+guidance,description,,,,2
+guidance,documentation-url,,,,2
+guidance,end-date,,,,2
+guidance,entry-date,,,,2
+guidance,name,,,,2
+guidance,phase,,,,2
+guidance,prefix,,,,2
+guidance,provision-guidance,,"Enter one or more paragraphs of Govspeak markdown text which explain why a provider 
+is expected to provide this data. Link to any relevant regulations or funding.
+",,2
+guidance,reference,,,,2
+guidance,specifications,,,,2
+guidance,summary,,,,2
+guidance,templates,,,,2
+guidance,start-date,,,,2
+template,description,,,,1
+template,end-date,,,,1
+template,entry-date,,,,1
+template,name,,,,1
+template,phase,,,,1
+template,prefix,,,,1
+template,reference,,,,1
+template,text,,A Jinja2 template,,1
+template,start-date,,,,1
