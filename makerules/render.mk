@@ -50,7 +50,6 @@ second-pass:: render
 render:: $(TEMPLATE_FILES) $(SPECIFICATION_FILES) $(DATASET_FILES) $(DATASET_PATH) $(VIEW_MODEL)
 	@-rm -rf $(DOCS_DIR)
 	@-mkdir -p $(DOCS_DIR)
-	@-mkdir -p $(DOCS_DIR)/{datapackage,dataset,datatype,field,typology}
 ifneq ($(RENDER_COMMAND),)
 	$(RENDER_COMMAND)
 else
@@ -88,5 +87,4 @@ local::
 	@-rm -rf $(DOCS_DIR)/datatype
 	@-rm -rf $(DOCS_DIR)/field
 	@-rm -rf $(DOCS_DIR)/typology
-	@-mkdir -p $(DOCS_DIR)/{datapackage,dataset,datatype,field,typology}
 	digital-land --pipeline-name $(DATASET) render --dataset-path $(DATASET_PATH) --local
