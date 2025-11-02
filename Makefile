@@ -1,7 +1,7 @@
 NO_DATASET=true
 RENDER_COMMAND=python3 ./bin/render.py
 
-second-pass::	scraping specification
+second-pass::	scraping specification guidance
 
 include makerules/makerules.mk
 include makerules/specification.mk
@@ -45,16 +45,27 @@ SPECIFICATION_CSV=\
 	specification/realm.csv\
 	specification/requirement-level.csv\
 	specification/role.csv\
-	specification/theme.csv
+	specification/theme.csv\
+	specification/guidance.csv\
+	specification/template.csv
 
 # these are scraped from other sites ..
 PROJECT_MD_GENERATED=\
 	content/project/local-land-charges.md\
 	content/project/localgov-drupal.md
 
+# datasets needed to generate specifications and guidance
+DATASETS=\
+	$(CACHE_DIR)organisation.csv\
+	$(CACHE_DIR)/local-plan-process.md\
+    $(CACHE_DIR)/local-plan-event.md
+
 scraping:: $(PROJECT_MD_GENERATED)
 
 specification:: $(SPECIFICATION_CSV)
+
+# TBD: consider moving generating the guidance to the existing guidance repository?
+guidance: 
 
 # made from dataset content ..
 DATASET_MD=$(sort $(wildcard content/dataset/*.md))
@@ -104,6 +115,16 @@ SPECIFICATION_MD=$(sort $(wildcard content/specification/*.md))
 specification/specification.csv:	$(SPECIFICATION_MD) bin/load-markdown.py
 	@mkdir -p specification/
 	python3 bin/load-markdown.py $@ $(SPECIFICATION_MD)
+
+GUIDANCE_MD=$(sort $(wildcard content/guidance/*.md))
+specification/guidance.csv:	$(GUIDANCE_MD) bin/load-markdown.py
+	@mkdir -p specification/
+	python3 bin/load-markdown.py $@ $(GUIDANCE_MD)
+
+TEMPLATE_MD=$(sort $(wildcard content/template/*.md))
+specification/template.csv:	$(TEMPLATE_MD) bin/load-markdown.py
+	@mkdir -p specification/
+	python3 bin/load-markdown.py $@ $(TEMPLATE_MD)
 
 
 # made from the dataset.csv ..
@@ -256,7 +277,7 @@ clobber::
 	rm -rf docs/mermaid/
 
 
-init::	$(CACHE_DIR)organisation.csv
+init::	var/cache/organisation.csv
 
 
 # generate SVG diagrams
@@ -264,7 +285,7 @@ SPECIFICATION_SVG=$(subst .md,/diagram.svg,$(subst content/,docs/,$(SPECIFICATIO
 render:: $(SPECIFICATION_SVG)
 
 docs/specification/%/diagram.svg:	content/specification/%.md bin/specification-svg.py
-	@mkdir -p $(dir $@)
+	mkdir -p $(dir $@)
 	python3 bin/specification-svg.py $< > $@
 
 render:: docs/dataset/diagram.svg docs/model.svg

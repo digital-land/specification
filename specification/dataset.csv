@@ -182,6 +182,7 @@ It can be used for planning purposes, such as preparing local plans to define ar
 
 Local planning authorities provide annual returns in March and we publish the data in autumn. This provides a snapshot in time and won't reflect any changes to green belt boundaries made since the local planning authorities submitted their annual returns.",environment,geography,1.0,Q2734873,Green_belt_(United_Kingdom)
 crown-copyright,,,guardianship-site-and-english-heritage-site,,,,,,7200000,7299999,ogl3,Guardianship site and English heritage site,,Guardianship sites and English heritage sites,alpha,,dataset,,,,heritage,geography,1.0,,
+crown-copyright,,,guidance,,,,,,7300,8999,ogl3,Guidance,,Guidance pages,alpha,,specification,,,,specification,specification,2.0,,
 crown-copyright,,gypsy-roma-traveller-sites,gypsy-and-traveller-site,,,,35,,7300000,7399999,ogl3,Gypsy and traveller site,,Gypsy and traveller sites,alpha,,dataset,,,,development,geography,1.0,Q74497345,
 crown-copyright,,heritage-action-zone,heritage-action-zone,,,,,,7400000,7499999,ogl3,Heritage action zone,,Heritage action zones,alpha,,dataset,,,,heritage,geography,1.0,,
 historic-england,historic-england,heritage-at-risk,heritage-at-risk,,,,,,7500000,7599999,ogl3,Heritage at risk,"{ ""colour"": ""#8D73AF"" }",Heritage at risk,beta,,dataset,,,The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).,heritage,geography,1.0,Q16983914,Heritage_at_Risk_Register
@@ -247,7 +248,7 @@ crown-copyright,local-plan,development-plans-and-timetables,local-plan-document,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-event,The different event types in a local plan timetable,,2024-10-22,26,,2950000,2999999,ogl3,Local plan event,,Local plan events,alpha,,dataset,,,,development,category,1.0,,
 crown-copyright,,local-plans,local-plan-housing,Housing numbers for a Local Planning Authority in a local plan,,2024-10-26,26,,1100000,1199999,ogl3,Local plan housing number,,Local plan housing numbers,alpha,,dataset,,,,development,legal-instrument,1.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-timetable,a log of past and predicted milestones and events for producing a local plan,,2024-10-22,26,,4230000,4299999,ogl3,Local plan timetable,,Local plan timetables,alpha,,dataset,,,,development,timetable,1.0,,
-crown-copyright,local-plan,local-plans,local-plan,Local plans prepared by a Local Planning Authority,,2024-09-14,26,,4220000,4229999,ogl3,Local plan,,Local plans,alpha,,dataset,,,,development,legal-instrument,1.0,,
+crown-copyright,local-plan,local-plans,local-plan,Local plans prepared by a Local Planning Authority,,2024-09-14,26,,4220000,4229999,ogl3,Local plan,,Local plans,alpha,,dataset,,,,development,legal-instrument,1.0,Q6664491,Local_plan
 ons-boundary,local-planning-authority,local-planning-authority,local-planning-authority,,,,36,,624000,626999,ogl3,Local planning authority,,Local planning authorities,beta,statistical-geography,dataset,,,"This dataset contains the administrative boundaries of local planning authorities in England.
 
 It can be used for:
@@ -391,9 +392,10 @@ on how to review planning applications in protected sites and areas.",environmen
 natural-england,special-protection-area,special-protection-areas,special-protection-area,,,,,,14900000,14999999,ogl3,Special protection area,,Special protection areas,beta,,dataset,,,"[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated 
 for the protection of birds and wildlife. This dataset is provided by [Natural England](https://www.gov.uk/government/organisations/natural-england).",environment,geography,1.0,,
 crown-copyright,,,specification-status,status of a specification,,,,specification-status,,,ogl3,Specification status,,Specification statuses,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,specification,,,,,specification,10000000,10099999,ogl3,Specification,,Specification,alpha,,specification,,,,specification,specification,2.0,,
+crown-copyright,,,specification,,,,,specification,10000000,10099999,ogl3,Specification,,Specifications,alpha,,specification,,,,specification,specification,2.0,,
 crown-copyright,,,street,,,,,,20000000000000,29999999999999,ogl3,Street,,Streets,prioritised,,dataset,,,,administrative,geography,1.0,,
 crown-copyright,,suitable-alternative-natural-greenspace,suitable-alternative-green-space,,,,,,15000000,15099999,ogl3,Suitable alternative green space,,Suitable alternative green spaces,prioritised,,dataset,,,,environment,geography,1.0,,
+crown-copyright,,,template,,,,,,9000,9999,ogl3,Template,,Templates,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,theme,,,,,theme,15100000,15199999,ogl3,Theme,,Themes,alpha,,specification,,,,specification,specification,1.0,,
 inspire-index-polygon,title-boundary,,title-boundary,,,,49,,12000000000,12999999999,ogl3,Title boundary,,Title boundaries,beta,,dataset,,,"Otherwise known as Land Registry Index polygons, these polygons are shapes that show the position and indicative extent of a registered property.",administrative;housing,geography,1.0,,
 crown-copyright,,,transform,,,,,,,,ogl3,Pipeline transformation,,Transformations,alpha,,configuration,,,,specification;pipeline,specification,1.0,,

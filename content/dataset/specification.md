@@ -27,7 +27,7 @@ licence: ogl3
 name: Specification
 paint-options: ''
 phase: alpha
-plural: Specification
+plural: Specifications
 prefix: ''
 realm: specification
 replacement-dataset: ''

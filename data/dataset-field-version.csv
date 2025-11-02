@@ -3970,3 +3970,10 @@ local-plan,local-planning-authorities,,"Enter the reference (the GSS code) for [
 area covered by the plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
 ",,1
+local-plan-event,local-plan-processes,,,,1
+local-plan-event,priority,,,,1
+local-plan-timetable,estimate-start-date,,,,1
+local-plan-timetable,estimate-end-date,,,,1
+local-plan-timetable,estimated-period-start-date,,,,1
+local-plan-timetable,estimated-period-end-date,,,,1
+local-plan,local-plan-process,,Enter the local plan examination process under which this local plan was or is being produced.,,1

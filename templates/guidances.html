@@ -1,0 +1,17 @@
+{% extends "dl-specification-base.html" %}
+
+{% set page_caption = 'Specification' %}
+{% set page_title = 'Guidance pages' %}
+
+{% block dl_content %}
+<div class="govuk-grid-row govspeak govuk-body">
+  <div class="govuk-grid-column-full">
+    <p class="govuk-body">Guidance pages generated from our specifications.</p>
+    {% for guidance, item in tables["guidance"].items()| sort %}
+    <h3 id="{{ item['reference'] }}">{{ item["name"] }}</h3>
+    <p><a href="{{guidance}}">{{ item["name"] }}</a></p>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
