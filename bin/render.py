@@ -36,6 +36,7 @@ tables = {
     "datapackage-dataset": {},
     "datatype": {},
     "field": {},
+    "guidance": {},
     "realm": {},
     "typology": {},
     "dataset": {},
@@ -106,6 +107,7 @@ def render(path, template, docs="docs", **kwargs):
     path = os.path.join(docs, path)
     directory = os.path.dirname(path)
     if not os.path.exists(directory):
+        #print(f"creating directory {directory}")
         os.makedirs(directory)
     with open(path, "w") as f:
         print(f"creating {path}")
@@ -113,14 +115,18 @@ def render(path, template, docs="docs", **kwargs):
 
 
 def load_csv(table):
+    print(f"loading {table}")
     for row in csv.DictReader(open(f"specification/{table}.csv", newline="")):
-        if table not in keys:
-            key = table
-            tables[table][row[key]] = row
-        else:
+        # really this should use the key-field for the dataset or default to "reference"
+        if table in keys:
             pkey, skey = keys[table]
             tables[table].setdefault(row[pkey], {})
             tables[table][row[pkey]][row[skey]] = row
+            continue
+        if table in row:
+            tables[table][row[table]] = row
+        else:
+            tables[table][row["reference"]] = row
 
 
 def load_content(table):
@@ -354,6 +360,7 @@ if __name__ == "__main__":
         "typology",
     ]:
         for name, item in tables[template].items():
+            # TBD: understand why are these fields hard-coded, they shouldn't be
             if name in ["Deliverable", "Hectares", "Notes"]:
                 print(f"skipping deprecated field: {name}")
                 continue
@@ -432,6 +439,7 @@ if __name__ == "__main__":
         ("typology/index.html", "typologies.html"),
         ("specification/index.html", "specifications.html"),
         ("specification/diagrams.html", "diagrams.html"),
+        ("guidance/index.html", "guidances.html"),
     ]:
         render(
             path,
