@@ -59,10 +59,12 @@ code.value {
     content: "Description";
 }
 
-.assertion::before {
+/*
+.assertion::after {
     content: "¶ " ;
     color: #b1b4b6;
 }
+*/
 
 .TBD::before {
     content: "TBD";
@@ -103,7 +105,7 @@ h1, h2::before, h3::before, h4::before {
 {% endmacro %}
 
 {% macro sentence(text) %}
-    {{ sentence_case(text) }}.
+    {{ sentence_case(text).strip() }}.
 {% endmacro %}
 
 {% set page_caption = 'Specification' %}
