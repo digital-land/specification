@@ -81,8 +81,6 @@ def generate(specification_path, output_path=None):
                 if field in datasets:
                     link_dataset = field
 
-            if link_dataset == "tree-preservation-order":
-                print('found it')
             if link_dataset in datasets:
                 links.append(
                     {
