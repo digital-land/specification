@@ -14,17 +14,13 @@ fields:
   guidance: |
         Enter the amount of net additional housing which have been allocated to sites with the local planning authority area in the local plan.
   examples:
-    - example: durham-local-plan
-      entry-number: 1
-      value: 15660
+    - value: 9239
 - field: broad-locations-housing
   description: 'amount of net additional housing expected to be delivered from broad locations for development within the local-planning-authority-area in the local plan'
   guidance: |
         Enter the amount of net additional housing which have been allocated to sites in the local plan.
   examples:
-    - example: durham-local-plan
-      entry-number: 1
-      value: 15660
+    - value: 15660
 - field: committed-housing
   description: the amount of housing already committed for development within the local-plannning-authority area in the local-plan
   guidance: Enter the amount of housing already committed for development within the local plan area at the time the local plan was adopted.
@@ -44,9 +40,7 @@ fields:
         This should be the statistical geography for the local-planning-authority area to which the housing numbers apply.
         See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
   examples:
-      - example: durham-local-plan
-        entry-number: 1
-        value: 'E60000001'
+      - value: 'E60000001'
         description: 'The GSS code for the County Durham LPA area'
 - field: notes
   examples:
@@ -55,18 +49,13 @@ fields:
   examples:
       - value: "Barnsley's Local Plan as adopted by Full Council on 3 January 2019"
 - field: organisation
-  description: organisations responsible for this local plan
-  examples:
-      - value: 'local-authority:DUR'
-      - value: 'national-park-authority:Q72617158'
 - field: prefix
 - field: reference
   description: local plan reference
   guidance: |
-    Give each local plan a reference value.
+        Give each set of housing numbers a reference value.
   examples:
-    - example: 
-      value: '34069/County-Durham-Plan'
+    - value: '34069/County-Durham-Plan'
     - value: 'central-lincolnshire'
     - value: 'barnet-local-plan-2021-2036'
 - field: required-housing

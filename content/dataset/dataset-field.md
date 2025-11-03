@@ -13,6 +13,7 @@ fields:
 - field: description
 - field: end-date
 - field: entry-date
+- field: examples
 - field: field
 - field: field-dataset
 - field: guidance

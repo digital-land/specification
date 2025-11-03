@@ -1,13 +1,13 @@
 ---
-cardinality: '1'
+cardinality: 1
 datatype: json
-description: ''
+description: 'Example value and description pairs for guidance'
 end-date: ''
 entry-date: ''
-field: item
+field: examples
 guidance: ''
 hint: ''
-name: Item
+name: Examples
 parent-field: json
 replacement-field: ''
 start-date: ''
