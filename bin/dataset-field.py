@@ -10,7 +10,7 @@ for row in csv.DictReader(open("specification/dataset.csv", newline="")):
     datasets[row["dataset"]] = row
 
 # create dataset-field.csv
-fieldnames = ["dataset", "field", "field-dataset", "description", "guidance", "hint"]
+fieldnames = ["dataset", "field", "field-dataset", "description", "guidance", "hint", "examples"]
 
 w = csv.DictWriter(
     open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction="ignore"
@@ -34,6 +34,7 @@ for dataset, item in datasets.items():
                 "field-dataset": field_dataset,
                 "description": row.get("description", ""),
                 "guidance": row.get("guidance", ""),
+                "examples": row.get("examples", ""),
                 "hint": row.get("hint", ""),
             }
         )
