@@ -1098,13 +1098,17 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">Coordinate values should be 6 or fewer decimal places.</p>
 
     <h3 id="fieldtype-integer" class="govuk-heading-s">Integer</h3>
-    <p class="TBD">Reference CSV on the web and xs:decimal</p>
+
+    <p class="assertion">All <code>integer</code> values MUST conform to the integer datatype as defined by
+    [<a href="#tabular-metadata">tabular-metadata</a>].</p>
 
     <h3 id="fieldtype-markdown" class="govuk-heading-s">Markdown</h3>
-    <p class="TBD">Reference [<a href="#govspeak-markdown">govspeak-markdown</a>]</p>
+    <p class="assertion">All <code>markdown</code> values SHOULD be compatible with [<a href="#govspeak-markdown">govspeak-markdown</a>].</p>
 
     <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
-    <p class="TBD">Reference [<a href="#RFC3986">RFC3986</a>] and [<a href="#URL-interoperability">URL-interoperability</a>]</p>
+    <p class="assertion">All <code>URL</code> values MUST conform to [<a href="#RFC3986">RFC3986</a>].</p>
+
+    <p class="note">For the purposes of this specification, the terms URL, URI and IRI are synonymous as set out in [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
     <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
@@ -1151,40 +1155,52 @@ The case and punctuation used in field names is insignificant, meaning
 are all valid ways of naming the '<code class="field">start-date</code>' field.
 </p>
 
-<p class="assertion">A field name MAY be treated as being case insensitive.</p> 
+<p class="assertion">A field name SHOULD be treated as being case insensitive.</p> 
 
-<p class="assertion">A non-alphanumeric character in a field name MAY be ignored.</p> 
+<p class="assertion">A non-alphanumeric character in a field name SHOULD be ignored.</p> 
 
 <h2 id="evolution" class="govuk-heading-m">Evolution</h2>
 
-<section class="TBD">Guidance for how the specification may evolve in a similar way to HTML. Whilst the specification document is versioned, the data may evolves following three principles:
+<section class="note">
+    This specification is expected to evolve through compatible evolution:
     <ol>
-        <li>The data may contain additional fields in the future version. 
-        <li>Processors of this version should ignore any fields they aren't expecting.
-        <li>Fields in this specification may be deprecated in a future version, but won't be removed, or change their semantic meaning.
+        <li>Data may contain additional fields in the future. Processors must ignore any fields they aren't expecting.
+        <li>Fields in this specification will be deprecated in a future version, rather than being removed.
+        <li>Future versions of this specification MUST NOT significantly change the meaning of any of the fields in this version of the specification.
     </ol>
 </section>
 
+<p class="assertion">A sending processor conforming to this specification MAY include unspecified fields and values.</p>
+
+<p class="assertion">A receiving processor conforming to this specification MUST ignore any unspecified fields and their values.</p>
+
 <h2 id="extensibility" class="govuk-heading-m">Extensibility</h2>
 
-<p class="TBD">Guidance for how we support local variance and collecting data from existing sources.</p>
+<p class="note">The approach for evolution enables processors to extend the specification by including fields and data for their own purposes.</p>
+
+<p class="assertion">A processor SHOULD NOT add fields likely to be used in a future version of this specification for different purposes.</p>
 
 <h2 id="endpoint" class="govuk-heading-m">Endpoint</h2>
 
+
+<p class="note">
+The endpoint is the URL for where data in a format defined by this specification may be downloaded.
+The 
+Other patterns for collecting data are under consideration, including feeds for large datasets which change frequently.</p>
+
 <section class="guidance">
     Your data must be on a URL the public can access. We collect the latest data from there every day. We call this the ‘endpoint URL’.
-    <p>Endpoints typically fall into 1 of the following 2 categories:</a>
+    <p>Endpoints typically fall into 1 of the following 2 categories:</p>
 <ul>
     <li>a file hosted on your web server — these will usually be URLs which end in something like .json or .csv
-    <li>a live feed of the data from an API — these are usually hosted by your GIS (Geographic Information System) software or open data platform
+    <li>an API — these are usually hosted by your GIS (Geographic Information System) software or open data platform
 </ul>
 <p>Whenever your data changes, update it in the endpoint URL. Your endpoint URL should remain the same, do not change it when you make updates.</p>
 </section>
-<p class="TBD">Explain support of periodic dated publications, and how we support feeds of data for collecting large datasets which change frequently.</p>
 
-<h2 id="examples" class="govuk-heading-m">Examples</h2>
-
-<p class="TBD">Complete examples</p>
+<p class="assertion">The endpoint MUST serve data conforming to this specification.</p>
+<p class="assertion">The endpoint MUST be accessible via HTTPS.</p>
+<p class="assertion">The data MUST be publicly accessible without authentication or authorisation.</p>
 
     <h2 class="govuk-heading-m">Security and privacy considerations</h2>
     <p class="note">

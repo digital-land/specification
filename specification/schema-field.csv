@@ -606,6 +606,7 @@ dataset-field,dataset
 dataset-field,description
 dataset-field,end-date
 dataset-field,entry-date
+dataset-field,examples
 dataset-field,field
 dataset-field,field-dataset
 dataset-field,guidance
@@ -635,6 +636,7 @@ dataset,description
 dataset,end-date
 dataset,entry-date
 dataset,github-discussion
+dataset,guidance
 dataset,key-field
 dataset,entity-minimum
 dataset,entity-maximum
@@ -1092,18 +1094,6 @@ entity,prefix
 entity,reference
 entity,start-date
 entity,typology
-example,description
-example,end-date
-example,entry-date
-example,notes
-example,reference
-example,start-date
-example,description
-example,end-date
-example,entry-date
-example,notes
-example,reference
-example,start-date
 expect,datasets
 expect,organisations
 expect,operation
