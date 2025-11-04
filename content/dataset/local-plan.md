@@ -43,6 +43,11 @@ fields:
 - field: local-plan-process
   description: 'examination process under which this local plan was or is being produced'
   guidance: 'Enter the local plan examination process under which this local plan was or is being produced.'
+  examples:
+    - value: "2025"
+      description: "the plan is being produced under the 2025 local plan regulations"
+    - value: "2012"
+      description: "the plan was produced under the previous local plan regulations"
 - field: local-planning-authorities
   description: local planning authority areas covered by the local plan
   guidance: |
