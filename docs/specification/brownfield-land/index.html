@@ -327,7 +327,6 @@ h1, h2::before, h3::before, h4::before {
     The data SHOULD be published as [<a href="#crown-copyright">crown-copyright</a>] under [<a href="#OGL3">OGL3</a>].
     </p>
 
-
     <p class="example" id="example-attribution">
     This data is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
     and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
@@ -368,6 +367,15 @@ h1, h2::before, h3::before, h4::before {
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the unique reference your organisation uses to identify the site.
+If one doesn’t exist, you need to create one. It should not be used by your organisation to identify any other sites, but can be borrowed from another data set listing the site. You could use the strategic site identifier from your local plan, for example:
+<code>EH/141</code></p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">SiteReference</code> field.</p>
@@ -376,12 +384,7 @@ h1, h2::before, h3::before, h4::before {
     <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the unique reference your organisation uses to identify the site.
-If one doesn’t exist, you need to create one. It should not be used by your organisation to identify any other sites, but can be borrowed from another data set listing the site. You could use the strategic site identifier from your local plan, for example:
-<code>EH/141</code></p></div>
-
-    </li>
+    
     
     
 
@@ -391,6 +394,14 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the site name and address in a single line of text, for example:
+<code>Parcel of land behind, 221B Baker Street, Marylebone, London, NW1 6XE</code></p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">SiteNameAddress</code> field.</p>
@@ -399,11 +410,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the site name and address in a single line of text, for example:
-<code>Parcel of land behind, 221B Baker Street, Marylebone, London, NW1 6XE</code></p></div>
-
-    </li>
+    
     
     
 
@@ -413,6 +420,13 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter ‘yes’ if there is a reasonable prospect that residential development will take place on the land within 5 years of the date you enter this site in the register. Otherwise leave this field blank.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">Deliverable</code> field.</p>
@@ -421,10 +435,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-flag">flag</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter ‘yes’ if there is a reasonable prospect that residential development will take place on the land within 5 years of the date you enter this site in the register. Otherwise leave this field blank.</p></div>
-
-    </li>
+    
     
     
 
@@ -434,6 +445,13 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter ‘yes’ if the local planning authority is required by regulation 26(3) of the <a href="https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made">Planning (Hazardous Substances) Regulations 2015</a> to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">HazardousSubstances</code> field.</p>
@@ -442,10 +460,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-flag">flag</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter ‘yes’ if the local planning authority is required by regulation 26(3) of the <a href="https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made">Planning (Hazardous Substances) Regulations 2015</a> to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.</p></div>
-
-    </li>
+    
     
     
 
@@ -455,6 +470,13 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the land area of the site in hectares, up to 2 decimal places. Use digits (2) rather than words (two).</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">Hectares</code> field.</p>
@@ -463,10 +485,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-decimal">decimal</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the land area of the site in hectares, up to 2 decimal places. Use digits (2) rather than words (two).</p></div>
-
-    </li>
+    
     
     
 
@@ -475,6 +494,11 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
     
+
+    </li>
+
+
+    <!- brute force for now, needs an index -->
 
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
@@ -484,10 +508,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-integer">integer</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
+    
     
     
 
@@ -497,6 +518,13 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the minimum number of dwellings that the local planning authority estimates the site should support, as defined in <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">NetDwellingsRangeFrom</code> field.</p>
@@ -505,10 +533,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-integer">integer</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the minimum number of dwellings that the local planning authority estimates the site should support, as defined in <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p></div>
-
-    </li>
+    
     
     
 
@@ -518,6 +543,13 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the maximum number of dwellings that the local planning authority estimates the site should support, as defined in <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">NetDwellingsRangeTo</code> field.</p>
@@ -526,10 +558,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-integer">integer</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the maximum number of dwellings that the local planning authority estimates the site should support, as defined in <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p></div>
-
-    </li>
+    
     
     
 
@@ -539,6 +568,15 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Indicate the site’s ownership by entering one of the following values:
+* owned by a public authority * not owned by a public authority * mixed ownership
+For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">OwnershipStatus</code> field.</p>
@@ -547,12 +585,7 @@ If one doesn’t exist, you need to create one. It should not be used by your or
     <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Indicate the site’s ownership by entering one of the following values:
-* owned by a public authority * not owned by a public authority * mixed ownership
-For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.</p></div>
-
-    </li>
+    
     
     
 
@@ -562,6 +595,13 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the date the most recent permission was granted on the site, in the format YYYY-MM-DD. If no permission has been granted leave this blank.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">PermissionDate</code> field.</p>
@@ -570,10 +610,7 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the date the most recent permission was granted on the site, in the format YYYY-MM-DD. If no permission has been granted leave this blank.</p></div>
-
-    </li>
+    
     
     
 
@@ -583,6 +620,16 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Choose one of the following to indicate what permission type the site has:
+* full planning permission * outline planning permission * reserved matters approval * permission in principle * technical details consent * planning permission granted under an order * other
+‘Planning permission granted under an order’ means planning permission granted under a local development order, a mayoral development order or a neighbourhood development order.
+Where more than one permission exists for the site, identify the latest permission granted. List any other permissions, including the date that each permission was granted or deemed to have been granted, in the ’Notes’ column.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">PermissionType</code> field.</p>
@@ -591,13 +638,7 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Choose one of the following to indicate what permission type the site has:
-* full planning permission * outline planning permission * reserved matters approval * permission in principle * technical details consent * planning permission granted under an order * other
-‘Planning permission granted under an order’ means planning permission granted under a local development order, a mayoral development order or a neighbourhood development order.
-Where more than one permission exists for the site, identify the latest permission granted. List any other permissions, including the date that each permission was granted or deemed to have been granted, in the ’Notes’ column.</p></div>
-
-    </li>
+    
     
     
 
@@ -607,6 +648,13 @@ Where more than one permission exists for the site, identify the latest permissi
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">PlanningHistory</code> field.</p>
@@ -615,10 +663,7 @@ Where more than one permission exists for the site, identify the latest permissi
     <a href="#fieldtype-URL">URL</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.</p></div>
-
-    </li>
+    
     
     
 
@@ -628,6 +673,16 @@ Where more than one permission exists for the site, identify the latest permissi
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Choose one of the following to indicate what stage of the planning process the site is at:
+* permissioned * not permissioned * pending decision
+When part of a site is permissioned, it should be recorded as “permissioned” and you should explain in the ‘Notes’ field why it’s only partly permissioned.
+For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">PlanningStatus</code> field.</p>
@@ -636,13 +691,7 @@ Where more than one permission exists for the site, identify the latest permissi
     <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Choose one of the following to indicate what stage of the planning process the site is at:
-* permissioned * not permissioned * pending decision
-When part of a site is permissioned, it should be recorded as “permissioned” and you should explain in the ‘Notes’ field why it’s only partly permissioned.
-For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.</p></div>
-
-    </li>
+    
     
     
 
@@ -652,6 +701,13 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the URL of a web page hosting the site plan, beginning with either “http://” or “https://”.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">SiteplanURL</code> field.</p>
@@ -660,10 +716,7 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     <a href="#fieldtype-URL">URL</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the URL of a web page hosting the site plan, beginning with either “http://” or “https://”.</p></div>
-
-    </li>
+    
     
     
 
@@ -673,6 +726,13 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>. $CTA Be sure you do not mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2. $CTA</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">GeoX</code> field.</p>
@@ -681,10 +741,7 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     <a href="#fieldtype-longitude">longitude</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>. $CTA Be sure you do not mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2. $CTA</p></div>
-
-    </li>
+    
     
     
 
@@ -694,6 +751,13 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">GeoY</code> field.</p>
@@ -702,10 +766,7 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     <a href="#fieldtype-latitude">latitude</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>.</p></div>
-
-    </li>
+    
     
     
 
@@ -715,6 +776,17 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter any general information about a site that developers might find useful, including a description of any housing development proposed for the site.
+You may include links to any web pages that give:
+* information on planning decisions related to any environmental impact assessments * the results of any related consultations * an explanation of how they were taken into account when making the decisions
+You may also describe any non-housing development proposed for the site. Indicate how the buildings or land will be used, and the scale of any such development.
+Content in this field does not need to be on a single line, but should be no longer than 4,000 characters. You can leave this field blank.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">Notes</code> field.</p>
@@ -723,14 +795,7 @@ For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/u
     <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter any general information about a site that developers might find useful, including a description of any housing development proposed for the site.
-You may include links to any web pages that give:
-* information on planning decisions related to any environmental impact assessments * the results of any related consultations * an explanation of how they were taken into account when making the decisions
-You may also describe any non-housing development proposed for the site. Indicate how the buildings or land will be used, and the scale of any such development.
-Content in this field does not need to be on a single line, but should be no longer than 4,000 characters. You can leave this field blank.</p></div>
-
-    </li>
+    
     
     
 
@@ -740,6 +805,11 @@ Content in this field does not need to be on a single line, but should be no lon
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index -->
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">OrganisationLabel</code> field.</p>
@@ -748,10 +818,7 @@ Content in this field does not need to be on a single line, but should be no lon
     <a href="#fieldtype-string">string</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index -->
-
-    </li>
+    
     
     
 
@@ -761,6 +828,13 @@ Content in this field does not need to be on a single line, but should be no lon
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body"><a href="https://www.digital-land.info/entity?typology=organisation">Find your organisation in this list</a> and enter the corresponding Open Data Communities URI.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">OrganisationURI</code> field.</p>
@@ -769,10 +843,7 @@ Content in this field does not need to be on a single line, but should be no lon
     <a href="#fieldtype-URL">URL</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body"><a href="https://www.digital-land.info/entity?typology=organisation">Find your organisation in this list</a> and enter the corresponding Open Data Communities URI.</p></div>
-
-    </li>
+    
     
     
 
@@ -782,6 +853,13 @@ Content in this field does not need to be on a single line, but should be no lon
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the date this entry in the register was updated, in the format YYYY-MM-DD.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">LastUpdatedDate</code> field.</p>
@@ -790,10 +868,7 @@ Content in this field does not need to be on a single line, but should be no lon
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the date this entry in the register was updated, in the format YYYY-MM-DD.</p></div>
-
-    </li>
+    
     
     
 
@@ -803,6 +878,13 @@ Content in this field does not need to be on a single line, but should be no lon
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">Enter the date that the site was first added to this register, in the format YYYY-MM-DD.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">FirstAddedDate</code> field.</p>
@@ -811,10 +893,7 @@ Content in this field does not need to be on a single line, but should be no lon
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">Enter the date that the site was first added to this register, in the format YYYY-MM-DD.</p></div>
-
-    </li>
+    
     
     
 
@@ -824,6 +903,13 @@ Content in this field does not need to be on a single line, but should be no lon
     
     
 
+    </li>
+
+
+    <!- brute force for now, needs an index --><div class="guidance">
+            <p><p class="govuk-body">If the site no longer needs to be listed (for example, if the site has been built on), it should remain on the register for historical reasons and not be deleted. Enter the date the site was developed or determined to no longer be brownfield land, in the format YYYY-MM-DD. This field should only be filled in once the site is no longer classified as brownfield land.</p></p>
+        </div>
+
     <p class="assertion">Each Brownfield land entry MAY contain 
     a 
     <code class="field">EndDate</code> field.</p>
@@ -832,10 +918,7 @@ Content in this field does not need to be on a single line, but should be no lon
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
     <!-- deprecated specification description .. -->
-
-    <!- brute force for now, needs an index --><div class="guidance"><p class="govuk-body">If the site no longer needs to be listed (for example, if the site has been built on), it should remain on the register for historical reasons and not be deleted. Enter the date the site was developed or determined to no longer be brownfield land, in the format YYYY-MM-DD. This field should only be filled in once the site is no longer classified as brownfield land.</p></div>
-
-    </li>
+    
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
@@ -893,7 +976,7 @@ Content in this field does not need to be on a single line, but should be no lon
     Survey data should be used where more precision is needed.
     </p>
 
-    <p class="assertion">Coordinate values should be 6 or fewer decimal places.</p>
+    <p class="assertion">Coordinate values SHOULD be 6 or fewer decimal places.</p>
 
     <h3 id="fieldtype-integer" class="govuk-heading-s">Integer</h3>
 
@@ -925,7 +1008,7 @@ Entries SHOULD NOT be changed or removed from the data except to correct a mista
 </p>
 <p class="assertion">An entity SHOULD be updated by adding another entry to the data with the same reference and a newer <code class="field">entry-date</code>.</p>
 <p class="assertion">Entries SHOULD be ordered within a dataset by the <code class="field">entry-date</code> value, with older entries appearing before later entries.</p>
-<p class="assertion">The <code class="field">end-date</code> field should be used to indicate when an entity is no longer applicable.</p>
+<p class="assertion">The <code class="field">end-date</code> field SHOULD be used to indicate when an entity is no longer applicable.</p>
 
 <h2 id="data-format" class="govuk-heading-m">Data file formats</h2>
 
