@@ -10,6 +10,9 @@ entity-minimum: '4220000'
 entry-date: '2024-09-14'
 fields:
 - field: adopted-date
+  notes: deprecated
+  guidance: |
+      The `start-date` field indicates when a plan came into force, that is adopted.
 - field: documentation-url
   description: local plan documentation page
   definition: The URL of the [Source documentation](#source-documentation) page.
@@ -21,12 +24,17 @@ fields:
      Each local plan should have a unique URL.
      Where there are several local plans listed on a single webpage, you will need to use use an anchor link (fragment identifier) for each plan.
   examples:
-  - value: https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan
-  - value: https://example.com/local-plans/#example-local-plan-2011
-  - value: https://example.com/local-plans/#example-local-plan-2024
+    - value: https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan
+    - value: https://example.com/local-plans/#example-local-plan-2011
+    - value: https://example.com/local-plans/#example-local-plan-2024
 - field: document-url
-  description: local plan document
+  description: local plan core document
+  guidance: |
+      Enter the URL for the main or core plan document. This is usually a PDF file.
+  examples:
+    - value: 'https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf'
 - field: end-date
+  description: date a local plan was withdran or revoked
 - field: entity
 - field: entry-date
 - field: local-plan-boundary
@@ -53,27 +61,30 @@ fields:
     - value: 'South Oxfordshire Joint Local Plan'
 - field: notes
   examples:
-  - value: 'Information created from the LPA website.'
+    - value: 'Information created from the LPA website.'
   guidance: 'You may provide a short description to help users differentiate the plan from others with a similar name.'
   examples:
-      - value: "Barnsley's Local Plan as adopted by Full Council on 3 January 2019"
+    - value: "Barnsley's Local Plan as adopted by Full Council on 3 January 2019"
 - field: organisations
   description: organisations responsible for this local plan
   guidance: This value is populated by the Planning Data platform.
   examples:
-      - value: 'local-authority:DUR'
-      - value: 'national-park-authority:Q72617158'
-      - value: 'local-authority:LIC;local-authority:NKE;local-authority:WLI'
+    - value: 'local-authority:DUR'
+    - value: 'national-park-authority:Q72617158'
+    - value: 'local-authority:LIC;local-authority:NKE;local-authority:WLI'
 - field: period-end-date
   description: the end date of the period the plan covers
   guidance: 'Enter the end of the plan period. This is may be just the year in `YYYY` format.'
   examples:
     - value: 2041
+    - value: 2035-06-30
 - field: period-start-date
   description: the start date of the period the plan covers
   guidance: 'Enter the start of the plan period. This is usually just a year in `YYYY` format.'
   examples:
     - value: 2018
+    - value: 2025-04
+    - value: 2025-04-19
 - field: prefix
 - field: reference
   description: local plan reference

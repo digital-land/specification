@@ -31,7 +31,4 @@ datasets:
             requirement-level: SHOULD
           - field: notes
             requirement-level: MAY
-examples:
-    - durham-local-plan
-    - linconshire-local-plan
 ---

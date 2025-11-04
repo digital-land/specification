@@ -224,7 +224,6 @@ h1, h2::before, h3::before, h4::before {
     The data SHOULD be published as [<a href="#crown-copyright">crown-copyright</a>] under [<a href="#OGL3">OGL3</a>].
     </p>
 
-
     <p class="example" id="example-attribution">
     This data is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
     and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
@@ -269,7 +268,20 @@ h1, h2::before, h3::before, h4::before {
     {%- for _f, df in tables["dataset-field"][d["dataset"]].items() -%}
     {%- if _f == f["field"] -%}
     {%- if df["description"] != "" %}<p class="description">{{ sentence(df["description"]) }}</p>{% endif -%}
-        {%- if df["guidance"] != "" %}<div class="guidance">{{ df["guidance"] | markdown }}</div>{% endif -%}
+        {%- if df["guidance"] != "" -%}
+        <div class="guidance">
+            <p>{{ df["guidance"] | markdown }}</p>
+
+            {%- if df["examples"]|length > 0 %}
+                {%- if df["examples"]|length == 1 %}<p>Example: </p>{%- else -%}<p>Examples:</p><ul>{%- endif -%}
+                {% for ex in df["examples"] %}
+                    {%- if df["examples"]|length > 1 %}<li>{% endif %}
+                        <code>{{ ex["value"] }}</code>
+                {% endfor %}
+                {%- if df["examples"]|length == 1 %}</p>{%- else %}</ul>{% endif %}
+             {% endif %}
+        </div>
+        {%- endif -%}
     {%- endif -%}
     {%- endfor %}
 
@@ -280,7 +292,8 @@ h1, h2::before, h3::before, h4::before {
     a{% if fieldtype[0] in "aeiou" %}n{% endif %} 
     <a href="#fieldtype-{{fieldtype}}">{{fieldtype}}</a> value.</p>
 
-    <!-- deprecated specification description .. -->{% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
+    <!-- deprecated specification description .. -->
+    {% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
 
     {%- endfor %}
 {% endfor %}

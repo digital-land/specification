@@ -10,6 +10,7 @@ import jinja2
 import importlib
 import frontmatter
 import glob
+import json
 
 from glob import glob
 from digital_land_frontend.jinja import setup_jinja
@@ -117,16 +118,22 @@ def render(path, template, docs="docs", **kwargs):
 def load_csv(table):
     print(f"loading {table}")
     for row in csv.DictReader(open(f"specification/{table}.csv", newline="")):
-        # really this should use the key-field for the dataset or default to "reference"
+        # TBD: use the dataset key-field for the dataset
         if table in keys:
             pkey, skey = keys[table]
             tables[table].setdefault(row[pkey], {})
             tables[table][row[pkey]][row[skey]] = row
-            continue
-        if table in row:
+        elif table in row:
             tables[table][row[table]] = row
         else:
             tables[table][row["reference"]] = row
+
+        # hack to parse known json fields
+        # TBD: apply to any "json" field
+        for field in ["examples"]:
+            if row.get(field, ""):
+                row[field] = json.loads(row[field])
+
 
 
 def load_content(table):

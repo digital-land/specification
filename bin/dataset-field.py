@@ -3,6 +3,14 @@
 import sys
 import csv
 import frontmatter
+import json
+import datetime
+
+
+def json_serialize(obj):
+    if isinstance(obj, datetime.date):
+        return obj.isoformat()
+    raise TypeError(f"{type(obj)} not serializable")
 
 
 datasets = {}
@@ -27,6 +35,11 @@ for dataset, item in datasets.items():
         if not field_dataset: 
             if field in datasets and field != dataset:
                 field_dataset = field
+
+        examples = row.get("examples", "")
+        if examples:
+            examples = json.dumps(examples, default=json_serialize)
+
         w.writerow(
             {
                 "dataset": dataset,
@@ -34,7 +47,7 @@ for dataset, item in datasets.items():
                 "field-dataset": field_dataset,
                 "description": row.get("description", ""),
                 "guidance": row.get("guidance", ""),
-                "examples": row.get("examples", ""),
+                "examples": examples,
                 "hint": row.get("hint", ""),
             }
         )

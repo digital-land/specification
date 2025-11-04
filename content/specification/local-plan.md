@@ -97,7 +97,4 @@ datasets:
             requirement-level: MAY
           - field: notes
             requirement-level: MAY
-examples:
-    - durham-local-plan
-    - linconshire-local-plan
 ---

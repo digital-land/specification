@@ -24,9 +24,14 @@ for path in sys.argv[2:]:
     row["text"] = post.content
 
     # handle specification datasets ..
+    # TBD: use dataset-field / field/datatype to look for json fields ..
     if dataset == "specification":
         datasets = row["datasets"]
         row["json"] = json.dumps(datasets)
         row["datasets"] = ";".join([d["dataset"] for d in datasets])
+
+    for field in ["examples"]:
+        if row.get(field, ""):
+            row[field] = json.dumps(row[field])
 
     w.writerow(row)

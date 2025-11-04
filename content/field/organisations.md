@@ -12,9 +12,9 @@ guidance: |
     The CURIE is made from the prefix value, followed by a colon ':' character, and then the reference value for the organisation being identified. 
     You may leave this value blank when the list of organisations is just the single organisation providing the data.
 examples:
-    - value: 'local-authority:DUR'
-    - value: 'national-park-authority:Q72617158'
-    - value: 'local-authority:LIC;local-authority:NKE;local-authority:WLI'
+  - value: 'local-authority:DUR'
+  - value: 'national-park-authority:Q72617158'
+  - value: 'local-authority:LIC;local-authority:NKE;local-authority:WLI'
 hint: ''
 name: Organisations
 parent-field: organisation

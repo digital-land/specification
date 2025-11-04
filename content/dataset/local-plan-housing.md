@@ -44,10 +44,10 @@ fields:
         description: 'The GSS code for the County Durham LPA area'
 - field: notes
   examples:
-  - value: 'Information created from the LPA website.'
+    - value: 'Information created from the LPA website.'
   guidance: 'You may provide a short description to help users differentiate the plan from others with a similar name.'
   examples:
-      - value: "Barnsley's Local Plan as adopted by Full Council on 3 January 2019"
+    - value: "Barnsley's Local Plan as adopted by Full Council on 3 January 2019"
 - field: organisation
 - field: prefix
 - field: reference

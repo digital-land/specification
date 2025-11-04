@@ -13,8 +13,8 @@ guidance: |
     Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
     If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
 examples:
-    - value: 'POLYGON ((-0.166189 51.572792,-0.166296 …'
-    - value: 'MULTIPOLYGON (((-0.166189 51.572792,-0.166296 …'
+  - value: 'POLYGON ((-0.166189 51.572792,-0.166296 …'
+  - value: 'MULTIPOLYGON (((-0.166189 51.572792,-0.166296 …'
 hint: ''
 name: Geometry
 parent-field: multipolygon-wkt
