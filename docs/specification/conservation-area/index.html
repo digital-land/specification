@@ -45,6 +45,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -109,7 +113,6 @@ h1, h2::before, h3::before, h4::before {
    content: "§ ";
 }
 */
-
 
 </style>
 
@@ -227,8 +230,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      information about one or more conservation areas.
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide information about one or more conservation areas.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -287,6 +291,799 @@ h1, h2::before, h3::before, h4::before {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
+    
+    
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+
+    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg" class="diagram">
+    
+
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+
+    
+    
+
+    <h3 id="conservation-area-dataset" class="govuk-heading-m">
+    Conservation area
+</h3>
+    <p class="description">
+    An area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance.
+</p>
+
+    
+    
+
+    <p class="assertion">The Conservation area dataset  contain at least one entry for each Conservation area for which the data provider is the responsible authority.</p>
+
+    <h3 id="conservation-area__fields">
+    Conservation area
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-designation-date">designation-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-point">point</a></th>
+      <td scope="row" class="govuk-table__cell">point</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">provide a reference such as CA01</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the official name for the conservation area</p>
+    
+    
+
+    <h4 id="field-designation-date">Designation date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">designation-date</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">designation-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date that the conservation area was officially designated</p>
+    
+    
+
+    <h4 id="field-document-url">Document URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">document-url</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">document-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a URL to the authoritative source for the area, this is often a PDF containing a map with the area drawn on it</p>
+    
+    
+
+    <h4 id="field-documentation-url">Documentation URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">documentation-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a URL to a page on the local planning authority website that provides information about the conservation area</p>
+    
+    
+
+    <h4 id="field-geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the boundary of a designated conservation area</p>
+    
+    
+
+    <h4 id="field-point">Point</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">point</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">point</code> field MUST be
+    a 
+    <a href="#fieldtype-point">point</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">provide the centre point of the conservation area if you do not have a full geometry available</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">provide any extra information if needed</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation responsible for conservation areas</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the information has been entered as a record</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record starts</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Conservation area <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record ends</p>
+
+    
+    
+
+    <h3 id="conservation-area-document-dataset" class="govuk-heading-m">
+    Conservation area document
+</h3>
+    <p class="description">
+    .
+</p>
+
+    
+    
+
+    <p class="assertion">The Conservation area document dataset  contain at least one entry for each Conservation area document for which the data provider is the responsible authority.</p>
+
+    <h3 id="conservation-area-document__fields">
+    Conservation area document
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-conservation-area">conservation-area</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-type">document-type</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">provide a reference such as CA01-decision-notice</p>
+    
+    
+
+    <h4 id="field-conservation-area">Conservation area</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">conservation-area</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">conservation-area</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the reference for the conservation area this document is about</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the title of the conservation area document</p>
+    
+    
+
+    <h4 id="field-documentation-url">Documentation URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">documentation-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the URL of the webpage citing the document</p>
+    
+    
+
+    <h4 id="field-document-url">Document URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">document-url</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">document-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the URL of the document</p>
+    
+    
+
+    <h4 id="field-document-type">Document type</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">document-type</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">document-type</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Conservation area document entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/conservation-area-document-type">conservation-area-document-type dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the type of the conservation area document which must be one of the following values: 'area-appraisal', 'notice', or leave blank</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">provide any extra information if needed</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation that published the document</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date this information has been entered as a record</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record starts</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Conservation area document entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Conservation area document <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record ends</p>
+
+
+
     <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
     <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
@@ -343,583 +1140,6 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
-
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
-
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
-
-    
-    
-
-    <h3 id="conservation-area-dataset" class="govuk-heading-m">
-    Conservation area
-</h3>
-    <p class="description">
-    An area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance.
-</p>
-
-    
-    
-
-    <p class="assertion">The Conservation area dataset  contain at least one entry for each Conservation area for which the data provider is the responsible authority.</p>
-
-    <h3 id="conservation-area__fields">
-    Conservation area
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">provide a reference such as CA01</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the official name for the conservation area</p>
-    
-    
-
-    <h4>Designation date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">designation-date</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">designation-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date that the conservation area was officially designated</p>
-    
-    
-
-    <h4>Document URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">document-url</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">document-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a URL to the authoritative source for the area, this is often a PDF containing a map with the area drawn on it</p>
-    
-    
-
-    <h4>Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a URL to a page on the local planning authority website that provides information about the conservation area</p>
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the boundary of a designated conservation area</p>
-    
-    
-
-    <h4>Point</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">point</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">point</code> field MUST be
-    a 
-    <a href="#fieldtype-point">point</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">provide the centre point of the conservation area if you do not have a full geometry available</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">provide any extra information if needed</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation responsible for conservation areas</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the information has been entered as a record</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record starts</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Conservation area <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record ends</p>
-
-    
-    
-
-    <h3 id="conservation-area-document-dataset" class="govuk-heading-m">
-    Conservation area document
-</h3>
-    <p class="description">
-    .
-</p>
-
-    
-    
-
-    <p class="assertion">The Conservation area document dataset  contain at least one entry for each Conservation area document for which the data provider is the responsible authority.</p>
-
-    <h3 id="conservation-area-document__fields">
-    Conservation area document
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">provide a reference such as CA01-decision-notice</p>
-    
-    
-
-    <h4>Conservation area</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">conservation-area</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">conservation-area</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the reference for the conservation area this document is about</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the title of the conservation area document</p>
-    
-    
-
-    <h4>Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the URL of the webpage citing the document</p>
-    
-    
-
-    <h4>Document URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">document-url</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">document-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the URL of the document</p>
-    
-    
-
-    <h4>Document type</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">document-type</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">document-type</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    <p class="assertion">Each Conservation area document entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/conservation-area-document-type">conservation-area-document-type dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the type of the conservation area document which must be one of the following values: 'area-appraisal', 'notice', or leave blank</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">provide any extra information if needed</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation that published the document</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date this information has been entered as a record</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record starts</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Conservation area document entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Conservation area document <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record ends</p>
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>

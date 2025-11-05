@@ -45,6 +45,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -109,7 +113,6 @@ h1, h2::before, h3::before, h4::before {
    content: "§ ";
 }
 */
-
 
 </style>
 
@@ -233,8 +236,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      information about one or more infrastructure projects.
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide information about one or more infrastructure projects.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -289,6 +293,1240 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    
+    
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+
+    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg" class="diagram">
+    
+
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+
+    
+    
+
+    <h3 id="infrastructure-project-dataset" class="govuk-heading-m">
+    Infrastructure project
+</h3>
+    <p class="description">
+    An application for a infrastructure development.
+</p>
+
+    
+    
+
+    <p class="assertion">The Infrastructure project dataset  contain at least one entry for each Infrastructure project for which the data provider is the responsible authority.</p>
+
+    <h3 id="infrastructure-project__fields">
+    Infrastructure project
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-applicant-organisation">applicant-organisation</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-infrastructure-project-decision">infrastructure-project-decision</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-decision-date">decision-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-decision-maker">decision-maker</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-point">point</a></th>
+      <td scope="row" class="govuk-table__cell">point</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-infrastructure-project-type">infrastructure-project-type</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the NSIP id</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the name of the project</p>
+    
+    
+
+    <h4 id="field-description">Description</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">description</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">description</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a brief description of the project</p>
+    
+    
+
+    <h4 id="field-applicant-organisation">Applicant organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    an 
+    <code class="field">applicant-organisation</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">applicant-organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation id of the organisation making the application</p>
+    
+    
+
+    <h4 id="field-infrastructure-project-decision">Infrastructure project decision</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    an 
+    <code class="field">infrastructure-project-decision</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">infrastructure-project-decision</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-decision">infrastructure-project-decision dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the decision, once it has been made. For example `consent-granted`</p>
+    
+    
+
+    <h4 id="field-decision-date">Decision date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">decision-date</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">decision-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the decision was made, for example `2023-09-14`</p>
+    
+    
+
+    <h4 id="field-decision-maker">Decision maker</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">decision-maker</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">decision-maker</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">which secretary of state made the decision</p>
+    
+    
+
+    <h4 id="field-geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the site boundary for the proposed development</p>
+    
+    
+
+    <h4 id="field-point">Point</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">point</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">point</code> field MUST be
+    a 
+    <a href="#fieldtype-point">point</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-documentation-url">Documentation URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">documentation-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a url to a page with more information about the project</p>
+    
+    
+
+    <h4 id="field-infrastructure-project-type">Infrastructure project type</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    an 
+    <code class="field">infrastructure-project-type</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">infrastructure-project-type</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-type">infrastructure-project-type dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the type of project, for example generating-stations</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">any additional notes in this field</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation id of the organisation that provided this data</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Infrastructure project <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+
+    
+    
+
+    <h3 id="infrastructure-project-log-dataset" class="govuk-heading-m">
+    Infrastructure project log
+</h3>
+    <p class="description">
+    A log of events that happen during the infrastructure projects.
+</p>
+
+    
+    
+
+    <p class="assertion">The Infrastructure project log dataset  contain at least one entry for each Infrastructure project log for which the data provider is the responsible authority.</p>
+
+    <h3 id="infrastructure-project-log__fields">
+    Infrastructure project log
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-infrastructure-project">infrastructure-project</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-infrastructure-project-event">infrastructure-project-event</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-event-date">event-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-infrastructure-project">Infrastructure project</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    an 
+    <code class="field">infrastructure-project</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">infrastructure-project</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the ID of the infrastructure project</p>
+    
+    
+
+    <h4 id="field-infrastructure-project-event">Infrastructure project event</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    an 
+    <code class="field">infrastructure-project-event</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">infrastructure-project-event</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-event">infrastructure-project-event dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">an event reference for something that has happened during the process</p>
+    
+    
+
+    <h4 id="field-event-date">Event date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    an 
+    <code class="field">event-date</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">event-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the event happened, for example `2023-09-14`</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">any additional notes in this field</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation id of the organisation that provided this data</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Infrastructure project log <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+
+    
+    
+
+    <h3 id="infrastructure-project-document-dataset" class="govuk-heading-m">
+    Infrastructure project document
+</h3>
+    <p class="description">
+    The documents published and produced for a infrastructure project.
+</p>
+
+    
+    
+
+    <p class="assertion">The Infrastructure project document dataset  contain at least one entry for each Infrastructure project document for which the data provider is the responsible authority.</p>
+
+    <h3 id="infrastructure-project-document__fields">
+    Infrastructure project document
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-infrastructure-project">infrastructure-project</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-type">document-type</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-infrastructure-project">Infrastructure project</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    an 
+    <code class="field">infrastructure-project</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">infrastructure-project</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the ID of the infrastructure project</p>
+    
+    
+
+    <h4 id="field-document-type">Document type</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    a 
+    <code class="field">document-type</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">document-type</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-document-type">infrastructure-project-document-type dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the type of document, for example development-consent-order</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a name for the document</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">any additional notes in this field</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation id of the organisation that provided this data</p>
+    
+    
+
+    <h4 id="field-document-url">Document URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    a 
+    <code class="field">document-url</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">document-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a url to the document</p>
+    
+    
+
+    <h4 id="field-documentation-url">Documentation URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    a 
+    <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">documentation-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a url to the webpage where the document has been published</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Infrastructure project document <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+
+
 
     <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
@@ -352,907 +1590,6 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
-
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
-
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
-
-    
-    
-
-    <h3 id="infrastructure-project-dataset" class="govuk-heading-m">
-    Infrastructure project
-</h3>
-    <p class="description">
-    An application for a infrastructure development.
-</p>
-
-    
-    
-
-    <p class="assertion">The Infrastructure project dataset  contain at least one entry for each Infrastructure project for which the data provider is the responsible authority.</p>
-
-    <h3 id="infrastructure-project__fields">
-    Infrastructure project
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the NSIP id</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the name of the project</p>
-    
-    
-
-    <h4>Description</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">description</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">description</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a brief description of the project</p>
-    
-    
-
-    <h4>Applicant organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    an 
-    <code class="field">applicant-organisation</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">applicant-organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation id of the organisation making the application</p>
-    
-    
-
-    <h4>Infrastructure project decision</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    an 
-    <code class="field">infrastructure-project-decision</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">infrastructure-project-decision</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    <p class="assertion">Each Infrastructure project entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-decision">infrastructure-project-decision dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the decision, once it has been made. For example `consent-granted`</p>
-    
-    
-
-    <h4>Decision date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">decision-date</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">decision-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the decision was made, for example `2023-09-14`</p>
-    
-    
-
-    <h4>Decision maker</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">decision-maker</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">decision-maker</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">which secretary of state made the decision</p>
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the site boundary for the proposed development</p>
-    
-    
-
-    <h4>Point</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">point</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">point</code> field MUST be
-    a 
-    <a href="#fieldtype-point">point</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a url to a page with more information about the project</p>
-    
-    
-
-    <h4>Infrastructure project type</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    an 
-    <code class="field">infrastructure-project-type</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">infrastructure-project-type</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    <p class="assertion">Each Infrastructure project entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-type">infrastructure-project-type dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the type of project, for example generating-stations</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">any additional notes in this field</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation id of the organisation that provided this data</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Infrastructure project <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-
-    
-    
-
-    <h3 id="infrastructure-project-log-dataset" class="govuk-heading-m">
-    Infrastructure project log
-</h3>
-    <p class="description">
-    A log of events that happen during the infrastructure projects.
-</p>
-
-    
-    
-
-    <p class="assertion">The Infrastructure project log dataset  contain at least one entry for each Infrastructure project log for which the data provider is the responsible authority.</p>
-
-    <h3 id="infrastructure-project-log__fields">
-    Infrastructure project log
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Infrastructure project</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    an 
-    <code class="field">infrastructure-project</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">infrastructure-project</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the ID of the infrastructure project</p>
-    
-    
-
-    <h4>Infrastructure project event</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    an 
-    <code class="field">infrastructure-project-event</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">infrastructure-project-event</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-event">infrastructure-project-event dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">an event reference for something that has happened during the process</p>
-    
-    
-
-    <h4>Event date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    an 
-    <code class="field">event-date</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">event-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the event happened, for example `2023-09-14`</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">any additional notes in this field</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation id of the organisation that provided this data</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project log entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Infrastructure project log <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-
-    
-    
-
-    <h3 id="infrastructure-project-document-dataset" class="govuk-heading-m">
-    Infrastructure project document
-</h3>
-    <p class="description">
-    The documents published and produced for a infrastructure project.
-</p>
-
-    
-    
-
-    <p class="assertion">The Infrastructure project document dataset  contain at least one entry for each Infrastructure project document for which the data provider is the responsible authority.</p>
-
-    <h3 id="infrastructure-project-document__fields">
-    Infrastructure project document
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Infrastructure project</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    an 
-    <code class="field">infrastructure-project</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">infrastructure-project</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the ID of the infrastructure project</p>
-    
-    
-
-    <h4>Document type</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    a 
-    <code class="field">document-type</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">document-type</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-document-type">infrastructure-project-document-type dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the type of document, for example development-consent-order</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a name for the document</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">any additional notes in this field</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation id of the organisation that provided this data</p>
-    
-    
-
-    <h4>Document URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    a 
-    <code class="field">document-url</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">document-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a url to the document</p>
-    
-    
-
-    <h4>Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a url to the webpage where the document has been published</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Infrastructure project document entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Infrastructure project document <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>

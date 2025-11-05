@@ -45,6 +45,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -109,7 +113,6 @@ h1, h2::before, h3::before, h4::before {
    content: "§ ";
 }
 */
-
 
 </style>
 
@@ -227,8 +230,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      information about one or more Development policies.
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide information about one or more Development policies.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -287,6 +291,580 @@ h1, h2::before, h3::before, h4::before {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
+    
+    
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+
+    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg" class="diagram">
+    
+
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+
+    
+    
+
+    <h3 id="development-policy-dataset" class="govuk-heading-m">
+    Development policy
+</h3>
+    <p class="description">
+    .
+</p>
+
+    
+    
+
+    <p class="assertion">The Development policy dataset  contain at least one entry for each Development policy for which the data provider is the responsible authority.</p>
+
+    <h3 id="development-policy__fields">
+    Development policy
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-development-plan-document">development-plan-document</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-development-policy-categories">development-policy-categories</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-development-plan-document">Development plan document</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    a 
+    <code class="field">development-plan-document</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">development-plan-document</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-development-policy-categories">Development policy categories</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    a 
+    <code class="field">development-policy-categories</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">development-policy-categories</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Development policy <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+
+    
+    
+
+    <h3 id="development-policy-area-dataset" class="govuk-heading-m">
+    Development policy area
+</h3>
+    <p class="description">
+    .
+</p>
+
+    
+    
+
+    <p class="assertion">The Development policy area dataset  contain at least one entry for each Development policy area for which the data provider is the responsible authority.</p>
+
+    <h3 id="development-policy-area__fields">
+    Development policy area
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-development-policies">development-policies</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-development-policies">Development policies</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    a 
+    <code class="field">development-policies</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">development-policies</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    a 
+    <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development policy area entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Development policy area <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+
+
+
     <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
     <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
@@ -343,420 +921,6 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
-
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
-
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
-
-    
-    
-
-    <h3 id="development-policy-dataset" class="govuk-heading-m">
-    Development policy
-</h3>
-    <p class="description">
-    .
-</p>
-
-    
-    
-
-    <p class="assertion">The Development policy dataset  contain at least one entry for each Development policy for which the data provider is the responsible authority.</p>
-
-    <h3 id="development-policy__fields">
-    Development policy
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Development plan document</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    a 
-    <code class="field">development-plan-document</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">development-plan-document</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Development policy categories</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    a 
-    <code class="field">development-policy-categories</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">development-policy-categories</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Development policy <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-
-    
-    
-
-    <h3 id="development-policy-area-dataset" class="govuk-heading-m">
-    Development policy area
-</h3>
-    <p class="description">
-    .
-</p>
-
-    
-    
-
-    <p class="assertion">The Development policy area dataset  contain at least one entry for each Development policy area for which the data provider is the responsible authority.</p>
-
-    <h3 id="development-policy-area__fields">
-    Development policy area
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Development policies</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    a 
-    <code class="field">development-policies</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">development-policies</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development policy area entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Development policy area <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>

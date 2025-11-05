@@ -1982,7 +1982,7 @@ area covered by the plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
 ",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
 local-plan,name,,local plan name,Use the title of the adopted local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
-local-plan,notes,,,You may provide a short description to help users differentiate the plan from others with a similar name.,,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
+local-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
 local-plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,
 local-plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is may be just the year in `YYYY` format.,,,"[{""value"": 2041}, {""value"": ""2035-06-30""}]",,
 local-plan,period-start-date,,start date of the period the plan covers,Enter the start of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2018}, {""value"": ""2025-04""}, {""value"": ""2025-04-19""}]",,
@@ -1998,16 +1998,27 @@ local-plan,start-date,,date when the plan was officially adopted,"Enter the date
 This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
 ",,,,,
+local-planning-authority,document-url,,,"Enter the URL of the document or webpage on your website where the 
+authorititive ""red-line"" boundary may be found.
+",,,,,
+local-planning-authority,documentation-url,,local planning authority documentation page,"Enter the URL of the webpage on your website where information about the Local Planning Authority
+including the boundary may be found.
+",,,,,
 local-planning-authority,end-date,,,,,,,,
 local-planning-authority,entity,entity,,,,,,,
 local-planning-authority,entry-date,,,,,,,,
 local-planning-authority,geometry,,,,,,,,
-local-planning-authority,name,,,,,,,,
-local-planning-authority,notes,,,,,,,,
+local-planning-authority,name,,Local Planning Authority name,"Enter the name of the Local Planning Authority.
+",,,"[{""value"": ""Old Oak and Park Royal Development Corporation (OPDC)""}]",,
+local-planning-authority,notes,,,"Enter any notes to help a user understand how the data was made or is to be interpreted.
+",,,"[{""value"": ""The London Legacy Development Corporation was planning authority for its area until the end of November 2024.\nAll enquiries in respect of planning policy and Community Infrastructure Levy should now be made to \nthe relevant borough.\n""}]",,
 local-planning-authority,organisation,organisation,,,,,,,
 local-planning-authority,point,,,,,,,,
 local-planning-authority,prefix,prefix,,,,,,,
-local-planning-authority,reference,,,,,,,,
+local-planning-authority,reference,,,"Enter the GSS code for the Local Planning Authority area. 
+You can create a unique reference where no GSS code exists and
+republish the data with the official GSS code once it is known.
+",,,"[{""value"": ""E60000330""}, {""value"": ""borchester-development-corporation""}]",,
 local-planning-authority,region,region,,,,,,,
 local-planning-authority,start-date,,,,,,,,
 local-resilience-forum-boundary,categories,,,,,,,,

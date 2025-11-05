@@ -45,6 +45,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -109,7 +113,6 @@ h1, h2::before, h3::before, h4::before {
    content: "§ ";
 }
 */
-
 
 </style>
 
@@ -237,8 +240,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      information about one or more Tree preservation orders.
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide information about one or more Tree preservation orders.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -293,6 +297,1172 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    
+    
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+
+    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg" class="diagram">
+    
+
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+
+    
+    
+
+    <h3 id="tree-preservation-order-dataset" class="govuk-heading-m">
+    Tree preservation order
+</h3>
+    <p class="description">
+    .
+</p>
+
+    
+    
+
+    <p class="assertion">The Tree preservation order dataset  contain at least one entry for each Tree preservation order for which the data provider is the responsible authority.</p>
+
+    <h3 id="tree-preservation-order__fields">
+    Tree preservation order
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-made-date">made-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-confirmed-date">confirmed-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the name of the tree preservation order</p>
+    
+    
+
+    <h4 id="field-documentation-url">Documentation URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">documentation-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the URL of the web page where you can find information about the tree preservation order</p>
+    
+    
+
+    <h4 id="field-document-url">Document URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">document-url</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">document-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the URL of the tree preservation order document</p>
+    
+    
+
+    <h4 id="field-made-date">Made date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">made-date</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">made-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the tree preservation order was "made"</p>
+    
+    
+
+    <h4 id="field-confirmed-date">Confirmed date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">confirmed-date</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">confirmed-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the tree preservation order was "confirmed"</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">optional notes</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation responsible for this tree preservation order</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> this entry was created or amended</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> the tree preservation order came into force</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Tree preservation order <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> the tree preservation order ended or leave blank if the zone is still active</p>
+
+    
+    
+
+    <h3 id="tree-preservation-zone-dataset" class="govuk-heading-m">
+    Tree preservation zone
+</h3>
+    <p class="description">
+    An area covered by a tree preservation order.
+</p>
+
+    
+    
+
+    <p class="assertion">The Tree preservation zone dataset  contain at least one entry for each Tree preservation zone for which the data provider is the responsible authority.</p>
+
+    <h3 id="tree-preservation-zone__fields">
+    Tree preservation zone
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-tree-preservation-order">tree-preservation-order</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-tree-preservation-zone-type">tree-preservation-zone-type</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-point">point</a></th>
+      <td scope="row" class="govuk-table__cell">point</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#reference">reference</a> for the tree preservation zone</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the name of the tree preservation zone</p>
+    
+    
+
+    <h4 id="field-tree-preservation-order">Tree preservation order</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">tree-preservation-order</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">tree-preservation-order</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
+    
+    
+
+    <h4 id="field-tree-preservation-zone-type">Tree preservation zone type</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">tree-preservation-zone-type</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">tree-preservation-zone-type</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/tree-preservation-zone-type">tree-preservation-zone-type dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the type of zone, for example area, group or woodland</p>
+    
+    
+
+    <h4 id="field-geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the boundary of the area covered by the tree preservation zone in WKT format</p>
+    
+    
+
+    <h4 id="field-point">Point</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">point</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">point</code> field MUST be
+    a 
+    <a href="#fieldtype-point">point</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the centre of the tree preservation zone if you cannot provide the full geometry</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">optional notes</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation responsible for this tree preservation order</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> this entry was created or amended</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> the tree preservation zone came into force</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> the tree preservation zone ended or leave blank if the zone is still active</p>
+
+    
+    
+
+    <h3 id="tree-dataset" class="govuk-heading-m">
+    Tree
+</h3>
+    <p class="description">
+    An individual tree.
+</p>
+
+    
+    
+
+    <p class="assertion">The Tree dataset  contain at least one entry for each Tree for which the data provider is the responsible authority.</p>
+
+    <h3 id="tree__fields">
+    Tree
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-tree-preservation-order">tree-preservation-order</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-uprn">uprn</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-address-text">address-text</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-point">point</a></th>
+      <td scope="row" class="govuk-table__cell">point</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Tree <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the number or reference for the tree which appears in the preservation order</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Tree <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the name of the tree</p>
+    
+    
+
+    <h4 id="field-tree-preservation-order">Tree preservation order</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">tree-preservation-order</code> field.</p>
+    <p class="assertion">The Tree <code class="field">tree-preservation-order</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
+    
+    
+
+    <h4 id="field-uprn">UPRN</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">uprn</code> field.</p>
+    <p class="assertion">The Tree <code class="field">uprn</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">unique property reference number if the tree is located on an addressable property</p>
+    
+    
+
+    <h4 id="field-address-text">Address text</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">address-text</code> field.</p>
+    <p class="assertion">The Tree <code class="field">address-text</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the address of the property</p>
+    
+    
+
+    <h4 id="field-point">Point</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">point</code> field.</p>
+    <p class="assertion">The Tree <code class="field">point</code> field MUST be
+    a 
+    <a href="#fieldtype-point">point</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the centre of the tree area if you cannot provide the full geometry</p>
+    
+    
+
+    <h4 id="field-geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Tree <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the boundary of the area covered by the tree in WKT format</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Tree <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">optional notes</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Tree <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the organisation responsible for this tree</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Tree <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> this entry was created or amended</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Tree <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> from which the tree preservation order affects the tree</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Tree <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the <a href="#date">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order</p>
+
+
 
     <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
@@ -356,855 +1526,6 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
-
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
-
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
-
-    
-    
-
-    <h3 id="tree-preservation-order-dataset" class="govuk-heading-m">
-    Tree preservation order
-</h3>
-    <p class="description">
-    .
-</p>
-
-    
-    
-
-    <p class="assertion">The Tree preservation order dataset  contain at least one entry for each Tree preservation order for which the data provider is the responsible authority.</p>
-
-    <h3 id="tree-preservation-order__fields">
-    Tree preservation order
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the name of the tree preservation order</p>
-    
-    
-
-    <h4>Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the URL of the web page where you can find information about the tree preservation order</p>
-    
-    
-
-    <h4>Document URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">document-url</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">document-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the URL of the tree preservation order document</p>
-    
-    
-
-    <h4>Made date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">made-date</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">made-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the tree preservation order was "made"</p>
-    
-    
-
-    <h4>Confirmed date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">confirmed-date</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">confirmed-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the tree preservation order was "confirmed"</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">optional notes</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation responsible for this tree preservation order</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> this entry was created or amended</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> the tree preservation order came into force</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation order entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Tree preservation order <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> the tree preservation order ended or leave blank if the zone is still active</p>
-
-    
-    
-
-    <h3 id="tree-preservation-zone-dataset" class="govuk-heading-m">
-    Tree preservation zone
-</h3>
-    <p class="description">
-    An area covered by a tree preservation order.
-</p>
-
-    
-    
-
-    <p class="assertion">The Tree preservation zone dataset  contain at least one entry for each Tree preservation zone for which the data provider is the responsible authority.</p>
-
-    <h3 id="tree-preservation-zone__fields">
-    Tree preservation zone
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#reference">reference</a> for the tree preservation zone</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the name of the tree preservation zone</p>
-    
-    
-
-    <h4>Tree preservation order</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">tree-preservation-order</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">tree-preservation-order</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
-    
-    
-
-    <h4>Tree preservation zone type</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">tree-preservation-zone-type</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">tree-preservation-zone-type</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/tree-preservation-zone-type">tree-preservation-zone-type dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the type of zone, for example area, group or woodland</p>
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the boundary of the area covered by the tree preservation zone in WKT format</p>
-    
-    
-
-    <h4>Point</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">point</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">point</code> field MUST be
-    a 
-    <a href="#fieldtype-point">point</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the centre of the tree preservation zone if you cannot provide the full geometry</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">optional notes</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation responsible for this tree preservation order</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> this entry was created or amended</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> the tree preservation zone came into force</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree preservation zone entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Tree preservation zone <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> the tree preservation zone ended or leave blank if the zone is still active</p>
-
-    
-    
-
-    <h3 id="tree-dataset" class="govuk-heading-m">
-    Tree
-</h3>
-    <p class="description">
-    An individual tree.
-</p>
-
-    
-    
-
-    <p class="assertion">The Tree dataset  contain at least one entry for each Tree for which the data provider is the responsible authority.</p>
-
-    <h3 id="tree__fields">
-    Tree
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Tree <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the number or reference for the tree which appears in the preservation order</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Tree <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the name of the tree</p>
-    
-    
-
-    <h4>Tree preservation order</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    a 
-    <code class="field">tree-preservation-order</code> field.</p>
-    <p class="assertion">The Tree <code class="field">tree-preservation-order</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#reference">reference</a> for the tree preservation order</p>
-    
-    
-
-    <h4>UPRN</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    an 
-    <code class="field">uprn</code> field.</p>
-    <p class="assertion">The Tree <code class="field">uprn</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">unique property reference number if the tree is located on an addressable property</p>
-    
-    
-
-    <h4>Address text</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    an 
-    <code class="field">address-text</code> field.</p>
-    <p class="assertion">The Tree <code class="field">address-text</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the address of the property</p>
-    
-    
-
-    <h4>Point</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    a 
-    <code class="field">point</code> field.</p>
-    <p class="assertion">The Tree <code class="field">point</code> field MUST be
-    a 
-    <a href="#fieldtype-point">point</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the centre of the tree area if you cannot provide the full geometry</p>
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Tree <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the boundary of the area covered by the tree in WKT format</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Tree <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">optional notes</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Tree <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the organisation responsible for this tree</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Tree <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> this entry was created or amended</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Tree <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> from which the tree preservation order affects the tree</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Tree entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Tree <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the <a href="#date">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order</p>
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>

@@ -45,6 +45,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -109,7 +113,6 @@ h1, h2::before, h3::before, h4::before {
    content: "§ ";
 }
 */
-
 
 </style>
 
@@ -233,8 +236,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      a log of past and predicted milestones and events when producint a local plan.
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide a log of past and predicted milestones and events when producint a local plan.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -290,62 +294,8 @@ h1, h2::before, h3::before, h4::before {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
-    <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
-
-    <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
-
-    <p class="assertion">The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public URL.</p>
-
-    <p class="note">Finding the information on the organisation's official website helps users check the information 
-    in the data. It increases the trust the user may place in the origin of the data, and that it is more likely to be sustained. </p>
-
-    <p class="assertion">The source documentation SHOULD be on the offical website for the organisation.</p> 
-
-    <p class="note">A Local Authority or other public body should put the documentation page under their <code class="value">.gov.uk</code> domain.</p>
-
-    <p class="assertion">The source documentation MAY either contain the <a href="#endpoint-documentation">endpoint documentation</a>,
-    or link to one or more separate <a href="#endpoint-documentation">endpoint documentation</a> pages.</p> 
-
-    <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
-
-    <p class="note">The endpoint documentation is a web page where a user can find a link to where they can download the data (the endpoint), 
-    along with other information relevant to a data user, such as the date the data was last updated.
-    Every endpoint needs to be findable via a link on the <a href="#source-documentation">source documentation</a> page,
-    and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
-    </p>
-
-    <p class="assertion">The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public URL.</p>
-
-    <p class="assertion">The endpoint documentation URL SHOULD have the same URL as the <a href="#endpoint-documentation">endpoint documentation</a> page.</p>
-
-    <p class="assertion">The endpoint documentation URL MAY have the same URL as the <a href="#source-documentation">source documentation</a> page.</p>
-
     
     
-    <p class="assertion">
-    The endpoint documentation SHOULD include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#local-plan-timetable-dataset">Local plan timetable</a> data.
-    </p>
-    
-
-    <p class="assertion">The endpoint documentation page SHOULD include a clear licence for reusing the data.</p>
-
-    <p class="assertion" id="preferred-licensing">
-    The data SHOULD be published as [<a href="#crown-copyright">crown-copyright</a>] under [<a href="#OGL3">OGL3</a>].
-    </p>
-
-    <p class="example" id="example-attribution">
-    This data is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
-    and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
-    </p>
-
-    <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
-
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
 
     <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
 
@@ -368,10 +318,87 @@ Your data should include a row for each of the events listed in the <a href="htt
     <h3 id="local-plan-timetable__fields">
     Local plan timetable
  fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell">MUST</td>
+    </tr>
     
     
 
-    <h4>Reference</h4>
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-local-plan">local-plan</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell">MUST</td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-local-plan-event">local-plan-event</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell">MUST</td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-predicted-earliest-date">predicted-earliest-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell">SHOULD</td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-predicted-latest-date">predicted-latest-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell">SHOULD</td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell">SHOULD</td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell">SHOULD</td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell">MAY</td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
 
     
     
@@ -394,7 +421,7 @@ Your data should include a row for each of the events listed in the <a href="htt
     
     
 
-    <h4>Local plan</h4>
+    <h4 id="field-local-plan">Local plan</h4>
 
     
     
@@ -426,7 +453,7 @@ Your data should include a row for each of the events listed in the <a href="htt
     
     
 
-    <h4>Local plan event</h4>
+    <h4 id="field-local-plan-event">Local plan event</h4>
 
     
     
@@ -478,7 +505,7 @@ Your data should include a row for each of the events listed in the <a href="htt
     
     
 
-    <h4>Prediction earliest date</h4>
+    <h4 id="field-predicted-earliest-date">Prediction earliest date</h4>
 
     
     
@@ -511,7 +538,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     
 
-    <h4>Predicted latest date</h4>
+    <h4 id="field-predicted-latest-date">Predicted latest date</h4>
 
     
     
@@ -541,7 +568,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     
 
-    <h4>Entry date</h4>
+    <h4 id="field-entry-date">Entry date</h4>
 
     
     
@@ -564,7 +591,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     
 
-    <h4>Start date</h4>
+    <h4 id="field-start-date">Start date</h4>
 
     
     
@@ -592,7 +619,7 @@ such as when you expect a draft local plan to be adopted.</p></p>
     
     
 
-    <h4>Notes</h4>
+    <h4 id="field-notes">Notes</h4>
 
     
     
@@ -612,6 +639,59 @@ such as when you expect a draft local plan to be adopted.</p></p>
 
     <!-- deprecated specification description .. -->
     
+
+
+
+    <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
+
+    <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
+
+    <p class="assertion">The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public URL.</p>
+
+    <p class="note">Finding the information on the organisation's official website helps users check the information 
+    in the data. It increases the trust the user may place in the origin of the data, and that it is more likely to be sustained. </p>
+
+    <p class="assertion">The source documentation SHOULD be on the offical website for the organisation.</p> 
+
+    <p class="note">A Local Authority or other public body should put the documentation page under their <code class="value">.gov.uk</code> domain.</p>
+
+    <p class="assertion">The source documentation MAY either contain the <a href="#endpoint-documentation">endpoint documentation</a>,
+    or link to one or more separate <a href="#endpoint-documentation">endpoint documentation</a> pages.</p> 
+
+    <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
+
+    <p class="note">The endpoint documentation is a web page where a user can find a link to where they can download the data (the endpoint), 
+    along with other information relevant to a data user, such as the date the data was last updated.
+    Every endpoint needs to be findable via a link on the <a href="#source-documentation">source documentation</a> page,
+    and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
+    </p>
+
+    <p class="assertion">The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public URL.</p>
+
+    <p class="assertion">The endpoint documentation URL SHOULD have the same URL as the <a href="#endpoint-documentation">endpoint documentation</a> page.</p>
+
+    <p class="assertion">The endpoint documentation URL MAY have the same URL as the <a href="#source-documentation">source documentation</a> page.</p>
+
+    
+    
+    <p class="assertion">
+    The endpoint documentation SHOULD include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#local-plan-timetable-dataset">Local plan timetable</a> data.
+    </p>
+    
+
+    <p class="assertion">The endpoint documentation page SHOULD include a clear licence for reusing the data.</p>
+
+    <p class="assertion" id="preferred-licensing">
+    The data SHOULD be published as [<a href="#crown-copyright">crown-copyright</a>] under [<a href="#OGL3">OGL3</a>].
+    </p>
+
+    <p class="example" id="example-attribution">
+    This data is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+    and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
+    </p>
+
+    <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>

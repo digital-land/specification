@@ -45,6 +45,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -109,7 +113,6 @@ h1, h2::before, h3::before, h4::before {
    content: "§ ";
 }
 */
-
 
 </style>
 
@@ -237,8 +240,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      information about one or more Local plans.
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide information about one or more Local plans.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -293,6 +297,1251 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    
+    
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+
+    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg" class="diagram">
+    
+
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+
+    
+    
+
+    <h3 id="local-plan-boundary-dataset" class="govuk-heading-m">
+    Local plan boundary
+</h3>
+    <p class="description">
+    The boundary covered by a local plan..
+</p>
+
+    
+    
+
+    <p class="assertion">The Local plan boundary dataset  contain at least one entry for each Local plan boundary for which the data provider is the responsible authority.</p>
+
+    <h3 id="local-plan-boundary__fields">
+    Local plan boundary
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-plan-boundary-type">plan-boundary-type</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisations">organisations</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Local plan boundary reference.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">A reference value for the local plan area.</p></p>
+    </div>
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the planning authority boundary reference</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Local plan boundary name.
+</p>
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a name for the boundary. For example, `City of York boundary`</p>
+    
+    
+
+    <h4 id="field-geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Local plan boundary.
+</p>
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    a 
+    <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the boundary in WKT format</p>
+    
+    
+
+    <h4 id="field-plan-boundary-type">Plan boundary type</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    a 
+    <code class="field">plan-boundary-type</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">plan-boundary-type</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/development-plan-boundary-type">development-plan-boundary-type dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`</p>
+    
+    
+
+    <h4 id="field-description">Description</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    a 
+    <code class="field">description</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">description</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a description of the boundary. Provide more detail if boundary is different from planning authority boundary</p>
+    
+    
+
+    <h4 id="field-organisations">Organisations</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    One or more organisations responsible for this local plan area.
+</p>
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    an 
+    <code class="field">organisations</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">organisations</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a list of codes for the responsible organisations, separated by ;</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date this information has been entered as a record</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record starts</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan boundary entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Local plan boundary <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record ends</p>
+
+    
+    
+
+    <h3 id="local-plan-dataset" class="govuk-heading-m">
+    Local plan
+</h3>
+    <p class="description">
+    Local plans prepared by a Local Planning Authority.
+</p>
+
+    
+    
+
+    <p class="assertion">The Local plan dataset  contain at least one entry for each Local plan for which the data provider is the responsible authority.</p>
+
+    <h3 id="local-plan__fields">
+    Local plan
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-period-start-date">period-start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-period-end-date">period-end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-local-plan-boundary">local-plan-boundary</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-adopted-date">adopted-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisations">organisations</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Local plan reference.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">A reference or ID for each local plan that is:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>unique within your dataset</li>
+<li>persistent - it doesn’t change when the dataset is updated</li>
+</ul>
+<p class="govuk-body">If you don’t have a reference for the local plan already, you will need to create one. This can be a short set of letters or numbers.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">LP-BRX-2024</code>
+            <li>
+                    <code class="value">34069/County-Durham-Plan</code>
+            <li>
+                    <code class="value">central-lincolnshire</code>
+            <li>
+                    <code class="value">barnet-local-plan-2021-2036</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">an unique identifier for a local plan</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Local plan name.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">Use the title of the adopted local plan document.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">County Durham Plan</code>
+            <li>
+                    <code class="value">South Oxfordshire Joint Local Plan</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the name of the local plan (for example, The Adopted Local Plan for Leeds)</p>
+    
+    
+
+    <h4 id="field-description">Description</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">description</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">description</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">brief description of plan</p>
+    
+    
+
+    <h4 id="field-period-start-date">Period start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Start date of the period the plan covers.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">2018</code>
+            <li>
+                    <code class="value">2025-04</code>
+            <li>
+                    <code class="value">2025-04-19</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">period-start-date</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">period-start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the start date of the period the plan covers</p>
+    
+    
+
+    <h4 id="field-period-end-date">Period end date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    End date of the period the plan covers.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">Enter the end of the plan period. This is may be just the year in <code>YYYY</code> format.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">2041</code>
+            <li>
+                    <code class="value">2035-06-30</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">period-end-date</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">period-end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the end date of the period the plan covers</p>
+    
+    
+
+    <h4 id="field-local-plan-boundary">Local plan boundary</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Area covered by the local plan.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">This area is created by the planning data platform from the local-planning-authorites values.</p></p>
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">local-plan-boundary</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">local-plan-boundary</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the reference code for the boundary the plan covers</p>
+    
+    
+
+    <h4 id="field-documentation-url">Documentation URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Local plan documentation page.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">The URL of the webpage on your website for the local plan</p>
+<p class="govuk-body">Each entry in the local plan dataset should link to a documentation webpage that includes the information 
+in the entry as well as links to where this data may be downloaded, and any other supporting documents.
+Each local plan should have a unique URL.
+Where there are several local plans listed on a single webpage, you will need to use use an anchor link (fragment identifier) for each plan.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
+            <li>
+                    <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
+            <li>
+                    <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">documentation-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the web page where you can find the documentation for the plan</p>
+    
+    
+
+    <h4 id="field-adopted-date">Adopted date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="note">
+    This field has been deprecated. The `start-date` field records when a plan was adopted..
+</p>    <div class="guidance">
+        <p><p class="govuk-body">The <code>start-date</code> field indicates when a plan came into force, that is adopted.</p></p>
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    an 
+    <code class="field">adopted-date</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">adopted-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date a plan is officially adopted</p>
+    
+    
+
+    <h4 id="field-organisations">Organisations</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Organisations responsible for this local plan.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">This value is populated by the Planning Data platform.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">local-authority:DUR</code>
+            <li>
+                    <code class="value">national-park-authority:Q72617158</code>
+            <li>
+                    <code class="value">local-authority:LIC;local-authority:NKE;local-authority:WLI</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    an 
+    <code class="field">organisations</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">organisations</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a list of codes for the responsible organisations, separated by ;</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date this information has been entered as a record</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Date when the plan was officially adopted.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">Enter the date when the plan was officially adopted. 
+This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
+Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></p>
+    </div>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record starts</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Date a local plan was withdran or revoked.
+</p>
+
+    <p class="assertion">Each Local plan entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Local plan <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record ends</p>
+
+    
+    
+
+    <h3 id="local-plan-document-dataset" class="govuk-heading-m">
+    Local plan document
+</h3>
+    <p class="description">
+    .
+</p>
+
+    
+    
+
+    <p class="assertion">The Local plan document dataset  contain at least one entry for each Local plan document for which the data provider is the responsible authority.</p>
+
+    <h3 id="local-plan-document__fields">
+    Local plan document
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-local-plan">local-plan</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-types">document-types</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
+      <td scope="row" class="govuk-table__cell">url</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisations">organisations</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">An unique identifier for this record (for example, xyz-123-abc)</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">The name of this document</p>
+    
+    
+
+    <h4 id="field-description">Description</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">description</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">description</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">Brief description of this document</p>
+    
+    
+
+    <h4 id="field-local-plan">Local plan</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Associated local plan.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">Enter the reference for the local plan which the document is associated with.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">LP-BRX-2024</code>
+            <li>
+                    <code class="value">central-lincolnshire</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">local-plan</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">local-plan</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">The reference for the particular local plan (for example, dorcester-new-local-plan)</p>
+    
+    
+
+    <h4 id="field-document-types">Document types</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->    <div class="guidance">
+        <p><p class="govuk-body">Enter at least one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-document-type">local-plan-document-type</a> values:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li><code>adoption-statement</code></li>
+<li><code>area-action-plan</code></li>
+<li><code>core-strategy</code></li>
+<li><code>financial-viability-study</code></li>
+<li><code>inspectors-report</code></li>
+<li><code>local-development-scheme</code></li>
+<li><code>local-plan</code></li>
+<li><code>local-plan-review</code></li>
+<li><code>policies-map</code></li>
+<li><code>strategic-flood-risk-assessment</code></li>
+<li><code>strategic-housing-market-assessment</code></li>
+<li><code>supplementary-planning-document</code></li>
+<li><code>sustainability-apprasial</code></li>
+<li><code>site-allocations</code></li>
+<li><code>viability-assessment</code></li>
+<li><code>sustainability-appraisal</code></li>
+</ul>
+<p class="govuk-body">Where a single document covers multipleou can list more than one category, separated by a semi-colon ';' character.</p></p><p>Examples:</p><ul><li>
+                    <code class="value">local-plan</code>
+            <li>
+                    <code class="value">local-plan;core-strategy;site-allocations</code>
+            </ul>
+         
+    </div>
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">document-types</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">document-types</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">The code for this document type (for example policy map)</p>
+    
+    
+
+    <h4 id="field-documentation-url">Documentation URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    Local plan document documentation page.
+</p>    <div class="guidance">
+        <p><p class="govuk-body">Enter the URL of the webpage on your website which references this document.</p></p><p>Example:
+                    <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
+            </p>
+         
+    </div>
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">documentation-url</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">documentation-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">The webpage where you can find this document</p>
+    
+    
+
+    <h4 id="field-document-url">Document URL</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">document-url</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">document-url</code> field MUST be
+    a 
+    <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">The URL of the actual document</p>
+    
+    
+
+    <h4 id="field-organisations">Organisations</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    an 
+    <code class="field">organisations</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">organisations</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a list of codes for the responsible organisations, separated by ;</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date this information has been entered as a record</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record starts</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Local plan document entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Local plan document <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the validity of the record ends</p>
+
+
 
     <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
@@ -356,950 +1605,6 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
-
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
-
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
-
-    
-    
-
-    <h3 id="local-plan-boundary-dataset" class="govuk-heading-m">
-    Local plan boundary
-</h3>
-    <p class="description">
-    The boundary covered by a local plan..
-</p>
-
-    
-    
-
-    <p class="assertion">The Local plan boundary dataset  contain at least one entry for each Local plan boundary for which the data provider is the responsible authority.</p>
-
-    <h3 id="local-plan-boundary__fields">
-    Local plan boundary
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Local plan boundary reference.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">A reference value for the local plan area.</p></p>
-    </div>
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the planning authority boundary reference</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Local plan boundary name.
-</p>
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a name for the boundary. For example, `City of York boundary`</p>
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Local plan boundary.
-</p>
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the boundary in WKT format</p>
-    
-    
-
-    <h4>Plan boundary type</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    a 
-    <code class="field">plan-boundary-type</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">plan-boundary-type</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    <p class="assertion">Each Local plan boundary entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/development-plan-boundary-type">development-plan-boundary-type dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`</p>
-    
-    
-
-    <h4>Description</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    a 
-    <code class="field">description</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">description</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a description of the boundary. Provide more detail if boundary is different from planning authority boundary</p>
-    
-    
-
-    <h4>Organisations</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    One or more organisations responsible for this local plan area.
-</p>
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    an 
-    <code class="field">organisations</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">organisations</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a list of codes for the responsible organisations, separated by ;</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date this information has been entered as a record</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record starts</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan boundary entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Local plan boundary <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record ends</p>
-
-    
-    
-
-    <h3 id="local-plan-dataset" class="govuk-heading-m">
-    Local plan
-</h3>
-    <p class="description">
-    Local plans prepared by a Local Planning Authority.
-</p>
-
-    
-    
-
-    <p class="assertion">The Local plan dataset  contain at least one entry for each Local plan for which the data provider is the responsible authority.</p>
-
-    <h3 id="local-plan__fields">
-    Local plan
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Local plan reference.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">A reference or ID for each local plan that is:</p>
-<ul class="govuk-list govuk-list--bullet">
-<li>unique within your dataset</li>
-<li>persistent - it doesn’t change when the dataset is updated</li>
-</ul>
-<p class="govuk-body">If you don’t have a reference for the local plan already, you will need to create one. This can be a short set of letters or numbers.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">LP-BRX-2024</code>
-            <li>
-                    <code class="value">34069/County-Durham-Plan</code>
-            <li>
-                    <code class="value">central-lincolnshire</code>
-            <li>
-                    <code class="value">barnet-local-plan-2021-2036</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">an unique identifier for a local plan</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Local plan name.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">Use the title of the adopted local plan document.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">County Durham Plan</code>
-            <li>
-                    <code class="value">South Oxfordshire Joint Local Plan</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the name of the local plan (for example, The Adopted Local Plan for Leeds)</p>
-    
-    
-
-    <h4>Description</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">description</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">description</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">brief description of plan</p>
-    
-    
-
-    <h4>Period start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Start date of the period the plan covers.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">2018</code>
-            <li>
-                    <code class="value">2025-04</code>
-            <li>
-                    <code class="value">2025-04-19</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">period-start-date</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">period-start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the start date of the period the plan covers</p>
-    
-    
-
-    <h4>Period end date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    End date of the period the plan covers.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the end of the plan period. This is may be just the year in <code>YYYY</code> format.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">2041</code>
-            <li>
-                    <code class="value">2035-06-30</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">period-end-date</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">period-end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the end date of the period the plan covers</p>
-    
-    
-
-    <h4>Local plan boundary</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Area covered by the local plan.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">This area is created by the planning data platform from the local-planning-authorites values.</p></p>
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">local-plan-boundary</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">local-plan-boundary</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the reference code for the boundary the plan covers</p>
-    
-    
-
-    <h4>Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Local plan documentation page.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">The URL of the webpage on your website for the local plan</p>
-<p class="govuk-body">Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Each local plan should have a unique URL.
-Where there are several local plans listed on a single webpage, you will need to use use an anchor link (fragment identifier) for each plan.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
-            <li>
-                    <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
-            <li>
-                    <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the web page where you can find the documentation for the plan</p>
-    
-    
-
-    <h4>Adopted date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="note">
-    This field has been deprecated. The `start-date` field records when a plan was adopted..
-</p>    <div class="guidance">
-        <p><p class="govuk-body">The <code>start-date</code> field indicates when a plan came into force, that is adopted.</p></p>
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    an 
-    <code class="field">adopted-date</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">adopted-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date a plan is officially adopted</p>
-    
-    
-
-    <h4>Organisations</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Organisations responsible for this local plan.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">This value is populated by the Planning Data platform.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">local-authority:DUR</code>
-            <li>
-                    <code class="value">national-park-authority:Q72617158</code>
-            <li>
-                    <code class="value">local-authority:LIC;local-authority:NKE;local-authority:WLI</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    an 
-    <code class="field">organisations</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">organisations</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a list of codes for the responsible organisations, separated by ;</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date this information has been entered as a record</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Date when the plan was officially adopted.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
-Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></p>
-    </div>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record starts</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Date a local plan was withdran or revoked.
-</p>
-
-    <p class="assertion">Each Local plan entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Local plan <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record ends</p>
-
-    
-    
-
-    <h3 id="local-plan-document-dataset" class="govuk-heading-m">
-    Local plan document
-</h3>
-    <p class="description">
-    .
-</p>
-
-    
-    
-
-    <p class="assertion">The Local plan document dataset  contain at least one entry for each Local plan document for which the data provider is the responsible authority.</p>
-
-    <h3 id="local-plan-document__fields">
-    Local plan document
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">An unique identifier for this record (for example, xyz-123-abc)</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">The name of this document</p>
-    
-    
-
-    <h4>Description</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">description</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">description</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">Brief description of this document</p>
-    
-    
-
-    <h4>Local plan</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Associated local plan.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the reference for the local plan which the document is associated with.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">LP-BRX-2024</code>
-            <li>
-                    <code class="value">central-lincolnshire</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">local-plan</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">local-plan</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">The reference for the particular local plan (for example, dorcester-new-local-plan)</p>
-    
-    
-
-    <h4>Document types</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->    <div class="guidance">
-        <p><p class="govuk-body">Enter at least one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-document-type">local-plan-document-type</a> values:</p>
-<ul class="govuk-list govuk-list--bullet">
-<li><code>adoption-statement</code></li>
-<li><code>area-action-plan</code></li>
-<li><code>core-strategy</code></li>
-<li><code>financial-viability-study</code></li>
-<li><code>inspectors-report</code></li>
-<li><code>local-development-scheme</code></li>
-<li><code>local-plan</code></li>
-<li><code>local-plan-review</code></li>
-<li><code>policies-map</code></li>
-<li><code>strategic-flood-risk-assessment</code></li>
-<li><code>strategic-housing-market-assessment</code></li>
-<li><code>supplementary-planning-document</code></li>
-<li><code>sustainability-apprasial</code></li>
-<li><code>site-allocations</code></li>
-<li><code>viability-assessment</code></li>
-<li><code>sustainability-appraisal</code></li>
-</ul>
-<p class="govuk-body">Where a single document covers multipleou can list more than one category, separated by a semi-colon ';' character.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">local-plan</code>
-            <li>
-                    <code class="value">local-plan;core-strategy;site-allocations</code>
-            </ul>
-         
-    </div>
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">document-types</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">document-types</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">The code for this document type (for example policy map)</p>
-    
-    
-
-    <h4>Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    Local plan document documentation page.
-</p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the URL of the webpage on your website which references this document.</p></p><p>Example:
-                    <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
-            </p>
-         
-    </div>
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">The webpage where you can find this document</p>
-    
-    
-
-    <h4>Document URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">document-url</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">document-url</code> field MUST be
-    a 
-    <a href="#fieldtype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">The URL of the actual document</p>
-    
-    
-
-    <h4>Organisations</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    an 
-    <code class="field">organisations</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">organisations</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a list of codes for the responsible organisations, separated by ;</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date this information has been entered as a record</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record starts</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Local plan document entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Local plan document <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the validity of the record ends</p>
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>

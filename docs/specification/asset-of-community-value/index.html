@@ -45,6 +45,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -109,7 +113,6 @@ h1, h2::before, h3::before, h4::before {
    content: "§ ";
 }
 */
-
 
 </style>
 
@@ -227,8 +230,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      information about one or more Assets of community value.
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide information about one or more Assets of community value.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -287,6 +291,634 @@ h1, h2::before, h3::before, h4::before {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
+    
+    
+
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+
+    
+    
+
+    <h3 id="asset-of-community-value-dataset" class="govuk-heading-m">
+    Asset of community value
+</h3>
+    <p class="description">
+    Buildings or pieces of land that are used for the social wellbeing and interests of the local community.
+</p>
+
+    
+    
+
+    <p class="assertion">The Asset of community value dataset  contain at least one entry for each Asset of community value for which the data provider is the responsible authority.</p>
+
+    <h3 id="asset-of-community-value__fields">
+    Asset of community value
+ fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-address-text">address-text</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-point">point</a></th>
+      <td scope="row" class="govuk-table__cell">point</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
+      <td scope="row" class="govuk-table__cell">curie</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-nomination-date">nomination-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-nominating-group">nominating-group</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-decision">decision</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-decision-date">decision-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-expiry-date">expiry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notification-to-sell-date">notification-to-sell-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-interested-group">interested-group</a></th>
+      <td scope="row" class="govuk-table__cell">string</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-protected-period-start-date">protected-period-start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
+      <td scope="row" class="govuk-table__cell">text</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
+      <td scope="row" class="govuk-table__cell">datetime</td>
+      <td scope="row" class="govuk-table__cell"></td>
+    </tr>
+    
+  </tbody>
+</table>
+    
+    
+
+    <h4 id="field-reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">reference</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">reference</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a unique code for this asset of community value, for example `A-CV-1`</p>
+    
+    
+
+    <h4 id="field-name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">name</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">name</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a name for the asset of community value, for example, Magdala Public House</p>
+    
+    
+
+    <h4 id="field-address-text">Address text</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    an 
+    <code class="field">address-text</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">address-text</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">an address for the asset</p>
+    
+    
+
+    <h4 id="field-description">Description</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">description</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">description</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a description of the asset of community value</p>
+    
+    
+
+    <h4 id="field-point">Point</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">point</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">point</code> field MUST be
+    a 
+    <a href="#fieldtype-point">point</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">coordinates, in WGS84, of the asset</p>
+    
+    
+
+    <h4 id="field-geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">geometry</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">if available, a boundary for the asset in WKT format</p>
+    
+    
+
+    <h4 id="field-organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    an 
+    <code class="field">organisation</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">a code for the authority whose register it is on, e.g. local-authority:CMD</p>
+    
+    
+
+    <h4 id="field-nomination-date">Nomination date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">nomination-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">nomination-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the asset was nominated to go on the register</p>
+    
+    
+
+    <h4 id="field-nominating-group">Nominating group</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">nominating-group</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">nominating-group</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the group who nominated the asset, for example, Friends of the Magdala</p>
+    
+    
+
+    <h4 id="field-decision">Decision</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">decision</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">decision</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the decision whether successful or unsuccessful</p>
+    
+    
+
+    <h4 id="field-decision-date">Decision date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">decision-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">decision-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the decision was published, in `YYYY-MM-DD` format</p>
+    
+    
+
+    <h4 id="field-expiry-date">Expiry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    an 
+    <code class="field">expiry-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">expiry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the listing on the register expires, usually 5 years after the decision date, for example 2029-12-01</p>
+    
+    
+
+    <h4 id="field-notification-to-sell-date">Notification to sell date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">notification-to-sell-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">notification-to-sell-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the owner informs the authority of their wish to sell the asset</p>
+    
+    
+
+    <h4 id="field-interested-group">Interested group</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    an 
+    <code class="field">interested-group</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">interested-group</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the group that has registered an interest, triggering the moratorim period</p>
+    
+    
+
+    <h4 id="field-protected-period-start-date">Protected period start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">protected-period-start-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">protected-period-start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the protection period starts. It will last 18 months from this date.</p>
+    
+    
+
+    <h4 id="field-notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">notes</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">notes</code> field MUST be
+    a 
+    <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">optional notes</p>
+    
+    
+
+    <h4 id="field-entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date this record was created</p>
+    
+    
+
+    <h4 id="field-start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    a 
+    <code class="field">start-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date the asset was nominated</p>
+    
+    
+
+    <h4 id="field-end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Asset of community value entry MAY contain 
+    an 
+    <code class="field">end-date</code> field.</p>
+    <p class="assertion">The Asset of community value <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">the date this assets was removed from the asset register</p>
+
+
+
     <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
     <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
@@ -337,470 +969,6 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
-
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
-
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
-
-    
-    
-
-    <h3 id="asset-of-community-value-dataset" class="govuk-heading-m">
-    Asset of community value
-</h3>
-    <p class="description">
-    Buildings or pieces of land that are used for the social wellbeing and interests of the local community.
-</p>
-
-    
-    
-
-    <p class="assertion">The Asset of community value dataset  contain at least one entry for each Asset of community value for which the data provider is the responsible authority.</p>
-
-    <h3 id="asset-of-community-value__fields">
-    Asset of community value
- fields</h3>
-    
-    
-
-    <h4>Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">reference</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">reference</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a unique code for this asset of community value, for example `A-CV-1`</p>
-    
-    
-
-    <h4>Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">name</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">name</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a name for the asset of community value, for example, Magdala Public House</p>
-    
-    
-
-    <h4>Address text</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    an 
-    <code class="field">address-text</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">address-text</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">an address for the asset</p>
-    
-    
-
-    <h4>Description</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">description</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">description</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a description of the asset of community value</p>
-    
-    
-
-    <h4>Point</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">point</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">point</code> field MUST be
-    a 
-    <a href="#fieldtype-point">point</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">coordinates, in WGS84, of the asset</p>
-    
-    
-
-    <h4>Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">geometry</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#fieldtype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">if available, a boundary for the asset in WKT format</p>
-    
-    
-
-    <h4>Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    an 
-    <code class="field">organisation</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#fieldtype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">a code for the authority whose register it is on, e.g. local-authority:CMD</p>
-    
-    
-
-    <h4>Nomination date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">nomination-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">nomination-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the asset was nominated to go on the register</p>
-    
-    
-
-    <h4>Nominating group</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">nominating-group</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">nominating-group</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the group who nominated the asset, for example, Friends of the Magdala</p>
-    
-    
-
-    <h4>Decision</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">decision</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">decision</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the decision whether successful or unsuccessful</p>
-    
-    
-
-    <h4>Decision date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">decision-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">decision-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the decision was published, in `YYYY-MM-DD` format</p>
-    
-    
-
-    <h4>Expiry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    an 
-    <code class="field">expiry-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">expiry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the listing on the register expires, usually 5 years after the decision date, for example 2029-12-01</p>
-    
-    
-
-    <h4>Notification to sell date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">notification-to-sell-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">notification-to-sell-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the owner informs the authority of their wish to sell the asset</p>
-    
-    
-
-    <h4>Interested group</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    an 
-    <code class="field">interested-group</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">interested-group</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the group that has registered an interest, triggering the moratorim period</p>
-    
-    
-
-    <h4>Protected period start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">protected-period-start-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">protected-period-start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the protection period starts. It will last 18 months from this date.</p>
-    
-    
-
-    <h4>Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">notes</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">notes</code> field MUST be
-    a 
-    <a href="#fieldtype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">optional notes</p>
-    
-    
-
-    <h4>Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date this record was created</p>
-    
-    
-
-    <h4>Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    a 
-    <code class="field">start-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date the asset was nominated</p>
-    
-    
-
-    <h4>End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Asset of community value entry MAY contain 
-    an 
-    <code class="field">end-date</code> field.</p>
-    <p class="assertion">The Asset of community value <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#fieldtype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">the date this assets was removed from the asset register</p>
 
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>

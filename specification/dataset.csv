@@ -250,12 +250,15 @@ crown-copyright,local-plan,development-plans-and-timetables,local-plan-timetable
 Your data should include a row for each of the events listed in the [Local Plan Event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened, or your estimated period for where an event is in the future.
 ",,4230000,4299999,ogl3,Local plan timetable,,Local plan timetables,alpha,,dataset,,,,development,timetable,1.0,,
 crown-copyright,local-plan,local-plans,local-plan,local plans prepared by a Local Planning Authority,,2024-09-14,26,,,4220000,4229999,ogl3,Local plan,,Local plans,alpha,,dataset,,,,development,legal-instrument,1.0,Q6664491,Local_plan
-ons-boundary,local-planning-authority,local-planning-authority,local-planning-authority,,,,36,,,624000,626999,ogl3,Local planning authority,,Local planning authorities,beta,statistical-geography,dataset,,,"This dataset contains the administrative boundaries of local planning authorities in England.
+ons-boundary,local-planning-authority,local-planning-authority,local-planning-authority,local planning authority boundary,,,36,"A mayoral authority, or other organisatoon responsible for the designation of a 
+development corporation or other kind of Local Planning Authority can use this 
+specification to provide the boundary of the Local Planning Authority area.
+",,624000,626999,ogl3,Local planning authority,,Local planning authorities,beta,statistical-geography,dataset,,,"This dataset contains the administrative boundary for each Local Planning Authority (LPA) in England.
 
-It can be used for:
+It can be used to:
 <ul>
-<li>producing statistics</li>
-<li>understanding responsible LPAs on a national scale for planning applications, for example</li>
+<li>assist in the production planning and other statistics</li>
+<li>help find the LPA responsible for a planning application on a map, for example</li>
 </ul>",administrative,geography,1.0,Q6664495,Local_planning_authority
 ons-boundary,local-resilience-forum-boundary,,local-resilience-forum-boundary,,,,,,,30000,30999,ogl3,Local resilience forum boundary,"{""colour"": ""#f499be"", ""opacity"": 0.1, ""weight"": 5}",Local resilience forum boundaries,beta,statistical-geography,dataset,,,The administrative boundaries of local resilience forums in England as provided by the ONS for the purposes of producing statistics.,administrative,geography,1.0,,
 crown-copyright,,,local-resilience-forum,,,,,,,3000,3999,ogl3,Local resilience forum,,Local resilience forums,alpha,,dataset,,,We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.,administrative,organisation,1.0,Q6664240,Local_resilience_forum
