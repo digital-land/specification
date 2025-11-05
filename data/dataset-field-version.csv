@@ -4015,3 +4015,7 @@ dataset-field,examples,,,,1
 dataset,guidance,,,,1
 dataset-field,notes,,,,1
 local-plan-document,organisation,,,,1
+local-plan-timetable,predicted-earliest-date,,"Enter the earliest date when this event is expected to happen.
+",,1
+local-plan-timetable,predicted-latest-date,,"Enter the latest date when this event is expected to happen.
+",,1
