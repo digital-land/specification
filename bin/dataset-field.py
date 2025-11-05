@@ -18,7 +18,7 @@ for row in csv.DictReader(open("specification/dataset.csv", newline="")):
     datasets[row["dataset"]] = row
 
 # create dataset-field.csv
-fieldnames = ["dataset", "field", "field-dataset", "description", "guidance", "hint", "examples"]
+fieldnames = ["dataset", "field", "field-dataset", "description", "guidance", "hint", "notes", "examples", "start-date", "end-date"]
 
 w = csv.DictWriter(
     open(sys.argv[1], "w", newline=""), fieldnames=fieldnames, extrasaction="ignore"
@@ -49,5 +49,8 @@ for dataset, item in datasets.items():
                 "guidance": row.get("guidance", ""),
                 "examples": examples,
                 "hint": row.get("hint", ""),
+                "notes": row.get("notes", ""),
+                "start-date": row.get("start-date", ""),
+                "end-date": row.get("end-date", ""),
             }
         )
