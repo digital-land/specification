@@ -52,6 +52,7 @@ datasets:
           - field: reference
             requirement-level: MUST
           - field: local-plan
+            requirement-level: MUST
           - field: local-planning-authority
             requirement-level: SHOULD
           - field: required-housing
@@ -83,6 +84,7 @@ datasets:
           - field: description
             requirement-level: MAY
           - field: local-plan
+            requirement-level: MUST
           - field: document-types
             requirement-level: SHOULD
           - field: documentation-url

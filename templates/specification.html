@@ -26,6 +26,10 @@ code.field {
   margin-bottom: 0;
 }
 
+.diagram {
+ margin-bottom: 30px;
+}
+
 .guidance,
 .note,
 .example,
@@ -91,7 +95,6 @@ h1, h2::before, h3::before, h4::before {
 }
 */
 
-
 </style>
 {% endblock dlStyle %}
 
@@ -122,8 +125,9 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-grid-column-full">
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
     <p>
-      This specification defines the contents and format of data which a planning authority or other party may use to provide 
-      {{ (item["description"] or "information about one or more " + item["plural"]) + "." }}
+    This specification defines the contents and format of data which a
+    <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
+    or other party may use to provide {{ (item["description"] or "information about one or more " + item["plural"]) + "." }}
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
@@ -184,6 +188,97 @@ h1, h2::before, h3::before, h4::before {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
+    {# Include the relationship diagram if there are more than one dataset #}
+    {% if item["datasets"]|length > 1 %}
+    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+
+    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
+    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
+    
+    <img src="diagram.svg" class="diagram">
+    {% endif %}
+
+    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+{% for d in item["datasets"]|sort(attribute='priority') %}
+    {% set _d = tables["dataset"][d["dataset"]] %}
+    {% set name = tables["dataset"][d["dataset"]]["name"] %}
+
+    <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(name) }}</h3>
+    <p class="description">{{ sentence(d["description"] or _d["description"]) }}</p>
+
+    {% if _d["guidance"] %}<div class="guidance">{{ _d["guidance"] | markdown }}</div>{% endif %}
+    {% if _d["notes"] %}<div class="note">{{ _d["notes"] | markdown }}</div>{% endif %}
+
+    <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
+
+    <h3 id="{{d["dataset"]}}__fields">{{sentence_case(_d["name"])}} fields</h3>
+
+    <table class="govuk-table">
+        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    {%- for f in d["fields"] %}
+    {% set field = f["field"] %}
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#field-{{field}}">{{ field }}</a></th>
+      <td scope="row" class="govuk-table__cell">{{ tables["field"][field]["datatype"] }}</td>
+      <td scope="row" class="govuk-table__cell">{{ f["requirement-level"] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+    {%- for f in d["fields"] %}
+    {% set field = f["field"] %}
+    {% set fieldname = tables["field"][field]["name"] %}
+
+    <h4 id="field-{{field}}">{{ fieldname }}</h4>
+
+    {% set level = f["requirement-level"] or "MAY" %}
+    {% set datatype = tables["field"][f["field"]]["datatype"] %}
+    {% set fieldtype = {"reference": "reference"}.get(field, None) or { "url": "URL", "curie": "reference", "multipolygon": "geometry", "text": "string", "string": "string" }.get(datatype, datatype) %}
+
+
+    <!- brute force for now, needs an index -->
+    {%- for _f, df in tables["dataset-field"][d["dataset"]].items() -%}
+    {%- if _f == f["field"] -%}
+
+        {%- if df["description"] != "" %}<p class="description">{{ sentence(df["description"]) }}</p>{% endif -%}
+        {%- if df["notes"] != "" %}<p class="note">{{ sentence(df["notes"]) }}</p>{% endif -%}
+
+        {%- if df["guidance"] != "" -%}
+        {% include "partials/dataset-field-guidance.html" %}
+        {%- endif -%}
+    {%- endif -%}
+    {%- endfor %}
+
+    <p class="assertion">Each {{ name }} entry {{level}} contain 
+    a{% if f["field"][0] in "aeiou" %}n{% endif %} 
+    <code class="field">{{f["field"]}}</code> field.</p>
+    <p class="assertion">The {{ name }} <code class="field">{{field}}</code> field MUST be
+    a{% if fieldtype[0] in "aeiou" %}n{% endif %} 
+    <a href="#fieldtype-{{fieldtype}}">{{fieldtype}}</a> value.</p>
+
+    {% if f["dataset"] and tables["dataset"].get(f["dataset"]) and tables["dataset"][f["dataset"]].get("typology", "") == "category" -%}
+    <p class="assertion">Each {{ name }} entry {{level}} contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/{{f['dataset']}}">{{f['dataset']}} dataset.</a>
+    </p>
+    {%- endif %}</li>
+
+    <!-- deprecated specification description .. -->
+    {% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
+
+    {%- endfor %}
+{% endfor %}
+
+
     <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
 
     <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
@@ -235,68 +330,6 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
 
-    <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
-    <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
-    and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
-    
-    <img src="diagram.svg">
-
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
-{% for d in item["datasets"]|sort(attribute='priority') %}
-    {% set _d = tables["dataset"][d["dataset"]] %}
-    {% set name = tables["dataset"][d["dataset"]]["name"] %}
-
-    <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(name) }}</h3>
-    <p class="description">{{ sentence(d["description"] or _d["description"]) }}</p>
-
-    {% if _d["guidance"] %}<div class="guidance">{{ _d["guidance"] | markdown }}</div>{% endif %}
-    {% if _d["notes"] %}<div class="note">{{ _d["notes"] | markdown }}</div>{% endif %}
-
-    <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
-
-    <h3 id="{{d["dataset"]}}__fields">{{sentence_case(_d["name"])}} fields</h3>
-    {%- for f in d["fields"] %}
-    {% set field = f["field"] %}
-    {% set fieldname = tables["field"][field]["name"] %}
-
-    <h4>{{ fieldname }}</h4>
-
-    {% set level = f["requirement-level"] or "MAY" %}
-    {% set datatype = tables["field"][f["field"]]["datatype"] %}
-    {% set fieldtype = {"reference": "reference"}.get(field, None) or { "url": "URL", "curie": "reference", "multipolygon": "geometry", "text": "string", "string": "string" }.get(datatype, datatype) %}
-
-
-    <!- brute force for now, needs an index -->
-    {%- for _f, df in tables["dataset-field"][d["dataset"]].items() -%}
-    {%- if _f == f["field"] -%}
-
-        {%- if df["description"] != "" %}<p class="description">{{ sentence(df["description"]) }}</p>{% endif -%}
-        {%- if df["notes"] != "" %}<p class="note">{{ sentence(df["notes"]) }}</p>{% endif -%}
-
-        {%- if df["guidance"] != "" -%}
-        {% include "partials/dataset-field-guidance.html" %}
-        {%- endif -%}
-    {%- endif -%}
-    {%- endfor %}
-
-    <p class="assertion">Each {{ name }} entry {{level}} contain 
-    a{% if f["field"][0] in "aeiou" %}n{% endif %} 
-    <code class="field">{{f["field"]}}</code> field.</p>
-    <p class="assertion">The {{ name }} <code class="field">{{field}}</code> field MUST be
-    a{% if fieldtype[0] in "aeiou" %}n{% endif %} 
-    <a href="#fieldtype-{{fieldtype}}">{{fieldtype}}</a> value.</p>
-
-    {% if f["dataset"] and tables["dataset"].get(f["dataset"]) and tables["dataset"][f["dataset"]].get("typology", "") == "category" -%}
-    <p class="assertion">Each {{ name }} entry {{level}} contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/{{f['dataset']}}">{{f['dataset']}} dataset.</a>
-    </p>
-    {%- endif %}</li>
-
-    <!-- deprecated specification description .. -->
-    {% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
-
-    {%- endfor %}
-{% endfor %}
 
     <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
 
