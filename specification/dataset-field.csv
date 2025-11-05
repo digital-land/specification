@@ -1820,7 +1820,8 @@ local-plan-document-type,prefix,prefix,,,,,,,
 local-plan-document-type,reference,,,,,,,,
 local-plan-document-type,start-date,,,,,,,,
 local-plan-document,description,,,,,,,,
-local-plan-document,local-plan,local-plan,,,,,,,
+local-plan-document,local-plan,local-plan,associated local plan,"Enter the reference for the local plan which the document is associated with.
+",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""central-lincolnshire""}]",,
 local-plan-document,document-types,,,"Enter at least one of the following [local-plan-document-type](https://www.planning.data.gov.uk/dataset/local-plan-document-type) values:
 
 * `adoption-statement`
@@ -1906,22 +1907,34 @@ local-plan-process,priority,,,,,,,,
 local-plan-process,prefix,prefix,,,,,,,
 local-plan-process,reference,,,,,,,,
 local-plan-process,start-date,,,,,,,,
-local-plan-timetable,local-plan,local-plan,,,,,,,
+local-plan-timetable,local-plan,local-plan,associated local plan,"Enter the reference of the local plan which this event forms part of its timetable.
+",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""central-lincolnshire""}]",,
 local-plan-timetable,local-plan-event,local-plan-event,,,,,,,
-local-plan-timetable,document-url,,,,,,,,
-local-plan-timetable,documentation-url,,,,,,,,
-local-plan-timetable,end-date,,,,,,,,
+local-plan-timetable,document-url,,,"Provide the URL of a webpage on your website where this information is documented.
+For older local plans, this is the Local Development Scheme, which is often a PDF or other document.
+This value may be left blank where the timetable information is published on the `document-url` webpage.
+",,,,,
+local-plan-timetable,documentation-url,,,"Provide the URL of the webpage on your website where this information is documented.
+",,,,,
+local-plan-timetable,end-date,,date when this event was removed from the timetable,"This field is currently unused in this dataset.
+",,,,,
 local-plan-timetable,entity,entity,,,,,,,
 local-plan-timetable,entry-date,,,,,,,,
-local-plan-timetable,event-date,,,,,deprecated field,,,
-local-plan-timetable,estimated-period-start-date,,,,,,,,
-local-plan-timetable,estimated-period-end-date,,,,,,,,
+local-plan-timetable,event-date,,,,,"deprecated field, the `start-date` records when the event happened",,,
+local-plan-timetable,predicted-earliest-date,,earliest predicted date for the event,"Enter the earliest date when this event is expected to happen.
+",,"Older published schemes often use vaugue descriptions such as `Spring 2020` or `Q2 2018`.
+Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.
+","[{""value"": ""2027-01-01""}]",,
+local-plan-timetable,predicted-latest-date,,latest predicted date for the event,"Enter the latest date when this event is expected to happen.
+",,,"[{""value"": ""2027-03-31""}]",,
 local-plan-timetable,name,,,,,,,,
 local-plan-timetable,notes,,,,,,,,
 local-plan-timetable,organisation,organisation,,,,,,,
 local-plan-timetable,prefix,prefix,,,,,,,
 local-plan-timetable,reference,,,,,,,,
-local-plan-timetable,start-date,,,,,,,,
+local-plan-timetable,start-date,,date of the timetable event,"Enter the date when the timetable event occured. Leave blank when predicting future events,
+such as when you expect a draft local plan to be adopted.
+",,,,,
 local-plan,adopted-date,,,"The `start-date` field indicates when a plan came into force, that is adopted.
 ",,This field has been deprecated. The `start-date` field records when a plan was adopted.,,,2025-11-01
 local-plan,documentation-url,,local plan documentation page,"The URL of the webpage on your website for the local plan

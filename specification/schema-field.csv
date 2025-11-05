@@ -1853,8 +1853,8 @@ local-plan-timetable,end-date
 local-plan-timetable,entity
 local-plan-timetable,entry-date
 local-plan-timetable,event-date
-local-plan-timetable,estimated-period-start-date
-local-plan-timetable,estimated-period-end-date
+local-plan-timetable,predicted-earliest-date
+local-plan-timetable,predicted-latest-date
 local-plan-timetable,name
 local-plan-timetable,notes
 local-plan-timetable,organisation

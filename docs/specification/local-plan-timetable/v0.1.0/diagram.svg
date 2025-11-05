@@ -33,19 +33,19 @@
 <text x="167" y="70" class="datatype">reference</text>
 <rect x="0" y="80" width="162" height="20" class="field"/>
 <rect x="162" y="80" width="64" height="20" class="datatype"/>
-<text x="5" y="90" class="field">event-date</text>
+<text x="5" y="90" class="field">predicted-earliest-date</text>
 <text x="167" y="90" class="datatype">datetime</text>
 <rect x="0" y="100" width="162" height="20" class="field"/>
 <rect x="162" y="100" width="64" height="20" class="datatype"/>
-<text x="5" y="110" class="field">entry-date</text>
+<text x="5" y="110" class="field">predicted-latest-date</text>
 <text x="167" y="110" class="datatype">datetime</text>
 <rect x="0" y="120" width="162" height="20" class="field"/>
 <rect x="162" y="120" width="64" height="20" class="datatype"/>
-<text x="5" y="130" class="field">start-date</text>
+<text x="5" y="130" class="field">entry-date</text>
 <text x="167" y="130" class="datatype">datetime</text>
 <rect x="0" y="140" width="162" height="20" class="field"/>
 <rect x="162" y="140" width="64" height="20" class="datatype"/>
-<text x="5" y="150" class="field">end-date</text>
+<text x="5" y="150" class="field">start-date</text>
 <text x="167" y="150" class="datatype">datetime</text>
 <rect x="0" y="160" width="162" height="20" class="field"/>
 <rect x="162" y="160" width="64" height="20" class="datatype"/>

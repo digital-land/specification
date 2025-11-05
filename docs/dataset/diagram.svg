@@ -1666,11 +1666,11 @@ text.datatype{fill:#0b0c0c;}
 <text x="841" y="850" class="datatype">datetime</text>
 <rect x="674" y="860" width="162" height="20" class="field"/>
 <rect x="836" y="860" width="55" height="20" class="datatype"/>
-<text x="679" y="870" class="field">estimated-period-start-date</text>
+<text x="679" y="870" class="field">predicted-earliest-date</text>
 <text x="841" y="870" class="datatype">datetime</text>
 <rect x="674" y="880" width="162" height="20" class="field"/>
 <rect x="836" y="880" width="55" height="20" class="datatype"/>
-<text x="679" y="890" class="field">estimated-period-end-date</text>
+<text x="679" y="890" class="field">predicted-latest-date</text>
 <text x="841" y="890" class="datatype">datetime</text>
 <rect x="674" y="900" width="162" height="20" class="field"/>
 <rect x="836" y="900" width="55" height="20" class="datatype"/>
