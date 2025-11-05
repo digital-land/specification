@@ -7810,20 +7810,20 @@ text.datatype{fill:#0b0c0c;}
 <text x="1732" y="2970" class="datatype">reference*</text>
 <rect x="1565" y="2980" width="162" height="20" class="field"/>
 <rect x="1727" y="2980" width="55" height="20" class="datatype"/>
-<text x="1570" y="2990" class="field">organisations</text>
-<text x="1732" y="2990" class="datatype">curie*</text>
+<text x="1570" y="2990" class="field">documentation-url</text>
+<text x="1732" y="2990" class="datatype">url</text>
 <rect x="1565" y="3000" width="162" height="20" class="field"/>
 <rect x="1727" y="3000" width="55" height="20" class="datatype"/>
-<text x="1570" y="3010" class="field">documentation-url</text>
+<text x="1570" y="3010" class="field">document-url</text>
 <text x="1732" y="3010" class="datatype">url</text>
 <rect x="1565" y="3020" width="162" height="20" class="field"/>
 <rect x="1727" y="3020" width="55" height="20" class="datatype"/>
-<text x="1570" y="3030" class="field">document-url</text>
-<text x="1732" y="3030" class="datatype">url</text>
+<text x="1570" y="3030" class="field">notes</text>
+<text x="1732" y="3030" class="datatype">text</text>
 <rect x="1565" y="3040" width="162" height="20" class="field"/>
 <rect x="1727" y="3040" width="55" height="20" class="datatype"/>
-<text x="1570" y="3050" class="field">notes</text>
-<text x="1732" y="3050" class="datatype">text</text>
+<text x="1570" y="3050" class="field">organisation</text>
+<text x="1732" y="3050" class="datatype">curie</text>
 <rect x="1565" y="3060" width="162" height="20" class="field"/>
 <rect x="1727" y="3060" width="55" height="20" class="datatype"/>
 <text x="1570" y="3070" class="field">entry-date</text>

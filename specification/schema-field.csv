@@ -611,6 +611,7 @@ dataset-field,field
 dataset-field,field-dataset
 dataset-field,guidance
 dataset-field,hint
+dataset-field,notes
 dataset-field,start-date
 dataset-resource,end-date
 dataset-resource,entry-date
@@ -1801,7 +1802,7 @@ local-plan-document,entity
 local-plan-document,entry-date
 local-plan-document,name
 local-plan-document,notes
-local-plan-document,organisations
+local-plan-document,organisation
 local-plan-document,prefix
 local-plan-document,reference
 local-plan-document,start-date
