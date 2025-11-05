@@ -1,0 +1,13 @@
+    <div class="guidance">
+        <p>{{ df["guidance"] | markdown }}</p>
+
+        {%- if df["examples"]|length > 0 %}
+            {%- if df["examples"]|length == 1 %}<p>Example: {%- else -%}<p>Examples:</p><ul>{%- endif -%}
+            {% for ex in df["examples"] %}
+                {%- if df["examples"]|length > 1 %}<li>{% endif %}
+                    <code class="value">{{ ex["value"] }}</code>
+                    {%- if ex["description"] %}&mdash;{{ ex["description"] }}{% endif %}
+            {% endfor %}
+            {%- if df["examples"]|length == 1 %}</p>{%- else %}</ul>{% endif %}
+         {% endif %}
+    </div>
