@@ -3,28 +3,66 @@ attribution: ons-boundary
 collection: local-planning-authority
 consideration: local-planning-authority
 dataset: local-planning-authority
-description: ''
+description: 'local planning authority boundary'
 end-date: ''
 entity-maximum: '626999'
 entity-minimum: '624000'
 entry-date: ''
 fields:
+- field: document-url
+  guidance: |
+     Enter the URL of the document or webpage on your website where the 
+     authorititive "red-line" boundary may be found.
+- field: documentation-url
+  description: local planning authority documentation page
+  definition: URL of the [Source documentation](#source-documentation) page
+  guidance: |
+     Enter the URL of the webpage on your website where information about the Local Planning Authority
+     including the boundary may be found.
 - field: end-date
 - field: entity
 - field: entry-date
 - field: geometry
 - field: name
+  description: Local Planning Authority name
+  guidance: |
+     Enter the name of the Local Planning Authority.
+  examples:
+    - value: "Old Oak and Park Royal Development Corporation (OPDC)"
 - field: notes
+  guidance: |
+      Enter any notes to help a user understand how the data was made or is to be interpreted.
+  examples:
+     - value: | 
+         The London Legacy Development Corporation was planning authority for its area until the end of November 2024.
+         All enquiries in respect of planning policy and Community Infrastructure Levy should now be made to 
+         the relevant borough.
 - field: organisation
 - field: point
 - field: prefix
 - field: reference
+  guidance: |
+    Enter the GSS code for the Local Planning Authority area. 
+    You can create a unique reference where no GSS code exists and
+    republish the data with the official GSS code once it is known.
+  examples:
+    - value: E60000330
+    - value: borchester-development-corporation
 - field: region
 - field: start-date
 github-discussion: 36
+guidance: |
+   A mayoral authority, or other organisatoon responsible for the designation of a 
+   development corporation or other kind of Local Planning Authority can use this 
+   specification to provide the boundary of the Local Planning Authority area.
 key-field: ''
 licence: ogl3
 name: Local planning authority
+notes: |
+   The `local-planning-authority` dataset name was taken from the name used by 
+   the Office of National Statistics (ONS) for the Local Planning Authority 
+   boundary. It describes the statistical geography rather than the organisational
+   role, which is also known as the "Local Planning Authority" (LPA).
 paint-options: ''
 phase: beta
 plural: Local planning authorities
@@ -40,10 +78,10 @@ wikidata: Q6664495
 wikipedia: Local_planning_authority
 ---
 
-This dataset contains the administrative boundaries of local planning authorities in England.
+This dataset contains the administrative boundary for each Local Planning Authority (LPA) in England.
 
-It can be used for:
+It can be used to:
 <ul>
-<li>producing statistics</li>
-<li>understanding responsible LPAs on a national scale for planning applications, for example</li>
+<li>assist in the production planning and other statistics</li>
+<li>help find the LPA responsible for a planning application on a map, for example</li>
 </ul>
