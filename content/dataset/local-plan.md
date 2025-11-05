@@ -3,19 +3,20 @@ attribution: crown-copyright
 collection: 'local-plan'
 consideration: local-plans
 dataset: local-plan
-description: 'Local plans prepared by a Local Planning Authority'
+description: 'local plans prepared by a Local Planning Authority'
 end-date: ''
 entity-maximum: '4229999'
 entity-minimum: '4220000'
 entry-date: '2024-09-14'
 fields:
 - field: adopted-date
-  notes: deprecated
+  notes: This field has been deprecated. The `start-date` field records when a plan was adopted.
+  end-date: 2025-11-01
   guidance: |
       The `start-date` field indicates when a plan came into force, that is adopted.
 - field: documentation-url
   description: local plan documentation page
-  definition: The URL of the [Source documentation](#source-documentation) page.
+  definition: URL of the [Source documentation](#source-documentation) page
   guidance: |
      The URL of the webpage on your website for the local plan
 
@@ -38,7 +39,7 @@ fields:
 - field: entity
 - field: entry-date
 - field: local-plan-boundary
-  description: the area covered by the local plan
+  description: area covered by the local plan
   guidance: This area is created by the planning data platform from the local-planning-authorites values.
 - field: local-plan-process
   description: 'examination process under which this local plan was or is being produced'
@@ -78,13 +79,13 @@ fields:
     - value: 'national-park-authority:Q72617158'
     - value: 'local-authority:LIC;local-authority:NKE;local-authority:WLI'
 - field: period-end-date
-  description: the end date of the period the plan covers
+  description: end date of the period the plan covers
   guidance: 'Enter the end of the plan period. This is may be just the year in `YYYY` format.'
   examples:
     - value: 2041
     - value: 2035-06-30
 - field: period-start-date
-  description: the start date of the period the plan covers
+  description: start date of the period the plan covers
   guidance: 'Enter the start of the plan period. This is usually just a year in `YYYY` format.'
   examples:
     - value: 2018
@@ -97,7 +98,7 @@ fields:
     A reference or ID for each local plan that is:
 
     * unique within your dataset
-    * permanent - it doesn’t change when the dataset is updated
+    * persistent - it doesn’t change when the dataset is updated
 
     If you don’t have a reference for the local plan already, you will need to create one. This can be a short set of letters or numbers.
   examples:
@@ -106,7 +107,7 @@ fields:
     - value: 'central-lincolnshire'
     - value: 'barnet-local-plan-2021-2036'
 - field: start-date
-  description: when the plan was officially adopted
+  description: date when the plan was officially adopted
   guidance: |
       Enter the date when the plan was officially adopted. 
       This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
@@ -120,7 +121,7 @@ phase: alpha
 plural: Local plans
 prefix: ''
 realm: dataset
-replacement-dataset: ''
+-dataset: ''
 start-date: ''
 themes:
 - development

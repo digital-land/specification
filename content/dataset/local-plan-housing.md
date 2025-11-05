@@ -10,20 +10,24 @@ entity-minimum: '1100000'
 entry-date: '2024-10-26'
 fields:
 - field: allocated-housing
-  description: amount of additional housing allocated to sites within the local-planning-authority area in the local-plan
+  description: 'amount of housing already committed for development'
   guidance: |
-        Enter the amount of net additional housing which have been allocated to sites with the local planning authority area in the local plan.
+        Enter the amount of net additional housing which have been allocated to sites 
+        by the local plan within this `local-planning-authority` area by the `local-plan`.
   examples:
     - value: 9239
 - field: broad-locations-housing
-  description: 'amount of net additional housing expected to be delivered from broad locations for development within the local-planning-authority-area in the local plan'
+  description: 'amount of net additional housing expected to be delivered from broad locations for development'
   guidance: |
-        Enter the amount of net additional housing which have been allocated to sites in the local plan.
+        Enter the amount of net additional housing expected to be delivered from broad locations for development 
+        by the local plan within this `local-planning-authority` area by the `local-plan`.
   examples:
     - value: 15660
 - field: committed-housing
-  description: the amount of housing already committed for development within the local-plannning-authority area in the local-plan
-  guidance: Enter the amount of housing already committed for development within the local plan area at the time the local plan was adopted.
+  description: 'amount of net additional housing already committed for development'
+  guidance: |
+        Enter the amount of housing already committed for development
+        by the local plan within this `local-planning-authority` area by the `local-plan`.
 - field: description
 - field: documentation-url
   description: local plan documentation page
@@ -59,15 +63,20 @@ fields:
     - value: 'central-lincolnshire'
     - value: 'barnet-local-plan-2021-2036'
 - field: required-housing
-  description: the total housing requirement (net additional housing) for the local-plan period
-  guidance: Enter the amount of housing required in the local planning authority area for the local plan period.
+  description: total housing requirement (net additional housing)
+  guidance: |
+        Enter the amount of housing required (net additional housing)
+        within this `local-planning-authority` area for this `local-plan`.
   examples:
     - example: durham-local-plan
       entry-number: 1
       value: 24852
 - field: start-date
 - field: windfall-housing
-  description: the amount of additional housing expected to be delivered from windfall developments during the local plan period
+  description: amount of net additional housing expected to be delivered from windfall developments
+  guidance: |
+        Enter the amount of housing (net additional housing) expected to be delivered by windfall sites
+        within this `local-planning-authority` area for this `local-plan`.
 github-discussion: 26
 key-field: ''
 licence: ogl3

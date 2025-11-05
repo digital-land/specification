@@ -18,6 +18,7 @@ fields:
 - field: field-dataset
 - field: guidance
 - field: hint
+- field: notes
 - field: start-date
 key-field: ''
 licence: ogl3
