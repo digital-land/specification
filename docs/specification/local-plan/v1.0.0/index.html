@@ -392,8 +392,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index --><p class="description">
     Local plan boundary reference.
@@ -408,6 +406,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">a unique identifier for the boundary the plan covers. If it covers the exact planning authority boundary then use the planning authority boundary reference</p>
     
@@ -418,8 +418,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -433,6 +431,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-string">string</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">a name for the boundary. For example, `City of York boundary`</p>
     
@@ -443,8 +443,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -458,6 +456,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-geometry">geometry</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the boundary in WKT format</p>
     
@@ -469,8 +469,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/development-plan-boundary-type">development-plan-boundary-type dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -480,6 +478,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Local plan boundary <code class="field">plan-boundary-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Local plan boundary entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/development-plan-boundary-type">development-plan-boundary-type dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the type of boundary, it can be one of `planning-authority-district`, `combined-planning-authority-district` or `designated‑plan‑area`</p>
@@ -492,8 +494,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -503,6 +503,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Local plan boundary <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a description of the boundary. Provide more detail if boundary is different from planning authority boundary</p>
@@ -514,8 +516,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -529,6 +529,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-string">string</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">a list of codes for the responsible organisations, separated by ;</p>
     
@@ -540,8 +542,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -551,6 +551,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Local plan boundary <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date this information has been entered as a record</p>
@@ -563,8 +565,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -574,6 +574,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Local plan boundary <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record starts</p>
@@ -586,8 +588,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -597,6 +597,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Local plan boundary <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record ends</p>
@@ -628,8 +630,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index --><p class="description">
     Local plan reference.
@@ -658,6 +658,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">an unique identifier for a local plan</p>
     
@@ -668,8 +670,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -690,6 +690,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-string">string</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the name of the local plan (for example, The Adopted Local Plan for Leeds)</p>
     
@@ -701,8 +703,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -712,6 +712,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Local plan <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">brief description of plan</p>
@@ -723,8 +725,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -747,6 +747,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the start date of the period the plan covers</p>
     
@@ -757,8 +759,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -779,6 +779,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the end date of the period the plan covers</p>
     
@@ -789,8 +791,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -806,6 +806,8 @@ h1, h2::before, h3::before, h4::before {
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the reference code for the boundary the plan covers</p>
     
@@ -816,8 +818,6 @@ h1, h2::before, h3::before, h4::before {
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -844,6 +844,8 @@ Where there are several local plans listed on a single webpage, you will need to
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the web page where you can find the documentation for the plan</p>
     
@@ -854,8 +856,6 @@ Where there are several local plans listed on a single webpage, you will need to
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="note">
@@ -871,6 +871,8 @@ Where there are several local plans listed on a single webpage, you will need to
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the date a plan is officially adopted</p>
     
@@ -881,8 +883,6 @@ Where there are several local plans listed on a single webpage, you will need to
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -905,6 +905,8 @@ Where there are several local plans listed on a single webpage, you will need to
     a 
     <a href="#fieldtype-string">string</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">a list of codes for the responsible organisations, separated by ;</p>
     
@@ -916,8 +918,6 @@ Where there are several local plans listed on a single webpage, you will need to
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -927,6 +927,8 @@ Where there are several local plans listed on a single webpage, you will need to
     <p class="assertion">The Local plan <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date this information has been entered as a record</p>
@@ -938,8 +940,6 @@ Where there are several local plans listed on a single webpage, you will need to
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -957,6 +957,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record starts</p>
     
@@ -967,8 +969,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -981,6 +981,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record ends</p>
@@ -1012,8 +1014,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1023,6 +1023,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">An unique identifier for this record (for example, xyz-123-abc)</p>
@@ -1035,8 +1037,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1046,6 +1046,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">The name of this document</p>
@@ -1058,8 +1060,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1069,6 +1069,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">Brief description of this document</p>
@@ -1080,8 +1082,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -1102,6 +1102,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     a 
     <a href="#fieldtype-string">string</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">The reference for the particular local plan (for example, dorcester-new-local-plan)</p>
     
@@ -1112,8 +1114,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index -->    <div class="guidance">
@@ -1151,6 +1151,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     a 
     <a href="#fieldtype-string">string</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">The code for this document type (for example policy map)</p>
     
@@ -1161,8 +1163,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -1181,6 +1181,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
      <p class="description">The webpage where you can find this document</p>
     
@@ -1192,8 +1194,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1203,6 +1203,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">document-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">The URL of the actual document</p>
@@ -1215,8 +1217,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1226,6 +1226,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">organisations</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a list of codes for the responsible organisations, separated by ;</p>
@@ -1238,8 +1240,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1249,6 +1249,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date this information has been entered as a record</p>
@@ -1261,8 +1263,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1272,6 +1272,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record starts</p>
@@ -1284,8 +1286,6 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1295,6 +1295,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     <p class="assertion">The Local plan document <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record ends</p>

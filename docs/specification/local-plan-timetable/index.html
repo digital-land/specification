@@ -356,8 +356,8 @@ h1, h2::before, h3::before, h4::before {
     A log of past and predicted milestones and events when producing a local plan.
 </p>
 
-    <p class="guidance"><p class="govuk-body">The local plan timetable is a record of the key dates when producing a local plan.
-Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> dataset with the date when the event happened, or your estimated period for where an event is in the future.</p></p>
+    <div class="guidance"><p class="govuk-body">The local plan timetable is a record of the key dates when producing a local plan.
+Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> dataset with the date when the event happened, or your estimated period for where an event is in the future.</p></div>
     
 
     <p class="assertion">The Local plan timetable dataset SHOULD contain at least one entry for each Local plan timetable for which the data provider is the responsible authority.</p>
@@ -374,8 +374,6 @@ Your data should include a row for each of the events listed in the <a href="htt
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -385,6 +383,8 @@ Your data should include a row for each of the events listed in the <a href="htt
     <p class="assertion">The Local plan timetable <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -396,8 +396,6 @@ Your data should include a row for each of the events listed in the <a href="htt
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -418,6 +416,8 @@ Your data should include a row for each of the events listed in the <a href="htt
     a 
     <a href="#fieldtype-string">string</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
     
     
@@ -429,10 +429,35 @@ Your data should include a row for each of the events listed in the <a href="htt
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/local-plan-event">local-plan-event dataset</a></li>
 
-
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index -->    <div class="guidance">
+        <p><p class="govuk-body">Enter one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> values:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li><code>plan-adopted</code></li>
+<li><code>inspector-report-published</code></li>
+<li><code>submit-plan-for-examination</code></li>
+<li><code>planning-inspectorate-examination-start</code></li>
+<li><code>planning-inspectorate-examination-end</code></li>
+<li><code>planning-inspectorate-found-sound</code></li>
+<li><code>timetable-published</code></li>
+<li><code>estimated-submit-plan-for-examination</code></li>
+<li><code>reg-18-draft-local-plan-published</code></li>
+<li><code>reg-18-public-consultation-start</code></li>
+<li><code>reg-18-public-consultation-end</code></li>
+<li><code>reg-19-publication-local-plan-published</code></li>
+<li><code>reg-19-public-consultation-start</code></li>
+<li><code>reg-19-public-consultation-end</code></li>
+<li><code>estimated-reg-18-draft-local-plan-published</code></li>
+<li><code>estimated-reg-18-public-consultation-end</code></li>
+<li><code>estimated-reg-19-public-consultation-start</code></li>
+<li><code>estimated-reg-19-public-consultation-end</code></li>
+<li><code>estimated-reg-18-public-consultation-start</code></li>
+<li><code>estimated-reg-19-publication-local-plan-published</code></li>
+<li><code>estimated-plan-adoption-date</code></li>
+<li><code>plan-withdrawn</code></li>
+<li><code>plan-revoked</code></li>
+</ul></p>
+    </div>
 
     <p class="assertion">Each Local plan timetable entry MUST contain 
     a 
@@ -440,6 +465,10 @@ Your data should include a row for each of the events listed in the <a href="htt
     <p class="assertion">The Local plan timetable <code class="field">local-plan-event</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Local plan timetable entry MUST contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/local-plan-event">local-plan-event dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
     
@@ -451,8 +480,6 @@ Your data should include a row for each of the events listed in the <a href="htt
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -474,6 +501,8 @@ Using a range of full dates helps producing timetables and other charts and usin
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
     
     
@@ -484,8 +513,6 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -504,6 +531,8 @@ Using a range of full dates helps producing timetables and other charts and usin
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
     
     
@@ -515,8 +544,6 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -526,6 +553,8 @@ Using a range of full dates helps producing timetables and other charts and usin
     <p class="assertion">The Local plan timetable <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -537,8 +566,6 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     
     
-
-    </li>
 
 
     <!- brute force for now, needs an index --><p class="description">
@@ -555,6 +582,8 @@ such as when you expect a draft local plan to be adopted.</p></p>
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
 
+    </li>
+
     <!-- deprecated specification description .. -->
     
     
@@ -566,8 +595,6 @@ such as when you expect a draft local plan to be adopted.</p></p>
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -577,6 +604,8 @@ such as when you expect a draft local plan to be adopted.</p></p>
     <p class="assertion">The Local plan timetable <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     

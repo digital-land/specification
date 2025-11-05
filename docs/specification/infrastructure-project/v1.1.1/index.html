@@ -388,8 +388,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -399,6 +397,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the NSIP id</p>
@@ -411,8 +411,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -422,6 +420,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the name of the project</p>
@@ -434,8 +434,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -445,6 +443,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a brief description of the project</p>
@@ -457,8 +457,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -468,6 +466,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">applicant-organisation</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the organisation id of the organisation making the application</p>
@@ -480,8 +480,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-decision">infrastructure-project-decision dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -491,6 +489,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">infrastructure-project-decision</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-decision">infrastructure-project-decision dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the decision, once it has been made. For example `consent-granted`</p>
@@ -503,8 +505,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -514,6 +514,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">decision-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the decision was made, for example `2023-09-14`</p>
@@ -526,8 +528,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -537,6 +537,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">decision-maker</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">which secretary of state made the decision</p>
@@ -549,8 +551,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -560,6 +560,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">geometry</code> field MUST be
     a 
     <a href="#fieldtype-geometry">geometry</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the site boundary for the proposed development</p>
@@ -572,8 +574,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -583,6 +583,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">point</code> field MUST be
     a 
     <a href="#fieldtype-point">point</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -595,8 +597,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -606,6 +606,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a url to a page with more information about the project</p>
@@ -618,8 +620,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-type">infrastructure-project-type dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -629,6 +629,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">infrastructure-project-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-type">infrastructure-project-type dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the type of project, for example generating-stations</p>
@@ -641,8 +645,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -652,6 +654,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">any additional notes in this field</p>
@@ -664,8 +668,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -675,6 +677,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the organisation id of the organisation that provided this data</p>
@@ -687,8 +691,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -698,6 +700,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -710,8 +714,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -721,6 +723,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -733,8 +737,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -744,6 +746,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -775,8 +779,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -786,6 +788,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -798,8 +802,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -809,6 +811,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">infrastructure-project</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the ID of the infrastructure project</p>
@@ -821,8 +825,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-event">infrastructure-project-event dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -832,6 +834,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">infrastructure-project-event</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project log entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-event">infrastructure-project-event dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">an event reference for something that has happened during the process</p>
@@ -844,8 +850,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -855,6 +859,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">event-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the event happened, for example `2023-09-14`</p>
@@ -867,8 +873,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -878,6 +882,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">any additional notes in this field</p>
@@ -890,8 +896,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -901,6 +905,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the organisation id of the organisation that provided this data</p>
@@ -913,8 +919,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -924,6 +928,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -936,8 +942,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -947,6 +951,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -959,8 +965,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -970,6 +974,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project log <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -1001,8 +1007,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1012,6 +1016,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -1024,8 +1030,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1035,6 +1039,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">infrastructure-project</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the ID of the infrastructure project</p>
@@ -1047,8 +1053,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-document-type">infrastructure-project-document-type dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1058,6 +1062,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">document-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Infrastructure project document entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/infrastructure-project-document-type">infrastructure-project-document-type dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the type of document, for example development-consent-order</p>
@@ -1070,8 +1078,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1081,6 +1087,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a name for the document</p>
@@ -1093,8 +1101,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1104,6 +1110,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">any additional notes in this field</p>
@@ -1116,8 +1124,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1127,6 +1133,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the organisation id of the organisation that provided this data</p>
@@ -1139,8 +1147,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1150,6 +1156,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">document-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a url to the document</p>
@@ -1162,8 +1170,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1173,6 +1179,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a url to the webpage where the document has been published</p>
@@ -1185,8 +1193,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1196,6 +1202,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -1208,8 +1216,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1219,6 +1225,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     
@@ -1231,8 +1239,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -1242,6 +1248,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Infrastructure project document <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
     

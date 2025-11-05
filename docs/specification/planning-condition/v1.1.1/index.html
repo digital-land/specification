@@ -386,8 +386,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -397,6 +395,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a reference for the planning condition</p>
@@ -409,8 +409,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -420,6 +418,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a name used for this planning condition</p>
@@ -432,8 +432,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -443,6 +441,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">text explaining the condition</p>
@@ -455,8 +455,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -466,6 +464,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the organisation that created the condition</p>
@@ -478,8 +478,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/planning-condition-target">planning-condition-target dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -489,6 +487,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">planning-condition-target</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Planning condition entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/planning-condition-target">planning-condition-target dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the target of the condition, for example the planning application or the property</p>
@@ -501,8 +503,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/planning-condition-type">planning-condition-type dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -512,6 +512,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">planning-condition-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Planning condition entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/planning-condition-type">planning-condition-type dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the type of thing the condition affects, for example permitted development rights</p>
@@ -524,8 +528,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <a href="https://planning.data.gov.uk/dataset/planning-condition-purpose">planning-condition-purpose dataset</a></li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -535,6 +537,10 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">planning-condition-purpose</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    <p class="assertion">Each Planning condition entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/planning-condition-purpose">planning-condition-purpose dataset.</a>
+    </p></li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the high-level purpose of the condition, for example to restrict</p>
@@ -547,8 +553,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -558,6 +562,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">any additional notes about the condition</p>
@@ -570,8 +576,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -581,6 +585,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the condition record was created</p>
@@ -593,8 +599,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -604,6 +608,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record starts</p>
@@ -616,8 +622,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -627,6 +631,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning condition <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record starts</p>
@@ -658,8 +664,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -669,6 +673,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a reference for the planning application - condition connection</p>
@@ -681,8 +687,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -692,6 +696,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">planning-application</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a planning application reference</p>
@@ -704,8 +710,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -715,6 +719,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">planning-condition</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">a planning conidtion reference</p>
@@ -727,8 +733,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -738,6 +742,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the organisation that as added the condition to the planning application</p>
@@ -750,8 +756,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -761,6 +765,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">applied-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the condition applies from</p>
@@ -773,8 +779,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -784,6 +788,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">discharged-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the condition is discharged</p>
@@ -796,8 +802,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -807,6 +811,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">an additional notes about the planning application - condition connection</p>
@@ -819,8 +825,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -830,6 +834,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the record was created</p>
@@ -842,8 +848,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -853,6 +857,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record starts</p>
@@ -865,8 +871,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    </li>
-
 
     <!- brute force for now, needs an index -->
 
@@ -876,6 +880,8 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Planning application condition <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
+
+    </li>
 
     <!-- deprecated specification description .. -->
      <p class="description">the date the validity of the record starts</p>

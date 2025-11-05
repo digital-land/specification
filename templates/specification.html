@@ -249,8 +249,8 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(name) }}</h3>
     <p class="description">{{ sentence(d["description"] or _d["description"]) }}</p>
 
-    {% if _d["guidance"] %}<p class="guidance">{{ _d["guidance"] | markdown }}</p>{% endif %}
-    {% if _d["notes"] %}<p class="note">{{ _d["notes"] | markdown }}</p>{% endif %}
+    {% if _d["guidance"] %}<div class="guidance">{{ _d["guidance"] | markdown }}</div>{% endif %}
+    {% if _d["notes"] %}<div class="note">{{ _d["notes"] | markdown }}</div>{% endif %}
 
     <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
 
@@ -264,10 +264,6 @@ h1, h2::before, h3::before, h4::before {
     {% set level = f["requirement-level"] or "MAY" %}
     {% set datatype = tables["field"][f["field"]]["datatype"] %}
     {% set fieldtype = {"reference": "reference"}.get(field, None) or { "url": "URL", "curie": "reference", "multipolygon": "geometry", "text": "string", "string": "string" }.get(datatype, datatype) %}
-
-    {% if f["dataset"] and tables["dataset"].get(f["dataset"]) and tables["dataset"][f["dataset"]].get("typology", "") == "category" -%}
-        <a href="https://planning.data.gov.uk/dataset/{{f['dataset']}}">{{f['dataset']}} dataset</a>
-    {%- endif %}</li>
 
 
     <!- brute force for now, needs an index -->
@@ -289,6 +285,12 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The {{ name }} <code class="field">{{field}}</code> field MUST be
     a{% if fieldtype[0] in "aeiou" %}n{% endif %} 
     <a href="#fieldtype-{{fieldtype}}">{{fieldtype}}</a> value.</p>
+
+    {% if f["dataset"] and tables["dataset"].get(f["dataset"]) and tables["dataset"][f["dataset"]].get("typology", "") == "category" -%}
+    <p class="assertion">Each {{ name }} entry {{level}} contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/{{f['dataset']}}">{{f['dataset']}} dataset.</a>
+    </p>
+    {%- endif %}</li>
 
     <!-- deprecated specification description .. -->
     {% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
