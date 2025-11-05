@@ -61,6 +61,8 @@ organisations:
   start-date: 2019-01-17
 - organisation: local-authority:CRA
   start-date: 2023-03-28
+- organisation: local-authority:DER
+  start-date: 2025-12-01
 - organisation: local-authority:DOV
   start-date: 2025-04-23
 - organisation: local-authority:DUD
