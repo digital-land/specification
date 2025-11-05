@@ -17,6 +17,32 @@ fields:
     - value: 'LP-BRX-2024'
     - value: 'central-lincolnshire'
 - field: local-plan-event
+  guidance: |
+    Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/dataset/local-plan-event) values:
+
+    * `plan-adopted`
+    * `inspector-report-published`
+    * `submit-plan-for-examination`
+    * `planning-inspectorate-examination-start`
+    * `planning-inspectorate-examination-end`
+    * `planning-inspectorate-found-sound`
+    * `timetable-published`
+    * `estimated-submit-plan-for-examination`
+    * `reg-18-draft-local-plan-published`
+    * `reg-18-public-consultation-start`
+    * `reg-18-public-consultation-end`
+    * `reg-19-publication-local-plan-published`
+    * `reg-19-public-consultation-start`
+    * `reg-19-public-consultation-end`
+    * `estimated-reg-18-draft-local-plan-published`
+    * `estimated-reg-18-public-consultation-end`
+    * `estimated-reg-19-public-consultation-start`
+    * `estimated-reg-19-public-consultation-end`
+    * `estimated-reg-18-public-consultation-start`
+    * `estimated-reg-19-publication-local-plan-published`
+    * `estimated-plan-adoption-date`
+    * `plan-withdrawn`
+    * `plan-revoked`
 - field: document-url
   guidance: |
      Provide the URL of a webpage on your website where this information is documented.
