@@ -11,6 +11,12 @@ entry-date: '2024-09-14'
 fields:
 - field: description
 - field: local-plan
+  description: "associated local plan"
+  guidance: |
+    Enter the reference for the local plan which the document is associated with.
+  examples:
+    - value: 'LP-BRX-2024'
+    - value: 'central-lincolnshire'
 - field: document-types
   datasets:
     - dataset: local-plan-document-type

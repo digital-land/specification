@@ -2,13 +2,17 @@
 
 {% block dlStyle %}
 <style>
-code, code.field {
+
+/* citation of values uses the GOV.UK code default colour to simplify govspeak*/
+code,
+code.value {
     padding: 0 5px;
     color: #d4351c;
     background-color: #f3f2f1;
 }
 
-code.value {
+/* call out citation of fields */
+code.field {
     color: #00703c;
 }
 
@@ -245,8 +249,10 @@ h1, h2::before, h3::before, h4::before {
     <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(name) }}</h3>
     <p class="description">{{ sentence(d["description"] or _d["description"]) }}</p>
 
-    <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
+    {% if _d["guidance"] %}<p class="guidance">{{ _d["guidance"] | markdown }}</p>{% endif %}
+    {% if _d["notes"] %}<p class="note">{{ _d["notes"] | markdown }}</p>{% endif %}
 
+    <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
 
     <h3 id="{{d["dataset"]}}__fields">{{sentence_case(_d["name"])}} fields</h3>
     {%- for f in d["fields"] %}
