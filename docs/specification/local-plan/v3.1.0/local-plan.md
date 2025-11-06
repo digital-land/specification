@@ -27,6 +27,7 @@ datasets:
           - field: period-end-date
             requirement-level: SHOULD
           - field: local-planning-authorities
+            requirement-level: SHOULD
           - field: local-plan-process
             requirement-level: SHOULD
           - field: documentation-url
