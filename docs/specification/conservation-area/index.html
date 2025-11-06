@@ -310,9 +310,9 @@ h1, h2::before, h3::before, h4::before {
     Conservation area
 </h3>
     <p class="description">
-    A 
+    The 
     Conservation area
- dataset is 
+ dataset contains 
     An area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance.
 
     </p>
@@ -331,8 +331,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -340,96 +340,96 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-designation-date">designation-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
-      <td scope="row" class="govuk-table__cell">multipolygon</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-point">point</a></th>
-      <td scope="row" class="govuk-table__cell">point</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">point</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -444,11 +444,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -467,11 +477,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -490,11 +500,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">designation-date</code> field.</p>
+    <code class="field">designation-date</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">designation-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -513,11 +523,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A url to a document.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">document-url</code> field.</p>
+    <code class="field">document-url</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">document-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -536,11 +550,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">documentation-url</code> field.</p>
+    <code class="field">documentation-url</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -559,11 +573,24 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A polygon or multipolygon boundary.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">The boundary may be a single polygon, or a multipolygon value.
+All points should be in the WGS84 coordinate reference system.
+You may provide data containing points in another coordinate reference system, such as British National Grid,
+but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
+Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
+If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">geometry</code> field.</p>
+    <code class="field">geometry</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">geometry</code> field MUST be
     a 
     <a href="#fieldtype-geometry">geometry</a> value.</p>
@@ -582,11 +609,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">point</code> field.</p>
+    <code class="field">point</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">point</code> field MUST be
     a 
     <a href="#fieldtype-point">point</a> value.</p>
@@ -605,11 +632,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -628,11 +655,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     an 
-    <code class="field">organisation</code> field.</p>
+    <code class="field">organisation</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -651,11 +678,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -674,11 +709,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -697,11 +736,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Conservation area entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Conservation area <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -718,9 +761,9 @@ h1, h2::before, h3::before, h4::before {
     Conservation area document
 </h3>
     <p class="description">
-    A 
+    The 
     Conservation area document
- dataset is 
+ dataset contains 
     .
 
     </p>
@@ -739,8 +782,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -748,88 +791,88 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-conservation-area">conservation-area</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-type">document-type</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -844,11 +887,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -867,11 +920,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">conservation-area</code> field.</p>
+    <code class="field">conservation-area</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">conservation-area</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -890,11 +943,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -913,11 +966,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">documentation-url</code> field.</p>
+    <code class="field">documentation-url</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -936,11 +989,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A url to a document.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">document-url</code> field.</p>
+    <code class="field">document-url</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">document-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -959,11 +1016,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">document-type</code> field.</p>
+    <code class="field">document-type</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">document-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -984,11 +1041,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1007,11 +1064,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     an 
-    <code class="field">organisation</code> field.</p>
+    <code class="field">organisation</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -1030,11 +1087,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1053,11 +1118,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1076,11 +1145,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Conservation area document <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1530,6 +1603,14 @@ Other patterns for collecting data are under consideration, including feeds for 
     <dd class="govuk-summary-list__value">
     Ministry for Housing, Communities & Local Government planning data standards design process (service under development).
     <a href="https://design.planning.data.gov.uk">https://design.planning.data.gov.uk</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GSS">[GSS]</dt>
+    <dd class="govuk-summary-list__value">
+    Office for National Statistics, Geography Coding and Naming Policy for Official Statistics Version 2.0, July 2025
+    <a href="https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about">https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about</a>
     </dd>
     </div>
 

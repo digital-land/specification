@@ -648,10 +648,13 @@ dataset,attribution,attribution,,,,,,,
 dataset,collection,collection,,,,,,,
 dataset,consideration,,,,,,,,
 dataset,dataset,,,,,,,,
-dataset,description,,"short description of the dataset without the definite article, sentence captialisation or a punctuation mark.","The description is intended to be used in tables and content, so shouldn't start with the definite article (""The"", ""A"", etc)
+dataset,description,,"short description of the dataset without the definite article, sentence captialisation or a punctuation mark.","Enter a description of the dataset which could be used in a sentence such as ""A dataset containing *description* in England."" 
+
+The description is intended to be used in tables and content, so shouldn't start with the definite article (""The"", ""A"", etc)
 or end with a full-stop or other punctuation mark. 
-A user may capitalise the first letter or add a full-stop when using the description in a sentence.
-",,,"[{""value"": ""land that has been previously been developed""}]",,
+The description shouldn't start with a capital letter, unless the first word is a proper-noun, such as ""Local Planning Authority"".
+This allows a user to capitalise the first letter or add a full-stop when using the description in a sentence.
+",,,"[{""value"": ""land that has been previously been developed""}, {""value"": ""local plans prepared by a Local Planning Authority""}, {""value"": ""Local Planning Authorities and their boundaries""}]",,
 dataset,end-date,,,,,,,,
 dataset,entry-date,,,,,,,,
 dataset,github-discussion,,,,,,,,
@@ -2007,23 +2010,29 @@ authorititive ""red-line"" boundary may be found.
 local-planning-authority,documentation-url,,local planning authority documentation page,"Enter the URL of the webpage on your website where information about the Local Planning Authority
 including the boundary may be found.
 ",,,,,
-local-planning-authority,end-date,,,,,,,,
-local-planning-authority,entity,entity,,,,,,,
+local-planning-authority,end-date,,,"Enter the date this area ceased to be a Local Planning Authority.
+",,,,,
+local-planning-authority,entity,entity,,"The value is managed by the Planning Data platform.
+",,,,,
 local-planning-authority,entry-date,,,,,,,,
-local-planning-authority,geometry,,,,,,,,
+local-planning-authority,geometry,,Local Planning Authority boundary,,,,,,
 local-planning-authority,name,,Local Planning Authority name,"Enter the name of the Local Planning Authority.
 ",,,"[{""value"": ""Old Oak and Park Royal Development Corporation (OPDC)""}]",,
 local-planning-authority,notes,,,"Enter any notes to help a user understand how the data was made or is to be interpreted.
 ",,,"[{""value"": ""The London Legacy Development Corporation was planning authority for its area until the end of November 2024.\nAll enquiries in respect of planning policy and Community Infrastructure Levy should now be made to \nthe relevant borough.\n""}]",,
-local-planning-authority,organisation,organisation,,,,,,,
-local-planning-authority,point,,,,,,,,
-local-planning-authority,prefix,prefix,,,,,,,
+local-planning-authority,organisation,organisation,organisation responsible for the Local Planning Authority designation,"The value is managed by the Planning Data platform.
+",,,,,
+local-planning-authority,point,,,"The value is managed by the Planning Data platform.
+",,,,,
+local-planning-authority,prefix,prefix,,"The value is managed by the Planning Data platform.
+",,,,,
 local-planning-authority,reference,,,"Enter the GSS code for the Local Planning Authority area. 
 You can create a unique reference where no GSS code exists and
 republish the data with the official GSS code once it is known.
 ",,,"[{""value"": ""E60000330""}, {""value"": ""borchester-development-corporation""}]",,
 local-planning-authority,region,region,,,,,,,
-local-planning-authority,start-date,,,,,,,,
+local-planning-authority,start-date,,,"Enter the date this area became a Local Planning Authority.
+",,,,,
 local-resilience-forum-boundary,categories,,,,,,,,
 local-resilience-forum-boundary,documentation-url,,,,,,,,
 local-resilience-forum-boundary,end-date,,,,,,,,

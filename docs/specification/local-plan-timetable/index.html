@@ -303,9 +303,9 @@ h1, h2::before, h3::before, h4::before {
     Local plan timetable
 </h3>
     <p class="description">
-    A 
+    The 
     Local plan timetable
- dataset is 
+ dataset contains 
     a log of past and predicted milestones and events when producing a local plan.
 
     </p>
@@ -325,8 +325,8 @@ Your data should include a row for each of the events listed in the <a href="htt
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -334,64 +334,64 @@ Your data should include a row for each of the events listed in the <a href="htt
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-local-plan">local-plan</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-local-plan-event">local-plan-event</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-predicted-earliest-date">predicted-earliest-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-predicted-latest-date">predicted-latest-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
   </tbody>
@@ -406,11 +406,21 @@ Your data should include a row for each of the events listed in the <a href="htt
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Local plan timetable entry MUST contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -429,11 +439,12 @@ Your data should include a row for each of the events listed in the <a href="htt
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Associated local plan.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the reference of the local plan which this event forms part of its timetable.</p></p><p>Examples:</p><ul><li>
                     <code class="value">LP-BRX-2024</code>
             <li>
@@ -444,7 +455,7 @@ Your data should include a row for each of the events listed in the <a href="htt
 
     <p class="assertion">Each Local plan timetable entry MUST contain 
     a 
-    <code class="field">local-plan</code> field.</p>
+    <code class="field">local-plan</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">local-plan</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -463,7 +474,11 @@ Your data should include a row for each of the events listed in the <a href="htt
     
 
 
-    <!- brute force for now, needs an index -->    <div class="guidance">
+    <!- brute force for now, needs an index --><p class="description">
+    
+    An event that occurs during the local plan making process.
+
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> values:</p>
 <ul class="govuk-list govuk-list--bullet">
 <li><code>plan-adopted</code></li>
@@ -494,7 +509,7 @@ Your data should include a row for each of the events listed in the <a href="htt
 
     <p class="assertion">Each Local plan timetable entry MUST contain 
     a 
-    <code class="field">local-plan-event</code> field.</p>
+    <code class="field">local-plan-event</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">local-plan-event</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -515,15 +530,14 @@ Your data should include a row for each of the events listed in the <a href="htt
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Earliest predicted date for the event.
 
-</p><p class="note">
-    
-    Older published schemes often use vaugue descriptions such as `Spring 2020` or `Q2 2018`.
-Using a range of full dates helps producing timetables and other charts and using the data to analyse the system..
-
+</p>
+            <p class="notes">Older published schemes often use vaugue descriptions such as `Spring 2020` or `Q2 2018`.
+Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.
 </p>    <div class="guidance">
         <p><p class="govuk-body">Enter the earliest date when this event is expected to happen.</p></p><p>Example:
                     <code class="value">2027-01-01</code>
@@ -533,7 +547,7 @@ Using a range of full dates helps producing timetables and other charts and usin
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     a 
-    <code class="field">predicted-earliest-date</code> field.</p>
+    <code class="field">predicted-earliest-date</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">predicted-earliest-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -552,11 +566,12 @@ Using a range of full dates helps producing timetables and other charts and usin
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Latest predicted date for the event.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the latest date when this event is expected to happen.</p></p><p>Example:
                     <code class="value">2027-03-31</code>
             </p>
@@ -565,7 +580,7 @@ Using a range of full dates helps producing timetables and other charts and usin
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     a 
-    <code class="field">predicted-latest-date</code> field.</p>
+    <code class="field">predicted-latest-date</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">predicted-latest-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -584,11 +599,19 @@ Using a range of full dates helps producing timetables and other charts and usin
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -607,18 +630,19 @@ Using a range of full dates helps producing timetables and other charts and usin
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Date of the timetable event.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the date when the timetable event occured. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.</p></p>
     </div>
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -637,11 +661,11 @@ such as when you expect a draft local plan to be adopted.</p></p>
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Local plan timetable entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Local plan timetable <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1085,6 +1109,14 @@ Other patterns for collecting data are under consideration, including feeds for 
     <dd class="govuk-summary-list__value">
     Ministry for Housing, Communities & Local Government planning data standards design process (service under development).
     <a href="https://design.planning.data.gov.uk">https://design.planning.data.gov.uk</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GSS">[GSS]</dt>
+    <dd class="govuk-summary-list__value">
+    Office for National Statistics, Geography Coding and Naming Policy for Official Statistics Version 2.0, July 2025
+    <a href="https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about">https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about</a>
     </dd>
     </div>
 

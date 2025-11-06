@@ -1,6 +1,6 @@
 attribution,collection,consideration,dataset,description,end-date,entry-date,github-discussion,guidance,key-field,entity-minimum,entity-maximum,licence,name,paint-options,plural,phase,prefix,realm,replacement-dataset,start-date,text,themes,typology,version,wikidata,wikipedia
 crown-copyright,,,address,,,,,,,10000000000000,19999999999999,ogl3,Address,,addresses,alpha,uprn,dataset,,,,administrative,geography,1.0,,
-natural-england,agricultural-land-classification,agricultural-land-classification,agricultural-land-classification,A system that grades the quality of land for agricultural use,,2024-06-26,67,,,32000,34999,ogl3,Agricultural land classification,"{ ""colour"": ""#00703c"", ""opacity"": 0.2 }",Agricultural land classifications,alpha,,dataset,,,,environment,geography,1.0,,Agricultural_Land_Classification
+natural-england,agricultural-land-classification,agricultural-land-classification,agricultural-land-classification,land graded by its quality for agricultural use,,2024-06-26,67,,,32000,34999,ogl3,Agricultural land classification,"{ ""colour"": ""#00703c"", ""opacity"": 0.2 }",Agricultural land classifications,alpha,,dataset,,,,environment,geography,1.0,,Agricultural_Land_Classification
 defra,air-quality-management-area,air-quality-management-areas,air-quality-management-area,Areas where air pollution levels have exceeded the national air quality objectives,,2025-01-31,55,,,35000,39999,ogl3,Air quality management area,"{ ""colour"": ""#87823A"", ""opacity"": 0.3 }",Air quality management areas,live,,dataset,,,"An area designated by DEFRA.
 
 These areas are taken into consideration in both plan-making and development management decisions",environment,geography,1.0,,
@@ -250,10 +250,10 @@ crown-copyright,local-plan,development-plans-and-timetables,local-plan-timetable
 Your data should include a row for each of the events listed in the [Local Plan Event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened, or your estimated period for where an event is in the future.
 ",,4230000,4299999,ogl3,Local plan timetable,,Local plan timetables,alpha,,dataset,,,,development,timetable,1.0,,
 crown-copyright,local-plan,local-plans,local-plan,local plans prepared by a Local Planning Authority,,2024-09-14,26,,,4220000,4229999,ogl3,Local plan,,Local plans,alpha,,dataset,,,,development,legal-instrument,1.0,Q6664491,Local_plan
-ons-boundary,local-planning-authority,local-planning-authority,local-planning-authority,local planning authority boundary,,,36,"A mayoral authority, or other organisatoon responsible for the designation of a 
+ons-boundary,local-planning-authority,local-planning-authority,local-planning-authority,Local Planning Authorities and their boundaries,,,36,"A mayoral authority, or other organisation responsible for the designation of a 
 development corporation or other kind of Local Planning Authority can use this 
 specification to provide the boundary of the Local Planning Authority area.
-",,624000,626999,ogl3,Local planning authority,,Local planning authorities,beta,statistical-geography,dataset,,,"This dataset contains the administrative boundary for each Local Planning Authority (LPA) in England.
+",,624000,626999,ogl3,Local Planning Authority,,Local Planning Authorities,beta,statistical-geography,dataset,,,"This dataset contains the administrative boundary for each Local Planning Authority (LPA) in England.
 
 It can be used to:
 <ul>

@@ -1,6 +1,6 @@
 schema,name,description,key-field
 address,Address,,
-agricultural-land-classification,Agricultural land classification,A system that grades the quality of land for agricultural use,
+agricultural-land-classification,Agricultural land classification,land graded by its quality for agricultural use,
 air-quality-management-area,Air quality management area,Areas where air pollution levels have exceeded the national air quality objectives,
 ancient-woodland-status,Ancient woodland status,,
 ancient-woodland,Ancient woodland,An area that’s been wooded continuously since at least 1600 AD,
@@ -149,7 +149,7 @@ local-plan-housing,Local plan housing number,Housing numbers for a Local Plannin
 local-plan-process,Local plan process,The examination process under which a local plan is produced,
 local-plan-timetable,Local plan timetable,a log of past and predicted milestones and events when producing a local plan,
 local-plan,Local plan,local plans prepared by a Local Planning Authority,
-local-planning-authority,Local planning authority,local planning authority boundary,
+local-planning-authority,Local Planning Authority,Local Planning Authorities and their boundaries,
 local-resilience-forum-boundary,Local resilience forum boundary,,
 local-resilience-forum,Local resilience forum,,
 locally-listed-building,Locally listed building,"locally listed heritage assets, including buildings",

@@ -317,9 +317,9 @@ h1, h2::before, h3::before, h4::before {
     Planning condition
 </h3>
     <p class="description">
-    A 
+    The 
     Planning condition
- dataset is 
+ dataset contains 
     A condition that is attached to planning permission.
 
     </p>
@@ -338,8 +338,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -347,88 +347,88 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-planning-condition-target">planning-condition-target</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-planning-condition-type">planning-condition-type</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-planning-condition-purpose">planning-condition-purpose</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -443,11 +443,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -466,11 +476,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -489,11 +499,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">description</code> field.</p>
+    <code class="field">description</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -512,11 +522,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -535,11 +545,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Planning condition entry MAY contain 
     an 
-    <code class="field">organisation</code> field.</p>
+    <code class="field">organisation</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -562,7 +572,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">planning-condition-target</code> field.</p>
+    <code class="field">planning-condition-target</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">planning-condition-target</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -587,7 +597,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">planning-condition-type</code> field.</p>
+    <code class="field">planning-condition-type</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">planning-condition-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -612,7 +622,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">planning-condition-purpose</code> field.</p>
+    <code class="field">planning-condition-purpose</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">planning-condition-purpose</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -633,11 +643,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Planning condition entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -656,11 +674,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Planning condition entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -679,11 +701,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Planning condition entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Planning condition <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -700,9 +726,9 @@ h1, h2::before, h3::before, h4::before {
     Planning application condition
 </h3>
     <p class="description">
-    A 
+    The 
     Planning application condition
- dataset is 
+ dataset contains 
     A record of which conditions apply to which planning applications.
 
     </p>
@@ -721,8 +747,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -730,80 +756,80 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-planning-application">planning-application</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-planning-condition">planning-condition</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-applied-date">applied-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-discharged-date">discharged-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -818,11 +844,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -841,11 +877,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     a 
-    <code class="field">planning-application</code> field.</p>
+    <code class="field">planning-application</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">planning-application</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -864,11 +900,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A condition that gets set when planning permission is granted.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     a 
-    <code class="field">planning-condition</code> field.</p>
+    <code class="field">planning-condition</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">planning-condition</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -887,11 +927,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     an 
-    <code class="field">organisation</code> field.</p>
+    <code class="field">organisation</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -914,7 +954,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     an 
-    <code class="field">applied-date</code> field.</p>
+    <code class="field">applied-date</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">applied-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -937,7 +977,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     a 
-    <code class="field">discharged-date</code> field.</p>
+    <code class="field">discharged-date</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">discharged-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -956,11 +996,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -979,11 +1019,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1002,11 +1050,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1025,11 +1077,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Planning application condition entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Planning application condition <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1479,6 +1535,14 @@ Other patterns for collecting data are under consideration, including feeds for 
     <dd class="govuk-summary-list__value">
     Ministry for Housing, Communities & Local Government planning data standards design process (service under development).
     <a href="https://design.planning.data.gov.uk">https://design.planning.data.gov.uk</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GSS">[GSS]</dt>
+    <dd class="govuk-summary-list__value">
+    Office for National Statistics, Geography Coding and Naming Policy for Official Statistics Version 2.0, July 2025
+    <a href="https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about">https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about</a>
     </dd>
     </div>
 

@@ -310,9 +310,9 @@ h1, h2::before, h3::before, h4::before {
     Local plan
 </h3>
     <p class="description">
-    A 
+    The 
     Local plan
- dataset is 
+ dataset contains 
     local plans prepared by a Local Planning Authority.
 
     </p>
@@ -331,8 +331,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -340,96 +340,96 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-period-start-date">period-start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-period-end-date">period-end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-local-planning-authorities">local-planning-authorities</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-local-plan-process">local-plan-process</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
   </tbody>
@@ -444,11 +444,12 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local plan reference.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">A reference or ID for each local plan that is:</p>
 <ul class="govuk-list govuk-list--bullet">
 <li>unique within your dataset</li>
@@ -468,7 +469,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Local plan entry MUST contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -487,11 +488,12 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local plan name.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Use the title of the adopted local plan document.</p></p><p>Examples:</p><ul><li>
                     <code class="value">County Durham Plan</code>
             <li>
@@ -502,7 +504,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Local plan entry SHOULD contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -521,11 +523,12 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Start date of the period the plan covers.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.</p></p><p>Examples:</p><ul><li>
                     <code class="value">2018</code>
             <li>
@@ -538,7 +541,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Local plan entry SHOULD contain 
     a 
-    <code class="field">period-start-date</code> field.</p>
+    <code class="field">period-start-date</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">period-start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -557,11 +560,12 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     End date of the period the plan covers.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the end of the plan period. This is may be just the year in <code>YYYY</code> format.</p></p><p>Examples:</p><ul><li>
                     <code class="value">2041</code>
             <li>
@@ -572,7 +576,7 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Local plan entry SHOULD contain 
     a 
-    <code class="field">period-end-date</code> field.</p>
+    <code class="field">period-end-date</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">period-end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -591,11 +595,12 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local planning authority areas covered by the local plan.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the reference (the GSS code) for the 
 <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
 area covered by the plan.
@@ -609,7 +614,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 
     <p class="assertion">Each Local plan entry MAY contain 
     a 
-    <code class="field">local-planning-authorities</code> field.</p>
+    <code class="field">local-planning-authorities</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">local-planning-authorities</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -628,11 +633,12 @@ For a joint local plan, enter the list of Local Planning Authority references, e
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Examination process under which this local plan was or is being produced.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the local plan examination process under which this local plan was or is being produced.</p></p><p>Examples:</p><ul><li>
                     <code class="value">2025</code>&mdash;the plan is being produced under the 2025 local plan regulations
             <li>
@@ -643,7 +649,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 
     <p class="assertion">Each Local plan entry SHOULD contain 
     a 
-    <code class="field">local-plan-process</code> field.</p>
+    <code class="field">local-plan-process</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">local-plan-process</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -662,11 +668,12 @@ For a joint local plan, enter the list of Local Planning Authority references, e
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local plan documentation page.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">The URL of the webpage on your website for the local plan</p>
 <p class="govuk-body">Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
@@ -683,7 +690,7 @@ Where there are several local plans listed on a single webpage, you will need to
 
     <p class="assertion">Each Local plan entry MUST contain 
     a 
-    <code class="field">documentation-url</code> field.</p>
+    <code class="field">documentation-url</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -702,11 +709,12 @@ Where there are several local plans listed on a single webpage, you will need to
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local plan core document.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the URL for the main or core plan document. This is usually a PDF file.</p></p><p>Example:
                     <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
             </p>
@@ -715,7 +723,7 @@ Where there are several local plans listed on a single webpage, you will need to
 
     <p class="assertion">Each Local plan entry MUST contain 
     a 
-    <code class="field">document-url</code> field.</p>
+    <code class="field">document-url</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">document-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -734,11 +742,19 @@ Where there are several local plans listed on a single webpage, you will need to
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Local plan entry SHOULD contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -757,11 +773,12 @@ Where there are several local plans listed on a single webpage, you will need to
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Date when the plan was officially adopted.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></p>
@@ -769,7 +786,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <p class="assertion">Each Local plan entry SHOULD contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -788,15 +805,16 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Date a local plan was withdran or revoked.
 
-</p>
+</p><p class="notes"></p>
 
     <p class="assertion">Each Local plan entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -815,7 +833,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
 
 
-    <!- brute force for now, needs an index -->    <div class="guidance">
+    <!- brute force for now, needs an index --><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.</p></p><p>Example:
                     <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
             </p>
@@ -824,7 +842,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <p class="assertion">Each Local plan entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Local plan <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -841,9 +859,9 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     Local plan housing number
 </h3>
     <p class="description">
-    A 
+    The 
     Local plan housing number
- dataset is 
+ dataset contains 
     Housing numbers for a Local Planning Authority in a local plan.
 
     </p>
@@ -862,8 +880,8 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -871,96 +889,96 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-local-plan">local-plan</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-local-planning-authority">local-planning-authority</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-required-housing">required-housing</a></th>
-      <td scope="row" class="govuk-table__cell">integer</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">integer</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-committed-housing">committed-housing</a></th>
-      <td scope="row" class="govuk-table__cell">integer</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">integer</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-allocated-housing">allocated-housing</a></th>
-      <td scope="row" class="govuk-table__cell">integer</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">integer</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-broad-locations-housing">broad-locations-housing</a></th>
-      <td scope="row" class="govuk-table__cell">integer</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">integer</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-windfall-housing">windfall-housing</a></th>
-      <td scope="row" class="govuk-table__cell">integer</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">integer</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
   </tbody>
@@ -975,11 +993,12 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local plan reference.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Give each set of housing numbers a reference value.</p></p><p>Examples:</p><ul><li>
                     <code class="value">34069/County-Durham-Plan</code>
             <li>
@@ -992,7 +1011,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
 
     <p class="assertion">Each Local plan housing number entry MUST contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -1011,11 +1030,11 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Local plan housing number entry MUST contain 
     a 
-    <code class="field">local-plan</code> field.</p>
+    <code class="field">local-plan</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">local-plan</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1034,11 +1053,12 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local planning authority area.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">This should be the statistical geography for the local-planning-authority area to which the housing numbers apply.
 See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a> dataset.</p></p><p>Example:
                     <code class="value">E60000001</code>&mdash;The GSS code for the County Durham LPA area
@@ -1048,7 +1068,7 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     a 
-    <code class="field">local-planning-authority</code> field.</p>
+    <code class="field">local-planning-authority</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">local-planning-authority</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1067,11 +1087,12 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Total housing requirement (net additional housing).
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the amount of housing required (net additional housing)
 within this <code>local-planning-authority</code> area for this <code>local-plan</code>.</p></p><p>Example:
                     <code class="value">24852</code>
@@ -1081,7 +1102,7 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     a 
-    <code class="field">required-housing</code> field.</p>
+    <code class="field">required-housing</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">required-housing</code> field MUST be
     an 
     <a href="#fieldtype-integer">integer</a> value.</p>
@@ -1100,18 +1121,19 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Amount of net additional housing already committed for development.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the amount of housing already committed for development
 by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.</p></p>
     </div>
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     a 
-    <code class="field">committed-housing</code> field.</p>
+    <code class="field">committed-housing</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">committed-housing</code> field MUST be
     an 
     <a href="#fieldtype-integer">integer</a> value.</p>
@@ -1130,11 +1152,12 @@ by the local plan within this <code>local-planning-authority</code> area by the 
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Amount of housing already committed for development.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the amount of net additional housing which have been allocated to sites 
 by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.</p></p><p>Example:
                     <code class="value">9239</code>
@@ -1144,7 +1167,7 @@ by the local plan within this <code>local-planning-authority</code> area by the 
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     an 
-    <code class="field">allocated-housing</code> field.</p>
+    <code class="field">allocated-housing</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">allocated-housing</code> field MUST be
     an 
     <a href="#fieldtype-integer">integer</a> value.</p>
@@ -1163,11 +1186,12 @@ by the local plan within this <code>local-planning-authority</code> area by the 
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Amount of net additional housing expected to be delivered from broad locations for development.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the amount of net additional housing expected to be delivered from broad locations for development 
 by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.</p></p><p>Example:
                     <code class="value">15660</code>
@@ -1177,7 +1201,7 @@ by the local plan within this <code>local-planning-authority</code> area by the 
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     a 
-    <code class="field">broad-locations-housing</code> field.</p>
+    <code class="field">broad-locations-housing</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">broad-locations-housing</code> field MUST be
     an 
     <a href="#fieldtype-integer">integer</a> value.</p>
@@ -1196,18 +1220,19 @@ by the local plan within this <code>local-planning-authority</code> area by the 
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Amount of net additional housing expected to be delivered from windfall developments.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the amount of housing (net additional housing) expected to be delivered by windfall sites
 within this <code>local-planning-authority</code> area for this <code>local-plan</code>.</p></p>
     </div>
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     a 
-    <code class="field">windfall-housing</code> field.</p>
+    <code class="field">windfall-housing</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">windfall-housing</code> field MUST be
     an 
     <a href="#fieldtype-integer">integer</a> value.</p>
@@ -1226,11 +1251,19 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1249,11 +1282,15 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Local plan housing number entry SHOULD contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1272,11 +1309,15 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Local plan housing number entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1295,7 +1336,7 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->    <div class="guidance">
+    <!- brute force for now, needs an index --><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">You may provide a short description to help users differentiate the plan from others with a similar name.</p></p><p>Example:
                     <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
             </p>
@@ -1304,7 +1345,7 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
 
     <p class="assertion">Each Local plan housing number entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Local plan housing number <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1321,9 +1362,9 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     Local plan document
 </h3>
     <p class="description">
-    A 
+    The 
     Local plan document
- dataset is 
+ dataset contains 
     .
 
     </p>
@@ -1342,8 +1383,8 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -1351,88 +1392,88 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-local-plan">local-plan</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-types">document-types</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell">MUST</td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">SHOULD</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell">MAY</td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
   </tbody>
@@ -1447,11 +1488,21 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Local plan document entry MUST contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -1470,11 +1521,11 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Local plan document entry MUST contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1493,11 +1544,11 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
-    <code class="field">description</code> field.</p>
+    <code class="field">description</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1516,11 +1567,12 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Associated local plan.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the reference for the local plan which the document is associated with.</p></p><p>Examples:</p><ul><li>
                     <code class="value">LP-BRX-2024</code>
             <li>
@@ -1531,7 +1583,7 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
 
     <p class="assertion">Each Local plan document entry MUST contain 
     a 
-    <code class="field">local-plan</code> field.</p>
+    <code class="field">local-plan</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">local-plan</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1550,7 +1602,11 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->    <div class="guidance">
+    <!- brute force for now, needs an index --><p class="description">
+    
+    One or more document types.
+
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter at least one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-document-type">local-plan-document-type</a> values:</p>
 <ul class="govuk-list govuk-list--bullet">
 <li><code>adoption-statement</code></li>
@@ -1580,7 +1636,7 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
 
     <p class="assertion">Each Local plan document entry SHOULD contain 
     a 
-    <code class="field">document-types</code> field.</p>
+    <code class="field">document-types</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">document-types</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1599,11 +1655,12 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
     Local plan document documentation page.
 
-</p>    <div class="guidance">
+</p><p class="notes"></p>    <div class="guidance">
         <p><p class="govuk-body">Enter the URL of the webpage on your website which references this document.</p></p><p>Example:
                     <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
             </p>
@@ -1612,7 +1669,7 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
 
     <p class="assertion">Each Local plan document entry SHOULD contain 
     a 
-    <code class="field">documentation-url</code> field.</p>
+    <code class="field">documentation-url</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -1631,11 +1688,15 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A url to a document.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Local plan document entry MUST contain 
     a 
-    <code class="field">document-url</code> field.</p>
+    <code class="field">document-url</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">document-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -1654,11 +1715,19 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Local plan document entry SHOULD contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1677,11 +1746,15 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Local plan document entry SHOULD contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1700,11 +1773,15 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1723,11 +1800,11 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Local plan document <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -2183,6 +2260,14 @@ Other patterns for collecting data are under consideration, including feeds for 
     <dd class="govuk-summary-list__value">
     Ministry for Housing, Communities & Local Government planning data standards design process (service under development).
     <a href="https://design.planning.data.gov.uk">https://design.planning.data.gov.uk</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GSS">[GSS]</dt>
+    <dd class="govuk-summary-list__value">
+    Office for National Statistics, Geography Coding and Naming Policy for Official Statistics Version 2.0, July 2025
+    <a href="https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about">https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about</a>
     </dd>
     </div>
 

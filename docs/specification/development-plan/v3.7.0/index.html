@@ -313,9 +313,9 @@ h1, h2::before, h3::before, h4::before {
     Development plan boundary
 </h3>
     <p class="description">
-    A 
+    The 
     Development plan boundary
- dataset is 
+ dataset contains 
     A boundary that a development plan covers.
 
     </p>
@@ -334,8 +334,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -343,64 +343,64 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-geometry">geometry</a></th>
-      <td scope="row" class="govuk-table__cell">multipolygon</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">multipolygon</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -415,11 +415,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -438,11 +448,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -461,11 +471,24 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A polygon or multipolygon boundary.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">The boundary may be a single polygon, or a multipolygon value.
+All points should be in the WGS84 coordinate reference system.
+You may provide data containing points in another coordinate reference system, such as British National Grid,
+but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
+Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
+If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     a 
-    <code class="field">geometry</code> field.</p>
+    <code class="field">geometry</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">geometry</code> field MUST be
     a 
     <a href="#fieldtype-geometry">geometry</a> value.</p>
@@ -484,11 +507,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     a 
-    <code class="field">description</code> field.</p>
+    <code class="field">description</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -507,11 +530,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     an 
-    <code class="field">organisation</code> field.</p>
+    <code class="field">organisation</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -530,11 +553,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -553,11 +584,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -576,11 +611,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan boundary entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Development plan boundary <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -597,9 +636,9 @@ h1, h2::before, h3::before, h4::before {
     Development plan
 </h3>
     <p class="description">
-    A 
+    The 
     Development plan
- dataset is 
+ dataset contains 
     .
 
     </p>
@@ -618,8 +657,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -627,104 +666,104 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-development-plan-type">development-plan-type</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-period-start-date">period-start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-period-end-date">period-end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-development-plan-boundary">development-plan-boundary</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-adopted-date">adopted-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisations">organisations</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -739,11 +778,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -762,11 +811,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -785,11 +834,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">description</code> field.</p>
+    <code class="field">description</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -808,11 +857,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">development-plan-type</code> field.</p>
+    <code class="field">development-plan-type</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">development-plan-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -833,11 +882,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    The date for the beginning of the period the entity covers.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">period-start-date</code> field.</p>
+    <code class="field">period-start-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">period-start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -856,11 +909,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    The end date of the period the entity covers.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">period-end-date</code> field.</p>
+    <code class="field">period-end-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">period-end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -879,11 +936,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">development-plan-boundary</code> field.</p>
+    <code class="field">development-plan-boundary</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">development-plan-boundary</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -902,11 +959,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">documentation-url</code> field.</p>
+    <code class="field">documentation-url</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -925,11 +982,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    The date a plan is officially adopted..
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     an 
-    <code class="field">adopted-date</code> field.</p>
+    <code class="field">adopted-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">adopted-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -948,11 +1009,23 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    List of organisations..
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A list of CURIE references for one or more organisations.
+Where you need to list more than one organisation, separate the values with a semicolon ';' character.
+You can find the CURIE reference for each organisation from our <a href="https://www.planning.data.gov.uk/organisation/">list of organisations</a>.
+The CURIE is made from the prefix value, followed by a colon ':' character, and then the reference value for the organisation being identified. 
+You may leave this value blank when the list of organisations is just the single organisation providing the data.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan entry MAY contain 
     an 
-    <code class="field">organisations</code> field.</p>
+    <code class="field">organisations</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">organisations</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -971,11 +1044,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -994,11 +1075,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1017,11 +1102,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1038,9 +1127,9 @@ h1, h2::before, h3::before, h4::before {
     Development plan timetable
 </h3>
     <p class="description">
-    A 
+    The 
     Development plan timetable
- dataset is 
+ dataset contains 
     The expected timetable for the stages a plan will go through.
 
     </p>
@@ -1059,8 +1148,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -1068,80 +1157,80 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-development-plan">development-plan</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-development-plan-event">development-plan-event</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-event-date">event-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-notes">notes</a></th>
-      <td scope="row" class="govuk-table__cell">text</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">text</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -1156,11 +1245,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -1179,11 +1278,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1202,11 +1301,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     a 
-    <code class="field">development-plan</code> field.</p>
+    <code class="field">development-plan</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">development-plan</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1225,11 +1324,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     a 
-    <code class="field">development-plan-event</code> field.</p>
+    <code class="field">development-plan-event</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">development-plan-event</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1250,11 +1349,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     an 
-    <code class="field">event-date</code> field.</p>
+    <code class="field">event-date</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">event-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1273,11 +1372,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     a 
-    <code class="field">notes</code> field.</p>
+    <code class="field">notes</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">notes</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1296,11 +1395,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     an 
-    <code class="field">organisation</code> field.</p>
+    <code class="field">organisation</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -1319,11 +1418,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1342,11 +1449,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1365,11 +1476,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan timetable entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1386,9 +1501,9 @@ h1, h2::before, h3::before, h4::before {
     Development plan document
 </h3>
     <p class="description">
-    A 
+    The 
     Development plan document
- dataset is 
+ dataset contains 
     .
 
     </p>
@@ -1407,8 +1522,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -1416,88 +1531,88 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-reference">reference</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-name">name</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-description">description</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-development-plan">development-plan</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-type">document-type</a></th>
-      <td scope="row" class="govuk-table__cell">string</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">string</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-documentation-url">documentation-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-document-url">document-url</a></th>
-      <td scope="row" class="govuk-table__cell">url</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">url</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-organisation">organisation</a></th>
-      <td scope="row" class="govuk-table__cell">curie</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">curie</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-entry-date">entry-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-start-date">start-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
     
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-end-date">end-date</a></th>
-      <td scope="row" class="govuk-table__cell">datetime</td>
       <td scope="row" class="govuk-table__cell"></td>
+      <td scope="row" class="govuk-table__cell">datetime</td>
     </tr>
     
   </tbody>
@@ -1512,11 +1627,21 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+When you are providing data, you should give each entity a reference which is:
+- unique - within your dataset, ideally within your organisation
+- stable and persistent - it doesn't change over time, or when you modify your data
+Good references are something you already use, such as a key used in your local plan policy map. 
+Where these aren't unique, you make them unique by appending the year or even the full date.
+Great references are short, easy to read, to pronounce and remember.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">reference</code> field.</p>
+    <code class="field">reference</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">reference</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -1535,11 +1660,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">name</code> field.</p>
+    <code class="field">name</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">name</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1558,11 +1683,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">description</code> field.</p>
+    <code class="field">description</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">description</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1581,11 +1706,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">development-plan</code> field.</p>
+    <code class="field">development-plan</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">development-plan</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1604,11 +1729,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">document-type</code> field.</p>
+    <code class="field">document-type</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">document-type</code> field MUST be
     a 
     <a href="#fieldtype-string">string</a> value.</p>
@@ -1629,11 +1754,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">documentation-url</code> field.</p>
+    <code class="field">documentation-url</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">documentation-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -1652,11 +1777,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A url to a document.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">document-url</code> field.</p>
+    <code class="field">document-url</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">document-url</code> field MUST be
     a 
     <a href="#fieldtype-URL">URL</a> value.</p>
@@ -1675,11 +1804,11 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     an 
-    <code class="field">organisation</code> field.</p>
+    <code class="field">organisation</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">organisation</code> field MUST be
     a 
     <a href="#fieldtype-reference">reference</a> value.</p>
@@ -1698,11 +1827,19 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p><p class="notes"></p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Development plan document entry MAY contain 
     an 
-    <code class="field">entry-date</code> field.</p>
+    <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">entry-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1721,11 +1858,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     a 
-    <code class="field">start-date</code> field.</p>
+    <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">start-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -1744,11 +1885,15 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p><p class="notes"></p>
 
     <p class="assertion">Each Development plan document entry MAY contain 
     an 
-    <code class="field">end-date</code> field.</p>
+    <code class="field">end-date</code> field value.</p>
     <p class="assertion">The Development plan document <code class="field">end-date</code> field MUST be
     a 
     <a href="#fieldtype-datetime">datetime</a> value.</p>
@@ -2210,6 +2355,14 @@ Other patterns for collecting data are under consideration, including feeds for 
     <dd class="govuk-summary-list__value">
     Ministry for Housing, Communities & Local Government planning data standards design process (service under development).
     <a href="https://design.planning.data.gov.uk">https://design.planning.data.gov.uk</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GSS">[GSS]</dt>
+    <dd class="govuk-summary-list__value">
+    Office for National Statistics, Geography Coding and Naming Policy for Official Statistics Version 2.0, July 2025
+    <a href="https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about">https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about</a>
     </dd>
     </div>
 
