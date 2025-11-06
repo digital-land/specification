@@ -315,7 +315,7 @@ n,,string,list of Local Planning Authorities,,,local-planning-authorities,,,Loca
 1,,string,a text string referencing an operation to be performed,,,operation,,,Operation,string,,,,value,,
 1,dataset,string,,,,organisation-dataset,,,Organisation dataset,dataset,,,The dataset an organisation belongs to.,specification,,
 1,,string,,,,organisation-entity,,,Organisation entity,entity,,,,value,https://www.digital-land.info/entity/{organisation-entity},
-1,,curie,,,,organisation,,,Organisation,organisation,,,,organisation,,
+1,,curie,"department, agency, body, company, group, or association of people",,,organisation,Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).,,Organisation,organisation,,,,organisation,,
 1,,string,,2019-10-31,,OrganisationLabel,,,OrganisationLabel,value,,,,value,,
 n,,string,list of organisations.,,,organisations,"A list of CURIE references for one or more organisations.
 Where you need to list more than one organisation, separate the values with a semicolon ';' character.
