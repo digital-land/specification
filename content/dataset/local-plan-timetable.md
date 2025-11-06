@@ -80,11 +80,12 @@ fields:
 - field: prefix
 - field: reference
   guidance: |
-     Give each event a reference which is unique within the dataset. Where the timetable contains events for different local plans.
-     Where a timetable has multiple events, you can add a date to make them unique.
+     Give each event a reference which is unique for the event within the dataset.
+     Where the timetable contains events for different local plans you can distinguish the events by adding the `local-plan` reference.
+     Where a timetable has more than one event of the same kind, you can add a date to make them unique.
   examples:
-     - value: LP1-plan-adopted
-     - value: LP1-plan-adopted-2025
+     - value: LP1-public-consultation
+     - value: LP1-public-consultation-2025
 - field: start-date
   description: date of the timetable event
   guidance: |
