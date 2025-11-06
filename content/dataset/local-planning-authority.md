@@ -11,8 +11,8 @@ entry-date: ''
 fields:
 - field: document-url
   guidance: |
-     Enter the URL of the document or webpage on your website where the 
-     authorititive "red-line" boundary may be found.
+     Enter the URL of the document, webpage, or data on your website containing the
+     authorititive "red-line" boundary.
 - field: documentation-url
   description: local planning authority documentation page
   definition: URL of the [Source documentation](#source-documentation) page
