@@ -115,10 +115,10 @@ fields:
 github-discussion: 26
 key-field: ''
 licence: ogl3
-name: Local plan
+name: local plan
 paint-options: ''
 phase: alpha
-plural: Local plans
+plural: local plans
 prefix: ''
 realm: dataset
 -dataset: ''

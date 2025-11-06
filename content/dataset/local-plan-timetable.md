@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: local-plan-timetable
-description: a log of past and predicted milestones and events when producing a local plan
+description: log of past and predicted milestones and events when producing a local plan
 end-date: ''
 entity-maximum: '4299999'
 entity-minimum: '4230000'
@@ -86,7 +86,7 @@ fields:
 github-discussion: 26
 guidance: |
    The local plan timetable is a record of the key dates when producing a local plan.
-   Your data should include a row for each of the events listed in the [Local Plan Event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened, or your estimated period for where an event is in the future.
+   Your data should include a row for each of the events listed in the [Local plan event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened, or your estimated period for where an event is in the future.
 key-field: ''
 licence: ogl3
 name: Local plan timetable
