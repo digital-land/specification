@@ -23,9 +23,15 @@
 {% endblock %}
 
 {% block dl_content %}
-<div class="govuk-grid-row">
+<div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">{{item["description"]}}</p>
+    {% if item["description"] %}
+    <h2 class="govuk-heading-s" id="description">Description</h2>
+    <p>
+    A {{  item["description"].strip() }}.
+    </p>
+    {% endif %}
+
     <!-- {{item["text"]}} -->
 
     <table class="govuk-table">
@@ -54,6 +60,18 @@
       </tbody>
     </table>
 
+
+    {% if item["guidance"] %}
+    <h2 class="govuk-heading-s" id="guidance">Guidance</h2>
+    {{ item["guidance"] | markdown }}
+    {% endif %}
+
+    {% if item["notes"] %}
+    <h2 class="govuk-heading-s" id="notes">Description</h2>
+    {{ item["notes"] | markdown }}
+    {% endif %}
+
+
     {% if key %}
     <h2 class="govuk-heading-s" id="{{typology}}">Typology</h2>
     <p class="govuk-body">This dataset belongs to the <a href="../../typology/{{ key["typology"] }}">{{ key["typology"] }}</a> typology.</p>
@@ -63,7 +81,7 @@
     <h2 class="govuk-heading-s" id="{{datasets}}">Datasets</h2>
 
     {% if tables["dataset-to"][name] %}
-    <p class="govuk-body">This dataset links to the following other datasets:</p>
+    <p class="govuk-body">This dataset references the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for dataset in tables["dataset-to"][name] | sort %}
       <li><a href="../{{dataset}}">{{ tables["dataset"][dataset]["name"] }}</a></li>
@@ -72,7 +90,7 @@
     {% endif %}
 
     {% if tables["dataset-from"][name] %}
-    <p class="govuk-body">This dataset is linked to by the following other datasets:</p>
+    <p class="govuk-body">This dataset is referenced by the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     {% for dataset in tables["dataset-from"][name] | sort %}
       <li><a href="../{{dataset}}">{{ tables["dataset"][dataset]["name"] }}</a></li>

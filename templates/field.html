@@ -22,10 +22,8 @@
 {% endblock %}
 
 {% block dl_content %}
-<div class="govuk-grid-row">
+<div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body govuk-body govuk-!-margin-bottom-9">{{item["description"]}}</p>
-
     <table class="govuk-table">
       <tbody class="govuk-table__body">
         <tr class="govuk-table__row">
@@ -66,10 +64,31 @@
         {% endif %}
       </tbody>
     </table>
+    </p>
+
+    {% if item["description"] %}
+    <h2 class="govuk-heading-s" id="description">Description</h2>
+    <p>
+    A {{  item["description"].strip() }}.
+    </p>
+    {% endif %}
+
+    {% if item["guidance"] %}
+    <h2 class="govuk-heading-s" id="guidance">Guidance</h2>
+    {{ item["guidance"] | markdown }}
+    {% endif %}
+
+    {% if item["notes"] %}
+    <h2 class="govuk-heading-s" id="notes">Description</h2>
+    {{ item["notes"] | markdown }}
+    {% endif %}
+
 
     {% if tables["field-dataset"][name] %}
-    <h2 class="govuk-heading-s" id="{{dataset}}">Schemas</h2>
+    <h2 class="govuk-heading-s" id="datasets">Datasets</h2>
+
     <p class="govuk-body">The following datasets use this field:</p>
+
     <ul class="govuk-list govuk-list--bullet">
     {% for dataset in tables["field-dataset"][name] | sort %}
       <li><a href="../../dataset/{{dataset}}">{{ tables["dataset"][dataset]["name"] }}</a></li>

@@ -119,6 +119,11 @@ h1, h2::before, h3::before, h4::before {
     {{ sentence_end(sentence_case(text)) }}
 {% endmacro %}
 
+{% macro map_datatype(field, datatype) -%}
+   {{ {"reference": "reference"}.get(field, None) or 
+   { "url": "URL", "curie": "reference", "multipolygon": "geometry" }.get(datatype, datatype) }}
+{%- endmacro %}
+
 
 {% set page_caption = 'Specification' %}
 {% set page_title = sentence_case(item["name"]) %}
@@ -193,9 +198,45 @@ h1, h2::before, h3::before, h4::before {
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
+    <h3 id="dataset-field-summary" class="govuk-heading-m">Datasets and fields</h3>
+    <p><em>This section is non-normative</em></p>
+    <p>An index of the datasets and fields defined by this specification.</p>
+
+{% for d in item["datasets"]|sort(attribute='priority') %}
+    {% set _d = tables["dataset"][d["dataset"]] %}
+    {% set name = tables["dataset"][d["dataset"]]["name"] %}
+
+
+    <table class="govuk-table">
+    <caption class="govuk-table__caption govuk-table__caption--m" id="{{d["dataset"]}}__fields">{{sentence_case(_d["name"])}}</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Field</th>
+      <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    {%- for f in d["fields"] %}
+    {% set field = f["field"] %}
+    {% set datatype = map_datatype(field, tables["field"][field]["datatype"]) %}
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_{{d["dataset"]}}_field_{{field}}">{{ field }}</a></th>
+        <td scope="row" class="govuk-table__cell">{{ f["requirement-level"] }}</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-{{ datatype }}">{{ datatype }}</a>
+        </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endfor %}
+
     {# Include the relationship diagram if there are more than one dataset #}
     {% if item["datasets"]|length > 1 %}
     <h3 id="dataset-relashionships" class="govuk-heading-m">Dataset relationships</h3>
+    <p><em>This section is non-normative</em></p>
 
     <p class="note">The following diagram illustrates the <a href="#datasets">datasets</a> specified by this document,
     and how data in a dataset entry may reference, or be referenced by an entry in another dataset.</p>
@@ -203,7 +244,7 @@ h1, h2::before, h3::before, h4::before {
     <img src="diagram.svg" class="diagram">
     {% endif %}
 
-    <h2 id="datasets" class="govuk-heading-m">Datasets</h2>
+    <h2 id="datasets" class="govuk-heading-m">Dataset details</h2>
 {% for d in item["datasets"]|sort(attribute='priority') %}
     {% set _d = tables["dataset"][d["dataset"]] %}
     {% set name = tables["dataset"][d["dataset"]]["name"] %}
@@ -218,39 +259,15 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
 
-    <h3 id="{{d["dataset"]}}__fields">{{sentence_case(_d["name"])}} fields</h3>
-
-    <table class="govuk-table">
-        <caption class="govuk-table__caption govuk-table__caption--m">Field summary (non-normative)</caption>
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Requirement</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    {%- for f in d["fields"] %}
-    {% set field = f["field"] %}
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#field-{{field}}">{{ field }}</a></th>
-      <td scope="row" class="govuk-table__cell">{{ f["requirement-level"] }}</td>
-      <td scope="row" class="govuk-table__cell">{{ tables["field"][field]["datatype"] }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
     {%- for f in d["fields"] %}
     {% set field = f["field"] %}
     {% set fieldname = tables["field"][field]["name"] %}
 
-    <h4 id="field-{{field}}">{{ fieldname }}</h4>
+    <h4 id="dataset_{{d["dataset"]}}_field_{{field}}">{{ fieldname }}</h4>
 
     {% set level = f["requirement-level"] or "MAY" %}
     {% set datatype = tables["field"][f["field"]]["datatype"] %}
-    {% set fieldtype = {"reference": "reference"}.get(field, None) or { "url": "URL", "curie": "reference", "multipolygon": "geometry", "text": "string", "string": "string" }.get(datatype, datatype) %}
+    {% set datatype = map_datatype(field, datatype) %}
 
 
     <!- brute force for now, needs an index -->
@@ -283,8 +300,8 @@ h1, h2::before, h3::before, h4::before {
     a{% if f["field"][0] in "aeiou" %}n{% endif %} 
     <code class="field">{{f["field"]}}</code> field value.</p>
     <p class="assertion">The {{ name }} <code class="field">{{field}}</code> field MUST be
-    a{% if fieldtype[0] in "aeiou" %}n{% endif %} 
-    <a href="#fieldtype-{{fieldtype}}">{{fieldtype}}</a> value.</p>
+    a{% if datatype[0] in "aeiou" %}n{% endif %} 
+    <a href="#datatype-{{datatype}}">{{datatype}}</a> value.</p>
 
     {% if f["dataset"] and tables["dataset"].get(f["dataset"]) and tables["dataset"][f["dataset"]].get("typology", "") == "category" -%}
     <p class="assertion">Each {{ name }} entry {{level}} contain a <code class="field">reference</code> value from the 
@@ -351,9 +368,9 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
 
 
-    <h2 id="fieldtypes" class="govuk-heading-m">Fieldtypes</h2>
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
 
-    <h3 id="fieldtype-reference" class="govuk-heading-s">Reference</h3>
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
     <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
 
     <!--
@@ -379,7 +396,7 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
 
-    <h3 id="fieldtype-datetime" class="govuk-heading-s">Datetime</h3>
+    <h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
@@ -389,7 +406,7 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The date MAY just contain the year '<code class="value">YYYY</code>' if only the year is known, or '<code class="value">YYYY-MM</code>' if only the year and month is known.
     </p>
 
-    <h3 id="fieldtype-geometry" class="govuk-heading-s">Geometry</h3>
+    <h3 id="datatype-geometry" class="govuk-heading-s">Geometry</h3>
 
     <p class="assertion">A geometry field MAY be eiher a single POLYGON or MULTIPOLYGON value.</p>
 
@@ -408,22 +425,27 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Coordinate values SHOULD be 6 or fewer decimal places.</p>
 
-    <h3 id="fieldtype-integer" class="govuk-heading-s">Integer</h3>
+    <h3 id="datatype-integer" class="govuk-heading-s">Integer</h3>
 
     <p class="assertion">All <code>integer</code> values MUST conform to the integer datatype as defined by
     [<a href="#tabular-metadata">tabular-metadata</a>].</p>
 
-    <h3 id="fieldtype-markdown" class="govuk-heading-s">Markdown</h3>
-    <p class="assertion">All <code>markdown</code> values SHOULD be compatible with [<a href="#govspeak-markdown">govspeak-markdown</a>].</p>
+    <h3 id="datatype-text" class="govuk-heading-s">Text</h3>
+    <p class="assertion">All <code>text</code> values SHOULD be compatible with [<a href="#govspeak-markdown">govspeak-markdown</a>].</p>
 
-    <h3 id="fieldtype-URL" class="govuk-heading-s">URL</h3>
+    <p class="assertion">
+    All <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
+    </p>
+
+    <h3 id="datatype-URL" class="govuk-heading-s">URL</h3>
     <p class="assertion">All <code>URL</code> values MUST conform to [<a href="#RFC3986">RFC3986</a>].</p>
 
     <p class="note">For the purposes of this specification, the terms URL, URI and IRI are synonymous as set out in [<a href="#URL-interoperability">URL-interoperability</a>]</p>
 
-    <h3 id="fieldtype-string" class="govuk-heading-s">String</h3>
+    <h3 id="datatype-string" class="govuk-heading-s">String</h3>
     <p class="assertion">
-    All <code>string</code> and <code>text</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
+    All <code>string</code> values MUST be encoded in UTF-8 [<a href="#RFC3629">RFC3629</a>] 
     following the [<a href="#open-standards-for-government">Open Standards for government</a>] guidance [<a href="encoding-characters">encoding-characters</a>].
     </p>
 
