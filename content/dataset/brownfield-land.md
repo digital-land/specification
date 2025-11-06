@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: brownfield-land
 consideration: brownfield-land
 dataset: brownfield-land
-description: Land that has been previously been developed
+description: land that has been previously been developed
 end-date: ''
 entity-maximum: '1799999'
 entity-minimum: '1700000'

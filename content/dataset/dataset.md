@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: dataset
-description: A collection of entities of the same type
+description: collection of entities of the same type
 end-date: ''
 entity-maximum: '4099999'
 entity-minimum: '4000000'
@@ -14,6 +14,14 @@ fields:
 - field: consideration
 - field: dataset
 - field: description
+  description: short description of the dataset without the definite article, sentence captialisation or a punctuation mark.
+  guidance: |
+     The description is intended to be used in tables and content, so shouldn't start with the definite article ("The", "A", etc)
+     or end with a full-stop or other punctuation mark. 
+     A user may capitalise the first letter or add a full-stop when using the description in a sentence.
+  examples:
+    - value: "local plans prepared by a Local Planning Authority"
+      value: "land that has been previously been developed"
 - field: end-date
 - field: entry-date
 - field: github-discussion

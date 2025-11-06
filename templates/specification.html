@@ -111,9 +111,14 @@ h1, h2::before, h3::before, h4::before {
     {{ text[0]|upper}}{{text[1:] }}
 {% endmacro %}
 
-{% macro sentence(text) %}
-    {{ sentence_case(text).strip() }}.
+{% macro sentence_end(text) %}
+    {{ text.strip() }}.
 {% endmacro %}
+
+{% macro sentence(text) %}
+    {{ sentence_end(sentence_case(text)) }}
+{% endmacro %}
+
 
 {% set page_caption = 'Specification' %}
 {% set page_title = sentence_case(item["name"]) %}
@@ -204,7 +209,9 @@ h1, h2::before, h3::before, h4::before {
     {% set name = tables["dataset"][d["dataset"]]["name"] %}
 
     <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(name) }}</h3>
-    <p class="description">{{ sentence(d["description"] or _d["description"]) }}</p>
+    <p class="description">
+    A {{ sentence_case(name) }} dataset is {{ sentence_end(d["description"] or _d["description"]) }}
+    </p>
 
     {% if _d["guidance"] %}<div class="guidance">{{ _d["guidance"] | markdown }}</div>{% endif %}
     {% if _d["notes"] %}<div class="note">{{ _d["notes"] | markdown }}</div>{% endif %}
