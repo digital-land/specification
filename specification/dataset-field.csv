@@ -2004,8 +2004,8 @@ local-plan,start-date,,date when the plan was officially adopted,"Enter the date
 This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
 ",,,,,
-local-planning-authority,document-url,,,"Enter the URL of the document or webpage on your website where the 
-authorititive ""red-line"" boundary may be found.
+local-planning-authority,document-url,,,"Enter the URL of the document, webpage, or data on your website containing the
+authorititive ""red-line"" boundary.
 ",,,,,
 local-planning-authority,documentation-url,,local planning authority documentation page,"Enter the URL of the webpage on your website where information about the Local Planning Authority
 including the boundary may be found.
