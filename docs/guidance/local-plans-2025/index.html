@@ -2,7 +2,9 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Guidance pages | Planning Data</title>
+    <title>
+    Publish your local plans data
+ | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -18,6 +20,102 @@
     
 	<meta name="digital-land:template" content="dlf-base.html">
 	
+<style>
+
+/* citation of values uses the GOV.UK code default colour to simplify govspeak*/
+code,
+code.value {
+    padding: 0 5px;
+    color: #d4351c;
+    background-color: #f3f2f1;
+}
+
+/* call out citation of fields */
+code.field {
+    color: #00703c;
+}
+
+.app-version-banner {
+  border: 5px solid #f47738;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.app-version-banner p {
+  margin-bottom: 0;
+}
+
+.diagram {
+ margin-bottom: 30px;
+}
+
+.guidance,
+.note,
+.example,
+.description,
+.TBD {
+    margin: 0 0 20px 0;
+    background-color: #f3f2f1;
+    padding: 30px;
+}
+
+.guidance:before,
+.note::before,
+.example::before,
+.description::before,
+.TBD::before {
+    font-weight: bold;
+    clear: right;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.guidance::before {
+    content: "Guidance" ;
+}
+
+.note::before {
+    content: "Note" ;
+}
+
+.example::before {
+    content: "Example";
+}
+
+.description::before {
+    content: "Description";
+}
+
+/*
+.assertion::after {
+    content: "¶ " ;
+    color: #b1b4b6;
+}
+*/
+
+.TBD::before {
+    content: "TBD";
+    font-style: italic;
+}
+
+a.para {
+  margin-right: 0.5em;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.para:hover {
+  color: #0066cc;
+}
+
+/*
+h1, h2::before, h3::before, h4::before {
+   content: "§ ";
+}
+*/
+
+</style>
+
 	<link href="https://digital-land.github.io/stylesheets/dl-frontend.css" rel="stylesheet" />
 	
     
@@ -98,12 +196,14 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="/specification">Specification</a>
+      <a class="govuk-breadcrumbs__link" href="/specification/guidance">Specification</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Guidance pages</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">
+    Publish your local plans data
+</li>
     
   
   </ol>
@@ -115,25 +215,19 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Specification</span>
-  <h1 class="govuk-heading-xl">Guidance pages</h1>
+  <span class="govuk-caption-xl">Guidance</span>
+  <h1 class="govuk-heading-xl">
+    Publish your local plans data
+</h1>
   </div>
 </div>
 
   
-<div class="govuk-grid-row govspeak govuk-body">
+<div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body">Guidance pages generated from our specifications.</p>
-    
-    <h3 id="brownfield-land-2017">Publish your brownfield land data</h3>
-    <p><a href="brownfield-land-2017">Publish your brownfield land data</a></p>
-    
-    <h3 id="local-plans-2025">Publish your local plans data</h3>
-    <p><a href="local-plans-2025">Publish your local plans data</a></p>
-    
-    </ul>
   </div>
 </div>
+
 
 
         </main>

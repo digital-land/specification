@@ -410,9 +410,11 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,string,,,,reference-entity,,,Reference entity,entity,,,,value,https://www.digital-land.info/entity/{reference-entity},
 1,,string,,,,reference,"A reference is used to help people find a particular entity, and link data aross different datasets.
 When you are providing data, you should give each entity a reference which is:
-- unique - within your dataset, ideally within your organisation
-- stable and persistent - it doesn't change over time, or when you modify your data
-Good references are something you already use, such as a key used in your local plan policy map. 
+
+* **unique** within your dataset, ideally within your organisation
+* **persistent** &mdash; doesn't change over time
+
+Good references are something you already use, such as the key used in your local plan policy map. 
 Where these aren't unique, you make them unique by appending the year or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 ",,Reference,text,,,,value,,

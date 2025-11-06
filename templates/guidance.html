@@ -1,0 +1,124 @@
+{% extends "dl-specification-base.html" %}
+
+{% block dlStyle %}
+<style>
+
+/* citation of values uses the GOV.UK code default colour to simplify govspeak*/
+code,
+code.value {
+    padding: 0 5px;
+    color: #d4351c;
+    background-color: #f3f2f1;
+}
+
+/* call out citation of fields */
+code.field {
+    color: #00703c;
+}
+
+.app-version-banner {
+  border: 5px solid #f47738;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.app-version-banner p {
+  margin-bottom: 0;
+}
+
+.diagram {
+ margin-bottom: 30px;
+}
+
+.guidance,
+.note,
+.example,
+.description,
+.TBD {
+    margin: 0 0 20px 0;
+    background-color: #f3f2f1;
+    padding: 30px;
+}
+
+.guidance:before,
+.note::before,
+.example::before,
+.description::before,
+.TBD::before {
+    font-weight: bold;
+    clear: right;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.guidance::before {
+    content: "Guidance" ;
+}
+
+.note::before {
+    content: "Note" ;
+}
+
+.example::before {
+    content: "Example";
+}
+
+.description::before {
+    content: "Description";
+}
+
+/*
+.assertion::after {
+    content: "¶ " ;
+    color: #b1b4b6;
+}
+*/
+
+.TBD::before {
+    content: "TBD";
+    font-style: italic;
+}
+
+a.para {
+  margin-right: 0.5em;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.para:hover {
+  color: #0066cc;
+}
+
+/*
+h1, h2::before, h3::before, h4::before {
+   content: "§ ";
+}
+*/
+
+</style>
+{% endblock dlStyle %}
+
+{% macro sentence_case(text) %}
+    {{ text[0]|upper}}{{text[1:] }}
+{% endmacro %}
+
+{% macro sentence_end(text) %}
+    {{ text.strip() }}.
+{% endmacro %}
+
+{% macro sentence(text) %}
+    {{ sentence_end(sentence_case(text)) }}
+{% endmacro %}
+
+
+{% set page_caption = 'Guidance' %}
+{% set page_title = sentence_case(item["name"]) %}
+{% set key = tables["specification"][name] %}
+
+{% block dl_content %}
+<div class="govuk-grid-row govuk-body">
+  <div class="govuk-grid-column-full">
+  </div>
+</div>
+
+{% endblock %}

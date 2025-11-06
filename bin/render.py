@@ -364,6 +364,7 @@ if __name__ == "__main__":
         "field",
         "datatype",
         "specification",
+        "guidance",
         "typology",
     ]:
         for name, item in tables[template].items():
