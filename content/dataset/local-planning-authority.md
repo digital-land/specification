@@ -3,7 +3,7 @@ attribution: ons-boundary
 collection: local-planning-authority
 consideration: local-planning-authority
 dataset: local-planning-authority
-description: 'local planning authority boundary'
+description: 'Local Planning Authorities and their boundaries'
 end-date: ''
 entity-maximum: '626999'
 entity-minimum: '624000'
@@ -20,9 +20,14 @@ fields:
      Enter the URL of the webpage on your website where information about the Local Planning Authority
      including the boundary may be found.
 - field: end-date
+  guidance: |
+     Enter the date this area ceased to be a Local Planning Authority.
 - field: entity
+  guidance: |
+     The value is managed by the Planning Data platform.
 - field: entry-date
 - field: geometry
+  description: 'Local Planning Authority boundary'
 - field: name
   description: Local Planning Authority name
   guidance: |
@@ -38,8 +43,15 @@ fields:
          All enquiries in respect of planning policy and Community Infrastructure Levy should now be made to 
          the relevant borough.
 - field: organisation
+  description: organisation responsible for the Local Planning Authority designation
+  guidance: |
+     The value is managed by the Planning Data platform.
 - field: point
+  guidance: |
+     The value is managed by the Planning Data platform.
 - field: prefix
+  guidance: |
+     The value is managed by the Planning Data platform.
 - field: reference
   guidance: |
     Enter the GSS code for the Local Planning Authority area. 
@@ -50,14 +62,16 @@ fields:
     - value: borchester-development-corporation
 - field: region
 - field: start-date
+  guidance: |
+     Enter the date this area became a Local Planning Authority.
 github-discussion: 36
 guidance: |
-   A mayoral authority, or other organisatoon responsible for the designation of a 
+   A mayoral authority, or other organisation responsible for the designation of a 
    development corporation or other kind of Local Planning Authority can use this 
    specification to provide the boundary of the Local Planning Authority area.
 key-field: ''
 licence: ogl3
-name: Local planning authority
+name: Local Planning Authority
 notes: |
    The `local-planning-authority` dataset name was taken from the name used by 
    the Office of National Statistics (ONS) for the Local Planning Authority 
@@ -65,7 +79,7 @@ notes: |
    role, which is also known as the "Local Planning Authority" (LPA).
 paint-options: ''
 phase: beta
-plural: Local planning authorities
+plural: Local Planning Authorities
 prefix: statistical-geography
 realm: dataset
 replacement-dataset: ''

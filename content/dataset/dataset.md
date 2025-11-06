@@ -16,12 +16,16 @@ fields:
 - field: description
   description: short description of the dataset without the definite article, sentence captialisation or a punctuation mark.
   guidance: |
+     Enter a description of the dataset which could be used in a sentence such as "A dataset containing *description* in England." 
+
      The description is intended to be used in tables and content, so shouldn't start with the definite article ("The", "A", etc)
      or end with a full-stop or other punctuation mark. 
-     A user may capitalise the first letter or add a full-stop when using the description in a sentence.
+     The description shouldn't start with a capital letter, unless the first word is a proper-noun, such as "Local Planning Authority".
+     This allows a user to capitalise the first letter or add a full-stop when using the description in a sentence.
   examples:
+    - value: "land that has been previously been developed"
     - value: "local plans prepared by a Local Planning Authority"
-      value: "land that has been previously been developed"
+    - value: 'Local Planning Authorities and their boundaries'
 - field: end-date
 - field: entry-date
 - field: github-discussion

@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: ''
+description: 'date from which the entity is not longer active or in force'
 end-date: ''
 entry-date: ''
 field: end-date

@@ -1,11 +1,12 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: ''
+description: 'entry date of the data'
 end-date: ''
 entry-date: ''
 field: entry-date
-guidance: ''
+guidance: |
+ Enter the date this data was created or modified.
 hint: ''
 name: Entry date
 parent-field: datetime

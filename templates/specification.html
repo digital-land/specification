@@ -210,7 +210,7 @@ h1, h2::before, h3::before, h4::before {
 
     <h3 id="{{ d['dataset']}}-dataset" class="govuk-heading-m">{{ sentence_case(name) }}</h3>
     <p class="description">
-    A {{ sentence_case(name) }} dataset is {{ sentence_end(d["description"] or _d["description"]) }}
+    The {{ sentence_case(name) }} dataset contains {{ sentence_end(d["description"] or _d["description"]) }}
     </p>
 
     {% if _d["guidance"] %}<div class="guidance">{{ _d["guidance"] | markdown }}</div>{% endif %}
@@ -225,8 +225,8 @@ h1, h2::before, h3::before, h4::before {
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
       <th scope="col" class="govuk-table__header">Requirement</th>
+      <th scope="col" class="govuk-table__header">Datatype</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
@@ -235,8 +235,8 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#field-{{field}}">{{ field }}</a></th>
-      <td scope="row" class="govuk-table__cell">{{ tables["field"][field]["datatype"] }}</td>
       <td scope="row" class="govuk-table__cell">{{ f["requirement-level"] }}</td>
+      <td scope="row" class="govuk-table__cell">{{ tables["field"][field]["datatype"] }}</td>
     </tr>
     {% endfor %}
   </tbody>
@@ -257,18 +257,31 @@ h1, h2::before, h3::before, h4::before {
     {%- for _f, df in tables["dataset-field"][d["dataset"]].items() -%}
     {%- if _f == f["field"] -%}
 
-        {%- if df["description"] != "" %}<p class="description">{{ sentence(df["description"]) }}</p>{% endif -%}
-        {%- if df["notes"] != "" %}<p class="note">{{ sentence(df["notes"]) }}</p>{% endif -%}
+        {%- if df["description"] != "" %}
+            <p class="description">{{ sentence(df["description"]) }}</p>
+        {%- elif tables["field"][field]["description"] != "" -%}
+            <p class="description">{{ sentence(tables["field"][field]["description"]) }}</p>
+        {%- endif -%}
+
+        {%- if df["notes"] != "" %}
+            <p class="notes">{{ df["notes"] }}</p>
+        {%- elif tables["field"][field]["notes"] != "" -%}
+            <p class="notes">{{ tables["field"][field]["notes"] }}</p>
+        {%- endif -%}
 
         {%- if df["guidance"] != "" -%}
         {% include "partials/dataset-field-guidance.html" %}
+        {%- elif tables["field"][field]["guidance"] != "" -%}
+            {% with df=tables["field"][field] %}
+                {% include "partials/dataset-field-guidance.html" %}
+            {% endwith %}
         {%- endif -%}
     {%- endif -%}
     {%- endfor %}
 
     <p class="assertion">Each {{ name }} entry {{level}} contain 
     a{% if f["field"][0] in "aeiou" %}n{% endif %} 
-    <code class="field">{{f["field"]}}</code> field.</p>
+    <code class="field">{{f["field"]}}</code> field value.</p>
     <p class="assertion">The {{ name }} <code class="field">{{field}}</code> field MUST be
     a{% if fieldtype[0] in "aeiou" %}n{% endif %} 
     <a href="#fieldtype-{{fieldtype}}">{{fieldtype}}</a> value.</p>
@@ -718,6 +731,14 @@ Other patterns for collecting data are under consideration, including feeds for 
     <dd class="govuk-summary-list__value">
     Ministry for Housing, Communities & Local Government planning data standards design process (service under development).
     <a href="https://design.planning.data.gov.uk">https://design.planning.data.gov.uk</a>
+    </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key" id="GSS">[GSS]</dt>
+    <dd class="govuk-summary-list__value">
+    Office for National Statistics, Geography Coding and Naming Policy for Official Statistics Version 2.0, July 2025
+    <a href="https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about">https://geoportal.statistics.gov.uk/documents/5a050dcaac8049dc9dc0aa7de0943378/about</a>
     </dd>
     </div>
 

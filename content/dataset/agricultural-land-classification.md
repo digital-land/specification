@@ -3,7 +3,7 @@ attribution: natural-england
 collection: agricultural-land-classification
 consideration: agricultural-land-classification
 dataset: agricultural-land-classification
-description: 	A system that grades the quality of land for agricultural use
+description: 	land graded by its quality for agricultural use
 end-date: ''
 entity-maximum: '34999'
 entity-minimum: '32000'
