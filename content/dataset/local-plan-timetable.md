@@ -27,20 +27,12 @@ fields:
     * `planning-inspectorate-examination-end`
     * `planning-inspectorate-found-sound`
     * `timetable-published`
-    * `estimated-submit-plan-for-examination`
     * `reg-18-draft-local-plan-published`
     * `reg-18-public-consultation-start`
     * `reg-18-public-consultation-end`
     * `reg-19-publication-local-plan-published`
     * `reg-19-public-consultation-start`
     * `reg-19-public-consultation-end`
-    * `estimated-reg-18-draft-local-plan-published`
-    * `estimated-reg-18-public-consultation-end`
-    * `estimated-reg-19-public-consultation-start`
-    * `estimated-reg-19-public-consultation-end`
-    * `estimated-reg-18-public-consultation-start`
-    * `estimated-reg-19-publication-local-plan-published`
-    * `estimated-plan-adoption-date`
     * `plan-withdrawn`
     * `plan-revoked`
 - field: document-url
