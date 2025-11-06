@@ -42,7 +42,7 @@ historic-england,historic-england,battlefields,battlefield,,,,,,,1400000,1499999
 crown-copyright,,best-and-most-versatile-agricultural-land,best-and-most-versatile-agricultural-land,,,,,,,1500000,1599999,ogl3,Best and most versatile agricultural land,,Best and most versatile agricultural land,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,biodiversity-net-gain-assessments,biodiversity-net-gain-assessment,,,,,,,1600000,1699999,ogl3,Biodiversity net gain assesment,,Biodiversity net gain assesments,alpha,,dataset,,,,environment,document,1.0,,
 ons-boundary,border,border,border,,,,,,,31000,31999,ogl3,Border,"{""colour"": ""#0b0c0c"", ""opacity"": 0.1, ""weight"": 5}",Borders,beta,statistical-geography,dataset,,,The boundary of England as provided by the ONS for the purposes of producing statistics.,administrative,geography,1.0,,
-crown-copyright,brownfield-land,brownfield-land,brownfield-land,Land that has been previously been developed,,,28,,site,1700000,1799999,ogl3,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,live,,dataset,,,"This dataset contains a register of Brownfield land sites in England that are suitable to be added to the Brownfield land register. 
+crown-copyright,brownfield-land,brownfield-land,brownfield-land,land that has been previously been developed,,,28,,site,1700000,1799999,ogl3,Brownfield land,"{ ""colour"": ""#745729"", ""type"": ""point"" }",Brownfield land,live,,dataset,,,"This dataset contains a register of Brownfield land sites in England that are suitable to be added to the Brownfield land register. 
 
 Each site references the following categories:
 
@@ -105,7 +105,7 @@ crown-copyright,,,datapackage,Collections of datasets,,,,,datapackage,16500000,1
 crown-copyright,,,dataset-field,,,,,,,0,0,ogl3,Dataset field,,Dataset fields,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,dataset-resource,An index of resources in a dataset,,,,,,,,ogl3,Dataset resource,,Dataset resources,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,dataset-schema,,,,,,,16700000,16799999,ogl3,Dataset schema,,Dataset schemas,alpha,,specification,,,,specification,specification,1.0,,
-crown-copyright,,,dataset,A collection of entities of the same type,,,,,dataset,4000000,4099999,ogl3,Dataset,,Datasets,alpha,,specification,,,,specification,specification,1.0,Q1172284,Data_set
+crown-copyright,,,dataset,collection of entities of the same type,,,,,dataset,4000000,4099999,ogl3,Dataset,,Datasets,alpha,,specification,,,,specification,specification,1.0,Q1172284,Data_set
 crown-copyright,,,datatype,,,,,,datatype,4100000,4199999,ogl3,Datatype,,Datatypes,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,default-value,provide a default value for a missing or empty field,,,,,,,,ogl3,Pipeline default value,,Pipleline default values,alpha,,configuration,,,,specification;pipeline,pipeline,1.0,,
 crown-copyright,,,default,Take a missing field default value from another field,,,,,,,,ogl3,Pipeline default field,,Pipleline default fields,alpha,,configuration,,,,specification;pipeline,pipeline,1.0,,

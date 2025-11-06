@@ -648,7 +648,10 @@ dataset,attribution,attribution,,,,,,,
 dataset,collection,collection,,,,,,,
 dataset,consideration,,,,,,,,
 dataset,dataset,,,,,,,,
-dataset,description,,,,,,,,
+dataset,description,,"short description of the dataset without the definite article, sentence captialisation or a punctuation mark.","The description is intended to be used in tables and content, so shouldn't start with the definite article (""The"", ""A"", etc)
+or end with a full-stop or other punctuation mark. 
+A user may capitalise the first letter or add a full-stop when using the description in a sentence.
+",,,"[{""value"": ""land that has been previously been developed""}]",,
 dataset,end-date,,,,,,,,
 dataset,entry-date,,,,,,,,
 dataset,github-discussion,,,,,,,,
