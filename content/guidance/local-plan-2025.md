@@ -1,6 +1,6 @@
 ---
 reference: local-plans-2025 
-phase: live
+guidance-status: working-draft
 name: Publish your local plans data
 summary: Follow this guidance on how to format, label and publish data about your local plan, housing numbers and its timetable.
 entry-date: 2025-11-06

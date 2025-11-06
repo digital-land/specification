@@ -78,6 +78,8 @@ fields:
         Enter the amount of housing (net additional housing) expected to be delivered by windfall sites
         within this `local-planning-authority` area for this `local-plan`.
 github-discussion: 26
+guidance: |
+   Create a record for each Local Planning Authority area in each local Plan.
 key-field: ''
 licence: ogl3
 name: Local plan housing number
