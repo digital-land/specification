@@ -281,9 +281,9 @@ h1, h2::before, h3::before, h4::before {
         {%- endif -%}
 
         {%- if df["notes"] != "" %}
-            <p class="notes">{{ df["notes"] }}</p>
+            <p class="note">{{ df["notes"] }}</p>
         {%- elif tables["field"][field]["notes"] != "" -%}
-            <p class="notes">{{ tables["field"][field]["notes"] }}</p>
+            <p class="note">{{ tables["field"][field]["notes"] }}</p>
         {%- endif -%}
 
         {%- if df["guidance"] != "" -%}
@@ -427,7 +427,7 @@ h1, h2::before, h3::before, h4::before {
 
     <h3 id="datatype-integer" class="govuk-heading-s">Integer</h3>
 
-    <p class="assertion">All <code>integer</code> values MUST conform to the integer datatype as defined by
+    <p class="assertion">A <code>value</code> in the <code>integer</code> values MUST conform to the integer datatype as defined by
     [<a href="#tabular-metadata">tabular-metadata</a>].</p>
 
     <h3 id="datatype-text" class="govuk-heading-s">Text</h3>
