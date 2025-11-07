@@ -1976,7 +1976,11 @@ local-plan,end-date,,date a local plan was withdran or revoked,,,,,,
 local-plan,entity,entity,,,,,,,
 local-plan,entry-date,,,,,,,,
 local-plan,local-plan-boundary,local-plan-boundary,area covered by the local plan,This area is created by the planning data platform from the local-planning-authorites values.,,,,,
-local-plan,local-plan-process,local-plan-process,examination process under which this local plan was or is being produced,Enter the local plan examination process under which this local plan was or is being produced.,,,"[{""value"": ""2025"", ""description"": ""the plan is being produced under the 2025 local plan regulations""}, {""value"": ""2012"", ""description"": ""the plan was produced under the previous local plan regulations""}]",,
+local-plan,local-plan-process,local-plan-process,examination process under which this local plan was or is being produced,"Indicate the local plan examination process for the local plan using one of the following values:
+
+* `2012` for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements
+* `2025` for plans prepared under *new Local Planning Regulations (TBD)*
+",,,,,
 local-plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
 area covered by the plan.
