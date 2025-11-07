@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-import sys
 import csv
-from pathlib import Path
 
 realm = "dataset"
 
@@ -181,7 +179,7 @@ for typology in typologies:
 ncols = len(typologies)
 ngaps = ncols + 2
 canvas_width = ncols * row_width + ngaps * x_gap
-canvas_height = max_Y
+canvas_height = max_Y + y_gap
 
 print(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_width}" height="{canvas_height}">'

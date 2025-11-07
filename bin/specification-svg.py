@@ -166,6 +166,7 @@ def generate(specification_path, output_path=None):
         X = X + row_width + gap
         Y_OFFSET = Y + gap
 
+    canvas_height += gap
 
     svg_content.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_width}" height="{canvas_height}">'
