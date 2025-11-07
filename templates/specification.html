@@ -254,8 +254,13 @@ h1, h2::before, h3::before, h4::before {
     The {{ sentence_case(name) }} dataset contains {{ sentence_end(d["description"] or _d["description"]) }}
     </p>
 
-    {% if _d["guidance"] %}<div class="guidance">{{ _d["guidance"] | markdown }}</div>{% endif %}
-    {% if _d["notes"] %}<div class="note">{{ _d["notes"] | markdown }}</div>{% endif %}
+    {% if _d["guidance"] %}
+    <div class="guidance">{{ _d["guidance"] | markdown }}</div>
+    {% endif %}
+
+    {% if _d["notes"] %}
+    <div class="note">{{ _d["notes"] | markdown }}</div>
+    {% endif %}
 
     <p class="assertion">The {{name}} dataset {{d["requirement-level"]}} contain at least one entry for each {{ name }} for which the data provider is the responsible authority.</p>
 
@@ -272,23 +277,22 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
     {%- for _f, df in tables["dataset-field"][d["dataset"]].items() -%}
-    {%- if _f == f["field"] -%}
-
-        {%- if df["description"] != "" %}
+    {%- if _f == field -%}
+        {%- if df["description"] %}
             <p class="description">{{ sentence(df["description"]) }}</p>
-        {%- elif tables["field"][field]["description"] != "" -%}
+        {%- elif tables["field"][field]["description"] -%}
             <p class="description">{{ sentence(tables["field"][field]["description"]) }}</p>
         {%- endif -%}
 
-        {%- if df["notes"] != "" %}
-            <p class="note">{{ df["notes"] }}</p>
-        {%- elif tables["field"][field]["notes"] != "" -%}
-            <p class="note">{{ tables["field"][field]["notes"] }}</p>
+        {%- if df["notes"] %}
+            <div class="note">{{ df["notes"] | markdown }}</div>
+        {%- elif "notes" in tables["field"][field]["notes"] -%}
+            <div class="note">{{ tables["field"][field]["notes"] | markdown }}</div>
         {%- endif -%}
 
-        {%- if df["guidance"] != "" -%}
+        {%- if df["guidance"] -%}
         {% include "partials/dataset-field-guidance.html" %}
-        {%- elif tables["field"][field]["guidance"] != "" -%}
+        {%- elif tables["field"][field]["guidance"] -%}
             {% with df=tables["field"][field] %}
                 {% include "partials/dataset-field-guidance.html" %}
             {% endwith %}
