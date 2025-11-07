@@ -423,9 +423,12 @@ h1, h2::before, h3::before, h4::before {
 
     </p>
 
+    
     <div class="guidance"><p class="govuk-body">The local plan timetable is a record of the key dates when producing a local plan.
 Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local plan event</a> dataset with the date when the event happened.
 Provide the predicted dates for events which are in the future.</p></div>
+    
+
     
 
     <p class="assertion">The Local plan timetable dataset SHOULD contain at least one entry for each Local plan timetable for which the data provider is the responsible authority.</p>
@@ -439,7 +442,7 @@ Provide the predicted dates for events which are in the future.</p></div>
     
 
 
-    <!- brute force for now, needs an index --><p class="note"></p>    <div class="guidance">
+    <!- brute force for now, needs an index -->    <div class="guidance">
         <p><p class="govuk-body">Give each event a reference which is unique for the event within the dataset.
 Where the timetable contains events for different local plans you can distinguish the events by adding the <code>local-plan</code> reference.
 Where a timetable has more than one event of the same kind, you can add a date to make them unique.</p></p><p>Examples:</p><ul><li>
@@ -476,7 +479,7 @@ Where a timetable has more than one event of the same kind, you can add a date t
     
     Associated local plan.
 
-</p><p class="note"></p>    <div class="guidance">
+</p>    <div class="guidance">
         <p><p class="govuk-body">Enter the reference of the local plan which this event forms part of its timetable.</p></p><p>Examples:</p><ul><li>
                     <code class="value">LP-BRX-2024</code>
             <li>
@@ -510,7 +513,7 @@ Where a timetable has more than one event of the same kind, you can add a date t
     
     An event that occurs during the local plan making process.
 
-</p><p class="note"></p>    <div class="guidance">
+</p>    <div class="guidance">
         <p><p class="govuk-body">Enter one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> values:</p>
 <ul class="govuk-list govuk-list--bullet">
 <li><code>plan-adopted</code></li>
@@ -560,9 +563,8 @@ Where a timetable has more than one event of the same kind, you can add a date t
     Earliest predicted date for the event.
 
 </p>
-            <p class="note">Older published schemes often use vaugue descriptions such as `Spring 2020` or `Q2 2018`.
-Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.
-</p>    <div class="guidance">
+            <div class="note"><p class="govuk-body">Older published schemes often use vaugue descriptions such as <code>Spring 2020</code> or <code>Q2 2018</code>.
+Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.</p></div>    <div class="guidance">
         <p><p class="govuk-body">Enter the earliest date when this event is expected to happen.</p></p><p>Example:
                     <code class="value">2027-01-01</code>
             </p>
@@ -595,7 +597,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     Latest predicted date for the event.
 
-</p><p class="note"></p>    <div class="guidance">
+</p>    <div class="guidance">
         <p><p class="govuk-body">Enter the latest date when this event is expected to happen.</p></p><p>Example:
                     <code class="value">2027-03-31</code>
             </p>
@@ -627,7 +629,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     Entry date of the data.
 
-</p><p class="note"></p>
+</p>
                     <div class="guidance">
         <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
     </div>
@@ -659,7 +661,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     Date of the timetable event.
 
-</p><p class="note"></p>    <div class="guidance">
+</p>    <div class="guidance">
         <p><p class="govuk-body">Enter the date when the timetable event occured. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.</p></p>
     </div>
@@ -685,7 +687,15 @@ such as when you expect a draft local plan to be adopted.</p></p>
     
 
 
-    <!- brute force for now, needs an index --><p class="note"></p>
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Notes and commentary about how this data was made or may be interpreted.
+
+</p>
+                    <div class="guidance">
+        <p><p class="govuk-body">Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
+    </div>
+            
 
     <p class="assertion">Each Local plan timetable entry MAY contain 
     a 
