@@ -1,5 +1,5 @@
 """
-Render Govspeak markdown
+Govspeak markdown rendering module.
 
 Provides markdown rendering with GOV.UK-specific extensions including:
 - Call-to-action blocks ($CTA...$CTA)
@@ -23,7 +23,7 @@ def render_markdown(content):
         content: Markdown content string
 
     Returns:
-        Rendered HTML string with GOV.UK classes
+        Rendered HTML string
     """
     # Extract CTA blocks and store them with placeholders
     cta_blocks = []
@@ -63,7 +63,13 @@ def render_markdown(content):
         for line in lines:
             step_match = re.match(r"s\d+\.\s+(.*)", line)
             if step_match:
-                html += f'  <li>{step_match.group(1)}</li>\n'
+                step_content = step_match.group(1)
+                # Process inline markdown in step content
+                md_step = markdown.Markdown(extensions=["extra"])
+                step_html = md_step.convert(step_content)
+                # Remove wrapping <p> tags if present
+                step_html = re.sub(r"^<p>(.*)</p>$", r"\1", step_html.strip())
+                html += f'  <li>{step_html}</li>\n'
         html += "</ol>"
         return html
 
