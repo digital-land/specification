@@ -5,14 +5,14 @@ Publishing your data consists of two parts:
 
 ### Endpoint
 
-The endpoint is a URL where a user can download the data.
 Publish your data at a public endpoint, in a way which anyone can download and use it.
 
-The endpoint is usually a single file hosted on your website.
-Alternatively, you can provide your data using a WFS or other API,
-or using a third-party service such as GitHub or ArcGIS which allows the data to be downloaded.
+The endpoint URL is the download link for the data.
+This can be a single file hosted on your website.
+Alternatively, you can serve your data using a WFS or other API
+using a third-party service such as GitHub or ArcGIS.
 
-Ensure your endpoint is documented on a public webpage to help people find and use the data.
+Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
 
 The documentation webpage for your endpoint should include a clear statement that the data is provided as open data under
 the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
