@@ -89,11 +89,76 @@ a.para:hover {
   color: #0066cc;
 }
 
-/*
-h1, h2::before, h3::before, h4::before {
-   content: "§ ";
+.organisation-logos {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
 }
-*/
+
+.html-publication .contents-list-container {
+    position: sticky;
+    top: 10px;
+    max-height: 100vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+/* Contents list styling */
+.govuk-body ol {
+  list-style: decimal;
+}
+
+.govuk-body ol ol {
+  list-style: lower-alpha;
+}
+
+/* Steps list styling (govspeak s1., s2., etc.) */
+ol.steps {
+  list-style: none;
+  counter-reset: step-counter;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 19px;
+  line-height: 1.31579;
+  margin-bottom: 2em;
+}
+
+ol.steps li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 2.5em;
+  margin-bottom: 1em;
+}
+
+ol.steps li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  min-width: 1.6em;
+  height: 1.6em;
+  line-height: 1.6em;
+  text-align: center;
+  background-color: #0b0c0c;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.call-to-action {
+    margin:0 0 20px 0;
+    background-color:#f3f2f1;
+    padding:30px;
+    padding-bottom:10px
+}
+
+/* mimic a GOV.UK lead-paragraph */
+.information-callout {
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
 
 </style>
 {% endblock dlStyle %}
@@ -112,7 +177,7 @@ h1, h2::before, h3::before, h4::before {
 
 
 {% set page_caption = 'Guidance' %}
-{% set page_title = sentence_case(item["name"]) %}
+{% set page_title = item["title"] %}
 {% set key = tables["specification"][name] %}
 
 {% block dl_content %}
@@ -129,7 +194,7 @@ h1, h2::before, h3::before, h4::before {
 <div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
 
-      
+      {{ html | safe }}
 
   </div>
 </div>

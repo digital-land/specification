@@ -6,18 +6,19 @@ import os
 import csv
 from pathlib import Path
 import shutil
-import jinja2
 import importlib
 import frontmatter
 import glob
 import json
 
-from glob import glob
+# TBD: review use of digital_land_frontend ..
 from digital_land_frontend.jinja import setup_jinja
-from markdown import Markdown
-from markupsafe import Markup
 
+from glob import glob
 from typing import Dict, List
+from markupsafe import Markup
+from govspeak import render_markdown
+
 
 
 specification_svg = importlib.import_module("specification-svg")
@@ -43,6 +44,7 @@ tables = {
     "dataset": {},
     "dataset-field": {},
     "specification": {},
+    "specification-reason": {},
     "specification-status": {},
 }
 
@@ -313,15 +315,11 @@ def get_previous_versions(source_dir, latest_version):
 
 
 
+
 if __name__ == "__main__":
     env = setup_jinja()
 
-    md = Markdown()
-    env.filters["markdown"] = lambda text: Markup(
-        md.convert(text)
-        .replace("<p>", '<p class="govuk-body">')
-        .replace("<ul>", '<ul class="govuk-list govuk-list--bullet">')
-    )
+    env.filters["markdown"] = lambda v: Markup(render_markdown(v))
     env.filters["commanum"] = lambda v: "{:,}".format(v)
     env.filters["dataset_sort"] = dataset_sort
 
@@ -364,7 +362,6 @@ if __name__ == "__main__":
         "field",
         "datatype",
         "specification",
-        "guidance",
         "typology",
     ]:
         for name, item in tables[template].items():
@@ -437,6 +434,42 @@ if __name__ == "__main__":
                    staticPath=staticPath,
                    assetPath=assetPath,
                    sectionPath=f"{specification_repo_url}/specification")
+
+
+    #
+    #  generate guidance from the specification
+    #
+    for specification in tables["specification"]:
+        md = f"guidance/{specification}/{specification}.md"
+        template = "govuk.md"
+
+        # create guidance in Govspeak
+        render(
+            md,
+            env.get_template(template),
+            specification=tables["specification"][specification],
+            tables=tables,
+            staticPath=staticPath,
+            assetPath=assetPath,
+            sectionPath=f"{specification_repo_url}")
+
+        item = frontmatter.load(docs + md)
+        html = render_markdown(item.content)
+
+        tables.setdefault("guidance", {})
+        tables["guidance"][specification] = item
+
+        # create guidance in GOV.UK like HTML
+        render(
+            f"guidance/{specification}/index.html",
+            env.get_template("guidance.html"),
+            specification=tables["specification"][specification],
+            tables=tables,
+            item=item.metadata,
+            html=html,
+            staticPath=staticPath,
+            assetPath=assetPath,
+            sectionPath=f"{specification_repo_url}")
 
     for path, template in [
         ("index.html", "indexes.html"),

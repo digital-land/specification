@@ -164,7 +164,7 @@ h1, h2::before, h3::before, h4::before {
     This document places no obligations on any party to provide data in conformance to this specification. 
     </p>
     <p>
-    A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
+    A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>] or other legislation.
     </p>
     <p>
     This technical specification is accompanied by guidance, examples and other tools which provide feedback to organisations creating data to this specification.
@@ -314,7 +314,7 @@ h1, h2::before, h3::before, h4::before {
     {%- endif %}</li>
 
     <!-- deprecated specification description .. -->
-    {% if f["description"] %} <p class="description">{{ f["description"] | safe }}</p>{% endif %}
+    {% if f["description"] %} <p class="description">{{ sentence(f["description"]) | safe }}</p>{% endif %}
 
     {%- endfor %}
 {% endfor %}

@@ -92,7 +92,6 @@ def render_markdown(content):
     md = markdown.Markdown(
         extensions=[
             "extra",
-            "nl2br",
             "sane_lists",
             TocExtension(permalink=False),
             TableExtension(),
@@ -106,7 +105,6 @@ def render_markdown(content):
         md_cta = markdown.Markdown(
             extensions=[
                 "extra",
-                "nl2br",
                 "sane_lists",
             ]
         )

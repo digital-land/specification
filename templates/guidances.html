@@ -3,13 +3,17 @@
 {% set page_caption = 'Specification' %}
 {% set page_title = 'Guidance pages' %}
 
+{% macro sentence_case(text) %}
+    {{ text[0]|upper}}{{text[1:] }}
+{% endmacro %}
+
 {% block dl_content %}
 <div class="govuk-grid-row govspeak govuk-body">
   <div class="govuk-grid-column-full">
-    <p class="govuk-body">Guidance pages generated from our specifications.</p>
+      <p class="govuk-body">Guidance pages generated from our <a href="../specification/">specifications</a>.</p>
+    <ul>
     {% for guidance, item in tables["guidance"].items()| sort %}
-    <h3 id="{{ item['reference'] }}">{{ item["name"] }}</h3>
-    <p><a href="{{guidance}}">{{ item["name"] }}</a></p>
+    <li><a href="{{guidance}}">{{ sentence_case(item["name"]) }}</a>
     {% endfor %}
     </ul>
   </div>
