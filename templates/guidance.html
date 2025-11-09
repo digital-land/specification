@@ -160,6 +160,31 @@ ol.steps li::before {
     line-height: 1.25;
 }
 
+.gem-c-attachment{position:relative;font-family:"GDS Transport",arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:400;font-size:1.1875rem;line-height:1.3157894737}
+
+.gem-c-attachment::after{content:"";display:block;clear:both}
+.gem-c-attachment__thumbnail{position:relative;width:auto;padding:5px;float:left}
+.gem-c-attachment__thumbnail-image{display:block;width:auto;max-width:66px;height:93.3333333333px;border:rgba(11,12,12,.1);outline:5px solid rgba(11,12,12,.1);background:#fff;box-shadow:0 2px 2px rgba(11,12,12,.4);fill:#b1b4b6;stroke:#b1b4b6}
+@media(min-width: 40.0625em){.gem-c-attachment__thumbnail-image{max-width:99px;height:140px}}
+.gem-c-attachment__details{padding-left:89.3333333333px}
+@media(min-width: 40.0625em){.gem-c-attachment__details{padding-left:134px}}
+.gem-c-attachment__details .gem-c-details{margin-top:15px;word-break:break-word;word-wrap:break-word}
+.gem-c-attachment__title{margin:0 0 15px;font-family:"GDS Transport",arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:400;font-size:1.3125rem;line-height:1.1904761905}
+@media(min-width: 40.0625em){.gem-c-attachment__title{font-size:1.6875rem;line-height:1.1111111111}}
+.gem-c-attachment__metadata{margin:0 0 15px;color:#505a5f;font-family:"GDS Transport",arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:400;font-size:1.1875rem;line-height:1.3157894737;word-wrap:break-word;overflow-wrap:break-word}
+.gem-c-attachment__metadata:last-of-type{margin-bottom:0}
+.govspeak .gem-c-attachment__title,.gem-c-govspeak .gem-c-attachment__title{margin:0 0 15px 0;font-family:"GDS Transport",arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:400;font-size:1.3125rem;line-height:1.1904761905}
+@media(min-width: 40.0625em){.govspeak .gem-c-attachment__title,.gem-c-govspeak .gem-c-attachment__title{font-size:1.6875rem;line-height:1.1111111111}}
+.govspeak .gem-c-attachment__metadata,.gem-c-govspeak .gem-c-attachment__metadata{margin:0 0 15px 0}
+.gem-c-attachment__metadata--compact{margin-bottom:0}
+.gem-c-attachment__abbr{text-decoration:none;cursor:help}
+.gem-c-attachment__metadata{color:#000}
+.gem-c-attachment__metadata,.gem-c-attachment__metadata .govuk-link::after{font-size:12pt}
+.gem-c-attachment__link.govuk-link{word-break:break-word}
+.gem-c-attachment__link.govuk-link::after{font-size:12pt;line-height:1 !important}}
+.gem-c-back-to-top-link{display:inline-block;margin-bottom:10px;margin-left:15px;margin-right:15px}
+.gem-c-back-to-top-link__icon{float:left;margin-right:.3em;width:.8em;height:.968em}
+
 </style>
 {% endblock dlStyle %}
 
@@ -174,7 +199,6 @@ ol.steps li::before {
 {% macro sentence(text) %}
     {{ sentence_end(sentence_case(text)) }}
 {% endmacro %}
-
 
 {% set page_caption = 'Guidance' %}
 {% set page_title = item["title"] %}
@@ -195,6 +219,10 @@ ol.steps li::before {
   <div class="govuk-grid-column-full">
 
       {{ html | safe }}
+
+      {% if item["attachments"] %}
+        {% include 'attachments.html' %}
+      {% endif %}
 
   </div>
 </div>

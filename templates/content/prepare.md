@@ -16,7 +16,7 @@ CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tool.
 
 The [fields and format](#data-fields-and-formats) of the data are documented below,
-and formally defined in [Technical Specifications] attached to this page.
+and formally defined in the [technical specifications](#technical-specifications) attached to this page.
 
 Your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
