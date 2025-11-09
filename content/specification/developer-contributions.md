@@ -4,6 +4,7 @@ name: Developer contributions
 plural: Developer contributions
 specification-status: open-standard
 specification-reason: cil-2019
+considerations: developer-contributions
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'

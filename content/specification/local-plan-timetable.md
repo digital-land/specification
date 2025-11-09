@@ -5,6 +5,7 @@ plural: local plan timetables
 description: log of past and predicted milestones and events when producing a local plan
 specification-status: working-draft
 specification-reason: prospective
+consideration: local-plans
 start-date: ''
 end-date: ''
 entry-date: '2025-11-05'

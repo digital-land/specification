@@ -4,6 +4,7 @@ name: Design code
 plural: design codes
 specification-status: working-draft
 specification-reason: prospective
+considerations: design-codes
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'

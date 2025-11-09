@@ -4,6 +4,7 @@ name: Article 4 direction
 plural: article 4 directions
 specification-status: candidate-standard
 specification-reason: digital-planning-funding
+consideration: article-4-directions
 start-date: ''
 end-date: ''
 entry-date: '2025-11-08'

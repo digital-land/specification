@@ -1,4 +1,4 @@
-{%- set title = "Provide your " + specification["name"] + " data" %}
+{%- set title = "Provide your " + specification["name"] + " data" -%}
 ---
 title: {{ title }}
 name: {{ specification["name"] }}
@@ -13,8 +13,8 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: {{ specification["document-url"] }}
-  name: '{{ specification["name"] }} technical specification ({{ specification["entry-date"] }})'
+- url: {{ specification["document-url"] or specification["documentation-url"] or "/specification/specification/"+specification["specification"] }}
+  name: '{{ specification["name"] | sentence_case }} technical specification ({{ specification["entry-date"] | datetime_format }})'
   attachment-type: HTML
   start-date: {{ specification["start-date"] }}
 ---
@@ -31,10 +31,24 @@ understand its quality, and trust it will be sustained.
 
 {% include "content/provide.md" %}
 
-## Data files, fields and formats
+## Files, fields and formats
+
+{% include "content/data.md" %}
+
+## Contact us
 
 $CTA
-If you need any help at any stage of the process, let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
+If you need any help at any stage of the process,
+let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
 $CTA
+
+You can participate in 
+{%- if not specification["consideration"] %}
+improving the design of this data 
+{% else %}
+[improving the design of this data](https://design.planning.data.gov.uk/consideration/{{ specification["consideration"] }})
+{%- endif %},
+and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
+
 
 ## Technical specifications

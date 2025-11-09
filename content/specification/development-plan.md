@@ -4,6 +4,7 @@ name: Development plan
 plural: Development plans
 specification-status: withdrawn
 specification-reason: prospective
+consideration: development-plans
 start-date: ''
 end-date: ''
 entry-date: '2024-08-15'

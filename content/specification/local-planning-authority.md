@@ -4,6 +4,7 @@ name: local planning authority
 plural: local planning authorities
 specification-status: working-draft
 specification-reason: prospective
+consideration: development-corporation
 start-date: ''
 end-date: ''
 entry-date: '2025-11-05'

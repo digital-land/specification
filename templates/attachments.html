@@ -14,7 +14,7 @@
       <a class="govuk-link" target="_self" data-ga4-link="{&quot;event_name&quot;:&quot;navigation&quot;,&quot;type&quot;:&quot;attachment&quot;}" href="{{ attachment.url }}">
       {{ attachment.name }}
       {%- if attachment.version %}, version {{ attachment.version }}{% endif -%}
-      {%- if attachment.date %}, {{ attachment.date}}{% endif -%}
+      {%- if attachment.date %}, {{ attachment.date | datetime_format("%d %B %Y")}}{% endif -%}
       </a>
     </h3>
     <p class="gem-c-attachment__metadata"><span class="gem-c-attachment__attribute">

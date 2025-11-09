@@ -11,6 +11,7 @@ entry-date: ''
 fields:
 - field: audience
 - field: datasets
+- field: consideration
 - field: description
 - field: documentation-url
 - field: end-date

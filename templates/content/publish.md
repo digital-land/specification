@@ -7,9 +7,9 @@ Publishing your data consists of two parts:
 
 Publish your data at a public endpoint, in a way which anyone can download and use it.
 
-The endpoint URL is the download link for the data.
+The endpoint is a URL from which the data can be downloaded.
 This can be a single file hosted on your website.
-Alternatively, you can serve your data using a WFS or other API
+Alternatively, you can serve your data using an OGC WFS or other API
 using a third-party service such as GitHub or ArcGIS.
 
 Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
@@ -19,9 +19,8 @@ the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-gover
 
 ### Source
 
-The source page is a URL where a user can see the same information in the data.
-This is usually existing planning policy, or other webpages on 
-your official <code>.gov.uk</code> website.
+The source is a webpage where a user can see the same information in the data.
+This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
 
 It is important that the source page links to the endpoint documentation webpage to 
 help users trust the authenticity of the data.

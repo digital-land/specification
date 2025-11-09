@@ -86,8 +86,8 @@ fields:
 github-discussion: 26
 guidance: |
    The local plan timetable is a record of the key dates when producing a local plan.
-   Your data should include a row for each of the events listed in the [Local plan event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened.
-   Provide the predicted dates for events which are in the future.
+   Your data should include a row for each of the events listed in the [local plan event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened.
+   Provide your predicted range of dates for events which are in the future.
 key-field: ''
 licence: ogl3
 name: Local plan timetable

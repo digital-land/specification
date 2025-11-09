@@ -35,13 +35,17 @@ fields:
   description: local plan document
   guidance: The URL of the [Source documentation](#source-documentation) page.
 - field: end-date
+  guidance: |
+    Enter the date these numbers were withdrawn, otherwise leave this field blank.
 - field: entity
 - field: entry-date
 - field: local-plan
+  guidance: |
+    Enter the `reference` for the local plan which these numbers apply.
 - field: local-planning-authority
   description: local planning authority area
   guidance: |
-        This should be the statistical geography for the local-planning-authority area to which the housing numbers apply.
+        This should be the GSS code (statistical geography) for the `local-planning-authority` area to which the housing numbers apply.
         See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
   examples:
       - value: 'E60000001'
@@ -57,7 +61,7 @@ fields:
 - field: reference
   description: local plan reference
   guidance: |
-        Give each set of housing numbers a reference value.
+        Give each set of housing numbers a unique reference value.
   examples:
     - value: '34069/County-Durham-Plan'
     - value: 'central-lincolnshire'
@@ -72,6 +76,8 @@ fields:
       entry-number: 1
       value: 24852
 - field: start-date
+  guidance: |
+    Enter the date these numbers were finalised.
 - field: windfall-housing
   description: amount of net additional housing expected to be delivered from windfall developments
   guidance: |
@@ -79,13 +85,14 @@ fields:
         within this `local-planning-authority` area for this `local-plan`.
 github-discussion: 26
 guidance: |
-   Create a record for each Local Planning Authority area in each local Plan.
+   Create a row containing the housing numbers for each local plan.
+   For a joint local plan, break the numbers down further by providing a separate row for each Local Planning Authority.
 key-field: ''
 licence: ogl3
-name: Local plan housing number
+name: local plan housing number
 paint-options: ''
 phase: alpha
-plural: Local plan housing numbers
+plural: local plan housing numbers
 prefix: ''
 realm: dataset
 replacement-dataset: ''

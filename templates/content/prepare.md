@@ -15,9 +15,11 @@ Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tool.
 
-The [fields and format](#data-fields-and-formats) of the data are documented below,
-and formally defined in the [technical specifications](#technical-specifications) attached to this page.
+The [files, fields and format](#files-fields-and-formats) of the data you need to 
+provide are documented below, and formally defined in the 
+[technical specifications](#technical-specifications) attached to this page.
 
 Your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
-so start with the information you have, and continue to iterate and improve it over time.
+so start by providing the {{specification["plural"]}} information you have,
+and continue to iterate and improve it over time.

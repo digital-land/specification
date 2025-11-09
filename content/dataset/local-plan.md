@@ -22,8 +22,8 @@ fields:
 
      Each entry in the local plan dataset should link to a documentation webpage that includes the information 
      in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-     Each local plan should have a unique URL.
-     Where there are several local plans listed on a single webpage, you will need to use use an anchor link (fragment identifier) for each plan.
+     Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+     to make the URL for each plan unique.
   examples:
     - value: https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan
     - value: https://example.com/local-plans/#example-local-plan-2011
@@ -35,7 +35,9 @@ fields:
   examples:
     - value: 'https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf'
 - field: end-date
-  description: date a local plan was withdran or revoked
+  description: date a local plan was withdrawn or revoked
+  guidance: |
+      Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
 - field: entity
 - field: entry-date
 - field: local-plan-boundary
@@ -94,12 +96,7 @@ fields:
 - field: reference
   description: local plan reference
   guidance: |
-    A reference or ID for each local plan that is:
-
-    * unique within your dataset
-    * persistent - it doesn’t change when the dataset is updated
-
-    If you don’t have a reference for the local plan already, you will need to create one. This can be a short set of letters or numbers.
+     Give each local plan a unique reference.
   examples:
     - value: 'LP-BRX-2024'
     - value: '34069/County-Durham-Plan'
@@ -112,6 +109,8 @@ fields:
       This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
       Leave this value blank for plans which are being prepared, or haven't yet been adopted.
 github-discussion: 26
+guidance: |
+    List the local plans you are responsible for with one row for each current, emerging or historical local plan.
 key-field: ''
 licence: ogl3
 name: local plan

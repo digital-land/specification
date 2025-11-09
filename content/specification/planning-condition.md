@@ -4,6 +4,7 @@ name: Planning condition
 plural: Planning conditions
 specification-status: working-draft
 specification-reason: prospective
+consideration: planning-conditions
 start-date: ''
 end-date: ''
 entry-date: '2023-11-09'

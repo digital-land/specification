@@ -4,6 +4,7 @@ name: Community infrastructure levy
 plural: Community infrastructure levy
 specification-status: working-draft
 specification-reason: prospective
+consideration: community-infrastructure-levy
 start-date: ''
 end-date: ''
 entry-date: '2024-12-12'

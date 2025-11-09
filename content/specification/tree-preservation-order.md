@@ -4,6 +4,7 @@ name: Tree preservation order
 plural: Tree preservation orders
 specification-status: piloting
 specification-reason: digital-planning-funding
+consideration: tree-preservation-orders
 start-date: ''
 end-date: ''
 entry-date: '2025-11-08'

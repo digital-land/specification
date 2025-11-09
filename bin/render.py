@@ -314,6 +314,8 @@ def get_previous_versions(source_dir, latest_version):
     return previous_versions
 
 
+def date_format(value, format="%-d %B %Y"):
+    return datetime.fromisoformat(value).strftime(format)
 
 
 if __name__ == "__main__":
@@ -322,6 +324,8 @@ if __name__ == "__main__":
     env.filters["markdown"] = lambda v: Markup(render_markdown(v))
     env.filters["commanum"] = lambda v: "{:,}".format(v)
     env.filters["dataset_sort"] = dataset_sort
+    env.filters["datetime_format"] = date_format
+    env.filters["sentence_case"] = lambda v: v[0].upper() + v[1:]
 
     for table in tables:
         if table in ["specification"]:
