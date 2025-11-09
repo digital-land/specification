@@ -4025,3 +4025,36 @@ authorititive ""red-line"" boundary may be found.
 local-planning-authority,documentation-url,,"Enter the URL of the webpage on your website where information about the Local Planning Authority
 including the boundary may be found.
 ",,1
+provision-rationale,description,,,,1
+provision-rationale,end-date,,,,1
+provision-rationale,entity,,,,1
+provision-rationale,entry-date,,,,1
+provision-rationale,guidance,,"Enter the opening paragraph for GOV.UK guidance explaining which organisations
+need to provide data to a specification, citing legislation.gov.uk or 
+funding announcement.
+",,1
+provision-rationale,name,,"The title of the legislation or funding.
+",,1
+provision-rationale,notes,,,,1
+provision-rationale,prefix,,,,1
+provision-rationale,reference,,,,1
+provision-rationale,start-date,,,,1
+provision,provision-duty,,,,1
+specification,provision-justification,,,,2
+specification-reason,description,,,,1
+specification-reason,end-date,,,,1
+specification-reason,entity,,,,1
+specification-reason,entry-date,,,,1
+specification-reason,guidance,,"Enter the opening paragraph for GOV.UK guidance explaining which organisations
+need to provide data to a specification, citing legislation.gov.uk or 
+funding announcement.
+",,1
+specification-reason,name,,"The title of the legislation or funding.
+",,1
+specification-reason,notes,,,,1
+specification-reason,prefix,,,,1
+specification-reason,reference,,,,1
+specification-reason,start-date,,,,1
+specification,specification-reason,,,,2
+specification-reason,definition,,,,1
+specification,audience,,,,2
