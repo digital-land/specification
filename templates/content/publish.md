@@ -20,7 +20,8 @@ the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-gover
 ### Source
 
 The source page is a URL where a user can see the same information in the data.
-This is usually existing planning policy, or other webpages on your official website.
+This is usually existing planning policy, or other webpages on 
+your official <code>.gov.uk</code> website.
 
 It is important that the source page links to the endpoint documentation webpage to 
 help users trust the authenticity of the data.
