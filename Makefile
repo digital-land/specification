@@ -35,6 +35,7 @@ SPECIFICATION_CSV=\
 	specification/project-status.csv\
 	specification/requirement.csv\
 	specification/specification.csv\
+	specification/specification-reason.csv\
 	specification/specification-status.csv\
 	specification/organisation-dataset.csv\
 	specification/provision.csv\
@@ -115,6 +116,11 @@ SPECIFICATION_MD=$(sort $(wildcard content/specification/*.md))
 specification/specification.csv:	$(SPECIFICATION_MD) bin/load-markdown.py
 	@mkdir -p specification/
 	python3 bin/load-markdown.py $@ $(SPECIFICATION_MD)
+
+SPECIFICATION_REASON_MD=$(sort $(wildcard content/specification-reason/*.md))
+specification/specification-reason.csv:	$(SPECIFICATION_REASON_MD) bin/load-markdown.py
+	@mkdir -p specification/
+	python3 bin/load-markdown.py $@ $(SPECIFICATION_REASON_MD)
 
 GUIDANCE_MD=$(sort $(wildcard content/guidance/*.md))
 specification/guidance.csv:	$(GUIDANCE_MD) bin/load-markdown.py
@@ -245,6 +251,9 @@ var/cache/lgd.html:
 # could check every html file ..
 render::
 	python3 bin/check-anchors.py docs/specification/local-plan/index.html
+ifneq ("${TESTING_GUIDANCE}","")
+	cp docs/guidance/local-plan*/*md ../testing-guidance/content
+endif
 
 # deprecated
 specification/organisation-dataset.csv:        specification/provision.csv
