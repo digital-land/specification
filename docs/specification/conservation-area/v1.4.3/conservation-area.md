@@ -4,6 +4,7 @@ name: Conservation area
 plural: conservation areas
 specification-status: candidate-standard
 specification-reason: digital-planning-funding
+consideration: conservation-areas
 start-date: ''
 end-date: ''
 entry-date: '2023-09-08'

@@ -1,4 +1,3 @@
-
 ---
 title: Provide your Brownfield land data
 name: Brownfield land
@@ -13,8 +12,8 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: 
-  name: 'Brownfield land technical specification (2022-06-09)'
+- url: https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data
+  name: 'Brownfield land technical specification (9 June 2022)'
   attachment-type: HTML
   start-date: 
 ---
@@ -56,12 +55,14 @@ Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tool.
 
-The [fields and format](#data-fields-and-formats) of the data are documented below,
-and formally defined in [Technical Specifications] attached to this page.
+The [files, fields and format](#files-fields-and-formats) of the data you need to 
+provide are documented below, and formally defined in the 
+[technical specifications](#technical-specifications) attached to this page.
 
 Your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
-so start with the information you have, and continue to iterate and improve it over time.
+so start by providing the Brownfield land information you have,
+and continue to iterate and improve it over time.
 
 ## Check your data
 Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 
@@ -76,22 +77,22 @@ Publishing your data consists of two parts:
 
 ### Endpoint
 
-The endpoint is a URL where a user can download the data.
 Publish your data at a public endpoint, in a way which anyone can download and use it.
 
-The endpoint is usually a single file hosted on your website.
-Alternatively, you can provide your data using a WFS or other API,
-or using a third-party service such as GitHub or ArcGIS which allows the data to be downloaded.
+The endpoint is a URL from which the data can be downloaded.
+This can be a single file hosted on your website.
+Alternatively, you can serve your data using an OGC WFS or other API
+using a third-party service such as GitHub or ArcGIS.
 
-Ensure your endpoint is documented on a public webpage to help people find and use the data.
+Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
 
 The documentation webpage for your endpoint should include a clear statement that the data is provided as open data under
 the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 ### Source
 
-The source page is a URL where a user can see the same information in the data.
-This is usually existing planning policy, or other webpages on your official website.
+The source is a webpage where a user can see the same information in the data.
+This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
 
 It is important that the source page links to the endpoint documentation webpage to 
 help users trust the authenticity of the data.
@@ -104,8 +105,8 @@ Use the [check and provide service](https://provide.planning.data.gov.uk/) to te
 
 You will need to provide for each dataset:
 
-* the source URL where the information in the data is presented on your website
-* the endpoint URL from which the data can be collected
+* the [source](#source) URL where the information in the data is presented on your website
+* the [endpoint](#endpoint) URL from which the data can be collected
 
 The provide service also asks for your name and email address as a point of contact in case of any issues.
 
@@ -119,10 +120,189 @@ We look for changes to the data at all of the endpoint URLs we know about every 
 so we can quickly update [planning.data.gov.uk](https://planning.data.gov.uk).
 
 It is simpler if you publish your changes to the same endpoint URL.
-If you create a new endpoint you will need to [tell us where it is](#tell-us-about-your data) again.
+If you create a new endpoint you will need to [tell us about your data](#tell-us-about-your-data) again.
 
-## Data files, fields and formats
+## Files, fields and formats
+
+You need to provide 1 dataset:
+
+* [Brownfield land](#Brownfield-land-dataset)
+
+
+You can provide each dataset in one of the following formats:
+
+* CSV
+* GeoJSON
+* GML
+* Geopackage
+
+### Field names
+
+You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
+'<code class="value">StartDate</code>',
+'<code class="value">Start Date</code>'
+'<code class="value">START_DATE</code>' and
+'<code class="value">start.date</code>',
+are all valid ways of naming the '<code class="field">start-date</code>' field.
+
+### Reference values
+
+Each dataset has a `reference` field.
+Reference values are important to help people find and link to the data.
+Where you don’t have a reference for an item, you will need to create one that is:
+
+* unique within your data
+* persistent — it doesn’t change when the data is updated
+
+A good reference is something you already use.
+Where these aren't unique, you make them unique by appending the year, or even the full date.
+Great references are short, easy to read, to pronounce and remember.
+
+### Date values
+
+All dates are in the [ISO format](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
+`YYYY-MM-DD`. Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
+The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December.
+
+### Brownfield land dataset
+
+
+
+The Brownfield land dataset contains the following fields:
+
+#### SiteReference
+
+
+Enter the unique reference your organisation uses to identify the site.
+If one doesn’t exist, you need to create one. It should not be used by your organisation to identify any other sites, but can be borrowed from another data set listing the site. You could use the strategic site identifier from your local plan, for example:
+``` EH/141 ```
+
+#### SiteNameAddress
+
+
+Enter the site name and address in a single line of text, for example:
+``` Parcel of land behind, 221B Baker Street, Marylebone, London, NW1 6XE ```
+
+#### Deliverable
+
+
+Enter ‘yes’ if there is a reasonable prospect that residential development will take place on the land within 5 years of the date you enter this site in the register. Otherwise leave this field blank.
+
+#### HazardousSubstances
+
+
+Enter ‘yes’ if the local planning authority is required by regulation 26(3) of the [Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made) to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.
+
+#### Hectares
+
+
+Enter the land area of the site in hectares, up to 2 decimal places. Use digits (2) rather than words (two).
+
+#### MinNetDwellings
+
+#### NetDwellingsRangeFrom
+
+
+Enter the minimum number of dwellings that the local planning authority estimates the site should support, as defined in [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
+
+#### NetDwellingsRangeTo
+
+
+Enter the maximum number of dwellings that the local planning authority estimates the site should support, as defined in [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
+
+#### OwnershipStatus
+
+
+Indicate the site’s ownership by entering one of the following values:
+* owned by a public authority * not owned by a public authority * mixed ownership
+For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
+
+#### PermissionDate
+
+
+Enter the date the most recent permission was granted on the site, in the format YYYY-MM-DD. If no permission has been granted leave this blank.
+
+#### PermissionType
+
+
+Choose one of the following to indicate what permission type the site has:
+* full planning permission * outline planning permission * reserved matters approval * permission in principle * technical details consent * planning permission granted under an order * other
+‘Planning permission granted under an order’ means planning permission granted under a local development order, a mayoral development order or a neighbourhood development order.
+Where more than one permission exists for the site, identify the latest permission granted. List any other permissions, including the date that each permission was granted or deemed to have been granted, in the ’Notes’ column.
+
+#### PlanningHistory
+
+
+Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.
+
+#### PlanningStatus
+
+
+Choose one of the following to indicate what stage of the planning process the site is at:
+* permissioned * not permissioned * pending decision
+When part of a site is permissioned, it should be recorded as “permissioned” and you should explain in the ‘Notes’ field why it’s only partly permissioned.
+For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
+
+#### SiteplanURL
+
+
+Enter the URL of a web page hosting the site plan, beginning with either “http://” or “https://”.
+
+#### GeoX
+
+
+Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the [open standards for government guidance](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). $CTA Be sure you do not mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2. $CTA
+
+#### GeoY
+
+
+Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the [open standards for government guidance](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
+
+#### Notes
+
+
+Enter any general information about a site that developers might find useful, including a description of any housing development proposed for the site.
+You may include links to any web pages that give:
+* information on planning decisions related to any environmental impact assessments * the results of any related consultations * an explanation of how they were taken into account when making the decisions
+You may also describe any non-housing development proposed for the site. Indicate how the buildings or land will be used, and the scale of any such development.
+Content in this field does not need to be on a single line, but should be no longer than 4,000 characters. You can leave this field blank.
+
+#### OrganisationLabel
+
+#### OrganisationURI
+
+
+[Find your organisation in this list](https://www.digital-land.info/entity?typology=organisation) and enter the corresponding Open Data Communities URI.
+
+#### LastUpdatedDate
+
+
+Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
+
+#### FirstAddedDate
+
+
+Enter the date that the site was first added to this register, in the format YYYY-MM-DD.
+
+#### EndDate
+
+
+If the site no longer needs to be listed (for example, if the site has been built on), it should remain on the register for historical reasons and not be deleted. Enter the date the site was developed or determined to no longer be brownfield land, in the format YYYY-MM-DD. This field should only be filled in once the site is no longer classified as brownfield land.
+
+
+
+
+
+## Contact us
 
 $CTA
-If you need any help at any stage of the process, let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
+If you need any help at any stage of the process,
+let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
 $CTA
+
+You can participate in
+[improving the design of this data](https://design.planning.data.gov.uk/consideration/brownfield-land),
+and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
+
+
+## Technical specifications

@@ -4,6 +4,7 @@ name: Listed building outline
 plural: Listed building outlines
 specification-status: piloting
 specification-reason: digital-planning-funding
+considerations: listed-buildings
 start-date: ''
 end-date: ''
 entry-date: '2025-06-24'

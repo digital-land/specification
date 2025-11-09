@@ -1,4 +1,3 @@
-
 ---
 title: Provide your local plan timetable data
 name: local plan timetable
@@ -13,8 +12,8 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: 
-  name: 'local plan timetable technical specification (2025-11-05)'
+- url: /specification/specification/local-plan-timetable
+  name: 'Local plan timetable technical specification (5 November 2025)'
   attachment-type: HTML
   start-date: 
 ---
@@ -59,12 +58,14 @@ Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tool.
 
-The [fields and format](#data-fields-and-formats) of the data are documented below,
-and formally defined in [Technical Specifications] attached to this page.
+The [files, fields and format](#files-fields-and-formats) of the data you need to 
+provide are documented below, and formally defined in the 
+[technical specifications](#technical-specifications) attached to this page.
 
 Your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
-so start with the information you have, and continue to iterate and improve it over time.
+so start by providing the local plan timetables information you have,
+and continue to iterate and improve it over time.
 
 ## Check your data
 Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 
@@ -79,22 +80,22 @@ Publishing your data consists of two parts:
 
 ### Endpoint
 
-The endpoint is a URL where a user can download the data.
 Publish your data at a public endpoint, in a way which anyone can download and use it.
 
-The endpoint is usually a single file hosted on your website.
-Alternatively, you can provide your data using a WFS or other API,
-or using a third-party service such as GitHub or ArcGIS which allows the data to be downloaded.
+The endpoint is a URL from which the data can be downloaded.
+This can be a single file hosted on your website.
+Alternatively, you can serve your data using an OGC WFS or other API
+using a third-party service such as GitHub or ArcGIS.
 
-Ensure your endpoint is documented on a public webpage to help people find and use the data.
+Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
 
 The documentation webpage for your endpoint should include a clear statement that the data is provided as open data under
 the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 ### Source
 
-The source page is a URL where a user can see the same information in the data.
-This is usually existing planning policy, or other webpages on your official website.
+The source is a webpage where a user can see the same information in the data.
+This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
 
 It is important that the source page links to the endpoint documentation webpage to 
 help users trust the authenticity of the data.
@@ -107,8 +108,8 @@ Use the [check and provide service](https://provide.planning.data.gov.uk/) to te
 
 You will need to provide for each dataset:
 
-* the source URL where the information in the data is presented on your website
-* the endpoint URL from which the data can be collected
+* the [source](#source) URL where the information in the data is presented on your website
+* the [endpoint](#endpoint) URL from which the data can be collected
 
 The provide service also asks for your name and email address as a point of contact in case of any issues.
 
@@ -122,10 +123,145 @@ We look for changes to the data at all of the endpoint URLs we know about every 
 so we can quickly update [planning.data.gov.uk](https://planning.data.gov.uk).
 
 It is simpler if you publish your changes to the same endpoint URL.
-If you create a new endpoint you will need to [tell us where it is](#tell-us-about-your data) again.
+If you create a new endpoint you will need to [tell us about your data](#tell-us-about-your-data) again.
 
-## Data files, fields and formats
+## Files, fields and formats
+
+You need to provide 1 dataset:
+
+* [Local plan timetable](#Local-plan-timetable-dataset)
+
+
+You can provide each dataset in one of the following formats:
+
+* CSV
+* GeoJSON
+* GML
+* Geopackage
+
+### Field names
+
+You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
+'<code class="value">StartDate</code>',
+'<code class="value">Start Date</code>'
+'<code class="value">START_DATE</code>' and
+'<code class="value">start.date</code>',
+are all valid ways of naming the '<code class="field">start-date</code>' field.
+
+### Reference values
+
+Each dataset has a `reference` field.
+Reference values are important to help people find and link to the data.
+Where you don’t have a reference for an item, you will need to create one that is:
+
+* unique within your data
+* persistent — it doesn’t change when the data is updated
+
+A good reference is something you already use.
+Where these aren't unique, you make them unique by appending the year, or even the full date.
+Great references are short, easy to read, to pronounce and remember.
+
+### Date values
+
+All dates are in the [ISO format](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
+`YYYY-MM-DD`. Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
+The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December.
+
+### Local plan timetable dataset
+
+The local plan timetable is a record of the key dates when producing a local plan.
+Your data should include a row for each of the events listed in the [local plan event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened.
+Provide your predicted range of dates for events which are in the future.
+
+
+The Local plan timetable dataset contains the following fields:
+
+#### reference
+
+
+Give each event a reference which is unique for the event within the dataset.
+Where the timetable contains events for different local plans you can distinguish the events by adding the `local-plan` reference.
+Where a timetable has more than one event of the same kind, you can add a date to make them unique.
+
+
+
+Examples:
+
+* <code class="value">LP1-public-consultation</code>
+* <code class="value">LP1-public-consultation-2025</code>
+#### local-plan
+
+
+Enter the reference of the local plan which this event forms part of its timetable.
+
+
+
+Examples:
+
+* <code class="value">LP-BRX-2024</code>
+* <code class="value">central-lincolnshire</code>
+#### local-plan-event
+
+
+Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/dataset/local-plan-event) values:
+
+* `plan-adopted`
+* `inspector-report-published`
+* `submit-plan-for-examination`
+* `planning-inspectorate-examination-start`
+* `planning-inspectorate-examination-end`
+* `planning-inspectorate-found-sound`
+* `timetable-published`
+* `reg-18-draft-local-plan-published`
+* `reg-18-public-consultation-start`
+* `reg-18-public-consultation-end`
+* `reg-19-publication-local-plan-published`
+* `reg-19-public-consultation-start`
+* `reg-19-public-consultation-end`
+* `plan-withdrawn`
+* `plan-revoked`
+
+
+#### predicted-earliest-date
+
+
+Enter the earliest date when this event is expected to happen.
+
+
+(for example <code class="value">2027-01-01</code>)
+#### predicted-latest-date
+
+
+Enter the latest date when this event is expected to happen.
+
+
+(for example <code class="value">2027-03-31</code>)
+#### entry-date
+
+Enter the date this data was created or modified.
+#### start-date
+
+
+Enter the date when the timetable event occured. Leave blank when predicting future events,
+such as when you expect a draft local plan to be adopted.
+
+
+#### notes
+
+Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
+
+
+
+## Contact us
 
 $CTA
-If you need any help at any stage of the process, let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
+If you need any help at any stage of the process,
+let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
 $CTA
+
+You can participate in
+[improving the design of this data](https://design.planning.data.gov.uk/consideration/local-plans),
+and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
+
+
+## Technical specifications

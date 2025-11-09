@@ -4,6 +4,7 @@ name: Local area requirement
 plural: Local area requirements
 specification-status: working-draft
 specification-reason: prospective
+consideration: local-area-requirements
 start-date: ''
 end-date: ''
 entry-date: '2024-08-01'

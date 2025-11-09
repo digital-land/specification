@@ -4,6 +4,7 @@ name: infrastructure project
 plural: infrastructure projects
 specification-status: working-draft
 specification-reason: prospective
+consideration: nationally-significant-infrastructure-projects
 start-date: ''
 end-date: ''
 entry-date: '2023-09-14'
