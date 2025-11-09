@@ -9,8 +9,10 @@ entity-maximum: '10099999'
 entity-minimum: '10000000'
 entry-date: ''
 fields:
+- field: audience
 - field: datasets
 - field: description
+- field: documentation-url
 - field: end-date
 - field: entry-date
 - field: github-discussion
@@ -18,8 +20,8 @@ fields:
 - field: json
 - field: prefix
 - field: specification
+- field: specification-reason
 - field: specification-status
-- field: documentation-url
 - field: start-date
 - field: version
 key-field: 'specification'

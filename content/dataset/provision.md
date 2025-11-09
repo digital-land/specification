@@ -12,7 +12,8 @@ fields:
 - field: end-date
 - field: entry-date
 - field: geography
-  guidance: A CURIE identifying the geographic area which entities provided by this organisation are expected to be within.
+  guidance: |
+     Enter a CURIE to identify the geographic area which entities provided by this organisation are expected to be within.
 - field: notes
 - field: organisation
 - field: project

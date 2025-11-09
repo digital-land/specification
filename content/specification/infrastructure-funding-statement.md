@@ -3,6 +3,7 @@ specification: infrastructure-funding-statement
 name: Infrastructure funding statement
 plural: Infrastructure funding statements
 specification-status: piloting
+specification-reason: prospective
 start-date: ''
 end-date: ''
 entry-date: '2023-11-23'

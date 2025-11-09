@@ -3,6 +3,7 @@ specification: infrastructure-project
 name: infrastructure project
 plural: infrastructure projects
 specification-status: working-draft
+specification-reason: prospective
 start-date: ''
 end-date: ''
 entry-date: '2023-09-14'

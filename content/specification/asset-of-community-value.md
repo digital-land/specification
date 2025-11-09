@@ -3,6 +3,7 @@ specification: asset-of-community-value
 name: Asset of community value
 plural: Assets of community value
 specification-status: working-draft
+specification-reason: prospective
 start-date: ''
 end-date: ''
 entry-date: '2025-03-04'

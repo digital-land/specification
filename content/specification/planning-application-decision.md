@@ -4,6 +4,7 @@ name: Planning application decision
 plural: Planning application decisions
 description: "planning application"
 specification-status: working-draft
+specification-reason: prospective
 start-date: ''
 end-date: ''
 entry-date: '2025-02-13'
