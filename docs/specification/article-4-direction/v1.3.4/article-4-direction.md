@@ -3,9 +3,10 @@ specification: article-4-direction
 name: Article 4 direction
 plural: article 4 directions
 specification-status: candidate-standard
+specification-reason: digital-planning-funding
 start-date: ''
 end-date: ''
-entry-date: '2025-10-11'
+entry-date: '2025-11-08'
 github-discussion: 30
 version: 1.3.4
 datasets:

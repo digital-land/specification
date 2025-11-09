@@ -2,10 +2,14 @@
 specification: development-plan
 name: Development plan
 plural: Development plans
-specification-status: working-draft
+specification-status: withdrawn
+specification-reason: prospective
 start-date: ''
 end-date: ''
 entry-date: '2024-08-15'
+notes: |
+   This specification describes a collective set of plans which are now expected to be 
+   separate `local-plan`, `waste-plan`, `minerals-plan`, `strategic-plan`, etc specifications.
 github-discussion: 26
 version: 3.7.0
 datasets:

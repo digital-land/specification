@@ -269,7 +269,7 @@ h1, h2::before, h3::before, h4::before {
     This document places no obligations on any party to provide data in conformance to this specification. 
     </p>
     <p>
-    A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
+    A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>] or other legislation.
     </p>
     <p>
     This technical specification is accompanied by guidance, examples and other tools which provide feedback to organisations creating data to this specification.
@@ -606,13 +606,13 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
                     <div class="guidance">
-        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+        <p><p>A reference is used to help people find a particular entity, and link data aross different datasets.
 When you are providing data, you should give each entity a reference which is:</p>
-<ul class="govuk-list govuk-list--bullet">
+<ul>
 <li><strong>unique</strong> within your dataset, ideally within your organisation</li>
 <li><strong>persistent</strong> &mdash; doesn't change over time</li>
 </ul>
-<p class="govuk-body">Good references are something you already use, such as the key used in your local plan policy map. 
+<p>Good references are something you already use, such as the key used in your local plan policy map. 
 Where these aren't unique, you make them unique by appending the year or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p></p>
     </div>
@@ -651,7 +651,11 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">the official name for the conservation area</p>
+     <p class="description">
+    
+    The official name for the conservation area.
+
+</p>
     
     
 
@@ -674,7 +678,11 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">an optional URL of a document providing the authoritive source of the boundary. For example a PDF containing a map of the area indicated with a red-line boundary.</p>
+     <p class="description">
+    
+    An optional URL of a document providing the authoritive source of the boundary. For example a PDF containing a map of the area indicated with a red-line boundary..
+
+</p>
     
     
 
@@ -691,7 +699,7 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">The boundary may be a single polygon, or a multipolygon value.
+        <p><p>The boundary may be a single polygon, or a multipolygon value.
 All points should be in the WGS84 coordinate reference system.
 You may provide data containing points in another coordinate reference system, such as British National Grid,
 but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
@@ -727,7 +735,7 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
+        <p><p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
     </div>
             
 
@@ -758,7 +766,7 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p></p>
+        <p><p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p></p>
     </div>
             
 
@@ -789,7 +797,7 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+        <p><p>Enter the date this data was created or modified.</p></p>
     </div>
             
 
@@ -890,13 +898,13 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
 
     <!- brute force for now, needs an index -->
                     <div class="guidance">
-        <p><p class="govuk-body">A reference is used to help people find a particular entity, and link data aross different datasets.
+        <p><p>A reference is used to help people find a particular entity, and link data aross different datasets.
 When you are providing data, you should give each entity a reference which is:</p>
-<ul class="govuk-list govuk-list--bullet">
+<ul>
 <li><strong>unique</strong> within your dataset, ideally within your organisation</li>
 <li><strong>persistent</strong> &mdash; doesn't change over time</li>
 </ul>
-<p class="govuk-body">Good references are something you already use, such as the key used in your local plan policy map. 
+<p>Good references are something you already use, such as the key used in your local plan policy map. 
 Where these aren't unique, you make them unique by appending the year or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p></p>
     </div>
@@ -935,7 +943,11 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">the reference for the conservation area this document is about</p>
+     <p class="description">
+    
+    The reference for the conservation area this document is about.
+
+</p>
     
     
 
@@ -958,7 +970,11 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">the title of the conservation area document</p>
+     <p class="description">
+    
+    The title of the conservation area document.
+
+</p>
     
     
 
@@ -981,7 +997,11 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">the URL of the webpage citing the document</p>
+     <p class="description">
+    
+    The URL of the webpage citing the document.
+
+</p>
     
     
 
@@ -1008,7 +1028,11 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">the URL of the document</p>
+     <p class="description">
+    
+    The URL of the document.
+
+</p>
     
     
 
@@ -1033,7 +1057,11 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     </p></li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">the type of the conservation area document which MUST be one of the following values: 'area-appraisal', 'notice', or blank</p>
+     <p class="description">
+    
+    The type of the conservation area document which MUST be one of the following values: &#39;area-appraisal&#39;, &#39;notice&#39;, or blank.
+
+</p>
     
     
 
@@ -1050,7 +1078,7 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
+        <p><p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
     </div>
             
 
@@ -1081,7 +1109,7 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p></p>
+        <p><p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p></p>
     </div>
             
 
@@ -1112,7 +1140,7 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+        <p><p>Enter the date this data was created or modified.</p></p>
     </div>
             
 

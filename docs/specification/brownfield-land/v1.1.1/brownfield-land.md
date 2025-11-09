@@ -3,6 +3,7 @@ specification: brownfield-land
 name: Brownfield land
 plural: Brownfield land
 specification-status: open-standard
+specification-reason: brownfield-land-2017
 start-date: ''
 end-date: ''
 entry-date: '2022-06-09'

@@ -259,7 +259,7 @@ h1, h2::before, h3::before, h4::before {
     This document places no obligations on any party to provide data in conformance to this specification. 
     </p>
     <p>
-    A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the proposed Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>].
+    A future version of this specification may be formally published on GOV.UK, and cited as one of a number of official data standards for the provision of planning data under the Levelling-up and Regeneration Act 2023 [<a href="#LURA">LURA</a>] or other legislation.
     </p>
     <p>
     This technical specification is accompanied by guidance, examples and other tools which provide feedback to organisations creating data to this specification.
@@ -424,7 +424,7 @@ h1, h2::before, h3::before, h4::before {
     </p>
 
     
-    <div class="guidance"><p class="govuk-body">The local plan timetable is a record of the key dates when producing a local plan.
+    <div class="guidance"><p>The local plan timetable is a record of the key dates when producing a local plan.
 Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local plan event</a> dataset with the date when the event happened.
 Provide the predicted dates for events which are in the future.</p></div>
     
@@ -443,7 +443,7 @@ Provide the predicted dates for events which are in the future.</p></div>
 
 
     <!- brute force for now, needs an index -->    <div class="guidance">
-        <p><p class="govuk-body">Give each event a reference which is unique for the event within the dataset.
+        <p><p>Give each event a reference which is unique for the event within the dataset.
 Where the timetable contains events for different local plans you can distinguish the events by adding the <code>local-plan</code> reference.
 Where a timetable has more than one event of the same kind, you can add a date to make them unique.</p></p><p>Examples:</p><ul><li>
                     <code class="value">LP1-public-consultation</code>
@@ -480,7 +480,7 @@ Where a timetable has more than one event of the same kind, you can add a date t
     Associated local plan.
 
 </p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the reference of the local plan which this event forms part of its timetable.</p></p><p>Examples:</p><ul><li>
+        <p><p>Enter the reference of the local plan which this event forms part of its timetable.</p></p><p>Examples:</p><ul><li>
                     <code class="value">LP-BRX-2024</code>
             <li>
                     <code class="value">central-lincolnshire</code>
@@ -514,8 +514,8 @@ Where a timetable has more than one event of the same kind, you can add a date t
     An event that occurs during the local plan making process.
 
 </p>    <div class="guidance">
-        <p><p class="govuk-body">Enter one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> values:</p>
-<ul class="govuk-list govuk-list--bullet">
+        <p><p>Enter one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> values:</p>
+<ul>
 <li><code>plan-adopted</code></li>
 <li><code>inspector-report-published</code></li>
 <li><code>submit-plan-for-examination</code></li>
@@ -563,9 +563,9 @@ Where a timetable has more than one event of the same kind, you can add a date t
     Earliest predicted date for the event.
 
 </p>
-            <div class="note"><p class="govuk-body">Older published schemes often use vaugue descriptions such as <code>Spring 2020</code> or <code>Q2 2018</code>.
+            <div class="note"><p>Older published schemes often use vaugue descriptions such as <code>Spring 2020</code> or <code>Q2 2018</code>.
 Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.</p></div>    <div class="guidance">
-        <p><p class="govuk-body">Enter the earliest date when this event is expected to happen.</p></p><p>Example:
+        <p><p>Enter the earliest date when this event is expected to happen.</p></p><p>Example:
                     <code class="value">2027-01-01</code>
             </p>
          
@@ -598,7 +598,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     Latest predicted date for the event.
 
 </p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the latest date when this event is expected to happen.</p></p><p>Example:
+        <p><p>Enter the latest date when this event is expected to happen.</p></p><p>Example:
                     <code class="value">2027-03-31</code>
             </p>
          
@@ -631,7 +631,7 @@ Using a range of full dates helps producing timetables and other charts and usin
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter the date this data was created or modified.</p></p>
+        <p><p>Enter the date this data was created or modified.</p></p>
     </div>
             
 
@@ -662,7 +662,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     Date of the timetable event.
 
 </p>    <div class="guidance">
-        <p><p class="govuk-body">Enter the date when the timetable event occured. Leave blank when predicting future events,
+        <p><p>Enter the date when the timetable event occured. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.</p></p>
     </div>
 
@@ -693,7 +693,7 @@ such as when you expect a draft local plan to be adopted.</p></p>
 
 </p>
                     <div class="guidance">
-        <p><p class="govuk-body">Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
+        <p><p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
     </div>
             
 

@@ -4,9 +4,10 @@ name: local plan
 plural: local plans
 description: headline information about one or more local plans
 specification-status: working-draft
+specification-reason: local-plans-2025
 start-date: ''
 end-date: ''
-entry-date: '2025-10-18'
+entry-date: '2025-11-08'
 github-discussion: 97
 version: 3.1.0
 datasets:

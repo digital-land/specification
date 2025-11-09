@@ -3,6 +3,7 @@ specification: development-policy
 name: Development policy
 plural: Development policies
 specification-status: working-draft
+specification-reason: prospective
 start-date: ''
 end-date: ''
 entry-date: '2023-04-05'

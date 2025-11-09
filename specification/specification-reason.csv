@@ -1,0 +1,57 @@
+description,definition,end-date,entity,entry-date,guidance,name,notes,prefix,reference,start-date
+,,,,2025-11-07,"[The Town and Country Planning (Brownfield Land Register) Regulations 2017](http://www.legislation.gov.uk/uksi/2017/403/contents/made)
+require local planning authorities to maintain a register of their brownfield sites that are suitable for housing.
+",The Town and Country Planning (Brownfield Land Register) Regulations 2017,"The specification remains backwards compatible with the data standard as set out in the regulations.
+Some changes made include deprecating a number of fields unused by the Planning Data Platform 
+which contained information which can be easily infered from other fields or ignored.
+The specification adds on ptional an `endDate` field which may be used when removing entries from a register.
+",,brownfield-land-2017,2017-04-16
+,,,,2025-11-07,"The Community Infrastructure Levy (CIL) regulations require all local planning authorities that 
+issue a CIL liability notice or enter into section 106 planning obligations during a reporting year 
+to publish an infrastructure funding statement (IFS) at least annually. 
+The infrastructure funding statement should, as a minimum, include the information set out in 
+[Schedule 2 to the Community Infrastructure Levy regulations 2010](https://www.legislation.gov.uk/ukdsi/2010/9780111492390/contents)
+(as inserted by the 2019 regulations).
+
+In addition, it is recommended that local authorities also publish the raw data that informed the infrastructure funding statement.
+This guidance sets out a data format and approach that you can follow in order to publish data that sits behind the infrastructure statement.
+
+The data format and infrastructure funding statements will give policy makers and communities better insight into how developer contributions
+are supporting new development and local infrastructure.
+We have designed the data format to cause as little disruption as possible to existing processes.
+",The Community Infrastructure Levy (Amendment) (England) (No. 2) Regulations 2019,,,cil-2019,2019-09-01
+,,,,2025-11-07,"Local Planning Authorities and other organisations 
+[funded by the Digital Planning Programme](https://www.localdigital.gov.uk/digital-planning/funding/)
+to join the [Open Digital Planning community](https://opendigitalplanning.org/digital-planning-improvement)
+are expected to provide data to this specification.
+
+If you're a Local Planning Authority who is interested in becoming a member,
+you can [join the community](https://opendigitalplanning.org/join).
+
+Otherwise there is no obligation on any party to provide data to this specification.
+
+A future version of this specification may be formally published on GOV.UK,
+and cited as one of a number of official data standards for the provision of planning data 
+by planning authorities under the 
+[Levelling-up and Regeneration Act 2023](https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted).
+",Digital Planning Funding,,,digital-planning-funding,2018-02-13
+,"There are currently no obligations on any party to provide data in conformance to this specification. 
+A future version of this specification may be formally published on GOV.UK,
+and cited as one of a number of official data standards for the provision of planning data 
+under the Levelling-up and Regeneration Act 2023 [<a href=""#LURA"">LURA</a>] or other legislation.
+",,,2025-11-07,"There are currently no obligations on anyone to follow this guidance, however a
+future version of the technical specification may be formally published on GOV.UK,
+and cited as one of a number of official data standards for the provision of planning data under the 
+[Levelling-up and Regeneration Act 2023](https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted)
+or ther legislation.
+",Prospective data specification,,,local-plans-2025,
+,"There are currently no obligations on any party to provide data in conformance to this specification. 
+A future version of this specification may be formally published on GOV.UK,
+and cited as one of a number of official data standards for the provision of planning data 
+under the Levelling-up and Regeneration Act 2023 [<a href=""#LURA"">LURA</a>] or other legislation.
+",,,2025-11-07,"There are currently no obligations on any party to provide data in conformance to this specification. 
+A future version of this specification may be formally published on GOV.UK,
+and cited as one of a number of official data standards for the provision of planning data under the 
+[Levelling-up and Regeneration Act 2023](https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted),
+other regulations, contracts, and agreements.
+",Prospective data specification,,,prospective,2018-02-13

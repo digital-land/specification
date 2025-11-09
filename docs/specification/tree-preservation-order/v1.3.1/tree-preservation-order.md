@@ -3,9 +3,10 @@ specification: tree-preservation-order
 name: Tree preservation order
 plural: Tree preservation orders
 specification-status: piloting
+specification-reason: digital-planning-funding
 start-date: ''
 end-date: ''
-entry-date: '2023-09-08'
+entry-date: '2025-11-08'
 github-discussion: 43
 version: 1.3.1
 datasets:
