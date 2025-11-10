@@ -25,7 +25,7 @@ fields:
      Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
      to make the URL for each plan unique.
   examples:
-    - value: https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan
+    - value: https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan
     - value: https://example.com/local-plans/#example-local-plan-2011
     - value: https://example.com/local-plans/#example-local-plan-2024
 - field: document-url
