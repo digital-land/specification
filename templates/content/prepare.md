@@ -13,7 +13,7 @@ and modify it using a spreadsheet or other CSV editor.
 
 Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
-and modify it using QGIS or other GIS tool.
+and modify it using QGIS or other GIS tools.
 
 The [files, fields and format](#files-fields-and-formats) of the data you need to 
 provide are documented below, and formally defined in the 
