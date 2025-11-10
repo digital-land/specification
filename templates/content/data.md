@@ -7,21 +7,26 @@ You need to provide {{ ds|length }} dataset{{ "s" if ds|length > 1  else "" }}:
 * [{{ name | sentence_case }}](#{{ name.replace(" ", "-")  }}-dataset)
 {% endfor %}
 
-You can provide each dataset in one of the following formats:
+You need to provide each dataset as a CSV file following the government 
+[Tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where a dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
 * GML
+* KML
 * Geopackage
+
 
 ### Field names
 
-You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
-'<code class="value">StartDate</code>',
-'<code class="value">Start Date</code>'
-'<code class="value">START_DATE</code>' and
-'<code class="value">start.date</code>',
-are all valid ways of naming the '<code class="field">start-date</code>' field.
+You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
+meaning the following examples all valid ways of naming the `start-date` field in your data:
+
+* `StartDate`
+* `Start Date`
+* `START_DATE`
+* `start.date`
 
 ### Reference values
 
@@ -38,9 +43,29 @@ Great references are short, easy to read, to pronounce and remember.
 
 ### Date values
 
-All dates are in the [ISO format](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
-`YYYY-MM-DD`. Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
-The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December.
+All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+
+Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
+The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December. For example:
+
+* `2025-04-19`
+* `2025-04`
+* `2025`
+
+### Geometry and point fields
+
+All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the [Exchange of a location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
+
+A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A `point` field may only contain a single `POINT` object.
+
+If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
+
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POINT (-3.466788 50.58151)`
+
+When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 {% for d in specification["datasets"]|sort(attribute='priority') -%}
 {%- set _d = tables["dataset"][d["dataset"]] -%}
@@ -57,26 +82,15 @@ The {{ name }} dataset contains the following fields:
 {% for f in d["fields"] -%}
 {%- set field = f["field"] -%}
 {%- for _f, df in tables["dataset-field"][d["dataset"]].items() -%}
-{%- if _f == field -%}
+{%- if _f == field %}
+
 #### {{ field }}
 
-{% if df["guidance"] %}
-{{ df["guidance"] }}
-
-{% elif tables["field"][field]["guidance"] -%}
-{{ tables["field"][field]["guidance"] }}
-{%- endif -%}
-{%- if df["examples"]|length > 0 -%}
-{%- if df["examples"]|length == 1 %}
-{%- set ex = df["examples"][0] -%}
-(for example <code class="value">{{ ex["value"] }}</code>{%- if ex["description"] %} — {{ ex["description"] }}{% endif %})
-{% else %}
-Examples:
+{% if df["guidance"] %}{{ df["guidance"] }}{% elif tables["field"][field]["guidance"] %}{{ tables["field"][field]["guidance"]| trim }}{%- endif -%}{%- if df["examples"]|length > 0 %} For example:
 
 {% for ex in df["examples"] -%}
 * <code class="value">{{ ex["value"] }}</code>{%- if ex["description"] %} — {{ ex["description"] }}{% endif %}
 {% endfor -%}
-{%- endif -%}
 {%- endif -%}
 
 {%- endif -%}
