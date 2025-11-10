@@ -1998,8 +1998,8 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 local-plan,name,,local plan name,Use the title of the adopted local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
 local-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
 local-plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,
-local-plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is may be just the year in `YYYY` format.,,,"[{""value"": 2041}, {""value"": ""2035-06-30""}]",,
-local-plan,period-start-date,,start date of the period the plan covers,Enter the start of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2018}, {""value"": ""2025-04""}, {""value"": ""2025-04-19""}]",,
+local-plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is may be just the year in `YYYY` format.,,,,,
+local-plan,period-start-date,,start date of the period the plan covers,Enter the start of the plan period. This is usually just a year in `YYYY` format.,,,,,
 local-plan,prefix,prefix,,,,,,,
 local-plan,reference,,local plan reference,"Give each local plan a unique reference.
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
