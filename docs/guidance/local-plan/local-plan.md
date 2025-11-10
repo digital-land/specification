@@ -28,7 +28,7 @@ understand its quality, and trust it will be sustained.
 future version of the technical specification may be formally published on GOV.UK,
 and cited as one of a number of official data standards for the provision of planning data under the 
 <a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>
-or ther legislation.</p>
+or other legislation.</p>
 
 ## Providing local plan data
 
