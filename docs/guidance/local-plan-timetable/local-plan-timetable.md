@@ -12,7 +12,7 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: /specification/specification/local-plan-timetable
+- url: https://digital-land.github.io/specification/specification/local-plan-timetable/
   name: 'Local plan timetable technical specification (5 November 2025)'
   attachment-type: HTML
   start-date: 

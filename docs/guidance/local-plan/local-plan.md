@@ -12,7 +12,7 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: /specification/specification/local-plan
+- url: https://digital-land.github.io/specification/specification/local-plan/
   name: 'Local plan technical specification (8 November 2025)'
   attachment-type: HTML
   start-date: 
