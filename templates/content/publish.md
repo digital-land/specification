@@ -1,6 +1,6 @@
 Publishing your data consists of two parts:
 
-* An [endpoint](#endpoint) from where the data can be downloaded
+* An [endpoint](#endpoint) where the data can be downloaded from
 * A [source](#source) where the information contained in the data is presented on your website
 
 ### Endpoint
