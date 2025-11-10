@@ -252,7 +252,8 @@ var/cache/lgd.html:
 render::
 	python3 bin/check-anchors.py docs/specification/local-plan/index.html
 ifneq ("${TESTING_GUIDANCE}","")
-	cp docs/guidance/local-plan*/*md ../testing-guidance/content
+	cp docs/guidance/local-plan/local-plan.md ../testing-guidance/content
+	cp docs/guidance/local-plan-timetable/local-plan-timetable.md ../testing-guidance/content
 endif
 
 # deprecated
