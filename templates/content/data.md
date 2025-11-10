@@ -60,8 +60,8 @@ A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A 
 
 If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
 
-* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
-* `POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,...` 
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,...`
 * `POINT (-3.466788 50.58151)`
 
 When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
