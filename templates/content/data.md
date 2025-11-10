@@ -7,16 +7,17 @@ You need to provide {{ ds|length }} dataset{{ "s" if ds|length > 1  else "" }}:
 * [{{ name | sentence_case }}](#{{ name.replace(" ", "-")  }}-dataset)
 {% endfor %}
 
-You need to provide each dataset as a CSV file following the government 
-[Tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
-Where a dataset contains geospatial fields, you may use one of the following formats: 
+You need to provide {{ "each" if ds|length > 1  else "the" }} dataset 
+as a {{ "separate" if ds|length > 1  else "" }} CSV file 
+following the government 
+[tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where your dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
 * GML
 * KML
 * Geopackage
-
 
 ### Field names
 
