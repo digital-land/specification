@@ -57,12 +57,12 @@ The most recent data you provide will be treated as being more authoritative
 than any data we have collected from you previously, or found in other sources.
 
 You can download tabular data we have for your organisation as a CSV file
-from the [check and provide service](https://provide.planning.data.gov.uk) service
+from the [check and provide service](https://provide.planning.data.gov.uk)
 and modify it using a spreadsheet or other CSV editor.
 
 Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
-and modify it using QGIS or other GIS tool.
+and modify it using QGIS or other GIS tools.
 
 The [files, fields and format](#files-fields-and-formats) of the data you need to 
 provide are documented below, and formally defined in the 
@@ -81,7 +81,7 @@ along with feedback on how you might improve your data.
 ## Publish your data
 Publishing your data consists of two parts:
 
-* An [endpoint](#endpoint) from where the data can be downloaded
+* An [endpoint](#endpoint) where the data can be downloaded from
 * A [source](#source) where the information contained in the data is presented on your website
 
 ### Endpoint
@@ -140,16 +140,17 @@ You need to provide 3 datasets:
 * [Tree](#Tree-dataset)
 
 
-You need to provide each dataset as a CSV file following the government 
-[Tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
-Where a dataset contains geospatial fields, you may use one of the following formats: 
+You need to provide each dataset 
+as a separate CSV file 
+following the government 
+[tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where your dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
 * GML
 * KML
 * Geopackage
-
 
 ### Field names
 
@@ -193,8 +194,8 @@ A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A 
 
 If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
 
-* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
-* `POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,...` 
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,...`
 * `POINT (-3.466788 50.58151)`
 
 When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 

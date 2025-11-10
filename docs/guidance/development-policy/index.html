@@ -352,11 +352,11 @@ information found on your website, or in other open data.</p>
 <p>The most recent data you provide will be treated as being more authoritative
 than any data we have collected from you previously, or found in other sources.</p>
 <p>You can download tabular data we have for your organisation as a CSV file
-from the <a href="https://provide.planning.data.gov.uk">check and provide service</a> service
+from the <a href="https://provide.planning.data.gov.uk">check and provide service</a>
 and modify it using a spreadsheet or other CSV editor.</p>
 <p>Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
-and modify it using QGIS or other GIS tool.</p>
+and modify it using QGIS or other GIS tools.</p>
 <p>The <a href="#files-fields-and-formats">files, fields and format</a> of the data you need to 
 provide are documented below, and formally defined in the 
 <a href="#technical-specifications">technical specifications</a> attached to this page.</p>
@@ -371,7 +371,7 @@ along with feedback on how you might improve your data.</p>
 <h2 id="publish-your-data">Publish your data</h2>
 <p>Publishing your data consists of two parts:</p>
 <ul>
-<li>An <a href="#endpoint">endpoint</a> from where the data can be downloaded</li>
+<li>An <a href="#endpoint">endpoint</a> where the data can be downloaded from</li>
 <li>A <a href="#source">source</a> where the information contained in the data is presented on your website</li>
 </ul>
 <h3 id="endpoint">Endpoint</h3>
@@ -412,9 +412,11 @@ If you create a new endpoint you will need to <a href="#tell-us-about-your-data"
 <li><a href="#Development-policy-dataset">Development policy</a></li>
 <li><a href="#Development-policy-area-dataset">Development policy area</a></li>
 </ul>
-<p>You need to provide each dataset as a CSV file following the government 
-<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">Tabular data standard</a>.
-Where a dataset contains geospatial fields, you may use one of the following formats: </p>
+<p>You need to provide each dataset 
+as a separate CSV file 
+following the government 
+<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">tabular data standard</a>.
+Where your dataset contains geospatial fields, you may use one of the following formats: </p>
 <ul>
 <li>CSV</li>
 <li>GeoJSON</li>
@@ -456,8 +458,8 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <p>A <code>geometry</code> field may contain a single <code>POLYGON</code> or a <code>MULTIPOLYGON</code> object. A <code>point</code> field may only contain a single <code>POINT</code> object.</p>
 <p>If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:</p>
 <ul>
-<li><code>MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...</code></li>
-<li><code>POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...</code></li>
+<li><code>MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,...</code> </li>
+<li><code>POLYGON ((1.188829 51.23478,1.188376 51.234909,...</code></li>
 <li><code>POINT (-3.466788 50.58151)</code></li>
 </ul>
 <p>When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
