@@ -11,7 +11,7 @@ guidance: |
     future version of the technical specification may be formally published on GOV.UK,
     and cited as one of a number of official data standards for the provision of planning data under the 
     [Levelling-up and Regeneration Act 2023](https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted)
-    or ther legislation.
+    or other legislation.
 name: 'Prospective data specification'
 notes: ''
 reference: local-plans-2025
