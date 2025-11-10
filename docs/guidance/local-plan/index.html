@@ -413,20 +413,25 @@ If you create a new endpoint you will need to <a href="#tell-us-about-your-data"
 <li><a href="#local-plan-housing-number-dataset">Local plan housing number</a></li>
 <li><a href="#Local-plan-document-dataset">Local plan document</a></li>
 </ul>
-<p>You can provide each dataset in one of the following formats:</p>
+<p>You need to provide each dataset as a CSV file following the government 
+<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">Tabular data standard</a>.
+Where a dataset contains geospatial fields, you may use one of the following formats: </p>
 <ul>
 <li>CSV</li>
 <li>GeoJSON</li>
 <li>GML</li>
+<li>KML</li>
 <li>Geopackage</li>
 </ul>
 <h3 id="field-names">Field names</h3>
-<p>You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
-'<code class="value">StartDate</code>',
-'<code class="value">Start Date</code>'
-'<code class="value">START_DATE</code>' and
-'<code class="value">start.date</code>',
-are all valid ways of naming the '<code class="field">start-date</code>' field.</p>
+<p>You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
+meaning the following examples all valid ways of naming the <code>start-date</code> field in your data:</p>
+<ul>
+<li><code>StartDate</code></li>
+<li><code>Start Date</code></li>
+<li><code>START_DATE</code></li>
+<li><code>start.date</code></li>
+</ul>
 <h3 id="reference-values">Reference values</h3>
 <p>Each dataset has a <code>reference</code> field.
 Reference values are important to help people find and link to the data.
@@ -439,15 +444,31 @@ Where you don’t have a reference for an item, you will need to create one that
 Where these aren't unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
 <h3 id="date-values">Date values</h3>
-<p>All dates are in the <a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">ISO format</a>
-<code>YYYY-MM-DD</code>. Where you don't know the precise date you can enter just the month <code>YYYY-MM</code> or even just the year <code>YYYY</code>.
-The platform will default a <code>start-date</code> to the first of the month, or the first of January, and an <code>end-date</code> to the last day of the month, or the last day of December.</p>
+<p>All dates must be in the format <code>YYYY-MM-DD</code>, following the guidance for <a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">formatting dates and times in data</a>.</p>
+<p>Where you don't know the precise date you can enter just the month <code>YYYY-MM</code> or even just the year <code>YYYY</code>.
+The platform will default a <code>start-date</code> to the first of the month, or the first of January, and an <code>end-date</code> to the last day of the month, or the last day of December. For example:</p>
+<ul>
+<li><code>2025-04-19</code></li>
+<li><code>2025-04</code></li>
+<li><code>2025</code></li>
+</ul>
+<h3 id="geometry-and-point-fields">Geometry and point fields</h3>
+<p>All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">Exchange of a location point</a>.</p>
+<p>A <code>geometry</code> field may contain a single <code>POLYGON</code> or a <code>MULTIPOLYGON</code> object. A <code>point</code> field may only contain a single <code>POINT</code> object.</p>
+<p>If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:</p>
+<ul>
+<li><code>MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...</code></li>
+<li><code>POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...</code></li>
+<li><code>POINT (-3.466788 50.58151)</code></li>
+</ul>
+<p>When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+That is there is no need to duplicate the geospatial data into a <code>point</code> or <code>geometry</code> property or field.</p>
 <h3 id="local-plan-dataset">Local plan dataset</h3>
 <p>List the local plans you are responsible for with one row for each current, emerging or historical local plan.</p>
 <p>The local plan dataset contains the following fields:</p>
 <h4 id="reference">reference</h4>
-<p>Give each local plan a unique reference.</p>
-<p>Examples:</p>
+<p>Give each local plan a unique reference.
+ For example:</p>
 <ul>
 <li><code class="value">LP-BRX-2024</code></li>
 <li><code class="value">34069/County-Durham-Plan</code></li>
@@ -455,33 +476,21 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code class="value">barnet-local-plan-2021-2036</code></li>
 </ul>
 <h4 id="name">name</h4>
-<p>Use the title of the adopted local plan document.</p>
-<p>Examples:</p>
+<p>Use the title of the adopted local plan document. For example:</p>
 <ul>
 <li><code class="value">County Durham Plan</code></li>
 <li><code class="value">South Oxfordshire Joint Local Plan</code></li>
 </ul>
 <h4 id="period-start-date">period-start-date</h4>
 <p>Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.</p>
-<p>Examples:</p>
-<ul>
-<li><code class="value">2018</code></li>
-<li><code class="value">2025-04</code></li>
-<li><code class="value">2025-04-19</code></li>
-</ul>
 <h4 id="period-end-date">period-end-date</h4>
 <p>Enter the end of the plan period. This is may be just the year in <code>YYYY</code> format.</p>
-<p>Examples:</p>
-<ul>
-<li><code class="value">2041</code></li>
-<li><code class="value">2035-06-30</code></li>
-</ul>
 <h4 id="local-planning-authorities">local-planning-authorities</h4>
 <p>Enter the reference (the GSS code) for the 
 <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
 area covered by the plan.
-For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.</p>
-<p>Examples:</p>
+For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
+ For example:</p>
 <ul>
 <li><code class="value">E60000001</code></li>
 <li><code class="value">E60000132;E60000133;E60000135;E60000136</code></li>
@@ -497,16 +506,19 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 <p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
 Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
-to make the URL for each plan unique.</p>
-<p>Examples:</p>
+to make the URL for each plan unique.
+ For example:</p>
 <ul>
 <li><code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code></li>
 <li><code class="value">https://example.com/local-plans/#example-local-plan-2011</code></li>
 <li><code class="value">https://example.com/local-plans/#example-local-plan-2024</code></li>
 </ul>
 <h4 id="document-url">document-url</h4>
-<p>Enter the URL for the main or core plan document. This is usually a PDF file.</p>
-<p>(for example <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>)</p>
+<p>Enter the URL for the main or core plan document. This is usually a PDF file.
+ For example:</p>
+<ul>
+<li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
+</ul>
 <h4 id="entry-date">entry-date</h4>
 <p>Enter the date this data was created or modified.</p>
 <h4 id="start-date">start-date</h4>
@@ -516,15 +528,17 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 <h4 id="end-date">end-date</h4>
 <p>Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.</p>
 <h4 id="notes">notes</h4>
-<p>You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.</p>
-<p>(for example <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>)</p>
+<p>You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:</p>
+<ul>
+<li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
+</ul>
 <h3 id="local-plan-housing-number-dataset">Local plan housing number dataset</h3>
 <p>Create a row containing the housing numbers for each local plan.
 For a joint local plan, break the numbers down further by providing a separate row for each Local Planning Authority.</p>
 <p>The local plan housing number dataset contains the following fields:</p>
 <h4 id="reference_1">reference</h4>
-<p>Give each set of housing numbers a unique reference value.</p>
-<p>Examples:</p>
+<p>Give each set of housing numbers a unique reference value.
+ For example:</p>
 <ul>
 <li><code class="value">34069/County-Durham-Plan</code></li>
 <li><code class="value">central-lincolnshire</code></li>
@@ -534,23 +548,35 @@ For a joint local plan, break the numbers down further by providing a separate r
 <p>Enter the <code>reference</code> for the local plan which these numbers apply.</p>
 <h4 id="local-planning-authority">local-planning-authority</h4>
 <p>This should be the GSS code (statistical geography) for the <code>local-planning-authority</code> area to which the housing numbers apply.
-See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a> dataset.</p>
-<p>(for example <code class="value">E60000001</code> — The GSS code for the County Durham LPA area)</p>
+See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a> dataset.
+ For example:</p>
+<ul>
+<li><code class="value">E60000001</code> — The GSS code for the County Durham LPA area</li>
+</ul>
 <h4 id="required-housing">required-housing</h4>
 <p>Enter the amount of housing required (net additional housing)
-within this <code>local-planning-authority</code> area for this <code>local-plan</code>.</p>
-<p>(for example <code class="value">24852</code>)</p>
+within this <code>local-planning-authority</code> area for this <code>local-plan</code>.
+ For example:</p>
+<ul>
+<li><code class="value">24852</code></li>
+</ul>
 <h4 id="committed-housing">committed-housing</h4>
 <p>Enter the amount of housing already committed for development
 by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.</p>
 <h4 id="allocated-housing">allocated-housing</h4>
 <p>Enter the amount of net additional housing which have been allocated to sites 
-by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.</p>
-<p>(for example <code class="value">9239</code>)</p>
+by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.
+ For example:</p>
+<ul>
+<li><code class="value">9239</code></li>
+</ul>
 <h4 id="broad-locations-housing">broad-locations-housing</h4>
 <p>Enter the amount of net additional housing expected to be delivered from broad locations for development 
-by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.</p>
-<p>(for example <code class="value">15660</code>)</p>
+by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.
+ For example:</p>
+<ul>
+<li><code class="value">15660</code></li>
+</ul>
 <h4 id="windfall-housing">windfall-housing</h4>
 <p>Enter the amount of housing (net additional housing) expected to be delivered by windfall sites
 within this <code>local-planning-authority</code> area for this <code>local-plan</code>.</p>
@@ -561,8 +587,10 @@ within this <code>local-planning-authority</code> area for this <code>local-plan
 <h4 id="end-date_1">end-date</h4>
 <p>Enter the date these numbers were withdrawn, otherwise leave this field blank.</p>
 <h4 id="notes_1">notes</h4>
-<p>You may provide a short description to help users differentiate the plan from others with a similar name.</p>
-<p>(for example <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>)</p>
+<p>You may provide a short description to help users differentiate the plan from others with a similar name. For example:</p>
+<ul>
+<li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
+</ul>
 <h3 id="local-plan-document-dataset">Local plan document dataset</h3>
 <p>Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.</p>
@@ -573,8 +601,8 @@ Add a separate row with a link to each document on your website.</p>
 <p>Enter the title of the document.</p>
 <h4 id="description">description</h4>
 <h4 id="local-plan_1">local-plan</h4>
-<p>Enter the reference for the local plan which the document is associated with.</p>
-<p>Examples:</p>
+<p>Enter the reference for the local plan which the document is associated with.
+ For example:</p>
 <ul>
 <li><code class="value">LP-BRX-2024</code></li>
 <li><code class="value">central-lincolnshire</code></li>
@@ -599,15 +627,18 @@ Add a separate row with a link to each document on your website.</p>
 <li><code>viability-assessment</code></li>
 <li><code>sustainability-appraisal</code></li>
 </ul>
-<p>You can list more than one category, separated by a semi-colon &#39;;&#39; character.</p>
-<p>Examples:</p>
+<p>You can list more than one category, separated by a semi-colon &#39;;&#39; character.
+ For example:</p>
 <ul>
 <li><code class="value">local-plan</code></li>
 <li><code class="value">local-plan;core-strategy;site-allocations</code></li>
 </ul>
 <h4 id="documentation-url_1">documentation-url</h4>
-<p>Enter the URL of the webpage on your website which documents and links to this document.</p>
-<p>(for example <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>)</p>
+<p>Enter the URL of the webpage on your website which documents and links to this document.
+ For example:</p>
+<ul>
+<li><code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code></li>
+</ul>
 <h4 id="document-url_1">document-url</h4>
 <p>Enter the URL for the document. This is often a PDF file.</p>
 <h4 id="entry-date_2">entry-date</h4>

@@ -135,21 +135,26 @@ You need to provide 4 datasets:
 * [Development plan document](#Development-plan-document-dataset)
 
 
-You can provide each dataset in one of the following formats:
+You need to provide each dataset as a CSV file following the government 
+[Tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where a dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
 * GML
+* KML
 * Geopackage
+
 
 ### Field names
 
-You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
-'<code class="value">StartDate</code>',
-'<code class="value">Start Date</code>'
-'<code class="value">START_DATE</code>' and
-'<code class="value">start.date</code>',
-are all valid ways of naming the '<code class="field">start-date</code>' field.
+You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
+meaning the following examples all valid ways of naming the `start-date` field in your data:
+
+* `StartDate`
+* `Start Date`
+* `START_DATE`
+* `start.date`
 
 ### Reference values
 
@@ -166,15 +171,37 @@ Great references are short, easy to read, to pronounce and remember.
 
 ### Date values
 
-All dates are in the [ISO format](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
-`YYYY-MM-DD`. Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
-The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December.
+All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+
+Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
+The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December. For example:
+
+* `2025-04-19`
+* `2025-04`
+* `2025`
+
+### Geometry and point fields
+
+All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the [Exchange of a location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
+
+A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A `point` field may only contain a single `POINT` object.
+
+If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
+
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POINT (-3.466788 50.58151)`
+
+When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 ### Development plan boundary dataset
 
 
 
 The Development plan boundary dataset contains the following fields:
+
+
 
 #### reference
 
@@ -187,7 +214,10 @@ If you don’t have a reference for this item, you will need to create one that 
 A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
+
 #### name
+
+
 
 #### geometry
 
@@ -197,14 +227,22 @@ You may provide data containing points in another coordinate reference system, s
 but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
 Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
 If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
+
 #### description
+
+
 
 #### organisation
 
-Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).#### entry-date
+Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
+
+#### entry-date
 
 Enter the date this data was created or modified.
+
 #### start-date
+
+
 
 #### end-date
 
@@ -216,6 +254,8 @@ Enter the date this data was created or modified.
 
 The Development plan dataset contains the following fields:
 
+
+
 #### reference
 
 Enter reference to help people find and link to the data.
@@ -227,21 +267,38 @@ If you don’t have a reference for this item, you will need to create one that 
 A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
+
 #### name
+
+
 
 #### description
 
+
+
 #### development-plan-type
+
+
 
 #### period-start-date
 
+
+
 #### period-end-date
+
+
 
 #### development-plan-boundary
 
+
+
 #### documentation-url
 
+
+
 #### adopted-date
+
+
 
 #### organisations
 
@@ -250,10 +307,14 @@ Where you need to list more than one organisation, separate the values with a se
 You can find the CURIE reference for each organisation from our [list of organisations](https://www.planning.data.gov.uk/organisation/).
 The CURIE is made from the prefix value, followed by a colon &#39;:&#39; character, and then the reference value for the organisation being identified. 
 You may leave this value blank when the list of organisations is just the single organisation providing the data.
+
 #### entry-date
 
 Enter the date this data was created or modified.
+
 #### start-date
+
+
 
 #### end-date
 
@@ -265,6 +326,8 @@ Enter the date this data was created or modified.
 
 The Development plan timetable dataset contains the following fields:
 
+
+
 #### reference
 
 Enter reference to help people find and link to the data.
@@ -276,22 +339,38 @@ If you don’t have a reference for this item, you will need to create one that 
 A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
+
 #### name
+
+
 
 #### development-plan
 
+
+
 #### development-plan-event
+
+
 
 #### event-date
 
+
+
 #### notes
 
-Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.#### organisation
+Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).#### entry-date
+#### organisation
+
+Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
+
+#### entry-date
 
 Enter the date this data was created or modified.
+
 #### start-date
+
+
 
 #### end-date
 
@@ -303,6 +382,8 @@ Enter the date this data was created or modified.
 
 The Development plan document dataset contains the following fields:
 
+
+
 #### reference
 
 Enter reference to help people find and link to the data.
@@ -314,24 +395,42 @@ If you don’t have a reference for this item, you will need to create one that 
 A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
+
 #### name
+
+
 
 #### description
 
+
+
 #### development-plan
+
+
 
 #### document-type
 
+
+
 #### documentation-url
+
+
 
 #### document-url
 
+
+
 #### organisation
 
-Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).#### entry-date
+Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
+
+#### entry-date
 
 Enter the date this data was created or modified.
+
 #### start-date
+
+
 
 #### end-date
 

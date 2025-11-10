@@ -129,21 +129,26 @@ You need to provide 1 dataset:
 * [Brownfield land](#Brownfield-land-dataset)
 
 
-You can provide each dataset in one of the following formats:
+You need to provide each dataset as a CSV file following the government 
+[Tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where a dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
 * GML
+* KML
 * Geopackage
+
 
 ### Field names
 
-You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
-'<code class="value">StartDate</code>',
-'<code class="value">Start Date</code>'
-'<code class="value">START_DATE</code>' and
-'<code class="value">start.date</code>',
-are all valid ways of naming the '<code class="field">start-date</code>' field.
+You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
+meaning the following examples all valid ways of naming the `start-date` field in your data:
+
+* `StartDate`
+* `Start Date`
+* `START_DATE`
+* `start.date`
 
 ### Reference values
 
@@ -160,9 +165,29 @@ Great references are short, easy to read, to pronounce and remember.
 
 ### Date values
 
-All dates are in the [ISO format](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
-`YYYY-MM-DD`. Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
-The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December.
+All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+
+Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
+The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December. For example:
+
+* `2025-04-19`
+* `2025-04`
+* `2025`
+
+### Geometry and point fields
+
+All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the [Exchange of a location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
+
+A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A `point` field may only contain a single `POINT` object.
+
+If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
+
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POINT (-3.466788 50.58151)`
+
+When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 ### Brownfield land dataset
 
@@ -170,8 +195,9 @@ The platform will default a `start-date` to the first of the month, or the first
 
 The Brownfield land dataset contains the following fields:
 
-#### SiteReference
 
+
+#### SiteReference
 
 Enter the unique reference your organisation uses to identify the site.
 If one doesn’t exist, you need to create one. It should not be used by your organisation to identify any other sites, but can be borrowed from another data set listing the site. You could use the strategic site identifier from your local plan, for example:
@@ -179,39 +205,34 @@ If one doesn’t exist, you need to create one. It should not be used by your or
 
 #### SiteNameAddress
 
-
 Enter the site name and address in a single line of text, for example:
 ``` Parcel of land behind, 221B Baker Street, Marylebone, London, NW1 6XE ```
 
 #### Deliverable
 
-
 Enter ‘yes’ if there is a reasonable prospect that residential development will take place on the land within 5 years of the date you enter this site in the register. Otherwise leave this field blank.
 
 #### HazardousSubstances
-
 
 Enter ‘yes’ if the local planning authority is required by regulation 26(3) of the [Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made) to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.
 
 #### Hectares
 
-
 Enter the land area of the site in hectares, up to 2 decimal places. Use digits (2) rather than words (two).
 
 #### MinNetDwellings
 
-#### NetDwellingsRangeFrom
 
+
+#### NetDwellingsRangeFrom
 
 Enter the minimum number of dwellings that the local planning authority estimates the site should support, as defined in [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
 
 #### NetDwellingsRangeTo
 
-
 Enter the maximum number of dwellings that the local planning authority estimates the site should support, as defined in [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
 
 #### OwnershipStatus
-
 
 Indicate the site’s ownership by entering one of the following values:
 * owned by a public authority * not owned by a public authority * mixed ownership
@@ -219,11 +240,9 @@ For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](htt
 
 #### PermissionDate
 
-
 Enter the date the most recent permission was granted on the site, in the format YYYY-MM-DD. If no permission has been granted leave this blank.
 
 #### PermissionType
-
 
 Choose one of the following to indicate what permission type the site has:
 * full planning permission * outline planning permission * reserved matters approval * permission in principle * technical details consent * planning permission granted under an order * other
@@ -232,11 +251,9 @@ Where more than one permission exists for the site, identify the latest permissi
 
 #### PlanningHistory
 
-
 Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.
 
 #### PlanningStatus
-
 
 Choose one of the following to indicate what stage of the planning process the site is at:
 * permissioned * not permissioned * pending decision
@@ -245,21 +262,17 @@ For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](htt
 
 #### SiteplanURL
 
-
 Enter the URL of a web page hosting the site plan, beginning with either “http://” or “https://”.
 
 #### GeoX
-
 
 Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the [open standards for government guidance](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). $CTA Be sure you do not mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2. $CTA
 
 #### GeoY
 
-
 Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the [open standards for government guidance](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
 
 #### Notes
-
 
 Enter any general information about a site that developers might find useful, including a description of any housing development proposed for the site.
 You may include links to any web pages that give:
@@ -269,27 +282,23 @@ Content in this field does not need to be on a single line, but should be no lon
 
 #### OrganisationLabel
 
-#### OrganisationURI
 
+
+#### OrganisationURI
 
 [Find your organisation in this list](https://www.digital-land.info/entity?typology=organisation) and enter the corresponding Open Data Communities URI.
 
 #### LastUpdatedDate
 
-
 Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
 #### FirstAddedDate
-
 
 Enter the date that the site was first added to this register, in the format YYYY-MM-DD.
 
 #### EndDate
 
-
 If the site no longer needs to be listed (for example, if the site has been built on), it should remain on the register for historical reasons and not be deleted. Enter the date the site was developed or determined to no longer be brownfield land, in the format YYYY-MM-DD. This field should only be filled in once the site is no longer classified as brownfield land.
-
-
 
 
 

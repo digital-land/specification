@@ -413,20 +413,25 @@ If you create a new endpoint you will need to <a href="#tell-us-about-your-data"
 <li><a href="#Planning-application-log-dataset">Planning application log</a></li>
 <li><a href="#Planning-application-document-dataset">Planning application document</a></li>
 </ul>
-<p>You can provide each dataset in one of the following formats:</p>
+<p>You need to provide each dataset as a CSV file following the government 
+<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">Tabular data standard</a>.
+Where a dataset contains geospatial fields, you may use one of the following formats: </p>
 <ul>
 <li>CSV</li>
 <li>GeoJSON</li>
 <li>GML</li>
+<li>KML</li>
 <li>Geopackage</li>
 </ul>
 <h3 id="field-names">Field names</h3>
-<p>You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
-'<code class="value">StartDate</code>',
-'<code class="value">Start Date</code>'
-'<code class="value">START_DATE</code>' and
-'<code class="value">start.date</code>',
-are all valid ways of naming the '<code class="field">start-date</code>' field.</p>
+<p>You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
+meaning the following examples all valid ways of naming the <code>start-date</code> field in your data:</p>
+<ul>
+<li><code>StartDate</code></li>
+<li><code>Start Date</code></li>
+<li><code>START_DATE</code></li>
+<li><code>start.date</code></li>
+</ul>
 <h3 id="reference-values">Reference values</h3>
 <p>Each dataset has a <code>reference</code> field.
 Reference values are important to help people find and link to the data.
@@ -439,9 +444,25 @@ Where you don’t have a reference for an item, you will need to create one that
 Where these aren't unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
 <h3 id="date-values">Date values</h3>
-<p>All dates are in the <a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">ISO format</a>
-<code>YYYY-MM-DD</code>. Where you don't know the precise date you can enter just the month <code>YYYY-MM</code> or even just the year <code>YYYY</code>.
-The platform will default a <code>start-date</code> to the first of the month, or the first of January, and an <code>end-date</code> to the last day of the month, or the last day of December.</p>
+<p>All dates must be in the format <code>YYYY-MM-DD</code>, following the guidance for <a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">formatting dates and times in data</a>.</p>
+<p>Where you don't know the precise date you can enter just the month <code>YYYY-MM</code> or even just the year <code>YYYY</code>.
+The platform will default a <code>start-date</code> to the first of the month, or the first of January, and an <code>end-date</code> to the last day of the month, or the last day of December. For example:</p>
+<ul>
+<li><code>2025-04-19</code></li>
+<li><code>2025-04</code></li>
+<li><code>2025</code></li>
+</ul>
+<h3 id="geometry-and-point-fields">Geometry and point fields</h3>
+<p>All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">Exchange of a location point</a>.</p>
+<p>A <code>geometry</code> field may contain a single <code>POLYGON</code> or a <code>MULTIPOLYGON</code> object. A <code>point</code> field may only contain a single <code>POINT</code> object.</p>
+<p>If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:</p>
+<ul>
+<li><code>MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...</code></li>
+<li><code>POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...</code></li>
+<li><code>POINT (-3.466788 50.58151)</code></li>
+</ul>
+<p>When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+That is there is no need to duplicate the geospatial data into a <code>point</code> or <code>geometry</code> property or field.</p>
 <h3 id="planning-application-dataset">Planning application dataset</h3>
 <p>The Planning application dataset contains the following fields:</p>
 <h4 id="reference">reference</h4>
@@ -471,8 +492,10 @@ If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the a
 <h4 id="planning-decision">planning-decision</h4>
 <h4 id="planning-decision-type">planning-decision-type</h4>
 <h4 id="notes">notes</h4>
-<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.#### organisation</p>
-<p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.#### entry-date</p>
+<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
+<h4 id="organisation">organisation</h4>
+<p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
+<h4 id="entry-date">entry-date</h4>
 <p>Enter the date this data was created or modified.</p>
 <h4 id="start-date">start-date</h4>
 <h4 id="decision-date">decision-date</h4>
@@ -494,9 +517,11 @@ Great references are short, easy to read, to pronounce and remember.</p>
 <h4 id="documentation-url_1">documentation-url</h4>
 <h4 id="document-url">document-url</h4>
 <h4 id="notes_1">notes</h4>
-<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.#### organisation</p>
-<p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.#### event-date</p>
-<h4 id="entry-date">entry-date</h4>
+<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
+<h4 id="organisation_1">organisation</h4>
+<p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
+<h4 id="event-date">event-date</h4>
+<h4 id="entry-date_1">entry-date</h4>
 <p>Enter the date this data was created or modified.</p>
 <h4 id="start-date_1">start-date</h4>
 <h4 id="end-date_1">end-date</h4>
@@ -519,8 +544,10 @@ Great references are short, easy to read, to pronounce and remember.</p>
 <h4 id="documentation-url_2">documentation-url</h4>
 <h4 id="document-url_1">document-url</h4>
 <h4 id="notes_2">notes</h4>
-<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.#### organisation</p>
-<p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.#### entry-date</p>
+<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
+<h4 id="organisation_2">organisation</h4>
+<p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
+<h4 id="entry-date_2">entry-date</h4>
 <p>Enter the date this data was created or modified.</p>
 <h4 id="start-date_2">start-date</h4>
 <h2 id="contact-us">Contact us</h2>

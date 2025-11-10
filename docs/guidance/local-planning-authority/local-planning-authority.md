@@ -132,21 +132,26 @@ You need to provide 1 dataset:
 * [Local Planning Authority](#Local-Planning-Authority-dataset)
 
 
-You can provide each dataset in one of the following formats:
+You need to provide each dataset as a CSV file following the government 
+[Tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where a dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
 * GML
+* KML
 * Geopackage
+
 
 ### Field names
 
-You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
-'<code class="value">StartDate</code>',
-'<code class="value">Start Date</code>'
-'<code class="value">START_DATE</code>' and
-'<code class="value">start.date</code>',
-are all valid ways of naming the '<code class="field">start-date</code>' field.
+You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
+meaning the following examples all valid ways of naming the `start-date` field in your data:
+
+* `StartDate`
+* `Start Date`
+* `START_DATE`
+* `start.date`
 
 ### Reference values
 
@@ -163,9 +168,29 @@ Great references are short, easy to read, to pronounce and remember.
 
 ### Date values
 
-All dates are in the [ISO format](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
-`YYYY-MM-DD`. Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
-The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December.
+All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+
+Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
+The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December. For example:
+
+* `2025-04-19`
+* `2025-04`
+* `2025`
+
+### Geometry and point fields
+
+All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the [Exchange of a location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
+
+A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A `point` field may only contain a single `POINT` object.
+
+If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
+
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POINT (-3.466788 50.58151)`
+
+When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 ### Local Planning Authority dataset
 
@@ -176,35 +201,34 @@ specification to provide the boundary of the Local Planning Authority area.
 
 The Local Planning Authority dataset contains the following fields:
 
-#### reference
 
+
+#### reference
 
 Enter the GSS code for the Local Planning Authority area. 
 You can create a unique reference where no GSS code exists and
 republish the data with the official GSS code once it is known.
-
-
-
-Examples:
+ For example:
 
 * <code class="value">E60000330</code>
 * <code class="value">borchester-development-corporation</code>
+
+
 #### name
 
-
 Enter the name of the Local Planning Authority.
+ For example:
+
+* <code class="value">Old Oak and Park Royal Development Corporation (OPDC)</code>
 
 
-(for example <code class="value">Old Oak and Park Royal Development Corporation (OPDC)</code>)
 #### documentation-url
-
 
 Enter the URL of the webpage on your website where information about the Local Planning Authority
 including the boundary may be found.
 
 
 #### document-url
-
 
 Enter the URL of the document, webpage, or data on your website containing the
 authorititive &#34;red-line&#34; boundary.
@@ -218,31 +242,30 @@ You may provide data containing points in another coordinate reference system, s
 but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
 Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
 If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
+
 #### entry-date
 
 Enter the date this data was created or modified.
-#### start-date
 
+#### start-date
 
 Enter the date this area became a Local Planning Authority.
 
 
 #### end-date
 
-
 Enter the date this area ceased to be a Local Planning Authority.
 
 
 #### notes
 
-
 Enter any notes to help a user understand how the data was made or is to be interpreted.
+ For example:
 
-
-(for example <code class="value">The London Legacy Development Corporation was planning authority for its area until the end of November 2024.
+* <code class="value">The London Legacy Development Corporation was planning authority for its area until the end of November 2024.
 All enquiries in respect of planning policy and Community Infrastructure Levy should now be made to 
 the relevant borough.
-</code>)
+</code>
 
 
 

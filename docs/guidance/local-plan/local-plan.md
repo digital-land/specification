@@ -134,21 +134,26 @@ You need to provide 3 datasets:
 * [Local plan document](#Local-plan-document-dataset)
 
 
-You can provide each dataset in one of the following formats:
+You need to provide each dataset as a CSV file following the government 
+[Tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where a dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
 * GML
+* KML
 * Geopackage
+
 
 ### Field names
 
-You can use upper or lowcase names for your fields, and punctuation characters are ignored, meaning
-'<code class="value">StartDate</code>',
-'<code class="value">Start Date</code>'
-'<code class="value">START_DATE</code>' and
-'<code class="value">start.date</code>',
-are all valid ways of naming the '<code class="field">start-date</code>' field.
+You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
+meaning the following examples all valid ways of naming the `start-date` field in your data:
+
+* `StartDate`
+* `Start Date`
+* `START_DATE`
+* `start.date`
 
 ### Reference values
 
@@ -165,9 +170,29 @@ Great references are short, easy to read, to pronounce and remember.
 
 ### Date values
 
-All dates are in the [ISO format](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
-`YYYY-MM-DD`. Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
-The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December.
+All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+
+Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
+The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December. For example:
+
+* `2025-04-19`
+* `2025-04`
+* `2025`
+
+### Geometry and point fields
+
+All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the [Exchange of a location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
+
+A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A `point` field may only contain a single `POINT` object.
+
+If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
+
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,1.188381 51.234917,1.187912 51.235022...`
+* `POINT (-3.466788 50.58151)`
+
+When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 ### Local plan dataset
 
@@ -176,66 +201,48 @@ List the local plans you are responsible for with one row for each current, emer
 
 The local plan dataset contains the following fields:
 
+
+
 #### reference
 
-
 Give each local plan a unique reference.
-
-
-
-Examples:
+ For example:
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">34069/County-Durham-Plan</code>
 * <code class="value">central-lincolnshire</code>
 * <code class="value">barnet-local-plan-2021-2036</code>
+
+
 #### name
 
-
-Use the title of the adopted local plan document.
-
-
-Examples:
+Use the title of the adopted local plan document. For example:
 
 * <code class="value">County Durham Plan</code>
 * <code class="value">South Oxfordshire Joint Local Plan</code>
-#### period-start-date
 
+
+#### period-start-date
 
 Enter the start of the plan period. This is usually just a year in `YYYY` format.
 
-
-Examples:
-
-* <code class="value">2018</code>
-* <code class="value">2025-04</code>
-* <code class="value">2025-04-19</code>
 #### period-end-date
-
 
 Enter the end of the plan period. This is may be just the year in `YYYY` format.
 
-
-Examples:
-
-* <code class="value">2041</code>
-* <code class="value">2035-06-30</code>
 #### local-planning-authorities
-
 
 Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
 area covered by the plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
-
-
-
-Examples:
+ For example:
 
 * <code class="value">E60000001</code>
 * <code class="value">E60000132;E60000133;E60000135;E60000136</code>
-#### local-plan-process
 
+
+#### local-plan-process
 
 Indicate the local plan examination process for the local plan using one of the following values:
 
@@ -245,33 +252,32 @@ Indicate the local plan examination process for the local plan using one of the 
 
 #### documentation-url
 
-
 The URL of the webpage on your website for the local plan
 
 Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
 Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
-
-
-
-Examples:
+ For example:
 
 * <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
 * <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
 * <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
+
+
 #### document-url
 
-
 Enter the URL for the main or core plan document. This is usually a PDF file.
+ For example:
+
+* <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
 
-(for example <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>)
 #### entry-date
 
 Enter the date this data was created or modified.
-#### start-date
 
+#### start-date
 
 Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
@@ -280,16 +286,14 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 
 #### end-date
 
-
 Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
 
 
 #### notes
 
+You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
 
-You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.
-
-(for example <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>)
+* <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
 
 ### Local plan housing number dataset
@@ -300,42 +304,42 @@ For a joint local plan, break the numbers down further by providing a separate r
 
 The local plan housing number dataset contains the following fields:
 
+
+
 #### reference
 
-
 Give each set of housing numbers a unique reference value.
-
-
-
-Examples:
+ For example:
 
 * <code class="value">34069/County-Durham-Plan</code>
 * <code class="value">central-lincolnshire</code>
 * <code class="value">barnet-local-plan-2021-2036</code>
-#### local-plan
 
+
+#### local-plan
 
 Enter the `reference` for the local plan which these numbers apply.
 
 
 #### local-planning-authority
 
-
 This should be the GSS code (statistical geography) for the `local-planning-authority` area to which the housing numbers apply.
 See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
+ For example:
+
+* <code class="value">E60000001</code> — The GSS code for the County Durham LPA area
 
 
-(for example <code class="value">E60000001</code> — The GSS code for the County Durham LPA area)
 #### required-housing
-
 
 Enter the amount of housing required (net additional housing)
 within this `local-planning-authority` area for this `local-plan`.
+ For example:
+
+* <code class="value">24852</code>
 
 
-(for example <code class="value">24852</code>)
 #### committed-housing
-
 
 Enter the amount of housing already committed for development
 by the local plan within this `local-planning-authority` area by the `local-plan`.
@@ -343,22 +347,23 @@ by the local plan within this `local-planning-authority` area by the `local-plan
 
 #### allocated-housing
 
-
 Enter the amount of net additional housing which have been allocated to sites 
 by the local plan within this `local-planning-authority` area by the `local-plan`.
+ For example:
+
+* <code class="value">9239</code>
 
 
-(for example <code class="value">9239</code>)
 #### broad-locations-housing
-
 
 Enter the amount of net additional housing expected to be delivered from broad locations for development 
 by the local plan within this `local-planning-authority` area by the `local-plan`.
+ For example:
+
+* <code class="value">15660</code>
 
 
-(for example <code class="value">15660</code>)
 #### windfall-housing
-
 
 Enter the amount of housing (net additional housing) expected to be delivered by windfall sites
 within this `local-planning-authority` area for this `local-plan`.
@@ -367,24 +372,22 @@ within this `local-planning-authority` area for this `local-plan`.
 #### entry-date
 
 Enter the date this data was created or modified.
-#### start-date
 
+#### start-date
 
 Enter the date these numbers were finalised.
 
 
 #### end-date
 
-
 Enter the date these numbers were withdrawn, otherwise leave this field blank.
 
 
 #### notes
 
+You may provide a short description to help users differentiate the plan from others with a similar name. For example:
 
-You may provide a short description to help users differentiate the plan from others with a similar name.
-
-(for example <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>)
+* <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
 
 ### Local plan document dataset
@@ -395,33 +398,32 @@ Add a separate row with a link to each document on your website.
 
 The Local plan document dataset contains the following fields:
 
-#### reference
 
+
+#### reference
 
 Give each document a unique reference.
 
 
 #### name
 
-
 Enter the title of the document.
 
 
 #### description
 
+
+
 #### local-plan
 
-
 Enter the reference for the local plan which the document is associated with.
-
-
-
-Examples:
+ For example:
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">central-lincolnshire</code>
-#### document-types
 
+
+#### document-types
 
 Enter at least one of the following [local-plan-document-type](https://www.planning.data.gov.uk/dataset/local-plan-document-type) values:
 
@@ -443,22 +445,21 @@ Enter at least one of the following [local-plan-document-type](https://www.plann
 * `sustainability-appraisal`
 
 You can list more than one category, separated by a semi-colon &#39;;&#39; character.
-
-
-
-Examples:
+ For example:
 
 * <code class="value">local-plan</code>
 * <code class="value">local-plan;core-strategy;site-allocations</code>
+
+
 #### documentation-url
 
-
 Enter the URL of the webpage on your website which documents and links to this document.
+ For example:
+
+* <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
 
 
-(for example <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>)
 #### document-url
-
 
 Enter the URL for the document. This is often a PDF file.
 
@@ -466,14 +467,13 @@ Enter the URL for the document. This is often a PDF file.
 #### entry-date
 
 Enter the date this data was created or modified.
-#### start-date
 
+#### start-date
 
 Enter the date the document was published.
 
 
 #### end-date
-
 
 Enter date when the document was archived. Otherwise leave this field blank.
 
