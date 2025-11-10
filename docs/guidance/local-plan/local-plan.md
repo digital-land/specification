@@ -260,7 +260,7 @@ Where there are several local plans listed on a single webpage, you can use use 
 to make the URL for each plan unique.
  For example:
 
-* <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
+* <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
 * <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
 * <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
 

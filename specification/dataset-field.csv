@@ -1977,7 +1977,7 @@ Each entry in the local plan dataset should link to a documentation webpage that
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
 Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
-",,,"[{""value"": ""https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2011""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2024""}]",,
+",,,"[{""value"": ""https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2011""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2024""}]",,
 local-plan,document-url,,local plan core document,"Enter the URL for the main or core plan document. This is usually a PDF file.
 ",,,"[{""value"": ""https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf""}]",,
 local-plan,end-date,,date a local plan was withdrawn or revoked,"Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
