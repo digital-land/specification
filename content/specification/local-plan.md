@@ -6,6 +6,7 @@ description: headline information about one or more local plans
 specification-status: working-draft
 specification-reason: local-plans-2025
 consideration: local-plans
+document-url: https://digital-land.github.io/specification/specification/local-plan/
 start-date: ''
 end-date: ''
 entry-date: '2025-11-08'

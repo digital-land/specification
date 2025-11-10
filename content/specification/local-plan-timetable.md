@@ -6,6 +6,7 @@ description: log of past and predicted milestones and events when producing a lo
 specification-status: working-draft
 specification-reason: prospective
 consideration: local-plans
+document-url: https://digital-land.github.io/specification/specification/local-plan-timetable/
 start-date: ''
 end-date: ''
 entry-date: '2025-11-05'
