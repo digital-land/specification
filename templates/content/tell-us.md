@@ -5,7 +5,7 @@ Use the [check and provide service](https://provide.planning.data.gov.uk/) to te
 
 You will need to provide for each dataset:
 
-* the [source](#source) URL where the information in the data is presented on your website
+* the [source webpage](#source-webpage) URL where the information in the data is presented on your website
 * the [endpoint](#endpoint) URL from which the data can be collected
 
 The provide service also asks for your name and email address as a point of contact in case of any issues.
