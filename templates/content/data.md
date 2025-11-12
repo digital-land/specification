@@ -21,8 +21,8 @@ Where your dataset contains geospatial fields, you may use one of the following 
 
 ### Field names
 
-You can use upper or lowcase names for your fields, and any punctuation characters are ignored,
-meaning the following examples all valid ways of naming the `start-date` field in your data:
+You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`
 * `Start Date`
@@ -65,7 +65,7 @@ If you’re providing geospatial data in a CSV, the field must be encoded as wel
 * `POLYGON ((1.188829 51.23478,1.188376 51.234909,...`
 * `POINT (-3.466788 50.58151)`
 
-When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native for the geospatial data. 
+When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native format for the geospatial data. 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 {% for d in specification["datasets"]|sort(attribute='priority') -%}

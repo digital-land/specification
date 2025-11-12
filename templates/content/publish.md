@@ -5,7 +5,7 @@ Publishing your data consists of two parts:
 
 ### Endpoint
 
-Publish your data at a public endpoint, in a way which anyone can download and use it.
+Publish your data at a public endpoint, in a way in which anyone can download and use it.
 
 The endpoint is a URL from which the data can be downloaded.
 This can be a single file hosted on your website.
@@ -19,7 +19,7 @@ the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-gover
 
 ### Source
 
-The source is a webpage where a user can see the same information in the data.
+The source is a webpage where a user can see the same information that is shown in the data.
 This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
 
 It is important that the source page links to the endpoint documentation webpage to 
