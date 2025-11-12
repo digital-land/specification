@@ -251,10 +251,18 @@ var/cache/lgd.html:
 # could check every html file ..
 render::
 	python3 bin/check-anchors.py docs/specification/local-plan/index.html
+	python3 bin/check-anchors.py docs/specification/local-plan-timetable/index.html
+
+TESTING_DIR:=../testing-guidance/content/
+TESTING_SNAPSHOT_DIR:=$(TESTING_DIR)$(shell date +%Y-%m-%d)/
+render::
 ifneq ("${TESTING_GUIDANCE}","")
-	cp docs/guidance/local-plan/local-plan.md ../testing-guidance/content
-	cp docs/guidance/local-plan-timetable/local-plan-timetable.md ../testing-guidance/content
-	cp docs/guidance/local-planning-authority/local-planning-authority.md ../testing-guidance/content
+	mkdir -p $(TESTING_DIR) $(TESTING_SNAPSHOT_DIR)
+	cp docs/guidance/local-plan/local-plan.md $(TESTING_DIR)
+	cp docs/guidance/local-plan/local-plan.md $(TESTING_DIR)
+	mkdir -p $(TESTING_SNAPSHOT_DIR)
+	cp docs/guidance/local-plan-timetable/local-plan-timetable.md $(TESTING_SNAPSHOT_DIR)
+	cp docs/guidance/local-planning-authority/local-planning-authority.md $(TESTING_SNAPSHOT_DIR)
 endif
 
 # deprecated
