@@ -58,84 +58,23 @@ Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tools.
 
-The [files, fields and format](#files-fields-and-formats) of the data you need to
-provide are documented below, and formally defined in the
-[technical specifications](#technical-specifications) attached to this page.
-
 Your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
 so start by providing the local plans information you have,
 and continue to iterate and improve it over time.
 
-## Check your data
-Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 
-The service will show you how the data will appear on [planning.data.gov.uk](https://planning.data.gov.uk) 
-along with feedback on how you might improve your data.
 
-## Publish your data
-Publishing your data consists of two parts:
+### Files
 
-* An [endpoint](#endpoint) where the data can be downloaded from
-* A [source](#source) where the information contained in the data is presented on your website
-
-### Endpoint
-
-Publish your data at a public endpoint, in a way in which anyone can download and use it.
-
-The endpoint is a URL from which the data can be downloaded.
-This can be a single file hosted on your website.
-Alternatively, you can serve your data using an OGC WFS or other API
-using a third-party service such as GitHub or ArcGIS.
-
-Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
-
-The documentation webpage for your endpoint should include a clear statement that the data is provided as open data under
-the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
-
-### Source
-
-The source is a webpage where a user can see the same information that is shown in the data.
-This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
-
-It is important that the source page links to the endpoint documentation webpage to 
-help users trust the authenticity of the data.
-
-## Tell us about your data
-Once you have published the data, tell us about it so we can index and quickly make it available 
-nationally on [planning.data.gov.uk](https://planning.data.gov.uk).
-
-Use the [check and provide service](https://provide.planning.data.gov.uk/) to tell us where it is. 
-
-You will need to provide for each dataset:
-
-* the [source](#source) URL where the information in the data is presented on your website
-* the [endpoint](#endpoint) URL from which the data can be collected
-
-The provide service also asks for your name and email address as a point of contact in case of any issues.
-
-## Keep your data up-to-date
-You should continue to improve your data, and act on the feedback from the [check and provide service](https://provide.planning.data.gov.uk) 
-to ensure your data meets the specification.
-
-You will also need to update and republish your data whenever there's a change to your local plans information.
-
-We look for changes to the data at all of the endpoint URLs we know about every night,
-so we can quickly update [planning.data.gov.uk](https://planning.data.gov.uk).
-
-It is simpler if you publish your changes to the same endpoint URL.
-If you create a new endpoint you will need to [tell us about your data](#tell-us-about-your-data) again.
-
-## Files, fields and formats
-
-You need to provide 3 datasets:
+For local plans you need to provide 3 datasets:
 
 * [Local plan](#local-plan-dataset)
 * [Local plan housing number](#local-plan-housing-number-dataset)
 * [Local plan document](#Local-plan-document-dataset)
 
 
-You need to provide each dataset 
-as a separate CSV file 
+Each each dataset needs to be provided
+in a separate CSV file 
 following the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 Where your dataset contains geospatial fields, you may use one of the following formats: 
@@ -145,6 +84,10 @@ Where your dataset contains geospatial fields, you may use one of the following 
 * GML
 * KML
 * Geopackage
+
+The fields and format of the data you need to
+prepare are documented below, and formally defined in the
+[technical specifications](#technical-specifications) attached to this page.
 
 ### Field names
 
@@ -484,6 +427,64 @@ Enter date when the document was archived. Otherwise leave this field blank.
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
 
+
+## Check your data
+Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 
+The service will show you how the data will appear on [planning.data.gov.uk](https://planning.data.gov.uk) 
+along with feedback on how you might improve your data.
+
+## Publish your data
+Publishing your data consists of two parts:
+
+* An [endpoint](#endpoint) where the data can be downloaded from
+* A [source](#source) where the information contained in the data is presented on your website
+
+### Endpoint
+
+Publish your data at a public endpoint, in a way in which anyone can download and use it.
+
+The endpoint is a URL from which the data can be downloaded.
+This can be a single file hosted on your website.
+Alternatively, you can serve your data using an OGC WFS or other API
+using a third-party service such as GitHub or ArcGIS.
+
+Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
+
+The documentation webpage for your endpoint should include a clear statement that the data is provided as open data under
+the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+### Source
+
+The source is a webpage where a user can see the same information that is shown in the data.
+This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
+
+It is important that the source page links to the endpoint documentation webpage to 
+help users trust the authenticity of the data.
+
+## Tell us about your data
+Once you have published the data, tell us about it so we can index and quickly make it available 
+nationally on [planning.data.gov.uk](https://planning.data.gov.uk).
+
+Use the [check and provide service](https://provide.planning.data.gov.uk/) to tell us where it is. 
+
+You will need to provide for each dataset:
+
+* the [source](#source) URL where the information in the data is presented on your website
+* the [endpoint](#endpoint) URL from which the data can be collected
+
+The provide service also asks for your name and email address as a point of contact in case of any issues.
+
+## Keep your data up-to-date
+You should continue to improve your data, and act on the feedback from the [check and provide service](https://provide.planning.data.gov.uk) 
+to ensure your data meets the specification.
+
+You will also need to update and republish your data whenever there's a change to your local plans information.
+
+We look for changes to the data at all of the endpoint URLs we know about every night,
+so we can quickly update [planning.data.gov.uk](https://planning.data.gov.uk).
+
+It is simpler if you publish your changes to the same endpoint URL.
+If you create a new endpoint you will need to [tell us about your data](#tell-us-about-your-data) again.
 
 ## Contact us
 
