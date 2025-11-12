@@ -207,7 +207,7 @@ along with feedback on how you might improve your data.
 Publishing your data consists of two parts:
 
 * An [endpoint](#endpoint) where the data can be downloaded from
-* A [source](#source) where the information contained in the data is presented on your website
+* A [source webpage](#source-webpage) where the information contained in the data is presented on your website
 
 ### Endpoint
 
@@ -223,12 +223,12 @@ Ensure your endpoint URL is documented and linked to from a public webpage to he
 The documentation webpage for your endpoint should include a clear statement that the data is provided as open data under
 the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
-### Source
+### Source webpage
 
-The source is a webpage where a user can see the same information that is shown in the data.
+The source webpage is where a user can see the same information that is shown in the data.
 This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
 
-It is important that the source page links to the endpoint documentation webpage to 
+It is important that the source webpage links to the endpoint documentation webpage to 
 help users trust the authenticity of the data.
 
 ## Tell us about your data
@@ -239,7 +239,7 @@ Use the [check and provide service](https://provide.planning.data.gov.uk/) to te
 
 You will need to provide for each dataset:
 
-* the [source](#source) URL where the information in the data is presented on your website
+* the [source webpage](#source-webpage) URL where the information in the data is presented on your website
 * the [endpoint](#endpoint) URL from which the data can be collected
 
 The provide service also asks for your name and email address as a point of contact in case of any issues.
