@@ -31,10 +31,6 @@ understand its quality, and trust it will be sustained.
 
 {% include "content/provide.md" %}
 
-## Files, fields and formats
-
-{% include "content/data.md" %}
-
 ## Contact us
 
 $CTA

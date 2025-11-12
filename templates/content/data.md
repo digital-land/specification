@@ -1,14 +1,16 @@
 {%- set ds = specification["datasets"] -%}
 
-You need to provide {{ ds|length }} dataset{{ "s" if ds|length > 1  else "" }}:
+### Files
+
+For {{ specification["plural"]}} you need to provide {{ ds|length }} dataset{{ "s" if ds|length > 1  else "" }}:
 
 {% for d in specification["datasets"]|sort(attribute='priority') %}
 {%- set name = tables["dataset"][d["dataset"]]["name"] -%}
 * [{{ name | sentence_case }}](#{{ name.replace(" ", "-")  }}-dataset)
 {% endfor %}
 
-You need to provide {{ "each" if ds|length > 1  else "the" }} dataset 
-as a {{ "separate" if ds|length > 1  else "" }} CSV file 
+Each {{ "each" if ds|length > 1  else "the" }} dataset needs to be provided
+in a {{ "separate" if ds|length > 1  else "" }} CSV file 
 following the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 Where your dataset contains geospatial fields, you may use one of the following formats: 
@@ -18,6 +20,10 @@ Where your dataset contains geospatial fields, you may use one of the following 
 * GML
 * KML
 * Geopackage
+
+The fields and format of the data you need to
+prepare are documented below, and formally defined in the
+[technical specifications](#technical-specifications) attached to this page.
 
 ### Field names
 
