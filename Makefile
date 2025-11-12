@@ -258,10 +258,12 @@ TESTING_SNAPSHOT_DIR:=$(TESTING_DIR)$(shell date +%Y-%m-%d)/
 render::
 ifneq ("${TESTING_GUIDANCE}","")
 	mkdir -p $(TESTING_DIR) $(TESTING_SNAPSHOT_DIR)
-	cp docs/guidance/local-plan/local-plan.md $(TESTING_DIR)
-	cp docs/guidance/local-plan/local-plan.md $(TESTING_DIR)
 	mkdir -p $(TESTING_SNAPSHOT_DIR)
+	cp docs/guidance/local-plan/local-plan.md $(TESTING_DIR)
+	cp docs/guidance/local-plan/local-plan.md $(TESTING_SNAPSHOT_DIR)
+	cp docs/guidance/local-plan-timetable/local-plan-timetable.md $(TESTING_DIR)
 	cp docs/guidance/local-plan-timetable/local-plan-timetable.md $(TESTING_SNAPSHOT_DIR)
+	cp docs/guidance/local-planning-authority/local-planning-authority.md $(TESTING_DIR)
 	cp docs/guidance/local-planning-authority/local-planning-authority.md $(TESTING_SNAPSHOT_DIR)
 endif
 
