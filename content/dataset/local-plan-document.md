@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: local-plan-document
-description: ''
+description: 'documents associated with a local plan'
 end-date: ''
 entity-maximum: '3899999'
 entity-minimum: '3800000'

@@ -254,9 +254,11 @@ h1, h2::before, h3::before, h4::before {
     The {{ sentence_case(name) }} dataset contains {{ sentence_end(d["description"] or _d["description"]) }}
     </p>
 
+{#- guidance is now a separate page
     {% if _d["guidance"] %}
     <div class="guidance">{{ _d["guidance"] | markdown }}</div>
     {% endif %}
+-#}
 
     {% if _d["notes"] %}
     <div class="note">{{ _d["notes"] | markdown }}</div>
@@ -290,6 +292,7 @@ h1, h2::before, h3::before, h4::before {
             <div class="note">{{ tables["field"][field]["notes"] | markdown }}</div>
         {%- endif -%}
 
+{#- guidance is now a separate page
         {%- if df["guidance"] -%}
         {% include "partials/dataset-field-guidance.html" %}
         {%- elif tables["field"][field]["guidance"] -%}
@@ -297,6 +300,7 @@ h1, h2::before, h3::before, h4::before {
                 {% include "partials/dataset-field-guidance.html" %}
             {% endwith %}
         {%- endif -%}
+-#}
     {%- endif -%}
     {%- endfor %}
 
@@ -392,12 +396,14 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">A reference SHOULD be short and meaningful to a user.</p> 
 
+{#-
     <p class="guidance">A good reference is short, meaningful and easily read out loud by a user. 
         It should be something you already use, such as the reference number sent in letters, asked for in forms,
         a section reference in documents,
         the significant part of the URL for an entity (its "furl" or "slug"),
         or a fragment identifier (anchor) in your <a href="#source-documentation">source documentation</a> web page.
     </p>
+-#}
 
 
     <h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
