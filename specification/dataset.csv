@@ -242,7 +242,7 @@ crown-copyright,,local-nature-recovery-strategy,local-nature-recovery-strategy,,
 crown-copyright,local-nature-reserve,local-nature-reserves,local-nature-reserve,,,,48,,,45250000,45499999,ogl3,Local nature reserve,,Local nature reserves,beta,,dataset,,,Local nature reserves (LNR) are statutory designations for certain nature reserves in Great Britain.,environment;heritage,geography,1.0,Q3457526,Local_nature_reserve
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-boundary,The boundary covered by a local plan.,,2024-09-14,26,,,4211000,4219999,ogl3,Local plan boundary,,Local plan boundaries,alpha,,dataset,,,,development,geography,2.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-document-type,The types of documents published for a local plan,,2024-10-24,26,,,5280000,5299999,ogl3,Local plan document type,,Local plan document types,alpha,,dataset,,,,development,category,1.0,,
-crown-copyright,local-plan,development-plans-and-timetables,local-plan-document,,,2024-09-14,26,"Provide a list of documents associated with your local plan.
+crown-copyright,local-plan,development-plans-and-timetables,local-plan-document,documents associated with a local plan,,2024-09-14,26,"Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.
 ",,3800000,3899999,ogl3,Local plan document,,Local plan documents,alpha,,dataset,,,,development,document,1.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-event,The different event types in a local plan timetable,,2024-10-22,26,,,2950000,2999999,ogl3,Local plan event,,Local plan events,alpha,,dataset,,,,development,category,1.0,,

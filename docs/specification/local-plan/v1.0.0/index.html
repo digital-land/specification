@@ -740,10 +740,6 @@ h1, h2::before, h3::before, h4::before {
 
     </p>
 
-    
-
-    
-
     <p class="assertion">The Local plan boundary dataset  contain at least one entry for each Local plan boundary for which the data provider is the responsible authority.</p>
     
     
@@ -760,9 +756,7 @@ h1, h2::before, h3::before, h4::before {
     
     Local plan boundary reference.
 
-</p>    <div class="guidance">
-        <p><p>A reference value for the local plan area.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each Local plan boundary entry MAY contain 
     a 
@@ -827,15 +821,6 @@ h1, h2::before, h3::before, h4::before {
     Local plan boundary.
 
 </p>
-                    <div class="guidance">
-        <p><p>The boundary may be a single polygon, or a multipolygon value.
-All points should be in the WGS84 coordinate reference system.
-You may provide data containing points in another coordinate reference system, such as British National Grid,
-but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
-Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
-If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Local plan boundary entry MAY contain 
     a 
@@ -924,14 +909,6 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
     One or more organisations responsible for this local plan area.
 
 </p>
-                    <div class="guidance">
-        <p><p>A list of CURIE references for one or more organisations.
-Where you need to list more than one organisation, separate the values with a semicolon ';' character.
-You can find the CURIE reference for each organisation from our <a href="https://www.planning.data.gov.uk/organisation/">list of organisations</a>.
-The CURIE is made from the prefix value, followed by a colon ':' character, and then the reference value for the organisation being identified. 
-You may leave this value blank when the list of organisations is just the single organisation providing the data.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Local plan boundary entry MAY contain 
     an 
@@ -963,10 +940,6 @@ You may leave this value blank when the list of organisations is just the single
     Entry date of the data.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter the date this data was created or modified.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Local plan boundary entry MAY contain 
     an 
@@ -1060,12 +1033,6 @@ You may leave this value blank when the list of organisations is just the single
 
     </p>
 
-    
-    <div class="guidance"><p>List the local plans you are responsible for with one row for each current, emerging or historical local plan.</p></div>
-    
-
-    
-
     <p class="assertion">The local plan dataset  contain at least one entry for each local plan for which the data provider is the responsible authority.</p>
     
     
@@ -1082,18 +1049,7 @@ You may leave this value blank when the list of organisations is just the single
     
     Local plan reference.
 
-</p>    <div class="guidance">
-        <p><p>Give each local plan a unique reference.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">LP-BRX-2024</code>
-            <li>
-                    <code class="value">34069/County-Durham-Plan</code>
-            <li>
-                    <code class="value">central-lincolnshire</code>
-            <li>
-                    <code class="value">barnet-local-plan-2021-2036</code>
-            </ul>
-         
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     a 
@@ -1125,14 +1081,7 @@ You may leave this value blank when the list of organisations is just the single
     
     Local plan name.
 
-</p>    <div class="guidance">
-        <p><p>Use the title of the adopted local plan document.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">County Durham Plan</code>
-            <li>
-                    <code class="value">South Oxfordshire Joint Local Plan</code>
-            </ul>
-         
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     a 
@@ -1191,9 +1140,7 @@ You may leave this value blank when the list of organisations is just the single
     
     Start date of the period the plan covers.
 
-</p>    <div class="guidance">
-        <p><p>Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     a 
@@ -1225,9 +1172,7 @@ You may leave this value blank when the list of organisations is just the single
     
     End date of the period the plan covers.
 
-</p>    <div class="guidance">
-        <p><p>Enter the end of the plan period. This is may be just the year in <code>YYYY</code> format.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     a 
@@ -1259,9 +1204,7 @@ You may leave this value blank when the list of organisations is just the single
     
     Area covered by the local plan.
 
-</p>    <div class="guidance">
-        <p><p>This area is created by the planning data platform from the local-planning-authorites values.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     a 
@@ -1293,20 +1236,7 @@ You may leave this value blank when the list of organisations is just the single
     
     Local plan documentation page.
 
-</p>    <div class="guidance">
-        <p><p>The URL of the webpage on your website for the local plan</p>
-<p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
-to make the URL for each plan unique.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
-            <li>
-                    <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
-            <li>
-                    <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
-            </ul>
-         
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     a 
@@ -1338,9 +1268,7 @@ to make the URL for each plan unique.</p></p><p>Examples:</p><ul><li>
     The date a plan is officially adopted..
 
 </p>
-            <div class="note"><p>This field has been deprecated. The <code>start-date</code> field records when a plan was adopted.</p></div>    <div class="guidance">
-        <p><p>The <code>start-date</code> field indicates when a plan came into force, that is adopted.</p></p>
-    </div>
+            <div class="note"><p>This field has been deprecated. The <code>start-date</code> field records when a plan was adopted.</p></div>
 
     <p class="assertion">Each local plan entry MAY contain 
     an 
@@ -1372,16 +1300,7 @@ to make the URL for each plan unique.</p></p><p>Examples:</p><ul><li>
     
     Organisations responsible for this local plan.
 
-</p>    <div class="guidance">
-        <p><p>This value is populated by the Planning Data platform.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">local-authority:DUR</code>
-            <li>
-                    <code class="value">national-park-authority:Q72617158</code>
-            <li>
-                    <code class="value">local-authority:LIC;local-authority:NKE;local-authority:WLI</code>
-            </ul>
-         
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     an 
@@ -1413,10 +1332,6 @@ to make the URL for each plan unique.</p></p><p>Examples:</p><ul><li>
     Entry date of the data.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter the date this data was created or modified.</p></p>
-    </div>
-            
 
     <p class="assertion">Each local plan entry MAY contain 
     an 
@@ -1448,11 +1363,7 @@ to make the URL for each plan unique.</p></p><p>Examples:</p><ul><li>
     
     Date when the plan was officially adopted.
 
-</p>    <div class="guidance">
-        <p><p>Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
-Leave this value blank for plans which are being prepared, or haven't yet been adopted.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     a 
@@ -1484,9 +1395,7 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     
     Date a local plan was withdrawn or revoked.
 
-</p>    <div class="guidance">
-        <p><p>Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each local plan entry MAY contain 
     an 
@@ -1514,16 +1423,9 @@ Leave this value blank for plans which are being prepared, or haven't yet been a
     The 
     Local plan document
  dataset contains 
-    .
+    documents associated with a local plan.
 
     </p>
-
-    
-    <div class="guidance"><p>Provide a list of documents associated with your local plan.
-Add a separate row with a link to each document on your website.</p></div>
-    
-
-    
 
     <p class="assertion">The Local plan document dataset  contain at least one entry for each Local plan document for which the data provider is the responsible authority.</p>
     
@@ -1536,9 +1438,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
 
 
-    <!- brute force for now, needs an index -->    <div class="guidance">
-        <p><p>Give each document a unique reference.</p></p>
-    </div>
+    <!- brute force for now, needs an index -->
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
@@ -1565,9 +1465,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
 
 
-    <!- brute force for now, needs an index -->    <div class="guidance">
-        <p><p>Enter the title of the document.</p></p>
-    </div>
+    <!- brute force for now, needs an index -->
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
@@ -1626,14 +1524,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
     Associated local plan.
 
-</p>    <div class="guidance">
-        <p><p>Enter the reference for the local plan which the document is associated with.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">LP-BRX-2024</code>
-            <li>
-                    <code class="value">central-lincolnshire</code>
-            </ul>
-         
-    </div>
+</p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
@@ -1664,33 +1555,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
     One or more document types.
 
-</p>    <div class="guidance">
-        <p><p>Enter at least one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-document-type">local-plan-document-type</a> values:</p>
-<ul>
-<li><code>adoption-statement</code></li>
-<li><code>area-action-plan</code></li>
-<li><code>core-strategy</code></li>
-<li><code>financial-viability-study</code></li>
-<li><code>inspectors-report</code></li>
-<li><code>local-development-scheme</code></li>
-<li><code>local-plan</code></li>
-<li><code>local-plan-review</code></li>
-<li><code>policies-map</code></li>
-<li><code>strategic-flood-risk-assessment</code></li>
-<li><code>strategic-housing-market-assessment</code></li>
-<li><code>supplementary-planning-document</code></li>
-<li><code>sustainability-apprasial</code></li>
-<li><code>site-allocations</code></li>
-<li><code>viability-assessment</code></li>
-<li><code>sustainability-appraisal</code></li>
-</ul>
-<p>You can list more than one category, separated by a semi-colon ';' character.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">local-plan</code>
-            <li>
-                    <code class="value">local-plan;core-strategy;site-allocations</code>
-            </ul>
-         
-    </div>
+</p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
@@ -1722,12 +1587,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
     Local plan document documentation page.
 
-</p>    <div class="guidance">
-        <p><p>Enter the URL of the webpage on your website which documents and links to this document.</p></p><p>Example:
-                    <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
-            </p>
-         
-    </div>
+</p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
@@ -1758,9 +1618,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
     A url to a document.
 
-</p>    <div class="guidance">
-        <p><p>Enter the URL for the document. This is often a PDF file.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
@@ -1819,10 +1677,6 @@ Add a separate row with a link to each document on your website.</p></div>
     Entry date of the data.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter the date this data was created or modified.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Local plan document entry MAY contain 
     an 
@@ -1853,9 +1707,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
     Date the entity became active or in force.
 
-</p>    <div class="guidance">
-        <p><p>Enter the date the document was published.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     a 
@@ -1886,9 +1738,7 @@ Add a separate row with a link to each document on your website.</p></div>
     
     Date from which the entity is not longer active or in force.
 
-</p>    <div class="guidance">
-        <p><p>Enter date when the document was archived. Otherwise leave this field blank.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each Local plan document entry MAY contain 
     an 
@@ -1990,17 +1840,7 @@ Add a separate row with a link to each document on your website.</p></div>
 
     <p class="note">Where a reference has been used to refer to two different entities, add a year or other text to disambiguate the references, for example use '<code class="value">CA01</code>' and '<code class="value">CA01/2022</code>' rather than just '<code class="value">CA01</code>' for two different conservation areas.</p>
 
-    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p> 
-
-    <p class="guidance">A good reference is short, meaningful and easily read out loud by a user. 
-        It should be something you already use, such as the reference number sent in letters, asked for in forms,
-        a section reference in documents,
-        the significant part of the URL for an entity (its "furl" or "slug"),
-        or a fragment identifier (anchor) in your <a href="#source-documentation">source documentation</a> web page.
-    </p>
-
-
-    <h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
+    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p><h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>

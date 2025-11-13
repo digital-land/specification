@@ -426,14 +426,6 @@ h1, h2::before, h3::before, h4::before {
 
     </p>
 
-    
-    <div class="guidance"><p>The local plan timetable is a record of the key dates when producing a local plan.
-Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">local plan event</a> dataset with the date when the event happened.
-Provide your predicted range of dates for events which are in the future.</p></div>
-    
-
-    
-
     <p class="assertion">The Local plan timetable dataset SHOULD contain at least one entry for each Local plan timetable for which the data provider is the responsible authority.</p>
     
     
@@ -445,16 +437,7 @@ Provide your predicted range of dates for events which are in the future.</p></d
     
 
 
-    <!- brute force for now, needs an index -->    <div class="guidance">
-        <p><p>Give each event a reference which is unique for the event within the dataset.
-Where the timetable contains events for different local plans you can distinguish the events by adding the <code>local-plan</code> reference.
-Where a timetable has more than one event of the same kind, you can add a date to make them unique.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">LP1-public-consultation</code>
-            <li>
-                    <code class="value">LP1-public-consultation-2025</code>
-            </ul>
-         
-    </div>
+    <!- brute force for now, needs an index -->
 
     <p class="assertion">Each Local plan timetable entry MUST contain 
     a 
@@ -482,14 +465,7 @@ Where a timetable has more than one event of the same kind, you can add a date t
     
     Associated local plan.
 
-</p>    <div class="guidance">
-        <p><p>Enter the reference of the local plan which this event forms part of its timetable.</p></p><p>Examples:</p><ul><li>
-                    <code class="value">LP-BRX-2024</code>
-            <li>
-                    <code class="value">central-lincolnshire</code>
-            </ul>
-         
-    </div>
+</p>
 
     <p class="assertion">Each Local plan timetable entry MUST contain 
     a 
@@ -516,26 +492,7 @@ Where a timetable has more than one event of the same kind, you can add a date t
     
     An event that occurs during the local plan making process.
 
-</p>    <div class="guidance">
-        <p><p>Enter one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> values:</p>
-<ul>
-<li><code>plan-adopted</code></li>
-<li><code>inspector-report-published</code></li>
-<li><code>submit-plan-for-examination</code></li>
-<li><code>planning-inspectorate-examination-start</code></li>
-<li><code>planning-inspectorate-examination-end</code></li>
-<li><code>planning-inspectorate-found-sound</code></li>
-<li><code>timetable-published</code></li>
-<li><code>reg-18-draft-local-plan-published</code></li>
-<li><code>reg-18-public-consultation-start</code></li>
-<li><code>reg-18-public-consultation-end</code></li>
-<li><code>reg-19-publication-local-plan-published</code></li>
-<li><code>reg-19-public-consultation-start</code></li>
-<li><code>reg-19-public-consultation-end</code></li>
-<li><code>plan-withdrawn</code></li>
-<li><code>plan-revoked</code></li>
-</ul></p>
-    </div>
+</p>
 
     <p class="assertion">Each Local plan timetable entry MUST contain 
     a 
@@ -567,12 +524,7 @@ Where a timetable has more than one event of the same kind, you can add a date t
 
 </p>
             <div class="note"><p>Older published schemes often use vaugue descriptions such as <code>Spring 2020</code> or <code>Q2 2018</code>.
-Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.</p></div>    <div class="guidance">
-        <p><p>Enter the earliest date when this event is expected to happen.</p></p><p>Example:
-                    <code class="value">2027-01-01</code>
-            </p>
-         
-    </div>
+Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.</p></div>
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     a 
@@ -600,12 +552,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     Latest predicted date for the event.
 
-</p>    <div class="guidance">
-        <p><p>Enter the latest date when this event is expected to happen.</p></p><p>Example:
-                    <code class="value">2027-03-31</code>
-            </p>
-         
-    </div>
+</p>
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     a 
@@ -633,10 +580,6 @@ Using a range of full dates helps producing timetables and other charts and usin
     Entry date of the data.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter the date this data was created or modified.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     an 
@@ -664,10 +607,7 @@ Using a range of full dates helps producing timetables and other charts and usin
     
     Date of the timetable event.
 
-</p>    <div class="guidance">
-        <p><p>Enter the date when the timetable event occured. Leave blank when predicting future events,
-such as when you expect a draft local plan to be adopted.</p></p>
-    </div>
+</p>
 
     <p class="assertion">Each Local plan timetable entry SHOULD contain 
     a 
@@ -695,10 +635,6 @@ such as when you expect a draft local plan to be adopted.</p></p>
     Notes and commentary about how this data was made or may be interpreted.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Local plan timetable entry MAY contain 
     a 
@@ -784,17 +720,7 @@ such as when you expect a draft local plan to be adopted.</p></p>
 
     <p class="note">Where a reference has been used to refer to two different entities, add a year or other text to disambiguate the references, for example use '<code class="value">CA01</code>' and '<code class="value">CA01/2022</code>' rather than just '<code class="value">CA01</code>' for two different conservation areas.</p>
 
-    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p> 
-
-    <p class="guidance">A good reference is short, meaningful and easily read out loud by a user. 
-        It should be something you already use, such as the reference number sent in letters, asked for in forms,
-        a section reference in documents,
-        the significant part of the URL for an entity (its "furl" or "slug"),
-        or a fragment identifier (anchor) in your <a href="#source-documentation">source documentation</a> web page.
-    </p>
-
-
-    <h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
+    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p><h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>

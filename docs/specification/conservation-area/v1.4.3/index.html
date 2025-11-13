@@ -618,10 +618,6 @@ h1, h2::before, h3::before, h4::before {
 
     </p>
 
-    
-
-    
-
     <p class="assertion">The Conservation area dataset  contain at least one entry for each Conservation area for which the data provider is the responsible authority.</p>
     
     
@@ -634,18 +630,6 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
-                    <div class="guidance">
-        <p><p>Enter reference to help people find and link to the data.
-If you don’t have a reference for this item, you will need to create one that is:</p>
-<ul>
-<li>unique within your data</li>
-<li>persistent — it doesn’t change when the data is updated</li>
-</ul>
-<p>A good reference is something you already use.
-Where these aren't unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
@@ -789,15 +773,6 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     A polygon or multipolygon boundary.
 
 </p>
-                    <div class="guidance">
-        <p><p>The boundary may be a single polygon, or a multipolygon value.
-All points should be in the WGS84 coordinate reference system.
-You may provide data containing points in another coordinate reference system, such as British National Grid,
-but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
-Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
-If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
@@ -856,10 +831,6 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
     Notes and commentary about how this data was made or may be interpreted.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     a 
@@ -891,10 +862,6 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
     Department, agency, body, company, group, or association of people.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     an 
@@ -926,10 +893,6 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
     Entry date of the data.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter the date this data was created or modified.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area entry MAY contain 
     an 
@@ -1023,10 +986,6 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
 
     </p>
 
-    
-
-    
-
     <p class="assertion">The Conservation area document dataset  contain at least one entry for each Conservation area document for which the data provider is the responsible authority.</p>
     
     
@@ -1039,18 +998,6 @@ If you're providing geometry in a GeoJSON, GML, Geopackage or KML, use the appro
 
 
     <!- brute force for now, needs an index -->
-                    <div class="guidance">
-        <p><p>Enter reference to help people find and link to the data.
-If you don’t have a reference for this item, you will need to create one that is:</p>
-<ul>
-<li>unique within your data</li>
-<li>persistent — it doesn’t change when the data is updated</li>
-</ul>
-<p>A good reference is something you already use.
-Where these aren't unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
@@ -1223,10 +1170,6 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     Notes and commentary about how this data was made or may be interpreted.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     a 
@@ -1258,10 +1201,6 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     Department, agency, body, company, group, or association of people.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     an 
@@ -1293,10 +1232,6 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
     Entry date of the data.
 
 </p>
-                    <div class="guidance">
-        <p><p>Enter the date this data was created or modified.</p></p>
-    </div>
-            
 
     <p class="assertion">Each Conservation area document entry MAY contain 
     an 
@@ -1454,17 +1389,7 @@ Great references are short, easy to read, to pronounce and remember.</p></p>
 
     <p class="note">Where a reference has been used to refer to two different entities, add a year or other text to disambiguate the references, for example use '<code class="value">CA01</code>' and '<code class="value">CA01/2022</code>' rather than just '<code class="value">CA01</code>' for two different conservation areas.</p>
 
-    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p> 
-
-    <p class="guidance">A good reference is short, meaningful and easily read out loud by a user. 
-        It should be something you already use, such as the reference number sent in letters, asked for in forms,
-        a section reference in documents,
-        the significant part of the URL for an entity (its "furl" or "slug"),
-        or a fragment identifier (anchor) in your <a href="#source-documentation">source documentation</a> web page.
-    </p>
-
-
-    <h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
+    <p class="assertion">A reference SHOULD be short and meaningful to a user.</p><h3 id="datatype-datetime" class="govuk-heading-s">Datetime</h3>
     <p class="assertion">
     Dates MUST conform to [<a href="#ISO8601">ISO8601</a>] following the [<a href="#open-standards-for-government"]>Open Standards for government</a> guidance [<a href="#formatting-dates-and-times-in-data">formatting-dates-and-times-in-data</a>].
     </p>
