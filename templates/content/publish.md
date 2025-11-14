@@ -1,7 +1,7 @@
 Publishing your data consists of two parts:
 
-* An [endpoint](#endpoint) where the data can be downloaded from
-* A [source webpage](#source-webpage) where the information contained in the data is presented on your website
+* An **endpoint** where the data can be downloaded from
+* A **source webpage** where the information contained in the data is presented on your website
 
 ### Endpoint
 
@@ -9,7 +9,7 @@ Publish your data at a public endpoint, in a way in which anyone can download an
 
 The endpoint is a URL from which the data can be downloaded.
 This can be a single file hosted on your website.
-Alternatively, you can serve your data using an OGC WFS or other API
+Or, you can serve your data using an OGC WFS or other API
 using a third-party service such as GitHub or ArcGIS.
 
 Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.

@@ -4,12 +4,12 @@ using the [check and provide service](https://provide.planning.data.gov.uk).
 This may include any data you have provided in the past, along with
 information found on your website, or in other open data.
 
-The most recent data you provide will be treated as being more authoritative
+We will take the most recent data you provide as being more authoritative
 than any data we have collected from you previously, or found in other sources.
 
 You can download tabular data we have for your organisation as a CSV file
 from the [check and provide service](https://provide.planning.data.gov.uk)
-and modify it using a spreadsheet or other CSV editor.
+and edit it using a spreadsheet or other CSV editors.
 
 Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
