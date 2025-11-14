@@ -1,11 +1,11 @@
 ---
 cardinality: '1'
 datatype: integer
-description: ''
+description: 'order of rows in a dataset'
 end-date: ''
 entry-date: ''
 field: priority
-guidance: ''
+guidance: 'Do not depend on the absolute value as these values maybe renumbered.'
 hint: ''
 name: Priority
 parent-field: value
