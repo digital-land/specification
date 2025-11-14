@@ -1,14 +1,14 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Local Planning Authority boundary'
+description: 'Mineral Planning Authority boundary'
 end-date: ''
 entry-date: ''
-field: local-planning-authority
+field: mineral-planning-authority
 guidance: ''
 hint: ''
-name: Local Planning Authority
-parent-field: statistical-geography
+name: Mineral Planning Authority
+parent-field: geography
 replacement-field: ''
 start-date: ''
 typology: geography

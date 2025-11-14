@@ -14,6 +14,14 @@ fields:
   end-date: 2025-11-01
   guidance: |
       The `start-date` field indicates when a plan came into force, that is adopted.
+- field: dataset
+  guidance: |
+    Enter one of the following values to indicate the type of local plan:
+
+    * `local-plan`
+    * `suplementary-plan`
+    * `minerals-plan`
+    * `waste-plan`
 - field: documentation-url
   description: local plan documentation page
   definition: URL of the [Source documentation](#source-documentation) page
@@ -72,6 +80,7 @@ fields:
   guidance: 'You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.'
   examples:
     - value: "Barnsley's Local Plan as adopted by Full Council on 3 January 2019"
+- field: organisation
 - field: organisations
   description: organisations responsible for this local plan
   guidance: This value is populated by the Planning Data platform.

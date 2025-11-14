@@ -1,13 +1,13 @@
 ---
 attribution: crown-copyright
-collection: 'local-plan'
-consideration: local-plans
-dataset: local-plan-boundary
-description: The boundary covered by a local plan.
+collection: 
+consideration: minerals-and-waste-plan
+dataset: minerals-plan-boundary
+description: The boundary covered by a minerals plan.
 end-date: ''
-entity-maximum: '4219999'
-entity-minimum: '4211000'
-entry-date: '2024-09-14'
+entity-maximum: '579999'
+entity-minimum: '570000'
+entry-date: '2025-11-14'
 fields:
 - field: end-date
 - field: entity
@@ -21,13 +21,13 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
-github-discussion: 97
+github-discussion: 350
 key-field: ''
 licence: ogl3
-name: Local plan boundary
+name: Minerals plan boundary
 paint-options: ''
 phase: alpha
-plural: Local plan boundaries
+plural: Minerals plan boundaries
 prefix: ''
 realm: dataset
 replacement-dataset: ''
