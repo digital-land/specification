@@ -20,6 +20,7 @@ fields:
 - field: point-geom
 - field: point
 - field: prefix
+- field: quality
 - field: reference
 - field: start-date
 - field: typology
