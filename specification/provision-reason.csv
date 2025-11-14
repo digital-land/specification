@@ -1,7 +1,8 @@
-provision-reason,name,description
-prospective,Prospective data,The organisation is responsible for data covered by this prospective specification
-expected,Expected data,The organisation should provide data as a member of the project developing the specification
-encouraged,Encouraged data,The organisation is encouraged to provide data to this standard
-statutory,Statutory data,The organisation has a statutory duty to provide data to this standard
-authoritative,Authoritative source,The organisation is the authoritative source of this data
-alternative,Alternative source,The organisation provides this data
+reference,provision-reason,priority,name,description,notes
+experimental,experimental,1,Experimental,The dataset is experimental,Very likely to change or be removed
+alternative,alternative,2,Alternative source,The organisation provides this data,Secondary source of the data
+authoritative,authoritative,3,Authoritative source,The organisation is the authoritative source of this data,Authoratitive source for data not bound by planning data specifications
+prospective,prospective,4,Prospective data,The organisation is responsible for data covered by this prospective specification,"We are piloting this specification for provison by this type of organisation."
+expected,expected,5,Expected data,The organisation should provide data as a member of the project developing the specification,"We have funded or otherwise have an agreement for the organisation to provide this data"
+encouraged,encouraged,6,Encouraged data,"The organisation is encouraged to provide data to this standard","There is a data standard but it is not a requirement to provide data"
+statutory,statutory,7,Statutory data,"The organisation has a statutory duty to provide data to this standard",

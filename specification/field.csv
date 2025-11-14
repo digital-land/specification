@@ -389,7 +389,7 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,string,,,,prefix,,,CURIE prefix,identifier,,,,value,,
 1,,string,,,,prepend,,,Prepend,string,,,,value,,
 1,,string,,,,principal-local-authority,,,Principal local authority (Wales),organisation,,,,organisation,,
-1,,integer,,,,priority,,,Priority,value,,,,value,,
+1,,integer,order of rows in a dataset,,,priority,Do not depend on the absolute value as these values maybe renumbered.,,Priority,value,,,,value,,
 1,,string,,,,prison-estate,,,Prison estate,geography,,,,geography,,
 1,,string,,,,project-status,,,Project status,specification,,,,specification,,
 1,,string,,,,project,,,Project,specification,,,,specification,,
