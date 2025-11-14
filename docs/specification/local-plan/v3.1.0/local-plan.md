@@ -25,6 +25,8 @@ datasets:
                 - reference: local-plan-A001
                   requirement-level: SHOULD
                   text: 'match the title of the document at `document-url`.'  
+          - field: dataset
+            requirement-level: SHOULD
           - field: period-start-date
             requirement-level: SHOULD
           - field: period-end-date

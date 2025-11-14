@@ -6,6 +6,7 @@ erDiagram
     local-plan {
         string reference
         string name
+        string dataset
         date period-start-date
         date period-end-date
         string local-planning-authorities

@@ -240,7 +240,7 @@ crown-copyright,,,local-enterprise-partnership,,,,,,,4000,4999,ogl3,Local Enterp
 crown-copyright,,local-green-space,local-green-space,,,,,,,8900000,8999999,ogl3,Local green space,,Local green spaces,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,local-nature-recovery-strategy,local-nature-recovery-strategy,,,,,,,9000000,9099999,ogl3,Local nature recovery strategy,,Local nature recovery strategies,alpha,,dataset,,,,environment,geography,1.0,,
 crown-copyright,local-nature-reserve,local-nature-reserves,local-nature-reserve,,,,48,,,45250000,45499999,ogl3,Local nature reserve,,Local nature reserves,beta,,dataset,,,Local nature reserves (LNR) are statutory designations for certain nature reserves in Great Britain.,environment;heritage,geography,1.0,Q3457526,Local_nature_reserve
-crown-copyright,local-plan,development-plans-and-timetables,local-plan-boundary,The boundary covered by a local plan.,,2024-09-14,26,,,4211000,4219999,ogl3,Local plan boundary,,Local plan boundaries,alpha,,dataset,,,,development,geography,2.0,,
+crown-copyright,local-plan,local-plans,local-plan-boundary,The boundary covered by a local plan.,,2024-09-14,97,,,4211000,4219999,ogl3,Local plan boundary,,Local plan boundaries,alpha,,dataset,,,,development,geography,2.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-document-type,The types of documents published for a local plan,,2024-10-24,26,,,5280000,5299999,ogl3,Local plan document type,,Local plan document types,alpha,,dataset,,,,development,category,1.0,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-document,documents associated with a local plan,,2024-09-14,26,"Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.
@@ -280,6 +280,9 @@ crown-copyright,,,lookup,Lookup entities,,,,,,,,ogl3,Pipeline lookup,,Pipeline l
 crown-copyright,,main-rivers,main-river,,,,,,,9600000,9699999,ogl3,Main river,,Main rivers,alpha,,dataset,,,,environment,geography,1.0,Q6736223,Main_river
 crown-copyright,,metropolitan-open-land,metropolitan-open-land,,,,,,,9700000,9799999,ogl3,Metropolitan open land,,Metropolitan open land,prioritised,,dataset,,,,environment,geography,1.0,Q16997686,Metropolitan_Open_Land
 crown-copyright,,mineral-safeguarding-areas,mineral-safeguarding-area,,,,,,,9800000,9899999,ogl3,Mineral safeguarding area,,Mineral safeguarding areas,prioritised,,dataset,,,,environment,geography,1.0,,
+crown-copyright,,minerals-and-waste-plan,minerals-plan-boundary,The boundary covered by a minerals plan.,,2025-11-14,350,,,570000,579999,ogl3,Minerals plan boundary,,Minerals plan boundaries,alpha,,dataset,,,,development,geography,2.0,,
+crown-copyright,,minerals-and-waste-plan,minerals-plan,minerals plans prepared by a Mineral Planning Authority,,2025-11-14,,"List the minerals plans you are responsible for with one row for each current, emerging or historical minerals plan.
+",,530000,539999,ogl3,minerals plan,,minerals plans,alpha,,dataset,,,,development,legal-instrument,1.0,Q6664491,Local_plan
 crown-copyright,national-nature-reserve,national-nature-reserves,national-nature-reserve,,,,48,,,45000000,45249999,ogl3,National nature reserve,,National nature reserves,beta,,dataset,,,Areas designated by Natural England as key places for wildlife and natural features in England,environment;heritage,geography,1.0,Q6974552,National_nature_reserves_in_England
 crown-copyright,organisation,,national-park-authority,,,,,,,9900000,9999999,ogl3,National park authority,,"National park authorities, including the Broads",beta,wikidata,dataset,,,"A [national park authority](https://www.nationalparks.uk/parks/) may have powers to create development policies,
 and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
@@ -406,6 +409,8 @@ crown-copyright,,,specification-status,status of a specification,,,,,specificati
 crown-copyright,,,specification,,,,,,specification,10000000,10099999,ogl3,Specification,,Specifications,alpha,,specification,,,,specification,specification,2.0,,
 crown-copyright,,,street,,,,,,,20000000000000,29999999999999,ogl3,Street,,Streets,prioritised,,dataset,,,,administrative,geography,1.0,,
 crown-copyright,,suitable-alternative-natural-greenspace,suitable-alternative-green-space,,,,,,,15000000,15099999,ogl3,Suitable alternative green space,,Suitable alternative green spaces,prioritised,,dataset,,,,environment,geography,1.0,,
+crown-copyright,,suplementary-plan,suplementary-plan,suplementary local plans prepared by a Local Planning Authority,,2025-11-14,26,"List the suplimentary local plans you are responsible for with one row for each current, emerging or historical suplimentary local plan.
+",,550000,559999,ogl3,local plan,,local plans,alpha,,dataset,,,,development,legal-instrument,1.0,Q6664491,Local_plan
 crown-copyright,,,template,,,,,,,9000,9999,ogl3,Template,,Templates,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,theme,,,,,,theme,15100000,15199999,ogl3,Theme,,Themes,alpha,,specification,,,,specification,specification,1.0,,
 inspire-index-polygon,title-boundary,,title-boundary,,,,49,,,12000000000,12999999999,ogl3,Title boundary,,Title boundaries,beta,,dataset,,,"Otherwise known as Land Registry Index polygons, these polygons are shapes that show the position and indicative extent of a registered property.",administrative;housing,geography,1.0,,
@@ -437,6 +442,9 @@ ogl3,,uprn,uprn,Unique property reference numbers,,2024-11-05,,,,,,ogl3,UPRN,,UP
 ons-boundary,ward,council-wards,ward,Local areas that have been divided for voting purposes,,2024-07-02,,,,800000,899999,ogl3,Ward,"{ ""colour"": ""#3DA52C"" }",Wards,beta,statistical-geography,dataset,,,"Boundaries for Wards, in the United Kingdom",administrative,geography,1.0,,
 crown-copyright,organisation,,waste-authority,,,,,,,15800000,15899999,ogl3,Waste disposal authority,,Waste authorities,beta,wikidata,dataset,,,"An organisation responsible for municipal waste collection and disposal.
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,1.0,Q7972817,Waste_disposal_authority
+crown-copyright,,waste-local-plan,waste-plan-boundary,The boundary covered by a waste plan.,,2025-11-14,350,,,580000,589999,ogl3,Waste plan boundary,,Waste plan boundaries,alpha,,dataset,,,,development,geography,2.0,,
+crown-copyright,,waste-plans,waste-plan,waste plans prepared by a Mineral Planning Authority,,2025-11-14,,"List the waste plans you are responsible for with one row for each current, emerging or historical waste plan.
+",,540000,549999,ogl3,waste plan,,waste plans,alpha,,dataset,,,,development,legal-instrument,1.0,Q6664491,Local_plan
 crown-copyright,,wildbelt-designations,wildbelt,,,,,,,15900000,15999999,ogl3,Wildbelt,,Wildbelts,prioritised,,dataset,,,,environment,geography,1.0,,
 crown-copyright,,,wildlife,,,,,,,16000000,16099999,ogl3,Wildlife,,Wildlife,prioritised,,dataset,,,,environment,geography,1.0,,
 historic-england,historic-england,world-heritage-sites,world-heritage-site-buffer-zone,,,,,,,16110000,16129999,ogl3,World heritage site buffer zone,"{ ""colour"": ""#EB1EE5"", ""opacity"": 0.2 }",World heritage site buffer zones,beta,,dataset,,,A [World Heritage Site](/dataset/world-heritage-site) may have a [buffer zone](https://whc.unesco.org/en/series/25/) with implications for planning.,heritage,geography,1.0,Q9259,World_Heritage_Site

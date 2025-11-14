@@ -166,6 +166,16 @@ Use the title of the adopted local plan document. For example:
 * <code class="value">South Oxfordshire Joint Local Plan</code>
 
 
+#### dataset
+
+Enter one of the following values to indicate the type of local plan:
+
+* `local-plan`
+* `suplementary-plan`
+* `minerals-plan`
+* `waste-plan`
+
+
 #### period-start-date
 
 Enter the start of the plan period. This is usually just a year in `YYYY` format.
