@@ -47,12 +47,12 @@ using the [check and provide service](https://provide.planning.data.gov.uk).
 This may include any data you have provided in the past, along with
 information found on your website, or in other open data.
 
-The most recent data you provide will be treated as being more authoritative
+We will take the most recent data you provide as being more authoritative
 than any data we have collected from you previously, or found in other sources.
 
 You can download tabular data we have for your organisation as a CSV file
 from the [check and provide service](https://provide.planning.data.gov.uk)
-and modify it using a spreadsheet or other CSV editor.
+and edit it using a spreadsheet or other CSV editors.
 
 Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
@@ -436,8 +436,8 @@ along with feedback on how you might improve your data.
 ## Publish your data
 Publishing your data consists of two parts:
 
-* An [endpoint](#endpoint) where the data can be downloaded from
-* A [source webpage](#source-webpage) where the information contained in the data is presented on your website
+* An **endpoint** where the data can be downloaded from
+* A **source webpage** where the information contained in the data is presented on your website
 
 ### Endpoint
 
@@ -445,7 +445,7 @@ Publish your data at a public endpoint, in a way in which anyone can download an
 
 The endpoint is a URL from which the data can be downloaded.
 This can be a single file hosted on your website.
-Alternatively, you can serve your data using an OGC WFS or other API
+Or, you can serve your data using an OGC WFS or other API
 using a third-party service such as GitHub or ArcGIS.
 
 Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
@@ -469,22 +469,22 @@ Use the [check and provide service](https://provide.planning.data.gov.uk/) to te
 
 You will need to provide for each dataset:
 
-* the [source webpage](#source-webpage) URL where the information in the data is presented on your website
-* the [endpoint](#endpoint) URL from which the data can be collected
+* the **source webpage** URL where the information in the data is presented on your website
+* the **endpoint** URL from which the data can be collected
 
-The provide service also asks for your name and email address as a point of contact in case of any issues.
+The service also asks for your name and email address as a point of contact in case of any issues.
 
 ## Keep your data up-to-date
-You should continue to improve your data, and act on the feedback from the [check and provide service](https://provide.planning.data.gov.uk) 
+Continue to improve your data, and act on the feedback from the [the service](https://provide.planning.data.gov.uk) 
 to ensure your data meets the specification.
 
-You will also need to update and republish your data whenever there's a change to your local plans information.
+You also need to update and republish your data whenever there's a change to your local plans information.
 
 We look for changes to the data at all of the endpoint URLs we know about every night,
 so we can quickly update [planning.data.gov.uk](https://planning.data.gov.uk).
 
 It is simpler if you publish your changes to the same endpoint URL.
-If you create a new endpoint you will need to [tell us about your data](#tell-us-about-your-data) again.
+If you create a new endpoint you need to [tell us about your data](#tell-us-about-your-data) again.
 
 ## Contact us
 
