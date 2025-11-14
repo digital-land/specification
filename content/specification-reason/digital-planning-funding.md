@@ -12,7 +12,7 @@ guidance: |
 
     Otherwise there is no obligation on any party to provide data to this specification.
 
-    A future version of this specification may be formally published on GOV.UK,
+    A future version of this specification may be published on GOV.UK,
     and cited as one of a number of official data standards for the provision of planning data 
     by planning authorities under the 
     [Levelling-up and Regeneration Act 2023](https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted).
