@@ -25,7 +25,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 
 <p>There are currently no obligations on any party to provide data in conformance to this specification. 
-A future version of this specification may be formally published on GOV.UK,
+A future version of this specification may be published on GOV.UK,
 and cited as one of a number of official data standards for the provision of planning data under the 
 <a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>,
 other regulations, contracts, and agreements.</p>
