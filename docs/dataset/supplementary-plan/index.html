@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Requirement level | Planning Data</title>
+    <title>local plan | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -106,7 +106,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Requirement level</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">local plan</li>
     
   
   </ol>
@@ -119,7 +119,7 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Requirement level</h1>
+  <h1 class="govuk-heading-xl">local plan</h1>
   </div>
 </div>
 
@@ -129,7 +129,7 @@
     
     <h2 class="govuk-heading-s" id="description">Description</h2>
     <p>
-    A Key word used in specifications to indicate the level of a requirement.
+    A supplementary local plans prepared by a Local Planning Authority.
     </p>
     
 
@@ -149,11 +149,65 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_description"><a href="../../field/description">description</a>
+          <td class="govuk-table__cell" id="field_dataset"><a href="../../field/dataset">dataset</a>
           </td>
-          <td class="govuk-table__cell">Description</td>
+          <td class="govuk-table__cell">Dataset</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_document-url"><a href="../../field/document-url">document-url</a>
+          </td>
+          <td class="govuk-table__cell">Document URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
+          </td>
+          <td class="govuk-table__cell">Documentation URL</td>
+          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
+          </td>
+          <td class="govuk-table__cell">Entity</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-plan-boundary"><a href="../../field/local-plan-boundary">local-plan-boundary</a>
+          </td>
+          <td class="govuk-table__cell">Local plan boundary</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-plan-process"><a href="../../field/local-plan-process">local-plan-process</a>
+          </td>
+          <td class="govuk-table__cell">Local plan process</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-planning-authorities"><a href="../../field/local-planning-authorities">local-planning-authorities</a>
+          </td>
+          <td class="govuk-table__cell">Local Planning Authorities</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
         </tr>
     
         
@@ -161,6 +215,51 @@
           <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
           </td>
           <td class="govuk-table__cell">Name</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
+          </td>
+          <td class="govuk-table__cell">Notes</td>
+          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_period-end-date"><a href="../../field/period-end-date">period-end-date</a>
+          </td>
+          <td class="govuk-table__cell">Period end date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_period-start-date"><a href="../../field/period-start-date">period-start-date</a>
+          </td>
+          <td class="govuk-table__cell">Period start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
+          </td>
+          <td class="govuk-table__cell">CURIE prefix</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
@@ -206,27 +305,39 @@
 
 
     
+    <h2 class="govuk-heading-s" id="guidance">Guidance</h2>
+    <p>List the suplimentary local plans you are responsible for with one row for each current, emerging or historical suplimentary local plan.</p>
+    
 
     
 
 
-    
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/category">category</a> typology.</p>
     
 
     
     <h2 class="govuk-heading-s" id="">Datasets</h2>
 
     
-
-    
-    <p class="govuk-body">This dataset is referenced by the following other datasets:</p>
+    <p class="govuk-body">This dataset references the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../specification-field">Specification field</a></li>
+      <li><a href="../dataset">Dataset</a></li>
+    
+      <li><a href="../entity">Entity</a></li>
+    
+      <li><a href="../local-plan-boundary">Local plan boundary</a></li>
+    
+      <li><a href="../local-plan-process">Local plan process</a></li>
+    
+      <li><a href="../local-planning-authority">Local Planning Authority</a></li>
+    
+      <li><a href="../organisation">Organisation</a></li>
+    
+      <li><a href="../prefix">Prefix</a></li>
     
     </ul>
+    
+
     
 
     

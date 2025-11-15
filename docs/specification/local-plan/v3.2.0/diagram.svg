@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="838" height="640">
+<svg xmlns="http://www.w3.org/2000/svg" width="838" height="720">
 <defs>
     <style>
     text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
@@ -45,32 +45,40 @@
 <text x="167" y="130" class="datatype">reference*</text>
 <rect x="0" y="140" width="162" height="20" class="field"/>
 <rect x="162" y="140" width="64" height="20" class="datatype"/>
-<text x="5" y="150" class="field">local-plan-process</text>
-<text x="167" y="150" class="datatype">reference</text>
+<text x="5" y="150" class="field">mineral-planning-authorities</text>
+<text x="167" y="150" class="datatype">string*</text>
 <rect x="0" y="160" width="162" height="20" class="field"/>
 <rect x="162" y="160" width="64" height="20" class="datatype"/>
-<text x="5" y="170" class="field">documentation-url</text>
-<text x="167" y="170" class="datatype">url</text>
+<text x="5" y="170" class="field">waste-planning-authorities</text>
+<text x="167" y="170" class="datatype">string*</text>
 <rect x="0" y="180" width="162" height="20" class="field"/>
 <rect x="162" y="180" width="64" height="20" class="datatype"/>
-<text x="5" y="190" class="field">document-url</text>
-<text x="167" y="190" class="datatype">url</text>
+<text x="5" y="190" class="field">local-plan-process</text>
+<text x="167" y="190" class="datatype">reference</text>
 <rect x="0" y="200" width="162" height="20" class="field"/>
 <rect x="162" y="200" width="64" height="20" class="datatype"/>
-<text x="5" y="210" class="field">entry-date</text>
-<text x="167" y="210" class="datatype">datetime</text>
+<text x="5" y="210" class="field">documentation-url</text>
+<text x="167" y="210" class="datatype">url</text>
 <rect x="0" y="220" width="162" height="20" class="field"/>
 <rect x="162" y="220" width="64" height="20" class="datatype"/>
-<text x="5" y="230" class="field">start-date</text>
-<text x="167" y="230" class="datatype">datetime</text>
+<text x="5" y="230" class="field">document-url</text>
+<text x="167" y="230" class="datatype">url</text>
 <rect x="0" y="240" width="162" height="20" class="field"/>
 <rect x="162" y="240" width="64" height="20" class="datatype"/>
-<text x="5" y="250" class="field">end-date</text>
+<text x="5" y="250" class="field">entry-date</text>
 <text x="167" y="250" class="datatype">datetime</text>
 <rect x="0" y="260" width="162" height="20" class="field"/>
 <rect x="162" y="260" width="64" height="20" class="datatype"/>
-<text x="5" y="270" class="field">notes</text>
-<text x="167" y="270" class="datatype">text</text>
+<text x="5" y="270" class="field">start-date</text>
+<text x="167" y="270" class="datatype">datetime</text>
+<rect x="0" y="280" width="162" height="20" class="field"/>
+<rect x="162" y="280" width="64" height="20" class="datatype"/>
+<text x="5" y="290" class="field">end-date</text>
+<text x="167" y="290" class="datatype">datetime</text>
+<rect x="0" y="300" width="162" height="20" class="field"/>
+<rect x="162" y="300" width="64" height="20" class="datatype"/>
+<text x="5" y="310" class="field">notes</text>
+<text x="167" y="310" class="datatype">text</text>
 </g>
 <g>
 <rect x="306" y="0" width="226" height="20" class="name"/>

@@ -11,7 +11,7 @@ start-date: ''
 end-date: ''
 entry-date: '2025-11-08'
 github-discussion: 97
-version: 3.1.0
+version: 3.2.0
 datasets:
     - dataset: local-plan
       priority: 1
@@ -33,6 +33,17 @@ datasets:
             requirement-level: SHOULD
           - field: local-planning-authorities
             requirement-level: SHOULD
+            datasets:
+                - local-plan
+                - supplementary-plan
+          - field: mineral-planning-authorities
+            requirement-level: SHOULD
+            datasets:
+                - minerals-plan
+          - field: waste-planning-authorities
+            requirement-level: SHOULD
+            datasets:
+                - waste-plan
           - field: local-plan-process
             requirement-level: SHOULD
           - field: documentation-url

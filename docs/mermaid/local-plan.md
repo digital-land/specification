@@ -10,6 +10,8 @@ erDiagram
         date period-start-date
         date period-end-date
         string local-planning-authorities
+        string mineral-planning-authorities
+        string waste-planning-authorities
         string local-plan-process
         url documentation-url
         url document-url

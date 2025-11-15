@@ -188,7 +188,7 @@ Enter the end of the plan period. This is may be just the year in `YYYY` format.
 
 Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-area covered by the plan.
+area covered by the local plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:
 

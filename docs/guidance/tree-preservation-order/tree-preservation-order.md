@@ -297,6 +297,10 @@ Great references are short, easy to read, to pronounce and remember.
 
 
 
+#### uprn
+
+Although this field doesn&#39;t appear in the technical spec or guidance if an LPA provides a species column we can map it to this
+
 #### address-text
 
 

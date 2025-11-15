@@ -272,7 +272,7 @@ h1, h2::before, h3::before, h4::before {
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
     <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/local-plan/v3.1.0" class="govuk-link">3.1.0</a> &mdash; published 2025-11-08
+      Version: <a href="/specification/specification/local-plan/v3.2.0" class="govuk-link">3.2.0</a> &mdash; published 2025-11-08
     </p>
     <p class="govuk-body govuk-!-font-size-16">
        <a href="#versions" class="govuk-link">See versions</a> &mdash; <a href="changelog.html" class="govuk-link">See changelog</a>
@@ -372,6 +372,28 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan_field_local-planning-authorities">local-planning-authorities</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-string">string</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan_field_mineral-planning-authorities">mineral-planning-authorities</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-string">string</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan_field_waste-planning-authorities">waste-planning-authorities</a></th>
         <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
@@ -934,6 +956,52 @@ h1, h2::before, h3::before, h4::before {
     a 
     <code class="field">local-planning-authorities</code> field value.</p>
     <p class="assertion">The local plan <code class="field">local-planning-authorities</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="dataset_local-plan_field_mineral-planning-authorities">Mineral Planning Authorities</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each local plan entry SHOULD contain 
+    a 
+    <code class="field">mineral-planning-authorities</code> field value.</p>
+    <p class="assertion">The local plan <code class="field">mineral-planning-authorities</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="dataset_local-plan_field_waste-planning-authorities">Waste Planning Authorities</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each local plan entry SHOULD contain 
+    a 
+    <code class="field">waste-planning-authorities</code> field value.</p>
+    <p class="assertion">The local plan <code class="field">waste-planning-authorities</code> field MUST be
     a 
     <a href="#datatype-string">string</a> value.</p>
 
@@ -2405,7 +2473,7 @@ Other patterns for collecting data are under consideration, including feeds for 
 
     <ul class="govuk-list govuk-list--bullet">
     
-      <li>Version <a href="v3.1.0" class="govuk-link">3.1.0</a> (current)</li>
+      <li>Version <a href="v3.2.0" class="govuk-link">3.2.0</a> (current)</li>
     
       <li>Version <a href="v2.1.0" class="govuk-link">2.1.0</a></li>
     

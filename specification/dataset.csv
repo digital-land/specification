@@ -404,12 +404,13 @@ DEFRA and [Natural England](https://www.gov.uk/government/organisations/natural-
 on how to review planning applications in protected sites and areas.",environment,geography,1.0,Q1191622,Special_Area_of_Conservation
 natural-england,special-protection-area,special-protection-areas,special-protection-area,,,,,,,14900000,14999999,ogl3,Special protection area,,Special protection areas,beta,,dataset,,,"[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated 
 for the protection of birds and wildlife. This dataset is provided by [Natural England](https://www.gov.uk/government/organisations/natural-england).",environment,geography,1.0,,
+crown-copyright,,,specification-field,,,,,,,0,0,ogl3,Specification field,,Specification fields,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,specification-reason,regulatory duties and reasons for organisations to provide data to a specification,,,,,,61000,61999,ogl3,specification reason,,specification reasons,alpha,,configuration,,,,specification,specification,1.0,,
 crown-copyright,,,specification-status,status of a specification,,,,,specification-status,,,ogl3,Specification status,,Specification statuses,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,specification,,,,,,specification,10000000,10099999,ogl3,Specification,,Specifications,alpha,,specification,,,,specification,specification,2.0,,
 crown-copyright,,,street,,,,,,,20000000000000,29999999999999,ogl3,Street,,Streets,prioritised,,dataset,,,,administrative,geography,1.0,,
 crown-copyright,,suitable-alternative-natural-greenspace,suitable-alternative-green-space,,,,,,,15000000,15099999,ogl3,Suitable alternative green space,,Suitable alternative green spaces,prioritised,,dataset,,,,environment,geography,1.0,,
-crown-copyright,,suplementary-plan,suplementary-plan,suplementary local plans prepared by a Local Planning Authority,,2025-11-14,26,"List the suplimentary local plans you are responsible for with one row for each current, emerging or historical suplimentary local plan.
+crown-copyright,,supplementary-plan,supplementary-plan,supplementary local plans prepared by a Local Planning Authority,,2025-11-14,26,"List the suplimentary local plans you are responsible for with one row for each current, emerging or historical suplimentary local plan.
 ",,550000,559999,ogl3,local plan,,local plans,alpha,,dataset,,,,development,legal-instrument,1.0,Q6664491,Local_plan
 crown-copyright,,,template,,,,,,,9000,9999,ogl3,Template,,Templates,alpha,,specification,,,,specification,specification,1.0,,
 crown-copyright,,,theme,,,,,,theme,15100000,15199999,ogl3,Theme,,Themes,alpha,,specification,,,,specification,specification,1.0,,
