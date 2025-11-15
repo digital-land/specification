@@ -28,6 +28,7 @@ fields:
 - field: tree-preservation-order
 - field: tree-preservation-order-tree
 - field: tree-species
+- field: uprn
   guidance: "Although this field doesn't appear in the technical spec or guidance if an LPA provides a species column we can map it to this" 
 github-discussion: 43
 key-field: ''
