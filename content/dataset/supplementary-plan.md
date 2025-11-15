@@ -1,9 +1,9 @@
 ---
 attribution: crown-copyright
 collection: 
-consideration: suplementary-plan
-dataset: suplementary-plan
-description: 'suplementary local plans prepared by a Local Planning Authority'
+consideration: supplementary-plan
+dataset: supplementary-plan
+description: 'supplementary local plans prepared by a Local Planning Authority'
 end-date: ''
 entity-maximum: '559999'
 entity-minimum: '550000'

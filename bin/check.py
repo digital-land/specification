@@ -12,6 +12,7 @@ dialect.strict = True
 
 keys = {
     "dataset-field": ["dataset", "field"],
+    "specification-field": ["specification", "dataset", "field"],
     # "datapackage-dataset": ["datapackage", "dataset"],
 }
 
@@ -39,6 +40,7 @@ tables = {
     "award": {},
     "fund": {},
     "specification": {},
+    "specification-field": {},
     "typology": {},
     "theme": {},
     "dataset-field": {},
@@ -72,10 +74,17 @@ def load(table):
         if table not in keys:
             key = table
             tables[table][row[key]] = row
-        else:
+        elif len(keys[table]) == 2:
             pkey, skey = keys[table]
             tables[table].setdefault(row[pkey], {})
             tables[table][row[pkey]][row[skey]] = row
+        elif len(keys[table]) == 3:
+            pkey, skey, tkey = keys[table]
+            tables[table].setdefault(row[pkey], {})
+            tables[table][row[pkey]].setdefault(row[skey], {})
+            tables[table][row[pkey]][row[skey]][row[tkey]] = row
+        else:
+            raise ValueError("unexpected number of key fields")
 
 
 def check_reference(table, field, value):
@@ -145,15 +154,24 @@ def check_datasets():
 
                 entity_range = maximum - minimum + 1
                 if entity_range < 0:
-                    error(f"dataset '{dataset}' entity-maximum {maximum} less than entity-minimum '{minimum}'")
+                    error(
+                        f"dataset '{dataset}' entity-maximum {maximum} less than entity-minimum '{minimum}'"
+                    )
                 elif entity_range % 100 != 0:
-                    error(f"dataset '{dataset}' entity range '{entity_range}' should be a multiple of 100")
+                    error(
+                        f"dataset '{dataset}' entity range '{entity_range}' should be a multiple of 100"
+                    )
 
             if minimum and maximum:
                 for _dataset, _d in tables["dataset"].items():
                     _minimum = Decimal(_d.get("entity-minimum", "") or 0)
                     _maximum = Decimal(_d.get("entity-maximum", "") or 0)
-                    if _dataset != dataset and _minimum and _maximum and _d['end-date'] == '':
+                    if (
+                        _dataset != dataset
+                        and _minimum
+                        and _maximum
+                        and _d["end-date"] == ""
+                    ):
 
                         if (
                             minimum <= _minimum <= maximum
@@ -192,39 +210,49 @@ def check_projects():
 def check_cohorts():
     for cohort, c in tables["cohort"].items():
         if c["intervention"] and c["intervention"] not in tables["intervention"]:
-            error(f"cohort '{cohort}' has an unknown intervention '{c['intervention']}'")
+            error(
+                f"cohort '{cohort}' has an unknown intervention '{c['intervention']}'"
+            )
 
 
-def check_specifications():
-    for specification, s in tables["specification"].items():
-        j = json.loads(s["json"])
-        for d in j:
-            dataset = d["dataset"]
+def check_specification_fields():
+    for specification, s in tables["specification-field"].items():
+        for dataset, d in s.items():
             if dataset not in tables["dataset"]:
                 error(
                     "specificaton '%s' has an unknown dataset '%s'"
                     % (specification, dataset)
                 )
-            if "fields" not in d:
+            if not d:
                 error(
                     "specificaton '%s' dataset '%s' has no fields"
                     % (specification, dataset)
                 )
-            else:
-                for f in d["fields"]:
-                    field = f.get("dataset-field", f["field"])
-                    if field not in tables["field"]:
-                        error(
-                            "specificaton '%s' dataset '%s' has unknown field '%s'"
-                            % (specification, dataset, field)
-                        )
-                    elif dataset in tables["dataset"] and field not in tables[
-                        "dataset-field"
-                    ].get(dataset, []):
-                        error(
-                            "specificaton '%s' dataset '%s' field '%s' not in dataset '%s'"
-                            % (specification, dataset, field, dataset)
-                        )
+                continue
+
+            for field, f in d.items():
+                field = f.get("dataset-field", f["field"])
+                if field not in tables["field"]:
+                    error(
+                        "specificaton '%s' dataset '%s' has unknown field '%s'"
+                        % (specification, dataset, field)
+                    )
+                    continue
+                # check field is in referenced datasets
+                if f["datasets"]:
+                    for sub in f["datasets"].split(';'):
+                        if field not in tables["dataset-field"].get(sub, []):
+                            error(
+                                f"specificaton '{specification}' dataset '{dataset}' field {field} not in sub-dataset '{sub}'"
+                            )
+                elif field not in tables["dataset-field"].get(dataset, []):
+                    error(
+                        f"specificaton '{specification}' dataset '{dataset}' field {field} not in dataset '{dataset}'"
+                    )
+
+
+def check_specifications():
+    check_specification_fields()
 
 
 def check(table):
@@ -246,11 +274,17 @@ def check(table):
         for key, row in tables[table].items():
             for field, value in row.items():
                 check_reference(table, field, value)
-    else:
-        for pkey, skey in tables[table].items():
+    elif len(keys[table]) == 2:
+        for pkey in tables[table]:
             for key, row in tables[table][pkey].items():
                 for field, value in row.items():
                     check_reference(table, field, value)
+    else:
+        for pkey in tables[table]:
+            for skey in tables[table][pkey]:
+                for tkey in tables[table][pkey][skey]:
+                    for field, value in tables[table][pkey][skey][tkey].items():
+                        check_reference(table, field, value)
 
 
 if __name__ == "__main__":

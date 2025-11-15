@@ -35,6 +35,7 @@ SPECIFICATION_CSV=\
 	specification/project-status.csv\
 	specification/requirement.csv\
 	specification/specification.csv\
+	specification/specification-field.csv\
 	specification/specification-reason.csv\
 	specification/specification-status.csv\
 	specification/organisation-dataset.csv\
@@ -172,6 +173,9 @@ specification/severity.csv:	content/severity.csv
 
 specification/specification-status.csv:	content/specification-status.csv
 	cp content/specification-status.csv $@
+
+specification/specification-field.csv:	$(DATASET_MD) $(DATASET_CSV) bin/specification-field.py
+	python3 bin/specification-field.py $@
 
 specification/provision-reason.csv:	content/provision-reason.csv
 	cp content/provision-reason.csv $@
