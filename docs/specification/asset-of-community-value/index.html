@@ -35,14 +35,19 @@ code.field {
     color: #00703c;
 }
 
-.app-version-banner {
+.warning-box {
   border: 5px solid #f47738;
   margin-top: 30px;
   padding: 15px;
 }
 
-.app-version-banner p {
-  margin-bottom: 0;
+.warning-box .govuk-warning-text__icon {
+    top: 18px;
+    left: 10px;
+}
+
+.warning-box .govuk-warning-text__text {
+    padding-left: 60px;
 }
 
 .diagram {
@@ -163,21 +168,7 @@ h1, h2::before, h3::before, h4::before {
   <div class="govuk-header__container govuk-width-container">
     <div class="header-proposition">
       <div class="govuk-header__content">
-        <a href="/" class="govuk-header__link govuk-header__link--service-name">Planning and housing data in England</a>
-          <nav class="govuk-header__navigation" aria-label="Menu">
-            <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide menu" hidden>Menu</button>
-            <ul id="navigation" class="govuk-header__navigation-list">
-              <li class="govuk-header__navigation-item">
-                <a class="govuk-header__link" href="https://design.planning.data.gov.uk">Design data</a>
-              </li>
-              <li class="govuk-header__navigation-item">
-                <a class="govuk-header__link" href="https://www.planning.data.gov.uk/guidance/">Provide data</a>
-              </li>
-              <li class="govuk-header__navigation-item">
-                <a class="govuk-header__link" href="https://www.planning.data.gov.uk">Use data</a>
-              </li>
-            </ul>
-          </nav>
+        <a href="https://www.planning.data.gov.uk" class="govuk-header__link govuk-header__link--service-name">Planning and housing data in England</a>
       </div>
     </div>
   </div>
@@ -187,7 +178,6 @@ h1, h2::before, h3::before, h4::before {
     
       <div class="govuk-width-container ">
         
-
 
   
     
@@ -211,8 +201,6 @@ h1, h2::before, h3::before, h4::before {
 </div>
 
 
-  
-
         <main class="govuk-main-wrapper " id="main-content" role="main">
           
   
@@ -228,29 +216,47 @@ h1, h2::before, h3::before, h4::before {
   
 <div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
+
+    <p class="govuk-body govuk-!-margin-bottom-1">4 March 2025</p>
+
+    <!-- draft warning is only to be removed when published to GOV.UK as a controlled document -->
+    <div class="govuk-warning-text warning-box"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+    <strong class="govuk-warning-text__text">
+        <span class="govuk-warning-text__assistive">Warning</span>
+    This is working copy of a specification under development.
+
+    It is inappropriate to cite this draft document as anything other than a work in progress.
+    </strong>
+    </div>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
+
     <p>
     This specification defines the contents and format of data which a
     <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
     or other party may use to provide information about one or more Assets of community value.
     </p>
 
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible"/>
+
     <h2 id="status" class="govuk-heading-m">Status of this specification</h2>
-    <p class="govuk-body">
-      <strong class="govuk-tag">Working draft</strong>
-    </p>
-    <!-- draft warning is only to be removed when published to GOV.UK as a controlled document -->
-    <div class="govuk-warning-text"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
-    <strong class="govuk-warning-text__text"><span class="govuk-warning-text__assistive">Warning</span>
-    It is inappropriate to cite this draft document as other than a work in progress.
-    </strong>
-    </div>
+
+    <!-- TBD:
+        * use specification-status to change the text
+        * use the provision table to report on who is expected to provide data using the specification
+        * link to the GOV.UK page where one exists
+        * link to content markdown for the specificaion and each dataset on GitHub for the version history
+        * consider reintroducing the changelog of fields keyed on dates NOT version numbers
+        * link to National Archives, eg: https://web.archive.org/web/*/https://digital-land.github.io/specification/specification/local-plan/
+    -->
     <p>
     This document sets out the requirements for providing data in conformance to the specification which is
     currently under development.
     Providing data to this draft specification is at present optional, though encouraged.
     </p>
+
     <p>
     This is a draft specification, following the standards for planning data process [<a href="#design-process">design-process</a>].
     The contents of this specification are currently under development, and liable to change based on feedback.
@@ -269,14 +275,6 @@ h1, h2::before, h3::before, h4::before {
     <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
     </p>
 
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-    <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="/specification/specification/asset-of-community-value/v1.0.0" class="govuk-link">1.0.0</a> &mdash; published 2025-03-04
-    </p>
-    <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> &mdash; <a href="changelog.html" class="govuk-link">See changelog</a>
-    </p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
 
@@ -1703,25 +1701,7 @@ Other patterns for collecting data are under consideration, including feeds for 
     <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
     </dd>
     </div>
-
-
     </dl>
-
-    
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-    <h2 id="versions" class="govuk-heading-m">Previous versions</h2>
-
-    <p class="govuk-body">These specifications are living documents. When we make material changes to the data structure we update the version number.</p>
-
-    <p class="govuk-body">Previous versions of the asset-of-community-value specification are:</p>
-
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li>Version <a href="v1.0.0" class="govuk-link">1.0.0</a> (current)</li>
-    
-    </ul>
-    
 
   </div>
 </div>
