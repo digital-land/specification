@@ -72,8 +72,12 @@ def load(table):
     fields[table] = reader.fieldnames
     for row in reader:
         if table not in keys:
-            key = table
-            tables[table][row[key]] = row
+            # TBD: use dataset key-field
+            if "reference" in row:
+                tables[table][row["reference"]] = row
+            else:
+                # TBD: migrate away from table name being key field
+                tables[table][row[table]] = row
         elif len(keys[table]) == 2:
             pkey, skey = keys[table]
             tables[table].setdefault(row[pkey], {})
