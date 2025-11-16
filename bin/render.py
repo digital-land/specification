@@ -20,7 +20,6 @@ from markupsafe import Markup
 from govspeak import render_markdown
 
 
-
 specification_svg = importlib.import_module("specification-svg")
 
 docs = "docs/"
@@ -31,6 +30,7 @@ specification_repo_url = "/specification"
 
 keys = {
     "dataset-field": ["dataset", "field"],
+    "specification-field": ["specification", "dataset", "field"],
     "datapackage-dataset": ["datapackage", "dataset"],
 }
 tables = {
@@ -44,6 +44,7 @@ tables = {
     "dataset": {},
     "dataset-field": {},
     "specification": {},
+    "specification-field": {},
     "specification-reason": {},
     "specification-status": {},
 }
@@ -83,20 +84,36 @@ def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str
     changes = []
     for dataset in current_frontmatter.metadata["datasets"]:
         current_fields = set([field["field"] for field in dataset["fields"]])
-        previous_dataset = [ds for ds in previous_frontmatter.metadata["datasets"] if ds["dataset"] == dataset["dataset"]]
+        previous_dataset = [
+            ds
+            for ds in previous_frontmatter.metadata["datasets"]
+            if ds["dataset"] == dataset["dataset"]
+        ]
         if previous_dataset:
             previous_dataset = previous_dataset[0]
-            previous_fields = set([field["field"] for field in previous_dataset["fields"]])
+            previous_fields = set(
+                [field["field"] for field in previous_dataset["fields"]]
+            )
             added_fields = list(current_fields - previous_fields)
             removed_fields = list(previous_fields - current_fields)
             # sort fields so that the changelog is consistent
             added_fields.sort()
             removed_fields.sort()
             if added_fields or removed_fields:
-                changes.append({"dataset": dataset, "added": added_fields, "removed": removed_fields})
+                changes.append(
+                    {
+                        "dataset": dataset,
+                        "added": added_fields,
+                        "removed": removed_fields,
+                    }
+                )
 
-    current_datasets = set([ds["dataset"] for ds in current_frontmatter.metadata["datasets"]])
-    previous_datasets = set([ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]])
+    current_datasets = set(
+        [ds["dataset"] for ds in current_frontmatter.metadata["datasets"]]
+    )
+    previous_datasets = set(
+        [ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]]
+    )
     datasets_added = list(current_datasets - previous_datasets)
     datasets_removed = list(previous_datasets - current_datasets)
     # sort datasets so that the changelog is consistent
@@ -110,7 +127,7 @@ def render(path, template, docs="docs", **kwargs):
     path = os.path.join(docs, path)
     directory = os.path.dirname(path)
     if not os.path.exists(directory):
-        #print(f"creating directory {directory}")
+        # print(f"creating directory {directory}")
         os.makedirs(directory)
     with open(path, "w") as f:
         print(f"creating {path}")
@@ -121,21 +138,30 @@ def load_csv(table):
     print(f"loading {table}")
     for row in csv.DictReader(open(f"specification/{table}.csv", newline="")):
         # TBD: use the dataset key-field for the dataset
-        if table in keys:
+        if table not in keys:
+            # TBD: use dataset key-field
+            if "reference" in row:
+                tables[table][row["reference"]] = row
+            else:
+                # TBD: migrate away from table name being key field
+                tables[table][row[table]] = row
+        elif len(keys[table]) == 2:
             pkey, skey = keys[table]
             tables[table].setdefault(row[pkey], {})
             tables[table][row[pkey]][row[skey]] = row
-        elif table in row:
-            tables[table][row[table]] = row
+        elif len(keys[table]) == 3:
+            pkey, skey, tkey = keys[table]
+            tables[table].setdefault(row[pkey], {})
+            tables[table][row[pkey]].setdefault(row[skey], {})
+            tables[table][row[pkey]][row[skey]][row[tkey]] = row
         else:
-            tables[table][row["reference"]] = row
+            raise ValueError("unexpected number of key fields")
 
         # hack to parse known json fields
         # TBD: apply to any "json" field
         for field in ["examples"]:
             if row.get(field, ""):
                 row[field] = json.loads(row[field])
-
 
 
 def load_content(table):
@@ -273,7 +299,9 @@ def render_version(version_number, name, item=None, latest_version=True):
         version = version_number
     version_dir = f"specification/{name}/{version}"
     if item is None:
-        specification_file = os.path.join(content, "specification", name, version, f"{name}.md")
+        specification_file = os.path.join(
+            content, "specification", name, version, f"{name}.md"
+        )
         item = frontmatter.load(specification_file)
     else:
         specification_file = os.path.join(content, "specification", f"{name}.md")
@@ -287,7 +315,7 @@ def render_version(version_number, name, item=None, latest_version=True):
         assetPath=assetPath,
         sectionPath=f"{specification_repo_url}/specification",
         version=version,
-        latest_version=latest_version
+        latest_version=latest_version,
     )
     # make a copy of .md
     try:
@@ -341,7 +369,6 @@ if __name__ == "__main__":
     index_datapackage()
     index_specification()
 
-
     # generate versions of specification and dataset pages
     for template in ["specification"]:
         for name, item in tables[template].items():
@@ -358,7 +385,9 @@ if __name__ == "__main__":
 
                 for version_number in previous_versions:
                     if not version_exists(parent_dir, f"v{version_number}"):
-                        render_version(version_number, name, item=None, latest_version=False)
+                        render_version(
+                            version_number, name, item=None, latest_version=False
+                        )
 
     for template in [
         "datapackage",
@@ -369,7 +398,7 @@ if __name__ == "__main__":
         "typology",
     ]:
         for name, item in tables[template].items():
-            # TBD: understand why are these fields hard-coded, they shouldn't be
+            # these uppercase versions of lowercase fields hard-coded
             if name in ["Deliverable", "Hectares", "Notes"]:
                 print(f"skipping deprecated field: {name}")
                 continue
@@ -392,7 +421,7 @@ if __name__ == "__main__":
                 assetPath=assetPath,
                 sectionPath=f"{specification_repo_url}/{template}",
                 versions=versions,
-                latest_version=True
+                latest_version=True,
             )
 
     # generated changelog pages
@@ -407,7 +436,9 @@ if __name__ == "__main__":
                 version_path = Path(version)
                 version_date = datetime.fromtimestamp(version_path.stat().st_ctime)
                 version_dates[version_path.name] = version_date
-                version_numbers = [Version(Path(f).name, version_date) for f in versions]
+                version_numbers = [
+                    Version(Path(f).name, version_date) for f in versions
+                ]
 
             sorted_versions = sorted(version_numbers, reverse=True)
             changelog = []
@@ -415,30 +446,45 @@ if __name__ == "__main__":
             for i, current_version in enumerate(sorted_versions):
                 if i + 1 < len(sorted_versions):
                     previous_version = sorted_versions[i + 1]
-                    current_version_path = os.path.join(specification_docs_dir, current_version.version_str)
-                    next_version_path = os.path.join(specification_docs_dir, previous_version.version_str)
+                    current_version_path = os.path.join(
+                        specification_docs_dir, current_version.version_str
+                    )
+                    next_version_path = os.path.join(
+                        specification_docs_dir, previous_version.version_str
+                    )
 
-                    with open(os.path.join(current_version_path, f"{specification}.md"), "r") as f:
+                    with open(
+                        os.path.join(current_version_path, f"{specification}.md"), "r"
+                    ) as f:
                         current_frontmatter = frontmatter.load(f)
 
-                    with open(os.path.join(next_version_path, f"{specification}.md"), "r") as f:
+                    with open(
+                        os.path.join(next_version_path, f"{specification}.md"), "r"
+                    ) as f:
                         next_frontmatter = frontmatter.load(f)
 
-                    dataset_field_changes, dataset_change = get_changes(current_frontmatter, next_frontmatter)
-                    changelog.append({"current": current_version.version_str,
-                                      "previous": previous_version.version_str,
-                                      "changes": dataset_field_changes,
-                                      "dataset_change": dataset_change})
+                    dataset_field_changes, dataset_change = get_changes(
+                        current_frontmatter, next_frontmatter
+                    )
+                    changelog.append(
+                        {
+                            "current": current_version.version_str,
+                            "previous": previous_version.version_str,
+                            "changes": dataset_field_changes,
+                            "dataset_change": dataset_change,
+                        }
+                    )
 
-            render(f"specification/{specification}/changelog.html",
-                   env.get_template("changelog.html"),
-                   specification=tables["specification"][specification].metadata,
-                   changelog=changelog,
-                   tables=tables,
-                   staticPath=staticPath,
-                   assetPath=assetPath,
-                   sectionPath=f"{specification_repo_url}/specification")
-
+            render(
+                f"specification/{specification}/changelog.html",
+                env.get_template("changelog.html"),
+                specification=tables["specification"][specification].metadata,
+                changelog=changelog,
+                tables=tables,
+                staticPath=staticPath,
+                assetPath=assetPath,
+                sectionPath=f"{specification_repo_url}/specification",
+            )
 
     #
     #  generate guidance from the specification
@@ -455,7 +501,8 @@ if __name__ == "__main__":
             tables=tables,
             staticPath=staticPath,
             assetPath=assetPath,
-            sectionPath=f"{specification_repo_url}")
+            sectionPath=f"{specification_repo_url}",
+        )
 
         item = frontmatter.load(docs + md)
         html = render_markdown(item.content)
@@ -463,7 +510,6 @@ if __name__ == "__main__":
         tables.setdefault("guidance", {})
         tables["guidance"][specification] = item
 
-        # create guidance in GOV.UK like HTML
         render(
             f"guidance/{specification}/index.html",
             env.get_template("guidance.html"),
@@ -473,7 +519,8 @@ if __name__ == "__main__":
             html=html,
             staticPath=staticPath,
             assetPath=assetPath,
-            sectionPath=f"{specification_repo_url}")
+            sectionPath=f"{specification_repo_url}",
+        )
 
     for path, template in [
         ("index.html", "indexes.html"),
@@ -492,4 +539,5 @@ if __name__ == "__main__":
             tables=tables,
             staticPath=staticPath,
             assetPath=assetPath,
-            sectionPath=f"{specification_repo_url}")
+            sectionPath=f"{specification_repo_url}",
+        )
