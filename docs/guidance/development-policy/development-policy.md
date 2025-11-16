@@ -68,8 +68,8 @@ and continue to iterate and improve it over time.
 
 For Development policies you need to provide 2 datasets:
 
-* [Development policy](#Development-policy-dataset)
-* [Development policy area](#Development-policy-area-dataset)
+* [Development policy](#Developmentpolicy-dataset)
+* [Development policy area](#Developmentpolicyarea-dataset)
 
 
 Each each dataset needs to be provided
@@ -90,7 +90,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`

@@ -68,9 +68,9 @@ and continue to iterate and improve it over time.
 
 For local plans you need to provide 3 datasets:
 
-* [Local plan](#local-plan-dataset)
-* [Local plan housing number](#local-plan-housing-number-dataset)
-* [Local plan document](#Local-plan-document-dataset)
+* [Local plan](#localplan-dataset)
+* [Local plan housing number](#localplanhousingnumber-dataset)
+* [Local plan document](#Localplandocument-dataset)
 
 
 Each each dataset needs to be provided
@@ -91,7 +91,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`

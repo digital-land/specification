@@ -74,9 +74,9 @@ and continue to iterate and improve it over time.
 
 For Developer contributions you need to provide 3 datasets:
 
-* [Developer agreement](#Developer-agreement-dataset)
-* [Developer agreement contribution](#Developer-agreement-contribution-dataset)
-* [Developer agreement transaction](#Developer-agreement-transaction-dataset)
+* [Developer agreement](#Developeragreement-dataset)
+* [Developer agreement contribution](#Developeragreementcontribution-dataset)
+* [Developer agreement transaction](#Developeragreementtransaction-dataset)
 
 
 Each each dataset needs to be provided
@@ -97,7 +97,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`

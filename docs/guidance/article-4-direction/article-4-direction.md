@@ -74,8 +74,8 @@ and continue to iterate and improve it over time.
 
 For article 4 directions you need to provide 2 datasets:
 
-* [Article 4 direction](#Article-4-direction-dataset)
-* [Article 4 direction area](#Article-4-direction-area-dataset)
+* [Article 4 direction](#Article4direction-dataset)
+* [Article 4 direction area](#Article4directionarea-dataset)
 
 
 Each each dataset needs to be provided
@@ -96,7 +96,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`

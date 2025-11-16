@@ -74,8 +74,8 @@ and continue to iterate and improve it over time.
 
 For Tree preservation orders you need to provide 3 datasets:
 
-* [Tree preservation order](#Tree-preservation-order-dataset)
-* [Tree preservation zone](#Tree-preservation-zone-dataset)
+* [Tree preservation order](#Treepreservationorder-dataset)
+* [Tree preservation zone](#Treepreservationzone-dataset)
 * [Tree](#Tree-dataset)
 
 
@@ -97,7 +97,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`

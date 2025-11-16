@@ -68,7 +68,7 @@ and continue to iterate and improve it over time.
 
 For Local area requirements you need to provide 1 dataset:
 
-* [Local area requirements](#Local-area-requirements-dataset)
+* [Local area requirements](#Localarearequirements-dataset)
 
 
 Each the dataset needs to be provided
@@ -89,7 +89,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`

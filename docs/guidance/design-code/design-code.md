@@ -68,9 +68,9 @@ and continue to iterate and improve it over time.
 
 For design codes you need to provide 3 datasets:
 
-* [Design code](#Design-code-dataset)
-* [Design code rule](#Design-code-rule-dataset)
-* [Design code area](#Design-code-area-dataset)
+* [Design code](#Designcode-dataset)
+* [Design code rule](#Designcoderule-dataset)
+* [Design code area](#Designcodearea-dataset)
 
 
 Each each dataset needs to be provided
@@ -91,7 +91,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`

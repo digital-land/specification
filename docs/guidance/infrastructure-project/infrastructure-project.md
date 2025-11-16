@@ -68,9 +68,9 @@ and continue to iterate and improve it over time.
 
 For infrastructure projects you need to provide 3 datasets:
 
-* [Infrastructure project](#Infrastructure-project-dataset)
-* [Infrastructure project log](#Infrastructure-project-log-dataset)
-* [Infrastructure project document](#Infrastructure-project-document-dataset)
+* [Infrastructure project](#Infrastructureproject-dataset)
+* [Infrastructure project log](#Infrastructureprojectlog-dataset)
+* [Infrastructure project document](#Infrastructureprojectdocument-dataset)
 
 
 Each each dataset needs to be provided
@@ -91,7 +91,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`
