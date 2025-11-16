@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - heritage
 typology: document
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

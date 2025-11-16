@@ -28,7 +28,6 @@ start-date: ''
 themes:
 - specification
 typology: category
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

@@ -10,7 +10,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-02-13'
 github-discussion: 25
-version: 2.0.0
 datasets:
     - dataset: planning-application
       name: Planning application

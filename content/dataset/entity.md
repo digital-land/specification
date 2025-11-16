@@ -36,7 +36,6 @@ start-date: ''
 themes:
 - specification
 typology: entity
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

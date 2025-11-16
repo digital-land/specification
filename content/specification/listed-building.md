@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-06-24'
 github-discussion: 44
-version: 1.4.0
 datasets:
     - dataset: listed-building-outline
       fields:

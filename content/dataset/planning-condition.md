@@ -34,7 +34,6 @@ themes:
 - housing
 - monitoring
 typology: policy
-version: 3.0
 wikidata: ''
 wikipedia: ''
 ---

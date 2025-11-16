@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 1.0
 wikidata: Q5065092
 wikipedia: Certificate_of_Immunity_from_Listing
 ---

@@ -31,7 +31,6 @@ start-date: ''
 themes:
 - development
 typology: category
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

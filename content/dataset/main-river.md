@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - environment
 typology: geography
-version: 1.0
 wikidata: Q6736223
 wikipedia: Main_river
 ---

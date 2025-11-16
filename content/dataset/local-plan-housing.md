@@ -100,7 +100,6 @@ start-date: ''
 themes:
 - development
 typology: legal-instrument
-version: 1.0
 wikidata: 
 wikipedia: 
 ---

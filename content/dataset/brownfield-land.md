@@ -165,7 +165,6 @@ start-date: ''
 themes:
 - development
 typology: geography
-version: 1.1
 wikidata: Q896586
 wikipedia: Brownfield_land
 ---

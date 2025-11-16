@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2023-11-23'
 github-discussion: ''
-version: 1.2.2
 datasets:
     - dataset: infrastructure-funding-statement
       fields:

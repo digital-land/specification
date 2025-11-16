@@ -47,7 +47,6 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
-version: 1.0
 wikidata: Q171634
 wikipedia: Local_government_in_England
 ---

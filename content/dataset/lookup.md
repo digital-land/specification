@@ -33,7 +33,6 @@ themes:
 - specification
 - pipeline
 typology: specification
-version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

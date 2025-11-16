@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2024-12-12'
 github-discussion: 99
-version: 1.0.0
 datasets:
     - dataset: community-infrastructure-levy-schedule
       description: "A document that sets out the CIL charge rates for an area"

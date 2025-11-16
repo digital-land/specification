@@ -36,7 +36,6 @@ replacement-dataset: ''
 start-date: ''
 themes: []
 typology: geography
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

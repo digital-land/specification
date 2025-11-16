@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-03-04'
 github-discussion: 100
-version: 1.0.0
 datasets:
     - dataset: asset-of-community-value
       description: "Buildings or pieces of land that are used for the social wellbeing and interests of the local community"

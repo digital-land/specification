@@ -37,7 +37,6 @@ start-date: ''
 themes:
 - specification
 typology: specification
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

@@ -36,7 +36,6 @@ themes:
 - environment
 - heritage
 typology: geography
-version: 1.0
 wikidata: Q6975250
 wikipedia: Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
 ---

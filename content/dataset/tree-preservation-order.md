@@ -40,7 +40,6 @@ themes:
 typology: legal-instrument
 wikidata: ''
 wikipedia: ''
-version: 2.0
 ---
 
 This dataset contains information on trees with preservation orders.

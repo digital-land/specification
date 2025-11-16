@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - development
 typology: geography
-version: 1.0
 wikidata: Q98785867
 wikipedia: Listed_building#England_and_Wales
 ---

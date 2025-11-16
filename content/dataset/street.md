@@ -31,7 +31,6 @@ start-date: ''
 themes:
 - administrative
 typology: geography
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

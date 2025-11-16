@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-11-08'
 github-discussion: 30
-version: 1.3.4
 datasets:
     - dataset: article-4-direction
       name: article 4 direction

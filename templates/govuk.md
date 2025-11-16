@@ -14,7 +14,7 @@ breadcrumbs:
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
 - url: {{ specification["document-url"] or specification["documentation-url"] or "/specification/specification/"+specification["specification"] }}
-  name: '{{ specification["name"] | sentence_case }} technical specification ({{ specification["entry-date"] | datetime_format }})'
+  name: '{{ specification["name"] | sentence_case }} technical specification ({{ specification["entry-date"] | govuk_date }})'
   attachment-type: HTML
   start-date: {{ specification["start-date"] }}
 ---

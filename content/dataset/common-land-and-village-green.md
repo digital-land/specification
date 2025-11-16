@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 1.0
 wikidata: Q2259176
 wikipedia: Common_land
 ---

@@ -34,7 +34,6 @@ start-date: ''
 themes:
 - development
 typology: document
-version: 1.0
 wikidata: Q49848
 wikipedia: Document
 ---

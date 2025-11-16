@@ -41,7 +41,6 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
-version: 1.0
 wikidata: Q2500378
 wikipedia: Departments_of_the_Government_of_the_United_Kingdom
 ---

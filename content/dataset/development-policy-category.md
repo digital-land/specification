@@ -30,7 +30,6 @@ start-date: ''
 themes:
 - development
 typology: category
-version: 1.0
 wikidata: Q5962346
 wikipedia: Classification_(general_theory)
 ---

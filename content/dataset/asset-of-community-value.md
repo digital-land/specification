@@ -44,7 +44,6 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 1.0
 wikidata: Q16971076
 wikipedia: Asset_of_community_value
 ---

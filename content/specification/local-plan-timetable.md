@@ -11,7 +11,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-11-05'
 github-discussion: 97
-version: 0.1.0
 datasets:
     - dataset: local-plan-timetable
       priority: 2

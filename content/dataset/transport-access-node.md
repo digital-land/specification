@@ -40,7 +40,6 @@ themes:
 - development
 - transport
 typology: geography
-version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

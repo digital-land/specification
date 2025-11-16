@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2024-08-01'
 github-discussion: 52
-version: 1.1.1
 datasets:
     - dataset: local-area-requirements
       name: Local area requirements

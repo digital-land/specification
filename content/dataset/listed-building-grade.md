@@ -32,7 +32,6 @@ start-date: ''
 themes:
 - heritage
 typology: category
-version: 1.0
 wikidata: Q30634609
 wikipedia: Listed_building
 ---

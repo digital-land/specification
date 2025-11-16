@@ -37,7 +37,6 @@ start-date: ''
 themes:
 - development
 typology: timetable
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

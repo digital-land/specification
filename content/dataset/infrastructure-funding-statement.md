@@ -35,7 +35,6 @@ start-date: ''
 themes:
 - development
 typology: document
-version: 3.0
 wikidata: ''
 wikipedia: ''
 ---

@@ -34,7 +34,6 @@ start-date: ''
 themes:
 - development
 typology: policy
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

@@ -35,7 +35,6 @@ start-date: ''
 themes:
 - heritage
 typology: legal-instrument
-version: 1.0
 wikidata: Q16962063
 wikipedia: Article_4_direction
 ---

@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2023-04-05'
 github-discussion: ''
-version: 1.1.0
 datasets:
     - dataset: development-policy
       name: development policy

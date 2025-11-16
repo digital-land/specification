@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - transport
 typology: geography
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

@@ -40,7 +40,6 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
-version: 1.0
 wikidata: Q514989
 wikipedia: Passenger_transport_executive
 ---

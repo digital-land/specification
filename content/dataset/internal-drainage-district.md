@@ -33,7 +33,6 @@ start-date: ''
 themes:
 - administrative
 typology: geography
-version: 1.0
 wikidata: Q5305553
 wikipedia: Drainage_district
 ---

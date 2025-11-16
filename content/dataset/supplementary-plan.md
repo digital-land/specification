@@ -42,7 +42,6 @@ start-date: ''
 themes:
 - development
 typology: legal-instrument
-version: 1.0
 wikidata: Q6664491
 wikipedia: Local_plan
 ---

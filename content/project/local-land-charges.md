@@ -97,6 +97,8 @@ organisations:
   start-date: 2024-03-19
 - organisation: local-authority:HAG
   start-date: 2023-03-28
+- organisation: local-authority:HER
+  start-date: 2025-12-10
 - organisation: local-authority:HIG
   start-date: 2023-04-25
 - organisation: local-authority:IOW

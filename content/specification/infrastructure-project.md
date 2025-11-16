@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2023-09-14'
 github-discussion: 
-version: 1.1.1
 datasets:
     - dataset: infrastructure-project
       name: Infrastructure project

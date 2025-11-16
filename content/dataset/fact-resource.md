@@ -30,7 +30,6 @@ start-date: ''
 themes:
 - specification
 typology: value
-version: 1.1
 wikidata: ''
 wikipedia: ''
 ---

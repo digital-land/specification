@@ -33,7 +33,6 @@ start-date: ''
 themes:
 - administrative
 typology: category
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

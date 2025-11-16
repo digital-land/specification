@@ -49,80 +49,6 @@ tables = {
     "specification-status": {},
 }
 
-
-@total_ordering
-class Version:
-
-    def __init__(self, version_str, version_date) -> None:
-        self.version_str = version_str
-        numbers = self.version_str.replace("v", "")
-        major, minor, patch = numbers.split(".")
-        self.major = int(major)
-        self.minor = int(minor)
-        self.patch = int(patch)
-        self.date = version_date
-
-    def __eq__(self, other):
-        self.major == other.major and self.minor == other.minor and self.patch == other.patch
-
-    def __lt__(self, other):
-        if self.major < other.major:
-            return True
-        elif self.major == other.major and self.minor < other.minor:
-            return True
-        elif (
-            self.major == other.major
-            and self.minor == other.minor
-            and self.patch < other.patch
-        ):
-            return True
-        else:
-            return False
-
-
-def get_changes(current_frontmatter, previous_frontmatter) -> Dict[str, List[str]]:
-    changes = []
-    for dataset in current_frontmatter.metadata["datasets"]:
-        current_fields = set([field["field"] for field in dataset["fields"]])
-        previous_dataset = [
-            ds
-            for ds in previous_frontmatter.metadata["datasets"]
-            if ds["dataset"] == dataset["dataset"]
-        ]
-        if previous_dataset:
-            previous_dataset = previous_dataset[0]
-            previous_fields = set(
-                [field["field"] for field in previous_dataset["fields"]]
-            )
-            added_fields = list(current_fields - previous_fields)
-            removed_fields = list(previous_fields - current_fields)
-            # sort fields so that the changelog is consistent
-            added_fields.sort()
-            removed_fields.sort()
-            if added_fields or removed_fields:
-                changes.append(
-                    {
-                        "dataset": dataset,
-                        "added": added_fields,
-                        "removed": removed_fields,
-                    }
-                )
-
-    current_datasets = set(
-        [ds["dataset"] for ds in current_frontmatter.metadata["datasets"]]
-    )
-    previous_datasets = set(
-        [ds["dataset"] for ds in previous_frontmatter.metadata["datasets"]]
-    )
-    datasets_added = list(current_datasets - previous_datasets)
-    datasets_removed = list(previous_datasets - current_datasets)
-    # sort datasets so that the changelog is consistent
-    datasets_added.sort()
-    datasets_removed.sort()
-
-    return changes, {"added": datasets_added, "removed": datasets_removed}
-
-
 def render(path, template, docs="docs", **kwargs):
     path = os.path.join(docs, path)
     directory = os.path.dirname(path)
@@ -282,67 +208,7 @@ def dataset_sort(dataset):
     return fields
 
 
-def version_exists(parent_dir, version):
-    version_dir = os.path.join(parent_dir, version)
-    # Check if the directory_to_check exists within the parent_directory
-    if os.path.exists(parent_dir) and os.path.exists(version_dir):
-        # Check if directory_to_check is a subdirectory of parent_directory
-        if os.path.commonpath([parent_dir, version_dir]) == parent_dir:
-            return True
-    return False
-
-
-def render_version(version_number, name, item=None, latest_version=True):
-    if version_number[0] != "v":
-        version = f"v{version_number}"
-    else:
-        version = version_number
-    version_dir = f"specification/{name}/{version}"
-    if item is None:
-        specification_file = os.path.join(
-            content, "specification", name, version, f"{name}.md"
-        )
-        item = frontmatter.load(specification_file)
-    else:
-        specification_file = os.path.join(content, "specification", f"{name}.md")
-    render(
-        f"{version_dir}/index.html",
-        env.get_template("specification.html"),
-        name=name,
-        item=item,
-        tables=tables,
-        staticPath=staticPath,
-        assetPath=assetPath,
-        sectionPath=f"{specification_repo_url}/specification",
-        version=version,
-        latest_version=latest_version,
-    )
-    # make a copy of .md
-    try:
-        shutil.copy(specification_file, os.path.join(docs, version_dir))
-    except Exception as e:
-        print(f"An error occurred: {e}")
-    # generate svg for the version
-    diagram_version_path = os.path.join(docs, version_dir, "diagram.svg")
-    specification_svg.generate(specification_file, diagram_version_path)
-    if latest_version:
-        # make copy of new diagram.svg to unversioned directory - i.e. latest
-        parent_dir = Path(diagram_version_path).parent.parent
-        shutil.copy(diagram_version_path, parent_dir)
-
-
-def get_previous_versions(source_dir, latest_version):
-    previous_versions = []
-    if not os.path.exists(source_dir):
-        return previous_versions
-    for version in os.listdir(source_dir):
-        if os.path.isdir(os.path.join(source_dir, version)):
-            if version != f"v{latest_version}":
-                previous_versions.append(version)
-    return previous_versions
-
-
-def date_format(value, format="%-d %B %Y"):
+def govuk_date(value, format="%-d %B %Y"):
     return datetime.fromisoformat(value).strftime(format)
 
 
@@ -352,7 +218,7 @@ if __name__ == "__main__":
     env.filters["markdown"] = lambda v: Markup(render_markdown(v))
     env.filters["commanum"] = lambda v: "{:,}".format(v)
     env.filters["dataset_sort"] = dataset_sort
-    env.filters["datetime_format"] = date_format
+    env.filters["govuk_date"] = govuk_date
     env.filters["sentence_case"] = lambda v: v[0].upper() + v[1:]
 
     for table in tables:
@@ -369,26 +235,6 @@ if __name__ == "__main__":
     index_datapackage()
     index_specification()
 
-    # generate versions of specification and dataset pages
-    for template in ["specification"]:
-        for name, item in tables[template].items():
-            # only if version in frontmatter
-            if "version" in item.metadata:
-                latest_version = item.metadata["version"]
-                parent_dir = os.path.join(docs, template, name)
-                source_dir = os.path.join(content, template, name)
-                # check_for_old_versions(parent_dir, latest_version)
-                previous_versions = get_previous_versions(source_dir, latest_version)
-                if not version_exists(parent_dir, f"v{latest_version}"):
-                    # render the html page
-                    render_version(latest_version, name, item=item)
-
-                for version_number in previous_versions:
-                    if not version_exists(parent_dir, f"v{version_number}"):
-                        render_version(
-                            version_number, name, item=None, latest_version=False
-                        )
-
     for template in [
         "datapackage",
         "dataset",
@@ -402,15 +248,6 @@ if __name__ == "__main__":
             if name in ["Deliverable", "Hectares", "Notes"]:
                 print(f"skipping deprecated field: {name}")
                 continue
-            versions = []
-            if template == "specification":
-                specification_dir = os.path.join(docs, template, name)
-                versions = [
-                    v
-                    for v in os.listdir(specification_dir)
-                    if os.path.isdir(os.path.join(specification_dir, v))
-                ]
-                versions.sort(reverse=True)
             render(
                 f"{template}/{name}/index.html",
                 env.get_template(f"{template}.html"),
@@ -420,70 +257,6 @@ if __name__ == "__main__":
                 staticPath=staticPath,
                 assetPath=assetPath,
                 sectionPath=f"{specification_repo_url}/{template}",
-                versions=versions,
-                latest_version=True,
-            )
-
-    # generated changelog pages
-    for specification in tables["specification"]:
-        specification_docs_dir = os.path.join(docs, "specification", specification)
-        versions = glob(f"{specification_docs_dir}/v*", recursive=True)
-        if len(versions) > 1:
-            version_dates = {}
-            version_numbers = []
-
-            for version in versions:
-                version_path = Path(version)
-                version_date = datetime.fromtimestamp(version_path.stat().st_ctime)
-                version_dates[version_path.name] = version_date
-                version_numbers = [
-                    Version(Path(f).name, version_date) for f in versions
-                ]
-
-            sorted_versions = sorted(version_numbers, reverse=True)
-            changelog = []
-
-            for i, current_version in enumerate(sorted_versions):
-                if i + 1 < len(sorted_versions):
-                    previous_version = sorted_versions[i + 1]
-                    current_version_path = os.path.join(
-                        specification_docs_dir, current_version.version_str
-                    )
-                    next_version_path = os.path.join(
-                        specification_docs_dir, previous_version.version_str
-                    )
-
-                    with open(
-                        os.path.join(current_version_path, f"{specification}.md"), "r"
-                    ) as f:
-                        current_frontmatter = frontmatter.load(f)
-
-                    with open(
-                        os.path.join(next_version_path, f"{specification}.md"), "r"
-                    ) as f:
-                        next_frontmatter = frontmatter.load(f)
-
-                    dataset_field_changes, dataset_change = get_changes(
-                        current_frontmatter, next_frontmatter
-                    )
-                    changelog.append(
-                        {
-                            "current": current_version.version_str,
-                            "previous": previous_version.version_str,
-                            "changes": dataset_field_changes,
-                            "dataset_change": dataset_change,
-                        }
-                    )
-
-            render(
-                f"specification/{specification}/changelog.html",
-                env.get_template("changelog.html"),
-                specification=tables["specification"][specification].metadata,
-                changelog=changelog,
-                tables=tables,
-                staticPath=staticPath,
-                assetPath=assetPath,
-                sectionPath=f"{specification_repo_url}/specification",
             )
 
     #

@@ -24,7 +24,6 @@ fields:
 - field: specification-reason
 - field: specification-status
 - field: start-date
-- field: version
 key-field: 'specification'
 licence: ogl3
 name: Specification
@@ -38,7 +37,6 @@ start-date: ''
 themes:
 - specification
 typology: specification
-version: 2.0
 wikidata: ''
 wikipedia: ''
 ---

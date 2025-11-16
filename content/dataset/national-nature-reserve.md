@@ -36,7 +36,6 @@ themes:
 - environment
 - heritage
 typology: geography
-version: 1.0
 wikidata: Q6974552
 wikipedia: National_nature_reserves_in_England
 ---

@@ -40,7 +40,6 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 3.0
 wikidata: Q570600
 wikipedia: Listed_building
 ---

@@ -31,7 +31,6 @@ start-date: ''
 themes:
 - pipeline
 typology: pipeline
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

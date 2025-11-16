@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - administrative
 typology: geography
-version: 1.0
 wikidata: Q349084
 wikipedia: Districts_of_England
 ---

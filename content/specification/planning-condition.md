@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2023-11-09'
 github-discussion: 40
-version: 1.5.0
 datasets:
     - dataset: planning-condition
       name: planning condition

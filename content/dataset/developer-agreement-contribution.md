@@ -37,7 +37,6 @@ start-date: ''
 themes:
 - development
 typology: metric
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---

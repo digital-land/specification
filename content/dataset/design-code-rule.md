@@ -37,7 +37,6 @@ start-date: ''
 themes:
 - heritage
 typology: policy
-version: 4.0
 wikidata: ''
 wikipedia: ''
 ---

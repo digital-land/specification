@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - heritage
 typology: geography
-version: 1.0
 wikidata: Q7582093
 wikipedia: Squares_in_London
 ---

@@ -16,14 +16,19 @@ code.field {
     color: #00703c;
 }
 
-.app-version-banner {
+.warning-box {
   border: 5px solid #f47738;
   margin-top: 30px;
   padding: 15px;
 }
 
-.app-version-banner p {
-  margin-bottom: 0;
+.warning-box .govuk-warning-text__icon {
+    top: 18px;
+    left: 10px;
+}
+
+.warning-box .govuk-warning-text__text {
+    padding-left: 60px;
 }
 
 .diagram {
@@ -98,15 +103,6 @@ h1, h2::before, h3::before, h4::before {
 </style>
 {% endblock dlStyle %}
 
-{% block beforeContent %}
-{{ super() }}
-  {% if not latest_version %}
-    <div class="app-version-banner">
-      <p class="govuk-body">There is a newer version of this specification. View the <a href=".." class="govuk-link">latest version</a>.</p>
-    </div>
-  {% endif %}
-{% endblock beforeContent %}
-
 {% macro sentence_case(text) %}
     {{ text[0]|upper}}{{text[1:] }}
 {% endmacro %}
@@ -133,29 +129,47 @@ h1, h2::before, h3::before, h4::before {
 {% block dl_content %}
 <div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
+
+    <p class="govuk-body govuk-!-margin-bottom-1">{{ item["entry-date"] | govuk_date }}</p>
+
+    <!-- draft warning is only to be removed when published to GOV.UK as a controlled document -->
+    <div class="govuk-warning-text warning-box"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+    <strong class="govuk-warning-text__text">
+        <span class="govuk-warning-text__assistive">Warning</span>
+    This is working copy of a specification under development.
+
+    It is inappropriate to cite this draft document as anything other than a work in progress.
+    </strong>
+    </div>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
     <h2 id="abstract" class="govuk-heading-m">Abstract</h2>
+
     <p>
     This specification defines the contents and format of data which a
     <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
     or other party may use to provide {{ (item["description"] or "information about one or more " + item["plural"]) + "." }}
     </p>
 
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible"/>
+
     <h2 id="status" class="govuk-heading-m">Status of this specification</h2>
-    <p class="govuk-body">
-      <strong class="govuk-tag">{{ tables["specification-status"][item["specification-status"]]["name"] }}</strong>
-    </p>
-    <!-- draft warning is only to be removed when published to GOV.UK as a controlled document -->
-    <div class="govuk-warning-text"><span class="govuk-warning-text__icon" aria-hidden="true">!</span>
-    <strong class="govuk-warning-text__text"><span class="govuk-warning-text__assistive">Warning</span>
-    It is inappropriate to cite this draft document as other than a work in progress.
-    </strong>
-    </div>
+
+    <!-- TBD:
+        * use specification-status to change the text
+        * use the provision table to report on who is expected to provide data using the specification
+        * link to the GOV.UK page where one exists
+        * link to content markdown for the specificaion and each dataset on GitHub for the version history
+        * consider reintroducing the changelog of fields keyed on dates NOT version numbers
+        * link to National Archives, eg: https://web.archive.org/web/*/https://digital-land.github.io/specification/specification/local-plan/
+    -->
     <p>
     This document sets out the requirements for providing data in conformance to the specification which is
     currently under development.
     Providing data to this draft specification is at present optional, though encouraged.
     </p>
+
     <p>
     This is a draft specification, following the standards for planning data process [<a href="#design-process">design-process</a>].
     The contents of this specification are currently under development, and liable to change based on feedback.
@@ -174,16 +188,6 @@ h1, h2::before, h3::before, h4::before {
     <a href="mailto:digitalland@communities.gov.uk">digitalland@communities.gov.uk</a>.
     </p>
 
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-    <p class="govuk-body govuk-!-margin-bottom-1">
-      Version: <a href="{{ sectionPath }}/{{ name }}/v{{ item['version'] }}" class="govuk-link">{{ item["version"] }}</a> &mdash; published {{ item["entry-date"] }}
-    </p>
-    {%- if versions and versions|length > 0 %}
-    <p class="govuk-body govuk-!-font-size-16">
-       <a href="#versions" class="govuk-link">See versions</a> &mdash; <a href="changelog.html" class="govuk-link">See changelog</a>
-    </p>
-    {%- endif %}
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
 
@@ -930,27 +934,7 @@ Other patterns for collecting data are under consideration, including feeds for 
     <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
     </dd>
     </div>
-
-
     </dl>
-
-    {% if versions and versions|length > 0 %}
-    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-    <h2 id="versions" class="govuk-heading-m">Previous versions</h2>
-
-    <p class="govuk-body">These specifications are living documents. When we make material changes to the data structure we update the version number.</p>
-
-    <p class="govuk-body">Previous versions of the {{ name }} specification are:</p>
-
-    <ul class="govuk-list govuk-list--bullet">
-    {% for version in versions %}
-      <li>Version <a href="{{ version }}" class="govuk-link">{{ version[1:] }}</a>{% if loop.first %} (current){% endif %}</li>
-    {% endfor %}
-    </ul>
-    {% else %}
-    <p class="govuk-body">See <a href="../#versions" class="govuk-link">other versions</a></p>
-    {% endif %}
 
   </div>
 </div>

@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-11-08'
 github-discussion: 43
-version: 1.3.1
 datasets:
     - dataset: tree-preservation-order
       name: tree preservation order

@@ -38,7 +38,6 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
-version: 1.0
 wikidata: Q6047836
 wikipedia: Internal_drainage_board
 ---

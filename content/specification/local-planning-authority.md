@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-11-05'
 github-discussion: 
-version: 0.0.1
 datasets:
     - dataset: local-planning-authority
       priority: 1

@@ -11,7 +11,6 @@ start-date: ''
 end-date: ''
 entry-date: '2025-11-08'
 github-discussion: 97
-version: 3.2.0
 datasets:
     - dataset: local-plan
       priority: 1

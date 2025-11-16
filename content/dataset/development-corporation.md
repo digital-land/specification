@@ -40,7 +40,6 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
-version: 1.0
 wikidata: Q5266682
 wikipedia: Development_corporation
 ---

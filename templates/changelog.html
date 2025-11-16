@@ -1,120 +1,37 @@
-{% extends "dl-specification-base.html" %}
-
-{% block dlStyle %}
-<style>
-    .app-list {
-      margin-left: 0.5em;
-    }
-
-    .app-list li {
-      padding-left: 0.5em
-    }
-
-    .app-list--plus {
-      list-style-type: "+" !important;
-      margin-bottom: 0 !important;
-    }
-
-    .app-list--minus {
-      list-style-type: "-" !important;
-    }
-
-    .app-diff {
-      display: inline-block;
-      padding: 3px 5px;
-      margin-right: 0.25em;
-    }
-
-    .app-diff--addition {
-      background: #e6ffec;
-    }
-
-    .app-diff--removal {
-      background: #ffebe9;
-    }
-
-    .app-changelog .govuk-heading-l {
-      margin-top: 45px;
-    }
-
-    .app-changelog .govuk-heading-l:first-of-type {
-      margin-top: 0;
-    }
-</style>
-{% endblock dlStyle %}
-
-{% block dl_breadcrumbs %}
-  {% set items = [
-      {
-        "text": "Specification",
-        "href": sectionPath
-      },
-      {
-        "text": page_title,
-        "href": sectionPath + "/" + specification.specification
-      },
-      {
-        "text": "changelog"
-      },
-    ] %}
-  {{ govukBreadcrumbs({
-    "items": items
-  }) }}
-{% endblock %}
-
-{% set page_caption = "Changelog" %}
-{% set page_title = specification.name + " specification" %}
-
-{% block dl_content %}
-
+<!-- live documents are date, not version numbered. How changes are recognised and presented needs rewriting -->
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-full app-changelog">
+      <p class="govuk-body">
     {% for log in changelog %}
-      <h2 class="govuk-heading-l"><a href="{{sectionPath}}/{{specification.specification}}/{{log.current}}"
-        class="govuk-link">{{log.current}}</a> changes</h2>
-      <p class="govuk-body">Previous version was <a
-        href="{{sectionPath}}/{{specification.specification}}/{{log.previous}}"
-        class="govuk-link">{{log.previous}}</a></p>
-
       {%- if log.dataset_change and (log.dataset_change.added or log.dataset_change.removed) %}
-      {% if log.dataset_change.added|length %}
-      <h3 class="govuk-heading-m">What datasets have changed?</h3>
-      {% set link_to_newer_version = sectionPath + "/" + specification.specification + "/" + log.current + "#" %}
-      <p class="govuk-body">We have added the {% for dataset in log.dataset_change.added %}
-        <a href="{{ link_to_newer_version }}{{dataset}}-dataset" class="govuk-link">{{dataset}}</a>{{ ", " if not loop.last }}
-      {% endfor %} dataset{{ "" if log.dataset_change.added|length == 1 else "s" }}.</p>
+          {%- if log.dataset_change.added|length %}
+
+      {% for dataset in log.dataset_change.added %}
+
+      <li><code>added the {{ dataset }}</code> dataset</li>
+
+      {% endfor %}
       {% endif %}
       
       {% if log.dataset_change.removed|length %}
-      {% set link_to_old_version = sectionPath + "/" + specification.specification + "/" + log.previous + "#" %}
       <p class="govuk-body">We have removed the {% for dataset in log.dataset_change.removed %}
-        <a href="{{ link_to_old_version }}{{dataset}}-dataset" class="govuk-link">{{dataset}}</a>{{ ", " if not loop.last }}
+        {{dataset}}{{ ", " if not loop.last }}
       {% endfor %} dataset{{ "" if log.dataset_change.removed|length == 1 else "s" }}.</p>
-      {% endif -%}{# end check for removed #}
-      {% endif -%}{# end check for any dataset changes #}
+      {% endif -%}
+      {% endif -%}
 
       {%- if log.changes %}
-      <h3 class="govuk-heading-m">What fields have changed?</h3>
       {% for c in log.changes %}
-      <p class="govuk-body">Field changes to the <strong class="govuk-!-font-weight-bold">{{c.dataset.name}}</strong> dataset</p>
-      <ul class="govuk-list app-list app-list--plus">
         {%- for field in c.added %}
-        <li><span class="app-diff app-diff--addition">{{ field }}</span> was added</li>
+        <li><code>{{ field }}</code> field added to the <code>{{c.dataset.dataset}}</code> dataset</li>
         {% endfor -%}
-      </ul>
-      <ul class="govuk-list app-list app-list--minus">
         {%- for field in c.removed %}
-        <li><span class="app-diff app-diff--removal">{{ field }}</span> was removed</li>
+        <li><code>{{ field }}</code> field removed from the <code>{{c.dataset.dataset}}</code> dataset</li>
         {% endfor -%}
-      </ul>
       {% endfor %}
       {%- endif -%}
-
-      {# we don't track description changes - they are only minor #}
-      {%- if log.dataset_change.added|length == 0 and log.dataset_change.removed|length == 0 and log.changes|length == 0 %}
-      <p class="govuk-body">Some of the field descriptions have been updated.</p>
-      {% endif -%}
     {% endfor %}
+      </ul>
+      <p>
     </div>
 </div>
-{% endblock %}

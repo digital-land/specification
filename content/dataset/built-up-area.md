@@ -33,7 +33,6 @@ start-date: ''
 themes:
 - housing
 typology: geography
-version: 1.0
 wikidata: 
 wikipedia: 
 ---

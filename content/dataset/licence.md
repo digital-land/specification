@@ -28,7 +28,6 @@ start-date: ''
 themes:
 - specification
 typology: category
-version: 1.0
 wikidata: Q7257461
 wikipedia: Public_copyright_license
 ---

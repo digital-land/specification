@@ -9,7 +9,6 @@ start-date: ''
 end-date: ''
 entry-date: '2022-06-09'
 github-discussion: 27
-version: 1.4.5
 datasets:
     - dataset: design-code
       name: design code

@@ -36,7 +36,6 @@ themes:
 - environment
 - heritage
 typology: geography
-version: 1.0
 wikidata: Q3457526
 wikipedia: Local_nature_reserve
 ---

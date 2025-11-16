@@ -42,7 +42,6 @@ start-date: ''
 themes:
 - environment
 typology: geography
-version: 1.0
 wikidata: Q174945
 wikipedia: Area_of_Outstanding_Natural_Beauty
 ---

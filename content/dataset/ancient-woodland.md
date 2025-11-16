@@ -37,7 +37,6 @@ start-date: ''
 themes:
 - environment
 typology: geography
-version: 1.0
 wikidata: Q3078732
 wikipedia: Ancient_woodland
 ---

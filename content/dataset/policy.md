@@ -35,7 +35,6 @@ start-date: ''
 themes:
 - administrative
 typology: policy
-version: 1.0
 wikidata: ''
 wikipedia: ''
 ---
