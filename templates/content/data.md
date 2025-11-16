@@ -6,7 +6,7 @@ For {{ specification["plural"]}} you need to provide {{ ds|length }} dataset{{ "
 
 {% for d in specification["datasets"]|sort(attribute='priority') %}
 {%- set name = tables["dataset"][d["dataset"]]["name"] -%}
-* [{{ name | sentence_case }}](#{{ name.replace(" ", "-")  }}-dataset)
+* [{{ name | sentence_case }}](#{{ name.replace(" ", "")  }}-dataset)
 {% endfor %}
 
 Each {{ "each" if ds|length > 1  else "the" }} dataset needs to be provided
@@ -27,7 +27,7 @@ prepare are documented below, and formally defined in the
 
 ### Field names
 
-You can use upper- or lower-case names for your fields, and any punctuation characters are ignored,
+You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
 meaning the following examples are all valid ways of naming the `start-date` field in your data:
 
 * `StartDate`
