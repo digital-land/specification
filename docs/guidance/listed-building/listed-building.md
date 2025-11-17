@@ -2,7 +2,7 @@
 title: Provide your Listed building outline data
 name: Listed building outline
 url: 
-updated: 2025-06-24
+entry-date: 2025-06-24
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

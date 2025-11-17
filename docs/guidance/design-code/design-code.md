@@ -2,7 +2,7 @@
 title: Provide your Design code data
 name: Design code
 url: 
-updated: 2022-06-09
+entry-date: 2022-06-09
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

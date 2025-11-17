@@ -2,7 +2,7 @@
 title: Provide your Infrastructure funding statement data
 name: Infrastructure funding statement
 url: 
-updated: 2023-11-23
+entry-date: 2023-11-23
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

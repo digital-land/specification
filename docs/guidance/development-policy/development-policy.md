@@ -2,7 +2,7 @@
 title: Provide your Development policy data
 name: Development policy
 url: 
-updated: 2023-04-05
+entry-date: 2023-04-05
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

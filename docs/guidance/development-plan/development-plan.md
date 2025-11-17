@@ -2,7 +2,7 @@
 title: Provide your Development plan data
 name: Development plan
 url: 
-updated: 2024-08-15
+entry-date: 2024-08-15
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

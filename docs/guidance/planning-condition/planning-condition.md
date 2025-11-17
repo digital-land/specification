@@ -2,7 +2,7 @@
 title: Provide your Planning condition data
 name: Planning condition
 url: 
-updated: 2023-11-09
+entry-date: 2023-11-09
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

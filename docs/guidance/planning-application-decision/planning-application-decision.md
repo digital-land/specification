@@ -2,7 +2,7 @@
 title: Provide your Planning application decision data
 name: Planning application decision
 url: 
-updated: 2025-02-13
+entry-date: 2025-02-13
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

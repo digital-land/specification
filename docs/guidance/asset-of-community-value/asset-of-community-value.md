@@ -2,7 +2,7 @@
 title: Provide your Asset of community value data
 name: Asset of community value
 url: 
-updated: 2025-03-04
+entry-date: 2025-03-04
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

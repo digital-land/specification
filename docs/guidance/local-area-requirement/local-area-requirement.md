@@ -2,7 +2,7 @@
 title: Provide your Local area requirement data
 name: Local area requirement
 url: 
-updated: 2024-08-01
+entry-date: 2024-08-01
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

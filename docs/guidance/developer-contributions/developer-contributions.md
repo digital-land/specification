@@ -2,7 +2,7 @@
 title: Provide your Developer contributions data
 name: Developer contributions
 url: 
-updated: 2022-06-09
+entry-date: 2022-06-09
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

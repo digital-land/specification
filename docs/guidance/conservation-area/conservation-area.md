@@ -2,7 +2,7 @@
 title: Provide your Conservation area data
 name: Conservation area
 url: 
-updated: 2023-09-08
+entry-date: 2023-09-08
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

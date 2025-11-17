@@ -2,7 +2,7 @@
 title: Provide your Brownfield land data
 name: Brownfield land
 url: https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data
-updated: 2022-06-09
+entry-date: 2022-06-09
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

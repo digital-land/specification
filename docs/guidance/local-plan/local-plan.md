@@ -2,7 +2,7 @@
 title: Provide your local plan data
 name: local plan
 url: 
-updated: 2025-11-08
+entry-date: 2025-11-08
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

@@ -2,7 +2,7 @@
 title: Provide your Community infrastructure levy data
 name: Community infrastructure levy
 url: 
-updated: 2024-12-12
+entry-date: 2024-12-12
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"

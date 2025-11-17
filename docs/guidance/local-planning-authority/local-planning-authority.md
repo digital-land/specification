@@ -2,7 +2,7 @@
 title: Provide your local planning authority data
 name: local planning authority
 url: 
-updated: 2025-11-05
+entry-date: 2025-11-05
 summary: 
 breadcrumbs:
 - name: "Housing, local and community"
