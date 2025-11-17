@@ -4,7 +4,7 @@ name: Listed building outline
 url: 
 summary: 
 entry-date: 2025-06-24
-updated: 2025-06-24
+updated: 24 June 2025
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

@@ -4,7 +4,7 @@ name: Development policy
 url: 
 summary: 
 entry-date: 2023-04-05
-updated: 2023-04-05
+updated: 5 April 2023
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

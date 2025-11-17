@@ -4,7 +4,7 @@ name: Conservation area
 url: 
 summary: 
 entry-date: 2023-09-08
-updated: 2023-09-08
+updated: 8 September 2023
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

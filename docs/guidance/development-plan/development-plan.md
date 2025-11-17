@@ -4,7 +4,7 @@ name: Development plan
 url: 
 summary: 
 entry-date: 2024-08-15
-updated: 2024-08-15
+updated: 15 August 2024
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

@@ -4,7 +4,7 @@ name: local plan
 url: 
 summary: 
 entry-date: 2025-11-08
-updated: 2025-11-08
+updated: 8 November 2025
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

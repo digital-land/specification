@@ -4,7 +4,7 @@ name: Planning application decision
 url: 
 summary: 
 entry-date: 2025-02-13
-updated: 2025-02-13
+updated: 13 February 2025
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

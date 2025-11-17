@@ -4,7 +4,7 @@ name: Local area requirement
 url: 
 summary: 
 entry-date: 2024-08-01
-updated: 2024-08-01
+updated: 1 August 2024
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

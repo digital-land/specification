@@ -4,7 +4,7 @@ name: infrastructure project
 url: 
 summary: 
 entry-date: 2023-09-14
-updated: 2023-09-14
+updated: 14 September 2023
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

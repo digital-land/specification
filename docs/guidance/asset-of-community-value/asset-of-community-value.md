@@ -4,7 +4,7 @@ name: Asset of community value
 url: 
 summary: 
 entry-date: 2025-03-04
-updated: 2025-03-04
+updated: 4 March 2025
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

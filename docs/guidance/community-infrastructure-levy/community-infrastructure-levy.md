@@ -4,7 +4,7 @@ name: Community infrastructure levy
 url: 
 summary: 
 entry-date: 2024-12-12
-updated: 2024-12-12
+updated: 12 December 2024
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

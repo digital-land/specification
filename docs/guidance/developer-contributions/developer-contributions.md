@@ -4,7 +4,7 @@ name: Developer contributions
 url: 
 summary: 
 entry-date: 2022-06-09
-updated: 2022-06-09
+updated: 9 June 2022
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

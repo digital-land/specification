@@ -4,7 +4,7 @@ name: Planning condition
 url: 
 summary: 
 entry-date: 2023-11-09
-updated: 2023-11-09
+updated: 9 November 2023
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
