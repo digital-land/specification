@@ -2,8 +2,9 @@
 title: Provide your Development plan data
 name: Development plan
 url: 
-entry-date: 2024-08-15
 summary: 
+entry-date: 2024-08-15
+updated: 2024-08-15
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

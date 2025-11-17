@@ -2,8 +2,9 @@
 title: Provide your Planning application decision data
 name: Planning application decision
 url: 
-entry-date: 2025-02-13
 summary: 
+entry-date: 2025-02-13
+updated: 2025-02-13
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

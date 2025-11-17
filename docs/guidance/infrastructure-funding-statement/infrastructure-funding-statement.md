@@ -2,8 +2,9 @@
 title: Provide your Infrastructure funding statement data
 name: Infrastructure funding statement
 url: 
-entry-date: 2023-11-23
 summary: 
+entry-date: 2023-11-23
+updated: 2023-11-23
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

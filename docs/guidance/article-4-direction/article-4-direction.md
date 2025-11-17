@@ -2,8 +2,9 @@
 title: Provide your Article 4 direction data
 name: Article 4 direction
 url: 
-entry-date: 2025-11-08
 summary: 
+entry-date: 2025-11-08
+updated: 2025-11-08
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

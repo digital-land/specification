@@ -2,8 +2,9 @@
 title: Provide your Local area requirement data
 name: Local area requirement
 url: 
-entry-date: 2024-08-01
 summary: 
+entry-date: 2024-08-01
+updated: 2024-08-01
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

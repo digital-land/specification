@@ -2,8 +2,9 @@
 title: Provide your Listed building outline data
 name: Listed building outline
 url: 
-entry-date: 2025-06-24
 summary: 
+entry-date: 2025-06-24
+updated: 2025-06-24
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

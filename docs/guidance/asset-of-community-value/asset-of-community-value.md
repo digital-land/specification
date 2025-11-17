@@ -2,8 +2,9 @@
 title: Provide your Asset of community value data
 name: Asset of community value
 url: 
-entry-date: 2025-03-04
 summary: 
+entry-date: 2025-03-04
+updated: 2025-03-04
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

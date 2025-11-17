@@ -2,8 +2,9 @@
 title: Provide your local plan timetable data
 name: local plan timetable
 url: 
-entry-date: 2025-11-05
 summary: 
+entry-date: 2025-11-05
+updated: 2025-11-05
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

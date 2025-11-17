@@ -2,8 +2,9 @@
 title: Provide your Conservation area data
 name: Conservation area
 url: 
-entry-date: 2023-09-08
 summary: 
+entry-date: 2023-09-08
+updated: 2023-09-08
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

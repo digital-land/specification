@@ -2,8 +2,9 @@
 title: Provide your Developer contributions data
 name: Developer contributions
 url: 
-entry-date: 2022-06-09
 summary: 
+entry-date: 2022-06-09
+updated: 2022-06-09
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

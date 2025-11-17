@@ -2,8 +2,9 @@
 title: Provide your infrastructure project data
 name: infrastructure project
 url: 
-entry-date: 2023-09-14
 summary: 
+entry-date: 2023-09-14
+updated: 2023-09-14
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

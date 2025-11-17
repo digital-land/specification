@@ -2,8 +2,9 @@
 title: Provide your Planning condition data
 name: Planning condition
 url: 
-entry-date: 2023-11-09
 summary: 
+entry-date: 2023-11-09
+updated: 2023-11-09
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community

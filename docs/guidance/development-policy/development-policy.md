@@ -2,8 +2,9 @@
 title: Provide your Development policy data
 name: Development policy
 url: 
-entry-date: 2023-04-05
 summary: 
+entry-date: 2023-04-05
+updated: 2023-04-05
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
