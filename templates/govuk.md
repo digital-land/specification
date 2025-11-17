@@ -3,7 +3,7 @@
 title: {{ title }}
 name: {{ specification["name"] }}
 url: {{ specification["documentation-url"] }}
-updated: {{ specification["entry-date"] }}
+entry-date: {{ specification["entry-date"] }}
 summary: {{ specification["summary"] }}
 breadcrumbs:
 - name: "Housing, local and community"

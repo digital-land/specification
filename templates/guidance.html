@@ -202,12 +202,13 @@ ol.steps li::before {
 
 {% set page_caption = 'Guidance' %}
 {% set page_title = item["title"] %}
-{% set key = tables["specification"][name] %}
-{% set page_date = tables["specification"]["entry-date"] %}
+{% set key = item["name"] %}
 
 {% block dl_content %}
 <div class="govuk-phase-banner">
   <p class="govuk-phase-banner__content">
+    <p class="govuk-body govuk-!-margin-bottom-1">{{ item["entry-date"] | govuk_date }}</p>
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       Working Draft
     </strong>

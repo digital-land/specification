@@ -253,6 +253,12 @@ def check_specification_fields():
 
 
 def check_specifications():
+    for specification, s in tables["specification"].items():
+        if not s["entry-date"]:
+            error(
+                "specificaton '%s' missing entry-date"
+                % (specification, dataset)
+            )
     check_specification_fields()
 
 

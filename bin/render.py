@@ -209,7 +209,10 @@ def dataset_sort(dataset):
 
 
 def govuk_date(value, format="%-d %B %Y"):
-    return datetime.fromisoformat(value).strftime(format)
+    if type(value) is str:
+        value = datetime.fromisoformat(value)
+
+    return value.strftime(format)
 
 
 if __name__ == "__main__":
