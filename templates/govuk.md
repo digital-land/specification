@@ -5,7 +5,7 @@ name: {{ specification["name"] }}
 url: {{ specification["documentation-url"] }}
 summary: {{ specification["summary"] }}
 entry-date: {{ specification["entry-date"] }}
-updated: {{ specification["entry-date"] }}
+updated: {{ specification["entry-date"] | govuk_date }}
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
