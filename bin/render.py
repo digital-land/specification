@@ -271,9 +271,16 @@ if __name__ == "__main__":
     #
     #  generate guidance from the specification
     #
-    for specification in tables["specification"]:
+    for specification, _s in tables["specification"].items():
         md = f"guidance/{specification}/{specification}.md"
         template = "govuk.md"
+
+        # flag if a specification has geospatial data
+        for _d in _s["datasets"]:
+            fields = [f["field"] for f in _d["fields"]]
+            if "geometry" in fields or "point" in fields:
+                _s["is-geospatial"] = True
+                break
 
         # create guidance in Govspeak
         render(
