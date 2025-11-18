@@ -20,12 +20,6 @@ fields:
   guidance: |
     Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/dataset/local-plan-event) values:
 
-    * `plan-adopted`
-    * `inspector-report-published`
-    * `submit-plan-for-examination`
-    * `planning-inspectorate-examination-start`
-    * `planning-inspectorate-examination-end`
-    * `planning-inspectorate-found-sound`
     * `timetable-published`
     * `reg-18-draft-local-plan-published`
     * `reg-18-public-consultation-start`
@@ -33,6 +27,12 @@ fields:
     * `reg-19-publication-local-plan-published`
     * `reg-19-public-consultation-start`
     * `reg-19-public-consultation-end`
+    * `submit-plan-for-examination`
+    * `planning-inspectorate-examination-start`
+    * `planning-inspectorate-examination-end`
+    * `planning-inspectorate-found-sound`
+    * `inspector-report-published`
+    * `plan-adopted`
     * `plan-withdrawn`
     * `plan-revoked`
 - field: document-url
