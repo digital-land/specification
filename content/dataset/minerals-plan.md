@@ -18,6 +18,14 @@ fields:
 - field: local-plan-process
 - field: minerals-plan-boundary
 - field: mineral-planning-authorities
+  description: mineral planning authority areas covered by the minerals plan
+  guidance: |
+    Enter the reference for the
+    [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineraly-planning-authority)
+    area covered by the minerals plan.
+    For a joint minerals plan, enter the list of Mineral Planning Authority references, each separated by semi-colon ';' character.
+  examples:
+    - value: 'GMCA'
 - field: name
 - field: notes
 - field: organisation
@@ -26,7 +34,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
-github-discussion: 
+github-discussion:
 guidance: |
     List the minerals plans you are responsible for with one row for each current, emerging or historical minerals plan.
 key-field: ''
