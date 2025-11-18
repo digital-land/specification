@@ -88,8 +88,13 @@ The {{ name }} dataset contains the following fields:
 
 {% for f in d["fields"] -%}
 {%- set field = f["field"] -%}
-{%- for _f, df in tables["dataset-field"][d["dataset"]].items() -%}
-{%- if _f == field %}
+{%- set sf = tables["specification-field"][specification["specification"]][d["dataset"]][field] -%}
+
+{%- if field in tables["dataset-field"][d["dataset"]] -%}
+{%- set df = tables["dataset-field"][d["dataset"]][field] -%}
+{%- else -%}
+{%- set df = tables["dataset-field"][sf["datasets"][0]][field] -%}
+{% endif %}
 
 #### {{ field }}
 
@@ -100,8 +105,7 @@ The {{ name }} dataset contains the following fields:
 {% endfor -%}
 {%- endif -%}
 
-{%- endif -%}
-{%- endfor -%}
+
 {%- endfor %}
 
 {% endfor %}

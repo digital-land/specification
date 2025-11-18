@@ -18,6 +18,14 @@ fields:
 - field: local-plan-process
 - field: waste-plan-boundary
 - field: waste-planning-authorities
+  description: waste planning authority areas covered by the waste plan
+  guidance: |
+    Enter the reference for the
+    [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
+    area covered by the waste plan.
+    For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon ';' character.
+  examples:
+    - value: 'GMCA'
 - field: name
 - field: notes
 - field: organisation

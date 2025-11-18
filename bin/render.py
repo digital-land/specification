@@ -89,6 +89,12 @@ def load_csv(table):
             if row.get(field, ""):
                 row[field] = json.loads(row[field])
 
+        # hack to process lists
+        for field in ["datasets"]:
+            if row.get(field, ""):
+                row[field] = row[field].split(";")
+            
+
 
 def load_content(table):
     for path in glob(f"content/{table}/*.md"):

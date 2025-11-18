@@ -21,7 +21,7 @@ fields:
   description: mineral planning authority areas covered by the minerals plan
   guidance: |
     Enter the reference for the
-    [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineraly-planning-authority)
+    [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
     area covered by the minerals plan.
     For a joint minerals plan, enter the list of Mineral Planning Authority references, each separated by semi-colon ';' character.
   examples:
