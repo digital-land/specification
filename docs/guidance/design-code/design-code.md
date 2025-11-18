@@ -78,6 +78,7 @@ Each each dataset needs to be provided
 in a separate CSV file 
 following the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+
 Where your dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
@@ -85,6 +86,7 @@ Where your dataset contains geospatial fields, you may use one of the following 
 * GML
 * KML
 * Geopackage
+
 
 The fields and format of the data you need to
 prepare are documented below, and formally defined in the
@@ -124,6 +126,7 @@ The platform will default a `start-date` to the first of the month, or the first
 * `2025-04`
 * `2025`
 
+
 ### Geometry and point fields
 
 All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the [Exchange of a location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
@@ -138,6 +141,7 @@ If you’re providing geospatial data in a CSV, the field must be encoded as wel
 
 When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native format for the geospatial data. 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
+
 
 ### Design code dataset
 

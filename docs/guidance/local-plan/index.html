@@ -359,15 +359,7 @@ and continue to iterate and improve it over time.</p>
 <p>Each each dataset needs to be provided
 in a separate CSV file 
 following the government 
-<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">tabular data standard</a>.
-Where your dataset contains geospatial fields, you may use one of the following formats: </p>
-<ul>
-<li>CSV</li>
-<li>GeoJSON</li>
-<li>GML</li>
-<li>KML</li>
-<li>Geopackage</li>
-</ul>
+<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">tabular data standard</a>.</p>
 <p>The fields and format of the data you need to
 prepare are documented below, and formally defined in the
 <a href="#technical-specifications">technical specifications</a> attached to this page.</p>
@@ -400,17 +392,6 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025-04</code></li>
 <li><code>2025</code></li>
 </ul>
-<h3 id="geometry-and-point-fields">Geometry and point fields</h3>
-<p>All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">Exchange of a location point</a>.</p>
-<p>A <code>geometry</code> field may contain a single <code>POLYGON</code> or a <code>MULTIPOLYGON</code> object. A <code>point</code> field may only contain a single <code>POINT</code> object.</p>
-<p>If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:</p>
-<ul>
-<li><code>MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,...</code> </li>
-<li><code>POLYGON ((1.188829 51.23478,1.188376 51.234909,...</code></li>
-<li><code>POINT (-3.466788 50.58151)</code></li>
-</ul>
-<p>When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native format for the geospatial data. 
-That is there is no need to duplicate the geospatial data into a <code>point</code> or <code>geometry</code> property or field.</p>
 <h3 id="local-plan-dataset">Local plan dataset</h3>
 <p>List the local plans you are responsible for with one row for each current, emerging or historical local plan.</p>
 <p>The local plan dataset contains the following fields:</p>
@@ -450,6 +431,24 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 <ul>
 <li><code class="value">E60000001</code></li>
 <li><code class="value">E60000132;E60000133;E60000135;E60000136</code></li>
+</ul>
+<h4 id="mineral-planning-authorities">mineral-planning-authorities</h4>
+<p>Enter the reference for the
+<a href="https://www.planning.data.gov.uk/dataset/mineral-planning-authority">Mineral Planning Authority</a>
+area covered by the minerals plan.
+For a joint minerals plan, enter the list of Mineral Planning Authority references, each separated by semi-colon &#39;;&#39; character.
+ For example:</p>
+<ul>
+<li><code class="value">GMCA</code></li>
+</ul>
+<h4 id="waste-planning-authorities">waste-planning-authorities</h4>
+<p>Enter the reference for the
+<a href="https://www.planning.data.gov.uk/dataset/waste-planning-authority">Waste Planning Authority</a>
+area covered by the waste plan.
+For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon &#39;;&#39; character.
+ For example:</p>
+<ul>
+<li><code class="value">GMCA</code></li>
 </ul>
 <h4 id="local-plan-process">local-plan-process</h4>
 <p>Indicate the local plan examination process for the local plan using one of the following values:</p>
@@ -510,32 +509,34 @@ See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authori
 <li><code class="value">E60000001</code> — The GSS code for the County Durham LPA area</li>
 </ul>
 <h4 id="required-housing">required-housing</h4>
-<p>Enter the amount of housing required (net additional housing)
-within this <code>local-planning-authority</code> area for this <code>local-plan</code>.
+<p>Enter the minimum number of homes that the plan seeks to provide
+within this <code>local-planning-authority</code> area.
  For example:</p>
 <ul>
 <li><code class="value">24852</code></li>
 </ul>
 <h4 id="committed-housing">committed-housing</h4>
 <p>Enter the amount of housing already committed for development
-by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.</p>
+within this <code>local-planning-authority</code> area.</p>
 <h4 id="allocated-housing">allocated-housing</h4>
-<p>Enter the amount of net additional housing which have been allocated to sites 
-by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.
+<p>Enter the total number of homes planned for through local plan housing site allocations
+including housing components of mixed-use site allocations
+within this <code>local-planning-authority</code> area.
  For example:</p>
 <ul>
 <li><code class="value">9239</code></li>
 </ul>
 <h4 id="broad-locations-housing">broad-locations-housing</h4>
-<p>Enter the amount of net additional housing expected to be delivered from broad locations for development 
-by the local plan within this <code>local-planning-authority</code> area by the <code>local-plan</code>.
+<p>Enter the total number of homes expected towards the end of the local plan period and attributed to
+‘broad locations for growth’, as opposed to site allocations
+within this <code>local-planning-authority</code> area.
  For example:</p>
 <ul>
 <li><code class="value">15660</code></li>
 </ul>
 <h4 id="windfall-housing">windfall-housing</h4>
-<p>Enter the amount of housing (net additional housing) expected to be delivered by windfall sites
-within this <code>local-planning-authority</code> area for this <code>local-plan</code>.</p>
+<p>Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
+within this <code>local-planning-authority</code> area.</p>
 <h4 id="entry-date_1">entry-date</h4>
 <p>Enter the date this data was created or modified.</p>
 <h4 id="start-date_1">start-date</h4>

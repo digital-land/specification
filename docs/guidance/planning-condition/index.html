@@ -358,15 +358,7 @@ and continue to iterate and improve it over time.</p>
 <p>Each each dataset needs to be provided
 in a separate CSV file 
 following the government 
-<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">tabular data standard</a>.
-Where your dataset contains geospatial fields, you may use one of the following formats: </p>
-<ul>
-<li>CSV</li>
-<li>GeoJSON</li>
-<li>GML</li>
-<li>KML</li>
-<li>Geopackage</li>
-</ul>
+<a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">tabular data standard</a>.</p>
 <p>The fields and format of the data you need to
 prepare are documented below, and formally defined in the
 <a href="#technical-specifications">technical specifications</a> attached to this page.</p>
@@ -399,17 +391,6 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025-04</code></li>
 <li><code>2025</code></li>
 </ul>
-<h3 id="geometry-and-point-fields">Geometry and point fields</h3>
-<p>All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">Exchange of a location point</a>.</p>
-<p>A <code>geometry</code> field may contain a single <code>POLYGON</code> or a <code>MULTIPOLYGON</code> object. A <code>point</code> field may only contain a single <code>POINT</code> object.</p>
-<p>If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:</p>
-<ul>
-<li><code>MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,...</code> </li>
-<li><code>POLYGON ((1.188829 51.23478,1.188376 51.234909,...</code></li>
-<li><code>POINT (-3.466788 50.58151)</code></li>
-</ul>
-<p>When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native format for the geospatial data. 
-That is there is no need to duplicate the geospatial data into a <code>point</code> or <code>geometry</code> property or field.</p>
 <h3 id="planning-condition-dataset">Planning condition dataset</h3>
 <p>The Planning condition dataset contains the following fields:</p>
 <h4 id="reference">reference</h4>
@@ -450,8 +431,6 @@ Great references are short, easy to read, to pronounce and remember.</p>
 <h4 id="document-url">document-url</h4>
 <h4 id="documentation-url">documentation-url</h4>
 <h4 id="description_1">description</h4>
-<h4 id="organisation_1">organisation</h4>
-<p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
 <h4 id="notes_1">notes</h4>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
 <h4 id="entry-date_1">entry-date</h4>

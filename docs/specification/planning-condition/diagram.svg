@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="532" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="532" height="300">
 <defs>
     <style>
     text{font-family:sans-serif; font-size:10px; dominant-baseline:middle;}
@@ -85,24 +85,20 @@
 <text x="473" y="130" class="datatype">string</text>
 <rect x="306" y="140" width="162" height="20" class="field"/>
 <rect x="468" y="140" width="64" height="20" class="datatype"/>
-<text x="311" y="150" class="field">organisation</text>
-<text x="473" y="150" class="datatype">curie</text>
+<text x="311" y="150" class="field">notes</text>
+<text x="473" y="150" class="datatype">text</text>
 <rect x="306" y="160" width="162" height="20" class="field"/>
 <rect x="468" y="160" width="64" height="20" class="datatype"/>
-<text x="311" y="170" class="field">notes</text>
-<text x="473" y="170" class="datatype">text</text>
+<text x="311" y="170" class="field">entry-date</text>
+<text x="473" y="170" class="datatype">datetime</text>
 <rect x="306" y="180" width="162" height="20" class="field"/>
 <rect x="468" y="180" width="64" height="20" class="datatype"/>
-<text x="311" y="190" class="field">entry-date</text>
+<text x="311" y="190" class="field">start-date</text>
 <text x="473" y="190" class="datatype">datetime</text>
 <rect x="306" y="200" width="162" height="20" class="field"/>
 <rect x="468" y="200" width="64" height="20" class="datatype"/>
-<text x="311" y="210" class="field">start-date</text>
+<text x="311" y="210" class="field">end-date</text>
 <text x="473" y="210" class="datatype">datetime</text>
-<rect x="306" y="220" width="162" height="20" class="field"/>
-<rect x="468" y="220" width="64" height="20" class="datatype"/>
-<text x="311" y="230" class="field">end-date</text>
-<text x="473" y="230" class="datatype">datetime</text>
 </g>
 <path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 70 C 266.0 70 266.0 30 226 30"/>
 </svg>
