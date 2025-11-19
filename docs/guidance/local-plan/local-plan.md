@@ -160,11 +160,17 @@ Enter one of the following values to indicate the type of local plan:
 
 #### period-start-date
 
-Enter the start of the plan period. This is usually just a year in `YYYY` format.
+Enter the start of the plan period. This is usually just a year in `YYYY` format. For example:
+
+* <code class="value">2026</code>
+
 
 #### period-end-date
 
-Enter the end of the plan period. This is may be just the year in `YYYY` format.
+Enter the end of the plan period. This is may be just the year in `YYYY` format. For example:
+
+* <code class="value">2038</code>
+
 
 #### local-planning-authorities
 
@@ -197,7 +203,7 @@ area covered by the waste plan.
 For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:
 
-* <code class="value">GMCA</code>
+* <code class="value">NLWA</code>
 
 
 #### local-plan-process
@@ -327,6 +333,9 @@ within this `local-planning-authority` area.
 
 Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
 within this `local-planning-authority` area.
+ For example:
+
+* <code class="value">160</code>
 
 
 #### entry-date

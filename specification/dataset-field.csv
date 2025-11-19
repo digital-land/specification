@@ -1911,7 +1911,7 @@ local-plan-housing,start-date,,,"Enter the date these numbers were finalised.
 ",,,,,
 local-plan-housing,windfall-housing,,total number of homes expected to arise from housing sites not specifically identified in the local plan,"Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
 within this `local-planning-authority` area.
-",,,,,
+",,,"[{""value"": 160}]",,
 local-plan-process,description,,,,,,,,
 local-plan-process,end-date,,,,,,,,
 local-plan-process,entity,entity,,,,,,,
@@ -2007,8 +2007,8 @@ local-plan,name,,local plan name,Use the title of the adopted local plan documen
 local-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
 local-plan,organisation,organisation,,,,,,,
 local-plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,
-local-plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is may be just the year in `YYYY` format.,,,,,
-local-plan,period-start-date,,start date of the period the plan covers,Enter the start of the plan period. This is usually just a year in `YYYY` format.,,,,,
+local-plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is may be just the year in `YYYY` format.,,,"[{""value"": 2038}]",,
+local-plan,period-start-date,,start date of the period the plan covers,Enter the start of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2026}]",,
 local-plan,prefix,prefix,,,,,,,
 local-plan,reference,,local plan reference,"Give each local plan a unique reference.
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
@@ -3501,7 +3501,7 @@ waste-plan,waste-planning-authorities,,waste planning authority areas covered by
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
 area covered by the waste plan.
 For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon ';' character.
-",,,"[{""value"": ""GMCA""}]",,
+",,,"[{""value"": ""NLWA""}]",,
 waste-plan,name,,,,,,,,
 waste-plan,notes,,,,,,,,
 waste-plan,organisation,organisation,,,,,,,
