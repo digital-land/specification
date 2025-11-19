@@ -211,6 +211,10 @@ Great references are short, easy to read, to pronounce and remember.
 
 
 
+#### organisation
+
+Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
+
 #### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.

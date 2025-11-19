@@ -21,6 +21,7 @@ erDiagram
         url document-url
         url documentation-url
         string description
+        string organisation
         string notes
         date entry-date
         date start-date
