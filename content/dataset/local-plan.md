@@ -91,9 +91,13 @@ fields:
 - field: period-end-date
   description: end date of the period the plan covers
   guidance: 'Enter the end of the plan period. This is may be just the year in `YYYY` format.'
+  examples:
+    - value: 2038
 - field: period-start-date
   description: start date of the period the plan covers
   guidance: 'Enter the start of the plan period. This is usually just a year in `YYYY` format.'
+  examples:
+    - value: 2026
 - field: prefix
 - field: reference
   description: local plan reference

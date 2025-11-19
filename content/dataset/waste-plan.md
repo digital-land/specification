@@ -25,7 +25,7 @@ fields:
     area covered by the waste plan.
     For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon ';' character.
   examples:
-    - value: 'GMCA'
+    - value: 'NLWA'
 - field: name
 - field: notes
 - field: organisation

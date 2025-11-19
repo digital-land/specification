@@ -85,6 +85,8 @@ fields:
   guidance: |
         Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
         within this `local-planning-authority` area.
+  examples:
+    - value: 160
 github-discussion: 26
 guidance: |
    Create a row containing the housing numbers for each local plan.
