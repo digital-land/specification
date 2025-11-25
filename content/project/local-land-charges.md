@@ -265,6 +265,8 @@ organisations:
   start-date: 2025-02-10
 - organisation: local-authority:WYC
   start-date: 2025-05-12
+- organisation: local-authority:WYR
+  start-date: 2025-12-19
 - organisation: local-authority:WYE
   start-date: 2024-04-19
 - organisation: local-authority:YOR

@@ -10,6 +10,7 @@ entity-minimum: '4700000'
 entry-date: ''
 fields:
 - field: company
+- field: development-corporation-boundary
 - field: end-date
 - field: entity
 - field: entry-date
