@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 'local-plan'
+collection:
 consideration: local-plans
 dataset: local-plan-process
 description: 'The examination process under which a local plan is produced'
