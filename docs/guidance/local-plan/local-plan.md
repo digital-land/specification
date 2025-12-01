@@ -69,7 +69,7 @@ and continue to iterate and improve it over time.
 
 For local plans you need to provide 3 datasets:
 
-* [Local plan](#localplan-dataset)
+* [Local plan](#Localplan-dataset)
 * [Local plan housing number](#localplanhousingnumber-dataset)
 * [Local plan document](#Localplandocument-dataset)
 
@@ -125,7 +125,7 @@ The platform will default a `start-date` to the first of the month, or the first
 List the local plans you are responsible for with one row for each current, emerging or historical local plan.
 
 
-The local plan dataset contains the following fields:
+The Local plan dataset contains the following fields:
 
 
 
