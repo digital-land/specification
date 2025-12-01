@@ -119,10 +119,10 @@ guidance: |
     List the local plans you are responsible for with one row for each current, emerging or historical local plan.
 key-field: ''
 licence: ogl3
-name: local plan
+name: Local plan
 paint-options: ''
 phase: alpha
-plural: local plans
+plural: Local plans
 prefix: ''
 realm: dataset
 -dataset: ''
