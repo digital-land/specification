@@ -15,6 +15,8 @@ fields:
 - field: fund
 - field: name
 - field: notes
+- field: project
+- field: reference
 - field: start-date
 key-field: 'fund'
 licence: ogl3
