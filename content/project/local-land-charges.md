@@ -17,6 +17,8 @@ organisations:
   start-date: 2022-01-20
 - organisation: local-authority:BAE
   start-date: 2023-09-21
+- organisation: local-authority:BAS
+  start-date: 2026-01-16
 - organisation: local-authority:BDF
   start-date: 2024-03-18
 - organisation: local-authority:BLA
