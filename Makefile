@@ -46,6 +46,7 @@ SPECIFICATION_CSV=\
 	specification/realm.csv\
 	specification/requirement-level.csv\
 	specification/role.csv\
+	specification/role-organisation.csv\
 	specification/theme.csv\
 	specification/guidance.csv\
 	specification/template.csv
