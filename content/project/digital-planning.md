@@ -1,5 +1,5 @@
 ---
-description: ''
+description: 'a programme within the Ministry of Housing, Communities and Local Government (MHCLG) with a mission to modernise the planning system in England and make it fit for the 21st century'
 end-date: ''
 entry-date: ''
 name: Digital Planning Programme

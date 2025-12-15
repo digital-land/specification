@@ -1,5 +1,5 @@
 ---
-description: ''
+description: 'a community of Local Planning Authorities working together to shape a more efficient, data-driven planning system'
 end-date: ''
 entry-date: ''
 name: Open Digital Planning

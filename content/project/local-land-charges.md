@@ -1,8 +1,9 @@
 ---
-description: ''
+description: 'HM Land Registry working in partnership with local authorities in England and Wales to standardise and migrate local land charges register information to one accessible place'
 end-date: ''
 entry-date: ''
 name: Local Land Charges Programme
+notes: This project is scraped from the project site
 parent-project: ''
 project: local-land-charges
 project-status: in-progress
