@@ -14,6 +14,8 @@ fields:
 - field: entry-date
 - field: intervention
 - field: name
+- field: project
+- field: reference
 - field: start-date
 key-field: 'intervention'
 licence: ogl3
