@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: development-corporation-boundary
 consideration: development-corporation-boundary
 dataset: development-corporation-boundary
 description: 'development corporation administrative boundaries'
