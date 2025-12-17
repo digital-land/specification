@@ -17,6 +17,7 @@ fields:
 - field: geography
 - field: geometry
 - field: legislation
+- field: legislation-url
 - field: name
 - field: notes
 - field: organisation
