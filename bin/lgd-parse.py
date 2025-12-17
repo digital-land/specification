@@ -18,7 +18,7 @@ for o, n in [
     ("Bath & North East Somerset Council", "Bath and North East Somerset Council"),
     ("Brighton and Hove Council", "Brighton and Hove City Council"),
     ("Croydon London Borough Council", "London Borough of Croydon"),
-    ("Cumberland", "Cumberland Unitary Authority"),
+    ("Cumberland", "Cumberland Council"),
     ("Colchester Borough Council", "Colchester City Council"),
     ("Hammersmith & Fulham Council", "London Borough of Hammersmith & Fulham"),
     ("Haringey Council", "London Borough of Haringey"),
