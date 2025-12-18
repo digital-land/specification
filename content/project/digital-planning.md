@@ -9,5 +9,4 @@ project-status: in-progress
 provision-reason: expected
 documentation-url: https://www.localdigital.gov.uk/digital-planning/
 start-date: ''
-organisations:
 ---

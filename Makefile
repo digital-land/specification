@@ -1,7 +1,7 @@
 NO_DATASET=true
 RENDER_COMMAND=python3 ./bin/render.py
 
-second-pass::	scraping specification guidance
+second-pass::	specification guidance
 
 include makerules/makerules.mk
 include makerules/specification.mk
@@ -51,20 +51,15 @@ SPECIFICATION_CSV=\
 	specification/guidance.csv\
 	specification/template.csv
 
-# these are scraped from other sites ..
-PROJECT_MD_GENERATED=\
-	content/project/local-land-charges.md\
-	content/project/localgov-drupal.md
-
 # datasets needed to generate specifications and guidance
+ORGANISATION_CSV=$(CACHE_DIR)organisation.csv
 DATASETS=\
-	$(CACHE_DIR)organisation.csv\
-	$(CACHE_DIR)/local-plan-process.md\
-    $(CACHE_DIR)/local-plan-event.md
-
-scraping:: $(PROJECT_MD_GENERATED)
+	$(ORGANISATION_CSV)\
+	$(CACHE_DIR)local-plan-process.md\
+    $(CACHE_DIR)local-plan-event.md
 
 specification:: $(SPECIFICATION_CSV)
+
 
 # TBD: consider moving generating the guidance to the existing guidance repository?
 guidance: 
@@ -93,8 +88,8 @@ FIELD_MD=$(sort $(wildcard content/field/*.md))
 specification/field.csv:	$(FIELD_MD) bin/load-markdown.py
 	python3 bin/load-markdown.py $@ $(FIELD_MD)
 
-PROJECT_MD=$(sort $(wildcard content/project/*.md)) $(PROJECT_MD_GENERATED)
-specification/project.csv:	$(PROJECT_MD) bin/load-markdown.py
+PROJECT_MD=$(sort $(wildcard content/project/*.md))
+specification/project.csv: bin/load-markdown.py
 	python3 bin/load-markdown.py $@ $(PROJECT_MD)
 
 PROJECT_STATUS_MD=$(sort $(wildcard content/project-status/*.md))
@@ -209,45 +204,59 @@ specification/requirement.csv:	content/requirement.csv
 	cp content/requirement.csv $@
 
 
-# build organisations in a project
-PROJECT_CSV=specification/project.csv
-COHORT_CSV=specification/cohort.csv
-specification/project-organisation.csv:	$(PROJECT_MD) $(PROJECT_CSV) $(COHORT_CSV) bin/project-organisation.py $(CACHE_DIR)organisation.csv
-	python3 bin/project-organisation.py $@
-
 specification/role-organisation.csv:	bin/role-organisation.py specification/role-organisation-rule.csv $(CACHE_DIR)organisation.csv
 	python3 bin/role-organisation.py $@
 
 specification/provision.csv:	bin/provision.py specification/provision-rule.csv specification/project.csv specification/role-organisation.csv specification/project-organisation.csv
 	python3 bin/provision.py $@
 
-# LLC project from GOV.UK list
-content/project/local-land-charges.md: var/llc.csv bin/llc-project.py
-	python3 bin/llc-project.py var/llc.csv > $@
+#
+#  scrape webpages for project-organisation
+#
+# build organisations in a project
+PROJECT_CSV=specification/project.csv
+COHORT_CSV=specification/cohort.csv
+AWARD_CSV=specification/award.csv
+PROJECT_ORGANISATION_FILES=\
+	var/project-organisation/local-land-charges.csv\
+	var/project-organisation/localgov-drupal.csv\
+	var/project-organisation/open-digital-planning.csv
 
-var/llc.csv: var/cache/llc.html var/cache/organisation.csv bin/llc-parse.py
-	python3 bin/llc-parse.py var/cache/llc.html $@
+specification/project-organisation.csv:	$(PROJECT_ORGANISATION_FILES) bin/project-organisation.py
+	python3 bin/project-organisation.py $@ $(PROJECT_ORGANISATION_FILES)
 
-var/cache/llc.html:
-	@mkdir -p var/cache/
+
+# local land charges programme ..
+var/project-organisation/local-land-charges.csv: var/cache/local-land-charges.html $(ORGANISATION_CSV) bin/llc-parse.py
+	@mkdir -p $(dir $@)
+	python3 bin/llc-parse.py var/cache/local-land-charges.html $@
+
+var/cache/local-land-charges.html:
+	@mkdir -p $(dir $@)
 	curl -L 'https://www.gov.uk/government/publications/hm-land-registry-local-land-charges-programme/local-land-charges-programme' > $@
 
-# localgov-drupal project from website list
-content/project/localgov-drupal.md: var/lgd.csv bin/lgd-project.py
-	@mkdir -p var/cache/
-	python3 bin/lgd-project.py var/lgd.csv > $@
 
-var/lgd.csv: var/cache/lgd.html var/cache/organisation.csv bin/lgd-parse.py
-	python3 bin/lgd-parse.py var/cache/lgd.html $@
+# localgov drupal project ..
+var/project-organisation/localgov-drupal.csv: var/cache/localgov-drupal.html $(ORGANISATION_CSV) bin/lgd-parse.py
+	@mkdir -p $(dir $@)
+	python3 bin/lgd-parse.py var/cache/localgov-drupal.html $@
 
-var/cache/lgd.html:
-	@mkdir -p var/cache/
+var/cache/localgov-drupal.html:
+	@mkdir -p $(dir $@)
 	curl -L -A 'MHCLG Planning Data Collector' 'https://localgovdrupal.org/community/our-councils' > $@
 
-# could check every html file ..
+#
+# open digital planning community ..
+var/project-organisation/open-digital-planning.csv: $(COHORT_CSV) $(AWARD_CSV) $(ORGANISATION_CSV) bin/odp-community.py
+	@mkdir -p $(dir $@)
+	python3 bin/odp-community.py $@
+
+
+# TBD: check anchors in every html file ..
 render::
 	python3 bin/check-anchors.py docs/specification/local-plan/index.html
 	python3 bin/check-anchors.py docs/specification/local-plan-timetable/index.html
+
 
 TESTING_DIR:=../testing-guidance/content/
 TESTING_SNAPSHOT_DIR:=$(TESTING_DIR)$(shell date +%Y-%m-%d)/
@@ -263,9 +272,12 @@ ifneq ("${TESTING_GUIDANCE}","")
 	cp docs/guidance/local-planning-authority/local-planning-authority.md $(TESTING_SNAPSHOT_DIR)
 endif
 
-# deprecated
+#
+# organisation-dataset has been deprecated, replaced by provision.csv ..
+#
 specification/organisation-dataset.csv:        specification/provision.csv
 	cp specification/provision.csv $@
+
 
 DATAPACKAGE_CSV=specification/datapackage.csv
 specification/datapackage-dataset.csv:	$(DATAPACKAGE_CSV) bin/datapackage-dataset.py
@@ -279,7 +291,6 @@ clean::
 	rm -rf var/
 clean clobber::
 	rm -f specification/*.csv
-	rm -f $(PROJECT_MD_GENERATED) 
 
 # generate mermaid diagrams
 MERMAID_MD=$(subst content/specification/,docs/mermaid/,$(SPECIFICATION_MD))
@@ -293,7 +304,7 @@ clobber::
 	rm -rf docs/mermaid/
 
 
-init::	var/cache/organisation.csv
+init::	$(ORGANISATION_CSV)
 
 
 # generate SVG diagrams

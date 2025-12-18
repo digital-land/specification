@@ -9,5 +9,4 @@ project-status: backlog
 provision-reason: authoritative
 start-date: ''
 specifications:
-organisations:
 ---

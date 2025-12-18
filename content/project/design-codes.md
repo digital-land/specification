@@ -1,5 +1,6 @@
 ---
 description: ''
+documentation-url: 'https://www.gov.uk/government/news/communities-empowered-to-shape-design-of-neighbourhoods'
 end-date: ''
 entry-date: ''
 name: Design codes
@@ -37,4 +38,5 @@ organisations:
 #East Midlands Development Company
 ---
 
-[Communities empowered to shape design of neighbourhoods](https://www.gov.uk/government/news/communities-empowered-to-shape-design-of-neighbourhoods).
+* [Councils given funding boost to develop new local design guide for housing development](https://www.gov.uk/government/news/councils-given-funding-boost-to-develop-new-local-design-guide-for-housing-development)
+* [Communities empowered to shape design of neighbourhoods](https://www.gov.uk/government/news/communities-empowered-to-shape-design-of-neighbourhoods)

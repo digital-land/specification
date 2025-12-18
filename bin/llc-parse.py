@@ -33,6 +33,7 @@ for o, n in [
     ("Sutton Council", "London Borough of Sutton"),
     ("York City Council", "City of York Council"),
     ("Southwark Council", "London Borough of Southwark"),
+    ("St Helens Borough Council", "St Helens Council"),
     ("Wyre Council", "Wyre Borough Council")
 ]:
     organisations[o] = organisations[n]
@@ -47,7 +48,7 @@ def find_organisation(name):
 
 pq = PyQuery(filename=sys.argv[1])
 
-fieldnames = ["organisation", "name", "start-date"]
+fieldnames = ["project", "organisation", "name", "start-date"]
 
 w = csv.DictWriter(open(sys.argv[2], "w", newline=""), fieldnames)
 w.writeheader()
@@ -57,11 +58,12 @@ for tr in pq("tr").items():
     cols = list(tr("td"))
     if cols:
         row = {}
+        row["project"] = "local-land-charges"
         row["name"] = cols[0].text
         row["start-date"] = datetime.strptime(cols[1].text.strip(), "%d %B %Y").strftime(
             "%Y-%m-%d"
         )
-        print(row, file=sys.stderr)
+        #print(row, file=sys.stderr)
         try:
             row["organisation"] = find_organisation(row["name"])
             if row["organisation"]:

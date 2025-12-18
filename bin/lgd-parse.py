@@ -53,7 +53,7 @@ def find_organisation(name):
 
 pq = PyQuery(filename=sys.argv[1])
 
-fieldnames = ["organisation", "name", "cohort"]
+fieldnames = ["project", "organisation", "name", "cohort"]
 errors = 0
 
 w = csv.DictWriter(open(sys.argv[2], "w", newline=""), fieldnames)
@@ -68,6 +68,7 @@ for h3 in pq("h3").items():
             name = re.sub("\s*\(.*$", "", name)
             row = {}
             row["name"] = name
+            row["project"] = "localgov-drupal"
             row["cohort"] = cohort
             try:
                 row["organisation"] = find_organisation(row["name"])

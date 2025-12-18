@@ -10,5 +10,4 @@ provision-reason: encouraged
 start-date: ''
 specifications:
 - developer-contributions
-organisations:
 ---
