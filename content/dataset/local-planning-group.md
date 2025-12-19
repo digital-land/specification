@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection:
 consideration: ''
 dataset: local-planning-group
-description: 'A group of Local Authorities responsible for a joint local plan'
+description: 'group of Local Authorities responsible for a joint local plan'
 end-date:
 entity-maximum: '62999'
 entity-minimum: '62000'
