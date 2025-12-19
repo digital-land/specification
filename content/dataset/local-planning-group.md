@@ -20,6 +20,7 @@ fields:
 - field: prefix
 - field: reference
 - field: start-date
+- field: website
 key-field: ''
 licence: ogl3
 name: Local planning group
