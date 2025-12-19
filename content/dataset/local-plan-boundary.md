@@ -12,6 +12,7 @@ fields:
 - field: end-date
 - field: entity
 - field: entry-date
+- field: local-planning-authorities
 - field: name
 - field: organisations
 - field: geometry
