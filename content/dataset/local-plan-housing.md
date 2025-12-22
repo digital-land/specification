@@ -93,7 +93,7 @@ guidance: |
    For a joint local plan, break the numbers down further by providing a separate row for each Local Planning Authority.
 key-field: ''
 licence: ogl3
-name: local plan housing number
+name: Local plan housing number
 paint-options: ''
 phase: alpha
 plural: local plan housing numbers
