@@ -70,7 +70,7 @@ and continue to iterate and improve it over time.
 For local plans you need to provide 3 datasets:
 
 * [Local plan](#Localplan-dataset)
-* [Local plan housing number](#localplanhousingnumber-dataset)
+* [Local plan housing number](#Localplanhousingnumber-dataset)
 * [Local plan document](#Localplandocument-dataset)
 
 
@@ -266,7 +266,7 @@ Create a row containing the housing numbers for each local plan.
 For a joint local plan, break the numbers down further by providing a separate row for each Local Planning Authority.
 
 
-The local plan housing number dataset contains the following fields:
+The Local plan housing number dataset contains the following fields:
 
 
 
