@@ -1495,24 +1495,24 @@ local-authority:COR,infrastructure-funding-statement,infrastructure-funding-stat
 local-authority:COR,planning-application,planning-application-decision,experimental,PA-LPA,local-planning-authority,,,,,1974-04-01,2021-03-31,
 local-authority:COR,planning-application-condition,planning-condition,experimental,PAC-LPA,local-planning-authority,,,,,1974-04-01,2021-03-31,
 local-authority:COR,planning-condition,planning-condition,experimental,PC-LPA,local-planning-authority,,,,,1974-04-01,2021-03-31,
-local-authority:COT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
-local-authority:COT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
+local-authority:COT,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
+local-authority:COT,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
 local-authority:COT,asset-of-community-value,asset-of-community-value,experimental,ACV-LPA,local-planning-authority,,,,,,,
 local-authority:COT,brownfield-land,brownfield-land,statutory,BFL-LPA,local-planning-authority,,,,,2017-04-16,,
 local-authority:COT,brownfield-site,,experimental,BFS-LPA,local-planning-authority,,,,,,,
-local-authority:COT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
-local-authority:COT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
+local-authority:COT,conservation-area,conservation-area,expected,CA-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
+local-authority:COT,conservation-area-document,conservation-area,expected,CAD-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
 local-authority:COT,developer-agreement,developer-contributions,encouraged,DA-LPA,local-planning-authority,,,,,,,
 local-authority:COT,developer-agreement-contribution,developer-contributions,encouraged,DAC-LPA,local-planning-authority,,,,,,,
 local-authority:COT,developer-agreement-transaction,developer-contributions,encouraged,DAT-LPA,local-planning-authority,,,,,,,
 local-authority:COT,infrastructure-funding-statement,infrastructure-funding-statement,prospective,IFS-LPA,local-planning-authority,,,,,,,
-local-authority:COT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
+local-authority:COT,listed-building-outline,listed-building,expected,LBO-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
 local-authority:COT,planning-application,planning-application-decision,experimental,PA-LPA,local-planning-authority,,,,,,,
 local-authority:COT,planning-application-condition,planning-condition,experimental,PAC-LPA,local-planning-authority,,,,,,,
 local-authority:COT,planning-condition,planning-condition,experimental,PC-LPA,local-planning-authority,,,,,,,
-local-authority:COT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
-local-authority:COT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
-local-authority:COT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,dpif-round-3,,,2025-03-01,,Viability and feasibility
+local-authority:COT,tree,tree-preservation-order,expected,TPOT-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
+local-authority:COT,tree-preservation-order,tree-preservation-order,expected,TPO-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
+local-authority:COT,tree-preservation-zone,tree-preservation-order,expected,TPOZ-ODP,,open-digital-planning,proptech-round-4,,,2024-02-01,,
 local-authority:COV,article-4-direction,article-4-direction,expected,A4-ODP,,open-digital-planning,BOPS-Alpha,,,2022-06-01,,
 local-authority:COV,article-4-direction-area,article-4-direction,expected,A4A-ODP,,open-digital-planning,BOPS-Alpha,,,2022-06-01,,
 local-authority:COV,asset-of-community-value,asset-of-community-value,experimental,ACV-LPA,local-planning-authority,,,,,1974-04-01,,
