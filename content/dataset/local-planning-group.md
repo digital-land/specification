@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: organisation
 consideration: ''
 dataset: local-planning-group
 description: 'group of Local Authorities responsible for a joint local plan'
