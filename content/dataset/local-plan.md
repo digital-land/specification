@@ -57,7 +57,7 @@ fields:
       Indicate the local plan examination process for the local plan using one of the following values:
 
       * `2012` for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements
-      * `2025` for plans prepared under *new Local Planning Regulations (TBD)*
+      * `2026` for plans prepared under *new Local Planning Regulations (TBD)*
 - field: local-planning-authorities
   description: local planning authority areas covered by the local plan
   guidance: |
