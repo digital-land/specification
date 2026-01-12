@@ -3,30 +3,55 @@
 import csv
 
 names = [
-    "Blackpool Council",
-    "Braintree District Council",
-    "Brighton and Hove City Council",
-    "Chelmsford Council",
-    "County of Herefordshire District Council",
-    "Dartford Borough Council",
-    "Derby City Council",
-    "Fenland District Council",
-    "Gedling Borough Council",
-    "Harlow Borough Council",
-    "Kings Lynn and West Norfolk Borough",
-    "Kingston Upon Thames Council",
-    "London Borough of Bexley",
-    "London Borough of Brent",
-    "London Borough of Hackney",
-    "Malvern Hills District Council",
-    "North Devon District Council",
-    "Nottingham City Council",
-    "Rotherham Metropolitan Borough Council",
-    "Swale Brough Council",
-    "Westmorland and Furness Council",
-    "Wiltshire Council",
-    "Worcester City Council",
-    "Wychavon District Council",
+        Bedford Borough Council 
+Blaby District Council 
+Bournemouth, Christchurch and Poole Council 
+Broads Authority 
+Burnley Borough Council 
+Cherwell District Council 
+Cheshire East Council 
+Chorley Borough Council 
+City of Bradford Metropolitan Council 
+Cornwall Council 
+Dartmoor National Park Authority 
+Dudley Metropolitan Borough Council 
+East Suffolk Council 
+Fareham Borough Council 
+Gravesham Borough Council 
+Kirklees Council 
+Lancaster City Council 
+Lichfield District Council 
+London Borough of Ealing 
+London Borough of Hammersmith and Fulham 
+London Borough of Merton 
+London Borough of Richmond upon Thames 
+London Borough of Sutton 
+Luton Borough Council 
+Middlesbrough Council 
+Newcastle under Lyme Borough Council 
+North West Leicestershire District Council 
+North York Moors National Park Authority 
+Norwich City Council 
+Nuneaton and Bedworth Borough Council 
+Peak District National Park Authority 
+Portsmouth City Council 
+Preston City Council 
+Reading Borough Council 
+Ribble Valley Council 
+Royal Borough of Greenwich 
+Rushcliffe Borough Council 
+Sevenoaks District Council 
+Slough Borough Council 
+South Ribble Borough Council 
+Stroud District Council 
+Sunderland City Council 
+Telford and Wrekin Council 
+Tonbridge and Malling Borough Council 
+Tunbridge Wells Borough Council 
+West Lancashire Borough Council 
+Woking Borough Council 
+Wokingham Borough Council 
+Wyre Forest District Council
 ]
 
 organisations = {}
@@ -66,8 +91,8 @@ if __name__ == "__main__":
         award = award + 1
         row = {
                 "award": award,
-                "start-date": "2025-09-23",
-                "fund": "odp-round-4.2",
+                "start-date": "2026-09-23",
+                "fund": "odp-round-4.1",
                 "intervention": "improvement",
                 "amount": "50000",
                 "organisation": organisation,
