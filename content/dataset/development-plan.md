@@ -17,7 +17,7 @@ fields:
     Enter one of the following values to indicate the type of development plan:
 
     * `local-plan`
-    * `suplementary-plan`
+    * `supplementary-plan`
     * `minerals-plan`
     * `waste-plan`
 - field: documentation-url
@@ -61,7 +61,7 @@ fields:
   guidance: |
     Enter the reference (the GSS code) for the 
     [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-    area covered by this local or suplimentary plan.
+    area covered by this local or supplementary plan.
     For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
   examples:
     - value: 'E60000001'

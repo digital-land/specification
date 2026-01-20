@@ -28,7 +28,7 @@ fields:
 - field: start-date
 github-discussion: 26
 guidance: |
-    List the suplimentary local plans you are responsible for with one row for each current, emerging or historical suplimentary local plan.
+    List the supplementary local plans you are responsible for with one row for each current, emerging or historical supplementary local plan.
 key-field: ''
 licence: ogl3
 name: local plan
