@@ -352,7 +352,7 @@ and continue to iterate and improve it over time.</p>
 <p>For development plans you need to provide 3 datasets:</p>
 <ul>
 <li><a href="#Developmentplan-dataset">Development plan</a></li>
-<li><a href="#Developmentplantimetable-dataset">Development plan timetable</a></li>
+<li><a href="#developmentplantimetable-dataset">Development plan timetable</a></li>
 <li><a href="#Localplanhousingnumber-dataset">Local plan housing number</a></li>
 </ul>
 <p>Each each dataset needs to be provided
@@ -409,7 +409,7 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code class="value">South Oxfordshire Joint Local Plan</code></li>
 </ul>
 <h4 id="dataset">dataset</h4>
-<p>Enter one of the following values to indicate the type of local plan:</p>
+<p>Enter one of the following values to indicate the type of development plan:</p>
 <ul>
 <li><code>local-plan</code></li>
 <li><code>suplementary-plan</code></li>
@@ -429,7 +429,7 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <h4 id="local-planning-authorities">local-planning-authorities</h4>
 <p>Enter the reference (the GSS code) for the 
 <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
-area covered by this local plan.
+area covered by this local or suplimentary plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:</p>
 <ul>
@@ -534,7 +534,7 @@ your timetable must include a row for each of the the following events:</p>
 <li><code>examination-submitted</code></li>
 <li><code>adopted</code></li>
 </ul>
-<p>Plans may also include a row for each of the following events:</p>
+<p>Your development plan timetable may also include rows with dates for each of the following events:</p>
 <ul>
 <li><code>main-modification-consultation-start</code></li>
 <li><code>main-modification-consultation-end</code></li>
@@ -547,7 +547,7 @@ your timetable must include a row for each of the the following events:</p>
 <li><code>withdrawn</code></li>
 <li><code>revoked</code></li>
 </ul>
-<p>The Development plan timetable dataset contains the following fields:</p>
+<p>The development plan timetable dataset contains the following fields:</p>
 <h4 id="reference_1">reference</h4>
 <p>Give each event a reference which is unique for the event within the dataset.
 Where a timetable has more than one event of the same type, you can add a date to make them unique.

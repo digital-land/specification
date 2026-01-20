@@ -69,7 +69,7 @@ and continue to iterate and improve it over time.
 For development plans you need to provide 3 datasets:
 
 * [Development plan](#Developmentplan-dataset)
-* [Development plan timetable](#Developmentplantimetable-dataset)
+* [Development plan timetable](#developmentplantimetable-dataset)
 * [Local plan housing number](#Localplanhousingnumber-dataset)
 
 
@@ -148,7 +148,7 @@ Use the title of the adopted local plan document. For example:
 
 #### dataset
 
-Enter one of the following values to indicate the type of local plan:
+Enter one of the following values to indicate the type of development plan:
 
 * `local-plan`
 * `suplementary-plan`
@@ -174,7 +174,7 @@ Enter the end of the plan period. This is usually just a year in `YYYY` format. 
 
 Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-area covered by this local plan.
+area covered by this local or suplimentary plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:
 
@@ -305,7 +305,7 @@ Supplimentary plans being produced under the new local plans process must contai
 * `examination-submitted`
 * `adopted`
 
-Plans may also include a row for each of the following events:
+Your development plan timetable may also include rows with dates for each of the following events:
 
 * `main-modification-consultation-start`
 * `main-modification-consultation-end`
@@ -319,7 +319,7 @@ Plans may also include a row for each of the following events:
 * `revoked`
 
 
-The Development plan timetable dataset contains the following fields:
+The development plan timetable dataset contains the following fields:
 
 
 
