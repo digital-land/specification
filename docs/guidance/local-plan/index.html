@@ -315,11 +315,8 @@ ol.steps li::before {
 <p>Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.</p>
-<p>There are currently no obligations on anyone to follow this guidance, however a
-future version of the technical specification may be published on GOV.UK,
-and cited as one of a number of official data standards for the provision of planning data under the 
-<a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>
-or other legislation.</p>
+<p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
+local plan, minerals plan, waste plan, or suplementary plan <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">created or updated using the new local plan system</a>.</p>
 
 <h2 id="providing-local-plan-data">Providing local plan data</h2>
 <p>Take the following steps to provide your local plan data:</p>
@@ -345,9 +342,11 @@ and edit it using a spreadsheet or other CSV editors.</p>
 <p>Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 and modify it using QGIS or other GIS tools.</p>
-<p>Your data does not need to be complete or perfect to start with.
+<p>You must provide data containing the mandatory fields identified here where 
+required by law.
+Otherwise your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
-so start by providing the local plans information you have,
+so start by providing the best local plans information you have,
 and continue to iterate and improve it over time.</p>
 <h3 id="files">Files</h3>
 <p>For local plans you need to provide 3 datasets:</p>
@@ -431,7 +430,7 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <h4 id="local-planning-authorities">local-planning-authorities</h4>
 <p>Enter the reference (the GSS code) for the 
 <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
-area covered by the local plan.
+area covered by this local plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:</p>
 <ul>
@@ -441,7 +440,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 <h4 id="mineral-planning-authorities">mineral-planning-authorities</h4>
 <p>Enter the reference for the
 <a href="https://www.planning.data.gov.uk/dataset/mineral-planning-authority">Mineral Planning Authority</a>
-area covered by the minerals plan.
+area covered by this minerals plan.
 For a joint minerals plan, enter the list of Mineral Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:</p>
 <ul>
@@ -450,7 +449,7 @@ For a joint minerals plan, enter the list of Mineral Planning Authority referenc
 <h4 id="waste-planning-authorities">waste-planning-authorities</h4>
 <p>Enter the reference for the
 <a href="https://www.planning.data.gov.uk/dataset/waste-planning-authority">Waste Planning Authority</a>
-area covered by the waste plan.
+area covered by this waste plan.
 For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:</p>
 <ul>
@@ -494,7 +493,8 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 <li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
 </ul>
 <h3 id="local-plan-housing-number-dataset">Local plan housing number dataset</h3>
-<p>Provide this dataset break the <code>housing-requirement</code> number down row for each Local Planning Authority within a joint local plan.
+<p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
+You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.</p>
 <p>The Local plan housing number dataset contains the following fields:</p>
 <h4 id="reference_1">reference</h4>

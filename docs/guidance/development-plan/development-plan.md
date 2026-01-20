@@ -25,11 +25,8 @@ Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
 
-<p>There are currently no obligations on anyone to follow this guidance, however a
-future version of the technical specification may be published on GOV.UK,
-and cited as one of a number of official data standards for the provision of planning data under the 
-<a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>
-or other legislation.</p>
+<p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
+local plan, minerals plan, waste plan, or suplementary plan <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">created or updated using the new local plan system</a>.</p>
 
 ## Providing development plan data
 
@@ -59,9 +56,11 @@ Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tools.
 
-Your data does not need to be complete or perfect to start with.
+You must provide data containing the mandatory fields identified here where 
+required by law.
+Otherwise your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
-so start by providing the development plans information you have,
+so start by providing the best development plans information you have,
 and continue to iterate and improve it over time.
 
 
@@ -175,7 +174,7 @@ Enter the end of the plan period. This is usually just a year in `YYYY` format. 
 
 Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-area covered by the local plan.
+area covered by this local plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:
 
@@ -187,7 +186,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 
 Enter the reference for the
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
-area covered by the minerals plan.
+area covered by this minerals plan.
 For a joint minerals plan, enter the list of Mineral Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:
 
@@ -198,7 +197,7 @@ For a joint minerals plan, enter the list of Mineral Planning Authority referenc
 
 Enter the reference for the
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
-area covered by the waste plan.
+area covered by this waste plan.
 For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:
 
@@ -275,7 +274,7 @@ You may provide notes on how this data was made, and help users differentiate th
 
 The development plan timetable is a record of the key events and milestones when producing a local plan.
 For new local plans the data must include an entry for each timetable event, and include a precise `predicted-date`.
-Update the data to include the actual date in the `start-date` field when the event took place.
+You need to update your data to include the actual date in the `start-date` field when the event took place.
 
 For local plans, minerals plans, and waste plans being produced under the new local plans process,
 your timetable must include a row for each of the the following events:
@@ -376,7 +375,8 @@ Enter any notes or commentary which helps you or others understand how this data
 
 ### Local plan housing number dataset
 
-Provide this dataset break the `housing-requirement` number down row for each Local Planning Authority within a joint local plan.
+Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
+You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.
 
 

@@ -137,7 +137,7 @@ crown-copyright,,development-plans-and-timetables,development-plan-geography,A g
 crown-copyright,,development-plans-and-timetables,development-plan-status,The different statuses a plan can have,2023-10-23,,26,,,5000000,5099999,ogl3,Development plan status,,Development plan statuses,alpha,,dataset,,,,development,category,,
 crown-copyright,,development-plans-and-timetables,development-plan-timetable,log of past and predicted milestones and events when producing a development plan,,2026-01-19,26,"The development plan timetable is a record of the key events and milestones when producing a local plan.
 For new local plans the data must include an entry for each timetable event, and include a precise `predicted-date`.
-Update the data to include the actual date in the `start-date` field when the event took place.
+You need to update your data to include the actual date in the `start-date` field when the event took place.
 
 For local plans, minerals plans, and waste plans being produced under the new local plans process,
 your timetable must include a row for each of the the following events:
@@ -294,7 +294,8 @@ crown-copyright,local-plan,development-plans-and-timetables,local-plan-document,
 Add a separate row with a link to each document on your website.
 ",,3800000,3899999,ogl3,Local plan document,,Local plan documents,alpha,,dataset,,,,development,document,,
 crown-copyright,local-plan,development-plans-and-timetables,local-plan-event,The different event types in a local plan timetable,,2024-10-22,26,,,2950000,2999999,ogl3,Local plan event,,Local plan events,alpha,,dataset,,,,development,category,,
-crown-copyright,local-plan,local-plans,local-plan-housing,Housing numbers for a Local Planning Authority in a local plan,,2024-10-26,26,"Provide this dataset break the `housing-requirement` number down row for each Local Planning Authority within a joint local plan.
+crown-copyright,local-plan,local-plans,local-plan-housing,Housing numbers for a Local Planning Authority in a local plan,,2024-10-26,26,"Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
+You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.
 ",,1100000,1199999,ogl3,Local plan housing number,,local plan housing numbers,alpha,,dataset,,,,development,legal-instrument,,
 crown-copyright,,local-plans,local-plan-process,The examination process under which a local plan is produced,,2025-11-02,26,,,60000,60999,ogl3,Local plan process,,Local plan processes,alpha,,dataset,,,,development,category,,

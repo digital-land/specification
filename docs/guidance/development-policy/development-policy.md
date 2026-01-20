@@ -59,9 +59,11 @@ Similarly, you can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tools.
 
-Your data does not need to be complete or perfect to start with.
+You must provide data containing the mandatory fields identified here where 
+required by law.
+Otherwise your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
-so start by providing the Development policies information you have,
+so start by providing the best Development policies information you have,
 and continue to iterate and improve it over time.
 
 
