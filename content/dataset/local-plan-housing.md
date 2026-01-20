@@ -89,7 +89,8 @@ fields:
     - value: 160
 github-discussion: 26
 guidance: |
-   Provide this dataset break the `housing-requirement` number down row for each Local Planning Authority within a joint local plan.
+   Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
+   You may also use this dataset to provide additional housing numbers related to a local plan.
    There is no need to provide this dataset for other kinds of plan.
 key-field: ''
 licence: ogl3
