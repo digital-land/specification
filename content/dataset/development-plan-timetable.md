@@ -65,7 +65,7 @@ github-discussion: 26
 guidance: |
     The development plan timetable is a record of the key events and milestones when producing a local plan.
     For new local plans the data must include an entry for each timetable event, and include a precise `predicted-date`.
-    Update the data to include the actual date in the `start-date` field when the event took place.
+    You need to update your data to include the actual date in the `start-date` field when the event took place.
 
     For local plans, minerals plans, and waste plans being produced under the new local plans process,
     your timetable must include a row for each of the the following events:
