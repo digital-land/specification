@@ -115,7 +115,7 @@
     
     <h2 class="govuk-heading-s" id="description">Description</h2>
     <p>
-    A The expected timetable for the stages a plan will go through.
+    A log of past and predicted milestones and events when producing a development plan.
     </p>
     
 
@@ -180,15 +180,6 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_event-date"><a href="../../field/event-date">event-date</a>
-          </td>
-          <td class="govuk-table__cell">Event date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
           </td>
           <td class="govuk-table__cell">Name</td>
@@ -211,6 +202,15 @@
           </td>
           <td class="govuk-table__cell">Organisation</td>
           <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_predicted-date"><a href="../../field/predicted-date">predicted-date</a>
+          </td>
+          <td class="govuk-table__cell">Predicted date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -263,6 +263,53 @@
     </table>
 
 
+    
+    <h2 class="govuk-heading-s" id="guidance">Guidance</h2>
+    <p>The development plan timetable is a record of the key events and milestones when producing a local plan.
+For new local plans the data must include an entry for each timetable event, and include a precise <code>predicted-date</code>.
+Update the data to include the actual date in the <code>start-date</code> field when the event took place.</p>
+<p>For local plans, minerals plans, and waste plans being produced under the new local plans process,
+your timetable must include a row for each of the the following events:</p>
+<ul>
+<li><code>commenced</code></li>
+<li><code>scoping-consultation-start</code></li>
+<li><code>scoping-consultation-end</code></li>
+<li><code>gateway-1-self-assessment</code></li>
+<li><code>content-consultation-start</code></li>
+<li><code>content-consultation-end</code></li>
+<li><code>gateway-2-advice-sought</code></li>
+<li><code>gateway-2-advice-published</code></li>
+<li><code>proposed-plan-consultation-start</code></li>
+<li><code>proposed-plan-consultation-end</code></li>
+<li><code>gateway-3-advice-sought</code></li>
+<li><code>gateway-3-advice-published</code></li>
+<li><code>gateway-3-further-advice-sought</code></li>
+<li><code>gateway-3-repeat-advice-published</code></li>
+<li><code>examination-submitted</code></li>
+<li><code>examination-recommendations-published</code></li>
+<li><code>adopted</code></li>
+</ul>
+<p>Supplimentary plans being produced under the new local plans process must contain a row for each of the following events:</p>
+<ul>
+<li><code>commenced</code></li>
+<li><code>proposed-plan-consultation-start</code></li>
+<li><code>proposed-plan-consultation-end</code></li>
+<li><code>examination-submitted</code></li>
+<li><code>adopted</code></li>
+</ul>
+<p>Plans may also include a row for each of the following events:</p>
+<ul>
+<li><code>main-modification-consultation-start</code></li>
+<li><code>main-modification-consultation-end</code></li>
+<li><code>examination-pause-start</code></li>
+<li><code>examination-pause-end</code></li>
+<li><code>additional-consultation-start</code></li>
+<li><code>additional-consultation-end</code></li>
+<li><code>annual-monitoring-report-published</code></li>
+<li><code>plan-evaluation-report-published</code></li>
+<li><code>withdrawn</code></li>
+<li><code>revoked</code></li>
+</ul>
     
 
     

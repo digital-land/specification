@@ -906,19 +906,46 @@ development-plan-document-type,prefix,prefix,,,,,,,
 development-plan-document-type,reference,,,,,,,,
 development-plan-document-type,start-date,,,,,,,,
 development-plan-document,description,,,,,,,,
-development-plan-document,development-plan,development-plan,,,,,,,
-development-plan-document,document-type,development-plan-document-type,,,,,,,
-development-plan-document,document-url,,,,,,,,
-development-plan-document,documentation-url,,,,,,,,
-development-plan-document,end-date,,,,,,,,
+development-plan-document,development-plan,development-plan,associated development plan,"Enter the reference for the development plan which the document is associated with.
+",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""central-lincolnshire""}, {""value"": ""local-plan:central-lincolnshire""}]",,
+development-plan-document,document-types,,,"Enter at least one of the following [development-plan-document-type](https://www.planning.data.gov.uk/dataset/development-plan-document-type) values:
+
+* `adoption-statement`
+* `area-action-plan`
+* `core-strategy`
+* `financial-viability-study`
+* `inspectors-report`
+* `local-development-scheme`
+* `local-plan`
+* `local-plan-review`
+* `policies-map`
+* `strategic-flood-risk-assessment`
+* `strategic-housing-market-assessment`
+* `supplementary-planning-document`
+* `sustainability-apprasial`
+* `site-allocations`
+* `viability-assessment`
+* `sustainability-appraisal`
+
+You can list more than one category, separated by a semi-colon ';' character.
+",,,"[{""value"": ""local-plan""}, {""value"": ""local-plan;core-strategy;site-allocations""}]",,
+development-plan-document,document-url,,,"Enter the URL for the document. This is often a PDF file.
+",,,,,
+development-plan-document,documentation-url,,development plan document documentation page,"Enter the URL of the webpage on your website which documents and links to this document.
+",,,"[{""value"": ""https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan""}]",,
+development-plan-document,end-date,,,"Enter date when the document was archived. Otherwise leave this field blank.
+",,,,,
 development-plan-document,entity,entity,,,,,,,
 development-plan-document,entry-date,,,,,,,,
-development-plan-document,name,,,,,,,,
+development-plan-document,name,,,"Enter the title of the document.
+",,,,,
 development-plan-document,notes,,,,,,,,
 development-plan-document,organisation,organisation,,,,,,,
 development-plan-document,prefix,prefix,,,,,,,
-development-plan-document,reference,,,,,,,,
-development-plan-document,start-date,,,,,,,,
+development-plan-document,reference,,,"Give each document a unique reference.
+",,,,,
+development-plan-document,start-date,,,"Enter the date the document was published.
+",,,,,
 development-plan-event,end-date,,,,,,,,
 development-plan-event,entity,entity,,,,,,,
 development-plan-event,entry-date,,,,,,,,
@@ -957,20 +984,33 @@ development-plan-status,notes,,,,,,,,
 development-plan-status,prefix,prefix,,,,,,,
 development-plan-status,reference,,,,,,,,
 development-plan-status,start-date,,,,,,,,
-development-plan-timetable,development-plan,development-plan,,,,,,,
-development-plan-timetable,development-plan-event,development-plan-event,,,,,,,
-development-plan-timetable,document-url,,,,,,,,
-development-plan-timetable,documentation-url,,,,,,,,
-development-plan-timetable,end-date,,,,,,,,
+development-plan-timetable,development-plan,development-plan,associated development plan,"Enter the reference of the development plan which this event forms part of its timetable.
+",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""central-lincolnshire""}]",,
+development-plan-timetable,development-plan-event,development-plan-event,,"Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference.
+",,,"[{""value"": ""commenced""}, {""value"": ""examination-submitted""}, {""value"": ""adopted""}]",,
+development-plan-timetable,document-url,,,"Provide the URL of a webpage on your website where this information is documented.
+For older plans, this is the Local Development Scheme, which is often a PDF or other document.
+This value may be left blank where the timetable information is published on the `documentation-url` webpage.
+",,,,,
+development-plan-timetable,documentation-url,,,"Provide the URL of the webpage on your website where this information is documented.
+",,,,,
+development-plan-timetable,end-date,,date when this event was removed from the timetable,"This field is currently unused in this dataset.
+",,,,,
 development-plan-timetable,entity,entity,,,,,,,
 development-plan-timetable,entry-date,,,,,,,,
-development-plan-timetable,event-date,,,,,,,,
+development-plan-timetable,predicted-date,,predicted date for the event,"Enter the date when this event is expected to happen.
+",,"New local plans require a single, precise date.
+When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.
+","[{""value"": ""2027-01-01""}]",,
 development-plan-timetable,name,,,,,,,,
 development-plan-timetable,notes,,,,,,,,
 development-plan-timetable,organisation,organisation,,,,,,,
 development-plan-timetable,prefix,prefix,,,,,,,
-development-plan-timetable,reference,,,,,,,,
-development-plan-timetable,start-date,,,,,,,,
+development-plan-timetable,reference,,,"Give each event a reference which is unique for the event within the dataset.
+Where a timetable has more than one event of the same type, you can add a date to make them unique.
+",,,"[{""value"": ""LP1-public-consultation""}, {""value"": ""LP1-public-consultation-2025""}]",,
+development-plan-timetable,start-date,,date of the timetable event,"Enter the date when the timetable event occured. Leave this field blank when the event is in the future.
+",,,,,
 development-plan-type,end-date,,,,,,,,
 development-plan-type,entity,entity,,,,,,,
 development-plan-type,entry-date,,,,,,,,
@@ -979,23 +1019,58 @@ development-plan-type,notes,,,,,,,,
 development-plan-type,prefix,prefix,,,,,,,
 development-plan-type,reference,,,,,,,,
 development-plan-type,start-date,,,,,,,,
-development-plan,adopted-date,,,,,,,,
-development-plan,description,,,,,,,,
-development-plan,development-plan-type,development-plan-type,,,,,,,
-development-plan,documentation-url,,,,,,,,
-development-plan,document-url,,,,,,,,
-development-plan,end-date,,,,,,,,
+development-plan,adopted-date,,,"The `start-date` field indicates when a plan came into force, that is adopted.
+",,This field has been deprecated. The `start-date` field records when a plan was adopted.,,,2025-11-01
+development-plan,dataset,dataset,,"Enter one of the following values to indicate the type of local plan:
+
+* `local-plan`
+* `suplementary-plan`
+* `minerals-plan`
+* `waste-plan`
+",,,,,
+development-plan,documentation-url,,local plan documentation page,"The URL of the webpage on your website for the local plan
+
+Each entry in the local plan dataset should link to a documentation webpage that includes the information 
+in the entry as well as links to where this data may be downloaded, and any other supporting documents.
+Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+to make the URL for each plan unique.
+",,,"[{""value"": ""https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2011""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2024""}]",,
+development-plan,document-url,,local plan core document,"Enter the URL for the main or core plan document. This is usually a PDF file.
+",,,"[{""value"": ""https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf""}]",,
+development-plan,end-date,,date a local plan was withdrawn or revoked,"Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
+",,,,,
 development-plan,entity,entity,,,,,,,
 development-plan,entry-date,,,,,,,,
-development-plan,development-plan-boundary,development-plan-boundary,,,,,,,
-development-plan,name,,,,,,,,
-development-plan,notes,,,,,,,,
-development-plan,organisations,,,,,,,,
-development-plan,period-end-date,,,,,,,,
-development-plan,period-start-date,,,,,,,,
+development-plan,local-plan-boundary,local-plan-boundary,area covered by the local plan,This area is created by the planning data platform from the local-planning-authorites values.,,,,,
+development-plan,local-plan-process,local-plan-process,examination process under which this local plan was or is being produced,"Indicate the local plan examination process for the local plan using one of the following values:
+
+* `2012` for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements
+* `2026` for plans prepared under *new Local Planning Regulations (TBD)*
+",,,,,
+development-plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the reference (the GSS code) for the 
+[Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
+area covered by the local plan.
+For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
+",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
+development-plan,name,,local plan name,Use the title of the adopted local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
+development-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
+development-plan,organisation,organisation,,,,,,,
+development-plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,
+development-plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2038}]",,
+development-plan,period-start-date,,start date of the period the plan covers,Enter the start of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2026}]",,
 development-plan,prefix,prefix,,,,,,,
-development-plan,reference,,,,,,,,
-development-plan,start-date,,,,,,,,
+development-plan,reference,,local plan reference,"Give each local plan a unique reference.
+",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
+development-plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide
+during the plan period.
+This field is mandatory for new local plans.
+Joint plans should also provide an entry for each `local-planning-authority` area
+in a separate `local-plan-housing` dataset.
+",,,"[{""example"": ""durham-local-plan"", ""entry-number"": 1, ""value"": 24852}]",,
+development-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
+This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
+Leave this value blank for plans which are being prepared, or haven't yet been adopted.
+",,,,,
 development-policy-area,development-policies,,,,,,,,
 development-policy-area,document-url,,,,,,,,
 development-policy-area,documentation-url,,,,,,,,

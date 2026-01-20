@@ -217,7 +217,7 @@ h1, h2::before, h3::before, h4::before {
 <div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
 
-    <p class="govuk-body govuk-!-margin-bottom-1">15 August 2024</p>
+    <p class="govuk-body govuk-!-margin-bottom-1">19 January 2026</p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
 
@@ -226,7 +226,7 @@ h1, h2::before, h3::before, h4::before {
     <p>
     This specification defines the contents and format of data which a
     <a href="https://www.legislation.gov.uk/ukpga/2023/55#term-relevant-planning-authority">relevant planning authority</a>
-    or other party may use to provide information about one or more Development plans.
+    or other party may use to provide headline information about development plans.
     </p>
 
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible"/>
@@ -295,113 +295,6 @@ h1, h2::before, h3::before, h4::before {
 
 
     <table class="govuk-table">
-    <caption class="govuk-table__caption govuk-table__caption--m" id="development-plan-boundary__fields">
-    Development plan boundary
-</caption>
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header">Field</th>
-      <th scope="col" class="govuk-table__header">Requirement</th>
-      <th scope="col" class="govuk-table__header">Datatype</th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_reference">reference</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_name">name</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-string">string</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_geometry">geometry</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-geometry">geometry</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_description">description</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-string">string</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_organisation">organisation</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_entry-date">entry-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-datetime">datetime</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_start-date">start-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-datetime">datetime</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-boundary_field_end-date">end-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-datetime">datetime</a>
-        </td>
-    </tr>
-    
-  </tbody>
-</table>
-
-    
-    
-
-
-    <table class="govuk-table">
     <caption class="govuk-table__caption govuk-table__caption--m" id="development-plan__fields">
     Development plan
 </caption>
@@ -418,7 +311,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_reference">reference</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-reference">reference</a>
         </td>
@@ -429,7 +322,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_name">name</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
         </td>
@@ -439,19 +332,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_description">description</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-string">string</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_development-plan-type">development-plan-type</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_dataset">dataset</a></th>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
         </td>
@@ -462,7 +344,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_period-start-date">period-start-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -473,7 +355,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_period-end-date">period-end-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -483,41 +365,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_development-plan-boundary">development-plan-boundary</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_documentation-url">documentation-url</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-URL">URL</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_adopted-date">adopted-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-datetime">datetime</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_organisations">organisations</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_local-planning-authorities">local-planning-authorities</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
         </td>
@@ -527,8 +376,74 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_mineral-planning-authorities">mineral-planning-authorities</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-string">string</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_waste-planning-authorities">waste-planning-authorities</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-string">string</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_local-plan-process">local-plan-process</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-string">string</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_documentation-url">documentation-url</a></th>
+        <td scope="row" class="govuk-table__cell">MUST</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-URL">URL</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_document-url">document-url</a></th>
+        <td scope="row" class="govuk-table__cell">MUST</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-URL">URL</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_required-housing">required-housing</a></th>
+        <td scope="row" class="govuk-table__cell">MUST</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-integer">integer</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_entry-date">entry-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -539,7 +454,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_start-date">start-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -550,9 +465,20 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_end-date">end-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">MAY</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_notes">notes</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-text">text</a>
         </td>
     </tr>
     
@@ -580,7 +506,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_reference">reference</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-reference">reference</a>
         </td>
@@ -590,19 +516,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_name">name</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-string">string</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_development-plan">development-plan</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
         </td>
@@ -613,7 +528,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_development-plan-event">development-plan-event</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
         </td>
@@ -623,8 +538,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_event-date">event-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_predicted-date">predicted-date</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -634,30 +549,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_notes">notes</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-text">text</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_organisation">organisation</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_entry-date">entry-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -668,7 +561,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_start-date">start-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -678,10 +571,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_end-date">end-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_notes">notes</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-datetime">datetime</a>
+          <a href="#datatype-text">text</a>
         </td>
     </tr>
     
@@ -693,8 +586,8 @@ h1, h2::before, h3::before, h4::before {
 
 
     <table class="govuk-table">
-    <caption class="govuk-table__caption govuk-table__caption--m" id="development-plan-document__fields">
-    Development plan document
+    <caption class="govuk-table__caption govuk-table__caption--m" id="local-plan-housing__fields">
+    Local plan housing number
 </caption>
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
@@ -708,8 +601,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_reference">reference</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_reference">reference</a></th>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-reference">reference</a>
         </td>
@@ -719,8 +612,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_name">name</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_local-plan">local-plan</a></th>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
         </td>
@@ -730,10 +623,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_description">description</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_required-housing">required-housing</a></th>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-string">string</a>
+          <a href="#datatype-integer">integer</a>
         </td>
     </tr>
     
@@ -741,10 +634,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_development-plan">development-plan</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_committed-housing">committed-housing</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-string">string</a>
+          <a href="#datatype-integer">integer</a>
         </td>
     </tr>
     
@@ -752,10 +645,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_document-type">document-type</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_allocated-housing">allocated-housing</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-string">string</a>
+          <a href="#datatype-integer">integer</a>
         </td>
     </tr>
     
@@ -763,10 +656,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_documentation-url">documentation-url</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_broad-locations-housing">broad-locations-housing</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-URL">URL</a>
+          <a href="#datatype-integer">integer</a>
         </td>
     </tr>
     
@@ -774,10 +667,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_document-url">document-url</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_windfall-housing">windfall-housing</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-URL">URL</a>
+          <a href="#datatype-integer">integer</a>
         </td>
     </tr>
     
@@ -785,19 +678,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_organisation">organisation</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_entry-date">entry-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_entry-date">entry-date</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -807,8 +689,8 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_start-date">start-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_start-date">start-date</a></th>
+        <td scope="row" class="govuk-table__cell">SHOULD</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -818,10 +700,21 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-document_field_end-date">end-date</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_end-date">end-date</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_local-plan-housing_field_notes">notes</a></th>
+        <td scope="row" class="govuk-table__cell">MAY</td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-text">text</a>
         </td>
     </tr>
     
@@ -845,258 +738,6 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <h3 id="development-plan-boundary-dataset" class="govuk-heading-m">
-    Development plan boundary
-</h3>
-    <p class="description">
-    The 
-    Development plan boundary
- dataset contains 
-    A boundary that a development plan covers.
-
-    </p>
-
-    <p class="assertion">The Development plan boundary dataset  contain at least one entry for each Development plan boundary for which the data provider is the responsible authority.</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_reference">Reference</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    a 
-    <code class="field">reference</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">reference</code> field MUST be
-    a 
-    <a href="#datatype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    A unique identifier for the boundary the plan covers. If it covers the planning authority boundary reference should be the planning authority boundary reference.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_name">Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    a 
-    <code class="field">name</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">name</code> field MUST be
-    a 
-    <a href="#datatype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    A name for the boundary. For example, `City of York boundary`.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_geometry">Geometry</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    A polygon or multipolygon boundary.
-
-</p>
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    a 
-    <code class="field">geometry</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">geometry</code> field MUST be
-    a 
-    <a href="#datatype-geometry">geometry</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The boundary in WKT format.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_description">Description</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    a 
-    <code class="field">description</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">description</code> field MUST be
-    a 
-    <a href="#datatype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    A description of the boundary. Provide more detail if boundary is different from planning authority boundary.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_organisation">Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Department, agency, body, company, group, or association of people.
-
-</p>
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    an 
-    <code class="field">organisation</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#datatype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    Reference to the organisation responsible for the designation.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_entry-date">Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Entry date of the data.
-
-</p>
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The date this information has been entered as a record.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_start-date">Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Date the entity became active or in force.
-
-</p>
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    a 
-    <code class="field">start-date</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The date the validity of the record starts.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-boundary_field_end-date">End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Date from which the entity is not longer active or in force.
-
-</p>
-
-    <p class="assertion">Each Development plan boundary entry MAY contain 
-    an 
-    <code class="field">end-date</code> field value.</p>
-    <p class="assertion">The Development plan boundary <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The date the validity of the record ends.
-
-</p>
-
-    
-    
-
     <h3 id="development-plan-dataset" class="govuk-heading-m">
     Development plan
 </h3>
@@ -1108,7 +749,7 @@ h1, h2::before, h3::before, h4::before {
 
     </p>
 
-    <p class="assertion">The Development plan dataset  contain at least one entry for each Development plan for which the data provider is the responsible authority.</p>
+    <p class="assertion">The Development plan dataset MUST contain at least one entry for each Development plan for which the data provider is the responsible authority.</p>
     
     
 
@@ -1120,8 +761,13 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Local plan reference.
 
-    <p class="assertion">Each Development plan entry MAY contain 
+</p>
+
+    <p class="assertion">Each Development plan entry MUST contain 
     a 
     <code class="field">reference</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">reference</code> field MUST be
@@ -1131,11 +777,7 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    An unique identifier for a development plan.
-
-</p>
     
     
 
@@ -1147,8 +789,13 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Local plan name.
 
-    <p class="assertion">Each Development plan entry MAY contain 
+</p>
+
+    <p class="assertion">Each Development plan entry SHOULD contain 
     a 
     <code class="field">name</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">name</code> field MUST be
@@ -1158,15 +805,11 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The name of the development plan (for example, The Adopted Local Plan for Leeds).
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan_field_description">Description</h4>
+    <h4 id="dataset_development-plan_field_dataset">Dataset</h4>
 
     
     
@@ -1175,50 +818,17 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
 
-    <p class="assertion">Each Development plan entry MAY contain 
+    <p class="assertion">Each Development plan entry MUST contain 
     a 
-    <code class="field">description</code> field value.</p>
-    <p class="assertion">The Development plan <code class="field">description</code> field MUST be
+    <code class="field">dataset</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">dataset</code> field MUST be
     a 
     <a href="#datatype-string">string</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    Brief description of plan.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan_field_development-plan-type">Development plan type</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan entry MAY contain 
-    a 
-    <code class="field">development-plan-type</code> field value.</p>
-    <p class="assertion">The Development plan <code class="field">development-plan-type</code> field MUST be
-    a 
-    <a href="#datatype-string">string</a> value.</p>
-
-    <p class="assertion">Each Development plan entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/development-plan-type">development-plan-type dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    A code for the plan type.
-
-</p>
     
     
 
@@ -1229,13 +839,14 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
-    The date for the beginning of the period the entity covers.
+    Start date of the period the plan covers.
 
 </p>
 
-    <p class="assertion">Each Development plan entry MAY contain 
+    <p class="assertion">Each Development plan entry SHOULD contain 
     a 
     <code class="field">period-start-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">period-start-date</code> field MUST be
@@ -1245,11 +856,7 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The start date of the period the plan covers.
-
-</p>
     
     
 
@@ -1260,13 +867,14 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
-    The end date of the period the entity covers.
+    End date of the period the plan covers.
 
 </p>
 
-    <p class="assertion">Each Development plan entry MAY contain 
+    <p class="assertion">Each Development plan entry SHOULD contain 
     a 
     <code class="field">period-end-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">period-end-date</code> field MUST be
@@ -1276,15 +884,39 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The end date of the period the plan covers.
+    
+    
+
+    <h4 id="dataset_development-plan_field_local-planning-authorities">Local Planning Authorities</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Local planning authority areas covered by the local plan.
 
 </p>
+
+    <p class="assertion">Each Development plan entry SHOULD contain 
+    a 
+    <code class="field">local-planning-authorities</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">local-planning-authorities</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
     
     
 
-    <h4 id="dataset_development-plan_field_development-plan-boundary">Development plan boundary</h4>
+    <h4 id="dataset_development-plan_field_mineral-planning-authorities">Mineral Planning Authorities</h4>
 
     
     
@@ -1293,21 +925,68 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
 
-    <p class="assertion">Each Development plan entry MAY contain 
+    <p class="assertion">Each Development plan entry SHOULD contain 
     a 
-    <code class="field">development-plan-boundary</code> field value.</p>
-    <p class="assertion">The Development plan <code class="field">development-plan-boundary</code> field MUST be
+    <code class="field">mineral-planning-authorities</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">mineral-planning-authorities</code> field MUST be
     a 
-    <a href="#datatype-reference">reference</a> value.</p>
+    <a href="#datatype-string">string</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The reference code for the boundary the plan covers.
+    
+    
+
+    <h4 id="dataset_development-plan_field_waste-planning-authorities">Waste Planning Authorities</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Development plan entry SHOULD contain 
+    a 
+    <code class="field">waste-planning-authorities</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">waste-planning-authorities</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="dataset_development-plan_field_local-plan-process">Local plan process</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Examination process under which this local plan was or is being produced.
 
 </p>
+
+    <p class="assertion">Each Development plan entry SHOULD contain 
+    a 
+    <code class="field">local-plan-process</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">local-plan-process</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
     
     
 
@@ -1319,8 +998,13 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Local plan documentation page.
 
-    <p class="assertion">Each Development plan entry MAY contain 
+</p>
+
+    <p class="assertion">Each Development plan entry MUST contain 
     a 
     <code class="field">documentation-url</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">documentation-url</code> field MUST be
@@ -1330,73 +1014,63 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The web page where you can find the documentation for the plan.
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan_field_adopted-date">Adopted date</h4>
+    <h4 id="dataset_development-plan_field_document-url">Document URL</h4>
 
     
     
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
-    The date a plan is officially adopted..
+    Local plan core document.
 
 </p>
 
-    <p class="assertion">Each Development plan entry MAY contain 
-    an 
-    <code class="field">adopted-date</code> field value.</p>
-    <p class="assertion">The Development plan <code class="field">adopted-date</code> field MUST be
+    <p class="assertion">Each Development plan entry MUST contain 
     a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
+    <code class="field">document-url</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">document-url</code> field MUST be
+    a 
+    <a href="#datatype-URL">URL</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date a plan is officially adopted.
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan_field_organisations">Organisations</h4>
+    <h4 id="dataset_development-plan_field_required-housing">Required housing</h4>
 
     
     
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
-    List of organisations..
+    Minimum number of homes that a plan seeks to provide during the plan period.
 
 </p>
 
-    <p class="assertion">Each Development plan entry MAY contain 
-    an 
-    <code class="field">organisations</code> field value.</p>
-    <p class="assertion">The Development plan <code class="field">organisations</code> field MUST be
+    <p class="assertion">Each Development plan entry MUST contain 
     a 
-    <a href="#datatype-string">string</a> value.</p>
+    <code class="field">required-housing</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">required-housing</code> field MUST be
+    an 
+    <a href="#datatype-integer">integer</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    A list of codes for the responsible organisations, separated by ;.
-
-</p>
     
     
 
@@ -1413,7 +1087,7 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each Development plan entry MAY contain 
+    <p class="assertion">Each Development plan entry SHOULD contain 
     an 
     <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">entry-date</code> field MUST be
@@ -1423,11 +1097,7 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date this information has been entered as a record.
-
-</p>
     
     
 
@@ -1438,13 +1108,14 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
-    Date the entity became active or in force.
+    Date when the plan was officially adopted.
 
 </p>
 
-    <p class="assertion">Each Development plan entry MAY contain 
+    <p class="assertion">Each Development plan entry SHOULD contain 
     a 
     <code class="field">start-date</code> field value.</p>
     <p class="assertion">The Development plan <code class="field">start-date</code> field MUST be
@@ -1454,11 +1125,7 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date the validity of the record starts.
-
-</p>
     
     
 
@@ -1469,9 +1136,10 @@ h1, h2::before, h3::before, h4::before {
     
 
 
-    <!- brute force for now, needs an index --><p class="description">
+    <!- brute force for now, needs an index -->
+            <p class="description">
     
-    Date from which the entity is not longer active or in force.
+    Date a local plan was withdrawn or revoked.
 
 </p>
 
@@ -1485,11 +1153,34 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date the validity of the record ends.
+    
+    
+
+    <h4 id="dataset_development-plan_field_notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Notes and commentary about how this data was made or may be interpreted.
 
 </p>
+
+    <p class="assertion">Each Development plan entry MAY contain 
+    a 
+    <code class="field">notes</code> field value.</p>
+    <p class="assertion">The Development plan <code class="field">notes</code> field MUST be
+    a 
+    <a href="#datatype-text">text</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
 
     
     
@@ -1501,11 +1192,11 @@ h1, h2::before, h3::before, h4::before {
     The 
     Development plan timetable
  dataset contains 
-    The expected timetable for the stages a plan will go through.
+    log of past and predicted milestones and events when producing a development plan.
 
     </p>
 
-    <p class="assertion">The Development plan timetable dataset  contain at least one entry for each Development plan timetable for which the data provider is the responsible authority.</p>
+    <p class="assertion">The Development plan timetable dataset MUST contain at least one entry for each Development plan timetable for which the data provider is the responsible authority.</p>
     
     
 
@@ -1518,39 +1209,12 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
 
-    <p class="assertion">Each Development plan timetable entry MAY contain 
+    <p class="assertion">Each Development plan timetable entry MUST contain 
     a 
     <code class="field">reference</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">reference</code> field MUST be
     a 
     <a href="#datatype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    An unique identifier for this record (for example, xyz-wquiw-309).
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-timetable_field_name">Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan timetable entry MAY contain 
-    a 
-    <code class="field">name</code> field value.</p>
-    <p class="assertion">The Development plan timetable <code class="field">name</code> field MUST be
-    a 
-    <a href="#datatype-string">string</a> value.</p>
 
     </li>
 
@@ -1567,8 +1231,13 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Associated development plan.
 
-    <p class="assertion">Each Development plan timetable entry MAY contain 
+</p>
+
+    <p class="assertion">Each Development plan timetable entry MUST contain 
     a 
     <code class="field">development-plan</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">development-plan</code> field MUST be
@@ -1578,11 +1247,7 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The code for a particular development plan (for example, dorcester-new-local-plan).
-
-</p>
     
     
 
@@ -1595,27 +1260,23 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
 
-    <p class="assertion">Each Development plan timetable entry MAY contain 
+    <p class="assertion">Each Development plan timetable entry MUST contain 
     a 
     <code class="field">development-plan-event</code> field value.</p>
     <p class="assertion">The Development plan timetable <code class="field">development-plan-event</code> field MUST be
     a 
     <a href="#datatype-string">string</a> value.</p>
 
-    <p class="assertion">Each Development plan timetable entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/development-plan-event">development-plan-event dataset.</a>
+    <p class="assertion">Each Development plan timetable entry MUST contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/local-plan-event">local-plan-event dataset.</a>
     </p></li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The code for a development plan event (for example plan-adopted).
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan-timetable_field_event-date">Event date</h4>
+    <h4 id="dataset_development-plan-timetable_field_predicted-date">Predicted date</h4>
 
     
     
@@ -1623,22 +1284,80 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Predicted date for the event.
 
-    <p class="assertion">Each Development plan timetable entry MAY contain 
-    an 
-    <code class="field">event-date</code> field value.</p>
-    <p class="assertion">The Development plan timetable <code class="field">event-date</code> field MUST be
+</p>
+            <div class="note"><p>New local plans require a single, precise date.
+When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.</p></div>
+
+    <p class="assertion">Each Development plan timetable entry SHOULD contain 
+    a 
+    <code class="field">predicted-date</code> field value.</p>
+    <p class="assertion">The Development plan timetable <code class="field">predicted-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date this event happened.
+    
+    
+
+    <h4 id="dataset_development-plan-timetable_field_entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
 
 </p>
+
+    <p class="assertion">Each Development plan timetable entry SHOULD contain 
+    an 
+    <code class="field">entry-date</code> field value.</p>
+    <p class="assertion">The Development plan timetable <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="dataset_development-plan-timetable_field_start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Date of the timetable event.
+
+</p>
+
+    <p class="assertion">Each Development plan timetable entry SHOULD contain 
+    a 
+    <code class="field">start-date</code> field value.</p>
+    <p class="assertion">The Development plan timetable <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
     
     
 
@@ -1665,155 +1384,27 @@ h1, h2::before, h3::before, h4::before {
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    Optional notes.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-timetable_field_organisation">Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Department, agency, body, company, group, or association of people.
-
-</p>
-
-    <p class="assertion">Each Development plan timetable entry MAY contain 
-    an 
-    <code class="field">organisation</code> field value.</p>
-    <p class="assertion">The Development plan timetable <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#datatype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The code for the responsible organisation (for example, local-authority-eng:BST).
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-timetable_field_entry-date">Entry date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Entry date of the data.
-
-</p>
-
-    <p class="assertion">Each Development plan timetable entry MAY contain 
-    an 
-    <code class="field">entry-date</code> field value.</p>
-    <p class="assertion">The Development plan timetable <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The date this information has been entered as a record.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-timetable_field_start-date">Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Date the entity became active or in force.
-
-</p>
-
-    <p class="assertion">Each Development plan timetable entry MAY contain 
-    a 
-    <code class="field">start-date</code> field value.</p>
-    <p class="assertion">The Development plan timetable <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The date the validity of the record starts.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-timetable_field_end-date">End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Date from which the entity is not longer active or in force.
-
-</p>
-
-    <p class="assertion">Each Development plan timetable entry MAY contain 
-    an 
-    <code class="field">end-date</code> field value.</p>
-    <p class="assertion">The Development plan timetable <code class="field">end-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The date the validity of the record ends.
-
-</p>
 
     
     
 
-    <h3 id="development-plan-document-dataset" class="govuk-heading-m">
-    Development plan document
+    <h3 id="local-plan-housing-dataset" class="govuk-heading-m">
+    Local plan housing number
 </h3>
     <p class="description">
     The 
-    Development plan document
+    Local plan housing number
  dataset contains 
-    .
+    Housing numbers for a Local Planning Authority in a local plan.
 
     </p>
 
-    <p class="assertion">The Development plan document dataset  contain at least one entry for each Development plan document for which the data provider is the responsible authority.</p>
+    <p class="assertion">The Local plan housing number dataset SHOULD contain at least one entry for each Local plan housing number for which the data provider is the responsible authority.</p>
     
     
 
-    <h4 id="dataset_development-plan-document_field_reference">Reference</h4>
+    <h4 id="dataset_local-plan-housing_field_reference">Reference</h4>
 
     
     
@@ -1821,26 +1412,27 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Local plan reference.
 
-    <p class="assertion">Each Development plan document entry MAY contain 
+</p>
+
+    <p class="assertion">Each Local plan housing number entry MUST contain 
     a 
     <code class="field">reference</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">reference</code> field MUST be
+    <p class="assertion">The Local plan housing number <code class="field">reference</code> field MUST be
     a 
     <a href="#datatype-reference">reference</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    An unique identifier for this record (for example, xyz-123-abc).
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan-document_field_name">Name</h4>
+    <h4 id="dataset_local-plan-housing_field_local-plan">Local plan</h4>
 
     
     
@@ -1849,25 +1441,21 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
 
-    <p class="assertion">Each Development plan document entry MAY contain 
+    <p class="assertion">Each Local plan housing number entry MUST contain 
     a 
-    <code class="field">name</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">name</code> field MUST be
+    <code class="field">local-plan</code> field value.</p>
+    <p class="assertion">The Local plan housing number <code class="field">local-plan</code> field MUST be
     a 
     <a href="#datatype-string">string</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The name of this document.
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan-document_field_description">Description</h4>
+    <h4 id="dataset_local-plan-housing_field_required-housing">Required housing</h4>
 
     
     
@@ -1875,171 +1463,139 @@ h1, h2::before, h3::before, h4::before {
 
 
     <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan document entry MAY contain 
-    a 
-    <code class="field">description</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">description</code> field MUST be
-    a 
-    <a href="#datatype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
+            <p class="description">
     
-    Brief description of this document.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-document_field_development-plan">Development plan</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan document entry MAY contain 
-    a 
-    <code class="field">development-plan</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">development-plan</code> field MUST be
-    a 
-    <a href="#datatype-string">string</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The code for the particular development plan (for example, dorcester-new-local-plan).
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-document_field_document-type">Document type</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan document entry MAY contain 
-    a 
-    <code class="field">document-type</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">document-type</code> field MUST be
-    a 
-    <a href="#datatype-string">string</a> value.</p>
-
-    <p class="assertion">Each Development plan document entry MAY contain a <code class="field">reference</code> value from the 
-    <a href="https://planning.data.gov.uk/dataset/development-plan-document-type">development-plan-document-type dataset.</a>
-    </p></li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The code for this document type (for example new-report).
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-document_field_documentation-url">Documentation URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Development plan document entry MAY contain 
-    a 
-    <code class="field">documentation-url</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">documentation-url</code> field MUST be
-    a 
-    <a href="#datatype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The webpage where you can find this document.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-document_field_document-url">Document URL</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    A url to a document.
+    Minimum number of homes that a plan seeks to provide during the plan period.
 
 </p>
 
-    <p class="assertion">Each Development plan document entry MAY contain 
+    <p class="assertion">Each Local plan housing number entry MUST contain 
     a 
-    <code class="field">document-url</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">document-url</code> field MUST be
-    a 
-    <a href="#datatype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-     <p class="description">
-    
-    The URL of the actual document.
-
-</p>
-    
-    
-
-    <h4 id="dataset_development-plan-document_field_organisation">Organisation</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Department, agency, body, company, group, or association of people.
-
-</p>
-
-    <p class="assertion">Each Development plan document entry MAY contain 
+    <code class="field">required-housing</code> field value.</p>
+    <p class="assertion">The Local plan housing number <code class="field">required-housing</code> field MUST be
     an 
-    <code class="field">organisation</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">organisation</code> field MUST be
-    a 
-    <a href="#datatype-reference">reference</a> value.</p>
+    <a href="#datatype-integer">integer</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The code for the responsible organisation (for example, local-authority-eng:BST).
+    
+    
+
+    <h4 id="dataset_local-plan-housing_field_committed-housing">Committed housing</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Amount of net additional housing already committed for development.
 
 </p>
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    a 
+    <code class="field">committed-housing</code> field value.</p>
+    <p class="assertion">The Local plan housing number <code class="field">committed-housing</code> field MUST be
+    an 
+    <a href="#datatype-integer">integer</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
     
     
 
-    <h4 id="dataset_development-plan-document_field_entry-date">Entry date</h4>
+    <h4 id="dataset_local-plan-housing_field_allocated-housing">Allocated housing</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Total number of homes planned for through local plan housing site allocations including mixed-use site allocations.
+
+</p>
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    an 
+    <code class="field">allocated-housing</code> field value.</p>
+    <p class="assertion">The Local plan housing number <code class="field">allocated-housing</code> field MUST be
+    an 
+    <a href="#datatype-integer">integer</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="dataset_local-plan-housing_field_broad-locations-housing">Broad locations housing</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Total number of homes expected from ‘broad locations for growth’.
+
+</p>
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    a 
+    <code class="field">broad-locations-housing</code> field value.</p>
+    <p class="assertion">The Local plan housing number <code class="field">broad-locations-housing</code> field MUST be
+    an 
+    <a href="#datatype-integer">integer</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="dataset_local-plan-housing_field_windfall-housing">Windfall housing</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+            <p class="description">
+    
+    Total number of homes expected to arise from housing sites not specifically identified in the local plan.
+
+</p>
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    a 
+    <code class="field">windfall-housing</code> field value.</p>
+    <p class="assertion">The Local plan housing number <code class="field">windfall-housing</code> field MUST be
+    an 
+    <a href="#datatype-integer">integer</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
+    
+    
+
+    <h4 id="dataset_local-plan-housing_field_entry-date">Entry date</h4>
 
     
     
@@ -2052,25 +1608,21 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each Development plan document entry MAY contain 
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
     an 
     <code class="field">entry-date</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">entry-date</code> field MUST be
+    <p class="assertion">The Local plan housing number <code class="field">entry-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date this information has been entered as a record.
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan-document_field_start-date">Start date</h4>
+    <h4 id="dataset_local-plan-housing_field_start-date">Start date</h4>
 
     
     
@@ -2083,25 +1635,21 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each Development plan document entry MAY contain 
+    <p class="assertion">Each Local plan housing number entry SHOULD contain 
     a 
     <code class="field">start-date</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">start-date</code> field MUST be
+    <p class="assertion">The Local plan housing number <code class="field">start-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date the validity of the record starts.
-
-</p>
     
     
 
-    <h4 id="dataset_development-plan-document_field_end-date">End date</h4>
+    <h4 id="dataset_local-plan-housing_field_end-date">End date</h4>
 
     
     
@@ -2114,21 +1662,44 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each Development plan document entry MAY contain 
+    <p class="assertion">Each Local plan housing number entry MAY contain 
     an 
     <code class="field">end-date</code> field value.</p>
-    <p class="assertion">The Development plan document <code class="field">end-date</code> field MUST be
+    <p class="assertion">The Local plan housing number <code class="field">end-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
     </li>
 
     <!-- deprecated specification description .. -->
-     <p class="description">
     
-    The date the validity of the record ends.
+    
+    
+
+    <h4 id="dataset_local-plan-housing_field_notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Notes and commentary about how this data was made or may be interpreted.
 
 </p>
+
+    <p class="assertion">Each Local plan housing number entry MAY contain 
+    a 
+    <code class="field">notes</code> field value.</p>
+    <p class="assertion">The Local plan housing number <code class="field">notes</code> field MUST be
+    a 
+    <a href="#datatype-text">text</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+    
 
 
 
@@ -2165,26 +1736,20 @@ h1, h2::before, h3::before, h4::before {
     
     
     <p class="assertion">
-    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#development-plan-boundary-dataset">Development plan boundary</a> data.
+    The endpoint documentation MUST include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#development-plan-dataset">Development plan</a> data.
     </p>
     
     
     <p class="assertion">
-    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#development-plan-dataset">development plan</a> data.
+    The endpoint documentation MUST include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#development-plan-timetable-dataset">Development plan timetable</a> data.
     </p>
     
     
     <p class="assertion">
-    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#development-plan-timetable-dataset">development plan timetable</a> data.
-    </p>
-    
-    
-    <p class="assertion">
-    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#development-plan-document-dataset">development plan document</a> data.
+    The endpoint documentation SHOULD include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#local-plan-housing-dataset">Local plan housing number</a> data.
     </p>
     
 
@@ -2209,7 +1774,7 @@ h1, h2::before, h3::before, h4::before {
 
     <!--
         TBD: explain about linking to document fragments ..
-    <p class="note">The reference may be used as a web page fragment identifier a web page with more information about the Development plan.</p>
+    <p class="note">The reference may be used as a web page fragment identifier a web page with more information about the development plan.</p>
     -->
 
     <p class="assertion">A reference value MUST be either a [<a href="#CURIE">CURIE</a>] or the reference part of a [<a href="#CURIE">CURIE</a>] identifier.</p>
