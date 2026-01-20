@@ -1024,7 +1024,7 @@ development-plan,adopted-date,,,"The `start-date` field indicates when a plan ca
 development-plan,dataset,dataset,,"Enter one of the following values to indicate the type of development plan:
 
 * `local-plan`
-* `suplementary-plan`
+* `supplementary-plan`
 * `minerals-plan`
 * `waste-plan`
 ",,,,,
@@ -1049,7 +1049,7 @@ development-plan,local-plan-process,local-plan-process,examination process under
 ",,,,,
 development-plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-area covered by this local or suplimentary plan.
+area covered by this local or supplementary plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
 ",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
 development-plan,name,,local plan name,Use the title of the adopted local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,

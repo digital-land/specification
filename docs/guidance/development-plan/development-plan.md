@@ -22,7 +22,7 @@ attachments:
 ^Follow this guidance when providing your development plan data.^
 
 <p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
-local plan, minerals plan, waste plan, or suplementary plan <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">created or updated using the new local plan system</a>.</p>
+local plan, minerals plan, waste plan, or supplementary plan <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">created or updated using the new local plan system</a>.</p>
 
 Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
@@ -161,7 +161,7 @@ Use the title of the adopted local plan document. For example:
 Enter one of the following values to indicate the type of development plan:
 
 * `local-plan`
-* `suplementary-plan`
+* `supplementary-plan`
 * `minerals-plan`
 * `waste-plan`
 
@@ -184,7 +184,7 @@ Enter the end of the plan period. This is usually just a year in `YYYY` format. 
 
 Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-area covered by this local or suplimentary plan.
+area covered by this local or supplementary plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
  For example:
 
