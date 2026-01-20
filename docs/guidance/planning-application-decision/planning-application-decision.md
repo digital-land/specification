@@ -21,15 +21,15 @@ attachments:
 
 ^Follow this guidance when providing your Planning application decision data.^
 
-Providing planning data means making it available publicly to a standard so that
-services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
-understand its quality, and trust it will be sustained.
-
 <p>There are currently no obligations on any party to provide data in conformance to this specification. 
 A future version of this specification may be published on GOV.UK,
 and cited as one of a number of official data standards for the provision of planning data under the 
 <a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>,
 other regulations, contracts, and agreements.</p>
+
+Providing planning data means making it available publicly to a standard so that
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
+understand its quality, and trust it will be sustained.
 
 ## Providing Planning application decision data
 

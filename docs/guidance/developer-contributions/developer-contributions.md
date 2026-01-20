@@ -21,10 +21,6 @@ attachments:
 
 ^Follow this guidance when providing your Developer contributions data.^
 
-Providing planning data means making it available publicly to a standard so that
-services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
-understand its quality, and trust it will be sustained.
-
 <p>The Community Infrastructure Levy (CIL) regulations require all local planning authorities that 
 issue a CIL liability notice or enter into section 106 planning obligations during a reporting year 
 to publish an infrastructure funding statement (IFS) at least annually. 
@@ -36,6 +32,10 @@ This guidance sets out a data format and approach that you can follow in order t
 <p>The data format and infrastructure funding statements will give policy makers and communities better insight into how developer contributions
 are supporting new development and local infrastructure.
 We have designed the data format to cause as little disruption as possible to existing processes.</p>
+
+Providing planning data means making it available publicly to a standard so that
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
+understand its quality, and trust it will be sustained.
 
 ## Providing Developer contributions data
 

@@ -21,12 +21,12 @@ attachments:
 
 ^Follow this guidance when providing your local plan data.^
 
+<p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
+local plan, minerals plan, waste plan, or suplementary plan <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">created or updated using the new local plan system</a>.</p>
+
 Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
-
-<p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
-local plan, minerals plan, waste plan, or suplementary plan <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">created or updated using the new local plan system</a>.</p>
 
 ## Providing local plan data
 
@@ -149,12 +149,6 @@ Use the title of the adopted local plan document. For example:
 
 #### dataset
 
-Enter one of the following values to indicate the type of local plan:
-
-* `local-plan`
-* `suplementary-plan`
-* `minerals-plan`
-* `waste-plan`
 
 
 #### period-start-date

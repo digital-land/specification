@@ -21,10 +21,6 @@ attachments:
 
 ^Follow this guidance when providing your Article 4 direction data.^
 
-Providing planning data means making it available publicly to a standard so that
-services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
-understand its quality, and trust it will be sustained.
-
 <p>Local Planning Authorities and other organisations 
 <a href="https://www.localdigital.gov.uk/digital-planning/funding/">funded by the Digital Planning Programme</a>
 to join the <a href="https://opendigitalplanning.org/digital-planning-improvement">Open Digital Planning community</a>
@@ -36,6 +32,10 @@ you can <a href="https://opendigitalplanning.org/join">join the community</a>.</
 and cited as one of a number of official data standards for the provision of planning data 
 by planning authorities under the 
 <a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>.</p>
+
+Providing planning data means making it available publicly to a standard so that
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
+understand its quality, and trust it will be sustained.
 
 ## Providing Article 4 direction data
 
