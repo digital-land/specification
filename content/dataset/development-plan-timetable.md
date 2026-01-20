@@ -96,7 +96,7 @@ guidance: |
     * `examination-submitted`
     * `adopted`
     
-    Plans may also include a row for each of the following events:
+    Your development plan timetable may also include rows with dates for each of the following events:
 
     * `main-modification-consultation-start`
     * `main-modification-consultation-end`
@@ -110,10 +110,10 @@ guidance: |
     * `revoked`
 key-field: ''
 licence: ogl3
-name: Development plan timetable
+name: development plan timetable
 paint-options: ''
 phase: alpha
-plural: Development plan timetables
+plural: development plan timetables
 prefix: ''
 realm: dataset
 replacement-dataset: ''
