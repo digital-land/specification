@@ -1,13 +1,30 @@
 {%- set ds = specification["datasets"] -%}
+{%- set ds_m = specification["datasets"]|selectattr("requirement-level", "eq", "MUST")|list -%}
+{%- set ds_o = specification["datasets"]|rejectattr("requirement-level", "eq", "MUST")|list -%}
 
 ### Files
 
-For {{ specification["plural"]}} you need to provide {{ ds|length }} dataset{{ "s" if ds|length > 1  else "" }}:
+{% if ds_m|length > 0 %}
+For {{ specification["plural"]}} you need to provide {{ ds_m|length }} dataset{{ "s" if ds_m|length > 1  else "" }}:
 
-{% for d in specification["datasets"]|sort(attribute='priority') %}
+{% for d in ds_m|sort(attribute='priority') %}
 {%- set name = tables["dataset"][d["dataset"]]["name"] -%}
 * [{{ name | sentence_case }}](#{{ name.replace(" ", "")  }}-dataset)
 {% endfor %}
+{% endif %}
+
+{% if ds_o|length > 0 %}
+{% if ds_m|length == 0 %}
+For {{ specification["plural"]}} you may provide the following dataset{{ "s" if ds_m|length > 1  else "" }}:
+{% else %}
+You may also provide the following dataset{{ "s" if ds_o|length > 1  else "" }}:
+{% endif %}
+
+{% for d in ds_o|sort(attribute='priority') %}
+{%- set name = tables["dataset"][d["dataset"]]["name"] -%}
+* [{{ name | sentence_case }}](#{{ name.replace(" ", "")  }}-dataset)
+{% endfor %}
+{% endif %}
 
 Each {{ "each" if ds|length > 1  else "the" }} dataset needs to be provided
 in a {{ "separate" if ds|length > 1  else "" }} CSV file 
