@@ -22,11 +22,11 @@ attachments:
 
 ^Follow this guidance when providing your {{specification["name"]}} data.^
 
+{{ tables["specification-reason"][specification["specification-reason"]]["guidance"] | markdown }}
+
 Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
-
-{{ tables["specification-reason"][specification["specification-reason"]]["guidance"] | markdown }}
 
 ## Providing {{ specification["name"] }} data
 
