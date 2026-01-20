@@ -127,10 +127,10 @@ fields:
 github-discussion: 26
 key-field: ''
 licence: ogl3
-name: Development plan
+name: development plan
 paint-options: ''
 phase: alpha
-plural: Development plans
+plural: development plans
 prefix: ''
 realm: dataset
 replacement-dataset: ''
