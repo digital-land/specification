@@ -22,7 +22,7 @@ fields:
   guidance: |
     Enter the reference for the
     [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
-    area covered by the minerals plan.
+    area covered by this minerals plan.
     For a joint minerals plan, enter the list of Mineral Planning Authority references, each separated by semi-colon ';' character.
   examples:
     - value: 'GMCA'
