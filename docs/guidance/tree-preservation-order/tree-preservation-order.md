@@ -75,11 +75,17 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Tree preservation orders you need to provide 3 datasets:
+
+
+
+
+For Tree preservation orders you may provide the following dataset:
+
 
 * [Tree preservation order](#Treepreservationorder-dataset)
 * [Tree preservation zone](#Treepreservationzone-dataset)
 * [Tree](#Tree-dataset)
+
 
 
 Each each dataset needs to be provided

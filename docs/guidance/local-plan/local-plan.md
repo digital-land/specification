@@ -66,11 +66,17 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For local plans you need to provide 3 datasets:
+
+
+
+
+For local plans you may provide the following dataset:
+
 
 * [Local plan](#Localplan-dataset)
 * [Local plan housing number](#Localplanhousingnumber-dataset)
 * [Local plan document](#Localplandocument-dataset)
+
 
 
 Each each dataset needs to be provided

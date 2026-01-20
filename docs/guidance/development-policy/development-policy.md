@@ -69,10 +69,16 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Development policies you need to provide 2 datasets:
+
+
+
+
+For Development policies you may provide the following dataset:
+
 
 * [Development policy](#Developmentpolicy-dataset)
 * [Development policy area](#Developmentpolicyarea-dataset)
+
 
 
 Each each dataset needs to be provided

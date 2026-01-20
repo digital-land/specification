@@ -69,9 +69,15 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Infrastructure funding statements you need to provide 1 dataset:
+
+
+
+
+For Infrastructure funding statements you may provide the following dataset:
+
 
 * [Infrastructure funding statement](#Infrastructurefundingstatement-dataset)
+
 
 
 Each the dataset needs to be provided

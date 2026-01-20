@@ -75,11 +75,17 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Developer contributions you need to provide 3 datasets:
+
+
+
+
+For Developer contributions you may provide the following dataset:
+
 
 * [Developer agreement](#Developeragreement-dataset)
 * [Developer agreement contribution](#Developeragreementcontribution-dataset)
 * [Developer agreement transaction](#Developeragreementtransaction-dataset)
+
 
 
 Each each dataset needs to be provided

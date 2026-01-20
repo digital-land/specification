@@ -69,10 +69,16 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Planning conditions you need to provide 2 datasets:
+
+
+
+
+For Planning conditions you may provide the following dataset:
+
 
 * [Planning condition](#Planningcondition-dataset)
 * [Planning application condition](#Planningapplicationcondition-dataset)
+
 
 
 Each each dataset needs to be provided

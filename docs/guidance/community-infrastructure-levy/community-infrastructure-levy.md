@@ -69,9 +69,15 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Community infrastructure levy you need to provide 1 dataset:
+
+
+
+
+For Community infrastructure levy you may provide the following dataset:
+
 
 * [Community infrastructure levy schedule](#Communityinfrastructurelevyschedule-dataset)
+
 
 
 Each the dataset needs to be provided

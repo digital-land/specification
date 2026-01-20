@@ -75,10 +75,16 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For conservation areas you need to provide 2 datasets:
+
+
+
+
+For conservation areas you may provide the following dataset:
+
 
 * [Conservation area](#Conservationarea-dataset)
 * [Conservation area document](#Conservationareadocument-dataset)
+
 
 
 Each each dataset needs to be provided

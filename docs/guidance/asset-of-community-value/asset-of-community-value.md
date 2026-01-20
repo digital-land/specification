@@ -69,9 +69,15 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Assets of community value you need to provide 1 dataset:
+
+
+
+
+For Assets of community value you may provide the following dataset:
+
 
 * [Asset of community value](#Assetofcommunityvalue-dataset)
+
 
 
 Each the dataset needs to be provided

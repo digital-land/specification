@@ -75,10 +75,16 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For article 4 directions you need to provide 2 datasets:
+
+
+
+
+For article 4 directions you may provide the following dataset:
+
 
 * [Article 4 direction](#Article4direction-dataset)
 * [Article 4 direction area](#Article4directionarea-dataset)
+
 
 
 Each each dataset needs to be provided

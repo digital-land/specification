@@ -69,11 +69,17 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For infrastructure projects you need to provide 3 datasets:
+
+
+
+
+For infrastructure projects you may provide the following dataset:
+
 
 * [Infrastructure project](#Infrastructureproject-dataset)
 * [Infrastructure project log](#Infrastructureprojectlog-dataset)
 * [Infrastructure project document](#Infrastructureprojectdocument-dataset)
+
 
 
 Each each dataset needs to be provided

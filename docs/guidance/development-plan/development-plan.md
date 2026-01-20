@@ -66,11 +66,21 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For development plans you need to provide 3 datasets:
 
-* [Development plan](#Developmentplan-dataset)
+For development plans you need to provide 2 datasets:
+
+* [Development plan](#developmentplan-dataset)
 * [Development plan timetable](#developmentplantimetable-dataset)
+
+
+
+
+
+You may also provide the following dataset:
+
+
 * [Local plan housing number](#Localplanhousingnumber-dataset)
+
 
 
 Each each dataset needs to be provided
@@ -123,7 +133,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-The Development plan dataset contains the following fields:
+The development plan dataset contains the following fields:
 
 
 

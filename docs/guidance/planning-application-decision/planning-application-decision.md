@@ -69,11 +69,17 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For Planning application decisions you need to provide 3 datasets:
+
+
+
+
+For Planning application decisions you may provide the following dataset:
+
 
 * [Planning application](#Planningapplication-dataset)
 * [Planning application log](#Planningapplicationlog-dataset)
 * [Planning application document](#Planningapplicationdocument-dataset)
+
 
 
 Each each dataset needs to be provided

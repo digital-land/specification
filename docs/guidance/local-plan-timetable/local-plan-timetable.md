@@ -69,9 +69,15 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For local plan timetables you need to provide 1 dataset:
+
+
+
+
+For local plan timetables you may provide the following dataset:
+
 
 * [Local plan timetable](#Localplantimetable-dataset)
+
 
 
 Each the dataset needs to be provided

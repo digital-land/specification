@@ -69,9 +69,15 @@ and continue to iterate and improve it over time.
 
 ### Files
 
-For local planning authorities you need to provide 1 dataset:
+
+
+
+
+For local planning authorities you may provide the following dataset:
+
 
 * [Local Planning Authority](#LocalPlanningAuthority-dataset)
+
 
 
 Each the dataset needs to be provided
