@@ -262,8 +262,8 @@ You may provide notes on how this data was made, and help users differentiate th
 
 ### Local plan housing number dataset
 
-Create a row containing the housing numbers for each local plan.
-For a joint local plan, break the numbers down further by providing a separate row for each Local Planning Authority.
+Provide this dataset break the `housing-requirement` number down row for each Local Planning Authority within a joint local plan.
+There is no need to provide this dataset for other kinds of plan.
 
 
 The Local plan housing number dataset contains the following fields:

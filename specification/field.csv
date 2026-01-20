@@ -385,6 +385,7 @@ n,,url,,2019-10-31,,PlanningHistory,,,Planning permission history,document-url,p
 1,,point,,,,point,,,Point,point-wkt,,,,value,,
 1,,string,,,,policy,,,Policy,policy,,,,policy,,
 1,,string,Postcode,,,postcode,,,postcode,geography,,,,geography,,
+1,,datetime,predicted date for an event,,,predicted-date,,,Predicted date,datetime,,,,value,,
 1,,datetime,predicted earliest date for an event,,,predicted-earliest-date,,,Prediction earliest date,period-start-date,,,,value,,
 1,,datetime,predicted latest date,,,predicted-latest-date,,,Predicted latest date,period-end-date,,,,value,,
 1,,url,,,,prefix-uri,,,CURIE prefix URI,value,,,,value,,

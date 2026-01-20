@@ -1,115 +1,111 @@
 ---
 specification: development-plan
-name: Development plan
-plural: Development plans
-specification-status: withdrawn
-specification-reason: prospective
-consideration: development-plans
+name: development plan
+plural: development plans
+description: headline information about development plans
+specification-status: working-draft
+specification-reason: local-plans-2025
+consideration: development-plans-and-timetables
+document-url: https://digital-land.github.io/specification/specification/development-plan/
 start-date: ''
 end-date: ''
-entry-date: '2024-08-15'
-notes: |
-   This specification describes a collective set of plans which are now expected to be 
-   separate `local-plan`, `waste-plan`, `minerals-plan`, `strategic-plan`, etc specifications.
+entry-date: '2026-01-19'
 github-discussion: 26
 datasets:
-    - dataset: development-plan-boundary
-      name: Development plan boundary
-      fields:
-          - field: reference
-            description: a unique identifier for the boundary the plan covers. If it covers the planning authority boundary reference should be the planning authority boundary reference
-          - field: name
-            description: a name for the boundary. For example, `City of York boundary`
-          - field: geometry
-            description: the boundary in WKT format 
-          - field: description
-            description: a description of the boundary. Provide more detail if boundary is different from planning authority boundary
-          - field: organisation
-            description: reference to the organisation responsible for the designation
-          - field: entry-date
-            description: the date this information has been entered as a record
-          - field: start-date
-            description: the date the validity of the record starts
-          - field: end-date
-            description: the date the validity of the record ends
     - dataset: development-plan
-      name: development plan
+      priority: 1
+      requirement-level: MUST
       fields:
           - field: reference
-            description: an unique identifier for a development plan
+            requirement-level: MUST
           - field: name
-            description: the name of the development plan (for example, The Adopted Local Plan for Leeds)
-          - field: description
-            description: brief description of plan
-          - field: development-plan-type
-            description: a code for the plan type
-            dataset: development-plan-type
+            requirement-level: SHOULD
+            assertions:
+                - reference: local-plan-A001
+                  requirement-level: SHOULD
+                  text: 'match the title of the document at `document-url`.'  
+          - field: dataset
+            requirement-level: MUST
           - field: period-start-date
-            description: the start date of the period the plan covers
+            requirement-level: SHOULD
           - field: period-end-date
-            description: the end date of the period the plan covers
-          - field: development-plan-boundary
-            description: the reference code for the boundary the plan covers
+            requirement-level: SHOULD
+          - field: local-planning-authorities
+            requirement-level: SHOULD
+            datasets:
+                - local-plan
+                - supplementary-plan
+          - field: mineral-planning-authorities
+            requirement-level: SHOULD
+            datasets:
+                - minerals-plan
+          - field: waste-planning-authorities
+            requirement-level: SHOULD
+            datasets:
+                - waste-plan
+          - field: local-plan-process
+            requirement-level: SHOULD
           - field: documentation-url
-            description: the web page where you can find the documentation for the plan
-          - field: adopted-date
-            description: the date a plan is officially adopted
-          - field: organisations
-            description: a list of codes for the responsible organisations, separated by ;
-          - field: entry-date
-            description: the date this information has been entered as a record
-          - field: start-date
-            description: the date the validity of the record starts
-          - field: end-date
-            description: the date the validity of the record ends
-    - dataset: development-plan-timetable
-      name: development plan timetable
-      fields:
-          - field: reference
-            description: An unique identifier for this record (for example, xyz-wquiw-309)
-          - field: name
-          - field: development-plan
-            description: The code for a particular development plan (for example, dorcester-new-local-plan)
-          - field: development-plan-event
-            reference: development-plan-event
-            description: The code for a development plan event (for example plan-adopted)
-            dataset: development-plan-event
-          - field: event-date
-            description: The date this event happened 
-          - field: notes
-            description: Optional notes
-          - field: organisation
-            description: The code for the responsible organisation (for example, local-authority-eng:BST)
-          - field: entry-date
-            description: the date this information has been entered as a record
-          - field: start-date
-            description: the date the validity of the record starts
-          - field: end-date
-            description: the date the validity of the record ends
-    - dataset: development-plan-document
-      name: development plan document
-      fields:
-          - field: reference
-            description: An unique identifier for this record (for example, xyz-123-abc)
-          - field: name
-            description: The name of this document
-          - field: description
-            description: Brief description of this document
-          - field: development-plan
-            description: The code for the particular development plan (for example, dorcester-new-local-plan)
-          - field: document-type
-            dataset: development-plan-document-type
-            description: The code for this document type (for example new-report)
-          - field: documentation-url
-            description: The webpage where you can find this document 
+            requirement-level: MUST
           - field: document-url
-            description: The URL of the actual document
-          - field: organisation
-            description: The code for the responsible organisation (for example, local-authority-eng:BST)
+            requirement-level: MUST
+            assertions:
+                - reference: local-plan-A002
+                  requirement-level: MUST
+                  text: 'link to the core local plan document described by this data.'
+          - field: required-housing
+            requirement-level: MUST
           - field: entry-date
-            description: the date this information has been entered as a record
+            requirement-level: SHOULD
           - field: start-date
-            description: the date the validity of the record starts
+            requirement-level: SHOULD
           - field: end-date
-            description: the date the validity of the record ends
+            requirement-level: MAY
+          - field: notes
+            requirement-level: MAY
+    - dataset: development-plan-timetable
+      priority: 2
+      requirement-level: MUST
+      fields:
+          - field: reference
+            requirement-level: MUST
+          - field: development-plan
+            requirement-level: MUST
+          - field: development-plan-event
+            requirement-level: MUST
+            dataset: local-plan-event
+          - field: predicted-date
+            requirement-level: SHOULD
+          - field: entry-date
+            requirement-level: SHOULD
+          - field: start-date
+            requirement-level: SHOULD
+          - field: notes
+            requirement-level: MAY
+    - dataset: local-plan-housing
+      priority: 3
+      requirement-level: SHOULD
+      fields:
+          - field: reference
+            requirement-level: MUST
+          - field: local-plan
+            requirement-level: MUST
+          - field: required-housing
+            requirement-level: MUST
+          - field: committed-housing
+            requirement-level: MAY
+          - field: allocated-housing
+            requirement-level: MAY
+          - field: broad-locations-housing
+            requirement-level: MAY
+          - field: windfall-housing
+            requirement-level: MAY
+          - field: entry-date
+            requirement-level: SHOULD
+          - field: start-date
+            requirement-level: SHOULD
+          - field: end-date
+            requirement-level: MAY
+          - field: notes
+            requirement-level: MAY
 ---

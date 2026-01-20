@@ -114,7 +114,7 @@
   <div class="govuk-grid-column-full">
     
 
-    <!--  -->
+    <!-- This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets. -->
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -139,27 +139,9 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_description"><a href="../../field/description">description</a>
+          <td class="govuk-table__cell" id="field_dataset"><a href="../../field/dataset">dataset</a>
           </td>
-          <td class="govuk-table__cell">Description</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_development-plan-boundary"><a href="../../field/development-plan-boundary">development-plan-boundary</a>
-          </td>
-          <td class="govuk-table__cell">Development plan boundary</td>
-          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_development-plan-type"><a href="../../field/development-plan-type">development-plan-type</a>
-          </td>
-          <td class="govuk-table__cell">Development plan type</td>
+          <td class="govuk-table__cell">Dataset</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
@@ -193,6 +175,33 @@
     
         
         <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-plan-boundary"><a href="../../field/local-plan-boundary">local-plan-boundary</a>
+          </td>
+          <td class="govuk-table__cell">Local plan boundary</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-plan-process"><a href="../../field/local-plan-process">local-plan-process</a>
+          </td>
+          <td class="govuk-table__cell">Local plan process</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-planning-authorities"><a href="../../field/local-planning-authorities">local-planning-authorities</a>
+          </td>
+          <td class="govuk-table__cell">Local Planning Authorities</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
           </td>
           <td class="govuk-table__cell">Name</td>
@@ -206,6 +215,15 @@
           </td>
           <td class="govuk-table__cell">Notes</td>
           <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
+          </td>
+          <td class="govuk-table__cell">Organisation</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -251,6 +269,15 @@
           </td>
           <td class="govuk-table__cell">Reference</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_required-housing"><a href="../../field/required-housing">required-housing</a>
+          </td>
+          <td class="govuk-table__cell">Required housing</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -302,11 +329,15 @@
     <p class="govuk-body">This dataset references the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../development-plan-boundary">Development plan boundary</a></li>
-    
-      <li><a href="../development-plan-type">Development plan type</a></li>
+      <li><a href="../dataset">Dataset</a></li>
     
       <li><a href="../entity">Entity</a></li>
+    
+      <li><a href="../local-plan-boundary">Local plan boundary</a></li>
+    
+      <li><a href="../local-plan-process">Local plan process</a></li>
+    
+      <li><a href="../local-planning-authority">Local Planning Authority</a></li>
     
       <li><a href="../organisation">Organisation</a></li>
     

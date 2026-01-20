@@ -264,6 +264,8 @@ render::
 ifneq ("${TESTING_GUIDANCE}","")
 	mkdir -p $(TESTING_DIR) $(TESTING_SNAPSHOT_DIR)
 	mkdir -p $(TESTING_SNAPSHOT_DIR)
+	cp docs/guidance/development-plan/development-plan.md $(TESTING_DIR)
+	cp docs/guidance/development-plan/development-plan.md $(TESTING_SNAPSHOT_DIR)
 	cp docs/guidance/local-plan/local-plan.md $(TESTING_DIR)
 	cp docs/guidance/local-plan/local-plan.md $(TESTING_SNAPSHOT_DIR)
 	cp docs/guidance/local-plan-timetable/local-plan-timetable.md $(TESTING_DIR)
