@@ -75,7 +75,7 @@ datasets:
             requirement-level: MUST
             dataset: local-plan-event
           - field: predicted-date
-            requirement-level: SHOULD
+            requirement-level: MUST
           - field: entry-date
             requirement-level: SHOULD
           - field: start-date
