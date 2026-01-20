@@ -15,13 +15,6 @@ fields:
   guidance: |
       The `start-date` field indicates when a plan came into force, that is adopted.
 - field: dataset
-  guidance: |
-    Enter one of the following values to indicate the type of local plan:
-
-    * `local-plan`
-    * `suplementary-plan`
-    * `minerals-plan`
-    * `waste-plan`
 - field: documentation-url
   description: local plan documentation page
   definition: URL of the [Source documentation](#source-documentation) page

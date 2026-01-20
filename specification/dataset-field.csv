@@ -2071,13 +2071,7 @@ such as when you expect a draft local plan to be adopted.
 ",,,,,
 local-plan,adopted-date,,,"The `start-date` field indicates when a plan came into force, that is adopted.
 ",,This field has been deprecated. The `start-date` field records when a plan was adopted.,,,2025-11-01
-local-plan,dataset,dataset,,"Enter one of the following values to indicate the type of local plan:
-
-* `local-plan`
-* `suplementary-plan`
-* `minerals-plan`
-* `waste-plan`
-",,,,,
+local-plan,dataset,dataset,,,,,,,
 local-plan,documentation-url,,local plan documentation page,"The URL of the webpage on your website for the local plan
 
 Each entry in the local plan dataset should link to a documentation webpage that includes the information 
