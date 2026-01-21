@@ -77,7 +77,7 @@ For local plans you may provide the following dataset:
 
 
 * [Local plan](#Local-plan-dataset)
-* [Local plan housing number](#Local-plan-housing-number-dataset)
+* [Local plan housing number](#local-plan-housing-number-dataset)
 * [Local plan document](#Local-plan-document-dataset)
 
 
@@ -269,7 +269,7 @@ You may also use this dataset to provide additional housing numbers related to a
 There is no need to provide this dataset for other kinds of plan.
 
 
-The Local plan housing number dataset contains the following fields:
+The local plan housing number dataset contains the following fields:
 
 
 

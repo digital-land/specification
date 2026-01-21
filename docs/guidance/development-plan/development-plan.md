@@ -82,7 +82,7 @@ For development plans you need to provide 2 datasets:
 You may also provide the following dataset:
 
 
-* [Local plan housing number](#Local-plan-housing-number-dataset)
+* [Local plan housing number](#local-plan-housing-number-dataset)
 
 
 
@@ -393,7 +393,7 @@ You may also use this dataset to provide additional housing numbers related to a
 There is no need to provide this dataset for other kinds of plan.
 
 
-The Local plan housing number dataset contains the following fields:
+The local plan housing number dataset contains the following fields:
 
 
 
