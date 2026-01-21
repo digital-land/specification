@@ -108,13 +108,20 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 ### Fields
 
 {% for requirement_level in ["MUST", "SHOULD", "MAY"] -%}
-{% if requirement_level == "MUST" %}Your {{ name }} data must {% elif requirement_level == "SHOULD" %}should {% else %}and may also {% endif  %}
-contain the following fields:
+{% if requirement_level == "MUST" %}
+Your {{ name }} data must contain the following fields:
+{% elif requirement_level == "SHOULD" %}
 
-{% for f in d["fields"] -%}{% if f["requirement-level"] == requirement_level %}
-* `{{ f["field"] }}`
-{% endif %}{% endfor %}
-{% endfor %}
+It should also contain the following fields:
+{% else %}
+
+It may also contain the following fields:
+{% endif  %}
+
+{% for f in d["fields"] -%}
+{%- if f["requirement-level"] == requirement_level %}
+* `{{ f["field"] }}`{%- endif -%}
+{%- endfor %}{% endfor %}
 
 {% for f in d["fields"] -%}
 {%- set field = f["field"] -%}
