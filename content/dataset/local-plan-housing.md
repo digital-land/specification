@@ -94,7 +94,7 @@ guidance: |
    There is no need to provide this dataset for other kinds of plan.
 key-field: ''
 licence: ogl3
-name: Local plan housing number
+name: local plan housing number
 paint-options: ''
 phase: alpha
 plural: local plan housing numbers
