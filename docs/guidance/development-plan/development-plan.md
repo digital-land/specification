@@ -144,10 +144,7 @@ Your development plan data must contain the following fields:
 
 
 * `reference`
-* `name`
 * `dataset`
-* `period-start-date`
-* `period-end-date`
 * `documentation-url`
 * `document-url`
 * `required-housing`
@@ -156,6 +153,9 @@ It should also contain the following fields:
 
 
 
+* `name`
+* `period-start-date`
+* `period-end-date`
 * `local-planning-authorities`
 * `mineral-planning-authorities`
 * `waste-planning-authorities`
