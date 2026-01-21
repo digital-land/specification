@@ -79,7 +79,7 @@ For local plans you may provide the following dataset:
 
 
 
-Each each dataset needs to be provided
+Each dataset needs to be provided
 in a separate CSV file 
 following the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).

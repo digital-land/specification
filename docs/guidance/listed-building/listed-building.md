@@ -86,7 +86,7 @@ For Listed building outlines you may provide the following dataset:
 
 
 
-Each the dataset needs to be provided
+The dataset needs to be provided
 in a  CSV file 
 following the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
