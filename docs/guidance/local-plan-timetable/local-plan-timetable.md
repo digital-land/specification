@@ -138,35 +138,29 @@ Provide your predicted range of dates for events which are in the future.
 
 ### Fields
 
-Your Local plan timetable data must 
-contain the following fields:
+
+Your Local plan timetable data must contain the following fields:
+
 
 
 * `reference`
-
 * `local-plan`
-
 * `local-plan-event`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `predicted-earliest-date`
-
 * `predicted-latest-date`
-
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `notes`
-
-
 
 
 

@@ -130,59 +130,41 @@ The platform will default a `start-date` to the first of the month, or the first
 
 ### Fields
 
-Your Brownfield land data must 
-contain the following fields:
+
+Your Brownfield land data must contain the following fields:
+
 
 
 * `SiteReference`
-
 * `SiteNameAddress`
-
 * `GeoX`
-
 * `GeoY`
-
 * `SiteplanURL`
-
 * `Hectares`
-
 * `OwnershipStatus`
-
 * `PlanningStatus`
-
 * `Deliverable`
-
 * `NetDwellingsRangeFrom`
-
 * `NetDwellingsRangeTo`
-
 * `FirstAddedDate`
-
 * `LastUpdatedDate`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `OrganisationURI`
-
 * `PermissionType`
-
 * `PermissionDate`
-
 * `PlanningHistory`
-
 * `HazardousSubstances`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `Notes`
-
 * `EndDate`
-
-
 
 
 

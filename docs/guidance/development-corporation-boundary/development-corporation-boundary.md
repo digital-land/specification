@@ -158,37 +158,30 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 ### Fields
 
-Your Development corporation boundary data must 
-contain the following fields:
+
+Your Development corporation boundary data must contain the following fields:
+
 
 
 * `reference`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `name`
-
 * `documentation-url`
-
 * `document-url`
-
 * `geometry`
-
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `end-date`
-
 * `notes`
-
-
 
 
 

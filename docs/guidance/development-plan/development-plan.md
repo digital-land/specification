@@ -138,51 +138,37 @@ The platform will default a `start-date` to the first of the month, or the first
 
 ### Fields
 
-Your development plan data must 
-contain the following fields:
+
+Your development plan data must contain the following fields:
+
 
 
 * `reference`
-
+* `name`
 * `dataset`
-
+* `period-start-date`
+* `period-end-date`
 * `documentation-url`
-
 * `document-url`
-
 * `required-housing`
 
-should 
-contain the following fields:
+It should also contain the following fields:
 
 
-* `name`
-
-* `period-start-date`
-
-* `period-end-date`
 
 * `local-planning-authorities`
-
 * `mineral-planning-authorities`
-
 * `waste-planning-authorities`
-
 * `local-plan-process`
-
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `end-date`
-
 * `notes`
-
-
 
 
 
@@ -355,7 +341,7 @@ your timetable must include a entry for each of the the following events:
 * `examination-recommendations-published`
 * `adopted`
 
-Supplimentary plans being produced under the new local plans process must contain a row for each of the following events:
+Supplementary plans being produced under the new local plans process must contain a row for each of the following events:
 
 * `commenced`
 * `proposed-plan-consultation-start`
@@ -379,33 +365,28 @@ Your development plan timetable may also include rows with dates for each of the
 
 ### Fields
 
-Your development plan timetable data must 
-contain the following fields:
+
+Your development plan timetable data must contain the following fields:
+
 
 
 * `reference`
-
 * `development-plan`
-
 * `development-plan-event`
-
 * `predicted-date`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `notes`
-
-
 
 
 
@@ -467,33 +448,28 @@ There is no need to provide this dataset for other kinds of plan.
 
 ### Fields
 
-Your local plan housing number data must 
-contain the following fields:
+
+Your local plan housing number data must contain the following fields:
+
 
 
 * `reference`
-
 * `local-plan`
-
 * `required-housing`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `end-date`
-
 * `notes`
-
-
 
 
 

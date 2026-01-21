@@ -161,37 +161,30 @@ specification to provide the boundary of the Local Planning Authority area.
 
 ### Fields
 
-Your Local Planning Authority data must 
-contain the following fields:
+
+Your Local Planning Authority data must contain the following fields:
+
 
 
 * `reference`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `name`
-
 * `documentation-url`
-
 * `document-url`
-
 * `geometry`
-
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `end-date`
-
 * `notes`
-
-
 
 
 

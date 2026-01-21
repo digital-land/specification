@@ -164,16 +164,18 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 ### Fields
 
-Your Listed building outline data must 
-contain the following fields:
+
+Your Listed building outline data must contain the following fields:
 
 
-should 
-contain the following fields:
 
 
-and may also 
-contain the following fields:
+It should also contain the following fields:
+
+
+
+
+It may also contain the following fields:
 
 
 

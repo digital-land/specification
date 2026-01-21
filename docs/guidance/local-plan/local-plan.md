@@ -135,49 +135,36 @@ List the local plans you are responsible for with one row for each current, emer
 
 ### Fields
 
-Your Local plan data must 
-contain the following fields:
+
+Your Local plan data must contain the following fields:
+
 
 
 * `reference`
-
 * `documentation-url`
-
 * `document-url`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `name`
-
 * `dataset`
-
 * `period-start-date`
-
 * `period-end-date`
-
 * `local-planning-authorities`
-
 * `mineral-planning-authorities`
-
 * `waste-planning-authorities`
-
 * `local-plan-process`
-
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `end-date`
-
 * `notes`
-
-
 
 
 
@@ -314,43 +301,33 @@ There is no need to provide this dataset for other kinds of plan.
 
 ### Fields
 
-Your local plan housing number data must 
-contain the following fields:
+
+Your local plan housing number data must contain the following fields:
+
 
 
 * `reference`
-
 * `local-plan`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `local-planning-authority`
-
 * `required-housing`
-
 * `committed-housing`
-
 * `allocated-housing`
-
 * `broad-locations-housing`
-
 * `windfall-housing`
-
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `end-date`
-
 * `notes`
-
-
 
 
 
@@ -450,41 +427,32 @@ Add a separate row with a link to each document on your website.
 
 ### Fields
 
-Your Local plan document data must 
-contain the following fields:
+
+Your Local plan document data must contain the following fields:
+
 
 
 * `reference`
-
 * `name`
-
 * `local-plan`
-
 * `document-url`
 
-should 
-contain the following fields:
+It should also contain the following fields:
+
 
 
 * `document-types`
-
 * `documentation-url`
-
 * `entry-date`
-
 * `start-date`
 
-and may also 
-contain the following fields:
+It may also contain the following fields:
+
 
 
 * `description`
-
 * `end-date`
-
 * `notes`
-
-
 
 
 
