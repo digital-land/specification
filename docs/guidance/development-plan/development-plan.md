@@ -283,12 +283,12 @@ You may provide notes on how this data was made, and help users differentiate th
 
 ### Development plan timetable dataset
 
-The development plan timetable is a record of the key events and milestones when producing a local plan.
-For new local plans the data must include an entry for each timetable event, and include a precise `predicted-date`.
-You need to update your data to include the actual date in the `start-date` field when the event took place.
+Record the key events and milestones in the timetable when producing your development plan.
+For new local plans your timetable must include a precise `predicted-date` against each entry.
+Update the entry to include the actual date in the `start-date` field when the event takes place.
 
 For local plans, minerals plans, and waste plans being produced under the new local plans process,
-your timetable must include a row for each of the the following events:
+your timetable must include a entry for each of the the following events:
 
 * `commenced`
 * `scoping-consultation-start`
