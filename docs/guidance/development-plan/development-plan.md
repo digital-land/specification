@@ -419,41 +419,6 @@ within this `local-planning-authority` area.
 * <code class="value">24852</code>
 
 
-#### committed-housing
-
-Enter the amount of housing already committed for development
-within this `local-planning-authority` area.
-
-
-#### allocated-housing
-
-Enter the total number of homes planned for through local plan housing site allocations
-including housing components of mixed-use site allocations
-within this `local-planning-authority` area.
- For example:
-
-* <code class="value">9239</code>
-
-
-#### broad-locations-housing
-
-Enter the total number of homes expected towards the end of the local plan period and attributed to
-‘broad locations for growth’, as opposed to site allocations
-within this `local-planning-authority` area.
- For example:
-
-* <code class="value">15660</code>
-
-
-#### windfall-housing
-
-Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
-within this `local-planning-authority` area.
- For example:
-
-* <code class="value">160</code>
-
-
 #### entry-date
 
 Enter the date this data was created or modified.

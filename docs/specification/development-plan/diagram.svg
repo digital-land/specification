@@ -133,36 +133,20 @@
 <text x="779" y="70" class="datatype">integer</text>
 <rect x="612" y="80" width="162" height="20" class="field"/>
 <rect x="774" y="80" width="64" height="20" class="datatype"/>
-<text x="617" y="90" class="field">committed-housing</text>
-<text x="779" y="90" class="datatype">integer</text>
+<text x="617" y="90" class="field">entry-date</text>
+<text x="779" y="90" class="datatype">datetime</text>
 <rect x="612" y="100" width="162" height="20" class="field"/>
 <rect x="774" y="100" width="64" height="20" class="datatype"/>
-<text x="617" y="110" class="field">allocated-housing</text>
-<text x="779" y="110" class="datatype">integer</text>
+<text x="617" y="110" class="field">start-date</text>
+<text x="779" y="110" class="datatype">datetime</text>
 <rect x="612" y="120" width="162" height="20" class="field"/>
 <rect x="774" y="120" width="64" height="20" class="datatype"/>
-<text x="617" y="130" class="field">broad-locations-housing</text>
-<text x="779" y="130" class="datatype">integer</text>
+<text x="617" y="130" class="field">end-date</text>
+<text x="779" y="130" class="datatype">datetime</text>
 <rect x="612" y="140" width="162" height="20" class="field"/>
 <rect x="774" y="140" width="64" height="20" class="datatype"/>
-<text x="617" y="150" class="field">windfall-housing</text>
-<text x="779" y="150" class="datatype">integer</text>
-<rect x="612" y="160" width="162" height="20" class="field"/>
-<rect x="774" y="160" width="64" height="20" class="datatype"/>
-<text x="617" y="170" class="field">entry-date</text>
-<text x="779" y="170" class="datatype">datetime</text>
-<rect x="612" y="180" width="162" height="20" class="field"/>
-<rect x="774" y="180" width="64" height="20" class="datatype"/>
-<text x="617" y="190" class="field">start-date</text>
-<text x="779" y="190" class="datatype">datetime</text>
-<rect x="612" y="200" width="162" height="20" class="field"/>
-<rect x="774" y="200" width="64" height="20" class="datatype"/>
-<text x="617" y="210" class="field">end-date</text>
-<text x="779" y="210" class="datatype">datetime</text>
-<rect x="612" y="220" width="162" height="20" class="field"/>
-<rect x="774" y="220" width="64" height="20" class="datatype"/>
-<text x="617" y="230" class="field">notes</text>
-<text x="779" y="230" class="datatype">text</text>
+<text x="617" y="150" class="field">notes</text>
+<text x="779" y="150" class="datatype">text</text>
 </g>
 <path class="line" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 306 50 C 266.0 50 266.0 30 226 30"/>
 </svg>

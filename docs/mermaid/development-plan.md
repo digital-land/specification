@@ -34,10 +34,6 @@ erDiagram
         string reference
         string local-plan
         string required-housing
-        string committed-housing
-        string allocated-housing
-        string broad-locations-housing
-        string windfall-housing
         date entry-date
         date start-date
         date end-date
