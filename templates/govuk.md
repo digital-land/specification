@@ -29,7 +29,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing {{ specification["name"] }} data
+## Providing your {{ specification["name"] }} data
 
 {% include "content/provide.md" %}
 
@@ -47,6 +47,5 @@ improving the design of this data
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/{{ specification["consideration"] }})
 {%- endif %},
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

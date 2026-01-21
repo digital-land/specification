@@ -99,7 +99,7 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 {%- set _d = tables["dataset"][d["dataset"]] -%}
 {%- set name = tables["dataset"][d["dataset"]]["name"] -%}
 
-### {{ name | sentence_case }} dataset
+## {{ name | sentence_case }} dataset
 
 {% if _d["guidance"] -%}
 {{_d["guidance"]}}
@@ -117,7 +117,7 @@ The {{ name }} dataset contains the following fields:
 {%- set df = tables["dataset-field"][sf["datasets"][0]][field] -%}
 {% endif %}
 
-#### {{ field }}
+### {{ field }}
 
 {% if df["guidance"] %}{{ df["guidance"] }}{% elif tables["field"][field]["guidance"] %}{{ tables["field"][field]["guidance"]| trim }}{%- endif -%}{%- if df["examples"]|length > 0 %} For example:
 

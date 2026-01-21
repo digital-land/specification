@@ -8,7 +8,6 @@ s5. [Keep your data up-to-date](#keep-your-data-up-to-date)
 
 ## Prepare your data
 {% include "content/prepare.md" %}
-
 {% include "content/data.md" %}
 
 ## Check your data
