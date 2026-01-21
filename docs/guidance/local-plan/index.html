@@ -400,7 +400,64 @@ The platform will default a <code>start-date</code> to the first of the month, o
 </ul>
 <h2 id="local-plan-dataset">Local plan dataset</h2>
 <p>List the local plans you are responsible for with one row for each current, emerging or historical local plan.</p>
-<p>The Local plan dataset contains the following fields:</p>
+<h3 id="fields">Fields</h3>
+<p>Your Local plan data must 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>reference</code></p>
+</li>
+<li>
+<p><code>documentation-url</code></p>
+</li>
+<li>
+<p><code>document-url</code></p>
+</li>
+</ul>
+<p>should 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>name</code></p>
+</li>
+<li>
+<p><code>dataset</code></p>
+</li>
+<li>
+<p><code>period-start-date</code></p>
+</li>
+<li>
+<p><code>period-end-date</code></p>
+</li>
+<li>
+<p><code>local-planning-authorities</code></p>
+</li>
+<li>
+<p><code>mineral-planning-authorities</code></p>
+</li>
+<li>
+<p><code>waste-planning-authorities</code></p>
+</li>
+<li>
+<p><code>local-plan-process</code></p>
+</li>
+<li>
+<p><code>entry-date</code></p>
+</li>
+<li>
+<p><code>start-date</code></p>
+</li>
+</ul>
+<p>and may also 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>end-date</code></p>
+</li>
+<li>
+<p><code>notes</code></p>
+</li>
+</ul>
 <h3 id="reference">reference</h3>
 <p>Give each local plan a unique reference.
  For example:</p>
@@ -496,7 +553,55 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 <p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.</p>
-<p>The local plan housing number dataset contains the following fields:</p>
+<h3 id="fields_1">Fields</h3>
+<p>Your local plan housing number data must 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>reference</code></p>
+</li>
+<li>
+<p><code>local-plan</code></p>
+</li>
+</ul>
+<p>should 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>local-planning-authority</code></p>
+</li>
+<li>
+<p><code>required-housing</code></p>
+</li>
+<li>
+<p><code>committed-housing</code></p>
+</li>
+<li>
+<p><code>allocated-housing</code></p>
+</li>
+<li>
+<p><code>broad-locations-housing</code></p>
+</li>
+<li>
+<p><code>windfall-housing</code></p>
+</li>
+<li>
+<p><code>entry-date</code></p>
+</li>
+<li>
+<p><code>start-date</code></p>
+</li>
+</ul>
+<p>and may also 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>end-date</code></p>
+</li>
+<li>
+<p><code>notes</code></p>
+</li>
+</ul>
 <h3 id="reference_1">reference</h3>
 <p>Give each set of housing numbers a unique reference value.
  For example:</p>
@@ -561,7 +666,52 @@ within this <code>local-planning-authority</code> area.
 <h2 id="local-plan-document-dataset">Local plan document dataset</h2>
 <p>Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.</p>
-<p>The Local plan document dataset contains the following fields:</p>
+<h3 id="fields_2">Fields</h3>
+<p>Your Local plan document data must 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>reference</code></p>
+</li>
+<li>
+<p><code>name</code></p>
+</li>
+<li>
+<p><code>local-plan</code></p>
+</li>
+<li>
+<p><code>document-url</code></p>
+</li>
+</ul>
+<p>should 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>document-types</code></p>
+</li>
+<li>
+<p><code>documentation-url</code></p>
+</li>
+<li>
+<p><code>entry-date</code></p>
+</li>
+<li>
+<p><code>start-date</code></p>
+</li>
+</ul>
+<p>and may also 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>description</code></p>
+</li>
+<li>
+<p><code>end-date</code></p>
+</li>
+<li>
+<p><code>notes</code></p>
+</li>
+</ul>
 <h3 id="reference_2">reference</h3>
 <p>Give each document a unique reference.</p>
 <h3 id="name_1">name</h3>

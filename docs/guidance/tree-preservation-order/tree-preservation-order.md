@@ -164,7 +164,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Tree preservation order dataset contains the following fields:
+### Fields
+
+Your Tree preservation order data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -219,12 +233,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Tree preservation zone dataset
 
 
 
-The Tree preservation zone dataset contains the following fields:
+### Fields
+
+Your Tree preservation zone data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -284,12 +311,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Tree dataset
 
 
 
-The Tree dataset contains the following fields:
+### Fields
+
+Your Tree data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -355,7 +395,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

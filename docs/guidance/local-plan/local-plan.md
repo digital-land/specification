@@ -133,7 +133,51 @@ The platform will default a `start-date` to the first of the month, or the first
 List the local plans you are responsible for with one row for each current, emerging or historical local plan.
 
 
-The Local plan dataset contains the following fields:
+### Fields
+
+Your Local plan data must 
+contain the following fields:
+
+
+* `reference`
+
+* `documentation-url`
+
+* `document-url`
+
+should 
+contain the following fields:
+
+
+* `name`
+
+* `dataset`
+
+* `period-start-date`
+
+* `period-end-date`
+
+* `local-planning-authorities`
+
+* `mineral-planning-authorities`
+
+* `waste-planning-authorities`
+
+* `local-plan-process`
+
+* `entry-date`
+
+* `start-date`
+
+and may also 
+contain the following fields:
+
+
+* `end-date`
+
+* `notes`
+
+
 
 
 
@@ -261,7 +305,6 @@ You may provide notes on how this data was made, and help users differentiate th
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
-
 ## Local plan housing number dataset
 
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
@@ -269,7 +312,45 @@ You may also use this dataset to provide additional housing numbers related to a
 There is no need to provide this dataset for other kinds of plan.
 
 
-The local plan housing number dataset contains the following fields:
+### Fields
+
+Your local plan housing number data must 
+contain the following fields:
+
+
+* `reference`
+
+* `local-plan`
+
+should 
+contain the following fields:
+
+
+* `local-planning-authority`
+
+* `required-housing`
+
+* `committed-housing`
+
+* `allocated-housing`
+
+* `broad-locations-housing`
+
+* `windfall-housing`
+
+* `entry-date`
+
+* `start-date`
+
+and may also 
+contain the following fields:
+
+
+* `end-date`
+
+* `notes`
+
+
 
 
 
@@ -361,14 +442,49 @@ You may provide a short description to help users differentiate the plan from ot
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
-
 ## Local plan document dataset
 
 Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.
 
 
-The Local plan document dataset contains the following fields:
+### Fields
+
+Your Local plan document data must 
+contain the following fields:
+
+
+* `reference`
+
+* `name`
+
+* `local-plan`
+
+* `document-url`
+
+should 
+contain the following fields:
+
+
+* `document-types`
+
+* `documentation-url`
+
+* `entry-date`
+
+* `start-date`
+
+and may also 
+contain the following fields:
+
+
+* `description`
+
+* `end-date`
+
+* `notes`
+
+
 
 
 
@@ -453,7 +569,6 @@ Enter date when the document was archived. Otherwise leave this field blank.
 ### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
 
 
 ## Check your data

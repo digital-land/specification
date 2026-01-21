@@ -162,7 +162,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Listed building outline dataset contains the following fields:
+### Fields
+
+Your Listed building outline data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -220,7 +234,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

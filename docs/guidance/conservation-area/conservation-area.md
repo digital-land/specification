@@ -163,7 +163,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Conservation area dataset contains the following fields:
+### Fields
+
+Your Conservation area data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -227,12 +241,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Conservation area document dataset
 
 
 
-The Conservation area document dataset contains the following fields:
+### Fields
+
+Your Conservation area document data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -285,7 +312,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

@@ -158,7 +158,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Infrastructure project dataset contains the following fields:
+### Fields
+
+Your Infrastructure project data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -238,12 +252,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Infrastructure project log dataset
 
 
 
-The Infrastructure project log dataset contains the following fields:
+### Fields
+
+Your Infrastructure project log data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -290,12 +317,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Infrastructure project document dataset
 
 
 
-The Infrastructure project document dataset contains the following fields:
+### Fields
+
+Your Infrastructure project document data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -348,7 +388,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

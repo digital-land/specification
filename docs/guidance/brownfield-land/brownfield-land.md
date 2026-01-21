@@ -128,7 +128,61 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-The Brownfield land dataset contains the following fields:
+### Fields
+
+Your Brownfield land data must 
+contain the following fields:
+
+
+* `SiteReference`
+
+* `SiteNameAddress`
+
+* `GeoX`
+
+* `GeoY`
+
+* `SiteplanURL`
+
+* `Hectares`
+
+* `OwnershipStatus`
+
+* `PlanningStatus`
+
+* `Deliverable`
+
+* `NetDwellingsRangeFrom`
+
+* `NetDwellingsRangeTo`
+
+* `FirstAddedDate`
+
+* `LastUpdatedDate`
+
+should 
+contain the following fields:
+
+
+* `OrganisationURI`
+
+* `PermissionType`
+
+* `PermissionDate`
+
+* `PlanningHistory`
+
+* `HazardousSubstances`
+
+and may also 
+contain the following fields:
+
+
+* `Notes`
+
+* `EndDate`
+
+
 
 
 
@@ -305,7 +359,6 @@ been built on), it should remain on the register for historical reasons and not
 be deleted. Enter the date the site was developed or determined to no longer be
 brownfield land, in the format `YYYY-MM-DD`. This field should only be filled in
 once the site is no longer classified as brownfield land.
-
 
 
 

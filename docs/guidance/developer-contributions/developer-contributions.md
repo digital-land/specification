@@ -141,7 +141,21 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-The Developer agreement dataset contains the following fields:
+### Fields
+
+Your Developer agreement data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -192,12 +206,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Developer agreement contribution dataset
 
 
 
-The Developer agreement contribution dataset contains the following fields:
+### Fields
+
+Your Developer agreement contribution data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -248,12 +275,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Developer agreement transaction dataset
 
 
 
-The Developer agreement transaction dataset contains the following fields:
+### Fields
+
+Your Developer agreement transaction data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -302,7 +342,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

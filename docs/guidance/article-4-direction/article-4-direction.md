@@ -163,7 +163,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Article 4 direction dataset contains the following fields:
+### Fields
+
+Your Article 4 direction data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -214,12 +228,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Article 4 direction area dataset
 
 
 
-The Article 4 direction area dataset contains the following fields:
+### Fields
+
+Your Article 4 direction area data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -285,7 +312,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

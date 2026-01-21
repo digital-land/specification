@@ -133,7 +133,21 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-The Local area requirements dataset contains the following fields:
+### Fields
+
+Your Local area requirements data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -186,7 +200,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

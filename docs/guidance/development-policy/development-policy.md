@@ -157,7 +157,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Development policy dataset contains the following fields:
+### Fields
+
+Your Development policy data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -200,12 +214,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Development policy area dataset
 
 
 
-The Development policy area dataset contains the following fields:
+### Fields
+
+Your Development policy area data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -251,7 +278,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

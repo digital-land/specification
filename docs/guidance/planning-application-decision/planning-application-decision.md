@@ -158,7 +158,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Planning application dataset contains the following fields:
+### Fields
+
+Your Planning application data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -242,12 +256,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Planning application log dataset
 
 
 
-The Planning application log dataset contains the following fields:
+### Fields
+
+Your Planning application log data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -302,12 +329,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Planning application document dataset
 
 
 
-The Planning application document dataset contains the following fields:
+### Fields
+
+Your Planning application document data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -360,7 +400,6 @@ Enter a CURIE value for the organisation from [this list](https://www.planning.d
 Enter the date this data was created or modified.
 
 ### start-date
-
 
 
 

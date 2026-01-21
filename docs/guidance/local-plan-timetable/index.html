@@ -403,7 +403,41 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <p>The local plan timetable is a record of the key dates when producing a local plan.
 Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">local plan event</a> dataset with the date when the event happened.
 Provide your predicted range of dates for events which are in the future.</p>
-<p>The Local plan timetable dataset contains the following fields:</p>
+<h3 id="fields">Fields</h3>
+<p>Your Local plan timetable data must 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>reference</code></p>
+</li>
+<li>
+<p><code>local-plan</code></p>
+</li>
+<li>
+<p><code>local-plan-event</code></p>
+</li>
+</ul>
+<p>should 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>predicted-earliest-date</code></p>
+</li>
+<li>
+<p><code>predicted-latest-date</code></p>
+</li>
+<li>
+<p><code>entry-date</code></p>
+</li>
+<li>
+<p><code>start-date</code></p>
+</li>
+</ul>
+<p>and may also 
+contain the following fields:</p>
+<ul>
+<li><code>notes</code></li>
+</ul>
 <h3 id="reference">reference</h3>
 <p>Give each event a reference which is unique for the event within the dataset.
 Where the timetable contains events for different local plans you can distinguish the events by adding the <code>local-plan</code> reference.

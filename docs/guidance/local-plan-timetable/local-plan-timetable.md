@@ -136,7 +136,37 @@ Your data should include a row for each of the events listed in the [local plan 
 Provide your predicted range of dates for events which are in the future.
 
 
-The Local plan timetable dataset contains the following fields:
+### Fields
+
+Your Local plan timetable data must 
+contain the following fields:
+
+
+* `reference`
+
+* `local-plan`
+
+* `local-plan-event`
+
+should 
+contain the following fields:
+
+
+* `predicted-earliest-date`
+
+* `predicted-latest-date`
+
+* `entry-date`
+
+* `start-date`
+
+and may also 
+contain the following fields:
+
+
+* `notes`
+
+
 
 
 
@@ -210,7 +240,6 @@ such as when you expect a draft local plan to be adopted.
 ### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
 
 
 ## Check your data

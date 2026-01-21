@@ -158,7 +158,21 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-The Design code dataset contains the following fields:
+### Fields
+
+Your Design code data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -209,12 +223,25 @@ Enter any notes or commentary which helps you or others understand how this data
 ### entry-date
 
 Enter the date this data was created or modified.
-
 ## Design code rule dataset
 
 
 
-The Design code rule dataset contains the following fields:
+### Fields
+
+Your Design code rule data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -269,12 +296,25 @@ Enter the date this data was created or modified.
 ### end-date
 
 
-
 ## Design code area dataset
 
 
 
-The Design code area dataset contains the following fields:
+### Fields
+
+Your Design code area data must 
+contain the following fields:
+
+
+should 
+contain the following fields:
+
+
+and may also 
+contain the following fields:
+
+
+
 
 
 
@@ -332,7 +372,6 @@ Enter the date this data was created or modified.
 
 
 ### end-date
-
 
 
 

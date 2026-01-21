@@ -159,7 +159,39 @@ development corporation or other kind of Local Planning Authority can use this
 specification to provide the boundary of the Local Planning Authority area.
 
 
-The Local Planning Authority dataset contains the following fields:
+### Fields
+
+Your Local Planning Authority data must 
+contain the following fields:
+
+
+* `reference`
+
+should 
+contain the following fields:
+
+
+* `name`
+
+* `documentation-url`
+
+* `document-url`
+
+* `geometry`
+
+* `entry-date`
+
+* `start-date`
+
+and may also 
+contain the following fields:
+
+
+* `end-date`
+
+* `notes`
+
+
 
 
 
@@ -226,7 +258,6 @@ Enter any notes to help a user understand how the data was made or is to be inte
 All enquiries in respect of planning policy and Community Infrastructure Levy should now be made to 
 the relevant borough.
 </code>
-
 
 
 

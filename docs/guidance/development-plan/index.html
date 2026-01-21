@@ -402,7 +402,67 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025</code></li>
 </ul>
 <h2 id="development-plan-dataset">Development plan dataset</h2>
-<p>The development plan dataset contains the following fields:</p>
+<h3 id="fields">Fields</h3>
+<p>Your development plan data must 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>reference</code></p>
+</li>
+<li>
+<p><code>dataset</code></p>
+</li>
+<li>
+<p><code>documentation-url</code></p>
+</li>
+<li>
+<p><code>document-url</code></p>
+</li>
+<li>
+<p><code>required-housing</code></p>
+</li>
+</ul>
+<p>should 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>name</code></p>
+</li>
+<li>
+<p><code>period-start-date</code></p>
+</li>
+<li>
+<p><code>period-end-date</code></p>
+</li>
+<li>
+<p><code>local-planning-authorities</code></p>
+</li>
+<li>
+<p><code>mineral-planning-authorities</code></p>
+</li>
+<li>
+<p><code>waste-planning-authorities</code></p>
+</li>
+<li>
+<p><code>local-plan-process</code></p>
+</li>
+<li>
+<p><code>entry-date</code></p>
+</li>
+<li>
+<p><code>start-date</code></p>
+</li>
+</ul>
+<p>and may also 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>end-date</code></p>
+</li>
+<li>
+<p><code>notes</code></p>
+</li>
+</ul>
 <h3 id="reference">reference</h3>
 <p>Give each local plan a unique reference.
  For example:</p>
@@ -557,7 +617,38 @@ your timetable must include a entry for each of the the following events:</p>
 <li><code>withdrawn</code></li>
 <li><code>revoked</code></li>
 </ul>
-<p>The development plan timetable dataset contains the following fields:</p>
+<h3 id="fields_1">Fields</h3>
+<p>Your development plan timetable data must 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>reference</code></p>
+</li>
+<li>
+<p><code>development-plan</code></p>
+</li>
+<li>
+<p><code>development-plan-event</code></p>
+</li>
+<li>
+<p><code>predicted-date</code></p>
+</li>
+</ul>
+<p>should 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>entry-date</code></p>
+</li>
+<li>
+<p><code>start-date</code></p>
+</li>
+</ul>
+<p>and may also 
+contain the following fields:</p>
+<ul>
+<li><code>notes</code></li>
+</ul>
 <h3 id="reference_1">reference</h3>
 <p>Give each event a reference which is unique for the event within the dataset.
 Where a timetable has more than one event of the same type, you can add a date to make them unique.
@@ -597,7 +688,40 @@ Where a timetable has more than one event of the same type, you can add a date t
 <p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.</p>
-<p>The local plan housing number dataset contains the following fields:</p>
+<h3 id="fields_2">Fields</h3>
+<p>Your local plan housing number data must 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>reference</code></p>
+</li>
+<li>
+<p><code>local-plan</code></p>
+</li>
+<li>
+<p><code>required-housing</code></p>
+</li>
+</ul>
+<p>should 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>entry-date</code></p>
+</li>
+<li>
+<p><code>start-date</code></p>
+</li>
+</ul>
+<p>and may also 
+contain the following fields:</p>
+<ul>
+<li>
+<p><code>end-date</code></p>
+</li>
+<li>
+<p><code>notes</code></p>
+</li>
+</ul>
 <h3 id="reference_2">reference</h3>
 <p>Give each set of housing numbers a unique reference value.
  For example:</p>
