@@ -27,6 +27,7 @@ require local planning authorities to maintain a register of their brownfield si
 Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
+[Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
 ## Providing Brownfield land data
 
