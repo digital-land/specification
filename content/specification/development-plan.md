@@ -92,14 +92,6 @@ datasets:
             requirement-level: MUST
           - field: required-housing
             requirement-level: MUST
-          - field: committed-housing
-            requirement-level: MAY
-          - field: allocated-housing
-            requirement-level: MAY
-          - field: broad-locations-housing
-            requirement-level: MAY
-          - field: windfall-housing
-            requirement-level: MAY
           - field: entry-date
             requirement-level: SHOULD
           - field: start-date
