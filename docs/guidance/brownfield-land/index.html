@@ -293,16 +293,18 @@ ol.steps li::before {
 </div>
 
   
-<div class="govuk-phase-banner">
+<div class="govuk-phase-banner govuk-body">
   <p class="govuk-phase-banner__content">
-    <p class="govuk-body govuk-!-margin-bottom-1">9 June 2022</p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       Working Draft
     </strong>
-    <span class="govuk-phase-banner__text">
-      This guidance is under development. Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
-    </span>
+    <p></p>
+    <p class="govuk-body govuk-!-margin-bottom-1">9 June 2022</p>
+    <p>
+      This guidance is under development.
+      Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
+    </p>
   </p>
 </div>
 <div class="govuk-grid-row govuk-body">
@@ -319,7 +321,7 @@ require local planning authorities to maintain a register of their brownfield si
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
 <a href="https://design.planning.data.gov.uk">Help design this and other data standards to ensure they your needs</a>. </p>
-<h2 id="providing-brownfield-land-data">Providing Brownfield land data</h2>
+<h2 id="providing-your-brownfield-land-data">Providing your Brownfield land data</h2>
 <p>Take the following steps to provide your Brownfield land data:</p>
 <ol class="govuk-list govuk-list--number steps">
   <li><a href="#prepare-your-data">Prepare your data</a></li>
@@ -394,12 +396,12 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025-04</code></li>
 <li><code>2025</code></li>
 </ul>
-<h3 id="brownfield-land-dataset">Brownfield land dataset</h3>
+<h2 id="brownfield-land-dataset">Brownfield land dataset</h2>
 <p>The Brownfield land dataset contains the following fields:</p>
-<h4 id="organisationuri">OrganisationURI</h4>
+<h3 id="organisationuri">OrganisationURI</h3>
 <p><a href="https://www.planning.data.gov.uk/organisation">Find your organisation in this list</a>
 and enter the corresponding <code>Open Data Communities URI</code> value.</p>
-<h4 id="sitereference">SiteReference</h4>
+<h3 id="sitereference">SiteReference</h3>
 <p>Enter the unique reference your organisation uses to identify the site.</p>
 <p>If one doesn’t exist, you need to create one. It should not be used by your organisation
 to identify any other sites, but can be borrowed from another data set listing
@@ -408,13 +410,13 @@ the site. You could use the strategic site identifier from your local plan.
 <ul>
 <li><code class="value">EH/141</code></li>
 </ul>
-<h4 id="sitenameaddress">SiteNameAddress</h4>
+<h3 id="sitenameaddress">SiteNameAddress</h3>
 <p>Enter the site name and address in a single line of text, for example:
  For example:</p>
 <ul>
 <li><code class="value">Parcel of land behind, 221B Baker Street, Marylebone, London, NW1 6XE</code></li>
 </ul>
-<h4 id="geox">GeoX</h4>
+<h3 id="geox">GeoX</h3>
 <p>Enter the longitude of a point close to the centre of the site. The value
 should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems
 specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>.</p>
@@ -424,16 +426,16 @@ Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a
 longitude (Geo X) from about -7 to 2.</p>
 </div>
 
-<h4 id="geoy">GeoY</h4>
+<h3 id="geoy">GeoY</h3>
 <p>Enter the latitude of a point close to the centre of the site. The value
 should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems
 specified by the <a href="https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point">open standards for government guidance</a>.</p>
-<h4 id="siteplanurl">SiteplanURL</h4>
+<h3 id="siteplanurl">SiteplanURL</h3>
 <p>Enter the URL of a web page hosting the site plan, beginning with either “http://” or “https://”.</p>
-<h4 id="hectares">Hectares</h4>
+<h3 id="hectares">Hectares</h3>
 <p>Enter the land area of the site in hectares, up to 2 decimal places.
 Use digits (2) rather than words (two).</p>
-<h4 id="ownershipstatus">OwnershipStatus</h4>
+<h3 id="ownershipstatus">OwnershipStatus</h3>
 <p>Indicate the site’s ownership by entering one of the following values:</p>
 <ul>
 <li><code>owned by a public authority</code></li>
@@ -441,7 +443,7 @@ Use digits (2) rather than words (two).</p>
 <li><code>mixed ownership</code></li>
 </ul>
 <p>For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.</p>
-<h4 id="planningstatus">PlanningStatus</h4>
+<h3 id="planningstatus">PlanningStatus</h3>
 <p>Choose one of the following to indicate what stage of the planning process the site is at:</p>
 <ul>
 <li><code>permissioned</code></li>
@@ -451,7 +453,7 @@ Use digits (2) rather than words (two).</p>
 <p>When part of a site is permissioned, it should be recorded as <code>permissioned</code> and
 you should explain in the <code>Notes</code> field why it’s only partly permissioned.</p>
 <p>For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.&#39;</p>
-<h4 id="permissiontype">PermissionType</h4>
+<h3 id="permissiontype">PermissionType</h3>
 <p>Choose one of the following to indicate what permission type the site has:</p>
 <ul>
 <li><code>full planning permission</code></li>
@@ -468,28 +470,28 @@ development order.</p>
 <p>Where more than one permission exists for the site, identify the latest permission
 granted. List any other permissions, including the date that each permission was
 granted or deemed to have been granted, in the ’Notes’ column.&#39;</p>
-<h4 id="permissiondate">PermissionDate</h4>
+<h3 id="permissiondate">PermissionDate</h3>
 <p>Enter the date the most recent permission was granted on the site, in
 the format <code>YYYY-MM-DD</code>. If no permission has been granted leave this blank.</p>
-<h4 id="planninghistory">PlanningHistory</h4>
+<h3 id="planninghistory">PlanningHistory</h3>
 <p>Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.</p>
-<h4 id="deliverable">Deliverable</h4>
+<h3 id="deliverable">Deliverable</h3>
 <p>Enter ‘yes’ if there is a reasonable prospect that residential development
 will take place on the land within 5 years of the date you enter this site in
 the register. Otherwise leave this field blank.</p>
-<h4 id="netdwellingsrangefrom">NetDwellingsRangeFrom</h4>
+<h3 id="netdwellingsrangefrom">NetDwellingsRangeFrom</h3>
 <p>Enter the minimum number of dwellings that the local planning authority
 estimates the site should support, as defined in 
 <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p>
-<h4 id="netdwellingsrangeto">NetDwellingsRangeTo</h4>
+<h3 id="netdwellingsrangeto">NetDwellingsRangeTo</h3>
 <p>Enter the maximum number of dwellings that the local planning authority
 estimates the site should support, as defined in 
 <a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p>
-<h4 id="hazardoussubstances">HazardousSubstances</h4>
+<h3 id="hazardoussubstances">HazardousSubstances</h3>
 <p>Enter ‘yes’ if the local planning authority is required by regulation
 26(3) of the <a href="https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made">Planning (Hazardous Substances) Regulations 2015</a>
 to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.</p>
-<h4 id="notes">Notes</h4>
+<h3 id="notes">Notes</h3>
 <p>Enter any general information about a site that developers might find
 useful, including a description of any housing development proposed for the site.</p>
 <p>You may include links to any web pages that give:</p>
@@ -502,11 +504,11 @@ useful, including a description of any housing development proposed for the site
 how the buildings or land will be used, and the scale of any such development.</p>
 <p>Content in this field does not need to be on a single line, but should be no longer
 than 4,000 characters. You can leave this field blank.</p>
-<h4 id="firstaddeddate">FirstAddedDate</h4>
+<h3 id="firstaddeddate">FirstAddedDate</h3>
 <p>Enter the date that the site was first added to this register, in the format <code>YYYY-MM-DD</code>.</p>
-<h4 id="lastupdateddate">LastUpdatedDate</h4>
+<h3 id="lastupdateddate">LastUpdatedDate</h3>
 <p>Enter the date this entry in the register was updated, in the format YYYY-MM-DD.</p>
-<h4 id="enddate">EndDate</h4>
+<h3 id="enddate">EndDate</h3>
 <p>If the site no longer needs to be listed (for example, if the site has
 been built on), it should remain on the register for historical reasons and not
 be deleted. Enter the date the site was developed or determined to no longer be

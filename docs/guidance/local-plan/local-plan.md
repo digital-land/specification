@@ -29,7 +29,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing local plan data
+## Providing your local plan data
 
 Take the following steps to provide your local plan data:
 
@@ -67,7 +67,6 @@ For many purposes having some data is better than no data,
 so start by providing the best local plans information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -77,9 +76,9 @@ and continue to iterate and improve it over time.
 For local plans you may provide the following dataset:
 
 
-* [Local plan](#Localplan-dataset)
-* [Local plan housing number](#Localplanhousingnumber-dataset)
-* [Local plan document](#Localplandocument-dataset)
+* [Local plan](#Local-plan-dataset)
+* [Local plan housing number](#Local-plan-housing-number-dataset)
+* [Local plan document](#Local-plan-document-dataset)
 
 
 
@@ -129,7 +128,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Local plan dataset
+## Local plan dataset
 
 List the local plans you are responsible for with one row for each current, emerging or historical local plan.
 
@@ -138,7 +137,7 @@ The Local plan dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Give each local plan a unique reference.
  For example:
@@ -149,7 +148,7 @@ Give each local plan a unique reference.
 * <code class="value">barnet-local-plan-2021-2036</code>
 
 
-#### name
+### name
 
 Use the title of the adopted local plan document. For example:
 
@@ -157,25 +156,25 @@ Use the title of the adopted local plan document. For example:
 * <code class="value">South Oxfordshire Joint Local Plan</code>
 
 
-#### dataset
+### dataset
 
 
 
-#### period-start-date
+### period-start-date
 
 Enter the start of the plan period. This is usually just a year in `YYYY` format. For example:
 
 * <code class="value">2026</code>
 
 
-#### period-end-date
+### period-end-date
 
 Enter the end of the plan period. This is may be just the year in `YYYY` format. For example:
 
 * <code class="value">2038</code>
 
 
-#### local-planning-authorities
+### local-planning-authorities
 
 Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
@@ -187,7 +186,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 * <code class="value">E60000132;E60000133;E60000135;E60000136</code>
 
 
-#### mineral-planning-authorities
+### mineral-planning-authorities
 
 Enter the reference for the
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
@@ -198,7 +197,7 @@ For a joint minerals plan, enter the list of Mineral Planning Authority referenc
 * <code class="value">GMCA</code>
 
 
-#### waste-planning-authorities
+### waste-planning-authorities
 
 Enter the reference for the
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
@@ -209,7 +208,7 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 * <code class="value">NLWA</code>
 
 
-#### local-plan-process
+### local-plan-process
 
 Indicate the local plan examination process for the local plan using one of the following values:
 
@@ -217,7 +216,7 @@ Indicate the local plan examination process for the local plan using one of the 
 * `2026` for plans prepared under *new Local Planning Regulations (TBD)*
 
 
-#### documentation-url
+### documentation-url
 
 The URL of the webpage on your website for the local plan
 
@@ -232,7 +231,7 @@ to make the URL for each plan unique.
 * <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
 
 
-#### document-url
+### document-url
 
 Enter the URL for the main or core plan document. This is usually a PDF file.
  For example:
@@ -240,30 +239,30 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
 
 
-#### end-date
+### end-date
 
 Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
 
 
-#### notes
+### notes
 
 You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
 
-### Local plan housing number dataset
+## Local plan housing number dataset
 
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
@@ -274,7 +273,7 @@ The Local plan housing number dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Give each set of housing numbers a unique reference value.
  For example:
@@ -284,12 +283,12 @@ Give each set of housing numbers a unique reference value.
 * <code class="value">barnet-local-plan-2021-2036</code>
 
 
-#### local-plan
+### local-plan
 
 Enter the `reference` for the local plan which these numbers apply.
 
 
-#### local-planning-authority
+### local-planning-authority
 
 This should be the GSS code (statistical geography) for the `local-planning-authority` area to which the housing numbers apply.
 See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
@@ -298,7 +297,7 @@ See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/loca
 * <code class="value">E60000001</code> — The GSS code for the County Durham LPA area
 
 
-#### required-housing
+### required-housing
 
 Enter the minimum number of homes that the plan seeks to provide
 within this `local-planning-authority` area.
@@ -307,13 +306,13 @@ within this `local-planning-authority` area.
 * <code class="value">24852</code>
 
 
-#### committed-housing
+### committed-housing
 
 Enter the amount of housing already committed for development
 within this `local-planning-authority` area.
 
 
-#### allocated-housing
+### allocated-housing
 
 Enter the total number of homes planned for through local plan housing site allocations
 including housing components of mixed-use site allocations
@@ -323,7 +322,7 @@ within this `local-planning-authority` area.
 * <code class="value">9239</code>
 
 
-#### broad-locations-housing
+### broad-locations-housing
 
 Enter the total number of homes expected towards the end of the local plan period and attributed to
 ‘broad locations for growth’, as opposed to site allocations
@@ -333,7 +332,7 @@ within this `local-planning-authority` area.
 * <code class="value">15660</code>
 
 
-#### windfall-housing
+### windfall-housing
 
 Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
 within this `local-planning-authority` area.
@@ -342,28 +341,28 @@ within this `local-planning-authority` area.
 * <code class="value">160</code>
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date these numbers were finalised.
 
 
-#### end-date
+### end-date
 
 Enter the date these numbers were withdrawn, otherwise leave this field blank.
 
 
-#### notes
+### notes
 
 You may provide a short description to help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
 
-### Local plan document dataset
+## Local plan document dataset
 
 Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.
@@ -373,21 +372,21 @@ The Local plan document dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Give each document a unique reference.
 
 
-#### name
+### name
 
 Enter the title of the document.
 
 
-#### description
+### description
 
 
 
-#### local-plan
+### local-plan
 
 Enter the reference for the local plan which the document is associated with.
  For example:
@@ -396,7 +395,7 @@ Enter the reference for the local plan which the document is associated with.
 * <code class="value">central-lincolnshire</code>
 
 
-#### document-types
+### document-types
 
 Enter at least one of the following [local-plan-document-type](https://www.planning.data.gov.uk/dataset/local-plan-document-type) values:
 
@@ -424,7 +423,7 @@ You can list more than one category, separated by a semi-colon &#39;;&#39; chara
 * <code class="value">local-plan;core-strategy;site-allocations</code>
 
 
-#### documentation-url
+### documentation-url
 
 Enter the URL of the webpage on your website which documents and links to this document.
  For example:
@@ -432,26 +431,26 @@ Enter the URL of the webpage on your website which documents and links to this d
 * <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
 
 
-#### document-url
+### document-url
 
 Enter the URL for the document. This is often a PDF file.
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date the document was published.
 
 
-#### end-date
+### end-date
 
 Enter date when the document was archived. Otherwise leave this field blank.
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
@@ -526,6 +525,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/local-plans),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

@@ -32,7 +32,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing local plan timetable data
+## Providing your local plan timetable data
 
 Take the following steps to provide your local plan timetable data:
 
@@ -70,7 +70,6 @@ For many purposes having some data is better than no data,
 so start by providing the best local plan timetables information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -80,7 +79,7 @@ and continue to iterate and improve it over time.
 For local plan timetables you may provide the following dataset:
 
 
-* [Local plan timetable](#Localplantimetable-dataset)
+* [Local plan timetable](#Local-plan-timetable-dataset)
 
 
 
@@ -130,7 +129,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Local plan timetable dataset
+## Local plan timetable dataset
 
 The local plan timetable is a record of the key dates when producing a local plan.
 Your data should include a row for each of the events listed in the [local plan event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened.
@@ -141,7 +140,7 @@ The Local plan timetable dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Give each event a reference which is unique for the event within the dataset.
 Where the timetable contains events for different local plans you can distinguish the events by adding the `local-plan` reference.
@@ -152,7 +151,7 @@ Where a timetable has more than one event of the same kind, you can add a date t
 * <code class="value">LP1-public-consultation-2025</code>
 
 
-#### local-plan
+### local-plan
 
 Enter the reference of the local plan which this event forms part of its timetable.
  For example:
@@ -161,7 +160,7 @@ Enter the reference of the local plan which this event forms part of its timetab
 * <code class="value">central-lincolnshire</code>
 
 
-#### local-plan-event
+### local-plan-event
 
 Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/dataset/local-plan-event) values:
 
@@ -182,7 +181,7 @@ Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/d
 * `plan-revoked`
 
 
-#### predicted-earliest-date
+### predicted-earliest-date
 
 Enter the earliest date when this event is expected to happen.
  For example:
@@ -190,7 +189,7 @@ Enter the earliest date when this event is expected to happen.
 * <code class="value">2027-01-01</code>
 
 
-#### predicted-latest-date
+### predicted-latest-date
 
 Enter the latest date when this event is expected to happen.
  For example:
@@ -198,17 +197,17 @@ Enter the latest date when this event is expected to happen.
 * <code class="value">2027-03-31</code>
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date when the timetable event occured. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
@@ -283,6 +282,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/local-plans),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

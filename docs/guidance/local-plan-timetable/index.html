@@ -293,16 +293,18 @@ ol.steps li::before {
 </div>
 
   
-<div class="govuk-phase-banner">
+<div class="govuk-phase-banner govuk-body">
   <p class="govuk-phase-banner__content">
-    <p class="govuk-body govuk-!-margin-bottom-1">5 November 2025</p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       Working Draft
     </strong>
-    <span class="govuk-phase-banner__text">
-      This guidance is under development. Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
-    </span>
+    <p></p>
+    <p class="govuk-body govuk-!-margin-bottom-1">5 November 2025</p>
+    <p>
+      This guidance is under development.
+      Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
+    </p>
   </p>
 </div>
 <div class="govuk-grid-row govuk-body">
@@ -322,7 +324,7 @@ other regulations, contracts, and agreements.</p>
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
 <a href="https://design.planning.data.gov.uk">Help design this and other data standards to ensure they your needs</a>. </p>
-<h2 id="providing-local-plan-timetable-data">Providing local plan timetable data</h2>
+<h2 id="providing-your-local-plan-timetable-data">Providing your local plan timetable data</h2>
 <p>Take the following steps to provide your local plan timetable data:</p>
 <ol class="govuk-list govuk-list--number steps">
   <li><a href="#prepare-your-data">Prepare your data</a></li>
@@ -359,7 +361,7 @@ and continue to iterate and improve it over time.</p>
 <h3 id="files">Files</h3>
 <p>For local plan timetables you may provide the following dataset:</p>
 <ul>
-<li><a href="#Localplantimetable-dataset">Local plan timetable</a></li>
+<li><a href="#Local-plan-timetable-dataset">Local plan timetable</a></li>
 </ul>
 <p>The dataset needs to be provided
 in a  CSV file 
@@ -397,12 +399,12 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025-04</code></li>
 <li><code>2025</code></li>
 </ul>
-<h3 id="local-plan-timetable-dataset">Local plan timetable dataset</h3>
+<h2 id="local-plan-timetable-dataset">Local plan timetable dataset</h2>
 <p>The local plan timetable is a record of the key dates when producing a local plan.
 Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">local plan event</a> dataset with the date when the event happened.
 Provide your predicted range of dates for events which are in the future.</p>
 <p>The Local plan timetable dataset contains the following fields:</p>
-<h4 id="reference">reference</h4>
+<h3 id="reference">reference</h3>
 <p>Give each event a reference which is unique for the event within the dataset.
 Where the timetable contains events for different local plans you can distinguish the events by adding the <code>local-plan</code> reference.
 Where a timetable has more than one event of the same kind, you can add a date to make them unique.
@@ -411,14 +413,14 @@ Where a timetable has more than one event of the same kind, you can add a date t
 <li><code class="value">LP1-public-consultation</code></li>
 <li><code class="value">LP1-public-consultation-2025</code></li>
 </ul>
-<h4 id="local-plan">local-plan</h4>
+<h3 id="local-plan">local-plan</h3>
 <p>Enter the reference of the local plan which this event forms part of its timetable.
  For example:</p>
 <ul>
 <li><code class="value">LP-BRX-2024</code></li>
 <li><code class="value">central-lincolnshire</code></li>
 </ul>
-<h4 id="local-plan-event">local-plan-event</h4>
+<h3 id="local-plan-event">local-plan-event</h3>
 <p>Enter one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">Local Plan Event</a> values:</p>
 <ul>
 <li><code>timetable-published</code></li>
@@ -437,24 +439,24 @@ Where a timetable has more than one event of the same kind, you can add a date t
 <li><code>plan-withdrawn</code></li>
 <li><code>plan-revoked</code></li>
 </ul>
-<h4 id="predicted-earliest-date">predicted-earliest-date</h4>
+<h3 id="predicted-earliest-date">predicted-earliest-date</h3>
 <p>Enter the earliest date when this event is expected to happen.
  For example:</p>
 <ul>
 <li><code class="value">2027-01-01</code></li>
 </ul>
-<h4 id="predicted-latest-date">predicted-latest-date</h4>
+<h3 id="predicted-latest-date">predicted-latest-date</h3>
 <p>Enter the latest date when this event is expected to happen.
  For example:</p>
 <ul>
 <li><code class="value">2027-03-31</code></li>
 </ul>
-<h4 id="entry-date">entry-date</h4>
+<h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date">start-date</h4>
+<h3 id="start-date">start-date</h3>
 <p>Enter the date when the timetable event occured. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.</p>
-<h4 id="notes">notes</h4>
+<h3 id="notes">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
 <h2 id="check-your-data">Check your data</h2>
 <p>Use the <a href="https://provide.planning.data.gov.uk">check and provide service</a> to review your data before you publish it. 

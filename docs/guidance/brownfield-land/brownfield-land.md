@@ -29,7 +29,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing Brownfield land data
+## Providing your Brownfield land data
 
 Take the following steps to provide your Brownfield land data:
 
@@ -66,7 +66,6 @@ Otherwise your data does not need to be complete or perfect to start with.
 For many purposes having some data is better than no data,
 so start by providing the best Brownfield land information you have,
 and continue to iterate and improve it over time.
-
 
 ### Files
 
@@ -125,7 +124,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Brownfield land dataset
+## Brownfield land dataset
 
 
 
@@ -133,13 +132,13 @@ The Brownfield land dataset contains the following fields:
 
 
 
-#### OrganisationURI
+### OrganisationURI
 
 [Find your organisation in this list](https://www.planning.data.gov.uk/organisation)
 and enter the corresponding `Open Data Communities URI` value.
 
 
-#### SiteReference
+### SiteReference
 
 Enter the unique reference your organisation uses to identify the site.
 
@@ -151,7 +150,7 @@ the site. You could use the strategic site identifier from your local plan.
 * <code class="value">EH/141</code>
 
 
-#### SiteNameAddress
+### SiteNameAddress
 
 Enter the site name and address in a single line of text, for example:
  For example:
@@ -159,7 +158,7 @@ Enter the site name and address in a single line of text, for example:
 * <code class="value">Parcel of land behind, 221B Baker Street, Marylebone, London, NW1 6XE</code>
 
 
-#### GeoX
+### GeoX
 
 Enter the longitude of a point close to the centre of the site. The value
 should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems
@@ -172,24 +171,24 @@ longitude (Geo X) from about -7 to 2.
 $CTA
 
 
-#### GeoY
+### GeoY
 
 Enter the latitude of a point close to the centre of the site. The value
 should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems
 specified by the [open standards for government guidance](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
 
 
-#### SiteplanURL
+### SiteplanURL
 
 Enter the URL of a web page hosting the site plan, beginning with either “http://” or “https://”.
 
-#### Hectares
+### Hectares
 
 Enter the land area of the site in hectares, up to 2 decimal places.
 Use digits (2) rather than words (two).
 
 
-#### OwnershipStatus
+### OwnershipStatus
 
 Indicate the site’s ownership by entering one of the following values:
 
@@ -200,7 +199,7 @@ Indicate the site’s ownership by entering one of the following values:
 For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
 
 
-#### PlanningStatus
+### PlanningStatus
 
 Choose one of the following to indicate what stage of the planning process the site is at:
 
@@ -214,7 +213,7 @@ you should explain in the `Notes` field why it’s only partly permissioned.
 For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).&#39;
 
 
-#### PermissionType
+### PermissionType
 
 Choose one of the following to indicate what permission type the site has:
 
@@ -235,45 +234,45 @@ granted. List any other permissions, including the date that each permission was
 granted or deemed to have been granted, in the ’Notes’ column.&#39;
 
 
-#### PermissionDate
+### PermissionDate
 
 Enter the date the most recent permission was granted on the site, in
 the format `YYYY-MM-DD`. If no permission has been granted leave this blank.
 
 
-#### PlanningHistory
+### PlanningHistory
 
 Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.
 
-#### Deliverable
+### Deliverable
 
 Enter ‘yes’ if there is a reasonable prospect that residential development
 will take place on the land within 5 years of the date you enter this site in
 the register. Otherwise leave this field blank.
 
 
-#### NetDwellingsRangeFrom
+### NetDwellingsRangeFrom
 
 Enter the minimum number of dwellings that the local planning authority
 estimates the site should support, as defined in 
 [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
 
 
-#### NetDwellingsRangeTo
+### NetDwellingsRangeTo
 
 Enter the maximum number of dwellings that the local planning authority
 estimates the site should support, as defined in 
 [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
 
 
-#### HazardousSubstances
+### HazardousSubstances
 
 Enter ‘yes’ if the local planning authority is required by regulation
 26(3) of the [Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made)
 to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.
 
 
-#### Notes
+### Notes
 
 Enter any general information about a site that developers might find
 useful, including a description of any housing development proposed for the site.
@@ -291,15 +290,15 @@ Content in this field does not need to be on a single line, but should be no lon
 than 4,000 characters. You can leave this field blank.
 
 
-#### FirstAddedDate
+### FirstAddedDate
 
 Enter the date that the site was first added to this register, in the format `YYYY-MM-DD`.
 
-#### LastUpdatedDate
+### LastUpdatedDate
 
 Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
-#### EndDate
+### EndDate
 
 If the site no longer needs to be listed (for example, if the site has
 been built on), it should remain on the register for historical reasons and not
@@ -379,6 +378,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/brownfield-land),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

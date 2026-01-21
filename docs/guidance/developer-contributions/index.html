@@ -293,16 +293,18 @@ ol.steps li::before {
 </div>
 
   
-<div class="govuk-phase-banner">
+<div class="govuk-phase-banner govuk-body">
   <p class="govuk-phase-banner__content">
-    <p class="govuk-body govuk-!-margin-bottom-1">9 June 2022</p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       Working Draft
     </strong>
-    <span class="govuk-phase-banner__text">
-      This guidance is under development. Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
-    </span>
+    <p></p>
+    <p class="govuk-body govuk-!-margin-bottom-1">9 June 2022</p>
+    <p>
+      This guidance is under development.
+      Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
+    </p>
   </p>
 </div>
 <div class="govuk-grid-row govuk-body">
@@ -330,7 +332,7 @@ We have designed the data format to cause as little disruption as possible to ex
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
 <a href="https://design.planning.data.gov.uk">Help design this and other data standards to ensure they your needs</a>. </p>
-<h2 id="providing-developer-contributions-data">Providing Developer contributions data</h2>
+<h2 id="providing-your-developer-contributions-data">Providing your Developer contributions data</h2>
 <p>Take the following steps to provide your Developer contributions data:</p>
 <ol class="govuk-list govuk-list--number steps">
   <li><a href="#prepare-your-data">Prepare your data</a></li>
@@ -367,9 +369,9 @@ and continue to iterate and improve it over time.</p>
 <h3 id="files">Files</h3>
 <p>For Developer contributions you may provide the following dataset:</p>
 <ul>
-<li><a href="#Developeragreement-dataset">Developer agreement</a></li>
-<li><a href="#Developeragreementcontribution-dataset">Developer agreement contribution</a></li>
-<li><a href="#Developeragreementtransaction-dataset">Developer agreement transaction</a></li>
+<li><a href="#Developer-agreement-dataset">Developer agreement</a></li>
+<li><a href="#Developer-agreement-contribution-dataset">Developer agreement contribution</a></li>
+<li><a href="#Developer-agreement-transaction-dataset">Developer agreement transaction</a></li>
 </ul>
 <p>Each dataset needs to be provided
 in a separate CSV file 
@@ -407,9 +409,9 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025-04</code></li>
 <li><code>2025</code></li>
 </ul>
-<h3 id="developer-agreement-dataset">Developer agreement dataset</h3>
+<h2 id="developer-agreement-dataset">Developer agreement dataset</h2>
 <p>The Developer agreement dataset contains the following fields:</p>
-<h4 id="reference">reference</h4>
+<h3 id="reference">reference</h3>
 <p>Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:</p>
 <ul>
@@ -419,21 +421,21 @@ If you don’t have a reference for this item, you will need to create one that 
 <p>A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
-<h4 id="name">name</h4>
-<h4 id="developer-agreement-type">developer-agreement-type</h4>
-<h4 id="planning-application">planning-application</h4>
-<h4 id="document-url">document-url</h4>
-<h4 id="notes">notes</h4>
+<h3 id="name">name</h3>
+<h3 id="developer-agreement-type">developer-agreement-type</h3>
+<h3 id="planning-application">planning-application</h3>
+<h3 id="document-url">document-url</h3>
+<h3 id="notes">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h4 id="organisation">organisation</h4>
+<h3 id="organisation">organisation</h3>
 <p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
-<h4 id="entry-date">entry-date</h4>
+<h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date">start-date</h4>
-<h4 id="end-date">end-date</h4>
-<h3 id="developer-agreement-contribution-dataset">Developer agreement contribution dataset</h3>
+<h3 id="start-date">start-date</h3>
+<h3 id="end-date">end-date</h3>
+<h2 id="developer-agreement-contribution-dataset">Developer agreement contribution dataset</h2>
 <p>The Developer agreement contribution dataset contains the following fields:</p>
-<h4 id="reference_1">reference</h4>
+<h3 id="reference_1">reference</h3>
 <p>Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:</p>
 <ul>
@@ -443,21 +445,21 @@ If you don’t have a reference for this item, you will need to create one that 
 <p>A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
-<h4 id="developer-agreement">developer-agreement</h4>
-<h4 id="contribution-purpose">contribution-purpose</h4>
-<h4 id="amount">amount</h4>
-<h4 id="units">units</h4>
-<h4 id="notes_1">notes</h4>
+<h3 id="developer-agreement">developer-agreement</h3>
+<h3 id="contribution-purpose">contribution-purpose</h3>
+<h3 id="amount">amount</h3>
+<h3 id="units">units</h3>
+<h3 id="notes_1">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h4 id="organisation_1">organisation</h4>
+<h3 id="organisation_1">organisation</h3>
 <p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
-<h4 id="entry-date_1">entry-date</h4>
+<h3 id="entry-date_1">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date_1">start-date</h4>
-<h4 id="end-date_1">end-date</h4>
-<h3 id="developer-agreement-transaction-dataset">Developer agreement transaction dataset</h3>
+<h3 id="start-date_1">start-date</h3>
+<h3 id="end-date_1">end-date</h3>
+<h2 id="developer-agreement-transaction-dataset">Developer agreement transaction dataset</h2>
 <p>The Developer agreement transaction dataset contains the following fields:</p>
-<h4 id="reference_2">reference</h4>
+<h3 id="reference_2">reference</h3>
 <p>Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:</p>
 <ul>
@@ -467,18 +469,18 @@ If you don’t have a reference for this item, you will need to create one that 
 <p>A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
-<h4 id="developer-agreement-contribution">developer-agreement-contribution</h4>
-<h4 id="contribution-funding-status">contribution-funding-status</h4>
-<h4 id="amount_1">amount</h4>
-<h4 id="units_1">units</h4>
-<h4 id="notes_2">notes</h4>
+<h3 id="developer-agreement-contribution">developer-agreement-contribution</h3>
+<h3 id="contribution-funding-status">contribution-funding-status</h3>
+<h3 id="amount_1">amount</h3>
+<h3 id="units_1">units</h3>
+<h3 id="notes_2">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h4 id="organisation_2">organisation</h4>
+<h3 id="organisation_2">organisation</h3>
 <p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
-<h4 id="entry-date_2">entry-date</h4>
+<h3 id="entry-date_2">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date_2">start-date</h4>
-<h4 id="end-date_2">end-date</h4>
+<h3 id="start-date_2">start-date</h3>
+<h3 id="end-date_2">end-date</h3>
 <h2 id="check-your-data">Check your data</h2>
 <p>Use the <a href="https://provide.planning.data.gov.uk">check and provide service</a> to review your data before you publish it. 
 The service will show you how the data will appear on <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> 

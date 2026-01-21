@@ -293,16 +293,18 @@ ol.steps li::before {
 </div>
 
   
-<div class="govuk-phase-banner">
+<div class="govuk-phase-banner govuk-body">
   <p class="govuk-phase-banner__content">
-    <p class="govuk-body govuk-!-margin-bottom-1">25 November 2025</p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       Working Draft
     </strong>
-    <span class="govuk-phase-banner__text">
-      This guidance is under development. Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
-    </span>
+    <p></p>
+    <p class="govuk-body govuk-!-margin-bottom-1">25 November 2025</p>
+    <p>
+      This guidance is under development.
+      Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
+    </p>
   </p>
 </div>
 <div class="govuk-grid-row govuk-body">
@@ -322,7 +324,7 @@ other regulations, contracts, and agreements.</p>
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
 <a href="https://design.planning.data.gov.uk">Help design this and other data standards to ensure they your needs</a>. </p>
-<h2 id="providing-development-corporation-boundary-data">Providing development corporation boundary data</h2>
+<h2 id="providing-your-development-corporation-boundary-data">Providing your development corporation boundary data</h2>
 <p>Take the following steps to provide your development corporation boundary data:</p>
 <ol class="govuk-list govuk-list--number steps">
   <li><a href="#prepare-your-data">Prepare your data</a></li>
@@ -359,7 +361,7 @@ and continue to iterate and improve it over time.</p>
 <h3 id="files">Files</h3>
 <p>For development corporation boundaries you may provide the following dataset:</p>
 <ul>
-<li><a href="#Developmentcorporationboundary-dataset">Development corporation boundary</a></li>
+<li><a href="#Development-corporation-boundary-dataset">Development corporation boundary</a></li>
 </ul>
 <p>The dataset needs to be provided
 in a  CSV file 
@@ -416,9 +418,9 @@ The platform will default a <code>start-date</code> to the first of the month, o
 </ul>
 <p>When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native format for the geospatial data. 
 That is there is no need to duplicate the geospatial data into a <code>point</code> or <code>geometry</code> property or field.</p>
-<h3 id="development-corporation-boundary-dataset">Development corporation boundary dataset</h3>
+<h2 id="development-corporation-boundary-dataset">Development corporation boundary dataset</h2>
 <p>The Development corporation boundary dataset contains the following fields:</p>
-<h4 id="reference">reference</h4>
+<h3 id="reference">reference</h3>
 <p>Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:</p>
 <ul>
@@ -428,21 +430,21 @@ If you don’t have a reference for this item, you will need to create one that 
 <p>A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
-<h4 id="name">name</h4>
-<h4 id="documentation-url">documentation-url</h4>
-<h4 id="document-url">document-url</h4>
-<h4 id="geometry">geometry</h4>
+<h3 id="name">name</h3>
+<h3 id="documentation-url">documentation-url</h3>
+<h3 id="document-url">document-url</h3>
+<h3 id="geometry">geometry</h3>
 <p>The boundary may be a single polygon, or a multipolygon value.
 All points should be in the WGS84 coordinate reference system.
 You may provide data containing points in another coordinate reference system, such as British National Grid,
 but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
 Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
 If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.</p>
-<h4 id="entry-date">entry-date</h4>
+<h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date">start-date</h4>
-<h4 id="end-date">end-date</h4>
-<h4 id="notes">notes</h4>
+<h3 id="start-date">start-date</h3>
+<h3 id="end-date">end-date</h3>
+<h3 id="notes">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
 <h2 id="check-your-data">Check your data</h2>
 <p>Use the <a href="https://provide.planning.data.gov.uk">check and provide service</a> to review your data before you publish it. 

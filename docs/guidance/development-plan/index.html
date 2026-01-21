@@ -293,16 +293,18 @@ ol.steps li::before {
 </div>
 
   
-<div class="govuk-phase-banner">
+<div class="govuk-phase-banner govuk-body">
   <p class="govuk-phase-banner__content">
-    <p class="govuk-body govuk-!-margin-bottom-1">19 January 2026</p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       Working Draft
     </strong>
-    <span class="govuk-phase-banner__text">
-      This guidance is under development. Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
-    </span>
+    <p></p>
+    <p class="govuk-body govuk-!-margin-bottom-1">19 January 2026</p>
+    <p>
+      This guidance is under development.
+      Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
+    </p>
   </p>
 </div>
 <div class="govuk-grid-row govuk-body">
@@ -319,7 +321,7 @@ local plan, minerals plan, waste plan, or supplementary plan <a href="https://ww
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
 <a href="https://design.planning.data.gov.uk">Help design this and other data standards to ensure they your needs</a>. </p>
-<h2 id="providing-development-plan-data">Providing development plan data</h2>
+<h2 id="providing-your-development-plan-data">Providing your development plan data</h2>
 <p>Take the following steps to provide your development plan data:</p>
 <ol class="govuk-list govuk-list--number steps">
   <li><a href="#prepare-your-data">Prepare your data</a></li>
@@ -361,7 +363,7 @@ and continue to iterate and improve it over time.</p>
 </ul>
 <p>You may also provide the following dataset:</p>
 <ul>
-<li><a href="#Localplanhousingnumber-dataset">Local plan housing number</a></li>
+<li><a href="#Local-plan-housing-number-dataset">Local plan housing number</a></li>
 </ul>
 <p>Each dataset needs to be provided
 in a separate CSV file 
@@ -399,9 +401,9 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025-04</code></li>
 <li><code>2025</code></li>
 </ul>
-<h3 id="development-plan-dataset">Development plan dataset</h3>
+<h2 id="development-plan-dataset">Development plan dataset</h2>
 <p>The development plan dataset contains the following fields:</p>
-<h4 id="reference">reference</h4>
+<h3 id="reference">reference</h3>
 <p>Give each local plan a unique reference.
  For example:</p>
 <ul>
@@ -410,13 +412,13 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code class="value">central-lincolnshire</code></li>
 <li><code class="value">barnet-local-plan-2021-2036</code></li>
 </ul>
-<h4 id="name">name</h4>
+<h3 id="name">name</h3>
 <p>Use the title of the adopted local plan document. For example:</p>
 <ul>
 <li><code class="value">County Durham Plan</code></li>
 <li><code class="value">South Oxfordshire Joint Local Plan</code></li>
 </ul>
-<h4 id="dataset">dataset</h4>
+<h3 id="dataset">dataset</h3>
 <p>Enter one of the following values to indicate the type of development plan:</p>
 <ul>
 <li><code>local-plan</code></li>
@@ -424,17 +426,17 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>minerals-plan</code></li>
 <li><code>waste-plan</code></li>
 </ul>
-<h4 id="period-start-date">period-start-date</h4>
+<h3 id="period-start-date">period-start-date</h3>
 <p>Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format. For example:</p>
 <ul>
 <li><code class="value">2026</code></li>
 </ul>
-<h4 id="period-end-date">period-end-date</h4>
+<h3 id="period-end-date">period-end-date</h3>
 <p>Enter the end of the plan period. This is usually just a year in <code>YYYY</code> format. For example:</p>
 <ul>
 <li><code class="value">2038</code></li>
 </ul>
-<h4 id="local-planning-authorities">local-planning-authorities</h4>
+<h3 id="local-planning-authorities">local-planning-authorities</h3>
 <p>Enter the reference (the GSS code) for the 
 <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
 area covered by this local or supplementary plan.
@@ -444,7 +446,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 <li><code class="value">E60000001</code></li>
 <li><code class="value">E60000132;E60000133;E60000135;E60000136</code></li>
 </ul>
-<h4 id="mineral-planning-authorities">mineral-planning-authorities</h4>
+<h3 id="mineral-planning-authorities">mineral-planning-authorities</h3>
 <p>Enter the reference for the
 <a href="https://www.planning.data.gov.uk/dataset/mineral-planning-authority">Mineral Planning Authority</a>
 area covered by this minerals plan.
@@ -453,7 +455,7 @@ For a joint minerals plan, enter the list of Mineral Planning Authority referenc
 <ul>
 <li><code class="value">GMCA</code></li>
 </ul>
-<h4 id="waste-planning-authorities">waste-planning-authorities</h4>
+<h3 id="waste-planning-authorities">waste-planning-authorities</h3>
 <p>Enter the reference for the
 <a href="https://www.planning.data.gov.uk/dataset/waste-planning-authority">Waste Planning Authority</a>
 area covered by this waste plan.
@@ -462,13 +464,13 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 <ul>
 <li><code class="value">NLWA</code></li>
 </ul>
-<h4 id="local-plan-process">local-plan-process</h4>
+<h3 id="local-plan-process">local-plan-process</h3>
 <p>Indicate the local plan examination process for the local plan using one of the following values:</p>
 <ul>
 <li><code>2012</code> for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements</li>
 <li><code>2026</code> for plans prepared under <em>new Local Planning Regulations (TBD)</em></li>
 </ul>
-<h4 id="documentation-url">documentation-url</h4>
+<h3 id="documentation-url">documentation-url</h3>
 <p>The URL of the webpage on your website for the local plan</p>
 <p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
@@ -480,13 +482,13 @@ to make the URL for each plan unique.
 <li><code class="value">https://example.com/local-plans/#example-local-plan-2011</code></li>
 <li><code class="value">https://example.com/local-plans/#example-local-plan-2024</code></li>
 </ul>
-<h4 id="document-url">document-url</h4>
+<h3 id="document-url">document-url</h3>
 <p>Enter the URL for the main or core plan document. This is usually a PDF file.
  For example:</p>
 <ul>
 <li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
 </ul>
-<h4 id="required-housing">required-housing</h4>
+<h3 id="required-housing">required-housing</h3>
 <p>Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
 This field is mandatory for new local plans.
@@ -496,20 +498,20 @@ in a separate <code>local-plan-housing</code> dataset.
 <ul>
 <li><code class="value">24852</code></li>
 </ul>
-<h4 id="entry-date">entry-date</h4>
+<h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date">start-date</h4>
+<h3 id="start-date">start-date</h3>
 <p>Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.</p>
-<h4 id="end-date">end-date</h4>
+<h3 id="end-date">end-date</h3>
 <p>Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.</p>
-<h4 id="notes">notes</h4>
+<h3 id="notes">notes</h3>
 <p>You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:</p>
 <ul>
 <li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
 </ul>
-<h3 id="development-plan-timetable-dataset">Development plan timetable dataset</h3>
+<h2 id="development-plan-timetable-dataset">Development plan timetable dataset</h2>
 <p>Record the key events and milestones in the timetable when producing your development plan.
 For new local plans your timetable must include a precise <code>predicted-date</code> against each entry.
 Update the entry to include the actual date in the <code>start-date</code> field when the event takes place.</p>
@@ -556,7 +558,7 @@ your timetable must include a entry for each of the the following events:</p>
 <li><code>revoked</code></li>
 </ul>
 <p>The development plan timetable dataset contains the following fields:</p>
-<h4 id="reference_1">reference</h4>
+<h3 id="reference_1">reference</h3>
 <p>Give each event a reference which is unique for the event within the dataset.
 Where a timetable has more than one event of the same type, you can add a date to make them unique.
  For example:</p>
@@ -564,14 +566,14 @@ Where a timetable has more than one event of the same type, you can add a date t
 <li><code class="value">LP1-public-consultation</code></li>
 <li><code class="value">LP1-public-consultation-2025</code></li>
 </ul>
-<h4 id="development-plan">development-plan</h4>
+<h3 id="development-plan">development-plan</h3>
 <p>Enter the reference of the development plan which this event forms part of its timetable.
  For example:</p>
 <ul>
 <li><code class="value">LP-BRX-2024</code></li>
 <li><code class="value">central-lincolnshire</code></li>
 </ul>
-<h4 id="development-plan-event">development-plan-event</h4>
+<h3 id="development-plan-event">development-plan-event</h3>
 <p>Enter a <a href="https://www.planning.data.gov.uk/dataset/development-plan-event">Development Plan Event</a> reference.
  For example:</p>
 <ul>
@@ -579,24 +581,24 @@ Where a timetable has more than one event of the same type, you can add a date t
 <li><code class="value">examination-submitted</code></li>
 <li><code class="value">adopted</code></li>
 </ul>
-<h4 id="predicted-date">predicted-date</h4>
+<h3 id="predicted-date">predicted-date</h3>
 <p>Enter the date when this event is expected to happen.
  For example:</p>
 <ul>
 <li><code class="value">2027-01-01</code></li>
 </ul>
-<h4 id="entry-date_1">entry-date</h4>
+<h3 id="entry-date_1">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date_1">start-date</h4>
+<h3 id="start-date_1">start-date</h3>
 <p>Enter the date when the timetable event occured. Leave this field blank when the event is in the future.</p>
-<h4 id="notes_1">notes</h4>
+<h3 id="notes_1">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h3 id="local-plan-housing-number-dataset">Local plan housing number dataset</h3>
+<h2 id="local-plan-housing-number-dataset">Local plan housing number dataset</h2>
 <p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.</p>
 <p>The Local plan housing number dataset contains the following fields:</p>
-<h4 id="reference_2">reference</h4>
+<h3 id="reference_2">reference</h3>
 <p>Give each set of housing numbers a unique reference value.
  For example:</p>
 <ul>
@@ -604,22 +606,22 @@ There is no need to provide this dataset for other kinds of plan.</p>
 <li><code class="value">central-lincolnshire</code></li>
 <li><code class="value">barnet-local-plan-2021-2036</code></li>
 </ul>
-<h4 id="local-plan">local-plan</h4>
+<h3 id="local-plan">local-plan</h3>
 <p>Enter the <code>reference</code> for the local plan which these numbers apply.</p>
-<h4 id="required-housing_1">required-housing</h4>
+<h3 id="required-housing_1">required-housing</h3>
 <p>Enter the minimum number of homes that the plan seeks to provide
 within this <code>local-planning-authority</code> area.
  For example:</p>
 <ul>
 <li><code class="value">24852</code></li>
 </ul>
-<h4 id="entry-date_2">entry-date</h4>
+<h3 id="entry-date_2">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date_2">start-date</h4>
+<h3 id="start-date_2">start-date</h3>
 <p>Enter the date these numbers were finalised.</p>
-<h4 id="end-date_1">end-date</h4>
+<h3 id="end-date_1">end-date</h3>
 <p>Enter the date these numbers were withdrawn, otherwise leave this field blank.</p>
-<h4 id="notes_2">notes</h4>
+<h3 id="notes_2">notes</h3>
 <p>You may provide a short description to help users differentiate the plan from others with a similar name. For example:</p>
 <ul>
 <li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>

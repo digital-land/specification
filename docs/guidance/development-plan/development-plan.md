@@ -29,7 +29,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing development plan data
+## Providing your development plan data
 
 Take the following steps to provide your development plan data:
 
@@ -67,7 +67,6 @@ For many purposes having some data is better than no data,
 so start by providing the best development plans information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -83,7 +82,7 @@ For development plans you need to provide 2 datasets:
 You may also provide the following dataset:
 
 
-* [Local plan housing number](#Localplanhousingnumber-dataset)
+* [Local plan housing number](#Local-plan-housing-number-dataset)
 
 
 
@@ -133,7 +132,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Development plan dataset
+## Development plan dataset
 
 
 
@@ -141,7 +140,7 @@ The development plan dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Give each local plan a unique reference.
  For example:
@@ -152,7 +151,7 @@ Give each local plan a unique reference.
 * <code class="value">barnet-local-plan-2021-2036</code>
 
 
-#### name
+### name
 
 Use the title of the adopted local plan document. For example:
 
@@ -160,7 +159,7 @@ Use the title of the adopted local plan document. For example:
 * <code class="value">South Oxfordshire Joint Local Plan</code>
 
 
-#### dataset
+### dataset
 
 Enter one of the following values to indicate the type of development plan:
 
@@ -170,21 +169,21 @@ Enter one of the following values to indicate the type of development plan:
 * `waste-plan`
 
 
-#### period-start-date
+### period-start-date
 
 Enter the start of the plan period. This is usually just a year in `YYYY` format. For example:
 
 * <code class="value">2026</code>
 
 
-#### period-end-date
+### period-end-date
 
 Enter the end of the plan period. This is usually just a year in `YYYY` format. For example:
 
 * <code class="value">2038</code>
 
 
-#### local-planning-authorities
+### local-planning-authorities
 
 Enter the reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
@@ -196,7 +195,7 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 * <code class="value">E60000132;E60000133;E60000135;E60000136</code>
 
 
-#### mineral-planning-authorities
+### mineral-planning-authorities
 
 Enter the reference for the
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
@@ -207,7 +206,7 @@ For a joint minerals plan, enter the list of Mineral Planning Authority referenc
 * <code class="value">GMCA</code>
 
 
-#### waste-planning-authorities
+### waste-planning-authorities
 
 Enter the reference for the
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
@@ -218,7 +217,7 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 * <code class="value">NLWA</code>
 
 
-#### local-plan-process
+### local-plan-process
 
 Indicate the local plan examination process for the local plan using one of the following values:
 
@@ -226,7 +225,7 @@ Indicate the local plan examination process for the local plan using one of the 
 * `2026` for plans prepared under *new Local Planning Regulations (TBD)*
 
 
-#### documentation-url
+### documentation-url
 
 The URL of the webpage on your website for the local plan
 
@@ -241,7 +240,7 @@ to make the URL for each plan unique.
 * <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
 
 
-#### document-url
+### document-url
 
 Enter the URL for the main or core plan document. This is usually a PDF file.
  For example:
@@ -249,7 +248,7 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
 
-#### required-housing
+### required-housing
 
 Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
@@ -261,30 +260,30 @@ in a separate `local-plan-housing` dataset.
 * <code class="value">24852</code>
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
 
 
-#### end-date
+### end-date
 
 Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
 
 
-#### notes
+### notes
 
 You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
 
-### Development plan timetable dataset
+## Development plan timetable dataset
 
 Record the key events and milestones in the timetable when producing your development plan.
 For new local plans your timetable must include a precise `predicted-date` against each entry.
@@ -337,7 +336,7 @@ The development plan timetable dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Give each event a reference which is unique for the event within the dataset.
 Where a timetable has more than one event of the same type, you can add a date to make them unique.
@@ -347,7 +346,7 @@ Where a timetable has more than one event of the same type, you can add a date t
 * <code class="value">LP1-public-consultation-2025</code>
 
 
-#### development-plan
+### development-plan
 
 Enter the reference of the development plan which this event forms part of its timetable.
  For example:
@@ -356,7 +355,7 @@ Enter the reference of the development plan which this event forms part of its t
 * <code class="value">central-lincolnshire</code>
 
 
-#### development-plan-event
+### development-plan-event
 
 Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference.
  For example:
@@ -366,7 +365,7 @@ Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/develo
 * <code class="value">adopted</code>
 
 
-#### predicted-date
+### predicted-date
 
 Enter the date when this event is expected to happen.
  For example:
@@ -374,20 +373,20 @@ Enter the date when this event is expected to happen.
 * <code class="value">2027-01-01</code>
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date when the timetable event occured. Leave this field blank when the event is in the future.
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-### Local plan housing number dataset
+## Local plan housing number dataset
 
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
@@ -398,7 +397,7 @@ The Local plan housing number dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Give each set of housing numbers a unique reference value.
  For example:
@@ -408,12 +407,12 @@ Give each set of housing numbers a unique reference value.
 * <code class="value">barnet-local-plan-2021-2036</code>
 
 
-#### local-plan
+### local-plan
 
 Enter the `reference` for the local plan which these numbers apply.
 
 
-#### required-housing
+### required-housing
 
 Enter the minimum number of homes that the plan seeks to provide
 within this `local-planning-authority` area.
@@ -422,21 +421,21 @@ within this `local-planning-authority` area.
 * <code class="value">24852</code>
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date these numbers were finalised.
 
 
-#### end-date
+### end-date
 
 Enter the date these numbers were withdrawn, otherwise leave this field blank.
 
 
-#### notes
+### notes
 
 You may provide a short description to help users differentiate the plan from others with a similar name. For example:
 
@@ -514,6 +513,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/development-plans-and-timetables),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

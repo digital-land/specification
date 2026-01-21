@@ -38,7 +38,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing Developer contributions data
+## Providing your Developer contributions data
 
 Take the following steps to provide your Developer contributions data:
 
@@ -76,7 +76,6 @@ For many purposes having some data is better than no data,
 so start by providing the best Developer contributions information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -86,9 +85,9 @@ and continue to iterate and improve it over time.
 For Developer contributions you may provide the following dataset:
 
 
-* [Developer agreement](#Developeragreement-dataset)
-* [Developer agreement contribution](#Developeragreementcontribution-dataset)
-* [Developer agreement transaction](#Developeragreementtransaction-dataset)
+* [Developer agreement](#Developer-agreement-dataset)
+* [Developer agreement contribution](#Developer-agreement-contribution-dataset)
+* [Developer agreement transaction](#Developer-agreement-transaction-dataset)
 
 
 
@@ -138,7 +137,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Developer agreement dataset
+## Developer agreement dataset
 
 
 
@@ -146,7 +145,7 @@ The Developer agreement dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -158,43 +157,43 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### name
+### name
 
 
 
-#### developer-agreement-type
+### developer-agreement-type
 
 
 
-#### planning-application
+### planning-application
 
 
 
-#### document-url
+### document-url
 
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
-### Developer agreement contribution dataset
+## Developer agreement contribution dataset
 
 
 
@@ -202,7 +201,7 @@ The Developer agreement contribution dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -214,43 +213,43 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### developer-agreement
+### developer-agreement
 
 
 
-#### contribution-purpose
+### contribution-purpose
 
 
 
-#### amount
+### amount
 
 
 
-#### units
+### units
 
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
-### Developer agreement transaction dataset
+## Developer agreement transaction dataset
 
 
 
@@ -258,7 +257,7 @@ The Developer agreement transaction dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -270,39 +269,39 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### developer-agreement-contribution
+### developer-agreement-contribution
 
 
 
-#### contribution-funding-status
+### contribution-funding-status
 
 
 
-#### amount
+### amount
 
 
 
-#### units
+### units
 
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
@@ -378,6 +377,5 @@ You can participate in
 improving the design of this data 
 ,
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

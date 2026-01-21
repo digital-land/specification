@@ -38,7 +38,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing Tree preservation order data
+## Providing your Tree preservation order data
 
 Take the following steps to provide your Tree preservation order data:
 
@@ -76,7 +76,6 @@ For many purposes having some data is better than no data,
 so start by providing the best Tree preservation orders information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -86,8 +85,8 @@ and continue to iterate and improve it over time.
 For Tree preservation orders you may provide the following dataset:
 
 
-* [Tree preservation order](#Treepreservationorder-dataset)
-* [Tree preservation zone](#Treepreservationzone-dataset)
+* [Tree preservation order](#Tree-preservation-order-dataset)
+* [Tree preservation zone](#Tree-preservation-zone-dataset)
 * [Tree](#Tree-dataset)
 
 
@@ -161,7 +160,7 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-### Tree preservation order dataset
+## Tree preservation order dataset
 
 
 
@@ -169,7 +168,7 @@ The Tree preservation order dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -181,47 +180,47 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### name
+### name
 
 
 
-#### documentation-url
+### documentation-url
 
 
 
-#### document-url
+### document-url
 
 
 
-#### made-date
+### made-date
 
 
 
-#### confirmed-date
+### confirmed-date
 
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
-### Tree preservation zone dataset
+## Tree preservation zone dataset
 
 
 
@@ -229,7 +228,7 @@ The Tree preservation zone dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -241,19 +240,19 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### name
+### name
 
 
 
-#### tree-preservation-order
+### tree-preservation-order
 
 
 
-#### tree-preservation-zone-type
+### tree-preservation-zone-type
 
 
 
-#### geometry
+### geometry
 
 The boundary may be a single polygon, or a multipolygon value.
 All points should be in the WGS84 coordinate reference system.
@@ -262,31 +261,31 @@ but they will need to be transformed into WGS84 by software such as the Planning
 Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
 If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
 
-#### point
+### point
 
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
-### Tree dataset
+## Tree dataset
 
 
 
@@ -294,7 +293,7 @@ The Tree dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -306,27 +305,27 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### name
+### name
 
 
 
-#### tree-preservation-order
+### tree-preservation-order
 
 
 
-#### uprn
+### uprn
 
 Although this field doesn&#39;t appear in the technical spec or guidance if an LPA provides a species column we can map it to this
 
-#### address-text
+### address-text
 
 
 
-#### point
+### point
 
 
 
-#### geometry
+### geometry
 
 The boundary may be a single polygon, or a multipolygon value.
 All points should be in the WGS84 coordinate reference system.
@@ -335,27 +334,27 @@ but they will need to be transformed into WGS84 by software such as the Planning
 Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
 If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### felled-date
+### felled-date
 
 
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
@@ -430,6 +429,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/tree-preservation-orders),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

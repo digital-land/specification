@@ -32,7 +32,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing Community infrastructure levy data
+## Providing your Community infrastructure levy data
 
 Take the following steps to provide your Community infrastructure levy data:
 
@@ -70,7 +70,6 @@ For many purposes having some data is better than no data,
 so start by providing the best Community infrastructure levy information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -80,7 +79,7 @@ and continue to iterate and improve it over time.
 For Community infrastructure levy you may provide the following dataset:
 
 
-* [Community infrastructure levy schedule](#Communityinfrastructurelevyschedule-dataset)
+* [Community infrastructure levy schedule](#Community-infrastructure-levy-schedule-dataset)
 
 
 
@@ -130,7 +129,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Community infrastructure levy schedule dataset
+## Community infrastructure levy schedule dataset
 
 
 
@@ -138,7 +137,7 @@ The Community infrastructure levy schedule dataset contains the following fields
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -150,43 +149,43 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### name
+### name
 
 
 
-#### description
+### description
 
 
 
-#### document-url
+### document-url
 
 
 
-#### documentation-url
+### documentation-url
 
 
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### adopted-date
+### adopted-date
 
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
@@ -261,6 +260,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/community-infrastructure-levy),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

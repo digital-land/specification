@@ -32,7 +32,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing Local area requirement data
+## Providing your Local area requirement data
 
 Take the following steps to provide your Local area requirement data:
 
@@ -70,7 +70,6 @@ For many purposes having some data is better than no data,
 so start by providing the best Local area requirements information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -80,7 +79,7 @@ and continue to iterate and improve it over time.
 For Local area requirements you may provide the following dataset:
 
 
-* [Local area requirements](#Localarearequirements-dataset)
+* [Local area requirements](#Local-area-requirements-dataset)
 
 
 
@@ -130,7 +129,7 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Local area requirements dataset
+## Local area requirements dataset
 
 
 
@@ -138,7 +137,7 @@ The Local area requirements dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:
@@ -150,43 +149,43 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
-#### name
+### name
 
 
 
-#### description
+### description
 
 
 
-#### organisation
+### organisation
 
 Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
 
-#### document-urls
+### document-urls
 
 
 
-#### documentation-url
+### documentation-url
 
 
 
-#### period-start-date
+### period-start-date
 
 
 
-#### notes
+### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 
 
-#### end-date
+### end-date
 
 
 
@@ -261,6 +260,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/local-area-requirements),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

@@ -32,7 +32,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 understand its quality, and trust it will be sustained.
 [Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
-## Providing local planning authority data
+## Providing your local planning authority data
 
 Take the following steps to provide your local planning authority data:
 
@@ -70,7 +70,6 @@ For many purposes having some data is better than no data,
 so start by providing the best local planning authorities information you have,
 and continue to iterate and improve it over time.
 
-
 ### Files
 
 
@@ -80,7 +79,7 @@ and continue to iterate and improve it over time.
 For local planning authorities you may provide the following dataset:
 
 
-* [Local Planning Authority](#LocalPlanningAuthority-dataset)
+* [Local Planning Authority](#Local-Planning-Authority-dataset)
 
 
 
@@ -153,7 +152,7 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-### Local Planning Authority dataset
+## Local Planning Authority dataset
 
 A mayoral authority, or other organisation responsible for the designation of a 
 development corporation or other kind of Local Planning Authority can use this 
@@ -164,7 +163,7 @@ The Local Planning Authority dataset contains the following fields:
 
 
 
-#### reference
+### reference
 
 Enter the GSS code for the Local Planning Authority area. 
 You can create a unique reference where no GSS code exists and
@@ -175,7 +174,7 @@ republish the data with the official GSS code once it is known.
 * <code class="value">borchester-development-corporation</code>
 
 
-#### name
+### name
 
 Enter the name of the Local Planning Authority.
  For example:
@@ -183,19 +182,19 @@ Enter the name of the Local Planning Authority.
 * <code class="value">Old Oak and Park Royal Development Corporation (OPDC)</code>
 
 
-#### documentation-url
+### documentation-url
 
 Enter the URL of the webpage on your website where information about the Local Planning Authority
 including the boundary may be found.
 
 
-#### document-url
+### document-url
 
 Enter the URL of the document, webpage, or data on your website containing the
 authorititive &#34;red-line&#34; boundary.
 
 
-#### geometry
+### geometry
 
 The boundary may be a single polygon, or a multipolygon value.
 All points should be in the WGS84 coordinate reference system.
@@ -204,21 +203,21 @@ but they will need to be transformed into WGS84 by software such as the Planning
 Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
 If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
 
-#### entry-date
+### entry-date
 
 Enter the date this data was created or modified.
 
-#### start-date
+### start-date
 
 Enter the date this area became a Local Planning Authority.
 
 
-#### end-date
+### end-date
 
 Enter the date this area ceased to be a Local Planning Authority.
 
 
-#### notes
+### notes
 
 Enter any notes to help a user understand how the data was made or is to be interpreted.
  For example:
@@ -300,6 +299,5 @@ $CTA
 You can participate in
 [improving the design of this data](https://design.planning.data.gov.uk/consideration/development-corporation),
 and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
-
 
 ## Technical specifications

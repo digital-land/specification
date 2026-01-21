@@ -293,16 +293,18 @@ ol.steps li::before {
 </div>
 
   
-<div class="govuk-phase-banner">
+<div class="govuk-phase-banner govuk-body">
   <p class="govuk-phase-banner__content">
-    <p class="govuk-body govuk-!-margin-bottom-1">8 November 2025</p>
     <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       Working Draft
     </strong>
-    <span class="govuk-phase-banner__text">
-      This guidance is under development. Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
-    </span>
+    <p></p>
+    <p class="govuk-body govuk-!-margin-bottom-1">8 November 2025</p>
+    <p>
+      This guidance is under development.
+      Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
+    </p>
   </p>
 </div>
 <div class="govuk-grid-row govuk-body">
@@ -331,7 +333,7 @@ by planning authorities under the
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
 understand its quality, and trust it will be sustained.
 <a href="https://design.planning.data.gov.uk">Help design this and other data standards to ensure they your needs</a>. </p>
-<h2 id="providing-article-4-direction-data">Providing Article 4 direction data</h2>
+<h2 id="providing-your-article-4-direction-data">Providing your Article 4 direction data</h2>
 <p>Take the following steps to provide your Article 4 direction data:</p>
 <ol class="govuk-list govuk-list--number steps">
   <li><a href="#prepare-your-data">Prepare your data</a></li>
@@ -368,8 +370,8 @@ and continue to iterate and improve it over time.</p>
 <h3 id="files">Files</h3>
 <p>For article 4 directions you may provide the following dataset:</p>
 <ul>
-<li><a href="#Article4direction-dataset">Article 4 direction</a></li>
-<li><a href="#Article4directionarea-dataset">Article 4 direction area</a></li>
+<li><a href="#Article-4-direction-dataset">Article 4 direction</a></li>
+<li><a href="#Article-4-direction-area-dataset">Article 4 direction area</a></li>
 </ul>
 <p>Each dataset needs to be provided
 in a separate CSV file 
@@ -426,9 +428,9 @@ The platform will default a <code>start-date</code> to the first of the month, o
 </ul>
 <p>When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native format for the geospatial data. 
 That is there is no need to duplicate the geospatial data into a <code>point</code> or <code>geometry</code> property or field.</p>
-<h3 id="article-4-direction-dataset">Article 4 direction dataset</h3>
+<h2 id="article-4-direction-dataset">Article 4 direction dataset</h2>
 <p>The Article 4 direction dataset contains the following fields:</p>
-<h4 id="reference">reference</h4>
+<h3 id="reference">reference</h3>
 <p>Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:</p>
 <ul>
@@ -438,21 +440,21 @@ If you don’t have a reference for this item, you will need to create one that 
 <p>A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
-<h4 id="name">name</h4>
-<h4 id="description">description</h4>
-<h4 id="documentation-url">documentation-url</h4>
-<h4 id="document-url">document-url</h4>
-<h4 id="notes">notes</h4>
+<h3 id="name">name</h3>
+<h3 id="description">description</h3>
+<h3 id="documentation-url">documentation-url</h3>
+<h3 id="document-url">document-url</h3>
+<h3 id="notes">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h4 id="organisation">organisation</h4>
+<h3 id="organisation">organisation</h3>
 <p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
-<h4 id="entry-date">entry-date</h4>
+<h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date">start-date</h4>
-<h4 id="end-date">end-date</h4>
-<h3 id="article-4-direction-area-dataset">Article 4 direction area dataset</h3>
+<h3 id="start-date">start-date</h3>
+<h3 id="end-date">end-date</h3>
+<h2 id="article-4-direction-area-dataset">Article 4 direction area dataset</h2>
 <p>The Article 4 direction area dataset contains the following fields:</p>
-<h4 id="reference_1">reference</h4>
+<h3 id="reference_1">reference</h3>
 <p>Enter reference to help people find and link to the data.
 If you don’t have a reference for this item, you will need to create one that is:</p>
 <ul>
@@ -462,27 +464,27 @@ If you don’t have a reference for this item, you will need to create one that 
 <p>A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.</p>
-<h4 id="name_1">name</h4>
-<h4 id="article-4-direction">article-4-direction</h4>
-<h4 id="permitted-development-rights">permitted-development-rights</h4>
-<h4 id="uprns">uprns</h4>
-<h4 id="address-texts">address-texts</h4>
-<h4 id="geometry">geometry</h4>
+<h3 id="name_1">name</h3>
+<h3 id="article-4-direction">article-4-direction</h3>
+<h3 id="permitted-development-rights">permitted-development-rights</h3>
+<h3 id="uprns">uprns</h3>
+<h3 id="address-texts">address-texts</h3>
+<h3 id="geometry">geometry</h3>
 <p>The boundary may be a single polygon, or a multipolygon value.
 All points should be in the WGS84 coordinate reference system.
 You may provide data containing points in another coordinate reference system, such as British National Grid,
 but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
 Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
 If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.</p>
-<h4 id="point">point</h4>
-<h4 id="notes_1">notes</h4>
+<h3 id="point">point</h3>
+<h3 id="notes_1">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h4 id="organisation_1">organisation</h4>
+<h3 id="organisation_1">organisation</h3>
 <p>Enter a CURIE value for the organisation from <a href="https://www.planning.data.gov.uk/organisation/">this list</a>.</p>
-<h4 id="entry-date_1">entry-date</h4>
+<h3 id="entry-date_1">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
-<h4 id="start-date_1">start-date</h4>
-<h4 id="end-date_1">end-date</h4>
+<h3 id="start-date_1">start-date</h3>
+<h3 id="end-date_1">end-date</h3>
 <h2 id="check-your-data">Check your data</h2>
 <p>Use the <a href="https://provide.planning.data.gov.uk">check and provide service</a> to review your data before you publish it. 
 The service will show you how the data will appear on <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> 
