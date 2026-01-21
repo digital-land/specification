@@ -26,7 +26,7 @@ You may also provide the following dataset{{ "s" if ds_o|length > 1  else "" }}:
 {% endfor %}
 {% endif %}
 
-Each {{ "each" if ds|length > 1  else "the" }} dataset needs to be provided
+{{ "Each" if ds|length > 1  else "The" }} dataset needs to be provided
 in a {{ "separate" if ds|length > 1  else "" }} CSV file 
 following the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
