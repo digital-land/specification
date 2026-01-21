@@ -88,7 +88,7 @@ guidance: |
     * `examination-recommendations-published`
     * `adopted`
 
-    Supplimentary plans being produced under the new local plans process must contain a row for each of the following events:
+    Supplementary plans being produced under the new local plans process must contain a row for each of the following events:
 
     * `commenced`
     * `proposed-plan-consultation-start`
