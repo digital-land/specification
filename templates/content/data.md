@@ -22,7 +22,7 @@ You may also provide the following dataset{{ "s" if ds_o|length > 1  else "" }}:
 
 {% for d in ds_o|sort(attribute='priority') %}
 {%- set name = tables["dataset"][d["dataset"]]["name"] -%}
-* [{{ name | sentence_case }}](#{{ name.replace(" ", "")  }}-dataset)
+* [{{ name | sentence_case }}](#{{ name.replace(" ", "-") }}-dataset)
 {% endfor %}
 {% endif %}
 

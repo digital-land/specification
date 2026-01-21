@@ -46,11 +46,14 @@ s5. [Keep your data up-to-date](#keep-your-data-up-to-date)
 Start by reviewing any data we may already have about your organisation
 on [planning.data.gov.uk](https://planning.data.gov.uk)
 using the [check and provide service](https://provide.planning.data.gov.uk).
-This may include any data you have provided in the past, along with
-information found on your website, or in other open data.
+This might include: 
 
-We will take the most recent data you provide as being more authoritative
-than any data we have collected from you previously, or found in other sources.
+* any data you have provided in the past
+* information found on your website
+* open data from other public sources
+
+We treat the data you provide as being more authoritative
+than data we have collected from you previously, or found elsewhere.
 
 You can download tabular data we have for your organisation as a CSV file
 from the [check and provide service](https://provide.planning.data.gov.uk)
