@@ -3,8 +3,8 @@ title: Provide your development plan data
 name: development plan
 url: 
 summary: 
-entry-date: 2026-01-19
-updated: 19 January 2026
+entry-date: 2026-01-21
+updated: 21 January 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -14,7 +14,7 @@ breadcrumbs:
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
 - url: https://digital-land.github.io/specification/specification/development-plan/
-  name: 'Development plan technical specification (19 January 2026)'
+  name: 'Development plan technical specification (21 January 2026)'
   attachment-type: HTML
   start-date: 
 ---
