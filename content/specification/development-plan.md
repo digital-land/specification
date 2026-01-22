@@ -19,7 +19,7 @@ datasets:
           - field: reference
             requirement-level: MUST
           - field: name
-            requirement-level: SHOULD
+            requirement-level: MUST
             assertions:
                 - reference: local-plan-A001
                   requirement-level: SHOULD
@@ -27,9 +27,9 @@ datasets:
           - field: dataset
             requirement-level: MUST
           - field: period-start-date
-            requirement-level: SHOULD
+            requirement-level: MUST
           - field: period-end-date
-            requirement-level: SHOULD
+            requirement-level: MUST
           - field: local-planning-authorities
             requirement-level: SHOULD
             datasets:
