@@ -109,6 +109,7 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 {% for requirement_level in ["MUST", "SHOULD", "MAY"] -%}
 {% if requirement_level == "MUST" %}
+
 Your {{ name }} data must contain the following fields:
 {% elif requirement_level == "SHOULD" %}
 
@@ -121,9 +122,11 @@ It may also contain the following fields:
 {% for f in d["fields"] -%}
 {%- if f["requirement-level"] == requirement_level %}
 * `{{ f["field"] }}`{%- endif -%}
-{%- endfor %}{% endfor %}
+{%- endfor %}{%- endfor %}
 
+{% for requirement_level in ["MUST", "SHOULD", "MAY"] -%}
 {% for f in d["fields"] -%}
+{%- if f["requirement-level"] == requirement_level %}
 {%- set field = f["field"] -%}
 {%- set sf = tables["specification-field"][specification["specification"]][d["dataset"]][field] -%}
 
@@ -142,5 +145,7 @@ It may also contain the following fields:
 {% endfor -%}
 {%- endif -%}
 
-{%- endfor %}
-{% endfor %}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{%- endfor -%}
