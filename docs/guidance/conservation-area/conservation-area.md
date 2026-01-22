@@ -166,6 +166,7 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 ### Fields
 
 
+
 Your Conservation area data must contain the following fields:
 
 
@@ -181,73 +182,12 @@ It may also contain the following fields:
 
 
 
-
-
-### reference
-
-Enter reference to help people find and link to the data.
-If you don’t have a reference for this item, you will need to create one that is:
-
-* unique within your data
-* persistent — it doesn’t change when the data is updated
-
-A good reference is something you already use.
-Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.
-
-### name
-
-
-
-### designation-date
-
-
-
-### document-url
-
-
-
-### documentation-url
-
-
-
-### geometry
-
-The boundary may be a single polygon, or a multipolygon value.
-All points should be in the WGS84 coordinate reference system.
-You may provide data containing points in another coordinate reference system, such as British National Grid,
-but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
-Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
-If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format.
-
-### point
-
-
-
-### notes
-
-Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
-### organisation
-
-Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
-
-### entry-date
-
-Enter the date this data was created or modified.
-
-### start-date
-
-
-
-### end-date
-
-
 ## Conservation area document dataset
 
 
 
 ### Fields
+
 
 
 Your Conservation area document data must contain the following fields:
@@ -263,59 +203,6 @@ It should also contain the following fields:
 It may also contain the following fields:
 
 
-
-
-
-
-### reference
-
-Enter reference to help people find and link to the data.
-If you don’t have a reference for this item, you will need to create one that is:
-
-* unique within your data
-* persistent — it doesn’t change when the data is updated
-
-A good reference is something you already use.
-Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.
-
-### conservation-area
-
-
-
-### name
-
-
-
-### documentation-url
-
-
-
-### document-url
-
-
-
-### document-type
-
-
-
-### notes
-
-Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
-### organisation
-
-Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
-
-### entry-date
-
-Enter the date this data was created or modified.
-
-### start-date
-
-
-
-### end-date
 
 
 

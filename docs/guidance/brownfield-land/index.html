@@ -427,9 +427,6 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>Notes</code></li>
 <li><code>EndDate</code></li>
 </ul>
-<h3 id="organisationuri">OrganisationURI</h3>
-<p><a href="https://www.planning.data.gov.uk/organisation">Find your organisation in this list</a>
-and enter the corresponding <code>Open Data Communities URI</code> value.</p>
 <h3 id="sitereference">SiteReference</h3>
 <p>Enter the unique reference your organisation uses to identify the site.</p>
 <p>If one doesn’t exist, you need to create one. It should not be used by your organisation
@@ -482,6 +479,25 @@ Use digits (2) rather than words (two).</p>
 <p>When part of a site is permissioned, it should be recorded as <code>permissioned</code> and
 you should explain in the <code>Notes</code> field why it’s only partly permissioned.</p>
 <p>For more information see paragraph 5 of <a href="http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made">Schedule 2 of the 2017 Regulations</a>.&#39;</p>
+<h3 id="deliverable">Deliverable</h3>
+<p>Enter ‘yes’ if there is a reasonable prospect that residential development
+will take place on the land within 5 years of the date you enter this site in
+the register. Otherwise leave this field blank.</p>
+<h3 id="netdwellingsrangefrom">NetDwellingsRangeFrom</h3>
+<p>Enter the minimum number of dwellings that the local planning authority
+estimates the site should support, as defined in 
+<a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p>
+<h3 id="netdwellingsrangeto">NetDwellingsRangeTo</h3>
+<p>Enter the maximum number of dwellings that the local planning authority
+estimates the site should support, as defined in 
+<a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p>
+<h3 id="firstaddeddate">FirstAddedDate</h3>
+<p>Enter the date that the site was first added to this register, in the format <code>YYYY-MM-DD</code>.</p>
+<h3 id="lastupdateddate">LastUpdatedDate</h3>
+<p>Enter the date this entry in the register was updated, in the format YYYY-MM-DD.</p>
+<h3 id="organisationuri">OrganisationURI</h3>
+<p><a href="https://www.planning.data.gov.uk/organisation">Find your organisation in this list</a>
+and enter the corresponding <code>Open Data Communities URI</code> value.</p>
 <h3 id="permissiontype">PermissionType</h3>
 <p>Choose one of the following to indicate what permission type the site has:</p>
 <ul>
@@ -504,18 +520,6 @@ granted or deemed to have been granted, in the ’Notes’ column.&#39;</p>
 the format <code>YYYY-MM-DD</code>. If no permission has been granted leave this blank.</p>
 <h3 id="planninghistory">PlanningHistory</h3>
 <p>Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.</p>
-<h3 id="deliverable">Deliverable</h3>
-<p>Enter ‘yes’ if there is a reasonable prospect that residential development
-will take place on the land within 5 years of the date you enter this site in
-the register. Otherwise leave this field blank.</p>
-<h3 id="netdwellingsrangefrom">NetDwellingsRangeFrom</h3>
-<p>Enter the minimum number of dwellings that the local planning authority
-estimates the site should support, as defined in 
-<a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p>
-<h3 id="netdwellingsrangeto">NetDwellingsRangeTo</h3>
-<p>Enter the maximum number of dwellings that the local planning authority
-estimates the site should support, as defined in 
-<a href="http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made">regulation 2 of the 2017 Regulations</a>.</p>
 <h3 id="hazardoussubstances">HazardousSubstances</h3>
 <p>Enter ‘yes’ if the local planning authority is required by regulation
 26(3) of the <a href="https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made">Planning (Hazardous Substances) Regulations 2015</a>
@@ -533,10 +537,6 @@ useful, including a description of any housing development proposed for the site
 how the buildings or land will be used, and the scale of any such development.</p>
 <p>Content in this field does not need to be on a single line, but should be no longer
 than 4,000 characters. You can leave this field blank.</p>
-<h3 id="firstaddeddate">FirstAddedDate</h3>
-<p>Enter the date that the site was first added to this register, in the format <code>YYYY-MM-DD</code>.</p>
-<h3 id="lastupdateddate">LastUpdatedDate</h3>
-<p>Enter the date this entry in the register was updated, in the format YYYY-MM-DD.</p>
 <h3 id="enddate">EndDate</h3>
 <p>If the site no longer needs to be listed (for example, if the site has
 been built on), it should remain on the register for historical reasons and not

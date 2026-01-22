@@ -136,6 +136,7 @@ The platform will default a `start-date` to the first of the month, or the first
 ### Fields
 
 
+
 Your Local area requirements data must contain the following fields:
 
 
@@ -149,59 +150,6 @@ It should also contain the following fields:
 It may also contain the following fields:
 
 
-
-
-
-
-### reference
-
-Enter reference to help people find and link to the data.
-If you don’t have a reference for this item, you will need to create one that is:
-
-* unique within your data
-* persistent — it doesn’t change when the data is updated
-
-A good reference is something you already use.
-Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.
-
-### name
-
-
-
-### description
-
-
-
-### organisation
-
-Enter a CURIE value for the organisation from [this list](https://www.planning.data.gov.uk/organisation/).
-
-### document-urls
-
-
-
-### documentation-url
-
-
-
-### period-start-date
-
-
-
-### notes
-
-Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
-### entry-date
-
-Enter the date this data was created or modified.
-
-### start-date
-
-
-
-### end-date
 
 
 

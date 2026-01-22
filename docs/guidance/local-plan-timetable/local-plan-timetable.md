@@ -139,6 +139,7 @@ Provide your predicted range of dates for events which are in the future.
 ### Fields
 
 
+
 Your Local plan timetable data must contain the following fields:
 
 
@@ -234,7 +235,6 @@ such as when you expect a draft local plan to be adopted.
 ### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
 
 ## Check your data
 Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 

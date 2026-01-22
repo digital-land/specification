@@ -131,6 +131,7 @@ The platform will default a `start-date` to the first of the month, or the first
 ### Fields
 
 
+
 Your Brownfield land data must contain the following fields:
 
 
@@ -166,12 +167,6 @@ It may also contain the following fields:
 * `Notes`
 * `EndDate`
 
-
-
-### OrganisationURI
-
-[Find your organisation in this list](https://www.planning.data.gov.uk/organisation)
-and enter the corresponding `Open Data Communities URI` value.
 
 
 ### SiteReference
@@ -249,6 +244,41 @@ you should explain in the `Notes` field why it’s only partly permissioned.
 For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).&#39;
 
 
+### Deliverable
+
+Enter ‘yes’ if there is a reasonable prospect that residential development
+will take place on the land within 5 years of the date you enter this site in
+the register. Otherwise leave this field blank.
+
+
+### NetDwellingsRangeFrom
+
+Enter the minimum number of dwellings that the local planning authority
+estimates the site should support, as defined in 
+[regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
+
+
+### NetDwellingsRangeTo
+
+Enter the maximum number of dwellings that the local planning authority
+estimates the site should support, as defined in 
+[regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
+
+
+### FirstAddedDate
+
+Enter the date that the site was first added to this register, in the format `YYYY-MM-DD`.
+
+### LastUpdatedDate
+
+Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
+
+### OrganisationURI
+
+[Find your organisation in this list](https://www.planning.data.gov.uk/organisation)
+and enter the corresponding `Open Data Communities URI` value.
+
+
 ### PermissionType
 
 Choose one of the following to indicate what permission type the site has:
@@ -280,27 +310,6 @@ the format `YYYY-MM-DD`. If no permission has been granted leave this blank.
 
 Enter links to any web pages that give information on the site’s planning history (include the “http://” or “https://” prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.
 
-### Deliverable
-
-Enter ‘yes’ if there is a reasonable prospect that residential development
-will take place on the land within 5 years of the date you enter this site in
-the register. Otherwise leave this field blank.
-
-
-### NetDwellingsRangeFrom
-
-Enter the minimum number of dwellings that the local planning authority
-estimates the site should support, as defined in 
-[regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
-
-
-### NetDwellingsRangeTo
-
-Enter the maximum number of dwellings that the local planning authority
-estimates the site should support, as defined in 
-[regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
-
-
 ### HazardousSubstances
 
 Enter ‘yes’ if the local planning authority is required by regulation
@@ -326,14 +335,6 @@ Content in this field does not need to be on a single line, but should be no lon
 than 4,000 characters. You can leave this field blank.
 
 
-### FirstAddedDate
-
-Enter the date that the site was first added to this register, in the format `YYYY-MM-DD`.
-
-### LastUpdatedDate
-
-Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
-
 ### EndDate
 
 If the site no longer needs to be listed (for example, if the site has
@@ -341,7 +342,6 @@ been built on), it should remain on the register for historical reasons and not
 be deleted. Enter the date the site was developed or determined to no longer be
 brownfield land, in the format `YYYY-MM-DD`. This field should only be filled in
 once the site is no longer classified as brownfield land.
-
 
 
 ## Check your data

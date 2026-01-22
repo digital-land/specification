@@ -434,6 +434,24 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code class="value">central-lincolnshire</code></li>
 <li><code class="value">barnet-local-plan-2021-2036</code></li>
 </ul>
+<h3 id="documentation-url">documentation-url</h3>
+<p>The URL of the webpage on your website for the local plan</p>
+<p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
+in the entry as well as links to where this data may be downloaded, and any other supporting documents.
+Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+to make the URL for each plan unique.
+ For example:</p>
+<ul>
+<li><code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code></li>
+<li><code class="value">https://example.com/local-plans/#example-local-plan-2011</code></li>
+<li><code class="value">https://example.com/local-plans/#example-local-plan-2024</code></li>
+</ul>
+<h3 id="document-url">document-url</h3>
+<p>Enter the URL for the main or core plan document. This is usually a PDF file.
+ For example:</p>
+<ul>
+<li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
+</ul>
 <h3 id="name">name</h3>
 <p>Use the title of the adopted local plan document. For example:</p>
 <ul>
@@ -484,24 +502,6 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 <ul>
 <li><code>2012</code> for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements</li>
 <li><code>2026</code> for plans prepared under <em>new Local Planning Regulations (TBD)</em></li>
-</ul>
-<h3 id="documentation-url">documentation-url</h3>
-<p>The URL of the webpage on your website for the local plan</p>
-<p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
-to make the URL for each plan unique.
- For example:</p>
-<ul>
-<li><code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code></li>
-<li><code class="value">https://example.com/local-plans/#example-local-plan-2011</code></li>
-<li><code class="value">https://example.com/local-plans/#example-local-plan-2024</code></li>
-</ul>
-<h3 id="document-url">document-url</h3>
-<p>Enter the URL for the main or core plan document. This is usually a PDF file.
- For example:</p>
-<ul>
-<li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
 </ul>
 <h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
@@ -631,7 +631,6 @@ Add a separate row with a link to each document on your website.</p>
 <p>Give each document a unique reference.</p>
 <h3 id="name_1">name</h3>
 <p>Enter the title of the document.</p>
-<h3 id="description">description</h3>
 <h3 id="local-plan_1">local-plan</h3>
 <p>Enter the reference for the local plan which the document is associated with.
  For example:</p>
@@ -639,6 +638,8 @@ Add a separate row with a link to each document on your website.</p>
 <li><code class="value">LP-BRX-2024</code></li>
 <li><code class="value">central-lincolnshire</code></li>
 </ul>
+<h3 id="document-url_1">document-url</h3>
+<p>Enter the URL for the document. This is often a PDF file.</p>
 <h3 id="document-types">document-types</h3>
 <p>Enter at least one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-document-type">local-plan-document-type</a> values:</p>
 <ul>
@@ -671,12 +672,11 @@ Add a separate row with a link to each document on your website.</p>
 <ul>
 <li><code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code></li>
 </ul>
-<h3 id="document-url_1">document-url</h3>
-<p>Enter the URL for the document. This is often a PDF file.</p>
 <h3 id="entry-date_2">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
 <h3 id="start-date_2">start-date</h3>
 <p>Enter the date the document was published.</p>
+<h3 id="description">description</h3>
 <h3 id="end-date_2">end-date</h3>
 <p>Enter date when the document was archived. Otherwise leave this field blank.</p>
 <h3 id="notes_2">notes</h3>

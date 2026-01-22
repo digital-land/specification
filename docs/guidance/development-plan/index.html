@@ -461,6 +461,34 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <ul>
 <li><code class="value">2038</code></li>
 </ul>
+<h3 id="documentation-url">documentation-url</h3>
+<p>The URL of the webpage on your website for the local plan</p>
+<p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
+in the entry as well as links to where this data may be downloaded, and any other supporting documents.
+Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+to make the URL for each plan unique.
+ For example:</p>
+<ul>
+<li><code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code></li>
+<li><code class="value">https://example.com/local-plans/#example-local-plan-2011</code></li>
+<li><code class="value">https://example.com/local-plans/#example-local-plan-2024</code></li>
+</ul>
+<h3 id="document-url">document-url</h3>
+<p>Enter the URL for the main or core plan document. This is usually a PDF file.
+ For example:</p>
+<ul>
+<li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
+</ul>
+<h3 id="required-housing">required-housing</h3>
+<p>Enter the minimum number of homes that the plan seeks to provide
+during the plan period.
+This field is mandatory for new local plans.
+Joint plans should also provide an entry for each <code>local-planning-authority</code> area
+in a separate <code>local-plan-housing</code> dataset.
+ For example:</p>
+<ul>
+<li><code class="value">24852</code></li>
+</ul>
 <h3 id="local-planning-authorities">local-planning-authorities</h3>
 <p>Enter the reference (the GSS code) for the 
 <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
@@ -494,34 +522,6 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 <ul>
 <li><code>2012</code> for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements</li>
 <li><code>2026</code> for plans prepared under <em>new Local Planning Regulations (TBD)</em></li>
-</ul>
-<h3 id="documentation-url">documentation-url</h3>
-<p>The URL of the webpage on your website for the local plan</p>
-<p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
-to make the URL for each plan unique.
- For example:</p>
-<ul>
-<li><code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code></li>
-<li><code class="value">https://example.com/local-plans/#example-local-plan-2011</code></li>
-<li><code class="value">https://example.com/local-plans/#example-local-plan-2024</code></li>
-</ul>
-<h3 id="document-url">document-url</h3>
-<p>Enter the URL for the main or core plan document. This is usually a PDF file.
- For example:</p>
-<ul>
-<li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
-</ul>
-<h3 id="required-housing">required-housing</h3>
-<p>Enter the minimum number of homes that the plan seeks to provide
-during the plan period.
-This field is mandatory for new local plans.
-Joint plans should also provide an entry for each <code>local-planning-authority</code> area
-in a separate <code>local-plan-housing</code> dataset.
- For example:</p>
-<ul>
-<li><code class="value">24852</code></li>
 </ul>
 <h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
@@ -633,8 +633,7 @@ Where a timetable has more than one event of the same type, you can add a date t
 <h3 id="start-date_1">start-date</h3>
 <p>Enter the date when the timetable event occured. Leave this field blank when the event is in the future.</p>
 <h3 id="notes_1">notes</h3>
-<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h2 id="local-plan-housing-number-dataset">Local plan housing number dataset</h2>
+<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.## Local plan housing number dataset</p>
 <p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.</p>

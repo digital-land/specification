@@ -136,6 +136,7 @@ List the local plans you are responsible for with one row for each current, emer
 ### Fields
 
 
+
 Your Local plan data must contain the following fields:
 
 
@@ -177,6 +178,29 @@ Give each local plan a unique reference.
 * <code class="value">34069/County-Durham-Plan</code>
 * <code class="value">central-lincolnshire</code>
 * <code class="value">barnet-local-plan-2021-2036</code>
+
+
+### documentation-url
+
+The URL of the webpage on your website for the local plan
+
+Each entry in the local plan dataset should link to a documentation webpage that includes the information 
+in the entry as well as links to where this data may be downloaded, and any other supporting documents.
+Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+to make the URL for each plan unique.
+ For example:
+
+* <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
+* <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
+* <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
+
+
+### document-url
+
+Enter the URL for the main or core plan document. This is usually a PDF file.
+ For example:
+
+* <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
 
 ### name
@@ -247,29 +271,6 @@ Indicate the local plan examination process for the local plan using one of the 
 * `2026` for plans prepared under *new Local Planning Regulations (TBD)*
 
 
-### documentation-url
-
-The URL of the webpage on your website for the local plan
-
-Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
-to make the URL for each plan unique.
- For example:
-
-* <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
-* <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
-* <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
-
-
-### document-url
-
-Enter the URL for the main or core plan document. This is usually a PDF file.
- For example:
-
-* <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
-
-
 ### entry-date
 
 Enter the date this data was created or modified.
@@ -291,7 +292,6 @@ Enter the date the local plan was withdrawn or revoked, otherwise leave this fie
 You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
 ## Local plan housing number dataset
 
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
@@ -300,6 +300,7 @@ There is no need to provide this dataset for other kinds of plan.
 
 
 ### Fields
+
 
 
 Your local plan housing number data must contain the following fields:
@@ -418,7 +419,6 @@ Enter the date these numbers were withdrawn, otherwise leave this field blank.
 You may provide a short description to help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
 ## Local plan document dataset
 
 Provide a list of documents associated with your local plan.
@@ -426,6 +426,7 @@ Add a separate row with a link to each document on your website.
 
 
 ### Fields
+
 
 
 Your Local plan document data must contain the following fields:
@@ -466,10 +467,6 @@ Give each document a unique reference.
 Enter the title of the document.
 
 
-### description
-
-
-
 ### local-plan
 
 Enter the reference for the local plan which the document is associated with.
@@ -477,6 +474,11 @@ Enter the reference for the local plan which the document is associated with.
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">central-lincolnshire</code>
+
+
+### document-url
+
+Enter the URL for the document. This is often a PDF file.
 
 
 ### document-types
@@ -515,11 +517,6 @@ Enter the URL of the webpage on your website which documents and links to this d
 * <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
 
 
-### document-url
-
-Enter the URL for the document. This is often a PDF file.
-
-
 ### entry-date
 
 Enter the date this data was created or modified.
@@ -527,6 +524,10 @@ Enter the date this data was created or modified.
 ### start-date
 
 Enter the date the document was published.
+
+
+### description
+
 
 
 ### end-date
@@ -537,7 +538,6 @@ Enter date when the document was archived. Otherwise leave this field blank.
 ### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
 
 ## Check your data
 Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 

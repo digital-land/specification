@@ -159,6 +159,7 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 ### Fields
 
 
+
 Your Development corporation boundary data must contain the following fields:
 
 
@@ -233,7 +234,6 @@ Enter the date this data was created or modified.
 ### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
 
 ## Check your data
 Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 

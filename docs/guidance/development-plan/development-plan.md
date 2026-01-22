@@ -139,6 +139,7 @@ The platform will default a `start-date` to the first of the month, or the first
 ### Fields
 
 
+
 Your development plan data must contain the following fields:
 
 
@@ -215,6 +216,41 @@ Enter the end of the plan period. This is usually just a year in `YYYY` format. 
 * <code class="value">2038</code>
 
 
+### documentation-url
+
+The URL of the webpage on your website for the local plan
+
+Each entry in the local plan dataset should link to a documentation webpage that includes the information 
+in the entry as well as links to where this data may be downloaded, and any other supporting documents.
+Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+to make the URL for each plan unique.
+ For example:
+
+* <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
+* <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
+* <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
+
+
+### document-url
+
+Enter the URL for the main or core plan document. This is usually a PDF file.
+ For example:
+
+* <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
+
+
+### required-housing
+
+Enter the minimum number of homes that the plan seeks to provide
+during the plan period.
+This field is mandatory for new local plans.
+Joint plans should also provide an entry for each `local-planning-authority` area
+in a separate `local-plan-housing` dataset.
+ For example:
+
+* <code class="value">24852</code>
+
+
 ### local-planning-authorities
 
 Enter the reference (the GSS code) for the 
@@ -257,41 +293,6 @@ Indicate the local plan examination process for the local plan using one of the 
 * `2026` for plans prepared under *new Local Planning Regulations (TBD)*
 
 
-### documentation-url
-
-The URL of the webpage on your website for the local plan
-
-Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
-to make the URL for each plan unique.
- For example:
-
-* <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
-* <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
-* <code class="value">https://example.com/local-plans/#example-local-plan-2024</code>
-
-
-### document-url
-
-Enter the URL for the main or core plan document. This is usually a PDF file.
- For example:
-
-* <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
-
-
-### required-housing
-
-Enter the minimum number of homes that the plan seeks to provide
-during the plan period.
-This field is mandatory for new local plans.
-Joint plans should also provide an entry for each `local-planning-authority` area
-in a separate `local-plan-housing` dataset.
- For example:
-
-* <code class="value">24852</code>
-
-
 ### entry-date
 
 Enter the date this data was created or modified.
@@ -313,7 +314,6 @@ Enter the date the local plan was withdrawn or revoked, otherwise leave this fie
 You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
 ## Development plan timetable dataset
 
 Record the key events and milestones in the timetable when producing your development plan.
@@ -364,6 +364,7 @@ Your development plan timetable may also include rows with dates for each of the
 
 
 ### Fields
+
 
 
 Your development plan timetable data must contain the following fields:
@@ -438,8 +439,7 @@ Enter the date when the timetable event occured. Leave this field blank when the
 
 ### notes
 
-Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-## Local plan housing number dataset
+Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.## Local plan housing number dataset
 
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
@@ -447,6 +447,7 @@ There is no need to provide this dataset for other kinds of plan.
 
 
 ### Fields
+
 
 
 Your local plan housing number data must contain the following fields:
@@ -516,7 +517,6 @@ Enter the date these numbers were withdrawn, otherwise leave this field blank.
 You may provide a short description to help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
 
 
 ## Check your data

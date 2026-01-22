@@ -162,6 +162,7 @@ specification to provide the boundary of the Local Planning Authority area.
 ### Fields
 
 
+
 Your Local Planning Authority data must contain the following fields:
 
 
@@ -251,7 +252,6 @@ Enter any notes to help a user understand how the data was made or is to be inte
 All enquiries in respect of planning policy and Community Infrastructure Levy should now be made to 
 the relevant borough.
 </code>
-
 
 
 ## Check your data
