@@ -132,6 +132,8 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
+
+
 ## Development plan dataset
 
 
@@ -314,6 +316,8 @@ Enter the date the local plan was withdrawn or revoked, otherwise leave this fie
 You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
+
+
 ## Development plan timetable dataset
 
 Record the key events and milestones in the timetable when producing your development plan.
@@ -434,12 +438,14 @@ Enter the date this data was created or modified.
 
 ### start-date
 
-Enter the date when the timetable event occured. Leave this field blank when the event is in the future.
+Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.
 
 
 ### notes
 
-Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.## Local plan housing number dataset
+Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
+
+## Local plan housing number dataset
 
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.

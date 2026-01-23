@@ -129,6 +129,8 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
+
+
 ## Local plan timetable dataset
 
 The local plan timetable is a record of the key dates when producing a local plan.
@@ -228,7 +230,7 @@ Enter the date this data was created or modified.
 
 ### start-date
 
-Enter the date when the timetable event occured. Leave blank when predicting future events,
+Enter the date when the timetable event occurred. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.
 
 

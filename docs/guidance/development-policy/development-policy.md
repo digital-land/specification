@@ -153,6 +153,8 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
+
+
 ## Development policy dataset
 
 
@@ -172,6 +174,8 @@ It should also contain the following fields:
 
 
 It may also contain the following fields:
+
+
 
 
 

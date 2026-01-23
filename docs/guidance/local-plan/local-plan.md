@@ -128,6 +128,8 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
+
+
 ## Local plan dataset
 
 List the local plans you are responsible for with one row for each current, emerging or historical local plan.
@@ -292,6 +294,8 @@ Enter the date the local plan was withdrawn or revoked, otherwise leave this fie
 You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
+
+
 ## Local plan housing number dataset
 
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
@@ -419,6 +423,8 @@ Enter the date these numbers were withdrawn, otherwise leave this field blank.
 You may provide a short description to help users differentiate the plan from others with a similar name. For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
+
+
 ## Local plan document dataset
 
 Provide a list of documents associated with your local plan.
