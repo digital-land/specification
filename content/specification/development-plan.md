@@ -9,7 +9,7 @@ consideration: development-plans-and-timetables
 document-url: https://digital-land.github.io/specification/specification/development-plan/
 start-date: ''
 end-date: ''
-entry-date: '2026-01-21'
+entry-date: '2026-01-23'
 github-discussion: 26
 datasets:
     - dataset: development-plan
