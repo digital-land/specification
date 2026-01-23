@@ -60,7 +60,7 @@ fields:
 - field: start-date
   description: date of the timetable event
   guidance: |
-     Enter the date when the timetable event occured. Leave this field blank when the event is in the future.
+     Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.
 github-discussion: 26
 guidance: |
     Record the key events and milestones in the timetable when producing your development plan.

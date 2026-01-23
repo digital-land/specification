@@ -81,7 +81,7 @@ fields:
 - field: start-date
   description: date of the timetable event
   guidance: |
-     Enter the date when the timetable event occured. Leave blank when predicting future events,
+     Enter the date when the timetable event occurred. Leave blank when predicting future events,
      such as when you expect a draft local plan to be adopted.
 github-discussion: 26
 guidance: |
