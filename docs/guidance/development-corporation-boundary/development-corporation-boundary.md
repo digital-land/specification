@@ -160,6 +160,8 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
+### Mandatory fields
+
 Your Development corporation boundary data must contain the following fields:
 
 
@@ -179,6 +181,8 @@ If you don’t have a reference for this item, you will need to create one that 
 A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
+
+### Recommended fields
 
 It should also contain the following fields:
 
@@ -221,6 +225,8 @@ Enter the date this data was created or modified.
 ### start-date
 
 
+
+### Optional fields
 
 It may also contain the following fields:
 

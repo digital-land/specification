@@ -162,6 +162,8 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
+### Mandatory fields
+
 Your Infrastructure project data must contain the following fields:
 
 
@@ -169,12 +171,16 @@ Your Infrastructure project data must contain the following fields:
 
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
 
 
 
+
+### Optional fields
 
 It may also contain the following fields:
 
@@ -189,6 +195,8 @@ It may also contain the following fields:
 
 
 
+### Mandatory fields
+
 Your Infrastructure project log data must contain the following fields:
 
 
@@ -196,12 +204,16 @@ Your Infrastructure project log data must contain the following fields:
 
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
 
 
 
+
+### Optional fields
 
 It may also contain the following fields:
 
@@ -216,6 +228,8 @@ It may also contain the following fields:
 
 
 
+### Mandatory fields
+
 Your Infrastructure project document data must contain the following fields:
 
 
@@ -223,12 +237,16 @@ Your Infrastructure project document data must contain the following fields:
 
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
 
 
 
+
+### Optional fields
 
 It may also contain the following fields:
 

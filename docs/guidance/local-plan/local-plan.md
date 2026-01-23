@@ -139,6 +139,8 @@ List the local plans you are responsible for with one row for each current, emer
 
 
 
+### Mandatory fields
+
 Your Local plan data must contain the following fields:
 
 
@@ -182,6 +184,8 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
 
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
+
+### Recommended fields
 
 It should also contain the following fields:
 
@@ -279,6 +283,8 @@ This value should match the relevant entry for when the plan was recoreded as be
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
 
 
+### Optional fields
+
 It may also contain the following fields:
 
 
@@ -311,6 +317,8 @@ There is no need to provide this dataset for other kinds of plan.
 
 
 
+### Mandatory fields
+
 Your local plan housing number data must contain the following fields:
 
 
@@ -334,6 +342,8 @@ Give each set of housing numbers a unique reference value.
 
 Enter the `reference` for the local plan which these numbers apply.
 
+
+### Recommended fields
 
 It should also contain the following fields:
 
@@ -412,6 +422,8 @@ Enter the date this data was created or modified.
 Enter the date these numbers were finalised.
 
 
+### Optional fields
+
 It may also contain the following fields:
 
 
@@ -442,6 +454,8 @@ Add a separate row with a link to each document on your website.
 
 
 
+
+### Mandatory fields
 
 Your Local plan document data must contain the following fields:
 
@@ -477,6 +491,8 @@ Enter the reference for the local plan which the document is associated with.
 
 Enter the URL for the document. This is often a PDF file.
 
+
+### Recommended fields
 
 It should also contain the following fields:
 
@@ -533,6 +549,8 @@ Enter the date this data was created or modified.
 
 Enter the date the document was published.
 
+
+### Optional fields
 
 It may also contain the following fields:
 

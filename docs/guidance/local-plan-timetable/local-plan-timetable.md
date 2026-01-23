@@ -142,6 +142,8 @@ Provide your predicted range of dates for events which are in the future.
 
 
 
+### Mandatory fields
+
 Your Local plan timetable data must contain the following fields:
 
 
@@ -193,6 +195,8 @@ Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/d
 * `plan-revoked`
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
@@ -229,6 +233,8 @@ Enter the date this data was created or modified.
 Enter the date when the timetable event occurred. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.
 
+
+### Optional fields
 
 It may also contain the following fields:
 

@@ -137,6 +137,8 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
+### Mandatory fields
+
 Your Local area requirements data must contain the following fields:
 
 
@@ -144,12 +146,16 @@ Your Local area requirements data must contain the following fields:
 
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
 
 
 
+
+### Optional fields
 
 It may also contain the following fields:
 

@@ -132,6 +132,8 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
+### Mandatory fields
+
 Your Brownfield land data must contain the following fields:
 
 
@@ -256,6 +258,8 @@ Enter the date that the site was first added to this register, in the format `YY
 
 Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
@@ -311,6 +315,8 @@ Enter ‘yes’ if the local planning authority is required by regulation
 26(3) of the [Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made)
 to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.
 
+
+### Optional fields
 
 It may also contain the following fields:
 

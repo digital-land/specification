@@ -140,6 +140,8 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
+### Mandatory fields
+
 Your development plan data must contain the following fields:
 
 
@@ -233,6 +235,8 @@ in a separate `local-plan-housing` dataset.
 * <code class="value">24852</code>
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
@@ -298,6 +302,8 @@ Enter the date when the plan was officially adopted.
 This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
 
+
+### Optional fields
 
 It may also contain the following fields:
 
@@ -373,6 +379,8 @@ Your development plan timetable may also include rows with dates for each of the
 
 
 
+### Mandatory fields
+
 Your development plan timetable data must contain the following fields:
 
 
@@ -421,6 +429,8 @@ Enter the date when this event is expected to happen.
 * <code class="value">2027-01-01</code>
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
@@ -438,6 +448,8 @@ Enter the date this data was created or modified.
 
 Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.
 
+
+### Optional fields
 
 It may also contain the following fields:
 
@@ -461,6 +473,8 @@ There is no need to provide this dataset for other kinds of plan.
 
 
 
+
+### Mandatory fields
 
 Your local plan housing number data must contain the following fields:
 
@@ -496,6 +510,8 @@ within this `local-planning-authority` area.
 * <code class="value">24852</code>
 
 
+### Recommended fields
+
 It should also contain the following fields:
 
 
@@ -513,6 +529,8 @@ Enter the date this data was created or modified.
 
 Enter the date these numbers were finalised.
 
+
+### Optional fields
 
 It may also contain the following fields:
 

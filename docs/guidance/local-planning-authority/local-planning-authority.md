@@ -165,6 +165,8 @@ specification to provide the boundary of the Local Planning Authority area.
 
 
 
+### Mandatory fields
+
 Your Local Planning Authority data must contain the following fields:
 
 
@@ -183,6 +185,8 @@ republish the data with the official GSS code once it is known.
 * <code class="value">E60000330</code>
 * <code class="value">borchester-development-corporation</code>
 
+
+### Recommended fields
 
 It should also contain the following fields:
 
@@ -234,6 +238,8 @@ Enter the date this data was created or modified.
 
 Enter the date this area became a Local Planning Authority.
 
+
+### Optional fields
 
 It may also contain the following fields:
 
