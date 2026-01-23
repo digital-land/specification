@@ -112,7 +112,7 @@ fields:
         Enter the minimum number of homes that the plan seeks to provide
         during the plan period.
         This field is mandatory for new local plans.
-        Joint plans should also provide an entry for each `local-planning-authority` area
+        When producing a joint local plan you should also provide an entry for each `local-planning-authority` area
         in a separate `local-plan-housing` dataset.
   examples:
     - example: durham-local-plan
