@@ -1,4 +1,4 @@
-Continue to improve your data, and act on the feedback from the [the service](https://provide.planning.data.gov.uk) 
+Continue to improve your data, and act on the feedback from [the service](https://provide.planning.data.gov.uk) 
 to ensure your data meets the specification.
 
 You also need to update and republish your data whenever there's a change to your {{specification["plural"]}} information.
