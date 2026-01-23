@@ -68,7 +68,7 @@ guidance: |
     Update the entry to include the actual date in the `start-date` field when the event takes place.
 
     For local plans, minerals plans, and waste plans being produced under the new local plans process,
-    your timetable must include a entry for each of the the following events:
+    your timetable must include a entry for each of the following events:
 
     * `commenced`
     * `scoping-consultation-start`
