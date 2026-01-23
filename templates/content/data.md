@@ -101,11 +101,9 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 ## {{ name | sentence_case }} dataset
 
-{% if _d["guidance"] -%}
+{% if _d["guidance"] %}
 {{_d["guidance"]}}
-{%- endif %}
-
-### Fields
+{% endif %}
 
 {% for requirement_level in ["MUST", "SHOULD", "MAY"] -%}
 {% if requirement_level == "MUST" %}
