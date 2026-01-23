@@ -120,9 +120,8 @@ It may also contain the following fields:
 {% for f in d["fields"] -%}
 {%- if f["requirement-level"] == requirement_level %}
 * `{{ f["field"] }}`{%- endif -%}
-{%- endfor %}{%- endfor %}
+{%- endfor %}
 
-{% for requirement_level in ["MUST", "SHOULD", "MAY"] -%}
 {% for f in d["fields"] -%}
 {%- if f["requirement-level"] == requirement_level %}
 {%- set field = f["field"] -%}
