@@ -43,8 +43,6 @@ datasets:
             requirement-level: SHOULD
             datasets:
                 - waste-plan
-          - field: local-plan-process
-            requirement-level: SHOULD
           - field: documentation-url
             requirement-level: MUST
           - field: document-url
