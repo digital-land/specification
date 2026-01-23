@@ -108,11 +108,17 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 {% for requirement_level in ["MUST", "SHOULD", "MAY"] -%}
 {% if requirement_level == "MUST" %}
 
+### Mandatory fields
+
 Your {{ name }} data must contain the following fields:
 {% elif requirement_level == "SHOULD" %}
 
+### Recommended fields
+
 It should also contain the following fields:
 {% else %}
+
+### Optional fields
 
 It may also contain the following fields:
 {% endif  %}
