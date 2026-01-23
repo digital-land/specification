@@ -97,7 +97,7 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 {% for d in specification["datasets"]|sort(attribute='priority') -%}
 {%- set _d = tables["dataset"][d["dataset"]] -%}
-{%- set name = tables["dataset"][d["dataset"]]["name"] -%}
+{%- set name = tables["dataset"][d["dataset"]]["name"] %}
 
 ## {{ name | sentence_case }} dataset
 
