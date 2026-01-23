@@ -23,7 +23,7 @@ fields:
 
      Each entry in the local plan dataset should link to a documentation webpage that includes the information 
      in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-     Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+     Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
      to make the URL for each plan unique.
   examples:
     - value: https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan
