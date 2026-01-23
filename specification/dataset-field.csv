@@ -1106,7 +1106,7 @@ development-plan,documentation-url,,local plan documentation page,"The URL of th
 
 Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
 ",,,"[{""value"": ""https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2011""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2024""}]",,
 development-plan,document-url,,local plan core document,"Enter the URL for the main or core plan document. This is usually a PDF file.
@@ -1138,11 +1138,11 @@ development-plan,reference,,local plan reference,"Give each local plan a unique 
 development-plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
 This field is mandatory for new local plans.
-Joint plans should also provide an entry for each `local-planning-authority` area
+When producing a joint local plan you should also provide an entry for each `local-planning-authority` area
 in a separate `local-plan-housing` dataset.
 ",,,"[{""example"": ""durham-local-plan"", ""entry-number"": 1, ""value"": 24852}]",,
 development-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
+This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
 ",,,,,
 development-policy-area,development-policies,,,,,,,,
@@ -2150,7 +2150,7 @@ local-plan,documentation-url,,local plan documentation page,"The URL of the webp
 
 Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
 ",,,"[{""value"": ""https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2011""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2024""}]",,
 local-plan,document-url,,local plan core document,"Enter the URL for the main or core plan document. This is usually a PDF file.
@@ -2180,7 +2180,7 @@ local-plan,prefix,prefix,,,,,,,
 local-plan,reference,,local plan reference,"Give each local plan a unique reference.
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
 local-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
+This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
 ",,,,,
 local-planning-authority,document-url,,,"Enter the URL of the document, webpage, or data on your website containing the

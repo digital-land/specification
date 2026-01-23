@@ -206,7 +206,7 @@ The URL of the webpage on your website for the local plan
 
 Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
  For example:
 
@@ -228,7 +228,7 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
 Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
 This field is mandatory for new local plans.
-Joint plans should also provide an entry for each `local-planning-authority` area
+When producing a joint local plan you should also provide an entry for each `local-planning-authority` area
 in a separate `local-plan-housing` dataset.
  For example:
 
@@ -244,7 +244,6 @@ It should also contain the following fields:
 * `local-planning-authorities`
 * `mineral-planning-authorities`
 * `waste-planning-authorities`
-* `local-plan-process`
 * `entry-date`
 * `start-date`
 
@@ -284,14 +283,6 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 * <code class="value">NLWA</code>
 
 
-### local-plan-process
-
-Indicate the local plan examination process for the local plan using one of the following values:
-
-* `2012` for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements
-* `2026` for plans prepared under *new Local Planning Regulations (TBD)*
-
-
 ### entry-date
 
 Enter the date this data was created or modified.
@@ -299,7 +290,7 @@ Enter the date this data was created or modified.
 ### start-date
 
 Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
+This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
 
 
@@ -334,7 +325,7 @@ For new local plans your timetable must include a precise `predicted-date` again
 Update the entry to include the actual date in the `start-date` field when the event takes place.
 
 For local plans, minerals plans, and waste plans being produced under the new local plans process,
-your timetable must include a entry for each of the the following events:
+your timetable must include a entry for each of the following events:
 
 * `commenced`
 * `scoping-consultation-start`
@@ -601,7 +592,7 @@ You will need to provide for each dataset:
 The service also asks for your name and email address as a point of contact in case of any issues.
 
 ## Keep your data up-to-date
-Continue to improve your data, and act on the feedback from the [the service](https://provide.planning.data.gov.uk) 
+Continue to improve your data, and act on the feedback from [the service](https://provide.planning.data.gov.uk) 
 to ensure your data meets the specification.
 
 You also need to update and republish your data whenever there's a change to your development plans information.

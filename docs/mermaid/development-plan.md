@@ -12,7 +12,6 @@ erDiagram
         string local-planning-authorities
         string mineral-planning-authorities
         string waste-planning-authorities
-        string local-plan-process
         url documentation-url
         url document-url
         string required-housing

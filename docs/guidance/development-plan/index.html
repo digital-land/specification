@@ -451,7 +451,7 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <p>The URL of the webpage on your website for the local plan</p>
 <p>Each entry in the local plan dataset should link to a documentation webpage that includes the information 
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use use an anchor link (fragment identifier) 
+Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
  For example:</p>
 <ul>
@@ -469,7 +469,7 @@ to make the URL for each plan unique.
 <p>Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
 This field is mandatory for new local plans.
-Joint plans should also provide an entry for each <code>local-planning-authority</code> area
+When producing a joint local plan you should also provide an entry for each <code>local-planning-authority</code> area
 in a separate <code>local-plan-housing</code> dataset.
  For example:</p>
 <ul>
@@ -481,7 +481,6 @@ in a separate <code>local-plan-housing</code> dataset.
 <li><code>local-planning-authorities</code></li>
 <li><code>mineral-planning-authorities</code></li>
 <li><code>waste-planning-authorities</code></li>
-<li><code>local-plan-process</code></li>
 <li><code>entry-date</code></li>
 <li><code>start-date</code></li>
 </ul>
@@ -513,17 +512,11 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 <ul>
 <li><code class="value">NLWA</code></li>
 </ul>
-<h3 id="local-plan-process">local-plan-process</h3>
-<p>Indicate the local plan examination process for the local plan using one of the following values:</p>
-<ul>
-<li><code>2012</code> for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements</li>
-<li><code>2026</code> for plans prepared under <em>new Local Planning Regulations (TBD)</em></li>
-</ul>
 <h3 id="entry-date">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
 <h3 id="start-date">start-date</h3>
 <p>Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
+This value should match the relevant entry for when the plan was recorded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.</p>
 <h3 id="optional-fields">Optional fields</h3>
 <p>It may also contain the following fields:</p>
@@ -543,7 +536,7 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 For new local plans your timetable must include a precise <code>predicted-date</code> against each entry.
 Update the entry to include the actual date in the <code>start-date</code> field when the event takes place.</p>
 <p>For local plans, minerals plans, and waste plans being produced under the new local plans process,
-your timetable must include a entry for each of the the following events:</p>
+your timetable must include a entry for each of the following events:</p>
 <ul>
 <li><code>commenced</code></li>
 <li><code>scoping-consultation-start</code></li>
@@ -727,7 +720,7 @@ nationally on <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>.</
 </ul>
 <p>The service also asks for your name and email address as a point of contact in case of any issues.</p>
 <h2 id="keep-your-data-up-to-date">Keep your data up-to-date</h2>
-<p>Continue to improve your data, and act on the feedback from the <a href="https://provide.planning.data.gov.uk">the service</a> 
+<p>Continue to improve your data, and act on the feedback from <a href="https://provide.planning.data.gov.uk">the service</a> 
 to ensure your data meets the specification.</p>
 <p>You also need to update and republish your data whenever there's a change to your development plans information.</p>
 <p>We look for changes to the data at all of the endpoint URLs we know about every night,
