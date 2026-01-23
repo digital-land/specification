@@ -122,7 +122,7 @@ fields:
   description: date when the plan was officially adopted
   guidance: |
       Enter the date when the plan was officially adopted. 
-      This value should match the relevant entry for when the plan was recoreded as being adopted in the `local-plan-timetable`.
+      This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
       Leave this value blank for plans which are being prepared, or haven't yet been adopted.
 github-discussion: 26
 key-field: ''
