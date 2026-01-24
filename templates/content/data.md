@@ -115,12 +115,12 @@ Your {{ name }} data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your {{ name }} data should also contain the following fields:
 {% else %}
 
 ### Optional fields
 
-It may also contain the following fields:
+Your {{ name }} data may also contain the following fields:
 {% endif  %}
 
 {% for f in d["fields"] -%}
