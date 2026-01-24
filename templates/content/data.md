@@ -148,6 +148,10 @@ It may also contain the following fields:
 {% endfor -%}
 {%- endif -%}
 
+{%- if df["notes"] %}
+{{ df["notes"] }}
+{% endif -%}
+
 {%- endif -%}
 {%- endfor -%}
 {%- endfor -%}
