@@ -400,30 +400,11 @@ The platform will default a <code>start-date</code> to the first of the month, o
 </ul>
 <h2 id="local-plan-dataset">Local plan dataset</h2>
 <p>List the local plans you are responsible for with one row for each current, emerging or historical local plan.</p>
-<h3 id="fields">Fields</h3>
 <p>Your Local plan data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
 <li><code>documentation-url</code></li>
 <li><code>document-url</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>name</code></li>
-<li><code>dataset</code></li>
-<li><code>period-start-date</code></li>
-<li><code>period-end-date</code></li>
-<li><code>local-planning-authorities</code></li>
-<li><code>mineral-planning-authorities</code></li>
-<li><code>waste-planning-authorities</code></li>
-<li><code>local-plan-process</code></li>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>end-date</code></li>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference">reference</h3>
 <p>Give each local plan a unique reference.
@@ -451,6 +432,19 @@ to make the URL for each plan unique.
  For example:</p>
 <ul>
 <li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
+</ul>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>name</code></li>
+<li><code>dataset</code></li>
+<li><code>period-start-date</code></li>
+<li><code>period-end-date</code></li>
+<li><code>local-planning-authorities</code></li>
+<li><code>mineral-planning-authorities</code></li>
+<li><code>waste-planning-authorities</code></li>
+<li><code>local-plan-process</code></li>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
 </ul>
 <h3 id="name">name</h3>
 <p>Use the title of the adopted local plan document. For example:</p>
@@ -509,6 +503,11 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 <p>Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>end-date</code></li>
+<li><code>notes</code></li>
+</ul>
 <h3 id="end-date">end-date</h3>
 <p>Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.</p>
 <h3 id="notes">notes</h3>
@@ -520,27 +519,10 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 <p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.</p>
-<h3 id="fields_1">Fields</h3>
 <p>Your local plan housing number data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
 <li><code>local-plan</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>local-planning-authority</code></li>
-<li><code>required-housing</code></li>
-<li><code>committed-housing</code></li>
-<li><code>allocated-housing</code></li>
-<li><code>broad-locations-housing</code></li>
-<li><code>windfall-housing</code></li>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>end-date</code></li>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference_1">reference</h3>
 <p>Give each set of housing numbers a unique reference value.
@@ -552,6 +534,17 @@ There is no need to provide this dataset for other kinds of plan.</p>
 </ul>
 <h3 id="local-plan">local-plan</h3>
 <p>Enter the <code>reference</code> for the local plan which these numbers apply.</p>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>local-planning-authority</code></li>
+<li><code>required-housing</code></li>
+<li><code>committed-housing</code></li>
+<li><code>allocated-housing</code></li>
+<li><code>broad-locations-housing</code></li>
+<li><code>windfall-housing</code></li>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
+</ul>
 <h3 id="local-planning-authority">local-planning-authority</h3>
 <p>This should be the GSS code (statistical geography) for the <code>local-planning-authority</code> area to which the housing numbers apply.
 See the <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a> dataset.
@@ -596,6 +589,11 @@ within this <code>local-planning-authority</code> area.
 <p>Enter the date this data was created or modified.</p>
 <h3 id="start-date_1">start-date</h3>
 <p>Enter the date these numbers were finalised.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>end-date</code></li>
+<li><code>notes</code></li>
+</ul>
 <h3 id="end-date_1">end-date</h3>
 <p>Enter the date these numbers were withdrawn, otherwise leave this field blank.</p>
 <h3 id="notes_1">notes</h3>
@@ -606,26 +604,12 @@ within this <code>local-planning-authority</code> area.
 <h2 id="local-plan-document-dataset">Local plan document dataset</h2>
 <p>Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.</p>
-<h3 id="fields_2">Fields</h3>
 <p>Your Local plan document data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
 <li><code>name</code></li>
 <li><code>local-plan</code></li>
 <li><code>document-url</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>document-types</code></li>
-<li><code>documentation-url</code></li>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>description</code></li>
-<li><code>end-date</code></li>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference_2">reference</h3>
 <p>Give each document a unique reference.</p>
@@ -640,6 +624,13 @@ Add a separate row with a link to each document on your website.</p>
 </ul>
 <h3 id="document-url_1">document-url</h3>
 <p>Enter the URL for the document. This is often a PDF file.</p>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>document-types</code></li>
+<li><code>documentation-url</code></li>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
+</ul>
 <h3 id="document-types">document-types</h3>
 <p>Enter at least one of the following <a href="https://www.planning.data.gov.uk/dataset/local-plan-document-type">local-plan-document-type</a> values:</p>
 <ul>
@@ -676,6 +667,12 @@ Add a separate row with a link to each document on your website.</p>
 <p>Enter the date this data was created or modified.</p>
 <h3 id="start-date_2">start-date</h3>
 <p>Enter the date the document was published.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>description</code></li>
+<li><code>end-date</code></li>
+<li><code>notes</code></li>
+</ul>
 <h3 id="description">description</h3>
 <h3 id="end-date_2">end-date</h3>
 <p>Enter date when the document was archived. Otherwise leave this field blank.</p>

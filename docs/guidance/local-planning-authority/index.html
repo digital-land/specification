@@ -422,24 +422,9 @@ That is there is no need to duplicate the geospatial data into a <code>point</co
 <p>A mayoral authority, or other organisation responsible for the designation of a 
 development corporation or other kind of Local Planning Authority can use this 
 specification to provide the boundary of the Local Planning Authority area.</p>
-<h3 id="fields">Fields</h3>
 <p>Your Local Planning Authority data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>name</code></li>
-<li><code>documentation-url</code></li>
-<li><code>document-url</code></li>
-<li><code>geometry</code></li>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>end-date</code></li>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference">reference</h3>
 <p>Enter the GSS code for the Local Planning Authority area. 
@@ -449,6 +434,15 @@ republish the data with the official GSS code once it is known.
 <ul>
 <li><code class="value">E60000330</code></li>
 <li><code class="value">borchester-development-corporation</code></li>
+</ul>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>name</code></li>
+<li><code>documentation-url</code></li>
+<li><code>document-url</code></li>
+<li><code>geometry</code></li>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
 </ul>
 <h3 id="name">name</h3>
 <p>Enter the name of the Local Planning Authority.
@@ -473,6 +467,11 @@ If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the a
 <p>Enter the date this data was created or modified.</p>
 <h3 id="start-date">start-date</h3>
 <p>Enter the date this area became a Local Planning Authority.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>end-date</code></li>
+<li><code>notes</code></li>
+</ul>
 <h3 id="end-date">end-date</h3>
 <p>Enter the date this area ceased to be a Local Planning Authority.</p>
 <h3 id="notes">notes</h3>

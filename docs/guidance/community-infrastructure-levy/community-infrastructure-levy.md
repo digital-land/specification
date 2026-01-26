@@ -135,8 +135,6 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Fields
-
 
 
 Your Community infrastructure levy schedule data must contain the following fields:
@@ -144,7 +142,11 @@ Your Community infrastructure levy schedule data must contain the following fiel
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 

@@ -166,8 +166,6 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-### Fields
-
 
 
 Your Tree preservation order data must contain the following fields:
@@ -175,7 +173,11 @@ Your Tree preservation order data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 
@@ -191,8 +193,6 @@ It may also contain the following fields:
 
 
 
-### Fields
-
 
 
 Your Tree preservation zone data must contain the following fields:
@@ -200,7 +200,11 @@ Your Tree preservation zone data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 
@@ -216,8 +220,6 @@ It may also contain the following fields:
 
 
 
-### Fields
-
 
 
 Your Tree data must contain the following fields:
@@ -225,7 +227,11 @@ Your Tree data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 

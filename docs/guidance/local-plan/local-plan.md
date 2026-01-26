@@ -132,10 +132,10 @@ The platform will default a `start-date` to the first of the month, or the first
 
 ## Local plan dataset
 
+
 List the local plans you are responsible for with one row for each current, emerging or historical local plan.
 
 
-### Fields
 
 
 
@@ -146,28 +146,6 @@ Your Local plan data must contain the following fields:
 * `reference`
 * `documentation-url`
 * `document-url`
-
-It should also contain the following fields:
-
-
-
-* `name`
-* `dataset`
-* `period-start-date`
-* `period-end-date`
-* `local-planning-authorities`
-* `mineral-planning-authorities`
-* `waste-planning-authorities`
-* `local-plan-process`
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `end-date`
-* `notes`
 
 
 
@@ -203,6 +181,23 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
  For example:
 
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
+
+
+It should also contain the following fields:
+
+
+
+* `name`
+* `dataset`
+* `period-start-date`
+* `period-end-date`
+* `local-planning-authorities`
+* `mineral-planning-authorities`
+* `waste-planning-authorities`
+* `local-plan-process`
+* `entry-date`
+* `start-date`
+
 
 
 ### name
@@ -284,6 +279,15 @@ This value should match the relevant entry for when the plan was recoreded as be
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
 
 
+It may also contain the following fields:
+
+
+
+* `end-date`
+* `notes`
+
+
+
 ### end-date
 
 Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
@@ -298,12 +302,12 @@ You may provide notes on how this data was made, and help users differentiate th
 
 ## Local plan housing number dataset
 
+
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.
 
 
-### Fields
 
 
 
@@ -313,26 +317,6 @@ Your local plan housing number data must contain the following fields:
 
 * `reference`
 * `local-plan`
-
-It should also contain the following fields:
-
-
-
-* `local-planning-authority`
-* `required-housing`
-* `committed-housing`
-* `allocated-housing`
-* `broad-locations-housing`
-* `windfall-housing`
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `end-date`
-* `notes`
 
 
 
@@ -349,6 +333,21 @@ Give each set of housing numbers a unique reference value.
 ### local-plan
 
 Enter the `reference` for the local plan which these numbers apply.
+
+
+It should also contain the following fields:
+
+
+
+* `local-planning-authority`
+* `required-housing`
+* `committed-housing`
+* `allocated-housing`
+* `broad-locations-housing`
+* `windfall-housing`
+* `entry-date`
+* `start-date`
+
 
 
 ### local-planning-authority
@@ -413,6 +412,15 @@ Enter the date this data was created or modified.
 Enter the date these numbers were finalised.
 
 
+It may also contain the following fields:
+
+
+
+* `end-date`
+* `notes`
+
+
+
 ### end-date
 
 Enter the date these numbers were withdrawn, otherwise leave this field blank.
@@ -427,11 +435,11 @@ You may provide a short description to help users differentiate the plan from ot
 
 ## Local plan document dataset
 
+
 Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.
 
 
-### Fields
 
 
 
@@ -443,23 +451,6 @@ Your Local plan document data must contain the following fields:
 * `name`
 * `local-plan`
 * `document-url`
-
-It should also contain the following fields:
-
-
-
-* `document-types`
-* `documentation-url`
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `description`
-* `end-date`
-* `notes`
 
 
 
@@ -485,6 +476,17 @@ Enter the reference for the local plan which the document is associated with.
 ### document-url
 
 Enter the URL for the document. This is often a PDF file.
+
+
+It should also contain the following fields:
+
+
+
+* `document-types`
+* `documentation-url`
+* `entry-date`
+* `start-date`
+
 
 
 ### document-types
@@ -530,6 +532,16 @@ Enter the date this data was created or modified.
 ### start-date
 
 Enter the date the document was published.
+
+
+It may also contain the following fields:
+
+
+
+* `description`
+* `end-date`
+* `notes`
+
 
 
 ### description

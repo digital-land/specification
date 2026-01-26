@@ -130,8 +130,6 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Fields
-
 
 
 Your Brownfield land data must contain the following fields:
@@ -151,23 +149,6 @@ Your Brownfield land data must contain the following fields:
 * `NetDwellingsRangeTo`
 * `FirstAddedDate`
 * `LastUpdatedDate`
-
-It should also contain the following fields:
-
-
-
-* `OrganisationURI`
-* `PermissionType`
-* `PermissionDate`
-* `PlanningHistory`
-* `HazardousSubstances`
-
-It may also contain the following fields:
-
-
-
-* `Notes`
-* `EndDate`
 
 
 
@@ -275,6 +256,18 @@ Enter the date that the site was first added to this register, in the format `YY
 
 Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
+It should also contain the following fields:
+
+
+
+* `OrganisationURI`
+* `PermissionType`
+* `PermissionDate`
+* `PlanningHistory`
+* `HazardousSubstances`
+
+
+
 ### OrganisationURI
 
 [Find your organisation in this list](https://www.planning.data.gov.uk/organisation)
@@ -317,6 +310,15 @@ Enter links to any web pages that give information on the site’s planning hist
 Enter ‘yes’ if the local planning authority is required by regulation
 26(3) of the [Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made)
 to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank.
+
+
+It may also contain the following fields:
+
+
+
+* `Notes`
+* `EndDate`
+
 
 
 ### Notes

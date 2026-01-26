@@ -138,8 +138,6 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Fields
-
 
 
 Your development plan data must contain the following fields:
@@ -154,24 +152,6 @@ Your development plan data must contain the following fields:
 * `documentation-url`
 * `document-url`
 * `required-housing`
-
-It should also contain the following fields:
-
-
-
-* `local-planning-authorities`
-* `mineral-planning-authorities`
-* `waste-planning-authorities`
-* `local-plan-process`
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `end-date`
-* `notes`
 
 
 
@@ -253,6 +233,19 @@ in a separate `local-plan-housing` dataset.
 * <code class="value">24852</code>
 
 
+It should also contain the following fields:
+
+
+
+* `local-planning-authorities`
+* `mineral-planning-authorities`
+* `waste-planning-authorities`
+* `local-plan-process`
+* `entry-date`
+* `start-date`
+
+
+
 ### local-planning-authorities
 
 Enter the reference (the GSS code) for the 
@@ -306,6 +299,15 @@ This value should match the relevant entry for when the plan was recoreded as be
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
 
 
+It may also contain the following fields:
+
+
+
+* `end-date`
+* `notes`
+
+
+
 ### end-date
 
 Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
@@ -319,6 +321,7 @@ You may provide notes on how this data was made, and help users differentiate th
 
 
 ## Development plan timetable dataset
+
 
 Record the key events and milestones in the timetable when producing your development plan.
 For new local plans your timetable must include a precise `predicted-date` against each entry.
@@ -367,7 +370,6 @@ Your development plan timetable may also include rows with dates for each of the
 * `revoked`
 
 
-### Fields
 
 
 
@@ -379,19 +381,6 @@ Your development plan timetable data must contain the following fields:
 * `development-plan`
 * `development-plan-event`
 * `predicted-date`
-
-It should also contain the following fields:
-
-
-
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `notes`
 
 
 
@@ -432,6 +421,15 @@ Enter the date when this event is expected to happen.
 * <code class="value">2027-01-01</code>
 
 
+It should also contain the following fields:
+
+
+
+* `entry-date`
+* `start-date`
+
+
+
 ### entry-date
 
 Enter the date this data was created or modified.
@@ -441,18 +439,26 @@ Enter the date this data was created or modified.
 Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.
 
 
+It may also contain the following fields:
+
+
+
+* `notes`
+
+
+
 ### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
 
 ## Local plan housing number dataset
 
+
 Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.
 
 
-### Fields
 
 
 
@@ -463,20 +469,6 @@ Your local plan housing number data must contain the following fields:
 * `reference`
 * `local-plan`
 * `required-housing`
-
-It should also contain the following fields:
-
-
-
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `end-date`
-* `notes`
 
 
 
@@ -504,6 +496,15 @@ within this `local-planning-authority` area.
 * <code class="value">24852</code>
 
 
+It should also contain the following fields:
+
+
+
+* `entry-date`
+* `start-date`
+
+
+
 ### entry-date
 
 Enter the date this data was created or modified.
@@ -511,6 +512,15 @@ Enter the date this data was created or modified.
 ### start-date
 
 Enter the date these numbers were finalised.
+
+
+It may also contain the following fields:
+
+
+
+* `end-date`
+* `notes`
+
 
 
 ### end-date

@@ -160,8 +160,6 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-### Fields
-
 
 
 Your Planning application data must contain the following fields:
@@ -169,7 +167,11 @@ Your Planning application data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 
@@ -185,8 +187,6 @@ It may also contain the following fields:
 
 
 
-### Fields
-
 
 
 Your Planning application log data must contain the following fields:
@@ -194,7 +194,11 @@ Your Planning application log data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 
@@ -210,8 +214,6 @@ It may also contain the following fields:
 
 
 
-### Fields
-
 
 
 Your Planning application document data must contain the following fields:
@@ -219,7 +221,11 @@ Your Planning application document data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 

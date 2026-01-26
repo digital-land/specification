@@ -136,8 +136,6 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-### Fields
-
 
 
 Your Planning condition data must contain the following fields:
@@ -145,7 +143,11 @@ Your Planning condition data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 
@@ -161,8 +163,6 @@ It may also contain the following fields:
 
 
 
-### Fields
-
 
 
 Your Planning application condition data must contain the following fields:
@@ -170,7 +170,11 @@ Your Planning application condition data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 

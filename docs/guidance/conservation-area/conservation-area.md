@@ -165,8 +165,6 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-### Fields
-
 
 
 Your Conservation area data must contain the following fields:
@@ -174,7 +172,11 @@ Your Conservation area data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 
@@ -190,8 +192,6 @@ It may also contain the following fields:
 
 
 
-### Fields
-
 
 
 Your Conservation area document data must contain the following fields:
@@ -199,7 +199,11 @@ Your Conservation area document data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 

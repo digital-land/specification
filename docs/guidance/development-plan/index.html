@@ -402,7 +402,6 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>2025</code></li>
 </ul>
 <h2 id="development-plan-dataset">Development plan dataset</h2>
-<h3 id="fields">Fields</h3>
 <p>Your development plan data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
@@ -413,20 +412,6 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <li><code>documentation-url</code></li>
 <li><code>document-url</code></li>
 <li><code>required-housing</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>local-planning-authorities</code></li>
-<li><code>mineral-planning-authorities</code></li>
-<li><code>waste-planning-authorities</code></li>
-<li><code>local-plan-process</code></li>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>end-date</code></li>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference">reference</h3>
 <p>Give each local plan a unique reference.
@@ -489,6 +474,15 @@ in a separate <code>local-plan-housing</code> dataset.
 <ul>
 <li><code class="value">24852</code></li>
 </ul>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>local-planning-authorities</code></li>
+<li><code>mineral-planning-authorities</code></li>
+<li><code>waste-planning-authorities</code></li>
+<li><code>local-plan-process</code></li>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
+</ul>
 <h3 id="local-planning-authorities">local-planning-authorities</h3>
 <p>Enter the reference (the GSS code) for the 
 <a href="https://www.planning.data.gov.uk/dataset/local-planning-authority">Local Planning Authority</a>
@@ -529,6 +523,11 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 <p>Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recoreded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>end-date</code></li>
+<li><code>notes</code></li>
+</ul>
 <h3 id="end-date">end-date</h3>
 <p>Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.</p>
 <h3 id="notes">notes</h3>
@@ -582,22 +581,12 @@ your timetable must include a entry for each of the the following events:</p>
 <li><code>withdrawn</code></li>
 <li><code>revoked</code></li>
 </ul>
-<h3 id="fields_1">Fields</h3>
 <p>Your development plan timetable data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
 <li><code>development-plan</code></li>
 <li><code>development-plan-event</code></li>
 <li><code>predicted-date</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference_1">reference</h3>
 <p>Give each event a reference which is unique for the event within the dataset.
@@ -628,32 +617,30 @@ Where a timetable has more than one event of the same type, you can add a date t
 <ul>
 <li><code class="value">2027-01-01</code></li>
 </ul>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
+</ul>
 <h3 id="entry-date_1">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
 <h3 id="start-date_1">start-date</h3>
 <p>Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>notes</code></li>
+</ul>
 <h3 id="notes_1">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
 <h2 id="local-plan-housing-number-dataset">Local plan housing number dataset</h2>
 <p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
 You may also use this dataset to provide additional housing numbers related to a local plan.
 There is no need to provide this dataset for other kinds of plan.</p>
-<h3 id="fields_2">Fields</h3>
 <p>Your local plan housing number data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
 <li><code>local-plan</code></li>
 <li><code>required-housing</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>end-date</code></li>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference_2">reference</h3>
 <p>Give each set of housing numbers a unique reference value.
@@ -672,10 +659,20 @@ within this <code>local-planning-authority</code> area.
 <ul>
 <li><code class="value">24852</code></li>
 </ul>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
+</ul>
 <h3 id="entry-date_2">entry-date</h3>
 <p>Enter the date this data was created or modified.</p>
 <h3 id="start-date_2">start-date</h3>
 <p>Enter the date these numbers were finalised.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>end-date</code></li>
+<li><code>notes</code></li>
+</ul>
 <h3 id="end-date_1">end-date</h3>
 <p>Enter the date these numbers were withdrawn, otherwise leave this field blank.</p>
 <h3 id="notes_2">notes</h3>

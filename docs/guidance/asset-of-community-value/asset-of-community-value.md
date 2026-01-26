@@ -158,8 +158,6 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-### Fields
-
 
 
 Your Asset of community value data must contain the following fields:
@@ -167,7 +165,11 @@ Your Asset of community value data must contain the following fields:
 
 
 
+
+
 It should also contain the following fields:
+
+
 
 
 

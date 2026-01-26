@@ -403,23 +403,11 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <p>The local plan timetable is a record of the key dates when producing a local plan.
 Your data should include a row for each of the events listed in the <a href="https://www.planning.data.gov.uk/dataset/local-plan-event">local plan event</a> dataset with the date when the event happened.
 Provide your predicted range of dates for events which are in the future.</p>
-<h3 id="fields">Fields</h3>
 <p>Your Local plan timetable data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
 <li><code>local-plan</code></li>
 <li><code>local-plan-event</code></li>
-</ul>
-<p>It should also contain the following fields:</p>
-<ul>
-<li><code>predicted-earliest-date</code></li>
-<li><code>predicted-latest-date</code></li>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<p>It may also contain the following fields:</p>
-<ul>
-<li><code>notes</code></li>
 </ul>
 <h3 id="reference">reference</h3>
 <p>Give each event a reference which is unique for the event within the dataset.
@@ -456,6 +444,13 @@ Where a timetable has more than one event of the same kind, you can add a date t
 <li><code>plan-withdrawn</code></li>
 <li><code>plan-revoked</code></li>
 </ul>
+<p>It should also contain the following fields:</p>
+<ul>
+<li><code>predicted-earliest-date</code></li>
+<li><code>predicted-latest-date</code></li>
+<li><code>entry-date</code></li>
+<li><code>start-date</code></li>
+</ul>
 <h3 id="predicted-earliest-date">predicted-earliest-date</h3>
 <p>Enter the earliest date when this event is expected to happen.
  For example:</p>
@@ -473,6 +468,10 @@ Where a timetable has more than one event of the same kind, you can add a date t
 <h3 id="start-date">start-date</h3>
 <p>Enter the date when the timetable event occurred. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.</p>
+<p>It may also contain the following fields:</p>
+<ul>
+<li><code>notes</code></li>
+</ul>
 <h3 id="notes">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
 <h2 id="check-your-data">Check your data</h2>

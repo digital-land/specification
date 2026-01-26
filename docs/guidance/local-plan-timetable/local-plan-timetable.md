@@ -133,12 +133,12 @@ The platform will default a `start-date` to the first of the month, or the first
 
 ## Local plan timetable dataset
 
+
 The local plan timetable is a record of the key dates when producing a local plan.
 Your data should include a row for each of the events listed in the [local plan event](https://www.planning.data.gov.uk/dataset/local-plan-event) dataset with the date when the event happened.
 Provide your predicted range of dates for events which are in the future.
 
 
-### Fields
 
 
 
@@ -149,21 +149,6 @@ Your Local plan timetable data must contain the following fields:
 * `reference`
 * `local-plan`
 * `local-plan-event`
-
-It should also contain the following fields:
-
-
-
-* `predicted-earliest-date`
-* `predicted-latest-date`
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `notes`
 
 
 
@@ -208,6 +193,17 @@ Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/d
 * `plan-revoked`
 
 
+It should also contain the following fields:
+
+
+
+* `predicted-earliest-date`
+* `predicted-latest-date`
+* `entry-date`
+* `start-date`
+
+
+
 ### predicted-earliest-date
 
 Enter the earliest date when this event is expected to happen.
@@ -232,6 +228,14 @@ Enter the date this data was created or modified.
 
 Enter the date when the timetable event occurred. Leave blank when predicting future events,
 such as when you expect a draft local plan to be adopted.
+
+
+It may also contain the following fields:
+
+
+
+* `notes`
+
 
 
 ### notes

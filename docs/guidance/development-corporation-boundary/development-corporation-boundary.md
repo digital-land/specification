@@ -158,8 +158,6 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 
 
 
-### Fields
-
 
 
 Your Development corporation boundary data must contain the following fields:
@@ -167,24 +165,6 @@ Your Development corporation boundary data must contain the following fields:
 
 
 * `reference`
-
-It should also contain the following fields:
-
-
-
-* `name`
-* `documentation-url`
-* `document-url`
-* `geometry`
-* `entry-date`
-* `start-date`
-
-It may also contain the following fields:
-
-
-
-* `end-date`
-* `notes`
 
 
 
@@ -199,6 +179,19 @@ If you don’t have a reference for this item, you will need to create one that 
 A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
+
+It should also contain the following fields:
+
+
+
+* `name`
+* `documentation-url`
+* `document-url`
+* `geometry`
+* `entry-date`
+* `start-date`
+
+
 
 ### name
 
@@ -226,6 +219,15 @@ If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the a
 Enter the date this data was created or modified.
 
 ### start-date
+
+
+
+It may also contain the following fields:
+
+
+
+* `end-date`
+* `notes`
 
 
 
