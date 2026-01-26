@@ -173,7 +173,7 @@ Your Infrastructure project data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Infrastructure project data should also contain the following fields:
 
 
 
@@ -182,7 +182,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Infrastructure project data may also contain the following fields:
 
 
 
@@ -206,7 +206,7 @@ Your Infrastructure project log data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Infrastructure project log data should also contain the following fields:
 
 
 
@@ -215,7 +215,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Infrastructure project log data may also contain the following fields:
 
 
 
@@ -239,7 +239,7 @@ Your Infrastructure project document data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Infrastructure project document data should also contain the following fields:
 
 
 
@@ -248,7 +248,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Infrastructure project document data may also contain the following fields:
 
 
 

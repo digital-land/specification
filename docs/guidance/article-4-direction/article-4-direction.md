@@ -178,7 +178,7 @@ Your Article 4 direction data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Article 4 direction data should also contain the following fields:
 
 
 
@@ -187,7 +187,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Article 4 direction data may also contain the following fields:
 
 
 
@@ -211,7 +211,7 @@ Your Article 4 direction area data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Article 4 direction area data should also contain the following fields:
 
 
 
@@ -220,7 +220,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Article 4 direction area data may also contain the following fields:
 
 
 

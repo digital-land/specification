@@ -148,7 +148,7 @@ Your Local area requirements data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Local area requirements data should also contain the following fields:
 
 
 
@@ -157,7 +157,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Local area requirements data may also contain the following fields:
 
 
 

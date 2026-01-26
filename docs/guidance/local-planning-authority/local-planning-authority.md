@@ -188,7 +188,7 @@ republish the data with the official GSS code once it is known.
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Local Planning Authority data should also contain the following fields:
 
 
 
@@ -241,7 +241,7 @@ Enter the date this area became a Local Planning Authority.
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Local Planning Authority data may also contain the following fields:
 
 
 

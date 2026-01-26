@@ -172,7 +172,7 @@ Your Development policy data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Development policy data should also contain the following fields:
 
 
 
@@ -181,7 +181,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Development policy data may also contain the following fields:
 
 
 
@@ -205,7 +205,7 @@ Your Development policy area data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Development policy area data should also contain the following fields:
 
 
 
@@ -214,7 +214,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Development policy area data may also contain the following fields:
 
 
 

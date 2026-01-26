@@ -184,7 +184,7 @@ Great references are short, easy to read, to pronounce and remember.
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Development corporation boundary data should also contain the following fields:
 
 
 
@@ -228,7 +228,7 @@ Enter the date this data was created or modified.
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Development corporation boundary data may also contain the following fields:
 
 
 

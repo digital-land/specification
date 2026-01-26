@@ -227,17 +227,16 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
 
 Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
-This field is mandatory for new local plans.
-When producing a joint local plan you should also provide an entry for each `local-planning-authority` area
-in a separate `local-plan-housing` dataset.
  For example:
 
 * <code class="value">24852</code>
 
+This field is mandatory for new local plans. When producing a joint local plan you should also provide an entry for each `local-planning-authority` area in a separate `local-plan-housing` dataset.
+
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your development plan data should also contain the following fields:
 
 
 
@@ -296,7 +295,7 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 
 ### Optional fields
 
-It may also contain the following fields:
+Your development plan data may also contain the following fields:
 
 
 
@@ -419,10 +418,14 @@ Enter the date when this event is expected to happen.
 
 * <code class="value">2027-01-01</code>
 
+New local plans require a single, precise date.
+When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.
+
+
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your development plan timetable data should also contain the following fields:
 
 
 
@@ -442,7 +445,7 @@ Enter the date when the timetable event occurred. Leave this field blank when th
 
 ### Optional fields
 
-It may also contain the following fields:
+Your development plan timetable data may also contain the following fields:
 
 
 
@@ -503,7 +506,7 @@ within this `local-planning-authority` area.
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your local plan housing number data should also contain the following fields:
 
 
 
@@ -523,7 +526,7 @@ Enter the date these numbers were finalised.
 
 ### Optional fields
 
-It may also contain the following fields:
+Your local plan housing number data may also contain the following fields:
 
 
 

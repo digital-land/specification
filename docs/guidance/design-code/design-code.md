@@ -173,7 +173,7 @@ Your Design code data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Design code data should also contain the following fields:
 
 
 
@@ -182,7 +182,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Design code data may also contain the following fields:
 
 
 
@@ -206,7 +206,7 @@ Your Design code rule data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Design code rule data should also contain the following fields:
 
 
 
@@ -215,7 +215,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Design code rule data may also contain the following fields:
 
 
 
@@ -239,7 +239,7 @@ Your Design code area data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Design code area data should also contain the following fields:
 
 
 
@@ -248,7 +248,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Design code area data may also contain the following fields:
 
 
 

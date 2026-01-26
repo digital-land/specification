@@ -178,7 +178,7 @@ Your Conservation area data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Conservation area data should also contain the following fields:
 
 
 
@@ -187,7 +187,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Conservation area data may also contain the following fields:
 
 
 
@@ -211,7 +211,7 @@ Your Conservation area document data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Conservation area document data should also contain the following fields:
 
 
 
@@ -220,7 +220,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Conservation area document data may also contain the following fields:
 
 
 

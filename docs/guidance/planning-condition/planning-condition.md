@@ -149,7 +149,7 @@ Your Planning condition data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Planning condition data should also contain the following fields:
 
 
 
@@ -158,7 +158,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Planning condition data may also contain the following fields:
 
 
 
@@ -182,7 +182,7 @@ Your Planning application condition data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Planning application condition data should also contain the following fields:
 
 
 
@@ -191,7 +191,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Planning application condition data may also contain the following fields:
 
 
 

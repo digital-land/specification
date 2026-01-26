@@ -187,7 +187,7 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Local plan data should also contain the following fields:
 
 
 
@@ -285,7 +285,7 @@ Leave this value blank for plans which are being prepared, or haven&#39;t yet be
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Local plan data may also contain the following fields:
 
 
 
@@ -345,7 +345,7 @@ Enter the `reference` for the local plan which these numbers apply.
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your local plan housing number data should also contain the following fields:
 
 
 
@@ -424,7 +424,7 @@ Enter the date these numbers were finalised.
 
 ### Optional fields
 
-It may also contain the following fields:
+Your local plan housing number data may also contain the following fields:
 
 
 
@@ -494,7 +494,7 @@ Enter the URL for the document. This is often a PDF file.
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Local plan document data should also contain the following fields:
 
 
 
@@ -552,7 +552,7 @@ Enter the date the document was published.
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Local plan document data may also contain the following fields:
 
 
 

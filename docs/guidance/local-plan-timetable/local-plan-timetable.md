@@ -197,7 +197,7 @@ Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/d
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Local plan timetable data should also contain the following fields:
 
 
 
@@ -214,6 +214,10 @@ Enter the earliest date when this event is expected to happen.
  For example:
 
 * <code class="value">2027-01-01</code>
+
+Older published schemes often use vaugue descriptions such as `Spring 2020` or `Q2 2018`.
+Using a range of full dates helps producing timetables and other charts and using the data to analyse the system.
+
 
 
 ### predicted-latest-date
@@ -236,7 +240,7 @@ such as when you expect a draft local plan to be adopted.
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Local plan timetable data may also contain the following fields:
 
 
 

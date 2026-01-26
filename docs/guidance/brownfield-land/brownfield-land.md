@@ -260,7 +260,7 @@ Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Brownfield land data should also contain the following fields:
 
 
 
@@ -318,7 +318,7 @@ to conduct an environmental impact assessment on the proposed development. Other
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Brownfield land data may also contain the following fields:
 
 
 

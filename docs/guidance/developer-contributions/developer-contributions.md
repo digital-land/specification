@@ -156,7 +156,7 @@ Your Developer agreement data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Developer agreement data should also contain the following fields:
 
 
 
@@ -165,7 +165,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Developer agreement data may also contain the following fields:
 
 
 
@@ -189,7 +189,7 @@ Your Developer agreement contribution data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Developer agreement contribution data should also contain the following fields:
 
 
 
@@ -198,7 +198,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Developer agreement contribution data may also contain the following fields:
 
 
 
@@ -222,7 +222,7 @@ Your Developer agreement transaction data must contain the following fields:
 
 ### Recommended fields
 
-It should also contain the following fields:
+Your Developer agreement transaction data should also contain the following fields:
 
 
 
@@ -231,7 +231,7 @@ It should also contain the following fields:
 
 ### Optional fields
 
-It may also contain the following fields:
+Your Developer agreement transaction data may also contain the following fields:
 
 
 

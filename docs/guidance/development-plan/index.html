@@ -468,15 +468,13 @@ to make the URL for each plan unique.
 <h3 id="required-housing">required-housing</h3>
 <p>Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
-This field is mandatory for new local plans.
-When producing a joint local plan you should also provide an entry for each <code>local-planning-authority</code> area
-in a separate <code>local-plan-housing</code> dataset.
  For example:</p>
 <ul>
 <li><code class="value">24852</code></li>
 </ul>
+<p>This field is mandatory for new local plans. When producing a joint local plan you should also provide an entry for each <code>local-planning-authority</code> area in a separate <code>local-plan-housing</code> dataset.</p>
 <h3 id="recommended-fields">Recommended fields</h3>
-<p>It should also contain the following fields:</p>
+<p>Your development plan data should also contain the following fields:</p>
 <ul>
 <li><code>local-planning-authorities</code></li>
 <li><code>mineral-planning-authorities</code></li>
@@ -519,7 +517,7 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 This value should match the relevant entry for when the plan was recorded as being adopted in the <code>local-plan-timetable</code>.
 Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.</p>
 <h3 id="optional-fields">Optional fields</h3>
-<p>It may also contain the following fields:</p>
+<p>Your development plan data may also contain the following fields:</p>
 <ul>
 <li><code>end-date</code></li>
 <li><code>notes</code></li>
@@ -614,8 +612,10 @@ Where a timetable has more than one event of the same type, you can add a date t
 <ul>
 <li><code class="value">2027-01-01</code></li>
 </ul>
+<p>New local plans require a single, precise date.
+When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.</p>
 <h3 id="recommended-fields_1">Recommended fields</h3>
-<p>It should also contain the following fields:</p>
+<p>Your development plan timetable data should also contain the following fields:</p>
 <ul>
 <li><code>entry-date</code></li>
 <li><code>start-date</code></li>
@@ -625,7 +625,7 @@ Where a timetable has more than one event of the same type, you can add a date t
 <h3 id="start-date_1">start-date</h3>
 <p>Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.</p>
 <h3 id="optional-fields_1">Optional fields</h3>
-<p>It may also contain the following fields:</p>
+<p>Your development plan timetable data may also contain the following fields:</p>
 <ul>
 <li><code>notes</code></li>
 </ul>
@@ -660,7 +660,7 @@ within this <code>local-planning-authority</code> area.
 <li><code class="value">24852</code></li>
 </ul>
 <h3 id="recommended-fields_2">Recommended fields</h3>
-<p>It should also contain the following fields:</p>
+<p>Your local plan housing number data should also contain the following fields:</p>
 <ul>
 <li><code>entry-date</code></li>
 <li><code>start-date</code></li>
@@ -670,7 +670,7 @@ within this <code>local-planning-authority</code> area.
 <h3 id="start-date_2">start-date</h3>
 <p>Enter the date these numbers were finalised.</p>
 <h3 id="optional-fields_2">Optional fields</h3>
-<p>It may also contain the following fields:</p>
+<p>Your local plan housing number data may also contain the following fields:</p>
 <ul>
 <li><code>end-date</code></li>
 <li><code>notes</code></li>
