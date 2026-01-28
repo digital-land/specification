@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 
+collection: local-plan
 consideration: minerals-and-waste-plan
 dataset: minerals-plan-boundary
 description: The boundary covered by a minerals plan.

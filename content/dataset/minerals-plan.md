@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: local-plan
 consideration: minerals-and-waste-plan
 dataset: minerals-plan
 description: 'minerals plans prepared by a Mineral Planning Authority'

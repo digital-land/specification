@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 
+collection: local-plan
 consideration: waste-local-plan
 dataset: waste-plan-boundary
 description: The boundary covered by a waste plan.

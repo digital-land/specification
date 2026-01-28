@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 'local-plan'
+collection:
 consideration: development-plans-and-timetables
 dataset: local-plan-timetable
 description: log of past and predicted milestones and events when producing a local plan
