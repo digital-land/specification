@@ -1,12 +1,12 @@
 ---
 attribution: crown-copyright
-collection: 'local-plan'
+collection:
 consideration: development-plans-and-timetables
 dataset: local-plan-document-type
 description: The types of documents published for a local plan
 end-date: ''
-entity-maximum: '5299999'
-entity-minimum: '5280000'
+entity-maximum:
+entity-minimum:
 entry-date: '2024-10-24'
 fields:
 - field: description
