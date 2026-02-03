@@ -1,12 +1,12 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: development-plan-event
 description: The different event types in a development plan timetable
 end-date: ''
-entity-maximum: '2949999'
-entity-minimum: '2900000'
+entity-maximum: '2999999'
+entity-minimum: '2950000'
 entry-date: '2023-09-14'
 fields:
 - field: end-date
