@@ -37,6 +37,7 @@ fields:
 - field: website
 - field: wikidata
 - field: wikipedia
+- field: organisations
 key-field: ''
 licence: ogl3
 name: Organisation
