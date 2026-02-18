@@ -31,7 +31,7 @@ award,start-date,fund,intervention,amount,organisation,organisations,documentati
 30,2022-01-21,software-round-1,integration,150000,local-authority:SEV,,,"Exploring and implementing solutions to improve access to Tree Preservation Order information, and submitting applications to carry out works to protected trees and notifications of works to trees in Conservation Areas."
 31,2022-01-21,software-round-1,integration,150000,local-authority:TEW,,,"Exploring an open and standard way of exposing planning application data to provide progress updates to service users via a tracker, to address their concerns about a lack of information on progress or timescales for determining a planning application."
 32,2022-01-21,software-round-1,software,400000,local-authority:CMD,,,
-33,2022-01-21,software-round-1,software,348000,local-authority:DAC,,,
+33,2022-01-21,software-round-1,software,348000,local-authority:DAC,local-authority:THE;local-authority:SAL;local-authority:HER;local-authority:WAT;local-authority:HRT,,
 34,2022-01-21,software-round-1,software,358000,local-authority:DNC,,,
 35,2022-01-21,software-round-1,software,395000,local-authority:GLO,,,
 36,2022-01-21,software-round-1,software,400000,local-authority:MDW,,,
@@ -548,3 +548,4 @@ award,start-date,fund,intervention,amount,organisation,organisations,documentati
 547,2026-01-12,dpif-round-4.2,improvement,50000,local-authority:WOI,,,
 548,2026-01-12,dpif-round-4.2,improvement,50000,local-authority:WOK,,,
 549,2026-01-12,dpif-round-4.2,improvement,50000,local-authority:WYE,,,
+
