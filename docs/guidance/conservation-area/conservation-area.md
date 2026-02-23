@@ -34,9 +34,13 @@ by planning authorities under the
 <a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>.</p>
 
 Providing planning data means making it available publicly to a standard so that
-services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
-understand its quality, and trust it will be sustained.
-[Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
+
+* find it
+* understand its quality, meaning and purpose
+* trust it will be maintained
+
+[You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
 ## Providing your Conservation area data
 

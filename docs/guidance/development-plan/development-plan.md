@@ -22,12 +22,18 @@ attachments:
 ^Follow this guidance when providing your development plan data.^
 
 <p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
-local plan, minerals plan, waste plan, or supplementary plan <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">created or updated using the new local plan system</a>.</p>
+local plan, minerals and waste plan, or supplementary plan.
+<a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">The timetable must be in accordance with the local plan regulations and guidance</a>
+as data in the format set out by this guidance and <a href="#technical-specifications">technical specifications</a>.</p>
 
 Providing planning data means making it available publicly to a standard so that
-services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
-understand its quality, and trust it will be sustained.
-[Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
+
+* find it
+* understand its quality, meaning and purpose
+* trust it will be maintained
+
+[You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
 ## Providing your development plan data
 
@@ -170,7 +176,7 @@ Give each local plan a unique reference.
 
 ### name
 
-Use the title of the adopted local plan document. For example:
+Use the title of the local plan document. For example:
 
 * <code class="value">County Durham Plan</code>
 * <code class="value">South Oxfordshire Joint Local Plan</code>

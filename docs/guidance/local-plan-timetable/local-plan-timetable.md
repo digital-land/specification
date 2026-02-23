@@ -28,9 +28,13 @@ and cited as one of a number of official data standards for the provision of pla
 other regulations, contracts, and agreements.</p>
 
 Providing planning data means making it available publicly to a standard so that
-services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
-understand its quality, and trust it will be sustained.
-[Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
+
+* find it
+* understand its quality, meaning and purpose
+* trust it will be maintained
+
+[You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
 ## Providing your local plan timetable data
 

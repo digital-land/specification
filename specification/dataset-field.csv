@@ -1126,7 +1126,7 @@ development-plan,local-planning-authorities,,local planning authority areas cove
 area covered by this local or supplementary plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
 ",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
-development-plan,name,,local plan name,Use the title of the adopted local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
+development-plan,name,,local plan name,Use the title of the local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
 development-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
 development-plan,organisation,organisation,,,,,,,
 development-plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,
@@ -2167,7 +2167,7 @@ local-plan,local-planning-authorities,,local planning authority areas covered by
 area covered by this local plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
 ",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
-local-plan,name,,local plan name,Use the title of the adopted local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
+local-plan,name,,local plan name,Use the title of the local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
 local-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
 local-plan,organisation,organisation,,,,,,,
 local-plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,

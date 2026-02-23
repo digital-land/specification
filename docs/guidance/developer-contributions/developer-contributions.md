@@ -34,9 +34,13 @@ are supporting new development and local infrastructure.
 We have designed the data format to cause as little disruption as possible to existing processes.</p>
 
 Providing planning data means making it available publicly to a standard so that
-services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can find it, 
-understand its quality, and trust it will be sustained.
-[Help design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
+
+* find it
+* understand its quality, meaning and purpose
+* trust it will be maintained
+
+[You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
 ## Providing your Developer contributions data
 
