@@ -63,7 +63,7 @@ fields:
     - value: 'E60000132;E60000133;E60000135;E60000136'
 - field: name
   description: local plan name
-  guidance: Use the title of the adopted local plan document.
+  guidance: Use the title of the local plan document.
   examples:
     - value: 'County Durham Plan'
     - value: 'South Oxfordshire Joint Local Plan'
