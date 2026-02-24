@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: local-plan
 consideration: development-plans-and-timetables
 dataset: development-plan-timetable
-description: log of past and predicted milestones and events when producing a development plan
+description: log of past and committed milestones and events when producing a development plan
 end-date: ''
 entity-maximum: '5199999'
 entity-minimum: '5100000'
@@ -37,6 +37,10 @@ fields:
      This field is currently unused in this dataset.
 - field: entity
 - field: entry-date
+- field: committed-date
+  description: committed date for the event
+  guidance: |
+      Enter the date by which this event will happen.
 - field: predicted-date
   description: predicted date for the event
   guidance: |
@@ -63,8 +67,8 @@ fields:
      Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.
 github-discussion: 26
 guidance: |
-    Record the key events and milestones in the timetable when producing your development plan.
-    For new local plans your timetable must include a precise `predicted-date` against each entry.
+    Record the milestones and other events in the timetable when producing your development plan.
+    For new local plans your timetable must include a precise `committed-date` against each entry.
     Update the entry to include the actual date in the `start-date` field when the event takes place.
 
     For local plans, minerals plans, and waste plans being produced under the new local plans process,
