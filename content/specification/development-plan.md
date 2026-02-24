@@ -73,7 +73,7 @@ datasets:
           - field: entry-date
             requirement-level: MUST
           - field: start-date
-            requirement-level: SHOULD
+            requirement-level: MUST
           - field: notes
             requirement-level: MAY
 ---
