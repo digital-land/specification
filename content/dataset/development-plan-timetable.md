@@ -68,11 +68,11 @@ fields:
 github-discussion: 26
 guidance: |
     Record the milestones and other events in the timetable when producing your development plan.
-    For new local plans your timetable must include a precise `committed-date` against each entry.
+    Your timetable must include a precise `committed-date` against each entry.
     Update the entry to include the actual date in the `start-date` field when the event takes place.
 
-    For local plans, minerals plans, and waste plans being produced under the new local plans process,
-    your timetable must include a entry each of the following development-plan-event field values:
+    For local plans, minerals plans, and waste plans 
+    your timetable must include an entry with one of the following `development-plan-event` field values where applicable:
 
     * `publish-notice-intention-commence`
     * `scoping-consultation-start`
@@ -92,7 +92,8 @@ guidance: |
     * `examination-recommendations-published`
     * `adopted`
 
-    Supplementary plans being produced under the new local plans process must contain a row for each of the following events:
+    For supplementary plans 
+    your timetable must include an entry with one of the following `development-plan-event` field values where applicable:
 
     * `publish-notice-intention-commence`
     * `proposed-plan-consultation-start`
@@ -100,7 +101,8 @@ guidance: |
     * `examination-submitted`
     * `adopted`
     
-    Your development plan timetable may also include rows with dates for each of the following events:
+    For any plan 
+    your timetable may include an entry with one of the following `development-plan-event` field values where applicable:
 
     * `main-modification-consultation-start`
     * `main-modification-consultation-end`
