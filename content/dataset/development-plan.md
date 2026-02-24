@@ -115,10 +115,6 @@ fields:
     - example: durham-local-plan
       entry-number: 1
       value: 24852
-  notes:
-        This field is mandatory for new local plans.
-        When producing a joint local plan you should also provide an entry for each `local-planning-authority` area
-        in a separate `local-plan-housing` dataset.
 - field: start-date
   description: date when the plan was officially adopted
   guidance: |
