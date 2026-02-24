@@ -80,22 +80,4 @@ datasets:
             requirement-level: SHOULD
           - field: notes
             requirement-level: MAY
-    - dataset: local-plan-housing
-      priority: 3
-      requirement-level: SHOULD
-      fields:
-          - field: reference
-            requirement-level: MUST
-          - field: local-plan
-            requirement-level: MUST
-          - field: required-housing
-            requirement-level: MUST
-          - field: entry-date
-            requirement-level: SHOULD
-          - field: start-date
-            requirement-level: SHOULD
-          - field: end-date
-            requirement-level: MAY
-          - field: notes
-            requirement-level: MAY
 ---
