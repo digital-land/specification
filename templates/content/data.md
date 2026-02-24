@@ -115,7 +115,7 @@ Your {{ name }} data must contain the following fields:
 
 ### Recommended fields
 
-Your {{ name }} data should also contain the following fields:
+Your {{ name }} data should also contain the following fields, where applicable:
 {% else %}
 
 ### Optional fields
