@@ -28,7 +28,8 @@ Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it
-* understand its quality, meaning and purpose
+* understand its meaning and purpose
+* assess its quality
 * trust it will be maintained
 
 [You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
