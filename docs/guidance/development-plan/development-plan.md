@@ -30,7 +30,8 @@ Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it
-* understand its quality, meaning and purpose
+* understand its meaning and purpose
+* assess its quality
 * trust it will be maintained
 
 [You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
@@ -82,13 +83,6 @@ For development plans you need to provide 2 datasets:
 * [Development plan timetable](#developmentplantimetable-dataset)
 
 
-
-
-
-You may also provide the following dataset:
-
-
-* [Local plan housing number](#local-plan-housing-number-dataset)
 
 
 
@@ -462,96 +456,6 @@ Your development plan timetable data may also contain the following fields:
 ### notes
 
 Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
-
-## Local plan housing number dataset
-
-
-Use this dataset to provide the individual `required-housing` number for each Local Planning Authority within a joint new local plan.
-You may also use this dataset to provide additional housing numbers related to a local plan.
-There is no need to provide this dataset for other kinds of plan.
-
-
-
-
-
-### Mandatory fields
-
-Your local plan housing number data must contain the following fields:
-
-
-
-* `reference`
-* `local-plan`
-* `required-housing`
-
-
-
-### reference
-
-Give each set of housing numbers a unique reference value.
- For example:
-
-* <code class="value">34069/County-Durham-Plan</code>
-* <code class="value">central-lincolnshire</code>
-* <code class="value">barnet-local-plan-2021-2036</code>
-
-
-### local-plan
-
-Enter the `reference` for the local plan which these numbers apply.
-
-
-### required-housing
-
-Enter the minimum number of homes that the plan seeks to provide
-within this `local-planning-authority` area.
- For example:
-
-* <code class="value">24852</code>
-
-
-### Recommended fields
-
-Your local plan housing number data should also contain the following fields:
-
-
-
-* `entry-date`
-* `start-date`
-
-
-
-### entry-date
-
-Enter the date this data was created or modified.
-
-### start-date
-
-Enter the date these numbers were finalised.
-
-
-### Optional fields
-
-Your local plan housing number data may also contain the following fields:
-
-
-
-* `end-date`
-* `notes`
-
-
-
-### end-date
-
-Enter the date these numbers were withdrawn, otherwise leave this field blank.
-
-
-### notes
-
-You may provide a short description to help users differentiate the plan from others with a similar name. For example:
-
-* <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
 
 ## Check your data
 Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 

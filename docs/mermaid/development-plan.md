@@ -29,14 +29,5 @@ erDiagram
         date start-date
         string notes
     }
-    local-plan-housing {
-        string reference
-        string local-plan
-        string required-housing
-        date entry-date
-        date start-date
-        date end-date
-        string notes
-    }
     development-plan-timetable ||--o{ development-plan : references
 ```

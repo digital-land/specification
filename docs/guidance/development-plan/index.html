@@ -323,7 +323,8 @@ as data in the format set out by this guidance and <a href="#technical-specifica
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:</p>
 <ul>
 <li>find it</li>
-<li>understand its quality, meaning and purpose</li>
+<li>understand its meaning and purpose</li>
+<li>assess its quality</li>
 <li>trust it will be maintained</li>
 </ul>
 <p><a href="https://design.planning.data.gov.uk">You can help to design this and other data standards to ensure they your needs</a>. </p>
@@ -366,10 +367,6 @@ and continue to iterate and improve it over time.</p>
 <ul>
 <li><a href="#developmentplan-dataset">Development plan</a></li>
 <li><a href="#developmentplantimetable-dataset">Development plan timetable</a></li>
-</ul>
-<p>You may also provide the following dataset:</p>
-<ul>
-<li><a href="#local-plan-housing-number-dataset">Local plan housing number</a></li>
 </ul>
 <p>Each dataset needs to be provided
 in a separate CSV file 
@@ -637,57 +634,6 @@ When recording events for older schemes where the predicted date is a range, you
 </ul>
 <h3 id="notes_1">notes</h3>
 <p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
-<h2 id="local-plan-housing-number-dataset">Local plan housing number dataset</h2>
-<p>Use this dataset to provide the individual <code>required-housing</code> number for each Local Planning Authority within a joint new local plan.
-You may also use this dataset to provide additional housing numbers related to a local plan.
-There is no need to provide this dataset for other kinds of plan.</p>
-<h3 id="mandatory-fields_2">Mandatory fields</h3>
-<p>Your local plan housing number data must contain the following fields:</p>
-<ul>
-<li><code>reference</code></li>
-<li><code>local-plan</code></li>
-<li><code>required-housing</code></li>
-</ul>
-<h3 id="reference_2">reference</h3>
-<p>Give each set of housing numbers a unique reference value.
- For example:</p>
-<ul>
-<li><code class="value">34069/County-Durham-Plan</code></li>
-<li><code class="value">central-lincolnshire</code></li>
-<li><code class="value">barnet-local-plan-2021-2036</code></li>
-</ul>
-<h3 id="local-plan">local-plan</h3>
-<p>Enter the <code>reference</code> for the local plan which these numbers apply.</p>
-<h3 id="required-housing_1">required-housing</h3>
-<p>Enter the minimum number of homes that the plan seeks to provide
-within this <code>local-planning-authority</code> area.
- For example:</p>
-<ul>
-<li><code class="value">24852</code></li>
-</ul>
-<h3 id="recommended-fields_2">Recommended fields</h3>
-<p>Your local plan housing number data should also contain the following fields:</p>
-<ul>
-<li><code>entry-date</code></li>
-<li><code>start-date</code></li>
-</ul>
-<h3 id="entry-date_2">entry-date</h3>
-<p>Enter the date this data was created or modified.</p>
-<h3 id="start-date_2">start-date</h3>
-<p>Enter the date these numbers were finalised.</p>
-<h3 id="optional-fields_2">Optional fields</h3>
-<p>Your local plan housing number data may also contain the following fields:</p>
-<ul>
-<li><code>end-date</code></li>
-<li><code>notes</code></li>
-</ul>
-<h3 id="end-date_1">end-date</h3>
-<p>Enter the date these numbers were withdrawn, otherwise leave this field blank.</p>
-<h3 id="notes_2">notes</h3>
-<p>You may provide a short description to help users differentiate the plan from others with a similar name. For example:</p>
-<ul>
-<li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
-</ul>
 <h2 id="check-your-data">Check your data</h2>
 <p>Use the <a href="https://provide.planning.data.gov.uk">check and provide service</a> to review your data before you publish it. 
 The service will show you how the data will appear on <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> 
