@@ -233,8 +233,6 @@ during the plan period.
 
 * <code class="value">24852</code>
 
-This field is mandatory for new local plans. When producing a joint local plan you should also provide an entry for each `local-planning-authority` area in a separate `local-plan-housing` dataset.
-
 
 ### entry-date
 

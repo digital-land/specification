@@ -1137,7 +1137,7 @@ development-plan,reference,,local plan reference,"Give each local plan a unique 
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
 development-plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
-",,This field is mandatory for new local plans. When producing a joint local plan you should also provide an entry for each `local-planning-authority` area in a separate `local-plan-housing` dataset.,"[{""example"": ""durham-local-plan"", ""entry-number"": 1, ""value"": 24852}]",,
+",,,"[{""example"": ""durham-local-plan"", ""entry-number"": 1, ""value"": 24852}]",,
 development-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
