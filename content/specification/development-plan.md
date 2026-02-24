@@ -54,11 +54,7 @@ datasets:
           - field: required-housing
             requirement-level: MUST
           - field: entry-date
-            requirement-level: SHOULD
-          - field: start-date
-            requirement-level: SHOULD
-          - field: end-date
-            requirement-level: MAY
+            requirement-level: MUST
           - field: notes
             requirement-level: MAY
     - dataset: development-plan-timetable
@@ -75,7 +71,7 @@ datasets:
           - field: predicted-date
             requirement-level: MUST
           - field: entry-date
-            requirement-level: SHOULD
+            requirement-level: MUST
           - field: start-date
             requirement-level: SHOULD
           - field: notes
