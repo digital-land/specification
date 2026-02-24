@@ -1061,7 +1061,7 @@ development-plan-status,start-date,,,,,,,,
 development-plan-timetable,development-plan,development-plan,associated development plan,"Enter the reference of the development plan which this event forms part of its timetable.
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""central-lincolnshire""}]",,
 development-plan-timetable,development-plan-event,development-plan-event,,"Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference.
-",,,"[{""value"": ""commenced""}, {""value"": ""examination-submitted""}, {""value"": ""adopted""}]",,
+",,,"[{""value"": ""publish-notice-intention-commence""}, {""value"": ""examination-submitted""}, {""value"": ""adopted""}]",,
 development-plan-timetable,document-url,,,"Provide the URL of a webpage on your website where this information is documented.
 For older plans, this is the Local Development Scheme, which is often a PDF or other document.
 This value may be left blank where the timetable information is published on the `documentation-url` webpage.

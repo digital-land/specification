@@ -309,14 +309,14 @@ For new local plans your timetable must include a precise `committed-date` again
 Update the entry to include the actual date in the `start-date` field when the event takes place.
 
 For local plans, minerals plans, and waste plans being produced under the new local plans process,
-your timetable must include a entry for each of the following events:
+your timetable must include a entry each of the following development-plan-event field values:
 
-* `commenced`
+* `publish-notice-intention-commence`
 * `scoping-consultation-start`
 * `scoping-consultation-end`
 * `gateway-1-self-assessment`
-* `content-consultation-start`
-* `content-consultation-end`
+* `plan-content-evidence-consultation-start`
+* `plan-content-evidence-consultation-end`
 * `gateway-2-advice-sought`
 * `gateway-2-advice-published`
 * `proposed-plan-consultation-start`
@@ -331,7 +331,7 @@ your timetable must include a entry for each of the following events:
 
 Supplementary plans being produced under the new local plans process must contain a row for each of the following events:
 
-* `commenced`
+* `publish-notice-intention-commence`
 * `proposed-plan-consultation-start`
 * `proposed-plan-consultation-end`
 * `examination-submitted`
@@ -345,8 +345,6 @@ Your development plan timetable may also include rows with dates for each of the
 * `examination-pause-end`
 * `additional-consultation-start`
 * `additional-consultation-end`
-* `annual-monitoring-report-published`
-* `plan-evaluation-report-published`
 * `withdrawn`
 * `revoked`
 
@@ -392,7 +390,7 @@ Enter the reference of the development plan which this event forms part of its t
 Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference.
  For example:
 
-* <code class="value">commenced</code>
+* <code class="value">publish-notice-intention-commence</code>
 * <code class="value">examination-submitted</code>
 * <code class="value">adopted</code>
 
