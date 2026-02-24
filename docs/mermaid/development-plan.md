@@ -23,8 +23,8 @@ erDiagram
         ref development-plan
         string development-plan-event
         date committed-date
-        date entry-date
         date start-date
+        date entry-date
         string notes
     }
     development-plan-timetable ||--o{ development-plan : references

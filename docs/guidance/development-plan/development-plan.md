@@ -155,7 +155,6 @@ Your development plan data must contain the following fields:
 * `documentation-url`
 * `document-url`
 * `required-housing`
-* `entry-date`
 
 
 
@@ -234,10 +233,6 @@ during the plan period.
 * <code class="value">24852</code>
 
 
-### entry-date
-
-Enter the date this data was created or modified.
-
 ### Recommended fields
 
 Your development plan data should also contain the following fields, where applicable:
@@ -247,6 +242,7 @@ Your development plan data should also contain the following fields, where appli
 * `local-planning-authorities`
 * `mineral-planning-authorities`
 * `waste-planning-authorities`
+* `entry-date`
 
 
 
@@ -283,6 +279,10 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 
 * <code class="value">NLWA</code>
 
+
+### entry-date
+
+Enter the date this data was created or modified.
 
 ### Optional fields
 
@@ -364,7 +364,7 @@ Your development plan timetable data must contain the following fields:
 * `development-plan`
 * `development-plan-event`
 * `committed-date`
-* `entry-date`
+* `start-date`
 
 
 
@@ -402,9 +402,10 @@ Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/develo
 Enter the date by which this event will happen.
 
 
-### entry-date
+### start-date
 
-Enter the date this data was created or modified.
+Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
+
 
 ### Recommended fields
 
@@ -412,14 +413,13 @@ Your development plan timetable data should also contain the following fields, w
 
 
 
-* `start-date`
+* `entry-date`
 
 
 
-### start-date
+### entry-date
 
-Enter the date when the timetable event occurred. Leave this field blank when the event is in the future.
-
+Enter the date this data was created or modified.
 
 ### Optional fields
 
