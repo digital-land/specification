@@ -20,7 +20,7 @@ fields:
   guidance: |
     Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference.
   examples:
-     - value: commenced
+     - value: publish-notice-intention-commence
      - value: examination-submitted
      - value: adopted
 - field: document-url
@@ -72,14 +72,14 @@ guidance: |
     Update the entry to include the actual date in the `start-date` field when the event takes place.
 
     For local plans, minerals plans, and waste plans being produced under the new local plans process,
-    your timetable must include a entry for each of the following events:
+    your timetable must include a entry each of the following development-plan-event field values:
 
-    * `commenced`
+    * `publish-notice-intention-commence`
     * `scoping-consultation-start`
     * `scoping-consultation-end`
     * `gateway-1-self-assessment`
-    * `content-consultation-start`
-    * `content-consultation-end`
+    * `plan-content-evidence-consultation-start`
+    * `plan-content-evidence-consultation-end`
     * `gateway-2-advice-sought`
     * `gateway-2-advice-published`
     * `proposed-plan-consultation-start`
@@ -94,7 +94,7 @@ guidance: |
 
     Supplementary plans being produced under the new local plans process must contain a row for each of the following events:
 
-    * `commenced`
+    * `publish-notice-intention-commence`
     * `proposed-plan-consultation-start`
     * `proposed-plan-consultation-end`
     * `examination-submitted`
@@ -108,8 +108,6 @@ guidance: |
     * `examination-pause-end`
     * `additional-consultation-start`
     * `additional-consultation-end`
-    * `annual-monitoring-report-published`
-    * `plan-evaluation-report-published`
     * `withdrawn`
     * `revoked`
 key-field: ''
