@@ -432,29 +432,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_entry-date">entry-date</a></th>
-        <td scope="row" class="govuk-table__cell">SHOULD</td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-datetime">datetime</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_start-date">start-date</a></th>
-        <td scope="row" class="govuk-table__cell">SHOULD</td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-datetime">datetime</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan_field_end-date">end-date</a></th>
-        <td scope="row" class="govuk-table__cell">MAY</td>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -539,7 +517,7 @@ h1, h2::before, h3::before, h4::before {
 
     <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_entry-date">entry-date</a></th>
-        <td scope="row" class="govuk-table__cell">SHOULD</td>
+        <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
         </td>
@@ -909,66 +887,10 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each development plan entry SHOULD contain 
+    <p class="assertion">Each development plan entry MUST contain 
     an 
     <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The development plan <code class="field">entry-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4 id="dataset_development-plan_field_start-date">Start date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-            <p class="description">
-    
-    Date when the plan was officially adopted.
-
-</p>
-
-    <p class="assertion">Each development plan entry SHOULD contain 
-    a 
-    <code class="field">start-date</code> field value.</p>
-    <p class="assertion">The development plan <code class="field">start-date</code> field MUST be
-    a 
-    <a href="#datatype-datetime">datetime</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4 id="dataset_development-plan_field_end-date">End date</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-            <p class="description">
-    
-    Date a local plan was withdrawn or revoked.
-
-</p>
-
-    <p class="assertion">Each development plan entry MAY contain 
-    an 
-    <code class="field">end-date</code> field value.</p>
-    <p class="assertion">The development plan <code class="field">end-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
@@ -1141,7 +1063,7 @@ When recording events for older schemes where the predicted date is a range, you
 
 </p>
 
-    <p class="assertion">Each development plan timetable entry SHOULD contain 
+    <p class="assertion">Each development plan timetable entry MUST contain 
     an 
     <code class="field">entry-date</code> field value.</p>
     <p class="assertion">The development plan timetable <code class="field">entry-date</code> field MUST be

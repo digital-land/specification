@@ -193,7 +193,7 @@ republish the data with the official GSS code once it is known.
 
 ### Recommended fields
 
-Your Local Planning Authority data should also contain the following fields:
+Your Local Planning Authority data should also contain the following fields, where applicable:
 
 
 

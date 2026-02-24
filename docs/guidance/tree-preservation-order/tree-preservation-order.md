@@ -184,7 +184,7 @@ Your Tree preservation order data must contain the following fields:
 
 ### Recommended fields
 
-Your Tree preservation order data should also contain the following fields:
+Your Tree preservation order data should also contain the following fields, where applicable:
 
 
 
@@ -217,7 +217,7 @@ Your Tree preservation zone data must contain the following fields:
 
 ### Recommended fields
 
-Your Tree preservation zone data should also contain the following fields:
+Your Tree preservation zone data should also contain the following fields, where applicable:
 
 
 
@@ -250,7 +250,7 @@ Your Tree data must contain the following fields:
 
 ### Recommended fields
 
-Your Tree data should also contain the following fields:
+Your Tree data should also contain the following fields, where applicable:
 
 
 

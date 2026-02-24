@@ -22,9 +22,10 @@ attachments:
 ^Follow this guidance when providing your development plan data.^
 
 <p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
-local plan, minerals and waste plan, or supplementary plan.
-<a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">The timetable must be in accordance with the local plan regulations and guidance</a>
-as data in the format set out by this guidance and <a href="#technical-specifications">technical specifications</a>.</p>
+local plan, minerals plan, waste plan, or supplementary plan
+in accordance with the <a href="#TBD">The Town and Country Planning (Local Planning) (England) Regulations 2026</a></p>
+<p>The timetable must be prepared following the guidance to <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">create and update a local plan guidance</a>
+and published as data as described on this page, in the format defined by the <a href="#technical-specifications">technical specifications</a>.</p>
 
 Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
@@ -154,6 +155,7 @@ Your development plan data must contain the following fields:
 * `documentation-url`
 * `document-url`
 * `required-housing`
+* `entry-date`
 
 
 
@@ -234,17 +236,19 @@ during the plan period.
 This field is mandatory for new local plans. When producing a joint local plan you should also provide an entry for each `local-planning-authority` area in a separate `local-plan-housing` dataset.
 
 
+### entry-date
+
+Enter the date this data was created or modified.
+
 ### Recommended fields
 
-Your development plan data should also contain the following fields:
+Your development plan data should also contain the following fields, where applicable:
 
 
 
 * `local-planning-authorities`
 * `mineral-planning-authorities`
 * `waste-planning-authorities`
-* `entry-date`
-* `start-date`
 
 
 
@@ -282,31 +286,14 @@ For a joint waste plan, enter the list of Waste Planning Authority references, e
 * <code class="value">NLWA</code>
 
 
-### entry-date
-
-Enter the date this data was created or modified.
-
-### start-date
-
-Enter the date when the plan was officially adopted. 
-This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
-Leave this value blank for plans which are being prepared, or haven&#39;t yet been adopted.
-
-
 ### Optional fields
 
 Your development plan data may also contain the following fields:
 
 
 
-* `end-date`
 * `notes`
 
-
-
-### end-date
-
-Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
 
 
 ### notes
@@ -379,6 +366,7 @@ Your development plan timetable data must contain the following fields:
 * `development-plan`
 * `development-plan-event`
 * `predicted-date`
+* `entry-date`
 
 
 
@@ -423,20 +411,19 @@ When recording events for older schemes where the predicted date is a range, you
 
 
 
-### Recommended fields
-
-Your development plan timetable data should also contain the following fields:
-
-
-
-* `entry-date`
-* `start-date`
-
-
-
 ### entry-date
 
 Enter the date this data was created or modified.
+
+### Recommended fields
+
+Your development plan timetable data should also contain the following fields, where applicable:
+
+
+
+* `start-date`
+
+
 
 ### start-date
 

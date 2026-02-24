@@ -189,7 +189,7 @@ Great references are short, easy to read, to pronounce and remember.
 
 ### Recommended fields
 
-Your Development corporation boundary data should also contain the following fields:
+Your Development corporation boundary data should also contain the following fields, where applicable:
 
 
 

@@ -153,7 +153,7 @@ Your Infrastructure funding statement data must contain the following fields:
 
 ### Recommended fields
 
-Your Infrastructure funding statement data should also contain the following fields:
+Your Infrastructure funding statement data should also contain the following fields, where applicable:
 
 
 

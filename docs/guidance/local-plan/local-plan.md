@@ -22,9 +22,10 @@ attachments:
 ^Follow this guidance when providing your local plan data.^
 
 <p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
-local plan, minerals and waste plan, or supplementary plan.
-<a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">The timetable must be in accordance with the local plan regulations and guidance</a>
-as data in the format set out by this guidance and <a href="#technical-specifications">technical specifications</a>.</p>
+local plan, minerals plan, waste plan, or supplementary plan
+in accordance with the <a href="#TBD">The Town and Country Planning (Local Planning) (England) Regulations 2026</a></p>
+<p>The timetable must be prepared following the guidance to <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">create and update a local plan guidance</a>
+and published as data as described on this page, in the format defined by the <a href="#technical-specifications">technical specifications</a>.</p>
 
 Providing planning data means making it available publicly to a standard so that
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
@@ -194,7 +195,7 @@ Enter the URL for the main or core plan document. This is usually a PDF file.
 
 ### Recommended fields
 
-Your Local plan data should also contain the following fields:
+Your Local plan data should also contain the following fields, where applicable:
 
 
 
@@ -352,7 +353,7 @@ Enter the `reference` for the local plan which these numbers apply.
 
 ### Recommended fields
 
-Your local plan housing number data should also contain the following fields:
+Your local plan housing number data should also contain the following fields, where applicable:
 
 
 
@@ -501,7 +502,7 @@ Enter the URL for the document. This is often a PDF file.
 
 ### Recommended fields
 
-Your Local plan document data should also contain the following fields:
+Your Local plan document data should also contain the following fields, where applicable:
 
 
 

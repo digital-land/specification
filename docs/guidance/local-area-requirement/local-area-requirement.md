@@ -153,7 +153,7 @@ Your Local area requirements data must contain the following fields:
 
 ### Recommended fields
 
-Your Local area requirements data should also contain the following fields:
+Your Local area requirements data should also contain the following fields, where applicable:
 
 
 

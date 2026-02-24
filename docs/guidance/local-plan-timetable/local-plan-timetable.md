@@ -202,7 +202,7 @@ Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/d
 
 ### Recommended fields
 
-Your Local plan timetable data should also contain the following fields:
+Your Local plan timetable data should also contain the following fields, where applicable:
 
 
 

@@ -176,7 +176,7 @@ Your Asset of community value data must contain the following fields:
 
 ### Recommended fields
 
-Your Asset of community value data should also contain the following fields:
+Your Asset of community value data should also contain the following fields, where applicable:
 
 
 

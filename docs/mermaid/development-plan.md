@@ -16,8 +16,6 @@ erDiagram
         url document-url
         string required-housing
         date entry-date
-        date start-date
-        date end-date
         string notes
     }
     development-plan-timetable {

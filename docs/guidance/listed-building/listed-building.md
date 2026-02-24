@@ -182,7 +182,7 @@ Your Listed building outline data must contain the following fields:
 
 ### Recommended fields
 
-Your Listed building outline data should also contain the following fields:
+Your Listed building outline data should also contain the following fields, where applicable:
 
 
 

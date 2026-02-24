@@ -153,7 +153,7 @@ Your Community infrastructure levy schedule data must contain the following fiel
 
 ### Recommended fields
 
-Your Community infrastructure levy schedule data should also contain the following fields:
+Your Community infrastructure levy schedule data should also contain the following fields, where applicable:
 
 
 

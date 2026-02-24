@@ -265,7 +265,7 @@ Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
 ### Recommended fields
 
-Your Brownfield land data should also contain the following fields:
+Your Brownfield land data should also contain the following fields, where applicable:
 
 
 

@@ -178,7 +178,7 @@ Your Planning application data must contain the following fields:
 
 ### Recommended fields
 
-Your Planning application data should also contain the following fields:
+Your Planning application data should also contain the following fields, where applicable:
 
 
 
@@ -211,7 +211,7 @@ Your Planning application log data must contain the following fields:
 
 ### Recommended fields
 
-Your Planning application log data should also contain the following fields:
+Your Planning application log data should also contain the following fields, where applicable:
 
 
 
@@ -244,7 +244,7 @@ Your Planning application document data must contain the following fields:
 
 ### Recommended fields
 
-Your Planning application document data should also contain the following fields:
+Your Planning application document data should also contain the following fields, where applicable:
 
 
 
