@@ -505,7 +505,7 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_predicted-date">predicted-date</a></th>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_development-plan-timetable_field_committed-date">committed-date</a></th>
         <td scope="row" class="govuk-table__cell">MUST</td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-datetime">datetime</a>
@@ -935,7 +935,7 @@ h1, h2::before, h3::before, h4::before {
     The 
     Development plan timetable
  dataset contains 
-    log of past and predicted milestones and events when producing a development plan.
+    log of past and committed milestones and events when producing a development plan.
 
     </p>
 
@@ -1019,7 +1019,7 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <h4 id="dataset_development-plan-timetable_field_predicted-date">Predicted date</h4>
+    <h4 id="dataset_development-plan-timetable_field_committed-date">Committed date</h4>
 
     
     
@@ -1029,16 +1029,14 @@ h1, h2::before, h3::before, h4::before {
     <!- brute force for now, needs an index -->
             <p class="description">
     
-    Predicted date for the event.
+    Committed date for the event.
 
 </p>
-            <div class="note"><p>New local plans require a single, precise date.
-When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.</p></div>
 
     <p class="assertion">Each development plan timetable entry MUST contain 
     a 
-    <code class="field">predicted-date</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">predicted-date</code> field MUST be
+    <code class="field">committed-date</code> field value.</p>
+    <p class="assertion">The development plan timetable <code class="field">committed-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 

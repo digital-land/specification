@@ -1072,6 +1072,8 @@ development-plan-timetable,end-date,,date when this event was removed from the t
 ",,,,,
 development-plan-timetable,entity,entity,,,,,,,
 development-plan-timetable,entry-date,,,,,,,,
+development-plan-timetable,committed-date,,committed date for the event,"Enter the date by which this event will happen.
+",,,,,
 development-plan-timetable,predicted-date,,predicted date for the event,"Enter the date when this event is expected to happen.
 ",,"New local plans require a single, precise date.
 When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.

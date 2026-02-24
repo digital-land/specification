@@ -304,8 +304,8 @@ You may provide notes on how this data was made, and help users differentiate th
 ## Development plan timetable dataset
 
 
-Record the key events and milestones in the timetable when producing your development plan.
-For new local plans your timetable must include a precise `predicted-date` against each entry.
+Record the milestones and other events in the timetable when producing your development plan.
+For new local plans your timetable must include a precise `committed-date` against each entry.
 Update the entry to include the actual date in the `start-date` field when the event takes place.
 
 For local plans, minerals plans, and waste plans being produced under the new local plans process,
@@ -363,7 +363,7 @@ Your development plan timetable data must contain the following fields:
 * `reference`
 * `development-plan`
 * `development-plan-event`
-* `predicted-date`
+* `committed-date`
 * `entry-date`
 
 
@@ -397,16 +397,9 @@ Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/develo
 * <code class="value">adopted</code>
 
 
-### predicted-date
+### committed-date
 
-Enter the date when this event is expected to happen.
- For example:
-
-* <code class="value">2027-01-01</code>
-
-New local plans require a single, precise date.
-When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.
-
+Enter the date by which this event will happen.
 
 
 ### entry-date

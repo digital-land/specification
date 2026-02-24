@@ -135,8 +135,8 @@ crown-copyright,local-plan,development-plans-and-timetables,development-plan-eve
 crown-copyright,,development-plans-and-timetables,development-plan-geography-type,A type of geography that a development plan covers,2024-07-12,2023-09-21,26,,,0,0,ogl3,Development plan geography type,,Development plan geography types,alpha,,dataset,development-plan-boundary-type,,,development,category,,
 crown-copyright,,development-plans-and-timetables,development-plan-geography,A geography that a development plan covers,2024-07-12,2023-09-19,26,,,0,0,ogl3,Development plan geography,,Development plan geographies,alpha,,dataset,development-plan-boundary,,,development,geography,,
 crown-copyright,,development-plans-and-timetables,development-plan-status,The different statuses a plan can have,2023-10-23,,26,,,5000000,5099999,ogl3,Development plan status,,Development plan statuses,alpha,,dataset,,,,development,category,,
-crown-copyright,local-plan,development-plans-and-timetables,development-plan-timetable,log of past and predicted milestones and events when producing a development plan,,2026-01-19,26,"Record the key events and milestones in the timetable when producing your development plan.
-For new local plans your timetable must include a precise `predicted-date` against each entry.
+crown-copyright,local-plan,development-plans-and-timetables,development-plan-timetable,log of past and committed milestones and events when producing a development plan,,2026-01-19,26,"Record the milestones and other events in the timetable when producing your development plan.
+For new local plans your timetable must include a precise `committed-date` against each entry.
 Update the entry to include the actual date in the `start-date` field when the event takes place.
 
 For local plans, minerals plans, and waste plans being produced under the new local plans process,
