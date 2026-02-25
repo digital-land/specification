@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: local-plan
+collection:
 consideration: local-plans
 dataset: local-plan-housing
 description: 'Housing numbers for a Local Planning Authority in a local plan'
