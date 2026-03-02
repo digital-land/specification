@@ -7,6 +7,7 @@ specification-status: working-draft
 specification-reason: local-plans-2025
 consideration: development-plans-and-timetables
 document-url: https://digital-land.github.io/specification/specification/development-plan/
+date-precision: YYYY-MM-DD
 start-date: ''
 end-date: ''
 entry-date: '2026-01-23'

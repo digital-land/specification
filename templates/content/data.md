@@ -70,6 +70,7 @@ Great references are short, easy to read, to pronounce and remember.
 ### Date values
 
 All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+{% if specification["date-precision"] != "YYYY-MM-DD" %}
 
 Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
 The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December. For example:
@@ -77,6 +78,7 @@ The platform will default a `start-date` to the first of the month, or the first
 * `2025-04-19`
 * `2025-04`
 * `2025`
+{% endif %}
 
 {% if specification["is-geospatial"] %}
 ### Geometry and point fields
