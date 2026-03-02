@@ -101,6 +101,15 @@ fields:
     - value: '34069/County-Durham-Plan'
     - value: 'central-lincolnshire'
     - value: 'barnet-local-plan-2021-2036'
+- field: required-housing
+  description: minimum number of homes that a plan seeks to provide during the plan period
+  guidance: |
+        Enter the minimum number of homes that the plan seeks to provide
+        during the plan period.
+  examples:
+    - example: durham-local-plan
+      entry-number: 1
+      value: 24852
 - field: start-date
   description: date when the plan was officially adopted
   guidance: |
