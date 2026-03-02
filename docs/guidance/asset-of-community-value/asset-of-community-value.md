@@ -133,12 +133,14 @@ Great references are short, easy to read, to pronounce and remember.
 
 All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
+
 Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
 The platform will default a `start-date` to the first of the month, or the first of January, and an `end-date` to the last day of the month, or the last day of December. For example:
 
 * `2025-04-19`
 * `2025-04`
 * `2025`
+
 
 
 ### Geometry and point fields

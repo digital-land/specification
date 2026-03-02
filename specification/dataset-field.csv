@@ -2178,6 +2178,9 @@ local-plan,period-start-date,,start date of the period the plan covers,Enter the
 local-plan,prefix,prefix,,,,,,,
 local-plan,reference,,local plan reference,"Give each local plan a unique reference.
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
+local-plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide
+during the plan period.
+",,,"[{""example"": ""durham-local-plan"", ""entry-number"": 1, ""value"": 24852}]",,
 local-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
