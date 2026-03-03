@@ -119,7 +119,7 @@ Your {{ name }} data must contain the following fields:
 
 ### Recommended fields
 
-Your {{ name }} data should also contain the following fields, where applicable:
+Your {{ name }} data should also contain the following fields if they apply:
 {% else %}
 
 ### Optional fields
