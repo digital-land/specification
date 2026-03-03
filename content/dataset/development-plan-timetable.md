@@ -40,7 +40,7 @@ fields:
 - field: committed-date
   description: committed date for the event
   guidance: |
-      Enter the date by which this event will happen.
+      Enter the date when this event will happen.
 - field: predicted-date
   description: predicted date for the event
   guidance: |

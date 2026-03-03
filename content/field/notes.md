@@ -5,7 +5,7 @@ description: 'notes and commentary about how this data was made or may be interp
 end-date: ''
 entry-date: ''
 field: notes
-guidance: 'Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.'
+guidance: 'Enter any notes or commentary which helps to understand this data.'
 hint: ''
 name: Notes
 notes: "test notes"
