@@ -26,9 +26,13 @@ fields:
   guidance: |
      The URL of the webpage on your website for the local plan
 
-     Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-     in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-     Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
+     Each entry in the local plan dataset should link to a documentation webpage that includes:
+
+     * the information in the entry
+     * links to where you can download the data
+     * and any other supporting documents.
+
+     If there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
      to make the URL for each plan unique.
   examples:
     - value: https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan
@@ -37,7 +41,7 @@ fields:
 - field: document-url
   description: local plan core document
   guidance: |
-      Enter the URL for the main or core plan document. This is usually a PDF file.
+      Enter the URL for the main or core plan document, which is usually a PDF file.
   examples:
     - value: 'https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf'
 - field: end-date
