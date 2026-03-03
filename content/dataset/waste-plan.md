@@ -26,7 +26,7 @@ fields:
     For a joint waste plan, enter the list of Waste Planning Authority references and separate each of them with a semi-colon.
   examples:
     - value: 'NLWA'
-    - value: 'NLWA;GMCA'
+    - value: 'BUC;MIK'
 - field: name
 - field: notes
 - field: organisation
