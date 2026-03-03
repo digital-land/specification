@@ -2,7 +2,7 @@
 {%- set ds_m = specification["datasets"]|selectattr("requirement-level", "eq", "MUST")|list -%}
 {%- set ds_o = specification["datasets"]|rejectattr("requirement-level", "eq", "MUST")|list -%}
 
-### Files
+### Datasets
 
 {% if ds_m|length > 0 %}
 For {{ specification["plural"]}} you need to provide {{ ds_m|length }} dataset{{ "s" if ds_m|length > 1  else "" }}:
