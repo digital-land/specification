@@ -135,7 +135,8 @@ crown-copyright,local-plan,development-plans-and-timetables,development-plan-eve
 crown-copyright,,development-plans-and-timetables,development-plan-geography-type,A type of geography that a development plan covers,2024-07-12,2023-09-21,26,,,0,0,ogl3,Development plan geography type,,Development plan geography types,alpha,,dataset,development-plan-boundary-type,,,development,category,,
 crown-copyright,,development-plans-and-timetables,development-plan-geography,A geography that a development plan covers,2024-07-12,2023-09-19,26,,,0,0,ogl3,Development plan geography,,Development plan geographies,alpha,,dataset,development-plan-boundary,,,development,geography,,
 crown-copyright,,development-plans-and-timetables,development-plan-status,The different statuses a plan can have,2023-10-23,,26,,,5000000,5099999,ogl3,Development plan status,,Development plan statuses,alpha,,dataset,,,,development,category,,
-crown-copyright,local-plan,development-plans-and-timetables,development-plan-timetable,log of past and committed milestones and events when producing a development plan,,2026-01-19,26,"Record the milestones and other events in the timetable when producing your development plan.
+crown-copyright,local-plan,development-plans-and-timetables,development-plan-timetable,log of past and committed milestones and events when producing a development plan,,2026-01-19,26,"Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'.
+
 Your timetable must include a precise `committed-date` against each entry.
 Update the entry to include the actual date in the `start-date` field when the event takes place.
 
@@ -153,11 +154,7 @@ your timetable must include an entry with one of the following `development-plan
 * `proposed-plan-consultation-start`
 * `proposed-plan-consultation-end`
 * `gateway-3-advice-sought`
-* `gateway-3-advice-published`
-* `gateway-3-further-advice-sought`
-* `gateway-3-repeat-advice-published`
 * `examination-submitted`
-* `examination-recommendations-published`
 * `adopted`
 
 For supplementary plans 
@@ -169,9 +166,10 @@ your timetable must include an entry with one of the following `development-plan
 * `examination-submitted`
 * `adopted`
 
-For any plan 
-your timetable may include an entry with one of the following `development-plan-event` field values where applicable:
+Your development plan timetable must also include rows with dates if any of the following events apply:
 
+* `gateway-3-repeat-advice-published`
+* `examination-recommendations-published`
 * `main-modification-consultation-start`
 * `main-modification-consultation-end`
 * `examination-pause-start`
@@ -180,6 +178,11 @@ your timetable may include an entry with one of the following `development-plan-
 * `additional-consultation-end`
 * `withdrawn`
 * `revoked`
+
+If you repeat Gateway 3, you must include these events in your timetable:
+
+* `gateway-3-further-advice-sought`
+* `gateway-3-advice-published`
 ",,5100000,5199999,ogl3,development plan timetable,,development plan timetables,alpha,,dataset,,,,development,timetable,,
 crown-copyright,,development-plans-and-timetables,development-plan-type,,,,26,,,5200000,5259999,ogl3,Development plan type,,Development plan types,alpha,,dataset,,,,development,category,,
 crown-copyright,,development-plans-and-timetables,development-plan,,,,26,,,,,ogl3,development plan,,development plans,alpha,,dataset,,,"This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",development,legal-instrument,Q5266783,Development_plan

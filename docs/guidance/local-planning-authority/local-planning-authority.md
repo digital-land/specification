@@ -236,7 +236,7 @@ If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the a
 
 ### entry-date
 
-Enter the date this data was created or modified.
+Enter the date you created or modified the data.
 
 ### start-date
 
@@ -305,21 +305,20 @@ It is important that the source webpage links to the endpoint documentation webp
 help users trust the authenticity of the data.
 
 ## Tell us about your data
-Once you have published the data, tell us about it so we can index and quickly make it available 
-nationally on [planning.data.gov.uk](https://planning.data.gov.uk).
+Once you have published the data, 
+use the [check and provide service](https://provide.planning.data.gov.uk/) to tell us where it is. 
+This is so we can index the data and quickly make it available nationally on planning.data.gov.uk. 
 
-Use the [check and provide service](https://provide.planning.data.gov.uk/) to tell us where it is. 
+For each dataset, you will need to provide the: 
 
-You will need to provide for each dataset:
-
-* the **source webpage** URL where the information in the data is presented on your website
-* the **endpoint** URL from which the data can be collected
+* **source webpage URL** where the information in the data is presented on your website 
+* **endpoint URL** where you can collect the data 
 
 The service also asks for your name and email address as a point of contact in case of any issues.
 
 ## Keep your data up-to-date
-Continue to improve your data, and act on the feedback from [the service](https://provide.planning.data.gov.uk) 
-to ensure your data meets the specification.
+Continue to improve your data and act on [the service feedback](https://provide.planning.data.gov.uk) 
+to make sure that your data meets the specification.
 
 You also need to update and republish your data whenever there's a change to your local planning authorities information.
 
@@ -332,12 +331,11 @@ If you create a new endpoint you need to [tell us about your data](#tell-us-abou
 ## Contact us
 
 $CTA
-If you need any help at any stage of the process,
-let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
+Email us at <digitalland@communities.gov.uk> to get help.
 $CTA
 
-You can participate in
-[improving the design of this data](https://design.planning.data.gov.uk/consideration/development-corporation),
-and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
+You can help
+[improve the design of this and other planning data](https://design.planning.data.gov.uk/consideration/development-corporation)
+at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
 
 ## Technical specifications

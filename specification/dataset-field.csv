@@ -1072,7 +1072,7 @@ development-plan-timetable,end-date,,date when this event was removed from the t
 ",,,,,
 development-plan-timetable,entity,entity,,,,,,,
 development-plan-timetable,entry-date,,,,,,,,
-development-plan-timetable,committed-date,,committed date for the event,"Enter the date by which this event will happen.
+development-plan-timetable,committed-date,,committed date for the event,"Enter the date when this event will happen.
 ",,,,,
 development-plan-timetable,predicted-date,,predicted date for the event,"Enter the date when this event is expected to happen.
 ",,"New local plans require a single, precise date.
@@ -1082,8 +1082,7 @@ development-plan-timetable,name,,,,,,,,
 development-plan-timetable,notes,,,,,,,,
 development-plan-timetable,organisation,organisation,,,,,,,
 development-plan-timetable,prefix,prefix,,,,,,,
-development-plan-timetable,reference,,,"Give each event a reference which is unique for the event within the dataset.
-Where a timetable has more than one event of the same type, you can add a date to make them unique.
+development-plan-timetable,reference,,,"Give each event a unique reference.
 ",,,"[{""value"": ""LP1-public-consultation""}, {""value"": ""LP1-public-consultation-2025""}]",,
 development-plan-timetable,start-date,,date of the timetable event,"Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
 ",,,,,
@@ -1133,7 +1132,8 @@ area that this local or supplementary plan covers.
 For a joint local plan, enter the list of Local Planning Authority references, and separate each separated of them by with a semi-colon ';' character. For example:
 ",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
 development-plan,name,,local plan name,Use the title of the local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
-development-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
+development-plan,notes,,,"You may provide notes on how you made this data to help users differentiate the plan from others with a similar name.
+",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
 development-plan,organisation,organisation,,,,,,,
 development-plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,
 development-plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2038}, {""value"": 2040}]",,
@@ -1141,8 +1141,14 @@ development-plan,period-start-date,,start date of the period the plan covers,Ent
 development-plan,prefix,prefix,,,,,,,
 development-plan,reference,,local plan reference,"Give each local plan a unique reference.
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
-development-plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide
-during the plan period.
+development-plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide during the plan period.  
+
+You must provide your required-housing when you launch your consultation on your proposed local plan.  
+You must update your required-housing when you: 
+
+* submit your plan for examination  
+* publish the examiner’s recommendations and reasons 
+* publish your adopted local plan 
 ",,,"[{""value"": 1024}, {""value"": 24852}]",,
 development-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.

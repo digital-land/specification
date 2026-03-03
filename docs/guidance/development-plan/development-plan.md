@@ -227,8 +227,14 @@ Enter the URL for the main or core plan document, which is usually a PDF file.
 
 ### required-housing
 
-Enter the minimum number of homes that the plan seeks to provide
-during the plan period.
+Enter the minimum number of homes that the plan seeks to provide during the plan period.  
+
+You must provide your required-housing when you launch your consultation on your proposed local plan.  
+You must update your required-housing when you: 
+
+* submit your plan for examination  
+* publish the examiner’s recommendations and reasons 
+* publish your adopted local plan 
  For example:
 
 * <code class="value">1024</code>
@@ -286,7 +292,7 @@ For a joint waste plan, enter the list of Waste Planning Authority references an
 
 ### entry-date
 
-Enter the date this data was created or modified.
+Enter the date you created or modified the data.
 
 ### Optional fields
 
@@ -300,7 +306,8 @@ Your development plan data may also contain the following fields:
 
 ### notes
 
-You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
+You may provide notes on how you made this data to help users differentiate the plan from others with a similar name.
+ For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
@@ -308,7 +315,8 @@ You may provide notes on how this data was made, and help users differentiate th
 ## Development plan timetable dataset
 
 
-Record the milestones and other events in the timetable when producing your development plan.
+Record the key events in the timetable when producing your plan, these are sometimes also called &#39;milestones&#39;.
+
 Your timetable must include a precise `committed-date` against each entry.
 Update the entry to include the actual date in the `start-date` field when the event takes place.
 
@@ -326,11 +334,7 @@ your timetable must include an entry with one of the following `development-plan
 * `proposed-plan-consultation-start`
 * `proposed-plan-consultation-end`
 * `gateway-3-advice-sought`
-* `gateway-3-advice-published`
-* `gateway-3-further-advice-sought`
-* `gateway-3-repeat-advice-published`
 * `examination-submitted`
-* `examination-recommendations-published`
 * `adopted`
 
 For supplementary plans 
@@ -342,9 +346,10 @@ your timetable must include an entry with one of the following `development-plan
 * `examination-submitted`
 * `adopted`
 
-For any plan 
-your timetable may include an entry with one of the following `development-plan-event` field values where applicable:
+Your development plan timetable must also include rows with dates if any of the following events apply:
 
+* `gateway-3-repeat-advice-published`
+* `examination-recommendations-published`
 * `main-modification-consultation-start`
 * `main-modification-consultation-end`
 * `examination-pause-start`
@@ -353,6 +358,11 @@ your timetable may include an entry with one of the following `development-plan-
 * `additional-consultation-end`
 * `withdrawn`
 * `revoked`
+
+If you repeat Gateway 3, you must include these events in your timetable:
+
+* `gateway-3-further-advice-sought`
+* `gateway-3-advice-published`
 
 
 
@@ -374,8 +384,7 @@ Your development plan timetable data must contain the following fields:
 
 ### reference
 
-Give each event a reference which is unique for the event within the dataset.
-Where a timetable has more than one event of the same type, you can add a date to make them unique.
+Give each event a unique reference.
  For example:
 
 * <code class="value">LP1-public-consultation</code>
@@ -403,7 +412,7 @@ Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/develo
 
 ### committed-date
 
-Enter the date by which this event will happen.
+Enter the date when this event will happen.
 
 
 ### start-date
@@ -423,7 +432,7 @@ Your development plan timetable data should also contain the following fields if
 
 ### entry-date
 
-Enter the date this data was created or modified.
+Enter the date you created or modified the data.
 
 ### Optional fields
 
@@ -437,7 +446,7 @@ Your development plan timetable data may also contain the following fields:
 
 ### notes
 
-Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.
+Enter any notes or commentary which helps to understand this data.
 
 ## Check your data
 Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 
@@ -474,21 +483,20 @@ It is important that the source webpage links to the endpoint documentation webp
 help users trust the authenticity of the data.
 
 ## Tell us about your data
-Once you have published the data, tell us about it so we can index and quickly make it available 
-nationally on [planning.data.gov.uk](https://planning.data.gov.uk).
+Once you have published the data, 
+use the [check and provide service](https://provide.planning.data.gov.uk/) to tell us where it is. 
+This is so we can index the data and quickly make it available nationally on planning.data.gov.uk. 
 
-Use the [check and provide service](https://provide.planning.data.gov.uk/) to tell us where it is. 
+For each dataset, you will need to provide the: 
 
-You will need to provide for each dataset:
-
-* the **source webpage** URL where the information in the data is presented on your website
-* the **endpoint** URL from which the data can be collected
+* **source webpage URL** where the information in the data is presented on your website 
+* **endpoint URL** where you can collect the data 
 
 The service also asks for your name and email address as a point of contact in case of any issues.
 
 ## Keep your data up-to-date
-Continue to improve your data, and act on the feedback from [the service](https://provide.planning.data.gov.uk) 
-to ensure your data meets the specification.
+Continue to improve your data and act on [the service feedback](https://provide.planning.data.gov.uk) 
+to make sure that your data meets the specification.
 
 You also need to update and republish your data whenever there's a change to your development plans information.
 
@@ -501,12 +509,11 @@ If you create a new endpoint you need to [tell us about your data](#tell-us-abou
 ## Contact us
 
 $CTA
-If you need any help at any stage of the process,
-let us know by emailing <digitalland@communities.gov.uk> and a member of our team will be in touch.
+Email us at <digitalland@communities.gov.uk> to get help.
 $CTA
 
-You can participate in
-[improving the design of this data](https://design.planning.data.gov.uk/consideration/development-plans-and-timetables),
-and help ensure planning data meets your needs at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
+You can help
+[improve the design of this and other planning data](https://design.planning.data.gov.uk/consideration/development-plans-and-timetables)
+at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
 
 ## Technical specifications

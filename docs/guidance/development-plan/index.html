@@ -473,11 +473,19 @@ to make the URL for each plan unique.
 <li><code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code></li>
 </ul>
 <h3 id="required-housing">required-housing</h3>
-<p>Enter the minimum number of homes that the plan seeks to provide
-during the plan period.
- For example:</p>
+<p>Enter the minimum number of homes that the plan seeks to provide during the plan period.  </p>
+<p>You must provide your required-housing when you launch your consultation on your proposed local plan.<br />
+You must update your required-housing when you: </p>
 <ul>
-<li><code class="value">1024</code></li>
+<li>submit your plan for examination  </li>
+<li>publish the examiner’s recommendations and reasons </li>
+<li>
+<p>publish your adopted local plan 
+ For example:</p>
+</li>
+<li>
+<p><code class="value">1024</code></p>
+</li>
 <li><code class="value">24852</code></li>
 </ul>
 <h3 id="recommended-fields">Recommended fields</h3>
@@ -519,20 +527,21 @@ For a joint waste plan, enter the list of Waste Planning Authority references an
 <li><code class="value">NLWA;GMCA</code></li>
 </ul>
 <h3 id="entry-date">entry-date</h3>
-<p>Enter the date this data was created or modified.</p>
+<p>Enter the date you created or modified the data.</p>
 <h3 id="optional-fields">Optional fields</h3>
 <p>Your development plan data may also contain the following fields:</p>
 <ul>
 <li><code>notes</code></li>
 </ul>
 <h3 id="notes">notes</h3>
-<p>You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:</p>
+<p>You may provide notes on how you made this data to help users differentiate the plan from others with a similar name.
+ For example:</p>
 <ul>
 <li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
 </ul>
 <h2 id="development-plan-timetable-dataset">Development plan timetable dataset</h2>
-<p>Record the milestones and other events in the timetable when producing your development plan.
-Your timetable must include a precise <code>committed-date</code> against each entry.
+<p>Record the key events in the timetable when producing your plan, these are sometimes also called &#39;milestones&#39;.</p>
+<p>Your timetable must include a precise <code>committed-date</code> against each entry.
 Update the entry to include the actual date in the <code>start-date</code> field when the event takes place.</p>
 <p>For local plans, minerals plans, and waste plans 
 your timetable must include an entry with one of the following <code>development-plan-event</code> field values where applicable:</p>
@@ -548,11 +557,7 @@ your timetable must include an entry with one of the following <code>development
 <li><code>proposed-plan-consultation-start</code></li>
 <li><code>proposed-plan-consultation-end</code></li>
 <li><code>gateway-3-advice-sought</code></li>
-<li><code>gateway-3-advice-published</code></li>
-<li><code>gateway-3-further-advice-sought</code></li>
-<li><code>gateway-3-repeat-advice-published</code></li>
 <li><code>examination-submitted</code></li>
-<li><code>examination-recommendations-published</code></li>
 <li><code>adopted</code></li>
 </ul>
 <p>For supplementary plans 
@@ -564,9 +569,10 @@ your timetable must include an entry with one of the following <code>development
 <li><code>examination-submitted</code></li>
 <li><code>adopted</code></li>
 </ul>
-<p>For any plan 
-your timetable may include an entry with one of the following <code>development-plan-event</code> field values where applicable:</p>
+<p>Your development plan timetable must also include rows with dates if any of the following events apply:</p>
 <ul>
+<li><code>gateway-3-repeat-advice-published</code></li>
+<li><code>examination-recommendations-published</code></li>
 <li><code>main-modification-consultation-start</code></li>
 <li><code>main-modification-consultation-end</code></li>
 <li><code>examination-pause-start</code></li>
@@ -575,6 +581,11 @@ your timetable may include an entry with one of the following <code>development-
 <li><code>additional-consultation-end</code></li>
 <li><code>withdrawn</code></li>
 <li><code>revoked</code></li>
+</ul>
+<p>If you repeat Gateway 3, you must include these events in your timetable:</p>
+<ul>
+<li><code>gateway-3-further-advice-sought</code></li>
+<li><code>gateway-3-advice-published</code></li>
 </ul>
 <h3 id="mandatory-fields_1">Mandatory fields</h3>
 <p>Your development plan timetable data must contain the following fields:</p>
@@ -586,8 +597,7 @@ your timetable may include an entry with one of the following <code>development-
 <li><code>start-date</code></li>
 </ul>
 <h3 id="reference_1">reference</h3>
-<p>Give each event a reference which is unique for the event within the dataset.
-Where a timetable has more than one event of the same type, you can add a date to make them unique.
+<p>Give each event a unique reference.
  For example:</p>
 <ul>
 <li><code class="value">LP1-public-consultation</code></li>
@@ -609,7 +619,7 @@ Where a timetable has more than one event of the same type, you can add a date t
 <li><code class="value">adopted</code></li>
 </ul>
 <h3 id="committed-date">committed-date</h3>
-<p>Enter the date by which this event will happen.</p>
+<p>Enter the date when this event will happen.</p>
 <h3 id="start-date">start-date</h3>
 <p>Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.</p>
 <h3 id="recommended-fields_1">Recommended fields</h3>
@@ -618,14 +628,14 @@ Where a timetable has more than one event of the same type, you can add a date t
 <li><code>entry-date</code></li>
 </ul>
 <h3 id="entry-date_1">entry-date</h3>
-<p>Enter the date this data was created or modified.</p>
+<p>Enter the date you created or modified the data.</p>
 <h3 id="optional-fields_1">Optional fields</h3>
 <p>Your development plan timetable data may also contain the following fields:</p>
 <ul>
 <li><code>notes</code></li>
 </ul>
 <h3 id="notes_1">notes</h3>
-<p>Enter any notes or commentary which helps you or others understand how this data was made, or how it may be interpreted.</p>
+<p>Enter any notes or commentary which helps to understand this data.</p>
 <h2 id="check-your-data">Check your data</h2>
 <p>Use the <a href="https://provide.planning.data.gov.uk">check and provide service</a> to review your data before you publish it. 
 The service will show you how the data will appear on <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> 
@@ -654,18 +664,18 @@ This is usually one of your existing planning policy pages on your official <cod
 <p>It is important that the source webpage links to the endpoint documentation webpage to 
 help users trust the authenticity of the data.</p>
 <h2 id="tell-us-about-your-data">Tell us about your data</h2>
-<p>Once you have published the data, tell us about it so we can index and quickly make it available 
-nationally on <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>.</p>
-<p>Use the <a href="https://provide.planning.data.gov.uk/">check and provide service</a> to tell us where it is. </p>
-<p>You will need to provide for each dataset:</p>
+<p>Once you have published the data, 
+use the <a href="https://provide.planning.data.gov.uk/">check and provide service</a> to tell us where it is. 
+This is so we can index the data and quickly make it available nationally on planning.data.gov.uk. </p>
+<p>For each dataset, you will need to provide the: </p>
 <ul>
-<li>the <strong>source webpage</strong> URL where the information in the data is presented on your website</li>
-<li>the <strong>endpoint</strong> URL from which the data can be collected</li>
+<li><strong>source webpage URL</strong> where the information in the data is presented on your website </li>
+<li><strong>endpoint URL</strong> where you can collect the data </li>
 </ul>
 <p>The service also asks for your name and email address as a point of contact in case of any issues.</p>
 <h2 id="keep-your-data-up-to-date">Keep your data up-to-date</h2>
-<p>Continue to improve your data, and act on the feedback from <a href="https://provide.planning.data.gov.uk">the service</a> 
-to ensure your data meets the specification.</p>
+<p>Continue to improve your data and act on <a href="https://provide.planning.data.gov.uk">the service feedback</a> 
+to make sure that your data meets the specification.</p>
 <p>You also need to update and republish your data whenever there's a change to your development plans information.</p>
 <p>We look for changes to the data at all of the endpoint URLs we know about every night,
 so we can quickly update <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>.</p>
@@ -673,13 +683,12 @@ so we can quickly update <a href="https://planning.data.gov.uk">planning.data.go
 If you create a new endpoint you need to <a href="#tell-us-about-your-data">tell us about your data</a> again.</p>
 <h2 id="contact-us">Contact us</h2>
 <div class="call-to-action">
-<p>If you need any help at any stage of the process,
-let us know by emailing <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#103;&#105;&#116;&#97;&#108;&#108;&#97;&#110;&#100;&#64;&#99;&#111;&#109;&#109;&#117;&#110;&#105;&#116;&#105;&#101;&#115;&#46;&#103;&#111;&#118;&#46;&#117;&#107;">&#100;&#105;&#103;&#105;&#116;&#97;&#108;&#108;&#97;&#110;&#100;&#64;&#99;&#111;&#109;&#109;&#117;&#110;&#105;&#116;&#105;&#101;&#115;&#46;&#103;&#111;&#118;&#46;&#117;&#107;</a> and a member of our team will be in touch.</p>
+<p>Email us at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#100;&#105;&#103;&#105;&#116;&#97;&#108;&#108;&#97;&#110;&#100;&#64;&#99;&#111;&#109;&#109;&#117;&#110;&#105;&#116;&#105;&#101;&#115;&#46;&#103;&#111;&#118;&#46;&#117;&#107;">&#100;&#105;&#103;&#105;&#116;&#97;&#108;&#108;&#97;&#110;&#100;&#64;&#99;&#111;&#109;&#109;&#117;&#110;&#105;&#116;&#105;&#101;&#115;&#46;&#103;&#111;&#118;&#46;&#117;&#107;</a> to get help.</p>
 </div>
 
-<p>You can participate in
-<a href="https://design.planning.data.gov.uk/consideration/development-plans-and-timetables">improving the design of this data</a>,
-and help ensure planning data meets your needs at <a href="https://design.planning.data.gov.uk">design.planning.data.gov.uk</a>. </p>
+<p>You can help
+<a href="https://design.planning.data.gov.uk/consideration/development-plans-and-timetables">improve the design of this and other planning data</a>
+at <a href="https://design.planning.data.gov.uk">design.planning.data.gov.uk</a>. </p>
 <h2 id="technical-specifications">Technical specifications</h2>
 
       
