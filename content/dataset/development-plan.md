@@ -115,8 +115,14 @@ fields:
 - field: required-housing
   description: minimum number of homes that a plan seeks to provide during the plan period
   guidance: |
-        Enter the minimum number of homes that the plan seeks to provide
-        during the plan period.
+        Enter the minimum number of homes that the plan seeks to provide during the plan period.  
+
+        You must provide your required-housing when you launch your consultation on your proposed local plan.  
+        You must update your required-housing when you: 
+
+        * submit your plan for examination  
+        * publish the examiner’s recommendations and reasons 
+        * publish your adopted local plan 
   examples:
     - value: 1024
     - value: 24852
