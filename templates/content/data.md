@@ -44,8 +44,8 @@ Follow this guidance to find out more about the fields and format of the data yo
 
 ### Field names
 
-You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
-meaning the following examples are all valid ways of naming the `start-date` field in your data:
+You can use a field name with uppercase, lowercase and any punctuation characters. 
+For example, you can use any of the following names for the `start-date` field in your data
 
 * `StartDate`
 * `Start Date`
