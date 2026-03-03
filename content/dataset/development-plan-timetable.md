@@ -67,7 +67,7 @@ fields:
      Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
 github-discussion: 26
 guidance: |
-    Record the milestones and other events in the timetable when producing your development plan.
+    Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'.
     Your timetable must include a precise `committed-date` against each entry.
     Update the entry to include the actual date in the `start-date` field when the event takes place.
 
