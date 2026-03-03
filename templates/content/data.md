@@ -26,12 +26,12 @@ You may also provide the following dataset{{ "s" if ds_o|length > 1  else "" }}:
 {% endfor %}
 {% endif %}
 
-{{ "Each" if ds|length > 1  else "The" }} dataset needs to be provided
+You need to provide {{ "each" if ds|length > 1  else "the" }} dataset 
 in a {{ "separate" if ds|length > 1  else "" }} CSV file 
-following the government 
+and follow the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 {% if specification["is-geospatial"] %}
-Where your dataset contains geospatial fields, you may use one of the following formats: 
+If your dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
