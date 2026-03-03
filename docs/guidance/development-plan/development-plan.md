@@ -21,11 +21,15 @@ attachments:
 
 ^Follow this guidance when providing your development plan data.^
 
-<p>Local planning authorities (LPAs) must create, publish and keep a timetable up to date for a 
-local plan, minerals plan, waste plan, or supplementary plan
-in accordance with the <a href="#TBD">The Town and Country Planning (Local Planning) (England) Regulations 2026</a></p>
-<p>The timetable must be prepared following the guidance to <a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">create and update a local plan guidance</a>
-and published as data as described on this page, in the format defined by the <a href="#technical-specifications">technical specifications</a>.</p>
+<p>Local planning authorities (LPAs) must create, publish and keep a plan timetable up to date.
+This guidance applies to the following plans that you created or updated using the 
+<a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">new plan-making system</a>:</p>
+<ul>
+<li>local plans</li>
+<li>minerals and waste plans</li>
+<li>supplementary plans</li>
+</ul>
+<p>All authorities must comply with the approved data standards set out in this guidance.</p>
 
 Providing planning data means making it available publicly to a standard so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
