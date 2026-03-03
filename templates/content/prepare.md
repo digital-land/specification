@@ -16,7 +16,7 @@ then edit it using a spreadsheet or other CSV editors.
 
 You can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
-and modify it using QGIS or other GIS tools.
+then modify it using QGIS or other GIS tools.
 
 You must provide data for the mandatory fields identified.
 {% if iterate_and_improve %}
