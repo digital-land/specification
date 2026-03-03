@@ -26,6 +26,7 @@ fields:
     For a joint minerals plan, enter the list of Mineral Planning Authority references and separate each of them with a semi-colon.
   examples:
     - value: 'GMCA'
+    - value: 'NLWA;GMCA'
 - field: name
 - field: notes
 - field: organisation

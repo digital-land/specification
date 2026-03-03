@@ -118,9 +118,8 @@ fields:
         Enter the minimum number of homes that the plan seeks to provide
         during the plan period.
   examples:
-    - example: durham-local-plan
-      entry-number: 1
-      value: 24852
+    - value: 1024
+    - value: 24852
 - field: start-date
   description: date when the plan was officially adopted
   guidance: |
