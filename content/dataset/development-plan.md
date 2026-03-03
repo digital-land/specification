@@ -14,7 +14,7 @@ fields:
       The `start-date` field indicates when a plan came into force, that is adopted.
 - field: dataset
   guidance: |
-    Enter one of the following values to indicate the type of development plan:
+    Enter one of the following values to show the type of development plan:
 
     * `local-plan`
     * `supplementary-plan`
@@ -59,10 +59,10 @@ fields:
 - field: local-planning-authorities
   description: local planning authority areas covered by the local plan
   guidance: |
-    Enter the reference (the GSS code) for the 
+    Enter the GSS code reference (the GSS code) for the 
     [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-    area covered by this local or supplementary plan.
-    For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
+    area that this local or supplementary plan covers.
+    For a joint local plan, enter the list of Local Planning Authority references, and separate each separated of them by with a semi-colon ';' character. For example:
   examples:
     - value: 'E60000001'
     - value: 'E60000132;E60000133;E60000135;E60000136'
