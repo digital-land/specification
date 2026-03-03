@@ -1097,7 +1097,7 @@ development-plan-type,reference,,,,,,,,
 development-plan-type,start-date,,,,,,,,
 development-plan,adopted-date,,,"The `start-date` field indicates when a plan came into force, that is adopted.
 ",,This field has been deprecated. The `start-date` field records when a plan was adopted.,,,2025-11-01
-development-plan,dataset,dataset,,"Enter one of the following values to indicate the type of development plan:
+development-plan,dataset,dataset,,"Enter one of the following values to show the type of development plan:
 
 * `local-plan`
 * `supplementary-plan`
@@ -1123,10 +1123,10 @@ development-plan,local-plan-process,local-plan-process,examination process under
 * `2012` for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements
 * `2026` for plans prepared under *new Local Planning Regulations (TBD)*
 ",,,,,
-development-plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the reference (the GSS code) for the 
+development-plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the GSS code reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-area covered by this local or supplementary plan.
-For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon ';' character.
+area that this local or supplementary plan covers.
+For a joint local plan, enter the list of Local Planning Authority references, and separate each separated of them by with a semi-colon ';' character. For example:
 ",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
 development-plan,name,,local plan name,Use the title of the local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
 development-plan,notes,,,"You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,

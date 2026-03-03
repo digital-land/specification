@@ -61,25 +61,20 @@ This might include:
 * information found on your website
 * open data from other public sources
 
-We treat the data you provide as being more authoritative
-than data we have collected from you previously, or found elsewhere.
+We treat the data you provide as being more authoritative than data 
+we have previously collected from you previously or found that we find elsewhere.
 
 You can download tabular data we have for your organisation as a CSV file
 from the [check and provide service](https://provide.planning.data.gov.uk)
-and edit it using a spreadsheet or other CSV editors.
+then edit it using a spreadsheet or other CSV editors.
 
-Similarly, you can download geospatial data we have for your organisation as
+You can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
 and modify it using QGIS or other GIS tools.
 
-You must provide data containing the mandatory fields identified here where 
-required by law.
-Otherwise your data does not need to be complete or perfect to start with.
-For many purposes having some data is better than no data,
-so start by providing the best development plans information you have,
-and continue to iterate and improve it over time.
+You must provide data for the mandatory fields identified.
 
-### Files
+### Datasets
 
 
 For development plans you need to provide 2 datasets:
@@ -177,7 +172,7 @@ Use the title of the local plan document. For example:
 
 ### dataset
 
-Enter one of the following values to indicate the type of development plan:
+Enter one of the following values to show the type of development plan:
 
 * `local-plan`
 * `supplementary-plan`
@@ -246,10 +241,10 @@ Your development plan data should also contain the following fields, where appli
 
 ### local-planning-authorities
 
-Enter the reference (the GSS code) for the 
+Enter the GSS code reference (the GSS code) for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
-area covered by this local or supplementary plan.
-For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
+area that this local or supplementary plan covers.
+For a joint local plan, enter the list of Local Planning Authority references, and separate each separated of them by with a semi-colon &#39;;&#39; character. For example:
  For example:
 
 * <code class="value">E60000001</code>
