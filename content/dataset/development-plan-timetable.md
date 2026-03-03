@@ -56,8 +56,7 @@ fields:
 - field: prefix
 - field: reference
   guidance: |
-     Give each event a reference which is unique for the event within the dataset.
-     Where a timetable has more than one event of the same type, you can add a date to make them unique.
+     Give each event a unique reference.
   examples:
      - value: LP1-public-consultation
      - value: LP1-public-consultation-2025
