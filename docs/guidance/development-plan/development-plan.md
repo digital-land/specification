@@ -70,7 +70,7 @@ then edit it using a spreadsheet or other CSV editors.
 
 You can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
-and modify it using QGIS or other GIS tools.
+then modify it using QGIS or other GIS tools.
 
 You must provide data for the mandatory fields identified.
 
@@ -86,20 +86,18 @@ For development plans you need to provide 2 datasets:
 
 
 
-Each dataset needs to be provided
+You need to provide each dataset 
 in a separate CSV file 
-following the government 
+and follow the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 
 
-The fields and format of the data you need to
-prepare are documented below, and formally defined in the
-[technical specifications](#technical-specifications) attached to this page.
+Follow this guidance to find out more about the fields and format of the data you need to prepare.
 
 ### Field names
 
-You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
-meaning the following examples are all valid ways of naming the `start-date` field in your data:
+You can use a field name with uppercase, lowercase and any punctuation characters. 
+For example, you can use any of the following names for the `start-date` field in your data
 
 * `StartDate`
 * `Start Date`
@@ -108,20 +106,24 @@ meaning the following examples are all valid ways of naming the `start-date` fie
 
 ### Reference values
 
-Each dataset has a `reference` field.
-Reference values are important to help people find and link to the data.
-Where you don’t have a reference for an item, you will need to create one that is:
+Each dataset has a `reference` field.
+Reference values are important to help people find and link to your data.
+If you do not have a reference value for an item, you will need to create one that: 
 
-* unique within your data
-* persistent — it doesn’t change when the data is updated
+* is unique within your data 
+* does not change when the data is updated 
 
 A good reference is something you already use.
-Where these aren't unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.
+If your reference is not unique, you can make them unique by adding the year or full date.
+Great references are:  
+
+* short  
+* easy to read  
+* easy to pronounce and remember
 
 ### Date values
 
-All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+All dates must be in the format `YYYY-MM-DD` as set out in[formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
 
@@ -185,6 +187,7 @@ Enter one of the following values to show the type of development plan:
 Enter the start of the plan period. This is usually just a year in `YYYY` format. For example:
 
 * <code class="value">2026</code>
+* <code class="value">2027</code>
 
 
 ### period-end-date
@@ -192,15 +195,20 @@ Enter the start of the plan period. This is usually just a year in `YYYY` format
 Enter the end of the plan period. This is usually just a year in `YYYY` format. For example:
 
 * <code class="value">2038</code>
+* <code class="value">2040</code>
 
 
 ### documentation-url
 
 The URL of the webpage on your website for the local plan
 
-Each entry in the local plan dataset should link to a documentation webpage that includes the information 
-in the entry as well as links to where this data may be downloaded, and any other supporting documents.
-Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
+Each entry in the local plan dataset should link to a documentation webpage that includes:
+
+* the information in the entry
+* links to where you can download the data
+* and any other supporting documents.
+
+If there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
  For example:
 
@@ -211,7 +219,7 @@ to make the URL for each plan unique.
 
 ### document-url
 
-Enter the URL for the main or core plan document. This is usually a PDF file.
+Enter the URL for the main or core plan document, which is usually a PDF file.
  For example:
 
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
@@ -223,12 +231,13 @@ Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
  For example:
 
+* <code class="value">1024</code>
 * <code class="value">24852</code>
 
 
 ### Recommended fields
 
-Your development plan data should also contain the following fields, where applicable:
+Your development plan data should also contain the following fields if they apply:
 
 
 
@@ -256,10 +265,11 @@ For a joint local plan, enter the list of Local Planning Authority references, a
 Enter the reference for the
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
 area covered by this minerals plan.
-For a joint minerals plan, enter the list of Mineral Planning Authority references, each separated by semi-colon &#39;;&#39; character.
+For a joint minerals plan, enter the list of Mineral Planning Authority references and separate each of them with a semi-colon.
  For example:
 
 * <code class="value">GMCA</code>
+* <code class="value">NLWA;GMCA</code>
 
 
 ### waste-planning-authorities
@@ -267,10 +277,11 @@ For a joint minerals plan, enter the list of Mineral Planning Authority referenc
 Enter the reference for the
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
 area covered by this waste plan.
-For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon &#39;;&#39; character.
+For a joint waste plan, enter the list of Waste Planning Authority references and separate each of them with a semi-colon.
  For example:
 
 * <code class="value">NLWA</code>
+* <code class="value">NLWA;GMCA</code>
 
 
 ### entry-date
@@ -402,7 +413,7 @@ Enter the date when the timetable event occured. Leave this field blank when the
 
 ### Recommended fields
 
-Your development plan timetable data should also contain the following fields, where applicable:
+Your development plan timetable data should also contain the following fields if they apply:
 
 
 

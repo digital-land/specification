@@ -72,7 +72,7 @@ then edit it using a spreadsheet or other CSV editors.
 
 You can download geospatial data we have for your organisation as
 CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
-and modify it using QGIS or other GIS tools.
+then modify it using QGIS or other GIS tools.
 
 You must provide data for the mandatory fields identified.
 
@@ -89,12 +89,12 @@ For Listed building outlines you may provide the following dataset:
 
 
 
-The dataset needs to be provided
+You need to provide the dataset 
 in a  CSV file 
-following the government 
+and follow the government 
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 
-Where your dataset contains geospatial fields, you may use one of the following formats: 
+If your dataset contains geospatial fields, you may use one of the following formats: 
 
 * CSV
 * GeoJSON
@@ -103,14 +103,12 @@ Where your dataset contains geospatial fields, you may use one of the following 
 * Geopackage
 
 
-The fields and format of the data you need to
-prepare are documented below, and formally defined in the
-[technical specifications](#technical-specifications) attached to this page.
+Follow this guidance to find out more about the fields and format of the data you need to prepare.
 
 ### Field names
 
-You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
-meaning the following examples are all valid ways of naming the `start-date` field in your data:
+You can use a field name with uppercase, lowercase and any punctuation characters. 
+For example, you can use any of the following names for the `start-date` field in your data
 
 * `StartDate`
 * `Start Date`
@@ -119,20 +117,24 @@ meaning the following examples are all valid ways of naming the `start-date` fie
 
 ### Reference values
 
-Each dataset has a `reference` field.
-Reference values are important to help people find and link to the data.
-Where you don’t have a reference for an item, you will need to create one that is:
+Each dataset has a `reference` field.
+Reference values are important to help people find and link to your data.
+If you do not have a reference value for an item, you will need to create one that: 
 
-* unique within your data
-* persistent — it doesn’t change when the data is updated
+* is unique within your data 
+* does not change when the data is updated 
 
 A good reference is something you already use.
-Where these aren't unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.
+If your reference is not unique, you can make them unique by adding the year or full date.
+Great references are:  
+
+* short  
+* easy to read  
+* easy to pronounce and remember
 
 ### Date values
 
-All dates must be in the format `YYYY-MM-DD`, following the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+All dates must be in the format `YYYY-MM-DD` as set out in[formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
 Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
@@ -179,7 +181,7 @@ Your Listed building outline data must contain the following fields:
 
 ### Recommended fields
 
-Your Listed building outline data should also contain the following fields, where applicable:
+Your Listed building outline data should also contain the following fields if they apply:
 
 
 

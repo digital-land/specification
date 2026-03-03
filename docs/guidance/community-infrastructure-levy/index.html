@@ -356,23 +356,21 @@ from the <a href="https://provide.planning.data.gov.uk">check and provide servic
 then edit it using a spreadsheet or other CSV editors.</p>
 <p>You can download geospatial data we have for your organisation as
 CSV or GeoJSON from <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
-and modify it using QGIS or other GIS tools.</p>
+then modify it using QGIS or other GIS tools.</p>
 <p>You must provide data for the mandatory fields identified.</p>
 <h3 id="datasets">Datasets</h3>
 <p>For Community infrastructure levy you may provide the following dataset:</p>
 <ul>
 <li><a href="#Community-infrastructure-levy-schedule-dataset">Community infrastructure levy schedule</a></li>
 </ul>
-<p>The dataset needs to be provided
+<p>You need to provide the dataset 
 in a  CSV file 
-following the government 
+and follow the government 
 <a href="https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard">tabular data standard</a>.</p>
-<p>The fields and format of the data you need to
-prepare are documented below, and formally defined in the
-<a href="#technical-specifications">technical specifications</a> attached to this page.</p>
+<p>Follow this guidance to find out more about the fields and format of the data you need to prepare.</p>
 <h3 id="field-names">Field names</h3>
-<p>You can use uppercase or lowercase names for your fields, and any punctuation characters are ignored,
-meaning the following examples are all valid ways of naming the <code>start-date</code> field in your data:</p>
+<p>You can use a field name with uppercase, lowercase and any punctuation characters. 
+For example, you can use any of the following names for the <code>start-date</code> field in your data</p>
 <ul>
 <li><code>StartDate</code></li>
 <li><code>Start Date</code></li>
@@ -380,18 +378,23 @@ meaning the following examples are all valid ways of naming the <code>start-date
 <li><code>start.date</code></li>
 </ul>
 <h3 id="reference-values">Reference values</h3>
-<p>Each dataset has a <code>reference</code> field.
-Reference values are important to help people find and link to the data.
-Where you don’t have a reference for an item, you will need to create one that is:</p>
+<p>Each dataset has a <code>reference</code> field.
+Reference values are important to help people find and link to your data.
+If you do not have a reference value for an item, you will need to create one that: </p>
 <ul>
-<li>unique within your data</li>
-<li>persistent — it doesn’t change when the data is updated</li>
+<li>is unique within your data </li>
+<li>does not change when the data is updated </li>
 </ul>
 <p>A good reference is something you already use.
-Where these aren't unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.</p>
+If your reference is not unique, you can make them unique by adding the year or full date.
+Great references are:  </p>
+<ul>
+<li>short  </li>
+<li>easy to read  </li>
+<li>easy to pronounce and remember</li>
+</ul>
 <h3 id="date-values">Date values</h3>
-<p>All dates must be in the format <code>YYYY-MM-DD</code>, following the guidance for <a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">formatting dates and times in data</a>.</p>
+<p>All dates must be in the format <code>YYYY-MM-DD</code> as set out in<a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">formatting dates and times in data</a>.</p>
 <p>Where you don't know the precise date you can enter just the month <code>YYYY-MM</code> or even just the year <code>YYYY</code>.
 The platform will default a <code>start-date</code> to the first of the month, or the first of January, and an <code>end-date</code> to the last day of the month, or the last day of December. For example:</p>
 <ul>
@@ -403,7 +406,7 @@ The platform will default a <code>start-date</code> to the first of the month, o
 <h3 id="mandatory-fields">Mandatory fields</h3>
 <p>Your Community infrastructure levy schedule data must contain the following fields:</p>
 <h3 id="recommended-fields">Recommended fields</h3>
-<p>Your Community infrastructure levy schedule data should also contain the following fields, where applicable:</p>
+<p>Your Community infrastructure levy schedule data should also contain the following fields if they apply:</p>
 <h3 id="optional-fields">Optional fields</h3>
 <p>Your Community infrastructure levy schedule data may also contain the following fields:</p>
 <h2 id="check-your-data">Check your data</h2>
