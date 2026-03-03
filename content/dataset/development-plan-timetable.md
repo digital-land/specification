@@ -68,6 +68,7 @@ fields:
 github-discussion: 26
 guidance: |
     Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'.
+
     Your timetable must include a precise `committed-date` against each entry.
     Update the entry to include the actual date in the `start-date` field when the event takes place.
 
@@ -85,11 +86,7 @@ guidance: |
     * `proposed-plan-consultation-start`
     * `proposed-plan-consultation-end`
     * `gateway-3-advice-sought`
-    * `gateway-3-advice-published`
-    * `gateway-3-further-advice-sought`
-    * `gateway-3-repeat-advice-published`
     * `examination-submitted`
-    * `examination-recommendations-published`
     * `adopted`
 
     For supplementary plans 
@@ -101,9 +98,10 @@ guidance: |
     * `examination-submitted`
     * `adopted`
     
-    For any plan 
-    your timetable may include an entry with one of the following `development-plan-event` field values where applicable:
+    Your development plan timetable must also include rows with dates if any of the following events apply:
 
+    * `gateway-3-repeat-advice-published`
+    * `examination-recommendations-published`
     * `main-modification-consultation-start`
     * `main-modification-consultation-end`
     * `examination-pause-start`
@@ -112,6 +110,13 @@ guidance: |
     * `additional-consultation-end`
     * `withdrawn`
     * `revoked`
+
+    If you repeat Gateway 3, you must include these events in your timetable:
+
+    * `gateway-3-further-advice-sought`
+    * `gateway-3-advice-published`
+
+
 key-field: ''
 licence: ogl3
 name: development plan timetable
