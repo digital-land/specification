@@ -54,16 +54,20 @@ For example, you can use any of the following names for the `start-date` fie
 
 ### Reference values
 
-Each dataset has a `reference` field.
-Reference values are important to help people find and link to the data.
-Where you don’t have a reference for an item, you will need to create one that is:
+Each dataset has a `reference` field.
+Reference values are important to help people find and link to your data.
+If you do not have a reference value for an item, you will need to create one that: 
 
-* unique within your data
-* persistent — it doesn’t change when the data is updated
+* is unique within your data 
+* does not change when the data is updated 
 
 A good reference is something you already use.
-Where these aren't unique, you make them unique by appending the year, or even the full date.
-Great references are short, easy to read, to pronounce and remember.
+If your reference is not unique, you can make them unique by adding the year or full date.
+Great references are:  
+
+* short  
+* easy to read  
+* easy to pronounce and remember
 
 ### Date values
 
