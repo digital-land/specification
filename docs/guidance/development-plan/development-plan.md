@@ -275,7 +275,7 @@ For a joint minerals plan, enter the list of Mineral Planning Authority referenc
  For example:
 
 * <code class="value">GMCA</code>
-* <code class="value">NLWA;GMCA</code>
+* <code class="value">BUC;MIK</code>
 
 
 ### waste-planning-authorities
@@ -287,7 +287,7 @@ For a joint waste plan, enter the list of Waste Planning Authority references an
  For example:
 
 * <code class="value">NLWA</code>
-* <code class="value">NLWA;GMCA</code>
+* <code class="value">BUC;MIK</code>
 
 
 ### entry-date
@@ -509,7 +509,7 @@ If you create a new endpoint you need to [tell us about your data](#tell-us-abou
 ## Contact us
 
 $CTA
-Email us at <digitalland@communities.gov.uk> to get help.
+Email <digitalland@communities.gov.uk> to get help.
 $CTA
 
 You can help

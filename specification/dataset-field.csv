@@ -2423,7 +2423,7 @@ minerals-plan,mineral-planning-authorities,,mineral planning authority areas cov
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
 area covered by this minerals plan.
 For a joint minerals plan, enter the list of Mineral Planning Authority references and separate each of them with a semi-colon.
-",,,"[{""value"": ""GMCA""}, {""value"": ""NLWA;GMCA""}]",,
+",,,"[{""value"": ""GMCA""}, {""value"": ""BUC;MIK""}]",,
 minerals-plan,name,,,,,,,,
 minerals-plan,notes,,,,,,,,
 minerals-plan,organisation,organisation,,,,,,,
@@ -3693,7 +3693,7 @@ waste-plan,waste-planning-authorities,,waste planning authority areas covered by
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
 area covered by this waste plan.
 For a joint waste plan, enter the list of Waste Planning Authority references and separate each of them with a semi-colon.
-",,,"[{""value"": ""NLWA""}, {""value"": ""NLWA;GMCA""}]",,
+",,,"[{""value"": ""NLWA""}, {""value"": ""BUC;MIK""}]",,
 waste-plan,name,,,,,,,,
 waste-plan,notes,,,,,,,,
 waste-plan,organisation,organisation,,,,,,,

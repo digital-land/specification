@@ -326,7 +326,7 @@ If you create a new endpoint you need to [tell us about your data](#tell-us-abou
 ## Contact us
 
 $CTA
-Email us at <digitalland@communities.gov.uk> to get help.
+Email <digitalland@communities.gov.uk> to get help.
 $CTA
 
 You can help
