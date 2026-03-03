@@ -40,9 +40,7 @@ If your dataset contains geospatial fields, you may use one of the following for
 * Geopackage
 {% endif %}
 
-The fields and format of the data you need to
-prepare are documented below, and formally defined in the
-[technical specifications](#technical-specifications) attached to this page.
+Follow this guidance to find out more about the fields and format of the data you need to prepare.
 
 ### Field names
 
