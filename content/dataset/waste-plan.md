@@ -23,9 +23,10 @@ fields:
     Enter the reference for the
     [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
     area covered by this waste plan.
-    For a joint waste plan, enter the list of Waste Planning Authority references, each separated by semi-colon ';' character.
+    For a joint waste plan, enter the list of Waste Planning Authority references and separate each of them with a semi-colon.
   examples:
     - value: 'NLWA'
+    - value: 'NLWA;GMCA'
 - field: name
 - field: notes
 - field: organisation
