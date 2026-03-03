@@ -33,7 +33,7 @@ This guidance sets out a data format and approach that you can follow in order t
 are supporting new development and local infrastructure.
 We have designed the data format to cause as little disruption as possible to existing processes.</p>
 
-Providing planning data means making it available publicly to a standard so that
+Providing planning data means making it available publicly to a standard so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it

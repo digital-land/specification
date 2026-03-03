@@ -24,7 +24,7 @@ attachments:
 <p><a href="http://www.legislation.gov.uk/uksi/2017/403/contents/made">The Town and Country Planning (Brownfield Land Register) Regulations 2017</a>
 require local planning authorities to maintain a register of their brownfield sites that are suitable for housing.</p>
 
-Providing planning data means making it available publicly to a standard so that
+Providing planning data means making it available publicly to a standard so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it
