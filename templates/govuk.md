@@ -41,7 +41,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 ## Contact us
 
 $CTA
-Email us at <digitalland@communities.gov.uk> to get help.
+Email <digitalland@communities.gov.uk> to get help.
 $CTA
 
 You can help
