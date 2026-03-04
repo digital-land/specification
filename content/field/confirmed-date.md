@@ -1,9 +1,9 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'The date a tree preservation order is confirmed and becomes a fully fledged tree preservation order.'
+description: 'The date a order is confirmed.'
 end-date: ''
-entry-date: '2023-09-08'
+entry-date: '2026-03-04'
 field: confirmed-date
 guidance: ''
 hint: ''
