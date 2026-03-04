@@ -15,6 +15,7 @@ erDiagram
         url documentation-url
         url document-url
         string required-housing
+        string document-count
         date entry-date
         string notes
     }
@@ -23,7 +24,7 @@ erDiagram
         ref development-plan
         string development-plan-event
         date committed-date
-        date start-date
+        date actual-date
         date entry-date
         string notes
     }

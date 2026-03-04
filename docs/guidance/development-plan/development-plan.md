@@ -150,6 +150,7 @@ Your development plan data must contain the following fields:
 * `documentation-url`
 * `document-url`
 * `required-housing`
+* `entry-date`
 
 
 
@@ -241,6 +242,10 @@ You must update your required-housing when you:
 * <code class="value">24852</code>
 
 
+### entry-date
+
+Enter the date you created or modified the data.
+
 ### Recommended fields
 
 Your development plan data should also contain the following fields if they apply:
@@ -250,7 +255,7 @@ Your development plan data should also contain the following fields if they appl
 * `local-planning-authorities`
 * `mineral-planning-authorities`
 * `waste-planning-authorities`
-* `entry-date`
+* `document-count`
 
 
 
@@ -290,9 +295,10 @@ For a joint waste plan, enter the list of Waste Planning Authority references an
 * <code class="value">BUC;MIK</code>
 
 
-### entry-date
+### document-count
 
-Enter the date you created or modified the data.
+Enter the number of documents which collectively form the plan. This field must be provided for a minerals and waste plan.
+
 
 ### Optional fields
 
@@ -378,7 +384,7 @@ Your development plan timetable data must contain the following fields:
 * `development-plan`
 * `development-plan-event`
 * `committed-date`
-* `start-date`
+* `entry-date`
 
 
 
@@ -415,10 +421,9 @@ Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/develo
 Enter the date when this event will happen.
 
 
-### start-date
+### entry-date
 
-Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
-
+Enter the date you created or modified the data.
 
 ### Recommended fields
 
@@ -426,13 +431,14 @@ Your development plan timetable data should also contain the following fields if
 
 
 
-* `entry-date`
+* `actual-date`
 
 
 
-### entry-date
+### actual-date
 
-Enter the date you created or modified the data.
+Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
+
 
 ### Optional fields
 

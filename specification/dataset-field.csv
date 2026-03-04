@@ -1084,6 +1084,8 @@ development-plan-timetable,organisation,organisation,,,,,,,
 development-plan-timetable,prefix,prefix,,,,,,,
 development-plan-timetable,reference,,,"Give each event a unique reference.
 ",,,"[{""value"": ""LP1-public-consultation""}, {""value"": ""LP1-public-consultation-2025""}]",,
+development-plan-timetable,actual-date,,date of the timetable event,"Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
+",,,,,
 development-plan-timetable,start-date,,date of the timetable event,"Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
 ",,,,,
 development-plan-type,end-date,,,,,,,,
@@ -1102,6 +1104,8 @@ development-plan,dataset,dataset,,"Enter one of the following values to show the
 * `supplementary-plan`
 * `minerals-plan`
 * `waste-plan`
+",,,,,
+development-plan,document-count,,,"Enter the number of documents which collectively form the plan. This field must be provided for a minerals and waste plan.
 ",,,,,
 development-plan,documentation-url,,local plan documentation page,"The URL of the webpage on your website for the local plan
 
