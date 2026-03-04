@@ -20,13 +20,13 @@ fields:
 - field: mineral-planning-authorities
   description: mineral planning authority areas covered by the minerals plan
   guidance: |
-    Enter the reference for the
+    Enter the GSS code for the 
     [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
-    area covered by this minerals plan.
-    For a joint minerals plan, enter the list of Mineral Planning Authority references and separate each of them with a semi-colon.
+    area that this minerals plan covers.
+    For a joint minerals plan, enter the list of references, and separate each of them with a semi-colon.
   examples:
-    - value: 'GMCA'
-    - value: 'BUC;MIK'
+    - value: 'E47000001'
+    - value: 'E60000331;E60000225'
 - field: name
 - field: notes
 - field: organisation

@@ -20,13 +20,13 @@ fields:
 - field: waste-planning-authorities
   description: waste planning authority areas covered by the waste plan
   guidance: |
-    Enter the reference for the
+    Enter the GSS code for the 
     [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
-    area covered by this waste plan.
-    For a joint waste plan, enter the list of Waste Planning Authority references and separate each of them with a semi-colon.
+    area that this local or supplementary plan covers.
+    For a joint waste plan, enter the list of references, and separate each of them with a semi-colon.
   examples:
-    - value: 'NLWA'
-    - value: 'BUC;MIK'
+    - value: 'E47000001'
+    - value: 'E60000331;E60000225'
 - field: name
 - field: notes
 - field: organisation
