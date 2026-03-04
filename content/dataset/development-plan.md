@@ -20,6 +20,9 @@ fields:
     * `supplementary-plan`
     * `minerals-plan`
     * `waste-plan`
+- field: document-count
+  guidance: |
+      Enter the number of documents which collectively form the plan. This field must be provided for a minerals and waste plan.
 - field: documentation-url
   description: local plan documentation page
   definition: URL of the [Source documentation](#source-documentation) page

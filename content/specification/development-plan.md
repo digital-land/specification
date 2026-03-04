@@ -54,6 +54,8 @@ datasets:
                   text: 'link to the core local plan document described by this data.'
           - field: required-housing
             requirement-level: MUST
+          - field: document-count
+            requirement-level: SHOULD
           - field: entry-date
             requirement-level: SHOULD
           - field: notes
