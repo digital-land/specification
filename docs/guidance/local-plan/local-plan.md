@@ -255,26 +255,26 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 
 ### mineral-planning-authorities
 
-Enter the reference for the
+Enter the GSS code for the 
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
-area covered by this minerals plan.
-For a joint minerals plan, enter the list of Mineral Planning Authority references and separate each of them with a semi-colon.
+area that this minerals plan covers.
+For a joint minerals plan, enter the list of references, and separate each of them with a semi-colon.
  For example:
 
-* <code class="value">GMCA</code>
-* <code class="value">BUC;MIK</code>
+* <code class="value">E47000001</code>
+* <code class="value">E60000331;E60000225</code>
 
 
 ### waste-planning-authorities
 
-Enter the reference for the
+Enter the GSS code for the 
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
-area covered by this waste plan.
-For a joint waste plan, enter the list of Waste Planning Authority references and separate each of them with a semi-colon.
+area that this local or supplementary plan covers.
+For a joint waste plan, enter the list of references, and separate each of them with a semi-colon.
  For example:
 
-* <code class="value">NLWA</code>
-* <code class="value">BUC;MIK</code>
+* <code class="value">E47000001</code>
+* <code class="value">E60000331;E60000225</code>
 
 
 ### local-plan-process

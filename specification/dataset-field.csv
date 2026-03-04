@@ -1130,10 +1130,10 @@ development-plan,local-plan-process,local-plan-process,examination process under
 * `2012` for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements
 * `2026` for plans prepared under *new Local Planning Regulations (TBD)*
 ",,,,,
-development-plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the GSS code reference (the GSS code) for the 
+development-plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the GSS code for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
 area that this local or supplementary plan covers.
-For a joint local plan, enter the list of Local Planning Authority references, and separate each separated of them by with a semi-colon ';' character. For example:
+For a joint local plan, enter the list of codes, and separate each of them by with a semi-colon.
 ",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
 development-plan,name,,local plan name,Use the title of the local plan document.,,,"[{""value"": ""County Durham Plan""}, {""value"": ""South Oxfordshire Joint Local Plan""}]",,
 development-plan,notes,,,"You may provide notes on how you made this data to help users differentiate the plan from others with a similar name.
@@ -2423,11 +2423,11 @@ minerals-plan,entity,entity,,,,,,,
 minerals-plan,entry-date,,,,,,,,
 minerals-plan,local-plan-process,local-plan-process,,,,,,,
 minerals-plan,minerals-plan-boundary,minerals-plan-boundary,,,,,,,
-minerals-plan,mineral-planning-authorities,,mineral planning authority areas covered by the minerals plan,"Enter the reference for the
+minerals-plan,mineral-planning-authorities,,mineral planning authority areas covered by the minerals plan,"Enter the GSS code for the 
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
-area covered by this minerals plan.
-For a joint minerals plan, enter the list of Mineral Planning Authority references and separate each of them with a semi-colon.
-",,,"[{""value"": ""GMCA""}, {""value"": ""BUC;MIK""}]",,
+area that this minerals plan covers.
+For a joint minerals plan, enter the list of references, and separate each of them with a semi-colon.
+",,,"[{""value"": ""E47000001""}, {""value"": ""E60000331;E60000225""}]",,
 minerals-plan,name,,,,,,,,
 minerals-plan,notes,,,,,,,,
 minerals-plan,organisation,organisation,,,,,,,
@@ -3693,11 +3693,11 @@ waste-plan,entity,entity,,,,,,,
 waste-plan,entry-date,,,,,,,,
 waste-plan,local-plan-process,local-plan-process,,,,,,,
 waste-plan,waste-plan-boundary,waste-plan-boundary,,,,,,,
-waste-plan,waste-planning-authorities,,waste planning authority areas covered by the waste plan,"Enter the reference for the
+waste-plan,waste-planning-authorities,,waste planning authority areas covered by the waste plan,"Enter the GSS code for the 
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
-area covered by this waste plan.
-For a joint waste plan, enter the list of Waste Planning Authority references and separate each of them with a semi-colon.
-",,,"[{""value"": ""NLWA""}, {""value"": ""BUC;MIK""}]",,
+area that this local or supplementary plan covers.
+For a joint waste plan, enter the list of references, and separate each of them with a semi-colon.
+",,,"[{""value"": ""E47000001""}, {""value"": ""E60000331;E60000225""}]",,
 waste-plan,name,,,,,,,,
 waste-plan,notes,,,,,,,,
 waste-plan,organisation,organisation,,,,,,,
