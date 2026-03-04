@@ -73,8 +73,8 @@ datasets:
             dataset: local-plan-event
           - field: committed-date
             requirement-level: MUST
-          - field: start-date
-            requirement-level: MUST
+          - field: actual-date
+            requirement-level: SHOULD
           - field: entry-date
             requirement-level: SHOULD
           - field: notes

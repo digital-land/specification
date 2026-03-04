@@ -60,6 +60,10 @@ fields:
   examples:
      - value: LP1-public-consultation
      - value: LP1-public-consultation-2025
+- field: actual-date
+  description: date of the timetable event
+  guidance: |
+     Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
 - field: start-date
   description: date of the timetable event
   guidance: |
