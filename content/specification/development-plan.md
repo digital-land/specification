@@ -57,7 +57,7 @@ datasets:
           - field: document-count
             requirement-level: SHOULD
           - field: entry-date
-            requirement-level: SHOULD
+            requirement-level: MUST
           - field: notes
             requirement-level: MAY
     - dataset: development-plan-timetable
@@ -76,7 +76,7 @@ datasets:
           - field: actual-date
             requirement-level: SHOULD
           - field: entry-date
-            requirement-level: SHOULD
+            requirement-level: MUST
           - field: notes
             requirement-level: MAY
 ---
