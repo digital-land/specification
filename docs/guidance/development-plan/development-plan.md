@@ -29,7 +29,8 @@ This guidance applies to the following plans that you created or updated using t
 <li>minerals and waste plans</li>
 <li>supplementary plans</li>
 </ul>
-<p>All authorities must comply with the approved data standards set out in this guidance.</p>
+<p>All authorities must comply with the approved data standards set out in this guidance
+in accordance with the <a href="#TBD">The Town and Country Planning (Local Planning) (England) Regulations 2026</a></p>
 
 Providing planning data means making it available publicly to a standard so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
@@ -38,8 +39,6 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 * understand its meaning and purpose
 * assess its quality
 * trust it will be maintained
-
-[You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
 
 ## Providing your development plan data
 

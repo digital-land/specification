@@ -41,8 +41,6 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 * assess its quality
 * trust it will be maintained
 
-[You can help to design this and other data standards to ensure they your needs](https://design.planning.data.gov.uk). 
-
 ## Providing your Listed building outline data
 
 Take the following steps to provide your Listed building outline data:
