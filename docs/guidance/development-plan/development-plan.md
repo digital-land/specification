@@ -41,7 +41,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 
 ## Providing your development plan data
 
-Take the following steps to provide your local plan, minerals and waste plan, and supplementary plan data data:
+Take the following steps to provide your local plan, minerals and waste plan, and supplementary plan data:
 
 s1. [Prepare your data](#prepare-your-data)
 s2. [Check your data](#check-your-data)
@@ -60,22 +60,20 @@ This might include:
 * open data from other public sources
 
 We treat the data you provide as being more authoritative than data 
-we have previously collected from you previously or we find elsewhere.
+we previously collected or that we find elsewhere.
 
 You can download tabular data we have for your organisation as a CSV file
-from the [check and provide service](https://provide.planning.data.gov.uk)
+from the [check and provide service](https://provide.planning.data.gov.uk),
 then edit it using a spreadsheet or other CSV editors.
 
-You can download geospatial data we have for your organisation as
-CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
-then modify it using QGIS or other GIS tools.
+
 
 You must provide data for the mandatory fields identified.
 
 ### Datasets
 
 
-For development plans you need to provide 2 datasets:
+For local plans, minerals and waste plans, and supplementary plans you need to provide 2 datasets:
 
 * [Development plan](#developmentplan-dataset)
 * [Development plan timetable](#developmentplantimetable-dataset)
