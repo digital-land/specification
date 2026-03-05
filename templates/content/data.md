@@ -5,7 +5,7 @@
 ### Datasets
 
 {% if ds_m|length > 0 %}
-For {{ specification["plural"]}} you need to provide {{ ds_m|length }} dataset{{ "s" if ds_m|length > 1  else "" }}:
+For {{ specification["long-plural"] or specification["plural"]}} you need to provide {{ ds_m|length }} dataset{{ "s" if ds_m|length > 1  else "" }}:
 
 {% for d in ds_m|sort(attribute='priority') %}
 {%- set name = tables["dataset"][d["dataset"]]["name"] -%}
