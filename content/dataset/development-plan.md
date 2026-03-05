@@ -40,6 +40,8 @@ fields:
   description: local plan core document
   guidance: |
       Enter the URL for the main or core plan document, which is usually a PDF file.
+
+      If you do not have a main or core plan document on the day you publish your data, leave this field blank.
   examples:
     - value: 'https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf'
 - field: end-date
