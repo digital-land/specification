@@ -67,8 +67,8 @@ fields:
      Enter the date when the timetable event happened. Leave this field blank when the event is in the future.
 - field: start-date
   description: date of the timetable event
-  guidance: |
-     Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
+  notes: |
+     This value is defaulted from the `actual-date` value.
 github-discussion: 26
 guidance: |
     Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'.
