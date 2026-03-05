@@ -11,7 +11,7 @@ We treat the data you provide as being more authoritative than data
 we previously collected or that we find elsewhere.
 
 You can download tabular data we have for your organisation as a CSV file
-from the [check and provide service](https://provide.planning.data.gov.uk)
+from the [check and provide service](https://provide.planning.data.gov.uk),
 then edit it using a spreadsheet or other CSV editors.
 
 You can download geospatial data we have for your organisation as
