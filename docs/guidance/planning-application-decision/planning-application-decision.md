@@ -42,7 +42,7 @@ s1. [Prepare your data](#prepare-your-data)
 s2. [Check your data](#check-your-data)
 s3. [Publish your data](#publish-your-data)
 s4. [Tell us about your data](#tell-us-about-your-data)
-s5. [Keep your data up-to-date](#keep-your-data-up-to-date)
+s5. [Keep your data up to date](#keep-your-data-up-to-date)
 
 ## Prepare your data
 Start by reviewing any data we may already have about your organisation
@@ -304,14 +304,11 @@ For each dataset, you will need to provide the:
 
 The service also asks for your name and email address as a point of contact in case of any issues.
 
-## Keep your data up-to-date
-Continue to improve your data and act on [the service feedback](https://provide.planning.data.gov.uk) 
-to make sure that your data meets the specification.
+## Keep your data up to date
+Continue to improve your data and act on the [the service feedback](https://provide.planning.data.gov.uk)
+to make sure that your data meets the specification. 
 
-You also need to update and republish your data whenever there's a change to your Planning application decisions information.
-
-We look for changes to the data at all of the endpoint URLs we know about every night,
-so we can quickly update [planning.data.gov.uk](https://planning.data.gov.uk).
+We update [planning.data.gov.uk](https://planning.data.gov.uk) with any changes to the data at all the endpoint URLs each day. 
 
 It is simpler if you publish your changes to the same endpoint URL.
 If you create a new endpoint you need to [tell us about your data](#tell-us-about-your-data) again.
