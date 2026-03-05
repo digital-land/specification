@@ -273,6 +273,7 @@ n,,string,list of Local Planning Authorities,,,local-planning-authorities,,,Loca
 1,,string,,,,locally-listed-building,,,Locally listed building,geography,,,,geography,,
 1,,string,,,,london-square,,,London square,geography,,,,geography,,
 1,,string,,,,long-established-woodland,,,Long established woodland,geography,,,,geography,,
+1,,string,,,,long-name,,,Long name,name,,,,value,,
 1,,string,,,,long-protected-woodland,,,Long protected woodland,geography,,,,geography,,
 1,,longitude,,2020-07-30,,longitude,,,Longitude,value,point,,,value,,
 1,,string,Lookup entities,,,lookup,,,Lookup,specification,,,,specification,,

@@ -1,5 +1,5 @@
 ---
-title: Provide your local plan data
+title: Publish your local plan data
 name: local plan
 url: 
 summary: 
@@ -21,24 +21,23 @@ attachments:
 
 ^Follow this guidance when providing your local plan data.^
 
-<p>Local planning authorities (LPAs) must create, publish and keep a plan timetable up to date.
-This guidance applies to the following plans that you created or updated using the 
-<a href="https://www.gov.uk/government/collections/create-or-update-a-local-plan-using-the-new-system">new plan-making system</a>:</p>
+<p>You must follow this approved data standard to meet the requirements of the 
+<a href="#TBD">local planning regulations</a> and the 
+<a href="#TBD">data standards regulations</a>. </p>
+<p>Local planning authorities (LPAs) must create, publish and keep a plan timetable up to date. 
+This applies to the following plans that you create or update using the new plan-making system:   </p>
 <ul>
-<li>local plans</li>
-<li>minerals and waste plans</li>
-<li>supplementary plans</li>
+<li>local plans  </li>
+<li>minerals and waste plans  </li>
+<li>tg supplementary plans  </li>
 </ul>
-<p>All authorities must comply with the approved data standards set out in this guidance
-in accordance with the <a href="#TBD">The Town and Country Planning (Local Planning) (England) Regulations 2026</a></p>
 
-Providing planning data means making it available publicly to a standard so that anyone using
+Providing planning data means making it available publicly to a standard, so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it
-* understand its meaning and purpose
-* assess its quality
-* trust it will be maintained
+* understand its quality, meaning and purpose
+* trust it will be accurate and maintained
 
 ## Providing your local plan data
 

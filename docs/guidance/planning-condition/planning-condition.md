@@ -1,5 +1,5 @@
 ---
-title: Provide your Planning condition data
+title: Publish your Planning condition data
 name: Planning condition
 url: 
 summary: 
@@ -27,13 +27,12 @@ and cited as one of a number of official data standards for the provision of pla
 <a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>,
 other regulations, contracts, and agreements.</p>
 
-Providing planning data means making it available publicly to a standard so that anyone using
+Providing planning data means making it available publicly to a standard, so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it
-* understand its meaning and purpose
-* assess its quality
-* trust it will be maintained
+* understand its quality, meaning and purpose
+* trust it will be accurate and maintained
 
 ## Providing your Planning condition data
 

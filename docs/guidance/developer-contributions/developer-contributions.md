@@ -1,5 +1,5 @@
 ---
-title: Provide your Developer contributions data
+title: Publish your Developer contributions data
 name: Developer contributions
 url: 
 summary: 
@@ -33,13 +33,12 @@ This guidance sets out a data format and approach that you can follow in order t
 are supporting new development and local infrastructure.
 We have designed the data format to cause as little disruption as possible to existing processes.</p>
 
-Providing planning data means making it available publicly to a standard so that anyone using
+Providing planning data means making it available publicly to a standard, so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it
-* understand its meaning and purpose
-* assess its quality
-* trust it will be maintained
+* understand its quality, meaning and purpose
+* trust it will be accurate and maintained
 
 ## Providing your Developer contributions data
 
