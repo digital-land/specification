@@ -4,7 +4,7 @@ s1. [Prepare your data](#prepare-your-data)
 s2. [Check your data](#check-your-data)
 s3. [Publish your data](#publish-your-data)
 s4. [Tell us about your data](#tell-us-about-your-data)
-s5. [Keep your data up-to-date](#keep-your-data-up-to-date)
+s5. [Keep your data up to date](#keep-your-data-up-to-date)
 
 ## Prepare your data
 {% include "content/prepare.md" %}
@@ -19,5 +19,5 @@ s5. [Keep your data up-to-date](#keep-your-data-up-to-date)
 ## Tell us about your data
 {% include "content/tell-us.md" %}
 
-## Keep your data up-to-date
+## Keep your data up to date
 {% include "content/update.md" %}
