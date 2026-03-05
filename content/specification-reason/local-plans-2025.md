@@ -11,7 +11,7 @@ guidance: |
 
     * local plans  
     * minerals and waste plans  
-    * tg supplementary plans  
+    * supplementary plans  
 name: 'New local plans approved data standard'
 notes: ''
 reference: local-plans-2025
