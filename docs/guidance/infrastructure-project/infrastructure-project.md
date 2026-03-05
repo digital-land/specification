@@ -276,8 +276,10 @@ An endpoint is a URL from which anyone can download the data. This can be either
 
 * a single file hosted on your website 
 * a file hosted on another public website including GitHub
+
 * an Open Geospatial Consortium Web Feature Service (OGC WFS) 
 * an open application programming interface (API) such as ArcGIS
+
 
 Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
 
