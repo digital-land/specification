@@ -28,7 +28,6 @@ fields:
   definition: URL of the [Source documentation](#source-documentation) page
   guidance: |
      Enter the URL of the webpage which links to your main or core plan document.
-     If you do not have a webpage on the day you publish your data, leave this field blank.
 
      If there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
      to make the `documentation-url` value for each plan unique.
