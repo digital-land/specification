@@ -27,16 +27,11 @@ fields:
   description: local plan documentation page
   definition: URL of the [Source documentation](#source-documentation) page
   guidance: |
-     The URL of the webpage on your website for the local plan
-
-     Each entry in the local plan dataset should link to a documentation webpage that includes:
-
-     * the information in the entry
-     * links to where you can download the data
-     * and any other supporting documents.
+     Enter the URL of the webpage which links to your main or core plan document.
+     If you do not have a webpage on the day you publish your data, leave this field blank.
 
      If there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
-     to make the URL for each plan unique.
+     to make the `documentation-url` value for each plan unique.
   examples:
     - value: https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan
     - value: https://example.com/local-plans/#example-local-plan-2011
