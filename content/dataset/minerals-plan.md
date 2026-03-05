@@ -23,7 +23,7 @@ fields:
     Enter the GSS code for the 
     [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
     area that this minerals plan covers.
-    For a joint minerals plan, enter the list of references, and separate each of them with a semi-colon.
+    For a joint minerals plan, enter the list of references and separate each of them with a semi-colon.
   examples:
     - value: 'E47000001'
     - value: 'E60000331;E60000225'

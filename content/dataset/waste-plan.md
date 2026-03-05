@@ -23,7 +23,7 @@ fields:
     Enter the GSS code for the 
     [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
     area that this local or supplementary plan covers.
-    For a joint waste plan, enter the list of references, and separate each of them with a semi-colon.
+    For a joint waste plan, enter the list of references and separate each of them with a semi-colon.
   examples:
     - value: 'E47000001'
     - value: 'E60000331;E60000225'

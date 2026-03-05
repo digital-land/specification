@@ -65,7 +65,7 @@ fields:
     Enter the GSS code for the 
     [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
     area that this local or supplementary plan covers.
-    For a joint local plan, enter the list of codes, and separate each of them by with a semi-colon.
+    For a joint local plan, enter the list of references and separate each of them by with a semi-colon.
   examples:
     - value: 'E60000001'
     - value: 'E60000132;E60000133;E60000135;E60000136'
