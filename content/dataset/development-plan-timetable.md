@@ -64,7 +64,7 @@ fields:
 - field: actual-date
   description: date of the timetable event
   guidance: |
-     Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
+     Enter the date when the timetable event happened. Leave this field blank when the event is in the future.
 - field: start-date
   description: date of the timetable event
   guidance: |
