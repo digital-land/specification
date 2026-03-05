@@ -1,4 +1,4 @@
-Take the following steps to provide your {{ specification["name"] }} data:
+Take the following steps to provide your {{ specification["long-name"] or specification["name"] }} data:
 
 s1. [Prepare your data](#prepare-your-data)
 s2. [Check your data](#check-your-data)

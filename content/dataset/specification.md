@@ -17,6 +17,7 @@ fields:
 - field: end-date
 - field: entry-date
 - field: github-discussion
+- field: long-name
 - field: name
 - field: json
 - field: prefix

@@ -1,6 +1,7 @@
 ---
 specification: development-plan
 name: development plan
+long-name: local plan, minerals and waste plan, and supplementary plan data
 plural: development plans
 description: headline information about development plans
 specification-status: working-draft
