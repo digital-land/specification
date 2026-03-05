@@ -29,7 +29,7 @@ This applies to the following plans that you create or update using the new plan
 <ul>
 <li>local plans  </li>
 <li>minerals and waste plans  </li>
-<li>tg supplementary plans  </li>
+<li>supplementary plans  </li>
 </ul>
 
 Providing planning data means making it available publicly to a standard, so that anyone using
