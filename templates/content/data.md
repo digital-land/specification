@@ -145,7 +145,8 @@ Your {{ name }} data may also contain the following fields:
 
 ### {{ field }}
 
-{% if df["guidance"] %}{{ df["guidance"] }}{% elif tables["field"][field]["guidance"] %}{{ tables["field"][field]["guidance"]| trim }}{%- endif -%}{%- if df["examples"]|length > 0 %} For example:
+{% if df["guidance"] %}{{ df["guidance"] }}{% elif tables["field"][field]["guidance"] %}{{ tables["field"][field]["guidance"]| trim }}{%- endif -%}{%- if df["examples"]|length > 0 %}
+For example:
 
 {% for ex in df["examples"] -%}
 * <code class="value">{{ ex["value"] }}</code>{%- if ex["description"] %} — {{ ex["description"] }}{% endif %}
