@@ -1,4 +1,4 @@
-{%- set title = "Provide your " + specification["name"] + " data" -%}
+{%- set title = "Publish your " + specification["name"] + " data" -%}
 ---
 title: {{ title }}
 name: {{ specification["name"] }}
