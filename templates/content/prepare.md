@@ -16,7 +16,7 @@ then edit it using a spreadsheet or other CSV editors.
 
 {% if specification["is-geospatial"] %}
 You can download geospatial data we have for your organisation as
-CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk)
+CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk),
 then modify it using QGIS or other GIS tools.
 {% endif %}
 
