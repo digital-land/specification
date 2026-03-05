@@ -24,7 +24,7 @@ attachments:
 
 {{ tables["specification-reason"][specification["specification-reason"]]["guidance"] | markdown }}
 
-Providing planning data means making it available publicly to a standard so that anyone using
+Providing planning data means making it available publicly to a standard, so that anyone using
 services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
 
 * find it
