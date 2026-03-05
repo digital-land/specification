@@ -18,7 +18,8 @@ fields:
     - value: 'central-lincolnshire'
 - field: development-plan-event
   guidance: |
-    Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference.
+    Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference
+    for each key event or milestone.
   examples:
      - value: publish-notice-intention-commence
      - value: examination-submitted
@@ -85,7 +86,6 @@ guidance: |
     * `plan-content-evidence-consultation-start`
     * `plan-content-evidence-consultation-end`
     * `gateway-2-advice-sought`
-    * `gateway-2-advice-published`
     * `proposed-plan-consultation-start`
     * `proposed-plan-consultation-end`
     * `gateway-3-advice-sought`
