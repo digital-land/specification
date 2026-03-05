@@ -122,7 +122,7 @@ Great references are:
 
 ### Date values
 
-All dates must be in the format `YYYY-MM-DD` as set out in[formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
 Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
@@ -161,7 +161,8 @@ Your Local plan data must contain the following fields:
 ### reference
 
 Give each local plan a unique reference.
- For example:
+
+For example:
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">34069/County-Durham-Plan</code>
@@ -177,7 +178,8 @@ Each entry in the local plan dataset should link to a documentation webpage that
 in the entry as well as links to where this data may be downloaded, and any other supporting documents.
 Where there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
 to make the URL for each plan unique.
- For example:
+
+For example:
 
 * <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
 * <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
@@ -187,7 +189,8 @@ to make the URL for each plan unique.
 ### document-url
 
 Enter the URL for the main or core plan document. This is usually a PDF file.
- For example:
+
+For example:
 
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
@@ -213,7 +216,8 @@ Your Local plan data should also contain the following fields if they apply:
 
 ### name
 
-Use the title of the local plan document. For example:
+Use the title of the local plan document.
+For example:
 
 * <code class="value">County Durham Plan</code>
 * <code class="value">South Oxfordshire Joint Local Plan</code>
@@ -225,14 +229,16 @@ Use the title of the local plan document. For example:
 
 ### period-start-date
 
-Enter the start of the plan period. This is usually just a year in `YYYY` format. For example:
+Enter the start of the plan period. This is usually just a year in `YYYY` format.
+For example:
 
 * <code class="value">2026</code>
 
 
 ### period-end-date
 
-Enter the end of the plan period. This is may be just the year in `YYYY` format. For example:
+Enter the end of the plan period. This is may be just the year in `YYYY` format.
+For example:
 
 * <code class="value">2038</code>
 
@@ -243,7 +249,8 @@ Enter the reference (the GSS code) for the
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
 area covered by this local plan.
 For a joint local plan, enter the list of Local Planning Authority references, each separated by semi-colon &#39;;&#39; character.
- For example:
+
+For example:
 
 * <code class="value">E60000001</code>
 * <code class="value">E60000132;E60000133;E60000135;E60000136</code>
@@ -254,8 +261,9 @@ For a joint local plan, enter the list of Local Planning Authority references, e
 Enter the GSS code for the 
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
 area that this minerals plan covers.
-For a joint minerals plan, enter the list of references, and separate each of them with a semi-colon.
- For example:
+For a joint minerals plan, enter the list of references and separate each of them with a semi-colon.
+
+For example:
 
 * <code class="value">E47000001</code>
 * <code class="value">E60000331;E60000225</code>
@@ -266,8 +274,9 @@ For a joint minerals plan, enter the list of references, and separate each of th
 Enter the GSS code for the 
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
 area that this local or supplementary plan covers.
-For a joint waste plan, enter the list of references, and separate each of them with a semi-colon.
- For example:
+For a joint waste plan, enter the list of references and separate each of them with a semi-colon.
+
+For example:
 
 * <code class="value">E47000001</code>
 * <code class="value">E60000331;E60000225</code>
@@ -310,7 +319,8 @@ Enter the date the local plan was withdrawn or revoked, otherwise leave this fie
 
 ### notes
 
-You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name. For example:
+You may provide notes on how this data was made, and help users differentiate the plan from others with a similar name.
+For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
@@ -340,7 +350,8 @@ Your local plan housing number data must contain the following fields:
 ### reference
 
 Give each set of housing numbers a unique reference value.
- For example:
+
+For example:
 
 * <code class="value">34069/County-Durham-Plan</code>
 * <code class="value">central-lincolnshire</code>
@@ -373,7 +384,8 @@ Your local plan housing number data should also contain the following fields if 
 
 This should be the GSS code (statistical geography) for the `local-planning-authority` area to which the housing numbers apply.
 See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
- For example:
+
+For example:
 
 * <code class="value">E60000001</code> — The GSS code for the County Durham LPA area
 
@@ -382,7 +394,8 @@ See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/loca
 
 Enter the minimum number of homes that the plan seeks to provide
 within this `local-planning-authority` area.
- For example:
+
+For example:
 
 * <code class="value">24852</code>
 
@@ -398,7 +411,8 @@ within this `local-planning-authority` area.
 Enter the total number of homes planned for through local plan housing site allocations
 including housing components of mixed-use site allocations
 within this `local-planning-authority` area.
- For example:
+
+For example:
 
 * <code class="value">9239</code>
 
@@ -408,7 +422,8 @@ within this `local-planning-authority` area.
 Enter the total number of homes expected towards the end of the local plan period and attributed to
 ‘broad locations for growth’, as opposed to site allocations
 within this `local-planning-authority` area.
- For example:
+
+For example:
 
 * <code class="value">15660</code>
 
@@ -417,7 +432,8 @@ within this `local-planning-authority` area.
 
 Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
 within this `local-planning-authority` area.
- For example:
+
+For example:
 
 * <code class="value">160</code>
 
@@ -449,7 +465,8 @@ Enter the date these numbers were withdrawn, otherwise leave this field blank.
 
 ### notes
 
-You may provide a short description to help users differentiate the plan from others with a similar name. For example:
+You may provide a short description to help users differentiate the plan from others with a similar name.
+For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
@@ -490,7 +507,8 @@ Enter the title of the document.
 ### local-plan
 
 Enter the reference for the local plan which the document is associated with.
- For example:
+
+For example:
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">central-lincolnshire</code>
@@ -536,7 +554,8 @@ Enter at least one of the following [local-plan-document-type](https://www.plann
 * `sustainability-appraisal`
 
 You can list more than one category, separated by a semi-colon &#39;;&#39; character.
- For example:
+
+For example:
 
 * <code class="value">local-plan</code>
 * <code class="value">local-plan;core-strategy;site-allocations</code>
@@ -545,7 +564,8 @@ You can list more than one category, separated by a semi-colon &#39;;&#39; chara
 ### documentation-url
 
 Enter the URL of the webpage on your website which documents and links to this document.
- For example:
+
+For example:
 
 * <code class="value">https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan</code>
 

@@ -127,7 +127,7 @@ Great references are:
 
 ### Date values
 
-All dates must be in the format `YYYY-MM-DD` as set out in[formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
 Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
@@ -183,7 +183,8 @@ Your Local Planning Authority data must contain the following fields:
 Enter the GSS code for the Local Planning Authority area. 
 You can create a unique reference where no GSS code exists and
 republish the data with the official GSS code once it is known.
- For example:
+
+For example:
 
 * <code class="value">E60000330</code>
 * <code class="value">borchester-development-corporation</code>
@@ -207,7 +208,8 @@ Your Local Planning Authority data should also contain the following fields if t
 ### name
 
 Enter the name of the Local Planning Authority.
- For example:
+
+For example:
 
 * <code class="value">Old Oak and Park Royal Development Corporation (OPDC)</code>
 
@@ -261,7 +263,8 @@ Enter the date this area ceased to be a Local Planning Authority.
 ### notes
 
 Enter any notes to help a user understand how the data was made or is to be interpreted.
- For example:
+
+For example:
 
 * <code class="value">The London Legacy Development Corporation was planning authority for its area until the end of November 2024.
 All enquiries in respect of planning policy and Community Infrastructure Levy should now be made to 

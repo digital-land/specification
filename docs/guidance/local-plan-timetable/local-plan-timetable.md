@@ -115,7 +115,7 @@ Great references are:
 
 ### Date values
 
-All dates must be in the format `YYYY-MM-DD` as set out in[formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
 Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
@@ -158,7 +158,8 @@ Your Local plan timetable data must contain the following fields:
 Give each event a reference which is unique for the event within the dataset.
 Where the timetable contains events for different local plans you can distinguish the events by adding the `local-plan` reference.
 Where a timetable has more than one event of the same kind, you can add a date to make them unique.
- For example:
+
+For example:
 
 * <code class="value">LP1-public-consultation</code>
 * <code class="value">LP1-public-consultation-2025</code>
@@ -167,7 +168,8 @@ Where a timetable has more than one event of the same kind, you can add a date t
 ### local-plan
 
 Enter the reference of the local plan which this event forms part of its timetable.
- For example:
+
+For example:
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">central-lincolnshire</code>
@@ -210,7 +212,8 @@ Your Local plan timetable data should also contain the following fields if they 
 ### predicted-earliest-date
 
 Enter the earliest date when this event is expected to happen.
- For example:
+
+For example:
 
 * <code class="value">2027-01-01</code>
 
@@ -222,7 +225,8 @@ Using a range of full dates helps producing timetables and other charts and usin
 ### predicted-latest-date
 
 Enter the latest date when this event is expected to happen.
- For example:
+
+For example:
 
 * <code class="value">2027-03-31</code>
 

@@ -119,7 +119,7 @@ Great references are:
 
 ### Date values
 
-All dates must be in the format `YYYY-MM-DD` as set out in[formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
 
@@ -153,7 +153,8 @@ Your development plan data must contain the following fields:
 ### reference
 
 Give each local plan a unique reference.
- For example:
+
+For example:
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">34069/County-Durham-Plan</code>
@@ -163,7 +164,8 @@ Give each local plan a unique reference.
 
 ### name
 
-Use the title of the local plan document. For example:
+Use the title of the local plan document.
+For example:
 
 * <code class="value">County Durham Plan</code>
 * <code class="value">South Oxfordshire Joint Local Plan</code>
@@ -181,7 +183,8 @@ Enter one of the following values to show the type of development plan:
 
 ### period-start-date
 
-Enter the start of the plan period. This is usually just a year in `YYYY` format. For example:
+Enter the start of the plan period. This is usually just a year in `YYYY` format.
+For example:
 
 * <code class="value">2026</code>
 * <code class="value">2027</code>
@@ -189,7 +192,8 @@ Enter the start of the plan period. This is usually just a year in `YYYY` format
 
 ### period-end-date
 
-Enter the end of the plan period. This is usually just a year in `YYYY` format. For example:
+Enter the end of the plan period. This is usually just a year in `YYYY` format.
+For example:
 
 * <code class="value">2038</code>
 * <code class="value">2040</code>
@@ -197,17 +201,12 @@ Enter the end of the plan period. This is usually just a year in `YYYY` format. 
 
 ### documentation-url
 
-The URL of the webpage on your website for the local plan
-
-Each entry in the local plan dataset should link to a documentation webpage that includes:
-
-* the information in the entry
-* links to where you can download the data
-* and any other supporting documents.
+Enter the URL of the webpage which links to your main or core plan document.
 
 If there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
-to make the URL for each plan unique.
- For example:
+to make the `documentation-url` value for each plan unique.
+
+For example:
 
 * <code class="value">https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan</code>
 * <code class="value">https://example.com/local-plans/#example-local-plan-2011</code>
@@ -217,7 +216,10 @@ to make the URL for each plan unique.
 ### document-url
 
 Enter the URL for the main or core plan document, which is usually a PDF file.
- For example:
+
+If you do not have a main or core plan document on the day you publish your data, leave this field blank.
+
+For example:
 
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
@@ -226,13 +228,14 @@ Enter the URL for the main or core plan document, which is usually a PDF file.
 
 Enter the minimum number of homes that the plan seeks to provide during the plan period.  
 
-You must provide your required-housing when you launch your consultation on your proposed local plan.  
-You must update your required-housing when you: 
+You must provide your required-housing when you launch your consultation on
+your proposed local plan. You must update your required-housing when you:
 
-* submit your plan for examination  
-* publish the examiner’s recommendations and reasons 
-* publish your adopted local plan 
- For example:
+* submit your plan for examination
+* publish the examiner’s recommendations and reasons
+* publish your adopted local plan
+
+For example:
 
 * <code class="value">1024</code>
 * <code class="value">24852</code>
@@ -260,8 +263,9 @@ Your development plan data should also contain the following fields if they appl
 Enter the GSS code for the 
 [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
 area that this local or supplementary plan covers.
-For a joint local plan, enter the list of codes, and separate each of them by with a semi-colon.
- For example:
+For a joint local plan, enter the list of references and separate each of them by with a semi-colon.
+
+For example:
 
 * <code class="value">E60000001</code>
 * <code class="value">E60000132;E60000133;E60000135;E60000136</code>
@@ -272,8 +276,9 @@ For a joint local plan, enter the list of codes, and separate each of them by wi
 Enter the GSS code for the 
 [Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
 area that this minerals plan covers.
-For a joint minerals plan, enter the list of references, and separate each of them with a semi-colon.
- For example:
+For a joint minerals plan, enter the list of references and separate each of them with a semi-colon.
+
+For example:
 
 * <code class="value">E47000001</code>
 * <code class="value">E60000331;E60000225</code>
@@ -284,8 +289,9 @@ For a joint minerals plan, enter the list of references, and separate each of th
 Enter the GSS code for the 
 [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
 area that this local or supplementary plan covers.
-For a joint waste plan, enter the list of references, and separate each of them with a semi-colon.
- For example:
+For a joint waste plan, enter the list of references and separate each of them with a semi-colon.
+
+For example:
 
 * <code class="value">E47000001</code>
 * <code class="value">E60000331;E60000225</code>
@@ -309,7 +315,8 @@ Your development plan data may also contain the following fields:
 ### notes
 
 You may provide notes on how you made this data to help users differentiate the plan from others with a similar name.
- For example:
+
+For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
 
@@ -332,7 +339,6 @@ your timetable must include an entry with one of the following `development-plan
 * `plan-content-evidence-consultation-start`
 * `plan-content-evidence-consultation-end`
 * `gateway-2-advice-sought`
-* `gateway-2-advice-published`
 * `proposed-plan-consultation-start`
 * `proposed-plan-consultation-end`
 * `gateway-3-advice-sought`
@@ -387,7 +393,8 @@ Your development plan timetable data must contain the following fields:
 ### reference
 
 Give each event a unique reference.
- For example:
+
+For example:
 
 * <code class="value">LP1-public-consultation</code>
 * <code class="value">LP1-public-consultation-2025</code>
@@ -396,7 +403,8 @@ Give each event a unique reference.
 ### development-plan
 
 Enter the reference of the development plan which this event forms part of its timetable.
- For example:
+
+For example:
 
 * <code class="value">LP-BRX-2024</code>
 * <code class="value">central-lincolnshire</code>
@@ -404,8 +412,10 @@ Enter the reference of the development plan which this event forms part of its t
 
 ### development-plan-event
 
-Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference.
- For example:
+Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference
+for each key event or milestone.
+
+For example:
 
 * <code class="value">publish-notice-intention-commence</code>
 * <code class="value">examination-submitted</code>
@@ -433,7 +443,7 @@ Your development plan timetable data should also contain the following fields if
 
 ### actual-date
 
-Enter the date when the timetable event occured. Leave this field blank when the event has yet to happen.
+Enter the date when the timetable event happened. Leave this field blank when the event is in the future.
 
 
 ### Optional fields

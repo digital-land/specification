@@ -135,7 +135,7 @@ Great references are:
 
 ### Date values
 
-All dates must be in the format `YYYY-MM-DD` as set out in[formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
 
 
 Where you don't know the precise date you can enter just the month `YYYY-MM` or even just the year `YYYY`.
