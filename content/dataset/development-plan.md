@@ -29,7 +29,7 @@ fields:
   guidance: |
      Enter the URL of the webpage which links to your main or core plan document.
 
-     If there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
+     If there are several plans listed on a single webpage, you can use an anchor link (fragment identifier) 
      to make the `documentation-url` value for each plan unique.
   examples:
     - value: https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan
