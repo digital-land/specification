@@ -55,7 +55,9 @@ datasets:
                   requirement-level: MUST
                   text: 'link to the core local plan document described by this data.'
           - field: required-housing
-            requirement-level: MUST
+            requirement-level: CONDITIONAL
+            datasets:
+                - local-plan
           - field: document-count
             requirement-level: CONDITIONAL
             datasets:
