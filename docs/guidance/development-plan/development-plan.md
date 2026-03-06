@@ -22,8 +22,8 @@ attachments:
 ^Follow this guidance when providing your development plan data.^
 
 <p>You must follow this approved data standard to meet the requirements of the 
-<a href="#TBD">local planning regulations</a> and the 
-<a href="#TBD">data standards regulations</a>. </p>
+<a href="#TBC">Town and Country Planning (Local Planning) (England) Regulations 2026</a>
+and the <a href="#TBC">Planning Data (England) Regulations 2026</a>.</p>
 <p>Local planning authorities (LPAs) must create, publish and keep a plan timetable up to date. 
 This applies to the following plans that you create or update using the new plan-making system:   </p>
 <ul>
@@ -324,13 +324,11 @@ For example:
 ## Development plan timetable dataset
 
 
-Record the key events in the timetable when producing your plan, these are sometimes also called &#39;milestones&#39;.
+Your timetable must include an `event-date` for when you intend to meet the relevant stage of plan-making.
+Update the entry to include the actual date in the `actual-date` field when the event takes place.
 
-Your timetable must include a precise `committed-date` against each entry.
-Update the entry to include the actual date in the `start-date` field when the event takes place.
-
-For local plans, minerals plans, and waste plans 
-your timetable must include an entry with one of the following `development-plan-event` field values where applicable:
+For local plans, minerals and waste plans your timetable must include an entry for each of the
+following `development-plan-event` field values where applicable:
 
 * `publish-notice-intention-commence`
 * `scoping-consultation-start`
@@ -345,8 +343,8 @@ your timetable must include an entry with one of the following `development-plan
 * `examination-submitted`
 * `adopted`
 
-For supplementary plans 
-your timetable must include an entry with one of the following `development-plan-event` field values where applicable:
+If you are also creating a supplementary plan, your local or minerals and waste plans timetable
+must include an entry with the following development-plan-event fields where applicable:
 
 * `publish-notice-intention-commence`
 * `proposed-plan-consultation-start`
@@ -385,7 +383,7 @@ Your development plan timetable data must contain the following fields:
 * `reference`
 * `development-plan`
 * `development-plan-event`
-* `committed-date`
+* `event-date`
 * `entry-date`
 
 
@@ -422,7 +420,7 @@ For example:
 * <code class="value">adopted</code>
 
 
-### committed-date
+### event-date
 
 Enter the date when this event will happen.
 

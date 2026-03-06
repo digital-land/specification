@@ -144,15 +144,6 @@
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_committed-date"><a href="../../field/committed-date">committed-date</a>
-          </td>
-          <td class="govuk-table__cell">Committed date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
           <td class="govuk-table__cell" id="field_development-plan"><a href="../../field/development-plan">development-plan</a>
           </td>
           <td class="govuk-table__cell">Development plan</td>
@@ -193,6 +184,15 @@
           </td>
           <td class="govuk-table__cell">Entity</td>
           <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_event-date"><a href="../../field/event-date">event-date</a>
+          </td>
+          <td class="govuk-table__cell">Event date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -283,11 +283,10 @@
 
     
     <h2 class="govuk-heading-s" id="guidance">Guidance</h2>
-    <p>Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'.</p>
-<p>Your timetable must include a precise <code>committed-date</code> against each entry.
-Update the entry to include the actual date in the <code>start-date</code> field when the event takes place.</p>
-<p>For local plans, minerals plans, and waste plans 
-your timetable must include an entry with one of the following <code>development-plan-event</code> field values where applicable:</p>
+    <p>Your timetable must include an <code>event-date</code> for when you intend to meet the relevant stage of plan-making.
+Update the entry to include the actual date in the <code>actual-date</code> field when the event takes place.</p>
+<p>For local plans, minerals and waste plans your timetable must include an entry for each of the
+following <code>development-plan-event</code> field values where applicable:</p>
 <ul>
 <li><code>publish-notice-intention-commence</code></li>
 <li><code>scoping-consultation-start</code></li>
@@ -302,8 +301,8 @@ your timetable must include an entry with one of the following <code>development
 <li><code>examination-submitted</code></li>
 <li><code>adopted</code></li>
 </ul>
-<p>For supplementary plans 
-your timetable must include an entry with one of the following <code>development-plan-event</code> field values where applicable:</p>
+<p>If you are also creating a supplementary plan, your local or minerals and waste plans timetable
+must include an entry with the following development-plan-event fields where applicable:</p>
 <ul>
 <li><code>publish-notice-intention-commence</code></li>
 <li><code>proposed-plan-consultation-start</code></li>

@@ -315,8 +315,8 @@ ol.steps li::before {
 </div>
 
 <p>You must follow this approved data standard to meet the requirements of the 
-<a href="#TBD">local planning regulations</a> and the 
-<a href="#TBD">data standards regulations</a>. </p>
+<a href="#TBC">Town and Country Planning (Local Planning) (England) Regulations 2026</a>
+and the <a href="#TBC">Planning Data (England) Regulations 2026</a>.</p>
 
 <p>Local planning authorities (LPAs) must create, publish and keep a plan timetable up to date. 
 This applies to the following plans that you create or update using the new plan-making system:   </p>
@@ -535,11 +535,10 @@ For a joint waste plan, enter the list of references and separate each of them w
 <li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
 </ul>
 <h2 id="development-plan-timetable-dataset">Development plan timetable dataset</h2>
-<p>Record the key events in the timetable when producing your plan, these are sometimes also called &#39;milestones&#39;.</p>
-<p>Your timetable must include a precise <code>committed-date</code> against each entry.
-Update the entry to include the actual date in the <code>start-date</code> field when the event takes place.</p>
-<p>For local plans, minerals plans, and waste plans 
-your timetable must include an entry with one of the following <code>development-plan-event</code> field values where applicable:</p>
+<p>Your timetable must include an <code>event-date</code> for when you intend to meet the relevant stage of plan-making.
+Update the entry to include the actual date in the <code>actual-date</code> field when the event takes place.</p>
+<p>For local plans, minerals and waste plans your timetable must include an entry for each of the
+following <code>development-plan-event</code> field values where applicable:</p>
 <ul>
 <li><code>publish-notice-intention-commence</code></li>
 <li><code>scoping-consultation-start</code></li>
@@ -554,8 +553,8 @@ your timetable must include an entry with one of the following <code>development
 <li><code>examination-submitted</code></li>
 <li><code>adopted</code></li>
 </ul>
-<p>For supplementary plans 
-your timetable must include an entry with one of the following <code>development-plan-event</code> field values where applicable:</p>
+<p>If you are also creating a supplementary plan, your local or minerals and waste plans timetable
+must include an entry with the following development-plan-event fields where applicable:</p>
 <ul>
 <li><code>publish-notice-intention-commence</code></li>
 <li><code>proposed-plan-consultation-start</code></li>
@@ -587,7 +586,7 @@ your timetable must include an entry with one of the following <code>development
 <li><code>reference</code></li>
 <li><code>development-plan</code></li>
 <li><code>development-plan-event</code></li>
-<li><code>committed-date</code></li>
+<li><code>event-date</code></li>
 <li><code>entry-date</code></li>
 </ul>
 <h3 id="reference_1">reference</h3>
@@ -613,7 +612,7 @@ for each key event or milestone.</p>
 <li><code class="value">examination-submitted</code></li>
 <li><code class="value">adopted</code></li>
 </ul>
-<h3 id="committed-date">committed-date</h3>
+<h3 id="event-date">event-date</h3>
 <p>Enter the date when this event will happen.</p>
 <h3 id="entry-date_1">entry-date</h3>
 <p>Enter the date you created or modified the data.</p>

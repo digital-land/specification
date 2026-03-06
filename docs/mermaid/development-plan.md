@@ -23,7 +23,7 @@ erDiagram
         string reference
         ref development-plan
         string development-plan-event
-        date committed-date
+        date event-date
         date actual-date
         date entry-date
         string notes
