@@ -1106,11 +1106,11 @@ development-plan,dataset,dataset,,"Enter one of the following values to show the
 * `minerals-plan`
 * `waste-plan`
 ",,,,,
-development-plan,document-count,,,"Enter the number of documents which collectively form the plan. This field must be provided for a minerals and waste plan.
+development-plan,document-count,,,"Enter the number of documents which collectively form the plan. This field is only required for a minerals and waste plan.
 ",,,,,
 development-plan,documentation-url,,local plan documentation page,"Enter the URL of the webpage which links to your main or core plan document.
 
-If there are several local plans listed on a single webpage, you can use an anchor link (fragment identifier) 
+If there are several plans listed on a single webpage, you can use an anchor link (fragment identifier) 
 to make the `documentation-url` value for each plan unique.
 ",,,"[{""value"": ""https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2011""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2024""}]",,
 development-plan,document-url,,local plan core document,"Enter the URL for the main or core plan document, which is usually a PDF file.
