@@ -103,29 +103,39 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 {%- set _d = tables["dataset"][d["dataset"]] -%}
 {%- set name = tables["dataset"][d["dataset"]]["name"] %}
 
+{%- set df_m = d["fields"]|selectattr("requirement-level", "eq", "MUST")|list -%}
+{%- set df_c = d["fields"]|selectattr("requirement-level", "eq", "CONDITIONAL")|list -%}
+{%- set df_s = d["fields"]|selectattr("requirement-level", "eq", "SHOULD")|list -%}
+{%- set df_y = d["fields"]|selectattr("requirement-level", "eq", "MAY")|list -%}
+
 ## {{ name | sentence_case }} dataset
 
 {% if _d["guidance"] %}
 {{_d["guidance"]}}
 {% endif %}
 
-{% for requirement_level in ["MUST", "SHOULD", "MAY"] -%}
-{% if requirement_level == "MUST" %}
+{% for requirement_level in ["MUST", "CONDITIONAL", "SHOULD", "MAY"] -%}
+{% if requirement_level == "MUST" %}{% if df_m|length > 0 %}
 
 ### Mandatory fields
 
 Your {{ name }} data must contain the following fields:
-{% elif requirement_level == "SHOULD" %}
+{% endif %}{% elif requirement_level == "CONDITIONAL" %}{% if df_c|length > 0 %}
+
+### Conditional fields
+
+Your {{ name }} data must also contain the following fields where they apply:
+{% endif %}{% elif requirement_level == "SHOULD" %}{% if df_s|length > 0 %}
 
 ### Recommended fields
 
-Your {{ name }} data should also contain the following fields if they apply:
-{% else %}
+Your {{ name }} data should also contain the following fields:
+{% endif %}{% elif requirement_level == "MAY" %}{% if df_y|length > 0 %}
 
 ### Optional fields
 
 Your {{ name }} data may also contain the following fields:
-{% endif  %}
+{% endif %}{% endif  %}
 
 {% for f in d["fields"] -%}
 {%- if f["requirement-level"] == requirement_level %}

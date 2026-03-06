@@ -34,16 +34,16 @@ datasets:
           - field: period-end-date
             requirement-level: MUST
           - field: local-planning-authorities
-            requirement-level: SHOULD
+            requirement-level: CONDITIONAL
             datasets:
                 - local-plan
                 - supplementary-plan
           - field: mineral-planning-authorities
-            requirement-level: SHOULD
+            requirement-level: CONDITIONAL
             datasets:
                 - minerals-plan
           - field: waste-planning-authorities
-            requirement-level: SHOULD
+            requirement-level: CONDITIONAL
             datasets:
                 - waste-plan
           - field: documentation-url
@@ -57,7 +57,10 @@ datasets:
           - field: required-housing
             requirement-level: MUST
           - field: document-count
-            requirement-level: SHOULD
+            requirement-level: CONDITIONAL
+            datasets:
+                - minerals-plan
+                - waste-plan
           - field: entry-date
             requirement-level: MUST
           - field: notes
@@ -76,7 +79,7 @@ datasets:
           - field: event-date
             requirement-level: MUST
           - field: actual-date
-            requirement-level: SHOULD
+            requirement-level: CONDITIONAL
           - field: entry-date
             requirement-level: MUST
           - field: notes
