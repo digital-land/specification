@@ -655,7 +655,7 @@ to make sure that your data meets the specification.
 
 We update [planning.data.gov.uk](https://planning.data.gov.uk) with any changes to the data at all the endpoint URLs each day. 
 
-It is simpler if you publish your changes to the same endpoint URL.
+Publish your changes to the same endpoint URL.
 If you create a new endpoint you need to [tell us about your data](#tell-us-about-your-data) again.
 
 ## Contact us
