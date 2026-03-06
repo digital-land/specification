@@ -92,8 +92,8 @@ guidance: |
     * `examination-submitted`
     * `adopted`
 
-    For supplementary plans 
-    your timetable must include an entry with one of the following `development-plan-event` field values where applicable:
+    If you are also creating a supplementary plan, your local or minerals and waste plans timetable
+    must include an entry with the following development-plan-event fields where applicable:
 
     * `publish-notice-intention-commence`
     * `proposed-plan-consultation-start`
