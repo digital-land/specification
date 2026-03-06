@@ -40,8 +40,6 @@ If your dataset contains geospatial fields, you may use one of the following for
 * Geopackage
 {% endif %}
 
-Follow this guidance to find out more about the fields and format of the data you need to prepare.
-
 ### Field names
 
 You can use a field name with uppercase, lowercase and any punctuation characters. 
