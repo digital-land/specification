@@ -73,7 +73,7 @@ datasets:
           - field: development-plan-event
             requirement-level: MUST
             dataset: local-plan-event
-          - field: committed-date
+          - field: event-date
             requirement-level: MUST
           - field: actual-date
             requirement-level: SHOULD

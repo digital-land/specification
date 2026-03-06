@@ -38,8 +38,8 @@ fields:
      This field is currently unused in this dataset.
 - field: entity
 - field: entry-date
-- field: committed-date
-  description: committed date for the event
+- field: event-date
+  description: predicted date for the event
   guidance: |
       Enter the date when this event will happen.
 - field: predicted-date
@@ -71,13 +71,11 @@ fields:
      This value is defaulted from the `actual-date` value.
 github-discussion: 26
 guidance: |
-    Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'.
+    Your timetable must include an `event-date` for when you intend to meet the relevant stage of plan-making.
+    Update the entry to include the actual date in the `actual-date` field when the event takes place.
 
-    Your timetable must include a precise `committed-date` against each entry.
-    Update the entry to include the actual date in the `start-date` field when the event takes place.
-
-    For local plans, minerals plans, and waste plans 
-    your timetable must include an entry with one of the following `development-plan-event` field values where applicable:
+    For local plans, minerals and waste plans your timetable must include an entry for each of the
+    following `development-plan-event` field values where applicable:
 
     * `publish-notice-intention-commence`
     * `scoping-consultation-start`
@@ -100,7 +98,7 @@ guidance: |
     * `proposed-plan-consultation-end`
     * `examination-submitted`
     * `adopted`
-    
+ 
     Your development plan timetable must also include rows with dates if any of the following events apply:
 
     * `gateway-3-repeat-advice-published`
