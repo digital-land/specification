@@ -79,8 +79,6 @@ and follow the government
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 
 
-Follow this guidance to find out more about the fields and format of the data you need to prepare.
-
 ### Field names
 
 You can use a field name with uppercase, lowercase and any punctuation characters. 
