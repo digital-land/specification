@@ -128,35 +128,22 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Local area requirements dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Local area requirements data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Local area requirements data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Local area requirements data may also contain the following fields:
 
 
 

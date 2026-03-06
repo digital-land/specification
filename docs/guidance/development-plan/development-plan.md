@@ -124,8 +124,6 @@ All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [for
 
 
 
-
-
 ## Development plan dataset
 
 
@@ -237,17 +235,17 @@ your proposed local plan. You must update your required-housing when you:
 
 For example:
 
-* <code class="value">1024</code>
-* <code class="value">24852</code>
+* <code class="value">10852</code>
+* <code class="value">10012</code>
 
 
 ### entry-date
 
 Enter the date you created or modified the data.
 
-### Recommended fields
+### Conditional fields
 
-Your development plan data should also contain the following fields if they apply:
+Your development plan data must also contain the following fields where they apply:
 
 
 
@@ -302,6 +300,10 @@ For example:
 Enter the number of documents which collectively form the plan. This field is only required for a minerals and waste plan.
 
 
+
+
+
+
 ### Optional fields
 
 Your development plan data may also contain the following fields:
@@ -319,8 +321,6 @@ You may provide notes on how you made this data to help users differentiate the 
 For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
-
 ## Development plan timetable dataset
 
 
@@ -429,9 +429,9 @@ Enter the date when this event will happen.
 
 Enter the date you created or modified the data.
 
-### Recommended fields
+### Conditional fields
 
-Your development plan timetable data should also contain the following fields if they apply:
+Your development plan timetable data must also contain the following fields where they apply:
 
 
 
@@ -442,6 +442,10 @@ Your development plan timetable data should also contain the following fields if
 ### actual-date
 
 Enter the date when the timetable event happened. Leave this field blank when the event is in the future.
+
+
+
+
 
 
 ### Optional fields

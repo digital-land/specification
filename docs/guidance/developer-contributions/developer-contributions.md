@@ -136,35 +136,20 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Developer agreement dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Developer agreement data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Developer agreement data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Developer agreement data may also contain the following fields:
 
 
 
@@ -177,27 +162,14 @@ Your Developer agreement data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Developer agreement contribution data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Developer agreement contribution data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Developer agreement contribution data may also contain the following fields:
 
 
 
@@ -210,27 +182,16 @@ Your Developer agreement contribution data may also contain the following fields
 
 
 
-### Mandatory fields
-
-Your Developer agreement transaction data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Developer agreement transaction data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Developer agreement transaction data may also contain the following fields:
 
 
 

@@ -161,35 +161,22 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Listed building outline dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Listed building outline data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Listed building outline data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Listed building outline data may also contain the following fields:
 
 
 

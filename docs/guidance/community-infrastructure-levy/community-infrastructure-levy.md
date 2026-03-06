@@ -128,35 +128,22 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Community infrastructure levy schedule dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Community infrastructure levy schedule data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Community infrastructure levy schedule data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Community infrastructure levy schedule data may also contain the following fields:
 
 
 

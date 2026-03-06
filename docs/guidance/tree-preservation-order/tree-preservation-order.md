@@ -163,35 +163,20 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Tree preservation order dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Tree preservation order data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Tree preservation order data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Tree preservation order data may also contain the following fields:
 
 
 
@@ -204,27 +189,14 @@ Your Tree preservation order data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Tree preservation zone data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Tree preservation zone data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Tree preservation zone data may also contain the following fields:
 
 
 
@@ -237,27 +209,16 @@ Your Tree preservation zone data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Tree data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Tree data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Tree data may also contain the following fields:
 
 
 

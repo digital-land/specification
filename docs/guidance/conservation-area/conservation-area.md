@@ -162,35 +162,20 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Conservation area dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Conservation area data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Conservation area data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Conservation area data may also contain the following fields:
 
 
 
@@ -203,27 +188,16 @@ Your Conservation area data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Conservation area document data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Conservation area document data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Conservation area document data may also contain the following fields:
 
 
 

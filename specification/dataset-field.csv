@@ -1150,7 +1150,7 @@ your proposed local plan. You must update your required-housing when you:
 * submit your plan for examination
 * publish the examiner’s recommendations and reasons
 * publish your adopted local plan
-",,,"[{""value"": 1024}, {""value"": 24852}]",,
+",,,"[{""value"": 10852}, {""value"": 10012}]",,
 development-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
@@ -2413,6 +2413,7 @@ minerals-plan-boundary,prefix,prefix,,,,,,,
 minerals-plan-boundary,reference,,,,,,,,
 minerals-plan-boundary,start-date,,,,,,,,
 minerals-plan,dataset,dataset,,,,,,,
+minerals-plan,document-count,,,,,,,,
 minerals-plan,documentation-url,,,,,,,,
 minerals-plan,document-url,,,,,,,,
 minerals-plan,end-date,,,,,,,,
@@ -3685,6 +3686,7 @@ waste-plan-boundary,prefix,prefix,,,,,,,
 waste-plan-boundary,reference,,,,,,,,
 waste-plan-boundary,start-date,,,,,,,,
 waste-plan,dataset,dataset,,,,,,,
+waste-plan,document-count,,,,,,,,
 waste-plan,documentation-url,,,,,,,,
 waste-plan,document-url,,,,,,,,
 waste-plan,end-date,,,,,,,,

@@ -162,35 +162,20 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Article 4 direction dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Article 4 direction data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Article 4 direction data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Article 4 direction data may also contain the following fields:
 
 
 
@@ -203,27 +188,16 @@ Your Article 4 direction data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Article 4 direction area data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Article 4 direction area data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Article 4 direction area data may also contain the following fields:
 
 
 

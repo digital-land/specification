@@ -155,8 +155,6 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Development corporation boundary dataset
 
 
@@ -185,9 +183,13 @@ A good reference is something you already use.
 Where these aren&#39;t unique, you make them unique by appending the year, or even the full date.
 Great references are short, easy to read, to pronounce and remember.
 
+
+
+
+
 ### Recommended fields
 
-Your Development corporation boundary data should also contain the following fields if they apply:
+Your Development corporation boundary data should also contain the following fields:
 
 
 

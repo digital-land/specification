@@ -155,35 +155,22 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Asset of community value dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Asset of community value data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Asset of community value data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Asset of community value data may also contain the following fields:
 
 
 

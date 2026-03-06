@@ -123,8 +123,6 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Brownfield land dataset
 
 
@@ -259,9 +257,13 @@ Enter the date that the site was first added to this register, in the format `YY
 
 Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
+
+
+
+
 ### Recommended fields
 
-Your Brownfield land data should also contain the following fields if they apply:
+Your Brownfield land data should also contain the following fields:
 
 
 

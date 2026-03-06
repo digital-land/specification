@@ -157,35 +157,20 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Planning application dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Planning application data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Planning application data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Planning application data may also contain the following fields:
 
 
 
@@ -198,27 +183,14 @@ Your Planning application data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Planning application log data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Planning application log data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Planning application log data may also contain the following fields:
 
 
 
@@ -231,27 +203,16 @@ Your Planning application log data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Planning application document data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Planning application document data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Planning application document data may also contain the following fields:
 
 
 

@@ -157,35 +157,20 @@ When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the 
 That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
 
 
-
-
 ## Design code dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Design code data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Design code data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Design code data may also contain the following fields:
 
 
 
@@ -198,27 +183,14 @@ Your Design code data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Design code rule data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Design code rule data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Design code rule data may also contain the following fields:
 
 
 
@@ -231,27 +203,16 @@ Your Design code rule data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Design code area data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Design code area data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Design code area data may also contain the following fields:
 
 
 

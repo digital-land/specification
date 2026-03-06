@@ -129,35 +129,20 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Planning condition dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Planning condition data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Planning condition data should also contain the following fields if they apply:
 
 
-
-
-
-
-### Optional fields
-
-Your Planning condition data may also contain the following fields:
 
 
 
@@ -170,27 +155,16 @@ Your Planning condition data may also contain the following fields:
 
 
 
-### Mandatory fields
-
-Your Planning application condition data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Planning application condition data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Planning application condition data may also contain the following fields:
 
 
 

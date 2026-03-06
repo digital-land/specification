@@ -128,35 +128,22 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Infrastructure funding statement dataset
 
 
 
 
 
-### Mandatory fields
-
-Your Infrastructure funding statement data must contain the following fields:
 
 
 
 
 
 
-### Recommended fields
-
-Your Infrastructure funding statement data should also contain the following fields if they apply:
 
 
 
 
-
-
-### Optional fields
-
-Your Infrastructure funding statement data may also contain the following fields:
 
 
 

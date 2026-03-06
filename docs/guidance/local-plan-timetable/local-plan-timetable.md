@@ -128,8 +128,6 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Local plan timetable dataset
 
 
@@ -196,9 +194,13 @@ Enter one of the following [Local Plan Event](https://www.planning.data.gov.uk/d
 * `plan-revoked`
 
 
+
+
+
+
 ### Recommended fields
 
-Your Local plan timetable data should also contain the following fields if they apply:
+Your Local plan timetable data should also contain the following fields:
 
 
 

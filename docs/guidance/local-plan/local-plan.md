@@ -135,8 +135,6 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
-
-
 ## Local plan dataset
 
 
@@ -195,9 +193,13 @@ For example:
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
 
+
+
+
+
 ### Recommended fields
 
-Your Local plan data should also contain the following fields if they apply:
+Your Local plan data should also contain the following fields:
 
 
 
@@ -323,8 +325,6 @@ You may provide notes on how this data was made, and help users differentiate th
 For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
-
 ## Local plan housing number dataset
 
 
@@ -363,9 +363,13 @@ For example:
 Enter the `reference` for the local plan which these numbers apply.
 
 
+
+
+
+
 ### Recommended fields
 
-Your local plan housing number data should also contain the following fields if they apply:
+Your local plan housing number data should also contain the following fields:
 
 
 
@@ -469,8 +473,6 @@ You may provide a short description to help users differentiate the plan from ot
 For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-
-
 ## Local plan document dataset
 
 
@@ -519,9 +521,13 @@ For example:
 Enter the URL for the document. This is often a PDF file.
 
 
+
+
+
+
 ### Recommended fields
 
-Your Local plan document data should also contain the following fields if they apply:
+Your Local plan document data should also contain the following fields:
 
 
 
