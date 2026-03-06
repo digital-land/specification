@@ -124,8 +124,8 @@ fields:
         * publish the examiner’s recommendations and reasons
         * publish your adopted local plan
   examples:
-    - value: 1024
-    - value: 24852
+    - value: 10852
+    - value: 10012
 - field: start-date
   description: date when the plan was officially adopted
   guidance: |
