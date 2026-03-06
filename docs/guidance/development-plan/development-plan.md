@@ -143,7 +143,6 @@ Your development plan data must contain the following fields:
 * `period-end-date`
 * `documentation-url`
 * `document-url`
-* `required-housing`
 * `entry-date`
 
 
@@ -222,23 +221,6 @@ For example:
 * <code class="value">https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf</code>
 
 
-### required-housing
-
-Enter the minimum number of homes that the plan seeks to provide during the plan period.  
-
-You must provide your required-housing when you launch your consultation on
-your proposed local plan. You must update your required-housing when you:
-
-* submit your plan for examination
-* publish the examiner’s recommendations and reasons
-* publish your adopted local plan
-
-For example:
-
-* <code class="value">10852</code>
-* <code class="value">10012</code>
-
-
 ### entry-date
 
 Enter the date you created or modified the data.
@@ -252,6 +234,7 @@ Your development plan data must also contain the following fields where they app
 * `local-planning-authorities`
 * `mineral-planning-authorities`
 * `waste-planning-authorities`
+* `required-housing`
 * `document-count`
 
 
@@ -293,6 +276,23 @@ For example:
 
 * <code class="value">E47000001</code>
 * <code class="value">E60000331;E60000225</code>
+
+
+### required-housing
+
+Enter the minimum number of homes that the plan seeks to provide during the plan period.  
+
+You must provide your required-housing when you launch your consultation on
+your proposed local plan. You must update your required-housing when you:
+
+* submit your plan for examination
+* publish the examiner’s recommendations and reasons
+* publish your adopted local plan
+
+For example:
+
+* <code class="value">10852</code>
+* <code class="value">10012</code>
 
 
 ### document-count
