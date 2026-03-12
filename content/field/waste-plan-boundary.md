@@ -1,6 +1,6 @@
 ---
 cardinality: '1'
-datatype: reference
+datatype: curie
 description: ''
 end-date: ''
 entry-date: '2024-11-14'
