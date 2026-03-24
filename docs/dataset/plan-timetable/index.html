@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Local Planning Authority | Planning Data</title>
+    <title>development plan timetable | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -92,7 +92,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Local Planning Authority</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">development plan timetable</li>
     
   
   </ol>
@@ -105,7 +105,7 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Local Planning Authority</h1>
+  <h1 class="govuk-heading-xl">development plan timetable</h1>
   </div>
 </div>
 
@@ -115,17 +115,11 @@
     
     <h2 class="govuk-heading-s" id="description">Description</h2>
     <p>
-    A Local Planning Authorities and their boundaries.
+    A log of past and future milestones and events when producing a plan.
     </p>
     
 
-    <!-- This dataset contains the administrative boundary for each Local Planning Authority (LPA) in England.
-
-It can be used to:
-&lt;ul&gt;
-&lt;li&gt;assist in the production planning and other statistics&lt;/li&gt;
-&lt;li&gt;help find the LPA responsible for a planning application on a map, for example&lt;/li&gt;
-&lt;/ul&gt; -->
+    <!--  -->
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -138,6 +132,15 @@ It can be used to:
         </tr>
       </thead>
       <tbody class="govuk-table__body">
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_actual-date"><a href="../../field/actual-date">actual-date</a>
+          </td>
+          <td class="govuk-table__cell">Actual date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
     
         
         <tr class="govuk-table__row">
@@ -168,10 +171,10 @@ It can be used to:
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geometry"><a href="../../field/geometry">geometry</a>
+          <td class="govuk-table__cell" id="field_event-date"><a href="../../field/event-date">event-date</a>
           </td>
-          <td class="govuk-table__cell">Geometry</td>
-          <td class="govuk-table__cell"><a href="../../datatype/multipolygon">multipolygon</a></td>
+          <td class="govuk-table__cell">Event date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -204,10 +207,28 @@ It can be used to:
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_point"><a href="../../field/point">point</a>
+          <td class="govuk-table__cell" id="field_plan"><a href="../../field/plan">plan</a>
           </td>
-          <td class="govuk-table__cell">Point</td>
-          <td class="govuk-table__cell"><a href="../../datatype/point">point</a></td>
+          <td class="govuk-table__cell">Plan</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_plan-event"><a href="../../field/plan-event">plan-event</a>
+          </td>
+          <td class="govuk-table__cell">Plan event</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_predicted-date"><a href="../../field/predicted-date">predicted-date</a>
+          </td>
+          <td class="govuk-table__cell">Predicted date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -225,15 +246,6 @@ It can be used to:
           <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
           </td>
           <td class="govuk-table__cell">Reference</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_region"><a href="../../field/region">region</a>
-          </td>
-          <td class="govuk-table__cell">Region</td>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
@@ -271,17 +283,58 @@ It can be used to:
 
     
     <h2 class="govuk-heading-s" id="guidance">Guidance</h2>
-    <p>A mayoral authority, or other organisation responsible for the designation of a 
-development corporation or other kind of Local Planning Authority can use this 
-specification to provide the boundary of the Local Planning Authority area.</p>
+    <p>Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'. </p>
+<p>Your timetable must include an <code>event-date</code> for when you intend to meet the <code>plan-event</code>.
+Find out when you need to update the entry to include the actual date in the actual-date field. </p>
+<p>For local plans or minerals and waste plans, your timetable must include an entry for each of the following <code>plan-event</code> field values: </p>
+<ul>
+<li>publish-notice-intention-commence </li>
+<li>scoping-consultation-start </li>
+<li>scoping-consultation-end </li>
+<li>gateway-1-self-assessment </li>
+<li>plan-content-evidence-consultation-start </li>
+<li>plan-content-evidence-consultation-end </li>
+<li>gateway-2-advice-sought </li>
+<li>proposed-plan-consultation-start </li>
+<li>proposed-plan-consultation-end </li>
+<li>gateway-3-advice-sought </li>
+<li>examination-submitted </li>
+<li>adopted </li>
+</ul>
+<p>For minerals and waste plans with multiple documents, 
+your timetable must include an entry for each of the <code>plan-event</code> field values for each minerals and waste plan document. </p>
+<p>For supplementary plans, your local plan timetable or minerals and waste plan timetable must include an entry with the following plan-event field values: </p>
+<ul>
+<li>publish-notice-intention-commence </li>
+<li>proposed-plan-consultation-start </li>
+<li>proposed-plan-consultation-end </li>
+<li>examination-submitted </li>
+<li>adopted </li>
+</ul>
+<p>Your local plan timetable or minerals and waste plan timetable must also include rows with an <code>actual-date</code> value to set out when any of the following events happen: </p>
+<ul>
+<li>gateway-2-advice-published </li>
+<li>gateway-3-advice-published </li>
+<li>examination-recommendations-published </li>
+<li>main-modification-consultation-start </li>
+<li>main-modification-consultation-end </li>
+<li>examination-pause-start </li>
+<li>examination-pause-end </li>
+<li>additional-consultation-start </li>
+<li>additional-consultation-end </li>
+<li>withdrawn </li>
+<li>revoked </li>
+</ul>
+<p>If you repeat Gateway 3, you must include these events in your timetable: </p>
+<ul>
+<li>gateway-3-further-advice-sought </li>
+<li>gateway-3-further-advice-published</li>
+</ul>
     
 
     
 
 
-    
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/geography">geography</a> typology.</p>
     
 
     
@@ -295,38 +348,13 @@ specification to provide the boundary of the Local Planning Authority area.</p>
     
       <li><a href="../organisation">Organisation</a></li>
     
-      <li><a href="../prefix">Prefix</a></li>
+      <li><a href="../plan">plan</a></li>
     
-      <li><a href="../region">Region</a></li>
+      <li><a href="../prefix">Prefix</a></li>
     
     </ul>
     
 
-    
-    <p class="govuk-body">This dataset is referenced by the following other datasets:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../development-corporation">Development corporation</a></li>
-    
-      <li><a href="../development-plan">development plan</a></li>
-    
-      <li><a href="../local-authority">Local authority</a></li>
-    
-      <li><a href="../local-plan">Local plan</a></li>
-    
-      <li><a href="../local-plan-boundary">Local plan boundary</a></li>
-    
-      <li><a href="../local-plan-housing">local plan housing number</a></li>
-    
-      <li><a href="../national-park-authority">National park authority</a></li>
-    
-      <li><a href="../organisation">Organisation</a></li>
-    
-      <li><a href="../plan">plan</a></li>
-    
-      <li><a href="../supplementary-plan">local plan</a></li>
-    
-    </ul>
     
 
     

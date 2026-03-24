@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Publish your development plan data | Planning Data</title>
+    <title>Publish your plan data | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -275,7 +275,7 @@ ol.steps li::before {
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Publish your development plan data</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Publish your plan data</li>
     
   
   </ol>
@@ -288,7 +288,7 @@ ol.steps li::before {
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Guidance</span>
-  <h1 class="govuk-heading-xl">Publish your development plan data</h1>
+  <h1 class="govuk-heading-xl">Publish your plan data</h1>
   </div>
 </div>
 
@@ -300,7 +300,7 @@ ol.steps li::before {
       Working Draft
     </strong>
     <p></p>
-    <p class="govuk-body govuk-!-margin-bottom-1">23 January 2026</p>
+    <p class="govuk-body govuk-!-margin-bottom-1">24 March 2026</p>
     <p>
       This guidance is under development.
       Help us improve it and <a class="govuk-link" href="mailto:digitalland@communities.gov.uk">give your feedback by email</a>.
@@ -311,7 +311,7 @@ ol.steps li::before {
   <div class="govuk-grid-column-full">
 
       <div class="information-callout">
-<p>Follow this guidance when providing your development plan data.</p>
+<p>Follow this guidance when providing your plan data.</p>
 </div>
 
 <p>You must follow the approved data standard to meet the requirements of the <a href="#TBC">Planning Data (England) Regulations 2026</a>,
@@ -333,7 +333,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 <li>understand its quality, meaning and purpose</li>
 <li>trust it will be accurate and maintained</li>
 </ul>
-<h2 id="providing-your-development-plan-data">Providing your development plan data</h2>
+<h2 id="providing-your-plan-data">Providing your plan data</h2>
 <p>Take the following steps to provide your local plan, minerals and waste plan, and supplementary plan data:</p>
 <ol class="govuk-list govuk-list--number steps">
   <li><a href="#prepare-your-data">Prepare your data</a></li>
@@ -362,7 +362,7 @@ then edit it using a spreadsheet or other CSV editors.</p>
 <h3 id="datasets">Datasets</h3>
 <p>For local plans, minerals and waste plans, and supplementary plans you need to provide 2 datasets:</p>
 <ul>
-<li><a href="#developmentplan-dataset">Development plan</a></li>
+<li><a href="#plan-dataset">Plan</a></li>
 <li><a href="#developmentplantimetable-dataset">Development plan timetable</a></li>
 </ul>
 <p>You need to provide each dataset 
@@ -396,13 +396,13 @@ Great references are:  </p>
 </ul>
 <h3 id="date-values">Date values</h3>
 <p>All dates must be in the format <code>YYYY-MM-DD</code> as set out in the guidance for <a href="https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard">formatting dates and times in data</a>.</p>
-<h2 id="development-plan-dataset">Development plan dataset</h2>
+<h2 id="plan-dataset">Plan dataset</h2>
 <h3 id="mandatory-fields">Mandatory fields</h3>
-<p>Your development plan data must contain the following fields:</p>
+<p>Your plan data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
 <li><code>name</code></li>
-<li><code>dataset</code></li>
+<li><code>datasets</code></li>
 <li><code>period-start-date</code></li>
 <li><code>period-end-date</code></li>
 <li><code>documentation-url</code></li>
@@ -413,25 +413,34 @@ Great references are:  </p>
 <p>Give each local plan a unique reference.</p>
 <p>For example:</p>
 <ul>
-<li><code class="value">LP-BRX-2024</code></li>
-<li><code class="value">34069/County-Durham-Plan</code></li>
-<li><code class="value">central-lincolnshire</code></li>
 <li><code class="value">barnet-local-plan-2021-2036</code></li>
+<li><code class="value">hertfordshire-minerals-and-waste-plan</code></li>
+<li><code class="value">essex-minerals-plan</code></li>
+<li><code class="value">essex-waste-plan</code></li>
 </ul>
 <h3 id="name">name</h3>
 <p>Use the title of the local plan document.
 For example:</p>
 <ul>
-<li><code class="value">County Durham Plan</code></li>
-<li><code class="value">South Oxfordshire Joint Local Plan</code></li>
+<li><code class="value">York Local Plan</code></li>
+<li><code class="value">Plymouth and South West Devon Joint Local Plan</code></li>
 </ul>
-<h3 id="dataset">dataset</h3>
-<p>Enter one of the following values to show the type of development plan:</p>
+<h3 id="datasets_1">datasets</h3>
+<p>Enter one of the following values to show the type of plan or plan document:</p>
 <ul>
 <li><code>local-plan</code></li>
 <li><code>supplementary-plan</code></li>
 <li><code>minerals-plan</code></li>
 <li><code>waste-plan</code></li>
+</ul>
+<p>If your plan includes multiple types, enter the list of types and separate each of them with a semi-colon.</p>
+<p>For example:</p>
+<ul>
+<li><code class="value">local-plan</code></li>
+<li><code class="value">waste-plan</code></li>
+<li><code class="value">minerals-plan;waste-plan</code></li>
+<li><code class="value">local-plan;minerals-plan</code></li>
+<li><code class="value">local-plan;minerals-plan;waste-plan</code></li>
 </ul>
 <h3 id="period-start-date">period-start-date</h3>
 <p>Enter the start of the plan period. This is usually just a year in <code>YYYY</code> format.
@@ -467,7 +476,7 @@ to make the <code>documentation-url</code> value for each plan unique.</p>
 <h3 id="entry-date">entry-date</h3>
 <p>Enter the date you created or modified the data.</p>
 <h3 id="conditional-fields">Conditional fields</h3>
-<p>Your development plan data must also contain the following fields where they apply:</p>
+<p>Your plan data must also contain the following fields where they apply:</p>
 <ul>
 <li><code>local-planning-authorities</code></li>
 <li><code>mineral-planning-authorities</code></li>
@@ -522,7 +531,7 @@ your proposed local plan. You must update your required-housing when you:</p>
 <h3 id="document-count">document-count</h3>
 <p>Enter the number of documents which collectively form the plan. This field is only required for a minerals and waste plan.</p>
 <h3 id="optional-fields">Optional fields</h3>
-<p>Your development plan data may also contain the following fields:</p>
+<p>Your plan data may also contain the following fields:</p>
 <ul>
 <li><code>notes</code></li>
 </ul>
@@ -533,57 +542,59 @@ your proposed local plan. You must update your required-housing when you:</p>
 <li><code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code></li>
 </ul>
 <h2 id="development-plan-timetable-dataset">Development plan timetable dataset</h2>
-<p>Your timetable must include an <code>event-date</code> for when you intend to meet the relevant stage of plan-making.
-Update the entry to include the actual date in the <code>actual-date</code> field when the event takes place.</p>
-<p>For local plans, minerals and waste plans your timetable must include an entry for each of the
-following <code>development-plan-event</code> field values where applicable:</p>
+<p>Record the key events in the timetable when producing your plan, these are sometimes also called &#39;milestones&#39;. </p>
+<p>Your timetable must include an <code>event-date</code> for when you intend to meet the <code>plan-event</code>.
+Find out when you need to update the entry to include the actual date in the actual-date field. </p>
+<p>For local plans or minerals and waste plans, your timetable must include an entry for each of the following <code>plan-event</code> field values: </p>
 <ul>
-<li><code>publish-notice-intention-commence</code></li>
-<li><code>scoping-consultation-start</code></li>
-<li><code>scoping-consultation-end</code></li>
-<li><code>gateway-1-self-assessment</code></li>
-<li><code>plan-content-evidence-consultation-start</code></li>
-<li><code>plan-content-evidence-consultation-end</code></li>
-<li><code>gateway-2-advice-sought</code></li>
-<li><code>proposed-plan-consultation-start</code></li>
-<li><code>proposed-plan-consultation-end</code></li>
-<li><code>gateway-3-advice-sought</code></li>
-<li><code>examination-submitted</code></li>
-<li><code>adopted</code></li>
+<li>publish-notice-intention-commence </li>
+<li>scoping-consultation-start </li>
+<li>scoping-consultation-end </li>
+<li>gateway-1-self-assessment </li>
+<li>plan-content-evidence-consultation-start </li>
+<li>plan-content-evidence-consultation-end </li>
+<li>gateway-2-advice-sought </li>
+<li>proposed-plan-consultation-start </li>
+<li>proposed-plan-consultation-end </li>
+<li>gateway-3-advice-sought </li>
+<li>examination-submitted </li>
+<li>adopted </li>
 </ul>
-<p>If you are also creating a supplementary plan, your local or minerals and waste plans timetable
-must include an entry with the following development-plan-event fields where applicable:</p>
+<p>For minerals and waste plans with multiple documents, 
+your timetable must include an entry for each of the <code>plan-event</code> field values for each minerals and waste plan document. </p>
+<p>For supplementary plans, your local plan timetable or minerals and waste plan timetable must include an entry with the following plan-event field values: </p>
 <ul>
-<li><code>publish-notice-intention-commence</code></li>
-<li><code>proposed-plan-consultation-start</code></li>
-<li><code>proposed-plan-consultation-end</code></li>
-<li><code>examination-submitted</code></li>
-<li><code>adopted</code></li>
+<li>publish-notice-intention-commence </li>
+<li>proposed-plan-consultation-start </li>
+<li>proposed-plan-consultation-end </li>
+<li>examination-submitted </li>
+<li>adopted </li>
 </ul>
-<p>Your development plan timetable must also include rows with dates if any of the following events apply:</p>
+<p>Your local plan timetable or minerals and waste plan timetable must also include rows with an <code>actual-date</code> value to set out when any of the following events happen: </p>
 <ul>
-<li><code>gateway-3-repeat-advice-published</code></li>
-<li><code>examination-recommendations-published</code></li>
-<li><code>main-modification-consultation-start</code></li>
-<li><code>main-modification-consultation-end</code></li>
-<li><code>examination-pause-start</code></li>
-<li><code>examination-pause-end</code></li>
-<li><code>additional-consultation-start</code></li>
-<li><code>additional-consultation-end</code></li>
-<li><code>withdrawn</code></li>
-<li><code>revoked</code></li>
+<li>gateway-2-advice-published </li>
+<li>gateway-3-advice-published </li>
+<li>examination-recommendations-published </li>
+<li>main-modification-consultation-start </li>
+<li>main-modification-consultation-end </li>
+<li>examination-pause-start </li>
+<li>examination-pause-end </li>
+<li>additional-consultation-start </li>
+<li>additional-consultation-end </li>
+<li>withdrawn </li>
+<li>revoked </li>
 </ul>
-<p>If you repeat Gateway 3, you must include these events in your timetable:</p>
+<p>If you repeat Gateway 3, you must include these events in your timetable: </p>
 <ul>
-<li><code>gateway-3-further-advice-sought</code></li>
-<li><code>gateway-3-advice-published</code></li>
+<li>gateway-3-further-advice-sought </li>
+<li>gateway-3-further-advice-published</li>
 </ul>
 <h3 id="mandatory-fields_1">Mandatory fields</h3>
 <p>Your development plan timetable data must contain the following fields:</p>
 <ul>
 <li><code>reference</code></li>
-<li><code>development-plan</code></li>
-<li><code>development-plan-event</code></li>
+<li><code>plan</code></li>
+<li><code>plan-event</code></li>
 <li><code>event-date</code></li>
 <li><code>entry-date</code></li>
 </ul>
@@ -594,15 +605,15 @@ must include an entry with the following development-plan-event fields where app
 <li><code class="value">LP1-public-consultation</code></li>
 <li><code class="value">LP1-public-consultation-2025</code></li>
 </ul>
-<h3 id="development-plan">development-plan</h3>
-<p>Enter the reference of the development plan which this event forms part of its timetable.</p>
+<h3 id="plan">plan</h3>
+<p>Enter the reference of the plan for which this event forms part of its timetable.</p>
 <p>For example:</p>
 <ul>
 <li><code class="value">LP-BRX-2024</code></li>
 <li><code class="value">central-lincolnshire</code></li>
 </ul>
-<h3 id="development-plan-event">development-plan-event</h3>
-<p>Enter a <a href="https://www.planning.data.gov.uk/dataset/development-plan-event">Development Plan Event</a> reference
+<h3 id="plan-event">plan-event</h3>
+<p>Enter a <a href="https://www.planning.data.gov.uk/dataset/plan-event">plan event</a> reference
 for each key event or milestone.</p>
 <p>For example:</p>
 <ul>
@@ -683,14 +694,14 @@ at <a href="https://design.planning.data.gov.uk">design.planning.data.gov.uk</a>
         
 <section data-module="ga4-link-tracker" class="gem-c-attachment govuk-!-margin-bottom-6" data-ga4-link-tracker-module-started="true">
   <div class="gem-c-attachment__thumbnail govuk-!-display-none-print">
-      <a class="govuk-link" target="_self" tabindex="-1" aria-hidden="true" data-ga4-link="{&quot;event_name&quot;:&quot;navigation&quot;,&quot;type&quot;:&quot;attachment&quot;}" href="https://digital-land.github.io/specification/specification/development-plan/">
+      <a class="govuk-link" target="_self" tabindex="-1" aria-hidden="true" data-ga4-link="{&quot;event_name&quot;:&quot;navigation&quot;,&quot;type&quot;:&quot;attachment&quot;}" href="https://digital-land.github.io/specification/specification/plan/">
          <svg class="gem-c-attachment__thumbnail-image gem-c-attachment__thumbnail-image--html" version="1.1" viewBox="0 0 99 140" width="99" height="140" aria-hidden="true"><path d="M30,95h57v9H30V95z M30,77v9h39v-9H30z M30,122h48v-9H30V122z M12,68h9v-9h-9V68z M12,104h9v-9h-9V104z M12,86h9v-9h-9V86z M12,122h9v-9h-9V122z M87,12v27H12V12H87z M33,17h-4v8h-6v-8h-4v18h4v-7l6,0v7l4,0V17z M49,17H35l0,3h5v15h4V20l5,0V17z M68,17h-4 l-5,6l-5-6h-4v18h4l0-12l5,6l5-6l0,12h4V17z M81,32h-6V17h-4v18h10V32z M30,68h57v-9H30V68z" stroke-width="0"></path></svg>
 </a>
   </div>
   <div class="gem-c-attachment__details">
     <h3 class="gem-c-attachment__title">
-      <a class="govuk-link" target="_self" data-ga4-link="{&quot;event_name&quot;:&quot;navigation&quot;,&quot;type&quot;:&quot;attachment&quot;}" href="https://digital-land.github.io/specification/specification/development-plan/">
-      Development plan technical specification (23 January 2026)</a>
+      <a class="govuk-link" target="_self" data-ga4-link="{&quot;event_name&quot;:&quot;navigation&quot;,&quot;type&quot;:&quot;attachment&quot;}" href="https://digital-land.github.io/specification/specification/plan/">
+      Plan technical specification (24 March 2026)</a>
     </h3>
     <p class="gem-c-attachment__metadata"><span class="gem-c-attachment__attribute">
       <p class="gem-c-attachment__metadata gem-c-attachment__metadata--compact">HTML</span></p>

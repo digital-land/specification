@@ -367,6 +367,8 @@ n,,string,,,,permitted-development-rights,,,Permitted development rights,legisla
 1,,string,,,,pipeline,,,Pipeline,identifier,,,,value,,
 n,,string,,,,pipelines,,,Pipelines,pipeline,,,,value,,
 1,,string,,,2024-09-14,plan-boundary-type,,,Plan boundary type,category,,,,category,,
+1,,string,,,,plan-event,,,Plan event,category,,,,category,,
+1,,string,,,,plan,,,Plan,legal-instrument,,,,legal-instrument,,
 1,,string,"A grouping of the planning-application-type i.e. full, householder, change of use",,,planning-application-category,,,Planning application category,category,,,,category,,
 1,,string,,,,planning-application-status,,,Planning application status,category,,,,category,,
 1,,string,,,,planning-application-type,,,Planning application type,category,,,,category,,

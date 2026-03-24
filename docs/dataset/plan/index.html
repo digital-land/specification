@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Local Planning Authority | Planning Data</title>
+    <title>plan | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -92,7 +92,7 @@
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Local Planning Authority</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">plan</li>
     
   
   </ol>
@@ -105,7 +105,7 @@
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
   <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Local Planning Authority</h1>
+  <h1 class="govuk-heading-xl">plan</h1>
   </div>
 </div>
 
@@ -113,19 +113,8 @@
 <div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
     
-    <h2 class="govuk-heading-s" id="description">Description</h2>
-    <p>
-    A Local Planning Authorities and their boundaries.
-    </p>
-    
 
-    <!-- This dataset contains the administrative boundary for each Local Planning Authority (LPA) in England.
-
-It can be used to:
-&lt;ul&gt;
-&lt;li&gt;assist in the production planning and other statistics&lt;/li&gt;
-&lt;li&gt;help find the LPA responsible for a planning application on a map, for example&lt;/li&gt;
-&lt;/ul&gt; -->
+    <!-- This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets. -->
 
     <table class="govuk-table">
       <caption class="govuk-table__caption">Fields</caption>
@@ -138,6 +127,24 @@ It can be used to:
         </tr>
       </thead>
       <tbody class="govuk-table__body">
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_datasets"><a href="../../field/datasets">datasets</a>
+          </td>
+          <td class="govuk-table__cell">Datasets</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_document-count"><a href="../../field/document-count">document-count</a>
+          </td>
+          <td class="govuk-table__cell">Document count</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
     
         
         <tr class="govuk-table__row">
@@ -168,11 +175,29 @@ It can be used to:
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geometry"><a href="../../field/geometry">geometry</a>
+          <td class="govuk-table__cell" id="field_local-plan-boundary"><a href="../../field/local-plan-boundary">local-plan-boundary</a>
           </td>
-          <td class="govuk-table__cell">Geometry</td>
-          <td class="govuk-table__cell"><a href="../../datatype/multipolygon">multipolygon</a></td>
+          <td class="govuk-table__cell">Local plan boundary</td>
+          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
           <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-plan-process"><a href="../../field/local-plan-process">local-plan-process</a>
+          </td>
+          <td class="govuk-table__cell">Local plan process</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_local-planning-authorities"><a href="../../field/local-planning-authorities">local-planning-authorities</a>
+          </td>
+          <td class="govuk-table__cell">Local Planning Authorities</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
         </tr>
     
         
@@ -204,10 +229,28 @@ It can be used to:
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_point"><a href="../../field/point">point</a>
+          <td class="govuk-table__cell" id="field_organisations"><a href="../../field/organisations">organisations</a>
           </td>
-          <td class="govuk-table__cell">Point</td>
-          <td class="govuk-table__cell"><a href="../../datatype/point">point</a></td>
+          <td class="govuk-table__cell">Organisations</td>
+          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">n</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_period-end-date"><a href="../../field/period-end-date">period-end-date</a>
+          </td>
+          <td class="govuk-table__cell">Period end date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
+          <td class="govuk-table__cell">1</td>
+        </tr>
+    
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell" id="field_period-start-date"><a href="../../field/period-start-date">period-start-date</a>
+          </td>
+          <td class="govuk-table__cell">Period start date</td>
+          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -231,10 +274,10 @@ It can be used to:
     
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_region"><a href="../../field/region">region</a>
+          <td class="govuk-table__cell" id="field_required-housing"><a href="../../field/required-housing">required-housing</a>
           </td>
-          <td class="govuk-table__cell">Region</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
+          <td class="govuk-table__cell">Required housing</td>
+          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
           <td class="govuk-table__cell">1</td>
         </tr>
     
@@ -270,18 +313,13 @@ It can be used to:
 
 
     
-    <h2 class="govuk-heading-s" id="guidance">Guidance</h2>
-    <p>A mayoral authority, or other organisation responsible for the designation of a 
-development corporation or other kind of Local Planning Authority can use this 
-specification to provide the boundary of the Local Planning Authority area.</p>
-    
 
     
 
 
     
     <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/geography">geography</a> typology.</p>
+    <p class="govuk-body">This dataset belongs to the <a href="../../typology/legal-instrument">legal-instrument</a> typology.</p>
     
 
     
@@ -291,13 +329,19 @@ specification to provide the boundary of the Local Planning Authority area.</p>
     <p class="govuk-body">This dataset references the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
+      <li><a href="../dataset">Dataset</a></li>
+    
       <li><a href="../entity">Entity</a></li>
+    
+      <li><a href="../local-plan-boundary">Local plan boundary</a></li>
+    
+      <li><a href="../local-plan-process">Local plan process</a></li>
+    
+      <li><a href="../local-planning-authority">Local Planning Authority</a></li>
     
       <li><a href="../organisation">Organisation</a></li>
     
       <li><a href="../prefix">Prefix</a></li>
-    
-      <li><a href="../region">Region</a></li>
     
     </ul>
     
@@ -306,25 +350,7 @@ specification to provide the boundary of the Local Planning Authority area.</p>
     <p class="govuk-body">This dataset is referenced by the following other datasets:</p>
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../development-corporation">Development corporation</a></li>
-    
-      <li><a href="../development-plan">development plan</a></li>
-    
-      <li><a href="../local-authority">Local authority</a></li>
-    
-      <li><a href="../local-plan">Local plan</a></li>
-    
-      <li><a href="../local-plan-boundary">Local plan boundary</a></li>
-    
-      <li><a href="../local-plan-housing">local plan housing number</a></li>
-    
-      <li><a href="../national-park-authority">National park authority</a></li>
-    
-      <li><a href="../organisation">Organisation</a></li>
-    
-      <li><a href="../plan">plan</a></li>
-    
-      <li><a href="../supplementary-plan">local plan</a></li>
+      <li><a href="../plan-timetable">development plan timetable</a></li>
     
     </ul>
     

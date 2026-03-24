@@ -2723,6 +2723,95 @@ phase,entry-date,,,,,,,,
 phase,name,,,,,,,,
 phase,reference,,,,,,,,
 phase,start-date,,,,,,,,
+plan-timetable,plan,plan,associated plan,"Enter the reference of the plan for which this event forms part of its timetable.
+",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""central-lincolnshire""}]",,
+plan-timetable,plan-event,,,"Enter a [plan event](https://www.planning.data.gov.uk/dataset/plan-event) reference
+for each key event or milestone.
+",,,"[{""value"": ""publish-notice-intention-commence""}, {""value"": ""examination-submitted""}, {""value"": ""adopted""}]",,
+plan-timetable,document-url,,,"Provide the URL of a webpage on your website where this information is documented.
+For older plans, this is the Local Development Scheme, which is often a PDF or other document.
+This value may be left blank where the timetable information is published on the `documentation-url` webpage.
+",,,,,
+plan-timetable,documentation-url,,,"Provide the URL of the webpage on your website where this information is documented.
+",,,,,
+plan-timetable,end-date,,date when this event was removed from the timetable,"This field is currently unused in this dataset.
+",,,,,
+plan-timetable,entity,entity,,,,,,,
+plan-timetable,entry-date,,,,,,,,
+plan-timetable,event-date,,predicted date for the event,"Enter the date when this event will happen.
+",,,,,
+plan-timetable,predicted-date,,predicted date for the event,"Enter the date when this event is expected to happen.
+",,"New local plans require a single, precise date.
+When recording events for older schemes where the predicted date is a range, you may record an approximate date for the period.
+","[{""value"": ""2027-01-01""}]",,
+plan-timetable,name,,,,,,,,
+plan-timetable,notes,,,,,,,,
+plan-timetable,organisation,organisation,,,,,,,
+plan-timetable,prefix,prefix,,,,,,,
+plan-timetable,reference,,,"Give each event a unique reference.
+",,,"[{""value"": ""LP1-public-consultation""}, {""value"": ""LP1-public-consultation-2025""}]",,
+plan-timetable,actual-date,,date of the timetable event,"Enter the date when the timetable event happened. Leave this field blank when the event is in the future.
+",,,,,
+plan-timetable,start-date,,date of the timetable event,,,"This value is defaulted from the `actual-date` value.
+",,,
+plan,datasets,,,"Enter one of the following values to show the type of plan or plan document:
+
+* `local-plan`
+* `supplementary-plan`
+* `minerals-plan`
+* `waste-plan`
+
+If your plan includes multiple types, enter the list of types and separate each of them with a semi-colon.
+",,,"[{""value"": ""local-plan""}, {""value"": ""waste-plan""}, {""value"": ""minerals-plan;waste-plan""}, {""value"": ""local-plan;minerals-plan""}, {""value"": ""local-plan;minerals-plan;waste-plan""}]",,
+plan,document-count,,,"Enter the number of documents which collectively form the plan. This field is only required for a minerals and waste plan.
+",,,,,
+plan,documentation-url,,local plan documentation page,"Enter the URL of the webpage which links to your main or core plan document.
+
+If there are several plans listed on a single webpage, you can use an anchor link (fragment identifier) 
+to make the `documentation-url` value for each plan unique.
+",,,"[{""value"": ""https://eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2011""}, {""value"": ""https://example.com/local-plans/#example-local-plan-2024""}]",,
+plan,document-url,,local plan core document,"Enter the URL for the main or core plan document, which is usually a PDF file.
+
+If you do not have a main or core plan document on the day you publish your data, leave this field blank.
+",,,"[{""value"": ""https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf""}]",,
+plan,end-date,,date a local plan was withdrawn or revoked,"Enter the date the local plan was withdrawn or revoked, otherwise leave this field blank.
+",,,,,
+plan,entity,entity,,,,,,,
+plan,entry-date,,,,,,,,
+plan,local-plan-boundary,local-plan-boundary,area covered by the local plan,This area is created by the planning data platform from the local-planning-authorites values.,,,,,
+plan,local-plan-process,local-plan-process,examination process under which this local plan was or is being produced,"Indicate the local plan examination process for the local plan using one of the following values:
+
+* `2012` for plans prepared under the Town and Country Planning (Local Planning) (England) Regulations 2012, including transitional arrangements
+* `2026` for plans prepared under *new Local Planning Regulations (TBD)*
+",,,,,
+plan,local-planning-authorities,,local planning authority areas covered by the local plan,"Enter the GSS code for the 
+[Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority)
+area that this local or supplementary plan covers.
+For a joint local plan, enter the list of references and separate each of them by with a semi-colon.
+",,,"[{""value"": ""E60000001""}, {""value"": ""E60000132;E60000133;E60000135;E60000136""}]",,
+plan,name,,local plan name,Use the title of the local plan document.,,,"[{""value"": ""York Local Plan""}, {""value"": ""Plymouth and South West Devon Joint Local Plan""}]",,
+plan,notes,,,"You may provide notes on how you made this data to help users differentiate the plan from others with a similar name.
+",,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
+plan,organisation,organisation,,,,,,,
+plan,organisations,,organisations responsible for this local plan,This value is populated by the Planning Data platform.,,,"[{""value"": ""local-authority:DUR""}, {""value"": ""national-park-authority:Q72617158""}, {""value"": ""local-authority:LIC;local-authority:NKE;local-authority:WLI""}]",,
+plan,period-end-date,,end date of the period the plan covers,Enter the end of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2038}, {""value"": 2040}]",,
+plan,period-start-date,,start date of the period the plan covers,Enter the start of the plan period. This is usually just a year in `YYYY` format.,,,"[{""value"": 2026}, {""value"": 2027}]",,
+plan,prefix,prefix,,,,,,,
+plan,reference,,local plan reference,"Give each local plan a unique reference.
+",,,"[{""value"": ""barnet-local-plan-2021-2036""}, {""value"": ""hertfordshire-minerals-and-waste-plan""}, {""value"": ""essex-minerals-plan""}, {""value"": ""essex-waste-plan""}]",,
+plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide during the plan period.  
+
+You must provide your required-housing when you launch your consultation on
+your proposed local plan. You must update your required-housing when you:
+
+* submit your plan for examination
+* publish the examiner’s recommendations and reasons
+* publish your adopted local plan
+",,,"[{""value"": 10852}, {""value"": 10012}]",,
+plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
+This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
+Leave this value blank for plans which are being prepared, or haven't yet been adopted.
+",,,,,
 planning-application-category,end-date,,,,,,,,
 planning-application-category,entity,entity,,,,,,,
 planning-application-category,entry-date,,,,,,,,

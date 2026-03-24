@@ -376,6 +376,57 @@ crown-copyright,legislation,permitted-development-rights,permitted-development-r
 Each right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.
 This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",development,category,,
 crown-copyright,,,phase,phase of development,,,,,,,,ogl3,Phase,,Phases,beta,,specification,,,,specification,category,,
+crown-copyright,,development-plans-and-timetables,plan-timetable,log of past and future milestones and events when producing a plan,,2026-03-24,26,"Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'. 
+
+Your timetable must include an `event-date` for when you intend to meet the `plan-event`.
+Find out when you need to update the entry to include the actual date in the actual-date field. 
+
+For local plans or minerals and waste plans, your timetable must include an entry for each of the following `plan-event` field values: 
+
+* publish-notice-intention-commence 
+* scoping-consultation-start 
+* scoping-consultation-end 
+* gateway-1-self-assessment 
+* plan-content-evidence-consultation-start 
+* plan-content-evidence-consultation-end 
+* gateway-2-advice-sought 
+* proposed-plan-consultation-start 
+* proposed-plan-consultation-end 
+* gateway-3-advice-sought 
+* examination-submitted 
+* adopted 
+
+For minerals and waste plans with multiple documents, 
+your timetable must include an entry for each of the `plan-event` field values for each minerals and waste plan document. 
+
+For supplementary plans, your local plan timetable or minerals and waste plan timetable must include an entry with the following plan-event field values: 
+
+* publish-notice-intention-commence 
+* proposed-plan-consultation-start 
+* proposed-plan-consultation-end 
+* examination-submitted 
+* adopted 
+
+Your local plan timetable or minerals and waste plan timetable must also include rows with an `actual-date` value to set out when any of the following events happen: 
+
+* gateway-2-advice-published 
+* gateway-3-advice-published 
+* examination-recommendations-published 
+* main-modification-consultation-start 
+* main-modification-consultation-end 
+* examination-pause-start 
+* examination-pause-end 
+* additional-consultation-start 
+* additional-consultation-end 
+* withdrawn 
+* revoked 
+
+If you repeat Gateway 3, you must include these events in your timetable: 
+
+* gateway-3-further-advice-sought 
+* gateway-3-further-advice-published
+",,5260000,5269999,ogl3,development plan timetable,,development plan timetables,alpha,,dataset,,,,development,timetable,,
+crown-copyright,,development-plans-and-timetables,plan,,,2026-03-24,26,,,,,ogl3,plan,,plans,alpha,,dataset,,,"This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",development,legal-instrument,Q5266783,Development_plan
 crown-copyright,,planning-applications-decisions,planning-application-category,"A planning application category is a high level categorisation of the type of planning application, such as ""householder"" or ""full planning application""",,2023-09-14,25,,,3900000,3999999,ogl3,Planning application category,,Planning application categories,alpha,,dataset,,,,housing;monitoring,category,,
 crown-copyright,planning-condition,planning-conditions,planning-application-condition,A record of which conditions apply to which planning applications,,,40,,,71000000,72999999,ogl3,Planning application condition,,Planning application conditions,alpha,,dataset,,,,housing;monitoring,policy,,
 crown-copyright,,planning-applications-decisions,planning-application-document,,,,25,,,200000000,299999999,ogl3,Planning application document,,Planning application documents,alpha,,dataset,,,,development,document,,

@@ -1,10 +1,10 @@
 ---
-title: Publish your development plan data
-name: development plan
+title: Publish your plan data
+name: plan
 url: 
 summary: 
-entry-date: 2026-01-23
-updated: 23 January 2026
+entry-date: 2026-03-24
+updated: 24 March 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -13,13 +13,13 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: https://digital-land.github.io/specification/specification/development-plan/
-  name: 'Development plan technical specification (23 January 2026)'
+- url: https://digital-land.github.io/specification/specification/plan/
+  name: 'Plan technical specification (24 March 2026)'
   attachment-type: HTML
   start-date: 
 ---
 
-^Follow this guidance when providing your development plan data.^
+^Follow this guidance when providing your plan data.^
 
 <p>You must follow the approved data standard to meet the requirements of the <a href="#TBC">Planning Data (England) Regulations 2026</a>,
 which will help you to meet the requirements of the 
@@ -38,7 +38,7 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 * understand its quality, meaning and purpose
 * trust it will be accurate and maintained
 
-## Providing your development plan data
+## Providing your plan data
 
 Take the following steps to provide your local plan, minerals and waste plan, and supplementary plan data:
 
@@ -74,7 +74,7 @@ You must provide data for the mandatory fields identified.
 
 For local plans, minerals and waste plans, and supplementary plans you need to provide 2 datasets:
 
-* [Development plan](#developmentplan-dataset)
+* [Plan](#plan-dataset)
 * [Development plan timetable](#developmentplantimetable-dataset)
 
 
@@ -121,7 +121,7 @@ All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [for
 
 
 
-## Development plan dataset
+## Plan dataset
 
 
 
@@ -129,13 +129,13 @@ All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [for
 
 ### Mandatory fields
 
-Your development plan data must contain the following fields:
+Your plan data must contain the following fields:
 
 
 
 * `reference`
 * `name`
-* `dataset`
+* `datasets`
 * `period-start-date`
 * `period-end-date`
 * `documentation-url`
@@ -150,10 +150,10 @@ Give each local plan a unique reference.
 
 For example:
 
-* <code class="value">LP-BRX-2024</code>
-* <code class="value">34069/County-Durham-Plan</code>
-* <code class="value">central-lincolnshire</code>
 * <code class="value">barnet-local-plan-2021-2036</code>
+* <code class="value">hertfordshire-minerals-and-waste-plan</code>
+* <code class="value">essex-minerals-plan</code>
+* <code class="value">essex-waste-plan</code>
 
 
 ### name
@@ -161,18 +161,28 @@ For example:
 Use the title of the local plan document.
 For example:
 
-* <code class="value">County Durham Plan</code>
-* <code class="value">South Oxfordshire Joint Local Plan</code>
+* <code class="value">York Local Plan</code>
+* <code class="value">Plymouth and South West Devon Joint Local Plan</code>
 
 
-### dataset
+### datasets
 
-Enter one of the following values to show the type of development plan:
+Enter one of the following values to show the type of plan or plan document:
 
 * `local-plan`
 * `supplementary-plan`
 * `minerals-plan`
 * `waste-plan`
+
+If your plan includes multiple types, enter the list of types and separate each of them with a semi-colon.
+
+For example:
+
+* <code class="value">local-plan</code>
+* <code class="value">waste-plan</code>
+* <code class="value">minerals-plan;waste-plan</code>
+* <code class="value">local-plan;minerals-plan</code>
+* <code class="value">local-plan;minerals-plan;waste-plan</code>
 
 
 ### period-start-date
@@ -224,7 +234,7 @@ Enter the date you created or modified the data.
 
 ### Conditional fields
 
-Your development plan data must also contain the following fields where they apply:
+Your plan data must also contain the following fields where they apply:
 
 
 
@@ -303,7 +313,7 @@ Enter the number of documents which collectively form the plan. This field is on
 
 ### Optional fields
 
-Your development plan data may also contain the following fields:
+Your plan data may also contain the following fields:
 
 
 
@@ -321,51 +331,55 @@ For example:
 ## Development plan timetable dataset
 
 
-Your timetable must include an `event-date` for when you intend to meet the relevant stage of plan-making.
-Update the entry to include the actual date in the `actual-date` field when the event takes place.
+Record the key events in the timetable when producing your plan, these are sometimes also called &#39;milestones&#39;. 
 
-For local plans, minerals and waste plans your timetable must include an entry for each of the
-following `development-plan-event` field values where applicable:
+Your timetable must include an `event-date` for when you intend to meet the `plan-event`.
+Find out when you need to update the entry to include the actual date in the actual-date field. 
 
-* `publish-notice-intention-commence`
-* `scoping-consultation-start`
-* `scoping-consultation-end`
-* `gateway-1-self-assessment`
-* `plan-content-evidence-consultation-start`
-* `plan-content-evidence-consultation-end`
-* `gateway-2-advice-sought`
-* `proposed-plan-consultation-start`
-* `proposed-plan-consultation-end`
-* `gateway-3-advice-sought`
-* `examination-submitted`
-* `adopted`
+For local plans or minerals and waste plans, your timetable must include an entry for each of the following `plan-event` field values: 
 
-If you are also creating a supplementary plan, your local or minerals and waste plans timetable
-must include an entry with the following development-plan-event fields where applicable:
+* publish-notice-intention-commence 
+* scoping-consultation-start 
+* scoping-consultation-end 
+* gateway-1-self-assessment 
+* plan-content-evidence-consultation-start 
+* plan-content-evidence-consultation-end 
+* gateway-2-advice-sought 
+* proposed-plan-consultation-start 
+* proposed-plan-consultation-end 
+* gateway-3-advice-sought 
+* examination-submitted 
+* adopted 
 
-* `publish-notice-intention-commence`
-* `proposed-plan-consultation-start`
-* `proposed-plan-consultation-end`
-* `examination-submitted`
-* `adopted`
+For minerals and waste plans with multiple documents, 
+your timetable must include an entry for each of the `plan-event` field values for each minerals and waste plan document. 
 
-Your development plan timetable must also include rows with dates if any of the following events apply:
+For supplementary plans, your local plan timetable or minerals and waste plan timetable must include an entry with the following plan-event field values: 
 
-* `gateway-3-repeat-advice-published`
-* `examination-recommendations-published`
-* `main-modification-consultation-start`
-* `main-modification-consultation-end`
-* `examination-pause-start`
-* `examination-pause-end`
-* `additional-consultation-start`
-* `additional-consultation-end`
-* `withdrawn`
-* `revoked`
+* publish-notice-intention-commence 
+* proposed-plan-consultation-start 
+* proposed-plan-consultation-end 
+* examination-submitted 
+* adopted 
 
-If you repeat Gateway 3, you must include these events in your timetable:
+Your local plan timetable or minerals and waste plan timetable must also include rows with an `actual-date` value to set out when any of the following events happen: 
 
-* `gateway-3-further-advice-sought`
-* `gateway-3-advice-published`
+* gateway-2-advice-published 
+* gateway-3-advice-published 
+* examination-recommendations-published 
+* main-modification-consultation-start 
+* main-modification-consultation-end 
+* examination-pause-start 
+* examination-pause-end 
+* additional-consultation-start 
+* additional-consultation-end 
+* withdrawn 
+* revoked 
+
+If you repeat Gateway 3, you must include these events in your timetable: 
+
+* gateway-3-further-advice-sought 
+* gateway-3-further-advice-published
 
 
 
@@ -378,8 +392,8 @@ Your development plan timetable data must contain the following fields:
 
 
 * `reference`
-* `development-plan`
-* `development-plan-event`
+* `plan`
+* `plan-event`
 * `event-date`
 * `entry-date`
 
@@ -395,9 +409,9 @@ For example:
 * <code class="value">LP1-public-consultation-2025</code>
 
 
-### development-plan
+### plan
 
-Enter the reference of the development plan which this event forms part of its timetable.
+Enter the reference of the plan for which this event forms part of its timetable.
 
 For example:
 
@@ -405,9 +419,9 @@ For example:
 * <code class="value">central-lincolnshire</code>
 
 
-### development-plan-event
+### plan-event
 
-Enter a [Development Plan Event](https://www.planning.data.gov.uk/dataset/development-plan-event) reference
+Enter a [plan event](https://www.planning.data.gov.uk/dataset/plan-event) reference
 for each key event or milestone.
 
 For example:
