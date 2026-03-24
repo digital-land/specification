@@ -219,11 +219,22 @@ COHORT_CSV=specification/cohort.csv
 AWARD_CSV=specification/award.csv
 PROJECT_ORGANISATION_FILES=\
 	var/project-organisation/local-land-charges.csv\
+	var/project-organisation/local-plans-rollout.csv\
 	var/project-organisation/localgov-drupal.csv\
 	var/project-organisation/open-digital-planning.csv
 
 specification/project-organisation.csv:	$(PROJECT_ORGANISATION_FILES) bin/project-organisation.py
 	python3 bin/project-organisation.py $@ $(PROJECT_ORGANISATION_FILES)
+
+#
+# new local plans rollout ...
+var/project-organisation/local-plans-rollout.csv: var/cache/local-plans-rollout.html $(ORGANISATION_CSV) bin/local-plans-rollout-parse.py
+	@mkdir -p $(dir $@)
+	python3 bin/local-plans-rollout-parse.py var/cache/local-plans-rollout.html $@
+
+var/cache/local-plans-rollout.html:
+	@mkdir -p $(dir $@)
+	curl -L 'https://www.gov.uk/government/publications/rollout-of-the-new-local-plan-making-system/rollout-of-the-new-local-plan-making-system' > $@
 
 
 # local land charges programme ..
