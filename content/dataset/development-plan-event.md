@@ -2,8 +2,8 @@
 attribution: crown-copyright
 collection: 'local-plan'
 consideration: development-plans-and-timetables
-dataset: development-plan-event
-description: The different event types in a development plan timetable
+dataset: plan-event
+description: The different event types in a plan timetable
 end-date: ''
 entity-maximum: '2999999'
 entity-minimum: '2950000'
@@ -21,10 +21,10 @@ fields:
 github-discussion: 26
 key-field: ''
 licence: ogl3
-name: Development plan event
+name: Plan event
 paint-options: ''
 phase: alpha
-plural: Development plan events
+plural: Plan events
 prefix: ''
 realm: dataset
 replacement-dataset: ''
