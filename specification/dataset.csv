@@ -134,11 +134,10 @@ crown-copyright,local-plan,development-plans-and-timetables,development-plan-doc
 crown-copyright,local-plan,development-plans-and-timetables,development-plan-document,documents associated with a development plan,,2026-01-19,26,"Provide a list of documents associated with your development plan.
 Add a separate row with a link to each document on your website.
 ",,3800000,3899999,ogl3,Development plan document,,Development plan documents,alpha,,dataset,,,,development,document,,
-crown-copyright,local-plan,development-plans-and-timetables,development-plan-event,The different event types in a development plan timetable,,2023-09-14,26,,,2950000,2999999,ogl3,Development plan event,,Development plan events,alpha,,dataset,,,,development,category,,
 crown-copyright,,development-plans-and-timetables,development-plan-geography-type,A type of geography that a development plan covers,2024-07-12,2023-09-21,26,,,0,0,ogl3,Development plan geography type,,Development plan geography types,alpha,,dataset,development-plan-boundary-type,,,development,category,,
 crown-copyright,,development-plans-and-timetables,development-plan-geography,A geography that a development plan covers,2024-07-12,2023-09-19,26,,,0,0,ogl3,Development plan geography,,Development plan geographies,alpha,,dataset,development-plan-boundary,,,development,geography,,
 crown-copyright,,development-plans-and-timetables,development-plan-status,The different statuses a plan can have,2023-10-23,,26,,,5000000,5099999,ogl3,Development plan status,,Development plan statuses,alpha,,dataset,,,,development,category,,
-crown-copyright,local-plan,development-plans-and-timetables,development-plan-timetable,log of past and committed milestones and events when producing a development plan,,2026-01-19,26,"Your timetable must include an `event-date` for when you intend to meet the relevant stage of plan-making.
+crown-copyright,,development-plans-and-timetables,development-plan-timetable,log of past and committed milestones and events when producing a development plan,,2026-01-19,26,"Your timetable must include an `event-date` for when you intend to meet the relevant stage of plan-making.
 Update the entry to include the actual date in the `actual-date` field when the event takes place.
 
 For local plans, minerals and waste plans your timetable must include an entry for each of the
@@ -183,7 +182,7 @@ If you repeat Gateway 3, you must include these events in your timetable:
 
 * `gateway-3-further-advice-sought`
 * `gateway-3-advice-published`
-",,5100000,5199999,ogl3,development plan timetable,,development plan timetables,alpha,,dataset,,,,development,timetable,,
+",,5260000,5269999,ogl3,development plan timetable,,development plan timetables,alpha,,dataset,,,,development,timetable,,
 crown-copyright,,development-plans-and-timetables,development-plan-type,,,,26,,,5200000,5259999,ogl3,Development plan type,,Development plan types,alpha,,dataset,,,,development,category,,
 crown-copyright,,development-plans-and-timetables,development-plan,,,,26,,,,,ogl3,development plan,,development plans,alpha,,dataset,,,"This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",development,legal-instrument,Q5266783,Development_plan
 crown-copyright,,local-plan-policies,development-policy-area,,,,,,,5300000,5399999,ogl3,Development policy area,,Development policy areas,alpha,,dataset,,,,development,geography,,
@@ -376,7 +375,8 @@ crown-copyright,legislation,permitted-development-rights,permitted-development-r
 Each right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.
 This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",development,category,,
 crown-copyright,,,phase,phase of development,,,,,,,,ogl3,Phase,,Phases,beta,,specification,,,,specification,category,,
-crown-copyright,,development-plans-and-timetables,plan-timetable,log of past and future milestones and events when producing a plan,,2026-03-24,26,"Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'. 
+crown-copyright,local-plan,development-plans-and-timetables,plan-event,The different event types in a plan timetable,,2023-09-14,26,,,2950000,2999999,ogl3,Plan event,,Plan events,alpha,,dataset,,,,development,category,,
+crown-copyright,local-plan,development-plans-and-timetables,plan-timetable,log of past and future milestones and events when producing a plan,,2026-03-24,26,"Record the key events in the timetable when producing your plan, these are sometimes also called 'milestones'. 
 
 Your timetable must include an `event-date` for when you intend to meet the `plan-event`.
 Find out when you need to update the entry to include the actual date in the actual-date field. 
@@ -425,7 +425,7 @@ If you repeat Gateway 3, you must include these events in your timetable:
 
 * gateway-3-further-advice-sought 
 * gateway-3-further-advice-published
-",,5260000,5269999,ogl3,development plan timetable,,development plan timetables,alpha,,dataset,,,,development,timetable,,
+",,5100000,5199999,ogl3,development plan timetable,,development plan timetables,alpha,,dataset,,,,development,timetable,,
 crown-copyright,,development-plans-and-timetables,plan,,,2026-03-24,26,,,,,ogl3,plan,,plans,alpha,,dataset,,,"This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",development,legal-instrument,Q5266783,Development_plan
 crown-copyright,,planning-applications-decisions,planning-application-category,"A planning application category is a high level categorisation of the type of planning application, such as ""householder"" or ""full planning application""",,2023-09-14,25,,,3900000,3999999,ogl3,Planning application category,,Planning application categories,alpha,,dataset,,,,housing;monitoring,category,,
 crown-copyright,planning-condition,planning-conditions,planning-application-condition,A record of which conditions apply to which planning applications,,,40,,,71000000,72999999,ogl3,Planning application condition,,Planning application conditions,alpha,,dataset,,,,housing;monitoring,policy,,
