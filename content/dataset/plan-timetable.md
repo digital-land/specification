@@ -1,12 +1,12 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: 'local-plan'
 consideration: development-plans-and-timetables
 dataset: plan-timetable
 description: log of past and future milestones and events when producing a plan
 end-date: ''
-entity-maximum: '5269999'
-entity-minimum: '5260000'
+entity-maximum: '5199999'
+entity-minimum: '5100000'
 entry-date: '2026-03-24'
 fields:
 - field: plan
