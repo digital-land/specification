@@ -123,10 +123,10 @@ guidance: |
 
 key-field: ''
 licence: ogl3
-name: development plan timetable
+name: plan timetable
 paint-options: ''
 phase: alpha
-plural: development plan timetables
+plural: plan timetables
 prefix: ''
 realm: dataset
 replacement-dataset: ''
