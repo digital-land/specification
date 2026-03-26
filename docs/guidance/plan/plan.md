@@ -75,7 +75,7 @@ You must provide data for the mandatory fields identified.
 For local plans, minerals and waste plans, and supplementary plans you need to provide 2 datasets:
 
 * [Plan](#plan-dataset)
-* [Development plan timetable](#developmentplantimetable-dataset)
+* [Plan timetable](#plantimetable-dataset)
 
 
 
@@ -328,7 +328,7 @@ You may provide notes on how you made this data to help users differentiate the 
 For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
-## Development plan timetable dataset
+## Plan timetable dataset
 
 
 Record the key events in the timetable when producing your plan, these are sometimes also called &#39;milestones&#39;. 
@@ -387,7 +387,7 @@ If you repeat Gateway 3, you must include these events in your timetable:
 
 ### Mandatory fields
 
-Your development plan timetable data must contain the following fields:
+Your plan timetable data must contain the following fields:
 
 
 
@@ -442,7 +442,7 @@ Enter the date you created or modified the data.
 
 ### Conditional fields
 
-Your development plan timetable data must also contain the following fields where they apply:
+Your plan timetable data must also contain the following fields where they apply:
 
 
 
@@ -461,7 +461,7 @@ Enter the date when the timetable event happened. Leave this field blank when th
 
 ### Optional fields
 
-Your development plan timetable data may also contain the following fields:
+Your plan timetable data may also contain the following fields:
 
 
 

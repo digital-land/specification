@@ -469,7 +469,7 @@ h1, h2::before, h3::before, h4::before {
 
     <table class="govuk-table">
     <caption class="govuk-table__caption govuk-table__caption--m" id="plan-timetable__fields">
-    Development plan timetable
+    Plan timetable
 </caption>
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
@@ -971,17 +971,17 @@ h1, h2::before, h3::before, h4::before {
     
 
     <h3 id="plan-timetable-dataset" class="govuk-heading-m">
-    Development plan timetable
+    Plan timetable
 </h3>
     <p class="description">
     The 
-    Development plan timetable
+    Plan timetable
  dataset contains 
     log of past and future milestones and events when producing a plan.
 
     </p>
 
-    <p class="assertion">The development plan timetable dataset MUST contain at least one entry for each development plan timetable for which the data provider is the responsible authority.</p>
+    <p class="assertion">The plan timetable dataset MUST contain at least one entry for each plan timetable for which the data provider is the responsible authority.</p>
     
     
 
@@ -994,10 +994,10 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
 
-    <p class="assertion">Each development plan timetable entry MUST contain 
+    <p class="assertion">Each plan timetable entry MUST contain 
     a 
     <code class="field">reference</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">reference</code> field MUST be
+    <p class="assertion">The plan timetable <code class="field">reference</code> field MUST be
     a 
     <a href="#datatype-reference">reference</a> value.</p>
 
@@ -1022,10 +1022,10 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each development plan timetable entry MUST contain 
+    <p class="assertion">Each plan timetable entry MUST contain 
     a 
     <code class="field">plan</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">plan</code> field MUST be
+    <p class="assertion">The plan timetable <code class="field">plan</code> field MUST be
     a 
     <a href="#datatype-string">string</a> value.</p>
 
@@ -1045,14 +1045,14 @@ h1, h2::before, h3::before, h4::before {
 
     <!- brute force for now, needs an index -->
 
-    <p class="assertion">Each development plan timetable entry MUST contain 
+    <p class="assertion">Each plan timetable entry MUST contain 
     a 
     <code class="field">plan-event</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">plan-event</code> field MUST be
+    <p class="assertion">The plan timetable <code class="field">plan-event</code> field MUST be
     a 
     <a href="#datatype-string">string</a> value.</p>
 
-    <p class="assertion">Each development plan timetable entry MUST contain a <code class="field">reference</code> value from the 
+    <p class="assertion">Each plan timetable entry MUST contain a <code class="field">reference</code> value from the 
     <a href="https://planning.data.gov.uk/dataset/plan-event">plan-event dataset.</a>
     </p></li>
 
@@ -1075,10 +1075,10 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each development plan timetable entry MUST contain 
+    <p class="assertion">Each plan timetable entry MUST contain 
     an 
     <code class="field">event-date</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">event-date</code> field MUST be
+    <p class="assertion">The plan timetable <code class="field">event-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
@@ -1103,10 +1103,10 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each development plan timetable entry CONDITIONAL contain 
+    <p class="assertion">Each plan timetable entry CONDITIONAL contain 
     an 
     <code class="field">actual-date</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">actual-date</code> field MUST be
+    <p class="assertion">The plan timetable <code class="field">actual-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
@@ -1130,10 +1130,10 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each development plan timetable entry MUST contain 
+    <p class="assertion">Each plan timetable entry MUST contain 
     an 
     <code class="field">entry-date</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">entry-date</code> field MUST be
+    <p class="assertion">The plan timetable <code class="field">entry-date</code> field MUST be
     a 
     <a href="#datatype-datetime">datetime</a> value.</p>
 
@@ -1157,10 +1157,10 @@ h1, h2::before, h3::before, h4::before {
 
 </p>
 
-    <p class="assertion">Each development plan timetable entry MAY contain 
+    <p class="assertion">Each plan timetable entry MAY contain 
     a 
     <code class="field">notes</code> field value.</p>
-    <p class="assertion">The development plan timetable <code class="field">notes</code> field MUST be
+    <p class="assertion">The plan timetable <code class="field">notes</code> field MUST be
     a 
     <a href="#datatype-text">text</a> value.</p>
 
@@ -1211,7 +1211,7 @@ h1, h2::before, h3::before, h4::before {
     
     <p class="assertion">
     The endpoint documentation MUST include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
-    <a href="#plan-timetable-dataset">development plan timetable</a> data.
+    <a href="#plan-timetable-dataset">plan timetable</a> data.
     </p>
     
 
