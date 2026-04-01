@@ -19,6 +19,7 @@ for o in [
     "Bridgend County Borough Council",
     "Vale of Glamorgan Council",
     "Wrexham County Borough Council",
+    "Denbighshire County Council",
 ]:
     organisations.setdefault(o, {"organisation": ""})
 
