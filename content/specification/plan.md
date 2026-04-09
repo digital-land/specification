@@ -40,14 +40,11 @@ datasets:
             datasets:
                 - local-plan
                 - supplementary-plan
-          - field: mineral-planning-authorities
-            requirement-level: CONDITIONAL
-            datasets:
-                - minerals-plan
-          - field: waste-planning-authorities
+          - field: minerals-and-waste-planning-authorities
             requirement-level: CONDITIONAL
             datasets:
                 - waste-plan
+                - minerals-plan
           - field: documentation-url
             requirement-level: MUST
           - field: document-url

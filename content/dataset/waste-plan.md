@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: local-plan
 consideration: waste-plans
 dataset: waste-plan
-description: 'waste plans prepared by a Mineral Planning Authority'
+description: 'waste plans prepared by a Minerals and Waste Planning Authority'
 end-date: ''
 entity-maximum: '549999'
 entity-minimum: '540000'
@@ -19,11 +19,11 @@ fields:
 - field: entry-date
 - field: local-plan-process
 - field: waste-plan-boundary
-- field: waste-planning-authorities
-  description: waste planning authority areas covered by the waste plan
+- field: minerals-and-waste-planning-authorities
+  description: minerals and waste planning authority areas covered by the waste plan
   guidance: |
     Enter the GSS code for the 
-    [Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
+    [Minerals and Waste Planning Authority](https://www.planning.data.gov.uk/dataset/minerals-and-waste-planning-authority)
     area that this local or supplementary plan covers.
     For a joint waste plan, enter the list of references and separate each of them with a semi-colon.
   examples:

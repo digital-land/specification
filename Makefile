@@ -265,8 +265,7 @@ var/project-organisation/open-digital-planning.csv: $(COHORT_CSV) $(AWARD_CSV) $
 
 # TBD: check anchors in every html file ..
 render::
-	python3 bin/check-anchors.py docs/specification/local-plan/index.html
-	python3 bin/check-anchors.py docs/specification/local-plan-timetable/index.html
+	python3 bin/check-anchors.py docs/specification/plan/index.html
 
 
 TESTING_DIR:=../testing-guidance/content/
