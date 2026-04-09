@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 
+collection: local-plan
 consideration: supplementary-plan
 dataset: supplementary-plan
 description: 'supplementary local plans prepared by a Local Planning Authority'
@@ -31,10 +31,10 @@ guidance: |
     List the supplementary local plans you are responsible for with one row for each current, emerging or historical supplementary local plan.
 key-field: ''
 licence: ogl3
-name: local plan
+name: supplemntary plan
 paint-options: ''
 phase: alpha
-plural: local plans
+plural: supplementary plans
 prefix: ''
 realm: dataset
 -dataset: ''
