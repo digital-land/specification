@@ -15,6 +15,7 @@ fields:
   guidance: |
       The `start-date` field indicates when a plan came into force, that is adopted.
 - field: dataset
+- field: description
 - field: documentation-url
   description: local plan documentation page
   definition: URL of the [Source documentation](#source-documentation) page

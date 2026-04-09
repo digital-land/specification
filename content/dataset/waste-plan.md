@@ -10,6 +10,7 @@ entity-minimum: '540000'
 entry-date: '2025-11-14'
 fields:
 - field: dataset
+- field: description
 - field: document-count
 - field: documentation-url
 - field: document-url

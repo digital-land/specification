@@ -27,6 +27,8 @@ datasets:
                 - reference: plan-A001
                   requirement-level: SHOULD
                   text: 'match the title of the document at `document-url`.'  
+          - field: description
+            requirement-level: MUST
           - field: datasets
             requirement-level: MUST
           - field: period-start-date

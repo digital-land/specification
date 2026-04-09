@@ -24,6 +24,9 @@ fields:
     - value: local-plan;minerals-plan 
     - value: local-plan;minerals-plan;waste-plan
 
+- field: description
+  guidance: |
+     Enter a description of the matters which the plan deals with.
 - field: document-count
   guidance: |
       Enter the number of documents which collectively form the plan. This field is only required for a minerals and waste plan.
