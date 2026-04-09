@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Region | Planning Data</title>
+    <title>Minerals and Waste Planning Authorities | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -87,12 +87,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
+      <a class="govuk-breadcrumbs__link" href="../">Field</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Region</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Minerals and Waste Planning Authorities</li>
     
   
   </ol>
@@ -104,206 +104,72 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Region</h1>
+  <span class="govuk-caption-xl">Field</span>
+  <h1 class="govuk-heading-xl">Minerals and Waste Planning Authorities</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
-    
-
-    <!-- The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this
-data for the purposes of producing statistics. -->
-
     <table class="govuk-table">
-      <caption class="govuk-table__caption">Fields</caption>
-      <thead class="govuk-table__head">
-        <tr class="govuk-table__row">
-          <th scope="col" class="govuk-table__header">Field</th>
-          <th scope="col" class="govuk-table__header">Name</th>
-          <th scope="col" class="govuk-table__header">Datatype</th>
-          <th scope="col" class="govuk-table__header">Cardinality</th>
-        </tr>
-      </thead>
       <tbody class="govuk-table__body">
-    
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Name</th>
+          <td class="govuk-table__cell">Minerals and Waste Planning Authorities</td>
+        </tr>
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Field</th>
+          <td class="govuk-table__cell">minerals-and-waste-planning-authorities</td>
+        </tr>
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_region"><a href="../../field/region">region</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">Region</td>
+          <th scope="row" class="govuk-table__header">Datatype</th>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
-          </td>
-          <td class="govuk-table__cell">Documentation URL</td>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
-          <td class="govuk-table__cell">1</td>
+          <th scope="row" class="govuk-table__header">Cardinality</th>
+          <td class="govuk-table__cell">n</td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_entity"><a href="../../field/entity">entity</a>
-          </td>
-          <td class="govuk-table__cell">Entity</td>
-          <td class="govuk-table__cell"><a href="../../datatype/integer">integer</a></td>
-          <td class="govuk-table__cell">1</td>
+          <th scope="row" class="govuk-table__header">Parent field</th>
+          <td class="govuk-table__cell"><a href="../minerals-and-waste-planning-authority">minerals-and-waste-planning-authority</a></td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_geometry"><a href="../../field/geometry">geometry</a>
-          </td>
-          <td class="govuk-table__cell">Geometry</td>
-          <td class="govuk-table__cell"><a href="../../datatype/multipolygon">multipolygon</a></td>
-          <td class="govuk-table__cell">1</td>
+          <th scope="row" class="govuk-table__header">Typology</th>
+          <td class="govuk-table__cell"><a href="../../typology/geography">geography</a></td>
         </tr>
-    
         
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_name"><a href="../../field/name">name</a>
-          </td>
-          <td class="govuk-table__cell">Name</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_notes"><a href="../../field/notes">notes</a>
-          </td>
-          <td class="govuk-table__cell">Notes</td>
-          <td class="govuk-table__cell"><a href="../../datatype/text">text</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_organisation"><a href="../../field/organisation">organisation</a>
-          </td>
-          <td class="govuk-table__cell">Organisation</td>
-          <td class="govuk-table__cell"><a href="../../datatype/curie">curie</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_point"><a href="../../field/point">point</a>
-          </td>
-          <td class="govuk-table__cell">Point</td>
-          <td class="govuk-table__cell"><a href="../../datatype/point">point</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_prefix"><a href="../../field/prefix">prefix</a>
-          </td>
-          <td class="govuk-table__cell">CURIE prefix</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_reference"><a href="../../field/reference">reference</a>
-          </td>
-          <td class="govuk-table__cell">Reference</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
-          </td>
-          <td class="govuk-table__cell">Entry date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
-          </td>
-          <td class="govuk-table__cell">Start date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
-          </td>
-          <td class="govuk-table__cell">End date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
       </tbody>
     </table>
+    </p>
 
-
+    
+    <h2 class="govuk-heading-s" id="description">Description</h2>
+    <p>
+    A list of Minerals and Waste Planning Authority boundaries.
+    </p>
     
 
     
 
-
-    
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/geography">geography</a> typology.</p>
     
 
-    
-    <h2 class="govuk-heading-s" id="">Datasets</h2>
 
     
-    <p class="govuk-body">This dataset references the following other datasets:</p>
+    <h2 class="govuk-heading-s" id="datasets">Datasets</h2>
+
+    <p class="govuk-body">The following datasets use this field:</p>
+
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../entity">Entity</a></li>
+      <li><a href="../../dataset/minerals-plan">minerals plan</a></li>
     
-      <li><a href="../organisation">Organisation</a></li>
-    
-      <li><a href="../prefix">Prefix</a></li>
+      <li><a href="../../dataset/waste-plan">waste plan</a></li>
     
     </ul>
     
 
-    
-    <p class="govuk-body">This dataset is referenced by the following other datasets:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../internal-drainage-board">Internal drainage board</a></li>
-    
-      <li><a href="../internal-drainage-district">Internal drainage district</a></li>
-    
-      <li><a href="../local-authority">Local authority</a></li>
-    
-      <li><a href="../local-planning-authority">Local Planning Authority</a></li>
-    
-      <li><a href="../minerals-and-waste-planning-authority">Minerals and Waste Local Planning Authority</a></li>
-    
-      <li><a href="../national-park-authority">National park authority</a></li>
-    
-      <li><a href="../organisation">Organisation</a></li>
-    
-      <li><a href="../passenger-transport-executive">Passenger transport executive</a></li>
-    
-      <li><a href="../regional-park-authority">Regional park authority</a></li>
-    
-      <li><a href="../waste-authority">Waste disposal authority</a></li>
-    
-    </ul>
-    
-
-    
   </div>
 </div>
 

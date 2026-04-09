@@ -290,6 +290,8 @@ n,,string,list of Local Planning Authorities,,,local-planning-authorities,,,Loca
 n,,string,list of Mineral Planning Authorities,,,mineral-planning-authorities,,,Mineral Planning Authorities,mineral-planning-authority,,,,geography,,
 1,,string,Mineral Planning Authority boundary,,,mineral-planning-authority,,,Mineral Planning Authority,geography,,,,geography,,
 1,,string,,,,mineral-safeguarding-area,,,Mineral safeguarding area,geography,,,,geography,,
+n,,string,list of Minerals and Waste Planning Authority boundaries,,,minerals-and-waste-planning-authorities,,,Minerals and Waste Planning Authorities,minerals-and-waste-planning-authority,,,,geography,,
+1,,string,Minerals and Waste Planning Authority boundary,,,minerals-and-waste-planning-authority,,,Minerals and Waste Planning Authority,geography,,,,geography,,
 1,,curie,,,2024-11-14,minerals-plan-boundary,,,Minerals plan boundary,geography,,,,geography,,
 1,,integer,,,,minimum-net-dwellings,,,Minimum net dwellings,dwelling-count,,,,value,,
 1,,integer,,2019-10-31,,MinNetDwellings,,,Minimum net dwellings,dwelling-count,,,,value,,

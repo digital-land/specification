@@ -2147,6 +2147,7 @@ such as when you expect a draft local plan to be adopted.
 local-plan,adopted-date,,,"The `start-date` field indicates when a plan came into force, that is adopted.
 ",,This field has been deprecated. The `start-date` field records when a plan was adopted.,,,2025-11-01
 local-plan,dataset,dataset,,,,,,,
+local-plan,description,,,,,,,,
 local-plan,documentation-url,,local plan documentation page,"The URL of the webpage on your website for the local plan
 
 Each entry in the local plan dataset should link to a documentation webpage that includes the information 
@@ -2391,6 +2392,20 @@ mineral-safeguarding-area,point,,,,,,,,
 mineral-safeguarding-area,prefix,prefix,,,,,,,
 mineral-safeguarding-area,reference,,,,,,,,
 mineral-safeguarding-area,start-date,,,,,,,,
+minerals-and-waste-planning-authority,document-url,,,,,,,,
+minerals-and-waste-planning-authority,documentation-url,,,,,,,,
+minerals-and-waste-planning-authority,end-date,,,,,,,,
+minerals-and-waste-planning-authority,entity,entity,,,,,,,
+minerals-and-waste-planning-authority,entry-date,,,,,,,,
+minerals-and-waste-planning-authority,geometry,,,,,,,,
+minerals-and-waste-planning-authority,name,,,,,,,,
+minerals-and-waste-planning-authority,notes,,,,,,,,
+minerals-and-waste-planning-authority,organisation,organisation,,,,,,,
+minerals-and-waste-planning-authority,point,,,,,,,,
+minerals-and-waste-planning-authority,prefix,prefix,,,,,,,
+minerals-and-waste-planning-authority,reference,,,,,,,,
+minerals-and-waste-planning-authority,region,region,,,,,,,
+minerals-and-waste-planning-authority,start-date,,,,,,,,
 minerals-plan-boundary,end-date,,,,,,,,
 minerals-plan-boundary,entity,entity,,,,,,,
 minerals-plan-boundary,entry-date,,,,,,,,
@@ -2404,6 +2419,7 @@ minerals-plan-boundary,prefix,prefix,,,,,,,
 minerals-plan-boundary,reference,,,,,,,,
 minerals-plan-boundary,start-date,,,,,,,,
 minerals-plan,dataset,dataset,,,,,,,
+minerals-plan,description,,,,,,,,
 minerals-plan,document-count,,,,,,,,
 minerals-plan,documentation-url,,,,,,,,
 minerals-plan,document-url,,,,,,,,
@@ -2412,8 +2428,8 @@ minerals-plan,entity,entity,,,,,,,
 minerals-plan,entry-date,,,,,,,,
 minerals-plan,local-plan-process,local-plan-process,,,,,,,
 minerals-plan,minerals-plan-boundary,minerals-plan-boundary,,,,,,,
-minerals-plan,mineral-planning-authorities,,mineral planning authority areas covered by the minerals plan,"Enter the GSS code for the 
-[Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
+minerals-plan,minerals-and-waste-planning-authorities,,minerals and waste planning authority areas covered by the minerals plan,"Enter the GSS code for the 
+[Minerals and Waste Planning Authority](https://www.planning.data.gov.uk/dataset/minerals-and-waste-planning-authority)
 area that this minerals plan covers.
 For a joint minerals plan, enter the list of references and separate each of them with a semi-colon.
 ",,,"[{""value"": ""E47000001""}, {""value"": ""E60000331;E60000225""}]",,
@@ -2763,6 +2779,8 @@ plan,datasets,,,"Enter one of the following values to show the type of plan or p
 
 If your plan includes multiple types, enter the list of types and separate each of them with a semi-colon.
 ",,,"[{""value"": ""local-plan""}, {""value"": ""waste-plan""}, {""value"": ""minerals-plan;waste-plan""}, {""value"": ""local-plan;minerals-plan""}, {""value"": ""local-plan;minerals-plan;waste-plan""}]",,
+plan,description,,,"Enter a description of the matters which the plan deals with.
+",,,,,
 plan,document-count,,,"Enter the number of documents which collectively form the plan. This field is only required for a minerals and waste plan.
 ",,,,,
 plan,documentation-url,,local plan documentation page,"Enter the URL of the webpage which links to your main or core plan document.
@@ -3571,6 +3589,7 @@ suitable-alternative-green-space,reference,,,,,,,,
 suitable-alternative-green-space,start-date,,,,,,,,
 suitable-alternative-green-space,suitable-alternative-green-space,,,,,,,,
 supplementary-plan,dataset,dataset,,,,,,,
+supplementary-plan,description,,,,,,,,
 supplementary-plan,documentation-url,,,,,,,,
 supplementary-plan,document-url,,,,,,,,
 supplementary-plan,end-date,,,,,,,,
@@ -3775,6 +3794,7 @@ waste-plan-boundary,prefix,prefix,,,,,,,
 waste-plan-boundary,reference,,,,,,,,
 waste-plan-boundary,start-date,,,,,,,,
 waste-plan,dataset,dataset,,,,,,,
+waste-plan,description,,,,,,,,
 waste-plan,document-count,,,,,,,,
 waste-plan,documentation-url,,,,,,,,
 waste-plan,document-url,,,,,,,,
@@ -3783,8 +3803,8 @@ waste-plan,entity,entity,,,,,,,
 waste-plan,entry-date,,,,,,,,
 waste-plan,local-plan-process,local-plan-process,,,,,,,
 waste-plan,waste-plan-boundary,waste-plan-boundary,,,,,,,
-waste-plan,waste-planning-authorities,,waste planning authority areas covered by the waste plan,"Enter the GSS code for the 
-[Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
+waste-plan,minerals-and-waste-planning-authorities,,minerals and waste planning authority areas covered by the waste plan,"Enter the GSS code for the 
+[Minerals and Waste Planning Authority](https://www.planning.data.gov.uk/dataset/minerals-and-waste-planning-authority)
 area that this local or supplementary plan covers.
 For a joint waste plan, enter the list of references and separate each of them with a semi-colon.
 ",,,"[{""value"": ""E47000001""}, {""value"": ""E60000331;E60000225""}]",,

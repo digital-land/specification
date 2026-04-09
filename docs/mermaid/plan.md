@@ -6,12 +6,12 @@ erDiagram
     plan {
         string reference
         string name
+        string description
         string datasets
         date period-start-date
         date period-end-date
         string local-planning-authorities
-        string mineral-planning-authorities
-        string waste-planning-authorities
+        string minerals-and-waste-planning-authorities
         url documentation-url
         url document-url
         string required-housing

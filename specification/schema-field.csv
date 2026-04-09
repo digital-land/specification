@@ -1884,6 +1884,7 @@ local-plan-timetable,reference
 local-plan-timetable,start-date
 local-plan,adopted-date
 local-plan,dataset
+local-plan,description
 local-plan,documentation-url
 local-plan,document-url
 local-plan,end-date
@@ -2091,6 +2092,20 @@ mineral-safeguarding-area,point
 mineral-safeguarding-area,prefix
 mineral-safeguarding-area,reference
 mineral-safeguarding-area,start-date
+minerals-and-waste-planning-authority,document-url
+minerals-and-waste-planning-authority,documentation-url
+minerals-and-waste-planning-authority,end-date
+minerals-and-waste-planning-authority,entity
+minerals-and-waste-planning-authority,entry-date
+minerals-and-waste-planning-authority,geometry
+minerals-and-waste-planning-authority,name
+minerals-and-waste-planning-authority,notes
+minerals-and-waste-planning-authority,organisation
+minerals-and-waste-planning-authority,point
+minerals-and-waste-planning-authority,prefix
+minerals-and-waste-planning-authority,reference
+minerals-and-waste-planning-authority,region
+minerals-and-waste-planning-authority,start-date
 minerals-plan-boundary,end-date
 minerals-plan-boundary,entity
 minerals-plan-boundary,entry-date
@@ -2104,6 +2119,7 @@ minerals-plan-boundary,prefix
 minerals-plan-boundary,reference
 minerals-plan-boundary,start-date
 minerals-plan,dataset
+minerals-plan,description
 minerals-plan,document-count
 minerals-plan,documentation-url
 minerals-plan,document-url
@@ -2112,7 +2128,7 @@ minerals-plan,entity
 minerals-plan,entry-date
 minerals-plan,local-plan-process
 minerals-plan,minerals-plan-boundary
-minerals-plan,mineral-planning-authorities
+minerals-plan,minerals-and-waste-planning-authorities
 minerals-plan,name
 minerals-plan,notes
 minerals-plan,organisation
@@ -2436,6 +2452,7 @@ plan-timetable,reference
 plan-timetable,actual-date
 plan-timetable,start-date
 plan,datasets
+plan,description
 plan,document-count
 plan,documentation-url
 plan,document-url
@@ -3205,6 +3222,7 @@ suitable-alternative-green-space,reference
 suitable-alternative-green-space,start-date
 suitable-alternative-green-space,suitable-alternative-green-space
 supplementary-plan,dataset
+supplementary-plan,description
 supplementary-plan,documentation-url
 supplementary-plan,document-url
 supplementary-plan,end-date
@@ -3409,6 +3427,7 @@ waste-plan-boundary,prefix
 waste-plan-boundary,reference
 waste-plan-boundary,start-date
 waste-plan,dataset
+waste-plan,description
 waste-plan,document-count
 waste-plan,documentation-url
 waste-plan,document-url
@@ -3417,7 +3436,7 @@ waste-plan,entity
 waste-plan,entry-date
 waste-plan,local-plan-process
 waste-plan,waste-plan-boundary
-waste-plan,waste-planning-authorities
+waste-plan,minerals-and-waste-planning-authorities
 waste-plan,name
 waste-plan,notes
 waste-plan,organisation

@@ -135,6 +135,7 @@ Your plan data must contain the following fields:
 
 * `reference`
 * `name`
+* `description`
 * `datasets`
 * `period-start-date`
 * `period-end-date`
@@ -163,6 +164,11 @@ For example:
 
 * <code class="value">York Local Plan</code>
 * <code class="value">Plymouth and South West Devon Joint Local Plan</code>
+
+
+### description
+
+Enter a description of the matters which the plan deals with.
 
 
 ### datasets
@@ -239,8 +245,7 @@ Your plan data must also contain the following fields where they apply:
 
 
 * `local-planning-authorities`
-* `mineral-planning-authorities`
-* `waste-planning-authorities`
+* `minerals-and-waste-planning-authorities`
 * `required-housing`
 * `document-count`
 
@@ -259,23 +264,10 @@ For example:
 * <code class="value">E60000132;E60000133;E60000135;E60000136</code>
 
 
-### mineral-planning-authorities
+### minerals-and-waste-planning-authorities
 
 Enter the GSS code for the 
-[Mineral Planning Authority](https://www.planning.data.gov.uk/dataset/mineral-planning-authority)
-area that this minerals plan covers.
-For a joint minerals plan, enter the list of references and separate each of them with a semi-colon.
-
-For example:
-
-* <code class="value">E47000001</code>
-* <code class="value">E60000331;E60000225</code>
-
-
-### waste-planning-authorities
-
-Enter the GSS code for the 
-[Waste Planning Authority](https://www.planning.data.gov.uk/dataset/waste-planning-authority)
+[Minerals and Waste Planning Authority](https://www.planning.data.gov.uk/dataset/minerals-and-waste-planning-authority)
 area that this local or supplementary plan covers.
 For a joint waste plan, enter the list of references and separate each of them with a semi-colon.
 
