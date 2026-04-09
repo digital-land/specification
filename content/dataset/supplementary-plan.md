@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 
+collection: local-plan
 consideration: supplementary-plan
 dataset: supplementary-plan
 description: 'supplementary local plans prepared by a Local Planning Authority'
