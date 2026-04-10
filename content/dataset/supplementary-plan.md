@@ -32,7 +32,7 @@ guidance: |
     List the supplementary local plans you are responsible for with one row for each current, emerging or historical supplementary local plan.
 key-field: ''
 licence: ogl3
-name: supplemntary plan
+name: supplementary plan
 paint-options: ''
 phase: alpha
 plural: supplementary plans
