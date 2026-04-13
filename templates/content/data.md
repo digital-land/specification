@@ -31,7 +31,7 @@ in a {{ "separate" if ds|length > 1  else "" }} CSV file
 and follow the government
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 {% if specification["is-geospatial"] %}
-If your dataset contains geospatial fields, you may use one of the following formats:
+Where a dataset contains geospatial fields, you may use one of the following formats:
 
 * CSV
 * GeoJSON
