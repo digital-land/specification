@@ -13,6 +13,7 @@ for o in [
     "Carmarthenshire County Council",
     "Caerphilly County Borough Council",
     "City and County of Swansea Council",
+    "Cyngor Gwynedd",
     "Merthyr Tydfil County Borough Council",
     "Torfaen County Borough Council",
     "Pembrokeshire County Council",
