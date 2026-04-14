@@ -79,15 +79,15 @@ For Planning conditions you may provide the following dataset:
 
 
 
-You need to provide each dataset 
-in a separate CSV file 
-and follow the government 
+You need to provide each dataset
+in a separate CSV file
+and follow the government
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 
 
 ### Field names
 
-You can use a field name with uppercase, lowercase and any punctuation characters. 
+You can use a field name with uppercase, lowercase and any punctuation characters.
 For example, you can use any of the following names for the `start-date` field in your data
 
 * `StartDate`
@@ -99,17 +99,17 @@ For example, you can use any of the following names for the `start-date` fie
 
 Each dataset has a `reference` field.
 Reference values are important to help people find and link to your data.
-If you do not have a reference value for an item, you will need to create one that: 
+If you do not have a reference value for an item, you will need to create one that:
 
-* is unique within your data 
-* does not change when the data is updated 
+* is unique within your data
+* does not change when the data is updated
 
 A good reference is something you already use.
 If your reference is not unique, you can make them unique by adding the year or full date.
-Great references are:  
+Great references are:
 
-* short  
-* easy to read  
+* short
+* easy to read
 * easy to pronounce and remember
 
 ### Date values
@@ -127,7 +127,11 @@ The platform will default a `start-date` to the first of the month, or the first
 
 
 
+
+
 ## Planning condition dataset
+
+
 
 
 

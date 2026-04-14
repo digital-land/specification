@@ -81,15 +81,15 @@ For local plans, minerals and waste plans, and supplementary plans you need to p
 
 
 
-You need to provide each dataset 
-in a separate CSV file 
-and follow the government 
+You need to provide each dataset
+in a separate CSV file
+and follow the government
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
 
 
 ### Field names
 
-You can use a field name with uppercase, lowercase and any punctuation characters. 
+You can use a field name with uppercase, lowercase and any punctuation characters.
 For example, you can use any of the following names for the `start-date` field in your data
 
 * `StartDate`
@@ -101,22 +101,24 @@ For example, you can use any of the following names for the `start-date` fie
 
 Each dataset has a `reference` field.
 Reference values are important to help people find and link to your data.
-If you do not have a reference value for an item, you will need to create one that: 
+If you do not have a reference value for an item, you will need to create one that:
 
-* is unique within your data 
-* does not change when the data is updated 
+* is unique within your data
+* does not change when the data is updated
 
 A good reference is something you already use.
 If your reference is not unique, you can make them unique by adding the year or full date.
-Great references are:  
+Great references are:
 
-* short  
-* easy to read  
+* short
+* easy to read
 * easy to pronounce and remember
 
 ### Date values
 
 All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+
+
 
 
 
@@ -320,6 +322,8 @@ You may provide notes on how you made this data to help users differentiate the 
 For example:
 
 * <code class="value">Barnsley&#39;s Local Plan as adopted by Full Council on 3 January 2019</code>
+
+
 ## Plan timetable dataset
 
 
