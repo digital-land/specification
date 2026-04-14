@@ -30,7 +30,7 @@ You need to provide {{ "each" if ds|length > 1  else "the" }} dataset
 in a {{ "separate" if ds|length > 1  else "" }} CSV file
 and follow the government
 [tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
-{% if specification["is-geospatial"] %}
+{% if specification["is-geospatial"] -%}
 Where a dataset contains geospatial fields, you may use one of the following formats:
 
 * CSV
@@ -101,14 +101,16 @@ That is there is no need to duplicate the geospatial data into a `point` or `geo
 {%- set _d = tables["dataset"][d["dataset"]] -%}
 {%- set name = tables["dataset"][d["dataset"]]["name"] %}
 
-{%- set df_m = d["fields"]|selectattr("requirement-level", "eq", "MUST")|list -%}
-{%- set df_c = d["fields"]|selectattr("requirement-level", "eq", "CONDITIONAL")|list -%}
-{%- set df_s = d["fields"]|selectattr("requirement-level", "eq", "SHOULD")|list -%}
-{%- set df_y = d["fields"]|selectattr("requirement-level", "eq", "MAY")|list -%}
+{%- set df_m = d["fields"]|selectattr("requirement-level", "eq", "MUST")|list %}
+{%- set df_c = d["fields"]|selectattr("requirement-level", "eq", "CONDITIONAL")|list %}
+{%- set df_s = d["fields"]|selectattr("requirement-level", "eq", "SHOULD")|list %}
+{%- set df_y = d["fields"]|selectattr("requirement-level", "eq", "MAY")|list %}
 
 ## {{ name | sentence_case }} dataset
 
-{% if _d["guidance"] %}
+{% if d["guidance"] %}
+{{d["guidance"]}}
+{% elif _d["guidance"] %}
 {{_d["guidance"]}}
 {% endif %}
 
@@ -153,11 +155,25 @@ Your {{ name }} data may also contain the following fields:
 
 ### {{ field }}
 
-{% if df["guidance"] %}{{ df["guidance"] }}{% elif tables["field"][field]["guidance"] %}{{ tables["field"][field]["guidance"]| trim }}{%- endif -%}{%- if df["examples"]|length > 0 %}
+{% if f["guidance"] -%}
+  {{ f["guidance"] }}
+{%- elif df["guidance"] -%}
+  {{ df["guidance"] }}
+{%- elif tables["field"][field]["guidance"] -%}
+  {{ tables["field"][field]["guidance"]| trim }}
+{%- endif -%}
+{%- if field == "geometry" %} See [geometry and point fields](#geometry-and-point-fields). {% endif -%}
+{%- if f["examples"]|length > 0 %}
+For example:
+
+{% for ex in f["examples"] -%}
+* <code class="value">{{ ex["value"] }}</code>
+{% endfor -%}
+{%- elif df["examples"]|length > 0 %}
 For example:
 
 {% for ex in df["examples"] -%}
-* <code class="value">{{ ex["value"] }}</code>{%- if ex["description"] %} — {{ ex["description"] }}{% endif %}
+* <code class="value">{{ ex["value"] }}</code>
 {% endfor -%}
 {%- endif -%}
 
