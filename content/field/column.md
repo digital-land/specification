@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'A column name in the resource'
+description: A column name in the resource
 end-date: ''
 entry-date: ''
 field: column

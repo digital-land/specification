@@ -1,9 +1,9 @@
 ---
 attribution: natural-england
 collection: area-of-outstanding-natural-beauty
-consideration: 'areas-of-outstanding-natural-beauty'
+consideration: areas-of-outstanding-natural-beauty
 dataset: area-of-outstanding-natural-beauty
-description: 'Land protected by law to conserve and enhance its natural beauty'
+description: Land protected by law to conserve and enhance its natural beauty
 end-date: ''
 entity-maximum: '1099999'
 entity-minimum: '1000000'

@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: decimal
-description: 'The ground area of a site in square metres'
+description: The ground area of a site in square metres
 end-date: ''
 entry-date: ''
 field: ground-area

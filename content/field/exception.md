@@ -9,7 +9,7 @@ guidance: ''
 hint: ''
 name: Exception
 parent-field: text
-prefix: 
+prefix: ''
 replacement-field: ''
 start-date: ''
 typology: value

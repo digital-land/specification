@@ -1,4 +1,3 @@
-
 ---
 cardinality: '1'
 datatype: string

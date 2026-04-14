@@ -3,7 +3,7 @@ attribution: ons-boundary
 collection: built-up-area
 consideration: built-up-areas
 dataset: built-up-area
-description: 'built-up areas equal to or greater than 20 hectares'
+description: built-up areas equal to or greater than 20 hectares
 end-date: ''
 entity-maximum: '2699999'
 entity-minimum: '2500000'
@@ -33,8 +33,8 @@ start-date: ''
 themes:
 - housing
 typology: geography
-wikidata: 
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---
 
 Built up areas in England as provided by the ONS for the purposes of producing statistics.

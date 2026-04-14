@@ -12,7 +12,7 @@ fields:
 - field: entry-date
 - field: name
 - field: start-date
-key-field: 'collection'
+key-field: collection
 licence: ogl3
 name: Collection
 paint-options: ''

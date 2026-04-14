@@ -3,7 +3,8 @@ attribution: crown-copyright
 collection: flood-storage-area
 consideration: flood-storage-areas
 dataset: flood-storage-area
-description: 	Areas that act as a balancing reservoir, storage basin or balancing pond for flood control
+description: Areas that act as a balancing reservoir, storage basin or balancing pond
+  for flood control
 end-date: ''
 entity-maximum: '529999'
 entity-minimum: '521000'

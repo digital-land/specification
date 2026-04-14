@@ -17,9 +17,9 @@ fields:
 - field: phase
 - field: prefix
 - field: provision-guidance
-  guidance: |
-      Enter one or more paragraphs of Govspeak markdown text which explain why a provider 
-      is expected to provide this data. Link to any relevant regulations or funding.
+  guidance: "Enter one or more paragraphs of Govspeak markdown text which explain
+    why a provider \nis expected to provide this data. Link to any relevant regulations
+    or funding.\n"
 - field: reference
 - field: specifications
 - field: summary

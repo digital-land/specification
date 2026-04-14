@@ -32,8 +32,8 @@ start-date: ''
 themes:
 - administrative
 typology: geography
-wikidata: 
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---
 
 Boundaries for Wards, in the United Kingdom

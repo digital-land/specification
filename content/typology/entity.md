@@ -7,5 +7,5 @@ plural: ''
 start-date: ''
 typology: entity
 wikidata: ''
-wikipedia:
+wikipedia: ''
 ---

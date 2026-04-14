@@ -17,7 +17,7 @@ fields:
 - field: project
 - field: reference
 - field: start-date
-key-field: 'intervention'
+key-field: intervention
 licence: ogl3
 name: Intervention
 paint-options: ''

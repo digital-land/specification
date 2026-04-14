@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'number of dwellings'
+description: number of dwellings
 end-date: ''
 entry-date: ''
 field: dwelling-count

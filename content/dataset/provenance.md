@@ -16,10 +16,10 @@ fields:
 - field: resource
 - field: start-date
 - field: value
-key-field: 'provenance'
+key-field: provenance
 licence: ogl3
 name: Provenance
-notes: "No longer used"
+notes: No longer used
 paint-options: ''
 phase: alpha
 plural: Provenance

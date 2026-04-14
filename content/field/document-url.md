@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: url
-description: 'A url to a document'
+description: A url to a document
 end-date: ''
 entry-date: ''
 field: document-url

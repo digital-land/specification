@@ -7,5 +7,5 @@ plural: ''
 start-date: ''
 typology: pipeline
 wikidata: ''
-wikipedia:
+wikipedia: ''
 ---

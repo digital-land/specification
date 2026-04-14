@@ -18,11 +18,12 @@ fields:
 - field: intervention
 - field: notes
 - field: organisation
-  guidance: 'The organisation which was awarded the amount'
+  guidance: The organisation which was awarded the amount
 - field: organisations
-  guidance: 'An optional list of other organisations working in partnership with the lead organisation'
+  guidance: An optional list of other organisations working in partnership with the
+    lead organisation
 - field: start-date
-key-field: 'award'
+key-field: award
 licence: ogl3
 name: Award
 paint-options: ''

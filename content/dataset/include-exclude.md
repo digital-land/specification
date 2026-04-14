@@ -15,7 +15,7 @@ fields:
 - field: include-exclude
 - field: name
 - field: start-date
-key-field: 'include-exclude'
+key-field: include-exclude
 licence: ogl3
 name: Include/Exclude
 paint-options: ''

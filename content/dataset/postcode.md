@@ -1,6 +1,6 @@
 ---
 attribution: ogl3
-collection: 
+collection: ''
 consideration: postcodes
 dataset: postcode
 description: Postcodes in England

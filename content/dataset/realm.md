@@ -16,7 +16,7 @@ fields:
 - field: reference
 - field: realm
 - field: start-date
-key-field: 'realm'
+key-field: realm
 licence: ogl3
 name: Realm
 paint-options: ''

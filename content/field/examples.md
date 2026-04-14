@@ -1,7 +1,7 @@
 ---
 cardinality: 1
 datatype: json
-description: 'Example value and description pairs for guidance'
+description: Example value and description pairs for guidance
 end-date: ''
 entry-date: ''
 field: examples

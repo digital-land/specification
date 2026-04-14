@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'predicted earliest date for an event'
+description: predicted earliest date for an event
 end-date: ''
 entry-date: ''
 field: predicted-earliest-date

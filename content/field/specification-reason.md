@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'regulations, funding or other reason data should be provided to a specification'
+description: regulations, funding or other reason data should be provided to a specification
 end-date: ''
 entry-date: ''
 field: specification-reason

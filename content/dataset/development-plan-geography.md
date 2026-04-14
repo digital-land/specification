@@ -30,7 +30,7 @@ phase: alpha
 plural: Development plan geographies
 prefix: ''
 realm: dataset
-replacement-dataset: 'development-plan-boundary'
+replacement-dataset: development-plan-boundary
 start-date: ''
 themes:
 - development

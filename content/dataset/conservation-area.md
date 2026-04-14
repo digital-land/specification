@@ -3,7 +3,8 @@ attribution: historic-england
 collection: conservation-area
 consideration: conservation-areas
 dataset: conservation-area
-description: areas of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance
+description: areas of special architectural or historic interest, the character or
+  appearance of which it is desirable to preserve or enhance
 end-date: ''
 entity-maximum: '44999999'
 entity-minimum: '44000000'

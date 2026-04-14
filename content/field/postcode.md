@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Postcode'
+description: Postcode
 end-date: ''
 entry-date: ''
 field: postcode

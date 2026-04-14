@@ -1,10 +1,10 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'amount of net additional housing allocated in a plan or to a site'
+description: amount of net additional housing allocated in a plan or to a site
 end-date: ''
 entry-date: ''
-field: allocated-housing 
+field: allocated-housing
 guidance: ''
 hint: ''
 name: Allocated housing

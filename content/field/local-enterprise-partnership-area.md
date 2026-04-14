@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'The boundary of a Local Enterprise Partnership area'
+description: The boundary of a Local Enterprise Partnership area
 end-date: ''
 entry-date: ''
 field: local-enterprise-partnership-area

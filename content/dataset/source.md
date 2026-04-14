@@ -20,7 +20,7 @@ fields:
 - field: pipelines
 - field: source
 - field: start-date
-key-field: 'source'
+key-field: source
 licence: ogl3
 name: Source
 paint-options: ''

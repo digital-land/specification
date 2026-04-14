@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Local Planning Authority boundary'
+description: Local Planning Authority boundary
 end-date: ''
 entry-date: ''
 field: local-planning-authority

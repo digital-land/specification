@@ -1,9 +1,9 @@
 ---
 attribution: ons-boundary
-collection:
-consideration:
+collection: ''
+consideration: ''
 dataset: minerals-and-waste-planning-authority
-description: 'Minerals and Waste Planning Authority boundaries'
+description: Minerals and Waste Planning Authority boundaries
 end-date: ''
 entity-maximum: '64999'
 entity-minimum: '63000'
@@ -23,7 +23,7 @@ fields:
 - field: reference
 - field: region
 - field: start-date
-github-discussion:
+github-discussion: ''
 key-field: ''
 licence: ogl3
 name: Minerals and Waste Local Planning Authority

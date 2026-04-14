@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Local Enterprise Partnership'
+description: Local Enterprise Partnership
 end-date: ''
 entry-date: ''
 field: local-enterprise-partnership

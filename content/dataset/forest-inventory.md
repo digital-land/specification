@@ -1,9 +1,10 @@
 ---
 attribution: forestry-commission
-collection: 
+collection: ''
 consideration: national-forest-inventory
 dataset: forest-inventory
-description: All forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it
+description: All forest and woodland area over 0.5 hectare with a minimum of 20% canopy
+  cover, or the potential to achieve it
 end-date: ''
 entity-maximum: '60999999'
 entity-minimum: '60000000'

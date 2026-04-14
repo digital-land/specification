@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'A funding round'
+description: A funding round
 end-date: ''
 entry-date: ''
 field: fund

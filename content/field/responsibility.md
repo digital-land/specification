@@ -1,7 +1,8 @@
 ---
 cardinality: '1'
 datatype: string
-description: Used for issue types to descrive whether an issue is the responsibility of internal or extarnal teams
+description: Used for issue types to descrive whether an issue is the responsibility
+  of internal or extarnal teams
 end-date: ''
 entry-date: ''
 field: responsibility

@@ -36,14 +36,13 @@ name: Educational establishment
 paint-options: ''
 phase: alpha
 plural: Educational establishments
-prefix: 
+prefix: ''
 realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
 - administrative
 typology: geography
-wikidata: 
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---
-

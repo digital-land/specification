@@ -7,6 +7,6 @@ parent-project: ''
 project: local-plans-rollout
 project-status: in-progress
 provision-reason: expected
+specifications: ''
 start-date: '2026-03-06'
-specifications:
 ---

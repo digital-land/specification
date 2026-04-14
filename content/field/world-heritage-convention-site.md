@@ -12,6 +12,6 @@ parent-field: geography
 replacement-field: ''
 start-date: ''
 typology: geography
-uri-template: 'https://whc.unesco.org/en/list/{world-heritage-convention-site}'
+uri-template: https://whc.unesco.org/en/list/{world-heritage-convention-site}
 wikidata-property: P757
 ---

@@ -18,7 +18,7 @@ fields:
 - field: parameters
 - field: plugin
 - field: start-date
-key-field: 'endpoint'
+key-field: endpoint
 licence: ogl3
 name: Endpoint
 paint-options: ''

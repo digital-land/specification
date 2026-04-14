@@ -18,10 +18,10 @@ fields:
 - field: priority
 - field: prefix
 - field: provision-reason
-  notes: 'deprecated, use the reference'
+  notes: deprecated, use the reference
 - field: reference
 - field: start-date
-key-field: 'provision-reason'
+key-field: provision-reason
 licence: ogl3
 name: Provision reason
 paint-options: ''

@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'line number in a resource or file'
+description: line number in a resource or file
 end-date: ''
 entry-date: ''
 field: line-number
@@ -9,7 +9,7 @@ guidance: ''
 hint: ''
 name: Line number
 parent-field: number
-replacement-field:
+replacement-field: ''
 start-date: ''
 typology: value
 uri-template: ''

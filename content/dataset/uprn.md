@@ -1,12 +1,12 @@
 ---
 attribution: ogl3
-collection: 
+collection: ''
 consideration: uprn
 dataset: uprn
 description: Unique property reference numbers
 end-date: ''
-entity-maximum: 
-entity-minimum: 
+entity-maximum: ''
+entity-minimum: ''
 entry-date: '2024-11-05'
 fields:
 - field: description

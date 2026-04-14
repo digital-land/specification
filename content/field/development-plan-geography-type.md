@@ -9,7 +9,7 @@ guidance: ''
 hint: ''
 name: Development plan geography type
 parent-field: category
-replacement-field: 'development-plan-boundary-type'
+replacement-field: development-plan-boundary-type
 start-date: ''
 typology: category
 uri-template: ''

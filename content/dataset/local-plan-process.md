@@ -1,9 +1,9 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 consideration: local-plans
 dataset: local-plan-process
-description: 'The examination process under which a local plan is produced'
+description: The examination process under which a local plan is produced
 end-date: ''
 entity-maximum: '60999'
 entity-minimum: '60000'

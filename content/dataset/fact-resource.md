@@ -14,7 +14,8 @@ fields:
 - field: entry-date
 - field: entry-number
 - field: priority
-  guidance: 'Used to order facts into a history, smaller values are higher priority than larger values.'
+  guidance: Used to order facts into a history, smaller values are higher priority
+    than larger values.
 - field: resource
 - field: start-date
 key-field: ''

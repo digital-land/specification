@@ -35,8 +35,8 @@ themes:
 - administrative
 - housing
 typology: geography
-wikidata: 
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---
 
 Otherwise known as Land Registry Index polygons, these polygons are shapes that show the position and indicative extent of a registered property.

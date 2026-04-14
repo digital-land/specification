@@ -13,19 +13,21 @@ fields:
 - field: collection
 - field: consideration
 - field: dataset
-- field: description
-  description: short description of the dataset without the definite article, sentence captialisation or a punctuation mark.
-  guidance: |
-     Enter a description of the dataset which could be used in a sentence such as "A dataset containing *description* in England." 
-
-     The description is intended to be used in tables and content, so shouldn't start with the definite article ("The", "A", etc)
-     or end with a full-stop or other punctuation mark. 
-     The description shouldn't start with a capital letter, unless the first word is a proper-noun, such as "Local Planning Authority".
-     This allows a user to capitalise the first letter or add a full-stop when using the description in a sentence.
+- description: short description of the dataset without the definite article, sentence
+    captialisation or a punctuation mark.
   examples:
-    - value: "land that has been previously been developed"
-    - value: "local plans prepared by a Local Planning Authority"
-    - value: 'Local Planning Authorities and their boundaries'
+  - value: land that has been previously been developed
+  - value: local plans prepared by a Local Planning Authority
+  - value: Local Planning Authorities and their boundaries
+  field: description
+  guidance: "Enter a description of the dataset which could be used in a sentence
+    such as \"A dataset containing *description* in England.\" \n\nThe description
+    is intended to be used in tables and content, so shouldn't start with the definite
+    article (\"The\", \"A\", etc)\nor end with a full-stop or other punctuation mark.
+    \nThe description shouldn't start with a capital letter, unless the first word
+    is a proper-noun, such as \"Local Planning Authority\".\nThis allows a user to
+    capitalise the first letter or add a full-stop when using the description in a
+    sentence.\n"
 - field: end-date
 - field: entry-date
 - field: github-discussion
@@ -47,7 +49,7 @@ fields:
 - field: typology
 - field: wikidata
 - field: wikipedia
-key-field: 'dataset'
+key-field: dataset
 licence: ogl3
 name: Dataset
 paint-options: ''

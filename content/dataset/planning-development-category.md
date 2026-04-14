@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 consideration: ''
 dataset: planning-development-category
 description: Planning development category

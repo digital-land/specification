@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'The estimated latest date for the entity.'
+description: The estimated latest date for the entity.
 end-date: ''
 entry-date: ''
 field: estimated-period-end-date

@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 'local-plan'
+collection: local-plan
 consideration: development-plans-and-timetables
 dataset: development-plan-document-type
 description: The types of documents published for a development plan

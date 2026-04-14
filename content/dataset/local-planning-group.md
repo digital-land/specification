@@ -3,8 +3,8 @@ attribution: crown-copyright
 collection: organisation
 consideration: ''
 dataset: local-planning-group
-description: 'group of Local Authorities responsible for a joint local plan'
-end-date:
+description: group of Local Authorities responsible for a joint local plan
+end-date: ''
 entity-maximum: '62999'
 entity-minimum: '62000'
 entry-date: '2025-12-19'
@@ -34,8 +34,8 @@ start-date: ''
 themes:
 - administrative
 typology: organisation
-wikidata: 
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---
 
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.

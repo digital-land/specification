@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Unique Property Reference Number'
+description: Unique Property Reference Number
 end-date: ''
 entry-date: ''
 field: uprn

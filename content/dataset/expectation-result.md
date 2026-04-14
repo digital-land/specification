@@ -19,7 +19,7 @@ fields:
 - field: entry-date
 - field: start-date
 - field: end-date
-key-field: 'expectation-result'
+key-field: expectation-result
 licence: ogl3
 name: Expectation result
 paint-options: ''

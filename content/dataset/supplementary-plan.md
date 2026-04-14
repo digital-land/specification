@@ -1,9 +1,10 @@
 ---
+-dataset: ''
 attribution: crown-copyright
 collection: local-plan
 consideration: supplementary-plan
 dataset: supplementary-plan
-description: 'supplementary local plans prepared by a Local Planning Authority'
+description: supplementary local plans prepared by a Local Planning Authority
 end-date: ''
 entity-maximum: '559999'
 entity-minimum: '550000'
@@ -28,8 +29,10 @@ fields:
 - field: reference
 - field: start-date
 github-discussion: 26
-guidance: |
-    List the supplementary local plans you are responsible for with one row for each current, emerging or historical supplementary local plan.
+guidance: 'List the supplementary local plans you are responsible for with one row
+  for each current, emerging or historical supplementary local plan.
+
+  '
 key-field: ''
 licence: ogl3
 name: supplementary plan
@@ -38,7 +41,6 @@ phase: alpha
 plural: supplementary plans
 prefix: ''
 realm: dataset
--dataset: ''
 start-date: ''
 themes:
 - development

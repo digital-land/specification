@@ -1,7 +1,7 @@
 ---
 cardinality: n
 datatype: string
-description: 'a semicolon separate list of synonyms'
+description: a semicolon separate list of synonyms
 end-date: ''
 entry-date: '2025-09-29'
 field: synonyms

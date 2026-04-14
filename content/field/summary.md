@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'short summary for a specification, guidance or other content'
+description: short summary for a specification, guidance or other content
 end-date: ''
 entry-date: ''
 field: summary

@@ -37,6 +37,6 @@ themes:
 - administrative
 - housing
 typology: document
-wikidata: 
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---

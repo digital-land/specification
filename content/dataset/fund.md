@@ -18,7 +18,7 @@ fields:
 - field: project
 - field: reference
 - field: start-date
-key-field: 'fund'
+key-field: fund
 licence: ogl3
 name: Fund
 paint-options: ''

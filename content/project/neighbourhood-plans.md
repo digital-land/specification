@@ -7,6 +7,6 @@ parent-project: ''
 project: neighbourhood-plans
 project-status: backlog
 provision-reason: authoritative
+specifications: ''
 start-date: ''
-specifications:
 ---

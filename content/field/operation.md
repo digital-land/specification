@@ -1,7 +1,7 @@
 ---
 cardinality: 1
 datatype: string
-description: 'a text string referencing an operation to be performed'
+description: a text string referencing an operation to be performed
 end-date: ''
 entry-date: ''
 field: operation

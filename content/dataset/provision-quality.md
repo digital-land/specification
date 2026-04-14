@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: provision-quality
-description: 'Quality of data provided by an organisation on a date'
+description: Quality of data provided by an organisation on a date
 end-date: ''
 entry-date: ''
 fields:

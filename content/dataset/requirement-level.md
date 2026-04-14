@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: requirement-level
-description: 'Key word used in specifications to indicate the level of a requirement'
+description: Key word used in specifications to indicate the level of a requirement
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''

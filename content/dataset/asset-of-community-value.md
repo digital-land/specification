@@ -3,7 +3,8 @@ attribution: crown-copyright
 collection: asset-of-community-value
 consideration: assets-of-community-value
 dataset: asset-of-community-value
-description: "Buildings or pieces of land that are used for the social wellbeing and interests of the local community"
+description: Buildings or pieces of land that are used for the social wellbeing and
+  interests of the local community
 end-date: ''
 entity-maximum: '17299999'
 entity-minimum: '17100000'
@@ -34,12 +35,12 @@ github-discussion: 100
 key-field: ''
 licence: ogl3
 name: Asset of community value
-paint-options: 
+paint-options: ''
 phase: alpha
 plural: Assets of community value
 prefix: asset-of-community-value
 realm: dataset
-replacement-dataset: 
+replacement-dataset: ''
 start-date: ''
 themes:
 - heritage

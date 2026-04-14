@@ -38,8 +38,8 @@ start-date: ''
 themes:
 - administrative
 typology: geography
-wikidata:
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---
 
 The administrative boundaries of local resilience forums in England as provided by the ONS for the purposes of producing statistics.

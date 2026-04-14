@@ -1,10 +1,10 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'required number of additional dwellings'
+description: required number of additional dwellings
 end-date: ''
 entry-date: ''
-field: required-dwellings 
+field: required-dwellings
 guidance: ''
 hint: ''
 name: Required dwellings

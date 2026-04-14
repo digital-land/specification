@@ -15,7 +15,7 @@ fields:
 - field: field
 - field: resource
 - field: start-date
-key-field: 'column'
+key-field: column
 licence: ogl3
 name: Pipeline column
 paint-options: ''

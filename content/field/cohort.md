@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'A group of organisations'
+description: A group of organisations
 end-date: ''
 entry-date: ''
 field: cohort

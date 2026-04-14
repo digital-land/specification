@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'End of entity range set for a dataset'
+description: End of entity range set for a dataset
 end-date: ''
 entry-date: ''
 field: entity-maximum

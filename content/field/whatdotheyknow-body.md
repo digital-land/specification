@@ -13,5 +13,5 @@ replacement-field: ''
 start-date: ''
 typology: value
 uri-template: https://www.whatdotheyknow.com/body/{whatdotheyknow-body}
-wikidata-property: 'P8167'
+wikidata-property: P8167
 ---

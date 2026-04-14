@@ -14,7 +14,7 @@ fields:
 - field: name
 - field: start-date
 - field: theme
-key-field: 'theme'
+key-field: theme
 licence: ogl3
 name: Theme
 paint-options: ''

@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'The date a planning condition became active'
+description: The date a planning condition became active
 end-date: ''
 entry-date: ''
 field: activation-date

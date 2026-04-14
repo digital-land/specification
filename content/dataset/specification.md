@@ -26,7 +26,7 @@ fields:
 - field: specification-reason
 - field: specification-status
 - field: start-date
-key-field: 'specification'
+key-field: specification
 licence: ogl3
 name: Specification
 paint-options: ''

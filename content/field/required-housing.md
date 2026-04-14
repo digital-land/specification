@@ -1,10 +1,10 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'required amount of net additional housing'
+description: required amount of net additional housing
 end-date: ''
 entry-date: ''
-field: required-housing 
+field: required-housing
 guidance: ''
 hint: ''
 name: Required housing

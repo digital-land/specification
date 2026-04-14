@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'The date an establishment opened'
+description: The date an establishment opened
 end-date: ''
 entry-date: ''
 field: open-date

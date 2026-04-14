@@ -25,7 +25,8 @@ fields:
 - field: tree-preservation-order
 - field: tree-preservation-zone-type
 - field: tree-species-list
-  guidance: "Although this field doesn't appear in the technical spec or guidance if an LPA provides a species column we can map it to this" 
+  guidance: Although this field doesn't appear in the technical spec or guidance if
+    an LPA provides a species column we can map it to this
 - field: uprn
 github-discussion: 43
 key-field: ''

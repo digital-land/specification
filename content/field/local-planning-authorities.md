@@ -1,7 +1,7 @@
 ---
-cardinality: 'n'
+cardinality: n
 datatype: string
-description: 'list of Local Planning Authorities'
+description: list of Local Planning Authorities
 end-date: ''
 entry-date: ''
 field: local-planning-authorities

@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Mineral Planning Authority boundary'
+description: Mineral Planning Authority boundary
 end-date: ''
 entry-date: ''
 field: mineral-planning-authority

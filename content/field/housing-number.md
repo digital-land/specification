@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'number of homes in an area'
+description: number of homes in an area
 end-date: ''
 entry-date: ''
 field: housing-number

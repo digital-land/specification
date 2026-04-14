@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'The date a planning condition was discharged'
+description: The date a planning condition was discharged
 end-date: ''
 entry-date: ''
 field: discharged-date

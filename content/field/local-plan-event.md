@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'An event that occurs during the local plan making process'
+description: An event that occurs during the local plan making process
 end-date: ''
 entry-date: '2024-10-22'
 field: local-plan-event

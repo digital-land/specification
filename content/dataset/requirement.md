@@ -17,7 +17,7 @@ fields:
 - field: requirement
 - field: reference
 - field: start-date
-key-field: 'requirement'
+key-field: requirement
 licence: ogl3
 name: Requirement
 paint-options: ''

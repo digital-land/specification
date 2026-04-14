@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 
+description: ''
 end-date: ''
 entry-date: '2025-02-17'
 field: expiry-date

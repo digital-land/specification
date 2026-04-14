@@ -1,7 +1,7 @@
 ---
 attribution: natural-england
 collection: ancient-woodland
-consideration: 'ancient-woodlands'
+consideration: ancient-woodlands
 dataset: ancient-woodland-status
 description: ''
 end-date: ''

@@ -1,7 +1,7 @@
 ---
-cardinality: 'n'
+cardinality: n
 datatype: string
-description: 'list of Minerals and Waste Planning Authority boundaries'
+description: list of Minerals and Waste Planning Authority boundaries
 end-date: ''
 entry-date: ''
 field: minerals-and-waste-planning-authorities

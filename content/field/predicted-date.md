@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'predicted date for an event'
+description: predicted date for an event
 end-date: ''
 entry-date: ''
 field: predicted-date

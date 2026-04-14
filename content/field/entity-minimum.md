@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'Beginning of entity range set for a dataset'
+description: Beginning of entity range set for a dataset
 end-date: ''
 entry-date: ''
 field: entity-minimum

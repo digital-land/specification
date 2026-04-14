@@ -16,7 +16,7 @@ fields:
 - field: name
 - field: start-date
 - field: text
-key-field: 'datapackage'
+key-field: datapackage
 licence: ogl3
 name: Data package
 paint-options: ''

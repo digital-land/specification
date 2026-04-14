@@ -3,7 +3,8 @@ attribution: historic-england
 collection: archaeological-priority-area
 consideration: greater-london-archaeological-priority-areas
 dataset: archaeological-priority-area
-description: Areas of Greater London where there is significant known archaeological interest or potential for new discoveries
+description: Areas of Greater London where there is significant known archaeological
+  interest or potential for new discoveries
 end-date: ''
 entity-maximum: '59999'
 entity-minimum: '40000'
@@ -36,8 +37,8 @@ themes:
 - environment
 - heritage
 typology: geography
-wikidata: 
-wikipedia: 
+wikidata: ''
+wikipedia: ''
 ---
 
 The Greater London Archaeological Priority Areas (APAs) are areas in London that have significant archaeological interest or potential for new discoveries

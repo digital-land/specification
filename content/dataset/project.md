@@ -19,7 +19,7 @@ fields:
 - field: provision-reason
 - field: specifications
 - field: start-date
-key-field: 'project'
+key-field: project
 licence: ogl3
 name: Project
 paint-options: ''

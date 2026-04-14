@@ -1,7 +1,7 @@
 ---
-cardinality: 'n'
+cardinality: n
 datatype: string
-description: 'list of Waste Planning Authorities'
+description: list of Waste Planning Authorities
 end-date: ''
 entry-date: ''
 field: waste-planning-authorities

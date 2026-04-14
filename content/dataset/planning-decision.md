@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection:
+collection: ''
 consideration: planning-applications-decisions
 dataset: planning-decision
 description: A planning decision

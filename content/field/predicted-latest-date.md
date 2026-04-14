@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'predicted latest date'
+description: predicted latest date
 end-date: ''
 entry-date: ''
 field: predicted-latest-date

@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: development-corporation-boundary
 consideration: development-corporation-boundary
 dataset: development-corporation-boundary
-description: 'development corporation administrative boundaries'
+description: development corporation administrative boundaries
 end-date: ''
 entity-maximum: '569999'
 entity-minimum: '560000'
@@ -38,6 +38,6 @@ start-date: ''
 themes:
 - administrative
 typology: geography
-wikidata:
-wikipedia:
+wikidata: ''
+wikipedia: ''
 ---

@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 'local-plan'
+collection: local-plan
 consideration: local-plans
 dataset: local-plan-boundary
 description: The boundary covered by a local plan.

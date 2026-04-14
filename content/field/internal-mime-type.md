@@ -1,7 +1,8 @@
 ---
 cardinality: '1'
 datatype: string
-description: The Multipurpose Internet Mail Extensions type assigned to a file within a resource
+description: The Multipurpose Internet Mail Extensions type assigned to a file within
+  a resource
 end-date: ''
 entry-date: ''
 field: internal-mime-type

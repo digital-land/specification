@@ -1,7 +1,7 @@
 ---
-cardinality: 'n'
+cardinality: n
 datatype: string
-description: 'A list of Unique Property Reference Numbers'
+description: A list of Unique Property Reference Numbers
 end-date: ''
 entry-date: '2024-07-16'
 field: uprns

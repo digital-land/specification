@@ -21,7 +21,7 @@ fields:
 - field: project
 - field: reference
 - field: start-date
-key-field: 'cohort'
+key-field: cohort
 licence: ogl3
 name: Project
 paint-options: ''

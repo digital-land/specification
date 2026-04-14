@@ -1,10 +1,10 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'number of dwellings allocated in a plan or to a site'
+description: number of dwellings allocated in a plan or to a site
 end-date: ''
 entry-date: ''
-field: allocated-dwellings 
+field: allocated-dwellings
 guidance: ''
 hint: ''
 name: Allocated dwellings

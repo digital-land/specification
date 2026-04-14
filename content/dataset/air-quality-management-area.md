@@ -1,9 +1,10 @@
 ---
 attribution: defra
 collection: air-quality-management-area
-consideration: 'air-quality-management-areas'
+consideration: air-quality-management-areas
 dataset: air-quality-management-area
-description: 'Areas where air pollution levels have exceeded the national air quality objectives'
+description: Areas where air pollution levels have exceeded the national air quality
+  objectives
 end-date: ''
 entity-maximum: '39999'
 entity-minimum: '35000'
@@ -35,8 +36,8 @@ start-date: ''
 themes:
 - environment
 typology: geography
-wikidata:
-wikipedia:
+wikidata: ''
+wikipedia: ''
 ---
 
 An area designated by DEFRA.

@@ -1,7 +1,7 @@
 ---
-cardinality: 'n'
+cardinality: n
 datatype: string
-description: 'list of Mineral Planning Authorities'
+description: list of Mineral Planning Authorities
 end-date: ''
 entry-date: ''
 field: mineral-planning-authorities

@@ -1,7 +1,7 @@
 ---
 cardinality: n
 datatype: string
-description: 'a json string field containing key value pairs'
+description: a json string field containing key value pairs
 end-date: ''
 entry-date: ''
 field: parameters

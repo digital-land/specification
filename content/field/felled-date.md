@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'The date a tree was felled'
+description: The date a tree was felled
 end-date: ''
 entry-date: '2024-10-14'
 field: felled-date

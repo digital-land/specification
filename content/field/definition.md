@@ -5,8 +5,9 @@ description: ''
 end-date: ''
 entry-date: ''
 field: definition
-guidance: |
-    Enter a formal definition for the entity to include in a technical specification.
+guidance: 'Enter a formal definition for the entity to include in a technical specification.
+
+  '
 hint: ''
 name: Definition
 parent-field: text

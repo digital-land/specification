@@ -17,7 +17,7 @@ fields:
 - field: quality
 - field: reference
 - field: start-date
-key-field: 'quality'
+key-field: quality
 licence: ogl3
 name: Quality
 paint-options: ''

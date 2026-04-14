@@ -3,7 +3,7 @@ attribution: natural-england
 collection: agricultural-land-classification
 consideration: agricultural-land-classification
 dataset: agricultural-land-classification
-description: 	land graded by its quality for agricultural use
+description: land graded by its quality for agricultural use
 end-date: ''
 entity-maximum: '34999'
 entity-minimum: '32000'
@@ -35,7 +35,6 @@ start-date: ''
 themes:
 - environment
 typology: geography
-wikidata: 
+wikidata: ''
 wikipedia: Agricultural_Land_Classification
 ---
-

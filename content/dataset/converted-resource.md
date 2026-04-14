@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: converted-resource
-description: 'Result of resource conversion'
+description: Result of resource conversion
 end-date: ''
 entry-date: ''
 fields:

@@ -1,7 +1,8 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'The target of a planning condition, for example a property or a planning application'
+description: The target of a planning condition, for example a property or a planning
+  application
 end-date: ''
 entry-date: ''
 field: planning-condition-target

@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'The purpose of a planning condition, for example to restrict something'
+description: The purpose of a planning condition, for example to restrict something
 end-date: ''
 entry-date: ''
 field: planning-condition-purpose

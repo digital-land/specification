@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: 'committed date for an event'
+description: committed date for an event
 end-date: ''
 entry-date: ''
 field: committed-date

@@ -15,7 +15,7 @@ fields:
 - field: prefix-uri
 - field: organisation
 - field: start-date
-key-field: 'prefix'
+key-field: prefix
 licence: ogl3
 name: Prefix
 paint-options: ''

@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: 'Waste Planning Authority boundary'
+description: Waste Planning Authority boundary
 end-date: ''
 entry-date: ''
 field: waste-planning-authority

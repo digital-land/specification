@@ -1,10 +1,10 @@
 ---
 cardinality: '1'
 datatype: integer
-description: 'number of dwellings which have commenced but not completed development'
+description: number of dwellings which have commenced but not completed development
 end-date: ''
 entry-date: ''
-field: committed-dwellings 
+field: committed-dwellings
 guidance: ''
 hint: ''
 name: Committed dwellings

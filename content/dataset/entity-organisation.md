@@ -3,24 +3,25 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: entity-organisation
-description: 'The organisation responsible for managing a range of entities.'
+description: The organisation responsible for managing a range of entities.
 end-date: ''
 entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
 - field: dataset
-  guidance: 'The dataset which includes this entity.'
+  guidance: The dataset which includes this entity.
 - field: end-date
-  guidance: 'The date the entity was marked as gone or redirected in the old-entity table.'
+  guidance: The date the entity was marked as gone or redirected in the old-entity
+    table.
 - field: entry-date
-  guidance: 'The date this record was last modified or created.'
+  guidance: The date this record was last modified or created.
 - field: entity-maximum
 - field: entity-minimum
 - field: organisation
-  guidance: 'The primary organisation responsible for managing the entity.'
+  guidance: The primary organisation responsible for managing the entity.
 - field: start-date
-key-field: 'entity'
+key-field: entity
 licence: ogl3
 name: Entity organisation
 paint-options: ''
