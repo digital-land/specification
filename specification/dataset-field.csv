@@ -2072,7 +2072,7 @@ local-plan-housing,local-plan,local-plan,,"Enter the `reference` for the local p
 ",,,,,
 local-plan-housing,local-planning-authority,local-planning-authority,local planning authority area,"This should be the GSS code (statistical geography) for the `local-planning-authority` area to which the housing numbers apply.
 See the [Local Planning Authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) dataset.
-",,,"[{""value"": ""E60000001"", ""description"": ""The GSS code for the County Durham LPA area""}]",,
+",,,"[{""description"": ""The GSS code for the County Durham LPA area"", ""value"": ""E60000001""}]",,
 local-plan-housing,notes,,,You may provide a short description to help users differentiate the plan from others with a similar name.,,,"[{""value"": ""Barnsley's Local Plan as adopted by Full Council on 3 January 2019""}]",,
 local-plan-housing,organisation,organisation,,,,,,,
 local-plan-housing,prefix,prefix,,,,,,,
@@ -2080,7 +2080,7 @@ local-plan-housing,reference,,local plan reference,"Give each set of housing num
 ",,,"[{""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
 local-plan-housing,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide
 within this `local-planning-authority` area.
-",,,"[{""example"": ""durham-local-plan"", ""entry-number"": 1, ""value"": 24852}]",,
+",,,"[{""entry-number"": 1, ""example"": ""durham-local-plan"", ""value"": 24852}]",,
 local-plan-housing,start-date,,,"Enter the date these numbers were finalised.
 ",,,,,
 local-plan-housing,windfall-housing,,total number of homes expected to arise from housing sites not specifically identified in the local plan,"Enter the total number of homes expected to arise from housing sites not specifically identified in the local plan
@@ -2183,7 +2183,7 @@ local-plan,reference,,local plan reference,"Give each local plan a unique refere
 ",,,"[{""value"": ""LP-BRX-2024""}, {""value"": ""34069/County-Durham-Plan""}, {""value"": ""central-lincolnshire""}, {""value"": ""barnet-local-plan-2021-2036""}]",,
 local-plan,required-housing,,minimum number of homes that a plan seeks to provide during the plan period,"Enter the minimum number of homes that the plan seeks to provide
 during the plan period.
-",,,"[{""example"": ""durham-local-plan"", ""entry-number"": 1, ""value"": 24852}]",,
+",,,"[{""entry-number"": 1, ""example"": ""durham-local-plan"", ""value"": 24852}]",,
 local-plan,start-date,,date when the plan was officially adopted,"Enter the date when the plan was officially adopted. 
 This value should match the relevant entry for when the plan was recorded as being adopted in the `local-plan-timetable`.
 Leave this value blank for plans which are being prepared, or haven't yet been adopted.
