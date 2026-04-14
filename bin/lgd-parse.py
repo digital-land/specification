@@ -10,6 +10,12 @@ organisations = {}
 for row in csv.DictReader(open("var/cache/organisation.csv", newline="")):
     organisations[row["name"]] = row
 
+# Skip councils outside England
+for o in [
+    "East Lothian Council",
+]:
+    organisations.setdefault(o, {"organisation": ""})
+
 # Match names
 # TBD: create and use a recociliation dataset
 for o, n in [
@@ -18,15 +24,19 @@ for o, n in [
     ("Bath & North East Somerset Council", "Bath and North East Somerset Council"),
     ("Brighton and Hove Council", "Brighton and Hove City Council"),
     ("Croydon London Borough Council", "London Borough of Croydon"),
+    ("Croydon Council", "London Borough of Croydon"),
     ("Cumberland", "Cumberland Council"),
     ("Colchester Borough Council", "Colchester City Council"),
+    ("Hackney Council", "London Borough of Hackney"),
     ("Hammersmith & Fulham Council", "London Borough of Hammersmith & Fulham"),
     ("Haringey Council", "London Borough of Haringey"),
     ("Waltham Forest Council", "London Borough of Waltham Forest"),
     ("Westmoreland & Furness", "Westmorland and Furness Council"),
     ("Barking & Dagenham Council", "London Borough of Barking and Dagenham"),
     ("Greenwich Council", "Royal Borough of Greenwich"),
+    ("Kingston upon Thames Council", "Royal Borough of Kingston upon Thames"),
     ("Kensington and Chelsea London Borough Council", "Royal Borough of Kensington and Chelsea"),
+    ("Kensington and Chelsea Council", "Royal Borough of Kensington and Chelsea"),
     ("Lambeth Council", "London Borough of Lambeth"),
     ("Redcar and Cleveland Council", "Redcar and Cleveland Borough Council"),
     ("Isles of Scilly", "Council of the Isles of Scilly"),
@@ -38,6 +48,7 @@ for o, n in [
     ("Walsall Council", "Walsall Metropolitan Borough Council"),
     ("Milton Keynes Council", "Milton Keynes City Council"),
     ("Solihull Council","Solihull Metropolitan Borough Council"),
+    ("Sutton Council", "London Borough of Sutton"),
     ("Westminster City Council","City of Westminster"),
     ("Westmoreland and Furness Council","Westmorland and Furness Council")
 ]:
