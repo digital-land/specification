@@ -2,7 +2,7 @@
 cardinality: '1'
 datatype: url
 description: ''
-end-date: ''
+end-date: '2019-10-31'
 entry-date: ''
 field: OrganisationURI
 guidance: '[Find your organisation in this list](https://www.planning.data.gov.uk/organisation)
