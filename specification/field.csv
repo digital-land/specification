@@ -338,7 +338,7 @@ You can find the CURIE reference for each organisation from our [list of organis
 The CURIE is made from the prefix value, followed by a colon ':' character, and then the reference value for the organisation being identified. 
 You may leave this value blank when the list of organisations is just the single organisation providing the data.
 ",,Organisations,organisation,,,,organisation,,
-1,,url,,2019-10-31,,OrganisationURI,"[Find your organisation in this list](https://www.planning.data.gov.uk/organisation)
+1,,url,,,,OrganisationURI,"[Find your organisation in this list](https://www.planning.data.gov.uk/organisation)
 and enter the corresponding Open Data Communities URI.
 ",,OrganisationURI,url,,,,value,,
 1,,string,,,,ownership-status,,,Ownership status,category,,,,category,,
