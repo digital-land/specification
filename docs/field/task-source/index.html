@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
-    <title>Endpoint | Planning Data</title>
+    <title>Task Source | Planning Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
     
@@ -87,12 +87,12 @@
   
     
     <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="../">Dataset</a>
+      <a class="govuk-breadcrumbs__link" href="../">Field</a>
     </li>
     
   
     
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">Endpoint</li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Task Source</li>
     
   
   </ol>
@@ -104,175 +104,70 @@
   
 <div class="govuk-grid-row">
  <div class="govuk-grid-column-full">
-  <span class="govuk-caption-xl">Dataset</span>
-  <h1 class="govuk-heading-xl">Endpoint</h1>
+  <span class="govuk-caption-xl">Field</span>
+  <h1 class="govuk-heading-xl">Task Source</h1>
   </div>
 </div>
 
   
 <div class="govuk-grid-row govuk-body">
   <div class="govuk-grid-column-full">
-    
-
-    <!--  -->
-
     <table class="govuk-table">
-      <caption class="govuk-table__caption">Fields</caption>
-      <thead class="govuk-table__head">
-        <tr class="govuk-table__row">
-          <th scope="col" class="govuk-table__header">Field</th>
-          <th scope="col" class="govuk-table__header">Name</th>
-          <th scope="col" class="govuk-table__header">Datatype</th>
-          <th scope="col" class="govuk-table__header">Cardinality</th>
-        </tr>
-      </thead>
       <tbody class="govuk-table__body">
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_endpoint"><a href="../../field/endpoint">endpoint</a>
-           <strong class="govuk-tag govuk-tag--grey">Key</strong></td>
-          <td class="govuk-table__cell">Endpoint</td>
-          <td class="govuk-table__cell"><a href="../../datatype/hash">hash</a></td>
-          <td class="govuk-table__cell">1</td>
+          <th scope="row" class="govuk-table__header">Name</th>
+          <td class="govuk-table__cell">Task Source</td>
         </tr>
-    
+        <tr class="govuk-table__row">
+          <th scope="row" class="govuk-table__header">Field</th>
+          <td class="govuk-table__cell">task-source</td>
+        </tr>
         
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_datasets"><a href="../../field/datasets">datasets</a>
-          </td>
-          <td class="govuk-table__cell">Datasets</td>
+          <th scope="row" class="govuk-table__header">Datatype</th>
           <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">n</td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_documentation-url"><a href="../../field/documentation-url">documentation-url</a>
-          </td>
-          <td class="govuk-table__cell">Documentation URL</td>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
+          <th scope="row" class="govuk-table__header">Cardinality</th>
           <td class="govuk-table__cell">1</td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_endpoint-url"><a href="../../field/endpoint-url">endpoint-url</a>
-          </td>
-          <td class="govuk-table__cell">Endpoint URL</td>
-          <td class="govuk-table__cell"><a href="../../datatype/url">url</a></td>
-          <td class="govuk-table__cell">1</td>
+          <th scope="row" class="govuk-table__header">Parent field</th>
+          <td class="govuk-table__cell"><a href="../specification">specification</a></td>
         </tr>
-    
-        
         <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_parameters"><a href="../../field/parameters">parameters</a>
-          </td>
-          <td class="govuk-table__cell">Parameters</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">n</td>
+          <th scope="row" class="govuk-table__header">Typology</th>
+          <td class="govuk-table__cell"><a href="../../typology/specification">specification</a></td>
         </tr>
-    
         
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_plugin"><a href="../../field/plugin">plugin</a>
-          </td>
-          <td class="govuk-table__cell">Plugin</td>
-          <td class="govuk-table__cell"><a href="../../datatype/string">string</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_entry-date"><a href="../../field/entry-date">entry-date</a>
-          </td>
-          <td class="govuk-table__cell">Entry date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_start-date"><a href="../../field/start-date">start-date</a>
-          </td>
-          <td class="govuk-table__cell">Start date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
-        
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell" id="field_end-date"><a href="../../field/end-date">end-date</a>
-          </td>
-          <td class="govuk-table__cell">End date</td>
-          <td class="govuk-table__cell"><a href="../../datatype/datetime">datetime</a></td>
-          <td class="govuk-table__cell">1</td>
-        </tr>
-    
       </tbody>
     </table>
+    </p>
 
-
+    
+    <h2 class="govuk-heading-s" id="description">Description</h2>
+    <p>
+    A the source dataset of the task, the dataset should be in the provenance realm.
+    </p>
     
 
     
 
-
-    
-    <h2 class="govuk-heading-s" id="">Typology</h2>
-    <p class="govuk-body">This dataset belongs to the <a href="../../typology/value">value</a> typology.</p>
     
 
-    
-    <h2 class="govuk-heading-s" id="">Datasets</h2>
 
     
-    <p class="govuk-body">This dataset references the following other datasets:</p>
+    <h2 class="govuk-heading-s" id="datasets">Datasets</h2>
+
+    <p class="govuk-body">The following datasets use this field:</p>
+
     <ul class="govuk-list govuk-list--bullet">
     
-      <li><a href="../dataset">Dataset</a></li>
+      <li><a href="../../dataset/task">Task</a></li>
     
     </ul>
     
 
-    
-    <p class="govuk-body">This dataset is referenced by the following other datasets:</p>
-    <ul class="govuk-list govuk-list--bullet">
-    
-      <li><a href="../column">Pipeline column</a></li>
-    
-      <li><a href="../combine">Pipeline combine facts</a></li>
-    
-      <li><a href="../concat">Pipeline concatenation</a></li>
-    
-      <li><a href="../convert">Pipeline convert</a></li>
-    
-      <li><a href="../default">Pipeline default field</a></li>
-    
-      <li><a href="../default-value">Pipeline default value</a></li>
-    
-      <li><a href="../filter">Pipeline filter</a></li>
-    
-      <li><a href="../log">Collection log</a></li>
-    
-      <li><a href="../lookup">Pipeline lookup</a></li>
-    
-      <li><a href="../patch">Pipeline patch</a></li>
-    
-      <li><a href="../resource">Resource</a></li>
-    
-      <li><a href="../skip">Pipeline skip</a></li>
-    
-      <li><a href="../source">Source</a></li>
-    
-      <li><a href="../task">Task</a></li>
-    
-      <li><a href="../transform">Pipeline transformation</a></li>
-    
-    </ul>
-    
-
-    
   </div>
 </div>
 

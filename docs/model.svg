@@ -187,6 +187,11 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_provision_role_to_role_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 3790 C 634.0 3790 634.0 7330 594 7330"><title>from provision role to role reference</title></path>
 <path class="line" id="from_provision_specification_to_specification_specification" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 3810 C 485.5 3810 485.5 5770 297 5770"><title>from provision specification to specification specification</title></path>
 <path class="line" id="from_provision_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 3850 C 1079.5 3850 1079.5 1030 1268 1030"><title>from provision organisation to organisation reference</title></path>
+<path class="line" id="from_task_dataset_to_dataset_dataset" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 4270 C 485.5 4270 485.5 1590 297 1590"><title>from task dataset to dataset dataset</title></path>
+<path class="line" id="from_task_endpoint_to_endpoint_endpoint" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 4290 C 634.0 4290 634.0 2210 594 2210"><title>from task endpoint to endpoint endpoint</title></path>
+<path class="line" id="from_task_resource_to_resource_resource" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 4310 C 931.0 4310 931.0 4110 891 4110"><title>from task resource to resource resource</title></path>
+<path class="line" id="from_task_severity_to_severity_severity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 674 4350 C 485.5 4350 485.5 4890 297 4890"><title>from task severity to severity severity</title></path>
+<path class="line" id="from_task_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 891 4410 C 1079.5 4410 1079.5 1030 1268 1030"><title>from task organisation to organisation reference</title></path>
 <path class="line" id="from_address_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 30 C 782.5 30 782.5 5250 594 5250"><title>from address prefix to prefix prefix</title></path>
 <path class="line" id="from_address_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 70 C 931.0 70 931.0 790 891 790"><title>from address entity to entity entity</title></path>
 <path class="line" id="from_address_address_to_address_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 110 C 1228.0 110 1228.0 50 1188 50"><title>from address address to address reference</title></path>
@@ -3919,6 +3924,54 @@ text.datatype{fill:#0b0c0c;}
 <rect x="836" y="4160" width="55" height="20" class="datatype"/>
 <text x="679" y="4170" class="field">end-date</text>
 <text x="841" y="4170" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="674" y="4240" width="217" height="20" class="name"/>
+<text x="782" y="4250" class="name">task</text>
+<rect x="674" y="4260" width="162" height="20" class="field"/>
+<rect x="836" y="4260" width="55" height="20" class="datatype"/>
+<text x="679" y="4270" class="field">dataset</text>
+<text x="841" y="4270" class="datatype">reference</text>
+<rect x="674" y="4280" width="162" height="20" class="field"/>
+<rect x="836" y="4280" width="55" height="20" class="datatype"/>
+<text x="679" y="4290" class="field">endpoint</text>
+<text x="841" y="4290" class="datatype">reference</text>
+<rect x="674" y="4300" width="162" height="20" class="field"/>
+<rect x="836" y="4300" width="55" height="20" class="datatype"/>
+<text x="679" y="4310" class="field">resource</text>
+<text x="841" y="4310" class="datatype">reference</text>
+<rect x="674" y="4320" width="162" height="20" class="field"/>
+<rect x="836" y="4320" width="55" height="20" class="datatype"/>
+<text x="679" y="4330" class="field">details</text>
+<text x="841" y="4330" class="datatype">string</text>
+<rect x="674" y="4340" width="162" height="20" class="field"/>
+<rect x="836" y="4340" width="55" height="20" class="datatype"/>
+<text x="679" y="4350" class="field">severity</text>
+<text x="841" y="4350" class="datatype">reference</text>
+<rect x="674" y="4360" width="162" height="20" class="field"/>
+<rect x="836" y="4360" width="55" height="20" class="datatype"/>
+<text x="679" y="4370" class="field">responsibility</text>
+<text x="841" y="4370" class="datatype">string</text>
+<rect x="674" y="4380" width="162" height="20" class="field"/>
+<rect x="836" y="4380" width="55" height="20" class="datatype"/>
+<text x="679" y="4390" class="field">task-source</text>
+<text x="841" y="4390" class="datatype">string</text>
+<rect x="674" y="4400" width="162" height="20" class="field"/>
+<rect x="836" y="4400" width="55" height="20" class="datatype"/>
+<text x="679" y="4410" class="field">organisation</text>
+<text x="841" y="4410" class="datatype">curie</text>
+<rect x="674" y="4420" width="162" height="20" class="field"/>
+<rect x="836" y="4420" width="55" height="20" class="datatype"/>
+<text x="679" y="4430" class="field">entry-date</text>
+<text x="841" y="4430" class="datatype">datetime</text>
+<rect x="674" y="4440" width="162" height="20" class="field"/>
+<rect x="836" y="4440" width="55" height="20" class="datatype"/>
+<text x="679" y="4450" class="field">start-date</text>
+<text x="841" y="4450" class="datatype">datetime</text>
+<rect x="674" y="4460" width="162" height="20" class="field"/>
+<rect x="836" y="4460" width="55" height="20" class="datatype"/>
+<text x="679" y="4470" class="field">end-date</text>
+<text x="841" y="4470" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="971" y="0" width="217" height="20" class="name"/>
