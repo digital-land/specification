@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: ''
+description: 'the source dataset of the task, the dataset should be in the provenance realm'
 end-date: ''
 entry-date: ''
 field: task-source

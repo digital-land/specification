@@ -24,7 +24,7 @@ paint-options: ''
 phase: alpha
 plural: Tasks
 prefix: ''
-realm: configuration
+realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:

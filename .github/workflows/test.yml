@@ -1,0 +1,42 @@
+name: Test
+run-name: Test - ${{ github.head_ref || github.ref_name }} by @${{ github.actor }}
+
+on:
+  push:
+    paths-ignore:
+      - 'collection/resource/**'
+      - 'collection/log/**'
+      - 'index/**'
+      - 'var/**'
+    branches-ignore: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Branch name
+      run: echo running on branch ${GITHUB_REF##*/}
+
+    - name: Update makerules
+      run: make makerules
+
+    - name: Clean specification and docs
+      run: make clean clobber
+
+    - name: Install dependencies
+      run: make init
+
+    - name: Build specification
+      run: make specification
+
+    - name: Check specification
+      run: make check
+
+    - name: Build docs
+      run: make render
