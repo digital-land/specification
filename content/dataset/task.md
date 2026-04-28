@@ -3,7 +3,7 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: task
-description: An amalgamation of 
+description: Tasks are an amalgamation of the various data quality checks that are run in the pipeline that need to be fixed (e.g. issues, expectations, collection logs).
 end-date: ''
 entry-date: ''
 fields:
