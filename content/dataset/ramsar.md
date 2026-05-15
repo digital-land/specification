@@ -30,7 +30,7 @@ github-discussion: 41
 key-field: ''
 licence: ogl3
 name: Ramsar site
-paint-options: '{ "colour": "#7fcdff" }'
+paint-options: '{ "colour": "#2E8B8B" }'
 phase: beta
 plural: Ramsar sites
 prefix: ''
@@ -47,4 +47,4 @@ wikipedia: ''
 An internationally protected site listed as a wetland of international importance.
 Ramsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england).
 
-Natural England provides [guidance ](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.
+Natural England provides [guidance ](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protect[...]
