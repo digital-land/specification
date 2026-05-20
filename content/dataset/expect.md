@@ -19,6 +19,7 @@ fields:
 - field: end-date
 - field: entry-date
 - field: start-date
+- field: schedule
 licence: ogl3
 name: Expectation Rule
 paint-options: ''
