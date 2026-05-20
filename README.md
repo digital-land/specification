@@ -4,7 +4,8 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
 [![Run pipeline](https://github.com/digital-land/specification/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/specification/actions/workflows/run.yml)
 
-Specifications and other data used to model the data for https://planning.data.gov.uk
+Specifications and other data used as a source of truth to model the data for https://planning.data.gov.uk. 
+Every field and table schema for https://planning.data.gov.uk must be defined here. 
 
 * [content](content/) – source data as Frontmatter Markdown and CSV files
 * [content/specification](content/specification) – Frontmatter Markdown for technical specifications for providing the data
@@ -23,6 +24,27 @@ We recommend working in [virtual environment](http://docs.python-guide.org/en/la
 
     $ make init
     $ make
+
+## How to add a new field to a dataset
+
+> [!NOTE]
+> You should only make changes inside the `content` folder.
+
+### Changes you make
+1) Find the relevant markdown file in `content/dataset/` and add your new field the fields list.
+2) go to `content/field/` and make a new markdown file for your field
+
+Merge your PR when you are happy with the changes, get a review if you are unsure.
+
+### Automated implementation of new fields
+Once your PR is merged, digital-land-bot will automatically open and merge two PRs:
+- one to regenerate the CSV files in `specification/` (e.g. `field.csv`, `schema-field.csv`)
+- one to rebuild the documentation in `docs/`
+
+
+You should be able to see this happen within a minute or so of merging your PR, do check it has run successfully before assuming your changes have been applied. 
+
+You change the `content` folder, then digital-land-bot updates the `specification` folder.
 
 # Licence
 
