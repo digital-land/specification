@@ -468,6 +468,7 @@ Great references are short, easy to read, to pronounce and remember.
 1,,string,,,,scope,,,Scope,category,,,,category,,
 1,,string,,,,self-and-custom-buildarea,,,Self and custom buildarea,geography,,,,geography,,
 1,,string,,,,separator,,,Separator,string,,,,value,,
+1,,string,The day of the week on which this expectation should run,,,schedule,,,Schedule,text,,,,value,,
 1,,string,,,,severity,,,Severity,specification,,,,specification,,
 1,,curie,,,,shielding-hub,,,Shielding hub,organisation,,,,organisation,,
 1,,string,,,,short-name,,,Short name,name,,,,value,,
