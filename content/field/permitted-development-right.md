@@ -11,7 +11,7 @@ name: Permitted development right
 parent-field: legislation
 replacement-field: ''
 start-date: ''
-typology: document
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---
