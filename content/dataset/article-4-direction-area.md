@@ -21,6 +21,7 @@ fields:
 - field: notes
 - field: organisation
 - field: permitted-development-rights
+  dataset: permitted-development-right
 - field: point
 - field: prefix
 - field: reference
