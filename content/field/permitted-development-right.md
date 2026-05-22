@@ -8,7 +8,7 @@ field: permitted-development-right
 guidance: ''
 hint: ''
 name: Permitted development right
-parent-field: legislation
+parent-field: category
 replacement-field: ''
 start-date: ''
 typology: category
