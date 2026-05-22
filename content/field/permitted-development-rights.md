@@ -11,7 +11,7 @@ name: Permitted development rights
 parent-field: permitted-development-right
 replacement-field: ''
 start-date: ''
-typology: document
+typology: category
 uri-template: ''
 wikidata-property: ''
 ---
