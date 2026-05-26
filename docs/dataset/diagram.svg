@@ -72,6 +72,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_ancient-woodland_ancient-woodland_to_ancient-woodland_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 1070 C 1228.0 1070 1228.0 1010 1188 1010"><title>from ancient-woodland ancient-woodland to ancient-woodland reference</title></path>
 <path class="line" id="from_ancient-woodland_ancient-woodland-status_to_ancient-woodland-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 1090 C 1673.5 1090 1673.5 50 2159 50"><title>from ancient-woodland ancient-woodland-status to ancient-woodland-status reference</title></path>
 <path class="line" id="from_article-4-direction-area_article-4-direction_to_article-4-direction_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 2250 C 782.5 2250 782.5 50 594 50"><title>from article-4-direction-area article-4-direction to article-4-direction reference</title></path>
+<path class="line" id="from_article-4-direction-area_permitted-development-rights_to_permitted-development-right_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 2270 C 1673.5 2270 1673.5 8850 2159 8850"><title>from article-4-direction-area permitted-development-rights to permitted-development-right reference</title></path>
 <path class="line" id="from_best-and-most-versatile-agricultural-land_best-and-most-versatile-agricultural-land_to_best-and-most-versatile-agricultural-land_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 3490 C 1228.0 3490 1228.0 3430 1188 3430"><title>from best-and-most-versatile-agricultural-land best-and-most-versatile-agricultural-land to best-and-most-versatile-agricultural-land reference</title></path>
 <path class="line" id="from_brownfield-land_brownfield-land_to_brownfield-land_site" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 4630 C 1228.0 4630 1228.0 4890 1188 4890"><title>from brownfield-land brownfield-land to brownfield-land site</title></path>
 <path class="line" id="from_brownfield-land_ownership-status_to_ownership-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 4790 C 1673.5 4790 1673.5 8050 2159 8050"><title>from brownfield-land ownership-status to ownership-status reference</title></path>
@@ -2642,7 +2643,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="2260" width="162" height="20" class="field"/>
 <rect x="1133" y="2260" width="55" height="20" class="datatype"/>
 <text x="976" y="2270" class="field">permitted-development-rights</text>
-<text x="1138" y="2270" class="datatype">string*</text>
+<text x="1138" y="2270" class="datatype">reference*</text>
 <rect x="971" y="2280" width="162" height="20" class="field"/>
 <rect x="1133" y="2280" width="55" height="20" class="datatype"/>
 <text x="976" y="2290" class="field">uprns</text>

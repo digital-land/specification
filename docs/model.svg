@@ -217,6 +217,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_article-4-direction-area_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 2410 C 782.5 2410 782.5 5270 594 5270"><title>from article-4-direction-area prefix to prefix prefix</title></path>
 <path class="line" id="from_article-4-direction-area_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 2450 C 931.0 2450 931.0 790 891 790"><title>from article-4-direction-area entity to entity entity</title></path>
 <path class="line" id="from_article-4-direction-area_article-4-direction_to_article-4-direction_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 2530 C 1228.0 2530 1228.0 3170 1188 3170"><title>from article-4-direction-area article-4-direction to article-4-direction reference</title></path>
+<path class="line" id="from_article-4-direction-area_permitted-development-rights_to_permitted-development-right_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 2550 C 1228.0 2550 1228.0 50070 1188 50070"><title>from article-4-direction-area permitted-development-rights to permitted-development-right reference</title></path>
 <path class="line" id="from_article-4-direction-area_organisation_to_organisation_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1188 2650 C 1228.0 2650 1228.0 1030 1268 1030"><title>from article-4-direction-area organisation to organisation reference</title></path>
 <path class="line" id="from_article-4-direction-rule_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 2810 C 782.5 2810 782.5 5270 594 5270"><title>from article-4-direction-rule prefix to prefix prefix</title></path>
 <path class="line" id="from_article-4-direction-rule_entity_to_entity_entity" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 971 2850 C 931.0 2850 931.0 790 891 790"><title>from article-4-direction-rule entity to entity entity</title></path>
@@ -4406,7 +4407,7 @@ text.datatype{fill:#0b0c0c;}
 <rect x="971" y="2540" width="162" height="20" class="field"/>
 <rect x="1133" y="2540" width="55" height="20" class="datatype"/>
 <text x="976" y="2550" class="field">permitted-development-rights</text>
-<text x="1138" y="2550" class="datatype">string*</text>
+<text x="1138" y="2550" class="datatype">reference*</text>
 <rect x="971" y="2560" width="162" height="20" class="field"/>
 <rect x="1133" y="2560" width="55" height="20" class="datatype"/>
 <text x="976" y="2570" class="field">uprns</text>
