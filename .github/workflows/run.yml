@@ -22,10 +22,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: actions/checkout@v6
+    - uses: actions/setup-python@v6
       with:
-        python-version: 3.9
+        python-version: '3.10'
 
     - name: Branch name
       run: echo running on branch ${GITHUB_REF##*/}
@@ -71,33 +71,23 @@ jobs:
     if: always() && needs.build.result == 'failure'
     steps:
       - name: send failure notification
-        uses: slackapi/slack-github-action@v1
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        uses: slackapi/slack-github-action@v3.0.3
         with:
-          channel-id: 'planning-data-alerts'
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload-templated: true
           payload: |
-            {
-              "text": "Build specification has failed",
-              "icon_emoji": ":rotating_light:",
-              "username": "Build specification",
-              "blocks": [
-                {
-                  "type": "header",
-                  "text": {
-                    "type": "plain_text",
-                    "text": "Build specification has failed"
-                  }
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "The report is available on <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|GitHub>"
-                  }
-                }
-              ]
-            }
+            channel: planning-data-alerts
+            text: "Build specification has failed"
+            icon_emoji: ":rotating_light:"
+            username: "Build specification"
+            blocks:
+              - type: header
+                text:
+                  type: plain_text
+                  text: "Build specification has failed"
+              - type: divider
+              - type: section
+                text:
+                  type: mrkdwn
+                  text: "The report is available on <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|GitHub>"
