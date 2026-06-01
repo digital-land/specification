@@ -1,9 +1,13 @@
+# TBD: remove this dependency on Python 3.10
 -e git+https://github.com/digital-land/digital-land-python.git#egg=digital-land
+# TBD: replace this dependecy with latest GOV.UK templates
 -e git+https://github.com/digital-land/frontend.git#egg=digital_land_frontend
 filelock
 MarkupSafe
 Markdown==3.2.2
 jinja2==3.0.3
+# this pinned dependency has bugs when serialising YAML
 python-frontmatter==1.0.1
 pyquery
 beautifulsoup4
+PyYAML
