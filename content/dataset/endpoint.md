@@ -9,15 +9,15 @@ entity-maximum: '6099999'
 entity-minimum: '6000000'
 entry-date: ''
 fields:
-- field: datasets
-- field: documentation-url
-- field: end-date
-- field: endpoint
-- field: endpoint-url
-- field: entry-date
-- field: parameters
-- field: plugin
-- field: start-date
+  - field: datasets
+  - field: documentation-url
+  - field: end-date
+  - field: endpoint
+  - field: endpoint-url
+  - field: entry-date
+  - field: parameters
+  - field: plugin
+  - field: start-date
 key-field: endpoint
 licence: ogl3
 name: Endpoint
@@ -29,7 +29,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

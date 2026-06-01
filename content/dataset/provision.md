@@ -7,23 +7,21 @@ description: Data expected to be provided by an organisation
 end-date: ''
 entry-date: ''
 fields:
-- field: cohort
-- field: dataset
-- field: end-date
-- field: entry-date
-- field: geography
-  guidance: 'Enter a CURIE to identify the geographic area which entities provided
-    by this organisation are expected to be within.
-
-    '
-- field: notes
-- field: organisation
-- field: project
-- field: provision-reason
-- field: provision-rule
-- field: role
-- field: specification
-- field: start-date
+  - field: cohort
+  - field: dataset
+  - field: end-date
+  - field: entry-date
+  - field: geography
+    guidance: |
+      Enter a CURIE to identify the geographic area which entities provided by this organisation are expected to be within.
+  - field: notes
+  - field: organisation
+  - field: project
+  - field: provision-reason
+  - field: provision-rule
+  - field: role
+  - field: specification
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Provision
@@ -35,7 +33,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

@@ -9,15 +9,15 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: '2024-10-24'
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 26
 licence: ogl3
 name: Local plan document type
@@ -29,7 +29,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: category
 wikidata: ''
 wikipedia: ''

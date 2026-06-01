@@ -9,19 +9,19 @@ entity-maximum: '8199999'
 entity-minimum: '8100000'
 entry-date: ''
 fields:
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: period-end-date
-- field: period-start-date
-- field: prefix
-- field: reference
-- field: start-date
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: period-end-date
+  - field: period-start-date
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Infrastructure funding statement
@@ -33,7 +33,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: document
 wikidata: ''
 wikipedia: ''

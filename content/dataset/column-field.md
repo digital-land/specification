@@ -7,13 +7,13 @@ description: Log of resource columns mapped to dataset fields
 end-date: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: field
-- field: dataset
-- field: start-date
-- field: resource
-- field: column
+  - field: end-date
+  - field: entry-date
+  - field: field
+  - field: dataset
+  - field: start-date
+  - field: resource
+  - field: column
 key-field: ''
 licence: ogl3
 name: Column field
@@ -25,7 +25,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

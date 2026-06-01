@@ -9,18 +9,18 @@ entity-maximum: '6199999'
 entity-minimum: '6100000'
 entry-date: ''
 fields:
-- field: description
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 30
 key-field: ''
 licence: ogl3
@@ -33,7 +33,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: legal-instrument
 wikidata: Q16962063
 wikipedia: Article_4_direction

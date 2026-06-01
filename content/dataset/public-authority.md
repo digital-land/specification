@@ -9,21 +9,21 @@ entity-maximum: '13099999'
 entity-minimum: '13000000'
 entry-date: ''
 fields:
-- field: company
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: parliament-thesaurus
-- field: prefix
-- field: reference
-- field: start-date
-- field: statistical-geography
-- field: twitter
-- field: website
-- field: wikidata
-- field: wikipedia
+  - field: company
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: parliament-thesaurus
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: statistical-geography
+  - field: twitter
+  - field: website
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Public authority
@@ -35,7 +35,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: organisation
 wikidata: ''
 wikipedia: ''

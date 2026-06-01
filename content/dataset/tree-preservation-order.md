@@ -9,21 +9,21 @@ entity-maximum: '7001999999'
 entity-minimum: '7001000000'
 entry-date: ''
 fields:
-- field: confirmed-date
-- field: description
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: legislation
-- field: made-date
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
+  - field: confirmed-date
+  - field: description
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: legislation
+  - field: made-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 43
 key-field: ''
 licence: ogl3
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: legal-instrument
 wikidata: ''
 wikipedia: ''

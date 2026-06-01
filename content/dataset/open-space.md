@@ -9,19 +9,19 @@ entity-maximum: '10799999'
 entity-minimum: '10700000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: open-space
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: open-space
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Open space
@@ -33,7 +33,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: ''
 wikipedia: ''

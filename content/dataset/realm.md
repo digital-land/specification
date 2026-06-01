@@ -9,13 +9,13 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: reference
-- field: realm
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: reference
+  - field: realm
+  - field: start-date
 key-field: realm
 licence: ogl3
 name: Realm
@@ -27,7 +27,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: category
 wikidata: ''
 wikipedia: ''

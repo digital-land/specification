@@ -9,21 +9,21 @@ entity-maximum: '41099999'
 entity-minimum: '31100000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: listed-building-grade
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
-- field: wikidata
-- field: wikipedia
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: listed-building-grade
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: wikidata
+  - field: wikipedia
 github-discussion: 44
 key-field: ''
 licence: ogl3
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: Q570600
 wikipedia: Listed_building

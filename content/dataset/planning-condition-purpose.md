@@ -9,16 +9,16 @@ entity-maximum: '70000499'
 entity-minimum: '70000000'
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 40
 licence: ogl3
 name: Planning condition purpose
@@ -30,8 +30,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- housing
-- monitoring
+  - housing
+  - monitoring
 typology: category
 wikidata: ''
 wikipedia: ''

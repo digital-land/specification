@@ -9,22 +9,22 @@ entity-maximum: '7599999'
 entity-minimum: '7500000'
 entry-date: ''
 fields:
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: heritage-at-risk
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: heritage-at-risk
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Heritage at risk
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: Q16983914
 wikipedia: Heritage_at_Risk_Register

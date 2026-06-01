@@ -1,8 +1,7 @@
 ---
 cardinality: '1'
 datatype: datetime
-description: The date the asset was nominated for the authority to consider if it
-  should be on the community asset register
+description: The date the asset was nominated for the authority to consider if it should be on the community asset register
 end-date: ''
 entry-date: '2025-02-17'
 field: nomination-date

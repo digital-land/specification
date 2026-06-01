@@ -9,14 +9,14 @@ entity-maximum: '7199'
 entity-minimum: '7100'
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: priority
-- field: quality
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: priority
+  - field: quality
+  - field: reference
+  - field: start-date
 key-field: quality
 licence: ogl3
 name: Quality
@@ -28,7 +28,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

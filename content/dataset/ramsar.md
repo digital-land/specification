@@ -9,23 +9,23 @@ entity-maximum: '619999'
 entity-minimum: '612000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: ramsar
-- field: ramsar-site
-- field: reference
-- field: special-protection-area
-- field: start-date
-- field: wikidata
-- field: wikipedia
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: ramsar
+  - field: ramsar-site
+  - field: reference
+  - field: special-protection-area
+  - field: start-date
+  - field: wikidata
+  - field: wikipedia
 github-discussion: 41
 key-field: ''
 licence: ogl3
@@ -38,7 +38,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: ''
 wikipedia: ''

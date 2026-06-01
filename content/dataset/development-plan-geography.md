@@ -9,18 +9,18 @@ entity-maximum: 0
 entity-minimum: 0
 entry-date: '2023-09-19'
 fields:
-- field: development-plan-geography-type
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: geometry
-- field: point
-- field: notes
-- field: description
-- field: prefix
-- field: reference
-- field: start-date
+  - field: development-plan-geography-type
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: geometry
+  - field: point
+  - field: notes
+  - field: description
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 26
 key-field: ''
 licence: ogl3
@@ -33,7 +33,7 @@ realm: dataset
 replacement-dataset: development-plan-boundary
 start-date: ''
 themes:
-- development
+  - development
 typology: geography
 wikidata: ''
 wikipedia: ''

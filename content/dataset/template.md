@@ -9,16 +9,16 @@ entity-maximum: '9999'
 entity-minimum: '9000'
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: phase
-- field: prefix
-- field: reference
-- field: text
-  guidance: A Jinja2 template
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: phase
+  - field: prefix
+  - field: reference
+  - field: text
+    guidance: A Jinja2 template
+  - field: start-date
 licence: ogl3
 name: Template
 paint-options: ''
@@ -29,7 +29,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

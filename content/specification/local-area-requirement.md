@@ -1,32 +1,31 @@
 ---
 consideration: local-area-requirements
 datasets:
-- dataset: local-area-requirements
-  fields:
-  - description: a reference for the local area requirement document
-    field: reference
-  - description: a name used for this local area requirements document
-    field: name
-  - description: a description of the local area requirements document
-    field: description
-  - description: the organisation responsible for the local area requirements
-    field: organisation
-  - description: a list of urls to the documents that make up the local area requirements.
-      Separate the urls with a `;`
-    field: document-urls
-  - description: a url to the page where the document(s) are published
-    field: documentation-url
-  - description: the date the local area requirements became active
-    field: period-start-date
-  - description: any additional notes about the local area requirements
-    field: notes
-  - description: the date this record was created
-    field: entry-date
-  - description: the date the validity of the record starts
-    field: start-date
-  - description: the date the validity of the record starts
-    field: end-date
-  name: Local area requirements
+  - dataset: local-area-requirements
+    fields:
+      - description: a reference for the local area requirement document
+        field: reference
+      - description: a name used for this local area requirements document
+        field: name
+      - description: a description of the local area requirements document
+        field: description
+      - description: the organisation responsible for the local area requirements
+        field: organisation
+      - description: a list of urls to the documents that make up the local area requirements. Separate the urls with a `;`
+        field: document-urls
+      - description: a url to the page where the document(s) are published
+        field: documentation-url
+      - description: the date the local area requirements became active
+        field: period-start-date
+      - description: any additional notes about the local area requirements
+        field: notes
+      - description: the date this record was created
+        field: entry-date
+      - description: the date the validity of the record starts
+        field: start-date
+      - description: the date the validity of the record starts
+        field: end-date
+    name: Local area requirements
 end-date: ''
 entry-date: '2024-08-01'
 github-discussion: 52

@@ -9,14 +9,14 @@ entity-maximum: '6800999'
 entity-minimum: '6800000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 25
 licence: ogl3
 name: Planning decision type
@@ -28,8 +28,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- housing
-- monitoring
+  - housing
+  - monitoring
 typology: category
 wikidata: ''
 wikipedia: ''

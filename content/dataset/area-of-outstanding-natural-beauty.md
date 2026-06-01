@@ -9,25 +9,25 @@ entity-maximum: '1099999'
 entity-minimum: '1000000'
 entry-date: ''
 fields:
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
-- field: twitter
-- field: website
-- field: wikidata
-- field: wikipedia
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: twitter
+  - field: website
+  - field: wikidata
+  - field: wikipedia
 github-discussion: 31
 key-field: ''
 licence: ogl3
@@ -40,7 +40,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: Q174945
 wikipedia: Area_of_Outstanding_Natural_Beauty

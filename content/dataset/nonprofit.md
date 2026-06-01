@@ -9,20 +9,20 @@ entity-maximum: '8399999'
 entity-minimum: '8300000'
 entry-date: ''
 fields:
-- field: company
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
-- field: twitter
-- field: website
-- field: wikidata
-- field: wikipedia
+  - field: company
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: twitter
+  - field: website
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Nonprofit organisation
@@ -34,7 +34,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: organisation
 wikidata: ''
 wikipedia: ''

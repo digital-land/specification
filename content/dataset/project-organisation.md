@@ -7,13 +7,13 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: cohort
-- field: notes
-- field: organisation
-- field: project
-- field: start-date
+  - field: end-date
+  - field: entry-date
+  - field: cohort
+  - field: notes
+  - field: organisation
+  - field: project
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Project organisation
@@ -25,7 +25,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

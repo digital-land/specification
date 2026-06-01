@@ -7,18 +7,18 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: specification
-- field: reference
-- field: role
-- field: start-date
-- field: wikipedia
-- field: wikidata
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: specification
+  - field: reference
+  - field: role
+  - field: start-date
+  - field: wikipedia
+  - field: wikidata
 key-field: ''
 licence: ogl3
 name: Role
@@ -30,7 +30,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

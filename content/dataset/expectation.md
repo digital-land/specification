@@ -3,25 +3,24 @@ attribution: crown-copyright
 collection: ''
 consideration: ''
 dataset: expectation
-description: The output of running expectations based on the rules defined in the
-  expect dataset
+description: The output of running expectations based on the rules defined in the expect dataset
 end-date: ''
 entry-date: ''
 fields:
-- field: dataset
-- field: organisation
-- field: operation
-- field: parameters
-- field: name
-- field: description
-- field: passed
-- field: message
-- field: severity
-- field: responsibility
-- field: end-date
-- field: entry-date
-- field: start-date
-- field: details
+  - field: dataset
+  - field: organisation
+  - field: operation
+  - field: parameters
+  - field: name
+  - field: description
+  - field: passed
+  - field: message
+  - field: severity
+  - field: responsibility
+  - field: end-date
+  - field: entry-date
+  - field: start-date
+  - field: details
 licence: ogl3
 name: Expectation Log
 paint-options: ''
@@ -32,7 +31,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- pipeline
+  - pipeline
 typology: pipeline
 wikidata: ''
 wikipedia: ''

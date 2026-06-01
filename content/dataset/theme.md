@@ -9,11 +9,11 @@ entity-maximum: '15199999'
 entity-minimum: '15100000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: name
-- field: start-date
-- field: theme
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: start-date
+  - field: theme
 key-field: theme
 licence: ogl3
 name: Theme
@@ -25,7 +25,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

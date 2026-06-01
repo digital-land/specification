@@ -9,21 +9,21 @@ entity-maximum: '6399999'
 entity-minimum: '6300000'
 entry-date: ''
 fields:
-- field: conservation-area
-- field: description
-- dataset: conservation-area-document-type
-  field: document-type
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
+  - field: conservation-area
+  - field: description
+  - dataset: conservation-area-document-type
+    field: document-type
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 33
 key-field: ''
 licence: ogl3
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: document
 wikidata: ''
 wikipedia: ''

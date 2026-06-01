@@ -9,22 +9,22 @@ entity-maximum: '13899999'
 entity-minimum: '13800000'
 entry-date: ''
 fields:
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: safety-hazard-area
-- field: start-date
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: safety-hazard-area
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Safety hazard area
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: geography
 wikidata: ''
 wikipedia: ''

@@ -9,18 +9,17 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: dataset
-  guidance: The dataset which includes this entity.
-- field: end-date
-  guidance: The date the entity was marked as gone or redirected in the old-entity
-    table.
-- field: entry-date
-  guidance: The date this record was last modified or created.
-- field: entity-maximum
-- field: entity-minimum
-- field: organisation
-  guidance: The primary organisation responsible for managing the entity.
-- field: start-date
+  - field: dataset
+    guidance: The dataset which includes this entity.
+  - field: end-date
+    guidance: The date the entity was marked as gone or redirected in the old-entity table.
+  - field: entry-date
+    guidance: The date this record was last modified or created.
+  - field: entity-maximum
+  - field: entity-minimum
+  - field: organisation
+    guidance: The primary organisation responsible for managing the entity.
+  - field: start-date
 key-field: entity
 licence: ogl3
 name: Entity organisation
@@ -32,7 +31,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: entity
 wikidata: ''
 wikipedia: ''

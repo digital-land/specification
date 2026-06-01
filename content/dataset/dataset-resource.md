@@ -7,17 +7,17 @@ description: An index of resources in a dataset
 end-date: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: dataset
-- field: entity-count
-- field: entry-count
-- field: line-count
-- field: mime-type
-- field: internal-path
-- field: internal-mime-type
-- field: resource
-- field: start-date
+  - field: end-date
+  - field: entry-date
+  - field: dataset
+  - field: entity-count
+  - field: entry-count
+  - field: line-count
+  - field: mime-type
+  - field: internal-path
+  - field: internal-mime-type
+  - field: resource
+  - field: start-date
 licence: ogl3
 name: Dataset resource
 paint-options: ''
@@ -28,7 +28,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

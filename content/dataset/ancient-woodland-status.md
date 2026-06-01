@@ -9,16 +9,16 @@ entity-maximum: '30099999'
 entity-minimum: '29100000'
 entry-date: ''
 fields:
-- field: description
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 32
 key-field: ''
 licence: ogl3
@@ -31,7 +31,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: category
 wikidata: ''
 wikipedia: Ancient_woodland

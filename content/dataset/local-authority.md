@@ -9,32 +9,32 @@ entity-maximum: '19999'
 entity-minimum: '10000'
 entry-date: ''
 fields:
-- field: addressbase-custodian
-- field: billing-authority
-- field: combined-authority
-- field: end-date
-- field: entity
-- field: entry-date
-- field: esd-inventory
-- field: local-authority-district
-- field: local-authority-type
-- field: local-enterprise-partnership
-- field: local-planning-authority
-- field: local-resilience-forum
-- field: name
-- field: notes
-- field: opendatacommunities-uri
-- field: organisation
-- field: parliament-thesaurus
-- field: prefix
-- field: reference
-- field: region
-- field: start-date
-- field: statistical-geography
-- field: twitter
-- field: website
-- field: wikidata
-- field: wikipedia
+  - field: addressbase-custodian
+  - field: billing-authority
+  - field: combined-authority
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: esd-inventory
+  - field: local-authority-district
+  - field: local-authority-type
+  - field: local-enterprise-partnership
+  - field: local-planning-authority
+  - field: local-resilience-forum
+  - field: name
+  - field: notes
+  - field: opendatacommunities-uri
+  - field: organisation
+  - field: parliament-thesaurus
+  - field: prefix
+  - field: reference
+  - field: region
+  - field: start-date
+  - field: statistical-geography
+  - field: twitter
+  - field: website
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Local authority
@@ -45,7 +45,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: organisation
 wikidata: Q171634
 wikipedia: Local_government_in_England

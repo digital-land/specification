@@ -9,22 +9,22 @@ entity-maximum: '14899999'
 entity-minimum: '14800000'
 entry-date: ''
 fields:
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: special-area-of-conservation
-- field: start-date
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: special-area-of-conservation
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Special area of conservation
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: Q1191622
 wikipedia: Special_Area_of_Conservation

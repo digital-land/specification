@@ -9,22 +9,22 @@ entity-maximum: '7899999'
 entity-minimum: '7800000'
 entry-date: ''
 fields:
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: historic-stone-quarry
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: historic-stone-quarry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Historic stone quarry
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: ''
 wikipedia: ''

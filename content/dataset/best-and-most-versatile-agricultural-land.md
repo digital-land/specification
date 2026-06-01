@@ -9,22 +9,22 @@ entity-maximum: '1599999'
 entity-minimum: '1500000'
 entry-date: ''
 fields:
-- field: best-and-most-versatile-agricultural-land
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: best-and-most-versatile-agricultural-land
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Best and most versatile agricultural land
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: ''
 wikipedia: ''

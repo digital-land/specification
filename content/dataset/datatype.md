@@ -9,12 +9,12 @@ entity-maximum: '4199999'
 entity-minimum: '4100000'
 entry-date: ''
 fields:
-- field: datatype
-- field: end-date
-- field: entry-date
-- field: name
-- field: start-date
-- field: text
+  - field: datatype
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: start-date
+  - field: text
 key-field: datatype
 licence: ogl3
 name: Datatype
@@ -26,7 +26,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

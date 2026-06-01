@@ -9,12 +9,12 @@ entity-maximum: '12299999'
 entity-minimum: '12200000'
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: project-status
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: project-status
+  - field: start-date
 key-field: project-status
 licence: ogl3
 name: Project status
@@ -26,7 +26,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

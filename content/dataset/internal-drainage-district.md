@@ -9,17 +9,17 @@ entity-maximum: '8219999'
 entity-minimum: '8210000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: internal-drainage-board
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: region
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: internal-drainage-board
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: region
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Internal drainage district
@@ -31,7 +31,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: geography
 wikidata: Q5305553
 wikipedia: Drainage_district

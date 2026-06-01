@@ -1,6 +1,5 @@
 ---
-description: a community of local councils across the UK and Ireland developing best
-  practice and open source platforms for digital publishing
+description: a community of local councils across the UK and Ireland developing best practice and open source platforms for digital publishing
 documentation-url: https://localgovdrupal.org/community/our-councils
 end-date: ''
 entry-date: ''

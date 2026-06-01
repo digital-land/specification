@@ -9,15 +9,15 @@ entity-maximum: '799999'
 entity-minimum: '700000'
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 44
 key-field: ''
 licence: ogl3
@@ -30,7 +30,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: category
 wikidata: Q30634609
 wikipedia: Listed_building

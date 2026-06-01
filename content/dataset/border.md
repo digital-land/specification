@@ -9,17 +9,17 @@ entity-maximum: '31999'
 entity-minimum: '31000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Border
@@ -31,7 +31,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: geography
 wikidata: ''
 wikipedia: ''

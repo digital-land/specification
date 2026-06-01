@@ -1,8 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: The type of a planning condition, for example removal of permitted development
-  rights
+description: The type of a planning condition, for example removal of permitted development rights
 end-date: ''
 entry-date: ''
 field: planning-condition-type

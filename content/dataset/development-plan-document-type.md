@@ -9,15 +9,15 @@ entity-maximum: '5299999'
 entity-minimum: '5280000'
 entry-date: '2023-10-10'
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 26
 licence: ogl3
 name: Development plan document type
@@ -29,7 +29,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: category
 wikidata: ''
 wikipedia: ''

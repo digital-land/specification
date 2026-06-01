@@ -9,14 +9,14 @@ entity-maximum: '7299'
 entity-minimum: '7200'
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: priority
-- field: requirement
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: priority
+  - field: requirement
+  - field: reference
+  - field: start-date
 key-field: requirement
 licence: ogl3
 name: Requirement
@@ -28,7 +28,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

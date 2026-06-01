@@ -5,17 +5,11 @@ description: list of organisations.
 end-date: ''
 entry-date: ''
 examples:
-- value: local-authority:DUR
-- value: national-park-authority:Q72617158
-- value: local-authority:LIC;local-authority:NKE;local-authority:WLI
+  - value: local-authority:DUR
+  - value: national-park-authority:Q72617158
+  - value: local-authority:LIC;local-authority:NKE;local-authority:WLI
 field: organisations
-guidance: "A list of CURIE references for one or more organisations.\nWhere you need
-  to list more than one organisation, separate the values with a semicolon ';' character.\nYou
-  can find the CURIE reference for each organisation from our [list of organisations](https://www.planning.data.gov.uk/organisation/).\nThe
-  CURIE is made from the prefix value, followed by a colon ':' character, and then
-  the reference value for the organisation being identified. \nYou may leave this
-  value blank when the list of organisations is just the single organisation providing
-  the data.\n"
+guidance: "A list of CURIE references for one or more organisations.\nWhere you need to list more than one organisation, separate the values with a semicolon ';' character.\nYou can find the CURIE reference for each organisation from our [list of organisations](https://www.planning.data.gov.uk/organisation/).\nThe CURIE is made from the prefix value, followed by a colon ':' character, and then the reference value for the organisation being identified. \nYou may leave this value blank when the list of organisations is just the single organisation providing the data.\n"
 hint: ''
 name: Organisations
 parent-field: organisation

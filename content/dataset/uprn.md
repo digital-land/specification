@@ -9,16 +9,16 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: '2024-11-05'
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 licence: ogl3
 name: UPRN
 paint-options: ''
@@ -29,9 +29,9 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
-- development
-- monitoring
+  - administrative
+  - development
+  - monitoring
 typology: geography
 wikidata: ''
 wikipedia: ''

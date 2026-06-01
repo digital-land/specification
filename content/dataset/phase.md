@@ -9,12 +9,12 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Phase
@@ -26,7 +26,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: category
 wikidata: ''
 wikipedia: ''

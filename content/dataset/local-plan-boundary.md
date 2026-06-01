@@ -9,19 +9,19 @@ entity-maximum: '4219999'
 entity-minimum: '4211000'
 entry-date: '2024-09-14'
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: local-planning-authorities
-- field: name
-- field: organisations
-- field: geometry
-- field: point
-- field: notes
-- field: description
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: local-planning-authorities
+  - field: name
+  - field: organisations
+  - field: geometry
+  - field: point
+  - field: notes
+  - field: description
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 97
 key-field: ''
 licence: ogl3
@@ -34,7 +34,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: geography
 wikidata: ''
 wikipedia: ''

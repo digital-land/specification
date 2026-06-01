@@ -9,12 +9,12 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: prefix
-- field: prefix-uri
-- field: organisation
-- field: start-date
+  - field: end-date
+  - field: entry-date
+  - field: prefix
+  - field: prefix-uri
+  - field: organisation
+  - field: start-date
 key-field: prefix
 licence: ogl3
 name: Prefix
@@ -26,7 +26,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: entity
 wikidata: ''
 wikipedia: ''

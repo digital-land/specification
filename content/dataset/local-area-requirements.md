@@ -9,19 +9,19 @@ entity-maximum: '29999'
 entity-minimum: '20000'
 entry-date: ''
 fields:
-- field: description
-- field: documentation-url
-- field: document-urls
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: period-start-date
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: documentation-url
+  - field: document-urls
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: period-start-date
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 52
 key-field: ''
 licence: ogl3
@@ -34,8 +34,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
-- housing
+  - administrative
+  - housing
 typology: document
 wikidata: ''
 wikipedia: ''

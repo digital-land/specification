@@ -9,18 +9,18 @@ entity-maximum: '12899999'
 entity-minimum: '12800000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: legislation
-- field: name
-- field: notes
-- field: prefix
-- field: protected-wreck-site
-- field: reference
-- field: start-date
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: protected-wreck-site
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Protected wreck site
@@ -32,7 +32,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: Q6616121
 wikipedia: List_of_designations_under_the_Protection_of_Wrecks_Act

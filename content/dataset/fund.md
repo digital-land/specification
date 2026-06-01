@@ -9,15 +9,15 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entry-date
-- field: fund
-- field: name
-- field: notes
-- field: project
-- field: reference
-- field: start-date
+  - field: documentation-url
+  - field: end-date
+  - field: entry-date
+  - field: fund
+  - field: name
+  - field: notes
+  - field: project
+  - field: reference
+  - field: start-date
 key-field: fund
 licence: ogl3
 name: Fund
@@ -29,7 +29,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

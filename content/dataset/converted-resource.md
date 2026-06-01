@@ -7,14 +7,14 @@ description: Result of resource conversion
 end-date: ''
 entry-date: ''
 fields:
-- field: dataset
-- field: elapsed
-- field: end-date
-- field: entry-date
-- field: exception
-- field: resource
-- field: start-date
-- field: status
+  - field: dataset
+  - field: elapsed
+  - field: end-date
+  - field: entry-date
+  - field: exception
+  - field: resource
+  - field: start-date
+  - field: status
 licence: ogl3
 name: Converted resource
 paint-options: ''
@@ -25,7 +25,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

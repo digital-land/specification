@@ -9,18 +9,18 @@ entity-maximum: '45249999'
 entity-minimum: '45000000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: nature-reserve-status
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: nature-reserve-status
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 48
 key-field: ''
 licence: ogl3
@@ -33,8 +33,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
-- heritage
+  - environment
+  - heritage
 typology: geography
 wikidata: Q6974552
 wikipedia: National_nature_reserves_in_England

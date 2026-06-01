@@ -9,20 +9,20 @@ entity-maximum: '72999999'
 entity-minimum: '71000000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: document-url
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: planning-application
-- field: planning-condition
-- field: prefix
-- field: reference
-- field: start-date
+  - field: documentation-url
+  - field: document-url
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: planning-application
+  - field: planning-condition
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 40
 licence: ogl3
 name: Planning application condition
@@ -34,8 +34,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- housing
-- monitoring
+  - housing
+  - monitoring
 typology: policy
 wikidata: ''
 wikipedia: ''

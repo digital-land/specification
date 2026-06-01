@@ -7,14 +7,14 @@ description: Map resource column name to dataset field
 end-date: ''
 entry-date: ''
 fields:
-- field: column
-- field: dataset
-- field: end-date
-- field: endpoint
-- field: entry-date
-- field: field
-- field: resource
-- field: start-date
+  - field: column
+  - field: dataset
+  - field: end-date
+  - field: endpoint
+  - field: entry-date
+  - field: field
+  - field: resource
+  - field: start-date
 key-field: column
 licence: ogl3
 name: Pipeline column
@@ -26,8 +26,8 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
-- pipeline
+  - specification
+  - pipeline
 typology: pipeline
 wikidata: ''
 wikipedia: ''

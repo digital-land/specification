@@ -9,20 +9,20 @@ entity-maximum: '64999'
 entity-minimum: '63000'
 entry-date: ''
 fields:
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: region
-- field: start-date
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: region
+  - field: start-date
 github-discussion: ''
 key-field: ''
 licence: ogl3
@@ -35,7 +35,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: geography
 wikidata: Q6664495
 wikipedia: Local_planning_authority

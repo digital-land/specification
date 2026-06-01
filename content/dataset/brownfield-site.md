@@ -9,22 +9,22 @@ entity-maximum: '1899999'
 entity-minimum: '1800000'
 entry-date: ''
 fields:
-- field: brownfield-site
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: brownfield-site
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 28
 key-field: ''
 licence: ogl3
@@ -37,7 +37,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: geography
 wikidata: Q896586
 wikipedia: Brownfield_land

@@ -9,22 +9,22 @@ entity-maximum: '7399999'
 entity-minimum: '7300000'
 entry-date: ''
 fields:
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: gypsy-and-traveller-site
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: gypsy-and-traveller-site
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 35
 key-field: ''
 licence: ogl3
@@ -37,7 +37,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: geography
 wikidata: Q74497345
 wikipedia: ''

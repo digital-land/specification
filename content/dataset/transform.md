@@ -7,15 +7,15 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- field: dataset
-- field: end-date
-- field: endpoint
-- field: entry-date
-- field: entry-number
-- field: field
-- field: replacement-field
-- field: resource
-- field: start-date
+  - field: dataset
+  - field: end-date
+  - field: endpoint
+  - field: entry-date
+  - field: entry-number
+  - field: field
+  - field: replacement-field
+  - field: resource
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Pipeline transformation
@@ -27,8 +27,8 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
-- pipeline
+  - specification
+  - pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

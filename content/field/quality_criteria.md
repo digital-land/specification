@@ -1,8 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: Used for issue types to defines the specific criteria used to evaluate
-  or measure quality
+description: Used for issue types to defines the specific criteria used to evaluate or measure quality
 end-date: ''
 entry-date: ''
 field: quality_criteria

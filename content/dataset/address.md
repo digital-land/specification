@@ -9,18 +9,18 @@ entity-maximum: '19999999999999'
 entity-minimum: '10000000000000'
 entry-date: ''
 fields:
-- field: address
-- field: address-text
-- field: end-date
-- field: entity
-- field: entry-date
-- field: latitude
-- field: longitude
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: address
+  - field: address-text
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: latitude
+  - field: longitude
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Address
@@ -32,7 +32,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: geography
 wikidata: ''
 wikipedia: ''

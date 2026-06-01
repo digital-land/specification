@@ -9,19 +9,19 @@ entity-maximum: '12099999'
 entity-minimum: '12000000'
 entry-date: ''
 fields:
-- field: categories
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geographies
-- field: name
-- field: notes
-- field: organisation
-- field: policy
-- field: prefix
-- field: reference
-- field: start-date
+  - field: categories
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geographies
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: policy
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Policy
@@ -33,7 +33,7 @@ realm: datapackage
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: policy
 wikidata: ''
 wikipedia: ''

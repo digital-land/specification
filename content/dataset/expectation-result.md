@@ -9,16 +9,16 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: expectation-result
-- field: passed
-- field: message
-- field: severity
-- field: responsibility
-- field: checkpoint
-- field: data-name
-- field: entry-date
-- field: start-date
-- field: end-date
+  - field: expectation-result
+  - field: passed
+  - field: message
+  - field: severity
+  - field: responsibility
+  - field: checkpoint
+  - field: data-name
+  - field: entry-date
+  - field: start-date
+  - field: end-date
 key-field: expectation-result
 licence: ogl3
 name: Expectation result
@@ -30,7 +30,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

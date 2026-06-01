@@ -9,12 +9,12 @@ entity-maximum: '7099'
 entity-minimum: '7000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: include-exclude
-- field: name
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: include-exclude
+  - field: name
+  - field: start-date
 key-field: include-exclude
 licence: ogl3
 name: Include/Exclude
@@ -26,7 +26,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

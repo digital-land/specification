@@ -9,103 +9,72 @@ entity-maximum: '3899999'
 entity-minimum: '3800000'
 entry-date: '2026-01-19'
 fields:
-- field: description
-- description: associated development plan
-  examples:
-  - value: LP-BRX-2024
-  - value: central-lincolnshire
-  - value: local-plan:central-lincolnshire
-  field: development-plan
-  guidance: 'Enter the reference for the development plan which the document is associated
-    with.
+  - field: description
+  - description: associated development plan
+    examples:
+      - value: LP-BRX-2024
+      - value: central-lincolnshire
+      - value: local-plan:central-lincolnshire
+    field: development-plan
+    guidance: |
+      Enter the reference for the development plan which the document is associated with.
+  - datasets:
+      - dataset: development-plan-document-type
+    examples:
+      - value: local-plan
+      - value: local-plan;core-strategy;site-allocations
+    field: document-types
+    guidance: |
+      Enter at least one of the following [development-plan-document-type](https://www.planning.data.gov.uk/dataset/development-plan-document-type) values:
 
-    '
-- datasets:
-  - dataset: development-plan-document-type
-  examples:
-  - value: local-plan
-  - value: local-plan;core-strategy;site-allocations
-  field: document-types
-  guidance: 'Enter at least one of the following [development-plan-document-type](https://www.planning.data.gov.uk/dataset/development-plan-document-type)
-    values:
+      * `adoption-statement`
+      * `area-action-plan`
+      * `core-strategy`
+      * `financial-viability-study`
+      * `inspectors-report`
+      * `local-development-scheme`
+      * `local-plan`
+      * `local-plan-review`
+      * `policies-map`
+      * `strategic-flood-risk-assessment`
+      * `strategic-housing-market-assessment`
+      * `supplementary-planning-document`
+      * `sustainability-apprasial`
+      * `site-allocations`
+      * `viability-assessment`
+      * `sustainability-appraisal`
 
-
-    * `adoption-statement`
-
-    * `area-action-plan`
-
-    * `core-strategy`
-
-    * `financial-viability-study`
-
-    * `inspectors-report`
-
-    * `local-development-scheme`
-
-    * `local-plan`
-
-    * `local-plan-review`
-
-    * `policies-map`
-
-    * `strategic-flood-risk-assessment`
-
-    * `strategic-housing-market-assessment`
-
-    * `supplementary-planning-document`
-
-    * `sustainability-apprasial`
-
-    * `site-allocations`
-
-    * `viability-assessment`
-
-    * `sustainability-appraisal`
-
-
-    You can list more than one category, separated by a semi-colon '';'' character.
-
-    '
-- field: document-url
-  guidance: 'Enter the URL for the document. This is often a PDF file.
-
-    '
-- description: development plan document documentation page
-  examples:
-  - value: https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan
-  field: documentation-url
-  guidance: 'Enter the URL of the webpage on your website which documents and links
-    to this document.
-
-    '
-- field: end-date
-  guidance: 'Enter date when the document was archived. Otherwise leave this field
-    blank.
-
-    '
-- field: entity
-- field: entry-date
-- field: name
-  guidance: 'Enter the title of the document.
-
-    '
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-  guidance: 'Give each document a unique reference.
-
-    '
-- field: start-date
-  guidance: 'Enter the date the document was published.
-
-    '
+      You can list more than one category, separated by a semi-colon ';' character.
+  - field: document-url
+    guidance: |
+      Enter the URL for the document. This is often a PDF file.
+  - description: development plan document documentation page
+    examples:
+      - value: https://calderdale.gov.uk/planning-and-building-control/planning-policy/local-plan
+    field: documentation-url
+    guidance: |
+      Enter the URL of the webpage on your website which documents and links to this document.
+  - field: end-date
+    guidance: |
+      Enter date when the document was archived. Otherwise leave this field blank.
+  - field: entity
+  - field: entry-date
+  - field: name
+    guidance: |
+      Enter the title of the document.
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+    guidance: |
+      Give each document a unique reference.
+  - field: start-date
+    guidance: |
+      Enter the date the document was published.
 github-discussion: 26
-guidance: 'Provide a list of documents associated with your development plan.
-
+guidance: |
+  Provide a list of documents associated with your development plan.
   Add a separate row with a link to each document on your website.
-
-  '
 key-field: ''
 licence: ogl3
 name: Development plan document
@@ -117,7 +86,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: document
 wikidata: ''
 wikipedia: ''

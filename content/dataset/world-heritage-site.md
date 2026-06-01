@@ -9,21 +9,21 @@ entity-maximum: '16109999'
 entity-minimum: '16100000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
-- field: wikidata
-- field: wikipedia
-- field: world-heritage-convention-site
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: wikidata
+  - field: wikipedia
+  - field: world-heritage-convention-site
 key-field: ''
 licence: ogl3
 name: World heritage site
@@ -35,7 +35,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: Q9259
 wikipedia: World_Heritage_Site

@@ -9,21 +9,21 @@ entity-maximum: '1499999'
 entity-minimum: '1400000'
 entry-date: ''
 fields:
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
-- field: wikidata
-- field: wikipedia
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Battlefield
@@ -35,7 +35,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: Q4895508
 wikipedia: Battlefield

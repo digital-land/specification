@@ -9,20 +9,20 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: expectation-result
-- field: scope
-- field: message
-- field: dataset
-- field: organisation
-- field: table-name
-- field: field-name
-- field: row-id
-- field: rows
-- field: row
-- field: value
-- field: entry-date
-- field: start-date
-- field: end-date
+  - field: expectation-result
+  - field: scope
+  - field: message
+  - field: dataset
+  - field: organisation
+  - field: table-name
+  - field: field-name
+  - field: row-id
+  - field: rows
+  - field: row
+  - field: value
+  - field: entry-date
+  - field: start-date
+  - field: end-date
 key-field: ''
 licence: ogl3
 name: Expectation issue
@@ -34,7 +34,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

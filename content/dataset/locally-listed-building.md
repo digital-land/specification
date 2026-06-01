@@ -9,21 +9,21 @@ entity-maximum: '42099999'
 entity-minimum: '41100000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: listed-building-grade
-- field: locally-listed-building
-- field: name
-- field: notes
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
-- field: wikidata
-- field: wikipedia
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: listed-building-grade
+  - field: locally-listed-building
+  - field: name
+  - field: notes
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Locally listed building
@@ -35,7 +35,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: Q570600
 wikipedia: Listed_building#Locally_listed_buildings

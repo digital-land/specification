@@ -8,6 +8,6 @@ project: developer-contributions
 project-status: ongoing
 provision-reason: encouraged
 specifications:
-- developer-contributions
+  - developer-contributions
 start-date: ''
 ---

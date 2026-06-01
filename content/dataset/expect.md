@@ -7,19 +7,19 @@ description: A set of rules which can be turned into an expectation of a dataset
 end-date: ''
 entry-date: ''
 fields:
-- field: datasets
-- field: organisations
-- field: operation
-- field: parameters
-- field: name
-- field: description
-- field: notes
-- field: severity
-- field: responsibility
-- field: end-date
-- field: entry-date
-- field: start-date
-- field: schedule
+  - field: datasets
+  - field: organisations
+  - field: operation
+  - field: parameters
+  - field: name
+  - field: description
+  - field: notes
+  - field: severity
+  - field: responsibility
+  - field: end-date
+  - field: entry-date
+  - field: start-date
+  - field: schedule
 licence: ogl3
 name: Expectation Rule
 paint-options: ''
@@ -30,7 +30,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- pipeline
+  - pipeline
 typology: pipeline
 wikidata: ''
 wikipedia: ''

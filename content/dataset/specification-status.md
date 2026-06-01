@@ -9,12 +9,12 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: specification-status
-- field: name
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: specification-status
+  - field: name
+  - field: start-date
 key-field: specification-status
 licence: ogl3
 name: Specification status
@@ -26,7 +26,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

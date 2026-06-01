@@ -9,16 +9,16 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: endpoint
-- field: entity
-- field: entry-date
-- field: entry-number
-- field: organisation
-- field: prefix
-- field: resource
-- field: start-date
-- field: reference
+  - field: end-date
+  - field: endpoint
+  - field: entity
+  - field: entry-date
+  - field: entry-number
+  - field: organisation
+  - field: prefix
+  - field: resource
+  - field: start-date
+  - field: reference
 key-field: ''
 licence: ogl3
 name: Pipeline lookup
@@ -30,8 +30,8 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
-- pipeline
+  - specification
+  - pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

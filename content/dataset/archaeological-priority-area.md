@@ -3,25 +3,24 @@ attribution: historic-england
 collection: archaeological-priority-area
 consideration: greater-london-archaeological-priority-areas
 dataset: archaeological-priority-area
-description: Areas of Greater London where there is significant known archaeological
-  interest or potential for new discoveries
+description: Areas of Greater London where there is significant known archaeological interest or potential for new discoveries
 end-date: ''
 entity-maximum: '59999'
 entity-minimum: '40000'
 entry-date: '2025-02-04'
 fields:
-- field: archaeological-risk-tier
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: archaeological-risk-tier
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 89
 key-field: ''
 licence: ogl3
@@ -34,8 +33,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
-- heritage
+  - environment
+  - heritage
 typology: geography
 wikidata: ''
 wikipedia: ''

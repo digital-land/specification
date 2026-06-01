@@ -9,18 +9,18 @@ entity-maximum: '610999'
 entity-minimum: '610000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: green-belt-core
-- field: local-authority-district
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: green-belt-core
+  - field: local-authority-district
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 45
 key-field: ''
 licence: ogl3
@@ -33,7 +33,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: Q2734873
 wikipedia: Green_belt_(United_Kingdom)

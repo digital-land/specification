@@ -9,19 +9,19 @@ entity-maximum: '139999999'
 entity-minimum: '130000000'
 entry-date: ''
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: parish
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: parish
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 38
 key-field: ''
 licence: ogl3
@@ -34,7 +34,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: geography
 wikidata: Q1115575
 wikipedia: Civil_parish

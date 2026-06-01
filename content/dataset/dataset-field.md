@@ -9,17 +9,17 @@ entity-maximum: '0'
 entity-minimum: '0'
 entry-date: ''
 fields:
-- field: dataset
-- field: description
-- field: end-date
-- field: entry-date
-- field: examples
-- field: field
-- field: field-dataset
-- field: guidance
-- field: hint
-- field: notes
-- field: start-date
+  - field: dataset
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: examples
+  - field: field
+  - field: field-dataset
+  - field: guidance
+  - field: hint
+  - field: notes
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Dataset field
@@ -31,7 +31,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

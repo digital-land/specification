@@ -1,7 +1,6 @@
 ---
 datapackage: local-plans
-description: Local plans, Neighbourhood plans, and other development policies related
-  to plan making.
+description: Local plans, Neighbourhood plans, and other development policies related to plan making.
 end-date: ''
 entry-date: ''
 name: Local plans

@@ -1,7 +1,5 @@
 ---
-description: HM Land Registry working in partnership with local authorities in England
-  and Wales to standardise and migrate local land charges register information to
-  one accessible place
+description: HM Land Registry working in partnership with local authorities in England and Wales to standardise and migrate local land charges register information to one accessible place
 documentation-url: https://www.gov.uk/government/publications/hm-land-registry-local-land-charges-programme/local-land-charges-programme
 end-date: ''
 entry-date: ''

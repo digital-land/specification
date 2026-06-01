@@ -9,13 +9,13 @@ entity-maximum: '0'
 entity-minimum: '0'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: notes
-- field: old-entity
-- field: start-date
-- field: status
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: notes
+  - field: old-entity
+  - field: start-date
+  - field: status
 key-field: old-entity
 licence: ogl3
 name: Entity redirection
@@ -27,7 +27,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: value
 wikidata: ''
 wikipedia: ''

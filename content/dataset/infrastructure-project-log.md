@@ -9,19 +9,19 @@ entity-maximum: '11089999999'
 entity-minimum: '11070000000'
 entry-date: '2023-09-13'
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: event-date
-- field: infrastructure-project
-- field: infrastructure-project-event
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: event-date
+  - field: infrastructure-project
+  - field: infrastructure-project-event
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
 licence: ogl3
 name: Infrastructure project log
 paint-options: ''
@@ -32,7 +32,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: timetable
 wikidata: ''
 wikipedia: ''

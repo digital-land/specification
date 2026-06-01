@@ -1,8 +1,7 @@
 ---
 cardinality: '1'
 datatype: integer
-description: amount of net additional housing expected to be delivered from broad
-  locations for development
+description: amount of net additional housing expected to be delivered from broad locations for development
 end-date: ''
 entry-date: ''
 field: broad-locations-housing

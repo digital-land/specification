@@ -1,8 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: Identifier for the relevant gituhb discussion in the data standards backlog
-  repository
+description: Identifier for the relevant gituhb discussion in the data standards backlog repository
 end-date: ''
 entry-date: ''
 field: github-discussion

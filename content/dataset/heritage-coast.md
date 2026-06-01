@@ -9,22 +9,22 @@ entity-maximum: '7699999'
 entity-minimum: '7600000'
 entry-date: ''
 fields:
-- field: categories
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geography
-- field: geometry
-- field: heritage-coast
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: categories
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geography
+  - field: geometry
+  - field: heritage-coast
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Heritage coast
@@ -36,8 +36,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
-- heritage
+  - environment
+  - heritage
 typology: geography
 wikidata: Q13125592
 wikipedia: Heritage_coast

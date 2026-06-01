@@ -9,6 +9,6 @@ project: brownfield-land
 project-status: ongoing
 provision-reason: statutory
 specifications:
-- brownfield-land
+  - brownfield-land
 start-date: ''
 ---

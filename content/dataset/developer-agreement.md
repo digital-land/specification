@@ -9,19 +9,19 @@ entity-maximum: '4699999'
 entity-minimum: '4600000'
 entry-date: ''
 fields:
-- field: developer-agreement
-- field: developer-agreement-type
-- field: document-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: planning-application
-- field: prefix
-- field: reference
-- field: start-date
+  - field: developer-agreement
+  - field: developer-agreement-type
+  - field: document-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: planning-application
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 34
 key-field: ''
 licence: ogl3
@@ -34,7 +34,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: document
 wikidata: ''
 wikipedia: ''

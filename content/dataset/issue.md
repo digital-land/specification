@@ -9,18 +9,18 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: entry-number
-- field: field
-- field: issue-type
-- field: line-number
-- field: dataset
-- field: resource
-- field: start-date
-- field: value
-- field: message
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: entry-number
+  - field: field
+  - field: issue-type
+  - field: line-number
+  - field: dataset
+  - field: resource
+  - field: start-date
+  - field: value
+  - field: message
 key-field: ''
 licence: ogl3
 name: Issue
@@ -32,7 +32,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

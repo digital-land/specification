@@ -9,15 +9,15 @@ entity-maximum: '2999999'
 entity-minimum: '2950000'
 entry-date: '2023-09-14'
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: description
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: description
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 26
 key-field: ''
 licence: ogl3
@@ -30,7 +30,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: category
 wikidata: ''
 wikipedia: ''

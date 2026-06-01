@@ -9,18 +9,18 @@ entity-maximum: '65999999'
 entity-minimum: '65000000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: flood-risk-type
-- field: flood-risk-level
-- field: geometry
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: flood-risk-type
+  - field: flood-risk-level
+  - field: geometry
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 46
 key-field: ''
 licence: ogl3
@@ -33,7 +33,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: ''
 wikipedia: ''

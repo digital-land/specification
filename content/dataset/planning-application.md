@@ -9,29 +9,29 @@ entity-maximum: '10999999999'
 entity-minimum: '10000000000'
 entry-date: ''
 fields:
-- field: uprn
-- field: address-text
-- field: decision-date
-- field: description
-- field: development-classification
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: ground-area
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: planning-application-status
-- field: planning-application-type
-- field: planning-decision
-- field: planning-decision-type
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: uprn
+  - field: address-text
+  - field: decision-date
+  - field: description
+  - field: development-classification
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: ground-area
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: planning-application-status
+  - field: planning-application-type
+  - field: planning-decision
+  - field: planning-decision-type
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 25
 licence: ogl3
 name: Planning application
@@ -43,9 +43,9 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
-- housing
-- monitoring
+  - development
+  - housing
+  - monitoring
 typology: geography
 wikidata: ''
 wikipedia: ''

@@ -9,22 +9,20 @@ entity-maximum: '8999'
 entity-minimum: '7300'
 entry-date: ''
 fields:
-- field: description
-- field: documentation-url
-- field: end-date
-- field: entry-date
-- field: name
-- field: phase
-- field: prefix
-- field: provision-guidance
-  guidance: "Enter one or more paragraphs of Govspeak markdown text which explain
-    why a provider \nis expected to provide this data. Link to any relevant regulations
-    or funding.\n"
-- field: reference
-- field: specifications
-- field: summary
-- field: templates
-- field: start-date
+  - field: description
+  - field: documentation-url
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: phase
+  - field: prefix
+  - field: provision-guidance
+    guidance: "Enter one or more paragraphs of Govspeak markdown text which explain why a provider \nis expected to provide this data. Link to any relevant regulations or funding.\n"
+  - field: reference
+  - field: specifications
+  - field: summary
+  - field: templates
+  - field: start-date
 licence: ogl3
 name: Guidance
 paint-options: ''
@@ -35,7 +33,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

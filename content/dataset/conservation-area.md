@@ -3,28 +3,27 @@ attribution: historic-england
 collection: conservation-area
 consideration: conservation-areas
 dataset: conservation-area
-description: areas of special architectural or historic interest, the character or
-  appearance of which it is desirable to preserve or enhance
+description: areas of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance
 end-date: ''
 entity-maximum: '44999999'
 entity-minimum: '44000000'
 entry-date: ''
 fields:
-- field: designation-date
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: legislation
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: designation-date
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: legislation
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 33
 key-field: ''
 licence: ogl3
@@ -37,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: Q5162904
 wikipedia: Conservation_area_(United_Kingdom)

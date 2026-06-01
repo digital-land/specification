@@ -7,17 +7,17 @@ description: Tasks are an amalgamation of the various data quality checks that a
 end-date: ''
 entry-date: ''
 fields:
-- field: dataset
-- field: organisation
-- field: endpoint
-- field: resource
-- field: details
-- field: severity
-- field: responsibility
-- field: task-source
-- field: end-date
-- field: entry-date
-- field: start-date
+  - field: dataset
+  - field: organisation
+  - field: endpoint
+  - field: resource
+  - field: details
+  - field: severity
+  - field: responsibility
+  - field: task-source
+  - field: end-date
+  - field: entry-date
+  - field: start-date
 licence: ogl3
 name: Task
 paint-options: ''
@@ -28,7 +28,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- pipeline
+  - pipeline
 typology: pipeline
 wikidata: ''
 wikipedia: ''

@@ -9,18 +9,18 @@ entity-maximum: '62999'
 entity-minimum: '62000'
 entry-date: '2025-12-19'
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: organisations
-- field: prefix
-- field: reference
-- field: start-date
-- field: website
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: organisations
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: website
 key-field: ''
 licence: ogl3
 name: Local planning group
@@ -32,7 +32,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: organisation
 wikidata: ''
 wikipedia: ''

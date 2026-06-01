@@ -1,8 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: The group that nominated the asset to be added to the community asset
-  register
+description: The group that nominated the asset to be added to the community asset register
 end-date: ''
 entry-date: ''
 field: nominating-group

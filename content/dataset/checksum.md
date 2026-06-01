@@ -9,14 +9,14 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: bytes
-- field: checksum
-- field: dataset
-- field: end-date
-- field: entry-date
-- field: line-count
-- field: path
-- field: start-date
+  - field: bytes
+  - field: checksum
+  - field: dataset
+  - field: end-date
+  - field: entry-date
+  - field: line-count
+  - field: path
+  - field: start-date
 key-field: checksum
 licence: ogl3
 name: Checksum
@@ -28,7 +28,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

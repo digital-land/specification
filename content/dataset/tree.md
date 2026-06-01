@@ -9,28 +9,27 @@ entity-maximum: '7009999999'
 entity-minimum: '7002000000'
 entry-date: ''
 fields:
-- field: address
-- field: address-text
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: felled-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
-- field: tree
-- field: tree-preservation-order
-- field: tree-preservation-order-tree
-- field: tree-species
-- field: uprn
-  guidance: Although this field doesn't appear in the technical spec or guidance if
-    an LPA provides a species column we can map it to this
+  - field: address
+  - field: address-text
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: felled-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: tree
+  - field: tree-preservation-order
+  - field: tree-preservation-order-tree
+  - field: tree-species
+  - field: uprn
+    guidance: Although this field doesn't appear in the technical spec or guidance if an LPA provides a species column we can map it to this
 github-discussion: 43
 key-field: ''
 licence: ogl3
@@ -43,7 +42,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: Q10884
 wikipedia: Tree

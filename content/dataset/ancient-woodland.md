@@ -9,20 +9,20 @@ entity-maximum: '129999999'
 entity-minimum: '110000000'
 entry-date: ''
 fields:
-- field: ancient-woodland
-- field: ancient-woodland-status
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: ancient-woodland
+  - field: ancient-woodland-status
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 32
 key-field: ''
 licence: ogl3
@@ -35,7 +35,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: Q3078732
 wikipedia: Ancient_woodland

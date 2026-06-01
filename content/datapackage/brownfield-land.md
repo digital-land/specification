@@ -1,11 +1,11 @@
 ---
 datapackage: brownfield-land
 datasets:
-- brownfield-land
-- ownership-status
-- planning-permission-status
-- planning-permission-type
-- site-category
+  - brownfield-land
+  - ownership-status
+  - planning-permission-status
+  - planning-permission-type
+  - site-category
 description: Land that has been previously been developed
 end-date: ''
 entry-date: ''

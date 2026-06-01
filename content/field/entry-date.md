@@ -5,9 +5,8 @@ description: entry date of the data
 end-date: ''
 entry-date: ''
 field: entry-date
-guidance: 'Enter the date you created or modified the data.
-
-  '
+guidance: |
+  Enter the date you created or modified the data.
 hint: ''
 name: Entry date
 parent-field: datetime

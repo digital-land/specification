@@ -9,12 +9,12 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: severity
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: severity
+  - field: start-date
 key-field: severity
 licence: ogl3
 name: Severity
@@ -26,7 +26,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

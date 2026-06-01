@@ -9,16 +9,16 @@ entity-maximum: '611999'
 entity-minimum: '611000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
-- field: wikidata
-- field: wikipedia
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: wikidata
+  - field: wikipedia
 github-discussion: 45
 key-field: ''
 licence: ogl3
@@ -31,7 +31,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: category
 wikidata: Q2734873
 wikipedia: Green_belt_(United_Kingdom)

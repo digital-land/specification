@@ -9,18 +9,18 @@ entity-maximum: ''
 entity-minimum: ''
 entry-date: ''
 fields:
-- field: cohort
-- field: description
-- field: documentation-url
-- field: end-date
-- field: entry-date
-- field: fund
-- field: intervention
-- field: name
-- field: notes
-- field: project
-- field: reference
-- field: start-date
+  - field: cohort
+  - field: description
+  - field: documentation-url
+  - field: end-date
+  - field: entry-date
+  - field: fund
+  - field: intervention
+  - field: name
+  - field: notes
+  - field: project
+  - field: reference
+  - field: start-date
 key-field: cohort
 licence: ogl3
 name: Project
@@ -32,7 +32,7 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

@@ -9,25 +9,25 @@ entity-maximum: '6999999'
 entity-minimum: '6900000'
 entry-date: ''
 fields:
-- field: addressbase-custodian
-- field: billing-authority
-- field: company
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: opendatacommunities-uri
-- field: parliament-thesaurus
-- field: prefix
-- field: reference
-- field: start-date
-- field: statistical-geography
-- field: twitter
-- field: website
-- field: website-url
-- field: wikidata
-- field: wikipedia
+  - field: addressbase-custodian
+  - field: billing-authority
+  - field: company
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: opendatacommunities-uri
+  - field: parliament-thesaurus
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: statistical-geography
+  - field: twitter
+  - field: website
+  - field: website-url
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Government organisation
@@ -39,7 +39,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: organisation
 wikidata: Q2500378
 wikipedia: Departments_of_the_Government_of_the_United_Kingdom

@@ -1,6 +1,5 @@
 ---
-description: description, configuration, requirements, and other metadata needed by
-  the service
+description: description, configuration, requirements, and other metadata needed by the service
 end-date: ''
 entry-date: ''
 name: Specification

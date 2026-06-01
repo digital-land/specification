@@ -7,15 +7,15 @@ description: provide a default value for a missing or empty field
 end-date: ''
 entry-date: ''
 fields:
-- field: dataset
-- field: end-date
-- field: endpoint
-- field: entry-date
-- field: entry-number
-- field: field
-- field: resource
-- field: start-date
-- field: value
+  - field: dataset
+  - field: end-date
+  - field: endpoint
+  - field: entry-date
+  - field: entry-number
+  - field: field
+  - field: resource
+  - field: start-date
+  - field: value
 key-field: ''
 licence: ogl3
 name: Pipeline default value
@@ -27,8 +27,8 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
-- pipeline
+  - specification
+  - pipeline
 typology: pipeline
 wikidata: ''
 wikipedia: ''

@@ -9,22 +9,22 @@ entity-maximum: '639999'
 entity-minimum: '627000'
 entry-date: ''
 fields:
-- field: description
-- field: design-code
-- field: design-code-area-type
-- field: design-code-rules
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: design-code
+  - field: design-code-area-type
+  - field: design-code-rules
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 27
 key-field: ''
 licence: ogl3
@@ -37,7 +37,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: geography
 wikidata: ''
 wikipedia: ''

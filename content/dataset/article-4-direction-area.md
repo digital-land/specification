@@ -3,30 +3,29 @@ attribution: crown-copyright
 collection: article-4-direction
 consideration: article-4-directions
 dataset: article-4-direction-area
-description: Orders made by the local planning authority to remove all or some of
-  the permitted development rights on a site in order to protect it
+description: Orders made by the local planning authority to remove all or some of the permitted development rights on a site in order to protect it
 end-date: ''
 entity-maximum: '7019999999'
 entity-minimum: '7010000000'
 entry-date: ''
 fields:
-- field: address-texts
-- field: article-4-direction
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: permitted-development-rights
-  dataset: permitted-development-right
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
-- field: uprns
+  - field: address-texts
+  - field: article-4-direction
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - dataset: permitted-development-right
+    field: permitted-development-rights
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: uprns
 github-discussion: 30
 key-field: ''
 licence: ogl3
@@ -39,7 +38,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- heritage
+  - heritage
 typology: geography
 wikidata: ''
 wikipedia: ''

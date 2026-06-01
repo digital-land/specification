@@ -1,6 +1,5 @@
 ---
-description: a community of Local Planning Authorities working together to shape a
-  more efficient, data-driven planning system
+description: a community of Local Planning Authorities working together to shape a more efficient, data-driven planning system
 documentation-url: https://opendigitalplanning.org/
 end-date: ''
 entry-date: ''
@@ -10,9 +9,9 @@ project: open-digital-planning
 project-status: in-progress
 provision-reason: expected
 specifications:
-- article-4-direction
-- conservation-area
-- listed-building
-- tree-preservation-order
+  - article-4-direction
+  - conservation-area
+  - listed-building
+  - tree-preservation-order
 start-date: ''
 ---

@@ -9,18 +9,18 @@ entity-maximum: '5899999'
 entity-minimum: '5800000'
 entry-date: ''
 fields:
-- field: description
-- field: document-types
-- field: document-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisations
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: document-types
+  - field: document-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisations
+  - field: prefix
+  - field: reference
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Document
@@ -32,7 +32,7 @@ realm: datapackage
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: document
 wikidata: Q49848
 wikipedia: Document

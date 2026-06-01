@@ -1,6 +1,5 @@
 ---
-description: legal text such as an order, licence, permit, title, contract, agreement,
-  or notice
+description: legal text such as an order, licence, permit, title, contract, agreement, or notice
 end-date: ''
 entry-date: ''
 name: Legal instrument

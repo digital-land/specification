@@ -9,19 +9,19 @@ entity-maximum: 909999
 entity-minimum: 900000
 entry-date: '2024-12-12'
 fields:
-- field: adopted-date
-- field: description
-- field: document-url
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: organisation
-- field: prefix
-- field: reference
-- field: start-date
+  - field: adopted-date
+  - field: description
+  - field: document-url
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 99
 key-field: ''
 licence: ogl3
@@ -34,8 +34,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
-- development
+  - administrative
+  - development
 typology: document
 wikidata: ''
 wikipedia: ''

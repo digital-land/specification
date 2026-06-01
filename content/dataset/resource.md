@@ -9,15 +9,15 @@ entity-maximum: '13499999'
 entity-minimum: '13400000'
 entry-date: ''
 fields:
-- field: bytes
-- field: end-date
-- field: datasets
-- field: endpoints
-- field: entry-date
-- field: mime-type
-- field: organisations
-- field: resource
-- field: start-date
+  - field: bytes
+  - field: end-date
+  - field: datasets
+  - field: endpoints
+  - field: entry-date
+  - field: mime-type
+  - field: organisations
+  - field: resource
+  - field: start-date
 key-field: resource
 licence: ogl3
 name: Resource
@@ -29,7 +29,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

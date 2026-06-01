@@ -9,16 +9,16 @@ entity-maximum: '11099999'
 entity-minimum: '11000000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: park-and-garden-grade
-- field: prefix
-- field: reference
-- field: start-date
-- field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: park-and-garden-grade
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: description
 key-field: ''
 licence: ogl3
 name: Park and garden grade
@@ -30,8 +30,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
-- heritage
+  - environment
+  - heritage
 typology: category
 wikidata: ''
 wikipedia: ''

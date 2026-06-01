@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: 'organisation'
+collection: organisation
 consideration: ''
 dataset: local-resilience-forum
 description: ''
@@ -9,22 +9,22 @@ entity-maximum: '3999'
 entity-minimum: '3000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: local-resilience-forum-boundary
-- field: name
-- field: notes
-- field: parliament-thesaurus
-- field: prefix
-- field: reference
-- field: start-date
-- field: statistical-geography
-- field: twitter
-- field: website
-- field: whatdotheyknow-body
-- field: wikidata
-- field: wikipedia
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: local-resilience-forum-boundary
+  - field: name
+  - field: notes
+  - field: parliament-thesaurus
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: statistical-geography
+  - field: twitter
+  - field: website
+  - field: whatdotheyknow-body
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Local resilience forum
@@ -36,7 +36,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: organisation
 wikidata: Q6664240
 wikipedia: Local_resilience_forum

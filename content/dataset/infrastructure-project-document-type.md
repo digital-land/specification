@@ -9,15 +9,15 @@ entity-maximum: '11049999999'
 entity-minimum: '11040000000'
 entry-date: '2023-09-13'
 fields:
-- field: description
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 licence: ogl3
 name: Infrastructure project document type
 paint-options: ''
@@ -28,7 +28,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- development
+  - development
 typology: category
 wikidata: ''
 wikipedia: ''

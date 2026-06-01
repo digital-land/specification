@@ -7,13 +7,13 @@ description: ''
 end-date: ''
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: key-field
-- field: name
-- field: schema
-- field: start-date
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: key-field
+  - field: name
+  - field: schema
+  - field: start-date
 key-field: schema
 licence: ogl3
 name: Schema
@@ -25,7 +25,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

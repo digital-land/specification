@@ -9,25 +9,25 @@ entity-maximum: '4799999'
 entity-minimum: '4700000'
 entry-date: ''
 fields:
-- field: company
-- field: development-corporation-boundary
-- field: end-date
-- field: entity
-- field: entry-date
-- field: local-planning-authority
-- field: name
-- field: notes
-- field: opendatacommunities-uri
-- field: organisation
-- field: parliament-thesaurus
-- field: prefix
-- field: reference
-- field: start-date
-- field: statistical-geography
-- field: twitter
-- field: website
-- field: wikidata
-- field: wikipedia
+  - field: company
+  - field: development-corporation-boundary
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: local-planning-authority
+  - field: name
+  - field: notes
+  - field: opendatacommunities-uri
+  - field: organisation
+  - field: parliament-thesaurus
+  - field: prefix
+  - field: reference
+  - field: start-date
+  - field: statistical-geography
+  - field: twitter
+  - field: website
+  - field: wikidata
+  - field: wikipedia
 key-field: ''
 licence: ogl3
 name: Development corporation
@@ -39,7 +39,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- administrative
+  - administrative
 typology: organisation
 wikidata: Q5266682
 wikipedia: Development_corporation

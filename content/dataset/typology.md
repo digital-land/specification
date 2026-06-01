@@ -9,16 +9,16 @@ entity-maximum: '15699999'
 entity-minimum: '15600000'
 entry-date: ''
 fields:
-- field: description
-- field: end-date
-- field: entry-date
-- field: name
-- field: plural
-- field: start-date
-- field: text
-- field: typology
-- field: wikidata
-- field: wikipedia
+  - field: description
+  - field: end-date
+  - field: entry-date
+  - field: name
+  - field: plural
+  - field: start-date
+  - field: text
+  - field: typology
+  - field: wikidata
+  - field: wikipedia
 key-field: typology
 licence: ogl3
 name: Typology
@@ -30,7 +30,7 @@ realm: specification
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

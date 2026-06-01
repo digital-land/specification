@@ -9,14 +9,14 @@ entity-maximum: '623999'
 entity-minimum: '623000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: name
-- field: notes
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: name
+  - field: notes
+  - field: prefix
+  - field: reference
+  - field: start-date
 licence: ogl3
 name: Planning development category
 paint-options: ''
@@ -27,8 +27,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- housing
-- monitoring
+  - housing
+  - monitoring
 typology: category
 wikidata: ''
 wikipedia: ''

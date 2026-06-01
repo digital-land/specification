@@ -9,13 +9,13 @@ entity-maximum: '12999999'
 entity-minimum: '12900000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entry-date
-- field: field
-- field: provenance
-- field: resource
-- field: start-date
-- field: value
+  - field: end-date
+  - field: entry-date
+  - field: field
+  - field: provenance
+  - field: resource
+  - field: start-date
+  - field: value
 key-field: provenance
 licence: ogl3
 name: Provenance
@@ -28,7 +28,7 @@ realm: provenance
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
+  - specification
 typology: specification
 wikidata: ''
 wikipedia: ''

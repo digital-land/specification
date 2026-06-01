@@ -7,14 +7,14 @@ description: Convert a resource
 end-date: ''
 entry-date: ''
 fields:
-- field: end-date
-- field: endpoint
-- field: entry-date
-- field: parameters
-- field: dataset
-- field: plugin
-- field: resource
-- field: start-date
+  - field: end-date
+  - field: endpoint
+  - field: entry-date
+  - field: parameters
+  - field: dataset
+  - field: plugin
+  - field: resource
+  - field: start-date
 key-field: ''
 licence: ogl3
 name: Pipeline convert
@@ -26,8 +26,8 @@ realm: configuration
 replacement-dataset: ''
 start-date: ''
 themes:
-- specification
-- pipeline
+  - specification
+  - pipeline
 typology: specification
 wikidata: ''
 wikipedia: ''

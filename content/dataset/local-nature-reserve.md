@@ -9,18 +9,18 @@ entity-maximum: '45499999'
 entity-minimum: '45250000'
 entry-date: ''
 fields:
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: nature-reserve-status
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: nature-reserve-status
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 48
 key-field: ''
 licence: ogl3
@@ -33,8 +33,8 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
-- heritage
+  - environment
+  - heritage
 typology: geography
 wikidata: Q3457526
 wikipedia: Local_nature_reserve

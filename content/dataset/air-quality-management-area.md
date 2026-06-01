@@ -3,25 +3,24 @@ attribution: defra
 collection: air-quality-management-area
 consideration: air-quality-management-areas
 dataset: air-quality-management-area
-description: Areas where air pollution levels have exceeded the national air quality
-  objectives
+description: Areas where air pollution levels have exceeded the national air quality objectives
 end-date: ''
 entity-maximum: '39999'
 entity-minimum: '35000'
 entry-date: '2025-01-31'
 fields:
-- field: documentation-url
-- field: end-date
-- field: entity
-- field: entry-date
-- field: geometry
-- field: name
-- field: notes
-- field: organisation
-- field: point
-- field: prefix
-- field: reference
-- field: start-date
+  - field: documentation-url
+  - field: end-date
+  - field: entity
+  - field: entry-date
+  - field: geometry
+  - field: name
+  - field: notes
+  - field: organisation
+  - field: point
+  - field: prefix
+  - field: reference
+  - field: start-date
 github-discussion: 55
 key-field: ''
 licence: ogl3
@@ -34,7 +33,7 @@ realm: dataset
 replacement-dataset: ''
 start-date: ''
 themes:
-- environment
+  - environment
 typology: geography
 wikidata: ''
 wikipedia: ''

@@ -5,8 +5,8 @@ description: who content is aimed at when templating guidance
 end-date: ''
 entry-date: ''
 examples:
-- value "Local Planning Authority"
-- value "Products and services funded by the Digital Planning Programme"
+  - value "Local Planning Authority"
+  - value "Products and services funded by the Digital Planning Programme"
 field: audience
 guidance: ''
 hint: ''
