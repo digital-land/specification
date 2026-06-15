@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: infrastructure-funding-statement
 consideration: infrastructure-funding-statements
 dataset: infrastructure-funding-statement

@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: special-protection-area
 consideration: special-protection-areas
 dataset: special-protection-area

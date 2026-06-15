@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: local-plan
 consideration: waste-local-plan
 dataset: waste-plan-boundary

@@ -1,5 +1,6 @@
 ---
 attribution: historic-england
+availability: production
 collection: historic-england
 consideration: world-heritage-sites
 dataset: world-heritage-site-buffer-zone

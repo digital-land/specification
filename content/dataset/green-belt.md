@@ -1,5 +1,6 @@
 ---
 attribution: os-open-data
+availability: production
 collection: green-belt
 consideration: greenbelt
 dataset: green-belt

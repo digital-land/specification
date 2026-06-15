@@ -25,6 +25,7 @@ n,,string,,,,article-4-direction-rules,,,Article-4 direction rules,category,,,,c
 1,,string,,,,asset-of-community-value,,,Asset of community value,geography,,,,geography,,
 1,,text,,,,attribution,,,Attribution,text,,,,value,,
 1,,string,who content is aimed at when templating guidance,,,audience,,,Audience,text,,,,value,,
+1,,string,,,,availability,"Indicates which environments the dataset is available in. One of `development`, `staging` or `production`. Each value includes the environments before it: `production` means available in production, staging and development; `staging` means available in staging and development; `development` means available in development only. If not set, the dataset is not available in any environment.",,Availability,identifier,,,,value,,
 1,,string,A funding award,,,award,,,Award,specification,,,,specification,,
 1,,string,,,,battlefield,,,Battlefield,geography,,,,geography,,
 1,,string,,,,best-and-most-versatile-agricultural-land,,,Best and most versatile agricultural land,geography,,,,geography,,

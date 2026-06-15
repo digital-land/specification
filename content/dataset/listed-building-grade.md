@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: listed-building
 consideration: listed-buildings
 dataset: listed-building-grade

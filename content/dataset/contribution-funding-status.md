@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: developer-contributions
 consideration: developer-contributions
 dataset: contribution-funding-status

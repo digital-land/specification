@@ -1,5 +1,6 @@
 ---
 attribution: historic-england
+availability: production
 collection: historic-england
 consideration: scheduled-monuments
 dataset: scheduled-monument

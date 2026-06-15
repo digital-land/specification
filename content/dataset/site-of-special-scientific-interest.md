@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: site-of-special-scientific-interest
 consideration: sites-of-special-scientific-interest
 dataset: site-of-special-scientific-interest

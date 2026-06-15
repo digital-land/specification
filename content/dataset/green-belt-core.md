@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: green-belt
 consideration: greenbelt
 dataset: green-belt-core

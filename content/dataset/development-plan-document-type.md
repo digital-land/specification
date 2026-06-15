@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: local-plan
 consideration: development-plans-and-timetables
 dataset: development-plan-document-type

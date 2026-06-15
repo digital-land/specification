@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: article-4-direction
 consideration: article-4-directions
 dataset: article-4-direction

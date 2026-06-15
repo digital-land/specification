@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: design-code
 consideration: design-codes
 dataset: design-code-rule-category

@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: area-of-outstanding-natural-beauty
 consideration: areas-of-outstanding-natural-beauty
 dataset: area-of-outstanding-natural-beauty

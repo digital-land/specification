@@ -191,6 +191,19 @@ def check_datasets():
                             )
 
 
+ALLOWED_AVAILABILITY = {"", "development", "staging", "production"}
+
+
+def check_availability():
+    for dataset, d in tables["dataset"].items():
+        availability = d.get("availability", "")
+        if availability not in ALLOWED_AVAILABILITY:
+            error(
+                "dataset '%s' has an unknown availability '%s'"
+                % (dataset, availability)
+            )
+
+
 def check_projects():
     for project, p in tables["project"].items():
         for specification in p["specifications"].split(";"):
@@ -340,6 +353,7 @@ if __name__ == "__main__":
 
     check_field_typology()
     check_datasets()
+    check_availability()
     check_projects()
     check_cohorts()
     check_specifications()

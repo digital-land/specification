@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: ownership-status
 consideration: brownfield-land
 dataset: ownership-status

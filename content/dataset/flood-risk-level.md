@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: flood-risk-zone
 consideration: flood-risk-zones
 dataset: flood-risk-level

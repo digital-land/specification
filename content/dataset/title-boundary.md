@@ -1,5 +1,6 @@
 ---
 attribution: inspire-index-polygon
+availability: production
 collection: title-boundary
 consideration: ''
 dataset: title-boundary

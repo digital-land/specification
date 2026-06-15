@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: document
 consideration: ''
 dataset: document-type

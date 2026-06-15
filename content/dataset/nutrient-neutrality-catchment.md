@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: nutrient-neutrality
 consideration: nutrient-neutrality
 dataset: nutrient-neutrality-catchment

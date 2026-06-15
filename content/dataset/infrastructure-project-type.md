@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: infrastructure-project
 consideration: nationally-significant-infrastructure-projects
 dataset: infrastructure-project-type

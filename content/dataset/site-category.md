@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: site-category
 consideration: ''
 dataset: site-category

@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: ramsar
 consideration: ramsar
 dataset: ramsar

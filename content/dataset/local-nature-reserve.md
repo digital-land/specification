@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: local-nature-reserve
 consideration: local-nature-reserves
 dataset: local-nature-reserve

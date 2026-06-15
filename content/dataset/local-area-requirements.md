@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: local-area-requirements
 consideration: local-area-requirements
 dataset: local-area-requirements
