@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: asset-of-community-value
 consideration: assets-of-community-value
 dataset: asset-of-community-value

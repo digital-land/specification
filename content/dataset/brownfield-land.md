@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: brownfield-land
 consideration: brownfield-land
 dataset: brownfield-land

@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: nature-improvement-area
 consideration: nature-improvement-areas
 dataset: nature-improvement-area

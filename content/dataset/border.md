@@ -1,5 +1,6 @@
 ---
 attribution: ons-boundary
+availability: production
 collection: border
 consideration: border
 dataset: border

@@ -1,5 +1,6 @@
 ---
 attribution: ons-boundary
+availability: production
 collection: parish
 consideration: parish
 dataset: parish

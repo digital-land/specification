@@ -10,6 +10,7 @@ entity-minimum: '4000000'
 entry-date: ''
 fields:
   - field: attribution
+  - field: availability
   - field: collection
   - field: consideration
   - field: dataset

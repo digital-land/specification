@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: agricultural-land-classification
 consideration: agricultural-land-classification
 dataset: agricultural-land-classification

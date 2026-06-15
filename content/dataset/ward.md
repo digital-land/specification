@@ -1,5 +1,6 @@
 ---
 attribution: ons-boundary
+availability: production
 collection: ward
 consideration: council-wards
 dataset: ward

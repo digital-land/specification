@@ -1,6 +1,7 @@
 ---
 -dataset: ''
 attribution: crown-copyright
+availability: production
 collection: local-plan
 consideration: minerals-and-waste-plan
 dataset: minerals-plan

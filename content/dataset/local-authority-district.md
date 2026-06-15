@@ -1,5 +1,6 @@
 ---
 attribution: ons-boundary
+availability: production
 collection: local-authority-district
 consideration: local-authority-district
 dataset: local-authority-district

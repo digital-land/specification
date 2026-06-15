@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: flood-storage-area
 consideration: flood-storage-areas
 dataset: flood-storage-area

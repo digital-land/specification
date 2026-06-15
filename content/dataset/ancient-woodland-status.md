@@ -1,5 +1,6 @@
 ---
 attribution: natural-england
+availability: production
 collection: ancient-woodland
 consideration: ancient-woodlands
 dataset: ancient-woodland-status

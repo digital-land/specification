@@ -1,5 +1,6 @@
 ---
 attribution: crown-copyright
+availability: production
 collection: central-activities-zone
 consideration: central-activty-zones
 dataset: central-activities-zone

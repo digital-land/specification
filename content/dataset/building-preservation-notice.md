@@ -1,5 +1,6 @@
 ---
 attribution: historic-england
+availability: production
 collection: historic-england
 consideration: building-preservation-notices
 dataset: building-preservation-notice

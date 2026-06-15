@@ -1,5 +1,6 @@
 ---
 attribution: historic-england
+availability: production
 collection: historic-england
 consideration: heritage-at-risk
 dataset: heritage-at-risk

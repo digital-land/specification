@@ -1,5 +1,6 @@
 ---
 attribution: historic-england
+availability: production
 collection: archaeological-priority-area
 consideration: greater-london-archaeological-priority-areas
 dataset: archaeological-priority-area
