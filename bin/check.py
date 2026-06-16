@@ -202,6 +202,11 @@ def check_availability():
                 "dataset '%s' has an unknown availability '%s'"
                 % (dataset, availability)
             )
+        if availability and not d.get("collection", ""):
+            error(
+                "dataset '%s' has availability '%s' but no collection — it will not appear in any Airflow environment"
+                % (dataset, availability)
+            )
 
 
 def check_projects():
