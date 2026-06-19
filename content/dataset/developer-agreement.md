@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: developer-contributions
 consideration: developer-contributions
 dataset: developer-agreement

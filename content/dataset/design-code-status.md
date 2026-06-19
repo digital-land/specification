@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: design-code
 consideration: design-codes
 dataset: design-code-status

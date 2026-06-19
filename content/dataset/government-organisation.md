@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: organisation
 consideration: ''
 dataset: government-organisation

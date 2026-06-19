@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: document
 consideration: ''
 dataset: document-type

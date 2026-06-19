@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: listed-building
 consideration: listed-buildings
 dataset: listed-building-outline

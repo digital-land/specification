@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: planning-permission-type
 consideration: ''
 dataset: planning-permission-type

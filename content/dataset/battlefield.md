@@ -1,6 +1,6 @@
 ---
 attribution: historic-england
-availability: production
+environment: production
 collection: historic-england
 consideration: battlefields
 dataset: battlefield

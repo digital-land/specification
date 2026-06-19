@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: planning-application
 consideration: planning-applications-decisions
 dataset: planning-application

@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: local-plan
 consideration: development-plans-and-timetables
 dataset: plan-event

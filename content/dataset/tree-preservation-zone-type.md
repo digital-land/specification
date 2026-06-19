@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: tree-preservation-order
 consideration: tree-preservation-orders
 dataset: tree-preservation-zone-type

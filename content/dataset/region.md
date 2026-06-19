@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-availability: production
+environment: production
 collection: region
 consideration: ''
 dataset: region

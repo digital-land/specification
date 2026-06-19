@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: educational-establishment
 consideration: educational-establishment
 dataset: educational-establishment

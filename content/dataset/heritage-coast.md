@@ -1,6 +1,6 @@
 ---
 attribution: natural-england
-availability: production
+environment: production
 collection: heritage-coast
 consideration: heritage-coast
 dataset: heritage-coast

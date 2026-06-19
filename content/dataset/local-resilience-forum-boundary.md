@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-availability: production
+environment: production
 collection: local-resilience-forum-boundary
 consideration: ''
 dataset: local-resilience-forum-boundary

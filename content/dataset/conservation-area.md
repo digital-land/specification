@@ -1,6 +1,6 @@
 ---
 attribution: historic-england
-availability: production
+environment: production
 collection: conservation-area
 consideration: conservation-areas
 dataset: conservation-area

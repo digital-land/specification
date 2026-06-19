@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-availability: production
+environment: production
 collection: local-planning-authority
 consideration: local-planning-authority
 dataset: local-planning-authority

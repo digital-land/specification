@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: development-corporation-boundary
 consideration: development-corporation-boundary
 dataset: development-corporation-boundary

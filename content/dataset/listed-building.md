@@ -1,6 +1,6 @@
 ---
 attribution: historic-england
-availability: production
+environment: production
 collection: listed-building
 consideration: listed-buildings
 dataset: listed-building

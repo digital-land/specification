@@ -1,7 +1,7 @@
 ---
 -dataset: ''
 attribution: crown-copyright
-availability: production
+environment: production
 collection: local-plan
 consideration: local-plans
 dataset: local-plan

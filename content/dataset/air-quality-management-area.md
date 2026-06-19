@@ -1,6 +1,6 @@
 ---
 attribution: defra
-availability: production
+environment: production
 collection: air-quality-management-area
 consideration: air-quality-management-areas
 dataset: air-quality-management-area

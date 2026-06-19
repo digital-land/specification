@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: historic-england
 consideration: ''
 dataset: park-and-garden-grade

@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: transport-access-node
 consideration: national-public-transport-access-nodes
 dataset: transport-access-node

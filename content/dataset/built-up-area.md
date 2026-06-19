@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-availability: production
+environment: production
 collection: built-up-area
 consideration: built-up-areas
 dataset: built-up-area

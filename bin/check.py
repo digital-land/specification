@@ -191,21 +191,21 @@ def check_datasets():
                             )
 
 
-ALLOWED_AVAILABILITY = {"", "development", "staging", "production"}
+ALLOWED_ENVIRONMENT = {"", "development", "staging", "production"}
 
 
-def check_availability():
+def check_environment():
     for dataset, d in tables["dataset"].items():
-        availability = d.get("availability", "")
-        if availability not in ALLOWED_AVAILABILITY:
+        environment = d.get("environment", "")
+        if environment not in ALLOWED_ENVIRONMENT:
             error(
-                "dataset '%s' has an unknown availability '%s'"
-                % (dataset, availability)
+                "dataset '%s' has an unknown environment '%s'"
+                % (dataset, environment)
             )
-        if availability and not d.get("collection", ""):
+        if environment and not d.get("collection", ""):
             error(
-                "dataset '%s' has availability '%s' but no collection — it will not appear in any Airflow environment"
-                % (dataset, availability)
+                "dataset '%s' has environment '%s' but no collection — it will not appear in any Airflow environment"
+                % (dataset, environment)
             )
 
 
@@ -358,7 +358,7 @@ if __name__ == "__main__":
 
     check_field_typology()
     check_datasets()
-    check_availability()
+    check_environment()
     check_projects()
     check_cohorts()
     check_specifications()

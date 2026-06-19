@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: legislation
 consideration: permitted-development-rights
 dataset: permitted-development-right-part

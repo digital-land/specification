@@ -1,6 +1,6 @@
 ---
 attribution: ons-boundary
-availability: production
+environment: production
 collection: national-park
 consideration: national-parks-and-the-broads
 dataset: national-park

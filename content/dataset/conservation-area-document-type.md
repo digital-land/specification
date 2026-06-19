@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-availability: production
+environment: production
 collection: conservation-area
 consideration: conservation-areas
 dataset: conservation-area-document-type
