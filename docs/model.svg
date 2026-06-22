@@ -29,7 +29,7 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_dataset-schema_schema_to_schema_schema" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1430 C 337.0 1430 337.0 4710 297 4710"><title>from dataset-schema schema to schema schema</title></path>
 <path class="line" id="from_dataset_prefix_to_prefix_prefix" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1610 C 337.0 1610 337.0 5270 377 5270"><title>from dataset prefix to prefix prefix</title></path>
 <path class="line" id="from_dataset_attribution_to_attribution_attribution" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1670 C 337.0 1670 337.0 50 297 50"><title>from dataset attribution to attribution attribution</title></path>
-<path class="line" id="from_dataset_collection_to_collection_collection" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1710 C 337.0 1710 337.0 250 297 250"><title>from dataset collection to collection collection</title></path>
+<path class="line" id="from_dataset_collection_to_collection_collection" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1690 C 337.0 1690 337.0 250 297 250"><title>from dataset collection to collection collection</title></path>
 <path class="line" id="from_dataset_guidance_to_guidance_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1770 C 337.0 1770 337.0 2850 297 2850"><title>from dataset guidance to guidance reference</title></path>
 <path class="line" id="from_dataset_licence_to_licence_licence" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1850 C 337.0 1850 337.0 3190 297 3190"><title>from dataset licence to licence licence</title></path>
 <path class="line" id="from_dataset_phase_to_phase_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 297 1910 C 337.0 1910 337.0 3370 297 3370"><title>from dataset phase to phase reference</title></path>
@@ -1142,15 +1142,15 @@ text.datatype{fill:#0b0c0c;}
 <text x="247" y="1670" class="datatype">reference</text>
 <rect x="80" y="1680" width="162" height="20" class="field"/>
 <rect x="242" y="1680" width="55" height="20" class="datatype"/>
-<text x="85" y="1690" class="field">availability</text>
-<text x="247" y="1690" class="datatype">string</text>
+<text x="85" y="1690" class="field">collection</text>
+<text x="247" y="1690" class="datatype">reference</text>
 <rect x="80" y="1700" width="162" height="20" class="field"/>
 <rect x="242" y="1700" width="55" height="20" class="datatype"/>
-<text x="85" y="1710" class="field">collection</text>
-<text x="247" y="1710" class="datatype">reference</text>
+<text x="85" y="1710" class="field">consideration</text>
+<text x="247" y="1710" class="datatype">string</text>
 <rect x="80" y="1720" width="162" height="20" class="field"/>
 <rect x="242" y="1720" width="55" height="20" class="datatype"/>
-<text x="85" y="1730" class="field">consideration</text>
+<text x="85" y="1730" class="field">environment</text>
 <text x="247" y="1730" class="datatype">string</text>
 <rect x="80" y="1740" width="162" height="20" class="field"/>
 <rect x="242" y="1740" width="55" height="20" class="datatype"/>
