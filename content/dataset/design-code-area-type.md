@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: design-code
 consideration: design-codes
 dataset: design-code-area-type
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '622999'
 entity-minimum: '622500'
 entry-date: ''
+environment: production
 fields:
   - field: description
   - field: end-date

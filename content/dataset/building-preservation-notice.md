@@ -1,6 +1,5 @@
 ---
 attribution: historic-england
-availability: production
 collection: historic-england
 consideration: building-preservation-notices
 dataset: building-preservation-notice
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '2099999'
 entity-minimum: '2000000'
 entry-date: ''
+environment: production
 fields:
   - field: building-preservation-notice
   - field: categories

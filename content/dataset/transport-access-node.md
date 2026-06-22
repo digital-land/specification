@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: transport-access-node
 consideration: national-public-transport-access-nodes
 dataset: transport-access-node
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: 59999999
 entity-minimum: 50000000
 entry-date: '2024-06-24'
+environment: production
 fields:
   - field: bus-stop-type
   - field: description

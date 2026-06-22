@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: developer-contributions
 consideration: developer-contributions
 dataset: contribution-purpose
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '16299999'
 entity-minimum: '16200000'
 entry-date: ''
+environment: production
 fields:
   - field: description
   - field: developer-agreement-type

@@ -1,6 +1,5 @@
 ---
 attribution: natural-england
-availability: production
 collection: special-protection-area
 consideration: special-protection-areas
 dataset: special-protection-area
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '14999999'
 entity-minimum: '14900000'
 entry-date: ''
+environment: production
 fields:
   - field: description
   - field: document-url

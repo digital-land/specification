@@ -1,7 +1,6 @@
 ---
 -dataset: ''
 attribution: crown-copyright
-availability: production
 collection: local-plan
 consideration: local-plans
 dataset: local-plan
@@ -10,6 +9,7 @@ end-date: ''
 entity-maximum: '4229999'
 entity-minimum: '4220000'
 entry-date: '2024-09-14'
+environment: production
 fields:
   - end-date: 2025-11-01
     field: adopted-date

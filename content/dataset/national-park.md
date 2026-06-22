@@ -1,6 +1,5 @@
 ---
 attribution: ons-boundary
-availability: production
 collection: national-park
 consideration: national-parks-and-the-broads
 dataset: national-park
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '520999'
 entity-minimum: '520000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

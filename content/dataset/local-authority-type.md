@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: organisation
 consideration: ''
 dataset: local-authority-type
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '8899999'
 entity-minimum: '8800000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

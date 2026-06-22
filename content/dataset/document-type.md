@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: document
 consideration: ''
 dataset: document-type
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '5799999'
 entity-minimum: '5700000'
 entry-date: ''
+environment: production
 fields:
   - field: category
   - field: description

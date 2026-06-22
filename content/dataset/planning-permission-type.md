@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: planning-permission-type
 consideration: ''
 dataset: planning-permission-type
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '11999999'
 entity-minimum: '11900000'
 entry-date: ''
+environment: production
 fields:
   - field: description
   - field: end-date

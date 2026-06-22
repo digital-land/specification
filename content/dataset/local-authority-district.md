@@ -1,6 +1,5 @@
 ---
 attribution: ons-boundary
-availability: production
 collection: local-authority-district
 consideration: local-authority-district
 dataset: local-authority-district
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '8699999'
 entity-minimum: '8600000'
 entry-date: ''
+environment: production
 fields:
   - field: categories
   - field: documentation-url

@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: site-category
 consideration: ''
 dataset: site-category
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '14399999'
 entity-minimum: '14300000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: organisation
 consideration: ''
 dataset: waste-authority
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '15899999'
 entity-minimum: '15800000'
 entry-date: ''
+environment: production
 fields:
   - field: billing-authority
   - field: company

@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: infrastructure-project
 consideration: nationally-significant-infrastructure-projects
 dataset: infrastructure-project-decision
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '11019999999'
 entity-minimum: '11010000000'
 entry-date: '2023-09-13'
+environment: production
 fields:
   - field: description
   - field: end-date

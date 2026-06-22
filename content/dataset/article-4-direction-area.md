@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: article-4-direction
 consideration: article-4-directions
 dataset: article-4-direction-area
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '7019999999'
 entity-minimum: '7010000000'
 entry-date: ''
+environment: production
 fields:
   - field: address-texts
   - field: article-4-direction

@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-availability: production
 collection: development-corporation-boundary
 consideration: development-corporation-boundary
 dataset: development-corporation-boundary
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '569999'
 entity-minimum: '560000'
 entry-date: ''
+environment: production
 fields:
   - field: document-url
   - field: documentation-url

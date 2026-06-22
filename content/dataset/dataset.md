@@ -10,7 +10,6 @@ entity-minimum: '4000000'
 entry-date: ''
 fields:
   - field: attribution
-  - field: availability
   - field: collection
   - field: consideration
   - field: dataset
@@ -23,6 +22,7 @@ fields:
     guidance: "Enter a description of the dataset which could be used in a sentence such as \"A dataset containing *description* in England.\" \n\nThe description is intended to be used in tables and content, so shouldn't start with the definite article (\"The\", \"A\", etc)\nor end with a full-stop or other punctuation mark. \nThe description shouldn't start with a capital letter, unless the first word is a proper-noun, such as \"Local Planning Authority\".\nThis allows a user to capitalise the first letter or add a full-stop when using the description in a sentence.\n"
   - field: end-date
   - field: entry-date
+  - field: environment
   - field: github-discussion
   - field: guidance
   - field: key-field

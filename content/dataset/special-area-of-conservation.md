@@ -1,6 +1,5 @@
 ---
 attribution: natural-england
-availability: production
 collection: special-area-of-conservation
 consideration: special-areas-of-conservation
 dataset: special-area-of-conservation
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '14899999'
 entity-minimum: '14800000'
 entry-date: ''
+environment: production
 fields:
   - field: categories
   - field: documentation-url

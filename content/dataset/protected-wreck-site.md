@@ -1,6 +1,5 @@
 ---
 attribution: historic-england
-availability: production
 collection: historic-england
 consideration: protected-wreck-sites
 dataset: protected-wreck-site
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '12899999'
 entity-minimum: '12800000'
 entry-date: ''
+environment: production
 fields:
   - field: documentation-url
   - field: end-date
