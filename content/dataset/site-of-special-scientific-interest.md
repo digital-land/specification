@@ -1,6 +1,5 @@
 ---
 attribution: natural-england
-environment: production
 collection: site-of-special-scientific-interest
 consideration: sites-of-special-scientific-interest
 dataset: site-of-special-scientific-interest
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '14599999'
 entity-minimum: '14500000'
 entry-date: ''
+environment: production
 fields:
   - field: document-url
   - field: documentation-url

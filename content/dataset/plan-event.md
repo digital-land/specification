@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: local-plan
 consideration: development-plans-and-timetables
 dataset: plan-event
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '2999999'
 entity-minimum: '2950000'
 entry-date: '2023-09-14'
+environment: production
 fields:
   - field: end-date
   - field: entity

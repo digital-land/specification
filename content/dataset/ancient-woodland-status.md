@@ -1,6 +1,5 @@
 ---
 attribution: natural-england
-environment: production
 collection: ancient-woodland
 consideration: ancient-woodlands
 dataset: ancient-woodland-status
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '30099999'
 entity-minimum: '29100000'
 entry-date: ''
+environment: production
 fields:
   - field: description
   - field: documentation-url

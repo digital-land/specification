@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: organisation
 consideration: ''
 dataset: local-planning-group
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '62999'
 entity-minimum: '62000'
 entry-date: '2025-12-19'
+environment: production
 fields:
   - field: description
   - field: end-date

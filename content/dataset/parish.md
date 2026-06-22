@@ -1,6 +1,5 @@
 ---
 attribution: ons-boundary
-environment: production
 collection: parish
 consideration: parish
 dataset: parish
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '139999999'
 entity-minimum: '130000000'
 entry-date: ''
+environment: production
 fields:
   - field: documentation-url
   - field: end-date

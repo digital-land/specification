@@ -1,6 +1,5 @@
 ---
 attribution: historic-england
-environment: production
 collection: historic-england
 consideration: certificate-of-immunity
 dataset: certificate-of-immunity
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '2399999'
 entity-minimum: '2300000'
 entry-date: ''
+environment: production
 fields:
   - field: categories
   - field: certificate-of-immunity

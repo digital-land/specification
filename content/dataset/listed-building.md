@@ -1,6 +1,5 @@
 ---
 attribution: historic-england
-environment: production
 collection: listed-building
 consideration: listed-buildings
 dataset: listed-building
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '41099999'
 entity-minimum: '31100000'
 entry-date: ''
+environment: production
 fields:
   - field: documentation-url
   - field: end-date

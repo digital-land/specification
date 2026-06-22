@@ -1,6 +1,5 @@
 ---
 attribution: natural-england
-environment: production
 collection: nutrient-neutrality
 consideration: nutrient-neutrality
 dataset: nutrient-neutrality-catchment
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '590999'
 entity-minimum: '590000'
 entry-date: ''
+environment: production
 fields:
   - field: document-url
   - field: documentation-url

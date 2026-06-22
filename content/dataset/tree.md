@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: tree-preservation-order
 consideration: tree-preservation-orders
 dataset: tree
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '7009999999'
 entity-minimum: '7002000000'
 entry-date: ''
+environment: production
 fields:
   - field: address
   - field: address-text

@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: organisation
 consideration: ''
 dataset: government-organisation
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '6999999'
 entity-minimum: '6900000'
 entry-date: ''
+environment: production
 fields:
   - field: addressbase-custodian
   - field: billing-authority

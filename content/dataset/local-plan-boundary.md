@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: local-plan
 consideration: local-plans
 dataset: local-plan-boundary
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '4219999'
 entity-minimum: '4211000'
 entry-date: '2024-09-14'
+environment: production
 fields:
   - field: end-date
   - field: entity

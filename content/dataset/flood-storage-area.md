@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: flood-storage-area
 consideration: flood-storage-areas
 dataset: flood-storage-area
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '529999'
 entity-minimum: '521000'
 entry-date: '2024-06-28'
+environment: production
 fields:
   - field: end-date
   - field: entity

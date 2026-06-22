@@ -1,6 +1,5 @@
 ---
 attribution: historic-england
-environment: production
 collection: conservation-area
 consideration: conservation-areas
 dataset: conservation-area
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '44999999'
 entity-minimum: '44000000'
 entry-date: ''
+environment: production
 fields:
   - field: designation-date
   - field: document-url

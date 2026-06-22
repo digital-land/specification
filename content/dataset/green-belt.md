@@ -1,6 +1,5 @@
 ---
 attribution: os-open-data
-environment: production
 collection: green-belt
 consideration: greenbelt
 dataset: green-belt
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '610999'
 entity-minimum: '610000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

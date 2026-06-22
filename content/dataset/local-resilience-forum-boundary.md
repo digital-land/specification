@@ -1,6 +1,5 @@
 ---
 attribution: ons-boundary
-environment: production
 collection: local-resilience-forum-boundary
 consideration: ''
 dataset: local-resilience-forum-boundary
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '30999'
 entity-minimum: '30000'
 entry-date: ''
+environment: production
 fields:
   - field: categories
   - field: documentation-url

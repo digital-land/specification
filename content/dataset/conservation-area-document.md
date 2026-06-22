@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: conservation-area
 consideration: conservation-areas
 dataset: conservation-area-document
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '6399999'
 entity-minimum: '6300000'
 entry-date: ''
+environment: production
 fields:
   - field: conservation-area
   - field: description

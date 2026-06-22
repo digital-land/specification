@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: educational-establishment
 consideration: educational-establishment
 dataset: educational-establishment
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: 3499999
 entity-minimum: 3100000
 entry-date: '2024-07-09'
+environment: production
 fields:
   - field: end-date
   - field: entity

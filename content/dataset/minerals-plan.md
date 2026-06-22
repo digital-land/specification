@@ -1,7 +1,6 @@
 ---
 -dataset: ''
 attribution: crown-copyright
-environment: production
 collection: local-plan
 consideration: minerals-and-waste-plan
 dataset: minerals-plan
@@ -10,6 +9,7 @@ end-date: ''
 entity-maximum: '539999'
 entity-minimum: '530000'
 entry-date: '2025-11-14'
+environment: production
 fields:
   - field: dataset
   - field: description

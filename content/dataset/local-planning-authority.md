@@ -1,6 +1,5 @@
 ---
 attribution: ons-boundary
-environment: production
 collection: local-planning-authority
 consideration: local-planning-authority
 dataset: local-planning-authority
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '626999'
 entity-minimum: '624000'
 entry-date: ''
+environment: production
 fields:
   - field: document-url
     guidance: |

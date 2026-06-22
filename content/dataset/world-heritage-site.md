@@ -1,6 +1,5 @@
 ---
 attribution: historic-england
-environment: production
 collection: historic-england
 consideration: world-heritage-sites
 dataset: world-heritage-site
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '16109999'
 entity-minimum: '16100000'
 entry-date: ''
+environment: production
 fields:
   - field: documentation-url
   - field: end-date

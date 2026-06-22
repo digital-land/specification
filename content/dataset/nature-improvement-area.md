@@ -1,6 +1,5 @@
 ---
 attribution: natural-england
-environment: production
 collection: nature-improvement-area
 consideration: nature-improvement-areas
 dataset: nature-improvement-area
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '10199999'
 entity-minimum: '10100000'
 entry-date: '2024-07-16'
+environment: production
 fields:
   - field: end-date
   - field: entity

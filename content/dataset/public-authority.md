@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: organisation
 consideration: ''
 dataset: public-authority
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '13099999'
 entity-minimum: '13000000'
 entry-date: ''
+environment: production
 fields:
   - field: company
   - field: end-date

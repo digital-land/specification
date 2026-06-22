@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: organisation
 consideration: ''
 dataset: passenger-transport-executive
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '15399999'
 entity-minimum: '15300000'
 entry-date: ''
+environment: production
 fields:
   - field: billing-authority
   - field: company

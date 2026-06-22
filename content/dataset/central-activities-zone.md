@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: central-activities-zone
 consideration: central-activty-zones
 dataset: central-activities-zone
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '2299999'
 entity-minimum: '2200000'
 entry-date: ''
+environment: production
 fields:
   - field: description
   - field: documentation-url

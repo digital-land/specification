@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: planning-condition
 consideration: planning-conditions
 dataset: planning-application-condition
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '72999999'
 entity-minimum: '71000000'
 entry-date: ''
+environment: production
 fields:
   - field: documentation-url
   - field: document-url

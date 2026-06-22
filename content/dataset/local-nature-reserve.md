@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: local-nature-reserve
 consideration: local-nature-reserves
 dataset: local-nature-reserve
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '45499999'
 entity-minimum: '45250000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

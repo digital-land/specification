@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: green-belt
 consideration: greenbelt
 dataset: green-belt-core
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '611999'
 entity-minimum: '611000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

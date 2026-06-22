@@ -1,6 +1,5 @@
 ---
 attribution: inspire-index-polygon
-environment: production
 collection: title-boundary
 consideration: ''
 dataset: title-boundary
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '12999999999'
 entity-minimum: '12000000000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

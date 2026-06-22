@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: asset-of-community-value
 consideration: assets-of-community-value
 dataset: asset-of-community-value
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '17299999'
 entity-minimum: '17100000'
 entry-date: '2025-02-17'
+environment: production
 fields:
   - field: address-text
   - field: decision

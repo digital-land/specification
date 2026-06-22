@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: listed-building
 consideration: listed-buildings
 dataset: listed-building-outline
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '43099999'
 entity-minimum: '42100000'
 entry-date: ''
+environment: production
 fields:
   - field: address-text
   - field: description

@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: brownfield-site
 consideration: brownfield-land
 dataset: brownfield-site
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '1899999'
 entity-minimum: '1800000'
 entry-date: ''
+environment: production
 fields:
   - field: brownfield-site
   - field: categories

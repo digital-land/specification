@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: organisation
 consideration: ''
 dataset: regional-park-authority
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '5999'
 entity-minimum: '5000'
 entry-date: ''
+environment: production
 fields:
   - field: billing-authority
   - field: end-date

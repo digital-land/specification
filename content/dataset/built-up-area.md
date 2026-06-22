@@ -1,6 +1,5 @@
 ---
 attribution: ons-boundary
-environment: production
 collection: built-up-area
 consideration: built-up-areas
 dataset: built-up-area
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '2699999'
 entity-minimum: '2500000'
 entry-date: ''
+environment: production
 fields:
   - field: end-date
   - field: entity

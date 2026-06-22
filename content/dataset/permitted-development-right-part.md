@@ -1,6 +1,5 @@
 ---
 attribution: crown-copyright
-environment: production
 collection: legislation
 consideration: permitted-development-rights
 dataset: permitted-development-right-part
@@ -9,6 +8,7 @@ end-date: ''
 entity-maximum: '11499999'
 entity-minimum: '11400000'
 entry-date: ''
+environment: production
 fields:
   - field: description
   - field: end-date
