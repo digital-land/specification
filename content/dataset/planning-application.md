@@ -8,7 +8,7 @@ end-date: ''
 entity-maximum: '10999999999'
 entity-minimum: '10000000000'
 entry-date: ''
-environment: production
+environment: staging
 fields:
   - field: uprn
   - field: address-text
