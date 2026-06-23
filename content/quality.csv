@@ -1,6 +1,7 @@
 reference,quality,priority,name,description
 none,none,0,No data,Data is missing
 some,some,1,Some data,Contains data from an alternative source
-authoritative,authoritative,2,Authoritative data,Contains some data from the authoritative source
-usable,usable,3,Usable data,Contains data from the authoritative source
-trustworthy,trustworthy,5,Trustworthy data,Authoritative data which matches the material information
+indicative,indicative,2,Indicative data,Data suitable for informing indicative decisons
+authoritative,authoritative,3,Authoritative data,Contains some data from the authoritative source
+usable,usable,4,Usable data,Data suitable for informing some administrative decisions
+trustworthy,trustworthy,5,Trustworthy data,Authoritative data which cites and matches material information
