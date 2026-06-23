@@ -12,7 +12,6 @@
 
 import glob
 import re
-import sys
 import yaml
 
 FRONTMATTER_RE = re.compile(r"^---[ \t]*\n(.*?)\n---[ \t]*\n?(.*)", re.DOTALL)
