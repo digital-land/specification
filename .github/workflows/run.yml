@@ -82,7 +82,7 @@ jobs:
             if (context.payload?.inputs?.environment) return [context.payload?.inputs?.environment];
             const {data: {environments}} =
               await github.request(`GET /repos/${process.env.GITHUB_REPOSITORY}/environments`);
-            return environments.map(e => e.name)
+            return environments.map(e => e.name).filter(name => name !== 'github-pages')
 
   upload_to_s3:
     runs-on: ubuntu-latest
