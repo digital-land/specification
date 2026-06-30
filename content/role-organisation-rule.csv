@@ -1,6 +1,7 @@
 reference,role,priority,include-exclude,dataset,local-authority-type,organisation,entry-date,start-date,end-date,notes
 LPA-LA,local-planning-authority,3,include,local-authority,,,,1947-08-06,,
 LPA-COMB,local-planning-authority,2,exclude,,COMB,,,1947-08-06,,
+LCA-COMB,local-combined-authority,2,include,,COMB,,,1947-08-06,,
 LPA-SRA,local-planning-authority,2,exclude,,SRA,,,1947-08-06,,
 LPA-CTY,local-planning-authority,2,exclude,,CTY,,,1947-08-06,,
 LPA-NP,local-planning-authority,3,include,national-park-authority,,,,1947-08-06,,
