@@ -1240,132 +1240,946 @@ h1, h2::before, h3::before, h4::before {
             <!-- brute force for now, needs an index -->
             <p class="description">Date the entity became active or in force.</p>
 
-            <p class="assertion">Each Tree entry MAY contain a <code class="field">start-date</code> field value.</p>
-            <p class="assertion">
-              The Tree <code class="field">start-date</code> field MUST be a
-              <a href="#datatype-datetime">datetime</a> value.
-            </p>
+    <h4 id="dataset_tree-preservation-order_field_organisation">Organisation</h4>
 
-            <!-- deprecated specification description .. -->
-            <p class="description">The date from which the tree preservation order affects the tree.</p>
-            <h4 id="dataset_tree_field_end-date">End date</h4>
+    
+    
+    
 
-            <!-- brute force for now, needs an index -->
-            <p class="description">Date from which the entity is not longer active or in force.</p>
 
-            <p class="assertion">Each Tree entry MAY contain an <code class="field">end-date</code> field value.</p>
-            <p class="assertion">
-              The Tree <code class="field">end-date</code> field MUST be a
-              <a href="#datatype-datetime">datetime</a> value.
-            </p>
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Department, agency, body, company, group, or association of people.
 
-            <!-- deprecated specification description .. -->
-            <p class="description">
-              The date the tree preservation order no longer affects the tree, or leave blank if the tree is still under
-              the order. Use the felled-date if the tree has been felled..
-            </p>
-            <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
+</p>
 
-            <p class="note">
-              The source documentation is a web page where the user should go to confirm the validity of information
-              provided in the data.
-            </p>
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    an 
+    <code class="field">organisation</code> field value.</p>
+    <p class="assertion">The Tree preservation order <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#datatype-reference">reference</a> value.</p>
 
-            <p class="assertion">
-              The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public URL.
-            </p>
+    </li>
 
-            <p class="note">
-              Finding the information on the organisation's official website helps users check the information in the
-              data. It increases the trust the user may place in the origin of the data, and that it is more likely to
-              be sustained.
-            </p>
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The organisation responsible for this tree preservation order.
 
-            <p class="assertion">The source documentation SHOULD be on the offical website for the organisation.</p>
+</p>
+    
+    
 
-            <p class="note">
-              A Local Authority or other public body should put the documentation page under their
-              <code class="value">.gov.uk</code> domain.
-            </p>
+    <h4 id="dataset_tree-preservation-order_field_entry-date">Entry date</h4>
 
-            <p class="assertion">
-              The source documentation MAY either contain the
-              <a href="#endpoint-documentation">endpoint documentation</a>, or link to one or more separate
-              <a href="#endpoint-documentation">endpoint documentation</a> pages.
-            </p>
+    
+    
+    
 
-            <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
 
-            <p class="note">
-              The endpoint documentation is a web page where a user can find a link to where they can download the data
-              (the endpoint), along with other information relevant to a data user, such as the date the data was last
-              updated. Every endpoint needs to be findable via a link on the
-              <a href="#source-documentation">source documentation</a> page, and the endpoint documentation can be on
-              the source page, on a separate documentation point for each endpoint, or a combination thereof.
-            </p>
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
 
-            <p class="assertion">
-              The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public URL.
-            </p>
+</p>
 
-            <p class="assertion">
-              The endpoint documentation URL SHOULD have the same URL as the
-              <a href="#endpoint-documentation">endpoint documentation</a> page.
-            </p>
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field value.</p>
+    <p class="assertion">The Tree preservation order <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
 
-            <p class="assertion">
-              The endpoint documentation URL MAY have the same URL as the
-              <a href="#source-documentation">source documentation</a> page.
-            </p>
+    </li>
 
-            <p class="assertion">
-              The endpoint documentation include a hyperlink to one or more <a href="#endpoint">endpoints</a> for
-              <a href="#tree-preservation-order-dataset">tree preservation order</a> data.
-            </p>
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; this entry was created or amended.
 
-            <p class="assertion">
-              The endpoint documentation include a hyperlink to one or more <a href="#endpoint">endpoints</a> for
-              <a href="#tree-preservation-zone-dataset">tree preservation zone</a> data.
-            </p>
+</p>
+    
+    
 
-            <p class="assertion">
-              The endpoint documentation include a hyperlink to one or more <a href="#endpoint">endpoints</a> for
-              <a href="#tree-dataset">tree</a> data.
-            </p>
+    <h4 id="dataset_tree-preservation-order_field_start-date">Start date</h4>
 
-            <p class="assertion">
-              The endpoint documentation page SHOULD include a clear licence for reusing the data.
-            </p>
+    
+    
+    
 
-            <p class="assertion" id="preferred-licensing">
-              The data SHOULD be published as [<a href="#crown-copyright">crown-copyright</a>] under [<a href="#OGL3"
-                >OGL3</a
-              >].
-            </p>
 
-            <p class="example" id="example-attribution">
-              This data is
-              <a
-                href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
-                >© Crown copyright</a
-              >
-              and available under the
-              <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
-                >Open Government Licence v3.0</a
-              >.
-            </p>
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
 
-            <p class="assertion">
-              The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide
-              if they copy, publish, distribute or otherwise retransmit the data.
-            </p>
+</p>
 
-            <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    a 
+    <code class="field">start-date</code> field value.</p>
+    <p class="assertion">The Tree preservation order <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
 
-            <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
-            <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
+    </li>
 
-            <!--
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; the tree preservation order came into force.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-order_field_end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p>
+
+    <p class="assertion">Each Tree preservation order entry MAY contain 
+    an 
+    <code class="field">end-date</code> field value.</p>
+    <p class="assertion">The Tree preservation order <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; the tree preservation order was revoked. Leave blank if the TPO is still active.
+
+</p>
+
+    
+    
+
+    <h3 id="tree-preservation-zone-dataset" class="govuk-heading-m">
+    Tree preservation zone
+</h3>
+    <p class="description">
+    The 
+    Tree preservation zone
+ dataset contains 
+    An area covered by a tree preservation order.
+
+    </p>
+
+    <p class="assertion">The Tree preservation zone dataset  contain at least one entry for each Tree preservation zone for which the data provider is the responsible authority.</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">reference</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">reference</code> field MUST be
+    a 
+    <a href="#datatype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#reference&#34;&gt;reference&lt;/a&gt; for the tree preservation zone.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">name</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">name</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The name of the tree preservation zone.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_tree-preservation-order">Tree preservation order</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">tree-preservation-order</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">tree-preservation-order</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#reference&#34;&gt;reference&lt;/a&gt; for the tree preservation order.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_tree-preservation-zone-type">Tree preservation zone type</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A category of tree preservation zone.
+
+</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">tree-preservation-zone-type</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">tree-preservation-zone-type</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain a <code class="field">reference</code> value from the 
+    <a href="https://planning.data.gov.uk/dataset/tree-preservation-zone-type">tree-preservation-zone-type dataset.</a>
+    </p></li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The type of zone, for example area, group or woodland.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A polygon or multipolygon boundary.
+
+</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">geometry</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#datatype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The boundary of the area covered by the tree preservation zone in WKT format.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_point">Point</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">point</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">point</code> field MUST be
+    a 
+    <a href="#datatype-point">point</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The centre of the tree preservation zone if you cannot provide the full geometry.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Notes and commentary about how this data was made or may be interpreted.
+
+</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">notes</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">notes</code> field MUST be
+    a 
+    <a href="#datatype-text">text</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    Optional notes.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Department, agency, body, company, group, or association of people.
+
+</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    an 
+    <code class="field">organisation</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#datatype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The organisation responsible for this tree preservation order.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; this entry was created or amended.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    a 
+    <code class="field">start-date</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; the tree preservation zone came into force.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree-preservation-zone_field_end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p>
+
+    <p class="assertion">Each Tree preservation zone entry MAY contain 
+    an 
+    <code class="field">end-date</code> field value.</p>
+    <p class="assertion">The Tree preservation zone <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; the tree preservation zone ended or leave blank if the zone is still active.
+
+</p>
+
+    
+    
+
+    <h3 id="tree-dataset" class="govuk-heading-m">
+    Tree
+</h3>
+    <p class="description">
+    The 
+    Tree
+ dataset contains 
+    An individual tree.
+
+    </p>
+
+    <p class="assertion">The Tree dataset  contain at least one entry for each Tree for which the data provider is the responsible authority.</p>
+    
+    
+
+    <h4 id="dataset_tree_field_reference">Reference</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">reference</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">reference</code> field MUST be
+    a 
+    <a href="#datatype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The number or reference for the tree which appears in the preservation order.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_name">Name</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">name</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">name</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The name of the tree.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_tree-preservation-order">Tree preservation order</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">tree-preservation-order</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">tree-preservation-order</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#reference&#34;&gt;reference&lt;/a&gt; for the tree preservation order.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_uprn">UPRN</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Unique Property Reference Number.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">uprn</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">uprn</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    Unique property reference number if the tree is located on an addressable property.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_address-text">Address text</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Address as a single line of text, separated by commas.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">address-text</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">address-text</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The address of the property.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_point">Point</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index -->
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">point</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">point</code> field MUST be
+    a 
+    <a href="#datatype-point">point</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The centre of the tree area if you cannot provide the full geometry.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_geometry">Geometry</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A polygon or multipolygon boundary.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">geometry</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">geometry</code> field MUST be
+    a 
+    <a href="#datatype-geometry">geometry</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The boundary of the area covered by the tree in WKT format.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_notes">Notes</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Notes and commentary about how this data was made or may be interpreted.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">notes</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">notes</code> field MUST be
+    a 
+    <a href="#datatype-text">text</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    Optional notes.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_organisation">Organisation</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Department, agency, body, company, group, or association of people.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">organisation</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">organisation</code> field MUST be
+    a 
+    <a href="#datatype-reference">reference</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The organisation responsible for this tree.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_felled-date">Felled date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    The date a tree was felled.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">felled-date</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">felled-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The date the tree was felled.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_entry-date">Entry date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Entry date of the data.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">entry-date</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">entry-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; this entry was created or amended.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_start-date">Start date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date the entity became active or in force.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    a 
+    <code class="field">start-date</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">start-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; from which the tree preservation order affects the tree.
+
+</p>
+    
+    
+
+    <h4 id="dataset_tree_field_end-date">End date</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Date from which the entity is not longer active or in force.
+
+</p>
+
+    <p class="assertion">Each Tree entry MAY contain 
+    an 
+    <code class="field">end-date</code> field value.</p>
+    <p class="assertion">The Tree <code class="field">end-date</code> field MUST be
+    a 
+    <a href="#datatype-datetime">datetime</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The &lt;a href=&#34;#date&#34;&gt;date&lt;/a&gt; the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled..
+
+</p>
+
+
+
+    <h2 id="source-documentation" class="govuk-heading-m">Source documentation</h2>
+
+    <p class="note">The source documentation is a web page where the user should go to confirm the validity of information provided in the data.</p>
+
+    <p class="assertion">The source documentation SHOULD be a web page accessible as [<a href="#HTML">HTML</a>] from a public URL.</p>
+
+    <p class="note">Finding the information on the organisation's official website helps users check the information 
+    in the data. It increases the trust the user may place in the origin of the data, and that it is more likely to be sustained. </p>
+
+    <p class="assertion">The source documentation SHOULD be on the offical website for the organisation.</p> 
+
+    <p class="note">A Local Authority or other public body should put the documentation page under their <code class="value">.gov.uk</code> domain.</p>
+
+    <p class="assertion">The source documentation MAY either contain the <a href="#endpoint-documentation">endpoint documentation</a>,
+    or link to one or more separate <a href="#endpoint-documentation">endpoint documentation</a> pages.</p> 
+
+    <h2 id="endpoint-documentation" class="govuk-heading-m">Endpoint documentation</h2>
+
+    <p class="note">The endpoint documentation is a web page where a user can find a link to where they can download the data (the endpoint), 
+    along with other information relevant to a data user, such as the date the data was last updated.
+    Every endpoint needs to be findable via a link on the <a href="#source-documentation">source documentation</a> page,
+    and the endpoint documentation can be on the source page, on a separate documentation point for each endpoint, or a combination thereof.
+    </p>
+
+    <p class="assertion">The documentation for an endpoint SHOULD be accessible as [<a href="#HTML">HTML</a>] from a public URL.</p>
+
+    <p class="assertion">The endpoint documentation URL SHOULD have the same URL as the <a href="#endpoint-documentation">endpoint documentation</a> page.</p>
+
+    <p class="assertion">The endpoint documentation URL MAY have the same URL as the <a href="#source-documentation">source documentation</a> page.</p>
+
+    
+    
+    <p class="assertion">
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#tree-preservation-order-dataset">tree preservation order</a> data.
+    </p>
+    
+    
+    <p class="assertion">
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#tree-preservation-zone-dataset">tree preservation zone</a> data.
+    </p>
+    
+    
+    <p class="assertion">
+    The endpoint documentation  include a hyperlink to one or more <a href="#endpoint">endpoints</a> for 
+    <a href="#tree-dataset">tree</a> data.
+    </p>
+    
+
+    <p class="assertion">The endpoint documentation page SHOULD include a clear licence for reusing the data.</p>
+
+    <p class="assertion" id="preferred-licensing">
+    The data SHOULD be published as [<a href="#crown-copyright">crown-copyright</a>] under [<a href="#OGL3">OGL3</a>].
+    </p>
+
+    <p class="example" id="example-attribution">
+    This data is <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+    and available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.
+    </p>
+
+    <p class="assertion">The endpoint documentation page SHOULD include any further attribution a user of the data needs to provide if they copy, publish, distribute or otherwise retransmit the data.</p>
+
+
+    <h2 id="datatypes" class="govuk-heading-m">Datatypes</h2>
+
+    <h3 id="datatype-reference" class="govuk-heading-s">Reference</h3>
+    <p class="assertion">The reference MAY be used to refer to the entity by other data.</p>
+
+    <!--
         TBD: explain about linking to document fragments ..
     <p class="note">The reference may be used as a web page fragment identifier a web page with more information about the Tree preservation order.</p>
     -->
