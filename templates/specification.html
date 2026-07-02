@@ -104,11 +104,11 @@ h1, h2::before, h3::before, h4::before {
 {% endblock dlStyle %}
 
 {% macro sentence_case(text) %}
-    {{ text[0]|upper}}{{text[1:] }}
+    {{ text[0]|upper}}{{text[1:] | safe }}
 {% endmacro %}
 
 {% macro sentence_end(text) %}
-    {{ text.strip() }}.
+    {{ text.strip() | safe }}.
 {% endmacro %}
 
 {% macro sentence(text) %}

@@ -3,7 +3,7 @@ considerations: listed-buildings
 datasets:
   - dataset: listed-building-outline
     fields:
-      - description: the <a href="#reference">reference</a> for the listed building
+      - description: the <a href="#datatype-reference">reference</a> for the listed building
         field: reference
         guidance: |
           A reference or ID for each listed building that is:

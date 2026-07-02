@@ -3,7 +3,7 @@ consideration: tree-preservation-orders
 datasets:
   - dataset: tree-preservation-order
     fields:
-      - description: the <a href="#reference">reference</a> for the tree preservation order
+      - description: the <a href="#datatype-reference">reference</a> for the tree preservation order
         field: reference
         guidance: |
           A reference or ID for each tree preservation order that is:
@@ -70,7 +70,7 @@ datasets:
           Optional text on how this data was or produced, or how it can be interpreted.
       - description: the organisation responsible for this tree preservation order
         field: organisation
-      - description: the <a href="#date">date</a> this entry was created or amended
+      - description: the <a href="#datatype-datetime">date</a> this entry was created or amended
         field: entry-date
         guidance: |
           The date the entity was last updated.
@@ -80,13 +80,13 @@ datasets:
           Write in YYYY-MM-DD format.
 
           Example: `2022-12-20`
-      - description: the <a href="#date">date</a> the tree preservation order came into force
+      - description: the <a href="#datatype-datetime">date</a> the tree preservation order came into force
         field: start-date
         guidance: |
           The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
 
           Example: `1984-03-28`
-      - description: the <a href="#date">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active
+      - description: the <a href="#datatype-datetime">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active
         field: end-date
         guidance: |
           Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
@@ -95,7 +95,7 @@ datasets:
     name: tree preservation order
   - dataset: tree-preservation-zone
     fields:
-      - description: the <a href="#reference">reference</a> for the tree preservation zone
+      - description: the <a href="#datatype-reference">reference</a> for the tree preservation zone
         field: reference
         guidance: |
           A reference or ID for each tree preservation zone that is:
@@ -114,7 +114,7 @@ datasets:
           - reference
           - address
           - blank
-      - description: the <a href="#reference">reference</a> for the tree preservation order
+      - description: the <a href="#datatype-reference">reference</a> for the tree preservation order
         field: tree-preservation-order
         guidance: |
           The reference for the tree preservation order that covers this zone.
@@ -147,7 +147,7 @@ datasets:
           Optional text on how this data was made or produced, or how it can be interpreted.
       - description: the organisation responsible for this tree preservation order
         field: organisation
-      - description: the <a href="#date">date</a> this entry was created or amended
+      - description: the <a href="#datatype-datetime">date</a> this entry was created or amended
         field: entry-date
         guidance: |
           The date the entity was last updated.
@@ -157,13 +157,13 @@ datasets:
           Write in `YYYY-MM-DD` format.
 
           Example: `2022-12-20`
-      - description: the <a href="#date">date</a> the tree preservation zone came into force
+      - description: the <a href="#datatype-datetime">date</a> the tree preservation zone came into force
         field: start-date
         guidance: |
           The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
 
           Example: `1984-03-28`
-      - description: the <a href="#date">date</a> the tree preservation zone ended or leave blank if the zone is still active
+      - description: the <a href="#datatype-datetime">date</a> the tree preservation zone ended or leave blank if the zone is still active
         field: end-date
         guidance: |
           If applicable, the date that the tree preservation order was revoked, written in `YYYY-MM-DD` format. If it's still in effect, leave the cell blank.
@@ -191,7 +191,7 @@ datasets:
           - reference
           - address
           - blank
-      - description: the <a href="#reference">reference</a> for the tree preservation order
+      - description: the <a href="#datatype-reference">reference</a> for the tree preservation order
         field: tree-preservation-order
         guidance: |
           The reference for the tree preservation order that affects this tree.
@@ -246,7 +246,7 @@ datasets:
         field: felled-date
         guidance: |
           If applicable, the date that the tree was felled, written in `YYYY-MM-DD` format. If the tree hasn't been felled, leave this field blank.
-      - description: the <a href="#date">date</a> this entry was created or amended
+      - description: the <a href="#datatype-datetime">date</a> this entry was created or amended
         field: entry-date
         guidance: |
           The date the entity was last updated.
@@ -256,13 +256,13 @@ datasets:
           Write in `YYYY-MM-DD` format.
 
           Example: `2022-12-20`
-      - description: the <a href="#date">date</a> from which the tree preservation order affects the tree
+      - description: the <a href="#datatype-datetime">date</a> from which the tree preservation order affects the tree
         field: start-date
         guidance: |
           The date from which the tree preservation order affects the tree, written in `YYYY-MM-DD` format.
 
           Example: `1984-03-28`
-      - description: the <a href="#date">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.
+      - description: the <a href="#datatype-datetime">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.
         field: end-date
         guidance: |
           Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
