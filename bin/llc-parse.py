@@ -38,12 +38,13 @@ for o, n in [
     ("St Helens Borough Council", "St Helens Council"),
     ("Wyre Council", "Wyre Borough Council"),
     ("Camden Council", "London Borough of Camden"),
+    ("East Suffolk District Council", "East Suffolk Council"),
 ]:
     organisations[o] = organisations[n]
 
 
 def find_organisation(name):
-    name = name.strip()
+    name = " ".join(name.split())
     if name in organisations:
         return organisations[name]["organisation"]
     raise NameError(name)
