@@ -40,3 +40,7 @@ wikipedia: ''
 ---
 
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.
+
+Each authority that is responsible for the joint local, minerals or waste plan.
+
+Use this to identify who is responsible for each plan when there is more than one authority.
