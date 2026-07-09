@@ -57,3 +57,12 @@ typology: legal-instrument
 wikidata: Q6664491
 wikipedia: Local_plan
 ---
+A minerals plan sets out policies for how mineral resources will be extracted and managed in an area.
+
+Each minerals plan that a minerals and waste planning authority is responsible for. There is a separate row for each current, emerging or historical minerals plan.
+
+Use this to: 
+
+* check whether a plan is still in date
+* find out which authority or group of authorities are responsible for the minerals plan
+* link to detailed information on the plan
