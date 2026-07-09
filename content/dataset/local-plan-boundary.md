@@ -40,3 +40,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The area that a local plan covers.
+
+Use this to understand which local plan applies to your area. For example, if you are a developer looking to build homes in an area.
