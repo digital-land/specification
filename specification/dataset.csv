@@ -348,7 +348,15 @@ crown-copyright,,mineral-safeguarding-areas,mineral-safeguarding-area,,,,,,,,980
 ons-boundary,,,minerals-and-waste-planning-authority,Minerals and Waste Planning Authority boundaries,,,,,,,63000,64999,ogl3,Minerals and Waste Local Planning Authority,,Minerals and Waste Planning Authorities,beta,statistical-geography,dataset,,,This dataset contains the boundary for each Minerals and Waste Planning Authority in England.,administrative,geography,Q6664495,Local_planning_authority
 crown-copyright,local-plan,minerals-and-waste-plan,minerals-plan-boundary,The boundary covered by a minerals plan.,,2025-11-14,production,350,,,570000,579999,ogl3,Minerals plan boundary,,Minerals plan boundaries,alpha,,dataset,,,,development,geography,,
 crown-copyright,local-plan,minerals-and-waste-plan,minerals-plan,minerals plans prepared by a Minerals and Waste Planning Authority,,2025-11-14,production,,"List the minerals plans you are responsible for with one row for each current, emerging or historical minerals plan.
-",,530000,539999,ogl3,minerals plan,,minerals plans,alpha,,dataset,,,,development,legal-instrument,Q6664491,Local_plan
+",,530000,539999,ogl3,minerals plan,,minerals plans,alpha,,dataset,,,"A minerals plan sets out policies for how mineral resources will be extracted and managed in an area.
+
+Each minerals plan that a minerals and waste planning authority is responsible for. There is a separate row for each current, emerging or historical minerals plan.
+
+Use this to: 
+
+* check whether a plan is still in date
+* find out which authority or group of authorities are responsible for the minerals plan
+* link to detailed information on the plan",development,legal-instrument,Q6664491,Local_plan
 crown-copyright,national-nature-reserve,national-nature-reserves,national-nature-reserve,,,,production,48,,,45000000,45249999,ogl3,National nature reserve,,National nature reserves,beta,,dataset,,,Areas designated by Natural England as key places for wildlife and natural features in England,environment;heritage,geography,Q6974552,National_nature_reserves_in_England
 crown-copyright,organisation,,national-park-authority,,,,production,,,,9900000,9999999,ogl3,National park authority,,"National park authorities, including the Broads",beta,wikidata,dataset,,,"A [national park authority](https://www.nationalparks.uk/parks/) may have powers to create development policies,
 and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
@@ -565,7 +573,15 @@ crown-copyright,organisation,,waste-authority,,,,production,,,,15800000,15899999
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,Q7972817,Waste_disposal_authority
 crown-copyright,local-plan,waste-local-plan,waste-plan-boundary,The boundary covered by a waste plan.,,2025-11-14,production,350,,,580000,589999,ogl3,Waste plan boundary,,Waste plan boundaries,alpha,,dataset,,,,development,geography,,
 crown-copyright,local-plan,waste-plans,waste-plan,waste plans prepared by a Minerals and Waste Planning Authority,,2025-11-14,production,,"List the waste plans you are responsible for with one row for each current, emerging or historical waste plan.
-",,540000,549999,ogl3,waste plan,,waste plans,alpha,,dataset,,,,development,legal-instrument,Q6664491,Local_plan
+",,540000,549999,ogl3,waste plan,,waste plans,alpha,,dataset,,,"A waste plan sets out policies for how waste will be managed in an area.
+
+Each waste plan that a minerals and waste planning authority is responsible for. There is a separate row for each current, emerging or historical waste plan.
+
+Use this to:
+
+* check whether a plan is still in date
+* find out which authority or group of authorities are responsible for the waste plan
+* link to detailed information on the plan",development,legal-instrument,Q6664491,Local_plan
 crown-copyright,,wildbelt-designations,wildbelt,,,,,,,,15900000,15999999,ogl3,Wildbelt,,Wildbelts,prioritised,,dataset,,,,environment,geography,,
 crown-copyright,,,wildlife,,,,,,,,16000000,16099999,ogl3,Wildlife,,Wildlife,prioritised,,dataset,,,,environment,geography,,
 historic-england,historic-england,world-heritage-sites,world-heritage-site-buffer-zone,,,,production,,,,16110000,16129999,ogl3,World heritage site buffer zone,"{ ""colour"": ""#EB1EE5"", ""opacity"": 0.2 }",World heritage site buffer zones,beta,,dataset,,,A [World Heritage Site](/dataset/world-heritage-site) may have a [buffer zone](https://whc.unesco.org/en/series/25/) with implications for planning.,heritage,geography,Q9259,World_Heritage_Site
