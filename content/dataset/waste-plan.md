@@ -57,3 +57,12 @@ typology: legal-instrument
 wikidata: Q6664491
 wikipedia: Local_plan
 ---
+A waste plan sets out policies for how waste will be managed in an area.
+
+Each waste plan that a minerals and waste planning authority is responsible for. There is a separate row for each current, emerging or historical waste plan.
+
+Use this to:
+
+* check whether a plan is still in date
+* find out which authority or group of authorities are responsible for the waste plan
+* link to detailed information on the plan 
