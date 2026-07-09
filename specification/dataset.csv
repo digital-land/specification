@@ -290,7 +290,9 @@ crown-copyright,,,local-enterprise-partnership,,,,,,,,4000,4999,ogl3,Local Enter
 crown-copyright,,local-green-space,local-green-space,,,,,,,,8900000,8999999,ogl3,Local green space,,Local green spaces,alpha,,dataset,,,,environment,geography,,
 crown-copyright,,local-nature-recovery-strategy,local-nature-recovery-strategy,,,,,,,,9000000,9099999,ogl3,Local nature recovery strategy,,Local nature recovery strategies,alpha,,dataset,,,,environment,geography,,
 crown-copyright,local-nature-reserve,local-nature-reserves,local-nature-reserve,,,,production,48,,,45250000,45499999,ogl3,Local nature reserve,,Local nature reserves,beta,,dataset,,,Local nature reserves (LNR) are statutory designations for certain nature reserves in Great Britain.,environment;heritage,geography,Q3457526,Local_nature_reserve
-crown-copyright,local-plan,local-plans,local-plan-boundary,The boundary covered by a local plan.,,2024-09-14,production,97,,,4211000,4219999,ogl3,Local plan boundary,,Local plan boundaries,alpha,,dataset,,,,development,geography,,
+crown-copyright,local-plan,local-plans,local-plan-boundary,The boundary covered by a local plan.,,2024-09-14,production,97,,,4211000,4219999,ogl3,Local plan boundary,,Local plan boundaries,alpha,,dataset,,,"The area that a local plan covers.
+
+Use this to understand which local plan applies to your area. For example, if you are a developer looking to build homes in an area.",development,geography,,
 crown-copyright,,development-plans-and-timetables,local-plan-document-type,The types of documents published for a local plan,,2024-10-24,,26,,,,,ogl3,Local plan document type,,Local plan document types,alpha,,dataset,,,,development,category,,
 crown-copyright,,development-plans-and-timetables,local-plan-document,documents associated with a local plan,,2024-09-14,,26,"Provide a list of documents associated with your local plan.
 Add a separate row with a link to each document on your website.
