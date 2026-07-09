@@ -122,3 +122,13 @@ typology: legal-instrument
 wikidata: Q6664491
 wikipedia: Local_plan
 ---
+A local plan sets out planning policies for how land in an area will be used and developed over time.
+
+Each local plan that a local planning authority is responsible for. There is a separate row for each current, emerging or historical local plan.
+
+Use this to:
+
+* check how many homes the authority is planning to build in an area
+* check whether a plan is still in date
+* help you decide whether to invest in an area or submit a planning application
+* link to detailed information on the local plan
