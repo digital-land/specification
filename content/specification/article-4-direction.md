@@ -3,7 +3,7 @@ consideration: article-4-directions
 datasets:
   - dataset: article-4-direction
     fields:
-      - description: the <a href="#reference">reference</a> for the article 4 direction
+      - description: the <a href="#datatype-reference">reference</a> for the article 4 direction
         field: reference
         guidance: |
           A reference or ID for each article 4 direction that is:
@@ -82,7 +82,7 @@ datasets:
     name: article 4 direction
   - dataset: article-4-direction-area
     fields:
-      - description: the <a href="#reference">reference</a> for the article 4 direction area
+      - description: the <a href="#datatype-reference">reference</a> for the article 4 direction area
         field: reference
         guidance: |
           A reference or ID for each article 4 direction area that is:
@@ -96,14 +96,14 @@ datasets:
         field: name
         guidance: |
           The official name of the article 4 direction. Example: `Old Market`
-      - description: the <a href="#reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry
+      - description: the <a href="#datatype-reference">reference</a> for the <a href="article-4-direction-dataset">article 4 direction</a> entry
         field: article-4-direction
         guidance: |
           The reference for the article 4 direction used in the article 4 direction dataset.
 
           Example: `A4D1`
       - dataset: permitted-development-right
-        description: a list of one or more <a href="#reference">reference</a> values for <a href="article-4-direction-rule-dataset">permitted development right</a> entries, separated by a semi-colon ';'.
+        description: a list of one or more <a href="#datatype-reference">reference</a> values for <a href="article-4-direction-rule-dataset">permitted development right</a> entries, separated by a semi-colon ';'.
         field: permitted-development-rights
         guidance: |
           A list of the permitted development rights withdrawn by the article 4 direction.
