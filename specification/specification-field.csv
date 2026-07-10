@@ -1,5 +1,5 @@
 specification,dataset,field,datasets,requirement-level,description,guidance,hint,notes,start-date,end-date
-article-4-direction,article-4-direction,reference,,,"the <a href=""#reference"">reference</a> for the article 4 direction","A reference or ID for each article 4 direction that is:
+article-4-direction,article-4-direction,reference,,,"the <a href=""#datatype-reference"">reference</a> for the article 4 direction","A reference or ID for each article 4 direction that is:
 
 - unique within your dataset
 - permanent - it doesn’t change when the dataset is updated
@@ -56,7 +56,7 @@ article-4-direction,article-4-direction,end-date,,,the date the validity of the 
 
 Example: `1999-01-20`
 ",,,,
-article-4-direction,article-4-direction-area,reference,,,"the <a href=""#reference"">reference</a> for the article 4 direction area","A reference or ID for each article 4 direction area that is:
+article-4-direction,article-4-direction-area,reference,,,"the <a href=""#datatype-reference"">reference</a> for the article 4 direction area","A reference or ID for each article 4 direction area that is:
 
 - unique within your dataset
 - permanent - it doesn’t change when the dataset is updated
@@ -66,11 +66,11 @@ Example: `A4Da1`
 ",,,,
 article-4-direction,article-4-direction-area,name,,,the name of the article 4 direction area,"The official name of the article 4 direction. Example: `Old Market`
 ",,,,
-article-4-direction,article-4-direction-area,article-4-direction,,,"the <a href=""#reference"">reference</a> for the <a href=""article-4-direction-dataset"">article 4 direction</a> entry","The reference for the article 4 direction used in the article 4 direction dataset.
+article-4-direction,article-4-direction-area,article-4-direction,,,"the <a href=""#datatype-reference"">reference</a> for the <a href=""article-4-direction-dataset"">article 4 direction</a> entry","The reference for the article 4 direction used in the article 4 direction dataset.
 
 Example: `A4D1`
 ",,,,
-article-4-direction,article-4-direction-area,permitted-development-rights,,,"a list of one or more <a href=""#reference"">reference</a> values for <a href=""article-4-direction-rule-dataset"">permitted development right</a> entries, separated by a semi-colon ';'.","A list of the permitted development rights withdrawn by the article 4 direction.
+article-4-direction,article-4-direction-area,permitted-development-rights,,,"a list of one or more <a href=""#datatype-reference"">reference</a> values for <a href=""article-4-direction-rule-dataset"">permitted development right</a> entries, separated by a semi-colon ';'.","A list of the permitted development rights withdrawn by the article 4 direction.
 
 Separate the rights in the list using semicolons.
 
@@ -336,19 +336,19 @@ With dates, some data is better than no data, so:
 - `1984-03` is better
 - `1984-03-28` is brilliant
 ",,,,
-design-code,design-code,reference,,,"the <a href=""#reference"">reference</a> for the design code",,,,,
+design-code,design-code,reference,,,"the <a href=""#datatype-reference"">reference</a> for the design code",,,,,
 design-code,design-code,name,,,"the name, or title of the design code",,,,,
 design-code,design-code,description,,,"a short, single-line description of the design code",,,,,
 design-code,design-code,design-code-status,,,"a <a href=""#design-code-status"">design-code-status</a> reference",,,,,
 design-code,design-code,documentation-url,,,the URL for the Web page with guidance on the design code policy document,,,,,
 design-code,design-code,document-url,,,the URL for the Design Code. This should be a URL to a website or document,,,,,
 design-code,design-code,notes,,,optional notes on the status of the design code,,,,,
-design-code,design-code,start-date,,,"the <a href=""#date"">date</a> the design code comes, or came into force",,,,,
-design-code,design-code,end-date,,,"the <a href=""#date"">date</a> this date the design code no longer applies",,,,,
-design-code,design-code,entry-date,,,"the <a href=""#date"">date</a> this entry was created or last amended",,,,,
-design-code,design-code-rule,reference,,,"the <a href=""#reference"">reference</a> for the design code rule",,,,,
+design-code,design-code,start-date,,,"the <a href=""#datatype-datetime"">date</a> the design code comes, or came into force",,,,,
+design-code,design-code,end-date,,,"the <a href=""#datatype-datetime"">date</a> this date the design code no longer applies",,,,,
+design-code,design-code,entry-date,,,"the <a href=""#datatype-datetime"">date</a> this entry was created or last amended",,,,,
+design-code,design-code-rule,reference,,,"the <a href=""#datatype-reference"">reference</a> for the design code rule",,,,,
 design-code,design-code-rule,name,,,"the name, or title of the design code rule",,,,,
-design-code,design-code-rule,design-code,,,"the <a href=""#reference"">reference</a> for the design code where this rule is defined.",,,,,
+design-code,design-code-rule,design-code,,,"the <a href=""#datatype-reference"">reference</a> for the design code where this rule is defined.",,,,,
 design-code,design-code-rule,description,,,"a short, single-line description of the design code rule",,,,,
 design-code,design-code-rule,document-url,,,the URL for the design code rule. This should be a URL to a website or document,,,,,
 design-code,design-code-rule,documentation-url,,,"the URL for a page where we can find a link to the design code rule, this is usually a contents or summary page",,,,,
@@ -357,11 +357,11 @@ design-code,design-code-rule,notes,,,a field to capture notes about the design c
 design-code,design-code-rule,entry-date,,,the date this information has been entered as a record,,,,,
 design-code,design-code-rule,start-date,,,the date the validity of the record starts,,,,,
 design-code,design-code-rule,end-date,,,the date the validity of the record ends,,,,,
-design-code,design-code-area,reference,,,"the <a href=""#reference"">reference</a> for the design code area",,,,,
+design-code,design-code-area,reference,,,"the <a href=""#datatype-reference"">reference</a> for the design code area",,,,,
 design-code,design-code-area,name,,,"the name, or title of the design code area",,,,,
 design-code,design-code-area,geometry,,,"the boundaries of the design code area as a POLYGON or MULTIPOLYGON, with points in the EPSG 4326 coordinate reference system, and WGS85 datum, encoded in Well-Known Text (WKT) representation of geometry.",,,,,
-design-code,design-code-area,design-code,,,"the <a href=""#reference"">reference</a> for the design code which applies to this area",,,,,
-design-code,design-code-area,design-code-rules,,,"a list of one or more <a href=""#reference"">reference</a> values for <a href=""design-code-rule-dataset"">design code rule</a> entries, separated by a semi-colon ';' character.",,,,,
+design-code,design-code-area,design-code,,,"the <a href=""#datatype-reference"">reference</a> for the design code which applies to this area",,,,,
+design-code,design-code-area,design-code-rules,,,"a list of one or more <a href=""#datatype-reference"">reference</a> values for <a href=""design-code-rule-dataset"">design code rule</a> entries, separated by a semi-colon ';' character.",,,,,
 design-code,design-code-area,design-code-area-type,,,"the classification of the area, for example Rural Settlements or Urban Neighbourhood",,,,,
 design-code,design-code-area,documentation-url,,,the URL for guidance or information defining the design code area,,,,,
 design-code,design-code-area,notes,,,a field to capture notes about the design code area,,,,,
@@ -470,7 +470,7 @@ infrastructure-project,infrastructure-project-document,documentation-url,,,a url
 infrastructure-project,infrastructure-project-document,entry-date,,,,,,,,
 infrastructure-project,infrastructure-project-document,start-date,,,,,,,,
 infrastructure-project,infrastructure-project-document,end-date,,,,,,,,
-listed-building,listed-building-outline,reference,,,"the <a href=""#reference"">reference</a> for the listed building","A reference or ID for each listed building that is:
+listed-building,listed-building-outline,reference,,,"the <a href=""#datatype-reference"">reference</a> for the listed building","A reference or ID for each listed building that is:
 
 - unique within your dataset
 - permanent - it doesn't change when the dataset is updated
@@ -623,7 +623,7 @@ planning-condition,planning-application-condition,notes,,,any additional notes a
 planning-condition,planning-application-condition,entry-date,,,the date the record was created,,,,,
 planning-condition,planning-application-condition,start-date,,,the date the validity of the record starts,,,,,
 planning-condition,planning-application-condition,end-date,,,the date the validity of the record starts,,,,,
-tree-preservation-order,tree-preservation-order,reference,,,"the <a href=""#reference"">reference</a> for the tree preservation order","A reference or ID for each tree preservation order that is:
+tree-preservation-order,tree-preservation-order,reference,,,"the <a href=""#datatype-reference"">reference</a> for the tree preservation order","A reference or ID for each tree preservation order that is:
 
 - unique within your dataset
 - permanent - it doesn't change when the dataset is updated
@@ -675,7 +675,7 @@ Example: `2022-12-20`
 tree-preservation-order,tree-preservation-order,notes,,,optional notes,"Optional text on how this data was or produced, or how it can be interpreted.
 ",,,,
 tree-preservation-order,tree-preservation-order,organisation,,,the organisation responsible for this tree preservation order,,,,,
-tree-preservation-order,tree-preservation-order,entry-date,,,"the <a href=""#date"">date</a> this entry was created or amended","The date the entity was last updated.
+tree-preservation-order,tree-preservation-order,entry-date,,,"the <a href=""#datatype-datetime"">date</a> this entry was created or amended","The date the entity was last updated.
 
 If the entity has never been updated, enter the same date as start-date.
 
@@ -683,15 +683,15 @@ Write in YYYY-MM-DD format.
 
 Example: `2022-12-20`
 ",,,,
-tree-preservation-order,tree-preservation-order,start-date,,,"the <a href=""#date"">date</a> the tree preservation order came into force","The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
+tree-preservation-order,tree-preservation-order,start-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation order came into force","The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
 
 Example: `1984-03-28`
 ",,,,
-tree-preservation-order,tree-preservation-order,end-date,,,"the <a href=""#date"">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active","Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
+tree-preservation-order,tree-preservation-order,end-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active","Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
 
 Example: `1999-01-20`
 ",,,,
-tree-preservation-order,tree-preservation-zone,reference,,,"the <a href=""#reference"">reference</a> for the tree preservation zone","A reference or ID for each tree preservation zone that is:
+tree-preservation-order,tree-preservation-zone,reference,,,"the <a href=""#datatype-reference"">reference</a> for the tree preservation zone","A reference or ID for each tree preservation zone that is:
 
 - unique within your dataset
 - permanent - it doesn't change when the dataset is updated
@@ -706,7 +706,7 @@ tree-preservation-order,tree-preservation-zone,name,,,the name of the tree prese
 - address
 - blank
 ",,,,
-tree-preservation-order,tree-preservation-zone,tree-preservation-order,,,"the <a href=""#reference"">reference</a> for the tree preservation order","The reference for the tree preservation order that covers this zone.
+tree-preservation-order,tree-preservation-zone,tree-preservation-order,,,"the <a href=""#datatype-reference"">reference</a> for the tree preservation order","The reference for the tree preservation order that covers this zone.
 ",,,,
 tree-preservation-order,tree-preservation-zone,tree-preservation-zone-type,,,"the type of zone, for example area, group or woodland","What sort of tree preservation zone this is.
 
@@ -728,7 +728,7 @@ tree-preservation-order,tree-preservation-zone,point,,,the centre of the tree pr
 tree-preservation-order,tree-preservation-zone,notes,,,optional notes,"Optional text on how this data was made or produced, or how it can be interpreted.
 ",,,,
 tree-preservation-order,tree-preservation-zone,organisation,,,the organisation responsible for this tree preservation order,,,,,
-tree-preservation-order,tree-preservation-zone,entry-date,,,"the <a href=""#date"">date</a> this entry was created or amended","The date the entity was last updated.
+tree-preservation-order,tree-preservation-zone,entry-date,,,"the <a href=""#datatype-datetime"">date</a> this entry was created or amended","The date the entity was last updated.
 
 If the entity has never been updated, enter the same date as start-date.
 
@@ -736,11 +736,11 @@ Write in `YYYY-MM-DD` format.
 
 Example: `2022-12-20`
 ",,,,
-tree-preservation-order,tree-preservation-zone,start-date,,,"the <a href=""#date"">date</a> the tree preservation zone came into force","The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
+tree-preservation-order,tree-preservation-zone,start-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation zone came into force","The date that the tree preservation order came into force, written in `YYYY-MM-DD` format.
 
 Example: `1984-03-28`
 ",,,,
-tree-preservation-order,tree-preservation-zone,end-date,,,"the <a href=""#date"">date</a> the tree preservation zone ended or leave blank if the zone is still active","If applicable, the date that the tree preservation order was revoked, written in `YYYY-MM-DD` format. If it's still in effect, leave the cell blank.
+tree-preservation-order,tree-preservation-zone,end-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation zone ended or leave blank if the zone is still active","If applicable, the date that the tree preservation order was revoked, written in `YYYY-MM-DD` format. If it's still in effect, leave the cell blank.
 
 Example: `1999-01-20`
 ",,,,
@@ -759,7 +759,7 @@ tree-preservation-order,tree,name,,,the name of the tree,"This will be the title
 - address
 - blank
 ",,,,
-tree-preservation-order,tree,tree-preservation-order,,,"the <a href=""#reference"">reference</a> for the tree preservation order","The reference for the tree preservation order that affects this tree.
+tree-preservation-order,tree,tree-preservation-order,,,"the <a href=""#datatype-reference"">reference</a> for the tree preservation order","The reference for the tree preservation order that affects this tree.
 
 Example: `TPO1`
 ",,,,
@@ -798,7 +798,7 @@ tree-preservation-order,tree,notes,,,optional notes,"Optional text on how this d
 tree-preservation-order,tree,organisation,,,the organisation responsible for this tree,,,,,
 tree-preservation-order,tree,felled-date,,,the date the tree was felled,"If applicable, the date that the tree was felled, written in `YYYY-MM-DD` format. If the tree hasn't been felled, leave this field blank.
 ",,,,
-tree-preservation-order,tree,entry-date,,,"the <a href=""#date"">date</a> this entry was created or amended","The date the entity was last updated.
+tree-preservation-order,tree,entry-date,,,"the <a href=""#datatype-datetime"">date</a> this entry was created or amended","The date the entity was last updated.
 
 If the entity has never been updated, enter the same date as start-date.
 
@@ -806,11 +806,11 @@ Write in `YYYY-MM-DD` format.
 
 Example: `2022-12-20`
 ",,,,
-tree-preservation-order,tree,start-date,,,"the <a href=""#date"">date</a> from which the tree preservation order affects the tree","The date from which the tree preservation order affects the tree, written in `YYYY-MM-DD` format.
+tree-preservation-order,tree,start-date,,,"the <a href=""#datatype-datetime"">date</a> from which the tree preservation order affects the tree","The date from which the tree preservation order affects the tree, written in `YYYY-MM-DD` format.
 
 Example: `1984-03-28`
 ",,,,
-tree-preservation-order,tree,end-date,,,"the <a href=""#date"">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.","Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
+tree-preservation-order,tree,end-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.","Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
 
 Example: `1999-01-20`
 ",,,,
