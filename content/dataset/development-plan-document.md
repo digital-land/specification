@@ -4,7 +4,7 @@ collection: local-plan
 consideration: development-plans-and-timetables
 dataset: development-plan-document
 description: documents associated with a development plan
-end-date: ''
+end-date: '2026-02-03'
 entity-maximum: '3899999'
 entity-minimum: '3800000'
 entry-date: '2026-01-19'
