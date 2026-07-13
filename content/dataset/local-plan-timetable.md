@@ -4,7 +4,7 @@ collection: ''
 consideration: development-plans-and-timetables
 dataset: local-plan-timetable
 description: log of past and predicted milestones and events when producing a local plan
-end-date: ''
+end-date: '2026-01-28'
 entity-maximum: '4299999'
 entity-minimum: '4230000'
 entry-date: '2024-10-22'
