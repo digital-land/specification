@@ -4,7 +4,7 @@ collection: ''
 consideration: development-plans-and-timetables
 dataset: development-plan
 description: ''
-end-date: ''
+end-date: '2026-03-02'
 entry-date: ''
 fields:
   - end-date: 2025-11-01
