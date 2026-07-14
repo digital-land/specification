@@ -35,3 +35,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The type of document that an authority is using to create their overall plan.
+
+Use this with [development-plan-document](https://www.planning.data.gov.uk/dataset/development-plan-document) to find the plan document that you are interested in. For example, a core strategy.
