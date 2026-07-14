@@ -41,7 +41,7 @@ wikipedia: Green_belt_(United_Kingdom)
 ---
 
 This dataset contains boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),
-grouped using the [greenbelt core](/dataset/greenbelt-core) category.
+grouped using the [greenbelt core](/dataset/green-belt-core) category.
 
 It can be used for planning purposes, such as preparing local plans to define areas that are kept permanently open and free from urban sprawl.
 
