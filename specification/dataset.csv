@@ -224,7 +224,7 @@ This data originally came from the [government organisation register](https://ww
 We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",administrative,organisation,Q2500378,Departments_of_the_Government_of_the_United_Kingdom
 crown-copyright,green-belt,greenbelt,green-belt-core,,,,production,45,,,611000,611999,ogl3,Green belt core,,Green belt cores,beta,green-belt-core,dataset,,,A category used to collect [green belt](/dataset/green-belt) areas which surround an single urban area.,environment,category,Q2734873,Green_belt_(United_Kingdom)
 os-open-data,green-belt,greenbelt,green-belt,,,,production,45,,,610000,610999,ogl3,Green belt,"{ ""colour"": ""#85994b"" }",Green belt,beta,,dataset,,,"This dataset contains boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),
-grouped using the [greenbelt core](/dataset/greenbelt-core) category.
+grouped using the [greenbelt core](/dataset/green-belt-core) category.
 
 It can be used for planning purposes, such as preparing local plans to define areas that are kept permanently open and free from urban sprawl.
 
