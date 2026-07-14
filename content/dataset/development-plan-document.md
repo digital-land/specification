@@ -92,3 +92,8 @@ typology: document
 wikidata: ''
 wikipedia: ''
 ---
+The documents that an authority use to create their overall plan. For example, the neighbourhood plan.
+
+Every document within a plan. Each row contains a link to a published document on the authority's website.
+
+Use this with [development-plan-document-type](https://www.planning.data.gov.uk/dataset/development-plan-document-type) to find the plan document that you are interested in. For example, a transport assessment.

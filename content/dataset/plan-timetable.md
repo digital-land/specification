@@ -88,3 +88,6 @@ typology: timetable
 wikidata: ''
 wikipedia: ''
 ---
+When an authority will prepare their plan, so that they can share their overall timescale for plan-making.
+
+Use this to find out what stage an authority is in their plan preparation, and when milestones are expected to be reached.
