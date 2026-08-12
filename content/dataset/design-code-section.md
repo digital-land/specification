@@ -2,20 +2,17 @@
 attribution: crown-copyright
 collection: design-code
 consideration: design-codes
-dataset: design-code-rule-category
+dataset: design-code-section
 description: ''
 end-date: ''
-entity-maximum: '640999'
-entity-minimum: '640100'
+entity-maximum: '5279999'
+entity-minimum: '5270000'
 entry-date: ''
-environment: production
+environment:
 fields:
   - field: description
   - field: document-url
   - field: documentation-url
-  - field: design-code-characteristic
-  - field: design-code-feature
-  - field: design-code-section
   - field: end-date
   - field: entity
   - field: entry-date
@@ -27,10 +24,10 @@ fields:
 github-discussion: 27
 key-field: ''
 licence: ogl3
-name: Design code rule category
+name: Design code section
 paint-options: ''
 phase: alpha
-plural: Design code rule categories
+plural: Design code sections
 prefix: ''
 realm: dataset
 replacement-dataset: ''
