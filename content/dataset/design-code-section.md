@@ -11,6 +11,7 @@ entry-date: ''
 environment: 'production'
 fields:
   - field: description
+  - field: design-code-feature
   - field: document-url
   - field: documentation-url
   - field: end-date
