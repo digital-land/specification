@@ -10,8 +10,9 @@
 <ul class="govuk-list govuk-list--bullet">
   {% for specification, item in specifications.items()| sort %}
     {% if item['specification-status'] == status %}
-    <li><a href="{{specification}}">{{sentence_case(item["name"])}}</a>
-      {% if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }}{% endif %}
+    <li><a href="{{item["documentation-url"] or specification}}">{{sentence_case(item["name"])}}</a>
+      {% if item["description"] %} &mdash; {{ item["description"][0]|lower }}{{ item["description"][1:] }} {% endif %}
+      {% if "gov.uk" in item["documentation-url"] %}[<a href='{{specification}}'>source draft</a>]{% endif -%}
     </li>
     {% endif %}
   {% endfor %}

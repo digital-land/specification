@@ -39,7 +39,7 @@ datasets:
       - field: entry-date
       - field: start-date
       - field: end-date
-description: ''
+description: 'infrastructure funding statement data'
 documentation-url: https://www.gov.uk/guidance/publish-your-developer-contributions-data
 end-date: ''
 entry-date: '2026-08-14'

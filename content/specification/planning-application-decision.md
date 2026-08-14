@@ -92,7 +92,7 @@ datasets:
       - description: The date the document was published
         field: start-date
     name: planning application document
-description: planning application
+description: 
 end-date: ''
 entry-date: '2025-02-13'
 github-discussion: 25

@@ -30,6 +30,6 @@ name: development corporation boundary
 plural: development corporation boundaries
 specification: development-corporation-boundary
 specification-reason: prospective
-specification-status: working-draft
+specification-status: withdrawn
 start-date: ''
 ---

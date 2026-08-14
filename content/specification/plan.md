@@ -73,7 +73,7 @@ datasets:
     requirement-level: MUST
 date-precision: YYYY-MM-DD
 description: timetable and other headline information about local plans, minerals and waste plans, and supplementary plans
-document-url: https://www.gov.uk/government/publications/publish-your-plan-data/publish-your-plan-data
+documentation-url: https://www.gov.uk/government/publications/publish-your-plan-data/publish-your-plan-data
 end-date: ''
 entry-date: '2026-08-14'
 github-discussion: 26

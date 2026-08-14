@@ -220,8 +220,10 @@ datasets:
           - `1984` is fine
           - `1984-03` is better
           - `1984-03-28` is brilliant
+description: 'areas of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance'
+documentation-url: 'https://www.planning.data.gov.uk/guidance/specifications/conservation-area'
 end-date: ''
-entry-date: '2023-09-08'
+entry-date: '2026-08-14'
 github-discussion: 33
 name: Conservation area
 plural: conservation areas

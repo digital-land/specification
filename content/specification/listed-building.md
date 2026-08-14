@@ -68,12 +68,14 @@ datasets:
 
           Example: `1999-01-20`
 end-date: ''
-entry-date: '2025-06-24'
+description: listed building outlines
+documentation-url: 'https://www.planning.data.gov.uk/guidance/specifications/listed-building'
+entry-date: '2026-08-14'
 github-discussion: 44
 name: Listed building outline
 plural: Listed building outlines
 specification: listed-building
 specification-reason: digital-planning-funding
-specification-status: piloting
+specification-status: candidate-standard
 start-date: ''
 ---

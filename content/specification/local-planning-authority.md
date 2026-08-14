@@ -30,6 +30,6 @@ name: local planning authority
 plural: local planning authorities
 specification: local-planning-authority
 specification-reason: prospective
-specification-status: working-draft
+specification-status: piloting
 start-date: ''
 ---

@@ -269,13 +269,15 @@ datasets:
 
           Example: `1999-01-20`
     name: tree
+description: tree preservation orders, trees, and tree preservation zones
+documentation-url: 'https://www.planning.data.gov.uk/guidance/specifications/tree-preservation-order'
 end-date: ''
-entry-date: '2025-11-08'
+entry-date: '2026-08-14'
 github-discussion: 43
 name: Tree preservation order
 plural: Tree preservation orders
 specification: tree-preservation-order
 specification-reason: digital-planning-funding
-specification-status: piloting
+specification-status: candidate-standard
 start-date: ''
 ---

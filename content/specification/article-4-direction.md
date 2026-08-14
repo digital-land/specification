@@ -168,8 +168,10 @@ datasets:
 
           Example: `1999-01-20`
     name: article 4 direction area
+documentation-url: 'https://www.planning.data.gov.uk/guidance/specifications/article-4-direction'
+description: 'article 4 directions and the permitted development rights removed from areas and buildings'
 end-date: ''
-entry-date: '2025-11-08'
+entry-date: '2026-08-14'
 github-discussion: 30
 name: Article 4 direction
 plural: article 4 directions

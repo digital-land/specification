@@ -85,6 +85,6 @@ name: Design code
 plural: design codes
 specification: design-code
 specification-reason: prospective
-specification-status: working-draft
+specification-status: piloting
 start-date: ''
 ---
