@@ -29,7 +29,7 @@ phase: alpha
 plural: Local plan events
 prefix: ''
 realm: dataset
-replacement-dataset: ''
+replacement-dataset: plan-event
 start-date: ''
 themes:
   - development
