@@ -25,12 +25,12 @@ datasets:
 description: log of past and predicted milestones and events when producing a local plan
 document-url: https://digital-land.github.io/specification/specification/local-plan-timetable/
 end-date: ''
-entry-date: '2025-11-05'
+entry-date: '2026-08-14'
 github-discussion: 97
 name: local plan timetable
 plural: local plan timetables
 specification: local-plan-timetable
 specification-reason: prospective
-specification-status: working-draft
+specification-status: withdrawn
 start-date: ''
 ---

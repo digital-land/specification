@@ -39,13 +39,15 @@ datasets:
       - field: entry-date
       - field: start-date
       - field: end-date
+description: ''
+documentation-url: https://www.gov.uk/guidance/publish-your-developer-contributions-data
 end-date: ''
-entry-date: '2022-06-09'
+entry-date: '2026-08-14'
 github-discussion: 34
 name: Developer contributions
 plural: Developer contributions
 specification: developer-contributions
 specification-reason: cil-2019
 specification-status: open-standard
-start-date: ''
+start-date: '2019-09-01'
 ---

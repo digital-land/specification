@@ -51,14 +51,15 @@ datasets:
     name: brownfield land
     priority: 1
     requirement-level: MUST
+description: 'registed brownfield land suitable for development'
 documentation-url: https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data
 end-date: ''
-entry-date: '2022-06-09'
+entry-date: '2026-08-14'
 github-discussion: 28
 name: Brownfield land
 plural: Brownfield land
 specification: brownfield-land
 specification-reason: brownfield-land-2017
 specification-status: open-standard
-start-date: ''
+start-date: '2017-04-16'
 ---

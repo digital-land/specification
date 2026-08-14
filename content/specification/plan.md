@@ -72,10 +72,10 @@ datasets:
     priority: 2
     requirement-level: MUST
 date-precision: YYYY-MM-DD
-description: headline information about local plans, minerals and waste plans, and supplementary plans
-document-url: https://digital-land.github.io/specification/specification/plan/
+description: timetable and other headline information about local plans, minerals and waste plans, and supplementary plans
+document-url: https://www.gov.uk/government/publications/publish-your-plan-data/publish-your-plan-data
 end-date: ''
-entry-date: '2026-03-24'
+entry-date: '2026-08-14'
 github-discussion: 26
 long-name: local plan, minerals and waste plan, and supplementary plan
 long-plural: local plans, minerals and waste plans, and supplementary plans
@@ -83,6 +83,6 @@ name: plan
 plural: plans
 specification: plan
 specification-reason: local-plans-2025
-specification-status: working-draft
-start-date: ''
+specification-status: open-standard
+start-date: '2026-03-25'
 ---
