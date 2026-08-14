@@ -1,10 +1,10 @@
 ---
 title: Publish your Developer contributions data
 name: Developer contributions
-url: 
+url: https://www.gov.uk/guidance/publish-your-developer-contributions-data
 summary: 
-entry-date: 2022-06-09
-updated: 9 June 2022
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -13,10 +13,10 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: /specification/specification/developer-contributions
-  name: 'Developer contributions technical specification (9 June 2022)'
+- url: https://www.gov.uk/guidance/publish-your-developer-contributions-data
+  name: 'Developer contributions technical specification (14 August 2026)'
   attachment-type: HTML
-  start-date: 
+  start-date: 2019-09-01
 ---
 
 ^Follow this guidance when providing your Developer contributions data.^

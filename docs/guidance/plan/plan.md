@@ -1,10 +1,10 @@
 ---
 title: Publish your plan data
 name: plan
-url: 
+url: https://www.gov.uk/government/publications/publish-your-plan-data/publish-your-plan-data
 summary: 
-entry-date: 2026-03-24
-updated: 24 March 2026
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -13,10 +13,10 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: https://digital-land.github.io/specification/specification/plan/
-  name: 'Plan technical specification (24 March 2026)'
+- url: https://www.gov.uk/government/publications/publish-your-plan-data/publish-your-plan-data
+  name: 'Plan technical specification (14 August 2026)'
   attachment-type: HTML
-  start-date: 
+  start-date: 2026-03-25
 ---
 
 ^Follow this guidance when providing your plan data.^

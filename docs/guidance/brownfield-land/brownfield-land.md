@@ -3,8 +3,8 @@ title: Publish your Brownfield land data
 name: Brownfield land
 url: https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data
 summary: 
-entry-date: 2022-06-09
-updated: 9 June 2022
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -14,9 +14,9 @@ breadcrumbs:
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
 - url: https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data
-  name: 'Brownfield land technical specification (9 June 2022)'
+  name: 'Brownfield land technical specification (14 August 2026)'
   attachment-type: HTML
-  start-date: 
+  start-date: 2017-04-16
 ---
 
 ^Follow this guidance when providing your Brownfield land data.^

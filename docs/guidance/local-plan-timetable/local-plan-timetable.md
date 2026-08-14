@@ -3,8 +3,8 @@ title: Publish your local plan timetable data
 name: local plan timetable
 url: 
 summary: 
-entry-date: 2025-11-05
-updated: 5 November 2025
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -14,7 +14,7 @@ breadcrumbs:
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
 - url: https://digital-land.github.io/specification/specification/local-plan-timetable/
-  name: 'Local plan timetable technical specification (5 November 2025)'
+  name: 'Local plan timetable technical specification (14 August 2026)'
   attachment-type: HTML
   start-date: 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Publish your Tree preservation order data
 name: Tree preservation order
-url: 
+url: https://www.planning.data.gov.uk/guidance/specifications/tree-preservation-order
 summary: 
-entry-date: 2025-11-08
-updated: 8 November 2025
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -13,8 +13,8 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: /specification/specification/tree-preservation-order
-  name: 'Tree preservation order technical specification (8 November 2025)'
+- url: https://www.planning.data.gov.uk/guidance/specifications/tree-preservation-order
+  name: 'Tree preservation order technical specification (14 August 2026)'
   attachment-type: HTML
   start-date: 
 ---

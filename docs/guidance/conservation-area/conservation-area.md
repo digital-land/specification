@@ -1,10 +1,10 @@
 ---
 title: Publish your Conservation area data
 name: Conservation area
-url: 
+url: https://www.planning.data.gov.uk/guidance/specifications/conservation-area
 summary: 
-entry-date: 2023-09-08
-updated: 8 September 2023
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -13,8 +13,8 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: /specification/specification/conservation-area
-  name: 'Conservation area technical specification (8 September 2023)'
+- url: https://www.planning.data.gov.uk/guidance/specifications/conservation-area
+  name: 'Conservation area technical specification (14 August 2026)'
   attachment-type: HTML
   start-date: 
 ---

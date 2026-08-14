@@ -1,10 +1,10 @@
 ---
 title: Publish your Listed building outline data
 name: Listed building outline
-url: 
+url: https://www.planning.data.gov.uk/guidance/specifications/listed-building
 summary: 
-entry-date: 2025-06-24
-updated: 24 June 2025
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -13,8 +13,8 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: /specification/specification/listed-building
-  name: 'Listed building outline technical specification (24 June 2025)'
+- url: https://www.planning.data.gov.uk/guidance/specifications/listed-building
+  name: 'Listed building outline technical specification (14 August 2026)'
   attachment-type: HTML
   start-date: 
 ---

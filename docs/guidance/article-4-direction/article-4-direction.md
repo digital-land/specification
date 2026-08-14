@@ -1,10 +1,10 @@
 ---
 title: Publish your Article 4 direction data
 name: Article 4 direction
-url: 
+url: https://www.planning.data.gov.uk/guidance/specifications/article-4-direction
 summary: 
-entry-date: 2025-11-08
-updated: 8 November 2025
+entry-date: 2026-08-14
+updated: 14 August 2026
 breadcrumbs:
 - name: "Housing, local and community"
   url: https://www.gov.uk/housing-local-and-community
@@ -13,8 +13,8 @@ breadcrumbs:
 - name: "Planning system"
   url: https://www.gov.uk/housing-local-and-community/planning-system
 attachments:
-- url: /specification/specification/article-4-direction
-  name: 'Article 4 direction technical specification (8 November 2025)'
+- url: https://www.planning.data.gov.uk/guidance/specifications/article-4-direction
+  name: 'Article 4 direction technical specification (14 August 2026)'
   attachment-type: HTML
   start-date: 
 ---
