@@ -40,3 +40,4 @@ missing associated entity,error,Missing associated entity,There is no associated
 reference value contains reference_prefix,info,Reference value contains reference_prefix,The reference value contains a prefix value.,internal,,,
 far-future-date,error,Far Future Date,The date provided is beyond the date considered to be the far future.,internal,,,
 far-past-date,error,Far Past Date,The date provided is beyond the date considered to be far past.,internal,,,
+name is a code,error,Name is a code,The name field contains only a reference code or number with no descriptive text.,external,completeness,any other validity error,3
