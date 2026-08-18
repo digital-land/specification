@@ -1,9 +1,9 @@
 ---
 cardinality: '1'
 datatype: string
-description: For providing a reason, for example, the reason a plannig condition has been set on an application
+description: a justification for the entry
 end-date: ''
-entry-date: '2024-10-14'
+entry-date: '2026-08-18
 field: reason
 guidance: ''
 hint: ''

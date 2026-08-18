@@ -22,6 +22,7 @@ fields:
   - field: notes
   - field: organisation
   - field: prefix
+  - field: reason
   - field: reference
   - field: start-date
 github-discussion: 27

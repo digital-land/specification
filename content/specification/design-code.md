@@ -43,6 +43,8 @@ datasets:
         description: a list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character
         example: public-art;building-height
         field: design-code-rule-categories
+      - description: the reason for introducing this design code rule
+        field: reason
       - description: a field to capture notes about the design code rule
         field: notes
       - description: the date this information has been entered as a record
