@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: organisation
 consideration: ''
 dataset: company
 description: ''
