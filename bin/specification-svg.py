@@ -109,13 +109,14 @@ def generate(specification_path, output_path=None):
 
     datasets = [d["dataset"] for d in row["datasets"]]
     maxrows = max([len(d["fields"]) for d in row["datasets"]])
-    ndatasets = len(datasets)
-    ngaps = ndatasets - 1
-    canvas_width = ndatasets * row_width + ngaps * gap
     canvas_height = (maxrows + 1) * row_height
 
     X = 0
     Y_OFFSET = 0
+    # a dataset that links back more than one column is wrapped onto a new row below, so the
+    # canvas is only as wide as the columns actually used, not as wide as the dataset count
+    # implies. Tracked as the boxes are placed and used as the canvas width once laid out.
+    content_width = 0
     points = {}
     links = []
     boxes = []
@@ -139,7 +140,9 @@ def generate(specification_path, output_path=None):
                 Y = Y + Y_OFFSET
                 X = X -row_width - gap
                 canvas_height = canvas_height + (maxrows + 1) * row_height
-                
+
+        content_width = max(content_width, X + row_width)
+
         box = []
         box.append(svg_rect("name", X, Y, row_width, row_height))
         box.append(svg_text("name", dataset, X + int(row_width / 2), Y + text_y))
@@ -167,6 +170,7 @@ def generate(specification_path, output_path=None):
         Y_OFFSET = Y + gap
 
     canvas_height += gap
+    canvas_width = content_width
 
     svg_content.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_width}" height="{canvas_height}">'
