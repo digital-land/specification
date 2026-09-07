@@ -17,6 +17,10 @@ fields:
     guidance: Used to order facts into a history, smaller values are higher priority than larger values.
   - field: resource
   - field: start-date
+  - field: entity
+    guidance: The entity this fact belongs to. Denormalised from the fact dataset so provenance can be queried without a join.
+  - field: field
+    guidance: The field this fact provides a value for. Denormalised from the fact dataset so provenance can be queried without a join.
 key-field: ''
 licence: ogl3
 name: Fact resource
