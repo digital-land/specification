@@ -1,9 +1,9 @@
 ---
 cardinality: '1'
 datatype: string
-description: a justification for the entry
+description: justification for the entry
 end-date: ''
-entry-date: '2026-08-18
+entry-date: 2026-08-18
 field: reason
 guidance: ''
 hint: ''
