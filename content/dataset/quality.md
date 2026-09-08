@@ -16,6 +16,7 @@ fields:
   - field: priority
   - field: quality
   - field: reference
+  - field: severity
   - field: start-date
 key-field: quality
 licence: ogl3
