@@ -353,6 +353,7 @@ design-code,design-code-rule,description,,,"a short, single-line description of 
 design-code,design-code-rule,document-url,,,the URL for the design code rule. This should be a URL to a website or document,,,,,
 design-code,design-code-rule,documentation-url,,,"the URL for a page where we can find a link to the design code rule, this is usually a contents or summary page",,,,,
 design-code,design-code-rule,design-code-rule-categories,,,"a list of one or more <a href=""#design-code-category"">design-code-rule-categories</a> references, separated by a semi-colon ';' character",,,,,
+design-code,design-code-rule,reason,,,the reason for introducing this design code rule,,,,,
 design-code,design-code-rule,notes,,,a field to capture notes about the design code rule,,,,,
 design-code,design-code-rule,entry-date,,,the date this information has been entered as a record,,,,,
 design-code,design-code-rule,start-date,,,the date the validity of the record starts,,,,,

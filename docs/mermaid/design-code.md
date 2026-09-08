@@ -23,6 +23,7 @@ erDiagram
         url document-url
         url documentation-url
         string design-code-rule-categories
+        string reason
         string notes
         date entry-date
         date start-date

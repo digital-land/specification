@@ -516,6 +516,17 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
+        <th scope="row" class="govuk-table__header"><a href="#dataset_design-code-rule_field_reason">reason</a></th>
+        <td scope="row" class="govuk-table__cell"></td>
+        <td scope="row" class="govuk-table__cell">
+          <a href="#datatype-string">string</a>
+        </td>
+    </tr>
+    
+    
+    
+
+    <tr class="govuk-table__row">
         <th scope="row" class="govuk-table__header"><a href="#dataset_design-code-rule_field_notes">notes</a></th>
         <td scope="row" class="govuk-table__cell"></td>
         <td scope="row" class="govuk-table__cell">
@@ -1229,6 +1240,37 @@ h1, h2::before, h3::before, h4::before {
      <p class="description">
     
     A list of one or more <a href="#design-code-category">design-code-rule-categories</a> references, separated by a semi-colon ';' character.
+
+</p>
+    
+    
+
+    <h4 id="dataset_design-code-rule_field_reason">Reason</h4>
+
+    
+    
+    
+
+
+    <!- brute force for now, needs an index --><p class="description">
+    
+    Justification for the entry.
+
+</p>
+
+    <p class="assertion">Each Design code rule entry MAY contain 
+    a 
+    <code class="field">reason</code> field value.</p>
+    <p class="assertion">The Design code rule <code class="field">reason</code> field MUST be
+    a 
+    <a href="#datatype-string">string</a> value.</p>
+
+    </li>
+
+    <!-- deprecated specification description .. -->
+     <p class="description">
+    
+    The reason for introducing this design code rule.
 
 </p>
     
