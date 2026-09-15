@@ -1,7 +1,7 @@
 reference,quality,priority,name,description,severity
 none,none,0,No data,Data is missing,
 some,some,1,Some data,Contains data from an alternative source,
-indicative,indicative,2,Indicative data,Data from alternative sources suitable for informing indicative decisons,
+indicative,indicative,2,Indicative data,Data from alternative sources suitable for informing indicative decisions,
 verifiable,verifiable,3,Verifiable data,Data which verifiably matches material information,
 authoritative,authoritative,4,Authoritative data,Contains some data from authoritative sources,
 usable,usable,5,Usable data,Contains authoritative data suitable for informing administrative decisions,
