@@ -34,7 +34,7 @@ licence: ogl3
 name: Tree preservation zone
 paint-options: ''
 phase: beta
-plural: Trees preservation zones
+plural: Tree preservation zones
 prefix: ''
 realm: dataset
 replacement-dataset: ''
