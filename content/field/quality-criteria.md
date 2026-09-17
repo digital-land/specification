@@ -1,13 +1,13 @@
 ---
 cardinality: '1'
 datatype: string
-description: Used for issue types to defines the specific criteria used to evaluate or measure quality
+description: data quality criteria
 end-date: ''
 entry-date: ''
-field: quality_criteria
+field: quality-criteria
 guidance: ''
 hint: ''
-name: Quality Criteria
+name: Quality criteria
 parent-field: text
 replacement-field: ''
 start-date: ''
