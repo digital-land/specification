@@ -30,6 +30,8 @@ WGS84 out of bounds of England,critical,WGS84 out of bounds of England,Our defau
 WGS84 out of bounds of custom boundary,critical,WGS84 out of bounds of England,Our default bounds are a bounding box around England. This issue is recorded when the geometry is outside of this.,external,accuracy,geometry errors,2
 OSGB out of bounds of England,critical,OSGB out of bounds of England,Our default bounds are a bounding box around England. This issue is recorded when the geometry is outside of this.,external,accuracy,geometry errors,2
 OSGB out of bounds of custom boundary,critical,OSGB out of bounds of England,Our default bounds are a bounding box around England. This issue is recorded when the geometry is outside of this.,external,accuracy,geometry errors,2
+Mercator out of bounds of England,critical,Mercator out of bounds of England,Our default bounds are a bounding box around England. This issue is recorded when the geometry is outside of this.,external,accuracy,geometry errors,2
+Mercator out of bounds of custom boundary,critical,Mercator out of bounds of custom boundary,A custom boundary has been set for this data. This issue is recorded when the geometry is outside of it.,external,accuracy,geometry errors,2
 invalid type geojson,notice,Invalid Type Geojson,if reading a wkt fails this checks incase it can load a geojson.,external,validity,,
 missing value,error,Missing Value,This field is required in the dataset and while the field is in the resource the value is blank for the entry in the resource.,external,completeness,any other validity error,3
 unknown entity - missing reference,warning,Unknown entity,The entry has a missing reference because of which an entity cannot be assigned - a missing value error will be raised for this.,internal,validity,,
