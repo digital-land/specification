@@ -1,7 +1,7 @@
 ---
 cardinality: '1'
 datatype: string
-description: ''
+description: level of maturity of data
 end-date: ''
 entry-date: ''
 field: quality

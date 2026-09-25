@@ -1,5 +1,5 @@
-issue-type,severity,name,description,responsibility,quality_dimension,quality_criteria,quality_criteria_level
-unknown entity,notice,Unknown entity,The entry needs an entity assigning before it will appear in the data.,internal,,,
+issue-type,severity,name,description,responsibility,quality-dimension,quality-criteria,quality-criteria-level
+unknown entity,notice,Unknown entity,The entry needs an entity assigning before it will appear in the data.,internal,,unknown entity issues,2
 combined-value,info,Combined values,The field value has been constructed by combining data from multiple different entries.,internal,,,
 invalid coordinates,critical,Invalid coordinates,It was not possible to process the field as geospatial coordinates.,external,validity,geometry errors,2
 invalid date,error,Invalid date,It was not possible to process the field as a date value.,external,validity,any other validity error,3
