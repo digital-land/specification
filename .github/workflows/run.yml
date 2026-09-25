@@ -32,14 +32,14 @@ jobs:
         python-version: '3.10'
 
     - name: Branch name
-      run: echo running on branch ${GITHUB_REF##*/}
+      run: echo "running on branch $GITHUB_REF_NAME"
 
     - name: Setup git
       run: |
         git config user.email "${DLB_BOT_EMAIL}"
         git config user.name "${DLB_BOT_USERNAME}"
         git remote set-url origin https://${DLB_BOT_USERNAME}:${DLB_BOT_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        git checkout ${GITHUB_REF##*/}
+        git checkout "$GITHUB_REF_NAME"
 
     - name: Update makerules
       run: make makerules
