@@ -2568,15 +2568,15 @@ text.datatype{fill:#0b0c0c;}
 <text x="544" y="4050" class="datatype">string</text>
 <rect x="377" y="4060" width="162" height="20" class="field"/>
 <rect x="539" y="4060" width="55" height="20" class="datatype"/>
-<text x="382" y="4070" class="field">quality_dimension</text>
+<text x="382" y="4070" class="field">quality-dimension</text>
 <text x="544" y="4070" class="datatype">string</text>
 <rect x="377" y="4080" width="162" height="20" class="field"/>
 <rect x="539" y="4080" width="55" height="20" class="datatype"/>
-<text x="382" y="4090" class="field">quality_criteria</text>
+<text x="382" y="4090" class="field">quality-criteria</text>
 <text x="544" y="4090" class="datatype">string</text>
 <rect x="377" y="4100" width="162" height="20" class="field"/>
 <rect x="539" y="4100" width="55" height="20" class="datatype"/>
-<text x="382" y="4110" class="field">quality_criteria_level</text>
+<text x="382" y="4110" class="field">quality-criteria-level</text>
 <text x="544" y="4110" class="datatype">integer</text>
 <rect x="377" y="4120" width="162" height="20" class="field"/>
 <rect x="539" y="4120" width="55" height="20" class="datatype"/>
