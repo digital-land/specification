@@ -1,13 +1,13 @@
 ---
 cardinality: '1'
 datatype: string
-description: Used for issue types to categorize the quality aspect
+description: data quality criteria
 end-date: ''
 entry-date: ''
-field: quality_dimension
+field: quality-criteria
 guidance: ''
 hint: ''
-name: Quality Dimension
+name: Quality criteria
 parent-field: text
 replacement-field: ''
 start-date: ''

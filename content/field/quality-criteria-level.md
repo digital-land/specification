@@ -1,13 +1,13 @@
 ---
 cardinality: '1'
 datatype: integer
-description: Used for issue types to indicates the severity level of the quality criteria
+description: data quality priority
 end-date: ''
 entry-date: ''
-field: quality_criteria_level
+field: quality-criteria-level
 guidance: ''
 hint: ''
-name: Quality Criteria Level
+name: Quality criteria level
 parent-field: number
 replacement-field: ''
 start-date: ''
