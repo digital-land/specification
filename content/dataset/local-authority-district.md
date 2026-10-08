@@ -43,4 +43,4 @@ wikidata: Q349084
 wikipedia: Districts_of_England
 ---
 
-The administrative boundaries of local authorities in England as provided by the ONS for the purposes of producing statistics.
+The administrative boundaries of local authorities in England. The Office for National Statistics provides this data to produce statistics. 
