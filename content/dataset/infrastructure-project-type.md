@@ -34,3 +34,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The types of nationally significant infrastructure projects. For example, energy, transport, water, waste and electricity lines. 
+
+Use it to categorise and filter infrastructure projects by sector when you analyse or report on major development activity. 
