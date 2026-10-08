@@ -42,4 +42,6 @@ wikidata: Q4895508
 wikipedia: Battlefield
 ---
 
-Battlefields as designated by [Historic England](https://historicengland.org.uk) in their [Register of Historic Battlefields](https://historicengland.org.uk/listing/what-is-designation/registered-battlefields/).
+The boundaries of registered historic battlefields designated by Historic England. 
+
+Use it to check if development on a site may need special consideration to protect its historic significance. 
