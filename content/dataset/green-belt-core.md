@@ -38,4 +38,6 @@ wikidata: Q2734873
 wikipedia: Green_belt_(United_Kingdom)
 ---
 
-A category used to collect [green belt](/dataset/green-belt) areas which surround an single urban area.
+This dataset lists the individual urban areas around where a [green belt](https://www.planning.data.gov.uk/dataset/green-belt) is drawn. For example, London, Birmingham, Cambridge and Oxford. 
+
+Use it to categorise green belt land by which urban area it surrounds. You can use this when you analyse or filter green belt data by location. 
