@@ -41,9 +41,6 @@ wikidata: ''
 wikipedia: ''
 ---
 
-The Greater London Archaeological Priority Areas (APAs) are areas in London that have significant archaeological interest or potential for new discoveries
+Areas in London that have significant archaeological interest or potential for new discoveries. Each area is graded from tier 1 to 4 based on its archaeological risk. 
 
-The APAs are based on evidence in the Greater London Historic Environment Record (GLHER)
-They were created in the 1970s and 1980s by boroughs and local museums
-They are being updated using new evidence and standards
-The new system assigns all land to one of four tiers based on archaeological risk
+Use this dataset when assessing land for development, as it may need an archaeological evaluation.
