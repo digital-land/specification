@@ -193,7 +193,7 @@ Each site references the following categories:
 * [planning-permission-type](/dataset/planning-permission-type)
 * [site-category](/dataset/site-category)
 
-It can be used for:
+You can use it for:
 <ul>
 <li>informing planning policies</li>
 <li>identifying suitable sites for residential and other development</li>
