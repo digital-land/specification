@@ -41,3 +41,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+Places identified by local planning authorities as being at risk from coastal erosion. Development is restricted or managed in these areas to reduce future risk. 
+
+Use it to check if a site falls within a coastal change management area when assessing areas near the coast. 
