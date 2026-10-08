@@ -42,3 +42,4 @@ missing associated entity,error,Missing associated entity,There is no associated
 reference value contains reference_prefix,info,Reference value contains reference_prefix,The reference value contains a prefix value.,internal,,,
 far-future-date,error,Far Future Date,The date provided is beyond the date considered to be the far future.,external,accuracy,any other validity error,3
 far-past-date,error,Far Past Date,The date provided is beyond the date considered to be far past.,external,accuracy,any other validity error,3
+missing reference,critical,Missing Reference,References are required in the dataset.,external,validity,any other validity error,2
