@@ -41,3 +41,6 @@ typology: document
 wikidata: ''
 wikipedia: ''
 ---
+This dataset shows the supporting information you need to include with a planning application in a particular area (also called ‘local validation checklists’). 
+
+Use it to check what you need to submit with your planning application. 
