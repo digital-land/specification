@@ -46,7 +46,8 @@ typology: geography
 wikidata: Q174945
 wikipedia: Area_of_Outstanding_Natural_Beauty
 ---
+This dataset shows the boundaries of land that is protected to conserve and enhance its natural beauty. 
 
-An area of outstanding natural beauty (AONB) as designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).
+Use it to check if a site falls within a protected landscape. 
 
-Natural England provides [guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.
+[Check how to review planning applications in protected sites and areas.](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications)
