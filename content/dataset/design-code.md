@@ -40,3 +40,6 @@ typology: policy
 wikidata: ''
 wikipedia: ''
 ---
+Detailed rules by local planning authorities that set out how you should build new development in an area, including how it should look. 
+
+Use it to check what design requirements apply in an area when you prepare or assess a planning application.
