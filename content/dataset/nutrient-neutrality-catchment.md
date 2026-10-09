@@ -40,5 +40,6 @@ typology: geography
 wikidata: null
 wikipedia: null
 ---
+Areas where new developments must not add to nutrient pollution in protected rivers, lakes and estuaries. 
 
-Nutrient neutrality catchment areas as designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).
+Use this to check if a site is in a catchment area when you assess land for development. You may need to show that your development will not increase nutrient pollution in these areas. 
