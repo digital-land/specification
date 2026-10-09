@@ -36,5 +36,6 @@ typology: geography
 wikidata: Q60256727
 wikipedia: National_park
 ---
+The boundaries of national parks. These are protected landscapes managed by [national park authorities](https://www.planning.data.gov.uk/dataset/national-park-authority) for their natural beauty and recreational value. 
 
-The administrative boundaries of [national park authorities](/dataset/national-park-authority) in England as provided by the ONS for the purposes of producing statistics.
+Use this dataset to check if a site is within a national park, as any development has extra protection and scrutiny. 
