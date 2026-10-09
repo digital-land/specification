@@ -38,3 +38,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The different application types you can submit when you apply for planning permission. For example, householder or full planning. 
+
+Use this dataset with [planning application](https://www.planning.data.gov.uk/dataset/planning-application) to analyse planning decisions. 
