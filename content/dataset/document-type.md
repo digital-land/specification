@@ -36,3 +36,14 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+Types of documents you can use across planning datasets, including: 
+
+- area appraisal 
+- notice 
+- Article 4 document 
+- authoritative boundary 
+- extension report 
+- designation report 
+- guidance 
+
+Use it as a reference list when you categorise or filter documents by type across different planning datasets. 
