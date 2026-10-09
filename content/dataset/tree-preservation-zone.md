@@ -45,7 +45,6 @@ typology: geography
 wikidata: Q10884
 wikipedia: Tree
 ---
-
 This dataset contains the extent of groups of trees covered by a tree preservation order.
 
 It can be used for managing and protecting important trees by preventing their unauthorised removal or damage. 
