@@ -39,3 +39,5 @@ wikipedia: Ancient_woodland
 ---
 
 The status assigned to an area of [ancient woodland](/dataset/ancient-woodland) by Natural England.
+
+Use this dataset as a reference list to categorise or filter ancient woodland data by status.

@@ -45,12 +45,13 @@ wikidata: Q570600
 wikipedia: Listed_building
 ---
 
-This dataset contains geospatial boundary or extent information about listings.
+This shows the boundaries and locations of all nationally protected historic buildings and sites in England. This includes the building itself and any object or structure:  
 
-It can be used for identifying and protecting buildings of special architectural or historic interest, ensuring that any work on or near these properties requires special consent and design considerations to prevent harm to the building's significance.
+- fixed to the building 
+- within its curtilage from before 1 July 1948 
 
-This spatial data can help in planning applications, conservation efforts, and policy development by showing the locations and boundaries of designated heritage assets, influencing development proposals and land use decisions. 
+Use it to find out if you need special consent to work on or near these buildings. It can help in planning applications, conservation efforts and policy development. 
 
-This dataset does not consistently show the curtilage of listed buildings for planning purposes and should only be used as an indicative guide. We encourage users to make further checks before making any planning decision.
+This dataset does not consistently show the curtilage of listed buildings for planning purposes. Check how to provide listed building curtilage data. 
 
-Data shows the extent of the land associated with the listing. This dataset is a work in progress and does not have full coverage across England.
+Only use this dataset as a guide, it is a work in progress and does not have full coverage across England. You should make further checks before making any planning decision. 

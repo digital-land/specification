@@ -37,3 +37,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+Land designated to hold excess water during high flows and reduce flood risk downstream. 
+
+Use it to check if a site falls within a flood storage area when assessing land for development. Any development in these areas could affect the area's ability to manage floodwater. 

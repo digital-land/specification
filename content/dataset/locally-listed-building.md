@@ -41,8 +41,6 @@ typology: geography
 wikidata: Q570600
 wikipedia: Listed_building#Locally_listed_buildings
 ---
+Local buildings or sites identified by a local planning authority for their heritage value and contribution to local character. They are not nationally designated as a listed building. 
 
-A building or site in a local planning authority’s area that make a positive contribution to its local character and sense of place because of their heritage value. Although such heritage assets may not be nationally designated or even located within the boundaries of a conservation area, they may be offered some level of protection by the local planning authority identifying them on a formally adopted list of local heritage assets.
-
-This is an experimental dataset of locally listed buildings found on [data.gov.uk](https://www.data.gov.uk/search?q=locally+listed+buildings).
-We are [working with a group of local planning authorities](/about/) to help them publish their locally listed buildings, and to develop a data specification for locally listed buildings.
+Use it to inform your planning decisions. It is experimental and incomplete, so check further before making planning decisions.

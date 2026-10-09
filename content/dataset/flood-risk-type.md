@@ -36,3 +36,12 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The 5 types of flood risk used to categorise flood zones, including:  
+
+- fluvial model 
+- tidal model 
+- fluvial event  
+- tidal event  
+- coastal event 
+
+Use it as a reference list when you categorise or filter flood risk zone data by the source and type of flooding. 

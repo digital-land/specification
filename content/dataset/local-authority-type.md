@@ -37,3 +37,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The 8 types of local authority in England. For example, county council, unitary authority or metropolitan district. 
+
+Use this dataset as a reference list when you categorise or filter local authorities by type. 

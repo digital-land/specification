@@ -47,3 +47,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+All schools, colleges and other education providers, including their locations. 
+
+Use it to assess the impact of a development on nearby education providers. 

@@ -36,3 +36,10 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The 3 zone types covered by a tree preservation order, including: 
+
+- area 
+- group 
+- woodland 
+
+Use it as a reference list when you categorise or filter tree preservation order data by the type of zone it protects. 

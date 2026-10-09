@@ -43,5 +43,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+This dataset shows the boundaries of nationally significant infrastructure projects. 
 
-The boundaries shown are used to inform the [Environmental Impact Assessment](https://www.gov.uk/guidance/environmental-impact-assessment) (EIA). This information is used by the [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) (PINS) to identify the consultation bodies. These site boundaries may change.
+Use it to identify the site boundary of a major infrastructure project when you carry out an [environmental impact assessment](https://www.gov.uk/guidance/environmental-impact-assessment) or consultation.  

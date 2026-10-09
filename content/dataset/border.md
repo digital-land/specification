@@ -37,5 +37,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The boundary of England.
 
-The boundary of England as provided by the ONS for the purposes of producing statistics.
+Use this dataset when checking if other spatial data is within England. 

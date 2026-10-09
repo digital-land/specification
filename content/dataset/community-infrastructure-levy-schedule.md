@@ -41,3 +41,6 @@ typology: document
 wikidata: ''
 wikipedia: ''
 ---
+The rates that a local planning authority charges developers per square metre of new floorspace to fund local infrastructure. 
+
+Use it to check what rate applies in an area when you assess the cost of a development.

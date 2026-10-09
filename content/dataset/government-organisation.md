@@ -45,7 +45,6 @@ typology: organisation
 wikidata: Q2500378
 wikipedia: Departments_of_the_Government_of_the_United_Kingdom
 ---
+[Government departments, agencies and public bodies.](https://www.gov.uk/government/organisations)
 
-A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).
-This data originally came from the [government organisation register](https://www.data.gov.uk/dataset/0f669ee5-7382-4f6d-8bb3-5fd238716c3b/government-organisation-register).
-We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.
+We maintain this dataset to help us identify the organisations that provide planning and housing data. 

@@ -38,4 +38,4 @@ wikidata: ''
 wikipedia: ''
 ---
 
-Built up areas in England as provided by the ONS for the purposes of producing statistics.
+The geographical boundaries of built up areas in England. The Office for National Statistics provides this data to produce statistics.

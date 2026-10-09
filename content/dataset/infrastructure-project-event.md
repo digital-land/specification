@@ -34,3 +34,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The stages that a nationally significant infrastructure project goes through. 
+
+Use it to track or filter infrastructure projects by their current stage in the process. 

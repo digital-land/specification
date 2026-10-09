@@ -41,3 +41,6 @@ typology: metric
 wikidata: ''
 wikipedia: ''
 ---
+Individual payments and transfers made under developer agreements. These payments record any money or in-kind contributions that were actually exchanged. 
+
+Use it to check if a developer has paid a specific contribution owed under an agreement. 

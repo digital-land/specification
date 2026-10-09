@@ -51,3 +51,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+An application for planning permission made to a local planning authority. 
+
+Use this dataset to find a planning application. 

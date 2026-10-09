@@ -42,5 +42,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The administrative boundaries of local resilience forums. These are partnerships of emergency services, councils and other agencies that respond to emergencies. 
 
-The administrative boundaries of local resilience forums in England as provided by the ONS for the purposes of producing statistics.
+Use this dataset to find out which local resilience forum covers an area to help with emergency planning. 

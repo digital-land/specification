@@ -44,4 +44,6 @@ wikidata: Q13125592
 wikipedia: Heritage_coast
 ---
 
-A [heritage coast](https://www.gov.uk/government/publications/heritage-coasts-protecting-undeveloped-coast/heritage-coasts-definition-purpose-and-natural-englands-role) as defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).
+Stretches of undeveloped coastline agreed between maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england) for their scenic and environmental value. 
+
+Use it to check whether a site falls within a heritage coast when assessing planning applications, as development here needs careful consideration to protect its undeveloped character. 

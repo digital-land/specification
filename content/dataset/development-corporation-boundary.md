@@ -42,3 +42,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The boundaries of statutory bodies given powers to plan and deliver large-scale regeneration or new development in a designated area. 
+
+Use it to check if a site is in a development corporation's area and to find out which body acts as the local planning authority.

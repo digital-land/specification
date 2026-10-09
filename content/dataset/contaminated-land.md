@@ -41,3 +41,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+Land where substances present in, on or under the land are a risk to health, property or the environment. 
+
+Use this dataset to check whether a site is registered as contaminated land when assessing it for development.  

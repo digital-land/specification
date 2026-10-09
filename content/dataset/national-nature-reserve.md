@@ -40,5 +40,6 @@ typology: geography
 wikidata: Q6974552
 wikipedia: National_nature_reserves_in_England
 ---
+Areas designated by Natural England as key places for wildlife and natural features. 
 
-Areas designated by Natural England as key places for wildlife and natural features in England
+Use it to check if a site is in a national nature reserve when assessing land for development. Any development in these areas may need special consideration to protect its wildlife value. 

@@ -39,3 +39,6 @@ typology: geography
 wikidata: ''
 wikipedia: Agricultural_Land_Classification
 ---
+Land is graded from 1 (excellent) to 5 (very poor) to guide sustainable planning and development.  
+
+Use it to assess the agricultural value of land when considering development. The national policy aims to protect the best and most versatile agricultural land (grades 1 to 3a) from development. 

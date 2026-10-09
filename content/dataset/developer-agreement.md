@@ -40,3 +40,6 @@ typology: document
 wikidata: ''
 wikipedia: ''
 ---
+Legal agreements between a local planning authority and a developer that set out the obligations attached to a planning permission. For example, a Section 106 agreement. 
+
+Use this dataset to check what agreements are in place for a specific development.

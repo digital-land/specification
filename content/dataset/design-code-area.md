@@ -43,5 +43,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The geographical areas that a [design code](https://www.planning.data.gov.uk/dataset/design-code) covers. You can link each code to the area where its rules apply. 
 
-Geographical areas covered by a [design code](/dataset/design-code).
+Use it to check if a site falls in a design code area when assessing land for development. Specific design requirements may apply.
