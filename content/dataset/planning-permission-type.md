@@ -36,5 +36,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other sites. For example, full planning permission.
 
-The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.
+Use this dataset to understand what kind of permission a site already has. It is useful to assess if a site is ready for development.
