@@ -42,12 +42,8 @@ typology: geography
 wikidata: Q1191622
 wikipedia: Special_Area_of_Conservation
 ---
+Sites designated to protect specific habitats and species. 
 
-Special areas of conservation (SACs) are area of land which have been designated by
-[DEFRA](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs),
-with advice from the [Joint Nature Conservation Committee](https://jncc.gov.uk/),
-to protect specific habitats and species.
+Use this dataset to check whether a site is within a special area of conservation, as any development needs to protect habitats. 
 
-DEFRA and [Natural England](https://www.gov.uk/government/organisations/natural-england) publish
-[guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications)
-on how to review planning applications in protected sites and areas.
+[Check how to review planning applications in protected sites and areas](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications). 
