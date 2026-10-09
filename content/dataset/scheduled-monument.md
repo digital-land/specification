@@ -42,7 +42,6 @@ typology: geography
 wikidata: Q219538
 wikipedia: Scheduled_monument
 ---
+Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites. These sites are designated as scheduled monuments. 
 
-Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments by the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport). 
-
-This list of scheduled monuments is kept and maintained by [Historic England](https://historicengland.org.uk/).
+Use it to check if development on a site needs scheduled monument consent.
