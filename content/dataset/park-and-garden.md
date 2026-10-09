@@ -40,5 +40,6 @@ typology: geography
 wikidata: Q6975250
 wikipedia: Register_of_Historic_Parks_and_Gardens_of_Special_Historic_Interest_in_England
 ---
+Historic parks and gardens listed on Historic England’s [Register of Parks and Gardens of Special Historic Interest](https://historicengland.org.uk/listing/what-is-designation/registered-parks-and-gardens/). 
 
-Historic parks and gardens as listed by [Historic England](https://historicengland.org.uk/) in the [Register of Parks and Gardens of Special Historic Interest](https://historicengland.org.uk/listing/what-is-designation/registered-parks-and-gardens/).
+Use it to check whether a site is within a registered historic park or garden, as development may need special consideration to protect its historic significance. 
