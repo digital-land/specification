@@ -36,3 +36,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+Each key event or milestone that a plan passes through. For example, public consultations, examination and adoption. 
+
+Use it to check the stage a plan is at and to track progress. 
