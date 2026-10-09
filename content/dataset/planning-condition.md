@@ -38,3 +38,6 @@ typology: policy
 wikidata: ''
 wikipedia: ''
 ---
+This dataset shows the planning conditions attached to granted planning permissions. These are the requirements a developer must meet before, during or after building. 
+
+Use it to check what conditions apply to a specific planning permission, so that you can track compliance or understand the restrictions on a development. 
