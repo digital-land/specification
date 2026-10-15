@@ -64,13 +64,38 @@ def generate(specification_path, output_path=None):
             f' marker-start="url(#start-dot)" marker-end="url(#end-dot)"'
             f' d="M {from_x} {from_y} C {mid_x} {from_y} {mid_x} {to_y} {to_x} {to_y}"/>'
         )
-    
+
+    def point_name(f):
+        """
+        The name used to anchor a field's link points.
+        A field published under another name (for example developer-agreement
+        for a dataset's reference) sets dataset-field to say which dataset
+        field it maps to, otherwise the field itself is used.
+        """
+        return f.get("dataset-field", f["field"])
+
+    def key_field(dataset_name):
+        """
+        The field in a dataset that other datasets link to.
+        This is reference, whether the dataset has it directly or maps a
+        published field onto it using dataset-field. A dataset keyed by a
+        field named after itself is also accepted.
+        """
+        d = datasets_by_name[dataset_name]
+        names = [point_name(f) for f in d["fields"]]
+        if "reference" in names:
+            return "reference"
+        if dataset_name in names:
+            return dataset_name
+        return "reference"
+
     def get_links(dataset, datasets):
         """
         Get links for a dataset.
         If the dataset has a field that is a reference to another dataset, return the link.
         If the field is a reference to a field in another
         dataset, return the link.
+        A field named after its own dataset is that dataset's key, not a link.
         """
         links = []
         for f in dataset["fields"]:
@@ -81,11 +106,14 @@ def generate(specification_path, output_path=None):
                 if field in datasets:
                     link_dataset = field
 
+            if link_dataset == dataset["dataset"]:
+                continue
+
             if link_dataset in datasets:
                 links.append(
                     {
-                        "from": f"from:{dataset['dataset']}:{field}",
-                        "to": f"to:{link_dataset}:reference",
+                        "from": f"from:{dataset['dataset']}:{point_name(f)}",
+                        "to": f"to:{link_dataset}:{key_field(link_dataset)}",
                     }
                 )
         return links
@@ -95,6 +123,7 @@ def generate(specification_path, output_path=None):
     spec = frontmatter.load(path)
     row = spec.metadata
 
+    datasets_by_name = {d["dataset"]: d for d in row["datasets"]}
 
     row_height = 20
     text_y = int(row_height / 2)
@@ -161,8 +190,9 @@ def generate(specification_path, output_path=None):
                 svg_text("datatype", datatype, X + field_width + padding, Y + text_y)
             )
 
-            points[f"from:{dataset}:{field}"] = (X, Y + text_y)
-            points[f"to:{dataset}:{field}"] = (X + row_width, Y + text_y)
+            name = point_name(f)
+            points[f"from:{dataset}:{name}"] = (X, Y + text_y)
+            points[f"to:{dataset}:{name}"] = (X + row_width, Y + text_y)
 
         boxes.append(box)
 

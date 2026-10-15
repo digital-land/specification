@@ -21,52 +21,44 @@
 <text x="113" y="10" class="name">developer-agreement</text>
 <rect x="0" y="20" width="162" height="20" class="field"/>
 <rect x="162" y="20" width="64" height="20" class="datatype"/>
-<text x="5" y="30" class="field">reference</text>
-<text x="167" y="30" class="datatype">string</text>
+<text x="5" y="30" class="field">developer-agreement</text>
+<text x="167" y="30" class="datatype">reference</text>
 <rect x="0" y="40" width="162" height="20" class="field"/>
 <rect x="162" y="40" width="64" height="20" class="datatype"/>
-<text x="5" y="50" class="field">name</text>
-<text x="167" y="50" class="datatype">string</text>
+<text x="5" y="50" class="field">developer-agreement-type</text>
+<text x="167" y="50" class="datatype">reference</text>
 <rect x="0" y="60" width="162" height="20" class="field"/>
 <rect x="162" y="60" width="64" height="20" class="datatype"/>
-<text x="5" y="70" class="field">developer-agreement-type</text>
+<text x="5" y="70" class="field">planning-application</text>
 <text x="167" y="70" class="datatype">reference</text>
 <rect x="0" y="80" width="162" height="20" class="field"/>
 <rect x="162" y="80" width="64" height="20" class="datatype"/>
-<text x="5" y="90" class="field">planning-application</text>
-<text x="167" y="90" class="datatype">reference</text>
+<text x="5" y="90" class="field">document-url</text>
+<text x="167" y="90" class="datatype">url</text>
 <rect x="0" y="100" width="162" height="20" class="field"/>
 <rect x="162" y="100" width="64" height="20" class="datatype"/>
-<text x="5" y="110" class="field">document-url</text>
-<text x="167" y="110" class="datatype">url</text>
+<text x="5" y="110" class="field">organisation</text>
+<text x="167" y="110" class="datatype">curie</text>
 <rect x="0" y="120" width="162" height="20" class="field"/>
 <rect x="162" y="120" width="64" height="20" class="datatype"/>
-<text x="5" y="130" class="field">notes</text>
-<text x="167" y="130" class="datatype">text</text>
+<text x="5" y="130" class="field">entry-date</text>
+<text x="167" y="130" class="datatype">datetime</text>
 <rect x="0" y="140" width="162" height="20" class="field"/>
 <rect x="162" y="140" width="64" height="20" class="datatype"/>
-<text x="5" y="150" class="field">organisation</text>
-<text x="167" y="150" class="datatype">curie</text>
+<text x="5" y="150" class="field">start-date</text>
+<text x="167" y="150" class="datatype">datetime</text>
 <rect x="0" y="160" width="162" height="20" class="field"/>
 <rect x="162" y="160" width="64" height="20" class="datatype"/>
-<text x="5" y="170" class="field">entry-date</text>
+<text x="5" y="170" class="field">end-date</text>
 <text x="167" y="170" class="datatype">datetime</text>
-<rect x="0" y="180" width="162" height="20" class="field"/>
-<rect x="162" y="180" width="64" height="20" class="datatype"/>
-<text x="5" y="190" class="field">start-date</text>
-<text x="167" y="190" class="datatype">datetime</text>
-<rect x="0" y="200" width="162" height="20" class="field"/>
-<rect x="162" y="200" width="64" height="20" class="datatype"/>
-<text x="5" y="210" class="field">end-date</text>
-<text x="167" y="210" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="306" y="0" width="226" height="20" class="name"/>
 <text x="419" y="10" class="name">developer-agreement-contribution</text>
 <rect x="306" y="20" width="162" height="20" class="field"/>
 <rect x="468" y="20" width="64" height="20" class="datatype"/>
-<text x="311" y="30" class="field">reference</text>
-<text x="473" y="30" class="datatype">string</text>
+<text x="311" y="30" class="field">developer-agreement-contribution</text>
+<text x="473" y="30" class="datatype">reference</text>
 <rect x="306" y="40" width="162" height="20" class="field"/>
 <rect x="468" y="40" width="64" height="20" class="datatype"/>
 <text x="311" y="50" class="field">developer-agreement</text>
@@ -85,32 +77,28 @@
 <text x="473" y="110" class="datatype">integer</text>
 <rect x="306" y="120" width="162" height="20" class="field"/>
 <rect x="468" y="120" width="64" height="20" class="datatype"/>
-<text x="311" y="130" class="field">notes</text>
-<text x="473" y="130" class="datatype">text</text>
+<text x="311" y="130" class="field">organisation</text>
+<text x="473" y="130" class="datatype">curie</text>
 <rect x="306" y="140" width="162" height="20" class="field"/>
 <rect x="468" y="140" width="64" height="20" class="datatype"/>
-<text x="311" y="150" class="field">organisation</text>
-<text x="473" y="150" class="datatype">curie</text>
+<text x="311" y="150" class="field">entry-date</text>
+<text x="473" y="150" class="datatype">datetime</text>
 <rect x="306" y="160" width="162" height="20" class="field"/>
 <rect x="468" y="160" width="64" height="20" class="datatype"/>
-<text x="311" y="170" class="field">entry-date</text>
+<text x="311" y="170" class="field">start-date</text>
 <text x="473" y="170" class="datatype">datetime</text>
 <rect x="306" y="180" width="162" height="20" class="field"/>
 <rect x="468" y="180" width="64" height="20" class="datatype"/>
-<text x="311" y="190" class="field">start-date</text>
+<text x="311" y="190" class="field">end-date</text>
 <text x="473" y="190" class="datatype">datetime</text>
-<rect x="306" y="200" width="162" height="20" class="field"/>
-<rect x="468" y="200" width="64" height="20" class="datatype"/>
-<text x="311" y="210" class="field">end-date</text>
-<text x="473" y="210" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="612" y="0" width="226" height="20" class="name"/>
 <text x="725" y="10" class="name">developer-agreement-transaction</text>
 <rect x="612" y="20" width="162" height="20" class="field"/>
 <rect x="774" y="20" width="64" height="20" class="datatype"/>
-<text x="617" y="30" class="field">reference</text>
-<text x="779" y="30" class="datatype">string</text>
+<text x="617" y="30" class="field">developer-agreement-transaction</text>
+<text x="779" y="30" class="datatype">reference</text>
 <rect x="612" y="40" width="162" height="20" class="field"/>
 <rect x="774" y="40" width="64" height="20" class="datatype"/>
 <text x="617" y="50" class="field">developer-agreement-contribution</text>
