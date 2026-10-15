@@ -310,18 +310,7 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement_field_reference">reference</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement_field_name">name</a></th>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement_field_developer-agreement">developer-agreement</a></th>
         <td scope="row" class="govuk-table__cell"></td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-string">string</a>
@@ -358,17 +347,6 @@ h1, h2::before, h3::before, h4::before {
         <td scope="row" class="govuk-table__cell"></td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-URL">URL</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement_field_notes">notes</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-text">text</a>
         </td>
     </tr>
     
@@ -439,10 +417,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement-contribution_field_reference">reference</a></th>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement-contribution_field_developer-agreement-contribution">developer-agreement-contribution</a></th>
         <td scope="row" class="govuk-table__cell"></td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
+          <a href="#datatype-string">string</a>
         </td>
     </tr>
     
@@ -487,17 +465,6 @@ h1, h2::before, h3::before, h4::before {
         <td scope="row" class="govuk-table__cell"></td>
         <td scope="row" class="govuk-table__cell">
           <a href="#datatype-integer">integer</a>
-        </td>
-    </tr>
-    
-    
-    
-
-    <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement-contribution_field_notes">notes</a></th>
-        <td scope="row" class="govuk-table__cell"></td>
-        <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-text">text</a>
         </td>
     </tr>
     
@@ -568,10 +535,10 @@ h1, h2::before, h3::before, h4::before {
     
 
     <tr class="govuk-table__row">
-        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement-transaction_field_reference">reference</a></th>
+        <th scope="row" class="govuk-table__header"><a href="#dataset_developer-agreement-transaction_field_developer-agreement-transaction">developer-agreement-transaction</a></th>
         <td scope="row" class="govuk-table__cell"></td>
         <td scope="row" class="govuk-table__cell">
-          <a href="#datatype-reference">reference</a>
+          <a href="#datatype-string">string</a>
         </td>
     </tr>
     
@@ -709,42 +676,23 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <h4 id="dataset_developer-agreement_field_reference">Reference</h4>
+    <h4 id="dataset_developer-agreement_field_developer-agreement">Developer agreement</h4>
 
     
     
     
 
 
-    <!- brute force for now, needs an index -->
+    <!- brute force for now, needs an index --><p class="description">
+    
+    A legal document used to secure contributions from a development for infrastructure or affordable housing..
+
+</p>
 
     <p class="assertion">Each Developer agreement entry MAY contain 
     a 
-    <code class="field">reference</code> field value.</p>
-    <p class="assertion">The Developer agreement <code class="field">reference</code> field MUST be
-    a 
-    <a href="#datatype-reference">reference</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4 id="dataset_developer-agreement_field_name">Name</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index -->
-
-    <p class="assertion">Each Developer agreement entry MAY contain 
-    a 
-    <code class="field">name</code> field value.</p>
-    <p class="assertion">The Developer agreement <code class="field">name</code> field MUST be
+    <code class="field">developer-agreement</code> field value.</p>
+    <p class="assertion">The Developer agreement <code class="field">developer-agreement</code> field MUST be
     a 
     <a href="#datatype-string">string</a> value.</p>
 
@@ -820,33 +768,6 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Developer agreement <code class="field">document-url</code> field MUST be
     a 
     <a href="#datatype-URL">URL</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4 id="dataset_developer-agreement_field_notes">Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Notes and commentary about how this data was made or may be interpreted.
-
-</p>
-
-    <p class="assertion">Each Developer agreement entry MAY contain 
-    a 
-    <code class="field">notes</code> field value.</p>
-    <p class="assertion">The Developer agreement <code class="field">notes</code> field MUST be
-    a 
-    <a href="#datatype-text">text</a> value.</p>
 
     </li>
 
@@ -979,7 +900,7 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <h4 id="dataset_developer-agreement-contribution_field_reference">Reference</h4>
+    <h4 id="dataset_developer-agreement-contribution_field_developer-agreement-contribution">Developer agreement contribution</h4>
 
     
     
@@ -990,10 +911,10 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Developer agreement contribution entry MAY contain 
     a 
-    <code class="field">reference</code> field value.</p>
-    <p class="assertion">The Developer agreement contribution <code class="field">reference</code> field MUST be
+    <code class="field">developer-agreement-contribution</code> field value.</p>
+    <p class="assertion">The Developer agreement contribution <code class="field">developer-agreement-contribution</code> field MUST be
     a 
-    <a href="#datatype-reference">reference</a> value.</p>
+    <a href="#datatype-string">string</a> value.</p>
 
     </li>
 
@@ -1090,33 +1011,6 @@ h1, h2::before, h3::before, h4::before {
     <p class="assertion">The Developer agreement contribution <code class="field">units</code> field MUST be
     an 
     <a href="#datatype-integer">integer</a> value.</p>
-
-    </li>
-
-    <!-- deprecated specification description .. -->
-    
-    
-    
-
-    <h4 id="dataset_developer-agreement-contribution_field_notes">Notes</h4>
-
-    
-    
-    
-
-
-    <!- brute force for now, needs an index --><p class="description">
-    
-    Notes and commentary about how this data was made or may be interpreted.
-
-</p>
-
-    <p class="assertion">Each Developer agreement contribution entry MAY contain 
-    a 
-    <code class="field">notes</code> field value.</p>
-    <p class="assertion">The Developer agreement contribution <code class="field">notes</code> field MUST be
-    a 
-    <a href="#datatype-text">text</a> value.</p>
 
     </li>
 
@@ -1249,7 +1143,7 @@ h1, h2::before, h3::before, h4::before {
     
     
 
-    <h4 id="dataset_developer-agreement-transaction_field_reference">Reference</h4>
+    <h4 id="dataset_developer-agreement-transaction_field_developer-agreement-transaction">Developer agreement transaction</h4>
 
     
     
@@ -1260,10 +1154,10 @@ h1, h2::before, h3::before, h4::before {
 
     <p class="assertion">Each Developer agreement transaction entry MAY contain 
     a 
-    <code class="field">reference</code> field value.</p>
-    <p class="assertion">The Developer agreement transaction <code class="field">reference</code> field MUST be
+    <code class="field">developer-agreement-transaction</code> field value.</p>
+    <p class="assertion">The Developer agreement transaction <code class="field">developer-agreement-transaction</code> field MUST be
     a 
-    <a href="#datatype-reference">reference</a> value.</p>
+    <a href="#datatype-string">string</a> value.</p>
 
     </li>
 
