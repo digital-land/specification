@@ -39,6 +39,7 @@ for o, n in [
     ("Wyre Council", "Wyre Borough Council"),
     ("Camden Council", "London Borough of Camden"),
     ("East Suffolk District Council", "East Suffolk Council"),
+    ("Wirral Council", "Wirral Borough Council"),    
 ]:
     organisations[o] = organisations[n]
 
