@@ -31,7 +31,8 @@ for d in row["datasets"]:
         else:
             type = "string"
         print(f'        {type} {f["field"]}')
-        if f["field"] in datasets:
+        # a field named after its own dataset is that dataset's key, not a link
+        if f["field"] in datasets and f["field"] != d["dataset"]:
             links.append(
                 {
                     "from": d["dataset"],

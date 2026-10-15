@@ -4,7 +4,8 @@ datasets:
   - dataset: developer-agreement
     description: A developer agreement is any legal document that secures contributions from a development for infrastructure or affordable housing (including section 106 planning obligations and section 278 agreements), or any demand notice for CIL.
     fields:
-      - field: developer-agreement
+      - dataset-field: reference
+        field: developer-agreement
       - field: developer-agreement-type
       - field: planning-application
       - field: document-url
@@ -15,7 +16,8 @@ datasets:
   - dataset: developer-agreement-contribution
     description: Developer agreement contributions are the individual obligations or sums within an agreement, assigned to particular purposes such as affordable housing.
     fields:
-      - field: developer-agreement-contribution
+      - dataset-field: reference
+        field: developer-agreement-contribution
       - field: developer-agreement
       - field: contribution-purpose
       - field: amount
@@ -26,7 +28,8 @@ datasets:
       - field: end-date
   - dataset: developer-agreement-transaction
     fields:
-      - field: developer-agreement-transaction
+      - dataset-field: reference
+        field: developer-agreement-transaction
       - field: developer-agreement-contribution
       - field: contribution-funding-status
       - field: amount
