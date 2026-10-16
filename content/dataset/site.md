@@ -31,7 +31,7 @@ fields:
 github-discussion: 
 key-field: ''
 licence: ogl3
-name: site
+name: Site
 paint-options: '{ "colour": "#745729" }'
 phase: alpha
 plural: Sites
