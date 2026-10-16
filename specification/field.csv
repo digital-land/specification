@@ -539,6 +539,8 @@ n,,string,A list of tree species,,,tree-species-list,,,Tree species list,categor
 n,,string,A list of Unique Property Reference Numbers,,2024-07-16,uprns,,,UPRNs,uprn,,,,geography,,
 1,,string,,,,uri-template,,,RFC6570 template URL,value,,,,value,,
 1,,url,,,,url,,,URL,value,,,,value,,
+n,,string,Unique Street Reference Number,,2026-10-16,usrn,,,USRN,geography,,,,geography,,
+n,,string,A list of Unique Street Reference Numbers,,2026-10-16,usrns,,,USRNs,usrn,,,,geography,,
 1,,string,,,,value,,,Value,value,,,,value,,
 1,,decimal,,,,version,,,Version,number,,,,value,,
 1,,string,,,,ward,,,Ward,statistical-geography,,,,geography,,
