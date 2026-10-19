@@ -3,20 +3,19 @@ attribution: crown-copyright
 collection: 
 consideration: site
 dataset: site
-description: ''
+description: plot or area of land for a proposed development, operational work, or material change of use
 end-date: ''
 entity-maximum: '519999999'
 entity-minimum: '500000000'
 entry-date: ''
-environment:
 fields:
   - field: address-text
+  - field: description
   - field: document-url
   - field: documentation-url
   - field: end-date
   - field: entity
   - field: entry-date
-  - field: geography
   - field: geometry
   - field: name
   - field: notes
@@ -25,9 +24,8 @@ fields:
   - field: postcode
   - field: prefix
   - field: reference
+  - field: site-plan-url
   - field: start-date
-  - field: uprns
-  - field: usrns
 github-discussion: 
 key-field: ''
 licence: ogl3
