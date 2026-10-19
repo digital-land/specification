@@ -2,9 +2,7 @@
 
 {% set page_title = 'Specifications' %}
 
-{% macro sentence_case(text) %}
-    {{ text[0]|upper}}{{text[1:] }}
-{% endmacro %}
+{% macro sentence_case(text) %}{{ text[0]|upper}}{{text[1:] }}{% endmacro %}
 
 {% macro specification_list(status, specifications) %}
 <ul class="govuk-list govuk-list--bullet">
