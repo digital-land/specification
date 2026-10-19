@@ -1,0 +1,317 @@
+---
+title: Publish your Site data
+name: Site
+url: 
+summary: 
+entry-date: 2026-10-16
+updated: 16 October 2026
+breadcrumbs:
+- name: "Housing, local and community"
+  url: https://www.gov.uk/housing-local-and-community
+- name: "Planning and building"
+  url: https://www.gov.uk/housing-local-and-community/planning-and-building
+- name: "Planning system"
+  url: https://www.gov.uk/housing-local-and-community/planning-system
+attachments:
+- url: /specification/specification/site
+  name: 'Site technical specification (16 October 2026)'
+  attachment-type: HTML
+  start-date: 
+---
+
+^Follow this guidance when providing your Site data.^
+
+<p>There are currently no obligations on any party to provide data in conformance to this specification. 
+A future version of this specification may be published on GOV.UK,
+and cited as one of a number of official data standards for the provision of planning data under the 
+<a href="https://www.legislation.gov.uk/ukpga/2023/55/part/3/chapter/1/enacted">Levelling-up and Regeneration Act 2023</a>,
+other regulations, contracts, and agreements.</p>
+
+Providing planning data means making it available publicly to a standard, so that anyone using
+services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a> can:
+
+* find it
+* understand its quality, meaning and purpose
+* trust it will be accurate and maintained
+
+## Providing your Site data
+
+Take the following steps to provide your Site data:
+
+s1. [Prepare your data](#prepare-your-data)
+s2. [Check your data](#check-your-data)
+s3. [Publish your data](#publish-your-data)
+s4. [Tell us about your data](#tell-us-about-your-data)
+s5. [Keep your data up to date](#keep-your-data-up-to-date)
+
+## Prepare your data
+Start by reviewing any data we may already have about your organisation
+on [planning.data.gov.uk](https://planning.data.gov.uk)
+using the [check and provide service](https://provide.planning.data.gov.uk).
+This might include: 
+
+* any data you have provided in the past
+* information found on your website
+* open data from other public sources
+
+We treat the data you provide as being more authoritative than data 
+we previously collected or that we find elsewhere.
+
+You can download tabular data we have for your organisation as a CSV file
+from the [check and provide service](https://provide.planning.data.gov.uk),
+then edit it using a spreadsheet or other CSV editors.
+
+
+You can download geospatial data we have for your organisation as
+CSV or GeoJSON from [planning.data.gov.uk](https://planning.data.gov.uk),
+then modify it using QGIS or other GIS tools.
+
+
+You must provide data for the mandatory fields identified.
+
+### Datasets
+
+
+For Sites you need to provide 1 dataset:
+
+* [Site](#Site-dataset)
+
+
+
+
+
+You need to provide the dataset
+in a  CSV file
+and follow the government
+[tabular data standard](https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard).
+Where a dataset contains geospatial fields, you may use one of the following formats:
+
+* CSV
+* GeoJSON
+* GML
+* KML
+* Geopackage
+
+
+### Field names
+
+You can use a field name with uppercase, lowercase and any punctuation characters.
+For example, you can use any of the following names for the `start-date` field in your data
+
+* `StartDate`
+* `Start Date`
+* `START_DATE`
+* `start.date`
+
+### Reference values
+
+Each dataset has a `reference` field.
+Reference values are important to help people find and link to your data.
+If you do not have a reference value for an item, you will need to create one that:
+
+* is unique within your data
+* does not change when the data is updated
+
+A good reference is something you already use.
+If your reference is not unique, you can make them unique by adding the year or full date.
+Great references are:
+
+* short
+* easy to read
+* easy to pronounce and remember
+
+### Date values
+
+All dates must be in the format `YYYY-MM-DD` as set out in the guidance for [formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard).
+
+
+
+### Geometry and point fields
+
+All coordinates in any geospatial data you provide must be in the WGS84 (ETRS89) coordinate reference system following the government guidance on the [Exchange of a location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
+
+A `geometry` field may contain a single `POLYGON` or a `MULTIPOLYGON` object. A `point` field may only contain a single `POINT` object.
+
+If you’re providing geospatial data in a CSV, the field must be encoded as well-known text (WKT), for example:
+
+* `MULTIPOLYGON (((1.188829 51.23478,1.188376 51.234909,...`
+* `POLYGON ((1.188829 51.23478,1.188376 51.234909,...`
+* `POINT (-3.466788 50.58151)`
+
+When providing geospatial data as GeoJSON, GML, KML or in a Geopackage, use the native format for the geospatial data.
+That is there is no need to duplicate the geospatial data into a `point` or `geometry` property or field.
+
+
+
+
+## Site dataset
+
+
+
+
+
+### Mandatory fields
+
+Your Site data must contain the following fields:
+
+
+
+* `reference`
+* `name`
+* `geometry`
+* `documentation-url`
+* `document-url`
+* `start-date`
+* `entry-date`
+
+
+
+### reference
+
+Give each site a unique reference. This could be taken from the planning application or unique document reference. For example &#34;24_09868_SITE_LOCATION_PLAN-1892681&#34;
+
+### name
+
+Give each site a name.
+
+### geometry
+
+The boundary may be a single polygon, or a multipolygon value.
+All points should be in the WGS84 coordinate reference system.
+You may provide data containing points in another coordinate reference system, such as British National Grid,
+but they will need to be transformed into WGS84 by software such as the Planning Data platform and this transformation may lead to a small loss of accuracy.
+Geometry data provided in a CSV file should use the well-known text (WKT) representation for the field.
+If you&#39;re providing geometry in a GeoJSON, GML, Geopackage or KML, use the appropriate representation for the file format. See [geometry and point fields](#geometry-and-point-fields). 
+
+### documentation-url
+
+Enter a link to the authority page which links to the location plan.
+
+### document-url
+
+Link to the document containing the location-plan for the site which is usually a PDF file.
+
+### start-date
+
+Enter the date for when the location-plan document was created.
+
+### entry-date
+
+Enter the date you created or modified the data.
+
+
+
+
+
+### Recommended fields
+
+Your Site data should also contain the following fields:
+
+
+
+* `site-plan-url`
+
+
+
+### site-plan-url
+
+Link to the site-plan document where this is different to the `location-plan`.
+
+### Optional fields
+
+Your Site data may also contain the following fields:
+
+
+
+* `description`
+* `address-text`
+* `postcode`
+* `notes`
+
+
+
+### description
+
+You may provide additional description for the location of the site.
+
+### address-text
+
+Provide the address of the site where one exists.
+
+### postcode
+
+Provide a postcode for the address of the site where one exists.
+
+### notes
+
+Enter any notes or commentary which helps to understand this data.
+
+## Check your data
+Use the [check and provide service](https://provide.planning.data.gov.uk) to review your data before you publish it. 
+The service will show you how the data will appear on [planning.data.gov.uk](https://planning.data.gov.uk) 
+along with feedback on how you might improve your data.
+
+## Publish your data
+Publishing your data consists of two parts:
+
+* An **endpoint** where the data can be downloaded from
+* A **source webpage** where the information contained in the data is presented on your website
+
+### Endpoint
+
+Make your data available at a public endpoint. 
+An endpoint is a URL from which anyone can download the data. This can be either: 
+
+* a single file hosted on your website 
+* a file hosted on another public website including GitHub
+
+* an Open Geospatial Consortium Web Feature Service (OGC WFS) 
+* an open application programming interface (API) such as ArcGIS
+
+
+Ensure your endpoint URL is documented and linked to from a public webpage to help people easily find and download the data.
+
+The documentation webpage for your endpoint should include a clear statement that the data is provided as open data under
+the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+### Source webpage
+
+The source webpage is where a user can see the same information that is shown in the data.
+This is usually one of your existing planning policy pages on your official <code>.gov.uk</code> website.
+
+It is important that the source webpage links to the endpoint documentation webpage to 
+help users trust the authenticity of the data.
+
+## Tell us about your data
+Once you have published the data, 
+use the [check and provide service](https://provide.planning.data.gov.uk/) to tell us where it is. 
+This is so we can index the data and quickly make it available nationally on planning.data.gov.uk. 
+
+For each dataset, you will need to provide the: 
+
+* **source webpage URL** where the information in the data is presented on your website 
+* **endpoint URL** where you can collect the data 
+
+The service also asks for your name and email address as a point of contact in case of any issues.
+
+## Keep your data up to date
+Continue to improve your data and act on the [the service feedback](https://provide.planning.data.gov.uk)
+to make sure that your data meets the specification. 
+
+We update [planning.data.gov.uk](https://planning.data.gov.uk) with any changes to the data at all the endpoint URLs each day. 
+
+Publish your changes to the same endpoint URL.
+If you create a new endpoint you need to [tell us about your data](#tell-us-about-your-data) again.
+
+## Contact us
+
+$CTA
+Email <digitalland@communities.gov.uk> to get help.
+$CTA
+
+You can help
+improve the design of this and other planning data
+
+at [design.planning.data.gov.uk](https://design.planning.data.gov.uk). 
+
+## Technical specifications

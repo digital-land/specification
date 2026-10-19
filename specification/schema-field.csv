@@ -3148,12 +3148,12 @@ site-of-special-scientific-interest,start-date
 site-of-special-scientific-interest,wikidata
 site-of-special-scientific-interest,wikipedia
 site,address-text
+site,description
 site,document-url
 site,documentation-url
 site,end-date
 site,entity
 site,entry-date
-site,geography
 site,geometry
 site,name
 site,notes
@@ -3162,9 +3162,8 @@ site,point
 site,postcode
 site,prefix
 site,reference
+site,site-plan-url
 site,start-date
-site,uprns
-site,usrns
 skip,dataset
 skip,end-date
 skip,endpoint

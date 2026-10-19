@@ -621,6 +621,18 @@ planning-condition,planning-application-condition,notes,,,any additional notes a
 planning-condition,planning-application-condition,entry-date,,,the date the record was created,,,,,
 planning-condition,planning-application-condition,start-date,,,the date the validity of the record starts,,,,,
 planning-condition,planning-application-condition,end-date,,,the date the validity of the record starts,,,,,
+site,site,reference,,MUST,,"Give each site a unique reference. This could be taken from the planning application or unique document reference. For example ""24_09868_SITE_LOCATION_PLAN-1892681""",,,,
+site,site,name,,MUST,,Give each site a name.,,,,
+site,site,description,,MAY,,You may provide additional description for the location of the site.,,,,
+site,site,geometry,,MUST,,,,,,
+site,site,address-text,,MAY,,Provide the address of the site where one exists.,,,,
+site,site,postcode,,MAY,,Provide a postcode for the address of the site where one exists.,,,,
+site,site,documentation-url,,MUST,,Enter a link to the authority page which links to the location plan.,,,,
+site,site,document-url,,MUST,,Link to the document containing the location-plan for the site which is usually a PDF file.,,,,
+site,site,site-plan-url,,SHOULD,,Link to the site-plan document where this is different to the `location-plan`.,,,,
+site,site,start-date,,MUST,,Enter the date for when the location-plan document was created.,,,,
+site,site,entry-date,,MUST,,,,,,
+site,site,notes,,MAY,,,,,,
 tree-preservation-order,tree-preservation-order,reference,,,"the <a href=""#datatype-reference"">reference</a> for the tree preservation order","A reference or ID for each tree preservation order that is:
 
 - unique within your dataset
