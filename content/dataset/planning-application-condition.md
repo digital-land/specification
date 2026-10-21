@@ -41,3 +41,6 @@ typology: policy
 wikidata: ''
 wikipedia: ''
 ---
+Planning conditions attached to planning applications. This dataset links each condition to its specific planning application. 
+
+Use it to check what conditions apply to a planning application, so that you understand its restrictions. 

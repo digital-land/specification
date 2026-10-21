@@ -51,14 +51,12 @@ typology: organisation
 wikidata: Q171634
 wikipedia: Local_government_in_England
 ---
+Information about planning authorities that can create development policies and make planning decisions for a [local planning authority area](https://www.planning.data.gov.uk/dataset/local-planning-authority). 
 
-This dataset contains information about local authorities which have powers to create development policies, and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
+Use this dataset for: 
 
-It can be used for:
-<u>
-<li>internal management, such as improving service delivery</li>
-<li>allocating resources and identifying social problems</li>
-<li>policy-making by central government</li>
-<li>financial management by central government</li>
-<li>public reporting by central government</li>
-</u>
+- internal management, such as improving service delivery 
+- allocating resources and identifying social problems 
+- policymaking by central government 
+- financial management by central government 
+- public reporting by central government 

@@ -36,3 +36,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The flood risk levels that categorise flood zones, from level 1 (low risk) to level 3 (high risk). 
+
+Reference this list when you categorise or filter flood risk zone data by level. 

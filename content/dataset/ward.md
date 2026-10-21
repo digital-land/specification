@@ -36,5 +36,9 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+A ward in the UK is a local area used for local government elections. This dataset shows the geographical boundaries of these wards. 
 
-Boundaries for Wards, in the United Kingdom
+Use this dataset to check which ward a location falls in. This is useful to:  
+
+- link planning applications and other spatial data to local council wards 
+- understand local political and administrative boundaries 

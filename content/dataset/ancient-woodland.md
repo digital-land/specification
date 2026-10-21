@@ -44,4 +44,4 @@ wikipedia: Ancient_woodland
 
 An area designated as ancient woodland by Natural England.
 
-Natural England and Forestry Commission [Guidance](https://www.gov.uk/guidance/ancient-woodland-and-veteran-trees-protection-surveys-licences)  is used in planning decisions.
+[Get advice for making planning decisions.](https://www.gov.uk/guidance/ancient-woodland-ancient-trees-and-veteran-trees-advice-for-making-planning-decisions)

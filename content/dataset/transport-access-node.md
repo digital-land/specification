@@ -44,5 +44,14 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+Public transport access points for:  
 
-[The National Public Transport Access Nodes (NaPTAN)](https://www.gov.uk/government/publications/national-public-transport-access-node-schema) dataset, from the [Department for Transport](https://www.gov.uk/government/organisations/department-for-transport), lists all public transport access points in Great Britain, including bus, rail, tram, metro, underground, air and ferry services.
+- bus 
+- rail 
+- tram 
+- metro 
+- underground 
+- air 
+- ferry services 
+
+Use this dataset to check if a site is accessible by public transport. 

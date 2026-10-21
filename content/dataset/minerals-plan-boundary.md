@@ -39,3 +39,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The area that a minerals plan covers. 
+
+Use this to understand which minerals plan applies to your area. For example, if you are a developer looking to build in an area.  

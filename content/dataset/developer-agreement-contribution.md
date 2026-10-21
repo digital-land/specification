@@ -41,3 +41,12 @@ typology: metric
 wikidata: ''
 wikipedia: ''
 ---
+Commitments made under Section 106 agreements where developers fund: 
+
+- infrastructure  
+
+- affordable housing  
+
+- other community benefits 
+
+These agreements are a condition of planning permission. Use this dataset to check what commitments a developer has made for a specific planning permission. 

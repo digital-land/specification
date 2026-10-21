@@ -46,7 +46,6 @@ typology: organisation
 wikidata: Q3336962
 wikipedia: National_park_authority
 ---
+The organisations that can set development policies and make planning decisions within a national park. 
 
-A [national park authority](https://www.nationalparks.uk/parks/) may have powers to create development policies,
-and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
-We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.
+Use it to check who is responsible for planning decisions in that area. 

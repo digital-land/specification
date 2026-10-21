@@ -41,3 +41,6 @@ typology: geography
 wikidata: Q16997686
 wikipedia: Metropolitan_Open_Land
 ---
+Protected areas of strategic importance in London for landscape, recreation, nature conservation and scientific interest. It gives the same level of protection from development as the Metropolitan Green Belt.  
+
+Use this to understand if your area is in the Metropolitan Open Land. For example, if you are a developer looking to build homes in an area.   

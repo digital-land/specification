@@ -44,8 +44,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The locations of internationally protected sites listed as a wetland of international importance. Ramsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england). 
 
-An internationally protected site listed as a wetland of international importance.
-Ramsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england).
-
-Natural England provides [guidance ](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.
+Use this dataset to check if a site is within a Ramsar site, as they are protected from development.

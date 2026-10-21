@@ -42,3 +42,6 @@ typology: policy
 wikidata: ''
 wikipedia: ''
 ---
+The rules that make up a design code. These rules are the specific requirements that developers must follow in a design code area. 
+
+Use this to check the detailed design requirements that apply to a development. For example, building materials, heights or layout. 

@@ -36,6 +36,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+This dataset lists the categories used to group each permitted development right category class. 
 
-Permitted development right part is a category used to group the [permitted development right](/dataset/permitted-development-right) categories.
-This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).
+This experimental dataset supports [Article 4 direction data](https://www.planning.data.gov.uk/guidance/specifications/article-4-direction). 

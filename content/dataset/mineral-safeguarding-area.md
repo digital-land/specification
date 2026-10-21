@@ -41,3 +41,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+Areas with mineral resources that are protected from being built over or made inaccessible. 
+
+Use it to check if a development site is in a safeguarded area. 

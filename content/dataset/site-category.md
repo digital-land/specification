@@ -36,3 +36,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The 2 site categories used to classify sites, deliverable and hazardous substances. 
+
+Use it as a reference list when you categorise or filter site data by these categories. For example, brownfield land.  

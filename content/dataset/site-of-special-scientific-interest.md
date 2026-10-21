@@ -42,8 +42,11 @@ typology: geography
 wikidata: Q422211
 wikipedia: Site_of_Special_Scientific_Interest
 ---
+An area of land that [Natural England](https://www.gov.uk/government/organisations/natural-england) has identified as being of special interest because of its: 
 
-Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology. 
+- flora 
+- fauna 
+- geological features 
+- physiographical features 
 
-SSSIs are designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).
-There is [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) to help local authorities decide on planning applications in protected SSSIs.
+Local authorities can [learn about managing their land and getting consent for activities](https://www.gov.uk/guidance/sites-of-special-scientific-interest-managing-your-land-and-getting-consent-for-activities). 
