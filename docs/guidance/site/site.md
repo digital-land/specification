@@ -1,6 +1,6 @@
 ---
-title: Publish your Site data
-name: Site
+title: Publish your site data
+name: site
 url: 
 summary: 
 entry-date: 2026-10-16
@@ -19,7 +19,7 @@ attachments:
   start-date: 
 ---
 
-^Follow this guidance when providing your Site data.^
+^Follow this guidance when providing your site data.^
 
 <p>There are currently no obligations on any party to provide data in conformance to this specification. 
 A future version of this specification may be published on GOV.UK,
@@ -34,9 +34,9 @@ services such as <a href="https://planning.data.gov.uk">planning.data.gov.uk</a>
 * understand its quality, meaning and purpose
 * trust it will be accurate and maintained
 
-## Providing your Site data
+## Providing your site data
 
-Take the following steps to provide your Site data:
+Take the following steps to provide your site data:
 
 s1. [Prepare your data](#prepare-your-data)
 s2. [Check your data](#check-your-data)
@@ -72,7 +72,7 @@ You must provide data for the mandatory fields identified.
 ### Datasets
 
 
-For Sites you need to provide 1 dataset:
+For sites you need to provide 1 dataset:
 
 * [Site](#Site-dataset)
 
