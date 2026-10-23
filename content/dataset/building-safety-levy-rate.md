@@ -11,6 +11,7 @@ entry-date: '2026-10-23'
 environment: ''
 fields:
   - field: documentation-url
+  - field: document-url
   - field: end-date
   - field: entity
   - field: entry-date
