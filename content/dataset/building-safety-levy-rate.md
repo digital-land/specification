@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: building-safety-levy
+collection: ''
 consideration: ''
 dataset: building-safety-levy-rate
 description: ''
@@ -36,7 +36,7 @@ replacement-dataset: ''
 start-date: ''
 themes:
   - development
-typology: category
+typology: metric
 wikidata: ''
 wikipedia: ''
 ---
