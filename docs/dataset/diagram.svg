@@ -166,14 +166,15 @@ text.datatype{fill:#0b0c0c;}
 <path class="line" id="from_infrastructure-project-document_infrastructure-project_to_infrastructure-project_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1565 2270 C 1376.5 2270 1376.5 16530 1188 16530"><title>from infrastructure-project-document infrastructure-project to infrastructure-project reference</title></path>
 <path class="line" id="from_local-plan-document_local-plan_to_local-plan_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1565 2950 C 1079.5 2950 1079.5 1330 594 1330"><title>from local-plan-document local-plan to local-plan reference</title></path>
 <path class="line" id="from_planning-application-document_planning-application_to_planning-application_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1565 3310 C 1376.5 3310 1376.5 25690 1188 25690"><title>from planning-application-document planning-application to planning-application reference</title></path>
-<path class="line" id="from_developer-agreement-contribution_contribution-purpose_to_contribution-purpose_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 130 C 2119.0 130 2119.0 1190 2159 1190"><title>from developer-agreement-contribution contribution-purpose to contribution-purpose reference</title></path>
-<path class="line" id="from_developer-agreement-contribution_developer-agreement_to_developer-agreement_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 150 C 1822.0 150 1822.0 1130 1782 1130"><title>from developer-agreement-contribution developer-agreement to developer-agreement reference</title></path>
-<path class="line" id="from_developer-agreement-contribution_developer-agreement-contribution_to_developer-agreement-contribution_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 170 C 2119.0 170 2119.0 50 2079 50"><title>from developer-agreement-contribution developer-agreement-contribution to developer-agreement-contribution reference</title></path>
-<path class="line" id="from_developer-agreement-transaction_contribution-funding-status_to_contribution-funding-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 490 C 2119.0 490 2119.0 930 2159 930"><title>from developer-agreement-transaction contribution-funding-status to contribution-funding-status reference</title></path>
-<path class="line" id="from_developer-agreement-transaction_developer-agreement-contribution_to_developer-agreement-contribution_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 510 C 2119.0 510 2119.0 50 2079 50"><title>from developer-agreement-transaction developer-agreement-contribution to developer-agreement-contribution reference</title></path>
-<path class="line" id="from_developer-agreement-transaction_developer-agreement-transaction_to_developer-agreement-transaction_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 530 C 2119.0 530 2119.0 410 2079 410"><title>from developer-agreement-transaction developer-agreement-transaction to developer-agreement-transaction reference</title></path>
-<path class="line" id="from_development-policy-metric_development-metric_to_development-metric_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 830 C 2119.0 830 2119.0 3490 2159 3490"><title>from development-policy-metric development-metric to development-metric reference</title></path>
-<path class="line" id="from_development-policy-metric_development-policy_to_development-policy_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 850 C 1673.5 850 1673.5 770 1485 770"><title>from development-policy-metric development-policy to development-policy reference</title></path>
+<path class="line" id="from_building-safety-levy-rate_local-authority-district_to_local-authority-district_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 110 C 1525.0 110 1525.0 18070 1188 18070"><title>from building-safety-levy-rate local-authority-district to local-authority-district reference</title></path>
+<path class="line" id="from_developer-agreement-contribution_contribution-purpose_to_contribution-purpose_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 490 C 2119.0 490 2119.0 1190 2159 1190"><title>from developer-agreement-contribution contribution-purpose to contribution-purpose reference</title></path>
+<path class="line" id="from_developer-agreement-contribution_developer-agreement_to_developer-agreement_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 510 C 1822.0 510 1822.0 1130 1782 1130"><title>from developer-agreement-contribution developer-agreement to developer-agreement reference</title></path>
+<path class="line" id="from_developer-agreement-contribution_developer-agreement-contribution_to_developer-agreement-contribution_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 530 C 2119.0 530 2119.0 410 2079 410"><title>from developer-agreement-contribution developer-agreement-contribution to developer-agreement-contribution reference</title></path>
+<path class="line" id="from_developer-agreement-transaction_contribution-funding-status_to_contribution-funding-status_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 850 C 2119.0 850 2119.0 930 2159 930"><title>from developer-agreement-transaction contribution-funding-status to contribution-funding-status reference</title></path>
+<path class="line" id="from_developer-agreement-transaction_developer-agreement-contribution_to_developer-agreement-contribution_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 870 C 2119.0 870 2119.0 410 2079 410"><title>from developer-agreement-transaction developer-agreement-contribution to developer-agreement-contribution reference</title></path>
+<path class="line" id="from_developer-agreement-transaction_developer-agreement-transaction_to_developer-agreement-transaction_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 890 C 2119.0 890 2119.0 770 2079 770"><title>from developer-agreement-transaction developer-agreement-transaction to developer-agreement-transaction reference</title></path>
+<path class="line" id="from_development-policy-metric_development-metric_to_development-metric_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2079 1190 C 2119.0 1190 2119.0 3490 2159 3490"><title>from development-policy-metric development-metric to development-metric reference</title></path>
+<path class="line" id="from_development-policy-metric_development-policy_to_development-policy_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 1862 1210 C 1673.5 1210 1673.5 770 1485 770"><title>from development-policy-metric development-policy to development-policy reference</title></path>
 <path class="line" id="from_contribution-purpose_developer-agreement-type_to_developer-agreement-type_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 1270 C 2416.0 1270 2416.0 3230 2376 3230"><title>from contribution-purpose developer-agreement-type to developer-agreement-type reference</title></path>
 <path class="line" id="from_design-code-rule-category_design-code-characteristic_to_design-code-characteristic_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 2370 C 2416.0 2370 2416.0 1730 2376 1730"><title>from design-code-rule-category design-code-characteristic to design-code-characteristic reference</title></path>
 <path class="line" id="from_design-code-rule-category_design-code-feature_to_design-code-feature_reference" fill="none" stroke-width="2" marker-start="url(#start-dot)" marker-end="url(#end-dot)" d="M 2376 2390 C 2416.0 2390 2416.0 1990 2376 1990"><title>from design-code-rule-category design-code-feature to design-code-feature reference</title></path>
@@ -8788,7 +8789,7 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="1862" y="0" width="217" height="20" class="name"/>
-<text x="1970" y="10" class="name">developer-agreement-contribution</text>
+<text x="1970" y="10" class="name">building-safety-levy-rate</text>
 <rect x="1862" y="20" width="162" height="20" class="field"/>
 <rect x="2024" y="20" width="55" height="20" class="datatype"/>
 <text x="1867" y="30" class="field">prefix</text>
@@ -8807,24 +8808,24 @@ text.datatype{fill:#0b0c0c;}
 <text x="2029" y="90" class="datatype">string</text>
 <rect x="1862" y="100" width="162" height="20" class="field"/>
 <rect x="2024" y="100" width="55" height="20" class="datatype"/>
-<text x="1867" y="110" class="field">amount</text>
-<text x="2029" y="110" class="datatype">decimal</text>
+<text x="1867" y="110" class="field">local-authority-district</text>
+<text x="2029" y="110" class="datatype">reference</text>
 <rect x="1862" y="120" width="162" height="20" class="field"/>
 <rect x="2024" y="120" width="55" height="20" class="datatype"/>
-<text x="1867" y="130" class="field">contribution-purpose</text>
-<text x="2029" y="130" class="datatype">reference</text>
+<text x="1867" y="130" class="field">non-previously-developed-land-rate</text>
+<text x="2029" y="130" class="datatype">decimal</text>
 <rect x="1862" y="140" width="162" height="20" class="field"/>
 <rect x="2024" y="140" width="55" height="20" class="datatype"/>
-<text x="1867" y="150" class="field">developer-agreement</text>
-<text x="2029" y="150" class="datatype">reference</text>
+<text x="1867" y="150" class="field">previously-developed-land-rate</text>
+<text x="2029" y="150" class="datatype">decimal</text>
 <rect x="1862" y="160" width="162" height="20" class="field"/>
 <rect x="2024" y="160" width="55" height="20" class="datatype"/>
-<text x="1867" y="170" class="field">developer-agreement-contribution</text>
-<text x="2029" y="170" class="datatype">reference</text>
+<text x="1867" y="170" class="field">documentation-url</text>
+<text x="2029" y="170" class="datatype">url</text>
 <rect x="1862" y="180" width="162" height="20" class="field"/>
 <rect x="2024" y="180" width="55" height="20" class="datatype"/>
-<text x="1867" y="190" class="field">units</text>
-<text x="2029" y="190" class="datatype">integer</text>
+<text x="1867" y="190" class="field">document-url</text>
+<text x="2029" y="190" class="datatype">url</text>
 <rect x="1862" y="200" width="162" height="20" class="field"/>
 <rect x="2024" y="200" width="55" height="20" class="datatype"/>
 <text x="1867" y="210" class="field">notes</text>
@@ -8848,7 +8849,7 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="1862" y="360" width="217" height="20" class="name"/>
-<text x="1970" y="370" class="name">developer-agreement-transaction</text>
+<text x="1970" y="370" class="name">developer-agreement-contribution</text>
 <rect x="1862" y="380" width="162" height="20" class="field"/>
 <rect x="2024" y="380" width="55" height="20" class="datatype"/>
 <text x="1867" y="390" class="field">prefix</text>
@@ -8871,15 +8872,15 @@ text.datatype{fill:#0b0c0c;}
 <text x="2029" y="470" class="datatype">decimal</text>
 <rect x="1862" y="480" width="162" height="20" class="field"/>
 <rect x="2024" y="480" width="55" height="20" class="datatype"/>
-<text x="1867" y="490" class="field">contribution-funding-status</text>
+<text x="1867" y="490" class="field">contribution-purpose</text>
 <text x="2029" y="490" class="datatype">reference</text>
 <rect x="1862" y="500" width="162" height="20" class="field"/>
 <rect x="2024" y="500" width="55" height="20" class="datatype"/>
-<text x="1867" y="510" class="field">developer-agreement-contribution</text>
+<text x="1867" y="510" class="field">developer-agreement</text>
 <text x="2029" y="510" class="datatype">reference</text>
 <rect x="1862" y="520" width="162" height="20" class="field"/>
 <rect x="2024" y="520" width="55" height="20" class="datatype"/>
-<text x="1867" y="530" class="field">developer-agreement-transaction</text>
+<text x="1867" y="530" class="field">developer-agreement-contribution</text>
 <text x="2029" y="530" class="datatype">reference</text>
 <rect x="1862" y="540" width="162" height="20" class="field"/>
 <rect x="2024" y="540" width="55" height="20" class="datatype"/>
@@ -8908,7 +8909,7 @@ text.datatype{fill:#0b0c0c;}
 </g>
 <g>
 <rect x="1862" y="720" width="217" height="20" class="name"/>
-<text x="1970" y="730" class="name">development-policy-metric</text>
+<text x="1970" y="730" class="name">developer-agreement-transaction</text>
 <rect x="1862" y="740" width="162" height="20" class="field"/>
 <rect x="2024" y="740" width="55" height="20" class="datatype"/>
 <text x="1867" y="750" class="field">prefix</text>
@@ -8927,40 +8928,100 @@ text.datatype{fill:#0b0c0c;}
 <text x="2029" y="810" class="datatype">string</text>
 <rect x="1862" y="820" width="162" height="20" class="field"/>
 <rect x="2024" y="820" width="55" height="20" class="datatype"/>
-<text x="1867" y="830" class="field">development-metric</text>
-<text x="2029" y="830" class="datatype">reference</text>
+<text x="1867" y="830" class="field">amount</text>
+<text x="2029" y="830" class="datatype">decimal</text>
 <rect x="1862" y="840" width="162" height="20" class="field"/>
 <rect x="2024" y="840" width="55" height="20" class="datatype"/>
-<text x="1867" y="850" class="field">development-policy</text>
+<text x="1867" y="850" class="field">contribution-funding-status</text>
 <text x="2029" y="850" class="datatype">reference</text>
 <rect x="1862" y="860" width="162" height="20" class="field"/>
 <rect x="2024" y="860" width="55" height="20" class="datatype"/>
-<text x="1867" y="870" class="field">period-end-date</text>
-<text x="2029" y="870" class="datatype">datetime</text>
+<text x="1867" y="870" class="field">developer-agreement-contribution</text>
+<text x="2029" y="870" class="datatype">reference</text>
 <rect x="1862" y="880" width="162" height="20" class="field"/>
 <rect x="2024" y="880" width="55" height="20" class="datatype"/>
-<text x="1867" y="890" class="field">period-start-date</text>
-<text x="2029" y="890" class="datatype">datetime</text>
+<text x="1867" y="890" class="field">developer-agreement-transaction</text>
+<text x="2029" y="890" class="datatype">reference</text>
 <rect x="1862" y="900" width="162" height="20" class="field"/>
 <rect x="2024" y="900" width="55" height="20" class="datatype"/>
-<text x="1867" y="910" class="field">value</text>
-<text x="2029" y="910" class="datatype">string</text>
+<text x="1867" y="910" class="field">units</text>
+<text x="2029" y="910" class="datatype">integer</text>
 <rect x="1862" y="920" width="162" height="20" class="field"/>
 <rect x="2024" y="920" width="55" height="20" class="datatype"/>
 <text x="1867" y="930" class="field">notes</text>
 <text x="2029" y="930" class="datatype">text</text>
 <rect x="1862" y="940" width="162" height="20" class="field"/>
 <rect x="2024" y="940" width="55" height="20" class="datatype"/>
-<text x="1867" y="950" class="field">entry-date</text>
-<text x="2029" y="950" class="datatype">datetime</text>
+<text x="1867" y="950" class="field">organisation</text>
+<text x="2029" y="950" class="datatype">curie</text>
 <rect x="1862" y="960" width="162" height="20" class="field"/>
 <rect x="2024" y="960" width="55" height="20" class="datatype"/>
-<text x="1867" y="970" class="field">start-date</text>
+<text x="1867" y="970" class="field">entry-date</text>
 <text x="2029" y="970" class="datatype">datetime</text>
 <rect x="1862" y="980" width="162" height="20" class="field"/>
 <rect x="2024" y="980" width="55" height="20" class="datatype"/>
-<text x="1867" y="990" class="field">end-date</text>
+<text x="1867" y="990" class="field">start-date</text>
 <text x="2029" y="990" class="datatype">datetime</text>
+<rect x="1862" y="1000" width="162" height="20" class="field"/>
+<rect x="2024" y="1000" width="55" height="20" class="datatype"/>
+<text x="1867" y="1010" class="field">end-date</text>
+<text x="2029" y="1010" class="datatype">datetime</text>
+</g>
+<g>
+<rect x="1862" y="1080" width="217" height="20" class="name"/>
+<text x="1970" y="1090" class="name">development-policy-metric</text>
+<rect x="1862" y="1100" width="162" height="20" class="field"/>
+<rect x="2024" y="1100" width="55" height="20" class="datatype"/>
+<text x="1867" y="1110" class="field">prefix</text>
+<text x="2029" y="1110" class="datatype">string</text>
+<rect x="1862" y="1120" width="162" height="20" class="field"/>
+<rect x="2024" y="1120" width="55" height="20" class="datatype"/>
+<text x="1867" y="1130" class="field">reference</text>
+<text x="2029" y="1130" class="datatype">string</text>
+<rect x="1862" y="1140" width="162" height="20" class="field"/>
+<rect x="2024" y="1140" width="55" height="20" class="datatype"/>
+<text x="1867" y="1150" class="field">entity</text>
+<text x="2029" y="1150" class="datatype">integer</text>
+<rect x="1862" y="1160" width="162" height="20" class="field"/>
+<rect x="2024" y="1160" width="55" height="20" class="datatype"/>
+<text x="1867" y="1170" class="field">name</text>
+<text x="2029" y="1170" class="datatype">string</text>
+<rect x="1862" y="1180" width="162" height="20" class="field"/>
+<rect x="2024" y="1180" width="55" height="20" class="datatype"/>
+<text x="1867" y="1190" class="field">development-metric</text>
+<text x="2029" y="1190" class="datatype">reference</text>
+<rect x="1862" y="1200" width="162" height="20" class="field"/>
+<rect x="2024" y="1200" width="55" height="20" class="datatype"/>
+<text x="1867" y="1210" class="field">development-policy</text>
+<text x="2029" y="1210" class="datatype">reference</text>
+<rect x="1862" y="1220" width="162" height="20" class="field"/>
+<rect x="2024" y="1220" width="55" height="20" class="datatype"/>
+<text x="1867" y="1230" class="field">period-end-date</text>
+<text x="2029" y="1230" class="datatype">datetime</text>
+<rect x="1862" y="1240" width="162" height="20" class="field"/>
+<rect x="2024" y="1240" width="55" height="20" class="datatype"/>
+<text x="1867" y="1250" class="field">period-start-date</text>
+<text x="2029" y="1250" class="datatype">datetime</text>
+<rect x="1862" y="1260" width="162" height="20" class="field"/>
+<rect x="2024" y="1260" width="55" height="20" class="datatype"/>
+<text x="1867" y="1270" class="field">value</text>
+<text x="2029" y="1270" class="datatype">string</text>
+<rect x="1862" y="1280" width="162" height="20" class="field"/>
+<rect x="2024" y="1280" width="55" height="20" class="datatype"/>
+<text x="1867" y="1290" class="field">notes</text>
+<text x="2029" y="1290" class="datatype">text</text>
+<rect x="1862" y="1300" width="162" height="20" class="field"/>
+<rect x="2024" y="1300" width="55" height="20" class="datatype"/>
+<text x="1867" y="1310" class="field">entry-date</text>
+<text x="2029" y="1310" class="datatype">datetime</text>
+<rect x="1862" y="1320" width="162" height="20" class="field"/>
+<rect x="2024" y="1320" width="55" height="20" class="datatype"/>
+<text x="1867" y="1330" class="field">start-date</text>
+<text x="2029" y="1330" class="datatype">datetime</text>
+<rect x="1862" y="1340" width="162" height="20" class="field"/>
+<rect x="2024" y="1340" width="55" height="20" class="datatype"/>
+<text x="1867" y="1350" class="field">end-date</text>
+<text x="2029" y="1350" class="datatype">datetime</text>
 </g>
 <g>
 <rect x="2159" y="0" width="217" height="20" class="name"/>
