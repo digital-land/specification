@@ -43,10 +43,10 @@ description: plot or area of land for a proposed development, operational work, 
 end-date: ''
 entry-date: '2026-10-16'
 github-discussion: 
-long-name: Site
-long-plural: Sites
-name: Site
-plural: Sites
+long-name: site
+long-plural: sites
+name: site
+plural: sites
 specification: site
 specification-reason: prospectice
 specification-status: open-standard
