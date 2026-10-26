@@ -1,6 +1,6 @@
 ---
 attribution: crown-copyright
-collection: ''
+collection: levy
 consideration: ''
 dataset: building-safety-levy-rate
 description: Building Safety Levy rates per square metre for each local authority area in England
@@ -8,7 +8,7 @@ end-date: ''
 entity-maximum: 599999
 entity-minimum: 591000
 entry-date: '2026-10-23'
-environment: ''
+environment: development
 fields:
   - field: documentation-url
   - field: document-url
