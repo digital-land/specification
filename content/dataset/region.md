@@ -39,6 +39,6 @@ typology: geography
 wikidata: Q48091
 wikipedia: Regions_of_England
 ---
+The boundaries of England's 9 regions. 
 
-The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this
-data for the purposes of producing statistics.
+Use this dataset to identify which region a location is in.

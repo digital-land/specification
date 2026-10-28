@@ -42,3 +42,10 @@ typology: document
 wikidata: ''
 wikipedia: ''
 ---
+This dataset includes reports published by local councils that set out the special architectural or historic interests of a conservation area and the planning rules that apply there. 
+
+Homeowners, architects and developers can use this dataset to understand: 
+
+- what work needs planning permission 
+
+- the specific materials and features you must preserve 

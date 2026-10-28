@@ -35,5 +35,11 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+This dataset shows if a [brownfield land](https://www.planning.data.gov.uk/dataset/brownfield-land) or other site is: 
 
-The ownership status of [brownfield land](/dataset/brownfield-land) or other site.
+- owned by a public authority 
+- not owned by a public authority 
+- mixed ownership 
+- unknown ownership 
+
+Use this dataset to understand who owns a site, which is useful when assessing land for development. 

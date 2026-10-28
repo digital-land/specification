@@ -47,3 +47,6 @@ typology: legal-instrument
 wikidata: Q6664491
 wikipedia: Local_plan
 ---
+The documents that support the development plan. They address specific local issues, set design standards or allocate sites. 
+
+Use it to check what supplementary plans apply to an area. 

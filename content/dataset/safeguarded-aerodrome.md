@@ -41,3 +41,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+Areas near aerodromes where development is safeguarded to protect flight paths and airport operations. 
+
+Use this dataset to check if a site is in a safeguarding zone when assessing land for development. You may need consult the aerodrome operator.  

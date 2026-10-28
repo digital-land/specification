@@ -41,4 +41,6 @@ wikidata: Q3457526
 wikipedia: Local_nature_reserve
 ---
 
-Local nature reserves (LNR) are statutory designations for certain nature reserves in Great Britain.
+This dataset shows the boundaries of local nature reserves, which are statutory designations to protect sites of wildlife, geological or educational value. 
+
+Use it to identify protected nature sites when assessing planning applications or development proposals. 

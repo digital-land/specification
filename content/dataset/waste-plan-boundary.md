@@ -39,3 +39,6 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+The area that a waste plan covers.  
+
+Use this to understand which waste plan applies to your area. For example, if you are a developer looking to build in an area.   

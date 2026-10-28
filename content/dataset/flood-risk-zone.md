@@ -39,7 +39,14 @@ typology: geography
 wikidata: ''
 wikipedia: ''
 ---
+An area identified as being at risk of flooding by the Environment Agency. This only includes land that is not normally covered by water becoming covered by water. Flooding sources can include: 
 
-Flood zones are a guide produced by the Environment Agency to demonstrate the probability of river and sea flooding in areas across England. Flood zones are based on the likelihood of an area flooding, with flood zone 1 areas least likely to flood and flood zone 3 areas more likely to flood. 
+- surface runoff
+- groundwater 
+- ordinary watercourses  
+- rivers 
+- the sea 
 
-The flood zones were produced to help developers, councils and communities understand the flood risks present in specific locations or regions. Despite being a very useful indicator of an area’s flood risk, the zones cannot tell you whether a location will definitely flood or to what severity.
+Zone 1 areas are least likely to flood and zone 3 areas most likely. 
+
+Use this dataset to understand flood risk in a location when you develop land, plan or assess communities. You should only use it as an indicator, as it cannot confirm if flooding will happen or how severe it will be. 

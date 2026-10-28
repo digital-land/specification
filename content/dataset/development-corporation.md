@@ -45,7 +45,6 @@ typology: organisation
 wikidata: Q5266682
 wikipedia: Development_corporation
 ---
+A development corporation is a statutory body to deliver development. They may have powers to create development policies and make planning decisions for a [local planning authority](https://www.planning.data.gov.uk/dataset/local-planning-authority) area.  
 
-A development corporation may have powers to create development policies,
-and make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.
-We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.
+We keep and maintain this dataset to help us identify the organisations which provide planning and housing data. 

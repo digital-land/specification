@@ -36,5 +36,4 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
-
 The status of planning permission for a [brownfield land](/dataset/brownfield-land) or other site.

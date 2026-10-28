@@ -41,5 +41,6 @@ typology: organisation
 wikidata: ''
 wikipedia: ''
 ---
+Public authorities that provide planning and housing data. 
 
-We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.
+Use it to check which public authority provided a dataset. 

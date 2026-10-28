@@ -37,3 +37,6 @@ typology: geography
 wikidata: Q6980918
 wikipedia: Nature_Improvement_Area
 ---
+Areas managed by local partnerships to enhance biodiversity, water quality, soils, and sustainable farming. 
+
+Use this to understand if nature improvement work is in your area. For example, if you are a developer looking to build homes in an area. 

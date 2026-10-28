@@ -49,8 +49,6 @@ wikidata: Q16971076
 wikipedia: Asset_of_community_value
 ---
 
-This data contributes towards a clear picture of all planning and land designations.
+Properties or land listed as an asset of community value. These are places identified by local authorities that further the social wellbeing or interests of the local community. 
 
-Being an asset of community value does not place any restriction on what an owner can do with their property, but some LPAs may decide (through planning policy), that listing as an asset of community value is a material consideration if an application for change of use is submitted, considering all the circumstances of the case. 
-
-Listing an asset of community value is also a Local Land Charge, which is a restriction or financial claim on a property or piece of land, and is an important consideration during the selling of a property or piece of land.
+Use this dataset to check if a property or land is listed, as this is a local land charge and may be a material consideration in planning decisions. 

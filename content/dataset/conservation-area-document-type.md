@@ -36,3 +36,6 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+The types of conservation area documents that you can publish. For example, area appraisals, designation reports, management plans and design guidance. 
+
+Use it to filter conservation area documents by type when you build services that reference specific documents.

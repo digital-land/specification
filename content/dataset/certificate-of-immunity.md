@@ -42,3 +42,6 @@ typology: geography
 wikidata: Q5065092
 wikipedia: Certificate_of_Immunity_from_Listing
 ---
+Certificates of immunity confirm that Historic England will not list a building for a set period, usually 5 years. 
+
+Use it to check if a building has a valid certificate before carrying out work that may need listed building consent. 

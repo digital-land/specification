@@ -40,6 +40,6 @@ wikidata: ''
 wikipedia: ''
 ---
 
-An area designated by DEFRA.
+A designated zone where local air pollution levels are expected to exceed national air quality objectives. 
 
-These areas are taken into consideration in both plan-making and development management decisions
+Consider these areas when you make plan-making and development management decisions.

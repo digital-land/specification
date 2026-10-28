@@ -39,7 +39,8 @@ typology: category
 wikidata: ''
 wikipedia: ''
 ---
+Permitted development rights allow householders to improve and extend their homes without needing to apply for planning permission. 
 
-This dataset identifies the categories of [permitted development right](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-development-rights-for-householders-technical-guidance).
-Each right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.
-This experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).
+This dataset includes each category class of [permitted development rights for householders](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-development-rights-for-householders-technical-guidance). Each category class is grouped by a [permitted development right part](https://www.planning.data.gov.uk/dataset/permitted-development-right-part). 
+
+This experimental dataset supports [Article 4 direction data](https://www.planning.data.gov.uk/guidance/specifications/article-4-direction).
