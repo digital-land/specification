@@ -13,7 +13,7 @@ invalid WKT,error,Invalid WKT,It was not possible to process the field as a WKT 
 future entry-date,error,Future entry date,The entry-date cannot be in the future.,external,accuracy,any other validity error,3
 default-field,info,Default field,The value has been taken from another field.,internal,,,
 default-value,info,Default value,The value has been derived from other data.,internal,,,
-patch,info,Patched value,The value has changed during processing as a result of a patching rule in configuration.,internal,,,
+patch,notice,Patched value,The value has changed during processing as a result of a patching rule in configuration.,internal,,,
 WGS84 flipped,warning,WGS84 flipped,The latitude and longitude fields values have been exchanged.,external,validity,,
 WGS84 out of bounds,critical,WGS84 out of bounds,The geospatial coordinates are out of bounds.,external,accuracy,geometry errors,2
 Mercator,notice,Mercator conversion,The geospatial data has been processed as Mercator coordinates.,external,validity,,
