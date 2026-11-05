@@ -52,7 +52,7 @@ article-4-direction,article-4-direction,start-date,,,the date the validity of th
 
 Example: `1984-03-28`
 ",,,,
-article-4-direction,article-4-direction,end-date,,,the date the validity of the record ends,"Where the article 4 direction is [no longer valid](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If this does not apply, leave the cell blank.
+article-4-direction,article-4-direction,end-date,,,the date the validity of the record ends,"Where the article 4 direction is no longer valid, this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If this does not apply, leave the cell blank.
 
 Example: `1999-01-20`
 ",,,,
@@ -509,7 +509,7 @@ listed-building,listed-building-outline,start-date,,,the date the validity of th
 
 Example: `1984-03-28`
 ",,,,
-listed-building,listed-building-outline,end-date,,,the date the validity of the record ends,"Where the building is no longer listed, this should be the date that it was [no longer in effect](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), written in YYYY-MM-DD format. If it's still listed, leave the cell blank.
+listed-building,listed-building-outline,end-date,,,the date the validity of the record ends,"Where the building is no longer listed, this should be the date that it was no longer in effect, written in YYYY-MM-DD format. If it's still listed, leave the cell blank.
 
 Example: `1999-01-20`
 ",,,,
@@ -697,7 +697,7 @@ tree-preservation-order,tree-preservation-order,start-date,,,"the <a href=""#dat
 
 Example: `1984-03-28`
 ",,,,
-tree-preservation-order,tree-preservation-order,end-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active","Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
+tree-preservation-order,tree-preservation-order,end-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active","Where the tree preservation order is revoked, this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
 
 Example: `1999-01-20`
 ",,,,
@@ -820,7 +820,7 @@ tree-preservation-order,tree,start-date,,,"the <a href=""#datatype-datetime"">da
 
 Example: `1984-03-28`
 ",,,,
-tree-preservation-order,tree,end-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.","Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
+tree-preservation-order,tree,end-date,,,"the <a href=""#datatype-datetime"">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.","Where the tree preservation order is revoked, this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
 
 Example: `1999-01-20`
 ",,,,

@@ -64,7 +64,7 @@ datasets:
       - description: the date the validity of the record ends
         field: end-date
         guidance: |
-          Where the building is no longer listed, this should be the date that it was [no longer in effect](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), written in YYYY-MM-DD format. If it's still listed, leave the cell blank.
+          Where the building is no longer listed, this should be the date that it was no longer in effect, written in YYYY-MM-DD format. If it's still listed, leave the cell blank.
 
           Example: `1999-01-20`
 end-date: ''

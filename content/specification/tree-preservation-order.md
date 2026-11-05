@@ -89,7 +89,7 @@ datasets:
       - description: the <a href="#datatype-datetime">date</a> the tree preservation order was revoked. Leave blank if the TPO is still active
         field: end-date
         guidance: |
-          Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
+          Where the tree preservation order is revoked, this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
 
           Example: `1999-01-20`
     name: tree preservation order
@@ -265,7 +265,7 @@ datasets:
       - description: the <a href="#datatype-datetime">date</a> the tree preservation order no longer affects the tree, or leave blank if the tree is still under the order. Use the felled-date if the tree has been felled.
         field: end-date
         guidance: |
-          Where the tree preservation order is [revoked](https://standards.planning-data.dev/principles/#we-shouldn%E2%80%99t-delete-entries-in-a-register), this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
+          Where the tree preservation order is revoked, this should be the date that it was no longer in effect, written in `YYYY-MM-DD` format. If the TPO is still active, leave this field blank. If the tree has been felled, use the felled-date field.
 
           Example: `1999-01-20`
     name: tree
