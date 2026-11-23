@@ -136,7 +136,7 @@ crown-copyright,,development-plans-and-timetables,development-plan-boundary,A bo
 crown-copyright,local-plan,development-plans-and-timetables,development-plan-document-type,The types of documents published for a development plan,,2023-10-10,production,26,,,5280000,5299999,ogl3,Development plan document type,,Development plan document types,alpha,,dataset,,,"The type of document that an authority is using to create their overall plan.
 
 Use this with [development-plan-document](https://www.planning.data.gov.uk/dataset/development-plan-document) to find the plan document that you are interested in. For example, a core strategy.",development,category,,
-crown-copyright,local-plan,development-plans-and-timetables,development-plan-document,documents associated with a development plan,2026-02-03,2026-01-19,production,26,"Provide a list of documents associated with your development plan.
+crown-copyright,local-plan,development-plans-and-timetables,development-plan-document,documents associated with a development plan,,2026-01-19,production,26,"Provide a list of documents associated with your development plan.
 Add a separate row with a link to each document on your website.
 ",,3800000,3899999,ogl3,Development plan document,,Development plan documents,alpha,,dataset,,,"The documents that an authority use to create their overall plan. For example, the neighbourhood plan.
 
