@@ -43,3 +43,5 @@ reference value contains reference_prefix,info,Reference value contains referenc
 far-future-date,error,Far Future Date,The date provided is beyond the date considered to be the far future.,external,accuracy,any other validity error,3
 far-past-date,error,Far Past Date,The date provided is beyond the date considered to be far past.,external,accuracy,any other validity error,3
 missing reference,critical,Missing Reference,References are required in the dataset.,external,validity,any other validity error,2
+smaller than expected,warning,Value smaller than expected,"The value is smaller than expected for the field and may have been supplied in the wrong units, for example square metres instead of hectares.",external,accuracy,,
+larger than expected,warning,Value larger than expected,"The value is larger than expected for the field and may have been supplied in the wrong units, for example square metres instead of hectares.",external,accuracy,,
