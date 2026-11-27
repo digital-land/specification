@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '2399999'
 entity-minimum: '2300000'
 entry-date: ''
-environment: production
 fields:
   - field: categories
   - field: certificate-of-immunity

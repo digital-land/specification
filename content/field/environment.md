@@ -4,7 +4,6 @@ datatype: string
 description: ''
 end-date: ''
 entry-date: ''
-field: environment
 guidance: 'Indicates which environments the dataset is available in. One of `development`,
   `staging` or `production`. Each value includes the environments before it:
   `production` means available in production, staging and development; `staging`

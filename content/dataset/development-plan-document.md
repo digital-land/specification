@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '3899999'
 entity-minimum: '3800000'
 entry-date: '2026-01-19'
-environment: production
 fields:
   - field: description
   - description: associated development plan

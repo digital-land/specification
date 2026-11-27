@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '129999999'
 entity-minimum: '110000000'
 entry-date: ''
-environment: production
 fields:
   - field: ancient-woodland
   - field: ancient-woodland-status

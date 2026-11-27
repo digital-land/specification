@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '5279999'
 entity-minimum: '5270000'
 entry-date: ''
-environment: 'production'
 fields:
   - field: description
   - field: design-code-feature

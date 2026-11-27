@@ -191,23 +191,6 @@ def check_datasets():
                             )
 
 
-ALLOWED_ENVIRONMENT = {"", "development", "staging", "production"}
-
-
-def check_environment():
-    for dataset, d in tables["dataset"].items():
-        environment = d.get("environment", "")
-        if environment not in ALLOWED_ENVIRONMENT:
-            error(
-                "dataset '%s' has an unknown environment '%s'"
-                % (dataset, environment)
-            )
-        if environment and not d.get("collection", ""):
-            error(
-                "dataset '%s' has environment '%s' but no collection — it will not appear in any Airflow environment"
-                % (dataset, environment)
-            )
-
 
 def check_projects():
     for project, p in tables["project"].items():
