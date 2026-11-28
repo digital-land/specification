@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '59999'
 entity-minimum: '40000'
 entry-date: '2025-02-04'
-environment: production
 fields:
   - field: archaeological-risk-tier
   - field: end-date

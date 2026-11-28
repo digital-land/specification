@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '34999'
 entity-minimum: '32000'
 entry-date: '2024-06-26'
-environment: production
 fields:
   - field: agricultural-land-classification-grade
   - field: end-date

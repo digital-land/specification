@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '17299999'
 entity-minimum: '17100000'
 entry-date: '2025-02-17'
-environment: production
 fields:
   - field: address-text
   - field: decision

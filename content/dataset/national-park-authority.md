@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '9999999'
 entity-minimum: '9900000'
 entry-date: ''
-environment: production
 fields:
   - field: billing-authority
   - field: end-date

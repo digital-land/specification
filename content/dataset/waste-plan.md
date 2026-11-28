@@ -9,7 +9,6 @@ end-date: ''
 entity-maximum: '549999'
 entity-minimum: '540000'
 entry-date: '2025-11-14'
-environment: production
 fields:
   - field: dataset
   - field: description

@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '4499999'
 entity-minimum: '4400000'
 entry-date: ''
-environment: production
 fields:
   - field: amount
   - field: contribution-funding-status

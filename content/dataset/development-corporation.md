@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '4799999'
 entity-minimum: '4700000'
 entry-date: ''
-environment: production
 fields:
   - field: company
   - field: development-corporation-boundary

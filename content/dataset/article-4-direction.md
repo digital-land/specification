@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '6199999'
 entity-minimum: '6100000'
 entry-date: ''
-environment: production
 fields:
   - field: description
   - field: document-url

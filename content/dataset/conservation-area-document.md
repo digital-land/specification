@@ -8,7 +8,6 @@ end-date: ''
 entity-maximum: '6399999'
 entity-minimum: '6300000'
 entry-date: ''
-environment: production
 fields:
   - field: conservation-area
   - field: description
